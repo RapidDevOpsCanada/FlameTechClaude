@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: theme('colors.blueprint-bg');
+    background-image: linear-gradient(theme('colors.blueprint-grid') 1px, transparent 1px),
+      linear-gradient(90deg, theme('colors.blueprint-grid') 1px, transparent 1px);
+    background-size: 8.333% 100px;
+    @apply text-blueprint-text font-body;
+  }
+  body::selection,
+  ::selection {
+    @apply bg-primary/20;
+  }
+}
+
+@layer utilities {
+  .grid-guide {
+    background-image: linear-gradient(90deg, transparent 99%, theme('colors.blueprint-grid') 1%);
+    background-size: 8.333333% 100%;
+  }
+  .mono-label {
+    @apply font-technical text-[10px] tracking-wider uppercase;
+  }
+  .material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+  }
+}
