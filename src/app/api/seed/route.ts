@@ -218,8 +218,9 @@ const articles: SeedArticle[] = [
 ];
 
 async function runSeed() {
+  await sql`DROP TABLE IF EXISTS articles`;
   await sql`
-    CREATE TABLE IF NOT EXISTS articles (
+    CREATE TABLE articles (
       id SERIAL PRIMARY KEY,
       slug TEXT UNIQUE NOT NULL,
       title TEXT NOT NULL,
@@ -233,8 +234,6 @@ async function runSeed() {
       created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
     )
   `;
-
-  await sql`DELETE FROM articles`;
 
   for (const a of articles) {
     await sql`
