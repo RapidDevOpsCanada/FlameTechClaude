@@ -17,9 +17,10 @@ const jetbrains = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "FlameTech — Precision Plumbing & Thermal Infrastructure",
+  title:
+    "FlameTech Plumbing & Heating — Trusted Calgary Plumbers | 24/7 Emergency",
   description:
-    "Ultra-modern plumbing infrastructure engineered for technical performance. ISO-9001 certified deployment.",
+    "Calgary's licensed, insured, and bonded residential plumbing and heating experts. 24/7 emergency response. Boilers, furnaces, drain cleaning, PolyB replacement, hot water tanks, and more. Call 587-834-3668.",
 };
 
 export default function RootLayout({

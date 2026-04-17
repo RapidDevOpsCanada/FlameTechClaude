@@ -26,25 +26,28 @@ export default function Nav() {
             className="mono-label hover:text-primary transition-colors"
             href="/#diagnostics"
           >
-            Diagnostics
+            Why Us
           </Link>
           <Link
             className="mono-label hover:text-primary transition-colors"
             href="/articles"
           >
-            Blueprint
+            Resources
           </Link>
           <Link
             className="mono-label hover:text-primary transition-colors"
-            href="/#network"
+            href="/#service-area"
           >
-            Network
+            Service Area
           </Link>
         </div>
         <div className="col-span-6 md:col-span-3 flex justify-end">
-          <button className="bg-primary text-white font-technical font-bold px-6 py-2 text-xs uppercase tracking-widest hover:bg-accent transition-colors">
-            Book Consultation
-          </button>
+          <a
+            href="tel:5878343668"
+            className="bg-primary text-white font-technical font-bold px-6 py-2 text-xs uppercase tracking-widest hover:bg-accent transition-colors"
+          >
+            587-834-3668
+          </a>
         </div>
       </div>
     </nav>

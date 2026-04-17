@@ -11,37 +11,43 @@ export default function Footer() {
             </span>
             FLAMETECH
           </div>
-          <p className="mono-label text-technical-label leading-loose">
-            Precision Plumbing &amp; Thermal Infrastructure Engineering. ISO-9001
-            Certified Deployment.
+          <p className="mono-label text-technical-label leading-loose mb-4">
+            Calgary&apos;s trusted residential plumbing and heating experts.
+            Licensed, insured, and bonded. BBB accredited.
           </p>
+          <a
+            href="tel:5878343668"
+            className="font-technical text-xs text-primary font-bold block"
+          >
+            CALL 587-834-3668
+          </a>
         </div>
         <div className="col-span-12 md:col-span-8 flex flex-wrap md:justify-end gap-12">
           <div>
-            <h5 className="mono-label text-primary mb-6">Navigation</h5>
+            <h5 className="mono-label text-primary mb-6">Services</h5>
             <ul className="space-y-3">
               <li>
                 <Link
                   className="font-technical text-[10px] text-technical-label hover:text-primary"
                   href="/#services"
                 >
-                  Services
+                  Plumbing
                 </Link>
               </li>
               <li>
                 <Link
                   className="font-technical text-[10px] text-technical-label hover:text-primary"
-                  href="/articles"
+                  href="/#services"
                 >
-                  Diagnostics
+                  Heating
                 </Link>
               </li>
               <li>
                 <Link
                   className="font-technical text-[10px] text-technical-label hover:text-primary"
-                  href="/articles"
+                  href="/#services"
                 >
-                  Protocols
+                  Air &amp; Water
                 </Link>
               </li>
             </ul>
@@ -52,9 +58,9 @@ export default function Footer() {
               <li>
                 <a
                   className="font-technical text-[10px] text-emergency font-bold"
-                  href="#"
+                  href="tel:5878343668"
                 >
-                  Emergency Unit
+                  24/7 Emergency
                 </a>
               </li>
               <li>
@@ -62,16 +68,16 @@ export default function Footer() {
                   className="font-technical text-[10px] text-technical-label hover:text-primary"
                   href="/articles"
                 >
-                  Tech Docs
+                  Resources
                 </Link>
               </li>
               <li>
-                <a
+                <Link
                   className="font-technical text-[10px] text-technical-label hover:text-primary"
-                  href="#"
+                  href="/#service-area"
                 >
-                  Privacy
-                </a>
+                  Service Area
+                </Link>
               </li>
             </ul>
           </div>
@@ -79,12 +85,13 @@ export default function Footer() {
       </div>
       <div className="max-w-7xl mx-auto mt-16 pt-8 border-t border-blueprint-grid flex flex-col md:flex-row justify-between items-center gap-4">
         <p className="font-technical text-[10px] text-technical-label">
-          © 2024 FLAMETECH MODULE V.4.0. ALL RIGHTS RESERVED.
+          © {new Date().getFullYear()} FLAMETECH PLUMBING &amp; HEATING LTD.
+          CALGARY, AB. ALL RIGHTS RESERVED.
         </p>
         <div className="flex items-center gap-3">
           <div className="w-2 h-2 rounded-full bg-primary animate-pulse"></div>
           <span className="font-technical text-[10px] text-primary">
-            SYSTEMS OPERATIONAL
+            24/7 DISPATCH ACTIVE
           </span>
         </div>
       </div>
