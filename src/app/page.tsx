@@ -21,20 +21,19 @@ export default function Home() {
           <div className="max-w-7xl mx-auto px-6 md:px-10 pt-14 md:pt-24 pb-20 relative">
             <div className="grid grid-cols-12 gap-10 items-center">
               <div className="col-span-12 lg:col-span-6 reveal">
-                <span className="eyebrow mb-8">
-                  Calgary · Licensed · Insured · BBB Accredited
-                </span>
-                <h1 className="font-display text-[52px] md:text-[72px] xl:text-[88px] font-extrabold leading-[0.95] tracking-[-0.03em] mt-6 mb-8">
-                  Calgary&apos;s most trusted{" "}
+                <span className="eyebrow mb-8">Get To Know Us</span>
+                <h1 className="font-display text-[44px] md:text-[60px] xl:text-[72px] font-extrabold leading-[0.98] tracking-[-0.03em] mt-6 mb-8">
+                  Calgary Plumbers —{" "}
                   <span className="italic font-medium text-emergency">
-                    plumbing &amp; heating
-                  </span>{" "}
-                  experts.
+                    Trusted Plumbing Services
+                  </span>
+                  .
                 </h1>
                 <p className="text-lg text-cream-50/70 max-w-xl mb-10 leading-relaxed">
-                  Local, certified technicians handling every plumbing,
-                  heating, AC, and water system for Calgary homes. Upfront
-                  pricing, free estimates, and a satisfaction guarantee.
+                  At Flame Tech, we pride ourselves on delivering top-notch
+                  plumbing and heating services tailored to meet the unique
+                  needs of our residential plumbing &amp; heating clients in
+                  Calgary and the surrounding areas.
                 </p>
 
                 <div className="flex flex-wrap gap-4 mb-6">
