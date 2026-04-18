@@ -200,8 +200,7 @@ export default async function ServicePage({
                   </a>
                 </div>
 
-                {/* Social-proof logo row — always shows 5★ Google + BBB,
-                    adds Financeit when service.financing is set */}
+                {/* Social-proof logo row */}
                 <div className="mt-6 flex flex-wrap items-center gap-x-5 gap-y-3">
                   <img
                     src="/images/REVIEWS1.png"
@@ -214,28 +213,6 @@ export default async function ServicePage({
                     alt="BBB Accredited"
                     className="h-10 object-contain"
                   />
-                  {service.financing && (
-                    <>
-                      <div className="h-8 w-px bg-cream-50/15" />
-                      <div className="flex items-center gap-2.5">
-                        <img
-                          src="/images/financeit.png"
-                          alt="Financeit"
-                          className="h-4 object-contain"
-                        />
-                        <div className="leading-tight">
-                          <div className="text-[12px] font-bold text-cream-50">
-                            Financing Available
-                          </div>
-                          {service.financing.detail && (
-                            <div className="text-[10px] text-cream-50/55 mt-0.5">
-                              {service.financing.detail}
-                            </div>
-                          )}
-                        </div>
-                      </div>
-                    </>
-                  )}
                 </div>
               </div>
               <div className="col-span-12 lg:col-span-5 hidden lg:block">
@@ -612,6 +589,26 @@ export default async function ServicePage({
                     5-Star Google Rated
                   </span>
                 </div>
+
+                {/* Financeit — bigger-ticket services only */}
+                {service.financing && (
+                  <div className="mt-5 pt-5 border-t border-line-dark">
+                    <p className="text-[10px] font-extrabold uppercase tracking-[0.18em] text-primary mb-3">
+                      Monthly Financing Available
+                    </p>
+                    <div className="flex items-center gap-3 rounded-xl bg-cream-50 p-3">
+                      <img
+                        src="/images/financeit.png"
+                        alt="Financing via Financeit"
+                        className="h-6 object-contain shrink-0"
+                      />
+                      <p className="text-[11px] text-ink-700 leading-snug">
+                        {service.financing.detail ??
+                          "Flexible monthly payments on larger installs via our Financeit partner."}
+                      </p>
+                    </div>
+                  </div>
+                )}
               </div>
             </aside>
           </div>

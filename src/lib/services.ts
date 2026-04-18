@@ -445,7 +445,8 @@ export const services: ServicePage[] = [
     ],
     quoteFormLabel: "AC",
     financing: {
-      detail: "Monthly payments · OAC via Financeit",
+      detail:
+        "Spread the cost of your AC install into flexible monthly payments via our Financeit partner.",
     },
     lifestyleInset: {
       src: "/images/FTVAN1.jpg",
