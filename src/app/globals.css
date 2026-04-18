@@ -42,6 +42,19 @@ body {
 }
 
 @layer utilities {
+  /* Thin gradient rule used between dark ↔ cream sections for subtle polish. */
+  .section-rule {
+    height: 3px;
+    background: linear-gradient(90deg,
+      transparent 0%,
+      theme('colors.primary') 20%,
+      theme('colors.emergency') 50%,
+      theme('colors.primary') 80%,
+      transparent 100%
+    );
+    opacity: 0.65;
+  }
+
   /* Eyebrows: understated, teal accent line — not orange (reserve orange for action). */
   .eyebrow {
     @apply inline-flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.18em] text-cream-50/70;

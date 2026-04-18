@@ -5,7 +5,11 @@ import Icon from "@/components/Icon";
 
 type Status = "idle" | "submitting" | "success" | "error";
 
-export default function QuoteForm() {
+export default function QuoteForm({
+  issuePlaceholder,
+}: {
+  issuePlaceholder?: string;
+} = {}) {
   const [status, setStatus] = useState<Status>("idle");
   const [errorMsg, setErrorMsg] = useState("");
 
@@ -89,7 +93,10 @@ export default function QuoteForm() {
           name="issue"
           rows={4}
           required
-          placeholder="e.g. Water heater not working, tap leaking, furnace making noise…"
+          placeholder={
+            issuePlaceholder ??
+            "e.g. Water heater not working, tap leaking, furnace making noise…"
+          }
           className="w-full rounded-xl border border-line-light bg-white px-4 py-3 text-sm text-ink-900 focus:outline-none focus:border-emergency transition-colors"
         />
       </div>

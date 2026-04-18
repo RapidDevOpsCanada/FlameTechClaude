@@ -117,6 +117,8 @@ Find the placeholder entry for the slug and replace it. Fields to fill in:
 | `stats`              | 4 `{ number, label, icon? }` for the strip under the hero. Omit for a generic trust set. `icon` is optional and maps to the shared Icon component name set. |
 | `quoteFormLabel`     | Short noun used in the quote-form heading ("AC", "boiler", "drain"). Omit to use a category-based default ("plumbing" / "heating" / "AC" / "water-systems"). |
 | `financing`          | `{ detail? }` — **only** for bigger-ticket services (AC install, furnaces, boilers, heat pumps, PolyB, tankless, water softeners, hot water tanks). When present, the hero renders a "Financing Available" badge with the Financeit logo. `detail` is an optional micro-line underneath. Leave undefined for service calls, repairs, humidifiers, drain cleaning, faucet fixes, etc. |
+| `timeline`           | Optional service-specific process steps (`{ heading?, intro?, steps: [{icon, title, body}] }`). Omit to use the generic 4-step timeline (Call → Quote → Schedule → Service). |
+| `quoteFormPlaceholder` | Optional textarea placeholder for the service's quote form (e.g. AC page: "AC blowing warm air, outside unit making noise…"). Falls back to a generic placeholder. |
 
 Keep paragraphs **verbatim** from the DB — including the slightly awkward
 phrasing. The user prefers accuracy over polish.
@@ -134,6 +136,12 @@ service-specific content worth showing:
   "ANY make or model"). Add an `icon` to each for visual scanability.
 - `quoteFormLabel` — a short noun used in the quote-form heading ("Get a
   free **AC** quote.") Omit for a category-based default.
+- `timeline` — override the 4-step "How we work" block when the
+  service has a unique process (e.g. PolyB replacement's multi-day
+  walkthrough). Otherwise let the template default kick in.
+- `quoteFormPlaceholder` — write a placeholder that echoes the
+  service's common pain points ("AC blowing warm air…", "no hot water,
+  pilot won't light…"). Helps completion rates.
 - `financing` — *bigger-ticket services only*. AC installs, furnaces,
   boilers, heat pumps, PolyB replacement, tankless heaters, hot water
   tanks, and water softeners all justify a "Financing Available" badge

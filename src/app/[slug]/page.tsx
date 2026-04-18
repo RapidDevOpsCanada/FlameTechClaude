@@ -36,6 +36,29 @@ const TRUST_CHIPS = [
   "BBB Accredited",
 ];
 
+const DEFAULT_TIMELINE: NonNullable<ServicePage["timeline"]>["steps"] = [
+  {
+    icon: "call",
+    title: "Call or request a quote",
+    body: "Tell us what's going on. We listen first and ask the right questions before we schedule anything.",
+  },
+  {
+    icon: "request_quote",
+    title: "Free written estimate",
+    body: "We assess the job and give you an all-in price in writing. No pressure, no surprise add-ons.",
+  },
+  {
+    icon: "event_available",
+    title: "Schedule at your convenience",
+    body: "Pick a day and window that works for your home — we'll confirm dispatch and arrival time.",
+  },
+  {
+    icon: "verified",
+    title: "Clean, code-compliant service",
+    body: "Licensed technicians complete the work to Alberta code, clean up, and walk you through what we did.",
+  },
+];
+
 export async function generateStaticParams() {
   return services.map((s) => ({ slug: s.slug }));
 }
@@ -94,6 +117,7 @@ export default async function ServicePage({
   const schemaJson = buildSchemaJsonLd(service);
   const stats = service.stats ?? DEFAULT_STATS;
   const inlineReview = await pickInlineReview(service);
+  const timeline = service.timeline ?? { steps: DEFAULT_TIMELINE };
 
   const firstSectionHeading = service.richContent?.sections?.[0]?.heading;
 
@@ -241,7 +265,7 @@ export default async function ServicePage({
         </section>
 
         {/* STATS STRIP */}
-        <section className="bg-ink-800 border-b border-line-dark">
+        <section className="bg-ink-800">
           <div className="max-w-7xl mx-auto px-6 md:px-10 py-6 md:py-8 grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
             {stats?.slice(0, 4).map((s) => (
               <div
@@ -265,6 +289,9 @@ export default async function ServicePage({
             ))}
           </div>
         </section>
+
+        {/* dark -> cream transition rule */}
+        <div className="section-rule" />
 
         {/* BODY */}
         <section className="bg-cream-50 text-ink-900 py-16 md:py-20">
@@ -363,7 +390,40 @@ export default async function ServicePage({
                       )}
                       <div className="space-y-5">
                         {section.items.map((item, i) => {
+                          const featured = i === 0 && !!item.image;
                           const flip = i % 2 === 1;
+
+                          if (featured) {
+                            return (
+                              <div
+                                key={`${section.heading}-${i}`}
+                                className="rounded-2xl bg-ink-900 text-cream-50 border border-ink-900 overflow-hidden soft-shadow"
+                              >
+                                <div className="relative h-64 md:h-80 overflow-hidden">
+                                  <img
+                                    src={item.image!.src}
+                                    alt={item.image!.alt}
+                                    className="w-full h-full object-cover"
+                                  />
+                                  <div className="absolute inset-0 bg-gradient-to-t from-ink-900 via-ink-900/40 to-transparent" />
+                                  <div className="absolute top-5 left-5 rounded-full bg-emergency text-cream-50 text-[10px] font-extrabold uppercase tracking-[0.18em] px-3 py-1.5">
+                                    Featured
+                                  </div>
+                                </div>
+                                <div className="p-7 md:p-9">
+                                  {item.heading && (
+                                    <h3 className="font-display font-extrabold text-2xl md:text-3xl tracking-tight mb-3 leading-tight">
+                                      {item.heading}
+                                    </h3>
+                                  )}
+                                  <p className="text-[15px] md:text-base text-cream-50/80 leading-relaxed max-w-2xl">
+                                    {item.body}
+                                  </p>
+                                </div>
+                              </div>
+                            );
+                          }
+
                           return (
                             <div
                               key={`${section.heading}-${i}`}
@@ -492,19 +552,22 @@ export default async function ServicePage({
                     {service.richContent.faq.heading}
                   </h2>
                   <div className="space-y-3">
-                    {service.richContent.faq.items.map((f) => (
+                    {service.richContent.faq.items.map((f, i) => (
                       <details
                         key={f.q}
-                        className="group rounded-2xl bg-white border border-line-light open:border-primary transition-colors"
+                        className="group rounded-2xl bg-white border border-line-light open:border-primary open:border-l-4 transition-colors"
                       >
-                        <summary className="cursor-pointer list-none px-6 py-5 flex items-center justify-between gap-4 font-semibold text-base md:text-lg">
-                          {f.q}
+                        <summary className="cursor-pointer list-none px-6 py-5 flex items-center gap-4 font-semibold text-base md:text-lg">
+                          <span className="font-display text-xs font-extrabold tracking-[0.14em] text-primary uppercase shrink-0 min-w-[28px]">
+                            Q{String(i + 1).padStart(2, "0")}
+                          </span>
+                          <span className="flex-1">{f.q}</span>
                           <Icon
                             name="add"
                             className="text-primary text-xl transition-transform group-open:rotate-45 shrink-0"
                           />
                         </summary>
-                        <p className="px-6 pb-6 text-ink-500 leading-relaxed">
+                        <p className="px-6 pb-6 pl-14 text-ink-500 leading-relaxed">
                           {f.a}
                         </p>
                       </details>
@@ -596,6 +659,46 @@ export default async function ServicePage({
           </div>
         </section>
 
+        {/* PROCESS TIMELINE — how we work */}
+        <section className="bg-cream-100 text-ink-900 py-16 md:py-20 border-t border-line-light">
+          <div className="max-w-7xl mx-auto px-6 md:px-10">
+            <div className="max-w-3xl mb-12">
+              <span className="eyebrow-light mb-3">
+                {timeline.heading ?? "How we work"}
+              </span>
+              <h2 className="font-display text-3xl md:text-4xl font-extrabold tracking-[-0.015em] mt-4 leading-[1.08]">
+                Simple, honest, on your schedule.
+              </h2>
+              {timeline.intro && (
+                <p className="text-ink-500 leading-relaxed mt-4">
+                  {timeline.intro}
+                </p>
+              )}
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
+              {timeline.steps.map((step, i) => (
+                <div
+                  key={step.title}
+                  className="relative rounded-2xl bg-white border border-line-light p-6 md:p-7 lift"
+                >
+                  <div className="font-display text-5xl md:text-6xl font-extrabold leading-none text-ink-900/10 mb-3">
+                    {String(i + 1).padStart(2, "0")}
+                  </div>
+                  <div className="w-10 h-10 rounded-xl bg-primary/15 text-primary-deep flex items-center justify-center mb-4">
+                    <Icon name={step.icon} className="text-lg" />
+                  </div>
+                  <h3 className="font-display font-extrabold text-lg tracking-tight mb-2 leading-tight">
+                    {step.title}
+                  </h3>
+                  <p className="text-sm text-ink-500 leading-relaxed">
+                    {step.body}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
         {/* RELATED — with hero thumbnails */}
         {related.length > 0 && (
           <section className="bg-cream-100 text-ink-900 py-16 md:py-20 border-t border-line-light">
@@ -652,6 +755,9 @@ export default async function ServicePage({
           </section>
         )}
 
+        {/* cream -> dark transition rule */}
+        <div className="section-rule" />
+
         {/* QUOTE FORM */}
         <section
           id="quote"
@@ -672,7 +778,7 @@ export default async function ServicePage({
                 </p>
               </div>
               <div className="col-span-12 md:col-span-7 rounded-3xl bg-cream-50 text-ink-900 p-8 md:p-10 border border-line-dark">
-                <QuoteForm />
+                <QuoteForm issuePlaceholder={service.quoteFormPlaceholder} />
               </div>
             </div>
           </div>

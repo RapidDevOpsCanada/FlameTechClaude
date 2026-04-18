@@ -76,6 +76,20 @@ export type ServicePage = {
   financing?: {
     detail?: string; // e.g. "Monthly payments · OAC via Financeit"
   };
+  /**
+   * Optional service-specific process timeline. When omitted the
+   * template renders a generic 4-step timeline.
+   */
+  timeline?: {
+    heading?: string;
+    intro?: string;
+    steps: { icon: string; title: string; body: string }[];
+  };
+  /**
+   * Optional placeholder copy for the "Describe the issue" textarea
+   * on the quote form. Makes the field feel tailored per service.
+   */
+  quoteFormPlaceholder?: string;
 };
 
 export const services: ServicePage[] = [
@@ -443,6 +457,8 @@ export const services: ServicePage[] = [
       detail:
         "Spread the cost of your AC install into flexible monthly payments via our Financeit partner.",
     },
+    quoteFormPlaceholder:
+      "e.g. AC blowing warm air, outside unit making noise, want a quote for a new central install…",
     richContent: {
       sections: [
         {
