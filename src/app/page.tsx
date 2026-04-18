@@ -103,7 +103,7 @@ export default function Home() {
                       Red Seal journeypersons. 45+ years combined.
                     </h3>
                   </div>
-                  <div className="relative mx-6 md:mx-8 mb-6 rounded-2xl overflow-hidden border border-line-light">
+                  <div className="relative mx-6 md:mx-8 mb-4 rounded-2xl overflow-hidden border border-line-light">
                     <img
                       src="/images/FTVAN1.jpg"
                       alt="Shaun Kristoff and Jason Mounsey — FlameTech founders — standing in front of the service van"
@@ -113,6 +113,13 @@ export default function Home() {
                       <Icon name="verified" className="text-sm text-primary" />
                       Red Seal · Alberta Licensed
                     </div>
+                  </div>
+                  <div className="mx-6 md:mx-8 mb-6 flex justify-center">
+                    <img
+                      src="/images/REVIEWS1.png"
+                      alt="5-star customer reviews"
+                      className="h-14 object-contain"
+                    />
                   </div>
                   <div className="p-8 md:p-10 pt-2 flex flex-col justify-between flex-1">
                     <p className="text-ink-500 leading-relaxed mb-8">
@@ -408,11 +415,6 @@ export default function Home() {
 
           <div className="max-w-7xl mx-auto px-6 md:px-10">
             <div className="flex flex-wrap items-center justify-center gap-10 mt-14 pt-10 border-t border-line-light">
-              <img
-                src="/images/REVIEWS1.png"
-                alt="5-star customer reviews"
-                className="h-14 object-contain"
-              />
               <img
                 src="/images/blue-ceip-225x300.png"
                 alt="BBB accredited"
