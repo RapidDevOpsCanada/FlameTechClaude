@@ -888,16 +888,17 @@ function InlineReviewBlock({ review }: { review: Review }) {
 }
 
 /**
- * Pick an inline review relevant to the service's category.
+ * Pick an inline review relevant to the service.
  *
- * Reviews get categorized by keyword: a quote mentioning "boiler" or
- * "furnace" is Heating, "ac"/"cool" is Air, "drain"/"bathroom"/"pipe"
- * is Plumbing, "tank"/"softener"/"hot water" is Water. Generic reviews
- * (no keywords) can match any service.
+ * Priority order:
+ *   1. Reviews that mention the *specific* service topic (e.g. furnace
+ *      review on /furnaces, boiler review on /boiler-service-calgary)
+ *   2. Reviews categorized to the same broad category as the service
+ *   3. Generic reviews (no topic keywords)
+ *   4. Whatever's left
  *
- * We only show reviews whose category includes the current service's
- * category, or generic reviews. Prevents a furnace testimonial from
- * landing on the AC page.
+ * This avoids landing a boiler testimonial on a furnace page just
+ * because they're both "Heating".
  */
 async function pickInlineReview(
   service: ServicePage
@@ -908,18 +909,47 @@ async function pickInlineReview(
   const basePool = all.filter((r) => !r.featured);
   const pool = basePool.length ? basePool : all;
 
-  const matching = pool.filter((r) => {
+  const hashIdx = (size: number) =>
+    [...service.slug].reduce((a, c) => a + c.charCodeAt(0), 0) % size;
+
+  // 1. Exact topic match
+  const topic = reviewTopicPattern(service.slug);
+  if (topic) {
+    const exact = pool.filter((r) => topic.test(r.quote));
+    if (exact.length) return exact[hashIdx(exact.length)];
+  }
+
+  // 2. Category match (includes generic reviews)
+  const byCategory = pool.filter((r) => {
     const cats = categorizeReview(r.quote);
-    // No keywords → generic → always eligible
     if (cats.size === 0) return true;
     return cats.has(service.category);
   });
+  if (byCategory.length) return byCategory[hashIdx(byCategory.length)];
 
-  const finalPool = matching.length ? matching : pool;
-  const idx =
-    [...service.slug].reduce((a, c) => a + c.charCodeAt(0), 0) %
-    finalPool.length;
-  return finalPool[idx];
+  // 3. Anything
+  return pool[hashIdx(pool.length)];
+}
+
+/**
+ * Derive a quote-matching regex from a service slug so we can surface
+ * topic-specific reviews (furnace slug → furnace reviews, etc).
+ */
+function reviewTopicPattern(slug: string): RegExp | null {
+  if (/furnace/.test(slug)) return /\bfurnace/i;
+  if (/boiler/.test(slug)) return /\bboiler/i;
+  if (/heat-pump/.test(slug)) return /\bheat[- ]?pump/i;
+  if (/garage-heater/.test(slug)) return /\bgarage heat/i;
+  if (/humidifier/.test(slug)) return /\bhumidif/i;
+  if (/air-conditioning/.test(slug)) return /\bac\b|\bair[- ]?cond|\bcool/i;
+  if (/drain/.test(slug)) return /\bdrain/i;
+  if (/polyb/.test(slug)) return /\bpoly[- ]?b/i;
+  if (/bathroom|shower/.test(slug)) return /\bbath(room)?|\bshower/i;
+  if (/tankless/.test(slug)) return /\btankless/i;
+  if (/hot-water-tank/.test(slug)) return /\bwater (tank|heater)|hot water/i;
+  if (/water-softener/.test(slug)) return /\bsoftener/i;
+  if (/emergency/.test(slug)) return /\bburst|leak|emergency/i;
+  return null;
 }
 
 function categorizeReview(quote: string): Set<ServicePage["category"]> {
