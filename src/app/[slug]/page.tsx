@@ -574,20 +574,20 @@ export default async function ServicePage({
                 {service.financing && (
                   <div className="mt-5 pt-5 border-t border-line-dark">
                     <div className="rounded-xl bg-cream-50 p-4">
-                      <div className="flex items-center gap-2.5 mb-2.5 pb-2.5 border-b border-line-light">
-                        <img
-                          src="/images/financeit.png"
-                          alt="Financeit"
-                          className="h-5 object-contain"
-                        />
-                        <span className="text-[10px] font-extrabold uppercase tracking-[0.16em] text-ink-900/70">
-                          Financing Available
-                        </span>
+                      <img
+                        src="/images/financeit.png"
+                        alt="Financeit"
+                        className="h-6 object-contain object-left mb-3"
+                      />
+                      <div className="pt-3 border-t border-line-light">
+                        <p className="text-[10px] font-extrabold uppercase tracking-[0.14em] text-ink-900/70 mb-1.5">
+                          Monthly Financing Available
+                        </p>
+                        <p className="text-[12px] text-ink-700 leading-relaxed">
+                          {service.financing.detail ??
+                            "Flexible monthly payments on larger installs via our Financeit partner."}
+                        </p>
                       </div>
-                      <p className="text-[12px] text-ink-700 leading-relaxed">
-                        {service.financing.detail ??
-                          "Flexible monthly payments on larger installs via our Financeit partner."}
-                      </p>
                     </div>
                   </div>
                 )}
