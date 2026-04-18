@@ -76,11 +76,6 @@ export type ServicePage = {
   financing?: {
     detail?: string; // e.g. "Monthly payments · OAC via Financeit"
   };
-  /**
-   * Optional small rounded inset image overlaying the bottom-right of
-   * the hero product card (van / team / installed unit).
-   */
-  lifestyleInset?: RichImage;
 };
 
 export const services: ServicePage[] = [
@@ -447,10 +442,6 @@ export const services: ServicePage[] = [
     financing: {
       detail:
         "Spread the cost of your AC install into flexible monthly payments via our Financeit partner.",
-    },
-    lifestyleInset: {
-      src: "/images/FTVAN1.jpg",
-      alt: "FlameTech service team on-site",
     },
     richContent: {
       sections: [

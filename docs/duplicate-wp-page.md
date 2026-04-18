@@ -117,7 +117,6 @@ Find the placeholder entry for the slug and replace it. Fields to fill in:
 | `stats`              | 4 `{ number, label, icon? }` for the strip under the hero. Omit for a generic trust set. `icon` is optional and maps to the shared Icon component name set. |
 | `quoteFormLabel`     | Short noun used in the quote-form heading ("AC", "boiler", "drain"). Omit to use a category-based default ("plumbing" / "heating" / "AC" / "water-systems"). |
 | `financing`          | `{ detail? }` — **only** for bigger-ticket services (AC install, furnaces, boilers, heat pumps, PolyB, tankless, water softeners, hot water tanks). When present, the hero renders a "Financing Available" badge with the Financeit logo. `detail` is an optional micro-line underneath. Leave undefined for service calls, repairs, humidifiers, drain cleaning, faucet fixes, etc. |
-| `lifestyleInset`     | `{ src, alt }` — optional small circular photo overlay in the bottom-right of the hero product card (van / team / installed unit). Good for adding a human element when the hero image is a catalog product shot. |
 
 Keep paragraphs **verbatim** from the DB — including the slightly awkward
 phrasing. The user prefers accuracy over polish.
@@ -141,10 +140,6 @@ service-specific content worth showing:
   with the Financeit logo beside the social-proof row. Service calls,
   repairs, drain cleaning, faucet fixes, humidifier installs — leave
   it off.
-- `lifestyleInset` — optional small circular photo (FTVAN1, team, or
-  an installed-unit shot) that overlays the bottom-right of the hero
-  product image. Adds a human touch when the main heroImage is a
-  catalog-style product cutout.
 
 An inline Google review is pulled automatically from the DB between the
 first two body sections — no data entry required.

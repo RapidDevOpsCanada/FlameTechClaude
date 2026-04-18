@@ -200,20 +200,6 @@ export default async function ServicePage({
                   </a>
                 </div>
 
-                {/* Social-proof logo row */}
-                <div className="mt-6 flex flex-wrap items-center gap-x-5 gap-y-3">
-                  <img
-                    src="/images/REVIEWS1.png"
-                    alt="5-star Google rated"
-                    className="h-10 object-contain object-left"
-                  />
-                  <div className="h-8 w-px bg-cream-50/15" />
-                  <img
-                    src="/images/blue-ceip-225x300.png"
-                    alt="BBB Accredited"
-                    className="h-10 object-contain"
-                  />
-                </div>
               </div>
               <div className="col-span-12 lg:col-span-5 hidden lg:block">
                 {service.heroImage ? (
@@ -225,15 +211,6 @@ export default async function ServicePage({
                         alt={service.heroImage.alt}
                         className="max-h-full max-w-full object-contain drop-shadow-[0_20px_30px_rgba(8,14,28,0.18)]"
                       />
-                      {service.lifestyleInset && (
-                        <div className="absolute -bottom-4 -right-4 w-28 h-28 rounded-full overflow-hidden border-4 border-ink-900 soft-shadow">
-                          <img
-                            src={service.lifestyleInset.src}
-                            alt={service.lifestyleInset.alt}
-                            className="w-full h-full object-cover object-center"
-                          />
-                        </div>
-                      )}
                     </div>
                     {service.heroBadgeImage && (
                       <div className="mt-5 flex justify-center">
