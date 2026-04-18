@@ -24,10 +24,16 @@ const BUSINESS = {
 };
 
 const DEFAULT_STATS: ServicePage["stats"] = [
-  { number: "5.0★", label: "Google rated" },
-  { number: "45+", label: "Years combined" },
-  { number: "FREE", label: "Estimates" },
-  { number: "BBB", label: "Accredited" },
+  { number: "5.0★", label: "Google rated", icon: "star" },
+  { number: "45+", label: "Years combined", icon: "verified" },
+  { number: "FREE", label: "Estimates", icon: "request_quote" },
+  { number: "BBB", label: "Accredited", icon: "check_circle" },
+];
+
+const TRUST_CHIPS = [
+  "Red Seal",
+  "Alberta Licensed",
+  "BBB Accredited",
 ];
 
 export async function generateStaticParams() {
@@ -153,12 +159,31 @@ export default async function ServicePage({
                 ))}
 
                 {service.heroSubhead && (
-                  <div className="mt-6 mb-8 pt-6 border-t border-line-dark">
+                  <div className="mt-6 mb-6 pt-6 border-t border-line-dark">
                     <span className="text-xs font-extrabold uppercase tracking-[0.18em] text-primary">
                       {service.heroSubhead}
                     </span>
                   </div>
                 )}
+
+                {/* Trust chip row */}
+                <div className="flex flex-wrap items-center gap-2 mb-6">
+                  {TRUST_CHIPS.map((chip, i) => (
+                    <span
+                      key={chip}
+                      className="inline-flex items-center gap-1.5 text-[11px] font-bold uppercase tracking-[0.14em] text-cream-50/75"
+                    >
+                      <Icon
+                        name="check_circle"
+                        className="text-primary text-sm"
+                      />
+                      {chip}
+                      {i < TRUST_CHIPS.length - 1 && (
+                        <span className="ml-2 text-cream-50/25">·</span>
+                      )}
+                    </span>
+                  ))}
+                </div>
 
                 <div className="flex flex-wrap gap-3">
                   <a
@@ -176,6 +201,26 @@ export default async function ServicePage({
                     <Icon name="arrow_right_alt" className="text-base" />
                   </a>
                 </div>
+
+                {/* Financing chip — only bigger-ticket services */}
+                {service.financing && (
+                  <div className="mt-5 inline-flex items-center gap-3 rounded-full bg-ink-800 border border-line-dark px-4 py-2.5">
+                    <Icon
+                      name="dollar"
+                      className="text-primary text-base shrink-0"
+                    />
+                    <span className="text-sm text-cream-50/90">
+                      <span className="font-extrabold text-cream-50">
+                        Financing from {service.financing.fromAmount}
+                      </span>
+                      {service.financing.detail && (
+                        <span className="text-xs text-cream-50/60 ml-2">
+                          {service.financing.detail}
+                        </span>
+                      )}
+                    </span>
+                  </div>
+                )}
               </div>
               <div className="col-span-12 lg:col-span-5 hidden lg:block">
                 {service.heroImage ? (
@@ -218,14 +263,21 @@ export default async function ServicePage({
 
         {/* STATS STRIP */}
         <section className="bg-ink-800 border-b border-line-dark">
-          <div className="max-w-6xl mx-auto px-6 md:px-10 py-6 md:py-8 grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-4">
+          <div className="max-w-6xl mx-auto px-6 md:px-10 py-6 md:py-8 grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-6">
             {stats?.slice(0, 4).map((s) => (
-              <div key={s.label}>
-                <div className="font-display text-2xl md:text-3xl font-extrabold tracking-[-0.02em] text-cream-50">
-                  {s.number}
-                </div>
-                <div className="text-[11px] uppercase tracking-[0.16em] text-cream-50/60 font-semibold mt-1">
-                  {s.label}
+              <div key={s.label} className="flex items-center gap-3">
+                {s.icon && (
+                  <div className="w-10 h-10 rounded-xl bg-primary/15 text-primary flex items-center justify-center shrink-0">
+                    <Icon name={s.icon} className="text-lg" />
+                  </div>
+                )}
+                <div>
+                  <div className="font-display text-xl md:text-2xl font-extrabold tracking-[-0.02em] text-cream-50 leading-none">
+                    {s.number}
+                  </div>
+                  <div className="text-[11px] uppercase tracking-[0.16em] text-cream-50/60 font-semibold mt-1">
+                    {s.label}
+                  </div>
                 </div>
               </div>
             ))}
@@ -319,10 +371,6 @@ export default async function ServicePage({
                       <InlineReviewBlock review={inlineReview} />
                     )}
                     <div className="mb-14">
-                      <span className="inline-flex items-center gap-2 text-[11px] font-extrabold uppercase tracking-[0.18em] text-primary mb-3">
-                        <span className="block w-6 h-px bg-primary" />
-                        Section {String(sIdx + 1).padStart(2, "0")}
-                      </span>
                       <h2 className="font-display text-3xl md:text-4xl font-extrabold tracking-[-0.015em] mb-4 leading-[1.08]">
                         {section.heading}
                       </h2>
@@ -458,10 +506,6 @@ export default async function ServicePage({
               {/* RICH CONTENT — FAQ */}
               {service.richContent?.faq && (
                 <div className="mb-4">
-                  <span className="inline-flex items-center gap-2 text-[11px] font-extrabold uppercase tracking-[0.18em] text-primary mb-3">
-                    <span className="block w-6 h-px bg-primary" />
-                    FAQ
-                  </span>
                   <h2 className="font-display text-3xl md:text-4xl font-extrabold tracking-[-0.015em] mb-6 leading-[1.08]">
                     {service.richContent.faq.heading}
                   </h2>
@@ -616,7 +660,7 @@ export default async function ServicePage({
               <div className="col-span-12 md:col-span-5">
                 <span className="eyebrow mb-4">Request Service</span>
                 <h2 className="font-display text-4xl md:text-5xl font-extrabold tracking-[-0.025em] mt-4 mb-6 leading-[1.02]">
-                  Get a free estimate.
+                  Get a free {quoteFormLabel(service)} quote.
                 </h2>
                 <p className="text-cream-50/70 leading-relaxed">
                   Tell us what&apos;s going on and our dispatch team will call
@@ -636,6 +680,18 @@ export default async function ServicePage({
       <StickyCallBar />
     </>
   );
+}
+
+/** Resolve the short service noun used in the quote-form heading. */
+function quoteFormLabel(service: ServicePage): string {
+  if (service.quoteFormLabel) return service.quoteFormLabel;
+  const map: Record<ServicePage["category"], string> = {
+    Plumbing: "plumbing",
+    Heating: "heating",
+    Air: "AC",
+    Water: "water-systems",
+  };
+  return map[service.category];
 }
 
 /** Inline testimonial block, rendered between body sections. */

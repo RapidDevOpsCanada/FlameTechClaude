@@ -114,21 +114,31 @@ Find the placeholder entry for the slug and replace it. Fields to fill in:
 | `richContent.faq`    | FAQ section (preserve intro paragraph as first item)  |
 | `sectionImages`      | Standalone image inside a section (not tied to item)  |
 | `sidebar`            | `{ title, subtitle, bullets[] }` for the per-service sticky sidebar. Omit for generic copy |
-| `stats`              | 4 `{ number, label }` pairs for the strip under the hero. Omit for a generic trust set |
+| `stats`              | 4 `{ number, label, icon? }` for the strip under the hero. Omit for a generic trust set. `icon` is optional and maps to the shared Icon component name set. |
+| `quoteFormLabel`     | Short noun used in the quote-form heading ("AC", "boiler", "drain"). Omit to use a category-based default ("plumbing" / "heating" / "AC" / "water-systems"). |
+| `financing`          | `{ fromAmount, detail? }` — **only** for bigger-ticket services (AC install, furnaces, boilers, heat pumps, PolyB, tankless, water softeners, hot water tanks). Leave undefined for service calls, repairs, humidifiers, drain cleaning, faucet fixes, etc. |
 
 Keep paragraphs **verbatim** from the DB — including the slightly awkward
 phrasing. The user prefers accuracy over polish.
 
-**About the optional customization fields** (`sidebar`, `stats`): every
-service page inherits sensible defaults if you skip them. Only fill them
-in when you have service-specific content worth showing:
+**About the optional customization fields** (`sidebar`, `stats`,
+`quoteFormLabel`, `financing`): every service page inherits sensible
+defaults if you skip them. Only fill them in when you have
+service-specific content worth showing:
 
 - `sidebar.title` / `sidebar.subtitle` / `sidebar.bullets` — write them
   as if the user has just landed and you're pitching this service
   specifically in ~50 words total
 - `stats` — 4 punchy number+label pairs relevant to the service (e.g.
   "12-YR AirEase warranty", "5.0★ Google rated", "FREE estimates",
-  "ANY make or model")
+  "ANY make or model"). Add an `icon` to each for visual scanability.
+- `quoteFormLabel` — a short noun used in the quote-form heading ("Get a
+  free **AC** quote.") Omit for a category-based default.
+- `financing` — *bigger-ticket services only*. AC installs, furnaces,
+  boilers, heat pumps, PolyB replacement, tankless heaters, hot water
+  tanks, and water softeners all justify a "Financing from $XX/mo" chip
+  under the hero CTAs. Service calls, repairs, drain cleaning, faucet
+  fixes, humidifier installs — leave it off.
 
 An inline Google review is pulled automatically from the DB between the
 first two body sections — no data entry required.

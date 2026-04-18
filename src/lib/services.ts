@@ -63,7 +63,19 @@ export type ServicePage = {
     bullets?: string[];
   };
   /** Stats strip rendered directly under the hero (4 items). */
-  stats?: { number: string; label: string }[];
+  stats?: { number: string; label: string; icon?: string }[];
+  /** Short noun for the quote-form heading ("AC", "boiler", "drain"). */
+  quoteFormLabel?: string;
+  /**
+   * Monthly financing-from price shown in the hero as a subtle chip.
+   * Only set this for larger-ticket services (AC, furnaces, boilers,
+   * heat pumps, PolyB, tankless heaters, water softeners, hot water
+   * tanks). Leave undefined for service calls / repairs / small jobs.
+   */
+  financing?: {
+    fromAmount: string; // e.g. "$89/mo"
+    detail?: string; // e.g. "OAC via Financeit"
+  };
 };
 
 export const services: ServicePage[] = [
@@ -421,11 +433,16 @@ export const services: ServicePage[] = [
       ],
     },
     stats: [
-      { number: "12-YR", label: "AirEase warranty" },
-      { number: "5.0★", label: "Google rated" },
-      { number: "FREE", label: "Written estimates" },
-      { number: "ANY", label: "Make or model" },
+      { number: "12-YR", label: "AirEase warranty", icon: "award" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "FREE", label: "Written estimates", icon: "request_quote" },
+      { number: "ANY", label: "Make or model", icon: "check_circle" },
     ],
+    quoteFormLabel: "AC",
+    financing: {
+      fromAmount: "$89/mo",
+      detail: "OAC via Financeit",
+    },
     richContent: {
       sections: [
         {

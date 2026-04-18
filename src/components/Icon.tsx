@@ -27,6 +27,9 @@ import {
   SlidersHorizontal,
   FlaskConical,
   Pipette,
+  Star,
+  Award,
+  DollarSign,
   type LucideProps,
 } from "lucide-react";
 
@@ -61,7 +64,10 @@ type IconName =
   | "garage"
   | "propane_tank"
   | "sync"
-  | "science";
+  | "science"
+  | "star"
+  | "award"
+  | "dollar";
 
 const map: Record<IconName, React.ComponentType<LucideProps>> = {
   call: Phone,
@@ -95,6 +101,9 @@ const map: Record<IconName, React.ComponentType<LucideProps>> = {
   propane_tank: FlaskConical,
   sync: RefreshCw,
   science: Pipette,
+  star: Star,
+  award: Award,
+  dollar: DollarSign,
 };
 
 export default function Icon({
