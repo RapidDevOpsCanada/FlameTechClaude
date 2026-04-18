@@ -4,6 +4,7 @@ import StickyCallBar from "@/components/StickyCallBar";
 import QuoteForm from "@/components/QuoteForm";
 import FinalCTA from "@/components/FinalCTA";
 import Icon from "@/components/Icon";
+import PortfolioCarousel from "@/components/PortfolioCarousel";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
@@ -774,6 +775,16 @@ export default async function ServicePage({
             </div>
           </div>
         </section>
+
+        {/* PORTFOLIO — optional install gallery */}
+        {service.portfolio && service.portfolio.items.length > 0 && (
+          <PortfolioCarousel
+            items={service.portfolio.items}
+            eyebrow={service.portfolio.eyebrow}
+            heading={service.portfolio.heading}
+            intro={service.portfolio.intro}
+          />
+        )}
 
         {/* RELATED — with hero thumbnails */}
         {related.length > 0 && (

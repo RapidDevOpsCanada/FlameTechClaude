@@ -30,6 +30,8 @@ import {
   Star,
   Award,
   DollarSign,
+  ChevronLeft,
+  ChevronRight,
   type LucideProps,
 } from "lucide-react";
 
@@ -67,7 +69,9 @@ type IconName =
   | "science"
   | "star"
   | "award"
-  | "dollar";
+  | "dollar"
+  | "chevron_left"
+  | "chevron_right";
 
 const map: Record<IconName, React.ComponentType<LucideProps>> = {
   call: Phone,
@@ -104,6 +108,8 @@ const map: Record<IconName, React.ComponentType<LucideProps>> = {
   star: Star,
   award: Award,
   dollar: DollarSign,
+  chevron_left: ChevronLeft,
+  chevron_right: ChevronRight,
 };
 
 export default function Icon({

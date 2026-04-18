@@ -102,6 +102,17 @@ export type ServicePage = {
    * on the quote form. Makes the field feel tailored per service.
    */
   quoteFormPlaceholder?: string;
+  /**
+   * Optional photo portfolio rendered as a scroll-snap carousel between
+   * the process timeline and related services. Use sparingly — best on
+   * install-focused pages where "here's our work" lands.
+   */
+  portfolio?: {
+    eyebrow?: string;
+    heading?: string;
+    intro?: string;
+    items: { src: string; alt: string; caption?: string }[];
+  };
 };
 
 export const services: ServicePage[] = [
@@ -852,6 +863,26 @@ export const services: ServicePage[] = [
           { q: "What's the difference between condensing and non-condensing boilers for Calgary homes?", a: "Condensing boilers extract extra heat from exhaust gases, achieving 90–95% efficiency compared to 80–85% for standard units. In Calgary's long heating season, the extra efficiency saves significant money on natural gas bills. However, condensing boilers need proper drainage for condensate and may require different venting materials. We'll recommend the best type based on your home's setup and budget." },
         ],
       },
+    },
+    portfolio: {
+      eyebrow: "Calgary install portfolio",
+      heading: "Real boilers, Calgary homes.",
+      intro:
+        "A few recent installs from around Calgary — condensing, combi, and hydronic systems, each sized to the home's heat loss and wired for Alberta winters.",
+      items: [
+        { src: "/images/2026/04/Boiler.webp", alt: "High-efficiency condensing boiler installed in a Calgary mechanical room" },
+        { src: "/images/2026/04/Boiler2.webp", alt: "Wall-hung gas boiler with zoned hydronic manifold" },
+        { src: "/images/2026/04/Boiler3.webp", alt: "FlameTech boiler install with insulated copper primary loop" },
+        { src: "/images/2026/04/Boiler5.webp", alt: "Navien combi boiler installation in a Calgary home" },
+        { src: "/images/2026/04/Boiler6.webp", alt: "Condensing boiler with neutralizer and condensate drain" },
+        { src: "/images/2026/04/Boiler7.webp", alt: "Tidy boiler piping with labelled isolation valves" },
+        { src: "/images/2026/04/Boiler12.webp", alt: "Viessmann boiler wall-mount with PEX hydronic distribution" },
+        { src: "/images/2026/04/Boiler14.webp", alt: "Boiler install serving in-floor radiant heating" },
+        { src: "/images/2026/04/Boiler19.webp", alt: "High-efficiency boiler with expansion tank and air separator" },
+        { src: "/images/2026/04/Boiler20.webp", alt: "Boiler and indirect tank combo for domestic hot water" },
+        { src: "/images/2026/04/Combination-boiler.webp", alt: "Combi boiler providing space heating and domestic hot water" },
+        { src: "/images/2026/04/Double-boiler.webp", alt: "Twin boiler configuration for a larger Calgary home" },
+      ],
     },
   },
   {
