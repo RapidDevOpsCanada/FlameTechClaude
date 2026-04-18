@@ -98,7 +98,7 @@ export default function RootLayout({
     <html lang="en" className={manrope.variable}>
       <body
         className="font-body text-cream-50 bg-ink-900 antialiased"
-        style={{ overflowX: "hidden", width: "100%", position: "relative" }}
+        style={{ width: "100%", position: "relative" }}
       >
         <script
           type="application/ld+json"

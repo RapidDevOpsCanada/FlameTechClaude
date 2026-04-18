@@ -3,14 +3,20 @@
 @tailwind utilities;
 
 /* Mobile viewport clamp — applied OUTSIDE @layer base so these rules
-   aren't out-specificity'd by any utility. overflow-x: hidden is
-   supported by iOS Safari 12+ and Android Chrome universally. */
-html,
-body {
+   aren't out-specificity'd by any utility.
+
+   Put overflow-x: hidden on <html> only — applying it to <body> as
+   well turns body into a scroll container, which breaks position:
+   sticky on descendants (the classic footgun). */
+html {
   overflow-x: hidden;
   width: 100%;
   max-width: 100%;
   -webkit-text-size-adjust: 100%;
+}
+body {
+  width: 100%;
+  max-width: 100%;
   position: relative;
 }
 /* Belt-and-suspenders: on mobile, prevent any descendant image,
