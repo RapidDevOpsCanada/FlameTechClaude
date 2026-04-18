@@ -3,54 +3,232 @@
 import Link from "next/link";
 import { useState } from "react";
 
-type SubLink = { label: string; href: string };
-type MenuItem = {
+type MegaItem = {
   label: string;
   href: string;
-  children?: SubLink[];
+  icon: string;
+  desc?: string;
 };
 
-const menu: MenuItem[] = [
+type MegaGroup = {
+  heading: string;
+  items: MegaItem[];
+};
+
+type Promo = {
+  image: string;
+  title: string;
+  body: string;
+  cta: string;
+  href: string;
+};
+
+type NavItem = {
+  label: string;
+  href: string;
+  mega?: {
+    groups: MegaGroup[];
+    promo?: Promo;
+  };
+};
+
+const menu: NavItem[] = [
   {
     label: "Plumbing",
     href: "/#services",
-    children: [
-      { label: "Bathroom Plumbing", href: "/#services" },
-      { label: "Drain Cleaning", href: "/#services" },
-      { label: "Emergency Plumbing", href: "/#services" },
-      { label: "PolyB Plumbing", href: "/#services" },
-      { label: "Shower Plumbing", href: "/#services" },
-    ],
+    mega: {
+      groups: [
+        {
+          heading: "Residential Plumbing",
+          items: [
+            {
+              label: "Bathroom Plumbing",
+              href: "/#services",
+              icon: "bathroom",
+              desc: "Sinks, toilets, full bathroom retrofits.",
+            },
+            {
+              label: "Shower Plumbing",
+              href: "/#services",
+              icon: "shower",
+              desc: "Shower installs, valve replacements.",
+            },
+            {
+              label: "Drain Cleaning",
+              href: "/#services",
+              icon: "water_damage",
+              desc: "Clogs, slow drains, camera inspection.",
+            },
+          ],
+        },
+        {
+          heading: "Emergency & Repairs",
+          items: [
+            {
+              label: "Emergency Plumbing",
+              href: "/#services",
+              icon: "contact_emergency",
+              desc: "Leaks, burst pipes, urgent fixes.",
+            },
+            {
+              label: "PolyB Plumbing",
+              href: "/#services",
+              icon: "swap_horiz",
+              desc: "Full replacement for 80s/90s homes.",
+            },
+          ],
+        },
+      ],
+      promo: {
+        image: "/images/FTVAN1.jpg",
+        title: "Book a free plumbing estimate",
+        body: "Upfront pricing, no surprises.",
+        cta: "Call 587-834-3668",
+        href: "tel:5878343668",
+      },
+    },
   },
   {
     label: "Heating",
     href: "/#services",
-    children: [
-      { label: "Boiler Installation", href: "/#services" },
-      { label: "Boiler Repair", href: "/#services" },
-      { label: "Boiler Service", href: "/#services" },
-      { label: "High-Efficiency Furnaces", href: "/#services" },
-      { label: "Garage Heaters", href: "/#services" },
-      { label: "Heat Pumps", href: "/#services" },
-    ],
+    mega: {
+      groups: [
+        {
+          heading: "Boilers",
+          items: [
+            {
+              label: "Boiler Installation",
+              href: "/#services",
+              icon: "build",
+              desc: "New high-efficiency boilers.",
+            },
+            {
+              label: "Boiler Repair",
+              href: "/#services",
+              icon: "handyman",
+              desc: "Diagnosis and fast repairs.",
+            },
+            {
+              label: "Boiler Service",
+              href: "/#services",
+              icon: "tune",
+              desc: "Annual maintenance & tune-ups.",
+            },
+          ],
+        },
+        {
+          heading: "Furnaces & More",
+          items: [
+            {
+              label: "High-Efficiency Furnaces",
+              href: "/#services",
+              icon: "local_fire_department",
+              desc: "95–98% AFUE installs.",
+            },
+            {
+              label: "Garage Heaters",
+              href: "/#services",
+              icon: "garage",
+              desc: "Warm, code-compliant garages.",
+            },
+            {
+              label: "Heat Pumps",
+              href: "/#services",
+              icon: "ac_unit",
+              desc: "Cold-climate dual-fuel setups.",
+            },
+          ],
+        },
+      ],
+      promo: {
+        image: "/images/navine-boiler.png",
+        title: "Winter-ready heating install",
+        body: "Free quote on boilers, furnaces & heat pumps.",
+        cta: "Request heating quote",
+        href: "#quote",
+      },
+    },
   },
   {
     label: "Air",
     href: "/#services",
-    children: [
-      { label: "Air Conditioning", href: "/#services" },
-      { label: "Humidifiers", href: "/#services" },
-    ],
+    mega: {
+      groups: [
+        {
+          heading: "Air Comfort",
+          items: [
+            {
+              label: "Air Conditioning",
+              href: "/#services",
+              icon: "ac_unit",
+              desc: "Central AC installs & service.",
+            },
+            {
+              label: "Humidifiers",
+              href: "/#services",
+              icon: "water_drop",
+              desc: "Whole-home humidification.",
+            },
+          ],
+        },
+      ],
+      promo: {
+        image: "/images/air-ease-ac.png",
+        title: "Stay cool all summer",
+        body: "Efficient central AC tuned for Calgary homes.",
+        cta: "Get an AC quote",
+        href: "#quote",
+      },
+    },
   },
   {
     label: "Water",
     href: "/#services",
-    children: [
-      { label: "Hot Water Tanks", href: "/#services" },
-      { label: "Hot Water Tank Replacement", href: "/#services" },
-      { label: "Tankless Water Heaters", href: "/#services" },
-      { label: "Water Softeners", href: "/#services" },
-    ],
+    mega: {
+      groups: [
+        {
+          heading: "Water Heating",
+          items: [
+            {
+              label: "Hot Water Tanks",
+              href: "/#services",
+              icon: "propane_tank",
+              desc: "Service, repair, and new installs.",
+            },
+            {
+              label: "Hot Water Tank Replacement",
+              href: "/#services",
+              icon: "sync",
+              desc: "Same-day tank swaps when possible.",
+            },
+            {
+              label: "Tankless Water Heaters",
+              href: "/#services",
+              icon: "whatshot",
+              desc: "Endless hot water, lower running costs.",
+            },
+          ],
+        },
+        {
+          heading: "Water Treatment",
+          items: [
+            {
+              label: "Water Softeners",
+              href: "/#services",
+              icon: "science",
+              desc: "Protect fixtures from Alberta hard water.",
+            },
+          ],
+        },
+      ],
+      promo: {
+        image: "/images/graident-tankless-water-heater.png",
+        title: "Upgrade your hot water",
+        body: "Tankless, tanks, softeners — honest advice.",
+        cta: "Book a water consult",
+        href: "#quote",
+      },
+    },
   },
 ];
 
@@ -58,9 +236,9 @@ export default function Nav() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="sticky top-0 w-full z-50 bg-ink-900/90 backdrop-blur-lg border-b border-line-dark">
-      <div className="max-w-7xl mx-auto px-6 md:px-10 py-3 flex items-center justify-between gap-6">
-        {/* Logo */}
+    <nav className="sticky top-0 w-full z-50 bg-ink-900/95 backdrop-blur-lg border-b border-line-dark">
+      <div className="max-w-7xl mx-auto px-6 md:px-10 py-2 flex items-center justify-between gap-6">
+        {/* Logo — prominent */}
         <Link
           href="/"
           className="flex items-center text-cream-50 shrink-0"
@@ -69,40 +247,26 @@ export default function Nav() {
           <img
             src="/images/FT-LOGO-DARK8.png"
             alt="FlameTech"
-            className="h-14 md:h-16 w-auto object-contain"
+            className="h-16 md:h-20 lg:h-24 w-auto object-contain"
           />
         </Link>
 
         {/* Desktop menu */}
-        <ul className="hidden lg:flex items-center gap-2">
+        <ul className="hidden lg:flex items-center gap-1">
           {menu.map((item) => (
             <li key={item.label} className="relative group">
               <Link
                 href={item.href}
-                className="flex items-center gap-1 px-4 py-6 text-sm font-semibold text-cream-50/80 group-hover:text-emergency transition-colors"
+                className="flex items-center gap-1 px-4 py-8 text-sm font-semibold text-cream-50/80 group-hover:text-emergency transition-colors"
               >
                 {item.label}
-                {item.children && (
+                {item.mega && (
                   <span className="material-symbols-outlined text-base transition-transform group-hover:rotate-180">
                     expand_more
                   </span>
                 )}
               </Link>
-              {item.children && (
-                <div className="absolute left-0 top-full pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
-                  <div className="min-w-[260px] rounded-2xl bg-ink-800 border border-line-dark soft-shadow p-2">
-                    {item.children.map((sub) => (
-                      <Link
-                        key={sub.label}
-                        href={sub.href}
-                        className="block px-4 py-3 text-sm text-cream-50/80 hover:text-emergency hover:bg-ink-700 rounded-xl transition-colors"
-                      >
-                        {sub.label}
-                      </Link>
-                    ))}
-                  </div>
-                </div>
-              )}
+              {item.mega && <MegaPanel mega={item.mega} />}
             </li>
           ))}
         </ul>
@@ -141,10 +305,14 @@ export default function Nav() {
 
       {/* Mobile drawer */}
       {open && (
-        <div className="lg:hidden border-t border-line-dark bg-ink-900">
+        <div className="lg:hidden border-t border-line-dark bg-ink-900 max-h-[80vh] overflow-y-auto">
           <div className="max-w-7xl mx-auto px-6 py-4 space-y-1">
             {menu.map((item) => (
-              <MobileMenuItem key={item.label} item={item} onNavigate={() => setOpen(false)} />
+              <MobileMenuItem
+                key={item.label}
+                item={item}
+                onNavigate={() => setOpen(false)}
+              />
             ))}
             <div className="pt-4 mt-4 border-t border-line-dark flex flex-col gap-3">
               <a
@@ -171,15 +339,97 @@ export default function Nav() {
   );
 }
 
+function MegaPanel({ mega }: { mega: NonNullable<NavItem["mega"]> }) {
+  const hasPromo = !!mega.promo;
+  return (
+    <div className="absolute left-0 top-full pt-3 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+      <div
+        className={`rounded-2xl bg-ink-800 border border-line-dark soft-shadow overflow-hidden ${
+          hasPromo ? "w-[820px]" : "w-[520px]"
+        }`}
+      >
+        <div
+          className={`grid ${
+            hasPromo ? "grid-cols-[1fr_300px]" : "grid-cols-1"
+          }`}
+        >
+          <div className="p-6 grid grid-cols-2 gap-x-6 gap-y-6">
+            {mega.groups.map((group) => (
+              <div key={group.heading} className="col-span-2 md:col-span-1">
+                <h4 className="text-[11px] font-bold uppercase tracking-[0.18em] text-primary mb-4">
+                  {group.heading}
+                </h4>
+                <ul className="space-y-1">
+                  {group.items.map((item) => (
+                    <li key={item.label}>
+                      <Link
+                        href={item.href}
+                        className="flex items-start gap-3 p-3 rounded-xl hover:bg-ink-700 transition-colors group/item"
+                      >
+                        <span className="material-symbols-outlined text-xl text-primary mt-0.5">
+                          {item.icon}
+                        </span>
+                        <span className="flex-1">
+                          <span className="block font-semibold text-sm text-cream-50 group-hover/item:text-emergency transition-colors">
+                            {item.label}
+                          </span>
+                          {item.desc && (
+                            <span className="block text-xs text-cream-50/60 mt-0.5 leading-snug">
+                              {item.desc}
+                            </span>
+                          )}
+                        </span>
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+          {mega.promo && (
+            <div className="relative bg-ink-900 border-l border-line-dark flex flex-col">
+              <div className="relative h-36 overflow-hidden bg-cream-50 flex items-center justify-center">
+                <img
+                  src={mega.promo.image}
+                  alt=""
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-ink-900 via-ink-900/20 to-transparent" />
+              </div>
+              <div className="p-6 flex-1 flex flex-col">
+                <h5 className="font-display text-lg font-extrabold tracking-tight text-cream-50 mb-2">
+                  {mega.promo.title}
+                </h5>
+                <p className="text-xs text-cream-50/70 leading-relaxed mb-5 flex-grow">
+                  {mega.promo.body}
+                </p>
+                <a
+                  href={mega.promo.href}
+                  className="inline-flex items-center justify-center gap-2 rounded-full bg-emergency text-ink-900 font-bold px-4 py-2.5 text-xs hover:bg-emergency-deep hover:text-white transition-colors"
+                >
+                  {mega.promo.cta}
+                  <span className="material-symbols-outlined text-sm">
+                    arrow_right_alt
+                  </span>
+                </a>
+              </div>
+            </div>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+}
+
 function MobileMenuItem({
   item,
   onNavigate,
 }: {
-  item: MenuItem;
+  item: NavItem;
   onNavigate: () => void;
 }) {
   const [expanded, setExpanded] = useState(false);
-  if (!item.children) {
+  if (!item.mega) {
     return (
       <Link
         href={item.href}
@@ -207,16 +457,30 @@ function MobileMenuItem({
         </span>
       </button>
       {expanded && (
-        <div className="pl-4 pb-2 space-y-1">
-          {item.children.map((sub) => (
-            <Link
-              key={sub.label}
-              href={sub.href}
-              onClick={onNavigate}
-              className="block px-3 py-2 text-sm text-cream-50/70 rounded-lg hover:text-emergency hover:bg-ink-800"
-            >
-              {sub.label}
-            </Link>
+        <div className="pl-3 pb-2 space-y-4">
+          {item.mega.groups.map((group) => (
+            <div key={group.heading}>
+              <h5 className="text-[10px] font-bold uppercase tracking-[0.18em] text-primary px-3 mb-2 mt-2">
+                {group.heading}
+              </h5>
+              <div className="space-y-1">
+                {group.items.map((sub) => (
+                  <Link
+                    key={sub.label}
+                    href={sub.href}
+                    onClick={onNavigate}
+                    className="flex items-center gap-3 px-3 py-2.5 rounded-lg hover:bg-ink-800"
+                  >
+                    <span className="material-symbols-outlined text-base text-primary">
+                      {sub.icon}
+                    </span>
+                    <span className="text-sm text-cream-50/80">
+                      {sub.label}
+                    </span>
+                  </Link>
+                ))}
+              </div>
+            </div>
           ))}
         </div>
       )}
