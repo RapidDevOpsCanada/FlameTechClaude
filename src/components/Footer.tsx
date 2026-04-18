@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Icon from "@/components/Icon";
 
 export default function Footer() {
   return (
@@ -20,7 +21,7 @@ export default function Footer() {
             href="tel:5878343668"
             className="inline-flex items-center gap-2 text-lg font-bold text-emergency hover:text-cream-50 transition-colors"
           >
-            <span className="material-symbols-outlined text-xl">call</span>
+            <Icon name="call" className="text-xl" />
             587-834-3668
           </a>
         </div>
@@ -59,15 +60,11 @@ export default function Footer() {
           </h5>
           <ul className="space-y-3 text-sm text-cream-50/70">
             <li className="flex items-center gap-2">
-              <span className="material-symbols-outlined text-base text-primary">
-                location_on
-              </span>
+              <Icon name="location_on" className="text-base text-primary" />
               Calgary, AB &amp; surrounding communities
             </li>
             <li className="flex items-center gap-2">
-              <span className="material-symbols-outlined text-base text-primary">
-                schedule
-              </span>
+              <Icon name="schedule" className="text-base text-primary" />
               Priority emergency response
             </li>
             <li>
@@ -76,9 +73,7 @@ export default function Footer() {
                 className="inline-flex items-center gap-2 rounded-full bg-emergency text-ink-900 font-bold px-4 py-2 text-xs hover:bg-emergency-deep hover:text-white transition-colors mt-2"
               >
                 Request a free estimate
-                <span className="material-symbols-outlined text-sm">
-                  arrow_right_alt
-                </span>
+                <Icon name="arrow_right_alt" className="text-sm" />
               </a>
             </li>
           </ul>

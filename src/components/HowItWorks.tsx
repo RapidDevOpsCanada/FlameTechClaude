@@ -1,4 +1,5 @@
 import Reveal from "@/components/Reveal";
+import Icon from "@/components/Icon";
 
 const steps = [
   {
@@ -58,9 +59,7 @@ export default function HowItWorks() {
                   {s.n}
                 </div>
                 <div className="w-12 h-12 rounded-xl bg-primary/10 text-primary flex items-center justify-center mb-5">
-                  <span className="material-symbols-outlined text-2xl">
-                    {s.icon}
-                  </span>
+                  <Icon name={s.icon} className="text-2xl" />
                 </div>
                 <h3 className="font-display text-xl font-extrabold tracking-tight mb-3">
                   {s.title}
@@ -77,7 +76,7 @@ export default function HowItWorks() {
               href="tel:5878343668"
               className="inline-flex items-center gap-2 rounded-full bg-ink-900 text-cream-50 font-bold px-7 py-3.5 text-sm hover:bg-emergency hover:text-ink-900 transition-colors"
             >
-              <span className="material-symbols-outlined text-base">call</span>
+              <Icon name="call" className="text-base" />
               Start with a call
             </a>
             <a
@@ -85,9 +84,7 @@ export default function HowItWorks() {
               className="inline-flex items-center gap-2 text-sm font-bold text-emergency-deep hover:text-emergency transition-colors"
             >
               Or request a written quote
-              <span className="material-symbols-outlined text-base">
-                arrow_right_alt
-              </span>
+              <Icon name="arrow_right_alt" className="text-base" />
             </a>
           </div>
         </Reveal>

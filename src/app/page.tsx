@@ -8,6 +8,7 @@ import ReviewsSection from "@/components/ReviewsSection";
 import HowItWorks from "@/components/HowItWorks";
 import BlogStrip from "@/components/BlogStrip";
 import Reveal from "@/components/Reveal";
+import Icon from "@/components/Icon";
 
 export const dynamic = "force-dynamic";
 
@@ -45,9 +46,7 @@ export default function Home() {
                     href="tel:5878343668"
                     className="inline-flex items-center gap-2 rounded-full bg-emergency text-cream-50 font-extrabold uppercase tracking-tight px-7 py-4 text-[14px] hover:bg-emergency-deep transition-colors"
                   >
-                    <span className="material-symbols-outlined text-lg">
-                      call
-                    </span>
+                    <Icon name="call" className="text-lg" />
                     Call 587-834-3668
                   </a>
                   <a
@@ -55,16 +54,12 @@ export default function Home() {
                     className="inline-flex items-center gap-2 rounded-full border border-cream-50/25 text-cream-50 font-bold uppercase tracking-tight px-7 py-4 text-[14px] hover:border-emergency hover:text-emergency transition-colors"
                   >
                     Free estimate
-                    <span className="material-symbols-outlined text-base">
-                      arrow_right_alt
-                    </span>
+                    <Icon name="arrow_right_alt" className="text-base" />
                   </a>
                 </div>
 
                 <div className="inline-flex items-center gap-2 rounded-full bg-ink-800 border border-line-dark px-4 py-2 text-xs text-cream-50/80 font-semibold">
-                  <span className="material-symbols-outlined text-primary text-base">
-                    verified
-                  </span>
+                  <Icon name="verified" className="text-primary text-base" />
                   Free estimate · No service charge for quotes
                 </div>
               </div>
@@ -115,9 +110,7 @@ export default function Home() {
                       className="w-full h-40 md:h-48 object-cover object-top"
                     />
                     <div className="absolute bottom-3 left-3 rounded-full bg-ink-900/90 backdrop-blur-md text-cream-50 px-3 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.14em] flex items-center gap-2 border border-cream-50/10">
-                      <span className="material-symbols-outlined text-sm text-primary">
-                        verified
-                      </span>
+                      <Icon name="verified" className="text-sm text-primary" />
                       Red Seal · Alberta Licensed
                     </div>
                   </div>
@@ -174,9 +167,7 @@ export default function Home() {
                       key={x.t}
                       className="flex gap-4 p-5 rounded-xl bg-white border border-line-light lift"
                     >
-                      <span className="material-symbols-outlined text-primary text-2xl mt-1">
-                        check_circle
-                      </span>
+                      <Icon name="check_circle" className="text-primary text-2xl mt-1" />
                       <div>
                         <h4 className="font-display font-bold text-lg mb-1">
                           {x.t}
@@ -210,9 +201,7 @@ export default function Home() {
                   className="inline-flex items-center gap-2 rounded-full bg-ink-900 text-cream-50 font-bold px-6 py-3 text-sm hover:bg-emergency hover:text-cream-50 transition-colors self-start"
                 >
                   Get a free quote
-                  <span className="material-symbols-outlined text-base">
-                    arrow_right_alt
-                  </span>
+                  <Icon name="arrow_right_alt" className="text-base" />
                 </a>
               </div>
             </Reveal>
@@ -245,9 +234,7 @@ export default function Home() {
                       className="inline-flex items-center gap-2 rounded-full bg-emergency text-cream-50 font-extrabold uppercase tracking-tight px-5 py-3 text-[13px] hover:bg-emergency-deep transition-colors"
                     >
                       Book a free estimate
-                      <span className="material-symbols-outlined text-base">
-                        arrow_right_alt
-                      </span>
+                      <Icon name="arrow_right_alt" className="text-base" />
                     </a>
                   </div>
                   <ul className="md:col-span-2 space-y-2 text-sm">
@@ -262,9 +249,7 @@ export default function Home() {
                         key={item}
                         className="flex items-center gap-2 text-cream-50/80"
                       >
-                        <span className="material-symbols-outlined text-primary text-base">
-                          check_circle
-                        </span>
+                        <Icon name="check_circle" className="text-primary text-base" />
                         {item}
                       </li>
                     ))}
@@ -297,9 +282,7 @@ export default function Home() {
                     className="flex-1 rounded-2xl bg-white border border-line-light p-7 flex gap-5 lift"
                   >
                     <div className="w-12 h-12 rounded-xl bg-primary/15 text-primary-deep flex items-center justify-center shrink-0">
-                      <span className="material-symbols-outlined text-2xl">
-                        {s.icon}
-                      </span>
+                      <Icon name={s.icon} className="text-2xl" />
                     </div>
                     <div className="flex-1">
                       <h3 className="font-display text-2xl font-extrabold tracking-tight mb-2">
@@ -352,9 +335,7 @@ export default function Home() {
                   href="tel:5878343668"
                   className="relative inline-flex items-center gap-2 rounded-full bg-ink-900 text-cream-50 font-extrabold uppercase tracking-tight px-7 py-4 text-[14px] hover:bg-ink-800 transition-colors"
                 >
-                  <span className="material-symbols-outlined text-base">
-                    call
-                  </span>
+                  <Icon name="call" className="text-base" />
                   Call 587-834-3668
                 </a>
               </div>
@@ -474,9 +455,7 @@ export default function Home() {
                     key={area}
                     className="rounded-xl bg-ink-800 border border-line-dark p-4 flex items-center gap-2 lift"
                   >
-                    <span className="material-symbols-outlined text-primary text-base">
-                      location_on
-                    </span>
+                    <Icon name="location_on" className="text-primary text-base" />
                     <span className="text-sm font-semibold">{area}</span>
                   </div>
                 ))}
@@ -580,9 +559,7 @@ function InfoRow({
 }) {
   return (
     <div className="flex items-center gap-3">
-      <span className="material-symbols-outlined text-primary text-base">
-        {icon}
-      </span>
+      <Icon name={icon} className="text-primary text-base" />
       <span
         className={
           emphasize

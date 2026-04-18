@@ -7,6 +7,7 @@ import StickyCallBar from "@/components/StickyCallBar";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getArticlesByCategory, getCategories } from "@/lib/articles";
+import Icon from "@/components/Icon";
 
 export const dynamic = "force-dynamic";
 
@@ -55,9 +56,7 @@ export default async function CategoryPage({
                 className="inline-flex items-center gap-2 text-emergency-deep font-bold"
               >
                 Browse all articles
-                <span className="material-symbols-outlined text-base">
-                  arrow_right_alt
-                </span>
+                <Icon name="arrow_right_alt" className="text-base" />
               </Link>
             </div>
           ) : (

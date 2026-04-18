@@ -1,3 +1,5 @@
+import Icon from "@/components/Icon";
+
 export default function FinalCTA() {
   return (
     <section className="relative bg-ink-800 text-cream-50 py-20 md:py-28 overflow-hidden border-t border-line-dark">
@@ -20,7 +22,7 @@ export default function FinalCTA() {
             href="tel:5878343668"
             className="inline-flex items-center gap-2 rounded-full bg-emergency text-ink-900 font-bold px-8 py-4 text-sm hover:bg-emergency-deep hover:text-white transition-colors"
           >
-            <span className="material-symbols-outlined text-base">call</span>
+            <Icon name="call" className="text-base" />
             Call 587-834-3668
           </a>
           <a
@@ -28,9 +30,7 @@ export default function FinalCTA() {
             className="inline-flex items-center gap-2 rounded-full border border-cream-50/25 text-cream-50 font-semibold px-8 py-4 text-sm hover:border-emergency hover:text-emergency transition-colors"
           >
             Request free estimate
-            <span className="material-symbols-outlined text-base">
-              arrow_right_alt
-            </span>
+            <Icon name="arrow_right_alt" className="text-base" />
           </a>
         </div>
         <p className="mt-6 text-xs text-cream-50/50 uppercase tracking-[0.18em] font-semibold">

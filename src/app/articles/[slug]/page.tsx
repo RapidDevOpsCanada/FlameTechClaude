@@ -4,6 +4,7 @@ import StickyCallBar from "@/components/StickyCallBar";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getArticleBySlug, getAllArticles } from "@/lib/articles";
+import Icon from "@/components/Icon";
 
 export const dynamic = "force-dynamic";
 
@@ -72,9 +73,7 @@ export default async function ArticlePage({
             </div>
             <div className="h-8 w-px bg-line-dark hidden md:block" />
             <div className="flex items-center gap-2">
-              <span className="material-symbols-outlined text-emergency text-base">
-                share
-              </span>
+              <Icon name="share" className="text-emergency text-base" />
               <span className="text-sm font-semibold">
                 {article.share_count.toLocaleString()} shares
               </span>
@@ -121,9 +120,7 @@ export default async function ArticlePage({
                 className="hidden md:inline-flex items-center gap-2 text-sm font-bold text-emergency-deep"
               >
                 All articles
-                <span className="material-symbols-outlined text-base">
-                  arrow_right_alt
-                </span>
+                <Icon name="arrow_right_alt" className="text-base" />
               </Link>
             </div>
             <div className="grid grid-cols-12 gap-6">

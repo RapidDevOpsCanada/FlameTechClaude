@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Reveal from "@/components/Reveal";
 import { getAllArticles } from "@/lib/articles";
+import Icon from "@/components/Icon";
 
 export default async function BlogStrip() {
   let articles: Awaited<ReturnType<typeof getAllArticles>> = [];
@@ -28,9 +29,7 @@ export default async function BlogStrip() {
               className="inline-flex items-center gap-2 rounded-full border border-ink-900 text-ink-900 font-semibold px-5 py-2.5 text-sm hover:bg-ink-900 hover:text-cream-50 transition-colors self-start"
             >
               All articles
-              <span className="material-symbols-outlined text-base">
-                arrow_right_alt
-              </span>
+              <Icon name="arrow_right_alt" className="text-base" />
             </Link>
           </div>
         </Reveal>
@@ -62,9 +61,7 @@ export default async function BlogStrip() {
                 </p>
                 <span className="inline-flex items-center gap-1 text-xs font-bold text-emergency-deep">
                   Read article
-                  <span className="material-symbols-outlined text-base">
-                    arrow_right_alt
-                  </span>
+                  <Icon name="arrow_right_alt" className="text-base" />
                 </span>
               </Link>
             </Reveal>

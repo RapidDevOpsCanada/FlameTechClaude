@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Icon from "@/components/Icon";
 
 type Status = "idle" | "submitting" | "success" | "error";
 
@@ -40,9 +41,7 @@ export default function QuoteForm() {
   if (status === "success") {
     return (
       <div className="rounded-2xl bg-emergency/10 border border-emergency/30 p-10 text-center">
-        <span className="material-symbols-outlined text-emergency text-5xl mb-4 block">
-          check_circle
-        </span>
+        <Icon name="check_circle" className="text-emergency text-5xl mb-4 block" />
         <h3 className="text-2xl font-extrabold tracking-tight mb-3 text-ink-900">
           Request received.
         </h3>

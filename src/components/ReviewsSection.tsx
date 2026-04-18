@@ -1,5 +1,6 @@
 import { getReviews } from "@/lib/reviews";
 import type { Review } from "@/lib/db";
+import Icon from "@/components/Icon";
 
 // Placeholder used when DB is empty / not yet seeded.
 const fallback: Review[] = [
@@ -47,9 +48,7 @@ export default async function ReviewsSection() {
               className="inline-flex items-center gap-2 text-sm font-bold text-emergency-deep hover:text-emergency transition-colors"
             >
               See all reviews
-              <span className="material-symbols-outlined text-base">
-                open_in_new
-              </span>
+              <Icon name="open_in_new" className="text-base" />
             </a>
           </div>
         </div>
@@ -59,9 +58,7 @@ export default async function ReviewsSection() {
           <div className="col-span-12 lg:col-span-5 rounded-3xl bg-ink-900 text-cream-50 p-10 md:p-12 flex flex-col lift">
             <div className="flex items-center justify-between mb-8">
               <div className="rounded-full bg-cream-50 text-ink-900 text-xs font-bold px-3 py-1.5 flex items-center gap-2">
-                <span className="material-symbols-outlined text-sm">
-                  verified
-                </span>
+                <Icon name="verified" className="text-sm" />
                 via Google
               </div>
               <div className="text-primary text-xl tracking-wider">

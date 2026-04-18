@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Article } from "@/lib/db";
+import Icon from "@/components/Icon";
 
 export default function ArticleCard({ article }: { article: Article }) {
   return (
@@ -27,9 +28,7 @@ export default function ArticleCard({ article }: { article: Article }) {
         </span>
         <span className="text-xs text-emergency-deep font-bold flex items-center gap-1">
           Read
-          <span className="material-symbols-outlined text-base">
-            arrow_right_alt
-          </span>
+          <Icon name="arrow_right_alt" className="text-base" />
         </span>
       </div>
     </Link>

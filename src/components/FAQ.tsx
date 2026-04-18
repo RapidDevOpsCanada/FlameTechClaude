@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Icon from "@/components/Icon";
 
 const items = [
   {
@@ -78,13 +79,12 @@ export default function FAQ() {
                   <span className="font-semibold text-base md:text-lg">
                     {item.q}
                   </span>
-                  <span
-                    className={`material-symbols-outlined text-primary transition-transform duration-200 ${
+                  <Icon
+                    name="add"
+                    className={`text-primary text-xl transition-transform duration-200 ${
                       isOpen ? "rotate-45" : ""
                     }`}
-                  >
-                    add
-                  </span>
+                  />
                 </button>
                 <div
                   className={`grid transition-[grid-template-rows] duration-300 ease-out ${

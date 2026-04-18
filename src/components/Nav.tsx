@@ -2,6 +2,8 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import Icon from "@/components/Icon";
+import TopBar from "@/components/TopBar";
 
 type MegaItem = {
   label: string;
@@ -43,19 +45,19 @@ const menu: NavItem[] = [
           items: [
             {
               label: "Bathroom Plumbing",
-              href: "/#services",
+              href: "/services/bathroom-plumbing",
               icon: "bathroom",
               desc: "Sinks, toilets, full bathroom retrofits.",
             },
             {
               label: "Shower Plumbing",
-              href: "/#services",
+              href: "/services/shower-plumbing",
               icon: "shower",
               desc: "Shower installs, valve replacements.",
             },
             {
               label: "Drain Cleaning",
-              href: "/#services",
+              href: "/services/drain-cleaning",
               icon: "water_damage",
               desc: "Clogs, slow drains, camera inspection.",
             },
@@ -66,13 +68,13 @@ const menu: NavItem[] = [
           items: [
             {
               label: "Emergency Plumbing",
-              href: "/#services",
+              href: "/services/emergency-plumbing",
               icon: "contact_emergency",
               desc: "Leaks, burst pipes, urgent fixes.",
             },
             {
               label: "PolyB Plumbing",
-              href: "/#services",
+              href: "/services/polyb-plumbing",
               icon: "swap_horiz",
               desc: "Full replacement for 80s/90s homes.",
             },
@@ -98,19 +100,19 @@ const menu: NavItem[] = [
           items: [
             {
               label: "Boiler Installation",
-              href: "/#services",
+              href: "/services/boiler-installation",
               icon: "build",
               desc: "New high-efficiency boilers.",
             },
             {
               label: "Boiler Repair",
-              href: "/#services",
+              href: "/services/boiler-repair",
               icon: "handyman",
               desc: "Diagnosis and fast repairs.",
             },
             {
               label: "Boiler Service",
-              href: "/#services",
+              href: "/services/boiler-service",
               icon: "tune",
               desc: "Annual maintenance & tune-ups.",
             },
@@ -121,19 +123,19 @@ const menu: NavItem[] = [
           items: [
             {
               label: "High-Efficiency Furnaces",
-              href: "/#services",
+              href: "/services/high-efficiency-furnaces",
               icon: "local_fire_department",
               desc: "95–98% AFUE installs.",
             },
             {
               label: "Garage Heaters",
-              href: "/#services",
+              href: "/services/garage-heaters",
               icon: "garage",
               desc: "Warm, code-compliant garages.",
             },
             {
               label: "Heat Pumps",
-              href: "/#services",
+              href: "/services/heat-pumps",
               icon: "ac_unit",
               desc: "Cold-climate dual-fuel setups.",
             },
@@ -159,13 +161,13 @@ const menu: NavItem[] = [
           items: [
             {
               label: "Air Conditioning",
-              href: "/#services",
+              href: "/services/air-conditioning",
               icon: "ac_unit",
               desc: "Central AC installs & service.",
             },
             {
               label: "Humidifiers",
-              href: "/#services",
+              href: "/services/humidifiers",
               icon: "water_drop",
               desc: "Whole-home humidification.",
             },
@@ -191,19 +193,19 @@ const menu: NavItem[] = [
           items: [
             {
               label: "Hot Water Tanks",
-              href: "/#services",
+              href: "/services/hot-water-tanks",
               icon: "propane_tank",
               desc: "Service, repair, and new installs.",
             },
             {
               label: "Hot Water Tank Replacement",
-              href: "/#services",
+              href: "/services/hot-water-tank-replacement",
               icon: "sync",
               desc: "Same-day tank swaps when possible.",
             },
             {
               label: "Tankless Water Heaters",
-              href: "/#services",
+              href: "/services/tankless-water-heaters",
               icon: "whatshot",
               desc: "Endless hot water, lower running costs.",
             },
@@ -214,7 +216,7 @@ const menu: NavItem[] = [
           items: [
             {
               label: "Water Softeners",
-              href: "/#services",
+              href: "/services/water-softeners",
               icon: "science",
               desc: "Protect fixtures from Alberta hard water.",
             },
@@ -236,7 +238,9 @@ export default function Nav() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="sticky top-0 w-full z-50 bg-ink-900/95 backdrop-blur-lg border-b border-line-dark">
+    <div className="sticky top-0 w-full z-50">
+      <TopBar />
+      <nav className="w-full bg-ink-900/95 backdrop-blur-lg border-b border-line-dark">
       <div className="max-w-7xl mx-auto px-6 md:px-10 flex items-center justify-between gap-6 h-[84px] md:h-[92px]">
         {/* Logo — prominent */}
         <Link
@@ -261,9 +265,7 @@ export default function Nav() {
               >
                 {item.label}
                 {item.mega && (
-                  <span className="material-symbols-outlined text-lg transition-transform group-hover:rotate-180">
-                    expand_more
-                  </span>
+                  <Icon name="expand_more" className="text-lg transition-transform group-hover:rotate-180" />
                 )}
               </Link>
               {item.mega && <MegaPanel mega={item.mega} />}
@@ -277,9 +279,7 @@ export default function Nav() {
             href="tel:5878343668"
             className="hidden xl:flex items-center gap-2 text-[17px] font-extrabold text-cream-50 hover:text-emergency transition-colors"
           >
-            <span className="material-symbols-outlined text-xl text-emergency">
-              call
-            </span>
+            <Icon name="call" className="text-xl text-emergency" />
             587-834-3668
           </a>
           <a
@@ -297,9 +297,7 @@ export default function Nav() {
           onClick={() => setOpen((o) => !o)}
           className="lg:hidden inline-flex items-center justify-center w-11 h-11 rounded-full border border-line-dark text-cream-50"
         >
-          <span className="material-symbols-outlined">
-            {open ? "close" : "menu"}
-          </span>
+          <Icon name={open ? "close" : "menu"} className="text-xl" />
         </button>
       </div>
 
@@ -319,9 +317,7 @@ export default function Nav() {
                 href="tel:5878343668"
                 className="inline-flex items-center justify-center gap-2 rounded-full border border-line-dark text-cream-50 font-semibold py-3 text-sm"
               >
-                <span className="material-symbols-outlined text-base text-emergency">
-                  call
-                </span>
+                <Icon name="call" className="text-base text-emergency" />
                 587-834-3668
               </a>
               <a
@@ -335,7 +331,8 @@ export default function Nav() {
           </div>
         </div>
       )}
-    </nav>
+      </nav>
+    </div>
   );
 }
 
@@ -366,9 +363,10 @@ function MegaPanel({ mega }: { mega: NonNullable<NavItem["mega"]> }) {
                         href={item.href}
                         className="flex items-start gap-3 p-3 rounded-xl hover:bg-ink-700 transition-colors group/item"
                       >
-                        <span className="material-symbols-outlined text-2xl text-primary mt-0.5">
-                          {item.icon}
-                        </span>
+                        <Icon
+                          name={item.icon}
+                          className="text-2xl text-primary mt-0.5"
+                        />
                         <span className="flex-1">
                           <span className="block font-bold text-[16px] text-cream-50 group-hover/item:text-emergency transition-colors">
                             {item.label}
@@ -408,9 +406,7 @@ function MegaPanel({ mega }: { mega: NonNullable<NavItem["mega"]> }) {
                   className="inline-flex items-center justify-center gap-2 rounded-full bg-emergency text-cream-50 font-extrabold uppercase tracking-tight px-4 py-3 text-[13px] hover:bg-emergency-deep transition-colors"
                 >
                   {mega.promo.cta}
-                  <span className="material-symbols-outlined text-base">
-                    arrow_right_alt
-                  </span>
+                  <Icon name="arrow_right_alt" className="text-base" />
                 </a>
               </div>
             </div>
@@ -448,13 +444,12 @@ function MobileMenuItem({
         className="w-full flex items-center justify-between px-3 py-3 text-base font-semibold text-cream-50/90 rounded-xl hover:bg-ink-800"
       >
         {item.label}
-        <span
-          className={`material-symbols-outlined transition-transform ${
+        <Icon
+          name="expand_more"
+          className={`text-xl transition-transform ${
             expanded ? "rotate-180" : ""
           }`}
-        >
-          expand_more
-        </span>
+        />
       </button>
       {expanded && (
         <div className="pl-3 pb-2 space-y-4">
@@ -471,9 +466,10 @@ function MobileMenuItem({
                     onClick={onNavigate}
                     className="flex items-center gap-3 px-3 py-2.5 rounded-lg hover:bg-ink-800"
                   >
-                    <span className="material-symbols-outlined text-base text-primary">
-                      {sub.icon}
-                    </span>
+                    <Icon
+                      name={sub.icon}
+                      className="text-base text-primary"
+                    />
                     <span className="text-sm text-cream-50/80">
                       {sub.label}
                     </span>
