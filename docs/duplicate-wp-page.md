@@ -94,6 +94,16 @@ cp ~/Downloads/flametech-extracted/uploads/<year>/<month>/<file>.<ext> \
 Only copy files that are actually referenced. Don't bulk-copy whole month
 folders — they drag in dozens of unused images.
 
+**⚠️ Always `git add -f` the new images.** `.gitignore` blocks
+`/public/images/{2022,2023,2025,2026}/`, so a plain `git add -A` will
+silently skip them. Either:
+
+```bash
+git add -f public/images/2026/04/new-file.webp
+```
+
+or stage each explicitly by filename.
+
 ### 5. Update `src/lib/services.ts`
 
 Find the placeholder entry for the slug and replace it. Fields to fill in:
