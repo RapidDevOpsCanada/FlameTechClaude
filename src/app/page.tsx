@@ -133,26 +133,46 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="max-w-7xl mx-auto px-6 md:px-10">
-            <div className="flex flex-wrap items-center justify-center gap-10 mt-14 pt-10 border-t border-line-light">
-              <img
-                src="/images/blue-ceip-225x300.png"
-                alt="BBB accredited"
-                className="h-14 object-contain"
-              />
-              <img
-                src="/images/financeit.png"
-                alt="Financing via Financeit"
-                className="h-8 object-contain"
-              />
-            </div>
+        </section>
+
+        {/* EMERGENCY CALLOUT — between Popular Services and Founders */}
+        <section className="relative bg-ink-900 py-16 overflow-hidden">
+          <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+            <div className="w-[640px] h-[320px] bg-emergency/25 blur-3xl rounded-full" />
+          </div>
+          <div className="max-w-7xl mx-auto px-6 md:px-10 relative">
+            <Reveal>
+              <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-emergency to-emergency-deep text-cream-50 p-8 md:p-12 flex flex-col md:flex-row items-start md:items-center gap-8 soft-shadow">
+                <div className="absolute -right-10 -bottom-10 w-64 h-64 rounded-full bg-cream-50/10 blur-2xl pointer-events-none" />
+                <div className="relative flex-1">
+                  <div className="inline-flex items-center gap-2 rounded-full bg-ink-900/20 px-3 py-1 text-[11px] font-extrabold uppercase tracking-[0.18em] mb-4">
+                    <span className="w-1.5 h-1.5 rounded-full bg-cream-50 animate-pulse" />
+                    Emergency Response
+                  </div>
+                  <h2 className="font-display text-3xl md:text-4xl font-extrabold tracking-[-0.02em] leading-[1.05]">
+                    Burst pipe? No heat? Call now.
+                  </h2>
+                  <p className="text-cream-50/85 mt-3 max-w-lg">
+                    Fast on-site response across Calgary and surrounding
+                    communities when you need it most.
+                  </p>
+                </div>
+                <a
+                  href="tel:5878343668"
+                  className="relative inline-flex items-center gap-2 rounded-full bg-ink-900 text-cream-50 font-extrabold uppercase tracking-tight px-7 py-4 text-[14px] hover:bg-ink-800 transition-colors"
+                >
+                  <Icon name="call" className="text-base" />
+                  Call 587-834-3668
+                </a>
+              </div>
+            </Reveal>
           </div>
         </section>
 
         {/* WHY US — cream, light mode */}
         <section
           id="why-us"
-          className="relative bg-cream-50 text-ink-900 py-20 overflow-hidden border-t border-line-light"
+          className="relative bg-cream-50 text-ink-900 py-20 overflow-hidden"
         >
           <div className="absolute -bottom-40 -right-40 w-[560px] h-[560px] rounded-full bg-primary/10 blur-3xl pointer-events-none"></div>
           <div className="max-w-7xl mx-auto px-6 md:px-10 relative">
@@ -408,40 +428,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* EMERGENCY CALLOUT — ink-900, teal glow center */}
-        <section className="relative bg-ink-900 py-16 overflow-hidden">
-          <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-            <div className="w-[640px] h-[320px] bg-emergency/25 blur-3xl rounded-full" />
-          </div>
-          <div className="max-w-7xl mx-auto px-6 md:px-10 relative">
-            <Reveal>
-              <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-emergency to-emergency-deep text-cream-50 p-8 md:p-12 flex flex-col md:flex-row items-start md:items-center gap-8 soft-shadow">
-                <div className="absolute -right-10 -bottom-10 w-64 h-64 rounded-full bg-cream-50/10 blur-2xl pointer-events-none" />
-                <div className="relative flex-1">
-                  <div className="inline-flex items-center gap-2 rounded-full bg-ink-900/20 px-3 py-1 text-[11px] font-extrabold uppercase tracking-[0.18em] mb-4">
-                    <span className="w-1.5 h-1.5 rounded-full bg-cream-50 animate-pulse" />
-                    Emergency Response
-                  </div>
-                  <h2 className="font-display text-3xl md:text-4xl font-extrabold tracking-[-0.02em] leading-[1.05]">
-                    Burst pipe? No heat? Call now.
-                  </h2>
-                  <p className="text-cream-50/85 mt-3 max-w-lg">
-                    Fast on-site response across Calgary and surrounding
-                    communities when you need it most.
-                  </p>
-                </div>
-                <a
-                  href="tel:5878343668"
-                  className="relative inline-flex items-center gap-2 rounded-full bg-ink-900 text-cream-50 font-extrabold uppercase tracking-tight px-7 py-4 text-[14px] hover:bg-ink-800 transition-colors"
-                >
-                  <Icon name="call" className="text-base" />
-                  Call 587-834-3668
-                </a>
-              </div>
-            </Reveal>
-          </div>
-        </section>
-
         {/* HOW IT WORKS — cream */}
         <HowItWorks />
 
@@ -539,6 +525,23 @@ export default function Home() {
                     icon="location_on"
                     text="Calgary, AB & surrounding communities"
                   />
+                </div>
+
+                <div className="mt-8 pt-6 border-t border-line-dark">
+                  <p className="text-xs font-bold uppercase tracking-[0.18em] text-primary mb-3">
+                    Monthly Financing Available
+                  </p>
+                  <div className="flex items-center gap-4 rounded-2xl bg-cream-50 p-4">
+                    <img
+                      src="/images/financeit.png"
+                      alt="Financing via Financeit"
+                      className="h-7 object-contain"
+                    />
+                    <p className="text-xs text-ink-700 leading-snug">
+                      Flexible monthly payments on larger installs via our
+                      Financeit partner.
+                    </p>
+                  </div>
                 </div>
               </Reveal>
               <Reveal
