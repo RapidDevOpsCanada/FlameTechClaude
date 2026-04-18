@@ -87,10 +87,65 @@ export default function Home() {
           </div>
         </section>
 
-        {/* WHY US — cream, light mode, just below stats */}
+        {/* POPULAR SERVICES — cream marquee */}
+        <section className="bg-cream-50 text-ink-900 py-20 overflow-hidden">
+          <div className="max-w-7xl mx-auto px-6 md:px-10">
+            <Reveal>
+              <div className="text-center mb-12">
+                <span className="eyebrow-light justify-center mb-4 mx-auto">
+                  Popular Services
+                </span>
+                <h2 className="font-display text-4xl md:text-5xl font-extrabold tracking-[-0.025em] max-w-2xl mx-auto mt-4 leading-[1.02]">
+                  Most-requested by Calgary homeowners
+                </h2>
+              </div>
+            </Reveal>
+          </div>
+
+          <div className="relative">
+            <div className="pointer-events-none absolute inset-y-0 left-0 w-24 bg-gradient-to-r from-cream-50 to-transparent z-10" />
+            <div className="pointer-events-none absolute inset-y-0 right-0 w-24 bg-gradient-to-l from-cream-50 to-transparent z-10" />
+            <div className="marquee">
+              {[...brandTiles, ...brandTiles].map((item, i) => (
+                <div
+                  key={`${item.label}-${i}`}
+                  className="shrink-0 w-56 rounded-2xl bg-white border border-line-light p-6 flex flex-col items-center justify-between h-44"
+                >
+                  <div className="flex-1 w-full flex items-center justify-center">
+                    <img
+                      src={item.src}
+                      alt={item.label}
+                      className="max-h-20 max-w-full object-contain"
+                    />
+                  </div>
+                  <span className="text-xs font-bold uppercase tracking-[0.14em] text-ink-500 mt-3 text-center">
+                    {item.label}
+                  </span>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div className="max-w-7xl mx-auto px-6 md:px-10">
+            <div className="flex flex-wrap items-center justify-center gap-10 mt-14 pt-10 border-t border-line-light">
+              <img
+                src="/images/blue-ceip-225x300.png"
+                alt="BBB accredited"
+                className="h-14 object-contain"
+              />
+              <img
+                src="/images/financeit.png"
+                alt="Financing via Financeit"
+                className="h-8 object-contain"
+              />
+            </div>
+          </div>
+        </section>
+
+        {/* WHY US — cream, light mode */}
         <section
           id="why-us"
-          className="relative bg-cream-50 text-ink-900 py-20 overflow-hidden"
+          className="relative bg-cream-50 text-ink-900 py-20 overflow-hidden border-t border-line-light"
         >
           <div className="absolute -bottom-40 -right-40 w-[560px] h-[560px] rounded-full bg-primary/10 blur-3xl pointer-events-none"></div>
           <div className="max-w-7xl mx-auto px-6 md:px-10 relative">
@@ -373,61 +428,6 @@ export default function Home() {
 
         {/* HOW IT WORKS — cream */}
         <HowItWorks />
-
-        {/* POPULAR SERVICES — cream marquee */}
-        <section className="bg-cream-50 text-ink-900 py-20 overflow-hidden">
-          <div className="max-w-7xl mx-auto px-6 md:px-10">
-            <Reveal>
-              <div className="text-center mb-12">
-                <span className="eyebrow-light justify-center mb-4 mx-auto">
-                  Popular Services
-                </span>
-                <h2 className="font-display text-4xl md:text-5xl font-extrabold tracking-[-0.025em] max-w-2xl mx-auto mt-4 leading-[1.02]">
-                  Most-requested by Calgary homeowners
-                </h2>
-              </div>
-            </Reveal>
-          </div>
-
-          <div className="relative">
-            <div className="pointer-events-none absolute inset-y-0 left-0 w-24 bg-gradient-to-r from-cream-50 to-transparent z-10" />
-            <div className="pointer-events-none absolute inset-y-0 right-0 w-24 bg-gradient-to-l from-cream-50 to-transparent z-10" />
-            <div className="marquee">
-              {[...brandTiles, ...brandTiles].map((item, i) => (
-                <div
-                  key={`${item.label}-${i}`}
-                  className="shrink-0 w-56 rounded-2xl bg-white border border-line-light p-6 flex flex-col items-center justify-between h-44"
-                >
-                  <div className="flex-1 w-full flex items-center justify-center">
-                    <img
-                      src={item.src}
-                      alt={item.label}
-                      className="max-h-20 max-w-full object-contain"
-                    />
-                  </div>
-                  <span className="text-xs font-bold uppercase tracking-[0.14em] text-ink-500 mt-3 text-center">
-                    {item.label}
-                  </span>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          <div className="max-w-7xl mx-auto px-6 md:px-10">
-            <div className="flex flex-wrap items-center justify-center gap-10 mt-14 pt-10 border-t border-line-light">
-              <img
-                src="/images/blue-ceip-225x300.png"
-                alt="BBB accredited"
-                className="h-14 object-contain"
-              />
-              <img
-                src="/images/financeit.png"
-                alt="Financing via Financeit"
-                className="h-8 object-contain"
-              />
-            </div>
-          </div>
-        </section>
 
         {/* SERVICE AREA — ink-900, teal glow top-left */}
         <section
