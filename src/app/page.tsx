@@ -1,67 +1,82 @@
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
+import StickyCallBar from "@/components/StickyCallBar";
+import QuoteForm from "@/components/QuoteForm";
 
 export default function Home() {
   return (
     <>
       <Nav />
       <main>
-        <section className="relative min-h-[870px] flex items-center border-b border-blueprint-grid">
-          <div className="absolute inset-0 z-0 opacity-10 pointer-events-none grid-guide"></div>
-          <div className="max-w-7xl mx-auto px-8 w-full grid grid-cols-12 gap-8 items-center py-20">
+        <section className="relative border-b border-blueprint-grid overflow-hidden">
+          <div className="absolute inset-0 z-0 opacity-[0.15] pointer-events-none grid-guide"></div>
+          <div className="max-w-7xl mx-auto px-8 w-full grid grid-cols-12 gap-8 items-center py-16 md:py-24 relative">
             <div className="col-span-12 lg:col-span-7">
               <div className="flex items-center gap-4 mb-8">
                 <span className="mono-label text-primary bg-primary/5 px-2 py-1">
-                  Licensed · Insured · Bonded
+                  Licensed · Insured · Bonded · BBB Accredited
                 </span>
                 <div className="h-[1px] flex-grow bg-blueprint-grid"></div>
               </div>
-              <h1 className="text-6xl md:text-8xl font-headline font-black tracking-tighter leading-none mb-8">
+              <h1 className="text-5xl md:text-7xl xl:text-8xl font-headline font-black tracking-tighter leading-[0.95] mb-8">
                 CALGARY&apos;S <span className="text-primary">TRUSTED</span>
                 <br />
                 PLUMBERS.
               </h1>
-              <p className="text-xl text-technical-label max-w-xl mb-12 font-normal leading-relaxed">
-                At FlameTech, we deliver top-notch plumbing and heating services
-                tailored to Calgary residents. 24/7 emergency response, upfront
-                pricing, and a satisfaction guarantee — backed by certified
-                local technicians.
+              <p className="text-lg md:text-xl text-technical-label max-w-xl mb-10 font-normal leading-relaxed">
+                At FlameTech, we deliver top-notch plumbing and heating
+                services tailored to Calgary residents. 24/7 emergency
+                response, upfront pricing, free estimates, and a satisfaction
+                guarantee.
               </p>
+
+              <div className="border border-blueprint-grid bg-white p-6 mb-8 max-w-md shadow-sm">
+                <p className="mono-label text-technical-label mb-2">
+                  Call Our 24/7 Dispatch
+                </p>
+                <a
+                  href="tel:5878343668"
+                  className="block font-headline text-4xl md:text-5xl font-black tracking-tighter text-blueprint-text hover:text-primary transition-colors"
+                >
+                  587-834-3668
+                </a>
+              </div>
+
               <div className="flex flex-wrap gap-4">
                 <a
                   href="tel:5878343668"
-                  className="bg-emergency text-white px-8 py-5 font-technical font-bold flex items-center gap-3 hover:brightness-110 transition-all shadow-xl shadow-emergency/20"
+                  className="bg-emergency text-white px-7 py-4 font-technical font-bold flex items-center gap-3 hover:brightness-110 transition-all shadow-lg shadow-emergency/20 text-sm tracking-widest uppercase"
                 >
-                  CALL 587-834-3668
                   <span className="material-symbols-outlined text-lg">
                     contact_emergency
                   </span>
+                  24/7 Emergency
                 </a>
                 <a
-                  href="#services"
-                  className="px-8 py-5 font-technical font-bold border-2 border-primary text-primary hover:bg-primary hover:text-white transition-all"
+                  href="#quote"
+                  className="px-7 py-4 font-technical font-bold border-2 border-primary text-primary hover:bg-primary hover:text-white transition-all text-sm tracking-widest uppercase"
                 >
-                  VIEW SERVICES
+                  Free Estimate
                 </a>
               </div>
             </div>
+
             <div className="col-span-12 lg:col-span-5 relative">
-              <div className="aspect-square bg-white border border-blueprint-grid p-4 shadow-2xl rotate-2">
+              <div className="relative overflow-hidden border border-blueprint-grid bg-white shadow-xl">
                 <img
-                  className="w-full h-full object-cover"
-                  alt="FlameTech Plumbing & Heating service van"
+                  className="w-full h-full object-cover aspect-[4/5]"
+                  alt="FlameTech Plumbing & Heating service van in Calgary"
                   src="/images/FTVAN.jpg"
                 />
-                <div className="absolute -bottom-6 -left-6 bg-white border border-blueprint-grid p-4 shadow-lg w-48">
-                  <p className="mono-label text-[8px] text-technical-label mb-2">
-                    Customer Rating
-                  </p>
-                  <div className="h-1 w-full bg-slate-100 mb-2">
-                    <div className="h-full bg-primary w-[100%]"></div>
+                <div className="absolute top-4 left-4 bg-white/95 px-3 py-2 border border-blueprint-grid">
+                  <div className="flex items-center gap-2">
+                    <span className="text-primary font-technical text-sm font-bold tracking-wider">
+                      ★★★★★
+                    </span>
+                    <span className="font-technical text-[10px] text-technical-label">
+                      5-STAR RATED
+                    </span>
                   </div>
-                  <p className="font-technical text-xs font-bold">
-                    ★★★★★ 5-STAR RATED
-                  </p>
                 </div>
               </div>
             </div>
@@ -166,7 +181,7 @@ export default function Home() {
                 href="tel:5878343668"
                 className="w-full md:w-auto bg-white text-emergency font-technical font-bold px-10 py-6 text-sm uppercase tracking-widest hover:bg-blueprint-bg transition-all shadow-2xl text-center"
               >
-                CALL 587-834-3668
+                Call 587-834-3668
               </a>
             </div>
           </div>
@@ -182,11 +197,10 @@ export default function Home() {
                 <div className="relative bg-slate-50 aspect-video flex items-center justify-center overflow-hidden">
                   <img
                     className="w-full h-full object-cover"
-                    alt="FlameTech Pro Team serving Calgary and surrounding communities"
+                    alt="FlameTech Pro Team serving Calgary"
                     src="/images/air-ease-pro-team-e1764790049321.png"
                   />
-                  <div className="absolute inset-0 border-[20px] border-white/40 pointer-events-none"></div>
-                  <div className="absolute top-4 left-4 font-technical text-[10px] text-primary bg-white/90 px-2 py-1 border border-blueprint-grid">
+                  <div className="absolute top-4 left-4 font-technical text-[10px] text-primary bg-white/95 px-2 py-1 border border-blueprint-grid">
                     CALGARY · LICENSED · BONDED
                   </div>
                 </div>
@@ -290,22 +304,22 @@ export default function Home() {
               ].map((item) => (
                 <div
                   key={item.label}
-                  className="border-r border-b border-blueprint-grid p-6 flex flex-col items-center justify-between bg-white"
+                  className="border-r border-b border-blueprint-grid bg-white flex flex-col items-center justify-between p-6 h-48"
                 >
-                  <div className="h-24 w-full flex items-center justify-center mb-4">
+                  <div className="flex-1 w-full flex items-center justify-center px-2">
                     <img
-                      className="max-h-24 max-w-full object-contain"
+                      className="max-h-20 max-w-full object-contain"
                       src={item.src}
                       alt={item.label}
                     />
                   </div>
-                  <span className="mono-label text-technical-label text-center">
+                  <span className="mono-label text-technical-label text-center mt-3 block">
                     {item.label}
                   </span>
                 </div>
               ))}
             </div>
-            <div className="flex flex-wrap items-center justify-center gap-8 mt-16 pt-10 border-t border-blueprint-grid">
+            <div className="flex flex-wrap items-center justify-center gap-10 mt-16 pt-10 border-t border-blueprint-grid">
               <img
                 src="/images/REVIEWS1.png"
                 alt="5-star customer reviews"
@@ -327,9 +341,10 @@ export default function Home() {
 
         <section
           id="service-area"
-          className="py-24 bg-slate-50 border-b border-blueprint-grid"
+          className="relative py-24 bg-slate-50 border-b border-blueprint-grid"
         >
-          <div className="max-w-7xl mx-auto px-8">
+          <div className="absolute inset-0 z-0 opacity-[0.08] pointer-events-none grid-guide"></div>
+          <div className="max-w-7xl mx-auto px-8 relative">
             <div className="grid grid-cols-12 gap-8 mb-16 items-end">
               <div className="col-span-12 md:col-span-6">
                 <span className="mono-label text-primary mb-4 block">
@@ -388,98 +403,172 @@ export default function Home() {
 
         <section className="py-24 bg-white border-b border-blueprint-grid">
           <div className="max-w-7xl mx-auto px-8">
-            <div className="grid grid-cols-12 gap-8 mb-16">
-              <div className="col-span-12">
+            <div className="grid grid-cols-12 gap-8 mb-12 items-end">
+              <div className="col-span-12 md:col-span-8">
                 <span className="mono-label text-primary mb-4 block">
-                  Customer Feedback
+                  Verified Google Reviews
                 </span>
                 <h2 className="text-4xl md:text-5xl font-headline font-bold tracking-tighter">
-                  5-STAR RATED
+                  WHAT CALGARY HOMEOWNERS SAY
                 </h2>
               </div>
-            </div>
-            <div className="grid grid-cols-12 gap-8">
-              <div className="col-span-12 md:col-span-6 bg-white border border-blueprint-grid p-12">
-                <div className="text-primary mb-6 font-technical text-lg">
-                  ★★★★★
-                </div>
-                <p className="text-2xl font-light leading-snug mb-12">
-                  &ldquo;Fast, professional, and fairly priced. They showed up
-                  on time, quoted the job upfront, and handled our boiler
-                  replacement without a hitch. Exactly what you want from a
-                  Calgary plumber.&rdquo;
-                </p>
-                <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 bg-primary/10 flex items-center justify-center font-technical font-bold text-primary">
-                    JS
+              <div className="col-span-12 md:col-span-4 md:text-right">
+                <div className="inline-flex flex-col items-start md:items-end gap-1">
+                  <div className="text-primary font-technical text-2xl font-bold tracking-wider">
+                    ★★★★★
                   </div>
-                  <div>
-                    <p className="font-bold font-headline uppercase text-xs">
-                      Verified Homeowner
-                    </p>
-                    <p className="mono-label text-technical-label">
-                      Calgary SW
-                    </p>
+                  <p className="mono-label text-technical-label">
+                    5.0 · Hundreds of reviews
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="grid grid-cols-12 gap-6">
+              {[
+                {
+                  initials: "JM",
+                  name: "Jennifer M.",
+                  area: "Calgary SW",
+                  date: "2 weeks ago",
+                  quote:
+                    "Called FlameTech after hours for a burst pipe. A technician was at our door within the hour, shut the water off, and had the leak fixed before midnight. Fair price, clean work, and genuinely kind people. Already booked them for the spring furnace service.",
+                },
+                {
+                  initials: "RT",
+                  name: "Ryan T.",
+                  area: "Airdrie",
+                  date: "1 month ago",
+                  quote:
+                    "Replaced our ancient boiler with a high-efficiency unit. Quote was upfront, install took exactly as long as promised, and the heating bill is noticeably lower. Crew was tidy and explained the controls thoroughly. Highly recommend.",
+                },
+                {
+                  initials: "SK",
+                  name: "Sarah K.",
+                  area: "Calgary NW",
+                  date: "3 months ago",
+                  quote:
+                    "Full PolyB replacement in our 1980s home. FlameTech walked us through the whole process, worked around our family&rsquo;s schedule, and left the house cleaner than they found it. Insurance is happy and so are we.",
+                },
+              ].map((r) => (
+                <div
+                  key={r.name}
+                  className="col-span-12 md:col-span-4 bg-white border border-blueprint-grid p-8 flex flex-col"
+                >
+                  <div className="flex items-center justify-between mb-5">
+                    <div className="text-primary font-technical text-sm font-bold tracking-wider">
+                      ★★★★★
+                    </div>
+                    <span className="mono-label text-technical-label">
+                      {r.date}
+                    </span>
+                  </div>
+                  <p
+                    className="text-base leading-relaxed mb-8 flex-grow"
+                    dangerouslySetInnerHTML={{ __html: `&ldquo;${r.quote}&rdquo;` }}
+                  />
+                  <div className="flex items-center gap-4 pt-6 border-t border-blueprint-grid">
+                    <div className="w-10 h-10 bg-primary/10 flex items-center justify-center font-technical font-bold text-primary text-sm">
+                      {r.initials}
+                    </div>
+                    <div>
+                      <p className="font-bold font-headline text-xs">
+                        {r.name}
+                      </p>
+                      <p className="mono-label text-technical-label">
+                        {r.area}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section
+          id="quote"
+          className="py-24 bg-slate-50 border-b border-blueprint-grid"
+        >
+          <div className="max-w-5xl mx-auto px-8">
+            <div className="grid grid-cols-12 gap-12">
+              <div className="col-span-12 md:col-span-5">
+                <span className="mono-label text-primary mb-4 block">
+                  Request Service
+                </span>
+                <h2 className="text-4xl md:text-5xl font-headline font-bold tracking-tighter mb-6">
+                  GET A FREE ESTIMATE
+                </h2>
+                <p className="text-technical-label leading-relaxed mb-8">
+                  Tell us what&apos;s going on and our dispatch team will call
+                  you back with pricing and availability. For 24/7 emergency
+                  service, call directly.
+                </p>
+                <div className="border-t border-blueprint-grid pt-6 space-y-3">
+                  <div className="flex items-center gap-3">
+                    <span className="material-symbols-outlined text-primary text-base">
+                      call
+                    </span>
+                    <a
+                      href="tel:5878343668"
+                      className="font-technical text-sm font-bold hover:text-primary transition-colors"
+                    >
+                      587-834-3668
+                    </a>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <span className="material-symbols-outlined text-primary text-base">
+                      schedule
+                    </span>
+                    <span className="font-technical text-xs text-technical-label">
+                      24/7 Emergency Dispatch
+                    </span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <span className="material-symbols-outlined text-primary text-base">
+                      verified
+                    </span>
+                    <span className="font-technical text-xs text-technical-label">
+                      Licensed · Insured · BBB Accredited
+                    </span>
                   </div>
                 </div>
               </div>
-              <div className="col-span-12 md:col-span-6 bg-white border border-blueprint-grid p-12">
-                <div className="text-primary mb-6 font-technical text-lg">
-                  ★★★★★
-                </div>
-                <p className="text-2xl font-light leading-snug mb-12">
-                  &ldquo;Called them late on a Sunday with a burst line. They
-                  arrived within the hour, contained the damage, and had us
-                  running again the same night. Cannot recommend FlameTech
-                  enough.&rdquo;
-                </p>
-                <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 bg-primary/10 flex items-center justify-center font-technical font-bold text-primary">
-                    ET
-                  </div>
-                  <div>
-                    <p className="font-bold font-headline uppercase text-xs">
-                      Verified Homeowner
-                    </p>
-                    <p className="mono-label text-technical-label">Airdrie</p>
-                  </div>
-                </div>
+              <div className="col-span-12 md:col-span-7 bg-white border border-blueprint-grid p-8 md:p-10">
+                <QuoteForm />
               </div>
             </div>
           </div>
         </section>
 
-        <section className="py-32">
+        <section className="py-24">
           <div className="max-w-7xl mx-auto px-8 text-center">
             <div className="max-w-3xl mx-auto">
               <span className="mono-label text-primary mb-6 block">
                 Free Estimates · Satisfaction Guaranteed
               </span>
-              <h2 className="text-5xl md:text-7xl font-headline font-black tracking-tighter mb-12">
+              <h2 className="text-4xl md:text-6xl font-headline font-black tracking-tighter mb-10">
                 READY TO BOOK YOUR CALGARY PLUMBER?
               </h2>
               <div className="flex flex-col sm:flex-row justify-center gap-4">
                 <a
                   href="tel:5878343668"
-                  className="bg-primary text-white px-12 py-6 font-technical font-bold text-sm tracking-widest hover:bg-accent transition-all uppercase"
+                  className="bg-primary text-white px-10 py-5 font-technical font-bold text-sm tracking-widest hover:bg-accent transition-all uppercase"
+                >
+                  Call 587-834-3668
+                </a>
+                <a
+                  href="#quote"
+                  className="bg-emergency text-white px-10 py-5 font-technical font-bold text-sm tracking-widest hover:brightness-110 transition-all uppercase"
                 >
                   Request a Free Estimate
                 </a>
-                <a
-                  href="tel:5878343668"
-                  className="bg-emergency text-white px-12 py-6 font-technical font-bold text-sm tracking-widest hover:brightness-110 transition-all uppercase"
-                >
-                  24/7 Emergency Line
-                </a>
               </div>
-              <p className="mono-label text-technical-label mt-8">
-                Call 587-834-3668 · Calgary, AB · BBB Accredited
-              </p>
             </div>
           </div>
         </section>
       </main>
       <Footer />
+      <StickyCallBar />
     </>
   );
 }
