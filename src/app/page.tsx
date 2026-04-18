@@ -24,7 +24,7 @@ export default function Home() {
                 <span className="eyebrow mb-8">Get To Know Us</span>
                 <h1 className="font-display text-[44px] md:text-[60px] xl:text-[72px] font-extrabold leading-[0.98] tracking-[-0.03em] mt-6 mb-8">
                   Calgary Plumbers —{" "}
-                  <span className="italic font-medium text-emergency">
+                  <span className="text-emergency">
                     Trusted Plumbing Services
                   </span>
                   .
@@ -308,7 +308,7 @@ export default function Home() {
                 <span className="eyebrow mb-4">Why Calgary chooses us</span>
                 <h2 className="font-display text-4xl md:text-5xl xl:text-6xl font-extrabold tracking-[-0.025em] mt-4 mb-8 leading-[1.02]">
                   Local experts, upfront pricing, work you can{" "}
-                  <span className="italic font-medium text-emergency">
+                  <span className="text-emergency">
                     trust
                   </span>
                   .
