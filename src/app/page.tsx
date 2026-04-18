@@ -106,8 +106,8 @@ export default function Home() {
                   <div className="relative mx-6 md:mx-8 mb-6 rounded-2xl overflow-hidden border border-line-light">
                     <img
                       src="/images/FTVAN1.jpg"
-                      alt="FlameTech service van"
-                      className="w-full h-40 md:h-48 object-cover object-top"
+                      alt="Shaun Kristoff and Jason Mounsey — FlameTech founders — standing in front of the service van"
+                      className="w-full aspect-[4/5] object-cover object-top"
                     />
                     <div className="absolute bottom-3 left-3 rounded-full bg-ink-900/90 backdrop-blur-md text-cream-50 px-3 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.14em] flex items-center gap-2 border border-cream-50/10">
                       <Icon name="verified" className="text-sm text-primary" />
@@ -144,10 +144,31 @@ export default function Home() {
               </Reveal>
               <Reveal delay={120} className="col-span-12 lg:col-span-6">
                 <span className="eyebrow-light mb-4">Why Calgary chooses us</span>
-                <h2 className="font-display text-4xl md:text-5xl xl:text-6xl font-extrabold tracking-[-0.025em] mt-4 mb-8 leading-[1.02]">
+                <h2 className="font-display text-4xl md:text-5xl xl:text-6xl font-extrabold tracking-[-0.025em] mt-4 mb-6 leading-[1.02]">
                   Local experts, upfront pricing, work you can{" "}
                   <span className="text-emergency">trust</span>.
                 </h2>
+
+                <blockquote className="relative rounded-2xl bg-white border-l-4 border-primary border-y border-r border-line-light p-6 md:p-7 mb-8 soft-shadow">
+                  <span className="absolute -top-4 left-4 text-primary text-5xl font-display font-extrabold leading-none select-none">
+                    &ldquo;
+                  </span>
+                  <p className="text-ink-700 leading-relaxed mb-3">
+                    When you need reliable and professional Calgary plumbers,
+                    look no further than Flame Tech Plumbing &amp; Heating.
+                  </p>
+                  <p className="text-ink-700 leading-relaxed mb-3">
+                    We are your local experts, dedicated to providing
+                    top-notch plumbing services throughout Calgary and the
+                    surrounding areas.
+                  </p>
+                  <p className="text-ink-700 leading-relaxed">
+                    From routine maintenance to emergency repairs, our team
+                    of certified plumbers is ready to handle all your
+                    plumbing needs with efficiency and expertise.
+                  </p>
+                </blockquote>
+
                 <div className="space-y-4">
                   {[
                     {

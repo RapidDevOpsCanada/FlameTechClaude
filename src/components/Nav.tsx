@@ -3,7 +3,6 @@
 import Link from "next/link";
 import { useState } from "react";
 import Icon from "@/components/Icon";
-import TopBar from "@/components/TopBar";
 
 type MegaItem = {
   label: string;
@@ -238,9 +237,7 @@ export default function Nav() {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="sticky top-0 w-full z-50">
-      <TopBar />
-      <nav className="w-full bg-ink-900/95 backdrop-blur-lg border-b border-line-dark">
+    <nav className="sticky top-0 w-full z-50 bg-ink-900/95 backdrop-blur-lg border-b border-line-dark">
       <div className="max-w-7xl mx-auto px-6 md:px-10 flex items-center justify-between gap-6 h-[84px] md:h-[92px]">
         {/* Logo — prominent */}
         <Link
@@ -331,8 +328,7 @@ export default function Nav() {
           </div>
         </div>
       )}
-      </nav>
-    </div>
+    </nav>
   );
 }
 
