@@ -238,7 +238,7 @@ export default function Nav() {
 
   return (
     <nav className="sticky top-0 w-full z-50 bg-ink-900/95 backdrop-blur-lg border-b border-line-dark">
-      <div className="max-w-7xl mx-auto px-6 md:px-10 flex items-center justify-between gap-6 h-[84px] md:h-[92px]">
+      <div className="max-w-7xl mx-auto px-6 md:px-10 flex items-center justify-between gap-6 h-[92px] md:h-[100px]">
         {/* Logo — prominent */}
         <Link
           href="/"
@@ -248,7 +248,7 @@ export default function Nav() {
           <img
             src="/images/FT-LOGO-DARK8.png"
             alt="FlameTech"
-            className="h-14 md:h-16 lg:h-[72px] w-auto object-contain"
+            className="h-[62px] md:h-[70px] lg:h-20 w-auto object-contain"
           />
         </Link>
 

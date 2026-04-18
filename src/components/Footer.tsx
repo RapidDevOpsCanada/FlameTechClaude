@@ -86,7 +86,7 @@ export default function Footer() {
             <img
               src="/images/FT-LOGO-DARK8.png"
               alt="FlameTech"
-              className="h-20 w-auto object-contain"
+              className="h-[88px] w-auto object-contain"
             />
           </Link>
           <p className="text-cream-50/70 leading-relaxed text-sm max-w-xs mb-6">
