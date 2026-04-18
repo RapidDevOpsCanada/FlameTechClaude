@@ -1,4 +1,15 @@
-export type RichImage = { src: string; alt: string };
+export type RichImage = {
+  src: string;
+  alt: string;
+  /**
+   * How this image should fill its hero frame.
+   * - "contain" (default): good for product renders / cutouts on a
+   *   cream card (keeps the whole image visible, no crop)
+   * - "cover": good for lifestyle/install photos — fills the frame
+   *   by cropping to fit
+   */
+  fit?: "contain" | "cover";
+};
 
 export type RichItem = {
   heading?: string;
@@ -688,6 +699,7 @@ export const services: ServicePage[] = [
     heroImage: {
       src: "/images/2026/04/Furnace-after-len.webp",
       alt: "High-efficiency furnace installation completed by FlameTech",
+      fit: "cover",
     },
     intro:
       "High-efficiency furnaces installed and serviced by Calgary's trusted heating specialists. Expert installation, all major brands, priority emergency service.",

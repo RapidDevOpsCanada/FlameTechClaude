@@ -234,6 +234,22 @@ prefix. The 301 redirect in `next.config.mjs` handles old URLs.
 - File paths live under `/public/images/<year>/<month>/<file>` so the URL
   path mirrors WP's upload structure
 
+### Hero image fit: `contain` vs `cover`
+
+Every `heroImage` takes an optional `fit` field controlling how it fills
+the hero frame:
+
+- **`"contain"`** (default): for product renders / cutouts (e.g.
+  `air-ease-ac.png`, `navine-boiler.png`). Shows the whole image centered
+  on a cream gradient card — looks like a product display.
+- **`"cover"`**: for lifestyle or real install photos (e.g.
+  `Furnace-after-len.webp`). Fills the frame edge-to-edge by cropping.
+  Use this whenever the source image is a portrait photo, site photo,
+  or anything where `contain` leaves big empty cream borders.
+
+Rule of thumb: if the image has a transparent/white product background
+→ `contain`. If it's a real photo with a scene in it → `cover`.
+
 ### SEO
 
 Every service page emits:

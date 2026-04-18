@@ -148,11 +148,21 @@ export default async function ServicePage({
                 {/* Mobile hero image — collapsed, above headline */}
                 {service.heroImage && (
                   <div className="lg:hidden mb-6">
-                    <div className="relative rounded-2xl bg-gradient-to-br from-cream-50 to-cream-100 border border-line-dark p-5 flex items-center justify-center aspect-[5/3] soft-shadow overflow-hidden">
+                    <div
+                      className={`relative rounded-2xl border border-line-dark aspect-[5/3] soft-shadow overflow-hidden ${
+                        service.heroImage.fit === "cover"
+                          ? ""
+                          : "bg-gradient-to-br from-cream-50 to-cream-100 p-5 flex items-center justify-center"
+                      }`}
+                    >
                       <img
                         src={service.heroImage.src}
                         alt={service.heroImage.alt}
-                        className="max-h-full max-w-full object-contain"
+                        className={
+                          service.heroImage.fit === "cover"
+                            ? "w-full h-full object-cover"
+                            : "max-h-full max-w-full object-contain"
+                        }
                       />
                     </div>
                     {service.heroBadgeImage && (
@@ -229,11 +239,21 @@ export default async function ServicePage({
                 {service.heroImage ? (
                   <div className="relative">
                     <div className="absolute -inset-3 bg-primary/10 rounded-[28px] blur-2xl pointer-events-none" />
-                    <div className="relative rounded-3xl bg-gradient-to-br from-cream-50 to-cream-100 border border-line-dark p-8 flex items-center justify-center aspect-[5/4] soft-shadow overflow-hidden">
+                    <div
+                      className={`relative rounded-3xl border border-line-dark aspect-[5/4] soft-shadow overflow-hidden ${
+                        service.heroImage.fit === "cover"
+                          ? ""
+                          : "bg-gradient-to-br from-cream-50 to-cream-100 p-8 flex items-center justify-center"
+                      }`}
+                    >
                       <img
                         src={service.heroImage.src}
                         alt={service.heroImage.alt}
-                        className="max-h-full max-w-full object-contain drop-shadow-[0_20px_30px_rgba(8,14,28,0.18)]"
+                        className={
+                          service.heroImage.fit === "cover"
+                            ? "w-full h-full object-cover"
+                            : "max-h-full max-w-full object-contain drop-shadow-[0_20px_30px_rgba(8,14,28,0.18)]"
+                        }
                       />
                     </div>
                     {service.heroBadgeImage && (
