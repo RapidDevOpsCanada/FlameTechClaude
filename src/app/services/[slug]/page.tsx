@@ -89,17 +89,27 @@ export default async function ServicePage({
                 </div>
               </div>
               <div className="col-span-12 lg:col-span-4 hidden lg:block">
-                <div className="rounded-3xl bg-ink-800 border border-line-dark p-8 flex flex-col items-center justify-center aspect-square soft-shadow">
-                  <div className="w-20 h-20 rounded-2xl bg-primary/15 text-primary-deep flex items-center justify-center mb-6">
-                    <Icon name={service.icon} className="text-4xl" />
+                {service.heroImage ? (
+                  <div className="rounded-3xl bg-cream-50 border border-line-dark p-6 flex items-center justify-center aspect-square soft-shadow overflow-hidden">
+                    <img
+                      src={service.heroImage.src}
+                      alt={service.heroImage.alt}
+                      className="max-h-full max-w-full object-contain"
+                    />
                   </div>
-                  <span className="text-xs font-bold uppercase tracking-[0.18em] text-primary mb-2">
-                    Service
-                  </span>
-                  <p className="text-center text-cream-50 font-display font-extrabold text-2xl leading-tight">
-                    {service.category}
-                  </p>
-                </div>
+                ) : (
+                  <div className="rounded-3xl bg-ink-800 border border-line-dark p-8 flex flex-col items-center justify-center aspect-square soft-shadow">
+                    <div className="w-20 h-20 rounded-2xl bg-primary/15 text-primary-deep flex items-center justify-center mb-6">
+                      <Icon name={service.icon} className="text-4xl" />
+                    </div>
+                    <span className="text-xs font-bold uppercase tracking-[0.18em] text-primary mb-2">
+                      Service
+                    </span>
+                    <p className="text-center text-cream-50 font-display font-extrabold text-2xl leading-tight">
+                      {service.category}
+                    </p>
+                  </div>
+                )}
               </div>
             </div>
           </div>
@@ -156,7 +166,7 @@ export default async function ServicePage({
               </div>
 
               {service.callout && (
-                <div className="rounded-2xl bg-gradient-to-br from-emergency to-emergency-deep text-cream-50 p-6 md:p-8">
+                <div className="rounded-2xl bg-gradient-to-br from-emergency to-emergency-deep text-cream-50 p-6 md:p-8 mb-12">
                   <div className="flex items-start gap-4">
                     <Icon name="contact_emergency" className="text-2xl shrink-0 mt-0.5" />
                     <div>
@@ -171,6 +181,129 @@ export default async function ServicePage({
                         Call 587-834-3668
                       </a>
                     </div>
+                  </div>
+                </div>
+              )}
+
+              {/* RICH CONTENT — sections */}
+              {service.richContent?.sections?.map((section) => (
+                <div key={section.heading} className="mb-14">
+                  <h2 className="font-display text-3xl md:text-4xl font-extrabold tracking-tight mb-4 leading-tight">
+                    {section.heading}
+                  </h2>
+                  {section.intro && (
+                    <p className="text-ink-700 leading-relaxed mb-8">
+                      {section.intro}
+                    </p>
+                  )}
+                  <div className="space-y-6">
+                    {section.items.map((item, i) => (
+                      <div
+                        key={`${section.heading}-${i}`}
+                        className={`rounded-2xl bg-white border border-line-light overflow-hidden ${
+                          item.image ? "grid grid-cols-1 md:grid-cols-5" : "p-6 md:p-7"
+                        }`}
+                      >
+                        {item.image && (
+                          <div className="md:col-span-2 relative">
+                            <img
+                              src={item.image.src}
+                              alt={item.image.alt}
+                              className="w-full h-48 md:h-full object-cover"
+                            />
+                          </div>
+                        )}
+                        <div className={item.image ? "md:col-span-3 p-6 md:p-7" : ""}>
+                          {item.heading && (
+                            <h3 className="font-display font-bold text-xl mb-2">
+                              {item.heading}
+                            </h3>
+                          )}
+                          <p className="text-sm text-ink-700 leading-relaxed">
+                            {item.body}
+                          </p>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              ))}
+
+              {/* RICH CONTENT — promo */}
+              {service.richContent?.promo && (
+                <div className="mb-14 rounded-3xl bg-ink-900 text-cream-50 overflow-hidden border border-line-dark soft-shadow">
+                  <div className="grid grid-cols-1 md:grid-cols-5 items-center">
+                    <div className="md:col-span-2 bg-cream-50 flex items-center justify-center p-8 md:p-10">
+                      <img
+                        src={service.richContent.promo.image.src}
+                        alt={service.richContent.promo.image.alt}
+                        className="max-h-48 md:max-h-64 w-auto object-contain"
+                      />
+                    </div>
+                    <div className="md:col-span-3 p-8 md:p-10">
+                      <span className="inline-flex items-center gap-2 rounded-full bg-primary/15 text-primary border border-primary/30 px-3 py-1.5 text-[11px] font-extrabold uppercase tracking-[0.18em] mb-5">
+                        Special offer
+                      </span>
+                      <h3 className="font-display text-2xl md:text-3xl font-extrabold tracking-[-0.015em] leading-tight mb-6">
+                        {service.richContent.promo.heading}
+                      </h3>
+                      <div className="space-y-5">
+                        {service.richContent.promo.groups.map((g) => (
+                          <div key={g.heading}>
+                            <h4 className="text-[11px] font-extrabold uppercase tracking-[0.18em] text-primary mb-2">
+                              {g.heading}
+                            </h4>
+                            <ul className="space-y-1.5">
+                              {g.items.map((li, idx) => (
+                                <li
+                                  key={idx}
+                                  className="text-sm text-cream-50/80 flex items-start gap-2"
+                                >
+                                  <Icon
+                                    name="check_circle"
+                                    className="text-primary text-base mt-0.5 shrink-0"
+                                  />
+                                  <span>{li}</span>
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        ))}
+                      </div>
+                      {service.richContent.promo.disclaimer && (
+                        <p className="mt-6 pt-5 border-t border-line-dark text-[11px] italic text-cream-50/50">
+                          *{service.richContent.promo.disclaimer}
+                        </p>
+                      )}
+                    </div>
+                  </div>
+                </div>
+              )}
+
+              {/* RICH CONTENT — FAQ */}
+              {service.richContent?.faq && (
+                <div className="mb-4">
+                  <h2 className="font-display text-3xl md:text-4xl font-extrabold tracking-tight mb-6 leading-tight">
+                    {service.richContent.faq.heading}
+                  </h2>
+                  <div className="space-y-3">
+                    {service.richContent.faq.items.map((f) => (
+                      <details
+                        key={f.q}
+                        className="group rounded-2xl bg-white border border-line-light open:border-primary transition-colors"
+                      >
+                        <summary className="cursor-pointer list-none px-6 py-5 flex items-center justify-between gap-4 font-semibold text-base md:text-lg">
+                          {f.q}
+                          <Icon
+                            name="add"
+                            className="text-primary text-xl transition-transform group-open:rotate-45 shrink-0"
+                          />
+                        </summary>
+                        <p className="px-6 pb-6 text-ink-500 leading-relaxed">
+                          {f.a}
+                        </p>
+                      </details>
+                    ))}
                   </div>
                 </div>
               )}

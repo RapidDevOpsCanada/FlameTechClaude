@@ -14,3 +14,9 @@ out/
 .vercel
 next-env.d.ts
 GoogleReviews.txt
+
+# WP uploads extracted locally — only commit files we actually reference
+/public/images/2022/
+/public/images/2023/
+/public/images/2025/
+/public/images/2026/

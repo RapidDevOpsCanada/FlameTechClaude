@@ -1,3 +1,35 @@
+export type RichImage = { src: string; alt: string };
+
+export type RichItem = {
+  heading?: string;
+  body: string;
+  image?: RichImage;
+};
+
+export type RichSection = {
+  heading: string;
+  intro?: string;
+  items: RichItem[];
+};
+
+export type RichPromo = {
+  heading: string;
+  image: RichImage;
+  groups: { heading: string; items: string[] }[];
+  disclaimer?: string;
+};
+
+export type RichFAQ = {
+  heading: string;
+  items: { q: string; a: string }[];
+};
+
+export type RichContent = {
+  sections?: RichSection[];
+  promo?: RichPromo;
+  faq?: RichFAQ;
+};
+
 export type ServicePage = {
   slug: string;
   category: "Plumbing" | "Heating" | "Air" | "Water";
@@ -8,6 +40,8 @@ export type ServicePage = {
   features: string[];
   bullets: { t: string; d: string }[];
   callout?: string;
+  heroImage?: RichImage;
+  richContent?: RichContent;
 };
 
 export const services: ServicePage[] = [
@@ -305,27 +339,152 @@ export const services: ServicePage[] = [
     slug: "air-conditioning",
     category: "Air",
     icon: "ac_unit",
-    title: "Air Conditioning Calgary",
-    lead: "Central AC installs and service, sized for Calgary summers.",
+    title: "Air Conditioning Calgary – Expert AC Services",
+    lead:
+      "Flame Tech Plumbing & Heating is a trusted name in Calgary for all things heating and cooling. We're not just another company; we're your neighbours, dedicated to providing reliable and efficient air conditioning services to homes across the city.",
     intro:
-      "Calgary summers are shorter than the winters but they still hit 30°C. A right-sized AC unit keeps your home comfortable without running constantly.",
+      "Flame Tech Plumbing & Heating is a trusted name in Calgary for all things heating and cooling. We're not just another company; we're your neighbours, dedicated to providing reliable and efficient air conditioning services to homes across the city.",
     features: [
-      "Central AC install and replacement",
-      "Ductwork compatibility assessment",
-      "Condenser placement planning",
-      "Refrigerant line set installation",
+      "Central AC installation",
+      "AC repair for all makes & models",
+      "AC tune-ups and maintenance",
+      "Emergency air conditioning services",
+      "Ductless mini-split systems",
       "Smart thermostat integration",
     ],
     bullets: [
       {
-        t: "Right-sized, not oversized",
-        d: "Oversized ACs short-cycle and don't dehumidify properly. We calculate the correct tonnage.",
+        t: "Local Calgary AC experts",
+        d: "Our team comprises highly skilled and experienced technicians who live and work right here in Calgary. We understand the specific demands our climate places on your AC system.",
       },
       {
-        t: "Quiet modern equipment",
-        d: "Variable-speed compressors run quieter and more efficiently than single-stage units.",
+        t: "Licensed & insured technicians",
+        d: "Your peace of mind is our priority. All our technicians are fully licensed and insured, guaranteeing professional and safe service that adheres to the highest industry standards.",
       },
     ],
+    heroImage: {
+      src: "/images/2025/12/air-ease-ac.png",
+      alt: "Air Ease Air Conditioning Unit",
+    },
+    richContent: {
+      sections: [
+        {
+          heading: "Why Choose Flame Tech for Air Conditioning in Calgary?",
+          intro:
+            "Choosing the right company for your Air Conditioning needs is crucial. Here's why Calgary trusts Flame Tech Plumbing & Heating:",
+          items: [
+            {
+              heading: "Local Calgary AC Experts",
+              body: "Our team comprises highly skilled and experienced technicians who live and work right here in Calgary. We understand the specific demands our climate places on your AC system and are equipped to handle any issue, big or small.",
+            },
+            {
+              heading: "Licensed & Insured Technicians",
+              body: "Your peace of mind is our priority. All our technicians are fully licensed and insured, guaranteeing professional and safe service that adheres to the highest industry standards.",
+            },
+          ],
+        },
+        {
+          heading: "Our Air Conditioning Services",
+          intro:
+            "Flame Tech Plumbing & Heating offers a complete range of AC services to meet all your needs:",
+          items: [
+            {
+              heading: "Air Conditioner Installation",
+              body: "Looking to upgrade your old AC unit or install a new system in your Calgary home? Our experts will guide you through the selection process, ensuring you choose the right size and type of air conditioner for your needs and budget. We handle the entire installation process efficiently and professionally.",
+              image: {
+                src: "/images/2023/03/main-slider-2-2.jpg",
+                alt: "Air conditioner installation in a Calgary home",
+              },
+            },
+            {
+              heading: "Air Conditioning Repair",
+              body: "Is your AC unit making strange noises, not cooling effectively, or has it stopped working altogether? Our experienced technicians are equipped to diagnose and repair all makes and models of air conditioners quickly and effectively, restoring comfort to your home. If you need AC repair Calgary, Flame Tech is ready to help.",
+              image: {
+                src: "/images/2023/03/services-details-img-1-2.jpg",
+                alt: "AC repair being performed by a technician",
+              },
+            },
+            {
+              heading: "AC Maintenance & Tune-Ups",
+              body: "Regular maintenance is key to ensuring the longevity and efficiency of your air conditioning system. Our comprehensive AC tune-up services in Calgary help prevent costly breakdowns, improve performance, and ensure your unit runs smoothly all summer long.",
+              image: {
+                src: "/images/2023/03/services-2-2.jpg",
+                alt: "AC maintenance service",
+              },
+            },
+            {
+              heading: "Emergency Air Conditioning Services",
+              body: "We understand that AC emergencies can happen at any time, especially during a heatwave. That's why Flame Tech offers emergency air conditioning services in Calgary to get your system back up and running as quickly as possible.",
+              image: {
+                src: "/images/2023/03/services-2-3.jpg",
+                alt: "Emergency AC service in Calgary",
+              },
+            },
+          ],
+        },
+        {
+          heading:
+            "How to Choose the Right Air Conditioner for Your Calgary Home",
+          items: [
+            {
+              heading: "Types of Air Conditioners We Install",
+              body: "We offer a variety of air conditioning systems to suit different homes and preferences, including central AC units, ductless mini-split systems, and more. Our experts can explain the benefits of each type and help you make the best choice for your Calgary residence.",
+              image: {
+                src: "/images/2025/04/air-conditioning-calgary.png",
+                alt: "AC types — central and ductless options",
+              },
+            },
+            {
+              heading: "Factors to Consider (Home Size, Budget, Efficiency)",
+              body: "Choosing the right AC unit involves considering several factors, such as the size of your home, your budget, and the energy efficiency ratings of different models. We'll walk you through these considerations to ensure you make an informed decision.",
+            },
+            {
+              heading: "Our Expert Recommendations",
+              body: "With our extensive knowledge of air conditioning systems and the specific needs of Calgary homeowners, we provide expert recommendations tailored to your individual situation.",
+            },
+          ],
+        },
+      ],
+      promo: {
+        heading: "AirEase Special — 12-year parts and labor warranty",
+        image: {
+          src: "/images/2026/01/AirEase-Promo.png",
+          alt: "AirEase Air Conditioning Promo",
+        },
+        groups: [
+          {
+            heading: "Qualifying Residential Products",
+            items: ["Air Conditioners: Units 4SCU20LX and 4SCU16LS."],
+          },
+          {
+            heading: "Requirements for Coverage",
+            items: [
+              "Registration: Equipment must be registered online within 60 days of installation.",
+              "Residential Application: Limited to owner-occupied residential use.",
+              "Annual Maintenance: Documented annual professional maintenance is required to maintain the labor portion of the agreement.",
+            ],
+          },
+        ],
+        disclaimer: "Terms and Conditions Apply",
+      },
+      faq: {
+        heading: "Frequently Asked Questions About Air Conditioning in Calgary",
+        items: [
+          {
+            q: "How often should I service my AC?",
+            a: "We recommend scheduling professional AC maintenance at least once a year, ideally before the start of the cooling season, to ensure optimal performance and prevent potential issues.",
+          },
+          {
+            q: "What are signs my AC needs repair?",
+            a: "Unusual noises, inconsistent cooling, strange odours, leaks, and a sudden increase in energy bills can all be signs that your AC system needs repair. Don't delay in calling our Calgary AC repair experts.",
+          },
+          {
+            q: "How long does installation take?",
+            a: "The duration of an AC installation can vary depending on the type of system and the complexity of the installation process. We will provide you with a clear timeline before starting any work.",
+          },
+        ],
+      },
+    },
   },
   {
     slug: "humidifiers",
