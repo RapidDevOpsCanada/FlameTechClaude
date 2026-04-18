@@ -24,7 +24,7 @@ export default function Home() {
           <div className="hidden md:block absolute top-1/2 -left-32 w-[380px] h-[380px] rounded-full bg-primary/10 blur-3xl pointer-events-none"></div>
 
           <div className="max-w-7xl mx-auto px-6 md:px-10 pt-10 md:pt-14 pb-14 md:pb-16 relative">
-            <div className="grid grid-cols-12 gap-10 items-center">
+            <div className="grid grid-cols-12 gap-6 md:gap-10 items-center">
               <div className="col-span-12 lg:col-span-6 reveal">
                 <span className="eyebrow mb-5">Get To Know Us</span>
                 <h1 className="font-display text-[38px] md:text-[52px] xl:text-[62px] font-extrabold leading-[1.0] tracking-[-0.025em] mt-4 mb-6">
@@ -101,7 +101,7 @@ export default function Home() {
         >
           <div className="hidden md:block absolute -bottom-40 -right-40 w-[560px] h-[560px] rounded-full bg-primary/10 blur-3xl pointer-events-none"></div>
           <div className="max-w-7xl mx-auto px-6 md:px-10 relative">
-            <div className="grid grid-cols-12 gap-12 items-stretch">
+            <div className="grid grid-cols-12 gap-8 md:gap-12 items-stretch">
               <Reveal className="col-span-12 lg:col-span-6">
                 <div className="rounded-3xl bg-white border border-line-light overflow-hidden h-full flex flex-col soft-shadow">
                   <div className="p-8 md:p-10 pb-6">
@@ -542,7 +542,7 @@ export default function Home() {
           <div className="absolute inset-0 dotgrid opacity-30 pointer-events-none"></div>
           <div className="hidden md:block absolute top-10 -right-40 w-[520px] h-[520px] rounded-full bg-emergency/20 blur-3xl pointer-events-none"></div>
           <div className="max-w-6xl mx-auto px-6 md:px-10 relative">
-            <div className="grid grid-cols-12 gap-10">
+            <div className="grid grid-cols-12 gap-6 md:gap-10">
               <Reveal className="col-span-12 md:col-span-5">
                 <span className="eyebrow mb-4">Request Service</span>
                 <h2 className="font-display text-4xl md:text-5xl xl:text-6xl font-extrabold tracking-[-0.025em] mt-4 mb-6 leading-[1.02]">
