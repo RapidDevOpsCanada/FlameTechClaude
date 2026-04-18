@@ -2,28 +2,28 @@ import Link from "next/link";
 import Icon from "@/components/Icon";
 
 const plumbingLinks = [
-  { label: "Bathroom Plumbing", href: "/services/bathroom-plumbing" },
-  { label: "Shower Plumbing", href: "/services/shower-plumbing" },
-  { label: "Drain Cleaning", href: "/services/drain-cleaning" },
-  { label: "Emergency Plumbing", href: "/services/emergency-plumbing" },
-  { label: "PolyB Replacement", href: "/services/polyb-plumbing" },
+  { label: "Bathroom Plumbing", href: "/bathroom-plumbing" },
+  { label: "Shower Plumbing", href: "/shower-plumbing" },
+  { label: "Drain Cleaning", href: "/drain-cleaning" },
+  { label: "Emergency Plumbing", href: "/emergency-plumbing" },
+  { label: "PolyB Replacement", href: "/polyb-plumbing" },
 ];
 
 const heatingLinks = [
-  { label: "Boiler Installation", href: "/services/boiler-installation" },
-  { label: "Boiler Repair", href: "/services/boiler-repair" },
-  { label: "Boiler Service", href: "/services/boiler-service" },
-  { label: "Furnaces", href: "/services/high-efficiency-furnaces" },
-  { label: "Garage Heaters", href: "/services/garage-heaters" },
-  { label: "Heat Pumps", href: "/services/heat-pumps" },
+  { label: "Boiler Installation", href: "/boiler-installation" },
+  { label: "Boiler Repair", href: "/boiler-repair" },
+  { label: "Boiler Service", href: "/boiler-service" },
+  { label: "Furnaces", href: "/high-efficiency-furnaces" },
+  { label: "Garage Heaters", href: "/garage-heaters" },
+  { label: "Heat Pumps", href: "/heat-pumps" },
 ];
 
 const airWaterLinks = [
-  { label: "Air Conditioning", href: "/services/air-conditioning" },
-  { label: "Humidifiers", href: "/services/humidifiers" },
-  { label: "Hot Water Tanks", href: "/services/hot-water-tanks" },
-  { label: "Tankless Heaters", href: "/services/tankless-water-heaters" },
-  { label: "Water Softeners", href: "/services/water-softeners" },
+  { label: "Air Conditioning", href: "/air-conditioning" },
+  { label: "Humidifiers", href: "/humidifiers" },
+  { label: "Hot Water Tanks", href: "/hot-water-tanks" },
+  { label: "Tankless Heaters", href: "/tankless-water-heaters" },
+  { label: "Water Softeners", href: "/water-softeners" },
 ];
 
 const companyLinks = [

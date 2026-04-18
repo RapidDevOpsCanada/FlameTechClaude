@@ -41,6 +41,7 @@ export default async function ServicePage({
   if (!service) notFound();
 
   const related = getRelatedServices(slug);
+  const hasRich = !!service.richContent;
 
   return (
     <>
@@ -49,53 +50,53 @@ export default async function ServicePage({
         {/* HERO */}
         <section className="relative border-b border-line-dark overflow-hidden">
           <div className="absolute inset-0 dotgrid opacity-50 pointer-events-none"></div>
-          <div className="absolute -top-32 -right-32 w-[500px] h-[500px] rounded-full bg-emergency/20 blur-3xl pointer-events-none"></div>
-          <div className="max-w-6xl mx-auto px-6 md:px-10 py-16 md:py-20 relative">
-            <div className="flex flex-wrap items-center gap-3 mb-6 text-sm text-cream-50/60">
+          <div className="absolute -top-32 -right-32 w-[520px] h-[520px] rounded-full bg-emergency/20 blur-3xl pointer-events-none"></div>
+          <div className="absolute top-1/2 -left-32 w-[380px] h-[380px] rounded-full bg-primary/10 blur-3xl pointer-events-none" />
+
+          <div className="max-w-6xl mx-auto px-6 md:px-10 py-14 md:py-20 relative">
+            <div className="flex flex-wrap items-center gap-2 mb-6 text-xs uppercase tracking-[0.14em] font-semibold text-cream-50/55">
               <Link href="/" className="hover:text-emergency">
                 Home
               </Link>
-              <span>/</span>
-              <Link href="/#services" className="hover:text-emergency">
-                Services
-              </Link>
-              <span>/</span>
-              <span className="text-cream-50/80">{service.category}</span>
+              <span className="text-cream-50/30">/</span>
+              <span className="text-primary">{service.category}</span>
             </div>
-            <div className="grid grid-cols-12 gap-8 items-center">
-              <div className="col-span-12 lg:col-span-8">
-                <span className="eyebrow mb-4">{service.category}</span>
-                <h1 className="font-display text-4xl md:text-6xl xl:text-7xl font-extrabold leading-[1.02] tracking-[-0.025em] mt-4 mb-6">
+            <div className="grid grid-cols-12 gap-10 items-center">
+              <div className="col-span-12 lg:col-span-7">
+                <h1 className="font-display text-4xl md:text-5xl xl:text-6xl font-extrabold leading-[1.04] tracking-[-0.025em] mb-6">
                   {service.title}
                 </h1>
-                <p className="text-xl text-cream-50/75 max-w-2xl leading-relaxed mb-8">
+                <p className="text-lg text-cream-50/75 max-w-xl leading-relaxed mb-8">
                   {service.lead}
                 </p>
-                <div className="flex flex-wrap gap-4">
+                <div className="flex flex-wrap gap-3">
                   <a
                     href="tel:5878343668"
-                    className="inline-flex items-center gap-2 rounded-full bg-emergency text-cream-50 font-extrabold uppercase tracking-tight px-7 py-4 text-[14px] hover:bg-emergency-deep transition-colors"
+                    className="inline-flex items-center gap-2 rounded-full bg-emergency text-cream-50 font-extrabold uppercase tracking-tight px-6 py-3.5 text-[13px] hover:bg-emergency-deep transition-colors"
                   >
-                    <Icon name="call" className="text-lg" />
+                    <Icon name="call" className="text-base" />
                     Call 587-834-3668
                   </a>
                   <a
                     href="#quote"
-                    className="inline-flex items-center gap-2 rounded-full border border-cream-50/25 text-cream-50 font-bold uppercase tracking-tight px-7 py-4 text-[14px] hover:border-emergency hover:text-emergency transition-colors"
+                    className="inline-flex items-center gap-2 rounded-full border border-cream-50/25 text-cream-50 font-bold uppercase tracking-tight px-6 py-3.5 text-[13px] hover:border-emergency hover:text-emergency transition-colors"
                   >
                     Free estimate
                     <Icon name="arrow_right_alt" className="text-base" />
                   </a>
                 </div>
               </div>
-              <div className="col-span-12 lg:col-span-4 hidden lg:block">
+              <div className="col-span-12 lg:col-span-5 hidden lg:block">
                 {service.heroImage ? (
-                  <div className="rounded-3xl bg-cream-50 border border-line-dark p-6 flex items-center justify-center aspect-square soft-shadow overflow-hidden">
-                    <img
-                      src={service.heroImage.src}
-                      alt={service.heroImage.alt}
-                      className="max-h-full max-w-full object-contain"
-                    />
+                  <div className="relative">
+                    <div className="absolute -inset-3 bg-primary/10 rounded-[28px] blur-2xl pointer-events-none" />
+                    <div className="relative rounded-3xl bg-gradient-to-br from-cream-50 to-cream-100 border border-line-dark p-8 flex items-center justify-center aspect-[5/4] soft-shadow overflow-hidden">
+                      <img
+                        src={service.heroImage.src}
+                        alt={service.heroImage.alt}
+                        className="max-h-full max-w-full object-contain drop-shadow-[0_20px_30px_rgba(8,14,28,0.18)]"
+                      />
+                    </div>
                   </div>
                 ) : (
                   <div className="rounded-3xl bg-ink-800 border border-line-dark p-8 flex flex-col items-center justify-center aspect-square soft-shadow">
@@ -116,59 +117,70 @@ export default async function ServicePage({
         </section>
 
         {/* BODY */}
-        <section className="bg-cream-50 text-ink-900 py-20">
+        <section className="bg-cream-50 text-ink-900 py-16 md:py-20">
           <div className="max-w-6xl mx-auto px-6 md:px-10 grid grid-cols-12 gap-10">
             <div className="col-span-12 lg:col-span-8">
-              <p className="text-lg text-ink-700 leading-relaxed mb-10">
-                {service.intro}
-              </p>
+              {/* Intro (only if it differs from the lead) */}
+              {service.intro !== service.lead && (
+                <p className="text-lg text-ink-700 leading-relaxed mb-10">
+                  {service.intro}
+                </p>
+              )}
 
-              <h2 className="font-display text-3xl font-extrabold tracking-tight mb-6">
-                What&apos;s included
-              </h2>
-              <ul className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-12">
-                {service.features.map((f) => (
-                  <li
-                    key={f}
-                    className="flex items-start gap-3 rounded-xl bg-white border border-line-light p-4"
-                  >
-                    <Icon
-                      name="check_circle"
-                      className="text-primary text-lg mt-0.5"
-                    />
-                    <span className="text-sm font-semibold text-ink-900">
-                      {f}
-                    </span>
-                  </li>
-                ))}
-              </ul>
+              {/* Simple template (no rich content) — keep features + bullets */}
+              {!hasRich && (
+                <>
+                  <h2 className="font-display text-3xl font-extrabold tracking-tight mb-6">
+                    What&apos;s included
+                  </h2>
+                  <ul className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-12">
+                    {service.features.map((f) => (
+                      <li
+                        key={f}
+                        className="flex items-start gap-3 rounded-xl bg-white border border-line-light p-4"
+                      >
+                        <Icon
+                          name="check_circle"
+                          className="text-primary text-lg mt-0.5"
+                        />
+                        <span className="text-sm font-semibold text-ink-900">
+                          {f}
+                        </span>
+                      </li>
+                    ))}
+                  </ul>
 
-              <div className="space-y-6 mb-12">
-                {service.bullets.map((b) => (
-                  <div
-                    key={b.t}
-                    className="rounded-2xl bg-white border border-line-light p-6 flex gap-4"
-                  >
-                    <Icon
-                      name="check_circle"
-                      className="text-primary text-2xl mt-1"
-                    />
-                    <div>
-                      <h3 className="font-display font-bold text-lg mb-1">
-                        {b.t}
-                      </h3>
-                      <p className="text-sm text-ink-500 leading-relaxed">
-                        {b.d}
-                      </p>
-                    </div>
+                  <div className="space-y-6 mb-12">
+                    {service.bullets.map((b) => (
+                      <div
+                        key={b.t}
+                        className="rounded-2xl bg-white border border-line-light p-6 flex gap-4"
+                      >
+                        <Icon
+                          name="check_circle"
+                          className="text-primary text-2xl mt-1"
+                        />
+                        <div>
+                          <h3 className="font-display font-bold text-lg mb-1">
+                            {b.t}
+                          </h3>
+                          <p className="text-sm text-ink-500 leading-relaxed">
+                            {b.d}
+                          </p>
+                        </div>
+                      </div>
+                    ))}
                   </div>
-                ))}
-              </div>
+                </>
+              )}
 
               {service.callout && (
                 <div className="rounded-2xl bg-gradient-to-br from-emergency to-emergency-deep text-cream-50 p-6 md:p-8 mb-12">
                   <div className="flex items-start gap-4">
-                    <Icon name="contact_emergency" className="text-2xl shrink-0 mt-0.5" />
+                    <Icon
+                      name="contact_emergency"
+                      className="text-2xl shrink-0 mt-0.5"
+                    />
                     <div>
                       <p className="font-display text-xl font-extrabold leading-snug mb-2">
                         {service.callout}
@@ -185,46 +197,70 @@ export default async function ServicePage({
                 </div>
               )}
 
-              {/* RICH CONTENT — sections */}
-              {service.richContent?.sections?.map((section) => (
+              {/* RICH CONTENT — sections (alternate image side for rhythm) */}
+              {service.richContent?.sections?.map((section, sIdx) => (
                 <div key={section.heading} className="mb-14">
-                  <h2 className="font-display text-3xl md:text-4xl font-extrabold tracking-tight mb-4 leading-tight">
+                  <span className="inline-flex items-center gap-2 text-[11px] font-extrabold uppercase tracking-[0.18em] text-primary mb-3">
+                    <span className="block w-6 h-px bg-primary" />
+                    Section {String(sIdx + 1).padStart(2, "0")}
+                  </span>
+                  <h2 className="font-display text-3xl md:text-4xl font-extrabold tracking-[-0.015em] mb-4 leading-[1.08]">
                     {section.heading}
                   </h2>
                   {section.intro && (
-                    <p className="text-ink-700 leading-relaxed mb-8">
+                    <p className="text-ink-700 leading-relaxed mb-8 max-w-2xl">
                       {section.intro}
                     </p>
                   )}
-                  <div className="space-y-6">
-                    {section.items.map((item, i) => (
-                      <div
-                        key={`${section.heading}-${i}`}
-                        className={`rounded-2xl bg-white border border-line-light overflow-hidden ${
-                          item.image ? "grid grid-cols-1 md:grid-cols-5" : "p-6 md:p-7"
-                        }`}
-                      >
-                        {item.image && (
-                          <div className="md:col-span-2 relative">
-                            <img
-                              src={item.image.src}
-                              alt={item.image.alt}
-                              className="w-full h-48 md:h-full object-cover"
-                            />
-                          </div>
-                        )}
-                        <div className={item.image ? "md:col-span-3 p-6 md:p-7" : ""}>
-                          {item.heading && (
-                            <h3 className="font-display font-bold text-xl mb-2">
-                              {item.heading}
-                            </h3>
+                  <div className="space-y-5">
+                    {section.items.map((item, i) => {
+                      const flip = i % 2 === 1;
+                      return (
+                        <div
+                          key={`${section.heading}-${i}`}
+                          className={`rounded-2xl bg-white border border-line-light overflow-hidden ${
+                            item.image
+                              ? "grid grid-cols-1 md:grid-cols-5 items-stretch"
+                              : "p-6 md:p-7"
+                          } hover:border-primary transition-colors`}
+                        >
+                          {item.image && !flip && (
+                            <div className="md:col-span-2 relative bg-ink-100">
+                              <img
+                                src={item.image.src}
+                                alt={item.image.alt}
+                                className="w-full h-52 md:h-full object-cover"
+                              />
+                            </div>
                           )}
-                          <p className="text-sm text-ink-700 leading-relaxed">
-                            {item.body}
-                          </p>
+                          <div
+                            className={
+                              item.image
+                                ? "md:col-span-3 p-6 md:p-8 flex flex-col justify-center"
+                                : ""
+                            }
+                          >
+                            {item.heading && (
+                              <h3 className="font-display font-extrabold text-xl md:text-2xl tracking-tight mb-2 leading-tight">
+                                {item.heading}
+                              </h3>
+                            )}
+                            <p className="text-[15px] text-ink-700 leading-relaxed">
+                              {item.body}
+                            </p>
+                          </div>
+                          {item.image && flip && (
+                            <div className="md:col-span-2 relative order-first md:order-last">
+                              <img
+                                src={item.image.src}
+                                alt={item.image.alt}
+                                className="w-full h-52 md:h-full object-cover"
+                              />
+                            </div>
+                          )}
                         </div>
-                      </div>
-                    ))}
+                      );
+                    })}
                   </div>
                 </div>
               ))}
@@ -232,12 +268,12 @@ export default async function ServicePage({
               {/* RICH CONTENT — promo */}
               {service.richContent?.promo && (
                 <div className="mb-14 rounded-3xl bg-ink-900 text-cream-50 overflow-hidden border border-line-dark soft-shadow">
-                  <div className="grid grid-cols-1 md:grid-cols-5 items-center">
-                    <div className="md:col-span-2 bg-cream-50 flex items-center justify-center p-8 md:p-10">
+                  <div className="grid grid-cols-1 md:grid-cols-5 items-stretch">
+                    <div className="md:col-span-2 bg-gradient-to-br from-cream-50 to-cream-100 flex items-center justify-center p-8 md:p-10">
                       <img
                         src={service.richContent.promo.image.src}
                         alt={service.richContent.promo.image.alt}
-                        className="max-h-48 md:max-h-64 w-auto object-contain"
+                        className="max-h-52 md:max-h-64 w-auto object-contain"
                       />
                     </div>
                     <div className="md:col-span-3 p-8 md:p-10">
@@ -270,11 +306,20 @@ export default async function ServicePage({
                           </div>
                         ))}
                       </div>
-                      {service.richContent.promo.disclaimer && (
-                        <p className="mt-6 pt-5 border-t border-line-dark text-[11px] italic text-cream-50/50">
-                          *{service.richContent.promo.disclaimer}
-                        </p>
-                      )}
+                      <div className="flex flex-wrap items-center gap-4 mt-7">
+                        <a
+                          href="#quote"
+                          className="inline-flex items-center gap-2 rounded-full bg-emergency text-cream-50 font-extrabold uppercase tracking-tight px-5 py-2.5 text-[12px] hover:bg-emergency-deep transition-colors"
+                        >
+                          Ask about this offer
+                          <Icon name="arrow_right_alt" className="text-base" />
+                        </a>
+                        {service.richContent.promo.disclaimer && (
+                          <p className="text-[11px] italic text-cream-50/50">
+                            *{service.richContent.promo.disclaimer}
+                          </p>
+                        )}
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -283,7 +328,11 @@ export default async function ServicePage({
               {/* RICH CONTENT — FAQ */}
               {service.richContent?.faq && (
                 <div className="mb-4">
-                  <h2 className="font-display text-3xl md:text-4xl font-extrabold tracking-tight mb-6 leading-tight">
+                  <span className="inline-flex items-center gap-2 text-[11px] font-extrabold uppercase tracking-[0.18em] text-primary mb-3">
+                    <span className="block w-6 h-px bg-primary" />
+                    FAQ
+                  </span>
+                  <h2 className="font-display text-3xl md:text-4xl font-extrabold tracking-[-0.015em] mb-6 leading-[1.08]">
                     {service.richContent.faq.heading}
                   </h2>
                   <div className="space-y-3">
@@ -355,7 +404,7 @@ export default async function ServicePage({
 
         {/* RELATED */}
         {related.length > 0 && (
-          <section className="bg-cream-100 text-ink-900 py-20 border-t border-line-light">
+          <section className="bg-cream-100 text-ink-900 py-16 md:py-20 border-t border-line-light">
             <div className="max-w-6xl mx-auto px-6 md:px-10">
               <div className="flex items-end justify-between gap-6 mb-10">
                 <div>
@@ -378,7 +427,7 @@ export default async function ServicePage({
                 {related.map((r) => (
                   <Link
                     key={r.slug}
-                    href={`/services/${r.slug}`}
+                    href={`/${r.slug}`}
                     className="group col-span-12 md:col-span-4 rounded-2xl bg-white border border-line-light p-7 hover:border-emergency transition-colors"
                   >
                     <div className="w-12 h-12 rounded-xl bg-primary/15 text-primary-deep flex items-center justify-center mb-5">

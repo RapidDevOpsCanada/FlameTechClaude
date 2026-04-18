@@ -44,19 +44,19 @@ const menu: NavItem[] = [
           items: [
             {
               label: "Bathroom Plumbing",
-              href: "/services/bathroom-plumbing",
+              href: "/bathroom-plumbing",
               icon: "bathroom",
               desc: "Sinks, toilets, full bathroom retrofits.",
             },
             {
               label: "Shower Plumbing",
-              href: "/services/shower-plumbing",
+              href: "/shower-plumbing",
               icon: "shower",
               desc: "Shower installs, valve replacements.",
             },
             {
               label: "Drain Cleaning",
-              href: "/services/drain-cleaning",
+              href: "/drain-cleaning",
               icon: "water_damage",
               desc: "Clogs, slow drains, camera inspection.",
             },
@@ -67,13 +67,13 @@ const menu: NavItem[] = [
           items: [
             {
               label: "Emergency Plumbing",
-              href: "/services/emergency-plumbing",
+              href: "/emergency-plumbing",
               icon: "contact_emergency",
               desc: "Leaks, burst pipes, urgent fixes.",
             },
             {
               label: "PolyB Plumbing",
-              href: "/services/polyb-plumbing",
+              href: "/polyb-plumbing",
               icon: "swap_horiz",
               desc: "Full replacement for 80s/90s homes.",
             },
@@ -99,19 +99,19 @@ const menu: NavItem[] = [
           items: [
             {
               label: "Boiler Installation",
-              href: "/services/boiler-installation",
+              href: "/boiler-installation",
               icon: "build",
               desc: "New high-efficiency boilers.",
             },
             {
               label: "Boiler Repair",
-              href: "/services/boiler-repair",
+              href: "/boiler-repair",
               icon: "handyman",
               desc: "Diagnosis and fast repairs.",
             },
             {
               label: "Boiler Service",
-              href: "/services/boiler-service",
+              href: "/boiler-service",
               icon: "tune",
               desc: "Annual maintenance & tune-ups.",
             },
@@ -122,19 +122,19 @@ const menu: NavItem[] = [
           items: [
             {
               label: "High-Efficiency Furnaces",
-              href: "/services/high-efficiency-furnaces",
+              href: "/high-efficiency-furnaces",
               icon: "local_fire_department",
               desc: "95–98% AFUE installs.",
             },
             {
               label: "Garage Heaters",
-              href: "/services/garage-heaters",
+              href: "/garage-heaters",
               icon: "garage",
               desc: "Warm, code-compliant garages.",
             },
             {
               label: "Heat Pumps",
-              href: "/services/heat-pumps",
+              href: "/heat-pumps",
               icon: "ac_unit",
               desc: "Cold-climate dual-fuel setups.",
             },
@@ -160,13 +160,13 @@ const menu: NavItem[] = [
           items: [
             {
               label: "Air Conditioning",
-              href: "/services/air-conditioning",
+              href: "/air-conditioning",
               icon: "ac_unit",
               desc: "Central AC installs & service.",
             },
             {
               label: "Humidifiers",
-              href: "/services/humidifiers",
+              href: "/humidifiers",
               icon: "water_drop",
               desc: "Whole-home humidification.",
             },
@@ -192,19 +192,19 @@ const menu: NavItem[] = [
           items: [
             {
               label: "Hot Water Tanks",
-              href: "/services/hot-water-tanks",
+              href: "/hot-water-tanks",
               icon: "propane_tank",
               desc: "Service, repair, and new installs.",
             },
             {
               label: "Hot Water Tank Replacement",
-              href: "/services/hot-water-tank-replacement",
+              href: "/hot-water-tank-replacement",
               icon: "sync",
               desc: "Same-day tank swaps when possible.",
             },
             {
               label: "Tankless Water Heaters",
-              href: "/services/tankless-water-heaters",
+              href: "/tankless-water-heaters",
               icon: "whatshot",
               desc: "Endless hot water, lower running costs.",
             },
@@ -215,7 +215,7 @@ const menu: NavItem[] = [
           items: [
             {
               label: "Water Softeners",
-              href: "/services/water-softeners",
+              href: "/water-softeners",
               icon: "science",
               desc: "Protect fixtures from Alberta hard water.",
             },
