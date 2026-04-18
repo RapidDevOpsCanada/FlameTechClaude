@@ -72,6 +72,13 @@ export default function Home() {
                     className="w-full h-auto object-contain"
                   />
                 </div>
+                <div className="mt-5 flex justify-center">
+                  <img
+                    src="/images/REVIEWS1.png"
+                    alt="5-star customer reviews"
+                    className="h-14 md:h-16 object-contain"
+                  />
+                </div>
               </div>
             </div>
           </div>
@@ -158,7 +165,7 @@ export default function Home() {
                       Red Seal journeypersons. 45+ years combined.
                     </h3>
                   </div>
-                  <div className="relative mx-6 md:mx-8 mb-4 rounded-2xl overflow-hidden border border-line-light">
+                  <div className="relative mx-6 md:mx-8 mb-6 rounded-2xl overflow-hidden border border-line-light">
                     <img
                       src="/images/FTVAN1.jpg"
                       alt="Shaun Kristoff and Jason Mounsey — FlameTech founders — standing in front of the service van"
@@ -168,13 +175,6 @@ export default function Home() {
                       <Icon name="verified" className="text-sm text-primary" />
                       Red Seal · Alberta Licensed
                     </div>
-                  </div>
-                  <div className="mx-6 md:mx-8 mb-6 flex justify-center">
-                    <img
-                      src="/images/REVIEWS1.png"
-                      alt="5-star customer reviews"
-                      className="h-14 object-contain"
-                    />
                   </div>
                   <div className="p-8 md:p-10 pt-2 flex flex-col justify-between flex-1">
                     <p className="text-ink-500 leading-relaxed mb-8">
@@ -211,24 +211,40 @@ export default function Home() {
                   <span className="text-emergency">trust</span>.
                 </h2>
 
-                <blockquote className="relative rounded-2xl bg-white border-l-4 border-primary border-y border-r border-line-light p-6 md:p-7 mb-8 soft-shadow">
-                  <span className="absolute -top-4 left-4 text-primary text-5xl font-display font-extrabold leading-none select-none">
+                <blockquote className="relative rounded-3xl bg-ink-900 text-cream-50 p-8 md:p-10 mb-8 overflow-hidden soft-shadow">
+                  <span className="absolute -top-4 right-6 text-primary/25 text-[180px] font-display font-extrabold leading-none select-none pointer-events-none">
                     &ldquo;
                   </span>
-                  <p className="text-ink-900 font-semibold leading-relaxed mb-3">
-                    When you need reliable and professional Calgary plumbers,
-                    look no further than Flame Tech Plumbing &amp; Heating.
-                  </p>
-                  <p className="text-ink-900 font-semibold leading-relaxed mb-3">
-                    We are your local experts, dedicated to providing
-                    top-notch plumbing services throughout Calgary and the
-                    surrounding areas.
-                  </p>
-                  <p className="text-ink-900 font-semibold leading-relaxed">
-                    From routine maintenance to emergency repairs, our team
-                    of certified plumbers is ready to handle all your
-                    plumbing needs with efficiency and expertise.
-                  </p>
+                  <div className="relative">
+                    <p className="font-display text-xl md:text-2xl font-semibold leading-snug tracking-[-0.015em] mb-4">
+                      When you need reliable and professional Calgary
+                      plumbers, look no further than Flame Tech Plumbing &amp;
+                      Heating.
+                    </p>
+                    <p className="text-cream-50/80 leading-relaxed mb-3">
+                      We are your local experts, dedicated to providing
+                      top-notch plumbing services throughout Calgary and the
+                      surrounding areas.
+                    </p>
+                    <p className="text-cream-50/80 leading-relaxed mb-6">
+                      From routine maintenance to emergency repairs, our team
+                      of certified plumbers is ready to handle all your
+                      plumbing needs with efficiency and expertise.
+                    </p>
+                    <div className="flex items-center gap-3 pt-5 border-t border-line-dark">
+                      <div className="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center">
+                        <Icon name="verified" className="text-primary text-base" />
+                      </div>
+                      <div>
+                        <p className="font-bold text-sm text-cream-50 leading-tight">
+                          Shaun Kristoff &amp; Jason Mounsey
+                        </p>
+                        <p className="text-[11px] uppercase tracking-[0.14em] font-semibold text-primary mt-0.5">
+                          Co-founders, FlameTech
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </blockquote>
 
                 <div className="space-y-4">
