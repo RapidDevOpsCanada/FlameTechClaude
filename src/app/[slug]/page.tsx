@@ -158,17 +158,17 @@ export default async function ServicePage({
                   </p>
                 ))}
 
-                {service.heroSubhead && (
-                  <div className="mt-6 mb-6 pt-6 border-t border-line-dark">
-                    <span className="text-xs font-extrabold uppercase tracking-[0.18em] text-primary">
-                      {service.heroSubhead}
-                    </span>
-                  </div>
-                )}
-
-                {/* Trust chip row */}
-                <div className="flex flex-wrap items-center gap-2 mb-6">
-                  {TRUST_CHIPS.map((chip, i) => (
+                {/* Compact trust row: subhead + chips on one line, hairline divider above */}
+                <div className="mt-5 mb-6 pt-5 border-t border-line-dark flex flex-wrap items-center gap-x-4 gap-y-2">
+                  {service.heroSubhead && (
+                    <>
+                      <span className="text-[11px] font-extrabold uppercase tracking-[0.18em] text-primary">
+                        {service.heroSubhead}
+                      </span>
+                      <span className="hidden md:inline-block h-3 w-px bg-cream-50/20" />
+                    </>
+                  )}
+                  {TRUST_CHIPS.map((chip) => (
                     <span
                       key={chip}
                       className="inline-flex items-center gap-1.5 text-[11px] font-bold uppercase tracking-[0.14em] text-cream-50/75"
@@ -178,49 +178,65 @@ export default async function ServicePage({
                         className="text-primary text-sm"
                       />
                       {chip}
-                      {i < TRUST_CHIPS.length - 1 && (
-                        <span className="ml-2 text-cream-50/25">·</span>
-                      )}
                     </span>
                   ))}
                 </div>
 
-                <div className="flex flex-wrap gap-3">
+                {/* CTA row — primary clearly dominant */}
+                <div className="flex flex-wrap items-center gap-3">
                   <a
                     href="tel:5878343668"
-                    className="inline-flex items-center gap-2 rounded-full bg-emergency text-cream-50 font-extrabold uppercase tracking-tight px-6 py-3.5 text-[13px] hover:bg-emergency-deep transition-colors"
+                    className="inline-flex items-center gap-2.5 rounded-full bg-emergency text-cream-50 font-black uppercase tracking-tight px-8 py-5 text-[15px] shadow-lg shadow-emergency/25 hover:bg-emergency-deep transition-colors"
                   >
-                    <Icon name="call" className="text-base" />
+                    <Icon name="call" className="text-lg" />
                     Call 587-834-3668
                   </a>
                   <a
                     href="#quote"
-                    className="inline-flex items-center gap-2 rounded-full border border-cream-50/25 text-cream-50 font-bold uppercase tracking-tight px-6 py-3.5 text-[13px] hover:border-emergency hover:text-emergency transition-colors"
+                    className="inline-flex items-center gap-2 rounded-full border border-cream-50/25 text-cream-50/90 font-bold uppercase tracking-tight px-5 py-3 text-[12px] hover:border-emergency hover:text-emergency transition-colors"
                   >
                     Free estimate
                     <Icon name="arrow_right_alt" className="text-base" />
                   </a>
                 </div>
 
-                {/* Financing chip — only bigger-ticket services */}
-                {service.financing && (
-                  <div className="mt-5 inline-flex items-center gap-3 rounded-full bg-ink-800 border border-line-dark px-4 py-2.5">
-                    <Icon
-                      name="dollar"
-                      className="text-primary text-base shrink-0"
-                    />
-                    <span className="text-sm text-cream-50/90">
-                      <span className="font-extrabold text-cream-50">
-                        Financing from {service.financing.fromAmount}
-                      </span>
-                      {service.financing.detail && (
-                        <span className="text-xs text-cream-50/60 ml-2">
-                          {service.financing.detail}
-                        </span>
-                      )}
-                    </span>
-                  </div>
-                )}
+                {/* Social-proof logo row — always shows 5★ Google + BBB,
+                    adds Financeit when service.financing is set */}
+                <div className="mt-6 flex flex-wrap items-center gap-x-5 gap-y-3">
+                  <img
+                    src="/images/REVIEWS1.png"
+                    alt="5-star Google rated"
+                    className="h-10 object-contain object-left"
+                  />
+                  <div className="h-8 w-px bg-cream-50/15" />
+                  <img
+                    src="/images/blue-ceip-225x300.png"
+                    alt="BBB Accredited"
+                    className="h-10 object-contain"
+                  />
+                  {service.financing && (
+                    <>
+                      <div className="h-8 w-px bg-cream-50/15" />
+                      <div className="flex items-center gap-2.5">
+                        <img
+                          src="/images/financeit.png"
+                          alt="Financeit"
+                          className="h-4 object-contain"
+                        />
+                        <div className="leading-tight">
+                          <div className="text-[12px] font-bold text-cream-50">
+                            Financing Available
+                          </div>
+                          {service.financing.detail && (
+                            <div className="text-[10px] text-cream-50/55 mt-0.5">
+                              {service.financing.detail}
+                            </div>
+                          )}
+                        </div>
+                      </div>
+                    </>
+                  )}
+                </div>
               </div>
               <div className="col-span-12 lg:col-span-5 hidden lg:block">
                 {service.heroImage ? (
@@ -232,6 +248,15 @@ export default async function ServicePage({
                         alt={service.heroImage.alt}
                         className="max-h-full max-w-full object-contain drop-shadow-[0_20px_30px_rgba(8,14,28,0.18)]"
                       />
+                      {service.lifestyleInset && (
+                        <div className="absolute -bottom-4 -right-4 w-28 h-28 rounded-full overflow-hidden border-4 border-ink-900 soft-shadow">
+                          <img
+                            src={service.lifestyleInset.src}
+                            alt={service.lifestyleInset.alt}
+                            className="w-full h-full object-cover object-center"
+                          />
+                        </div>
+                      )}
                     </div>
                     {service.heroBadgeImage && (
                       <div className="mt-5 flex justify-center">

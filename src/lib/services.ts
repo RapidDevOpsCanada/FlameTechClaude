@@ -67,15 +67,20 @@ export type ServicePage = {
   /** Short noun for the quote-form heading ("AC", "boiler", "drain"). */
   quoteFormLabel?: string;
   /**
-   * Monthly financing-from price shown in the hero as a subtle chip.
-   * Only set this for larger-ticket services (AC, furnaces, boilers,
-   * heat pumps, PolyB, tankless heaters, water softeners, hot water
-   * tanks). Leave undefined for service calls / repairs / small jobs.
+   * When set, the hero renders a "Financing Available" badge with the
+   * Financeit logo. Only enable for bigger-ticket services (AC,
+   * furnaces, boilers, heat pumps, PolyB, tankless heaters, water
+   * softeners, hot water tanks). Leave undefined for service calls /
+   * repairs / small jobs.
    */
   financing?: {
-    fromAmount: string; // e.g. "$89/mo"
-    detail?: string; // e.g. "OAC via Financeit"
+    detail?: string; // e.g. "Monthly payments · OAC via Financeit"
   };
+  /**
+   * Optional small rounded inset image overlaying the bottom-right of
+   * the hero product card (van / team / installed unit).
+   */
+  lifestyleInset?: RichImage;
 };
 
 export const services: ServicePage[] = [
@@ -440,8 +445,11 @@ export const services: ServicePage[] = [
     ],
     quoteFormLabel: "AC",
     financing: {
-      fromAmount: "$89/mo",
-      detail: "OAC via Financeit",
+      detail: "Monthly payments · OAC via Financeit",
+    },
+    lifestyleInset: {
+      src: "/images/FTVAN1.jpg",
+      alt: "FlameTech service team on-site",
     },
     richContent: {
       sections: [
