@@ -93,7 +93,7 @@ export default async function ServicePage({
   const hasRich = !!service.richContent;
   const schemaJson = buildSchemaJsonLd(service);
   const stats = service.stats ?? DEFAULT_STATS;
-  const inlineReview = await pickInlineReview(service.slug);
+  const inlineReview = await pickInlineReview(service);
 
   const firstSectionHeading = service.richContent?.sections?.[0]?.heading;
 
@@ -111,8 +111,8 @@ export default async function ServicePage({
           <div className="absolute -top-32 -right-32 w-[520px] h-[520px] rounded-full bg-emergency/20 blur-3xl pointer-events-none"></div>
           <div className="absolute top-1/2 -left-32 w-[380px] h-[380px] rounded-full bg-primary/10 blur-3xl pointer-events-none" />
 
-          <div className="max-w-6xl mx-auto px-6 md:px-10 py-14 md:py-20 relative">
-            <div className="flex flex-wrap items-center gap-2 mb-6 text-xs uppercase tracking-[0.14em] font-semibold text-cream-50/55">
+          <div className="max-w-6xl mx-auto px-6 md:px-10 py-10 md:py-14 relative">
+            <div className="flex flex-wrap items-center gap-2 mb-4 text-[11px] uppercase tracking-[0.14em] font-semibold text-cream-50/55">
               <Link href="/" className="hover:text-emergency">
                 Home
               </Link>
@@ -123,8 +123,8 @@ export default async function ServicePage({
               <div className="col-span-12 lg:col-span-7">
                 {/* Mobile hero image — collapsed, above headline */}
                 {service.heroImage && (
-                  <div className="lg:hidden mb-7">
-                    <div className="relative rounded-2xl bg-gradient-to-br from-cream-50 to-cream-100 border border-line-dark p-6 flex items-center justify-center aspect-[5/3] soft-shadow overflow-hidden">
+                  <div className="lg:hidden mb-6">
+                    <div className="relative rounded-2xl bg-gradient-to-br from-cream-50 to-cream-100 border border-line-dark p-5 flex items-center justify-center aspect-[5/3] soft-shadow overflow-hidden">
                       <img
                         src={service.heroImage.src}
                         alt={service.heroImage.alt}
@@ -132,34 +132,34 @@ export default async function ServicePage({
                       />
                     </div>
                     {service.heroBadgeImage && (
-                      <div className="mt-4 flex justify-center">
+                      <div className="mt-3 flex justify-center">
                         <img
                           src={service.heroBadgeImage.src}
                           alt={service.heroBadgeImage.alt}
-                          className="h-12 object-contain"
+                          className="h-11 object-contain"
                         />
                       </div>
                     )}
                   </div>
                 )}
 
-                <h1 className="font-display text-4xl md:text-5xl xl:text-6xl font-extrabold leading-[1.04] tracking-[-0.025em] mb-6">
+                <h1 className="font-display text-4xl md:text-5xl xl:text-[56px] font-extrabold leading-[1.04] tracking-[-0.025em] mb-4">
                   {service.title}
                 </h1>
-                <p className="text-lg md:text-xl font-bold text-cream-50 max-w-xl leading-snug mb-4">
+                <p className="text-lg md:text-xl font-bold text-cream-50 max-w-xl leading-snug mb-3">
                   {service.lead}
                 </p>
                 {service.heroBody?.map((p, i) => (
                   <p
                     key={i}
-                    className="text-base md:text-lg text-cream-50/75 max-w-xl leading-relaxed mb-4"
+                    className="text-[15px] md:text-base text-cream-50/75 max-w-xl leading-relaxed mb-3"
                   >
                     {p}
                   </p>
                 ))}
 
-                {/* Compact trust row: subhead + chips on one line, hairline divider above */}
-                <div className="mt-5 mb-6 pt-5 border-t border-line-dark flex flex-wrap items-center gap-x-4 gap-y-2">
+                {/* Compact trust row */}
+                <div className="mt-5 mb-5 flex flex-wrap items-center gap-x-4 gap-y-2">
                   {service.heroSubhead && (
                     <>
                       <span className="text-[11px] font-extrabold uppercase tracking-[0.18em] text-primary">
@@ -727,15 +727,52 @@ function InlineReviewBlock({ review }: { review: Review }) {
   );
 }
 
-/** Pick a non-featured review to drop inline. Falls back to null if the DB is empty. */
-async function pickInlineReview(slug: string): Promise<Review | null> {
-  const reviews = await getReviews();
-  if (!reviews.length) return null;
-  const nonFeatured = reviews.filter((r) => !r.featured);
-  const pool = nonFeatured.length ? nonFeatured : reviews;
-  // Stable-but-varying pick: hash the slug to an index.
-  const idx = [...slug].reduce((a, c) => a + c.charCodeAt(0), 0) % pool.length;
-  return pool[idx];
+/**
+ * Pick an inline review relevant to the service's category.
+ *
+ * Reviews get categorized by keyword: a quote mentioning "boiler" or
+ * "furnace" is Heating, "ac"/"cool" is Air, "drain"/"bathroom"/"pipe"
+ * is Plumbing, "tank"/"softener"/"hot water" is Water. Generic reviews
+ * (no keywords) can match any service.
+ *
+ * We only show reviews whose category includes the current service's
+ * category, or generic reviews. Prevents a furnace testimonial from
+ * landing on the AC page.
+ */
+async function pickInlineReview(
+  service: ServicePage
+): Promise<Review | null> {
+  const all = await getReviews();
+  if (!all.length) return null;
+
+  const basePool = all.filter((r) => !r.featured);
+  const pool = basePool.length ? basePool : all;
+
+  const matching = pool.filter((r) => {
+    const cats = categorizeReview(r.quote);
+    // No keywords → generic → always eligible
+    if (cats.size === 0) return true;
+    return cats.has(service.category);
+  });
+
+  const finalPool = matching.length ? matching : pool;
+  const idx =
+    [...service.slug].reduce((a, c) => a + c.charCodeAt(0), 0) %
+    finalPool.length;
+  return finalPool[idx];
+}
+
+function categorizeReview(quote: string): Set<ServicePage["category"]> {
+  const q = quote.toLowerCase();
+  const cats = new Set<ServicePage["category"]>();
+  if (/\b(ac|air[- ]?cond|cool)/.test(q)) cats.add("Air");
+  if (/\b(boiler|furnace|heat(?:er|ing)?|radiator|garage heat)/.test(q))
+    cats.add("Heating");
+  if (/\b(plumb|drain|pipe|faucet|leak|bath(room)?|shower|toilet|polyb)/.test(q))
+    cats.add("Plumbing");
+  if (/\b(water heat|tankless|softener|hot water|water tank)/.test(q))
+    cats.add("Water");
+  return cats;
 }
 
 function buildSchemaJsonLd(service: ServicePage) {
