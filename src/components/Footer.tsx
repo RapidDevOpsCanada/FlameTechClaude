@@ -15,13 +15,13 @@ const heatingLinks = [
   { label: "Boiler Service", href: "/boiler-service-calgary" },
   { label: "Furnaces", href: "/furnaces" },
   { label: "High-Efficiency Furnaces", href: "/high-efficiency-furnaces-calgary" },
-  { label: "Garage Heaters", href: "/garage-heaters" },
+  { label: "Garage Heaters", href: "/garage-heaters-calgary" },
   { label: "Heat Pumps", href: "/heat-pumps-calgary" },
 ];
 
 const airWaterLinks = [
   { label: "Air Conditioning", href: "/air-conditioning" },
-  { label: "Humidifiers", href: "/humidifiers" },
+  { label: "Humidifiers", href: "/humidifiers-calgary" },
   { label: "Hot Water Tanks", href: "/hot-water-tanks" },
   { label: "Tankless Heaters", href: "/tankless-water-heaters" },
   { label: "Water Softener", href: "/water-softener" },

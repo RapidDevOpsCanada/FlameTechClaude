@@ -319,13 +319,12 @@ schema so even non-service pages have brand context.
 - [x] `/emergency-plumber-calgary`
 - [x] `/polyb-plumbing-calgary`
 - [x] `/tankless-water-heaters`
+- [x] `/garage-heaters-calgary`
+- [x] `/humidifiers-calgary`
+- [x] `/hot-water-tanks`
+- [x] `/hot-water-tank-replacement-calgary`
 
-**Todo (4):**
-
-- [ ] `/garage-heaters-calgary`
-- [ ] `/humidifiers-calgary`
-- [ ] `/hot-water-tanks`
-- [ ] `/hot-water-tank-replacement-calgary`
+**Todo:** 🎉 All 18 service pages migrated from WP.
 
 **Note on slug naming:** original WP URLs often include the city
 ("boiler-service-calgary", "furnace-calgary") and we're matching those

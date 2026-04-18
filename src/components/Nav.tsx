@@ -134,7 +134,7 @@ const menu: NavItem[] = [
             },
             {
               label: "Garage Heaters",
-              href: "/garage-heaters",
+              href: "/garage-heaters-calgary",
               icon: "garage",
               desc: "Warm, code-compliant garages.",
             },
@@ -172,7 +172,7 @@ const menu: NavItem[] = [
             },
             {
               label: "Humidifiers",
-              href: "/humidifiers",
+              href: "/humidifiers-calgary",
               icon: "water_drop",
               desc: "Whole-home humidification.",
             },
@@ -204,7 +204,7 @@ const menu: NavItem[] = [
             },
             {
               label: "Hot Water Tank Replacement",
-              href: "/hot-water-tank-replacement",
+              href: "/hot-water-tank-replacement-calgary",
               icon: "sync",
               desc: "Same-day tank swaps when possible.",
             },

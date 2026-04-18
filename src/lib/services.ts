@@ -1587,30 +1587,135 @@ export const services: ServicePage[] = [
     },
   },
   {
-    slug: "garage-heaters",
+    slug: "garage-heaters-calgary",
     category: "Heating",
     icon: "garage",
-    title: "Garage Heater Installs Calgary",
-    lead: "Warm, safe, code-compliant garage heat for Calgary homes.",
+    title: "Garage Heaters Calgary | Professional Installation & Repair Services",
+    lead:
+      "Calgary garages drop to -40°C in January, and working in that cold isn't just uncomfortable — it's dangerous. FlameTech installs and services garage heaters across Calgary, from forced-air gas units to radiant tube heaters and electric models.",
+    heroBody: [
+      "We know which heating solutions work best in Alberta's brutal winters and which ones are just money down the drain.",
+      "Your project doesn't stop because it's cold outside. We're available with priority emergency response for garage heater repairs and can usually get to Calgary homes within two hours for emergency calls.",
+    ],
+    heroSubhead: "Trusted Calgary Garage Heater Experts",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/FTVAN1.jpg", alt: "FlameTech service van — garage heater installation in Calgary", fit: "cover" },
     intro:
-      "A heated garage in Calgary is a workshop, a dog-walking staging area, and a faster winter morning all at once. We size, vent, and install to code.",
+      "Professional garage heater installation and repair in Calgary. Gas, electric, and radiant heaters. Priority emergency response, licensed gas fitters, 15+ years of Calgary experience.",
     features: [
-      "Tube and unit heater sizing",
-      "Gas line extensions",
-      "Proper combustion-air venting",
-      "Thermostat and safety controls",
-      "Insulation upgrade guidance",
+      "Gas garage heater installation",
+      "Electric garage heater setup",
+      "Radiant tube heater service",
+      "Garage heater repair",
+      "Venting & gas line work",
+      "Thermostat & control upgrades",
     ],
     bullets: [
       {
-        t: "Code-compliant venting",
-        d: "Combustion air and exhaust are critical — we follow Alberta gas code exactly.",
+        t: "Gas + electrical certified",
+        d: "Our techs hold gas fitting tickets AND electrical certifications — no subcontractors needed.",
       },
       {
-        t: "Sized to your insulation",
-        d: "An uninsulated garage eats BTUs. We'll recommend insulation first when it's worth it.",
+        t: "Calgary-climate sized",
+        d: "We size units for -40°C design temps, oversizing for uninsulated garages where it's needed.",
       },
     ],
+    seoTitle: "Garage Heaters Calgary | Installation & Repair | FlameTech",
+    seoDescription:
+      "Professional garage heater installation & repair in Calgary. Gas, electric & radiant heaters. Priority service. Beat the Alberta cold. Call 587-834-3668 today.",
+    seoKeywords: [
+      "garage heaters Calgary",
+      "garage heater install Calgary",
+      "gas garage heater",
+      "radiant tube heater Calgary",
+      "electric garage heater",
+      "FlameTech Plumbing Heating",
+    ],
+    quoteFormLabel: "garage heater",
+    quoteFormPlaceholder:
+      "e.g. looking at a forced-air gas heater for a double garage, radiant tube for a shop, electric unit for a single…",
+    sidebar: {
+      title: "Calgary Garage Heaters",
+      subtitle:
+        "Forced-air gas, radiant tube, and electric heaters sized properly for Alberta's -40°C winters.",
+      bullets: [
+        "Modine · Reznor · Sterling · Cadet",
+        "Gas line + venting + electrical all in-house",
+        "Priority emergency dispatch",
+        "City permits and inspections handled",
+      ],
+    },
+    stats: [
+      { number: "15+", label: "Years installing", icon: "verified" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "~2h", label: "Emergency ETA", icon: "schedule" },
+      { number: "Licensed", label: "gas + electrical", icon: "award" },
+    ],
+    callout:
+      "Garage heater quit in a cold snap? Call 587-834-3668 — we dispatch same-day with common parts stocked on every truck.",
+    richContent: {
+      sections: [
+        {
+          heading: "Why Calgary Homeowners Choose FlameTech for Garage Heaters",
+          intro:
+            "When your garage heater quits in February, our Calgary heating technicians show up with the right parts and tools to get you back to work. FlameTech has been installing garage heaters in Calgary since 2015, and we've seen every type of unit fail in every possible way. Our crew holds gas fitting tickets and electrical certifications, so we can handle any garage heating system — from simple electric baseboard heaters to complex radiant tube systems. We work in Aspen Woods garages with 20-foot ceilings and cramped Altadore single-car garages built in the 1960s. Every installation includes proper venting, gas line sizing, and electrical connections that pass Calgary building code inspection.",
+          items: [
+            { heading: "Gas Garage Heater Installation", body: "Complete installation of forced-air and radiant gas heaters, including gas line run, proper venting, and electrical connections for Calgary garages." },
+            { heading: "Electric Garage Heater Setup", body: "Installation of 240V electric heaters, baseboard units, and in-floor radiant systems with proper electrical panel upgrades where needed." },
+            { heading: "Radiant Tube Heater Service", body: "Installation and repair of overhead radiant tube heaters perfect for high-ceiling Calgary garages and workshops." },
+            { heading: "Garage Heater Repair", body: "Troubleshooting and fixing ignition problems, fan motor failures, thermostat issues, and gas valve replacements on all brands." },
+            { heading: "Venting & Gas Line Work", body: "Proper venting installation through garage walls or roofs, plus gas line sizing and pressure testing for safe operation." },
+            { heading: "Thermostat & Control Upgrades", body: "Installing programmable thermostats, zone controls, and safety switches for better temperature control and energy efficiency." },
+          ],
+        },
+        {
+          heading: "Common Garage Heater Issues in Calgary Homes",
+          intro:
+            "Calgary garage heaters take a beating from temperature swings and dust. Here are the problems we fix most often. Don't suffer through another winter with a cold garage — call us before the first snowfall.",
+          items: [
+            { body: "Ignition systems failing after sitting unused all summer — pilot lights won't stay lit or electronic ignitors crack from temperature changes." },
+            { body: "Fan motors burning out from running constantly in -30°C weather, especially on undersized units working overtime." },
+            { body: "Thermostat problems where the unit won't shut off or never reaches set temperature due to poor placement or wiring issues." },
+            { body: "Blocked venting from snow, ice, or debris causing units to shut down on high limit switches." },
+            { body: "Gas pressure problems where heaters won't fire properly due to undersized gas lines or regulator issues." },
+            { body: "Cracked heat exchangers on older units that have been through too many Calgary freeze-thaw cycles." },
+          ],
+        },
+        {
+          heading: "Garage Heater Maintenance Tips for Calgary Homeowners",
+          intro:
+            "Garage heaters work harder than house furnaces because they're heating uninsulated spaces in Alberta's extreme cold. Regular maintenance prevents expensive breakdowns and keeps your heating bills reasonable.",
+          items: [
+            { body: "Clean or replace air filters monthly during heating season — garage dust clogs filters faster than house furnace filters." },
+            { body: "Check venting annually for blockages, especially after chinooks when ice can form and melt repeatedly." },
+            { body: "Test your heater before first cold snap — don't wait until it's -20°C to discover problems." },
+            { body: "Keep the area around your heater clear — stored items too close can block airflow and create fire hazards." },
+            { body: "Have gas connections and pressure tested every 3 years by a qualified technician." },
+            { body: "Lubricate fan motors annually and check electrical connections for corrosion from temperature cycling." },
+          ],
+        },
+        {
+          heading: "Common Calgary Garage Heater Problems We Fix",
+          items: [
+            { heading: "Won't Ignite or Stay Lit", body: "Pilot lights that won't stay lit or electronic ignitors that spark but won't catch are usually caused by dirty sensors, bad thermocouples, or gas pressure problems. We carry ignition components for most brands and can usually fix these issues same-day." },
+            { heading: "Runs But Won't Heat", body: "When your heater fires up but doesn't produce heat, the problem is often a failed heat exchanger, blocked burner, or fan motor issue. These problems get worse quickly in Calgary's cold, so don't wait to call for service." },
+            { heading: "Short Cycling On and Off", body: "Units that turn on and off every few minutes are usually oversized, have blocked venting, or faulty limit switches. This wastes gas and wears out components fast — we can diagnose and fix the root cause." },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Frequently Asked Questions About Garage Heaters in Calgary",
+        intro:
+          "Ready to experience the Flame Tech difference? Contact us today for a free, no-obligation quote. You can reach us by phone, email, or through our online booking system. We're here to answer your questions and schedule your service at your convenience.",
+        items: [
+          { q: "What size garage heater do I need for my Calgary garage?", a: "Most single-car Calgary garages need 25,000-30,000 BTU units, while double garages typically require 45,000-60,000 BTU depending on insulation and ceiling height. We calculate heat loss based on your garage's construction, not just square footage. Our heating specialists can assess your space and recommend the right size during a free consultation." },
+          { q: "Can I install a garage heater myself in Calgary?", a: "Gas garage heaters require a licensed gas fitter in Calgary, and electrical units over 240V need a qualified electrician. DIY installations often fail city inspections and void manufacturer warranties. Many insurance companies also require professional installation for coverage." },
+          { q: "How long do garage heaters last in Calgary's climate?", a: "Quality gas garage heaters typically last 15-20 years in Calgary, while electric units can run 20-25 years with proper maintenance. Units that cycle frequently due to poor insulation or undersizing tend to fail sooner. Regular annual maintenance significantly extends lifespan." },
+          { q: "Should I choose gas or electric for my Calgary garage?", a: "Gas heaters heat faster and cost less to operate in Calgary's long winters, making them ideal for frequent use. Electric heaters work better for occasional use or garages without gas lines, but operating costs are higher. We can assess your usage patterns and recommend the most cost-effective option." },
+          { q: "Do garage heaters work well in uninsulated Calgary garages?", a: "Yes, but they'll run constantly and cost more to operate. Most Calgary garages built before 2000 have minimal insulation, so we typically recommend oversizing the heater by 20-30% and adding basic insulation to exterior walls. Even basic insulation makes a huge difference in heating efficiency and comfort." },
+        ],
+      },
+    },
   },
   {
     slug: "heat-pumps-calgary",
@@ -1938,83 +2043,383 @@ export const services: ServicePage[] = [
     },
   },
   {
-    slug: "humidifiers",
+    slug: "humidifiers-calgary",
     category: "Air",
     icon: "water_drop",
-    title: "Whole-Home Humidifiers Calgary",
-    lead: "Comfortable winter humidity — less static, less dry skin, fewer cracks.",
+    title: "Humidifiers Calgary | Professional Installation & Service",
+    lead:
+      "Calgary's bone-dry winters can drop indoor humidity below 15% — that's drier than most deserts. We've been installing and servicing humidifiers across Calgary for over 15 years, and your health and your home depend on getting humidity levels right.",
+    heroBody: [
+      "Our furnace specialists integrate humidifiers properly with your heating system to maintain that sweet spot of 30-50% humidity. We work on every major brand — Aprilaire, Honeywell, GeneralAire, and Skuttle.",
+      "When your humidifier stops working or you're tired of bloody noses and cracked furniture, we answer the phone. Real person, fast dispatch, and a fully stocked truck with the pads, cylinders, and solenoids needed to fix the problem or install a new system.",
+    ],
+    heroSubhead: "Trusted Calgary Humidifier Experts",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/2026/04/humidifier-install-calgary.jpg", alt: "Whole-home humidifier installed by FlameTech in Calgary", fit: "cover" },
     intro:
-      "Calgary winter air is desert-dry. A whole-home humidifier ties into your furnace and keeps the entire home comfortable without standalone units.",
+      "Humidifier installation, service, and repair in Calgary. Bypass, powered flow-through, and steam units from Aprilaire, Honeywell, GeneralAire, and Skuttle. 5-year parts warranty.",
     features: [
-      "Bypass and power-fan humidifiers",
-      "Furnace integration",
-      "Humidistat controls",
-      "Annual pad replacement",
-      "Troubleshooting dry-air symptoms",
+      "Whole-home humidifier installation",
+      "Humidifier pad replacement",
+      "Steam humidifier service",
+      "Humidifier control repair",
+      "Water line installation",
+      "Ductwork integration",
     ],
     bullets: [
       {
-        t: "Tune-to-target humidity",
-        d: "Too low is uncomfortable; too high causes window condensation. We'll dial in your setpoint.",
+        t: "5-year parts warranty",
+        d: "New installations come with a 5-year warranty on parts, plus replacement pads and solenoids stocked on every truck.",
       },
       {
-        t: "Low-maintenance designs",
-        d: "We install modern units that need only an annual pad swap.",
+        t: "Calgary-climate calibrated",
+        d: "We size, install, and dial in humidifiers for -35°C winters, chinooks, and hard water — no condensation problems.",
       },
     ],
+    seoTitle: "Humidifiers Calgary | Professional Installation & Repair",
+    seoDescription:
+      "Calgary's dry winters demand proper humidity control. FlameTech installs & repairs all humidifier types. Priority service, 5-year parts warranty. Call today!",
+    seoKeywords: [
+      "humidifiers Calgary",
+      "whole home humidifier Calgary",
+      "Aprilaire humidifier",
+      "steam humidifier Calgary",
+      "humidifier install Calgary",
+      "FlameTech Plumbing Heating",
+    ],
+    quoteFormLabel: "humidifier",
+    quoteFormPlaceholder:
+      "e.g. bypass unit for a high-efficiency furnace, steam humidifier for a 3500 sqft home, white dust problem…",
+    sidebar: {
+      title: "Calgary Humidifiers",
+      subtitle:
+        "Whole-home humidifiers sized and installed for Calgary's dry winters — bypass, powered flow-through, and steam.",
+      bullets: [
+        "Aprilaire · Honeywell · GeneralAire · Skuttle",
+        "5-year parts warranty on new installs",
+        "Integration with any modern furnace",
+        "Priority emergency repair dispatch",
+      ],
+    },
+    stats: [
+      { number: "15+", label: "Years installing", icon: "verified" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "30-40%", label: "Winter target RH", icon: "schedule" },
+      { number: "5-yr", label: "Parts warranty", icon: "award" },
+    ],
+    callout:
+      "Bloody noses, cracked furniture, constant static? Call 587-834-3668 — dry air is doing real damage and we can fix it fast.",
+    richContent: {
+      sections: [
+        {
+          heading: "Why Calgary Homeowners Choose FlameTech for Humidifiers",
+          intro:
+            "FlameTech's Calgary technicians understand how Alberta's extreme weather affects indoor air quality. We install and service every major humidifier brand — Aprilaire, Honeywell, GeneralAire, and Skuttle. Most Calgary homes need bypass or powered flow-through models because of our forced-air heating systems. We've worked on everything from basic drum units in older homes in Mount Royal to steam humidifiers in new builds in Aspen Woods. We carry 5-year parts warranties on new installations and stock replacement pads, cylinders, and solenoids on every truck.",
+          items: [
+            { heading: "Whole-Home Humidifier Installation", body: "We size and install bypass, powered, and steam humidifiers to work perfectly with your existing furnace and ductwork." },
+            { heading: "Humidifier Pad Replacement", body: "Annual pad changes keep your system running efficiently — we stock Aprilaire, Honeywell, and aftermarket options." },
+            { heading: "Steam Humidifier Service", body: "Cylinder cleaning, electrode replacement, and mineral buildup removal for steam units in high-end Calgary homes." },
+            { heading: "Humidifier Control Repair", body: "Digital and manual humidistat calibration, wiring repairs, and control panel replacement when needed." },
+            { heading: "Water Line Installation", body: "Proper water supply lines with shut-off valves — no more jury-rigged saddle valves that leak in your basement." },
+            { heading: "Ductwork Integration", body: "Return air plenum modifications and supply connections that don't restrict airflow or create condensation issues." },
+          ],
+        },
+        {
+          heading: "Common Humidifier Issues in Calgary Homes",
+          intro:
+            "Calgary homeowners call us most often for these humidifier problems. Don't let dry air damage your health and home — call us for a proper diagnosis.",
+          items: [
+            { body: "Humidifier not producing moisture despite running — usually clogged distribution tray or worn-out pad." },
+            { body: "White dust throughout the house from over-mineralized tap water — needs proper media or steam conversion." },
+            { body: "Mold growth in or around the humidifier from poor drainage or oversized unit." },
+            { body: "Furnace cycling issues when humidifier draws power — electrical connection problems." },
+            { body: "Water pooling under the unit from cracked reservoir or loose fittings." },
+            { body: "Humidity readings never reaching set point — faulty humidistat or undersized unit." },
+          ],
+        },
+        {
+          heading: "Humidifier Maintenance for Calgary's Dry Climate",
+          intro:
+            "Calgary's hard water and dusty air make regular humidifier maintenance critical. Skip it, and you'll face expensive repairs or complete system replacement within a few years.",
+          items: [
+            { body: "Replace humidifier pads every heating season — more often if you have very hard water or pets." },
+            { body: "Clean the reservoir and distribution tray monthly during heating season to prevent mold and mineral buildup." },
+            { body: "Check and clean the drain line to prevent water backup and basement flooding." },
+            { body: "Calibrate your humidistat annually — Calgary's temperature swings can throw off the readings." },
+            { body: "Inspect water supply connections for leaks, especially saddle valves that tend to fail over time." },
+            { body: "Monitor humidity levels with a separate hygrometer — aim for 30-40% in winter, 50% max in summer." },
+          ],
+        },
+        {
+          heading: "Calgary Humidifier Expertise You Can Trust",
+          intro:
+            "We've been installing humidifiers in Calgary since 2008 and we're certified on all major brands — Aprilaire, Honeywell, GeneralAire, and Skuttle. Most Calgary homes need 600-800 gallons per day capacity because of our dry climate and forced-air heating. We properly size units based on your home's square footage, ductwork design, and furnace capacity — no guesswork. Calgary's building boom means we work on everything from 1960s bungalows to 2023 luxury homes. Older homes often need ductwork modifications for proper humidifier installation. Newer builds frequently have undersized units because builders went cheap. We know which systems work best with high-efficiency furnaces and which ones cause condensation problems in Calgary's climate. Alberta winters are brutal on humidifiers — we regularly see -35°C with 10% humidity. Chinooks create wild temperature swings that stress mechanical components. Our installations account for these extremes with proper drainage, oversized water lines, and controls that prevent over-humidification during warm spells.",
+        },
+      ],
+      faq: {
+        heading: "Frequently Asked Questions About Humidifiers in Calgary",
+        intro:
+          "Ready to experience the Flame Tech difference? Contact us today for a free, no-obligation quote. You can reach us by phone, email, or through our online booking system. We're here to answer your questions and schedule your service at your convenience.",
+        items: [
+          { q: "What type of humidifier works best for Calgary homes?", a: "Bypass and powered flow-through humidifiers work best with Calgary's forced-air heating systems. Steam units are great for larger homes but require more maintenance with our hard water. Avoid portable units — they can't handle Calgary's extreme dryness and often cause mold problems. We'll assess your ductwork and furnace type to recommend the right system." },
+          { q: "How often do humidifier pads need replacement in Calgary?", a: "Replace pads every heating season at minimum — often twice per year with Calgary's hard water. Mineral buildup clogs the media faster here than in softer water areas. Signs you need new pads include white dust, musty odors, or humidity readings that won't climb despite the unit running constantly." },
+          { q: "Can I install a humidifier on a high-efficiency furnace?", a: "Yes, but it requires proper planning. High-efficiency furnaces have different ductwork configurations and condensate management systems. We've installed hundreds on 90%+ efficiency units across Calgary without issues. The key is proper water line routing and drain connections that won't interfere with furnace operation." },
+          { q: "Why does my humidifier create white dust throughout the house?", a: "White dust comes from mineral deposits in Calgary's hard water being dispersed by the humidifier. This happens with drum-style and some ultrasonic units. Flow-through models with proper media reduce this significantly, or you can pair your system with a water softener for the best results." },
+          { q: "What humidity level should I maintain during Calgary winters?", a: "Aim for 30-40% humidity in winter — higher levels can cause condensation on windows and walls when it's -30°C outside. Summer humidity can safely reach 50%. Calgary's dry air often starts below 15%, so any increase helps with comfort, static electricity, and protecting wood furniture and flooring." },
+        ],
+      },
+    },
   },
   // WATER
   {
     slug: "hot-water-tanks",
     category: "Water",
     icon: "propane_tank",
-    title: "Hot Water Tanks Calgary",
-    lead: "Service, repair, and new installs on traditional hot water tanks.",
+    title: "Hot Water Tanks Calgary – Professional Installation & Repair",
+    lead:
+      "Calgary homeowners rely on Flame Tech Plumbing & Heating for dependable hot water tank solutions. Has your morning shower turned into an unwelcome cold surprise? Maybe you've spotted water pooling around the base of your current unit or noticed your energy bills creeping higher each month.",
+    heroBody: [
+      "A properly sized and professionally installed hot water tank makes all the difference for your household's daily comfort and long-term budget.",
+      "Flame Tech Plumbing & Heating delivers complete hot water tank services throughout Calgary, from selecting the right capacity for your family's needs to ensuring flawless installation and ongoing maintenance.",
+    ],
+    heroSubhead: "Trusted Hot Water Specialists",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/2026/02/bradford-white-hot-water-tank.png", alt: "Bradford White hot water tank installed by FlameTech in Calgary", fit: "contain" },
     intro:
-      "A traditional tank is reliable, simple, and the right choice for many Calgary homes. We service every major brand and quote upfront on replacements.",
+      "Hot water tank installation, repair, and replacement in Calgary. Gas and electric units, proper sizing, permits handled, annual flushing and anode rod service.",
     features: [
-      "Gas and electric tank service",
-      "Element and thermostat replacement",
-      "Anode rod inspection",
-      "Pressure relief valve testing",
-      "Same-day replacement when possible",
+      "Hot water tank installation",
+      "Tank repair & diagnostics",
+      "Annual flushing & maintenance",
+      "Anode rod inspection & replacement",
+      "Gas & electric models",
+      "Airdrie service coverage",
     ],
     bullets: [
       {
-        t: "When to repair vs replace",
-        d: "Tanks over 10 years with a major failure are usually better replaced. We'll show you why.",
+        t: "Calgary hard-water aware",
+        d: "We factor in hard water sediment when recommending tanks, anode rods, and flush intervals.",
       },
       {
-        t: "Code-compliant venting",
-        d: "New installs meet Alberta gas code, including seismic straps and proper venting.",
+        t: "Licensed & insured",
+        d: "Every installer is fully licensed, bonded, and insured — work meets all applicable codes.",
       },
     ],
+    seoTitle: "Hot Water Tanks Calgary | Installation & Repair | Flame Tech",
+    seoDescription:
+      "Need a new hot water tank in Calgary? Flame Tech offers professional installation, repair & replacement. Licensed technicians, upfront prices.",
+    seoKeywords: [
+      "hot water tanks Calgary",
+      "water heater Calgary",
+      "gas hot water tank",
+      "tank install Calgary",
+      "water heater repair Calgary",
+      "FlameTech Plumbing Heating",
+    ],
+    quoteFormLabel: "hot water tank",
+    quoteFormPlaceholder:
+      "e.g. replace a 50-gallon gas tank, upgrade from electric to gas, annual flushing service…",
+    sidebar: {
+      title: "Calgary Hot Water Tanks",
+      subtitle:
+        "Gas and electric tank installation, repair, and maintenance — sized to your household and built for Alberta winters.",
+      bullets: [
+        "Upfront pricing, no surprises",
+        "Permits and inspections handled",
+        "Labour + equipment warranties",
+        "Airdrie service coverage",
+      ],
+    },
+    stats: [
+      { number: "8-12yr", label: "Typical lifespan", icon: "verified" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "Same-day", label: "when stock allows", icon: "schedule" },
+      { number: "Licensed", label: "& insured", icon: "award" },
+    ],
+    callout:
+      "Rust water, puddles at the base, or rumbling noises? Your tank is telling you something — call 587-834-3668 for an honest repair-vs-replace assessment.",
+    richContent: {
+      sections: [
+        {
+          heading: "Why Calgary Families Trust Flame Tech for Hot Water Tanks",
+          intro:
+            "Your hot water tank works harder than almost any other appliance in your home, delivering reliable warmth for showers, laundry, dishwashing, and countless daily tasks. When it comes time for replacement or repair, partnering with experienced professionals ensures your investment performs optimally for years to come. We also offer hot water tank services in Airdrie.",
+          items: [
+            { heading: "Calgary's Hot Water Tank Specialists", body: "Our technicians bring years of hands-on experience installing and servicing hot water tanks across Calgary neighbourhoods. We know how our region's hard water and temperature extremes affect equipment longevity, and we factor these local conditions into every recommendation we make." },
+            { heading: "Certified & Fully Covered", body: "Every member of our installation crew holds current licensing and carries comprehensive insurance coverage. This protects your property and gives you confidence that the work meets all applicable codes and manufacturer specifications." },
+          ],
+        },
+        {
+          heading: "Advantages of a Modern Hot Water Tank",
+          intro:
+            "Today's storage water heaters offer significant improvements over older models. Here's what a new hot water tank brings to your Calgary home.",
+          items: [
+            { heading: "Lower Operating Costs", body: "Current hot water tank models feature enhanced insulation and more efficient burners compared to units manufactured even a decade ago. This translates to meaningful monthly savings on your natural gas bill, especially during Calgary's long heating season when demand peaks." },
+            { heading: "Consistent Supply", body: "A correctly sized storage tank maintains a ready reserve of heated water for your household's peak usage times. Whether everyone's getting ready for work and school simultaneously or you're running back-to-back loads of laundry, your hot water keeps flowing." },
+            { heading: "Straightforward Maintenance", body: "Storage water heaters use proven technology with widely available replacement parts. Annual flushing and periodic anode rod checks keep your system running efficiently for its full expected lifespan without complicated service requirements." },
+            { heading: "Built for Alberta Winters", body: "Quality hot water tanks handle cold incoming water temperatures without struggling, maintaining output even when Calgary's groundwater arrives near freezing during January cold snaps." },
+          ],
+        },
+        {
+          heading: "Complete Hot Water Tank Installation in Calgary",
+          intro:
+            "Replacing a hot water tank involves more than simply swapping out equipment. Our licensed technicians at Flame Tech Plumbing & Heating manage every aspect of the process to deliver lasting results.",
+          items: [
+            { heading: "Thorough Evaluation", body: "We calculate your household's actual hot water demand based on occupants, fixtures, and usage patterns to recommend the ideal tank capacity and recovery rate." },
+            { heading: "Permit & Code Handling", body: "Every installation follows current Calgary building requirements for gas connections, venting, and safety devices. We pull necessary permits and arrange inspections so you never have to worry about compliance." },
+            { heading: "Clean & Careful Work", body: "Our crews protect your floors, remove the old unit responsibly, and leave your mechanical room tidier than they found it. We respect your home throughout the entire process." },
+            { heading: "Backed by Our Promise", body: "We stand behind our installations with solid warranties on both labour and equipment. If something isn't right, we make it right — that's the Flame Tech commitment to Calgary homeowners." },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Common Questions About Hot Water Tanks in Calgary",
+        intro:
+          "Have questions about replacing or repairing your hot water tank? Get in touch with our team for straightforward answers and honest recommendations. Call us at 587-834-3668, send an email, or book online. We're ready to help you find the right solution for your home's hot water needs.",
+        items: [
+          { q: "What size hot water tank does my Calgary home need?", a: "Tank size depends on your household's peak hot water demand. A family of four typically needs a 50-gallon tank, though homes with multiple bathrooms or high-flow fixtures may benefit from larger capacity. We assess your specific situation to recommend the right fit." },
+          { q: "How long should a hot water tank last in Calgary?", a: "Most conventional hot water tanks provide 8 to 12 years of service with proper maintenance. Calgary's hard water can shorten this lifespan if sediment builds up, which is why annual flushing and anode rod inspections matter. Units approaching a decade old warrant a professional evaluation." },
+          { q: "What are signs my hot water tank needs replacing?", a: "Watch for rust-coloured water, rumbling noises during heating cycles, puddles around the base, inconsistent water temperature, or noticeably longer recovery times. Any of these symptoms suggest internal corrosion or failing components that often make replacement more cost-effective than repair." },
+          { q: "Should I choose gas or electric for my hot water tank?", a: "Natural gas hot water tanks typically cost less to operate in Alberta due to our relatively low gas prices, and they recover faster than electric models. However, your home's existing infrastructure, available space, and venting options all factor into the best choice. We help you weigh all considerations." },
+          { q: "How much does hot water tank installation cost in Calgary?", a: "Installation pricing varies based on tank size, fuel type, accessibility of your mechanical room, and whether any plumbing or venting modifications are needed. We provide detailed, upfront quotes after assessing your situation so there are no surprises. Contact us for a free estimate tailored to your home." },
+        ],
+      },
+    },
   },
   {
-    slug: "hot-water-tank-replacement",
+    slug: "hot-water-tank-replacement-calgary",
     category: "Water",
     icon: "sync",
-    title: "Hot Water Tank Replacement Calgary",
-    lead: "Fast, same-day tank swaps when yours has failed.",
+    title: "Hot Water Tank Replacement Calgary | Professional Installation Services",
+    lead:
+      "Calgary's hard water kills hot water tanks faster than anywhere else in Alberta. At FlameTech, we've been replacing failed tanks throughout Calgary for years, and we know exactly what brands hold up best in our water conditions.",
+    heroBody: [
+      "Whether your tank is leaking, making noise, or just not heating water properly, our hot water tank specialists will get you back to hot showers fast. We stock Bradford White, AO Smith, and Rheem tanks in our service vehicles — all models that handle Calgary's hard water better than cheap builder-grade units.",
+      "We answer our phones with priority dispatch — no call centre, no voicemail. When your hot water tank fails, we'll be there fast with a truck full of quality tanks ready for installation.",
+    ],
+    heroSubhead: "Trusted Calgary Hot Water Tank Replacement Experts",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/FTVAN1.jpg", alt: "FlameTech service van — Calgary hot water tank replacement", fit: "cover" },
     intro:
-      "When a tank lets go, you want hot water back today — not next week. We stock common sizes and brands so most replacements finish the same day.",
+      "Calgary hot water tank replacement by Red Seal certified plumbers. Bradford White, AO Smith, and Rheem stocked. Emergency service, permits handled, warranty included.",
     features: [
-      "Same-day replacement (stock permitting)",
-      "Old tank disposal",
-      "Upgrade to high-efficiency options",
-      "Expansion tank adds where required",
-      "Written 10-year pricing comparison",
+      "Emergency tank replacement",
+      "Tank removal & disposal",
+      "Gas & electric connections",
+      "Expansion tank installation",
+      "Drain pan & safety upgrades",
+      "Tankless conversion service",
     ],
     bullets: [
       {
-        t: "Emergency stock on hand",
-        d: "We carry common 40/50/60-gallon tanks — fewer delays on replacement day.",
+        t: "Red Seal certified",
+        d: "Our technicians are Red Seal plumbers with specialized gas fitting — installation and permits done right.",
       },
       {
-        t: "Clean, safe removal",
-        d: "Old tanks drained, vented, and hauled away to licensed recycling.",
+        t: "Quality brands in stock",
+        d: "Bradford White, AO Smith, and Rheem tanks on every truck — the units that actually last in Calgary's hard water.",
       },
     ],
+    seoTitle: "Hot Water Tank Replacement Calgary | Expert Installation",
+    seoDescription:
+      "Calgary hot water tank replacement by licensed technicians. Priority emergency service, all brands, free quotes. Call FlameTech for fast installation: 587-834-3668",
+    seoKeywords: [
+      "hot water tank replacement Calgary",
+      "water heater replacement Calgary",
+      "Bradford White Calgary",
+      "tank install emergency",
+      "AO Smith Calgary",
+      "FlameTech Plumbing Heating",
+    ],
+    quoteFormLabel: "tank replacement",
+    quoteFormPlaceholder:
+      "e.g. 50-gallon gas tank leaking, need same-day replacement, considering tankless conversion…",
+    sidebar: {
+      title: "Calgary Tank Replacement",
+      subtitle:
+        "Emergency dispatch, quality brands on every truck, and Red Seal certified installers for tank swaps across Calgary.",
+      bullets: [
+        "Bradford White · AO Smith · Rheem",
+        "Permits and inspections handled",
+        "Old tank removal & disposal included",
+        "Manufacturer + labor warranty",
+      ],
+    },
+    stats: [
+      { number: "3-4h", label: "Typical swap", icon: "schedule" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "15+", label: "Years replacing", icon: "verified" },
+      { number: "Red Seal", label: "certified", icon: "award" },
+    ],
+    financing: {
+      detail:
+        "Spread the cost of your new hot water tank replacement into flexible monthly payments via our Financeit partner.",
+    },
+    callout:
+      "Tank leaking or water is cold? Call 587-834-3668 — most emergency replacements done within 4–6 hours of the call.",
+    richContent: {
+      sections: [
+        {
+          heading: "Why Calgary Homeowners Choose FlameTech for Hot Water Tank Replacement",
+          intro:
+            "FlameTech's Calgary plumbing team has installed thousands of hot water tanks across every neighborhood from Mount Royal to McKenzie Towne. We've personally replaced tanks in Calgary homes for over 15 years, and we can tell you which brands fail early and which ones actually last. We stock Bradford White, AO Smith, and Rheem tanks in our service vehicles — all models that handle Calgary's hard water better than the cheap builder-grade units. Our technicians are Red Seal certified and insured, and we warranty both parts and labor. From heritage homes in Mount Royal with tricky basement access to new builds in Cranston with standard installations, we've done it all.",
+          items: [
+            { heading: "Emergency Tank Replacement", body: "Tank burst at 3 AM? We'll shut off your water, assess the damage, and have a new tank installed fast. Our emergency trucks carry 40 and 50-gallon tanks ready to go." },
+            { heading: "Tank Removal & Disposal", body: "We handle the heavy lifting. Old tanks get drained, disconnected, and hauled out properly. No mess left behind for you to deal with." },
+            { heading: "Gas Line & Electrical Connections", body: "Both gas and electric tank installations. We're licensed for gas work and handle all the permit requirements Calgary requires for tank replacements." },
+            { heading: "Expansion Tank Installation", body: "Calgary homes need expansion tanks to handle pressure buildup. We install them with every replacement to protect your new tank and plumbing system." },
+            { heading: "Drain Pan & Safety Upgrades", body: "New drain pans, temperature relief valves, and proper venting. We bring everything up to current Calgary building codes during replacement." },
+            { heading: "Tankless Conversion Service", body: "Ready to switch from a tank to tankless? We handle gas line upgrades, venting changes, and electrical work needed for the conversion." },
+          ],
+        },
+        {
+          heading: "Common Hot Water Tank Replacement Issues in Calgary Homes",
+          intro:
+            "Calgary homeowners call us with these hot water tank problems every single day. Don't wait until you're taking cold showers — call us at the first sign of tank trouble.",
+          items: [
+            { body: "Tank leaking from the bottom — usually means the tank has rusted through and needs immediate replacement." },
+            { body: "No hot water after 8-10 years — heating element burned out on electric tanks or thermocouple failed on gas units." },
+            { body: "Rusty or brown water coming from hot taps — sediment buildup from Calgary's hard water has corrupted the tank." },
+            { body: "Rumbling or banging noises — mineral deposits on the tank bottom are overheating and need to be addressed." },
+            { body: "Pilot light keeps going out — thermocouple or gas valve problems that often mean it's time for a new tank." },
+            { body: "Water temperature fluctuating — dip tube failure or thermostat issues that happen as tanks age past their prime." },
+          ],
+        },
+        {
+          heading: "Extending Your Calgary Hot Water Tank Life",
+          intro:
+            "Calgary's hard water is brutal on hot water tanks, but proper maintenance can help your tank reach its full 8-12 year lifespan instead of failing at 6 years like most do.",
+          items: [
+            { body: "Flush your tank annually to remove sediment buildup — Calgary water deposits minerals that settle at the bottom and cause premature failure." },
+            { body: "Replace the anode rod every 3-4 years — this sacrificial rod protects the tank from corrosion but gets eaten away by our hard water." },
+            { body: "Test the temperature relief valve yearly — lift the lever to make sure it releases properly and reseats without dripping." },
+            { body: "Set temperature to 120°F maximum — higher settings waste energy and accelerate mineral buildup in Calgary water." },
+            { body: "Check for leaks around fittings monthly — small drips turn into major failures fast, especially with our temperature swings." },
+            { body: "Install a water softener if you don't have one — it's the single best investment to protect your tank from Calgary's hard water." },
+          ],
+        },
+        {
+          heading: "Common Calgary Hot Water Tank Problems We Fix",
+          items: [
+            { heading: "Tank Leaking & Water Damage", body: "Calgary homes with failing tanks often have water pooling around the unit or dripping from relief valves. Once a tank starts leaking from the bottom, it's done — the steel has rusted through and replacement is the only option. We'll shut off water, assess damage, and get a new tank installed fast." },
+            { heading: "No Hot Water Production", body: "When Calgary families suddenly lose hot water, it's usually a failed heating element, thermocouple, or gas valve. On tanks over 8 years old with our hard water conditions, these failures often mean the tank is at end-of-life. We'll diagnose the problem and give you honest advice about repair versus replacement." },
+            { heading: "Mineral Buildup & Efficiency Loss", body: "Calgary's hard water creates mineral deposits that reduce tank capacity and make your unit work harder. If your gas bills are climbing and hot water runs out faster than before, sediment buildup is likely the culprit. Sometimes flushing helps, but heavily scaled tanks usually need replacement." },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Frequently Asked Questions About Hot Water Tank Replacement in Calgary",
+        intro:
+          "Ready to experience the Flame Tech difference? Contact us today for a free, no-obligation quote. You can reach us by phone, email, or through our online booking system. We're here to answer your questions and schedule your service at your convenience.",
+        items: [
+          { q: "How long does a hot water tank replacement take in Calgary?", a: "Most standard tank replacements take 3-4 hours from start to finish. This includes removing the old tank, installing the new one, connecting gas or electrical, and testing everything. Complex installations in tight spaces or with gas line modifications can take 5-6 hours. We'll give you an accurate time estimate once we see your setup." },
+          { q: "What size hot water tank do I need for my Calgary home?", a: "A 40-gallon tank works for 1-2 people, 50-gallon for 3-4 people, and 60+ gallons for larger families. Calgary homes with multiple bathrooms or teenagers usually need the larger size. We factor in your family size, number of bathrooms, and usage patterns to recommend the right capacity." },
+          { q: "Do I need permits for hot water tank replacement in Calgary?", a: "Yes, Calgary requires permits for gas hot water tank installations and electrical permits for electric tanks. We handle all permit applications and inspections as part of our service. The permits protect you by ensuring the work meets current safety codes and won't cause insurance issues later." },
+          { q: "Should I replace my hot water tank or repair it?", a: "If your tank is over 8 years old and having problems, replacement usually makes more sense than repairs. Calgary's hard water is brutal on tanks, and once they start failing, multiple problems follow quickly. Tankless water heaters are also worth considering for long-term savings." },
+          { q: "Can you install a hot water tank in any Calgary home?", a: "We can install tanks in almost any situation — basement installations, main floor utility rooms, even outdoor installations with proper enclosures. Older Calgary homes sometimes need gas line upgrades or venting modifications, but our experienced technicians have handled every possible configuration. We'll assess your space and explain any modifications needed upfront." },
+        ],
+      },
+    },
   },
   {
     slug: "tankless-water-heaters",
