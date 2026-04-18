@@ -29,7 +29,7 @@ export default function Home() {
                 <p className="text-lg text-cream-50/70 max-w-xl mb-10 leading-relaxed">
                   Local, certified technicians handling every plumbing,
                   heating, AC, and water system for Calgary homes. Upfront
-                  pricing, free estimates, satisfaction guaranteed.
+                  pricing, free estimates, and a satisfaction guarantee.
                 </p>
 
                 <div className="flex flex-wrap gap-4">
@@ -54,41 +54,39 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* Oversize hero photo */}
+              {/* Oversize hero photo — show the full van */}
               <div className="col-span-12 lg:col-span-6 relative">
-                <div className="relative rounded-3xl overflow-hidden border border-line-dark soft-shadow">
+                <div className="relative rounded-3xl overflow-hidden border border-line-dark soft-shadow bg-cream-50">
                   <img
                     src="/images/FTVAN.jpg"
                     alt="FlameTech service van across Calgary"
-                    className="w-full h-[500px] md:h-[620px] object-cover"
+                    className="w-full h-auto object-contain"
                   />
-                  {/* Gradient for legibility */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-ink-900/60 via-transparent to-transparent pointer-events-none" />
-                  {/* Floating rating card */}
-                  <div className="absolute top-6 left-6 rounded-2xl bg-cream-50 text-ink-900 px-5 py-4 flex items-center gap-4 soft-shadow">
-                    <div className="text-emergency text-2xl">★★★★★</div>
-                    <div>
-                      <div className="text-lg font-black leading-none font-display">
-                        5.0
-                      </div>
-                      <div className="text-[10px] font-bold uppercase tracking-[0.16em] text-ink-500 mt-1">
-                        Google Reviews
-                      </div>
+                </div>
+                {/* Floating rating card */}
+                <div className="absolute -top-4 -left-4 md:top-6 md:left-6 rounded-2xl bg-cream-50 text-ink-900 px-5 py-4 flex items-center gap-4 soft-shadow border border-line-light">
+                  <div className="text-emergency text-2xl">★★★★★</div>
+                  <div>
+                    <div className="text-lg font-black leading-none font-display">
+                      5.0
+                    </div>
+                    <div className="text-[10px] font-bold uppercase tracking-[0.16em] text-ink-500 mt-1">
+                      Google Reviews
                     </div>
                   </div>
-                  {/* Floating emergency chip */}
-                  <div className="absolute bottom-6 left-6 right-6 flex flex-wrap items-center justify-between gap-3">
-                    <div className="rounded-full bg-ink-900/85 backdrop-blur-md text-cream-50 px-4 py-2 text-xs font-semibold flex items-center gap-2 border border-cream-50/10">
-                      <span className="w-2 h-2 rounded-full bg-emergency animate-pulse" />
-                      24/7 Emergency Dispatch Active
-                    </div>
-                    <a
-                      href="tel:5878343668"
-                      className="rounded-full bg-emergency text-ink-900 font-bold px-4 py-2 text-xs hover:bg-emergency-deep hover:text-white transition-colors"
-                    >
-                      Call now
-                    </a>
+                </div>
+                {/* Floating call chip */}
+                <div className="absolute -bottom-4 left-4 right-4 md:bottom-6 md:left-6 md:right-6 flex flex-wrap items-center justify-between gap-3">
+                  <div className="rounded-full bg-ink-900/90 backdrop-blur-md text-cream-50 px-4 py-2 text-xs font-semibold flex items-center gap-2 border border-cream-50/10 soft-shadow">
+                    <span className="w-2 h-2 rounded-full bg-emergency animate-pulse" />
+                    Emergency Dispatch
                   </div>
+                  <a
+                    href="tel:5878343668"
+                    className="rounded-full bg-emergency text-ink-900 font-bold px-4 py-2 text-xs hover:bg-emergency-deep hover:text-white transition-colors soft-shadow"
+                  >
+                    Call now
+                  </a>
                 </div>
               </div>
             </div>
@@ -101,7 +99,7 @@ export default function Home() {
             <Stat number="12+" label="Years serving Calgary" />
             <Stat number="2,000+" label="Jobs completed" />
             <Stat number="5.0★" label="Google rated" />
-            <Stat number="60–90" label="Min emergency response" />
+            <Stat number="60–90" label="Min typical response" />
           </div>
         </section>
 
@@ -243,10 +241,10 @@ export default function Home() {
           <div className="max-w-7xl mx-auto px-6 md:px-10 py-14 flex flex-col md:flex-row items-start md:items-center gap-8">
             <div className="flex-1">
               <div className="text-xs font-bold uppercase tracking-[0.2em] mb-3">
-                24/7 Emergency
+                Emergency Response
               </div>
               <h2 className="font-display text-3xl md:text-5xl font-extrabold tracking-[-0.02em] leading-[1.05]">
-                On-site in 60–90 minutes, anywhere in Calgary.
+                Fast on-site response across Calgary.
               </h2>
             </div>
             <a
@@ -578,12 +576,12 @@ export default function Home() {
                 </h2>
                 <p className="text-cream-50/70 leading-relaxed mb-8">
                   Tell us what&apos;s going on and our dispatch team will call
-                  you back with pricing and availability. For 24/7 emergency
-                  service, call directly.
+                  you back with pricing and availability. For urgent issues,
+                  call directly.
                 </p>
                 <div className="space-y-3">
                   <InfoRow icon="call" text="587-834-3668" emphasize />
-                  <InfoRow icon="schedule" text="24/7 emergency dispatch" />
+                  <InfoRow icon="schedule" text="Priority emergency response" />
                   <InfoRow
                     icon="verified"
                     text="Licensed · Insured · BBB Accredited"

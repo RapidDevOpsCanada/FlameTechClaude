@@ -5,18 +5,12 @@ export default function Footer() {
     <footer className="bg-ink-900 text-cream-50 border-t border-line-dark">
       <div className="max-w-7xl mx-auto px-6 md:px-10 py-20 grid grid-cols-12 gap-10">
         <div className="col-span-12 md:col-span-5">
-          <Link
-            href="/"
-            className="inline-flex items-center gap-2.5 mb-5 text-cream-50"
-          >
+          <Link href="/" className="inline-flex items-center mb-5 text-cream-50">
             <img
               src="/images/FT-LOGO-DARK8.png"
               alt="FlameTech"
-              className="h-9 w-auto object-contain"
+              className="h-12 w-auto object-contain"
             />
-            <span className="font-display text-xl font-extrabold tracking-tight">
-              FlameTech
-            </span>
           </Link>
           <p className="text-cream-50/70 leading-relaxed max-w-sm mb-6">
             Calgary&apos;s trusted residential plumbing and heating experts.
@@ -74,7 +68,7 @@ export default function Footer() {
               <span className="material-symbols-outlined text-base text-primary">
                 schedule
               </span>
-              24/7 Emergency Dispatch
+              Priority emergency response
             </li>
             <li>
               <a
@@ -99,7 +93,7 @@ export default function Footer() {
           <div className="flex items-center gap-2">
             <span className="w-2 h-2 rounded-full bg-emergency animate-pulse"></span>
             <span className="font-semibold text-emergency">
-              24/7 Dispatch Active
+              Emergency Dispatch
             </span>
           </div>
         </div>

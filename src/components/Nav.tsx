@@ -4,18 +4,12 @@ export default function Nav() {
   return (
     <nav className="sticky top-0 w-full z-50 bg-ink-900/85 backdrop-blur-lg border-b border-line-dark">
       <div className="max-w-7xl mx-auto px-6 md:px-10 py-4 flex items-center justify-between gap-6">
-        <Link
-          href="/"
-          className="flex items-center gap-2.5 text-cream-50"
-        >
+        <Link href="/" className="flex items-center text-cream-50">
           <img
             src="/images/FT-LOGO-DARK8.png"
             alt="FlameTech"
-            className="h-9 md:h-10 w-auto object-contain"
+            className="h-10 md:h-12 w-auto object-contain"
           />
-          <span className="font-display text-lg font-extrabold tracking-tight">
-            FlameTech
-          </span>
         </Link>
 
         <div className="hidden lg:flex items-center gap-10">

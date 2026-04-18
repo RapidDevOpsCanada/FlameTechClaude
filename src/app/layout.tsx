@@ -11,9 +11,9 @@ const manrope = Manrope({
 
 export const metadata: Metadata = {
   title:
-    "FlameTech Plumbing & Heating — Trusted Calgary Plumbers | 24/7 Emergency",
+    "FlameTech Plumbing & Heating — Trusted Calgary Plumbers",
   description:
-    "Calgary's licensed, insured, and bonded residential plumbing and heating experts. 24/7 emergency response. Boilers, furnaces, drain cleaning, PolyB replacement, hot water tanks, and more. Call 587-834-3668.",
+    "Calgary's licensed, insured, and bonded residential plumbing and heating experts. Fast emergency response. Boilers, furnaces, drain cleaning, PolyB replacement, hot water tanks, and more. Call 587-834-3668.",
 };
 
 export default function RootLayout({

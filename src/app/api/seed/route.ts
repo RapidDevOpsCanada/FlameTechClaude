@@ -57,7 +57,7 @@ const articles: SeedArticle[] = [
       <h3>If a pipe freezes</h3>
       <p>Shut the main water valve first. Then apply gentle warmth — a hair dryer, heating pad, or warm towels — starting from the faucet end. Never use an open flame. If you cannot locate the frozen section, or if the pipe has already burst, call us.</p>
       <blockquote>A $40 pipe insulator is cheaper than a $40,000 flood.</blockquote>
-      <p>FlameTech responds to emergency frozen and burst pipe calls across Calgary 24/7.</p>
+      <p>FlameTech responds quickly to emergency frozen and burst pipe calls across Calgary.</p>
     `,
     category: "Plumbing",
     category_slug: "plumbing",
