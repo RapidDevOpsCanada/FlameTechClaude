@@ -37,20 +37,8 @@ const config: Config = {
         full: "9999px",
       },
       fontFamily: {
-        display: [
-          "var(--font-bricolage)",
-          "Bricolage Grotesque",
-          "Manrope",
-          "Inter",
-          "sans-serif",
-        ],
-        headline: [
-          "var(--font-bricolage)",
-          "Bricolage Grotesque",
-          "Manrope",
-          "Inter",
-          "sans-serif",
-        ],
+        display: ["var(--font-manrope)", "Manrope", "Inter", "sans-serif"],
+        headline: ["var(--font-manrope)", "Manrope", "Inter", "sans-serif"],
         body: ["var(--font-manrope)", "Manrope", "Inter", "sans-serif"],
         technical: ["var(--font-manrope)", "Manrope", "Inter", "sans-serif"],
       },
