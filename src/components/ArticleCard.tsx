@@ -8,7 +8,7 @@ export default function ArticleCard({ article }: { article: Article }) {
       className="group col-span-12 md:col-span-6 lg:col-span-4 rounded-2xl bg-white border border-line-light p-7 flex flex-col hover:border-emergency transition-colors"
     >
       <div className="flex items-center gap-3 mb-5">
-        <span className="rounded-full bg-emergency/10 text-emergency-deep px-3 py-1 text-xs font-bold uppercase tracking-wider">
+        <span className="rounded-full bg-primary/15 text-primary-deep px-3 py-1 text-xs font-bold uppercase tracking-wider">
           {article.category}
         </span>
         <span className="text-xs text-ink-500 font-semibold">

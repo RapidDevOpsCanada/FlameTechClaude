@@ -257,7 +257,7 @@ export default function Nav() {
             <li key={item.label} className="relative group h-full flex items-stretch">
               <Link
                 href={item.href}
-                className="flex items-center gap-1.5 px-4 h-full text-[14px] font-extrabold tracking-tight uppercase text-cream-50 group-hover:text-emergency transition-colors"
+                className="flex items-center gap-1.5 px-4 h-full text-[17px] font-extrabold tracking-tight uppercase text-cream-50 group-hover:text-emergency transition-colors"
               >
                 {item.label}
                 {item.mega && (
@@ -275,16 +275,16 @@ export default function Nav() {
         <div className="hidden md:flex items-center gap-4 shrink-0">
           <a
             href="tel:5878343668"
-            className="hidden xl:flex items-center gap-2 text-[15px] font-extrabold text-cream-50 hover:text-emergency transition-colors"
+            className="hidden xl:flex items-center gap-2 text-[17px] font-extrabold text-cream-50 hover:text-emergency transition-colors"
           >
-            <span className="material-symbols-outlined text-lg text-emergency">
+            <span className="material-symbols-outlined text-xl text-emergency">
               call
             </span>
             587-834-3668
           </a>
           <a
             href="#quote"
-            className="inline-flex items-center rounded-full bg-emergency text-cream-50 font-extrabold uppercase tracking-tight px-6 py-3 text-[13px] hover:bg-emergency-deep transition-colors"
+            className="inline-flex items-center rounded-full bg-emergency text-cream-50 font-extrabold uppercase tracking-tight px-6 py-3 text-[15px] hover:bg-emergency-deep transition-colors"
           >
             Contact Us
           </a>
@@ -353,10 +353,10 @@ function MegaPanel({ mega }: { mega: NonNullable<NavItem["mega"]> }) {
             hasPromo ? "grid-cols-[1fr_300px]" : "grid-cols-1"
           }`}
         >
-          <div className="p-6 grid grid-cols-2 gap-x-6 gap-y-6">
+          <div className="p-7 grid grid-cols-2 gap-x-6 gap-y-7">
             {mega.groups.map((group) => (
               <div key={group.heading} className="col-span-2 md:col-span-1">
-                <h4 className="text-[11px] font-bold uppercase tracking-[0.18em] text-primary mb-4">
+                <h4 className="text-[12px] font-extrabold uppercase tracking-[0.18em] text-primary mb-4">
                   {group.heading}
                 </h4>
                 <ul className="space-y-1">
@@ -366,15 +366,15 @@ function MegaPanel({ mega }: { mega: NonNullable<NavItem["mega"]> }) {
                         href={item.href}
                         className="flex items-start gap-3 p-3 rounded-xl hover:bg-ink-700 transition-colors group/item"
                       >
-                        <span className="material-symbols-outlined text-xl text-primary mt-0.5">
+                        <span className="material-symbols-outlined text-2xl text-primary mt-0.5">
                           {item.icon}
                         </span>
                         <span className="flex-1">
-                          <span className="block font-semibold text-sm text-cream-50 group-hover/item:text-emergency transition-colors">
+                          <span className="block font-bold text-[16px] text-cream-50 group-hover/item:text-emergency transition-colors">
                             {item.label}
                           </span>
                           {item.desc && (
-                            <span className="block text-xs text-cream-50/60 mt-0.5 leading-snug">
+                            <span className="block text-[13px] text-cream-50/60 mt-0.5 leading-snug">
                               {item.desc}
                             </span>
                           )}
@@ -397,18 +397,18 @@ function MegaPanel({ mega }: { mega: NonNullable<NavItem["mega"]> }) {
                 <div className="absolute inset-0 bg-gradient-to-t from-ink-900 via-ink-900/20 to-transparent" />
               </div>
               <div className="p-6 flex-1 flex flex-col">
-                <h5 className="font-display text-lg font-extrabold tracking-tight text-cream-50 mb-2">
+                <h5 className="font-display text-xl font-extrabold tracking-tight text-cream-50 mb-2">
                   {mega.promo.title}
                 </h5>
-                <p className="text-xs text-cream-50/70 leading-relaxed mb-5 flex-grow">
+                <p className="text-sm text-cream-50/70 leading-relaxed mb-5 flex-grow">
                   {mega.promo.body}
                 </p>
                 <a
                   href={mega.promo.href}
-                  className="inline-flex items-center justify-center gap-2 rounded-full bg-emergency text-ink-900 font-bold px-4 py-2.5 text-xs hover:bg-emergency-deep hover:text-white transition-colors"
+                  className="inline-flex items-center justify-center gap-2 rounded-full bg-emergency text-cream-50 font-extrabold uppercase tracking-tight px-4 py-3 text-[13px] hover:bg-emergency-deep transition-colors"
                 >
                   {mega.promo.cta}
-                  <span className="material-symbols-outlined text-sm">
+                  <span className="material-symbols-outlined text-base">
                     arrow_right_alt
                   </span>
                 </a>

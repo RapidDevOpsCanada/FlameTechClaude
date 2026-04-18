@@ -36,7 +36,7 @@ export default async function ReviewsSection() {
           </div>
           <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
             <div className="flex items-center gap-3 rounded-full bg-white border border-line-light px-5 py-3">
-              <span className="text-emergency text-lg">★★★★★</span>
+              <span className="text-primary text-lg">★★★★★</span>
               <span className="font-bold">5.0</span>
               <span className="text-sm text-ink-500">· hundreds of reviews</span>
             </div>
@@ -64,7 +64,7 @@ export default async function ReviewsSection() {
                 </span>
                 via Google
               </div>
-              <div className="text-emergency text-xl tracking-wider">
+              <div className="text-primary text-xl tracking-wider">
                 ★★★★★
               </div>
             </div>
@@ -72,7 +72,7 @@ export default async function ReviewsSection() {
               &ldquo;{featured.quote}&rdquo;
             </p>
             <div className="flex items-center gap-4 pt-6 border-t border-line-dark">
-              <div className="w-12 h-12 rounded-full bg-emergency/15 flex items-center justify-center font-bold text-emergency text-base">
+              <div className="w-12 h-12 rounded-full bg-primary/15 flex items-center justify-center font-bold text-primary text-base">
                 {featured.initials}
               </div>
               <div>
@@ -92,7 +92,7 @@ export default async function ReviewsSection() {
                 className="rounded-2xl bg-white border border-line-light p-6 flex flex-col lift"
               >
                 <div className="flex items-center justify-between mb-4">
-                  <div className="text-emergency text-sm tracking-wider">
+                  <div className="text-primary text-sm tracking-wider">
                     ★★★★★
                   </div>
                   <span className="text-xs text-ink-500">

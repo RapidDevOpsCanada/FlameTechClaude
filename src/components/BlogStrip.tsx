@@ -47,7 +47,7 @@ export default async function BlogStrip() {
                 className="group block rounded-2xl bg-white border border-line-light p-7 h-full lift"
               >
                 <div className="flex items-center gap-3 mb-5">
-                  <span className="rounded-full bg-emergency/10 text-emergency-deep px-3 py-1 text-xs font-bold uppercase tracking-wider">
+                  <span className="rounded-full bg-primary/15 text-primary-deep px-3 py-1 text-xs font-bold uppercase tracking-wider">
                     {a.category}
                   </span>
                   <span className="text-xs text-ink-500 font-semibold">
