@@ -104,16 +104,7 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(baseSchema) }}
         />
-        <div
-          style={{
-            width: "100%",
-            maxWidth: "100vw",
-            overflowX: "hidden",
-            position: "relative",
-          }}
-        >
-          {children}
-        </div>
+        {children}
       </body>
     </html>
   );

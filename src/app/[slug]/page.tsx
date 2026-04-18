@@ -369,10 +369,22 @@ export default async function ServicePage({
               )}
 
               {/* RICH CONTENT — sections */}
-              {service.richContent?.sections?.map((section, sIdx) => {
+              {service.richContent?.sections?.map((section) => {
                 const sectionImage = service.sectionImages?.[section.heading];
                 const showInlineReview =
                   inlineReview && section.heading === firstSectionHeading;
+
+                const hasHeadings = section.items.some((it) => !!it.heading);
+                const hasImages = section.items.some((it) => !!it.image);
+                const avgBodyLen =
+                  section.items.reduce((s, it) => s + it.body.length, 0) /
+                  Math.max(section.items.length, 1);
+                const mode: "cards" | "checklist" | "prose" =
+                  hasHeadings || hasImages
+                    ? "cards"
+                    : avgBodyLen < 180
+                    ? "checklist"
+                    : "prose";
 
                 return (
                   <div key={section.heading}>
@@ -384,93 +396,130 @@ export default async function ServicePage({
                         {section.heading}
                       </h2>
                       {section.intro && (
-                        <p className="text-ink-700 leading-relaxed mb-8 max-w-2xl">
+                        <p className="text-[17px] text-ink-700 leading-relaxed mb-8 max-w-2xl">
                           {section.intro}
                         </p>
                       )}
-                      <div className="space-y-5">
-                        {section.items.map((item, i) => {
-                          const featured = i === 0 && !!item.image;
-                          const flip = i % 2 === 1;
 
-                          if (featured) {
+                      {mode === "checklist" && (
+                        <div className="rounded-2xl bg-white border border-line-light p-7 md:p-9">
+                          <ul className="space-y-5">
+                            {section.items.map((item, i) => (
+                              <li
+                                key={`${section.heading}-${i}`}
+                                className="flex items-start gap-4"
+                              >
+                                <span className="shrink-0 w-9 h-9 rounded-full bg-primary/15 text-primary-deep flex items-center justify-center font-display font-extrabold text-sm mt-0.5">
+                                  {String(i + 1).padStart(2, "0")}
+                                </span>
+                                <span className="text-base md:text-[17px] text-ink-700 leading-relaxed pt-1">
+                                  {item.body}
+                                </span>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      )}
+
+                      {mode === "prose" && (
+                        <div className="relative pl-6 md:pl-8 border-l-2 border-primary/40 space-y-6">
+                          {section.items.map((item, i) => (
+                            <p
+                              key={`${section.heading}-${i}`}
+                              className="text-base md:text-[17px] text-ink-700 leading-[1.75]"
+                            >
+                              {item.body}
+                            </p>
+                          ))}
+                        </div>
+                      )}
+
+                      {mode === "cards" && (
+                        <div className="space-y-5">
+                          {section.items.map((item, i) => {
+                            const featured = i === 0 && !!item.image;
+                            const flip = i % 2 === 1;
+
+                            if (featured) {
+                              return (
+                                <div
+                                  key={`${section.heading}-${i}`}
+                                  className="rounded-2xl bg-ink-900 text-cream-50 border border-ink-900 overflow-hidden soft-shadow"
+                                >
+                                  <div className="relative h-64 md:h-80 overflow-hidden">
+                                    <img
+                                      src={item.image!.src}
+                                      alt={item.image!.alt}
+                                      className="w-full h-full object-cover"
+                                    />
+                                    <div className="absolute inset-0 bg-gradient-to-t from-ink-900 via-ink-900/40 to-transparent" />
+                                    <div className="absolute top-5 left-5 rounded-full bg-emergency text-cream-50 text-[10px] font-extrabold uppercase tracking-[0.18em] px-3 py-1.5">
+                                      Featured
+                                    </div>
+                                  </div>
+                                  <div className="p-7 md:p-9">
+                                    {item.heading && (
+                                      <h3 className="font-display font-extrabold text-2xl md:text-3xl tracking-tight mb-3 leading-tight">
+                                        {item.heading}
+                                      </h3>
+                                    )}
+                                    <p className="text-base md:text-lg text-cream-50/85 leading-relaxed max-w-2xl">
+                                      {item.body}
+                                    </p>
+                                  </div>
+                                </div>
+                              );
+                            }
+
                             return (
                               <div
                                 key={`${section.heading}-${i}`}
-                                className="rounded-2xl bg-ink-900 text-cream-50 border border-ink-900 overflow-hidden soft-shadow"
+                                className={`rounded-2xl bg-white border border-line-light overflow-hidden ${
+                                  item.image
+                                    ? "grid grid-cols-1 md:grid-cols-5 items-stretch"
+                                    : "p-7 md:p-8"
+                                } hover:border-primary transition-colors`}
                               >
-                                <div className="relative h-64 md:h-80 overflow-hidden">
-                                  <img
-                                    src={item.image!.src}
-                                    alt={item.image!.alt}
-                                    className="w-full h-full object-cover"
-                                  />
-                                  <div className="absolute inset-0 bg-gradient-to-t from-ink-900 via-ink-900/40 to-transparent" />
-                                  <div className="absolute top-5 left-5 rounded-full bg-emergency text-cream-50 text-[10px] font-extrabold uppercase tracking-[0.18em] px-3 py-1.5">
-                                    Featured
+                                {item.image && !flip && (
+                                  <div className="md:col-span-2 relative">
+                                    <img
+                                      src={item.image.src}
+                                      alt={item.image.alt}
+                                      className="w-full h-52 md:h-full object-cover"
+                                    />
                                   </div>
-                                </div>
-                                <div className="p-7 md:p-9">
+                                )}
+                                <div
+                                  className={
+                                    item.image
+                                      ? "md:col-span-3 p-7 md:p-8 flex flex-col justify-center"
+                                      : ""
+                                  }
+                                >
                                   {item.heading && (
-                                    <h3 className="font-display font-extrabold text-2xl md:text-3xl tracking-tight mb-3 leading-tight">
+                                    <h3 className="font-display font-extrabold text-xl md:text-2xl tracking-tight mb-3 leading-tight">
                                       {item.heading}
                                     </h3>
                                   )}
-                                  <p className="text-[15px] md:text-base text-cream-50/80 leading-relaxed max-w-2xl">
+                                  <p className="text-base md:text-[17px] text-ink-700 leading-relaxed">
                                     {item.body}
                                   </p>
                                 </div>
+                                {item.image && flip && (
+                                  <div className="md:col-span-2 relative order-first md:order-last">
+                                    <img
+                                      src={item.image.src}
+                                      alt={item.image.alt}
+                                      className="w-full h-52 md:h-full object-cover"
+                                    />
+                                  </div>
+                                )}
                               </div>
                             );
-                          }
+                          })}
+                        </div>
+                      )}
 
-                          return (
-                            <div
-                              key={`${section.heading}-${i}`}
-                              className={`rounded-2xl bg-white border border-line-light overflow-hidden ${
-                                item.image
-                                  ? "grid grid-cols-1 md:grid-cols-5 items-stretch"
-                                  : "p-6 md:p-7"
-                              } hover:border-primary transition-colors`}
-                            >
-                              {item.image && !flip && (
-                                <div className="md:col-span-2 relative">
-                                  <img
-                                    src={item.image.src}
-                                    alt={item.image.alt}
-                                    className="w-full h-52 md:h-full object-cover"
-                                  />
-                                </div>
-                              )}
-                              <div
-                                className={
-                                  item.image
-                                    ? "md:col-span-3 p-6 md:p-8 flex flex-col justify-center"
-                                    : ""
-                                }
-                              >
-                                {item.heading && (
-                                  <h3 className="font-display font-extrabold text-xl md:text-2xl tracking-tight mb-2 leading-tight">
-                                    {item.heading}
-                                  </h3>
-                                )}
-                                <p className="text-[15px] text-ink-700 leading-relaxed">
-                                  {item.body}
-                                </p>
-                              </div>
-                              {item.image && flip && (
-                                <div className="md:col-span-2 relative order-first md:order-last">
-                                  <img
-                                    src={item.image.src}
-                                    alt={item.image.alt}
-                                    className="w-full h-52 md:h-full object-cover"
-                                  />
-                                </div>
-                              )}
-                            </div>
-                          );
-                        })}
-                      </div>
                       {sectionImage && (
                         <figure className="mt-8 rounded-2xl overflow-hidden border border-line-light">
                           <img
