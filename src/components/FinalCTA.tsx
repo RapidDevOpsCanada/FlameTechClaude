@@ -4,7 +4,7 @@ export default function FinalCTA() {
   return (
     <section className="relative bg-ink-800 text-cream-50 py-20 md:py-28 overflow-hidden border-t border-line-dark">
       <div className="absolute inset-0 dotgrid opacity-40 pointer-events-none"></div>
-      <div className="absolute -top-40 left-1/2 -translate-x-1/2 w-[700px] h-[700px] rounded-full bg-emergency/15 blur-3xl pointer-events-none"></div>
+      <div className="hidden md:block absolute -top-40 left-1/2 -translate-x-1/2 w-[700px] h-[700px] rounded-full bg-emergency/15 blur-3xl pointer-events-none"></div>
 
       <div className="max-w-4xl mx-auto px-6 md:px-10 relative text-center">
         <span className="eyebrow justify-center mb-4 mx-auto">

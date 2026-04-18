@@ -108,8 +108,8 @@ export default async function ServicePage({
         {/* HERO */}
         <section className="relative border-b border-line-dark overflow-hidden">
           <div className="absolute inset-0 dotgrid opacity-50 pointer-events-none"></div>
-          <div className="absolute -top-32 -right-32 w-[520px] h-[520px] rounded-full bg-emergency/20 blur-3xl pointer-events-none"></div>
-          <div className="absolute top-1/2 -left-32 w-[380px] h-[380px] rounded-full bg-primary/10 blur-3xl pointer-events-none" />
+          <div className="hidden md:block absolute -top-32 -right-32 w-[520px] h-[520px] rounded-full bg-emergency/20 blur-3xl pointer-events-none"></div>
+          <div className="hidden md:block absolute top-1/2 -left-32 w-[380px] h-[380px] rounded-full bg-primary/10 blur-3xl pointer-events-none" />
 
           <div className="max-w-6xl mx-auto px-6 md:px-10 py-10 md:py-14 relative">
             <div className="flex flex-wrap items-center gap-2 mb-4 text-[11px] uppercase tracking-[0.14em] font-semibold text-cream-50/55">
@@ -658,7 +658,7 @@ export default async function ServicePage({
           className="relative bg-ink-900 text-cream-50 py-20 overflow-hidden"
         >
           <div className="absolute inset-0 dotgrid opacity-30 pointer-events-none"></div>
-          <div className="absolute top-10 -right-40 w-[520px] h-[520px] rounded-full bg-emergency/20 blur-3xl pointer-events-none"></div>
+          <div className="hidden md:block absolute top-10 -right-40 w-[520px] h-[520px] rounded-full bg-emergency/20 blur-3xl pointer-events-none"></div>
           <div className="max-w-6xl mx-auto px-6 md:px-10 relative">
             <div className="grid grid-cols-12 gap-10">
               <div className="col-span-12 md:col-span-5">

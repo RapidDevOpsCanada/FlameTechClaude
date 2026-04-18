@@ -20,8 +20,8 @@ export default function Home() {
         {/* HERO — tighter vertical rhythm */}
         <section className="relative overflow-hidden">
           <div className="absolute inset-0 dotgrid opacity-60 pointer-events-none"></div>
-          <div className="absolute -top-32 -right-32 w-[520px] h-[520px] rounded-full bg-emergency/20 blur-3xl pointer-events-none"></div>
-          <div className="absolute top-1/2 -left-32 w-[380px] h-[380px] rounded-full bg-primary/10 blur-3xl pointer-events-none"></div>
+          <div className="hidden md:block absolute -top-32 -right-32 w-[520px] h-[520px] rounded-full bg-emergency/20 blur-3xl pointer-events-none"></div>
+          <div className="hidden md:block absolute top-1/2 -left-32 w-[380px] h-[380px] rounded-full bg-primary/10 blur-3xl pointer-events-none"></div>
 
           <div className="max-w-7xl mx-auto px-6 md:px-10 pt-10 md:pt-14 pb-14 md:pb-16 relative">
             <div className="grid grid-cols-12 gap-10 items-center">
@@ -99,7 +99,7 @@ export default function Home() {
           id="why-us"
           className="relative bg-cream-50 text-ink-900 py-20 overflow-hidden"
         >
-          <div className="absolute -bottom-40 -right-40 w-[560px] h-[560px] rounded-full bg-primary/10 blur-3xl pointer-events-none"></div>
+          <div className="hidden md:block absolute -bottom-40 -right-40 w-[560px] h-[560px] rounded-full bg-primary/10 blur-3xl pointer-events-none"></div>
           <div className="max-w-7xl mx-auto px-6 md:px-10 relative">
             <div className="grid grid-cols-12 gap-12 items-stretch">
               <Reveal className="col-span-12 lg:col-span-6">
@@ -271,8 +271,8 @@ export default function Home() {
 
         {/* EMERGENCY CALLOUT — split alert panel */}
         <section className="relative bg-ink-900 py-16 overflow-hidden">
-          <div className="absolute top-1/2 left-1/4 -translate-y-1/2 w-[500px] h-[260px] bg-emergency/25 blur-3xl rounded-full pointer-events-none" />
-          <div className="absolute top-1/2 right-1/4 -translate-y-1/2 w-[400px] h-[220px] bg-primary/15 blur-3xl rounded-full pointer-events-none" />
+          <div className="hidden md:block absolute top-1/2 left-1/4 -translate-y-1/2 w-[500px] h-[260px] bg-emergency/25 blur-3xl rounded-full pointer-events-none" />
+          <div className="hidden md:block absolute top-1/2 right-1/4 -translate-y-1/2 w-[400px] h-[220px] bg-primary/15 blur-3xl rounded-full pointer-events-none" />
 
           <div className="max-w-7xl mx-auto px-6 md:px-10 relative">
             <Reveal>
@@ -476,7 +476,7 @@ export default function Home() {
           className="relative bg-ink-900 text-cream-50 py-24 overflow-hidden"
         >
           <div className="absolute inset-0 dotgrid opacity-40 pointer-events-none"></div>
-          <div className="absolute -top-32 -left-32 w-[520px] h-[520px] rounded-full bg-emergency/15 blur-3xl pointer-events-none"></div>
+          <div className="hidden md:block absolute -top-32 -left-32 w-[520px] h-[520px] rounded-full bg-emergency/15 blur-3xl pointer-events-none"></div>
           <div className="max-w-7xl mx-auto px-6 md:px-10 relative">
             <Reveal>
               <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-14">
@@ -540,7 +540,7 @@ export default function Home() {
           className="relative bg-ink-900 text-cream-50 py-20 overflow-hidden"
         >
           <div className="absolute inset-0 dotgrid opacity-30 pointer-events-none"></div>
-          <div className="absolute top-10 -right-40 w-[520px] h-[520px] rounded-full bg-emergency/20 blur-3xl pointer-events-none"></div>
+          <div className="hidden md:block absolute top-10 -right-40 w-[520px] h-[520px] rounded-full bg-emergency/20 blur-3xl pointer-events-none"></div>
           <div className="max-w-6xl mx-auto px-6 md:px-10 relative">
             <div className="grid grid-cols-12 gap-10">
               <Reveal className="col-span-12 md:col-span-5">
