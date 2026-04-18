@@ -9,11 +9,31 @@ const manrope = Manrope({
   display: "swap",
 });
 
+const SITE_URL = "https://flame-tech-claude-xd6r.vercel.app";
+
 export const metadata: Metadata = {
-  title:
-    "FlameTech Plumbing & Heating — Trusted Calgary Plumbers",
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: "FlameTech Plumbing & Heating — Trusted Calgary Plumbers",
+    template: "%s | FlameTech Plumbing & Heating",
+  },
   description:
     "Calgary's licensed, insured, and bonded residential plumbing and heating experts. Fast emergency response. Boilers, furnaces, drain cleaning, PolyB replacement, hot water tanks, and more. Call 587-834-3668.",
+  applicationName: "FlameTech Plumbing & Heating",
+  authors: [{ name: "FlameTech Plumbing & Heating Ltd." }],
+  alternates: { canonical: "/" },
+  openGraph: {
+    type: "website",
+    siteName: "FlameTech Plumbing & Heating",
+    locale: "en_CA",
+    url: SITE_URL,
+  },
+  twitter: {
+    card: "summary_large_image",
+  },
+  icons: {
+    icon: "/images/FT-LOGO-DARK8.png",
+  },
 };
 
 export default function RootLayout({
@@ -21,9 +41,58 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const baseSchema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": `${SITE_URL}#website`,
+        url: SITE_URL,
+        name: "FlameTech Plumbing & Heating",
+        inLanguage: "en-CA",
+        publisher: { "@id": `${SITE_URL}#business` },
+      },
+      {
+        "@type": "LocalBusiness",
+        "@id": `${SITE_URL}#business`,
+        name: "FlameTech Plumbing & Heating Ltd.",
+        image: `${SITE_URL}/images/FT-LOGO-DARK8.png`,
+        url: SITE_URL,
+        telephone: "+1-587-834-3668",
+        priceRange: "$$",
+        address: {
+          "@type": "PostalAddress",
+          addressLocality: "Calgary",
+          addressRegion: "AB",
+          addressCountry: "CA",
+        },
+        areaServed: [
+          "Calgary",
+          "Airdrie",
+          "Chestermere",
+          "Cochrane",
+          "Okotoks",
+          "Carstairs",
+        ],
+        sameAs: [
+          "https://www.facebook.com/p/FlameTech-Plumbing-and-Heating-61574205860979/",
+        ],
+        aggregateRating: {
+          "@type": "AggregateRating",
+          ratingValue: "5.0",
+          reviewCount: "30",
+        },
+      },
+    ],
+  };
+
   return (
     <html lang="en" className={manrope.variable}>
       <body className="font-body text-cream-50 bg-ink-900 antialiased">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(baseSchema) }}
+        />
         {children}
       </body>
     </html>

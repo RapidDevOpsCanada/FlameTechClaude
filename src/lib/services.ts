@@ -35,13 +35,27 @@ export type ServicePage = {
   category: "Plumbing" | "Heating" | "Air" | "Water";
   icon: string;
   title: string;
+  /** First hero paragraph (strong lead). */
   lead: string;
+  /** Fallback short description used by generic template. */
   intro: string;
+  /** Additional hero paragraphs rendered under the lead. */
+  heroBody?: string[];
+  /** Small kicker/subhead shown under hero body (e.g. "Satisfaction Guaranteed"). */
+  heroSubhead?: string;
+  /** Badge image shown next to the hero subhead (e.g. 5-star reviews). */
+  heroBadgeImage?: RichImage;
   features: string[];
   bullets: { t: string; d: string }[];
   callout?: string;
   heroImage?: RichImage;
   richContent?: RichContent;
+  /** SEO */
+  seoTitle?: string;
+  seoDescription?: string;
+  seoKeywords?: string[];
+  /** Optional secondary image rendered above the "Our Services" block. */
+  sectionImages?: Record<string, RichImage>;
 };
 
 export const services: ServicePage[] = [
@@ -341,9 +355,18 @@ export const services: ServicePage[] = [
     icon: "ac_unit",
     title: "Air Conditioning Calgary – Expert AC Services",
     lead:
-      "Flame Tech Plumbing & Heating is a trusted name in Calgary for all things heating and cooling. We're not just another company; we're your neighbours, dedicated to providing reliable and efficient air conditioning services to homes across the city.",
+      "Flame Tech Plumbing & Heating is a trusted name in Calgary for all things heating and cooling.",
+    heroBody: [
+      "We're not just another company; we're your neighbours, dedicated to providing reliable and efficient air conditioning services to homes across the city.",
+      "Our deep understanding of Calgary's unique climate ensures we provide solutions tailored to your specific needs.",
+    ],
+    heroSubhead: "Satisfaction Guaranteed",
+    heroBadgeImage: {
+      src: "/images/REVIEWS1.png",
+      alt: "5-star customer reviews",
+    },
     intro:
-      "Flame Tech Plumbing & Heating is a trusted name in Calgary for all things heating and cooling. We're not just another company; we're your neighbours, dedicated to providing reliable and efficient air conditioning services to homes across the city.",
+      "Flame Tech Plumbing & Heating is a trusted name in Calgary for all things heating and cooling.",
     features: [
       "Central AC installation",
       "AC repair for all makes & models",
@@ -365,6 +388,24 @@ export const services: ServicePage[] = [
     heroImage: {
       src: "/images/2025/12/air-ease-ac.png",
       alt: "Air Ease Air Conditioning Unit",
+    },
+    seoTitle:
+      "Calgary Air Conditioning Experts - Get Upto 12 Years Warranty!",
+    seoDescription:
+      "Expert air conditioning services in Calgary. AC installation, repair & maintenance. Licensed technicians. Call Flame Tech today!",
+    seoKeywords: [
+      "air conditioning Calgary",
+      "AC repair Calgary",
+      "AC installation Calgary",
+      "HVAC Calgary",
+      "ductless mini-split Calgary",
+      "FlameTech Plumbing Heating",
+    ],
+    sectionImages: {
+      "Why Choose Flame Tech for Air Conditioning in Calgary?": {
+        src: "/images/FTVAN1.jpg",
+        alt: "FlameTech service van in Calgary",
+      },
     },
     richContent: {
       sections: [
@@ -437,16 +478,24 @@ export const services: ServicePage[] = [
             {
               heading: "Factors to Consider (Home Size, Budget, Efficiency)",
               body: "Choosing the right AC unit involves considering several factors, such as the size of your home, your budget, and the energy efficiency ratings of different models. We'll walk you through these considerations to ensure you make an informed decision.",
+              image: {
+                src: "/images/2023/03/Untitled-2-1.jpg",
+                alt: "Calgary home considering a new AC install",
+              },
             },
             {
               heading: "Our Expert Recommendations",
               body: "With our extensive knowledge of air conditioning systems and the specific needs of Calgary homeowners, we provide expert recommendations tailored to your individual situation.",
+              image: {
+                src: "/images/2025/04/flame-tech-van.jpg",
+                alt: "FlameTech van ready for an AC consult",
+              },
             },
           ],
         },
       ],
       promo: {
-        heading: "AirEase Special — 12-year parts and labor warranty",
+        heading: "AirEase Special — 12-year parts and labor warranty*",
         image: {
           src: "/images/2026/01/AirEase-Promo.png",
           alt: "AirEase Air Conditioning Promo",
@@ -470,6 +519,10 @@ export const services: ServicePage[] = [
       faq: {
         heading: "Frequently Asked Questions About Air Conditioning in Calgary",
         items: [
+          {
+            q: "Ready to experience the Flame Tech difference?",
+            a: "Contact us today for a free, no-obligation quote on our air conditioning services in Calgary. You can reach us by phone, email, or through our online booking system. We're here to answer your questions and schedule your service at your convenience.",
+          },
           {
             q: "How often should I service my AC?",
             a: "We recommend scheduling professional AC maintenance at least once a year, ideally before the start of the cooling season, to ensure optimal performance and prevent potential issues.",

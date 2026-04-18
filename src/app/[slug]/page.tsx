@@ -10,8 +10,16 @@ import {
   getService,
   getRelatedServices,
   services,
+  type ServicePage,
 } from "@/lib/services";
 import type { Metadata } from "next";
+
+const SITE_URL = "https://flame-tech-claude-xd6r.vercel.app";
+const BUSINESS = {
+  name: "FlameTech Plumbing & Heating Ltd.",
+  phone: "+1-587-834-3668",
+  address: "Calgary, AB, Canada",
+};
 
 export async function generateStaticParams() {
   return services.map((s) => ({ slug: s.slug }));
@@ -25,9 +33,35 @@ export async function generateMetadata({
   const { slug } = await params;
   const service = getService(slug);
   if (!service) return { title: "Service not found" };
+
+  const title =
+    service.seoTitle || `${service.title} | FlameTech Plumbing & Heating`;
+  const description = service.seoDescription || service.intro;
+  const url = `${SITE_URL}/${service.slug}`;
+  const heroImg = service.heroImage?.src;
+
   return {
-    title: `${service.title} | FlameTech Plumbing & Heating`,
-    description: service.intro,
+    title,
+    description,
+    keywords: service.seoKeywords,
+    alternates: { canonical: url },
+    openGraph: {
+      type: "website",
+      title,
+      description,
+      url,
+      siteName: "FlameTech Plumbing & Heating",
+      locale: "en_CA",
+      images: heroImg
+        ? [{ url: `${SITE_URL}${heroImg}`, alt: service.heroImage?.alt }]
+        : undefined,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: heroImg ? [`${SITE_URL}${heroImg}`] : undefined,
+    },
   };
 }
 
@@ -42,9 +76,14 @@ export default async function ServicePage({
 
   const related = getRelatedServices(slug);
   const hasRich = !!service.richContent;
+  const schemaJson = buildSchemaJsonLd(service);
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaJson) }}
+      />
       <Nav />
       <main className="bg-ink-900 text-cream-50">
         {/* HERO */}
@@ -66,9 +105,33 @@ export default async function ServicePage({
                 <h1 className="font-display text-4xl md:text-5xl xl:text-6xl font-extrabold leading-[1.04] tracking-[-0.025em] mb-6">
                   {service.title}
                 </h1>
-                <p className="text-lg text-cream-50/75 max-w-xl leading-relaxed mb-8">
+                <p className="text-lg md:text-xl font-bold text-cream-50 max-w-xl leading-snug mb-4">
                   {service.lead}
                 </p>
+                {service.heroBody?.map((p, i) => (
+                  <p
+                    key={i}
+                    className="text-base md:text-lg text-cream-50/75 max-w-xl leading-relaxed mb-4"
+                  >
+                    {p}
+                  </p>
+                ))}
+
+                {service.heroSubhead && (
+                  <div className="mt-6 mb-8 flex flex-wrap items-center gap-5 pt-6 border-t border-line-dark">
+                    <span className="text-xs font-extrabold uppercase tracking-[0.18em] text-primary">
+                      {service.heroSubhead}
+                    </span>
+                    {service.heroBadgeImage && (
+                      <img
+                        src={service.heroBadgeImage.src}
+                        alt={service.heroBadgeImage.alt}
+                        className="h-10 md:h-12 object-contain"
+                      />
+                    )}
+                  </div>
+                )}
+
                 <div className="flex flex-wrap gap-3">
                   <a
                     href="tel:5878343668"
@@ -120,16 +183,11 @@ export default async function ServicePage({
         <section className="bg-cream-50 text-ink-900 py-16 md:py-20">
           <div className="max-w-6xl mx-auto px-6 md:px-10 grid grid-cols-12 gap-10">
             <div className="col-span-12 lg:col-span-8">
-              {/* Intro (only if it differs from the lead) */}
-              {service.intro !== service.lead && (
-                <p className="text-lg text-ink-700 leading-relaxed mb-10">
-                  {service.intro}
-                </p>
-              )}
-
-              {/* Simple template (no rich content) — keep features + bullets */}
               {!hasRich && (
                 <>
+                  <p className="text-lg text-ink-700 leading-relaxed mb-10">
+                    {service.intro}
+                  </p>
                   <h2 className="font-display text-3xl font-extrabold tracking-tight mb-6">
                     What&apos;s included
                   </h2>
@@ -149,7 +207,6 @@ export default async function ServicePage({
                       </li>
                     ))}
                   </ul>
-
                   <div className="space-y-6 mb-12">
                     {service.bullets.map((b) => (
                       <div
@@ -197,73 +254,85 @@ export default async function ServicePage({
                 </div>
               )}
 
-              {/* RICH CONTENT — sections (alternate image side for rhythm) */}
-              {service.richContent?.sections?.map((section, sIdx) => (
-                <div key={section.heading} className="mb-14">
-                  <span className="inline-flex items-center gap-2 text-[11px] font-extrabold uppercase tracking-[0.18em] text-primary mb-3">
-                    <span className="block w-6 h-px bg-primary" />
-                    Section {String(sIdx + 1).padStart(2, "0")}
-                  </span>
-                  <h2 className="font-display text-3xl md:text-4xl font-extrabold tracking-[-0.015em] mb-4 leading-[1.08]">
-                    {section.heading}
-                  </h2>
-                  {section.intro && (
-                    <p className="text-ink-700 leading-relaxed mb-8 max-w-2xl">
-                      {section.intro}
-                    </p>
-                  )}
-                  <div className="space-y-5">
-                    {section.items.map((item, i) => {
-                      const flip = i % 2 === 1;
-                      return (
-                        <div
-                          key={`${section.heading}-${i}`}
-                          className={`rounded-2xl bg-white border border-line-light overflow-hidden ${
-                            item.image
-                              ? "grid grid-cols-1 md:grid-cols-5 items-stretch"
-                              : "p-6 md:p-7"
-                          } hover:border-primary transition-colors`}
-                        >
-                          {item.image && !flip && (
-                            <div className="md:col-span-2 relative bg-ink-100">
-                              <img
-                                src={item.image.src}
-                                alt={item.image.alt}
-                                className="w-full h-52 md:h-full object-cover"
-                              />
-                            </div>
-                          )}
+              {/* RICH CONTENT — sections */}
+              {service.richContent?.sections?.map((section, sIdx) => {
+                const sectionImage = service.sectionImages?.[section.heading];
+                return (
+                  <div key={section.heading} className="mb-14">
+                    <span className="inline-flex items-center gap-2 text-[11px] font-extrabold uppercase tracking-[0.18em] text-primary mb-3">
+                      <span className="block w-6 h-px bg-primary" />
+                      Section {String(sIdx + 1).padStart(2, "0")}
+                    </span>
+                    <h2 className="font-display text-3xl md:text-4xl font-extrabold tracking-[-0.015em] mb-4 leading-[1.08]">
+                      {section.heading}
+                    </h2>
+                    {section.intro && (
+                      <p className="text-ink-700 leading-relaxed mb-8 max-w-2xl">
+                        {section.intro}
+                      </p>
+                    )}
+                    <div className="space-y-5">
+                      {section.items.map((item, i) => {
+                        const flip = i % 2 === 1;
+                        return (
                           <div
-                            className={
+                            key={`${section.heading}-${i}`}
+                            className={`rounded-2xl bg-white border border-line-light overflow-hidden ${
                               item.image
-                                ? "md:col-span-3 p-6 md:p-8 flex flex-col justify-center"
-                                : ""
-                            }
+                                ? "grid grid-cols-1 md:grid-cols-5 items-stretch"
+                                : "p-6 md:p-7"
+                            } hover:border-primary transition-colors`}
                           >
-                            {item.heading && (
-                              <h3 className="font-display font-extrabold text-xl md:text-2xl tracking-tight mb-2 leading-tight">
-                                {item.heading}
-                              </h3>
+                            {item.image && !flip && (
+                              <div className="md:col-span-2 relative">
+                                <img
+                                  src={item.image.src}
+                                  alt={item.image.alt}
+                                  className="w-full h-52 md:h-full object-cover"
+                                />
+                              </div>
                             )}
-                            <p className="text-[15px] text-ink-700 leading-relaxed">
-                              {item.body}
-                            </p>
-                          </div>
-                          {item.image && flip && (
-                            <div className="md:col-span-2 relative order-first md:order-last">
-                              <img
-                                src={item.image.src}
-                                alt={item.image.alt}
-                                className="w-full h-52 md:h-full object-cover"
-                              />
+                            <div
+                              className={
+                                item.image
+                                  ? "md:col-span-3 p-6 md:p-8 flex flex-col justify-center"
+                                  : ""
+                              }
+                            >
+                              {item.heading && (
+                                <h3 className="font-display font-extrabold text-xl md:text-2xl tracking-tight mb-2 leading-tight">
+                                  {item.heading}
+                                </h3>
+                              )}
+                              <p className="text-[15px] text-ink-700 leading-relaxed">
+                                {item.body}
+                              </p>
                             </div>
-                          )}
-                        </div>
-                      );
-                    })}
+                            {item.image && flip && (
+                              <div className="md:col-span-2 relative order-first md:order-last">
+                                <img
+                                  src={item.image.src}
+                                  alt={item.image.alt}
+                                  className="w-full h-52 md:h-full object-cover"
+                                />
+                              </div>
+                            )}
+                          </div>
+                        );
+                      })}
+                    </div>
+                    {sectionImage && (
+                      <figure className="mt-8 rounded-2xl overflow-hidden border border-line-light">
+                        <img
+                          src={sectionImage.src}
+                          alt={sectionImage.alt}
+                          className="w-full h-auto object-cover"
+                        />
+                      </figure>
+                    )}
                   </div>
-                </div>
-              ))}
+                );
+              })}
 
               {/* RICH CONTENT — promo */}
               {service.richContent?.promo && (
@@ -478,4 +547,106 @@ export default async function ServicePage({
       <StickyCallBar />
     </>
   );
+}
+
+function buildSchemaJsonLd(service: ServicePage) {
+  const url = `${SITE_URL}/${service.slug}`;
+  const heroImg = service.heroImage?.src
+    ? `${SITE_URL}${service.heroImage.src}`
+    : undefined;
+
+  const graph: Record<string, unknown>[] = [];
+
+  // Service schema
+  graph.push({
+    "@type": "Service",
+    "@id": `${url}#service`,
+    name: service.title,
+    description: service.seoDescription || service.intro,
+    serviceType: service.category,
+    image: heroImg,
+    url,
+    areaServed: {
+      "@type": "City",
+      name: "Calgary",
+      address: {
+        "@type": "PostalAddress",
+        addressRegion: "AB",
+        addressCountry: "CA",
+      },
+    },
+    provider: {
+      "@type": "LocalBusiness",
+      "@id": `${SITE_URL}#business`,
+      name: BUSINESS.name,
+      telephone: BUSINESS.phone,
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: "Calgary",
+        addressRegion: "AB",
+        addressCountry: "CA",
+      },
+      priceRange: "$$",
+      url: SITE_URL,
+    },
+  });
+
+  // Breadcrumb schema
+  graph.push({
+    "@type": "BreadcrumbList",
+    "@id": `${url}#breadcrumb`,
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: SITE_URL,
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: service.category,
+        item: `${SITE_URL}/#services`,
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: service.title,
+        item: url,
+      },
+    ],
+  });
+
+  // FAQ schema (if present)
+  if (service.richContent?.faq?.items?.length) {
+    graph.push({
+      "@type": "FAQPage",
+      "@id": `${url}#faq`,
+      mainEntity: service.richContent.faq.items.map((f) => ({
+        "@type": "Question",
+        name: f.q,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: f.a,
+        },
+      })),
+    });
+  }
+
+  // WebPage schema
+  graph.push({
+    "@type": "WebPage",
+    "@id": `${url}#webpage`,
+    url,
+    name: service.seoTitle || service.title,
+    description: service.seoDescription || service.intro,
+    isPartOf: { "@id": `${SITE_URL}#website` },
+    primaryImageOfPage: heroImg ? { "@type": "ImageObject", url: heroImg } : undefined,
+    breadcrumb: { "@id": `${url}#breadcrumb` },
+  });
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": graph,
+  };
 }
