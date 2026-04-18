@@ -5,6 +5,9 @@ import QuoteForm from "@/components/QuoteForm";
 import FAQ from "@/components/FAQ";
 import FinalCTA from "@/components/FinalCTA";
 import ReviewsSection from "@/components/ReviewsSection";
+import HowItWorks from "@/components/HowItWorks";
+import BlogStrip from "@/components/BlogStrip";
+import Reveal from "@/components/Reveal";
 
 export const dynamic = "force-dynamic";
 
@@ -116,24 +119,26 @@ export default function Home() {
         {/* SERVICES */}
         <section id="services" className="bg-cream-50 text-ink-900 py-24">
           <div className="max-w-7xl mx-auto px-6 md:px-10">
-            <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-14">
-              <div>
-                <span className="eyebrow-light mb-4">Services</span>
-                <h2 className="font-display text-4xl md:text-5xl xl:text-6xl font-extrabold tracking-[-0.025em] mt-4 max-w-2xl leading-[1.02]">
-                  Complete plumbing, heating &amp; water solutions for Calgary
-                  homes.
-                </h2>
+            <Reveal>
+              <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-14">
+                <div>
+                  <span className="eyebrow-light mb-4">Services</span>
+                  <h2 className="font-display text-4xl md:text-5xl xl:text-6xl font-extrabold tracking-[-0.025em] mt-4 max-w-2xl leading-[1.02]">
+                    Complete plumbing, heating &amp; water solutions for
+                    Calgary homes.
+                  </h2>
+                </div>
+                <a
+                  href="#quote"
+                  className="inline-flex items-center gap-2 rounded-full bg-ink-900 text-cream-50 font-semibold px-6 py-3 text-sm hover:bg-emergency hover:text-ink-900 transition-colors self-start"
+                >
+                  Get a free quote
+                  <span className="material-symbols-outlined text-base">
+                    arrow_right_alt
+                  </span>
+                </a>
               </div>
-              <a
-                href="#quote"
-                className="inline-flex items-center gap-2 rounded-full bg-ink-900 text-cream-50 font-semibold px-6 py-3 text-sm hover:bg-emergency hover:text-ink-900 transition-colors self-start"
-              >
-                Get a free quote
-                <span className="material-symbols-outlined text-base">
-                  arrow_right_alt
-                </span>
-              </a>
-            </div>
+            </Reveal>
 
             <div className="grid grid-cols-12 gap-6">
               <div className="col-span-12 lg:col-span-7 rounded-3xl overflow-hidden bg-ink-900 text-cream-50 border border-ink-900 relative group lift">
@@ -244,24 +249,39 @@ export default function Home() {
           </div>
         </section>
 
-        {/* EMERGENCY STRIP */}
-        <section className="bg-emergency text-ink-900">
-          <div className="max-w-7xl mx-auto px-6 md:px-10 py-14 flex flex-col md:flex-row items-start md:items-center gap-8">
-            <div className="flex-1">
-              <div className="text-xs font-bold uppercase tracking-[0.2em] mb-3">
-                Emergency Response
+        {/* HOW IT WORKS */}
+        <HowItWorks />
+
+        {/* EMERGENCY CALL-OUT — softened card on dark */}
+        <section className="bg-ink-900 py-16 md:py-20">
+          <div className="max-w-7xl mx-auto px-6 md:px-10">
+            <Reveal>
+              <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-emergency to-emergency-deep text-ink-900 p-8 md:p-12 flex flex-col md:flex-row items-start md:items-center gap-8 soft-shadow">
+                <div className="absolute -right-10 -bottom-10 w-64 h-64 rounded-full bg-white/10 blur-2xl pointer-events-none" />
+                <div className="relative flex-1">
+                  <div className="inline-flex items-center gap-2 rounded-full bg-ink-900/10 px-3 py-1 text-[11px] font-bold uppercase tracking-[0.18em] mb-4">
+                    <span className="w-1.5 h-1.5 rounded-full bg-ink-900 animate-pulse" />
+                    Emergency Response
+                  </div>
+                  <h2 className="font-display text-3xl md:text-4xl font-extrabold tracking-[-0.02em] leading-[1.05]">
+                    Burst pipe? No heat? Call now.
+                  </h2>
+                  <p className="text-ink-900/80 mt-3 max-w-lg">
+                    Fast on-site response across Calgary and surrounding
+                    communities when you need it most.
+                  </p>
+                </div>
+                <a
+                  href="tel:5878343668"
+                  className="relative inline-flex items-center gap-2 rounded-full bg-ink-900 text-cream-50 font-bold px-7 py-4 text-sm hover:bg-ink-700 transition-colors"
+                >
+                  <span className="material-symbols-outlined text-base">
+                    call
+                  </span>
+                  Call 587-834-3668
+                </a>
               </div>
-              <h2 className="font-display text-3xl md:text-5xl font-extrabold tracking-[-0.02em] leading-[1.05]">
-                Fast on-site response across Calgary.
-              </h2>
-            </div>
-            <a
-              href="tel:5878343668"
-              className="inline-flex items-center gap-2 rounded-full bg-ink-900 text-cream-50 font-bold px-8 py-4 text-sm hover:bg-ink-700 transition-colors"
-            >
-              <span className="material-symbols-outlined text-base">call</span>
-              Call 587-834-3668
-            </a>
+            </Reveal>
           </div>
         </section>
 
@@ -270,7 +290,7 @@ export default function Home() {
           <div className="absolute inset-0 dotgrid opacity-40 pointer-events-none"></div>
           <div className="max-w-7xl mx-auto px-6 md:px-10 relative">
             <div className="grid grid-cols-12 gap-12 items-stretch">
-              <div className="col-span-12 lg:col-span-6">
+              <Reveal className="col-span-12 lg:col-span-6">
                 <div className="rounded-3xl bg-ink-800 border border-line-dark p-8 md:p-10 h-full flex flex-col justify-between soft-shadow">
                   <div>
                     <span className="eyebrow mb-4">Founders</span>
@@ -303,8 +323,8 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-              </div>
-              <div className="col-span-12 lg:col-span-6">
+              </Reveal>
+              <Reveal delay={120} className="col-span-12 lg:col-span-6">
                 <span className="eyebrow mb-4">Why Calgary chooses us</span>
                 <h2 className="font-display text-4xl md:text-5xl xl:text-6xl font-extrabold tracking-[-0.025em] mt-4 mb-8 leading-[1.02]">
                   Local experts, upfront pricing, work you can{" "}
@@ -346,22 +366,24 @@ export default function Home() {
                     </div>
                   ))}
                 </div>
-              </div>
+              </Reveal>
             </div>
           </div>
         </section>
 
-        {/* BRANDS — marquee scroll */}
+        {/* POPULAR SERVICES — marquee scroll */}
         <section className="bg-cream-50 text-ink-900 py-24 overflow-hidden">
           <div className="max-w-7xl mx-auto px-6 md:px-10">
-            <div className="text-center mb-14">
-              <span className="eyebrow-light justify-center mb-4 mx-auto">
-                Certified Equipment
-              </span>
-              <h2 className="font-display text-4xl md:text-5xl font-extrabold tracking-[-0.025em] max-w-2xl mx-auto mt-4 leading-[1.02]">
-                Trusted brands we install
-              </h2>
-            </div>
+            <Reveal>
+              <div className="text-center mb-14">
+                <span className="eyebrow-light justify-center mb-4 mx-auto">
+                  Popular Services
+                </span>
+                <h2 className="font-display text-4xl md:text-5xl font-extrabold tracking-[-0.025em] max-w-2xl mx-auto mt-4 leading-[1.02]">
+                  Most-requested by Calgary homeowners
+                </h2>
+              </div>
+            </Reveal>
           </div>
 
           <div className="relative">
@@ -471,6 +493,9 @@ export default function Home() {
 
         {/* FAQ */}
         <FAQ />
+
+        {/* BLOG STRIP */}
+        <BlogStrip />
 
         {/* QUOTE FORM */}
         <section
