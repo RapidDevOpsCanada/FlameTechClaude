@@ -2,11 +2,11 @@ import Link from "next/link";
 import Icon from "@/components/Icon";
 
 const plumbingLinks = [
-  { label: "Bathroom Plumbing", href: "/bathroom-plumbing" },
-  { label: "Shower Plumbing", href: "/shower-plumbing" },
+  { label: "Bathroom Plumbing", href: "/bathroom-plumbing-calgary" },
+  { label: "Shower Plumbing", href: "/shower-plumbing-calgary" },
   { label: "Drain Cleaning", href: "/drain-cleaning-calgary" },
-  { label: "Emergency Plumbing", href: "/emergency-plumbing" },
-  { label: "PolyB Replacement", href: "/polyb-plumbing" },
+  { label: "Emergency Plumbing", href: "/emergency-plumber-calgary" },
+  { label: "PolyB Replacement", href: "/polyb-plumbing-calgary" },
 ];
 
 const heatingLinks = [

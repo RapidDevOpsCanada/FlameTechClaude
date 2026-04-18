@@ -394,11 +394,13 @@ export default async function ServicePage({
                 const showInlineReview =
                   inlineReview && section.heading === firstSectionHeading;
 
-                const hasHeadings = section.items.some((it) => !!it.heading);
-                const hasImages = section.items.some((it) => !!it.image);
+                const items = section.items ?? [];
+                const hasItems = items.length > 0;
+                const hasHeadings = items.some((it) => !!it.heading);
+                const hasImages = items.some((it) => !!it.image);
                 const avgBodyLen =
-                  section.items.reduce((s, it) => s + it.body.length, 0) /
-                  Math.max(section.items.length, 1);
+                  items.reduce((s, it) => s + it.body.length, 0) /
+                  Math.max(items.length, 1);
                 const mode: "cards" | "checklist" | "prose" =
                   hasHeadings || hasImages
                     ? "cards"
@@ -421,10 +423,10 @@ export default async function ServicePage({
                         </p>
                       )}
 
-                      {mode === "checklist" && (
+                      {hasItems && mode === "checklist" && (
                         <div className="rounded-2xl bg-white border border-line-light p-7 md:p-9">
                           <ul className="space-y-5">
-                            {section.items.map((item, i) => (
+                            {items.map((item, i) => (
                               <li
                                 key={`${section.heading}-${i}`}
                                 className="flex items-start gap-4"
@@ -441,9 +443,9 @@ export default async function ServicePage({
                         </div>
                       )}
 
-                      {mode === "prose" && (
+                      {hasItems && mode === "prose" && (
                         <div className="relative pl-6 md:pl-8 border-l-2 border-primary/40 space-y-6">
-                          {section.items.map((item, i) => (
+                          {items.map((item, i) => (
                             <p
                               key={`${section.heading}-${i}`}
                               className="text-base md:text-[17px] text-ink-700 leading-[1.75]"
@@ -454,9 +456,9 @@ export default async function ServicePage({
                         </div>
                       )}
 
-                      {mode === "cards" && (
+                      {hasItems && mode === "cards" && (
                         <div className="space-y-5">
-                          {section.items.map((item, i) => {
+                          {items.map((item, i) => {
                             const featured = i === 0 && !!item.image;
                             const flip = i % 2 === 1;
 
@@ -617,9 +619,14 @@ export default async function ServicePage({
               {/* RICH CONTENT — FAQ */}
               {service.richContent?.faq && (
                 <div className="mb-4">
-                  <h2 className="font-display text-3xl md:text-4xl font-extrabold tracking-[-0.015em] mb-6 leading-[1.08]">
+                  <h2 className="font-display text-3xl md:text-4xl font-extrabold tracking-[-0.015em] mb-4 leading-[1.08]">
                     {service.richContent.faq.heading}
                   </h2>
+                  {service.richContent.faq.intro && (
+                    <p className="text-[17px] text-ink-700 leading-relaxed mb-6 max-w-2xl">
+                      {service.richContent.faq.intro}
+                    </p>
+                  )}
                   <div className="space-y-3">
                     {service.richContent.faq.items.map((f, i) => (
                       <details

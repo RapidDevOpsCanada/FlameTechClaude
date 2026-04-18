@@ -44,13 +44,13 @@ const menu: NavItem[] = [
           items: [
             {
               label: "Bathroom Plumbing",
-              href: "/bathroom-plumbing",
+              href: "/bathroom-plumbing-calgary",
               icon: "bathroom",
               desc: "Sinks, toilets, full bathroom retrofits.",
             },
             {
               label: "Shower Plumbing",
-              href: "/shower-plumbing",
+              href: "/shower-plumbing-calgary",
               icon: "shower",
               desc: "Shower installs, valve replacements.",
             },
@@ -67,13 +67,13 @@ const menu: NavItem[] = [
           items: [
             {
               label: "Emergency Plumbing",
-              href: "/emergency-plumbing",
+              href: "/emergency-plumber-calgary",
               icon: "contact_emergency",
               desc: "Leaks, burst pipes, urgent fixes.",
             },
             {
               label: "PolyB Plumbing",
-              href: "/polyb-plumbing",
+              href: "/polyb-plumbing-calgary",
               icon: "swap_horiz",
               desc: "Full replacement for 80s/90s homes.",
             },

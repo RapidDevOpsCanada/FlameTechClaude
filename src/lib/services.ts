@@ -20,7 +20,7 @@ export type RichItem = {
 export type RichSection = {
   heading: string;
   intro?: string;
-  items: RichItem[];
+  items?: RichItem[];
 };
 
 export type RichPromo = {
@@ -32,6 +32,7 @@ export type RichPromo = {
 
 export type RichFAQ = {
   heading: string;
+  intro?: string;
   items: { q: string; a: string }[];
 };
 
@@ -106,56 +107,260 @@ export type ServicePage = {
 export const services: ServicePage[] = [
   // PLUMBING
   {
-    slug: "bathroom-plumbing",
+    slug: "bathroom-plumbing-calgary",
     category: "Plumbing",
     icon: "bathroom",
-    title: "Bathroom Plumbing Calgary",
-    lead: "Sinks, toilets, showers, and full bathroom retrofits done right.",
+    title: "Bathroom Plumbing Calgary | Professional Bathroom Services",
+    lead:
+      "Calgary's hard water and extreme temperature swings wreak havoc on bathroom plumbing — we see it every day. FlameTech's bathroom plumbing specialists handle everything from emergency burst pipes in older Mount Royal homes to complete bathroom renovations in new Evergreen developments.",
+    heroBody: [
+      "When your toilet won't stop running at 3 AM or your shower suddenly turns ice cold, we answer the phone — not a voicemail system. Our Calgary crews are equipped to handle any bathroom plumbing emergency with priority dispatch, day or night.",
+      "From emergency calls in established neighbourhoods to full renovations in new builds, our Calgary plumbing specialists have seen every bathroom configuration this city has to offer.",
+    ],
+    heroSubhead: "Trusted Calgary Bathroom Plumbing Experts",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/2026/04/Toilet.webp", alt: "Bathroom plumbing installed by FlameTech in Calgary", fit: "cover" },
     intro:
-      "From a leaking faucet to a ground-up ensuite retrofit, our Calgary plumbers handle every fixture and rough-in to Alberta code, with pricing agreed up front.",
+      "Bathroom plumbing Calgary — toilets, showers, vanities, drain cleaning, and complete renovation rough-ins. Priority emergency response, two decades of experience.",
     features: [
-      "Faucet & fixture installation",
-      "Toilet repair and replacement",
-      "Rough-in for bathroom renovations",
-      "Shower and tub upgrades",
-      "Water supply and drain tie-ins",
+      "Toilet repair & replacement",
+      "Shower & tub plumbing",
+      "Vanity & sink installation",
+      "Bathroom drain cleaning",
+      "Bathroom renovation rough-in",
+      "Emergency bathroom repairs",
     ],
     bullets: [
       {
-        t: "Code-compliant installs",
-        d: "Every fixture set to Alberta plumbing code — protecting your home and your insurance.",
+        t: "Calgary hard-water ready",
+        d: "We stock parts built to handle mineral deposits that destroy builder-grade fixtures within a few years.",
       },
       {
         t: "Clean, careful work",
-        d: "Drop cloths, shoe covers, and debris removal. We leave your bathroom cleaner than we found it.",
+        d: "Drop cloths, shoe covers, debris removal. We leave your bathroom cleaner than we found it.",
       },
     ],
+    seoTitle: "Bathroom Plumbing Calgary | Expert Bathroom Plumbing Services",
+    seoDescription:
+      "Expert bathroom plumbing in Calgary. Toilets, showers, vanities, drain cleaning & renovations. Priority emergency response. Call FlameTech today!",
+    seoKeywords: [
+      "bathroom plumbing Calgary",
+      "toilet repair Calgary",
+      "shower plumbing Calgary",
+      "bathroom renovation plumber",
+      "vanity install Calgary",
+      "FlameTech Plumbing",
+    ],
+    quoteFormLabel: "bathroom plumbing",
+    quoteFormPlaceholder:
+      "e.g. toilet running constantly, weak shower pressure, leaky vanity supply line, bathroom renovation rough-in…",
+    sidebar: {
+      title: "Calgary Bathroom Plumbing",
+      subtitle:
+        "Toilets, showers, vanities, drain cleaning, and complete bathroom renovation rough-ins.",
+      bullets: [
+        "Kohler · Moen · Delta · American Standard",
+        "Alberta-licensed journeyman plumbers",
+        "Priority emergency bathroom repairs",
+        "Permit applications handled start-to-finish",
+      ],
+    },
+    stats: [
+      { number: "25+", label: "Years in Calgary", icon: "verified" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "1-2d", label: "Bathroom rough-in", icon: "schedule" },
+      { number: "Licensed", label: "journeyman", icon: "award" },
+    ],
+    callout:
+      "Overflowing toilet, burst supply line, or sewage backup? Call 587-834-3668 — we dispatch emergency crews across Calgary within the hour.",
+    richContent: {
+      sections: [
+        {
+          heading: "Why Calgary Homeowners Choose FlameTech for Bathroom Plumbing",
+          intro:
+            "From emergency calls in established neighbourhoods to full renovations in new builds, our Calgary plumbing specialists have seen every bathroom configuration this city has to offer. We've been fixing bathroom plumbing across Calgary for over two decades — from the original galvanized steel in Mount Royal character homes to the builder-grade fixtures failing in 2010-era developments. Our technicians carry parts for every major brand, understand Calgary's hard water issues, and know exactly what goes wrong with the cheap vanity faucets and shower valves that builders love to install. When poly-b supply lines burst behind bathroom walls or when that 15-year-old toilet finally gives up, we get there fast with the right parts and tools.",
+          items: [
+            { heading: "Toilet Repair & Replacement", body: "Complete toilet services from simple flapper replacements to full toilet swaps. We stock quality toilets that can handle Calgary's hard water and won't break down in three years." },
+            { heading: "Shower & Tub Plumbing", body: "Shower valve repairs, tub drain cleaning, and complete shower/tub plumbing installation. We fix the weak water pressure issues common in Calgary's newer subdivisions." },
+            { heading: "Vanity & Sink Installation", body: "Professional vanity plumbing from simple faucet swaps to complete vanity installations. We properly secure supply lines and prevent the leaks that ruin bathroom floors." },
+            { heading: "Bathroom Drain Cleaning", body: "Heavy-duty drain cleaning for bathroom sinks, tubs, and showers. Hair clogs, soap buildup, and Calgary's mineral deposits don't stand a chance against our equipment." },
+            { heading: "Bathroom Renovation Plumbing", body: "Complete rough-in plumbing for bathroom renovations. We handle permit applications and work with your contractor to get plumbing inspections passed the first time." },
+            { heading: "Emergency Bathroom Repairs", body: "Priority emergency service for burst supply lines, overflowing toilets, and sewage backups. We carry emergency repair parts and can stop the damage fast." },
+          ],
+        },
+        {
+          heading: "Common Bathroom Plumbing Issues in Calgary Homes",
+          intro:
+            "Calgary's hard water and temperature extremes create specific bathroom plumbing problems that we see repeatedly across the city. Don't let small bathroom plumbing issues turn into expensive water damage — call us when you first notice a problem.",
+          items: [
+            { body: "Toilet fill valves failing after 5-7 years due to mineral buildup from hard water." },
+            { body: "Shower mixing valves sticking or failing, causing sudden temperature changes." },
+            { body: "Bathroom sink pop-up drains clogged with hair and soap scum buildup." },
+            { body: "Vanity supply lines leaking where they connect to shut-off valves." },
+            { body: "Tub drains backing up from hair clogs and mineral deposits." },
+            { body: "Wax ring failures under toilets, especially in homes with foundation settling." },
+          ],
+        },
+        {
+          heading: "Bathroom Plumbing Maintenance for Calgary Homeowners",
+          intro:
+            "Regular bathroom maintenance prevents the expensive emergencies that Calgary's hard water and temperature swings can cause. A few minutes of prevention beats hours of cleanup and repair bills.",
+          items: [
+            { body: "Check toilet tank components yearly — replace flappers and fill valves before they fail completely." },
+            { body: "Clean shower heads and faucet aerators monthly to prevent mineral buildup from Calgary's hard water." },
+            { body: "Test bathroom exhaust fans and replace them if they're not moving air — moisture causes serious plumbing problems." },
+            { body: "Check under vanities monthly for small leaks at supply line connections." },
+            { body: "Pour hot water down bathroom drains weekly to prevent soap and hair buildup." },
+            { body: "Have bathroom drain cleaning done annually, especially if you have long hair in the household." },
+          ],
+        },
+        {
+          heading: "Calgary Bathroom Plumbing Expertise You Can Trust",
+          intro:
+            "FlameTech's bathroom plumbing technicians are certified for all major fixture brands and hold current Alberta plumbing licenses. We've completed thousands of bathroom renovations and repairs across Calgary, from emergency calls in established neighbourhoods to full hot water tank installations serving new master bathrooms. We work with every major bathroom fixture brand sold in Calgary — Kohler, Moen, Delta, American Standard, and the builder-grade fixtures common in newer developments. Our trucks stock parts for the mixing valves, fill valves, and faucet cartridges that fail most often in Calgary homes built between 2005-2015. Alberta's temperature extremes put serious stress on bathroom plumbing — from frozen pipes during cold snaps to thermal expansion during chinooks. We understand how Calgary's climate affects bathroom fixtures and always account for temperature movement when installing new plumbing. Hard water is another constant challenge that we factor into every repair and installation recommendation.",
+        },
+      ],
+      faq: {
+        heading: "What Calgary Homeowners Ask About Bathroom Plumbing",
+        intro:
+          "Ready to experience the Flame Tech difference? Contact us today for a free, no-obligation quote. You can reach us by phone, email, or through our online booking system. We're here to answer your questions and schedule your service at your convenience.",
+        items: [
+          { q: "How do I know when to repair versus replace my toilet?", a: "If your toilet rocks when you sit on it, has cracks in the porcelain, or needs repairs more than twice a year, it's time for replacement. Toilets typically last 15-20 years in Calgary before the hard water and settling foundations cause problems that cost more to fix than replace. Emergency repairs can often buy you time, but recurring issues mean replacement makes more financial sense." },
+          { q: "Why does my shower pressure drop when other fixtures are used?", a: "This is extremely common in Calgary homes built after 2005 where builders used undersized supply lines or installed cheap pressure-balancing valves. The mixing valve can't maintain proper flow when water demand increases elsewhere in the house. We can upgrade the valve or increase supply line size depending on your home's plumbing configuration." },
+          { q: "What causes sewer gas smells from bathroom drains?", a: "Dry P-traps are the most common cause — if a bathroom fixture isn't used regularly, the water seal evaporates and sewer gases come up through the drain. Hair and soap buildup can also trap debris that creates odors. Regular use and monthly hot water flushes usually solve the problem, but persistent odors need professional drain cleaning." },
+          { q: "When should I call for emergency bathroom plumbing in Calgary?", a: "Call immediately for overflowing toilets, any visible water leaking onto floors, or sewage backing up. Also call for complete loss of hot water in winter — frozen pipes can burst quickly in Calgary's cold. Slow drains, running toilets, or dripping faucets can usually wait until business hours, but don't ignore them for weeks." },
+          { q: "How long does a bathroom renovation plumbing job take?", a: "Rough-in plumbing for a complete bathroom renovation typically takes 1-2 days, depending on how much we're relocating. Fixture installation and connections usually happen over another day once your contractor has walls and flooring completed. Tankless water heater installations for new master bathrooms can add a day to the timeline." },
+        ],
+      },
+    },
   },
   {
-    slug: "shower-plumbing",
+    slug: "shower-plumbing-calgary",
     category: "Plumbing",
     icon: "shower",
-    title: "Shower Plumbing Calgary",
-    lead: "Shower installs, valve replacements, and leak diagnosis.",
+    title: "Shower Plumbing Calgary | Expert Shower Installation & Repair Services",
+    lead:
+      "Calgary's unpredictable weather puts stress on every part of your plumbing system, but nothing's more frustrating than stepping into a cold shower on a -30 morning. FlameTech's shower plumbing specialists have been fixing pressure problems, temperature swings, and complete shower failures across Calgary for over two decades.",
+    heroBody: [
+      "We work with everything from builder-grade installations in newer communities to custom bathroom plumbing. Whether your shower valve died at 6 AM or you're planning a bathroom renovation, we answer our phone — no voicemail, no call centre.",
+      "Our Calgary service trucks carry the parts and tools to handle most shower plumbing jobs on the first visit, from pressure balancing valves to thermostatic mixers and complete tear-outs.",
+    ],
+    heroSubhead: "Trusted Calgary Shower Plumbing Experts",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/2026/04/Shower-Install.webp", alt: "Shower plumbing installation by FlameTech in Calgary", fit: "cover" },
     intro:
-      "Mixing valves, pressure-balance cartridges, thermostatic controls — we service and install the full range of shower plumbing for Calgary homes.",
+      "Shower plumbing Calgary — installation, valve repair, pressure problems, temperature control, and behind-the-wall leak diagnosis. Certified for Kohler, Moen, Delta, Grohe.",
     features: [
-      "Pressure-balance & thermostatic valves",
-      "Shower head and hand-held combos",
-      "Body jets and custom shower tiles",
-      "Leak diagnosis behind tile walls",
-      "Valve rough-in for new builds",
+      "Shower valve repair & replacement",
+      "Shower installation & rough-in",
+      "Shower pressure diagnosis",
+      "Temperature control repair",
+      "Behind-the-wall leak repair",
+      "Steam & multi-head systems",
     ],
     bullets: [
       {
-        t: "Scald-protection upgrades",
-        d: "Older homes benefit from anti-scald pressure-balance valves — we'll recommend when it's worth it.",
+        t: "Certified installer network",
+        d: "Kohler, Moen, Delta, Grohe — we stock cartridges and parts for every major shower valve sold in Calgary.",
       },
       {
-        t: "Minimal tile disruption",
-        d: "We plan access panels carefully; if tile work is needed, we coordinate with your tiler.",
+        t: "Calgary-climate experience",
+        d: "Chinooks, hard water, poly-b supply lines — we know what goes wrong in Alberta and how to build systems that last.",
       },
     ],
+    seoTitle: "Shower Plumbing Calgary | Expert Shower Installation & Repair",
+    seoDescription:
+      "Professional shower plumbing services in Calgary. Installation, repair, pressure problems & leaks. Priority emergency response. Call Flame Tech today!",
+    seoKeywords: [
+      "shower plumbing Calgary",
+      "shower valve repair Calgary",
+      "shower install Calgary",
+      "thermostatic shower valve",
+      "shower leak Calgary",
+      "FlameTech Plumbing",
+    ],
+    quoteFormLabel: "shower plumbing",
+    quoteFormPlaceholder:
+      "e.g. shower temperature fluctuating, weak pressure, valve cartridge stuck, planning a tile shower rebuild…",
+    sidebar: {
+      title: "Calgary Shower Plumbing",
+      subtitle:
+        "Valve repairs, pressure problems, temperature control, and full shower installs — including steam and multi-head systems.",
+      bullets: [
+        "Certified: Kohler · Moen · Delta · Grohe",
+        "Cartridges stocked for common Calgary valves",
+        "Priority emergency dispatch",
+        "Proper waterproofing & Alberta code compliance",
+      ],
+    },
+    stats: [
+      { number: "25+", label: "Years in Calgary", icon: "verified" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "~2h", label: "Emergency ETA", icon: "schedule" },
+      { number: "Licensed", label: "journeyman", icon: "award" },
+    ],
+    callout:
+      "Cold shower on a -30 morning? Burst valve flooding the bathroom? Call 587-834-3668 — we reach most of Calgary within two hours.",
+    richContent: {
+      sections: [
+        {
+          heading: "Why Calgary Homeowners Choose FlameTech for Shower Plumbing",
+          intro:
+            "From emergency shower repairs to complete bathroom renovations, our Calgary plumbing crew knows what actually works in Alberta homes. We've installed and repaired thousands of showers across Calgary, from basic builder-grade setups in Panorama Hills to high-end steam showers in Aspen Woods. Our technicians are certified in pressure balancing valve installation, know the quirks of every major shower valve manufacturer, and understand how Calgary's hard water affects different fixtures. When you call FlameTech, you're getting plumbers who've seen it all — poly-b supply lines that split during chinooks, mixing valves that fail after 15 years, and tile jobs that leak because the contractor didn't waterproof properly.",
+          items: [
+            { heading: "Shower Valve Repair & Replacement", body: "Pressure balancing valves, thermostatic mixers, and single-handle cartridge systems. We stock cartridges for Moen, Delta, Kohler, and most builder-grade valves." },
+            { heading: "Shower Installation & Rough-In", body: "Complete shower plumbing from rough-in to final fixture installation. Proper slope, waterproofing, and code-compliant valve placement." },
+            { heading: "Shower Pressure Problems", body: "Low pressure diagnosis and repair. Flow restrictors, clogged shower heads, supply line issues, and pressure balancing valve adjustments." },
+            { heading: "Temperature Control Issues", body: "Scalding water, cold water only, or temperature fluctuations. Mixing valve repair, cartridge replacement, and thermostat calibration." },
+            { heading: "Shower Leak Repair", body: "Behind-the-wall leaks, valve stem leaks, and fixture connection problems. Complete tear-out and waterproofing when needed." },
+            { heading: "Steam Shower & Multi-Head Systems", body: "High-end shower installations with multiple body sprays, rain heads, and steam generators. Proper pressure and flow calculations." },
+          ],
+        },
+        {
+          heading: "Common Shower Plumbing Issues in Calgary Homes",
+          intro:
+            "Calgary's hard water and temperature swings create specific problems for shower plumbing that we see repeatedly across the city. Most of these problems start small but get expensive fast if you ignore them.",
+          items: [
+            { body: "Pressure balancing valves failing after 12-15 years, especially in homes built during the 2000s construction boom." },
+            { body: "Moen cartridges seizing up from mineral buildup — common in areas with particularly hard water." },
+            { body: "Temperature fluctuations when other fixtures are used, usually a pressure balancing problem." },
+            { body: "Shower heads clogging with calcium deposits within 2-3 years of installation." },
+            { body: "Behind-the-wall leaks in tile surrounds where waterproofing was done poorly or not at all." },
+            { body: "Cold water delivery problems in newer communities where builders undersized supply lines." },
+          ],
+        },
+        {
+          heading: "Shower Maintenance Tips for Calgary Homeowners",
+          intro:
+            "Regular maintenance can prevent most shower problems and extend the life of your fixtures, especially important with Calgary's hard water.",
+          items: [
+            { body: "Remove and clean shower heads every 6 months to prevent calcium buildup that reduces flow and pressure." },
+            { body: "Test your pressure balancing valve annually — water temperature shouldn't change when you flush toilets or run other fixtures." },
+            { body: "Check caulking around shower fixtures every year and re-seal as needed to prevent water damage." },
+            { body: "Have mixing valve cartridges replaced every 8-10 years before they seize up from mineral deposits." },
+            { body: "Install a water softener if you have very hard water — it will double the life of your shower components." },
+            { body: "Keep spare cartridges for your shower valves on hand — they're cheap insurance against weekend emergencies." },
+          ],
+        },
+        {
+          heading: "Calgary Shower Plumbing Expertise You Can Trust",
+          intro:
+            "FlameTech's plumbing technicians are licensed journeymen with extensive training on all major shower valve manufacturers. We're certified installers for Kohler, Moen, Delta, and Grohe systems, and we stock parts for most shower valves installed in Calgary over the past 20 years. When you need someone who knows the difference between a thermostatic valve and a pressure balancing valve — and which one works better in your specific situation — you've found us. We work with everything from basic builder-grade shower installations to high-end custom tile work with multiple shower heads and steam systems. Our crew understands Calgary's building codes, knows how to properly waterproof shower surrounds, and can handle the plumbing for complex installations like recirculation pumps for instant hot water delivery. Alberta's weather creates unique challenges for shower plumbing that many contractors don't understand. Chinook temperature swings can cause pipes to expand and contract rapidly, poly-b supply lines are particularly vulnerable to failure, and hard water accelerates wear on valve cartridges.",
+        },
+      ],
+      faq: {
+        heading: "What Calgary Homeowners Ask About Shower Plumbing",
+        intro:
+          "Ready to experience the Flame Tech difference? Contact us today for a free, no-obligation quote. You can reach us by phone, email, or through our online booking system. We're here to answer your questions and schedule your service at your convenience.",
+        items: [
+          { q: "How long do shower valves typically last in Calgary homes?", a: "Most shower valves last 12-15 years in Calgary, but hard water can shorten that to 8-10 years if you don't maintain them. The cartridges usually fail first — they get clogged with mineral deposits and start sticking. Regular cleaning and cartridge replacement can extend the valve's life significantly." },
+          { q: "Should I repair or replace my old shower valve?", a: "If your valve is less than 10 years old and just needs a cartridge replacement, repair makes sense. If it's older than 15 years or you're having multiple issues, replacement is usually more cost-effective. We can assess your specific situation and give you an honest recommendation over the phone." },
+          { q: "What's the difference between pressure balancing and thermostatic shower valves?", a: "Pressure balancing valves adjust the hot/cold mix when water pressure changes — they prevent scalding when someone flushes a toilet. Thermostatic valves maintain exact temperature regardless of pressure changes and are required for multiple shower head installations. For most Calgary homes, pressure balancing valves work fine and cost less." },
+          { q: "Can you install a new shower in my Calgary basement?", a: "Yes, but it requires proper planning for drainage and venting. We'll need to assess your basement's plumbing layout and may need to install additional drainage or move the main stack. The job typically takes 1-2 days depending on how much plumbing needs to be modified." },
+          { q: "Why is my shower water temperature changing constantly?", a: "This usually means your pressure balancing valve isn't working properly, or your home has undersized supply lines — common in some newer Calgary developments. We can test your water pressure and flow rates to determine if you need valve adjustment, supply line upgrades, or water pressure boosting." },
+        ],
+      },
+    },
   },
   {
     slug: "drain-cleaning-calgary",
@@ -287,57 +492,233 @@ export const services: ServicePage[] = [
     },
   },
   {
-    slug: "emergency-plumbing",
+    slug: "emergency-plumber-calgary",
     category: "Plumbing",
     icon: "contact_emergency",
-    title: "Emergency Plumbing Calgary",
-    lead: "Burst pipes, active leaks, and urgent repairs when it can't wait.",
+    title: "Emergency Plumbers Calgary – Fast Response When You Need It Most",
+    lead:
+      "When disaster strikes, you need emergency plumbers in Calgary who respond immediately. At Flame Tech, we provide rapid emergency plumbing services to protect your home from water damage and restore your comfort quickly.",
+    heroBody: [
+      "Our emergency plumbers in Calgary are on call around the clock, ready to tackle urgent plumbing crises that can't wait until morning. From burst pipes during Calgary's harsh winters to sudden water heater failures, our certified technicians arrive equipped to handle any emergency plumbing situation.",
+      "When you call us, you're getting immediate help from Calgary's most trusted emergency plumbing team — priority dispatch, fair pricing, and real people who answer the phone.",
+    ],
+    heroSubhead: "Priority Emergency Response",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/2025/04/flame-tech-van.jpg", alt: "FlameTech emergency plumbing service van in Calgary", fit: "cover" },
     intro:
-      "When water is pouring or a fixture has failed, we prioritize your call, get a technician en route, and work to contain damage while we fix the cause.",
+      "Emergency plumbing in Calgary — burst pipes, active leaks, sewer backups, water heater failures. Priority dispatch, honest quotes, certified technicians.",
     features: [
       "Burst and frozen pipe repairs",
       "Active leak containment",
-      "Emergency shutoff installs",
+      "Sewer and drain backups",
       "Water heater failures",
-      "Sewer backup response",
+      "Gas line leak response",
+      "Overflowing toilet repairs",
     ],
     bullets: [
       {
         t: "Priority dispatch",
-        d: "Urgent calls move to the front of the queue so we can minimize damage.",
+        d: "Urgent calls move to the front of the queue so we can minimize damage to your home.",
       },
       {
         t: "Fair emergency pricing",
         d: "No surprise surcharges. We quote before we start — even in a crisis.",
       },
     ],
-    callout: "Water damage spreads fast. Call 587-834-3668 the moment you notice a leak.",
+    seoTitle: "Emergency Plumbers Calgary | Fast Emergency Plumbing Services",
+    seoDescription:
+      "Need an emergency plumber in Calgary? Flame Tech offers priority emergency plumbing services. Fast response for burst pipes, leaks & more. Call now!",
+    seoKeywords: [
+      "emergency plumber Calgary",
+      "emergency plumbing Calgary",
+      "burst pipe Calgary",
+      "after hours plumber",
+      "sewer backup Calgary",
+      "FlameTech Plumbing",
+    ],
+    quoteFormLabel: "emergency plumbing",
+    quoteFormPlaceholder:
+      "e.g. burst pipe in basement, sewer backing up, water heater leaking fast, toilet overflowing…",
+    sidebar: {
+      title: "Calgary Emergency Plumbing",
+      subtitle:
+        "Burst pipes, sewer backups, major leaks — priority dispatch from Calgary's most trusted emergency plumbers.",
+      bullets: [
+        "Certified, licensed, and insured technicians",
+        "Fully-stocked emergency service vehicles",
+        "All Calgary quadrants + surrounding towns",
+        "Honest pricing — even in a crisis",
+      ],
+    },
+    stats: [
+      { number: "25+", label: "Years in Calgary", icon: "verified" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "Priority", label: "Dispatch", icon: "schedule" },
+      { number: "Licensed", label: "& Insured", icon: "award" },
+    ],
+    callout:
+      "Water damage spreads fast. If a pipe has burst or a drain is backing up, call 587-834-3668 right now — we'll dispatch a technician immediately.",
+    richContent: {
+      sections: [
+        {
+          heading: "Why Choose Flame Tech for Emergency Plumbing in Calgary?",
+          intro:
+            "Plumbing emergencies don't keep business hours, and neither do we. As Calgary's most reliable emergency plumbers, Flame Tech Plumbing & Heating is your lifeline when disaster strikes. We understand that plumbing emergencies cause stress, property damage, and disruption to your daily life. That's why we guarantee rapid response times throughout Calgary and surrounding communities. Our certified emergency plumbers arrive fully equipped with professional tools and genuine parts to solve your crisis efficiently — day or night, weekends and holidays included. FlameTech specializes in emergency plumbing services that protect Calgary homes from catastrophic water damage, combining decades of experience with state-of-the-art equipment to handle urgent situations including burst pipes, severe leaks, sewer backups, and water heater failures.",
+          items: [
+            { heading: "Rapid Response Times", body: "Strategically positioned service vehicles throughout the Calgary region mean our emergency plumbers arrive fast, minimizing water damage and limiting repair costs." },
+            { heading: "Certified Technicians", body: "Every emergency plumber on our Calgary team is fully licensed, bonded, and insured — meeting all Alberta plumbing codes with the training to handle any crisis safely." },
+            { heading: "Fully-Stocked Trucks", body: "Our emergency vehicles carry professional tools and genuine parts so we can often resolve your emergency in a single visit instead of leaving you waiting for parts." },
+            { heading: "Transparent Pricing", body: "Honest, upfront quotes even in a crisis. No surprise surcharges, no pressure — just fair pricing so you know exactly what to expect." },
+          ],
+        },
+        {
+          heading: "Common Plumbing Emergencies We Handle in Calgary",
+          intro:
+            "Our emergency plumbers in Calgary have seen it all and are equipped to handle any urgent situation. No matter the emergency, our certified technicians arrive prepared to minimize damage and restore your plumbing system quickly and safely.",
+          items: [
+            { body: "Burst or frozen pipes during Calgary's harsh winters that can cause thousands in water damage within hours." },
+            { body: "Severe drain and sewer backups that create health hazards and require immediate professional attention." },
+            { body: "Water heater failures that leave families without hot water when they need it most." },
+            { body: "Gas line leaks that pose serious safety risks and demand instant response." },
+            { body: "Major leaks and flooding from failed appliances or plumbing fixtures that can devastate your property." },
+            { body: "Overflowing toilets that won't stop running and require urgent intervention." },
+          ],
+        },
+        {
+          heading: "Emergency Plumbers Serving All of Calgary",
+          intro:
+            "When plumbing disasters strike anywhere in Calgary, our emergency response team is ready to help. We provide urgent service throughout all Calgary quadrants and surrounding communities including Airdrie, Chestermere, Okotoks, and Cochrane. Our fully-stocked emergency vehicles are strategically positioned throughout the Calgary region for the fastest possible response times to your plumbing crisis. Whether you're downtown, in the suburbs, or in outlying areas, you can count on Flame Tech's emergency plumbers to arrive quickly with the expertise and equipment needed to resolve your plumbing emergency and prevent further damage to your home.",
+        },
+      ],
+      faq: {
+        heading: "Frequently Asked Questions — Emergency Plumbers Calgary",
+        intro:
+          "Facing a plumbing emergency? You're not alone — and you probably have questions. As Calgary's premier emergency plumbing service, we understand the stress and urgency of plumbing crises, from midnight pipe bursts to weekend water heater failures. Browse our emergency plumbing FAQs below for quick answers. If your situation needs immediate attention, don't hesitate — call Flame Tech Plumbing at 587-834-3668 now for urgent assistance.",
+        items: [
+          { q: "What qualifies as a plumbing emergency?", a: "A plumbing emergency is any situation that threatens immediate property damage, creates health hazards, or leaves your home without essential water services. This includes burst pipes, severe leaks flooding your home, sewer backups, gas line leaks, complete water heater failures, or any plumbing issue that cannot safely wait until regular business hours. If you're unsure whether your situation is an emergency, call us at 587-834-3668 — we're happy to assess your situation over the phone." },
+          { q: "How quickly can an emergency plumber arrive in Calgary?", a: "We maintain strategically positioned service vehicles throughout the Calgary region to ensure the fastest possible response. For life-threatening situations like gas leaks, we prioritize immediate dispatch. Our goal is to minimize damage and restore your peace of mind as quickly as possible." },
+          { q: "What should I do while waiting for the emergency plumber?", a: "If safe to do so, shut off the main water supply to stop flooding. For burst pipes, turn off your home's water at the main shut-off valve. If there's a gas leak, evacuate immediately and call 911, then contact us. Move valuables away from water damage. Take photos for insurance purposes if possible. For overflowing toilets, stop using all plumbing fixtures. Our emergency dispatch team will provide specific guidance based on your situation when you call." },
+          { q: "Are your emergency plumbers licensed and insured?", a: "Absolutely. Every emergency plumber on our Calgary team is fully licensed, bonded, and insured. We meet all Alberta plumbing codes and regulations, and our technicians undergo rigorous training and background checks. You can trust that the emergency plumber arriving at your door has the qualifications, expertise, and insurance coverage to handle your crisis safely and effectively — protecting both you and your property." },
+        ],
+      },
+    },
   },
   {
-    slug: "polyb-plumbing",
+    slug: "polyb-plumbing-calgary",
     category: "Plumbing",
     icon: "swap_horiz",
-    title: "PolyB Replacement Calgary",
-    lead: "Full-home polybutylene pipe replacement for 1980s and '90s homes.",
+    title: "Poly-B Plumbing Calgary — Inspection, Repair & Complete Replacement",
+    lead:
+      "Protect your Calgary home from failing Poly-B pipes. Flame Tech provides expert inspection, emergency repairs, and complete polybutylene replacement services that restore your plumbing reliability and protect your property value.",
+    heroBody: [
+      "If your Calgary home was constructed between 1978 and 1995, there's a strong possibility it contains polybutylene piping — a material now recognized for premature deterioration and unexpected failures that threaten property and disrupt lives. Flame Tech specializes in identifying Poly-B systems throughout Calgary neighborhoods, assessing their current condition, and executing complete replacements using modern, reliable materials like PEX and copper that insurance companies trust and homebuyers demand.",
+      "Don't wait for catastrophic pipe failure — proactive replacement protects your investment, maintains insurance coverage, and delivers peace of mind that your plumbing won't betray you at the worst possible moment.",
+    ],
+    heroSubhead: "Calgary's Poly-B Replacement Experts",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/2023/03/man-working-with-electronics.jpg", alt: "FlameTech technician working on Poly-B replacement", fit: "cover" },
     intro:
-      "PolyB piping was installed across Calgary from the late 1970s through the mid-'90s. It degrades silently and can fail without warning. We plan, quote, and replace it with minimal disruption.",
+      "Calgary Poly-B plumbing specialists — inspection, emergency repair, and complete polybutylene replacement with PEX or copper. Insurance-grade documentation, manufacturer warranties.",
     features: [
-      "Full-home PolyB re-pipe",
-      "Minimal drywall removal",
-      "Upgraded PEX or copper",
+      "Poly-B identification & inspection",
+      "Emergency Poly-B leak repairs",
+      "Full-home repiping with PEX or copper",
+      "Minimal drywall disruption",
       "Insurance-grade documentation",
-      "Coordination with drywallers",
+      "Manufacturer-backed warranties",
     ],
     bullets: [
       {
         t: "Insurance-first approach",
-        d: "Carriers increasingly decline to cover active PolyB. A documented replacement restores insurability.",
+        d: "Carriers increasingly decline to cover active Poly-B. A documented replacement restores insurability and protects resale value.",
       },
       {
         t: "Clear, staged pricing",
-        d: "We walk the home, build a plan, and quote in writing before any work starts.",
+        d: "We walk the home, build a plan, and quote in writing — every cost factor explained before work starts.",
       },
     ],
+    seoTitle: "Poly-B Plumbing Calgary | Replacement & Repair Experts",
+    seoDescription:
+      "Poly-B plumbing problems in Calgary? Flame Tech specializes in inspection, repair, and complete replacement. Protect your home — call today for a free quote.",
+    seoKeywords: [
+      "Poly-B plumbing Calgary",
+      "polybutylene replacement Calgary",
+      "Poly-B repair Calgary",
+      "PEX repiping Calgary",
+      "Poly-B insurance Calgary",
+      "FlameTech Plumbing",
+    ],
+    quoteFormLabel: "Poly-B replacement",
+    quoteFormPlaceholder:
+      "e.g. 1988 home with grey Poly-B, insurance asking for replacement, Poly-B leak behind wall…",
+    sidebar: {
+      title: "Calgary Poly-B Replacement",
+      subtitle:
+        "Identify, repair, or fully replace polybutylene systems with modern PEX or copper — backed by manufacturer warranties.",
+      bullets: [
+        "Homes built 1978–1995 often have Poly-B",
+        "PEX & copper replacements (insurance-approved)",
+        "Free Poly-B identification inspections",
+        "Detailed documentation for insurers",
+      ],
+    },
+    stats: [
+      { number: "25+", label: "Years in Calgary", icon: "verified" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "1978–95", label: "Poly-B era", icon: "schedule" },
+      { number: "PEX", label: "& copper", icon: "award" },
+    ],
+    financing: {
+      detail:
+        "Spread the cost of full Poly-B replacement into flexible monthly payments via our Financeit partner.",
+    },
+    callout:
+      "Poly-B leak or insurance deadline looming? Call 587-834-3668 — we'll assess, document, and plan replacement on your timeline.",
+    richContent: {
+      sections: [
+        {
+          heading: "Why Choose Flame Tech for Poly-B Issues in Calgary?",
+          intro:
+            "Thousands of Calgary homes built during the construction boom of the 1980s and early 1990s contain Poly-B plumbing that ages poorly and fails without warning. Unlike gradual deterioration you might notice, polybutylene pipes can appear perfectly fine one day and rupture catastrophically the next. Flame Tech understands the unique challenges facing Calgary homeowners with polybutylene systems. We provide honest assessments of your piping condition, explain insurance implications clearly, and deliver efficient whole-home repiping that minimizes disruption while maximizing long-term reliability. Our replacement installations meet current Alberta building codes, use materials approved by all major insurance carriers, and come backed by comprehensive warranties that protect your investment for decades to come.",
+          items: [
+            { heading: "Visual Poly-B Identification", body: "We recognize polybutylene's signature grey plastic appearance and PB2110 stamping, and we provide free inspections to confirm whether your home has Poly-B." },
+            { heading: "Emergency Leak Repairs", body: "When a Poly-B fitting or pipe fails, we respond fast to contain the leak, stabilize the situation, and plan your next steps." },
+            { heading: "Whole-Home Repiping", body: "Complete replacement using modern PEX or copper, executed to Alberta code with minimal drywall disruption and full insurance documentation." },
+            { heading: "Insurance Documentation", body: "Detailed written documentation of replacement work, materials, and scope — ready for your insurance carrier's records." },
+          ],
+        },
+        {
+          heading: "Understanding Poly-B Problems in Calgary Homes",
+          intro:
+            "Polybutylene's widespread failure stems from chemical reactions between the plastic material and common water treatment additives including chlorine and chloramine. Gradual degradation weakens pipe walls from the inside out, creating brittle sections prone to sudden cracking, pinhole leaks, and complete ruptures that flood homes without warning. Calgary's temperature extremes accelerate degradation as freeze-thaw cycles stress already compromised materials.",
+          items: [
+            { body: "Insurance challenges — many providers restrict coverage on homes with known Poly-B systems, refuse renewal until replacement occurs, or deny claims for damage caused by polybutylene failures." },
+            { body: "Resale difficulties affect market value since informed buyers recognize the liability and either demand price reductions or walk away entirely." },
+            { body: "Fitting failures at connection points cause the majority of visible leaks as metal components corrode and plastic becomes brittle." },
+            { body: "Hidden deterioration means pipes can appear functional while internal damage progresses silently." },
+            { body: "Chemical degradation from chlorine and chloramine additives weakens pipe walls from the inside out." },
+            { body: "Calgary's freeze-thaw cycles stress already compromised Poly-B materials, accelerating failure." },
+          ],
+        },
+        {
+          heading: "Poly-B Services Throughout Calgary & Surrounding Communities",
+          intro:
+            "Flame Tech serves the entire Calgary metropolitan area where Poly-B installations remain prevalent in homes built during the 1980s and 1990s construction boom. Our replacement services extend throughout all four Calgary quadrants plus neighboring communities including Airdrie, Chestermere, Okotoks, and Cochrane. We're particularly familiar with neighborhoods developed during polybutylene's peak usage years and understand the specific installation patterns common to Calgary builders of that era. Whether you need emergency leak repair after a Poly-B failure or want to proactively replace your entire system before problems develop, our experienced technicians provide thorough assessments, transparent pricing, and professional installations that restore confidence in your home's plumbing infrastructure.",
+        },
+      ],
+      faq: {
+        heading: "Frequently Asked Questions – Poly-B Plumbing Calgary",
+        intro:
+          "Concerned about Poly-B piping in your Calgary property? These common questions address the critical issues homeowners face when dealing with polybutylene plumbing systems. Understanding the risks, costs, and solutions helps you make informed decisions about protecting your home and preserving its value. Need immediate guidance on your specific situation? Contact Flame Tech at 587-834-3668 for a professional assessment and personalized recommendations.",
+        items: [
+          { q: "How do I know if my Calgary home has Poly-B plumbing?", a: "Polybutylene pipes appear as flexible gray or occasionally white plastic tubing, typically stamped with \"PB2110\" markings along their length. Check visible plumbing beneath sinks, around water heaters, and in basement mechanical rooms — if your Calgary home was built between 1978 and 1995, there's substantial likelihood of Poly-B installation. Common locations include main water supply lines entering the house, distribution pipes running through walls and ceilings, and connections to fixtures throughout your home. The plastic fittings connecting Poly-B pipes often use metal crimp rings or compression fittings that appear different from standard copper connections. If you're uncertain, Flame Tech provides free inspections to identify polybutylene systems and assess their current condition." },
+          { q: "Should I proactively replace Poly-B pipes before they fail?", a: "Proactive replacement offers significant advantages over waiting for catastrophic failure. Poly-B pipes deteriorate unpredictably — one section might last decades while another fails tomorrow, making it impossible to predict when disaster will strike. Emergency repairs after pipe bursts cost substantially more than planned replacements due to water damage remediation, rushed service calls, and temporary housing needs if your home becomes uninhabitable. Insurance complications worsen with age as carriers increasingly refuse coverage or demand replacement as a condition of policy renewal. Property value suffers since informed buyers recognize Poly-B as a major liability requiring immediate attention. Scheduled replacement allows you to choose timing that fits your budget and schedule, avoid emergency stress, and install superior modern materials with manufacturer warranties. Most Calgary homeowners find peace of mind alone justifies replacement investment." },
+          { q: "Will my insurance cover Poly-B damage or replacement?", a: "Insurance coverage for polybutylene failures varies dramatically between providers and specific policy language. Many Calgary insurers now exclude Poly-B-related claims entirely, refuse new policies on homes with known polybutylene systems, or demand immediate replacement as a condition of coverage continuation. Some carriers provide limited coverage for sudden failures but exclude gradual leaks or damage from known defective materials. Review your specific policy carefully and contact your insurance provider directly about Poly-B coverage — many homeowners discover exclusions only after filing claims following catastrophic failures. Documentation proving regular maintenance and prompt repairs strengthens coverage arguments, but replacement remains the only guaranteed solution to insurance complications. Flame Tech provides detailed documentation suitable for insurance purposes following all Poly-B work." },
+          { q: "How much does Poly-B replacement cost in Calgary?", a: "Complete Poly-B replacement costs depend on numerous factors including home size, accessibility of existing pipes, chosen replacement material, and extent of drywall repair required. Typical Calgary homes range from basic replacements in smaller properties with exposed plumbing to extensive repiping in larger multi-story residences requiring significant wall access. PEX installations generally cost less than copper replacements while providing excellent performance and freeze resistance suited to Calgary's climate. Partial replacements focusing on high-risk areas cost substantially less but leave vulnerable sections that may fail later. We provide detailed written estimates after thorough home assessment, explaining all cost factors transparently and offering financing options for qualified homeowners. Many Calgary residents find replacement costs comparable to premium insurance deductibles plus water damage repairs following just one major Poly-B failure." },
+          { q: "What's the best replacement material for Poly-B — PEX or copper?", a: "PEX (cross-linked polyethylene) represents the optimal replacement material for most Calgary homes due to excellent freeze resistance, flexibility that simplifies installation through existing walls, resistance to corrosion and scale buildup, and cost-effectiveness compared to copper alternatives. Modern PEX carries manufacturer warranties extending 25-50 years, requires fewer fittings reducing potential leak points, and performs reliably in Calgary's temperature extremes. Copper remains preferred for specific applications including exposed piping where aesthetics matter and situations requiring maximum heat resistance. Both materials satisfy building codes, meet insurance requirements, and provide dramatic improvements over polybutylene's failure-prone characteristics. Flame Tech assesses your specific situation to recommend the ideal replacement material balancing performance, longevity, budget, and installation complexity for your unique Calgary home." },
+        ],
+      },
+    },
   },
   // HEATING
   {
@@ -1639,16 +2020,25 @@ export const services: ServicePage[] = [
     slug: "tankless-water-heaters",
     category: "Water",
     icon: "whatshot",
-    title: "Tankless Water Heaters Calgary",
-    lead: "Endless hot water with lower long-term operating cost.",
+    title: "Tankless Water Heaters Calgary – Expert Water Heating Services",
+    lead:
+      "Flame Tech Plumbing & Heating is a trusted name in Calgary for water heaters. Tired of running out of hot water or paying high energy bills for your traditional tanked water heater? Upgrading to a tankless water heater could be the perfect solution for your Calgary home.",
+    heroBody: [
+      "At Flame Tech Plumbing & Heating, we specialize in the expert installation, maintenance, and repair of tankless water heaters, providing Calgary residents with efficient, on-demand hot water.",
+      "Our team comprises highly skilled and experienced technicians who live and work right here in Calgary. We understand the specific demands each unique home places on your water heating system and are equipped to handle any issue, big or small.",
+    ],
+    heroSubhead: "Calgary Tankless Water Heater Experts",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/FTVAN1.jpg", alt: "FlameTech service van — Calgary tankless water heater installs", fit: "cover" },
     intro:
-      "Tankless units are excellent for larger homes and long-run households — teenagers with back-to-back showers, big families, or homes planning to stay 10+ years.",
+      "Tankless water heater install, service, and repair in Calgary. On-demand hot water, higher efficiency, space-saving design, and 20+ year lifespan with proper maintenance.",
     features: [
-      "Tankless install and retrofit",
-      "Gas line and venting upgrade",
+      "Tankless install & retrofit",
+      "Gas line & venting upgrade",
       "Annual descaling service",
-      "Recirculation loop options",
+      "Combi & recirculation loops",
       "Honest tank-vs-tankless advice",
+      "Manufacturer-trained technicians",
     ],
     bullets: [
       {
@@ -1657,9 +2047,94 @@ export const services: ServicePage[] = [
       },
       {
         t: "Calgary hard-water aware",
-        d: "We recommend softener pairing and annual descaling to protect the heat exchanger.",
+        d: "We recommend softener pairing and annual descaling to protect the heat exchanger from mineral buildup.",
       },
     ],
+    seoTitle: "Tankless Water Heaters Calgary | Expert Installation & Service",
+    seoDescription:
+      "Calgary's trusted tankless water heater experts. Professional installation, maintenance & repair. Endless hot water, energy efficient. Call Flame Tech today!",
+    seoKeywords: [
+      "tankless water heater Calgary",
+      "on-demand water heater Calgary",
+      "tankless install Calgary",
+      "Navien Rinnai tankless",
+      "water heater repair Calgary",
+      "FlameTech Plumbing",
+    ],
+    quoteFormLabel: "tankless water heater",
+    quoteFormPlaceholder:
+      "e.g. retiring our old tank, big family running out of hot water, looking at a Navien NPE combi, planning a basement suite…",
+    sidebar: {
+      title: "Calgary Tankless Water Heaters",
+      subtitle:
+        "Expert installation, annual descaling, and honest advice on whether tankless is right for your Calgary home.",
+      bullets: [
+        "Licensed and insured technicians",
+        "Proper sizing for busy Calgary households",
+        "Code-compliant gas, venting, and condensate",
+        "Free, no-obligation quotes",
+      ],
+    },
+    stats: [
+      { number: "20+", label: "Year lifespan", icon: "verified" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "Endless", label: "hot water", icon: "schedule" },
+      { number: "Licensed", label: "& insured", icon: "award" },
+    ],
+    financing: {
+      detail:
+        "Spread the cost of your new tankless water heater into flexible monthly payments via our Financeit partner.",
+    },
+    callout:
+      "Old tank leaking or constantly running out of hot water? Call 587-834-3668 for a free, no-obligation tankless assessment.",
+    richContent: {
+      sections: [
+        {
+          heading: "Why Choose Flame Tech for Your Tankless Water Heater in Calgary?",
+          intro:
+            "Tankless water heaters, also known as on-demand water heaters, offer numerous advantages over conventional storage tank models, making them an increasingly popular choice for homeowners in Calgary. Our team comprises highly skilled and experienced technicians who live and work right here in Calgary — we understand the specific demands each unique home places on your water heating system and are equipped to handle any issue, big or small. All our technicians are fully licensed and insured, guaranteeing professional and safe service that adheres to the highest industry standards.",
+          items: [
+            { heading: "Local Calgary Experts", body: "Our technicians live and work in Calgary. We understand the demands local homes place on water heating systems and are equipped to handle any issue, big or small." },
+            { heading: "Licensed & Insured", body: "Every technician on our team is fully licensed and insured, guaranteeing professional, safe service that adheres to the highest industry standards." },
+            { heading: "Manufacturer-Trained", body: "We complete manufacturer training on the leading tankless brands so every install, service, and repair follows factory specifications." },
+            { heading: "Honest Recommendations", body: "We'll tell you straight if a traditional tank is the better choice for your home and budget. No upselling, no pressure." },
+          ],
+        },
+        {
+          heading: "Why Go Tankless?",
+          intro: "Here are some key benefits of tankless water heaters to consider for your Calgary home.",
+          items: [
+            { heading: "Energy Efficiency", body: "Tankless units only heat water when you need it, unlike tanked heaters that continuously heat and store water. This on-demand system can significantly reduce energy consumption and lower your utility bills — a valuable saving in Calgary's climate." },
+            { heading: "Endless Hot Water", body: "Never run out of hot water, even with multiple showers or appliances running simultaneously. Tankless heaters provide a continuous supply of hot water, perfect for busy Calgary households." },
+            { heading: "Space-Saving Design", body: "Without a large storage tank, tankless water heaters are much more compact and can be installed in smaller spaces, freeing up valuable square footage in your basement or utility room." },
+            { heading: "Suited to Calgary's Climate", body: "Modern tankless water heaters are designed to perform efficiently even in colder climates like Calgary, providing reliable hot water throughout the year." },
+          ],
+        },
+        {
+          heading: "Our Expert Tankless Water Heater Installation Services in Calgary",
+          intro:
+            "Installing a tankless water heater is a complex job that requires specialized knowledge and experience. Our team of licensed and insured technicians at Flame Tech Plumbing & Heating are experts in tankless water heater installation in Calgary.",
+          items: [
+            { heading: "Professional Assessment", body: "We assess your home's hot water needs and recommend the right size and model of tankless heater for optimal performance." },
+            { heading: "Code Compliance", body: "Our installations strictly adhere to all local Calgary building codes and regulations for your safety and peace of mind." },
+            { heading: "Quality Workmanship", body: "We take pride in our meticulous work, ensuring a seamless and reliable installation that will last for years." },
+            { heading: "Customer Satisfaction", body: "Your satisfaction is our top priority. We stand behind our work with guarantees on our services." },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Frequently Asked Questions About Tankless Water Heaters in Calgary",
+        intro:
+          "Ready to experience the Flame Tech difference? Contact us today for a free, no-obligation quote on our tankless water heater services in Calgary. You can reach us by phone, email, or through our online booking system. We're here to answer your questions and schedule your service at your convenience.",
+        items: [
+          { q: "What is a tankless water heater?", a: "A tankless water heater is a unit that heats water on demand as it flows through the device, rather than storing and heating water in a tank." },
+          { q: "How much does tankless water heater installation cost in Calgary?", a: "The cost of tankless water heater installation in Calgary varies depending on the model, complexity of the installation, and any necessary plumbing or venting modifications. Contact us for a free, no-obligation quote." },
+          { q: "How long does a tankless water heater last?", a: "With proper maintenance, a tankless water heater can last 20 years or more, significantly longer than the average lifespan of a traditional tanked heater." },
+          { q: "Are tankless water heaters energy efficient in Calgary's climate?", a: "Yes, modern tankless water heaters are designed to be highly energy efficient even in colder climates like Calgary, as they only heat water when needed." },
+          { q: "Can I replace my old tank water heater with a tankless unit?", a: "In most cases, yes. However, it may require modifications to your existing plumbing, gas line, or venting. Our experts can assess your home and determine the best installation plan." },
+        ],
+      },
+    },
   },
   {
     slug: "water-softener",
