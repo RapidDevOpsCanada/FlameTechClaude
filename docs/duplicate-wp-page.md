@@ -113,19 +113,16 @@ Find the placeholder entry for the slug and replace it. Fields to fill in:
 | `richContent.promo`  | Any warranty / special-offer block                    |
 | `richContent.faq`    | FAQ section (preserve intro paragraph as first item)  |
 | `sectionImages`      | Standalone image inside a section (not tied to item)  |
-| `trustPills`         | 3 short pills floated around the hero image (optional — defaults to Red Seal · Licensed & Insured · BBB Accredited) |
 | `sidebar`            | `{ title, subtitle, bullets[] }` for the per-service sticky sidebar. Omit for generic copy |
 | `stats`              | 4 `{ number, label }` pairs for the strip under the hero. Omit for a generic trust set |
 
 Keep paragraphs **verbatim** from the DB — including the slightly awkward
 phrasing. The user prefers accuracy over polish.
 
-**About the optional customization fields** (`trustPills`, `sidebar`,
-`stats`): every service page inherits sensible defaults if you skip them.
-Only fill them in when you have service-specific content worth showing:
+**About the optional customization fields** (`sidebar`, `stats`): every
+service page inherits sensible defaults if you skip them. Only fill them
+in when you have service-specific content worth showing:
 
-- `trustPills` — add any standout credential for this service (e.g. the
-  AirEase 12-year warranty on AC)
 - `sidebar.title` / `sidebar.subtitle` / `sidebar.bullets` — write them
   as if the user has just landed and you're pitching this service
   specifically in ~50 words total

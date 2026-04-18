@@ -56,8 +56,6 @@ export type ServicePage = {
   seoKeywords?: string[];
   /** Optional image rendered below a specific richContent section. Key = section heading. */
   sectionImages?: Record<string, RichImage>;
-  /** Floating trust pills shown on the hero beside the product image. */
-  trustPills?: string[];
   /** Per-service sticky sidebar copy (falls back to generic defaults). */
   sidebar?: {
     title?: string;
@@ -411,11 +409,6 @@ export const services: ServicePage[] = [
       "ductless mini-split Calgary",
       "FlameTech Plumbing Heating",
     ],
-    trustPills: [
-      "Red Seal Certified",
-      "BBB Accredited",
-      "12-Year AirEase Warranty",
-    ],
     sidebar: {
       title: "Calgary Air Conditioning",
       subtitle:
@@ -504,18 +497,10 @@ export const services: ServicePage[] = [
             {
               heading: "Factors to Consider (Home Size, Budget, Efficiency)",
               body: "Choosing the right AC unit involves considering several factors, such as the size of your home, your budget, and the energy efficiency ratings of different models. We'll walk you through these considerations to ensure you make an informed decision.",
-              image: {
-                src: "/images/2023/03/Untitled-2-1.jpg",
-                alt: "Calgary home considering a new AC install",
-              },
             },
             {
               heading: "Our Expert Recommendations",
               body: "With our extensive knowledge of air conditioning systems and the specific needs of Calgary homeowners, we provide expert recommendations tailored to your individual situation.",
-              image: {
-                src: "/images/2025/04/flame-tech-van.jpg",
-                alt: "FlameTech van ready for an AC consult",
-              },
             },
           ],
         },

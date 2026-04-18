@@ -23,11 +23,6 @@ const BUSINESS = {
   address: "Calgary, AB, Canada",
 };
 
-const DEFAULT_TRUST_PILLS = [
-  "Red Seal Certified",
-  "Licensed & Insured",
-  "BBB Accredited",
-];
 const DEFAULT_STATS: ServicePage["stats"] = [
   { number: "5.0★", label: "Google rated" },
   { number: "45+", label: "Years combined" },
@@ -91,7 +86,6 @@ export default async function ServicePage({
   const related = getRelatedServices(slug);
   const hasRich = !!service.richContent;
   const schemaJson = buildSchemaJsonLd(service);
-  const trustPills = service.trustPills ?? DEFAULT_TRUST_PILLS;
   const stats = service.stats ?? DEFAULT_STATS;
   const inlineReview = await pickInlineReview(service.slug);
 
@@ -131,6 +125,15 @@ export default async function ServicePage({
                         className="max-h-full max-w-full object-contain"
                       />
                     </div>
+                    {service.heroBadgeImage && (
+                      <div className="mt-4 flex justify-center">
+                        <img
+                          src={service.heroBadgeImage.src}
+                          alt={service.heroBadgeImage.alt}
+                          className="h-12 object-contain"
+                        />
+                      </div>
+                    )}
                   </div>
                 )}
 
@@ -150,17 +153,10 @@ export default async function ServicePage({
                 ))}
 
                 {service.heroSubhead && (
-                  <div className="mt-6 mb-8 flex flex-wrap items-center gap-5 pt-6 border-t border-line-dark">
+                  <div className="mt-6 mb-8 pt-6 border-t border-line-dark">
                     <span className="text-xs font-extrabold uppercase tracking-[0.18em] text-primary">
                       {service.heroSubhead}
                     </span>
-                    {service.heroBadgeImage && (
-                      <img
-                        src={service.heroBadgeImage.src}
-                        alt={service.heroBadgeImage.alt}
-                        className="h-10 md:h-12 object-contain"
-                      />
-                    )}
                   </div>
                 )}
 
@@ -185,25 +181,6 @@ export default async function ServicePage({
                 {service.heroImage ? (
                   <div className="relative">
                     <div className="absolute -inset-3 bg-primary/10 rounded-[28px] blur-2xl pointer-events-none" />
-
-                    {/* Floating trust pills */}
-                    <div className="absolute -top-3 left-6 z-10 rounded-full bg-ink-900 border border-line-dark px-3 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.16em] text-cream-50 flex items-center gap-1.5 soft-shadow">
-                      <Icon name="verified" className="text-primary text-base" />
-                      {trustPills[0]}
-                    </div>
-                    {trustPills[1] && (
-                      <div className="absolute top-10 -right-3 z-10 rounded-full bg-ink-900 border border-line-dark px-3 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.16em] text-cream-50 flex items-center gap-1.5 soft-shadow">
-                        <Icon name="check_circle" className="text-primary text-base" />
-                        {trustPills[1]}
-                      </div>
-                    )}
-                    {trustPills[2] && (
-                      <div className="absolute -bottom-3 left-10 z-10 rounded-full bg-emergency text-cream-50 px-3 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.16em] flex items-center gap-1.5 soft-shadow">
-                        <Icon name="workspace_premium" className="text-base" />
-                        {trustPills[2]}
-                      </div>
-                    )}
-
                     <div className="relative rounded-3xl bg-gradient-to-br from-cream-50 to-cream-100 border border-line-dark p-8 flex items-center justify-center aspect-[5/4] soft-shadow overflow-hidden">
                       <img
                         src={service.heroImage.src}
@@ -211,6 +188,15 @@ export default async function ServicePage({
                         className="max-h-full max-w-full object-contain drop-shadow-[0_20px_30px_rgba(8,14,28,0.18)]"
                       />
                     </div>
+                    {service.heroBadgeImage && (
+                      <div className="mt-5 flex justify-center">
+                        <img
+                          src={service.heroBadgeImage.src}
+                          alt={service.heroBadgeImage.alt}
+                          className="h-14 md:h-16 object-contain"
+                        />
+                      </div>
+                    )}
                   </div>
                 ) : (
                   <div className="rounded-3xl bg-ink-800 border border-line-dark p-8 flex flex-col items-center justify-center aspect-square soft-shadow">
@@ -548,30 +534,14 @@ export default async function ServicePage({
                   </a>
                 </div>
 
-                {/* Trust badges */}
-                <div className="pt-5 border-t border-line-dark">
-                  <p className="text-[10px] font-extrabold uppercase tracking-[0.18em] text-cream-50/55 mb-3">
-                    Trusted By Calgary
-                  </p>
-                  <div className="flex flex-col gap-3">
-                    <img
-                      src="/images/REVIEWS1.png"
-                      alt="5-star Google rated"
-                      className="h-10 w-auto object-contain object-left"
-                    />
-                    <div className="flex items-center gap-3">
-                      <img
-                        src="/images/blue-ceip-225x300.png"
-                        alt="BBB Accredited"
-                        className="h-12 w-auto object-contain"
-                      />
-                      <img
-                        src="/images/financeit.png"
-                        alt="Financing via Financeit"
-                        className="h-5 w-auto object-contain"
-                      />
-                    </div>
-                  </div>
+                {/* 5-star Google rated */}
+                <div className="pt-5 border-t border-line-dark flex items-center gap-3">
+                  <span className="text-primary text-base tracking-[0.12em]">
+                    ★★★★★
+                  </span>
+                  <span className="text-[12px] font-bold text-cream-50 leading-tight">
+                    5-Star Google Rated
+                  </span>
                 </div>
               </div>
             </aside>
