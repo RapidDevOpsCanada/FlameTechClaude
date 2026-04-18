@@ -94,81 +94,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* POPULAR SERVICES — cream marquee */}
-        <section className="bg-cream-50 text-ink-900 py-20 overflow-hidden">
-          <div className="max-w-7xl mx-auto px-6 md:px-10">
-            <Reveal>
-              <div className="text-center mb-12">
-                <span className="eyebrow-light justify-center mb-4 mx-auto">
-                  Popular Services
-                </span>
-                <h2 className="font-display text-4xl md:text-5xl font-extrabold tracking-[-0.025em] max-w-2xl mx-auto mt-4 leading-[1.02]">
-                  Most-requested by Calgary homeowners
-                </h2>
-              </div>
-            </Reveal>
-          </div>
-
-          <div className="relative">
-            <div className="pointer-events-none absolute inset-y-0 left-0 w-24 bg-gradient-to-r from-cream-50 to-transparent z-10" />
-            <div className="pointer-events-none absolute inset-y-0 right-0 w-24 bg-gradient-to-l from-cream-50 to-transparent z-10" />
-            <div className="marquee">
-              {[...brandTiles, ...brandTiles].map((item, i) => (
-                <div
-                  key={`${item.label}-${i}`}
-                  className="shrink-0 w-56 rounded-2xl bg-white border border-line-light p-6 flex flex-col items-center justify-between h-44"
-                >
-                  <div className="flex-1 w-full flex items-center justify-center">
-                    <img
-                      src={item.src}
-                      alt={item.label}
-                      className="max-h-20 max-w-full object-contain"
-                    />
-                  </div>
-                  <span className="text-xs font-bold uppercase tracking-[0.14em] text-ink-500 mt-3 text-center">
-                    {item.label}
-                  </span>
-                </div>
-              ))}
-            </div>
-          </div>
-
-        </section>
-
-        {/* EMERGENCY CALLOUT — between Popular Services and Founders */}
-        <section className="relative bg-ink-900 py-16 overflow-hidden">
-          <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-            <div className="w-[640px] h-[320px] bg-emergency/25 blur-3xl rounded-full" />
-          </div>
-          <div className="max-w-7xl mx-auto px-6 md:px-10 relative">
-            <Reveal>
-              <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-emergency to-emergency-deep text-cream-50 p-8 md:p-12 flex flex-col md:flex-row items-start md:items-center gap-8 soft-shadow">
-                <div className="absolute -right-10 -bottom-10 w-64 h-64 rounded-full bg-cream-50/10 blur-2xl pointer-events-none" />
-                <div className="relative flex-1">
-                  <div className="inline-flex items-center gap-2 rounded-full bg-ink-900/20 px-3 py-1 text-[11px] font-extrabold uppercase tracking-[0.18em] mb-4">
-                    <span className="w-1.5 h-1.5 rounded-full bg-cream-50 animate-pulse" />
-                    Emergency Response
-                  </div>
-                  <h2 className="font-display text-3xl md:text-4xl font-extrabold tracking-[-0.02em] leading-[1.05]">
-                    Burst pipe? No heat? Call now.
-                  </h2>
-                  <p className="text-cream-50/85 mt-3 max-w-lg">
-                    Fast on-site response across Calgary and surrounding
-                    communities when you need it most.
-                  </p>
-                </div>
-                <a
-                  href="tel:5878343668"
-                  className="relative inline-flex items-center gap-2 rounded-full bg-ink-900 text-cream-50 font-extrabold uppercase tracking-tight px-7 py-4 text-[14px] hover:bg-ink-800 transition-colors"
-                >
-                  <Icon name="call" className="text-base" />
-                  Call 587-834-3668
-                </a>
-              </div>
-            </Reveal>
-          </div>
-        </section>
-
         {/* WHY US — cream, light mode */}
         <section
           id="why-us"
@@ -300,6 +225,120 @@ export default function Home() {
                 </div>
               </Reveal>
             </div>
+          </div>
+        </section>
+
+        {/* POPULAR SERVICES — cream marquee */}
+        <section className="bg-cream-50 text-ink-900 py-20 overflow-hidden">
+          <div className="max-w-7xl mx-auto px-6 md:px-10">
+            <Reveal>
+              <div className="text-center mb-12">
+                <span className="eyebrow-light justify-center mb-4 mx-auto">
+                  Popular Services
+                </span>
+                <h2 className="font-display text-4xl md:text-5xl font-extrabold tracking-[-0.025em] max-w-2xl mx-auto mt-4 leading-[1.02]">
+                  Most-requested by Calgary homeowners
+                </h2>
+              </div>
+            </Reveal>
+          </div>
+
+          <div className="relative">
+            <div className="pointer-events-none absolute inset-y-0 left-0 w-24 bg-gradient-to-r from-cream-50 to-transparent z-10" />
+            <div className="pointer-events-none absolute inset-y-0 right-0 w-24 bg-gradient-to-l from-cream-50 to-transparent z-10" />
+            <div className="marquee">
+              {[...brandTiles, ...brandTiles].map((item, i) => (
+                <div
+                  key={`${item.label}-${i}`}
+                  className="shrink-0 w-56 rounded-2xl bg-white border border-line-light p-6 flex flex-col items-center justify-between h-44"
+                >
+                  <div className="flex-1 w-full flex items-center justify-center">
+                    <img
+                      src={item.src}
+                      alt={item.label}
+                      className="max-h-20 max-w-full object-contain"
+                    />
+                  </div>
+                  <span className="text-xs font-bold uppercase tracking-[0.14em] text-ink-500 mt-3 text-center">
+                    {item.label}
+                  </span>
+                </div>
+              ))}
+            </div>
+          </div>
+
+        </section>
+
+        {/* EMERGENCY CALLOUT — split alert panel */}
+        <section className="relative bg-ink-900 py-16 overflow-hidden">
+          <div className="absolute top-1/2 left-1/4 -translate-y-1/2 w-[500px] h-[260px] bg-emergency/25 blur-3xl rounded-full pointer-events-none" />
+          <div className="absolute top-1/2 right-1/4 -translate-y-1/2 w-[400px] h-[220px] bg-primary/15 blur-3xl rounded-full pointer-events-none" />
+
+          <div className="max-w-7xl mx-auto px-6 md:px-10 relative">
+            <Reveal>
+              <div className="relative rounded-3xl border border-line-dark bg-ink-800 overflow-hidden soft-shadow">
+                {/* Caution stripe */}
+                <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-emergency via-primary to-emergency" />
+
+                <div className="grid grid-cols-12">
+                  {/* LEFT — message */}
+                  <div className="col-span-12 md:col-span-7 p-8 md:p-12 relative">
+                    <div className="inline-flex items-center gap-2 rounded-full bg-emergency/15 text-emergency border border-emergency/30 px-3 py-1.5 text-[11px] font-extrabold uppercase tracking-[0.18em] mb-6">
+                      <span className="relative flex w-2 h-2">
+                        <span className="absolute inline-flex h-full w-full rounded-full bg-emergency opacity-75 animate-ping" />
+                        <span className="relative inline-flex rounded-full h-2 w-2 bg-emergency" />
+                      </span>
+                      Emergency Response
+                    </div>
+                    <h2 className="font-display text-3xl md:text-5xl font-extrabold tracking-[-0.025em] leading-[1.02] text-cream-50">
+                      Burst pipe? No heat?
+                      <br />
+                      <span className="text-emergency">Call now.</span>
+                    </h2>
+                    <p className="text-cream-50/70 mt-4 max-w-md text-base leading-relaxed">
+                      Fast on-site response across Calgary and surrounding
+                      communities when you need it most.
+                    </p>
+                    <ul className="mt-6 flex flex-wrap gap-x-5 gap-y-2 text-xs text-cream-50/70 font-semibold">
+                      <li className="flex items-center gap-1.5">
+                        <Icon name="check_circle" className="text-emergency text-base" />
+                        Burst &amp; frozen pipes
+                      </li>
+                      <li className="flex items-center gap-1.5">
+                        <Icon name="check_circle" className="text-emergency text-base" />
+                        No-heat repairs
+                      </li>
+                      <li className="flex items-center gap-1.5">
+                        <Icon name="check_circle" className="text-emergency text-base" />
+                        Water-heater failures
+                      </li>
+                    </ul>
+                  </div>
+
+                  {/* RIGHT — tap-to-call block */}
+                  <a
+                    href="tel:5878343668"
+                    className="relative col-span-12 md:col-span-5 bg-gradient-to-br from-emergency to-emergency-deep text-cream-50 p-8 md:p-12 flex flex-col justify-center group overflow-hidden"
+                  >
+                    <div className="absolute -right-12 -top-12 w-48 h-48 rounded-full bg-cream-50/10 blur-2xl pointer-events-none" />
+                    <div className="absolute right-4 bottom-4 w-12 h-12 rounded-full bg-cream-50/10 flex items-center justify-center group-hover:translate-x-1 transition-transform pointer-events-none">
+                      <Icon name="arrow_right_alt" className="text-xl" />
+                    </div>
+
+                    <span className="text-[11px] font-extrabold uppercase tracking-[0.18em] text-cream-50/80 mb-3 flex items-center gap-2">
+                      <Icon name="call" className="text-base" />
+                      Tap to dial dispatch
+                    </span>
+                    <span className="font-display text-4xl md:text-[44px] font-extrabold tracking-[-0.02em] leading-none">
+                      587-834-3668
+                    </span>
+                    <span className="text-xs text-cream-50/80 mt-3 font-semibold">
+                      Available for urgent residential calls
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </Reveal>
           </div>
         </section>
 
