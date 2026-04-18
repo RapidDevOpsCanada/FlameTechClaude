@@ -291,34 +291,49 @@ export default function Home() {
           <div className="max-w-7xl mx-auto px-6 md:px-10 relative">
             <div className="grid grid-cols-12 gap-12 items-stretch">
               <Reveal className="col-span-12 lg:col-span-6">
-                <div className="rounded-3xl bg-ink-800 border border-line-dark p-8 md:p-10 h-full flex flex-col justify-between soft-shadow">
-                  <div>
+                <div className="rounded-3xl bg-ink-800 border border-line-dark overflow-hidden h-full flex flex-col soft-shadow">
+                  <div className="p-8 md:p-10 pb-6">
                     <span className="eyebrow mb-4">Founders</span>
                     <h3 className="font-display text-3xl md:text-4xl font-extrabold tracking-[-0.02em] mt-4 mb-6 leading-tight">
                       Red Seal journeypersons. 45+ years combined.
                     </h3>
+                  </div>
+                  <div className="relative mx-6 md:mx-8 mb-6 rounded-2xl overflow-hidden border border-line-dark">
+                    <img
+                      src="/images/FTVAN1.jpg"
+                      alt="FlameTech service van"
+                      className="w-full h-auto object-cover"
+                    />
+                    <div className="absolute bottom-3 left-3 rounded-full bg-ink-900/85 backdrop-blur-md text-cream-50 px-3 py-1.5 text-[10px] font-bold uppercase tracking-[0.14em] flex items-center gap-2 border border-cream-50/10">
+                      <span className="material-symbols-outlined text-sm text-emergency">
+                        verified
+                      </span>
+                      Red Seal · Alberta Licensed
+                    </div>
+                  </div>
+                  <div className="p-8 md:p-10 pt-2 flex flex-col justify-between flex-1">
                     <p className="text-cream-50/70 leading-relaxed mb-8">
                       FlameTech is owned and run by Shaun Kristoff and Jason
                       Mounsey — Red Seal–certified plumbers who built this
                       company around honest advice, upfront pricing, and doing
                       things right the first time.
                     </p>
-                  </div>
-                  <div className="grid grid-cols-2 gap-4 pt-6 border-t border-line-dark">
-                    <div>
-                      <div className="font-display text-3xl font-extrabold text-emergency mb-1">
-                        25+
+                    <div className="grid grid-cols-2 gap-4 pt-6 border-t border-line-dark">
+                      <div>
+                        <div className="font-display text-3xl font-extrabold text-emergency mb-1">
+                          25+
+                        </div>
+                        <div className="text-xs uppercase tracking-[0.14em] font-semibold text-cream-50/60">
+                          Shaun — years in trade
+                        </div>
                       </div>
-                      <div className="text-xs uppercase tracking-[0.14em] font-semibold text-cream-50/60">
-                        Shaun — years in trade
-                      </div>
-                    </div>
-                    <div>
-                      <div className="font-display text-3xl font-extrabold text-emergency mb-1">
-                        20+
-                      </div>
-                      <div className="text-xs uppercase tracking-[0.14em] font-semibold text-cream-50/60">
-                        Jason — years in trade
+                      <div>
+                        <div className="font-display text-3xl font-extrabold text-emergency mb-1">
+                          20+
+                        </div>
+                        <div className="text-xs uppercase tracking-[0.14em] font-semibold text-cream-50/60">
+                          Jason — years in trade
+                        </div>
                       </div>
                     </div>
                   </div>

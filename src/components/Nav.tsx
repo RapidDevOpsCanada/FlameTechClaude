@@ -252,16 +252,16 @@ export default function Nav() {
         </Link>
 
         {/* Desktop menu */}
-        <ul className="hidden lg:flex items-center gap-1">
+        <ul className="hidden lg:flex items-center gap-2">
           {menu.map((item) => (
             <li key={item.label} className="relative group">
               <Link
                 href={item.href}
-                className="flex items-center gap-1 px-4 py-8 text-sm font-semibold text-cream-50/80 group-hover:text-emergency transition-colors"
+                className="flex items-center gap-1.5 px-5 py-9 text-[15px] font-extrabold tracking-tight uppercase text-cream-50 group-hover:text-emergency transition-colors"
               >
                 {item.label}
                 {item.mega && (
-                  <span className="material-symbols-outlined text-base transition-transform group-hover:rotate-180">
+                  <span className="material-symbols-outlined text-lg transition-transform group-hover:rotate-180">
                     expand_more
                   </span>
                 )}
@@ -275,16 +275,16 @@ export default function Nav() {
         <div className="hidden md:flex items-center gap-4 shrink-0">
           <a
             href="tel:5878343668"
-            className="hidden xl:flex items-center gap-2 text-sm font-semibold text-cream-50 hover:text-emergency transition-colors"
+            className="hidden xl:flex items-center gap-2 text-[15px] font-extrabold text-cream-50 hover:text-emergency transition-colors"
           >
-            <span className="material-symbols-outlined text-base text-emergency">
+            <span className="material-symbols-outlined text-lg text-emergency">
               call
             </span>
             587-834-3668
           </a>
           <a
             href="#quote"
-            className="inline-flex items-center rounded-full bg-emergency text-ink-900 font-bold px-5 py-2.5 text-sm hover:bg-emergency-deep hover:text-white transition-colors"
+            className="inline-flex items-center rounded-full bg-emergency text-cream-50 font-extrabold uppercase tracking-tight px-6 py-3 text-[13px] hover:bg-emergency-deep transition-colors"
           >
             Contact Us
           </a>
