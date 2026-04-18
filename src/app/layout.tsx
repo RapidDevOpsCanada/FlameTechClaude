@@ -96,12 +96,24 @@ export default function RootLayout({
 
   return (
     <html lang="en" className={manrope.variable}>
-      <body className="font-body text-cream-50 bg-ink-900 antialiased">
+      <body
+        className="font-body text-cream-50 bg-ink-900 antialiased"
+        style={{ overflowX: "hidden", width: "100%", position: "relative" }}
+      >
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(baseSchema) }}
         />
-        <div className="overflow-x-hidden w-full">{children}</div>
+        <div
+          style={{
+            width: "100%",
+            maxWidth: "100vw",
+            overflowX: "hidden",
+            position: "relative",
+          }}
+        >
+          {children}
+        </div>
       </body>
     </html>
   );
