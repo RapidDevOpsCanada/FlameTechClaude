@@ -121,8 +121,14 @@ const menu: NavItem[] = [
           heading: "Furnaces & More",
           items: [
             {
+              label: "Calgary Furnaces",
+              href: "/furnaces",
+              icon: "local_fire_department",
+              desc: "Install, repair, and maintenance for every major brand.",
+            },
+            {
               label: "High-Efficiency Furnaces",
-              href: "/high-efficiency-furnaces",
+              href: "/high-efficiency-furnaces-calgary",
               icon: "local_fire_department",
               desc: "95–98% AFUE installs.",
             },

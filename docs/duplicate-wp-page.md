@@ -281,8 +281,10 @@ schema so even non-service pages have brand context.
 
 - [x] `/air-conditioning` (reference implementation)
 - [x] `/boiler-service-calgary`
+- [x] `/furnaces`
+- [x] `/high-efficiency-furnaces-calgary`
 
-**Todo (15):**
+**Todo (14):**
 
 - [ ] `/bathroom-plumbing`
 - [ ] `/shower-plumbing`
@@ -291,7 +293,6 @@ schema so even non-service pages have brand context.
 - [ ] `/polyb-plumbing`
 - [ ] `/boiler-installation`
 - [ ] `/boiler-repair`
-- [ ] `/high-efficiency-furnaces`
 - [ ] `/garage-heaters`
 - [ ] `/heat-pumps`
 - [ ] `/humidifiers`
