@@ -324,7 +324,24 @@ schema so even non-service pages have brand context.
 - [x] `/hot-water-tanks`
 - [x] `/hot-water-tank-replacement-calgary`
 
-**Todo:** 🎉 All 18 service pages migrated from WP.
+**Todo:** 🎉 All 18 Calgary service pages migrated from WP.
+
+### Airdrie service-area pages (9/9 done)
+
+- [x] `/airdrie-plumbers`
+- [x] `/airdrie-furnace-repairs`
+- [x] `/boiler-installation-airdrie`
+- [x] `/boilers-airdrie`
+- [x] `/heat-pumps-airdrie`
+- [x] `/hot-water-tanks-airdrie`
+- [x] `/water-softener-airdrie`
+- [x] `/ravenswood-plumbers-airdrie`
+- [x] `/reunion-plumbers-airdrie`
+
+Airdrie pages live alongside Calgary ones in `services.ts` but carry
+`location: "Airdrie"`. `getRelatedServices()` filters by location so
+Airdrie pages only cross-link to other Airdrie pages (and vice versa).
+Footer exposes them in a dedicated "Airdrie Services" row.
 
 **Note on slug naming:** original WP URLs often include the city
 ("boiler-service-calgary", "furnace-calgary") and we're matching those

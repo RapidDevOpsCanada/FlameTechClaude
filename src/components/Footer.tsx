@@ -35,6 +35,18 @@ const companyLinks = [
   { label: "Get a Quote", href: "/#quote" },
 ];
 
+const airdrieLinks = [
+  { label: "Airdrie Plumbers", href: "/airdrie-plumbers" },
+  { label: "Airdrie Furnace Repair", href: "/airdrie-furnace-repairs" },
+  { label: "Boilers Airdrie", href: "/boilers-airdrie" },
+  { label: "Boiler Installation", href: "/boiler-installation-airdrie" },
+  { label: "Heat Pumps Airdrie", href: "/heat-pumps-airdrie" },
+  { label: "Hot Water Tanks", href: "/hot-water-tanks-airdrie" },
+  { label: "Water Softener", href: "/water-softener-airdrie" },
+  { label: "Ravenswood Plumbers", href: "/ravenswood-plumbers-airdrie" },
+  { label: "Reunion Plumbers", href: "/reunion-plumbers-airdrie" },
+];
+
 const serviceAreas = [
   "Calgary NE",
   "Calgary NW",
@@ -107,6 +119,27 @@ export default function Footer() {
         <FooterColumn title="Heating" items={heatingLinks} />
         <FooterColumn title="Air & Water" items={airWaterLinks} />
         <FooterColumn title="Company" items={companyLinks} />
+      </div>
+
+      {/* Airdrie service pages */}
+      <div className="border-t border-line-dark">
+        <div className="max-w-7xl mx-auto px-6 md:px-10 py-10">
+          <h5 className="text-[11px] font-bold uppercase tracking-[0.18em] text-primary mb-5">
+            Airdrie Services
+          </h5>
+          <ul className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-x-6 gap-y-2.5">
+            {airdrieLinks.map((item) => (
+              <li key={item.href}>
+                <Link
+                  href={item.href}
+                  className="text-sm text-cream-50/70 hover:text-emergency transition-colors"
+                >
+                  {item.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
 
       {/* Trust + service area */}

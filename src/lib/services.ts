@@ -45,6 +45,8 @@ export type RichContent = {
 export type ServicePage = {
   slug: string;
   category: "Plumbing" | "Heating" | "Air" | "Water";
+  /** City this page targets. Defaults to "Calgary" when omitted. */
+  location?: "Calgary" | "Airdrie";
   icon: string;
   title: string;
   /** First hero paragraph (strong lead). */
@@ -2754,6 +2756,1070 @@ export const services: ServicePage[] = [
       },
     },
   },
+
+  // ────────────────────────────────────────────────────────────
+  // AIRDRIE — service-area pages
+  // ────────────────────────────────────────────────────────────
+
+  {
+    slug: "airdrie-plumbers",
+    category: "Plumbing",
+    location: "Airdrie",
+    icon: "plumbing",
+    title: "Airdrie Plumbers | Expert Plumbing Services",
+    lead:
+      "When plumbing problems strike your Airdrie home or business, you need reliable professionals who respond quickly and get the job done right. Flame Tech Plumbing delivers exceptional plumbing services throughout Airdrie and surrounding areas, combining technical expertise with honest, transparent service.",
+    heroBody: [
+      "As a locally-operated plumbing company serving Airdrie, we understand the unique challenges that Alberta's climate and infrastructure present — from frozen pipes during harsh winters to water heater failures and emergency leaks.",
+      "We also offer heating services and are Airdrie furnace experts. Call us today at 587-834-3668 for fast, reliable plumbing service in Airdrie.",
+    ],
+    heroSubhead: "Trusted Airdrie Plumbing Experts",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/FTVAN1.jpg", alt: "FlameTech plumbing service van in Airdrie", fit: "cover" },
+    intro:
+      "Expert plumbers serving Airdrie, Alberta. Fast, reliable plumbing repairs, installations, and priority emergency service. Licensed, insured, honest pricing.",
+    features: [
+      "Emergency plumbing repairs",
+      "Drain cleaning & repair",
+      "Water heater service",
+      "Fixture installation & repair",
+      "Leak detection",
+      "Frozen pipe repair",
+    ],
+    bullets: [
+      {
+        t: "Licensed & insured",
+        d: "Our team is fully licensed and insured with years of experience serving Airdrie residents and businesses.",
+      },
+      {
+        t: "Upfront pricing",
+        d: "Clear, detailed estimates before any work begins. No hidden fees, no surprises.",
+      },
+    ],
+    seoTitle: "Airdrie Plumbers | Emergency Service & Trusted Local Plumbing",
+    seoDescription:
+      "Expert plumbers serving Airdrie, Alberta. Fast, reliable plumbing repairs, installations & priority emergency service. Call 587-834-3668 today!",
+    seoKeywords: [
+      "Airdrie plumbers",
+      "plumber Airdrie",
+      "emergency plumber Airdrie",
+      "Airdrie plumbing",
+      "Kings Heights plumber",
+      "FlameTech Plumbing",
+    ],
+    quoteFormLabel: "Airdrie plumbing",
+    quoteFormPlaceholder:
+      "e.g. leaking pipe in Coopers Crossing, frozen line in Kings Heights, water heater failing in Reunion…",
+    sidebar: {
+      title: "Airdrie Plumbers",
+      subtitle:
+        "Fast, reliable plumbing service across every Airdrie neighbourhood — priority emergency dispatch, honest pricing.",
+      bullets: [
+        "Licensed, insured, and bonded",
+        "Real person answers the phone",
+        "Modern diagnostic equipment",
+        "Every Airdrie neighbourhood covered",
+      ],
+    },
+    stats: [
+      { number: "25+", label: "Years in Alberta", icon: "verified" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "60-90m", label: "Airdrie ETA", icon: "schedule" },
+      { number: "Licensed", label: "& insured", icon: "award" },
+    ],
+    callout:
+      "Burst pipe, flooded basement, or sewer backup in Airdrie? Call 587-834-3668 — a real person will dispatch a plumber right away.",
+    richContent: {
+      sections: [
+        {
+          heading: "Comprehensive Plumbing Services in Airdrie",
+          intro:
+            "Plumbing emergencies don't wait for convenient times. Whether it's a burst pipe flooding your basement at midnight or a backed-up sewer line on a holiday weekend, our emergency plumbers are ready to respond with priority service that minimizes damage and restores your plumbing system quickly.",
+          items: [
+            { heading: "Drain Cleaning & Repair", body: "Slow drains and clogs are warning signs of potential problems. Our Airdrie plumbers use advanced equipment including hydro-jetting and video camera inspections to thoroughly clean your drains and identify underlying issues before they become major repairs." },
+            { heading: "Water Heater Services", body: "From tankless water heater installations to traditional tank repairs and replacements, we handle all your hot water needs. We work with all major brands and help you choose the most energy-efficient solution for your Airdrie home." },
+            { heading: "Fixture Installation & Repair", body: "Upgrading your bathroom or kitchen? We install and repair all types of plumbing fixtures including faucets, toilets, sinks, garbage disposals, and more. Our attention to detail ensures proper installation and optimal performance." },
+          ],
+        },
+        {
+          heading: "Why Choose Flame Tech Plumbing for Your Airdrie Property",
+          items: [
+            { heading: "Experienced, Licensed Plumbers", body: "Our team consists of fully licensed and insured professionals with years of hands-on experience serving Airdrie residents and businesses." },
+            { heading: "Upfront Pricing", body: "We provide clear, detailed estimates before any work begins. No hidden fees, no surprises — just honest pricing you can trust." },
+            { heading: "Quality Workmanship", body: "We stand behind our work with comprehensive warranties. When we complete a job, it's done right the first time." },
+            { heading: "Modern Equipment", body: "We invest in the latest plumbing technology to diagnose problems accurately and complete repairs efficiently." },
+            { heading: "Local Knowledge", body: "As a company serving the Calgary area including Airdrie, we understand local building codes, common plumbing issues in the area, and how to navigate Alberta's unique climate challenges." },
+          ],
+        },
+        {
+          heading: "Serving All of Airdrie",
+          intro:
+            "We proudly serve every neighborhood in Airdrie, including Kings Heights, Coopers Crossing, Williamstown, Edwards Landing, Reunion, Chinook Gate, Ravenswood, Big Springs, and Hillcrest.",
+        },
+        {
+          heading: "Common Airdrie Plumbing Issues We Solve",
+          intro:
+            "Living in Airdrie means dealing with specific plumbing challenges. Our plumbers are experts at handling all of the below.",
+          items: [
+            { body: "Frozen pipes during Alberta's cold winters." },
+            { body: "Hard water problems that damage fixtures and appliances." },
+            { body: "Aging plumbing systems in older Airdrie neighborhoods." },
+            { body: "Low water pressure issues." },
+            { body: "Sump pump failures that can flood basements." },
+            { body: "Running toilets that waste water and increase utility bills." },
+          ],
+        },
+      ],
+    },
+  },
+
+  {
+    slug: "airdrie-furnace-repairs",
+    category: "Heating",
+    location: "Airdrie",
+    icon: "local_fire_department",
+    title: "Airdrie Furnace Repair – Fast, Reliable Heating Solutions",
+    lead:
+      "When your furnace stops working in Airdrie, you need help fast. Flame Tech Plumbing & Heating delivers priority furnace repair services throughout Airdrie and surrounding communities, ensuring your family stays warm when it matters most.",
+    heroBody: [
+      "Our certified heating technicians specialize in diagnosing and repairing all furnace makes and models found in Airdrie homes. From minor fixes to major component replacements, we bring the expertise and parts needed to restore your heat quickly and correctly.",
+      "Serving Airdrie's established neighborhoods and new developments alike, we're proud members of the AirEase Pro Team.",
+    ],
+    heroSubhead: "Emergency Service Available",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/2025/04/furnace-repair.jpg", alt: "Furnace repair in Airdrie by FlameTech", fit: "cover" },
+    intro:
+      "Furnace repair in Airdrie by certified technicians. Priority emergency response, all brands, honest diagnosis — AirEase Pro Team members.",
+    features: [
+      "Emergency furnace repair",
+      "New furnace installation",
+      "Preventative maintenance",
+      "Ignition & thermostat repair",
+      "Carbon monoxide testing",
+      "AirEase Pro Team",
+    ],
+    bullets: [
+      {
+        t: "Rapid Airdrie response",
+        d: "We know Alberta winters don't wait — our team responds quickly from Coopers Crossing to Williamstown.",
+      },
+      {
+        t: "Certified heating professionals",
+        d: "Proper certifications and insurance coverage for safe, code-compliant repairs that protect your home.",
+      },
+    ],
+    seoTitle: "Airdrie Furnace Repair | Priority Heating Solutions",
+    seoDescription:
+      "Need furnace repair in Airdrie, Alberta? Call FlameTech Plumbing & Heating. Local furnace experts with priority emergency response and honest pricing.",
+    seoKeywords: [
+      "Airdrie furnace repair",
+      "furnace repair Airdrie",
+      "Airdrie heating",
+      "emergency furnace Airdrie",
+      "AirEase Pro Team",
+      "FlameTech Plumbing Heating",
+    ],
+    quoteFormLabel: "Airdrie furnace repair",
+    quoteFormPlaceholder:
+      "e.g. furnace short-cycling, no heat in Kings Heights, thermostat not responding, ignition failure…",
+    sidebar: {
+      title: "Airdrie Furnace Repair",
+      subtitle:
+        "Priority emergency repair, new installs, and annual maintenance for every major furnace brand in Airdrie.",
+      bullets: [
+        "AirEase Pro Team certified installers",
+        "All makes and models serviced",
+        "Transparent pricing, free estimates",
+        "Airdrie response within the hour",
+      ],
+    },
+    stats: [
+      { number: "25+", label: "Years heating", icon: "verified" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "Same-day", label: "most repairs", icon: "schedule" },
+      { number: "Certified", label: "& insured", icon: "award" },
+    ],
+    callout:
+      "No heat in Airdrie? Call 587-834-3668 — priority dispatch for families with young children, elderly residents, or no backup heat.",
+    richContent: {
+      sections: [
+        {
+          heading: "Why Airdrie Homeowners Choose Flame Tech for Furnace Repairs",
+          intro:
+            "Your heating system deserves expert attention. Here's what sets Flame Tech apart when you need furnace repair in Airdrie.",
+          items: [
+            { heading: "Rapid Response for Airdrie Residents", body: "We know Alberta winters don't wait for convenient timing. Our team responds quickly to furnace breakdowns across Airdrie, from Cooper's Crossing to Williamstown, getting your heating system operational again without unnecessary delays." },
+            { heading: "Certified Heating Professionals", body: "Every technician on our team holds proper certifications and insurance coverage. We're committed to safe, code-compliant repairs that protect your family and your investment in your Airdrie home." },
+          ],
+        },
+        {
+          heading: "Furnace Services We Provide in Airdrie",
+          intro: "Beyond emergency repairs, Flame Tech offers comprehensive heating solutions for Airdrie homeowners.",
+          items: [
+            { heading: "New Furnace Installation", body: "Planning to upgrade your heating system? Our installation team serves Airdrie homes with precision and care. We help you select energy-efficient models that match your home's heating requirements and your budget. From proper sizing calculations to flawless installation that meets all building codes, we handle every detail." },
+            { heading: "Emergency Furnace Repair", body: "Heating failures happen at the worst possible moments. Our technicians arrive equipped to diagnose problems efficiently and carry common replacement parts on their trucks. We service all major furnace brands found in Airdrie residences, from older models to the latest high-efficiency units." },
+            { heading: "Preventative Maintenance", body: "Regular servicing protects your heating investment and prevents inconvenient breakdowns. Our maintenance program includes thorough cleaning, detailed inspections of essential components, and complete safety testing including carbon monoxide checks. Scheduling annual maintenance before winter arrives helps ensure your furnace won't fail during Airdrie's coldest weather." },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Common Furnace Questions from Airdrie Homeowners",
+        intro:
+          "Need furnace repair in Airdrie? Call Flame Tech at 587-834-3668 for fast, professional service. We provide free estimates and transparent pricing with no hidden fees.",
+        items: [
+          { q: "What causes most furnace breakdowns in Airdrie?", a: "The most common furnace problems we see in Airdrie homes involve dirty or clogged filters restricting airflow, which forces your system to work harder and can trigger safety shutoffs. Ignition problems, faulty thermostats, and worn blower motors also account for many service calls. Regular maintenance prevents most of these issues." },
+          { q: "How quickly can you repair my furnace in Airdrie?", a: "Response time depends on demand and weather conditions, but we prioritize emergency calls. Our technicians stock common parts and can often complete repairs the same day. For more complex issues requiring special-order components, we'll explain the timeline upfront. During extreme cold snaps, we triage calls to help families with young children, elderly residents, or no backup heat source first." },
+          { q: "Should I repair or replace my older furnace?", a: "Depends on your furnace's age, the repair cost, and efficiency. Generally, if repair costs exceed half the price of replacement, or if your furnace is over 15 years old, replacement often makes better financial sense. Modern high-efficiency furnaces can reduce your heating costs by 20–40% compared to older models. We'll provide honest recommendations based on your specific situation." },
+        ],
+      },
+    },
+  },
+
+  {
+    slug: "boiler-installation-airdrie",
+    category: "Heating",
+    location: "Airdrie",
+    icon: "build",
+    title: "Boiler Installation Airdrie | Expert Boiler Services for Airdrie Homes",
+    lead:
+      "Alberta winters demand dependable heating systems, and choosing the right boiler installation makes all the difference in your home's comfort and energy costs. At Flame Tech Plumbing & Heating, we bring specialized expertise to Airdrie homeowners looking for efficient, reliable boiler solutions.",
+    heroBody: [
+      "From professional new installations to emergency repairs and preventative maintenance programs, our certified technicians deliver heating solutions that keep your family warm through even the coldest months.",
+      "We install and maintain every major boiler type for Airdrie properties — high-efficiency condensing boilers, standard efficiency boilers, and combi units that deliver radiant heating and endless domestic hot water from a single compact appliance.",
+    ],
+    heroSubhead: "Your Trusted Airdrie Boiler Installation Experts",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/navine-boiler.png", alt: "Navien high-efficiency boiler installed by FlameTech in Airdrie" },
+    intro:
+      "Expert boiler installation in Airdrie. Navien and IBC condensing boilers, combi systems, and standard efficiency units. Certified installers, full warranty.",
+    features: [
+      "High-efficiency condensing boilers",
+      "Standard efficiency boilers",
+      "Combi boiler installation",
+      "Navien & IBC systems",
+      "Complete gas, venting, hydronic piping",
+      "Priority emergency response",
+    ],
+    bullets: [
+      {
+        t: "Airdrie-area specialists",
+        d: "We size and install boilers for Airdrie's prairie temperature swings and wind exposure — not just generic specs.",
+      },
+      {
+        t: "Fully certified & covered",
+        d: "Every installation meets Alberta building codes and manufacturer specs, with comprehensive insurance coverage.",
+      },
+    ],
+    seoTitle: "Boiler Installation Airdrie | Highly Rated Local Experts",
+    seoDescription:
+      "Looking for professional boiler installation in Airdrie, Alberta? The 5-star rated FlameTech team installs Navien and IBC systems built for Alberta winters.",
+    seoKeywords: [
+      "boiler installation Airdrie",
+      "Navien boiler Airdrie",
+      "IBC boiler Airdrie",
+      "combi boiler Airdrie",
+      "Airdrie heating install",
+      "FlameTech Plumbing Heating",
+    ],
+    quoteFormLabel: "Airdrie boiler install",
+    quoteFormPlaceholder:
+      "e.g. upgrading to a Navien condensing boiler, planning a hydronic radiant system, replacing a 20-year-old boiler…",
+    sidebar: {
+      title: "Airdrie Boiler Installation",
+      subtitle:
+        "High-efficiency Navien and IBC systems sized for Airdrie's −32°C design temperature, installed to Alberta code.",
+      bullets: [
+        "Navien · IBC Technologies certified",
+        "AFUE ratings up to 98%",
+        "Combi units for space + hot water",
+        "Free heat-loss calculation",
+      ],
+    },
+    stats: [
+      { number: "15-20yr", label: "Boiler lifespan", icon: "verified" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "98%", label: "Max AFUE", icon: "award" },
+      { number: "Certified", label: "installers", icon: "check_circle" },
+    ],
+    financing: {
+      detail:
+        "Spread the cost of your new Airdrie boiler installation into flexible monthly payments via our Financeit partner.",
+    },
+    callout:
+      "Planning a boiler upgrade in Airdrie? Call 587-834-3668 for a free heat-loss calculation and transparent written quote.",
+    richContent: {
+      sections: [
+        {
+          heading: "Your Trusted Airdrie Boiler Installation Experts",
+          intro:
+            "Selecting a heating contractor impacts your home's comfort for decades. Here's what sets Flame Tech apart in Airdrie.",
+          items: [
+            { heading: "Airdrie-Area Heating Specialists", body: "Our technicians serve Airdrie neighborhoods daily, from established communities to newer developments. We understand how our prairie location's temperature swings and wind exposure affect heating system performance, and we size and install boilers accordingly." },
+            { heading: "Fully Certified & Covered", body: "Every installation meets Alberta building codes and manufacturer specifications. Our complete licensing and comprehensive insurance coverage protects your property and gives you confidence that the work is done right the first time." },
+          ],
+        },
+        {
+          heading: "Boiler Systems We Install in Airdrie",
+          intro: "Our team installs and maintains every major boiler type for Airdrie properties.",
+          items: [
+            { heading: "High-Efficiency Condensing Boilers", body: "Modern condensing technology recovers heat that traditional boilers waste, achieving up to 98% efficiency ratings. These systems dramatically reduce natural gas consumption and monthly utility expenses for Airdrie homeowners." },
+            { heading: "Standard Efficiency Boilers", body: "Traditional boiler systems remain a practical choice for many Airdrie homes, offering proven performance and straightforward operation. Our technicians help you select the optimal system based on your heating requirements and financial considerations." },
+            { heading: "Combination Boilers", body: "Combi units deliver both radiant heating and endless domestic hot water from a single compact appliance. These space-efficient systems eliminate the need for separate water heaters while providing on-demand hot water whenever you need it." },
+          ],
+        },
+        {
+          heading: "Premium Boiler Brands for Airdrie Installations",
+          intro:
+            "We exclusively install top-tier manufacturers engineered to handle Alberta's demanding climate conditions year after year.",
+          items: [
+            { heading: "Navien Heating Systems", body: "Navien's condensing boilers incorporate dual stainless steel heat exchangers that maximize energy capture while resisting the corrosive effects of Alberta's mineral-heavy water supply. These wall-hung units save basement square footage while delivering AFUE ratings that frequently exceed 95%. Navien systems feature robust ignition components proven to start dependably even when the mercury plummets below −35°C." },
+            { heading: "IBC Technologies Systems", body: "IBC brings Canadian engineering expertise to every installation, with manufacturing facilities that understand prairie heating demands intimately. Advanced modulation technology allows IBC boilers to match output precisely to your home's moment-by-moment heating requirements, eliminating wasteful on-off cycling. Properly maintained IBC systems routinely deliver two decades or more of dependable service in Alberta installations." },
+          ],
+        },
+        {
+          heading: "Frequent Boiler Issues in Airdrie We Resolve",
+          items: [
+            { heading: "Limescale Buildup & Noise", body: "Airdrie's mineral-rich water creates scale deposits on heat exchangers that restrict flow and cause loud rumbling. We chemically descale affected systems and implement water conditioning to prevent recurrence." },
+            { heading: "Condensate Freezing Issues", body: "Extreme cold snaps can freeze condensate drains, triggering safety shutdowns. We insulate vulnerable sections, verify proper drainage slope, and install heated drain lines where necessary." },
+            { heading: "Rapid Cycling Problems", body: "Units cycling on and off excessively waste energy and stress components. Common causes include oversized equipment, faulty thermostats, low system pressure, or dirty heat exchangers. We identify root causes and implement permanent corrections." },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Airdrie Boiler Installation Questions Answered",
+        items: [
+          { q: "How do I determine the correct boiler size for my Airdrie property?", a: "Accurate sizing depends on total heated area, insulation, window quality, ceiling heights, and Airdrie's −32°C winter design temperature. Average 1,500–2,000 sq ft residences require approximately 75,000–100,000 BTU capacity, while larger 2,500–3,500 sq ft homes need 100,000–150,000 BTU systems. Our technicians perform comprehensive Manual J heat-loss calculations to specify optimal capacity." },
+          { q: "What warning signs indicate my boiler needs professional attention?", a: "Watch for rumbling or kettling sounds caused by limescale, whistling from trapped air, or gurgling indicating circulation problems. Pressure repeatedly dropping below 12 PSI, visible water seepage, temperature inconsistencies between rooms, excessive cycling, or yellow burner flames all warrant professional diagnosis. Contact Flame Tech at 587-834-3668 when you notice these symptoms." },
+          { q: "When should Airdrie homeowners replace rather than repair boilers?", a: "Replacement becomes economically sensible when equipment reaches 15–20+ years. Repair costs exceeding half the replacement value suggest investing in new equipment instead. Units with AFUE below 80% waste considerable energy compared to modern 95%+ systems, potentially saving $500–900 annually in Airdrie's climate. Visible rust, corrosion, or heat exchanger cracks require immediate replacement." },
+          { q: "What does annual boiler maintenance include?", a: "Our technicians thoroughly clean heat exchangers, verify all safety controls, test combustion efficiency, inspect venting systems, flush and chemically treat the system against Airdrie's hard water, confirm proper operating pressure and flow rates, lubricate pump bearings, and test zone valve operation. Regular maintenance extends equipment life 5–10 years and preserves efficiency." },
+          { q: "Are energy efficiency rebates available for Airdrie boiler installations?", a: "Federal and provincial programs periodically offer incentives for high-efficiency heating upgrades, including the Canada Greener Homes Grant providing up to $5,000 for qualifying improvements. Eligibility typically requires minimum 95% AFUE ratings and professional installation with complete documentation. Our team stays current on available incentive programs and assists Airdrie clients through application processes." },
+          { q: "Is converting from forced air to boiler heat feasible in Airdrie?", a: "Yes, but it's a substantial investment requiring installing the boiler, adding radiators or baseboard emitters, running distribution piping, and potentially removing existing ductwork. Total costs generally span $16,000–$32,000 depending on property size. Airdrie homeowners often pursue conversions during major renovations to gain zone control, eliminate allergen circulation, and enjoy quieter heat." },
+        ],
+      },
+    },
+  },
+
+  {
+    slug: "boilers-airdrie",
+    category: "Heating",
+    location: "Airdrie",
+    icon: "local_fire_department",
+    title: "Boilers Airdrie | Professional Boiler Services & Repair",
+    lead:
+      "Airdrie's rapid growth means thousands of homes rely on boilers for radiant heat and domestic hot water. Our crew at FlameTech has serviced boilers across Airdrie neighborhoods since these communities started filling up in the 2000s. We know which builder-grade boilers are failing first and which systems will give you another decade of reliable service.",
+    heroBody: [
+      "When your boiler dies on a −35°C morning, you need someone who answers the phone — not a voicemail. We're available with priority emergency response for boiler repairs and can usually get to most Airdrie homes within the hour.",
+      "Most heating contractors in Airdrie focus on forced air furnaces. Boilers are different animals — they need technicians who understand water pressure, circulation pumps, expansion tanks, and zone controls. Our trucks carry boiler-specific parts that most shops don't stock.",
+    ],
+    heroSubhead: "Trusted Airdrie Boilers Experts",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/2025/04/close-up-of-hands-adjusting-a-boiler-system.jpeg", alt: "Boiler service being performed on an Airdrie home", fit: "cover" },
+    intro:
+      "Boiler installation, repair, and service in Airdrie. Circulation pumps, expansion tanks, zone valves, heat exchanger cleaning — all major brands.",
+    features: [
+      "Boiler installation & replacement",
+      "Circulation pump repair",
+      "Pressure & expansion issues",
+      "Zone control service",
+      "Heat exchanger cleaning",
+      "Annual maintenance plans",
+    ],
+    bullets: [
+      {
+        t: "Hydronic specialists",
+        d: "Twenty years of hydronic heating experience — we understand the water-side systems most HVAC shops skip.",
+      },
+      {
+        t: "Boiler parts stocked",
+        d: "Circulation pumps, pressure relief valves, aquastats, and zone valves on every truck.",
+      },
+    ],
+    seoTitle: "Boilers Airdrie | Repair, Installation & Emergency Service",
+    seoDescription:
+      "Expert boiler repair, installation & maintenance in Airdrie. Priority emergency service. Licensed technicians handle all boiler brands. Call 587-834-3668.",
+    seoKeywords: [
+      "boilers Airdrie",
+      "boiler repair Airdrie",
+      "circulation pump Airdrie",
+      "hydronic heating Airdrie",
+      "Airdrie boiler service",
+      "FlameTech Plumbing Heating",
+    ],
+    quoteFormLabel: "Airdrie boiler service",
+    quoteFormPlaceholder:
+      "e.g. boiler banging on startup, cold radiators upstairs, pressure relief valve dripping…",
+    sidebar: {
+      title: "Airdrie Boiler Service",
+      subtitle:
+        "Priority emergency repair and annual maintenance for every boiler system in Airdrie — cast iron to condensing.",
+      bullets: [
+        "Grundfos · Taco · Bell & Gossett pumps",
+        "Honeywell & Taco zone controls",
+        "Combustion analysis + safety checks",
+        "No after-hours surcharges",
+      ],
+    },
+    stats: [
+      { number: "20+", label: "Years on boilers", icon: "verified" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "~1h", label: "Emergency ETA", icon: "schedule" },
+      { number: "Certified", label: "hydronic", icon: "award" },
+    ],
+    callout:
+      "Boiler noise, cold radiators, pressure loss? Call 587-834-3668 — real person answers, and our emergency trucks carry the parts to fix most issues same-day.",
+    richContent: {
+      sections: [
+        {
+          heading: "Why Airdrie Homeowners Choose FlameTech for Boilers",
+          intro:
+            "As a locally owned and operated plumbing company, we specialize in professional boiler services for Airdrie homes and businesses. Most heating contractors focus on forced-air furnaces; boilers need technicians who understand water pressure, circulation pumps, expansion tanks, and zone controls. We've worked on everything from old cast iron radiators in Ravenswood character homes to modern condensing boilers in Coopers Crossing.",
+          items: [
+            { heading: "Boiler Installation", body: "Complete replacement of old or failed boilers with high-efficiency condensing units. We handle all gas connections, venting, and hydronic piping." },
+            { heading: "Circulation Pump Repair", body: "Failed pumps mean no heat distribution. We carry replacement pumps for Grundfos, Taco, and Bell & Gossett models commonly found in Airdrie homes." },
+            { heading: "Pressure & Expansion Issues", body: "Low water pressure, leaking pressure relief valves, and failed expansion tanks. These problems compound quickly in Alberta's temperature swings." },
+            { heading: "Zone Control Service", body: "Thermostats calling for heat but rooms staying cold usually means zone valve problems. We diagnose and repair Honeywell and Taco zone systems." },
+            { heading: "Heat Exchanger Cleaning", body: "Annual cleaning prevents efficiency loss and extends boiler life — critical for condensing boilers that can clog with Alberta's hard water deposits." },
+            { heading: "Boiler Maintenance Plans", body: "Annual tune-ups including combustion analysis, safety checks, and component inspection. Prevents mid-winter breakdowns." },
+          ],
+        },
+        {
+          heading: "Common Boiler Issues in Airdrie Homes",
+          intro:
+            "Airdrie homeowners call us most often for these boiler problems that seem to hit during the worst cold snaps. These aren't DIY fixes — boiler repairs involve gas lines, high-pressure water systems, and electrical controls that need proper diagnosis.",
+          items: [
+            { body: "No heat after power outages — usually a tripped safety switch or failed ignition sequence." },
+            { body: "Radiators cold on upper floors while main floor overheats — circulation pump or air trapped in system." },
+            { body: "Boiler short cycling on and off every few minutes — typically oversized boiler or failed aquastat." },
+            { body: "Water leaking around boiler base — could be anything from loose fittings to cracked heat exchanger." },
+            { body: "Banging and kettling noises especially during startup — usually sediment buildup or low water flow." },
+            { body: "High gas bills with poor heat output — dirty heat exchanger or combustion air problems." },
+          ],
+        },
+        {
+          heading: "Boiler Maintenance Tips for Airdrie Homeowners",
+          intro:
+            "Proper maintenance keeps your boiler running efficiently through Alberta's brutal winters and prevents expensive mid-season breakdowns.",
+          items: [
+            { body: "Check boiler pressure monthly — should read between 12–15 PSI when cold. Low pressure means you're losing water somewhere in the system." },
+            { body: "Bleed radiators annually before heating season starts. Air pockets prevent proper heat circulation." },
+            { body: "Test pressure relief valve yearly by lifting the lever slightly. If no water comes out or it won't stop dripping afterward, replace it immediately." },
+            { body: "Keep boiler area clear of storage and combustibles. Boilers need proper air circulation for safe operation and easy service access." },
+            { body: "Schedule annual professional cleaning and tune-up before October. This includes combustion analysis and safety system testing." },
+            { body: "Monitor your gas bills for sudden increases. Rising costs with same usage often means declining efficiency from dirty components." },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Frequently Asked Questions About Boilers in Airdrie",
+        items: [
+          { q: "How long do boilers last in Alberta's climate?", a: "Properly maintained boilers typically last 15–20 years in Alberta, though cast iron boilers can run 25+ years with good care. The constant freeze-thaw cycles and hard water accelerate wear on circulation pumps and expansion tanks. Annual maintenance and water softening significantly extend boiler life." },
+          { q: "Can I switch from a furnace to a boiler in my Airdrie home?", a: "Yes, but it requires installing a complete hydronic distribution system — baseboard heaters, radiators, or in-floor tubing. Most Airdrie homes were built with forced air, so boiler conversion is a major renovation. We typically see this when homeowners are doing full basement finishing and want the comfort of radiant heat." },
+          { q: "Why is my boiler making banging noises?", a: "Banging or kettling sounds usually indicate sediment buildup in the heat exchanger or air trapped in the system. Alberta's hard water creates mineral deposits that cause hot spots and steam bubbles. Professional cleaning and proper system bleeding typically solve the problem." },
+          { q: "Do I need annual boiler maintenance?", a: "Yes — annual maintenance prevents 90% of mid-winter breakdowns and maintains efficiency. We clean the heat exchanger, test safety controls, check combustion, and inspect all system components. Boiler repairs caught early cost hundreds instead of thousands." },
+        ],
+      },
+    },
+  },
+
+  {
+    slug: "heat-pumps-airdrie",
+    category: "Heating",
+    location: "Airdrie",
+    icon: "ac_unit",
+    title: "Heat Pumps Airdrie – Expert Installation & Reliable Service",
+    lead:
+      "Flame Tech Plumbing & Heating brings superior heat pump expertise to Airdrie homeowners seeking year-round comfort. Serving families throughout Airdrie and surrounding areas, we've built our reputation on delivering dependable heating and cooling solutions that stand up to Alberta's demanding weather patterns.",
+    heroBody: [
+      "With advanced heat pump technology and hands-on experience, we help Airdrie residents achieve optimal indoor temperatures while keeping monthly utility expenses under control.",
+      "Our skilled technicians understand what Airdrie properties need. From frigid January nights to scorching summer afternoons, we've mastered matching the right heat pump systems to homes that face Alberta's dramatic seasonal shifts.",
+    ],
+    heroSubhead: "Trusted Local Experts",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/2025/12/air-ease-ac.png", alt: "AirEase heat pump installed by FlameTech in Airdrie", fit: "contain" },
+    intro:
+      "Heat pump installation, repair, and maintenance in Airdrie. Air-source, ductless mini-split, and geothermal systems. AirEase 12-year parts + labor warranty on qualifying units.",
+    features: [
+      "Heat pump installation",
+      "Heat pump repair",
+      "Bi-annual maintenance & tune-ups",
+      "Priority emergency support",
+      "Air-source, ductless, geothermal",
+      "AirEase 12-year warranty*",
+    ],
+    bullets: [
+      {
+        t: "Alberta-tested sizing",
+        d: "We evaluate square footage, insulation, and comfort preferences to pinpoint the right heat pump for Airdrie conditions.",
+      },
+      {
+        t: "Licensed & fully insured",
+        d: "Every technician maintains current certifications and complete insurance coverage to meet provincial codes.",
+      },
+    ],
+    seoTitle: "Heat Pumps Airdrie | Installation, Repair & Service | Flame Tech",
+    seoDescription:
+      "Expert heat pump installation, repair & maintenance in Airdrie. Flame Tech offers energy-efficient heating & cooling with priority emergency service. Free quotes.",
+    seoKeywords: [
+      "heat pumps Airdrie",
+      "heat pump install Airdrie",
+      "heat pump repair Airdrie",
+      "ductless mini-split Airdrie",
+      "AirEase heat pump",
+      "FlameTech Plumbing Heating",
+    ],
+    quoteFormLabel: "Airdrie heat pump",
+    quoteFormPlaceholder:
+      "e.g. adding a heat pump to an existing furnace, ductless mini-split for a bonus room, geothermal consultation…",
+    sidebar: {
+      title: "Airdrie Heat Pumps",
+      subtitle:
+        "Energy-efficient heating and cooling matched to your Airdrie home — air-source, ductless, and geothermal systems.",
+      bullets: [
+        "AirEase 12-year parts + labor warranty*",
+        "Bi-annual tune-ups extend equipment life",
+        "Honest sizing, tailored recommendations",
+        "Priority emergency dispatch",
+      ],
+    },
+    stats: [
+      { number: "12yr", label: "AirEase warranty*", icon: "award" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "Year-round", label: "heat + cool", icon: "ac_unit" },
+      { number: "Licensed", label: "& insured", icon: "verified" },
+    ],
+    callout:
+      "Planning a heat pump install or noticing weak airflow on an existing unit? Call 587-834-3668 for a free Airdrie assessment.",
+    richContent: {
+      sections: [
+        {
+          heading: "What Makes Flame Tech the Right Choice for Airdrie Heat Pumps",
+          intro:
+            "Finding a dependable heat pump contractor can transform your home's comfort and energy savings. Discover why Airdrie residents continue choosing Flame Tech.",
+          items: [
+            { heading: "Airdrie's Heat Pump Authorities", body: "Our skilled technicians understand what Airdrie properties need. From frigid January nights to scorching summer afternoons, we've mastered matching the right heat pump systems to homes facing Alberta's dramatic seasonal shifts." },
+            { heading: "Licensed & Fully Insured Team", body: "Peace of mind comes standard with every job. Our crew maintains current certifications and complete insurance coverage, ensuring your heat pump project meets all provincial codes and exceeds industry standards." },
+          ],
+        },
+        {
+          heading: "Heat Pump Services We Offer",
+          intro: "Flame Tech provides end-to-end heat pump solutions built for Airdrie's weather conditions.",
+          items: [
+            { heading: "Heat Pump Installation", body: "Our team conducts thorough home evaluations, analyzing square footage, insulation quality, and comfort preferences to pinpoint the perfect system that delivers results without breaking your budget. From initial consultation through final commissioning, we handle every detail." },
+            { heading: "Heat Pump Repair", body: "Noticing weak airflow, strange noises, or a unit that won't start? Our experienced crew diagnoses and fixes problems across all major heat pump makes and models, getting your Airdrie home back to comfortable temperatures fast." },
+            { heading: "Heat Pump Maintenance & Tune-Ups", body: "Routine care keeps your heat pump running smoothly and prevents unexpected breakdowns. Our detailed maintenance catches small issues before they become costly repairs, reduces energy waste, and adds years to your equipment's working life." },
+            { heading: "Priority Emergency Heat Pump Support", body: "Heating emergencies strike without warning, often during Airdrie's coldest snaps or hottest days. Flame Tech offers priority emergency heat pump services in Airdrie so your family stays safe and comfortable when trouble hits." },
+          ],
+        },
+        {
+          heading: "AirEase Special — 12-Year Parts and Labor Warranty*",
+          intro:
+            "Qualifying residential products (Heat Pump Model 4SHP18LX) come with a 12-year parts + labor warranty when you register within 60 days of installation, use in an owner-occupied residence, and maintain documented annual professional maintenance. *Terms and conditions apply.",
+        },
+        {
+          heading: "Finding the Right Heat Pump for Your Airdrie Home",
+          items: [
+            { heading: "Available Heat Pump Types", body: "We work with various heat pump styles — traditional air-source units, versatile ductless mini-splits, and high-efficiency geothermal systems — to accommodate different Airdrie properties." },
+            { heading: "Factors to Consider", body: "Choosing the best heat pump involves weighing home size, upfront costs, long-term energy savings, and environmental impact. We walk through each factor with you so you can make a confident, informed decision." },
+            { heading: "Expert Advice Tailored to You", body: "Backed by extensive training and real-world experience serving Airdrie households, we provide honest, customized suggestions that address your specific heating and cooling needs." },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Frequently Asked Heat Pump Questions from Airdrie Residents",
+        intro:
+          "Get in touch for a free, no-obligation quote on heat pump services in Airdrie. Reach us by phone, email, or our online booking system.",
+        items: [
+          { q: "How often does a heat pump need professional maintenance?", a: "Schedule tune-ups twice per year — once before winter and again before summer. This bi-annual approach helps your system run at maximum efficiency while catching minor issues before they turn into major headaches." },
+          { q: "What are the warning signs that my heat pump needs repair?", a: "Watch for uneven temperatures throughout your home, grinding or rattling sounds, water pooling near the unit, frost building up on coils, or sudden increases in your energy bills. If you spot any of these, call our Airdrie heat pump repair team right away." },
+          { q: "How long does it take to install a new heat pump?", a: "The timeline depends on which system you choose and how complex your installation requirements are. We provide clear timeframes upfront during your consultation so you know exactly what to expect." },
+        ],
+      },
+    },
+  },
+
+  {
+    slug: "hot-water-tanks-airdrie",
+    category: "Water",
+    location: "Airdrie",
+    icon: "propane_tank",
+    title: "Hot Water Tanks Airdrie | Professional Installation & Repair Services",
+    lead:
+      "Airdrie's hard water and temperature swings are brutal on hot water tanks. FlameTech's technicians have replaced hundreds of tanks in Airdrie neighborhoods, from Coopers Crossing's newer builds to established areas where original tanks are hitting the 12-year mark. When your tank starts leaking or you're running out of hot water, our Airdrie plumbers know exactly what's wrong and how to fix it.",
+    heroBody: [
+      "We're based in Calgary but keep our service vehicles stocked and ready for fast dispatch to Airdrie. No waiting days for parts or scheduling weeks out — we answer the phone with priority dispatch and can usually get a new tank installed same day.",
+      "Our certified hot water specialists have been handling tank installations and repairs across Airdrie's communities for over two decades. We stock the most common 40 and 50-gallon tanks on our trucks and know which models hold up best against Airdrie's mineral-heavy water.",
+    ],
+    heroSubhead: "Trusted Airdrie Hot Water Tank Experts",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/2026/02/bradford-white-hot-water-tank.png", alt: "Bradford White hot water tank installed by FlameTech in Airdrie", fit: "contain" },
+    intro:
+      "Hot water tank installation, replacement, and repair in Airdrie. Bradford White, AO Smith, Rheem tanks stocked. Priority emergency service, same-day installs.",
+    features: [
+      "Hot water tank installation",
+      "Tank replacement & upgrades",
+      "Emergency tank repairs",
+      "Anode rod replacement",
+      "Gas valve & thermostat service",
+      "Tank maintenance & flushing",
+    ],
+    bullets: [
+      {
+        t: "Stocked for Airdrie",
+        d: "Popular 40 and 50-gallon tanks on every truck — no waiting days for parts.",
+      },
+      {
+        t: "Red Seal certified",
+        d: "Red Seal plumbing certifications and gas fitting tickets for safe tank installation in Alberta.",
+      },
+    ],
+    seoTitle: "Hot Water Tanks Airdrie | Expert Installation & Repair",
+    seoDescription:
+      "Hot water tank problems in Airdrie? FlameTech provides priority emergency service, installation, and repair. Calgary-based with fast dispatch to Airdrie.",
+    seoKeywords: [
+      "hot water tanks Airdrie",
+      "water heater Airdrie",
+      "Bradford White Airdrie",
+      "tank replacement Airdrie",
+      "anode rod Airdrie",
+      "FlameTech Plumbing Heating",
+    ],
+    quoteFormLabel: "Airdrie hot water tank",
+    quoteFormPlaceholder:
+      "e.g. leaking 50-gallon gas tank, no hot water in Ravenswood, tank at 10 years in Coopers Crossing…",
+    sidebar: {
+      title: "Airdrie Hot Water Tanks",
+      subtitle:
+        "Bradford White, AO Smith, and Rheem tanks with priority dispatch from Calgary — same-day installs across Airdrie.",
+      bullets: [
+        "Red Seal + gas fitting certified",
+        "40 & 50-gallon tanks on-truck",
+        "60-90 minute Airdrie ETA",
+        "Warranty on parts + labor",
+      ],
+    },
+    stats: [
+      { number: "2,000+", label: "Tanks installed", icon: "verified" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "60-90m", label: "Airdrie ETA", icon: "schedule" },
+      { number: "Red Seal", label: "certified", icon: "award" },
+    ],
+    callout:
+      "Tank leaking or water gone cold? Call 587-834-3668 — our Calgary trucks are stocked and can reach most Airdrie addresses within 60-90 minutes.",
+    richContent: {
+      sections: [
+        {
+          heading: "Why Airdrie Homeowners Choose FlameTech for Hot Water Tanks",
+          intro:
+            "Our certified hot water specialists have been handling tank installations and repairs across Airdrie's communities for over two decades. FlameTech technicians are certified to work on all major brands — Bradford White, AO Smith, Rheem, and the builder-grade units common in Airdrie's 2000s developments. We stock the most common 40 and 50-gallon tanks on our trucks and know which models hold up best against Airdrie's mineral-heavy water.",
+          items: [
+            { heading: "Hot Water Tank Installation", body: "Complete removal of old tank and professional installation of new unit, including proper venting, gas connections, and code compliance." },
+            { heading: "Tank Replacement & Upgrades", body: "Upgrading from builder-grade tanks to high-efficiency models that handle Airdrie's hard water better and reduce energy costs." },
+            { heading: "Emergency Tank Repairs", body: "Priority repair service for leaking tanks, faulty thermostats, pilot light issues, and heating element failures." },
+            { heading: "Anode Rod Replacement", body: "Replacing sacrificial anodes to extend tank life in Airdrie's mineral-rich water conditions — critical maintenance often overlooked." },
+            { heading: "Gas Valve & Thermostat Service", body: "Diagnosing and replacing faulty gas valves, thermocouples, and temperature controls that commonly fail in Alberta's temperature swings." },
+            { heading: "Tank Maintenance & Flushing", body: "Annual tank flushing to remove sediment buildup from hard water, plus safety inspections and efficiency tune-ups." },
+          ],
+        },
+        {
+          heading: "Common Hot Water Tank Issues in Airdrie Homes",
+          intro:
+            "Airdrie homeowners deal with specific hot water tank problems thanks to the area's hard water and rapid temperature changes.",
+          items: [
+            { body: "Sediment buildup from mineral-heavy water reducing tank capacity and efficiency." },
+            { body: "Premature anode rod corrosion leading to tank rust and leaks." },
+            { body: "Pilot light and gas valve issues from temperature fluctuations during chinooks." },
+            { body: "Pressure relief valve failures from thermal expansion in newer, tightly sealed homes." },
+            { body: "Insulation deterioration and heat loss in unheated garages during cold snaps." },
+            { body: "Builder-grade tanks failing around year 8–10 in communities built during the 2005–2015 boom." },
+          ],
+        },
+        {
+          heading: "Hot Water Tank Maintenance Tips for Airdrie Homeowners",
+          intro:
+            "Proper maintenance can extend your tank's life from 8 years to 12+ years, even with Airdrie's challenging water conditions.",
+          items: [
+            { body: "Flush your tank annually to remove sediment — Airdrie's hard water creates more buildup than most areas." },
+            { body: "Check and replace anode rods every 3–4 years instead of the standard 5-year recommendation." },
+            { body: "Test your pressure relief valve annually — thermal expansion is common in newer Airdrie homes." },
+            { body: "Insulate hot water lines in unheated garages to prevent freezing and reduce heat loss." },
+            { body: "Monitor for rust-colored water or metallic taste — early signs of tank corrosion." },
+            { body: "Keep the area around your tank clear and check for small leaks during monthly inspections." },
+          ],
+        },
+      ],
+    },
+  },
+
+  {
+    slug: "water-softener-airdrie",
+    category: "Water",
+    location: "Airdrie",
+    icon: "science",
+    title: "Water Softener Airdrie | Professional Installation & Repair",
+    lead:
+      "Airdrie's hard water is brutal on your plumbing, appliances, and skin. We install and service water softeners that actually work — not the big box store units that break down after two years. Our Airdrie plumbers handle everything from whole-home systems to maintenance on existing units.",
+    heroBody: [
+      "When your water softener quits regenerating, you need someone who answers the phone. We're available with priority emergency response for repairs throughout Airdrie and can usually get your system running the same day.",
+      "FlameTech has been installing water softeners in Airdrie since the community started booming in the early 2000s. Our technicians are certified on Fleck, Autotrol, and Clack valve systems — the workhorses that last 15+ years.",
+    ],
+    heroSubhead: "Trusted Airdrie Water Softener Experts",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/2025/04/water-softener-calgary.png", alt: "Whole-home water softener installed by FlameTech in Airdrie", fit: "contain" },
+    intro:
+      "Water softener installation, repair, and service in Airdrie. Fleck, Autotrol, and Clack valve systems. Certified technicians, 15+ year lifespan with proper sizing.",
+    features: [
+      "Water softener installation",
+      "Control valve repair",
+      "Resin tank replacement",
+      "Brine tank service",
+      "System maintenance",
+      "Water testing & analysis",
+    ],
+    bullets: [
+      {
+        t: "Fleck · Autotrol · Clack",
+        d: "Certified on the three valve systems that last 15+ years — not the big-box-store units that fail in 5.",
+      },
+      {
+        t: "Airdrie hardness tested",
+        d: "We test your specific water (typically 15-25 grains/gal in Airdrie) and size the system to actual usage.",
+      },
+    ],
+    seoTitle: "Water Softener Airdrie | Installation & Repair Services",
+    seoDescription:
+      "Expert water softener installation, repair & maintenance in Airdrie. Priority emergency service. Hard water solutions for Alberta homes. Call now!",
+    seoKeywords: [
+      "water softener Airdrie",
+      "Fleck softener Airdrie",
+      "hard water Airdrie",
+      "water softener repair Airdrie",
+      "whole home softener",
+      "FlameTech Plumbing Heating",
+    ],
+    quoteFormLabel: "Airdrie water softener",
+    quoteFormPlaceholder:
+      "e.g. softener not regenerating, salt bridge in brine tank, upgrading from a big-box unit, iron in water…",
+    sidebar: {
+      title: "Airdrie Water Softeners",
+      subtitle:
+        "Whole-home softener installs plus control valve and resin service for every major valve system in Airdrie.",
+      bullets: [
+        "Factory-trained on Fleck, Autotrol, Clack",
+        "32,000–40,000 grain systems sized right",
+        "Iron-out salt recommendations",
+        "Priority emergency dispatch",
+      ],
+    },
+    stats: [
+      { number: "15-20yr", label: "Softener lifespan", icon: "verified" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "15-25", label: "grains/gal hardness", icon: "water_drop" },
+      { number: "Certified", label: "valve systems", icon: "award" },
+    ],
+    financing: {
+      detail:
+        "Spread the cost of a new Airdrie water softener into flexible monthly payments via our Financeit partner.",
+    },
+    callout:
+      "Hard water damaging your plumbing and appliances? Call 587-834-3668 — real person answers, same-day diagnosis in Airdrie.",
+    richContent: {
+      sections: [
+        {
+          heading: "Why Airdrie Homeowners Choose FlameTech for Water Softener",
+          intro:
+            "FlameTech has been installing water softeners in Airdrie since the community started booming in the early 2000s. We know which brands survive Alberta's mineral-heavy groundwater and which ones fail after a few years. Our technicians are certified on Fleck, Autotrol, and Clack valve systems — the workhorses that last 15+ years.",
+          items: [
+            { heading: "Water Softener Installation", body: "Complete whole-home system setup with proper sizing, bypass valves, and drain connections for Airdrie homes." },
+            { heading: "Control Valve Repair", body: "Fix stuck regeneration cycles, timer issues, and valve replacement on Fleck, Autotrol, and Clack systems." },
+            { heading: "Resin Tank Replacement", body: "Replace worn-out resin beds that stop removing hardness minerals from your water supply." },
+            { heading: "Brine Tank Service", body: "Clean salt bridges, repair float assemblies, and fix brine draw problems that prevent regeneration." },
+            { heading: "System Maintenance", body: "Annual cleaning, salt level checks, and performance testing to keep your softener running efficiently." },
+            { heading: "Water Testing & Analysis", body: "Test your Airdrie water hardness levels and recommend the right softener capacity for your home." },
+          ],
+        },
+        {
+          heading: "Common Water Softener Issues in Airdrie Homes",
+          intro:
+            "Airdrie homeowners call us when their water softener stops doing its job. Don't let hard water damage your appliances and plumbing.",
+          items: [
+            { body: "Salt bridges forming in the brine tank, preventing proper regeneration cycles." },
+            { body: "Control valves sticking due to iron buildup in Airdrie's groundwater supply." },
+            { body: "Resin beads breaking down after 10+ years, letting hard water through the system." },
+            { body: "Timer mechanisms failing, causing the system to regenerate at wrong times or not at all." },
+            { body: "Drain line clogs backing up brine waste water during regeneration cycles." },
+            { body: "Bypass valves leaking or stuck open, sending untreated hard water to your home." },
+          ],
+        },
+        {
+          heading: "Water Softener Maintenance Tips for Airdrie Homeowners",
+          intro:
+            "A properly maintained water softener lasts 15–20 years in Alberta. Skip the maintenance, and you'll be replacing it in half that time.",
+          items: [
+            { body: "Check salt levels monthly — keep the brine tank 1/3 full but don't overfill." },
+            { body: "Break up salt bridges with a broom handle if water stops getting soft." },
+            { body: "Clean the brine tank annually to remove buildup and mushy salt residue." },
+            { body: "Test your water hardness yearly — Airdrie levels can change with seasonal groundwater shifts." },
+            { body: "Replace pre-filters every 3–6 months if your system has them installed." },
+            { body: "Schedule professional service every 2–3 years to clean the control valve and resin bed." },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Frequently Asked Questions About Water Softeners in Airdrie",
+        items: [
+          { q: "How hard is Airdrie's water and what size softener do I need?", a: "Airdrie water typically tests between 15–25 grains per gallon of hardness, which is very hard. Most homes need a 32,000 or 40,000 grain capacity system depending on household size and water usage. We test your specific water and calculate the right size based on your family's consumption patterns." },
+          { q: "How often should my water softener regenerate in Airdrie?", a: "With Airdrie's hard water, most residential systems regenerate every 3–7 days depending on usage. If your system is regenerating daily, either it's undersized or has a problem with the control valve. We can adjust the regeneration frequency based on your actual hardness levels and water consumption." },
+          { q: "What type of salt should I use in my Airdrie water softener?", a: "Use solar salt pellets or crystals — avoid rock salt which contains impurities that clog the system. With Airdrie's iron content, we sometimes recommend iron-out salt additive to keep the resin bed clean. Never use table salt or salt substitute products in your softener." },
+          { q: "Why is my softened water leaving white spots on dishes?", a: "White spots usually mean your system isn't regenerating properly or the resin bed needs replacement. It could also indicate your water softener is undersized for your home's demand. We'll test your treated water and check the regeneration cycle to find the problem." },
+          { q: "How long do water softeners last in Alberta's climate?", a: "Quality systems like Fleck or Autotrol typically last 15–20 years with proper maintenance in Alberta conditions. Cheaper units from big box stores often fail within 5–8 years due to our hard water and temperature extremes. The control valve and resin bed are the components that usually need service first." },
+        ],
+      },
+    },
+  },
+
+  {
+    slug: "ravenswood-plumbers-airdrie",
+    category: "Plumbing",
+    location: "Airdrie",
+    icon: "plumbing",
+    title: "Ravenswood Plumbers Airdrie | Expert Local Service",
+    lead:
+      "Need a dependable plumber in Ravenswood, Airdrie? Flame Tech Plumbing delivers outstanding results to homeowners and businesses throughout this thriving neighborhood. Our skilled technicians provide quick, reliable solutions tailored to Ravenswood's modern homes and expanding commercial properties.",
+    heroBody: [
+      "As Airdrie's trusted plumbing service provider, we bring specialized knowledge and commitment to every Ravenswood address we serve. This established neighborhood showcases quality construction from the early 2000s, creating specific maintenance requirements that our veteran team manages with precision and care.",
+      "Emergencies ignore the calendar. Flame Tech Plumbing provides priority emergency availability for Ravenswood residents confronting critical situations — you'll connect with actual staff members instantly, never automated menus.",
+    ],
+    heroSubhead: "Ravenswood's Top-Rated Plumbing Service",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/FTVAN1.jpg", alt: "FlameTech plumbing service van in Ravenswood, Airdrie", fit: "cover" },
+    intro:
+      "Ravenswood plumbers serving Airdrie's established early-2000s neighborhood. Emergency repairs, water heaters, drain cleaning, leak detection.",
+    features: [
+      "Priority emergency response",
+      "Professional drain cleaning",
+      "Complete water heater services",
+      "Fixture installation & replacement",
+      "Advanced leak detection",
+      "Maintenance programs",
+    ],
+    bullets: [
+      {
+        t: "Ravenswood veterans",
+        d: "Our team knows Ravenswood's early-2000s construction and the maintenance issues that come with 20-year-old fixtures.",
+      },
+      {
+        t: "Licensed, insured, bonded",
+        d: "Every technician holds full licensing and certification for work throughout Alberta.",
+      },
+    ],
+    seoTitle: "Ravenswood Plumbers Airdrie | Priority Service | FlameTech",
+    seoDescription:
+      "Ravenswood plumbers serving Airdrie homes. Emergency repairs, water heaters, drain cleaning, leak detection. Licensed team. Call 587-834-3668!",
+    seoKeywords: [
+      "Ravenswood plumbers",
+      "plumber Ravenswood Airdrie",
+      "Ravenswood plumbing",
+      "Airdrie plumber",
+      "Ravenswood water heater",
+      "FlameTech Plumbing",
+    ],
+    quoteFormLabel: "Ravenswood plumbing",
+    quoteFormPlaceholder:
+      "e.g. leaking fixture in Ravenswood, slow basement drain, water heater pooling, renovation rough-in…",
+    sidebar: {
+      title: "Ravenswood Plumbers",
+      subtitle:
+        "Fast, reliable plumbing for Ravenswood's modern homes and commercial properties — priority emergency dispatch.",
+      bullets: [
+        "60-90 minute Ravenswood response",
+        "Infrared + acoustic leak detection",
+        "Full licensing + insurance",
+        "Comprehensive workmanship warranty",
+      ],
+    },
+    stats: [
+      { number: "25+", label: "Years in Alberta", icon: "verified" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "60-90m", label: "Ravenswood ETA", icon: "schedule" },
+      { number: "Licensed", label: "& insured", icon: "award" },
+    ],
+    callout:
+      "Burst pipe, leak, or sewer backup in Ravenswood? Call 587-834-3668 — real people, priority dispatch, fully-stocked trucks.",
+    richContent: {
+      sections: [
+        {
+          heading: "Comprehensive Plumbing Services for Ravenswood",
+          items: [
+            { heading: "Priority Emergency Response", body: "Unexpected failures occur without notice — ruptured lines, significant leaks, or complete sewer blockages demand immediate attention. Our response team arrives equipped and ready, protecting your Ravenswood property from extensive water damage through swift professional action." },
+            { heading: "Professional Drainage Solutions", body: "Persistent clogs disrupt daily routines. We employ industrial-strength tools to completely clear obstructions, returning full functionality to your waste lines. From bathroom fixtures to main sewer connections, we handle every drainage challenge efficiently." },
+            { heading: "Complete Water Heater Services", body: "From energy-efficient tankless models to dependable storage tanks, our specialists guarantee continuous hot water supply throughout Alberta's harsh winter months. We work with leading manufacturers and suggest optimal solutions matching your household requirements." },
+            { heading: "Fixture Installation & Replacement", body: "Considering renovations? Our technicians expertly fit contemporary taps, commodes, basins, and shower assemblies that boost utility and visual appeal. Every installation adheres to current building regulations while increasing your Ravenswood home's market value." },
+            { heading: "Advanced Leak Identification", body: "Concealed water intrusion creates devastating damage silently. Using infrared cameras and acoustic sensors, we pinpoint exact leak locations behind walls and beneath flooring, then implement permanent solutions preventing recurring problems." },
+          ],
+        },
+        {
+          heading: "Frequent Plumbing Challenges in Ravenswood Properties",
+          intro:
+            "Residents in this well-established community encounter characteristic issues we've resolved repeatedly across Airdrie neighborhoods.",
+          items: [
+            { body: "Original fixtures showing age and requiring modern replacements." },
+            { body: "Winter freeze risks affecting exposed piping during Alberta cold snaps." },
+            { body: "Mature landscaping roots penetrating underground wastewater lines." },
+            { body: "Hard water mineral accumulation degrading fixture efficiency." },
+            { body: "System capacity stretched as household needs evolve." },
+            { body: "Renovation projects demanding updated code-compliant work." },
+          ],
+        },
+        {
+          heading: "Proactive Maintenance Programs for Ravenswood Homes",
+          intro:
+            "Forward-thinking property owners embrace maintenance preventing expensive emergencies. We advise Ravenswood residents implement the following.",
+          items: [
+            { body: "Yearly comprehensive inspections catching issues before escalation." },
+            { body: "Autumn winterization protecting vulnerable pipes from temperature extremes." },
+            { body: "Tank flushing services prolonging heater operational life substantially." },
+            { body: "Regular cleaning preventing persistent drainage obstacles." },
+            { body: "Triennial camera examinations tracking underground line integrity." },
+            { body: "Pressure evaluations confirming appropriate water delivery throughout structures." },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Common Questions About Ravenswood Plumbing Services",
+        intro:
+          "From urgent repairs to routine service or major installations, we're ready to assist. Review our commonly asked questions below, or contact us directly at 587-834-3668.",
+        items: [
+          { q: "Are priority emergency plumbing services available in Ravenswood?", a: "Yes, Flame Tech Plumbing provides priority emergency service throughout Ravenswood, Airdrie. Whether facing burst pipes, major leaks, or sewer backups, our licensed technicians respond rapidly. Contact us anytime at 587-834-3668." },
+          { q: "What's your typical response time for Ravenswood calls?", a: "Our technicians generally reach Ravenswood locations within 60-90 minutes following your call, depending on current service demand and traffic patterns. During emergencies, we prioritize swift arrival to minimize property damage and restore functionality." },
+          { q: "Which plumbing services does Flame Tech offer in Ravenswood?", a: "We deliver complete plumbing solutions including drain clearing, water heater service and installation, leak identification, pipe repair and replacement, fixture installations, sewer line work, and bathroom/kitchen renovations." },
+          { q: "Do your technicians carry proper licensing and insurance?", a: "Absolutely. Every Flame Tech Plumbing technician holds full licensing, insurance coverage, and certification for work throughout Alberta. We maintain extensive liability protection safeguarding both our crew and your property." },
+          { q: "What warranty coverage accompanies your services?", a: "We back our craftsmanship with comprehensive warranties on all work performed. Our satisfaction commitment ensures complete happiness with results, or we'll correct any concerns. We additionally provide manufacturer warranties on components and equipment we install." },
+        ],
+      },
+    },
+  },
+
+  {
+    slug: "reunion-plumbers-airdrie",
+    category: "Plumbing",
+    location: "Airdrie",
+    icon: "plumbing",
+    title: "Reunion Plumbers Airdrie | Quality Service & Fast Response",
+    lead:
+      "Require expert plumbing in Reunion, Airdrie? Flame Tech Plumbing provides superior service to residences and businesses across this dynamic community. Our qualified technicians deliver timely, dependable solutions crafted specifically for Reunion's contemporary residential developments.",
+    heroBody: [
+      "As your community-focused plumbing provider, we deliver specialized expertise and outstanding customer care throughout every Reunion residence. This newer development represents Airdrie's modern residential growth, featuring quality construction and contemporary plumbing infrastructure.",
+      "Crises respect no timetable. Flame Tech Plumbing offers priority emergency availability supporting Reunion residents — reach genuine team members directly, never automated systems.",
+    ],
+    heroSubhead: "Reunion's Trusted Plumbing Professionals",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/FTVAN1.jpg", alt: "FlameTech plumbing service van in Reunion, Airdrie", fit: "cover" },
+    intro:
+      "Reunion plumbers serving Airdrie's newest homes. Priority emergency service, fixture installation, advanced leak tracking. Licensed professionals.",
+    features: [
+      "Continuous emergency coverage",
+      "Advanced drain management",
+      "Hot water system excellence",
+      "Modern fixture services",
+      "Sophisticated leak tracking",
+      "Preventative maintenance",
+    ],
+    bullets: [
+      {
+        t: "New-build specialists",
+        d: "Reunion's modern plumbing infrastructure requires technicians who understand contemporary construction — we work on these homes daily.",
+      },
+      {
+        t: "Alberta-licensed team",
+        d: "Complete licensing and comprehensive liability coverage for every technician on our crew.",
+      },
+    ],
+    seoTitle: "Reunion Plumbers Airdrie | Priority Service | FlameTech",
+    seoDescription:
+      "Reunion plumbers serving Airdrie's newest homes. Priority emergency service, fixture installation. Licensed professionals. Call 587-834-3668.",
+    seoKeywords: [
+      "Reunion plumbers",
+      "plumber Reunion Airdrie",
+      "Reunion plumbing",
+      "Airdrie new home plumber",
+      "Reunion water heater",
+      "FlameTech Plumbing",
+    ],
+    quoteFormLabel: "Reunion plumbing",
+    quoteFormPlaceholder:
+      "e.g. fixture warranty issue in Reunion, new-build rough-in, leak detection, renovation plumbing…",
+    sidebar: {
+      title: "Reunion Plumbers",
+      subtitle:
+        "Specialized plumbing for Reunion's modern residential developments — priority emergency dispatch.",
+      bullets: [
+        "60-90 minute Reunion response",
+        "Thermal + ultrasonic leak detection",
+        "Full licensing + insurance",
+        "Comprehensive workmanship warranty",
+      ],
+    },
+    stats: [
+      { number: "25+", label: "Years in Alberta", icon: "verified" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "60-90m", label: "Reunion ETA", icon: "schedule" },
+      { number: "Licensed", label: "& insured", icon: "award" },
+    ],
+    callout:
+      "Plumbing emergency in Reunion? Call 587-834-3668 — real people answer, priority dispatch, fully-stocked service trucks.",
+    richContent: {
+      sections: [
+        {
+          heading: "Complete Plumbing Solutions for Reunion Properties",
+          items: [
+            { heading: "Continuous Emergency Coverage", body: "Disasters strike unexpectedly — fractured connections, substantial water escapes, or complete wastewater backups demand immediate professional response. Our emergency specialists arrive fully prepared, safeguarding your Reunion property from serious water damage." },
+            { heading: "Advanced Drain Management", body: "Stubborn blockages interrupt household routines. Using commercial-grade machinery, we obliterate obstacles completely, reestablishing optimal drainage throughout your system. Whether tackling bathroom fixtures or primary sewer connections, our approach guarantees lasting results." },
+            { heading: "Hot Water System Excellence", body: "Whether installing cutting-edge tankless technology or servicing conventional storage units, our experts ensure uninterrupted hot water supply during Alberta's brutal winter conditions." },
+            { heading: "Modern Fixture Services", body: "Updating your spaces? Our professionals masterfully install stylish faucets, efficient toilets, elegant basins, and sophisticated shower assemblies. Each installation complies fully with provincial regulations while enhancing your Reunion home's functionality and appeal." },
+            { heading: "Sophisticated Leak Tracking", body: "Invisible moisture intrusion generates catastrophic damage gradually. Employing thermal imaging plus ultrasonic detection, we identify precise leak positions within walls and beneath floors rapidly, implementing comprehensive repairs preventing subsequent issues." },
+          ],
+        },
+        {
+          heading: "Common Plumbing Concerns Facing Reunion Residents",
+          intro:
+            "Homeowners in this contemporary neighborhood encounter predictable service requirements our qualified team has managed repeatedly throughout Airdrie's newer developments.",
+          items: [
+            { body: "Modern fixtures occasionally needing adjustment or warranty service." },
+            { body: "Seasonal freeze protection essential during Alberta's coldest periods." },
+            { body: "Young landscape plantings beginning to affect underground infrastructure." },
+            { body: "Mineral-rich water gradually impacting system components." },
+            { body: "Growing families requiring enhanced capacity planning." },
+            { body: "Personalization projects demanding professional installation expertise." },
+          ],
+        },
+        {
+          heading: "Smart Maintenance Strategies for Reunion Homeowners",
+          intro:
+            "Proactive property owners embrace preventive care avoiding costly emergency situations.",
+          items: [
+            { body: "Annual comprehensive evaluations identifying developing concerns proactively." },
+            { body: "Pre-winter preparation services safeguarding exposed piping from temperature drops." },
+            { body: "Systematic tank maintenance maximizing heater longevity dramatically." },
+            { body: "Scheduled cleaning eliminating recurring drainage impediments." },
+            { body: "Regular camera assessments tracking subsurface line health." },
+            { body: "Force testing verifying proper water distribution across all fixtures." },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Your Reunion Plumbing Questions Answered",
+        intro:
+          "Whether addressing urgent repairs, standard maintenance, or significant installations, we're prepared to help. Reach us directly at 587-834-3668.",
+        items: [
+          { q: "Does Flame Tech offer priority emergency service in Reunion?", a: "Yes, Flame Tech Plumbing delivers priority emergency coverage throughout Reunion, Airdrie. Whether confronting broken pipes, substantial leaks, or sewer obstructions, our licensed professionals respond swiftly. Reach us anytime at 587-834-3668." },
+          { q: "How fast can your team reach Reunion properties?", a: "Our professionals usually arrive at Reunion addresses within 60-90 minutes after your call, subject to prevailing service demand and traffic circumstances. For critical emergencies, we emphasize rapid arrival." },
+          { q: "What plumbing services do you provide in Reunion?", a: "We supply total plumbing solutions encompassing drain cleaning, water heater maintenance and setup, leak discovery, pipe restoration and substitution, fixture placements, sewer line operations, and bathroom/kitchen remodeling." },
+          { q: "Are all your plumbers properly licensed and insured?", a: "Absolutely. Every Flame Tech Plumbing technician possesses complete licensing, insurance protection, and certification throughout Alberta. We carry extensive liability coverage protecting our personnel and your premises." },
+          { q: "What warranty protection comes with your services?", a: "We support our craftsmanship through comprehensive warranties covering all completed work. Our satisfaction commitment guarantees total happiness with outcomes, or we'll resolve any issues. We also extend manufacturer warranties covering parts and equipment we install." },
+        ],
+      },
+    },
+  },
 ];
 
 export function getService(slug: string): ServicePage | undefined {
@@ -2767,7 +3833,12 @@ export function getServicesByCategory(category: ServicePage["category"]) {
 export function getRelatedServices(slug: string, limit = 3): ServicePage[] {
   const current = getService(slug);
   if (!current) return [];
+  const currentLocation = current.location ?? "Calgary";
   return services
-    .filter((s) => s.category === current.category && s.slug !== slug)
+    .filter((s) => {
+      if (s.slug === slug) return false;
+      if (s.category !== current.category) return false;
+      return (s.location ?? "Calgary") === currentLocation;
+    })
     .slice(0, limit);
 }
