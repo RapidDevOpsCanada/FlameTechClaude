@@ -39,33 +39,33 @@ export default function QuoteForm() {
 
   if (status === "success") {
     return (
-      <div className="border border-primary bg-primary/5 p-10 text-center">
-        <span className="material-symbols-outlined text-primary text-5xl mb-4 block">
+      <div className="rounded-2xl bg-emergency/10 border border-emergency/30 p-10 text-center">
+        <span className="material-symbols-outlined text-emergency text-5xl mb-4 block">
           check_circle
         </span>
-        <h3 className="text-2xl font-headline font-bold tracking-tight mb-3">
+        <h3 className="text-2xl font-extrabold tracking-tight mb-3 text-ink-900">
           Request received.
         </h3>
-        <p className="text-technical-label mb-6">
+        <p className="text-ink-500 mb-6">
           A FlameTech dispatcher will call you back shortly. For immediate
           emergencies, please call directly.
         </p>
         <a
           href="tel:5878343668"
-          className="inline-block bg-emergency text-white font-technical font-bold px-8 py-4 text-xs uppercase tracking-widest hover:brightness-110 transition-all"
+          className="inline-block rounded-full bg-emergency text-ink-900 font-bold px-8 py-3 text-sm hover:bg-emergency-deep hover:text-white transition-colors"
         >
-          Call 587-834-3668 Now
+          Call 587-834-3668 now
         </a>
       </div>
     );
   }
 
   return (
-    <form onSubmit={onSubmit} className="space-y-6">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <Field label="Full Name" name="name" required />
+    <form onSubmit={onSubmit} className="space-y-5">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+        <Field label="Full name" name="name" required />
         <Field
-          label="Phone Number"
+          label="Phone number"
           name="phone"
           type="tel"
           required
@@ -73,7 +73,7 @@ export default function QuoteForm() {
         />
       </div>
       <Field
-        label="Service Address"
+        label="Service address"
         name="address"
         required
         placeholder="Street, City, Postal Code"
@@ -81,9 +81,9 @@ export default function QuoteForm() {
       <div>
         <label
           htmlFor="issue"
-          className="mono-label text-primary mb-2 block"
+          className="text-xs font-semibold uppercase tracking-[0.18em] text-ink-500 mb-2 block"
         >
-          Describe the Issue
+          Describe the issue
         </label>
         <textarea
           id="issue"
@@ -91,25 +91,25 @@ export default function QuoteForm() {
           rows={4}
           required
           placeholder="e.g. Water heater not working, tap leaking, furnace making noise…"
-          className="w-full border border-blueprint-grid bg-white px-4 py-3 text-sm font-body focus:outline-none focus:border-primary transition-colors"
+          className="w-full rounded-xl border border-line-light bg-white px-4 py-3 text-sm text-ink-900 focus:outline-none focus:border-emergency transition-colors"
         />
       </div>
       {status === "error" && (
-        <p className="font-technical text-xs text-emergency">
+        <p className="text-xs text-emergency-deep">
           {errorMsg || "Submission failed. Please call 587-834-3668 directly."}
         </p>
       )}
-      <div className="flex flex-col sm:flex-row gap-4 items-start sm:items-center">
+      <div className="flex flex-col sm:flex-row gap-4 items-start sm:items-center pt-2">
         <button
           type="submit"
           disabled={status === "submitting"}
-          className="bg-primary text-white px-10 py-5 font-technical font-bold text-xs tracking-widest hover:bg-accent transition-all uppercase disabled:opacity-60 disabled:cursor-not-allowed"
+          className="rounded-full bg-emergency text-ink-900 px-8 py-3.5 font-bold text-sm hover:bg-emergency-deep hover:text-white transition-colors disabled:opacity-60 disabled:cursor-not-allowed"
         >
-          {status === "submitting" ? "Sending…" : "Request Free Estimate"}
+          {status === "submitting" ? "Sending…" : "Request free estimate"}
         </button>
-        <p className="mono-label text-technical-label">
+        <p className="text-xs text-ink-500">
           Or call{" "}
-          <a href="tel:5878343668" className="text-primary font-bold">
+          <a href="tel:5878343668" className="text-emergency font-bold">
             587-834-3668
           </a>{" "}
           for immediate service
@@ -134,7 +134,10 @@ function Field({
 }) {
   return (
     <div>
-      <label htmlFor={name} className="mono-label text-primary mb-2 block">
+      <label
+        htmlFor={name}
+        className="text-xs font-semibold uppercase tracking-[0.18em] text-ink-500 mb-2 block"
+      >
         {label}
         {required && <span className="text-emergency">*</span>}
       </label>
@@ -144,7 +147,7 @@ function Field({
         type={type}
         required={required}
         placeholder={placeholder}
-        className="w-full border border-blueprint-grid bg-white px-4 py-3 text-sm font-body focus:outline-none focus:border-primary transition-colors"
+        className="w-full rounded-xl border border-line-light bg-white px-4 py-3 text-sm text-ink-900 focus:outline-none focus:border-emergency transition-colors"
       />
     </div>
   );

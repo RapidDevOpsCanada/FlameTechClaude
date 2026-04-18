@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
 import CategoryFilter from "@/components/CategoryFilter";
 import ArticleCard from "@/components/ArticleCard";
+import StickyCallBar from "@/components/StickyCallBar";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getArticlesByCategory, getCategories } from "@/lib/articles";
@@ -34,27 +35,27 @@ export default async function CategoryPage({
     <>
       <Nav />
       <PageHeader
-        eyebrow={`Category Index: ${slug.toUpperCase()}`}
-        title={category.name.toUpperCase() + "."}
-        description={`Filtered bulletins tagged under ${category.name}. Precision protocols and diagnostic walk-throughs from the deployment archive.`}
+        eyebrow={`Category · ${category.name}`}
+        title={`${category.name} — articles and guides.`}
+        description={`Filtered articles tagged under ${category.name}. Practical guides and walk-throughs from the FlameTech team.`}
       />
-      <main className="py-20 bg-white border-b border-blueprint-grid">
-        <div className="max-w-7xl mx-auto px-8">
+      <main className="bg-cream-50 text-ink-900 py-20">
+        <div className="max-w-7xl mx-auto px-6 md:px-10">
           <CategoryFilter categories={categories} active={slug} />
           {articles.length === 0 ? (
-            <div className="border border-dashed border-blueprint-grid p-16 text-center">
-              <span className="mono-label text-primary mb-4 block">
-                EMPTY CHANNEL
+            <div className="rounded-2xl border border-dashed border-line-light bg-white p-16 text-center">
+              <span className="eyebrow justify-center mb-4 mx-auto">
+                Empty
               </span>
-              <h3 className="text-3xl font-headline font-bold tracking-tight mb-4">
-                No bulletins in this category.
+              <h3 className="text-2xl font-extrabold tracking-tight mb-4 mt-3">
+                No articles in this category yet.
               </h3>
               <Link
                 href="/articles"
-                className="mono-label text-primary font-bold inline-flex items-center gap-2"
+                className="inline-flex items-center gap-2 text-emergency-deep font-bold"
               >
-                BROWSE ALL PROTOCOLS{" "}
-                <span className="material-symbols-outlined text-sm">
+                Browse all articles
+                <span className="material-symbols-outlined text-base">
                   arrow_right_alt
                 </span>
               </Link>
@@ -69,6 +70,7 @@ export default async function CategoryPage({
         </div>
       </main>
       <Footer />
+      <StickyCallBar />
     </>
   );
 }

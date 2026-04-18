@@ -2,51 +2,60 @@ import Link from "next/link";
 
 export default function Nav() {
   return (
-    <nav className="sticky top-0 w-full z-50 bg-white/90 backdrop-blur-md border-b border-blueprint-grid">
-      <div className="max-w-7xl mx-auto px-8 py-4 grid grid-cols-12 items-center">
-        <div className="col-span-6 md:col-span-3">
+    <nav className="sticky top-0 w-full z-50 bg-ink-900/85 backdrop-blur-lg border-b border-line-dark">
+      <div className="max-w-7xl mx-auto px-6 md:px-10 py-4 flex items-center justify-between gap-6">
+        <Link
+          href="/"
+          className="text-lg font-extrabold tracking-tight flex items-center gap-2.5 text-cream-50"
+        >
+          <span className="w-9 h-9 rounded-lg bg-emergency text-ink-900 flex items-center justify-center font-black text-sm">
+            FT
+          </span>
+          FlameTech
+        </Link>
+
+        <div className="hidden lg:flex items-center gap-10">
           <Link
-            href="/"
-            className="text-xl font-bold tracking-tighter text-blueprint-text font-headline flex items-center gap-2"
-          >
-            <span className="w-8 h-8 bg-primary text-white flex items-center justify-center font-technical">
-              FT
-            </span>
-            FLAMETECH
-          </Link>
-        </div>
-        <div className="col-span-6 hidden md:flex items-center justify-center gap-10">
-          <Link
-            className="mono-label hover:text-primary transition-colors"
+            className="text-sm font-medium text-cream-50/75 hover:text-emergency transition-colors"
             href="/#services"
           >
             Services
           </Link>
           <Link
-            className="mono-label hover:text-primary transition-colors"
-            href="/#diagnostics"
+            className="text-sm font-medium text-cream-50/75 hover:text-emergency transition-colors"
+            href="/#why-us"
           >
             Why Us
           </Link>
           <Link
-            className="mono-label hover:text-primary transition-colors"
+            className="text-sm font-medium text-cream-50/75 hover:text-emergency transition-colors"
             href="/articles"
           >
             Resources
           </Link>
           <Link
-            className="mono-label hover:text-primary transition-colors"
+            className="text-sm font-medium text-cream-50/75 hover:text-emergency transition-colors"
             href="/#service-area"
           >
             Service Area
           </Link>
         </div>
-        <div className="col-span-6 md:col-span-3 flex justify-end">
+
+        <div className="flex items-center gap-3">
           <a
             href="tel:5878343668"
-            className="bg-primary text-white font-technical font-bold px-6 py-2 text-xs uppercase tracking-widest hover:bg-accent transition-colors"
+            className="hidden md:inline-flex items-center gap-2 text-sm font-semibold text-cream-50 hover:text-emergency transition-colors"
           >
+            <span className="material-symbols-outlined text-base text-emergency">
+              call
+            </span>
             587-834-3668
+          </a>
+          <a
+            href="#quote"
+            className="inline-flex items-center rounded-full bg-emergency text-ink-900 font-bold px-5 py-2.5 text-sm hover:bg-emergency-deep hover:text-white transition-colors"
+          >
+            Free Estimate
           </a>
         </div>
       </div>

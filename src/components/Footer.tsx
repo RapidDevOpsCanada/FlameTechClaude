@@ -2,97 +2,99 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="bg-white border-t border-blueprint-grid py-16 px-8">
-      <div className="max-w-7xl mx-auto grid grid-cols-12 gap-12">
-        <div className="col-span-12 md:col-span-4">
-          <div className="text-xl font-bold tracking-tighter text-blueprint-text font-headline mb-6 flex items-center gap-2">
-            <span className="w-6 h-6 bg-primary text-white flex items-center justify-center text-[10px] font-technical">
+    <footer className="bg-ink-900 text-cream-50 border-t border-line-dark">
+      <div className="max-w-7xl mx-auto px-6 md:px-10 py-20 grid grid-cols-12 gap-10">
+        <div className="col-span-12 md:col-span-5">
+          <div className="text-xl font-extrabold tracking-tight mb-5 flex items-center gap-2.5">
+            <span className="w-8 h-8 rounded-lg bg-emergency text-ink-900 flex items-center justify-center text-[11px] font-black">
               FT
             </span>
-            FLAMETECH
+            FlameTech
           </div>
-          <p className="mono-label text-technical-label leading-loose mb-4">
+          <p className="text-cream-50/70 leading-relaxed max-w-sm mb-6">
             Calgary&apos;s trusted residential plumbing and heating experts.
-            Licensed, insured, and bonded. BBB accredited.
+            Licensed, insured, bonded, and BBB accredited.
           </p>
           <a
             href="tel:5878343668"
-            className="font-technical text-xs text-primary font-bold block"
+            className="inline-flex items-center gap-2 text-lg font-bold text-emergency hover:text-cream-50 transition-colors"
           >
-            CALL 587-834-3668
+            <span className="material-symbols-outlined text-xl">call</span>
+            587-834-3668
           </a>
         </div>
-        <div className="col-span-12 md:col-span-8 flex flex-wrap md:justify-end gap-12">
-          <div>
-            <h5 className="mono-label text-primary mb-6">Services</h5>
-            <ul className="space-y-3">
-              <li>
-                <Link
-                  className="font-technical text-[10px] text-technical-label hover:text-primary"
-                  href="/#services"
-                >
-                  Plumbing
-                </Link>
-              </li>
-              <li>
-                <Link
-                  className="font-technical text-[10px] text-technical-label hover:text-primary"
-                  href="/#services"
-                >
-                  Heating
-                </Link>
-              </li>
-              <li>
-                <Link
-                  className="font-technical text-[10px] text-technical-label hover:text-primary"
-                  href="/#services"
-                >
-                  Air &amp; Water
-                </Link>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h5 className="mono-label text-primary mb-6">Support</h5>
-            <ul className="space-y-3">
-              <li>
-                <a
-                  className="font-technical text-[10px] text-emergency font-bold"
-                  href="tel:5878343668"
-                >
-                  24/7 Emergency
-                </a>
-              </li>
-              <li>
-                <Link
-                  className="font-technical text-[10px] text-technical-label hover:text-primary"
-                  href="/articles"
-                >
-                  Resources
-                </Link>
-              </li>
-              <li>
-                <Link
-                  className="font-technical text-[10px] text-technical-label hover:text-primary"
-                  href="/#service-area"
-                >
-                  Service Area
-                </Link>
-              </li>
-            </ul>
-          </div>
+
+        <div className="col-span-6 md:col-span-3">
+          <h5 className="text-xs font-bold uppercase tracking-[0.18em] text-emergency mb-5">
+            Services
+          </h5>
+          <ul className="space-y-3 text-sm text-cream-50/70">
+            <li>
+              <Link href="/#services" className="hover:text-cream-50">
+                Plumbing
+              </Link>
+            </li>
+            <li>
+              <Link href="/#services" className="hover:text-cream-50">
+                Heating
+              </Link>
+            </li>
+            <li>
+              <Link href="/#services" className="hover:text-cream-50">
+                Air &amp; Water
+              </Link>
+            </li>
+            <li>
+              <Link href="/articles" className="hover:text-cream-50">
+                Resources
+              </Link>
+            </li>
+          </ul>
+        </div>
+
+        <div className="col-span-6 md:col-span-4">
+          <h5 className="text-xs font-bold uppercase tracking-[0.18em] text-emergency mb-5">
+            Contact
+          </h5>
+          <ul className="space-y-3 text-sm text-cream-50/70">
+            <li className="flex items-center gap-2">
+              <span className="material-symbols-outlined text-base text-emergency">
+                location_on
+              </span>
+              Calgary, AB &amp; surrounding communities
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="material-symbols-outlined text-base text-emergency">
+                schedule
+              </span>
+              24/7 Emergency Dispatch
+            </li>
+            <li>
+              <a
+                href="#quote"
+                className="inline-flex items-center gap-2 text-cream-50 font-semibold hover:text-emergency transition-colors mt-2"
+              >
+                Request a free estimate
+                <span className="material-symbols-outlined text-sm">
+                  arrow_right_alt
+                </span>
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
-      <div className="max-w-7xl mx-auto mt-16 pt-8 border-t border-blueprint-grid flex flex-col md:flex-row justify-between items-center gap-4">
-        <p className="font-technical text-[10px] text-technical-label">
-          © {new Date().getFullYear()} FLAMETECH PLUMBING &amp; HEATING LTD.
-          CALGARY, AB. ALL RIGHTS RESERVED.
-        </p>
-        <div className="flex items-center gap-3">
-          <div className="w-2 h-2 rounded-full bg-primary animate-pulse"></div>
-          <span className="font-technical text-[10px] text-primary">
-            24/7 DISPATCH ACTIVE
-          </span>
+
+      <div className="border-t border-line-dark">
+        <div className="max-w-7xl mx-auto px-6 md:px-10 py-6 flex flex-col md:flex-row justify-between items-center gap-3 text-xs text-cream-50/50">
+          <p>
+            © {new Date().getFullYear()} FlameTech Plumbing &amp; Heating Ltd.
+          </p>
+          <div className="flex items-center gap-2">
+            <span className="w-2 h-2 rounded-full bg-emergency animate-pulse"></span>
+            <span className="font-semibold text-emergency">
+              24/7 Dispatch Active
+            </span>
+          </div>
         </div>
       </div>
     </footer>

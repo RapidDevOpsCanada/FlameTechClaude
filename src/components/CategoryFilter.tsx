@@ -11,22 +11,22 @@ export default function CategoryFilter({
     <div className="flex flex-wrap gap-2 mb-12">
       <Link
         href="/articles"
-        className={`mono-label px-4 py-2 border transition-colors ${
+        className={`rounded-full px-5 py-2 text-sm font-semibold transition-colors ${
           !active
-            ? "bg-primary text-white border-primary"
-            : "text-technical-label border-blueprint-grid hover:border-primary hover:text-primary"
+            ? "bg-ink-900 text-cream-50"
+            : "bg-white text-ink-700 border border-line-light hover:border-emergency hover:text-emergency-deep"
         }`}
       >
-        All Protocols
+        All
       </Link>
       {categories.map((c) => (
         <Link
           key={c.slug}
           href={`/categories/${c.slug}`}
-          className={`mono-label px-4 py-2 border transition-colors ${
+          className={`rounded-full px-5 py-2 text-sm font-semibold transition-colors ${
             active === c.slug
-              ? "bg-primary text-white border-primary"
-              : "text-technical-label border-blueprint-grid hover:border-primary hover:text-primary"
+              ? "bg-ink-900 text-cream-50"
+              : "bg-white text-ink-700 border border-line-light hover:border-emergency hover:text-emergency-deep"
           }`}
         >
           {c.name}

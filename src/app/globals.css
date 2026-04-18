@@ -4,27 +4,37 @@
 
 @layer base {
   body {
-    background-color: theme('colors.blueprint-bg');
-    @apply text-blueprint-text font-body;
+    @apply bg-ink-900 text-cream-50 font-body;
+    font-feature-settings: "ss01", "cv11";
   }
   body::selection,
   ::selection {
-    @apply bg-primary/20;
+    @apply bg-emergency/30 text-cream-50;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-headline tracking-tight;
+    font-feature-settings: "ss01", "cv11";
   }
 }
 
 @layer utilities {
-  .grid-guide {
-    background-image: linear-gradient(90deg, transparent 99%, theme('colors.blueprint-grid') 1%);
-    background-size: 8.333333% 100%;
+  .eyebrow {
+    @apply inline-flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.18em] text-emergency;
   }
-  .blueprint-bg {
-    background-image: linear-gradient(theme('colors.blueprint-grid') 1px, transparent 1px),
-      linear-gradient(90deg, theme('colors.blueprint-grid') 1px, transparent 1px);
-    background-size: 8.333% 100px;
+  .eyebrow::before {
+    content: "";
+    @apply block w-6 h-px bg-emergency;
   }
-  .mono-label {
-    @apply font-technical text-[10px] tracking-wider uppercase;
+  .dotgrid {
+    background-image: radial-gradient(rgba(255,255,255,0.08) 1px, transparent 1px);
+    background-size: 22px 22px;
+  }
+  .dotgrid-light {
+    background-image: radial-gradient(rgba(11,18,32,0.08) 1px, transparent 1px);
+    background-size: 22px 22px;
+  }
+  .soft-shadow {
+    box-shadow: 0 14px 40px -20px rgba(8, 14, 28, 0.45);
   }
   .material-symbols-outlined {
     font-family: 'Material Symbols Outlined';
