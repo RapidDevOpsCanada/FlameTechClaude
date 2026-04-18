@@ -242,19 +242,22 @@ export default async function ServicePage({
 
         {/* STATS STRIP */}
         <section className="bg-ink-800 border-b border-line-dark">
-          <div className="max-w-6xl mx-auto px-6 md:px-10 py-6 md:py-8 grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-6">
+          <div className="max-w-6xl mx-auto px-6 md:px-10 py-6 md:py-8 grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
             {stats?.slice(0, 4).map((s) => (
-              <div key={s.label} className="flex items-center gap-3">
+              <div
+                key={s.label}
+                className="flex items-center gap-3 min-w-0"
+              >
                 {s.icon && (
-                  <div className="w-10 h-10 rounded-xl bg-primary/15 text-primary flex items-center justify-center shrink-0">
-                    <Icon name={s.icon} className="text-lg" />
+                  <div className="w-9 h-9 md:w-10 md:h-10 rounded-xl bg-primary/15 text-primary flex items-center justify-center shrink-0">
+                    <Icon name={s.icon} className="text-base md:text-lg" />
                   </div>
                 )}
-                <div>
-                  <div className="font-display text-xl md:text-2xl font-extrabold tracking-[-0.02em] text-cream-50 leading-none">
+                <div className="min-w-0 flex-1">
+                  <div className="font-display text-lg md:text-2xl font-extrabold tracking-[-0.02em] text-cream-50 leading-none">
                     {s.number}
                   </div>
-                  <div className="text-[11px] uppercase tracking-[0.16em] text-cream-50/60 font-semibold mt-1">
+                  <div className="text-[10px] md:text-[11px] uppercase tracking-[0.08em] md:tracking-[0.16em] text-cream-50/60 font-semibold mt-1 break-words leading-snug">
                     {s.label}
                   </div>
                 </div>
