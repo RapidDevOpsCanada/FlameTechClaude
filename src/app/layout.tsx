@@ -101,7 +101,7 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(baseSchema) }}
         />
-        {children}
+        <div className="overflow-x-hidden w-full">{children}</div>
       </body>
     </html>
   );

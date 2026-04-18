@@ -129,19 +129,19 @@ export default function Home() {
                       doing things right the first time.
                     </p>
                     <div className="grid grid-cols-2 gap-4 pt-6 border-t border-line-light">
-                      <div>
+                      <div className="min-w-0">
                         <div className="font-display text-3xl font-extrabold text-primary-deep mb-1">
                           20+
                         </div>
-                        <div className="text-xs uppercase tracking-[0.14em] font-semibold text-ink-500">
+                        <div className="text-[10px] md:text-xs uppercase tracking-[0.08em] md:tracking-[0.14em] font-semibold text-ink-500 break-words leading-snug">
                           Jason — years in trade
                         </div>
                       </div>
-                      <div>
+                      <div className="min-w-0">
                         <div className="font-display text-3xl font-extrabold text-primary-deep mb-1">
                           25+
                         </div>
-                        <div className="text-xs uppercase tracking-[0.14em] font-semibold text-ink-500">
+                        <div className="text-[10px] md:text-xs uppercase tracking-[0.08em] md:tracking-[0.14em] font-semibold text-ink-500 break-words leading-snug">
                           Shaun — years in trade
                         </div>
                       </div>
@@ -618,11 +618,11 @@ const brandTiles = [
 
 function Stat({ number, label }: { number: string; label: string }) {
   return (
-    <div>
+    <div className="min-w-0">
       <div className="font-display text-3xl md:text-5xl font-extrabold tracking-[-0.02em] text-cream-50">
         {number}
       </div>
-      <div className="text-xs uppercase tracking-[0.16em] text-cream-50/60 font-semibold mt-2">
+      <div className="text-[10px] md:text-xs uppercase tracking-[0.08em] md:tracking-[0.16em] text-cream-50/60 font-semibold mt-2 break-words leading-snug">
         {label}
       </div>
     </div>
