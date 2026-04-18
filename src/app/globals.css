@@ -42,6 +42,42 @@
   .soft-shadow {
     box-shadow: 0 14px 40px -20px rgba(8, 14, 28, 0.45);
   }
+  /* Hover lift for cards */
+  .lift {
+    transition: transform 250ms ease, box-shadow 250ms ease, border-color 250ms ease;
+  }
+  .lift:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 20px 40px -24px rgba(8, 14, 28, 0.35);
+  }
+
+  /* Subtle fade-up reveal (CSS-only, no JS libs) */
+  .reveal {
+    opacity: 0;
+    transform: translateY(16px);
+    animation: reveal-in 600ms ease-out forwards;
+  }
+  .reveal-delay-100 { animation-delay: 100ms; }
+  .reveal-delay-200 { animation-delay: 200ms; }
+  .reveal-delay-300 { animation-delay: 300ms; }
+
+  @keyframes reveal-in {
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  /* Infinite marquee */
+  .marquee {
+    display: flex;
+    gap: 3rem;
+    animation: marquee-scroll 30s linear infinite;
+  }
+  .marquee:hover { animation-play-state: paused; }
+
+  @keyframes marquee-scroll {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+
   .material-symbols-outlined {
     font-family: 'Material Symbols Outlined';
     font-weight: normal;

@@ -217,8 +217,87 @@ const articles: SeedArticle[] = [
   },
 ];
 
+const reviews: Array<{
+  author: string;
+  initials: string;
+  area: string;
+  rating: number;
+  relative_date: string;
+  quote: string;
+  featured: boolean;
+  sort_order: number;
+}> = [
+  {
+    author: "Jennifer M.",
+    initials: "JM",
+    area: "Calgary SW",
+    rating: 5,
+    relative_date: "2 weeks ago",
+    quote:
+      "Called FlameTech for a burst pipe. A technician was at our door within the hour, shut the water off, and had the leak fixed before midnight. Fair price, clean work, genuinely kind people.",
+    featured: true,
+    sort_order: 1,
+  },
+  {
+    author: "Ryan T.",
+    initials: "RT",
+    area: "Airdrie",
+    rating: 5,
+    relative_date: "1 month ago",
+    quote:
+      "Replaced our ancient boiler with a high-efficiency unit. Quote was upfront, install took exactly as long as promised, and the heating bill is noticeably lower.",
+    featured: false,
+    sort_order: 2,
+  },
+  {
+    author: "Sarah K.",
+    initials: "SK",
+    area: "Calgary NW",
+    rating: 5,
+    relative_date: "3 months ago",
+    quote:
+      "Full PolyB replacement in our 1980s home. FlameTech walked us through the whole process and left the house cleaner than they found it.",
+    featured: false,
+    sort_order: 3,
+  },
+  {
+    author: "David L.",
+    initials: "DL",
+    area: "Calgary NE",
+    rating: 5,
+    relative_date: "2 months ago",
+    quote:
+      "Tankless water heater install. Showed up on time, explained everything, and the price matched the quote exactly. Would absolutely hire again.",
+    featured: false,
+    sort_order: 4,
+  },
+  {
+    author: "Megan P.",
+    initials: "MP",
+    area: "Cochrane",
+    rating: 5,
+    relative_date: "5 weeks ago",
+    quote:
+      "Water softener install in our new home — night-and-day difference in the water quality. Professional crew, quick turnaround.",
+    featured: false,
+    sort_order: 5,
+  },
+  {
+    author: "Gwen E.",
+    initials: "GE",
+    area: "Calgary SE",
+    rating: 5,
+    relative_date: "6 months ago",
+    quote:
+      "Persistent leaky bathtub faucet that had been getting worse for a month. FlameTech diagnosed it on the first visit and had it fixed in under an hour. Fantastic experience.",
+    featured: false,
+    sort_order: 6,
+  },
+];
+
 async function runSeed() {
   await sql`DROP TABLE IF EXISTS articles`;
+  await sql`DROP TABLE IF EXISTS reviews`;
   await sql`
     CREATE TABLE articles (
       id SERIAL PRIMARY KEY,
@@ -234,6 +313,29 @@ async function runSeed() {
       created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
     )
   `;
+  await sql`
+    CREATE TABLE reviews (
+      id SERIAL PRIMARY KEY,
+      author TEXT NOT NULL,
+      initials TEXT NOT NULL,
+      area TEXT NOT NULL,
+      rating INTEGER NOT NULL DEFAULT 5,
+      relative_date TEXT NOT NULL,
+      quote TEXT NOT NULL,
+      featured BOOLEAN NOT NULL DEFAULT FALSE,
+      sort_order INTEGER NOT NULL DEFAULT 0,
+      created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+    )
+  `;
+  for (const r of reviews) {
+    await sql`
+      INSERT INTO reviews
+        (author, initials, area, rating, relative_date, quote, featured, sort_order)
+      VALUES
+        (${r.author}, ${r.initials}, ${r.area}, ${r.rating},
+         ${r.relative_date}, ${r.quote}, ${r.featured}, ${r.sort_order})
+    `;
+  }
 
   for (const a of articles) {
     await sql`
@@ -245,17 +347,21 @@ async function runSeed() {
     `;
   }
 
-  const rows = await sql`SELECT COUNT(*)::int AS count FROM articles`;
-  return rows[0]?.count ?? 0;
+  const articleRows = await sql`SELECT COUNT(*)::int AS count FROM articles`;
+  const reviewRows = await sql`SELECT COUNT(*)::int AS count FROM reviews`;
+  return {
+    articles: articleRows[0]?.count ?? 0,
+    reviews: reviewRows[0]?.count ?? 0,
+  };
 }
 
 export async function GET() {
   try {
-    const count = await runSeed();
+    const counts = await runSeed();
     return NextResponse.json({
       ok: true,
-      seeded: count,
-      message: `Seeded ${count} articles.`,
+      seeded: counts,
+      message: `Seeded ${counts.articles} articles and ${counts.reviews} reviews.`,
     });
   } catch (err) {
     return NextResponse.json(

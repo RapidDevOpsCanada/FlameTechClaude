@@ -47,3 +47,16 @@ export type Article = {
   share_count: number;
   created_at: string;
 };
+
+export type Review = {
+  id: number;
+  author: string;
+  initials: string;
+  area: string;
+  rating: number;
+  relative_date: string;
+  quote: string;
+  featured: boolean;
+  sort_order: number;
+  created_at: string;
+};

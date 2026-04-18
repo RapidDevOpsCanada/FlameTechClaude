@@ -2,20 +2,25 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import StickyCallBar from "@/components/StickyCallBar";
 import QuoteForm from "@/components/QuoteForm";
+import FAQ from "@/components/FAQ";
+import FinalCTA from "@/components/FinalCTA";
+import ReviewsSection from "@/components/ReviewsSection";
+
+export const dynamic = "force-dynamic";
 
 export default function Home() {
   return (
     <>
       <Nav />
       <main className="bg-ink-900 text-cream-50">
-        {/* HERO — oversize photo, bigger display type */}
+        {/* HERO */}
         <section className="relative overflow-hidden">
           <div className="absolute inset-0 dotgrid opacity-60 pointer-events-none"></div>
           <div className="absolute -top-40 -right-40 w-[600px] h-[600px] rounded-full bg-emergency/15 blur-3xl pointer-events-none"></div>
 
           <div className="max-w-7xl mx-auto px-6 md:px-10 pt-14 md:pt-24 pb-20 relative">
             <div className="grid grid-cols-12 gap-10 items-center">
-              <div className="col-span-12 lg:col-span-6">
+              <div className="col-span-12 lg:col-span-6 reveal">
                 <span className="eyebrow mb-8">
                   Calgary · Licensed · Insured · BBB Accredited
                 </span>
@@ -32,7 +37,7 @@ export default function Home() {
                   pricing, free estimates, and a satisfaction guarantee.
                 </p>
 
-                <div className="flex flex-wrap gap-4">
+                <div className="flex flex-wrap gap-4 mb-6">
                   <a
                     href="tel:5878343668"
                     className="inline-flex items-center gap-2 rounded-full bg-emergency text-ink-900 font-bold px-7 py-4 text-sm hover:bg-emergency-deep hover:text-white transition-colors"
@@ -52,10 +57,18 @@ export default function Home() {
                     </span>
                   </a>
                 </div>
+
+                {/* Pricing transparency chip */}
+                <div className="inline-flex items-center gap-2 rounded-full bg-ink-800 border border-line-dark px-4 py-2 text-xs text-cream-50/80 font-semibold">
+                  <span className="material-symbols-outlined text-primary-soft text-base">
+                    verified
+                  </span>
+                  Free estimate · No service charge for quotes
+                </div>
               </div>
 
-              {/* Oversize hero photo — show the full van */}
-              <div className="col-span-12 lg:col-span-6 relative">
+              {/* Hero photo */}
+              <div className="col-span-12 lg:col-span-6 relative reveal reveal-delay-200">
                 <div className="relative rounded-3xl overflow-hidden border border-line-dark soft-shadow bg-cream-50">
                   <img
                     src="/images/FTVAN.jpg"
@@ -63,7 +76,6 @@ export default function Home() {
                     className="w-full h-auto object-contain"
                   />
                 </div>
-                {/* Floating rating card */}
                 <div className="absolute -top-4 -left-4 md:top-6 md:left-6 rounded-2xl bg-cream-50 text-ink-900 px-5 py-4 flex items-center gap-4 soft-shadow border border-line-light">
                   <div className="text-emergency text-2xl">★★★★★</div>
                   <div>
@@ -75,7 +87,6 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                {/* Floating call chip */}
                 <div className="absolute -bottom-4 left-4 right-4 md:bottom-6 md:left-6 md:right-6 flex flex-wrap items-center justify-between gap-3">
                   <div className="rounded-full bg-ink-900/90 backdrop-blur-md text-cream-50 px-4 py-2 text-xs font-semibold flex items-center gap-2 border border-cream-50/10 soft-shadow">
                     <span className="w-2 h-2 rounded-full bg-emergency animate-pulse" />
@@ -96,14 +107,14 @@ export default function Home() {
         {/* STATS STRIP */}
         <section className="border-y border-line-dark bg-ink-800">
           <div className="max-w-7xl mx-auto px-6 md:px-10 py-10 grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-4">
-            <Stat number="12+" label="Years serving Calgary" />
+            <Stat number="45+" label="Years combined experience" />
             <Stat number="2,000+" label="Jobs completed" />
             <Stat number="5.0★" label="Google rated" />
             <Stat number="60–90" label="Min typical response" />
           </div>
         </section>
 
-        {/* SERVICES — one featured, two smaller */}
+        {/* SERVICES */}
         <section id="services" className="bg-cream-50 text-ink-900 py-24">
           <div className="max-w-7xl mx-auto px-6 md:px-10">
             <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-14">
@@ -126,8 +137,7 @@ export default function Home() {
             </div>
 
             <div className="grid grid-cols-12 gap-6">
-              {/* FEATURED: Plumbing */}
-              <div className="col-span-12 lg:col-span-7 rounded-3xl overflow-hidden bg-ink-900 text-cream-50 border border-ink-900 relative group">
+              <div className="col-span-12 lg:col-span-7 rounded-3xl overflow-hidden bg-ink-900 text-cream-50 border border-ink-900 relative group lift">
                 <div className="relative h-64 md:h-80 overflow-hidden">
                   <img
                     src="/images/FTVAN1.jpg"
@@ -147,7 +157,7 @@ export default function Home() {
                     <p className="text-cream-50/75 text-base leading-relaxed mb-6">
                       Bathroom &amp; shower plumbing, drain cleaning, PolyB
                       replacement for older Calgary homes, and fast emergency
-                      repairs — day or night.
+                      repairs.
                     </p>
                     <a
                       href="tel:5878343668"
@@ -181,7 +191,6 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* Stacked: Heating + Air & Water */}
               <div className="col-span-12 lg:col-span-5 flex flex-col gap-6">
                 {[
                   {
@@ -204,7 +213,7 @@ export default function Home() {
                 ].map((s) => (
                   <div
                     key={s.title}
-                    className="flex-1 rounded-2xl bg-white border border-line-light p-7 flex gap-5"
+                    className="flex-1 rounded-2xl bg-white border border-line-light p-7 flex gap-5 lift"
                   >
                     <div className="w-12 h-12 rounded-xl bg-primary/10 text-primary flex items-center justify-center shrink-0">
                       <span className="material-symbols-outlined text-2xl">
@@ -257,24 +266,49 @@ export default function Home() {
           </div>
         </section>
 
-        {/* WHY US */}
+        {/* WHY US — swap image for credentials panel */}
         <section id="why-us" className="relative bg-ink-900 text-cream-50 py-24">
           <div className="absolute inset-0 dotgrid opacity-40 pointer-events-none"></div>
           <div className="max-w-7xl mx-auto px-6 md:px-10 relative">
-            <div className="grid grid-cols-12 gap-12 items-center">
+            <div className="grid grid-cols-12 gap-12 items-stretch">
               <div className="col-span-12 lg:col-span-6">
-                <div className="rounded-3xl overflow-hidden border border-line-dark soft-shadow">
-                  <img
-                    src="/images/air-ease-pro-team-e1764790049321.png"
-                    alt="FlameTech Pro Team"
-                    className="w-full object-cover"
-                  />
+                <div className="rounded-3xl bg-ink-800 border border-line-dark p-8 md:p-10 h-full flex flex-col justify-between soft-shadow">
+                  <div>
+                    <span className="eyebrow mb-4">Founders</span>
+                    <h3 className="font-display text-3xl md:text-4xl font-extrabold tracking-[-0.02em] mt-4 mb-6 leading-tight">
+                      Red Seal journeypersons. 45+ years combined.
+                    </h3>
+                    <p className="text-cream-50/70 leading-relaxed mb-8">
+                      FlameTech is owned and run by Shaun Kristoff and Jason
+                      Mounsey — Red Seal–certified plumbers who built this
+                      company around honest advice, upfront pricing, and doing
+                      things right the first time.
+                    </p>
+                  </div>
+                  <div className="grid grid-cols-2 gap-4 pt-6 border-t border-line-dark">
+                    <div>
+                      <div className="font-display text-3xl font-extrabold text-emergency mb-1">
+                        25+
+                      </div>
+                      <div className="text-xs uppercase tracking-[0.14em] font-semibold text-cream-50/60">
+                        Shaun — years in trade
+                      </div>
+                    </div>
+                    <div>
+                      <div className="font-display text-3xl font-extrabold text-emergency mb-1">
+                        20+
+                      </div>
+                      <div className="text-xs uppercase tracking-[0.14em] font-semibold text-cream-50/60">
+                        Jason — years in trade
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="col-span-12 lg:col-span-6">
                 <span className="eyebrow mb-4">Why Calgary chooses us</span>
                 <h2 className="font-display text-4xl md:text-5xl xl:text-6xl font-extrabold tracking-[-0.025em] mt-4 mb-8 leading-[1.02]">
-                  Local experts, upfront pricing, and work you can{" "}
+                  Local experts, upfront pricing, work you can{" "}
                   <span className="italic font-medium text-emergency">
                     trust
                   </span>
@@ -284,7 +318,7 @@ export default function Home() {
                   {[
                     {
                       t: "Local certified technicians",
-                      d: "Our skilled and certified plumbers live and work right here in Calgary — deep experience with our climate and infrastructure.",
+                      d: "Skilled and certified plumbers who live and work in Calgary — deep experience with our climate and infrastructure.",
                     },
                     {
                       t: "Upfront, transparent pricing",
@@ -292,12 +326,12 @@ export default function Home() {
                     },
                     {
                       t: "Licensed, insured & bonded",
-                      d: "Fully compliant with Alberta's strict plumbing codes and regulations. BBB accredited and 5-star rated on Google.",
+                      d: "Fully compliant with Alberta's plumbing codes. BBB accredited and 5-star rated on Google.",
                     },
                   ].map((x) => (
                     <div
                       key={x.t}
-                      className="flex gap-4 p-5 rounded-xl bg-ink-800 border border-line-dark"
+                      className="flex gap-4 p-5 rounded-xl bg-ink-800 border border-line-dark lift"
                     >
                       <span className="material-symbols-outlined text-primary text-2xl mt-1">
                         check_circle
@@ -318,8 +352,8 @@ export default function Home() {
           </div>
         </section>
 
-        {/* BRANDS */}
-        <section className="bg-cream-50 text-ink-900 py-24">
+        {/* BRANDS — marquee scroll */}
+        <section className="bg-cream-50 text-ink-900 py-24 overflow-hidden">
           <div className="max-w-7xl mx-auto px-6 md:px-10">
             <div className="text-center mb-14">
               <span className="eyebrow-light justify-center mb-4 mx-auto">
@@ -329,27 +363,16 @@ export default function Home() {
                 Trusted brands we install
               </h2>
             </div>
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
-              {[
-                { src: "/images/navine-boiler.png", label: "Boilers" },
-                { src: "/images/air-ease-furnace.png", label: "Furnaces" },
-                { src: "/images/air-ease-ac.png", label: "AC Units" },
-                {
-                  src: "/images/bradford-white-hot-water-tank.png",
-                  label: "Hot Water Tanks",
-                },
-                {
-                  src: "/images/graident-tankless-water-heater.png",
-                  label: "Tankless",
-                },
-                {
-                  src: "/images/water-softener-calgary.png",
-                  label: "Water Softeners",
-                },
-              ].map((item) => (
+          </div>
+
+          <div className="relative">
+            <div className="pointer-events-none absolute inset-y-0 left-0 w-24 bg-gradient-to-r from-cream-50 to-transparent z-10" />
+            <div className="pointer-events-none absolute inset-y-0 right-0 w-24 bg-gradient-to-l from-cream-50 to-transparent z-10" />
+            <div className="marquee">
+              {[...brandTiles, ...brandTiles].map((item, i) => (
                 <div
-                  key={item.label}
-                  className="rounded-2xl bg-white border border-line-light p-6 flex flex-col items-center justify-between h-44 hover:border-primary transition-colors"
+                  key={`${item.label}-${i}`}
+                  className="shrink-0 w-56 rounded-2xl bg-white border border-line-light p-6 flex flex-col items-center justify-between h-44"
                 >
                   <div className="flex-1 w-full flex items-center justify-center">
                     <img
@@ -364,6 +387,9 @@ export default function Home() {
                 </div>
               ))}
             </div>
+          </div>
+
+          <div className="max-w-7xl mx-auto px-6 md:px-10">
             <div className="flex flex-wrap items-center justify-center gap-10 mt-16 pt-10 border-t border-line-light">
               <img
                 src="/images/REVIEWS1.png"
@@ -428,7 +454,7 @@ export default function Home() {
                 ].map((area) => (
                   <div
                     key={area}
-                    className="rounded-xl bg-ink-800 border border-line-dark p-4 flex items-center gap-2"
+                    className="rounded-xl bg-ink-800 border border-line-dark p-4 flex items-center gap-2 lift"
                   >
                     <span className="material-symbols-outlined text-primary text-base">
                       location_on
@@ -441,124 +467,11 @@ export default function Home() {
           </div>
         </section>
 
-        {/* REVIEWS — featured + grid */}
-        <section className="bg-cream-50 text-ink-900 py-24">
-          <div className="max-w-7xl mx-auto px-6 md:px-10">
-            <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-14">
-              <div>
-                <span className="eyebrow-light mb-4">Google Reviews</span>
-                <h2 className="font-display text-4xl md:text-5xl xl:text-6xl font-extrabold tracking-[-0.025em] max-w-2xl mt-4 leading-[1.02]">
-                  What Calgary homeowners say.
-                </h2>
-              </div>
-              <div className="flex items-center gap-3 rounded-full bg-white border border-line-light px-5 py-3">
-                <span className="text-emergency text-lg">★★★★★</span>
-                <span className="font-bold">5.0</span>
-                <span className="text-sm text-ink-500">
-                  · hundreds of reviews
-                </span>
-              </div>
-            </div>
+        {/* REVIEWS (DB-backed) */}
+        <ReviewsSection />
 
-            <div className="grid grid-cols-12 gap-6">
-              {/* FEATURED TESTIMONIAL */}
-              <div className="col-span-12 lg:col-span-5 rounded-3xl bg-ink-900 text-cream-50 p-10 md:p-12 flex flex-col">
-                <div className="flex items-center justify-between mb-8">
-                  <div className="rounded-full bg-cream-50 text-ink-900 text-xs font-bold px-3 py-1.5 flex items-center gap-2">
-                    <span className="material-symbols-outlined text-sm">
-                      verified
-                    </span>
-                    via Google
-                  </div>
-                  <div className="text-emergency text-xl tracking-wider">
-                    ★★★★★
-                  </div>
-                </div>
-                <p className="font-display text-2xl md:text-3xl font-semibold tracking-[-0.015em] leading-[1.25] mb-8 flex-grow">
-                  &ldquo;Called FlameTech after hours for a burst pipe. A
-                  technician was at our door within the hour, shut the water
-                  off, and had the leak fixed before midnight. Fair price, clean
-                  work, genuinely kind people.&rdquo;
-                </p>
-                <div className="flex items-center gap-4 pt-6 border-t border-line-dark">
-                  <div className="w-12 h-12 rounded-full bg-emergency/15 flex items-center justify-center font-bold text-emergency text-base">
-                    JM
-                  </div>
-                  <div>
-                    <p className="font-bold">Jennifer M.</p>
-                    <p className="text-xs text-cream-50/60">
-                      Calgary SW · 2 weeks ago
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              {/* GRID OF SMALLER REVIEWS */}
-              <div className="col-span-12 lg:col-span-7 grid grid-cols-1 md:grid-cols-2 gap-6">
-                {[
-                  {
-                    initials: "RT",
-                    name: "Ryan T.",
-                    area: "Airdrie",
-                    date: "1 month ago",
-                    quote:
-                      "Replaced our ancient boiler with a high-efficiency unit. Quote was upfront, install took exactly as long as promised, and the heating bill is noticeably lower.",
-                  },
-                  {
-                    initials: "SK",
-                    name: "Sarah K.",
-                    area: "Calgary NW",
-                    date: "3 months ago",
-                    quote:
-                      "Full PolyB replacement in our 1980s home. FlameTech walked us through the whole process and left the house cleaner than they found it.",
-                  },
-                  {
-                    initials: "DL",
-                    name: "David L.",
-                    area: "Calgary NE",
-                    date: "2 months ago",
-                    quote:
-                      "Tankless water heater install. Showed up on time, explained everything, and the price matched the quote exactly. Would absolutely hire again.",
-                  },
-                  {
-                    initials: "MP",
-                    name: "Megan P.",
-                    area: "Cochrane",
-                    date: "5 weeks ago",
-                    quote:
-                      "Water softener install in our new home — night-and-day difference in the quality. Professional crew, quick turnaround.",
-                  },
-                ].map((r) => (
-                  <div
-                    key={r.name}
-                    className="rounded-2xl bg-white border border-line-light p-6 flex flex-col"
-                  >
-                    <div className="flex items-center justify-between mb-4">
-                      <div className="text-emergency text-sm tracking-wider">
-                        ★★★★★
-                      </div>
-                      <span className="text-xs text-ink-500">{r.date}</span>
-                    </div>
-                    <p className="text-sm text-ink-700 leading-relaxed mb-6 flex-grow">
-                      &ldquo;{r.quote}&rdquo;
-                    </p>
-                    <div className="flex items-center gap-3 pt-4 border-t border-line-light">
-                      <div className="w-9 h-9 rounded-full bg-primary/10 flex items-center justify-center font-bold text-primary text-xs">
-                        {r.initials}
-                      </div>
-                      <div>
-                        <p className="font-bold text-sm leading-tight">
-                          {r.name}
-                        </p>
-                        <p className="text-xs text-ink-500">{r.area}</p>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </section>
+        {/* FAQ */}
+        <FAQ />
 
         {/* QUOTE FORM */}
         <section
@@ -598,12 +511,24 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        {/* Final CTA before footer */}
+        <FinalCTA />
       </main>
       <Footer />
       <StickyCallBar />
     </>
   );
 }
+
+const brandTiles = [
+  { src: "/images/navine-boiler.png", label: "Boilers" },
+  { src: "/images/air-ease-furnace.png", label: "Furnaces" },
+  { src: "/images/air-ease-ac.png", label: "AC Units" },
+  { src: "/images/bradford-white-hot-water-tank.png", label: "Hot Water Tanks" },
+  { src: "/images/graident-tankless-water-heater.png", label: "Tankless" },
+  { src: "/images/water-softener-calgary.png", label: "Water Softeners" },
+];
 
 function Stat({ number, label }: { number: string; label: string }) {
   return (
