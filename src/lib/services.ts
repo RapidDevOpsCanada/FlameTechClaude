@@ -279,30 +279,210 @@ export const services: ServicePage[] = [
     ],
   },
   {
-    slug: "boiler-service",
+    slug: "boiler-service-calgary",
     category: "Heating",
     icon: "tune",
-    title: "Boiler Service Calgary",
-    lead: "Annual maintenance that keeps your boiler running for 20+ years.",
+    title: "Boiler Service Calgary | Expert Boiler Maintenance & Repair",
+    lead:
+      "Calgary's harsh winters put serious demands on your boiler system.",
+    heroBody: [
+      "FlameTech has been servicing residential and commercial boilers across Calgary for years, handling everything from routine maintenance to emergency breakdowns. We work with all major brands including Viessmann, Buderus, Weil-McLain, and more, keeping your boiler system running efficiently when temperatures drop to −30°C.",
+      "When your boiler fails on a January morning, you need someone who answers the phone and shows up fast. We offer priority emergency boiler service in Calgary, with fully stocked service trucks and technicians who know these systems inside and out.",
+    ],
+    heroSubhead: "Trusted Calgary Boiler Service Experts",
+    heroBadgeImage: {
+      src: "/images/REVIEWS1.png",
+      alt: "5-star Google rated",
+    },
+    heroImage: {
+      src: "/images/navine-boiler.png",
+      alt: "Residential condensing boiler installed by FlameTech in Calgary",
+    },
     intro:
-      "Boilers don't fail suddenly — they give warning signs. Annual service catches them in September instead of January.",
+      "Calgary's harsh winters put serious demands on your boiler system. FlameTech handles everything from routine maintenance to emergency breakdowns for every major boiler brand.",
     features: [
-      "Combustion analysis",
-      "Pressure and expansion tank check",
-      "Pump and zone valve testing",
-      "Heat exchanger inspection",
-      "Safety device verification",
+      "Annual boiler tune-ups",
+      "Burner service & repair",
+      "Heat exchanger cleaning",
+      "Pressure & circulation repairs",
+      "Thermostat & control repairs",
+      "Priority emergency boiler service",
     ],
     bullets: [
       {
-        t: "Pre-season timing",
-        d: "Book in August–October to beat the winter rush and catch issues before they matter.",
+        t: "Locally owned & operated",
+        d: "A Calgary plumbing business specializing in boiler service for homes and businesses across the city.",
       },
       {
-        t: "Documented service record",
-        d: "Keeps warranty valid and supports insurance claims if anything ever goes wrong.",
+        t: "B2 gas fitting licensed",
+        d: "FlameTech's boiler technicians hold B2 gas fitting licenses and manufacturer certifications from the industry's top brands.",
       },
     ],
+    callout:
+      "Smell gas, lost heat, or hearing unusual noises? Call us right away for priority emergency boiler response.",
+    seoTitle:
+      "Boiler Service Calgary | Professional Boiler Repair & Maintenance",
+    seoDescription:
+      "Professional boiler service in Calgary. Annual maintenance, repairs, and priority emergency response. Licensed technicians. Fast response. Call 587-834-3668 today.",
+    seoKeywords: [
+      "boiler service Calgary",
+      "boiler repair Calgary",
+      "boiler maintenance Calgary",
+      "Viessmann Buderus Weil-McLain Triangle Tube",
+      "B2 gas fitting Calgary",
+      "FlameTech Plumbing Heating",
+    ],
+    quoteFormLabel: "boiler service",
+    quoteFormPlaceholder:
+      "e.g. boiler not firing, pilot light out, losing pressure, banging/kettling noises, or book an annual tune-up…",
+    sidebar: {
+      title: "Calgary Boiler Service",
+      subtitle:
+        "Annual tune-ups, repairs, and priority emergency response for every major boiler brand.",
+      bullets: [
+        "Viessmann · Buderus · Weil-McLain · Triangle Tube",
+        "B2 gas fitting licensed technicians",
+        "Service trucks stocked for same-day repairs",
+        "Priority emergency response across Calgary",
+      ],
+    },
+    stats: [
+      { number: "B2", label: "Gas fitting licensed", icon: "verified" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "1-2h", label: "Typical service visit", icon: "schedule" },
+      { number: "ANY", label: "Brand serviced", icon: "check_circle" },
+    ],
+    richContent: {
+      sections: [
+        {
+          heading:
+            "Why Calgary Homeowners Choose FlameTech for Boiler Service",
+          intro:
+            "As a locally owned and operated plumbing business in Calgary, we specialize in professional boiler service for homes and businesses across the city. FlameTech's boiler technicians hold B2 gas fitting licenses and manufacturer certifications from the industry's top brands. We've worked on thousands of boiler systems across Calgary, from older cast iron units in Mount Royal to modern condensing boilers in Aspen Woods. Our service trucks carry common parts for most systems, so we can often complete repairs on the first visit instead of leaving you without heat.",
+          items: [
+            {
+              heading: "Annual Boiler Tune-ups",
+              body: "Complete system inspection, cleaning, and efficiency testing to prevent breakdowns and reduce gas bills.",
+              image: {
+                src: "/images/navine-boiler.png",
+                alt: "Modern residential boiler serviced by FlameTech",
+              },
+            },
+            {
+              heading: "Burner Service & Repair",
+              body: "Cleaning and adjusting gas burners, replacing flame sensors, and fixing ignition problems that cause lockouts.",
+            },
+            {
+              heading: "Heat Exchanger Maintenance",
+              body: "Professional cleaning to remove scale buildup and maintain efficient heat transfer in Calgary's hard-water conditions.",
+            },
+            {
+              heading: "Pressure & Circulation Issues",
+              body: "Diagnosing and repairing expansion tank problems, pressure relief valves, and circulation pump failures.",
+            },
+            {
+              heading: "Thermostat & Control Repairs",
+              body: "Fixing faulty thermostats, zone controls, and outdoor reset controls that affect system operation.",
+            },
+            {
+              heading: "Priority Emergency Boiler Repairs",
+              body: "Rapid response for no-heat situations, gas leaks, and other urgent boiler problems throughout Calgary.",
+            },
+          ],
+        },
+        {
+          heading: "Common Boiler Service Issues in Calgary Homes",
+          intro:
+            "Calgary boiler owners deal with specific problems caused by our climate and water conditions. Here's what we see most often — don't let a small problem turn into a major breakdown. Call at the first sign of trouble.",
+          items: [
+            {
+              body: "Flame sensor fouling from Calgary's hard water and dust, causing repeated system lockouts.",
+            },
+            {
+              body: "Expansion tank failures during Chinook temperature swings that stress the system.",
+            },
+            {
+              body: "Heat exchanger scale buildup reducing efficiency and causing overheating.",
+            },
+            {
+              body: "Circulation pump seizures from mineral deposits in older boiler systems.",
+            },
+            {
+              body: "Pressure relief valve weeping due to thermal expansion in closed-loop systems.",
+            },
+            {
+              body: "Zone valve failures preventing proper heat distribution to different areas.",
+            },
+          ],
+        },
+        {
+          heading:
+            "Preventative Boiler Maintenance Tips for Calgary Homeowners",
+          intro:
+            "Regular boiler maintenance prevents 80% of the breakdowns we see in Calgary. Here's what every boiler owner should know:",
+          items: [
+            {
+              body: "Check your boiler pressure monthly — it should stay between 12–15 PSI when cold.",
+            },
+            {
+              body: "Test your pressure relief valve annually by lifting the lever briefly to clear mineral buildup.",
+            },
+            {
+              body: "Keep the area around your boiler clear and check for any water leaks or corrosion.",
+            },
+            {
+              body: "Schedule professional cleaning every 12 months to remove scale and maintain efficiency.",
+            },
+            {
+              body: "Monitor your gas bills — a sudden increase often indicates efficiency problems.",
+            },
+            {
+              body: "Listen for unusual noises like banging, whistling, or gurgling that signal internal issues.",
+            },
+          ],
+        },
+        {
+          heading: "Calgary Boiler Service Expertise You Can Trust",
+          items: [
+            {
+              body: "Our boiler technicians complete ongoing training with manufacturers like Viessmann, Buderus, and Triangle Tube to stay current on the latest technology. We hold B2 gas fitting licenses and have collectively serviced thousands of boiler systems across Calgary, from vintage cast iron units to modern condensing boilers requiring specialized repair techniques.",
+            },
+            {
+              body: "FlameTech works with all major boiler brands and understands the specific challenges Calgary installations face. Many homes built in the 1980s and '90s have original boilers reaching end-of-life, while newer developments often have undersized systems that struggle during cold snaps.",
+            },
+            {
+              body: "Alberta's temperature extremes and hard water create unique maintenance requirements for boiler systems. We stock parts specifically for Calgary conditions and know how Chinook winds, mineral buildup, and extended heating seasons affect different boiler types and ages.",
+            },
+          ],
+        },
+      ],
+      faq: {
+        heading:
+          "Frequently Asked Questions About Boiler Service in Calgary",
+        items: [
+          {
+            q: "How often should I have my boiler serviced in Calgary?",
+            a: "Annual boiler service is recommended for Calgary homes due to our long heating season and hard-water conditions. During service, we clean the heat exchanger, test safety controls, and check for efficiency loss. Older boilers or systems with hard-water issues may benefit from bi-annual maintenance visits.",
+          },
+          {
+            q: "What are the signs my Calgary boiler needs immediate repair?",
+            a: "Call immediately if you smell gas, notice yellow flames instead of blue, hear banging or kettling noises, or see water leaking around the unit. Strange smells, frequent cycling, or uneven heating throughout your home also indicate problems requiring professional attention. Don't ignore these warning signs during Calgary's heating season.",
+          },
+          {
+            q: "Why does my boiler keep shutting off during cold weather?",
+            a: "Common causes include dirty flame sensors, blocked vents from snow buildup, or low system pressure from small leaks. Calgary's temperature swings can also cause expansion issues that trigger safety shutoffs. Our technicians can diagnose the exact cause and prevent repeated lockouts that leave you without heat.",
+          },
+          {
+            q: "Can you service all boiler brands in Calgary?",
+            a: "Yes, we service all major boiler brands including Viessmann, Buderus, Weil-McLain, Crown, Triangle Tube, and older models still common in Calgary homes. Our service trucks stock parts for the most common systems, and we can source specialized components for European brands or vintage units found in established neighborhoods.",
+          },
+          {
+            q: "How long does a typical boiler service appointment take?",
+            a: "Most routine boiler maintenance takes 1–2 hours, including cleaning, testing, and minor adjustments. Emergency repairs vary depending on the problem — simple fixes like replacing a flame sensor take 30 minutes, while major component replacement can take several hours. We always explain what we found and provide time estimates before starting work.",
+          },
+        ],
+      },
+    },
   },
   {
     slug: "high-efficiency-furnaces",

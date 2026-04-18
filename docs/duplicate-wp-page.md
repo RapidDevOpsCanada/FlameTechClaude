@@ -280,8 +280,9 @@ schema so even non-service pages have brand context.
 **Done:**
 
 - [x] `/air-conditioning` (reference implementation)
+- [x] `/boiler-service-calgary`
 
-**Todo (16):**
+**Todo (15):**
 
 - [ ] `/bathroom-plumbing`
 - [ ] `/shower-plumbing`
@@ -290,7 +291,6 @@ schema so even non-service pages have brand context.
 - [ ] `/polyb-plumbing`
 - [ ] `/boiler-installation`
 - [ ] `/boiler-repair`
-- [ ] `/boiler-service`
 - [ ] `/high-efficiency-furnaces`
 - [ ] `/garage-heaters`
 - [ ] `/heat-pumps`
@@ -299,6 +299,11 @@ schema so even non-service pages have brand context.
 - [ ] `/hot-water-tank-replacement`
 - [ ] `/tankless-water-heaters`
 - [ ] `/water-softeners`
+
+**Note on slug naming:** original WP URLs often include the city
+("boiler-service-calgary", "furnace-calgary") and we're matching those
+verbatim. Check the live URL before committing to a slug; rename the
+placeholder in `services.ts` + Nav + Footer if needed.
 
 Plus any non-service pages the user wants migrated (About, Service Areas,
 Blog posts).

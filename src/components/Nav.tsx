@@ -111,7 +111,7 @@ const menu: NavItem[] = [
             },
             {
               label: "Boiler Service",
-              href: "/boiler-service",
+              href: "/boiler-service-calgary",
               icon: "tune",
               desc: "Annual maintenance & tune-ups.",
             },

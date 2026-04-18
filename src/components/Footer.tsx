@@ -12,7 +12,7 @@ const plumbingLinks = [
 const heatingLinks = [
   { label: "Boiler Installation", href: "/boiler-installation" },
   { label: "Boiler Repair", href: "/boiler-repair" },
-  { label: "Boiler Service", href: "/boiler-service" },
+  { label: "Boiler Service", href: "/boiler-service-calgary" },
   { label: "Furnaces", href: "/high-efficiency-furnaces" },
   { label: "Garage Heaters", href: "/garage-heaters" },
   { label: "Heat Pumps", href: "/heat-pumps" },
