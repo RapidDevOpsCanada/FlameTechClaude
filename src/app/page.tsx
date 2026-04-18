@@ -188,7 +188,7 @@ export default function Home() {
                   <div className="relative mx-6 md:mx-8 mb-6 rounded-2xl overflow-hidden border border-line-light">
                     <img
                       src="/images/FTVAN1.jpg"
-                      alt="Shaun Kristoff and Jason Mounsey — FlameTech founders — standing in front of the service van"
+                      alt="Jason Mounsey and Shaun Kristoff — FlameTech founders — standing in front of the service van"
                       className="w-full aspect-[4/5] object-cover object-center"
                     />
                     <div className="absolute bottom-3 left-3 rounded-full bg-ink-900/90 backdrop-blur-md text-cream-50 px-3 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.14em] flex items-center gap-2 border border-cream-50/10">
@@ -198,26 +198,26 @@ export default function Home() {
                   </div>
                   <div className="p-8 md:p-10 pt-2 flex flex-col justify-between flex-1">
                     <p className="text-ink-500 leading-relaxed mb-8">
-                      FlameTech is owned and run by Shaun Kristoff and Jason
-                      Mounsey — Red Seal–certified plumbers who built this
+                      FlameTech is owned and run by Jason Mounsey and Shaun
+                      Kristoff — Red Seal–certified plumbers who built this
                       company around honest advice, upfront pricing, and
                       doing things right the first time.
                     </p>
                     <div className="grid grid-cols-2 gap-4 pt-6 border-t border-line-light">
                       <div>
                         <div className="font-display text-3xl font-extrabold text-primary-deep mb-1">
-                          25+
-                        </div>
-                        <div className="text-xs uppercase tracking-[0.14em] font-semibold text-ink-500">
-                          Shaun — years in trade
-                        </div>
-                      </div>
-                      <div>
-                        <div className="font-display text-3xl font-extrabold text-primary-deep mb-1">
                           20+
                         </div>
                         <div className="text-xs uppercase tracking-[0.14em] font-semibold text-ink-500">
                           Jason — years in trade
+                        </div>
+                      </div>
+                      <div>
+                        <div className="font-display text-3xl font-extrabold text-primary-deep mb-1">
+                          25+
+                        </div>
+                        <div className="text-xs uppercase tracking-[0.14em] font-semibold text-ink-500">
+                          Shaun — years in trade
                         </div>
                       </div>
                     </div>
@@ -257,7 +257,7 @@ export default function Home() {
                       </div>
                       <div>
                         <p className="font-bold text-sm text-cream-50 leading-tight">
-                          Shaun Kristoff &amp; Jason Mounsey
+                          Jason Mounsey &amp; Shaun Kristoff
                         </p>
                         <p className="text-[11px] uppercase tracking-[0.14em] font-semibold text-primary mt-0.5">
                           Co-founders, FlameTech
