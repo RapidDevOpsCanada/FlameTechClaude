@@ -107,7 +107,7 @@ export default function Home() {
                     <img
                       src="/images/FTVAN1.jpg"
                       alt="Shaun Kristoff and Jason Mounsey — FlameTech founders — standing in front of the service van"
-                      className="w-full aspect-[4/5] object-cover object-top"
+                      className="w-full aspect-[4/5] object-cover object-center"
                     />
                     <div className="absolute bottom-3 left-3 rounded-full bg-ink-900/90 backdrop-blur-md text-cream-50 px-3 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.14em] flex items-center gap-2 border border-cream-50/10">
                       <Icon name="verified" className="text-sm text-primary" />
@@ -160,16 +160,16 @@ export default function Home() {
                   <span className="absolute -top-4 left-4 text-primary text-5xl font-display font-extrabold leading-none select-none">
                     &ldquo;
                   </span>
-                  <p className="text-ink-700 leading-relaxed mb-3">
+                  <p className="text-ink-900 font-semibold leading-relaxed mb-3">
                     When you need reliable and professional Calgary plumbers,
                     look no further than Flame Tech Plumbing &amp; Heating.
                   </p>
-                  <p className="text-ink-700 leading-relaxed mb-3">
+                  <p className="text-ink-900 font-semibold leading-relaxed mb-3">
                     We are your local experts, dedicated to providing
                     top-notch plumbing services throughout Calgary and the
                     surrounding areas.
                   </p>
-                  <p className="text-ink-700 leading-relaxed">
+                  <p className="text-ink-900 font-semibold leading-relaxed">
                     From routine maintenance to emergency repairs, our team
                     of certified plumbers is ready to handle all your
                     plumbing needs with efficiency and expertise.
