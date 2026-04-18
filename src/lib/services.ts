@@ -54,8 +54,18 @@ export type ServicePage = {
   seoTitle?: string;
   seoDescription?: string;
   seoKeywords?: string[];
-  /** Optional secondary image rendered above the "Our Services" block. */
+  /** Optional image rendered below a specific richContent section. Key = section heading. */
   sectionImages?: Record<string, RichImage>;
+  /** Floating trust pills shown on the hero beside the product image. */
+  trustPills?: string[];
+  /** Per-service sticky sidebar copy (falls back to generic defaults). */
+  sidebar?: {
+    title?: string;
+    subtitle?: string;
+    bullets?: string[];
+  };
+  /** Stats strip rendered directly under the hero (4 items). */
+  stats?: { number: string; label: string }[];
 };
 
 export const services: ServicePage[] = [
@@ -401,12 +411,28 @@ export const services: ServicePage[] = [
       "ductless mini-split Calgary",
       "FlameTech Plumbing Heating",
     ],
-    sectionImages: {
-      "Why Choose Flame Tech for Air Conditioning in Calgary?": {
-        src: "/images/FTVAN1.jpg",
-        alt: "FlameTech service van in Calgary",
-      },
+    trustPills: [
+      "Red Seal Certified",
+      "BBB Accredited",
+      "12-Year AirEase Warranty",
+    ],
+    sidebar: {
+      title: "Calgary Air Conditioning",
+      subtitle:
+        "Free estimates on installs, repairs, and maintenance — any make, any model.",
+      bullets: [
+        "12-year AirEase parts & labor warranty",
+        "Licensed & insured HVAC technicians",
+        "AC repair for all makes & models",
+        "Same-day service when availability allows",
+      ],
     },
+    stats: [
+      { number: "12-YR", label: "AirEase warranty" },
+      { number: "5.0★", label: "Google rated" },
+      { number: "FREE", label: "Written estimates" },
+      { number: "ANY", label: "Make or model" },
+    ],
     richContent: {
       sections: [
         {

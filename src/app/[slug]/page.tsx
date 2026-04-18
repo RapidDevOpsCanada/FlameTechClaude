@@ -12,6 +12,8 @@ import {
   services,
   type ServicePage,
 } from "@/lib/services";
+import { getReviews } from "@/lib/reviews";
+import type { Review } from "@/lib/db";
 import type { Metadata } from "next";
 
 const SITE_URL = "https://flame-tech-claude-xd6r.vercel.app";
@@ -20,6 +22,18 @@ const BUSINESS = {
   phone: "+1-587-834-3668",
   address: "Calgary, AB, Canada",
 };
+
+const DEFAULT_TRUST_PILLS = [
+  "Red Seal Certified",
+  "Licensed & Insured",
+  "BBB Accredited",
+];
+const DEFAULT_STATS: ServicePage["stats"] = [
+  { number: "5.0★", label: "Google rated" },
+  { number: "45+", label: "Years combined" },
+  { number: "FREE", label: "Estimates" },
+  { number: "BBB", label: "Accredited" },
+];
 
 export async function generateStaticParams() {
   return services.map((s) => ({ slug: s.slug }));
@@ -77,6 +91,11 @@ export default async function ServicePage({
   const related = getRelatedServices(slug);
   const hasRich = !!service.richContent;
   const schemaJson = buildSchemaJsonLd(service);
+  const trustPills = service.trustPills ?? DEFAULT_TRUST_PILLS;
+  const stats = service.stats ?? DEFAULT_STATS;
+  const inlineReview = await pickInlineReview(service.slug);
+
+  const firstSectionHeading = service.richContent?.sections?.[0]?.heading;
 
   return (
     <>
@@ -102,6 +121,19 @@ export default async function ServicePage({
             </div>
             <div className="grid grid-cols-12 gap-10 items-center">
               <div className="col-span-12 lg:col-span-7">
+                {/* Mobile hero image — collapsed, above headline */}
+                {service.heroImage && (
+                  <div className="lg:hidden mb-7">
+                    <div className="relative rounded-2xl bg-gradient-to-br from-cream-50 to-cream-100 border border-line-dark p-6 flex items-center justify-center aspect-[5/3] soft-shadow overflow-hidden">
+                      <img
+                        src={service.heroImage.src}
+                        alt={service.heroImage.alt}
+                        className="max-h-full max-w-full object-contain"
+                      />
+                    </div>
+                  </div>
+                )}
+
                 <h1 className="font-display text-4xl md:text-5xl xl:text-6xl font-extrabold leading-[1.04] tracking-[-0.025em] mb-6">
                   {service.title}
                 </h1>
@@ -153,6 +185,25 @@ export default async function ServicePage({
                 {service.heroImage ? (
                   <div className="relative">
                     <div className="absolute -inset-3 bg-primary/10 rounded-[28px] blur-2xl pointer-events-none" />
+
+                    {/* Floating trust pills */}
+                    <div className="absolute -top-3 left-6 z-10 rounded-full bg-ink-900 border border-line-dark px-3 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.16em] text-cream-50 flex items-center gap-1.5 soft-shadow">
+                      <Icon name="verified" className="text-primary text-base" />
+                      {trustPills[0]}
+                    </div>
+                    {trustPills[1] && (
+                      <div className="absolute top-10 -right-3 z-10 rounded-full bg-ink-900 border border-line-dark px-3 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.16em] text-cream-50 flex items-center gap-1.5 soft-shadow">
+                        <Icon name="check_circle" className="text-primary text-base" />
+                        {trustPills[1]}
+                      </div>
+                    )}
+                    {trustPills[2] && (
+                      <div className="absolute -bottom-3 left-10 z-10 rounded-full bg-emergency text-cream-50 px-3 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.16em] flex items-center gap-1.5 soft-shadow">
+                        <Icon name="workspace_premium" className="text-base" />
+                        {trustPills[2]}
+                      </div>
+                    )}
+
                     <div className="relative rounded-3xl bg-gradient-to-br from-cream-50 to-cream-100 border border-line-dark p-8 flex items-center justify-center aspect-[5/4] soft-shadow overflow-hidden">
                       <img
                         src={service.heroImage.src}
@@ -179,10 +230,26 @@ export default async function ServicePage({
           </div>
         </section>
 
+        {/* STATS STRIP */}
+        <section className="bg-ink-800 border-b border-line-dark">
+          <div className="max-w-6xl mx-auto px-6 md:px-10 py-6 md:py-8 grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-4">
+            {stats?.slice(0, 4).map((s) => (
+              <div key={s.label}>
+                <div className="font-display text-2xl md:text-3xl font-extrabold tracking-[-0.02em] text-cream-50">
+                  {s.number}
+                </div>
+                <div className="text-[11px] uppercase tracking-[0.16em] text-cream-50/60 font-semibold mt-1">
+                  {s.label}
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+
         {/* BODY */}
         <section className="bg-cream-50 text-ink-900 py-16 md:py-20">
-          <div className="max-w-6xl mx-auto px-6 md:px-10 grid grid-cols-12 gap-10">
-            <div className="col-span-12 lg:col-span-8">
+          <div className="max-w-6xl mx-auto px-6 md:px-10 grid grid-cols-12 gap-8 lg:gap-10">
+            <div className="col-span-12 lg:col-span-9">
               {!hasRich && (
                 <>
                   <p className="text-lg text-ink-700 leading-relaxed mb-10">
@@ -257,79 +324,87 @@ export default async function ServicePage({
               {/* RICH CONTENT — sections */}
               {service.richContent?.sections?.map((section, sIdx) => {
                 const sectionImage = service.sectionImages?.[section.heading];
+                const showInlineReview =
+                  inlineReview && section.heading === firstSectionHeading;
+
                 return (
-                  <div key={section.heading} className="mb-14">
-                    <span className="inline-flex items-center gap-2 text-[11px] font-extrabold uppercase tracking-[0.18em] text-primary mb-3">
-                      <span className="block w-6 h-px bg-primary" />
-                      Section {String(sIdx + 1).padStart(2, "0")}
-                    </span>
-                    <h2 className="font-display text-3xl md:text-4xl font-extrabold tracking-[-0.015em] mb-4 leading-[1.08]">
-                      {section.heading}
-                    </h2>
-                    {section.intro && (
-                      <p className="text-ink-700 leading-relaxed mb-8 max-w-2xl">
-                        {section.intro}
-                      </p>
+                  <div key={section.heading}>
+                    {showInlineReview && (
+                      <InlineReviewBlock review={inlineReview} />
                     )}
-                    <div className="space-y-5">
-                      {section.items.map((item, i) => {
-                        const flip = i % 2 === 1;
-                        return (
-                          <div
-                            key={`${section.heading}-${i}`}
-                            className={`rounded-2xl bg-white border border-line-light overflow-hidden ${
-                              item.image
-                                ? "grid grid-cols-1 md:grid-cols-5 items-stretch"
-                                : "p-6 md:p-7"
-                            } hover:border-primary transition-colors`}
-                          >
-                            {item.image && !flip && (
-                              <div className="md:col-span-2 relative">
-                                <img
-                                  src={item.image.src}
-                                  alt={item.image.alt}
-                                  className="w-full h-52 md:h-full object-cover"
-                                />
-                              </div>
-                            )}
+                    <div className="mb-14">
+                      <span className="inline-flex items-center gap-2 text-[11px] font-extrabold uppercase tracking-[0.18em] text-primary mb-3">
+                        <span className="block w-6 h-px bg-primary" />
+                        Section {String(sIdx + 1).padStart(2, "0")}
+                      </span>
+                      <h2 className="font-display text-3xl md:text-4xl font-extrabold tracking-[-0.015em] mb-4 leading-[1.08]">
+                        {section.heading}
+                      </h2>
+                      {section.intro && (
+                        <p className="text-ink-700 leading-relaxed mb-8 max-w-2xl">
+                          {section.intro}
+                        </p>
+                      )}
+                      <div className="space-y-5">
+                        {section.items.map((item, i) => {
+                          const flip = i % 2 === 1;
+                          return (
                             <div
-                              className={
+                              key={`${section.heading}-${i}`}
+                              className={`rounded-2xl bg-white border border-line-light overflow-hidden ${
                                 item.image
-                                  ? "md:col-span-3 p-6 md:p-8 flex flex-col justify-center"
-                                  : ""
-                              }
+                                  ? "grid grid-cols-1 md:grid-cols-5 items-stretch"
+                                  : "p-6 md:p-7"
+                              } hover:border-primary transition-colors`}
                             >
-                              {item.heading && (
-                                <h3 className="font-display font-extrabold text-xl md:text-2xl tracking-tight mb-2 leading-tight">
-                                  {item.heading}
-                                </h3>
+                              {item.image && !flip && (
+                                <div className="md:col-span-2 relative">
+                                  <img
+                                    src={item.image.src}
+                                    alt={item.image.alt}
+                                    className="w-full h-52 md:h-full object-cover"
+                                  />
+                                </div>
                               )}
-                              <p className="text-[15px] text-ink-700 leading-relaxed">
-                                {item.body}
-                              </p>
-                            </div>
-                            {item.image && flip && (
-                              <div className="md:col-span-2 relative order-first md:order-last">
-                                <img
-                                  src={item.image.src}
-                                  alt={item.image.alt}
-                                  className="w-full h-52 md:h-full object-cover"
-                                />
+                              <div
+                                className={
+                                  item.image
+                                    ? "md:col-span-3 p-6 md:p-8 flex flex-col justify-center"
+                                    : ""
+                                }
+                              >
+                                {item.heading && (
+                                  <h3 className="font-display font-extrabold text-xl md:text-2xl tracking-tight mb-2 leading-tight">
+                                    {item.heading}
+                                  </h3>
+                                )}
+                                <p className="text-[15px] text-ink-700 leading-relaxed">
+                                  {item.body}
+                                </p>
                               </div>
-                            )}
-                          </div>
-                        );
-                      })}
+                              {item.image && flip && (
+                                <div className="md:col-span-2 relative order-first md:order-last">
+                                  <img
+                                    src={item.image.src}
+                                    alt={item.image.alt}
+                                    className="w-full h-52 md:h-full object-cover"
+                                  />
+                                </div>
+                              )}
+                            </div>
+                          );
+                        })}
+                      </div>
+                      {sectionImage && (
+                        <figure className="mt-8 rounded-2xl overflow-hidden border border-line-light">
+                          <img
+                            src={sectionImage.src}
+                            alt={sectionImage.alt}
+                            className="w-full h-auto object-cover"
+                          />
+                        </figure>
+                      )}
                     </div>
-                    {sectionImage && (
-                      <figure className="mt-8 rounded-2xl overflow-hidden border border-line-light">
-                        <img
-                          src={sectionImage.src}
-                          alt={sectionImage.alt}
-                          className="w-full h-auto object-cover"
-                        />
-                      </figure>
-                    )}
                   </div>
                 );
               })}
@@ -427,43 +502,75 @@ export default async function ServicePage({
               )}
             </div>
 
-            <aside className="col-span-12 lg:col-span-4">
-              <div className="sticky top-28 rounded-2xl bg-ink-900 text-cream-50 p-6 md:p-8">
-                <span className="eyebrow mb-4">Get started</span>
-                <h3 className="font-display text-2xl font-extrabold tracking-tight mt-4 mb-3">
-                  Ready for a free quote?
+            <aside className="col-span-12 lg:col-span-3">
+              <div className="sticky top-28 rounded-2xl bg-ink-900 text-cream-50 p-6 overflow-hidden">
+                <span className="eyebrow mb-3">
+                  {service.sidebar?.subtitle ? "Get a quote" : "Get started"}
+                </span>
+                <h3 className="font-display text-xl font-extrabold tracking-tight mt-3 mb-3 leading-tight">
+                  {service.sidebar?.title ?? "Ready for a free quote?"}
                 </h3>
-                <p className="text-sm text-cream-50/70 leading-relaxed mb-6">
-                  Tell us about your job and we&apos;ll follow up with pricing
-                  and availability.
+                <p className="text-[13px] text-cream-50/70 leading-relaxed mb-5">
+                  {service.sidebar?.subtitle ??
+                    "Tell us about your job and we'll follow up with pricing and availability."}
                 </p>
-                <div className="space-y-3 mb-6">
+
+                {service.sidebar?.bullets && (
+                  <ul className="space-y-2 mb-5">
+                    {service.sidebar.bullets.map((b) => (
+                      <li
+                        key={b}
+                        className="flex items-start gap-2 text-[12.5px] text-cream-50/85 leading-snug"
+                      >
+                        <Icon
+                          name="check_circle"
+                          className="text-primary text-base mt-0.5 shrink-0"
+                        />
+                        {b}
+                      </li>
+                    ))}
+                  </ul>
+                )}
+
+                <div className="space-y-2.5 mb-5">
                   <a
                     href="tel:5878343668"
-                    className="w-full inline-flex items-center justify-center gap-2 rounded-full bg-emergency text-cream-50 font-extrabold uppercase tracking-tight px-5 py-3 text-sm hover:bg-emergency-deep transition-colors"
+                    className="w-full inline-flex items-center justify-center gap-2 rounded-full bg-emergency text-cream-50 font-extrabold uppercase tracking-tight px-4 py-3 text-[12px] hover:bg-emergency-deep transition-colors"
                   >
                     <Icon name="call" className="text-base" />
                     587-834-3668
                   </a>
                   <a
                     href="#quote"
-                    className="w-full inline-flex items-center justify-center gap-2 rounded-full border border-cream-50/25 text-cream-50 font-bold uppercase tracking-tight px-5 py-3 text-sm hover:border-emergency hover:text-emergency transition-colors"
+                    className="w-full inline-flex items-center justify-center gap-2 rounded-full border border-cream-50/25 text-cream-50 font-bold uppercase tracking-tight px-4 py-3 text-[12px] hover:border-emergency hover:text-emergency transition-colors"
                   >
-                    Request a free quote
+                    Request a quote
                   </a>
                 </div>
-                <div className="pt-6 border-t border-line-dark space-y-3">
-                  <div className="flex items-center gap-2 text-xs text-cream-50/70">
-                    <Icon name="verified" className="text-primary text-sm" />
-                    Licensed · Insured · Bonded
-                  </div>
-                  <div className="flex items-center gap-2 text-xs text-cream-50/70">
-                    <Icon name="location_on" className="text-primary text-sm" />
-                    Calgary &amp; surrounding communities
-                  </div>
-                  <div className="flex items-center gap-2 text-xs text-cream-50/70">
-                    <Icon name="schedule" className="text-primary text-sm" />
-                    Priority emergency response
+
+                {/* Trust badges */}
+                <div className="pt-5 border-t border-line-dark">
+                  <p className="text-[10px] font-extrabold uppercase tracking-[0.18em] text-cream-50/55 mb-3">
+                    Trusted By Calgary
+                  </p>
+                  <div className="flex flex-col gap-3">
+                    <img
+                      src="/images/REVIEWS1.png"
+                      alt="5-star Google rated"
+                      className="h-10 w-auto object-contain object-left"
+                    />
+                    <div className="flex items-center gap-3">
+                      <img
+                        src="/images/blue-ceip-225x300.png"
+                        alt="BBB Accredited"
+                        className="h-12 w-auto object-contain"
+                      />
+                      <img
+                        src="/images/financeit.png"
+                        alt="Financing via Financeit"
+                        className="h-5 w-auto object-contain"
+                      />
+                    </div>
                   </div>
                 </div>
               </div>
@@ -471,7 +578,7 @@ export default async function ServicePage({
           </div>
         </section>
 
-        {/* RELATED */}
+        {/* RELATED — with hero thumbnails */}
         {related.length > 0 && (
           <section className="bg-cream-100 text-ink-900 py-16 md:py-20 border-t border-line-light">
             <div className="max-w-6xl mx-auto px-6 md:px-10">
@@ -497,17 +604,29 @@ export default async function ServicePage({
                   <Link
                     key={r.slug}
                     href={`/${r.slug}`}
-                    className="group col-span-12 md:col-span-4 rounded-2xl bg-white border border-line-light p-7 hover:border-emergency transition-colors"
+                    className="group col-span-12 md:col-span-4 rounded-2xl bg-white border border-line-light overflow-hidden hover:border-emergency transition-colors"
                   >
-                    <div className="w-12 h-12 rounded-xl bg-primary/15 text-primary-deep flex items-center justify-center mb-5">
-                      <Icon name={r.icon} className="text-2xl" />
+                    <div className="relative aspect-[16/9] bg-gradient-to-br from-cream-50 to-cream-100 flex items-center justify-center overflow-hidden">
+                      {r.heroImage ? (
+                        <img
+                          src={r.heroImage.src}
+                          alt={r.heroImage.alt}
+                          className="max-h-[85%] max-w-[85%] object-contain drop-shadow-[0_10px_20px_rgba(8,14,28,0.15)] group-hover:scale-105 transition-transform"
+                        />
+                      ) : (
+                        <div className="w-16 h-16 rounded-xl bg-primary/15 text-primary-deep flex items-center justify-center">
+                          <Icon name={r.icon} className="text-3xl" />
+                        </div>
+                      )}
                     </div>
-                    <h3 className="font-display text-lg font-extrabold tracking-tight group-hover:text-emergency-deep transition-colors mb-2">
-                      {r.title}
-                    </h3>
-                    <p className="text-sm text-ink-500 leading-relaxed">
-                      {r.lead}
-                    </p>
+                    <div className="p-6">
+                      <h3 className="font-display text-lg font-extrabold tracking-tight group-hover:text-emergency-deep transition-colors mb-2">
+                        {r.title}
+                      </h3>
+                      <p className="text-sm text-ink-500 leading-relaxed line-clamp-3">
+                        {r.lead}
+                      </p>
+                    </div>
                   </Link>
                 ))}
               </div>
@@ -549,6 +668,51 @@ export default async function ServicePage({
   );
 }
 
+/** Inline testimonial block, rendered between body sections. */
+function InlineReviewBlock({ review }: { review: Review }) {
+  return (
+    <div className="mb-14 rounded-3xl bg-ink-900 text-cream-50 p-8 md:p-10 relative overflow-hidden">
+      <div className="absolute -top-4 right-6 text-primary/20 text-[140px] font-display font-extrabold leading-none select-none pointer-events-none">
+        &ldquo;
+      </div>
+      <div className="relative">
+        <div className="flex items-center justify-between mb-5">
+          <div className="rounded-full bg-cream-50 text-ink-900 text-xs font-bold px-3 py-1.5 flex items-center gap-2">
+            <Icon name="verified" className="text-sm" />
+            via Google
+          </div>
+          <div className="text-primary text-lg tracking-wider">★★★★★</div>
+        </div>
+        <p className="font-display text-xl md:text-2xl font-semibold leading-snug tracking-[-0.01em] mb-6">
+          &ldquo;{review.quote}&rdquo;
+        </p>
+        <div className="flex items-center gap-3 pt-5 border-t border-line-dark">
+          <div className="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center font-bold text-primary text-sm">
+            {review.initials}
+          </div>
+          <div>
+            <p className="font-bold text-sm leading-tight">{review.author}</p>
+            <p className="text-xs text-cream-50/60">
+              {review.area} · {review.relative_date}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/** Pick a non-featured review to drop inline. Falls back to null if the DB is empty. */
+async function pickInlineReview(slug: string): Promise<Review | null> {
+  const reviews = await getReviews();
+  if (!reviews.length) return null;
+  const nonFeatured = reviews.filter((r) => !r.featured);
+  const pool = nonFeatured.length ? nonFeatured : reviews;
+  // Stable-but-varying pick: hash the slug to an index.
+  const idx = [...slug].reduce((a, c) => a + c.charCodeAt(0), 0) % pool.length;
+  return pool[idx];
+}
+
 function buildSchemaJsonLd(service: ServicePage) {
   const url = `${SITE_URL}/${service.slug}`;
   const heroImg = service.heroImage?.src
@@ -557,7 +721,6 @@ function buildSchemaJsonLd(service: ServicePage) {
 
   const graph: Record<string, unknown>[] = [];
 
-  // Service schema
   graph.push({
     "@type": "Service",
     "@id": `${url}#service`,
@@ -591,33 +754,21 @@ function buildSchemaJsonLd(service: ServicePage) {
     },
   });
 
-  // Breadcrumb schema
   graph.push({
     "@type": "BreadcrumbList",
     "@id": `${url}#breadcrumb`,
     itemListElement: [
-      {
-        "@type": "ListItem",
-        position: 1,
-        name: "Home",
-        item: SITE_URL,
-      },
+      { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       {
         "@type": "ListItem",
         position: 2,
         name: service.category,
         item: `${SITE_URL}/#services`,
       },
-      {
-        "@type": "ListItem",
-        position: 3,
-        name: service.title,
-        item: url,
-      },
+      { "@type": "ListItem", position: 3, name: service.title, item: url },
     ],
   });
 
-  // FAQ schema (if present)
   if (service.richContent?.faq?.items?.length) {
     graph.push({
       "@type": "FAQPage",
@@ -625,15 +776,11 @@ function buildSchemaJsonLd(service: ServicePage) {
       mainEntity: service.richContent.faq.items.map((f) => ({
         "@type": "Question",
         name: f.q,
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: f.a,
-        },
+        acceptedAnswer: { "@type": "Answer", text: f.a },
       })),
     });
   }
 
-  // WebPage schema
   graph.push({
     "@type": "WebPage",
     "@id": `${url}#webpage`,
@@ -641,12 +788,11 @@ function buildSchemaJsonLd(service: ServicePage) {
     name: service.seoTitle || service.title,
     description: service.seoDescription || service.intro,
     isPartOf: { "@id": `${SITE_URL}#website` },
-    primaryImageOfPage: heroImg ? { "@type": "ImageObject", url: heroImg } : undefined,
+    primaryImageOfPage: heroImg
+      ? { "@type": "ImageObject", url: heroImg }
+      : undefined,
     breadcrumb: { "@id": `${url}#breadcrumb` },
   });
 
-  return {
-    "@context": "https://schema.org",
-    "@graph": graph,
-  };
+  return { "@context": "https://schema.org", "@graph": graph };
 }
