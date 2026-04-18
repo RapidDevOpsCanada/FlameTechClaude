@@ -56,7 +56,7 @@ const menu: NavItem[] = [
             },
             {
               label: "Drain Cleaning",
-              href: "/drain-cleaning",
+              href: "/drain-cleaning-calgary",
               icon: "water_damage",
               desc: "Clogs, slow drains, camera inspection.",
             },
@@ -99,13 +99,13 @@ const menu: NavItem[] = [
           items: [
             {
               label: "Boiler Installation",
-              href: "/boiler-installation",
+              href: "/boiler-installation-calgary",
               icon: "build",
               desc: "New high-efficiency boilers.",
             },
             {
               label: "Boiler Repair",
-              href: "/boiler-repair",
+              href: "/boiler-repair-calgary",
               icon: "handyman",
               desc: "Diagnosis and fast repairs.",
             },
@@ -140,7 +140,7 @@ const menu: NavItem[] = [
             },
             {
               label: "Heat Pumps",
-              href: "/heat-pumps",
+              href: "/heat-pumps-calgary",
               icon: "ac_unit",
               desc: "Cold-climate dual-fuel setups.",
             },
@@ -221,7 +221,7 @@ const menu: NavItem[] = [
           items: [
             {
               label: "Water Softeners",
-              href: "/water-softeners",
+              href: "/water-softener",
               icon: "science",
               desc: "Protect fixtures from Alberta hard water.",
             },

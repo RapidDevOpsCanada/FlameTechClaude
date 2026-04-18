@@ -305,27 +305,27 @@ schema so even non-service pages have brand context.
 
 **Done:**
 
-- [x] `/air-conditioning` (reference implementation)
+- [x] `/air-conditioning`
 - [x] `/boiler-service-calgary`
 - [x] `/furnaces`
 - [x] `/high-efficiency-furnaces-calgary`
+- [x] `/boiler-installation-calgary`
+- [x] `/boiler-repair-calgary`
+- [x] `/heat-pumps-calgary`
+- [x] `/drain-cleaning-calgary`
+- [x] `/water-softener`
 
-**Todo (14):**
+**Todo (9):**
 
-- [ ] `/bathroom-plumbing`
-- [ ] `/shower-plumbing`
-- [ ] `/drain-cleaning`
-- [ ] `/emergency-plumbing`
-- [ ] `/polyb-plumbing`
-- [ ] `/boiler-installation`
-- [ ] `/boiler-repair`
-- [ ] `/garage-heaters`
-- [ ] `/heat-pumps`
-- [ ] `/humidifiers`
+- [ ] `/bathroom-plumbing-calgary`
+- [ ] `/shower-plumbing-calgary`
+- [ ] `/emergency-plumber-calgary`
+- [ ] `/polyb-plumbing-calgary`
+- [ ] `/garage-heaters-calgary`
+- [ ] `/humidifiers-calgary`
 - [ ] `/hot-water-tanks`
-- [ ] `/hot-water-tank-replacement`
+- [ ] `/hot-water-tank-replacement-calgary`
 - [ ] `/tankless-water-heaters`
-- [ ] `/water-softeners`
 
 **Note on slug naming:** original WP URLs often include the city
 ("boiler-service-calgary", "furnace-calgary") and we're matching those

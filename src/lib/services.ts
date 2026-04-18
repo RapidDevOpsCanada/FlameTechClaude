@@ -158,30 +158,133 @@ export const services: ServicePage[] = [
     ],
   },
   {
-    slug: "drain-cleaning",
+    slug: "drain-cleaning-calgary",
     category: "Plumbing",
     icon: "water_damage",
-    title: "Drain Cleaning Calgary",
-    lead: "Clogs, slow drains, and camera inspections across Calgary.",
+    title: "Professional Drain Cleaning Calgary | Fast & Reliable Service",
+    lead:
+      "When stubborn clogs and slow drains disrupt your Calgary home, Flame Tech Plumbing delivers expert drain cleaning solutions that get your plumbing flowing freely again.",
+    heroBody: [
+      "Our certified technicians use advanced equipment including hydro-jetting systems, drain snakes, and video inspection cameras to tackle everything from kitchen grease buildup to tree root intrusions.",
+      "Drain emergencies don't follow business hours, which is why Flame Tech provides priority drain cleaning throughout Calgary and surrounding areas. Our emergency response team arrives equipped with professional-grade tools to resolve your drainage issues quickly, preventing water damage and restoring your home's plumbing functionality.",
+    ],
+    heroSubhead: "Trusted Calgary Drain Cleaning Experts",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/FTVAN1.jpg", alt: "FlameTech service van — Calgary drain cleaning", fit: "cover" },
     intro:
-      "Slow drains rarely fix themselves. Our drain cleaning uses professional augers and camera inspection to clear the blockage and show you what caused it.",
+      "Expert drain cleaning services in Calgary. Clogs, blockages, and backup repairs. 25+ years experience. Priority emergency response.",
     features: [
-      "Kitchen and bathroom drain clearing",
-      "Mainline and stack clearing",
-      "Camera inspection with video record",
-      "Root intrusion diagnosis",
-      "Hydro-jetting on severe lines",
+      "Kitchen drain cleaning",
+      "Bathroom drain services",
+      "Main sewer line hydro-jetting",
+      "Floor drain maintenance",
+      "Video drain inspection",
+      "Preventative drain maintenance",
     ],
     bullets: [
       {
         t: "Camera-confirmed results",
-        d: "We verify the drain is clear with a camera pass — no guessing whether the job's done.",
+        d: "Advanced video inspection verifies the drain is clear and shows exactly what caused the blockage.",
       },
       {
-        t: "Honest repair advice",
-        d: "If a repeat clog is a sign of bigger issues (belly, break), we'll tell you plainly.",
+        t: "25+ years in Calgary",
+        d: "We've seen every drain issue our city's clay soil, hard water, and freeze-thaw cycles can create.",
       },
     ],
+    seoTitle: "Drain Cleaning Calgary | Professional Drain Services",
+    seoDescription:
+      "Expert drain cleaning services in Calgary. Clogs, blockages & backup repairs. 25+ years experience. Priority emergency service. Call now!",
+    seoKeywords: [
+      "drain cleaning Calgary",
+      "hydro jetting Calgary",
+      "main sewer line Calgary",
+      "clogged drain Calgary",
+      "video drain inspection",
+      "FlameTech Plumbing",
+    ],
+    quoteFormLabel: "drain cleaning",
+    quoteFormPlaceholder:
+      "e.g. kitchen sink backing up, slow shower drain, basement floor drain gurgling, or suspected root intrusion…",
+    sidebar: {
+      title: "Calgary Drain Cleaning",
+      subtitle:
+        "Clogs, slow drains, main-line blockages — cleared and camera-verified.",
+      bullets: [
+        "Hydro-jetting for grease, scale, and roots",
+        "Video inspection on every mainline job",
+        "25+ years on Calgary plumbing",
+        "Priority emergency dispatch",
+      ],
+    },
+    stats: [
+      { number: "25+", label: "Years in Calgary", icon: "verified" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "1-2h", label: "Typical visit", icon: "schedule" },
+      { number: "4000", label: "PSI hydro-jet", icon: "check_circle" },
+    ],
+    callout:
+      "Sewage backing up or water coming out of a floor drain? Call us right away — drain emergencies escalate quickly.",
+    richContent: {
+      sections: [
+        {
+          heading: "Why Calgary Homeowners Choose Flame Tech for Drain Cleaning",
+          intro:
+            "As a locally owned and operated Calgary plumbing experts, we specialize in professional drain cleaning services for homes and businesses across the city. Calgary's challenging soil conditions and aging infrastructure demand experienced professionals who understand local drainage patterns and common blockage causes. Flame Tech's technicians are certified in advanced drain cleaning techniques, from traditional cable snaking to high-pressure water jetting for commercial-grade results. Our team regularly services homes across Calgary's diverse neighborhoods, from newer developments in Evergreen to heritage properties in established areas where cast iron and clay pipes present unique challenges.",
+          items: [
+            { heading: "Kitchen Drain Cleaning", body: "Professional removal of grease, food debris, and soap buildup using specialized enzymes and mechanical cleaning tools designed for kitchen drainage systems." },
+            { heading: "Bathroom Drain Services", body: "Complete cleaning of bathtub, shower, and sink drains affected by hair clogs, soap scum, and mineral deposits common in Calgary's hard-water areas." },
+            { heading: "Main Sewer Line Cleaning", body: "High-pressure hydro-jetting and rooter services to clear tree roots, debris, and blockages in primary sewer connections to municipal systems." },
+            { heading: "Floor Drain Maintenance", body: "Basement and utility-room floor drain cleaning including P-trap servicing and debris removal to prevent backup during Calgary's heavy rainfall periods." },
+            { heading: "Video Drain Inspection", body: "Advanced camera technology to identify blockage locations, pipe damage, and root intrusions without excavation, providing accurate diagnosis for targeted repairs." },
+            { heading: "Preventative Drain Maintenance", body: "Regular cleaning schedules using eco-friendly solutions and mechanical methods to maintain optimal drainage before emergency situations develop." },
+          ],
+        },
+        {
+          heading: "Common Drain Cleaning Issues in Calgary Homes",
+          intro:
+            "Calgary homeowners frequently encounter drainage problems that stem from our city's unique environmental conditions and infrastructure challenges. Don't let drainage problems escalate into costly water damage — contact our experienced team for prompt, professional service.",
+          items: [
+            { body: "Tree root infiltration into aging clay and cast iron pipes, particularly common in mature neighborhoods." },
+            { body: "Grease and oil solidification during Calgary's cold winters, creating stubborn kitchen drain blockages." },
+            { body: "Hair and soap buildup accelerated by hard water mineral deposits throughout the drainage system." },
+            { body: "Basement floor drain backups during spring runoff and heavy summer storms." },
+            { body: "Frozen drain lines in unheated areas during extended cold snaps below −30°C." },
+            { body: "Municipal sewer line connections blocked by debris accumulation and settling." },
+          ],
+        },
+        {
+          heading: "Preventative Drain Maintenance for Calgary Homes",
+          intro:
+            "Regular drain maintenance prevents emergency situations while extending the lifespan of your plumbing system, particularly important in Calgary where seasonal temperature extremes stress drainage infrastructure.",
+          items: [
+            { body: "Monthly hot-water flushes help dissolve grease buildup before it solidifies in Calgary's cold temperatures." },
+            { body: "Installing drain screens prevents hair, food particles, and debris from entering the drainage system." },
+            { body: "Avoiding chemical drain cleaners protects pipes from corrosion while maintaining beneficial bacteria in septic systems." },
+            { body: "Professional annual inspections identify developing issues before they become costly emergency repairs." },
+            { body: "Proper disposal of cooking oils and grease prevents accumulation in kitchen drainage lines." },
+            { body: "Tree root barriers near older homes protect sewer lines from invasive root systems." },
+          ],
+        },
+        {
+          heading: "Common Calgary Drain Problems We Solve",
+          items: [
+            { heading: "Tree Root Blockages", body: "Mature trees throughout Calgary send roots seeking moisture into underground drainage pipes, creating partial or complete blockages. Our hydro-jetting equipment cuts through root masses while video inspection identifies entry points for permanent repair solutions. Root barriers and regular maintenance prevent recurring problems in established neighborhoods." },
+            { heading: "Winter Grease Solidification", body: "Calgary's cold temperatures cause cooking oils and grease to solidify in kitchen drains, creating stubborn blockages that resist simple remedies. Professional hot-water jetting combined with specialized degreasers dissolves these accumulations completely. We also provide education on proper grease disposal to prevent future problems." },
+            { heading: "Municipal Sewer Backups", body: "Heavy rainfall and spring snowmelt can overwhelm Calgary's storm water systems, causing basement floor drain backups. Our emergency response team provides immediate water extraction and drain clearing services to prevent extensive damage. We install backflow preventers and recommend sump pump systems for ongoing protection." },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Frequently Asked Questions About Drain Cleaning in Calgary",
+        items: [
+          { q: "How much does professional drain cleaning cost in Calgary?", a: "Basic drain cleaning services typically range from $150–$300 for standard residential clogs, while complex main sewer line cleaning can cost $400–$800 depending on blockage severity and pipe length. Video inspection services add approximately $200–$350 but often save money by identifying exact problem locations without excavation. Our technicians provide upfront pricing before beginning work, ensuring no surprise charges." },
+          { q: "How long does drain cleaning take in Calgary homes?", a: "Most residential drain cleaning jobs complete within 1–2 hours, including setup and cleanup time. Complex blockages involving main sewer lines or multiple affected drains may require 3–4 hours for thorough cleaning. Emergency services prioritize rapid response, with technicians typically arriving within an hour in central Calgary areas. Preventative maintenance visits usually take 45–90 minutes depending on the number of drains serviced." },
+          { q: "What's the difference between snaking and hydro-jetting for drain cleaning?", a: "Traditional drain snaking uses mechanical cables to break through clogs but may leave residual buildup on pipe walls, while hydro-jetting uses high-pressure water (up to 4000 PSI) to completely scour pipes clean. Hydro-jetting is more effective for grease buildup and root removal but requires professional equipment and expertise to avoid damaging older pipes. Our technicians assess pipe condition and blockage type to recommend the most appropriate method for lasting results." },
+          { q: "Can Calgary's hard water affect drain cleaning effectiveness?", a: "Calgary's naturally hard water does create additional mineral buildup in drainage pipes, requiring specialized cleaning solutions and techniques for optimal results. Hard water mineral deposits can trap debris and reduce pipe diameter over time, making regular professional cleaning more important than in soft-water areas. We often recommend water softener systems to reduce future buildup and extend time between professional cleanings." },
+          { q: "How often should Calgary homeowners have drains professionally cleaned?", a: "Most Calgary homes benefit from annual professional drain cleaning, though households with heavy usage or older plumbing may need service every 6–9 months. Homes with large trees nearby often require more frequent main sewer line cleaning due to root intrusion. Kitchen drains in busy households may need attention twice yearly due to grease accumulation, especially during winter months when oils solidify more readily in our cold climate." },
+        ],
+      },
+    },
   },
   {
     slug: "emergency-plumbing",
@@ -238,56 +341,256 @@ export const services: ServicePage[] = [
   },
   // HEATING
   {
-    slug: "boiler-installation",
+    slug: "boiler-installation-calgary",
     category: "Heating",
     icon: "build",
-    title: "Boiler Installation Calgary",
-    lead: "New high-efficiency boilers sized to your home's actual load.",
+    title: "Boiler Installation Calgary | Professional Boiler Services",
+    lead:
+      "Calgary's harsh winters demand reliable heating systems, and boiler installation requires the expertise that comes from years of working with Alberta's climate extremes.",
+    heroBody: [
+      "FlameTech's certified technicians have installed hundreds of boilers throughout Calgary, from compact units for downtown condos to high-capacity systems for sprawling homes in communities like Aspen Woods. We handle everything from gas-fired condensing boilers to electric units, matching the right system to your home's specific heating needs.",
+      "When your old boiler finally gives up during a January cold snap, you need fast response from people who answer their phones. Our Calgary-based crew offers priority emergency boiler installations — no automated messages, no waiting until Monday morning.",
+    ],
+    heroSubhead: "Trusted Calgary Boiler Installation Experts",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/navine-boiler.png", alt: "Navien high-efficiency boiler installed by FlameTech" },
     intro:
-      "A properly sized boiler runs quieter, uses less gas, and lasts longer. We perform a full load calculation before recommending a unit — never a guess off square footage.",
+      "Professional boiler installation in Calgary by certified technicians. Priority service, gas & electric boilers, all brands.",
     features: [
-      "Full heat-loss load calculation",
-      "High-efficiency condensing boilers",
-      "Radiant floor and zoned hydronic",
-      "Modulating combustion setups",
-      "Commissioning and handover walk-through",
+      "Gas boiler installation",
+      "Electric boiler installation",
+      "Condensing boiler systems",
+      "Combi boiler installation",
+      "Hydronic radiant systems",
+      "Boiler replacement & upgrades",
     ],
     bullets: [
       {
-        t: "Sized for Calgary winters",
-        d: "We design for sustained -30°C cold snaps, not generic climate zones.",
+        t: "Calgary-climate sizing",
+        d: "Every install sized for our −40°C design temperature, not just mild winter days.",
       },
       {
-        t: "Quiet, steady heat",
-        d: "Modulating burners avoid the cycle-and-bang problem older boilers are known for.",
+        t: "Top-brand certifications",
+        d: "Manufacturer training on Viessmann, Navien, Triangle Tube, Crown, and Weil-McLain.",
       },
     ],
+    seoTitle: "Boiler Installation Calgary | Expert Boiler Services",
+    seoDescription:
+      "Professional boiler installation in Calgary by certified technicians. Priority service, gas & electric boilers, all brands. Call FlameTech today for fast service!",
+    seoKeywords: [
+      "boiler installation Calgary",
+      "condensing boiler Calgary",
+      "gas boiler install",
+      "Viessmann Navien Triangle Tube",
+      "combi boiler Calgary",
+      "FlameTech Plumbing Heating",
+    ],
+    quoteFormLabel: "boiler install",
+    quoteFormPlaceholder:
+      "e.g. old boiler needs replacing, looking at condensing upgrade, planning a hydronic radiant system…",
+    sidebar: {
+      title: "Calgary Boiler Installation",
+      subtitle:
+        "High-efficiency gas, electric, condensing, and combi boilers — sized for Calgary's −40°C design temperature.",
+      bullets: [
+        "Viessmann · Navien · Triangle Tube · Crown · Weil-McLain",
+        "Proper heat-loss load calculations",
+        "Gas line + venting + condensate upgrades",
+        "Priority emergency installations",
+      ],
+    },
+    stats: [
+      { number: "15+", label: "Years installing", icon: "verified" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "6-10h", label: "Typical install", icon: "schedule" },
+      { number: "90-95%", label: "AFUE efficiency", icon: "award" },
+    ],
+    financing: {
+      detail:
+        "Spread the cost of your new boiler into flexible monthly payments via our Financeit partner.",
+    },
+    callout:
+      "Boiler down in a cold snap? Call now for priority replacement — we stock emergency boiler inventory in Calgary.",
+    richContent: {
+      sections: [
+        {
+          heading: "Why Calgary Homeowners Choose FlameTech for Boiler Installation",
+          intro:
+            "From emergency installations to planned upgrades, our Calgary boiler specialists bring decades of hands-on experience with every major brand and model. FlameTech's technicians hold gas fitter certifications and manufacturer training from Viessmann, Navien, Triangle Tube, and other top boiler brands. We've installed systems in everything from 1920s Mount Royal heritage homes to brand-new builds in Cranston. Our truck inventory includes parts for the most common Calgary boiler models, which means we can often complete installations in a single visit instead of ordering parts and coming back next week. Every installation includes proper sizing calculations based on your home's square footage, insulation levels, and Calgary's −40°C design temperature.",
+          items: [
+            { heading: "Gas Boiler Installation", body: "We install high-efficiency gas-fired boilers from all major manufacturers, handling gas line connections, venting, and system commissioning to manufacturer specifications." },
+            { heading: "Electric Boiler Installation", body: "For homes without gas access or as backup heating systems, we install electric boilers with proper electrical connections and safety controls." },
+            { heading: "Condensing Boiler Systems", body: "These high-efficiency units extract extra heat from exhaust gases, reducing your natural gas bills during Calgary's long heating season." },
+            { heading: "Combi Boiler Installation", body: "Combination units that provide both space heating and domestic hot water in a single compact system, perfect for smaller Calgary homes and condos." },
+            { heading: "Hydronic Radiant Systems", body: "We install in-floor radiant heating systems with new boilers, providing even heat distribution throughout your Calgary home." },
+            { heading: "Boiler Replacement & Upgrades", body: "Complete removal of old units and installation of new systems, including all necessary piping modifications and control upgrades." },
+          ],
+        },
+        {
+          heading: "Common Boiler Installation Issues in Calgary Homes",
+          intro:
+            "Calgary homeowners call us for boiler installations when their old systems can't keep up with our brutal winters or when energy bills get too expensive to ignore. If your boiler is over 20 years old or your heating bills keep climbing, it's time for a replacement conversation.",
+          items: [
+            { body: "Old cast iron boilers that take forever to heat up and waste gas." },
+            { body: "Undersized boilers that run constantly but never get the house warm enough." },
+            { body: "Ancient boilers with parts that aren't made anymore." },
+            { body: "Systems installed in the 1980s with efficiency ratings under 70%." },
+            { body: "Boilers that can't handle Calgary's hard water and scale up quickly." },
+            { body: "Units that break down every winter when you need them most." },
+          ],
+        },
+        {
+          heading: "Calgary Boiler Installation Best Practices",
+          intro:
+            "Proper boiler installation is critical in Calgary's climate — a system that's not sized correctly or installed properly will cost you thousands in wasted energy and repairs over its lifespan.",
+          items: [
+            { body: "Size the boiler correctly for Calgary's −40°C design temperature, not just mild winter days." },
+            { body: "Install proper water treatment systems to handle Calgary's hard water." },
+            { body: "Use high-quality expansion tanks sized for the system's water volume." },
+            { body: "Install zone controls if you have multiple heating areas in your home." },
+            { body: "Schedule annual maintenance starting the year after installation." },
+            { body: "Keep the boiler room clear and accessible for service calls." },
+          ],
+        },
+        {
+          heading: "Common Calgary Boiler Installation Challenges We Handle",
+          items: [
+            { heading: "Undersized Gas Lines", body: "Many Calgary homes have gas lines sized for old, low-input boilers. New high-efficiency units often need larger gas supply lines to operate properly. We assess gas line capacity during the installation quote and upgrade lines when necessary." },
+            { heading: "Inadequate Venting Systems", body: "Older Calgary homes often have brick chimneys that aren't suitable for modern condensing boilers. These units need plastic venting that can handle acidic condensate. We install proper venting systems that meet current Alberta gas codes and manufacturer requirements." },
+            { heading: "Hard Water Damage", body: "Calgary's hard water causes scale buildup in boiler heat exchangers, reducing efficiency and causing premature failure. We recommend and install water treatment systems during boiler installations to protect your investment from mineral buildup." },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Frequently Asked Questions About Boiler Installation in Calgary",
+        items: [
+          { q: "How long does boiler installation take in Calgary homes?", a: "Most boiler installations take 6–10 hours for a straight replacement, or 1–2 days for complex installations with new piping or electrical work. Calgary's older homes often need additional work like upgrading gas lines or installing new venting systems. We'll give you an accurate timeline after assessing your specific installation requirements." },
+          { q: "What size boiler do I need for my Calgary home?", a: "Boiler sizing depends on your home's square footage, insulation levels, ceiling heights, and Calgary's −40°C design temperature. Most Calgary homes need 20–30 BTU per square foot, but older homes with poor insulation may need more. We perform proper heat-loss calculations instead of just matching your old boiler's size, which may have been wrong to begin with." },
+          { q: "Can you install a boiler in Calgary's winter weather?", a: "Yes, we install boilers year-round, including during Calgary's coldest months. Winter installations require extra care to prevent pipes from freezing during the changeover, but our technicians carry freeze-protection equipment and work quickly to minimize downtime. Emergency winter installations typically take longer due to weather precautions." },
+          { q: "Do I need permits for boiler installation in Calgary?", a: "Yes, boiler installations in Calgary require gas permits and often electrical permits if we're upgrading controls or adding new circuits. FlameTech handles all permit applications and city inspections as part of our installation service. We know Calgary's inspection requirements and schedule inspections to avoid delays in getting your system operational." },
+          { q: "What's the difference between condensing and non-condensing boilers for Calgary homes?", a: "Condensing boilers extract extra heat from exhaust gases, achieving 90–95% efficiency compared to 80–85% for standard units. In Calgary's long heating season, the extra efficiency saves significant money on natural gas bills. However, condensing boilers need proper drainage for condensate and may require different venting materials. We'll recommend the best type based on your home's setup and budget." },
+        ],
+      },
+    },
   },
   {
-    slug: "boiler-repair",
+    slug: "boiler-repair-calgary",
     category: "Heating",
     icon: "handyman",
-    title: "Boiler Repair Calgary",
-    lead: "Fast diagnosis and honest repair advice for failing boilers.",
+    title: "Boiler Repair Calgary | Expert Heating System Services",
+    lead:
+      "Calgary's unforgiving winters demand reliable heating, and when your boiler fails, FlameTech Plumbing delivers the expert repair services you need to restore warmth to your home.",
+    heroBody: [
+      "With over 25 years of experience servicing residential and commercial boilers throughout Calgary, our certified technicians understand the intricate mechanics of modern condensing boilers, traditional cast iron systems, and everything in between.",
+      "Heating emergencies strike without warning, which is why Flame Tech offers priority emergency boiler repair throughout Calgary and surrounding areas. Whether your boiler is cycling erratically during a −30°C cold snap or completely shut down on a Sunday evening, our real technicians answer the phone and dispatch immediately with fully-stocked service vehicles.",
+    ],
+    heroSubhead: "Trusted Calgary Boiler Repair Experts",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/FTVAN.jpg", alt: "FlameTech service van ready for boiler repair in Calgary", fit: "cover" },
     intro:
-      "When your boiler fails on the coldest night of the year, you need a clear diagnosis and a real recommendation. We'll tell you whether to repair or replace.",
+      "Expert boiler repair in Calgary. 25+ years experience with all brands. Priority emergency response. Certified technicians.",
     features: [
-      "Pressure and leak diagnosis",
-      "Circulator pump repair",
-      "Zone valve and thermostat service",
-      "Ignition and combustion tuning",
-      "Expansion tank troubleshooting",
+      "Comprehensive boiler diagnostics",
+      "Burner assembly repair",
+      "Heat exchanger descaling",
+      "Pressure & circulation issues",
+      "Control system repair",
+      "Emergency safety shutdowns",
     ],
     bullets: [
       {
-        t: "Honest repair-or-replace advice",
-        d: "If a repair doesn't make financial sense, we'll say so and show you the math.",
+        t: "25+ years of Calgary experience",
+        d: "We've troubleshot thousands of boiler failures across every Calgary neighborhood from Kensington to McKenzie Towne.",
       },
       {
-        t: "Stocked service vehicles",
-        d: "Common parts on board so most repairs finish the same day.",
+        t: "Stocked service trucks",
+        d: "Pumps, controls, sensors, and safety devices for most major brands — same-visit repairs whenever possible.",
       },
     ],
+    seoTitle: "Calgary Boiler Repair | Priority Emergency Service | Flame Tech",
+    seoDescription:
+      "Expert boiler repair in Calgary. 25+ years experience with all brands. Priority emergency service. Certified technicians. Call now!",
+    seoKeywords: [
+      "boiler repair Calgary",
+      "emergency boiler repair",
+      "condensing boiler repair",
+      "cast iron boiler service",
+      "heating repair Calgary",
+      "FlameTech Plumbing Heating",
+    ],
+    quoteFormLabel: "boiler repair",
+    quoteFormPlaceholder:
+      "e.g. boiler cycling on/off, no heat to radiators, leaking water, error code on display, banging noises…",
+    sidebar: {
+      title: "Calgary Boiler Repair",
+      subtitle:
+        "25+ years servicing Calgary boilers — diagnostics, burner service, pressure fixes, and emergency shutdowns.",
+      bullets: [
+        "Every major brand — Viessmann to vintage cast iron",
+        "Trucks stocked for same-visit repair",
+        "Chinook-aware calibration",
+        "Priority emergency dispatch",
+      ],
+    },
+    stats: [
+      { number: "25+", label: "Years repairing", icon: "verified" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "<1h", label: "Priority dispatch", icon: "schedule" },
+      { number: "ANY", label: "Brand serviced", icon: "check_circle" },
+    ],
+    callout:
+      "Smell gas, see water leaking, or hear banging from your boiler? Shut it off at the switch and call us immediately.",
+    richContent: {
+      sections: [
+        {
+          heading: "Why Calgary Homeowners Choose Flame Tech for Boiler Repair",
+          intro:
+            "As a locally owned and operated plumbers in Calgary, we specialize in professional boiler repair services for homes and businesses across the city. Technical expertise separates professional boiler repair from guesswork, and FlameTech's team brings decades of specialized knowledge to every service call. Calgary's challenging climate — from extreme temperature swings to chinook winds that stress heating systems — requires technicians who understand how weather patterns affect boiler performance, and our team has troubleshot thousands of boiler failures across every Calgary neighborhood from Kensington to McKenzie Towne.",
+          items: [
+            { heading: "Comprehensive Boiler Diagnostics", body: "Advanced testing protocols identify root causes of boiler malfunctions, including combustion analysis, pressure testing, and electronic control system evaluation to pinpoint issues before costly repairs escalate." },
+            { heading: "Burner Assembly Repair", body: "Complete burner servicing covers gas valve calibration, flame sensor cleaning, ignition system replacement, and air-to-fuel ratio optimization for efficient, safe combustion in Calgary's varying atmospheric conditions." },
+            { heading: "Heat Exchanger Service", body: "Professional descaling removes mineral buildup that reduces efficiency, while our technicians inspect for stress cracks and corrosion that develop from Calgary's hard water and temperature extremes." },
+            { heading: "Pressure and Circulation Issues", body: "Expert repair of expansion tanks, pressure relief valves, circulation pumps, and zone valves restores proper water flow and system pressure throughout your heating zones." },
+            { heading: "Control System Repair", body: "Thermostat calibration, outdoor reset controls, modulating valve repair, and smart control integration ensure your boiler responds accurately to heating demands while maximizing energy efficiency." },
+            { heading: "Emergency Safety Shutdowns", body: "Immediate response to boiler lockouts, gas leaks, carbon monoxide concerns, and other safety-related shutdowns that require certified technician intervention to restore safe operation." },
+          ],
+        },
+        {
+          heading: "Common Boiler Repair Issues in Calgary Homes",
+          intro:
+            "Calgary homeowners encounter specific boiler challenges that stem from our unique climate conditions and local water chemistry, requiring experienced diagnosis to resolve effectively. Recognizing these warning signs early prevents complete system failures that leave families without heat during Calgary's harshest weather.",
+          items: [
+            { body: "Frequent cycling during chinook temperature swings overwhelms boiler controls designed for steady outdoor temperatures." },
+            { body: "Mineral scaling from Calgary's hard water reduces heat exchanger efficiency and blocks circulation pathways." },
+            { body: "Condensate drain freezing during extreme cold weather causes system shutdowns and potential water damage." },
+            { body: "Pressure loss from expansion tank failure becomes critical when outdoor temperatures plummet rapidly." },
+            { body: "Combustion air intake blockage from snow accumulation triggers safety shutdowns during winter storms." },
+            { body: "Thermostat sensor drift causes temperature inconsistencies that worsen during Calgary's dramatic weather shifts." },
+          ],
+        },
+        {
+          heading: "Preventative Boiler Maintenance for Calgary Conditions",
+          intro:
+            "Regular maintenance tailored to Calgary's demanding climate conditions prevents expensive emergency repairs while extending boiler lifespan through systematic care of critical components. Professional servicing addresses wear patterns unique to our temperature extremes and prepares heating systems for reliable winter operation.",
+          items: [
+            { body: "Annual combustion analysis ensures optimal fuel efficiency and identifies developing issues before they cause system failures during peak heating season." },
+            { body: "Descaling heat exchangers removes mineral deposits from Calgary's hard water that restrict heat transfer and increase energy consumption." },
+            { body: "Expansion tank inspection prevents pressure-related shutdowns that commonly occur during rapid temperature changes from chinook winds." },
+            { body: "Condensate drain flushing eliminates blockages that cause water backup and system shutdowns during freezing weather." },
+            { body: "Control system calibration maintains accurate temperature response as sensors drift over time from constant cycling." },
+            { body: "Safety device testing verifies proper operation of pressure relief valves, gas shutoffs, and flame sensors that protect your family." },
+          ],
+        },
+        {
+          heading: "Calgary Boiler Repair Expertise You Can Trust",
+          items: [
+            { body: "Twenty-five years of Calgary boiler service has equipped our team with deep understanding of how different boiler designs perform in our climate, enabling accurate diagnosis of complex issues that stump less experienced technicians." },
+            { body: "From high-efficiency condensing boilers in new construction to cast iron workhorses in heritage Calgary homes, our technicians service every boiler type installed throughout the city's diverse housing stock. Experience with Calgary's building codes, basement configurations, and utility connections ensures proper repairs that meet local standards while addressing unique installation challenges in older neighborhoods like Hillhurst and newer developments in Cranston." },
+            { body: "Calgary's extreme winter conditions and dramatic temperature swings create unique stresses on boiler systems that require specialized knowledge to address effectively. Our team understands why expansion tanks fail more frequently in our climate and how to prevent condensate freezing issues that plague boilers during extended cold spells, ensuring reliable heating performance through Calgary's demanding winter months." },
+          ],
+        },
+      ],
+    },
   },
   {
     slug: "boiler-service-calgary",
@@ -929,30 +1232,128 @@ export const services: ServicePage[] = [
     ],
   },
   {
-    slug: "heat-pumps",
+    slug: "heat-pumps-calgary",
     category: "Heating",
     icon: "ac_unit",
-    title: "Cold-Climate Heat Pumps Calgary",
-    lead: "Modern dual-fuel heat pump systems that handle Alberta winters.",
+    title: "Heat Pumps Calgary – Professional Installation & Service",
+    lead:
+      "Flame Tech Plumbing & Heating is Calgary's premier provider of energy-efficient heat pump solutions.",
+    heroBody: [
+      "As local specialists with deep roots in our community, we understand the unique heating and cooling challenges that Calgary's climate presents throughout the year.",
+      "Our expertise in heat pump technology ensures you receive customized solutions that maximize comfort while minimizing energy costs.",
+    ],
+    heroSubhead: "Year-Round Comfort",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/2026/01/image.png", alt: "AirEase cold-climate heat pump installed by FlameTech" },
     intro:
-      "Cold-climate heat pumps maintain efficient operation well below -25°C, pairing with a furnace for deep-cold backup. One system, both seasons.",
+      "Expert heat pump installation, repair, and maintenance in Calgary. Energy-efficient heating and cooling for Alberta homes.",
     features: [
-      "Cold-climate rated heat pumps",
-      "Dual-fuel (heat pump + furnace) setups",
-      "Summer air conditioning in the same unit",
-      "Load-matched sizing",
-      "Smart crossover controls",
+      "Heat pump installation",
+      "Heat pump repair (all brands)",
+      "Preventative maintenance & service",
+      "Air-source & ductless mini-split",
+      "Ground-source heat pumps",
+      "Priority emergency service",
     ],
     bullets: [
       {
-        t: "One system, two seasons",
-        d: "Heat pumps run in reverse in summer, replacing a separate AC install.",
+        t: "Calgary heat pump specialists",
+        d: "Our certified technicians live and serve right here in Calgary. We're familiar with how our extreme temperature swings impact heat pump performance.",
       },
       {
-        t: "Lower long-term operating cost",
-        d: "Especially compelling for homeowners planning to electrify over time.",
+        t: "Licensed & insured",
+        d: "Every member of our team carries full licensing and comprehensive insurance — the strictest safety benchmarks in the industry.",
       },
     ],
+    seoTitle: "Heat Pump Installation Calgary | Flame Tech Plumbing",
+    seoDescription:
+      "Expert heat pump installation, repair & maintenance in Calgary. Energy-efficient heating & cooling solutions for Alberta homes. Priority service.",
+    seoKeywords: [
+      "heat pump Calgary",
+      "heat pump installation Calgary",
+      "ductless mini-split Calgary",
+      "cold climate heat pump",
+      "AirEase heat pump Calgary",
+      "FlameTech Plumbing Heating",
+    ],
+    quoteFormLabel: "heat pump",
+    quoteFormPlaceholder:
+      "e.g. looking at a new heat pump install, existing unit losing heat, considering a ductless mini-split for the basement…",
+    sidebar: {
+      title: "Calgary Heat Pump Service",
+      subtitle:
+        "Installation, repair, and maintenance of air-source, ductless mini-split, and ground-source heat pumps.",
+      bullets: [
+        "AirEase 12-year parts & labor warranty",
+        "Ductless mini-split specialists",
+        "One system heats AND cools",
+        "Certified Calgary technicians",
+      ],
+    },
+    stats: [
+      { number: "12-YR", label: "AirEase warranty", icon: "award" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "ALL", label: "Makes & models", icon: "check_circle" },
+      { number: "2-IN-1", label: "Heat + cool", icon: "verified" },
+    ],
+    financing: {
+      detail:
+        "Spread the cost of your new heat pump into flexible monthly payments via our Financeit partner.",
+    },
+    richContent: {
+      sections: [
+        {
+          heading: "Why Calgary Homeowners Trust Flame Tech for Heat Pumps",
+          intro:
+            "Selecting the ideal heat pump provider makes all the difference in performance and longevity. Here's what sets Flame Tech Plumbing & Heating apart in Calgary:",
+          items: [
+            { heading: "Calgary Heat Pump Specialists", body: "Our certified technicians live and serve right here in Calgary. We're intimately familiar with how our extreme temperature swings impact heat pump performance and know exactly which systems thrive in our climate conditions." },
+            { heading: "Certified & Covered Professionals", body: "Your investment deserves protection. Every member of our team carries full licensing and comprehensive insurance, delivering services that meet the strictest quality and safety benchmarks in the industry. We also have Heat Pump Experts available in Airdrie." },
+          ],
+        },
+        {
+          heading: "Our Heat Pump Services",
+          intro:
+            "Flame Tech Plumbing & Heating delivers comprehensive heat pump services designed for Calgary's climate:",
+          items: [
+            { heading: "Heat Pump Installation", body: "Considering a heat pump upgrade for your Calgary property? Our specialists assess your property's heating and cooling requirements, recommending the optimal heat pump system that balances performance with your financial goals. We manage every installation phase with precision and professionalism from start to finish." },
+            { heading: "Heat Pump Repair", body: "Experiencing reduced heating or cooling output, unusual sounds, or complete system failure? Our trained technicians troubleshoot and repair all heat pump brands and configurations rapidly, bringing reliable climate control back to your Calgary home. When you need heat pump repair Calgary, Flame Tech responds quickly." },
+            { heading: "Heat Pump Maintenance & Service", body: "Preventative maintenance protects your heat pump investment and ensures peak efficiency year-round. Our thorough heat pump servicing in Calgary prevents expensive failures, optimizes energy consumption, and extends system lifespan through all seasons." },
+            { heading: "Emergency Heat Pump Services", body: "Heat pump failures never follow convenient schedules, particularly during Calgary's temperature extremes. Flame Tech provides priority emergency heat pump services in Calgary to restore your comfort when you need it most urgently." },
+          ],
+        },
+        {
+          heading: "Selecting the Perfect Heat Pump for Your Calgary Property",
+          items: [
+            { heading: "Heat Pump System Options", body: "We install multiple heat pump configurations suited to diverse Calgary properties, including air-source systems, ductless mini-splits, and ground-source options. Our professionals clarify the advantages of each system type and guide you toward the ideal match for your specific situation." },
+            { heading: "Key Selection Criteria (Property Size, Investment, Performance)", body: "Your ideal heat pump selection depends on multiple variables including square footage, available investment, and desired efficiency performance levels. We thoroughly review these elements with you to guarantee a well-informed choice." },
+            { heading: "Professional Guidance You Can Trust", body: "Drawing on comprehensive heat pump knowledge and years serving Calgary residents, we deliver personalized recommendations aligned perfectly with your unique circumstances." },
+          ],
+        },
+      ],
+      promo: {
+        heading: "AirEase Special — 12-year parts and labor warranty*",
+        image: { src: "/images/2026/02/SCR-20260212-hxkx.webp", alt: "AirEase warranty offer" },
+        groups: [
+          { heading: "Qualifying Residential Products", items: ["Heat Pumps: Model 4SHP18LX."] },
+          { heading: "Requirements for Coverage", items: [
+            "Registration: Equipment must be registered online within 60 days of installation.",
+            "Residential Application: Limited to owner-occupied residential use.",
+            "Annual Maintenance: Documented annual professional maintenance is required to maintain the labor portion of the agreement.",
+          ]},
+        ],
+        disclaimer: "Terms and Conditions Apply",
+      },
+      faq: {
+        heading: "Heat Pump Questions Calgary Homeowners Ask",
+        items: [
+          { q: "Ready to discover the Flame Tech advantage?", a: "Reach out now for a complimentary, pressure-free estimate on our heat pump services in Calgary. Connect with us via phone, email, or our convenient online scheduling platform. We're standing by to address your questions and arrange service whenever suits you best." },
+          { q: "How often should I have my heat pump serviced?", a: "We advise booking professional heat pump maintenance twice annually — spring and fall — to maintain peak efficiency and catch problems before they escalate into major repairs." },
+          { q: "What are the signs my heat pump needs repair?", a: "Warning signs include irregular heating or cooling patterns, unfamiliar operational sounds, moisture accumulation, ice formation, and unexplained spikes in utility costs. Contact our Calgary heat pump repair specialists immediately when noticing these symptoms." },
+          { q: "How long does installation take?", a: "Installation timelines vary based on system configuration and installation complexity. We establish transparent expectations and provide detailed scheduling before beginning any project." },
+        ],
+      },
+    },
   },
   // AIR
   {
@@ -1261,30 +1662,108 @@ export const services: ServicePage[] = [
     ],
   },
   {
-    slug: "water-softeners",
+    slug: "water-softener",
     category: "Water",
     icon: "science",
-    title: "Water Softeners Calgary",
-    lead: "Protect fixtures, appliances, and skin from Alberta hard water.",
+    title: "Water Softener Calgary – Installation & Service",
+    lead:
+      "Calgary's water hardness can lead to frustrating issues, from dingy laundry to costly appliance repairs.",
+    heroBody: [
+      "At Flame Tech Plumbing & Heating, we understand these challenges. We provide top-quality water softener systems and professional installation and maintenance services, ensuring your home enjoys the luxury of soft, clean water.",
+    ],
+    heroSubhead: "Satisfaction Guaranteed",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/water-softener-calgary.png", alt: "Residential water softener installed by FlameTech" },
     intro:
       "Calgary water measures 14–16 grains per gallon — firmly in the very-hard range. A softener extends appliance life, reduces soap use, and makes fixtures easier to clean.",
     features: [
-      "Properly sized softener systems",
-      "Demand-regenerating controls",
+      "Professional softener installation",
+      "Annual service & maintenance",
       "Bypass plumbing setup",
-      "Salt recommendation and service",
-      "Integration with tankless heaters",
+      "Salt system recommendations",
+      "Tankless-heater integration",
+      "Emergency service calls",
     ],
     bullets: [
       {
-        t: "Sized for your household",
-        d: "Oversized softeners waste salt; undersized ones don't soften. We calculate from actual usage.",
+        t: "Local water-softening experts",
+        d: "Our team lives and works in Calgary — we understand the specific demands our hard water places on homes and appliances.",
       },
       {
-        t: "Appliance protection",
-        d: "Softened water extends hot water tank and dishwasher life — real savings over time.",
+        t: "Licensed & insured technicians",
+        d: "Professional and safe service that adheres to the highest industry standards. We also offer water softener services in Airdrie.",
       },
     ],
+    seoTitle: "Water Softener Calgary | Installation & Service | FlameTech",
+    seoDescription:
+      "Calgary water softener installation and service from FlameTech. Protect fixtures and appliances from hard-water damage. Call 587-834-3668 for a free quote.",
+    seoKeywords: [
+      "water softener Calgary",
+      "hard water Calgary",
+      "water softener installation",
+      "Calgary water treatment",
+      "FlameTech Plumbing Heating",
+    ],
+    quoteFormLabel: "water softener",
+    quoteFormPlaceholder:
+      "e.g. hard-water spotting on fixtures, laundry feels stiff, looking for a softener install, need annual service…",
+    sidebar: {
+      title: "Calgary Water Softener",
+      subtitle:
+        "Installation and servicing of properly sized softener systems — sized for your household's actual usage.",
+      bullets: [
+        "Protect fixtures, water heaters, and dishwashers",
+        "Demand-regenerating controls",
+        "Bypass plumbing on every install",
+        "Annual service & salt refills",
+      ],
+    },
+    stats: [
+      { number: "14-16", label: "GPG Calgary hardness", icon: "verified" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "10-15", label: "Years softener life", icon: "schedule" },
+      { number: "FREE", label: "Estimates", icon: "request_quote" },
+    ],
+    financing: {
+      detail:
+        "Spread the cost of a whole-home softener install into flexible monthly payments via our Financeit partner.",
+    },
+    richContent: {
+      sections: [
+        {
+          heading: "Why Choose Flame Tech for Water Softeners in Calgary?",
+          intro:
+            "Choosing the right company for your water-softening needs is crucial. Here's why Calgary trusts Flame Tech Plumbing & Heating:",
+          items: [
+            { heading: "Local Water Softening Experts", body: "Our team comprises highly skilled and experienced technicians who live and work right here in Calgary. We understand the specific demands our climate places on your water softener system and are equipped to handle any issue, big or small. We also offer water softener services in Airdrie." },
+            { heading: "Licensed & Insured Technicians", body: "Your peace of mind is our priority. All our technicians are fully licensed and insured, guaranteeing professional and safe service that adheres to the highest industry standards." },
+          ],
+        },
+        {
+          heading: "Benefits of Water Softeners for Calgary Homes",
+          intro:
+            "Installing a water softener from Flame Tech Plumbing & Heating offers a multitude of benefits for your Calgary home:",
+          items: [
+            { body: "Extends the life of water heaters, dishwashers, washing machines, and other appliances by preventing scale buildup." },
+            { body: "Reduces soap and detergent use — softened water lathers better and rinses cleanly." },
+            { body: "Keeps fixtures, glass shower doors, and sinks free from hard-water spotting." },
+            { body: "Improves skin and hair feel after showers by eliminating the mineral film hard water leaves behind." },
+            { body: "Protects tankless water heaters from scaling that otherwise requires frequent descaling service." },
+            { body: "Makes laundry softer and brighter, with colors lasting longer over repeat washes." },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Frequently Asked Questions About Water Softening in Calgary",
+        items: [
+          { q: "How does a water softener work?", a: "Water softeners use a process called ion exchange to remove calcium and magnesium minerals from your water. Resin beads within the softener attract and trap these hard-water minerals, replacing them with sodium ions." },
+          { q: "How much does a water softener cost?", a: "The cost of a water softener can vary depending on the size and type of system, as well as the complexity of the installation. Contact us for a free, no-obligation quote." },
+          { q: "How long do water softeners last?", a: "With proper maintenance, a good quality water softener can last for 10 to 15 years or even longer." },
+          { q: "Is softened water safe to drink?", a: "Yes, softened water is generally safe to drink. The amount of sodium added during the softening process is typically minimal and well within safe drinking water standards. Individuals on strict low-sodium diets should consult with their doctor." },
+          { q: "How often does a water softener need servicing?", a: "Regular maintenance typically involves periodically adding salt to the brine tank and potentially having a professional inspection every few years." },
+        ],
+      },
+    },
   },
 ];
 

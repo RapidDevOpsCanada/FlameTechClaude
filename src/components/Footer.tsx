@@ -4,19 +4,19 @@ import Icon from "@/components/Icon";
 const plumbingLinks = [
   { label: "Bathroom Plumbing", href: "/bathroom-plumbing" },
   { label: "Shower Plumbing", href: "/shower-plumbing" },
-  { label: "Drain Cleaning", href: "/drain-cleaning" },
+  { label: "Drain Cleaning", href: "/drain-cleaning-calgary" },
   { label: "Emergency Plumbing", href: "/emergency-plumbing" },
   { label: "PolyB Replacement", href: "/polyb-plumbing" },
 ];
 
 const heatingLinks = [
-  { label: "Boiler Installation", href: "/boiler-installation" },
-  { label: "Boiler Repair", href: "/boiler-repair" },
+  { label: "Boiler Installation", href: "/boiler-installation-calgary" },
+  { label: "Boiler Repair", href: "/boiler-repair-calgary" },
   { label: "Boiler Service", href: "/boiler-service-calgary" },
   { label: "Furnaces", href: "/furnaces" },
   { label: "High-Efficiency Furnaces", href: "/high-efficiency-furnaces-calgary" },
   { label: "Garage Heaters", href: "/garage-heaters" },
-  { label: "Heat Pumps", href: "/heat-pumps" },
+  { label: "Heat Pumps", href: "/heat-pumps-calgary" },
 ];
 
 const airWaterLinks = [
@@ -24,7 +24,7 @@ const airWaterLinks = [
   { label: "Humidifiers", href: "/humidifiers" },
   { label: "Hot Water Tanks", href: "/hot-water-tanks" },
   { label: "Tankless Heaters", href: "/tankless-water-heaters" },
-  { label: "Water Softeners", href: "/water-softeners" },
+  { label: "Water Softener", href: "/water-softener" },
 ];
 
 const companyLinks = [
