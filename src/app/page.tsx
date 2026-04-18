@@ -46,7 +46,7 @@ export default function Home() {
                     className="inline-flex items-center gap-2 rounded-full bg-emergency text-cream-50 font-extrabold uppercase tracking-tight px-7 py-4 text-[14px] hover:bg-emergency-deep transition-colors"
                   >
                     <span className="material-symbols-outlined text-lg">
-                      contact_emergency
+                      call
                     </span>
                     Call 587-834-3668
                   </a>
@@ -88,7 +88,108 @@ export default function Home() {
             <Stat number="45+" label="Years combined experience" />
             <Stat number="2,000+" label="Jobs completed" />
             <Stat number="5.0★" label="Google rated" />
-            <Stat number="60–90" label="Min typical response" />
+            <Stat number="100%" label="Satisfaction guaranteed" />
+          </div>
+        </section>
+
+        {/* WHY US — cream, light mode, just below stats */}
+        <section
+          id="why-us"
+          className="relative bg-cream-50 text-ink-900 py-20 overflow-hidden"
+        >
+          <div className="absolute -bottom-40 -right-40 w-[560px] h-[560px] rounded-full bg-primary/10 blur-3xl pointer-events-none"></div>
+          <div className="max-w-7xl mx-auto px-6 md:px-10 relative">
+            <div className="grid grid-cols-12 gap-12 items-stretch">
+              <Reveal className="col-span-12 lg:col-span-6">
+                <div className="rounded-3xl bg-white border border-line-light overflow-hidden h-full flex flex-col soft-shadow">
+                  <div className="p-8 md:p-10 pb-6">
+                    <span className="eyebrow-light mb-4">Founders</span>
+                    <h3 className="font-display text-3xl md:text-4xl font-extrabold tracking-[-0.02em] mt-4 mb-6 leading-tight">
+                      Red Seal journeypersons. 45+ years combined.
+                    </h3>
+                  </div>
+                  <div className="relative mx-6 md:mx-8 mb-6 rounded-2xl overflow-hidden border border-line-light">
+                    <img
+                      src="/images/FTVAN1.jpg"
+                      alt="FlameTech service van"
+                      className="w-full h-40 md:h-48 object-cover object-top"
+                    />
+                    <div className="absolute bottom-3 left-3 rounded-full bg-ink-900/90 backdrop-blur-md text-cream-50 px-3 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.14em] flex items-center gap-2 border border-cream-50/10">
+                      <span className="material-symbols-outlined text-sm text-primary">
+                        verified
+                      </span>
+                      Red Seal · Alberta Licensed
+                    </div>
+                  </div>
+                  <div className="p-8 md:p-10 pt-2 flex flex-col justify-between flex-1">
+                    <p className="text-ink-500 leading-relaxed mb-8">
+                      FlameTech is owned and run by Shaun Kristoff and Jason
+                      Mounsey — Red Seal–certified plumbers who built this
+                      company around honest advice, upfront pricing, and
+                      doing things right the first time.
+                    </p>
+                    <div className="grid grid-cols-2 gap-4 pt-6 border-t border-line-light">
+                      <div>
+                        <div className="font-display text-3xl font-extrabold text-primary-deep mb-1">
+                          25+
+                        </div>
+                        <div className="text-xs uppercase tracking-[0.14em] font-semibold text-ink-500">
+                          Shaun — years in trade
+                        </div>
+                      </div>
+                      <div>
+                        <div className="font-display text-3xl font-extrabold text-primary-deep mb-1">
+                          20+
+                        </div>
+                        <div className="text-xs uppercase tracking-[0.14em] font-semibold text-ink-500">
+                          Jason — years in trade
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </Reveal>
+              <Reveal delay={120} className="col-span-12 lg:col-span-6">
+                <span className="eyebrow-light mb-4">Why Calgary chooses us</span>
+                <h2 className="font-display text-4xl md:text-5xl xl:text-6xl font-extrabold tracking-[-0.025em] mt-4 mb-8 leading-[1.02]">
+                  Local experts, upfront pricing, work you can{" "}
+                  <span className="text-emergency">trust</span>.
+                </h2>
+                <div className="space-y-4">
+                  {[
+                    {
+                      t: "Local certified technicians",
+                      d: "Skilled and certified plumbers who live and work in Calgary — deep experience with our climate and infrastructure.",
+                    },
+                    {
+                      t: "Upfront, transparent pricing",
+                      d: "Competitive pricing, free estimates, no surprises. You approve the quote before we start work — every time.",
+                    },
+                    {
+                      t: "Licensed, insured & bonded",
+                      d: "Fully compliant with Alberta's plumbing codes. BBB accredited and 5-star rated on Google.",
+                    },
+                  ].map((x) => (
+                    <div
+                      key={x.t}
+                      className="flex gap-4 p-5 rounded-xl bg-white border border-line-light lift"
+                    >
+                      <span className="material-symbols-outlined text-primary text-2xl mt-1">
+                        check_circle
+                      </span>
+                      <div>
+                        <h4 className="font-display font-bold text-lg mb-1">
+                          {x.t}
+                        </h4>
+                        <p className="text-ink-500 text-sm leading-relaxed">
+                          {x.d}
+                        </p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </Reveal>
+            </div>
           </div>
         </section>
 
@@ -263,107 +364,6 @@ export default function Home() {
 
         {/* HOW IT WORKS — cream */}
         <HowItWorks />
-
-        {/* WHY US — ink-800, orange glow bottom-right */}
-        <section
-          id="why-us"
-          className="relative bg-ink-800 text-cream-50 py-20 overflow-hidden"
-        >
-          <div className="absolute -bottom-40 -right-40 w-[560px] h-[560px] rounded-full bg-primary/10 blur-3xl pointer-events-none"></div>
-          <div className="max-w-7xl mx-auto px-6 md:px-10 relative">
-            <div className="grid grid-cols-12 gap-12 items-stretch">
-              <Reveal className="col-span-12 lg:col-span-6">
-                <div className="rounded-3xl bg-ink-900 border border-line-dark overflow-hidden h-full flex flex-col soft-shadow">
-                  <div className="p-8 md:p-10 pb-6">
-                    <span className="eyebrow mb-4">Founders</span>
-                    <h3 className="font-display text-3xl md:text-4xl font-extrabold tracking-[-0.02em] mt-4 mb-6 leading-tight">
-                      Red Seal journeypersons. 45+ years combined.
-                    </h3>
-                  </div>
-                  <div className="relative mx-6 md:mx-8 mb-6 rounded-2xl overflow-hidden border border-line-dark">
-                    <img
-                      src="/images/FTVAN1.jpg"
-                      alt="FlameTech service van"
-                      className="w-full h-auto object-cover"
-                    />
-                    <div className="absolute bottom-3 left-3 rounded-full bg-ink-900/85 backdrop-blur-md text-cream-50 px-3 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.14em] flex items-center gap-2 border border-cream-50/10">
-                      <span className="material-symbols-outlined text-sm text-primary">
-                        verified
-                      </span>
-                      Red Seal · Alberta Licensed
-                    </div>
-                  </div>
-                  <div className="p-8 md:p-10 pt-2 flex flex-col justify-between flex-1">
-                    <p className="text-cream-50/70 leading-relaxed mb-8">
-                      FlameTech is owned and run by Shaun Kristoff and Jason
-                      Mounsey — Red Seal–certified plumbers who built this
-                      company around honest advice, upfront pricing, and
-                      doing things right the first time.
-                    </p>
-                    <div className="grid grid-cols-2 gap-4 pt-6 border-t border-line-dark">
-                      <div>
-                        <div className="font-display text-3xl font-extrabold text-primary mb-1">
-                          25+
-                        </div>
-                        <div className="text-xs uppercase tracking-[0.14em] font-semibold text-cream-50/60">
-                          Shaun — years in trade
-                        </div>
-                      </div>
-                      <div>
-                        <div className="font-display text-3xl font-extrabold text-primary mb-1">
-                          20+
-                        </div>
-                        <div className="text-xs uppercase tracking-[0.14em] font-semibold text-cream-50/60">
-                          Jason — years in trade
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </Reveal>
-              <Reveal delay={120} className="col-span-12 lg:col-span-6">
-                <span className="eyebrow mb-4">Why Calgary chooses us</span>
-                <h2 className="font-display text-4xl md:text-5xl xl:text-6xl font-extrabold tracking-[-0.025em] mt-4 mb-8 leading-[1.02]">
-                  Local experts, upfront pricing, work you can{" "}
-                  <span className="text-emergency">trust</span>.
-                </h2>
-                <div className="space-y-4">
-                  {[
-                    {
-                      t: "Local certified technicians",
-                      d: "Skilled and certified plumbers who live and work in Calgary — deep experience with our climate and infrastructure.",
-                    },
-                    {
-                      t: "Upfront, transparent pricing",
-                      d: "Competitive pricing, free estimates, no surprises. You approve the quote before we start work — every time.",
-                    },
-                    {
-                      t: "Licensed, insured & bonded",
-                      d: "Fully compliant with Alberta's plumbing codes. BBB accredited and 5-star rated on Google.",
-                    },
-                  ].map((x) => (
-                    <div
-                      key={x.t}
-                      className="flex gap-4 p-5 rounded-xl bg-ink-900 border border-line-dark lift"
-                    >
-                      <span className="material-symbols-outlined text-primary text-2xl mt-1">
-                        check_circle
-                      </span>
-                      <div>
-                        <h4 className="font-display font-bold text-lg mb-1">
-                          {x.t}
-                        </h4>
-                        <p className="text-cream-50/70 text-sm leading-relaxed">
-                          {x.d}
-                        </p>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </Reveal>
-            </div>
-          </div>
-        </section>
 
         {/* POPULAR SERVICES — cream marquee */}
         <section className="bg-cream-50 text-ink-900 py-20 overflow-hidden">
