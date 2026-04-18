@@ -237,7 +237,7 @@ export default function Nav() {
 
   return (
     <nav className="sticky top-0 w-full z-50 bg-ink-900/95 backdrop-blur-lg border-b border-line-dark">
-      <div className="max-w-7xl mx-auto px-6 md:px-10 py-2 flex items-center justify-between gap-6">
+      <div className="max-w-7xl mx-auto px-6 md:px-10 flex items-center justify-between gap-6 h-[84px] md:h-[92px]">
         {/* Logo — prominent */}
         <Link
           href="/"
@@ -247,17 +247,17 @@ export default function Nav() {
           <img
             src="/images/FT-LOGO-DARK8.png"
             alt="FlameTech"
-            className="h-16 md:h-20 lg:h-24 w-auto object-contain"
+            className="h-14 md:h-16 lg:h-[72px] w-auto object-contain"
           />
         </Link>
 
         {/* Desktop menu */}
-        <ul className="hidden lg:flex items-center gap-2">
+        <ul className="hidden lg:flex items-center gap-1 h-full">
           {menu.map((item) => (
-            <li key={item.label} className="relative group">
+            <li key={item.label} className="relative group h-full flex items-stretch">
               <Link
                 href={item.href}
-                className="flex items-center gap-1.5 px-5 py-9 text-[15px] font-extrabold tracking-tight uppercase text-cream-50 group-hover:text-emergency transition-colors"
+                className="flex items-center gap-1.5 px-4 h-full text-[14px] font-extrabold tracking-tight uppercase text-cream-50 group-hover:text-emergency transition-colors"
               >
                 {item.label}
                 {item.mega && (

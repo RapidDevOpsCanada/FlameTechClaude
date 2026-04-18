@@ -25,7 +25,7 @@ export default function Home() {
             <div className="grid grid-cols-12 gap-10 items-center">
               <div className="col-span-12 lg:col-span-6 reveal">
                 <span className="eyebrow mb-8">Get To Know Us</span>
-                <h1 className="font-display text-[44px] md:text-[60px] xl:text-[72px] font-extrabold leading-[0.98] tracking-[-0.03em] mt-6 mb-8">
+                <h1 className="font-display text-[38px] md:text-[52px] xl:text-[62px] font-extrabold leading-[1.0] tracking-[-0.025em] mt-6 mb-8">
                   Calgary Plumbers —{" "}
                   <span className="text-emergency">
                     Trusted Plumbing Services
@@ -77,29 +77,6 @@ export default function Home() {
                     alt="FlameTech service van across Calgary"
                     className="w-full h-auto object-contain"
                   />
-                </div>
-                <div className="absolute -top-4 -left-4 md:top-6 md:left-6 rounded-2xl bg-cream-50 text-ink-900 px-5 py-4 flex items-center gap-4 soft-shadow border border-line-light">
-                  <div className="text-emergency text-2xl">★★★★★</div>
-                  <div>
-                    <div className="text-lg font-black leading-none font-display">
-                      5.0
-                    </div>
-                    <div className="text-[10px] font-bold uppercase tracking-[0.16em] text-ink-500 mt-1">
-                      Google Reviews
-                    </div>
-                  </div>
-                </div>
-                <div className="absolute -bottom-4 left-4 right-4 md:bottom-6 md:left-6 md:right-6 flex flex-wrap items-center justify-between gap-3">
-                  <div className="rounded-full bg-ink-900/90 backdrop-blur-md text-cream-50 px-4 py-2 text-xs font-semibold flex items-center gap-2 border border-cream-50/10 soft-shadow">
-                    <span className="w-2 h-2 rounded-full bg-emergency animate-pulse" />
-                    Emergency Dispatch
-                  </div>
-                  <a
-                    href="tel:5878343668"
-                    className="rounded-full bg-emergency text-ink-900 font-bold px-4 py-2 text-xs hover:bg-emergency-deep hover:text-white transition-colors soft-shadow"
-                  >
-                    Call now
-                  </a>
                 </div>
               </div>
             </div>

@@ -5,28 +5,27 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // teal/orange swapped — action colors are now teal (emergency),
-        // accents are now orange (primary)
+        // Orange as accent, brighter teal-green as action color
         primary: "#FB923C",
         "primary-deep": "#EA7C22",
         "primary-soft": "#FDB277",
         accent: "#F59E0B",
-        emergency: "#167F86",
-        "emergency-deep": "#0F5F65",
-        // neutral dark grays replace the old navy
-        "ink-900": "#0A0A0A",
-        "ink-800": "#17171A",
-        "ink-700": "#242428",
-        "ink-600": "#363639",
-        "ink-500": "#565659",
+        emergency: "#17C3B0",
+        "emergency-deep": "#0F9E8E",
+        // Dark grey (not black), slightly warm
+        "ink-900": "#1C1C20",
+        "ink-800": "#26262B",
+        "ink-700": "#33333A",
+        "ink-600": "#45454B",
+        "ink-500": "#6B6B72",
         "cream-50": "#F8F5F0",
         "cream-100": "#F1ECE3",
         "muted": "#94A3B8",
-        "line-dark": "#242428",
+        "line-dark": "#33333A",
         "line-light": "#E8E2D6",
         "blueprint-bg": "#FFFFFF",
         "blueprint-grid": "#E8E2D6",
-        "blueprint-text": "#0A0A0A",
+        "blueprint-text": "#1C1C20",
         "technical-label": "#525252",
       },
       borderRadius: {
