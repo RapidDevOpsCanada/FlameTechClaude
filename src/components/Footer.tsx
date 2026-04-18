@@ -5,12 +5,19 @@ export default function Footer() {
     <footer className="bg-ink-900 text-cream-50 border-t border-line-dark">
       <div className="max-w-7xl mx-auto px-6 md:px-10 py-20 grid grid-cols-12 gap-10">
         <div className="col-span-12 md:col-span-5">
-          <div className="text-xl font-extrabold tracking-tight mb-5 flex items-center gap-2.5">
-            <span className="w-8 h-8 rounded-lg bg-emergency text-ink-900 flex items-center justify-center text-[11px] font-black">
-              FT
+          <Link
+            href="/"
+            className="inline-flex items-center gap-2.5 mb-5 text-cream-50"
+          >
+            <img
+              src="/images/FT-LOGO-DARK8.png"
+              alt="FlameTech"
+              className="h-9 w-auto object-contain"
+            />
+            <span className="font-display text-xl font-extrabold tracking-tight">
+              FlameTech
             </span>
-            FlameTech
-          </div>
+          </Link>
           <p className="text-cream-50/70 leading-relaxed max-w-sm mb-6">
             Calgary&apos;s trusted residential plumbing and heating experts.
             Licensed, insured, bonded, and BBB accredited.
@@ -25,7 +32,7 @@ export default function Footer() {
         </div>
 
         <div className="col-span-6 md:col-span-3">
-          <h5 className="text-xs font-bold uppercase tracking-[0.18em] text-emergency mb-5">
+          <h5 className="text-xs font-bold uppercase tracking-[0.18em] text-cream-50/60 mb-5">
             Services
           </h5>
           <ul className="space-y-3 text-sm text-cream-50/70">
@@ -53,18 +60,18 @@ export default function Footer() {
         </div>
 
         <div className="col-span-6 md:col-span-4">
-          <h5 className="text-xs font-bold uppercase tracking-[0.18em] text-emergency mb-5">
+          <h5 className="text-xs font-bold uppercase tracking-[0.18em] text-cream-50/60 mb-5">
             Contact
           </h5>
           <ul className="space-y-3 text-sm text-cream-50/70">
             <li className="flex items-center gap-2">
-              <span className="material-symbols-outlined text-base text-emergency">
+              <span className="material-symbols-outlined text-base text-primary">
                 location_on
               </span>
               Calgary, AB &amp; surrounding communities
             </li>
             <li className="flex items-center gap-2">
-              <span className="material-symbols-outlined text-base text-emergency">
+              <span className="material-symbols-outlined text-base text-primary">
                 schedule
               </span>
               24/7 Emergency Dispatch
@@ -72,7 +79,7 @@ export default function Footer() {
             <li>
               <a
                 href="#quote"
-                className="inline-flex items-center gap-2 text-cream-50 font-semibold hover:text-emergency transition-colors mt-2"
+                className="inline-flex items-center gap-2 rounded-full bg-emergency text-ink-900 font-bold px-4 py-2 text-xs hover:bg-emergency-deep hover:text-white transition-colors mt-2"
               >
                 Request a free estimate
                 <span className="material-symbols-outlined text-sm">

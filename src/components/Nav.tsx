@@ -6,12 +6,16 @@ export default function Nav() {
       <div className="max-w-7xl mx-auto px-6 md:px-10 py-4 flex items-center justify-between gap-6">
         <Link
           href="/"
-          className="text-lg font-extrabold tracking-tight flex items-center gap-2.5 text-cream-50"
+          className="flex items-center gap-2.5 text-cream-50"
         >
-          <span className="w-9 h-9 rounded-lg bg-emergency text-ink-900 flex items-center justify-center font-black text-sm">
-            FT
+          <img
+            src="/images/FT-LOGO-DARK8.png"
+            alt="FlameTech"
+            className="h-9 md:h-10 w-auto object-contain"
+          />
+          <span className="font-display text-lg font-extrabold tracking-tight">
+            FlameTech
           </span>
-          FlameTech
         </Link>
 
         <div className="hidden lg:flex items-center gap-10">

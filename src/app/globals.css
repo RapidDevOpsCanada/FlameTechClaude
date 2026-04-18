@@ -5,25 +5,31 @@
 @layer base {
   body {
     @apply bg-ink-900 text-cream-50 font-body;
-    font-feature-settings: "ss01", "cv11";
   }
   body::selection,
   ::selection {
     @apply bg-emergency/30 text-cream-50;
   }
   h1, h2, h3, h4, h5, h6 {
-    @apply font-headline tracking-tight;
-    font-feature-settings: "ss01", "cv11";
+    @apply font-display tracking-tight;
   }
 }
 
 @layer utilities {
+  /* Eyebrows: understated, teal accent line — not orange (reserve orange for action). */
   .eyebrow {
-    @apply inline-flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.18em] text-emergency;
+    @apply inline-flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.18em] text-cream-50/70;
   }
   .eyebrow::before {
     content: "";
-    @apply block w-6 h-px bg-emergency;
+    @apply block w-6 h-px bg-primary;
+  }
+  .eyebrow-light {
+    @apply inline-flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.18em] text-ink-500;
+  }
+  .eyebrow-light::before {
+    content: "";
+    @apply block w-6 h-px bg-primary;
   }
   .dotgrid {
     background-image: radial-gradient(rgba(255,255,255,0.08) 1px, transparent 1px);
