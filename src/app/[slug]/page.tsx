@@ -111,7 +111,7 @@ export default async function ServicePage({
           <div className="hidden md:block absolute -top-32 -right-32 w-[520px] h-[520px] rounded-full bg-emergency/20 blur-3xl pointer-events-none"></div>
           <div className="hidden md:block absolute top-1/2 -left-32 w-[380px] h-[380px] rounded-full bg-primary/10 blur-3xl pointer-events-none" />
 
-          <div className="max-w-6xl mx-auto px-6 md:px-10 py-10 md:py-14 relative">
+          <div className="max-w-7xl mx-auto px-6 md:px-10 py-10 md:py-14 relative">
             <div className="flex flex-wrap items-center gap-2 mb-4 text-[11px] uppercase tracking-[0.14em] font-semibold text-cream-50/55">
               <Link href="/" className="hover:text-emergency">
                 Home
@@ -242,7 +242,7 @@ export default async function ServicePage({
 
         {/* STATS STRIP */}
         <section className="bg-ink-800 border-b border-line-dark">
-          <div className="max-w-6xl mx-auto px-6 md:px-10 py-6 md:py-8 grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
+          <div className="max-w-7xl mx-auto px-6 md:px-10 py-6 md:py-8 grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
             {stats?.slice(0, 4).map((s) => (
               <div
                 key={s.label}
@@ -268,7 +268,7 @@ export default async function ServicePage({
 
         {/* BODY */}
         <section className="bg-cream-50 text-ink-900 py-16 md:py-20">
-          <div className="max-w-6xl mx-auto px-6 md:px-10 grid grid-cols-12 gap-6 md:gap-8 lg:gap-10">
+          <div className="max-w-7xl mx-auto px-6 md:px-10 grid grid-cols-12 gap-6 md:gap-8 lg:gap-10">
             <div className="col-span-12 lg:col-span-9">
               {!hasRich && (
                 <>
@@ -599,7 +599,7 @@ export default async function ServicePage({
         {/* RELATED — with hero thumbnails */}
         {related.length > 0 && (
           <section className="bg-cream-100 text-ink-900 py-16 md:py-20 border-t border-line-light">
-            <div className="max-w-6xl mx-auto px-6 md:px-10">
+            <div className="max-w-7xl mx-auto px-6 md:px-10">
               <div className="flex items-end justify-between gap-6 mb-10">
                 <div>
                   <span className="eyebrow-light mb-4">
@@ -659,7 +659,7 @@ export default async function ServicePage({
         >
           <div className="absolute inset-0 dotgrid opacity-30 pointer-events-none"></div>
           <div className="hidden md:block absolute top-10 -right-40 w-[520px] h-[520px] rounded-full bg-emergency/20 blur-3xl pointer-events-none"></div>
-          <div className="max-w-6xl mx-auto px-6 md:px-10 relative">
+          <div className="max-w-7xl mx-auto px-6 md:px-10 relative">
             <div className="grid grid-cols-12 gap-6 md:gap-10">
               <div className="col-span-12 md:col-span-5">
                 <span className="eyebrow mb-4">Request Service</span>
