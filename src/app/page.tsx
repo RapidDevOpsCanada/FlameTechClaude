@@ -48,9 +48,9 @@ export default function Home() {
             <div className="col-span-12 lg:col-span-5 relative">
               <div className="aspect-square bg-white border border-blueprint-grid p-4 shadow-2xl rotate-2">
                 <img
-                  className="w-full h-full object-cover grayscale brightness-125 contrast-75"
-                  alt="Precision plumbing installation in a bright Calgary residence"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuDanF3lNZ40nzevbN20tvuTF-AVP8Xm3NCcHS9pU0cBrfwH1qPGQaifUJ0ZLAf64jj2-mm8UFz7ygZIfW_TaQ_f_MJJFpWRr8QqgIEMvnM_xMhpG2TGiwXOry7HXOfuYE7g33i8Q8o4_ei0t___UiTqoyg7r5_eLaDYYr0Sxe36FA3kXzyJP2YjJuTQz4dlXBZK10rKMPzIDseuHBDXz83PJQ5-p4TXXVJLzRbJzSVNMQkpfQIB9EqwsQ_U0d2PR1MtlstRo_1wko-2"
+                  className="w-full h-full object-cover"
+                  alt="FlameTech Plumbing & Heating service van"
+                  src="/images/FTVAN.jpg"
                 />
                 <div className="absolute -bottom-6 -left-6 bg-white border border-blueprint-grid p-4 shadow-lg w-48">
                   <p className="mono-label text-[8px] text-technical-label mb-2">
@@ -181,9 +181,9 @@ export default function Home() {
               <div className="border border-blueprint-grid p-2">
                 <div className="relative bg-slate-50 aspect-video flex items-center justify-center overflow-hidden">
                   <img
-                    className="w-full h-full object-cover grayscale brightness-110"
-                    alt="FlameTech technician performing a pressure diagnostic on a Calgary residential system"
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuDsZmfPIPGnrKQz5n3SY4xVXBVUs5JeVC1ogYe_x-fqheqCFUkO2SQy9Yuxx7obyG1qC9lgTSop8k_trp8KlgbJd033dNnhzpTrbHkHtSeeuhfSzefaQVwq3SMTC3QBQvsCd3hlagXD6SOCEc4ZCDbQe_icuySHMo_Oq7ggJf9qunCM1ChYvsw2ZfmSZrYqVnzDV9G1FID0N7moZ4yhDlsdf_mpy7ld09HYIFxV1nGnxt2womcBkDFo7m2zlF-K5igEDUGmOAzuC6y4"
+                    className="w-full h-full object-cover"
+                    alt="FlameTech Pro Team serving Calgary and surrounding communities"
+                    src="/images/air-ease-pro-team-e1764790049321.png"
                   />
                   <div className="absolute inset-0 border-[20px] border-white/40 pointer-events-none"></div>
                   <div className="absolute top-4 left-4 font-technical text-[10px] text-primary bg-white/90 px-2 py-1 border border-blueprint-grid">
@@ -249,6 +249,82 @@ export default function Home() {
           </div>
         </section>
 
+        <section className="py-24 bg-white border-b border-blueprint-grid">
+          <div className="max-w-7xl mx-auto px-8">
+            <div className="grid grid-cols-12 gap-8 mb-16 items-end">
+              <div className="col-span-12 md:col-span-6">
+                <span className="mono-label text-primary mb-4 block">
+                  Certified Equipment
+                </span>
+                <h2 className="text-4xl md:text-5xl font-headline font-bold tracking-tighter">
+                  BRANDS WE INSTALL
+                </h2>
+              </div>
+              <div className="col-span-12 md:col-span-6 md:text-right">
+                <p className="text-technical-label font-normal max-w-sm ml-auto">
+                  Trusted manufacturer-approved equipment for Calgary homes,
+                  installed to Alberta code.
+                </p>
+              </div>
+            </div>
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-0 border-t border-l border-blueprint-grid">
+              {[
+                { src: "/images/navine-boiler.png", label: "Boilers" },
+                {
+                  src: "/images/air-ease-furnace.png",
+                  label: "Furnaces",
+                },
+                { src: "/images/air-ease-ac.png", label: "AC Units" },
+                {
+                  src: "/images/bradford-white-hot-water-tank.png",
+                  label: "Hot Water Tanks",
+                },
+                {
+                  src: "/images/graident-tankless-water-heater.png",
+                  label: "Tankless",
+                },
+                {
+                  src: "/images/water-softener-calgary.png",
+                  label: "Water Softeners",
+                },
+              ].map((item) => (
+                <div
+                  key={item.label}
+                  className="border-r border-b border-blueprint-grid p-6 flex flex-col items-center justify-between bg-white"
+                >
+                  <div className="h-24 w-full flex items-center justify-center mb-4">
+                    <img
+                      className="max-h-24 max-w-full object-contain"
+                      src={item.src}
+                      alt={item.label}
+                    />
+                  </div>
+                  <span className="mono-label text-technical-label text-center">
+                    {item.label}
+                  </span>
+                </div>
+              ))}
+            </div>
+            <div className="flex flex-wrap items-center justify-center gap-8 mt-16 pt-10 border-t border-blueprint-grid">
+              <img
+                src="/images/REVIEWS1.png"
+                alt="5-star customer reviews"
+                className="h-16 object-contain"
+              />
+              <img
+                src="/images/blue-ceip-225x300.png"
+                alt="BBB accredited"
+                className="h-16 object-contain"
+              />
+              <img
+                src="/images/financeit.png"
+                alt="Financing available via Financeit"
+                className="h-10 object-contain"
+              />
+            </div>
+          </div>
+        </section>
+
         <section
           id="service-area"
           className="py-24 bg-slate-50 border-b border-blueprint-grid"
@@ -270,33 +346,42 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-0 border-t border-l border-blueprint-grid bg-white">
-              {[
-                "Calgary NE",
-                "Calgary NW",
-                "Calgary SE",
-                "Calgary SW",
-                "Airdrie",
-                "Chestermere",
-                "Cochrane",
-                "Okotoks",
-                "Carstairs",
-                "Cooper's Crossing",
-                "Evergreen",
-                "Signal Hill",
-              ].map((area) => (
-                <div
-                  key={area}
-                  className="border-r border-b border-blueprint-grid p-6 flex items-center gap-3"
-                >
-                  <span className="material-symbols-outlined text-primary text-base">
-                    location_on
-                  </span>
-                  <span className="font-technical text-xs font-bold">
-                    {area}
-                  </span>
-                </div>
-              ))}
+            <div className="grid grid-cols-12 gap-8 items-center">
+              <div className="col-span-12 lg:col-span-7 border border-blueprint-grid p-2 bg-white">
+                <img
+                  src="/images/Service-map.png"
+                  alt="FlameTech Calgary service area map"
+                  className="w-full object-contain"
+                />
+              </div>
+              <div className="col-span-12 lg:col-span-5 grid grid-cols-2 gap-0 border-t border-l border-blueprint-grid bg-white">
+                {[
+                  "Calgary NE",
+                  "Calgary NW",
+                  "Calgary SE",
+                  "Calgary SW",
+                  "Airdrie",
+                  "Chestermere",
+                  "Cochrane",
+                  "Okotoks",
+                  "Carstairs",
+                  "Cooper's Crossing",
+                  "Evergreen",
+                  "Signal Hill",
+                ].map((area) => (
+                  <div
+                    key={area}
+                    className="border-r border-b border-blueprint-grid p-5 flex items-center gap-2"
+                  >
+                    <span className="material-symbols-outlined text-primary text-base">
+                      location_on
+                    </span>
+                    <span className="font-technical text-[11px] font-bold">
+                      {area}
+                    </span>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </section>
