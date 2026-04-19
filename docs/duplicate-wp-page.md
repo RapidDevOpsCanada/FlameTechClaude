@@ -337,11 +337,28 @@ schema so even non-service pages have brand context.
 - [x] `/water-softener-airdrie`
 - [x] `/ravenswood-plumbers-airdrie`
 - [x] `/reunion-plumbers-airdrie`
+- [x] `/coopers-crossing-plumbers`
 
 Airdrie pages live alongside Calgary ones in `services.ts` but carry
 `location: "Airdrie"`. `getRelatedServices()` filters by location so
 Airdrie pages only cross-link to other Airdrie pages (and vice versa).
 Footer exposes them in a dedicated "Airdrie Services" row.
+
+### Calgary neighbourhood pages (28/28 done)
+
+**SW:** Altadore, Aspen Woods, Bridlewood, Evergreen, Killarney, Marda Loop,
+Mount Royal, Signal Hill, West Springs, Woodbine
+**SE:** Auburn Bay, Chaparral, Copperfield, Cranston, Mahogany, McKenzie Lake,
+McKenzie Towne, New Brighton
+**NW:** Bowness, Edgemont, Evanston, Huntington Hills, Panorama Hills, Tuscany, Varsity
+**Quadrant overviews:** `/calgary-plumbers-nw`, `/calgary-plumbers-se`, `/calgary-plumbers-sw`
+
+All 28 entries ported from WP by parallel agents using the airdrie-plumbers
+entry as reference. `RichText` component in `src/app/[slug]/page.tsx` parses
+`[text](/href)` markdown inside body/intro strings so neighborhoods cross-link
+naturally (and `stripMarkdown` keeps the raw text clean in JSON-LD schema).
+
+Footer has a dedicated "Calgary Neighbourhoods" section grouped by quadrant.
 
 **Note on slug naming:** original WP URLs often include the city
 ("boiler-service-calgary", "furnace-calgary") and we're matching those

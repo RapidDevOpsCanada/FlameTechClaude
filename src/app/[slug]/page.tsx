@@ -24,6 +24,49 @@ const BUSINESS = {
   address: "Calgary, AB, Canada",
 };
 
+/**
+ * Remove markdown-style `[text](href)` link syntax from a string, keeping
+ * only the visible text. Used for JSON-LD schema values where markup
+ * would leak into structured data.
+ */
+function stripMarkdown(s: string): string {
+  return s.replace(/\[([^\]]+)\]\([^)]+\)/g, "$1");
+}
+
+/**
+ * Renders a plain string with inline markdown-style links: `[text](/href)`.
+ * Internal paths (leading `/`) route through Next's <Link>; external URLs
+ * render as <a>. Non-link text renders as-is.
+ */
+function RichText({ children }: { children: string }) {
+  const parts: React.ReactNode[] = [];
+  const re = /\[([^\]]+)\]\(([^)]+)\)/g;
+  let last = 0;
+  let m: RegExpExecArray | null;
+  let key = 0;
+  const cls =
+    "underline decoration-primary/40 underline-offset-4 hover:decoration-primary hover:text-primary transition-colors";
+  while ((m = re.exec(children)) !== null) {
+    if (m.index > last) parts.push(children.slice(last, m.index));
+    const [, text, href] = m;
+    const external = /^https?:/.test(href);
+    parts.push(
+      external ? (
+        <a key={key++} href={href} className={cls}>
+          {text}
+        </a>
+      ) : (
+        <Link key={key++} href={href} className={cls}>
+          {text}
+        </Link>
+      ),
+    );
+    last = m.index + m[0].length;
+  }
+  if (last < children.length) parts.push(children.slice(last));
+  return <>{parts}</>;
+}
+
 const DEFAULT_STATS: ServicePage["stats"] = [
   { number: "5.0★", label: "Google rated", icon: "star" },
   { number: "45+", label: "Years combined", icon: "verified" },
@@ -182,14 +225,14 @@ export default async function ServicePage({
                   {service.title}
                 </h1>
                 <p className="text-lg md:text-xl font-bold text-cream-50 max-w-xl leading-snug mb-3">
-                  {service.lead}
+                  <RichText>{service.lead}</RichText>
                 </p>
                 {service.heroBody?.map((p, i) => (
                   <p
                     key={i}
                     className="text-[15px] md:text-base text-cream-50/75 max-w-xl leading-relaxed mb-3"
                   >
-                    {p}
+                    <RichText>{p}</RichText>
                   </p>
                 ))}
 
@@ -375,7 +418,7 @@ export default async function ServicePage({
                     />
                     <div>
                       <p className="font-display text-xl font-extrabold leading-snug mb-2">
-                        {service.callout}
+                        <RichText>{service.callout}</RichText>
                       </p>
                       <a
                         href="tel:5878343668"
@@ -420,7 +463,7 @@ export default async function ServicePage({
                       </h2>
                       {section.intro && (
                         <p className="text-[17px] text-ink-700 leading-relaxed mb-8 max-w-2xl">
-                          {section.intro}
+                          <RichText>{section.intro}</RichText>
                         </p>
                       )}
 
@@ -436,7 +479,7 @@ export default async function ServicePage({
                                   {String(i + 1).padStart(2, "0")}
                                 </span>
                                 <span className="text-base md:text-[17px] text-ink-700 leading-relaxed pt-1">
-                                  {item.body}
+                                  <RichText>{item.body}</RichText>
                                 </span>
                               </li>
                             ))}
@@ -451,7 +494,7 @@ export default async function ServicePage({
                               key={`${section.heading}-${i}`}
                               className="text-base md:text-[17px] text-ink-700 leading-[1.75]"
                             >
-                              {item.body}
+                              <RichText>{item.body}</RichText>
                             </p>
                           ))}
                         </div>
@@ -487,7 +530,7 @@ export default async function ServicePage({
                                       </h3>
                                     )}
                                     <p className="text-base md:text-lg text-cream-50/85 leading-relaxed max-w-2xl">
-                                      {item.body}
+                                      <RichText>{item.body}</RichText>
                                     </p>
                                   </div>
                                 </div>
@@ -525,7 +568,7 @@ export default async function ServicePage({
                                     </h3>
                                   )}
                                   <p className="text-base md:text-[17px] text-ink-700 leading-relaxed">
-                                    {item.body}
+                                    <RichText>{item.body}</RichText>
                                   </p>
                                 </div>
                                 {item.image && flip && (
@@ -625,7 +668,7 @@ export default async function ServicePage({
                   </h2>
                   {service.richContent.faq.intro && (
                     <p className="text-[17px] text-ink-700 leading-relaxed mb-6 max-w-2xl">
-                      {service.richContent.faq.intro}
+                      <RichText>{service.richContent.faq.intro}</RichText>
                     </p>
                   )}
                   <div className="space-y-3">
@@ -645,7 +688,7 @@ export default async function ServicePage({
                           />
                         </summary>
                         <p className="px-6 pb-6 pl-14 text-ink-500 leading-relaxed">
-                          {f.a}
+                          <RichText>{f.a}</RichText>
                         </p>
                       </details>
                     ))}
@@ -1065,8 +1108,8 @@ function buildSchemaJsonLd(service: ServicePage) {
       "@id": `${url}#faq`,
       mainEntity: service.richContent.faq.items.map((f) => ({
         "@type": "Question",
-        name: f.q,
-        acceptedAnswer: { "@type": "Answer", text: f.a },
+        name: stripMarkdown(f.q),
+        acceptedAnswer: { "@type": "Answer", text: stripMarkdown(f.a) },
       })),
     });
   }
