@@ -25,7 +25,7 @@ const articles: SeedArticle[] = [
     excerpt: "If you've noticed water pooling in your air conditioner's drip pan, you're not alone. This is one of the most common AC issues Calgary homeowners face, especially during our hot summer months when your cooling system is…",
     body: `<p>If you've noticed water pooling in your air conditioner's drip pan, you're not alone. This is one of the most common <a href="/categories/air-conditioning">AC issues Calgary</a> homeowners face, especially during our hot summer months when your cooling system is working overtime. While a small amount of condensation is normal, a drip pan that keeps filling up signals a problem that needs attention.</p>
 
-<p>At Flame Tech Plumbing, we've helped countless Calgary residents solve this frustrating issue. Let's explore why your AC drip pan keeps filling up and what you can do about it.</p>
+<p>At Flame Tech Plumbing, we've helped countless Calgary residents solve this frustrating issue. Let's explore why <a href="/air-conditioning">your AC</a> drip pan keeps filling up and what you can do about it.</p>
 
 <h2 class="wp-block-heading">What Is an AC Drip Pan and Why Does It Matter?</h2>
 
@@ -176,7 +176,7 @@ const articles: SeedArticle[] = [
 
 <h2 class="wp-block-heading">Understanding Normal AC Operation</h2>
 
-<p>Before we dive into problems, it's helpful to understand how your AC should operate. A properly functioning air conditioning system typically runs in cycles of 15-20 minutes, turning off once your home reaches the desired temperature. The compressor should then stay off for a reasonable period before the next cooling cycle begins.</p>
+<p>Before we dive into problems, it's helpful to understand how your AC should operate. A properly functioning <a href="/air-conditioning">air conditioning</a> system typically runs in cycles of 15-20 minutes, turning off once your home reaches the desired temperature. The compressor should then stay off for a reasonable period before the next cooling cycle begins.</p>
 
 <p>When your compressor shuts off after 30 minutes and continues this pattern repeatedly throughout the day, it indicates an underlying problem that needs attention.</p>
 
@@ -275,7 +275,7 @@ const articles: SeedArticle[] = [
     excerpt: "When you turn on your air conditioner on a hot Calgary summer day, you expect to feel cool, comfortable, and refreshed. But what happens when your AC is running, yet the air still feels sticky and humid? This…",
     body: `<p>When you turn on your <a href="/categories/air-conditioning">air conditioner</a> on a hot Calgary summer day, you expect to feel cool, comfortable, and refreshed. But what happens when your AC is running, yet the air still feels sticky and humid? This frustrating problem is more common than you might think, and understanding the causes can help you get your home comfort back on track.</p>
 
-<h2 class="wp-block-heading">How Air Conditioning Controls Humidity</h2>
+<h2 class="wp-block-heading">How <a href="/air-conditioning">Air Conditioning</a> Controls Humidity</h2>
 
 <p>Before diving into why your AC might feel humid, it's important to understand how your air conditioning system is supposed to handle moisture. Your AC doesn't just cool the air – it also dehumidifies it. As warm air passes over the cold evaporator coils inside your AC unit, moisture in the air condenses on these coils, similar to how water droplets form on a cold glass of water on a hot day. This condensation drips into a drain pan and is removed from your home, leaving you with drier, more comfortable air.</p>
 
@@ -349,12 +349,12 @@ const articles: SeedArticle[] = [
   {
     slug: "furnace-smell-like-gas",
     title: "Why Does My Furnace Smell Like Gas?",
-    excerpt: "You catch a whiff of something unsettling near your furnace. That distinctive rotten egg smell. Your stomach drops. Is that natural gas? Before panic sets in, take a breath. A gas smell coming from your furnace isn't…",
+    excerpt: "You catch a whiff of something unsettling near your furnace . That distinctive rotten egg smell. Your stomach drops. Is that natural gas? Before panic sets in, take a breath. A gas smell coming from your furnace isn't…",
     body: `<p class="kt-adv-heading1915_490891-ec wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading1915_490891-ec"></p>
 
-<p>You catch a whiff of something unsettling near your furnace. That distinctive rotten egg smell. Your stomach drops. <em>Is that natural gas?</em></p>
+<p>You catch a whiff of something unsettling near <a href="/furnaces">your furnace</a>. That distinctive rotten egg smell. Your stomach drops. <em>Is that natural gas?</em></p>
 
-<p>Before panic sets in, take a breath. A gas smell coming from your furnace isn't always an emergency, but it's never something to ignore. As <a href="/airdrie-furnace-repairs">Airdrie's trusted Furnace Repair specialists</a> at Flame Tech Plumbing, we've diagnosed hundreds of furnace gas odor complaints, and we're here to help you understand what's happening, when to worry, and what steps to take right now.</p>
+<p>Before panic sets in, take a breath. A gas smell coming from your furnace isn't always an <a href="/emergency-plumber-calgary">emergency</a>, but it's never something to ignore. As <a href="/airdrie-furnace-repairs">Airdrie's trusted Furnace Repair specialists</a> at Flame Tech Plumbing, we've diagnosed hundreds of furnace gas odor complaints, and we're here to help you understand what's happening, when to worry, and what steps to take right now.</p>
 
 <p><strong>If you're experiencing a strong, persistent gas smell, don't wait. Evacuate your home immediately, call 911 or ATCO Gas at 1-800-511-3447 from outside, then contact Flame Tech at 587-834-3668 for emergency furnace repair.</strong></p>
 
@@ -543,13 +543,13 @@ const articles: SeedArticle[] = [
     slug: "furnace-smell-like-burning-plastic",
     title: "Why Does My Furnace Smell Like Burning Plastic?",
     excerpt: "You're watching TV on a cold Airdrie evening when an acrid smell drifts up from the basement. It's unmistakable—burning plastic. Your furnace has been running for hours, and now your house smells like melting garbage…",
-    body: `<p>You're watching TV on a cold Airdrie evening when an acrid smell drifts up from the basement. It's unmistakable—burning plastic. Your furnace has been running for hours, and now your house smells like melting garbage bags.</p>
+    body: `<p>You're watching TV on a cold Airdrie evening when an acrid smell drifts up from the basement. It's unmistakable—burning plastic. <a href="/furnaces">Your furnace</a> has been running for hours, and now your house smells like melting garbage bags.</p>
 
 <p>Should you panic? Probably not. Should you ignore it? Definitely not.</p>
 
 <p>As <a href="/airdrie-furnace-repairs">Airdrie's furnace repair experts at Flame Tech Plumbing</a>, we've diagnosed countless burning plastic smell complaints. While this odor rarely signals the same immediate danger as natural gas, it always means something needs attention. Let's walk through what's causing that smell, when it's merely annoying versus genuinely concerning, and what you should do about it right now.</p>
 
-<p><strong>If the smell is accompanied by smoke, visible flames, or your smoke detector is sounding, shut off your furnace immediately and call 911. Then contact Flame Tech at 587-834-3668 for emergency heating repair.</strong></p>
+<p><strong>If the smell is accompanied by smoke, visible flames, or your smoke detector is sounding, shut off your furnace immediately and call 911. Then contact Flame Tech at 587-834-3668 for <a href="/emergency-plumber-calgary">emergency</a> heating repair.</strong></p>
 
 <h2 class="wp-block-heading">What Does Burning Plastic Smell Actually Mean?</h2>
 
@@ -764,7 +764,7 @@ const articles: SeedArticle[] = [
     slug: "boiler-popping-noises",
     title: "Why Does My Boiler Make Popping Noises?",
     excerpt: "It starts quietly. A faint pop from the basement. Then another. By mid-winter, your boiler sounds like a popcorn machine running overtime. Every heating cycle brings a symphony of pops, bangs, and crackling sounds that…",
-    body: `<p>It starts quietly. A faint pop from the basement. Then another. By mid-winter, your boiler sounds like a popcorn machine running overtime. Every heating cycle brings a symphony of pops, bangs, and crackling sounds that echo through your Airdrie home.</p>
+    body: `<p>It starts quietly. A faint pop from the basement. Then another. By mid-winter, <a href="/boiler-repair-calgary">your boiler</a> sounds like a popcorn machine running overtime. Every heating cycle brings a symphony of pops, bangs, and crackling sounds that echo through your Airdrie home.</p>
 
 <p>You might wonder if this is normal wear and tear or if your boiler is about to explode. (Spoiler: modern boilers are extremely safe, but those noises still mean something needs attention.)</p>
 
@@ -784,7 +784,7 @@ const articles: SeedArticle[] = [
 
 <p>While kettling itself won't cause your boiler to explode (modern safety systems prevent that), it does indicate your boiler is working harder than it should, wasting energy, and experiencing stress that will eventually cause failure.</p>
 
-<h2 class="wp-block-heading">The Airdrie Hard Water Connection</h2>
+<h2 class="wp-block-heading">The Airdrie <a href="/water-softener">Hard Water</a> Connection</h2>
 
 <p>If you live in Airdrie, you've probably noticed our notoriously hard water. White residue on faucets. Spotty dishes. Soap that doesn't lather well. That same mineral-rich water is the primary culprit behind boiler popping noises.</p>
 
@@ -1054,8 +1054,8 @@ const articles: SeedArticle[] = [
   {
     slug: "why-does-my-water-softener-have-water-in-it",
     title: "Why Does My Water Softener Have Water in It?",
-    excerpt: "If you've lifted the lid on your water softener's brine tank and discovered water sitting inside, you're probably wondering whether something's gone wrong. I get calls about this fairly often from homeowners across…",
-    body: `<p>If you've lifted the lid on your water softener's brine tank and discovered water sitting inside, you're probably wondering whether something's gone wrong. I get calls about this fairly often from homeowners across Calgary, and the answer isn't always straightforward. Sometimes that water is completely normal. Other times, it signals a problem that needs attention before it gets worse.</p>
+    excerpt: "If you've lifted the lid on your water softener 's brine tank and discovered water sitting inside, you're probably wondering whether something's gone wrong. I get calls about this fairly often from homeowners across…",
+    body: `<p>If you've lifted the lid on <a href="/water-softener">your water softener</a>'s brine tank and discovered water sitting inside, you're probably wondering whether something's gone wrong. I get calls about this fairly often from homeowners across Calgary, and the answer isn't always straightforward. Sometimes that water is completely normal. Other times, it signals a problem that needs attention before it gets worse.</p>
 
 <p>Let me walk you through, as <a href="/water-softener">Calgary Water Softener Expert</a>, what's actually happening inside your water softener, when water in the tank is fine, and when you should start troubleshooting.</p>
 
@@ -1176,7 +1176,7 @@ const articles: SeedArticle[] = [
     excerpt: "I get calls every week from homeowners who are watching their energy bills climb and can't figure out why. Nine times out of ten, the answer is sitting right outside their house — a heat pump caked in dirt, grass…",
     body: `<p>I get calls every week from homeowners who are watching their energy bills climb and can't figure out why. Nine times out of ten, the answer is sitting right outside their house — a heat pump caked in dirt, grass clippings, and cottonwood fuzz. Dirty heat pump coils are one of the most common and most overlooked reasons your system struggles to keep up, and the fix is often simpler than you'd think.</p>
 
-<p>As an HVAC technician here at Flame Tech Plumbing &amp; Heating, I've cleaned thousands of heat pump coils across Calgary, Airdrie, and the surrounding communities. We work on <a href="/heat-pumps-airdrie">heat pumps in Airdrie</a> and throughout the Calgary region year-round, and I can tell you firsthand that a little coil maintenance goes a long way toward keeping your system efficient and reliable. In this guide, I'll walk you through exactly how to clean your heat pump coils safely, what tools you'll need, and when it's smarter to leave the job to a professional.</p>
+<p>As an HVAC technician here at Flame Tech Plumbing &amp; Heating, I've cleaned thousands of heat pump coils across Calgary, Airdrie, and the surrounding communities. We work on <a href="/heat-pumps-airdrie">heat pumps in Airdrie</a> and throughout the Calgary region year-round, and I can tell you firsthand that a little coil maintenance goes a long way toward keeping your system efficient and reliable. In this guide, I'll walk you through exactly how to clean <a href="/heat-pumps-calgary">your heat pump</a> coils safely, what tools you'll need, and when it's smarter to leave the job to a professional.</p>
 
 <h2 class="wp-block-heading">Why Dirty Heat Pump Coils Matter More Than You Think</h2>
 
@@ -1315,7 +1315,7 @@ const articles: SeedArticle[] = [
 
 <p class="kt-adv-heading2489_88382e-2f wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading2489_88382e-2f">Here in Calgary, we deal with some of the hardest water in the province, and at FlameTech Plumbing &amp; Heating, we get asked this question all the time — especially from homeowners considering a <a href="/water-softener">water softener installation in Calgary</a>: what do water softeners remove, exactly?</p>
 
-<p>The short answer is that water softeners primarily remove calcium and magnesium — the two minerals responsible for making your water "hard." But there's more to the story than that, especially when you factor in Calgary's unique water supply, the impact hard water has on your plumbing and appliances, and the limits of what a softener can and can't do.</p>
+<p>The short answer is that water softeners primarily remove calcium and magnesium — the two minerals responsible for making your water "hard." But there's more to the story than that, especially when you factor in Calgary's unique water supply, the impact <a href="/water-softener">hard water</a> has on your plumbing and appliances, and the limits of what a softener can and can't do.</p>
 
 <p>Let me break it all down for you.</p>
 
@@ -1455,7 +1455,7 @@ const articles: SeedArticle[] = [
 <div class="wp-block-group has-background" style="border-left-color:#2e75b6;border-left-width:4px;background-color:#e8f4fd;padding-top:16px;padding-right:20px;padding-bottom:16px;padding-left:20px">
 <h3 class="wp-block-heading">Quick Answer</h3>
 
-<p>If your boiler keeps turning off, the most common causes are low water pressure, a faulty thermostat, a blocked condensate pipe, or overheating due to poor circulation. Start by checking your pressure gauge — if it reads below 1 bar, repressurize the system. For persistent shutdowns, a licensed technician should inspect the heat exchanger and safety controls.</p>
+<p>If <a href="/boiler-repair-calgary">your boiler</a> keeps turning off, the most common causes are low water pressure, a faulty thermostat, a blocked condensate pipe, or overheating due to poor circulation. Start by checking your pressure gauge — if it reads below 1 bar, repressurize the system. For persistent shutdowns, a licensed technician should inspect the heat exchanger and safety controls.</p>
 </div>
 
 <div class="wp-block-group has-background" style="border-left-color:#27ae60;border-left-width:4px;background-color:#e8fdf0;padding-top:16px;padding-right:20px;padding-bottom:16px;padding-left:20px">
@@ -1798,7 +1798,7 @@ const articles: SeedArticle[] = [
 
 <h2 class="wp-block-heading">Introduction</h2>
 
-<p>You've repressurised your boiler for the third time this month. The gauge keeps dropping, and you're tired of the temporary fix. Understanding why does my boiler keep losing pressure is the first step toward actually solving the problem for good.</p>
+<p>You've repressurised <a href="/boiler-repair-calgary">your boiler</a> for the third time this month. The gauge keeps dropping, and you're tired of the temporary fix. Understanding why does my boiler keep losing pressure is the first step toward actually solving the problem for good.</p>
 
 <p>In this guide, we're going beyond the quick fix. We'll explain every possible cause of boiler pressure loss, show you how to diagnose which one is affecting your system, and — most importantly — how to prevent it from happening again.</p>
 
@@ -1986,7 +1986,7 @@ const articles: SeedArticle[] = [
 
 <li>If the new fuse blows immediately, stop and call a professional</li>
 
-<li>Keep spare fuses near your furnace for emergency replacements</li>
+<li>Keep spare fuses near <a href="/furnaces">your furnace</a> for emergency replacements</li>
 </ul>
 </div>
 
