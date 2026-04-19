@@ -45,6 +45,7 @@ export type Article = {
   author: string;
   read_time: number;
   share_count: number;
+  featured_image: string | null;
   created_at: string;
 };
 

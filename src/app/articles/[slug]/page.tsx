@@ -82,6 +82,20 @@ export default async function ArticlePage({
         </div>
       </section>
 
+      {article.featured_image && (
+        <div className="bg-ink-900">
+          <div className="max-w-5xl mx-auto">
+            <div className="relative aspect-[16/9] md:aspect-[21/9] overflow-hidden">
+              <img
+                src={article.featured_image}
+                alt={article.title}
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
+        </div>
+      )}
+
       <main className="bg-cream-50 text-ink-900 py-20">
         <div className="max-w-3xl mx-auto px-6 md:px-10">
           <article
@@ -96,10 +110,20 @@ export default async function ArticlePage({
               .prose-article h2 { font-weight: 800; letter-spacing: -0.02em; font-size: 1.875rem; margin: 2.75rem 0 1.25rem; color: #0B1220; }
               .prose-article h3 { font-weight: 700; letter-spacing: -0.01em; font-size: 1.375rem; margin: 2.25rem 0 1rem; color: #0B1220; }
               .prose-article ul { margin: 1rem 0 1.5rem; padding-left: 1.25rem; list-style: disc; color: #334155; }
+              .prose-article ol { margin: 1rem 0 1.5rem; padding-left: 1.5rem; list-style: decimal; color: #334155; }
               .prose-article li { margin-bottom: 0.5rem; line-height: 1.75; }
               .prose-article blockquote { border-left: 3px solid #FB923C; padding: 0.5rem 0 0.5rem 1.5rem; margin: 1.75rem 0; color: #0B1220; font-weight: 500; }
               .prose-article strong { color: #0B1220; font-weight: 700; }
               .prose-article code { background: #F1ECE3; padding: 0.1rem 0.35rem; font-size: 0.85em; border-radius: 6px; }
+              .prose-article a { color: #167f86; text-decoration: underline; text-underline-offset: 3px; text-decoration-color: rgba(22, 127, 134, 0.4); }
+              .prose-article a:hover { text-decoration-color: #167f86; }
+              .prose-article img { border-radius: 0.75rem; margin: 2rem auto; display: block; max-width: 100%; height: auto; }
+              .prose-article figure { margin: 2rem 0; }
+              .prose-article figure img { margin: 0 auto; }
+              .prose-article figcaption { text-align: center; font-size: 0.85rem; color: #64748b; margin-top: 0.5rem; }
+              .prose-article table { border-collapse: collapse; width: 100%; margin: 1.75rem 0; font-size: 0.95rem; }
+              .prose-article th, .prose-article td { border: 1px solid #E5E0D4; padding: 0.625rem 0.875rem; text-align: left; }
+              .prose-article th { background: #F1ECE3; font-weight: 700; color: #0B1220; }
             `,
           }}
         />

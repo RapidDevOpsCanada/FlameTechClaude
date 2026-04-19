@@ -3,7 +3,7 @@ import { sql, type Article } from "@/lib/db";
 export async function getAllArticles(): Promise<Article[]> {
   const rows = await sql`
     SELECT id, slug, title, excerpt, body, category, category_slug,
-           author, read_time, share_count, created_at
+           author, read_time, share_count, featured_image, created_at
     FROM articles
     ORDER BY created_at DESC
   `;
@@ -15,7 +15,7 @@ export async function getArticlesByCategory(
 ): Promise<Article[]> {
   const rows = await sql`
     SELECT id, slug, title, excerpt, body, category, category_slug,
-           author, read_time, share_count, created_at
+           author, read_time, share_count, featured_image, created_at
     FROM articles
     WHERE category_slug = ${categorySlug}
     ORDER BY created_at DESC
@@ -26,7 +26,7 @@ export async function getArticlesByCategory(
 export async function getArticleBySlug(slug: string): Promise<Article | null> {
   const rows = await sql`
     SELECT id, slug, title, excerpt, body, category, category_slug,
-           author, read_time, share_count, created_at
+           author, read_time, share_count, featured_image, created_at
     FROM articles
     WHERE slug = ${slug}
     LIMIT 1
