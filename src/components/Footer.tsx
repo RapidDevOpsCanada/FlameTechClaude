@@ -108,36 +108,6 @@ const serviceAreas: { label: string; href?: string }[] = [
 export default function Footer() {
   return (
     <footer className="bg-ink-900 text-cream-50 border-t border-line-dark">
-      {/* Top CTA strip */}
-      <div className="bg-ink-800 border-b border-line-dark">
-        <div className="max-w-7xl mx-auto px-6 md:px-10 py-8 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
-          <div>
-            <p className="font-display text-2xl md:text-3xl font-extrabold tracking-tight leading-tight">
-              Ready to book Calgary&apos;s trusted plumbers?
-            </p>
-            <p className="text-cream-50/65 mt-2 text-sm">
-              Free estimates · Upfront pricing · Satisfaction guaranteed
-            </p>
-          </div>
-          <div className="flex flex-wrap gap-3">
-            <a
-              href="tel:5878343668"
-              className="inline-flex items-center gap-2 rounded-full bg-emergency text-cream-50 font-extrabold uppercase tracking-tight px-6 py-3 text-[13px] hover:bg-emergency-deep transition-colors"
-            >
-              <Icon name="call" className="text-base" />
-              587-834-3668
-            </a>
-            <a
-              href="/#quote"
-              className="inline-flex items-center gap-2 rounded-full border border-cream-50/25 text-cream-50 font-bold uppercase tracking-tight px-6 py-3 text-[13px] hover:border-emergency hover:text-emergency transition-colors"
-            >
-              Free Estimate
-              <Icon name="arrow_right_alt" className="text-base" />
-            </a>
-          </div>
-        </div>
-      </div>
-
       {/* Main columns */}
       <div className="max-w-7xl mx-auto px-6 md:px-10 py-16 grid grid-cols-2 md:grid-cols-6 gap-10">
         {/* Brand */}

@@ -1,5 +1,6 @@
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
+import FinalCTA from "@/components/FinalCTA";
 import PageHeader from "@/components/PageHeader";
 import CategoryFilter from "@/components/CategoryFilter";
 import ArticleCard from "@/components/ArticleCard";
@@ -68,6 +69,7 @@ export default async function CategoryPage({
           )}
         </div>
       </main>
+      <FinalCTA />
       <Footer />
       <StickyCallBar />
     </>

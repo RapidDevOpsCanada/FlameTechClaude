@@ -1,5 +1,6 @@
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
+import FinalCTA from "@/components/FinalCTA";
 import StickyCallBar from "@/components/StickyCallBar";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -107,13 +108,13 @@ export default async function ArticlePage({
           dangerouslySetInnerHTML={{
             __html: `
               .prose-article p { font-size: 1.0625rem; line-height: 1.85; color: #334155; margin-bottom: 1.5rem; }
-              .prose-article h2 { font-weight: 800; letter-spacing: -0.02em; font-size: 1.875rem; margin: 2.75rem 0 1.25rem; color: #0B1220; }
-              .prose-article h3 { font-weight: 700; letter-spacing: -0.01em; font-size: 1.375rem; margin: 2.25rem 0 1rem; color: #0B1220; }
+              .prose-article h2 { font-weight: 800; letter-spacing: -0.02em; font-size: 1.875rem; margin: 2.75rem 0 1.25rem; color: #26262C; }
+              .prose-article h3 { font-weight: 700; letter-spacing: -0.01em; font-size: 1.375rem; margin: 2.25rem 0 1rem; color: #26262C; }
               .prose-article ul { margin: 1rem 0 1.5rem; padding-left: 1.25rem; list-style: disc; color: #334155; }
               .prose-article ol { margin: 1rem 0 1.5rem; padding-left: 1.5rem; list-style: decimal; color: #334155; }
               .prose-article li { margin-bottom: 0.5rem; line-height: 1.75; }
-              .prose-article blockquote { border-left: 3px solid #FB923C; padding: 0.5rem 0 0.5rem 1.5rem; margin: 1.75rem 0; color: #0B1220; font-weight: 500; }
-              .prose-article strong { color: #0B1220; font-weight: 700; }
+              .prose-article blockquote { border-left: 3px solid #FB923C; padding: 0.5rem 0 0.5rem 1.5rem; margin: 1.75rem 0; color: #26262C; font-weight: 500; }
+              .prose-article strong { color: #26262C; font-weight: 700; }
               .prose-article code { background: #F1ECE3; padding: 0.1rem 0.35rem; font-size: 0.85em; border-radius: 6px; }
               .prose-article a { color: #167f86; text-decoration: underline; text-underline-offset: 3px; text-decoration-color: rgba(22, 127, 134, 0.4); }
               .prose-article a:hover { text-decoration-color: #167f86; }
@@ -123,7 +124,7 @@ export default async function ArticlePage({
               .prose-article figcaption { text-align: center; font-size: 0.85rem; color: #64748b; margin-top: 0.5rem; }
               .prose-article table { border-collapse: collapse; width: 100%; margin: 1.75rem 0; font-size: 0.95rem; }
               .prose-article th, .prose-article td { border: 1px solid #E5E0D4; padding: 0.625rem 0.875rem; text-align: left; }
-              .prose-article th { background: #F1ECE3; font-weight: 700; color: #0B1220; }
+              .prose-article th { background: #F1ECE3; font-weight: 700; color: #26262C; }
             `,
           }}
         />
@@ -167,6 +168,7 @@ export default async function ArticlePage({
         </section>
       )}
 
+      <FinalCTA />
       <Footer />
       <StickyCallBar />
     </>
