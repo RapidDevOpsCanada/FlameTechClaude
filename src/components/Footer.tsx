@@ -94,15 +94,15 @@ const neighbourhoodGroups: { heading: string; items: { label: string; href: stri
   },
 ];
 
-const serviceAreas = [
-  "Calgary NE",
-  "Calgary NW",
-  "Calgary SE",
-  "Calgary SW",
-  "Airdrie",
-  "Chestermere",
-  "Cochrane",
-  "Okotoks",
+const serviceAreas: { label: string; href?: string }[] = [
+  { label: "Calgary NE" },
+  { label: "Calgary NW", href: "/calgary-plumbers-nw" },
+  { label: "Calgary SE", href: "/calgary-plumbers-se" },
+  { label: "Calgary SW", href: "/calgary-plumbers-sw" },
+  { label: "Airdrie", href: "/airdrie-plumbers" },
+  { label: "Chestermere" },
+  { label: "Cochrane" },
+  { label: "Okotoks" },
 ];
 
 export default function Footer() {
@@ -240,15 +240,26 @@ export default function Footer() {
               Service Area
             </p>
             <div className="flex flex-wrap gap-2">
-              {serviceAreas.map((area) => (
-                <span
-                  key={area}
-                  className="inline-flex items-center gap-1.5 rounded-full bg-ink-800 border border-line-dark px-3 py-1 text-xs text-cream-50/80"
-                >
-                  <Icon name="location_on" className="text-primary text-sm" />
-                  {area}
-                </span>
-              ))}
+              {serviceAreas.map((area) =>
+                area.href ? (
+                  <Link
+                    key={area.label}
+                    href={area.href}
+                    className="inline-flex items-center gap-1.5 rounded-full bg-ink-800 border border-line-dark px-3 py-1 text-xs text-cream-50/80 hover:border-emergency hover:text-emergency transition-colors"
+                  >
+                    <Icon name="location_on" className="text-primary text-sm" />
+                    {area.label}
+                  </Link>
+                ) : (
+                  <span
+                    key={area.label}
+                    className="inline-flex items-center gap-1.5 rounded-full bg-ink-800 border border-line-dark px-3 py-1 text-xs text-cream-50/80"
+                  >
+                    <Icon name="location_on" className="text-primary text-sm" />
+                    {area.label}
+                  </span>
+                ),
+              )}
               <span className="inline-flex items-center rounded-full bg-ink-800 border border-line-dark px-3 py-1 text-xs text-cream-50/60">
                 + surrounding communities
               </span>
