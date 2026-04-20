@@ -48,52 +48,6 @@ const airdrieLinks = [
   { label: "Reunion Plumbers", href: "/reunion-plumbers-airdrie" },
 ];
 
-const neighbourhoodGroups: { heading: string; items: { label: string; href: string }[] }[] = [
-  {
-    heading: "SW Calgary",
-    items: [
-      { label: "Altadore", href: "/altadore-plumbers-calgary" },
-      { label: "Aspen Woods", href: "/aspen-woods-plumbers-calgary" },
-      { label: "Bridlewood", href: "/bridlewood-plumbers-calgary" },
-      { label: "Evergreen", href: "/evergreen-plumbers-calgary" },
-      { label: "Killarney", href: "/killarney-plumbers-calgary" },
-      { label: "Marda Loop", href: "/marda-loop-plumbers-calgary" },
-      { label: "Mount Royal", href: "/mount-royal-plumbers-calgary" },
-      { label: "Signal Hill", href: "/signal-hill-plumbers-calgary" },
-      { label: "West Springs", href: "/west-springs-plumbers-calgary" },
-      { label: "Woodbine", href: "/woodbine-plumber" },
-      { label: "All SW Calgary", href: "/calgary-plumbers-sw" },
-    ],
-  },
-  {
-    heading: "SE Calgary",
-    items: [
-      { label: "Auburn Bay", href: "/auburn-bay-plumber-calgary" },
-      { label: "Chaparral", href: "/chaparral-plumbers-calgary" },
-      { label: "Copperfield", href: "/copperfield-plumbers-calgary" },
-      { label: "Cranston", href: "/cranston-plumber-calgary" },
-      { label: "Mahogany", href: "/mahogany-plumbers-calgary" },
-      { label: "McKenzie Lake", href: "/mckenzie-lake-plumbers-calgary" },
-      { label: "McKenzie Towne", href: "/mckenzie-towne-plumbers-calgary" },
-      { label: "New Brighton", href: "/new-brighton-plumbers-calgary" },
-      { label: "All SE Calgary", href: "/calgary-plumbers-se" },
-    ],
-  },
-  {
-    heading: "NW Calgary",
-    items: [
-      { label: "Edgemont", href: "/edgemont-plumbers-calgary" },
-      { label: "Evanston", href: "/evanston-plumbers-calgary" },
-      { label: "Panorama Hills", href: "/panorama-hills-plumbers-calgary" },
-      { label: "Tuscany", href: "/tuscany-plumbers-calgary" },
-      { label: "Varsity", href: "/varsity-plumbers-calgary" },
-      { label: "Huntington Hills", href: "/huntington-hills" },
-      { label: "Bowness", href: "/bowness-plumbers-calgary" },
-      { label: "All NW Calgary", href: "/calgary-plumbers-nw" },
-    ],
-  },
-];
-
 const serviceAreas: { label: string; href?: string }[] = [
   { label: "Calgary NE" },
   { label: "Calgary NW", href: "/calgary-plumbers-nw" },
@@ -136,36 +90,6 @@ export default function Footer() {
         <FooterColumn title="Heating" items={heatingLinks} />
         <FooterColumn title="Air & Water" items={airWaterLinks} />
         <FooterColumn title="Company" items={companyLinks} />
-      </div>
-
-      {/* Calgary neighbourhoods */}
-      <div className="border-t border-line-dark">
-        <div className="max-w-7xl mx-auto px-6 md:px-10 py-10">
-          <h5 className="text-[11px] font-bold uppercase tracking-[0.18em] text-primary mb-5">
-            Calgary Neighbourhoods
-          </h5>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {neighbourhoodGroups.map((g) => (
-              <div key={g.heading}>
-                <p className="text-xs font-bold uppercase tracking-[0.14em] text-cream-50/50 mb-3">
-                  {g.heading}
-                </p>
-                <ul className="space-y-2">
-                  {g.items.map((item) => (
-                    <li key={item.href}>
-                      <Link
-                        href={item.href}
-                        className="text-sm text-cream-50/70 hover:text-emergency transition-colors"
-                      >
-                        {item.label}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
-          </div>
-        </div>
       </div>
 
       {/* Airdrie service pages */}
