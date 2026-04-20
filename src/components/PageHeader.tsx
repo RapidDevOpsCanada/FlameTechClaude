@@ -8,7 +8,7 @@ export default function PageHeader({
   description?: string;
 }) {
   return (
-    <section className="relative bg-ink-900 text-cream-50 py-24 border-b border-line-dark overflow-hidden">
+    <section className="relative bg-emergency-deep text-cream-50 py-24 border-b border-white/15 overflow-hidden">
       <div className="absolute inset-0 dotgrid opacity-40 pointer-events-none"></div>
       <div className="hidden md:block absolute -top-40 -right-40 w-[600px] h-[600px] rounded-full bg-emergency/15 blur-3xl pointer-events-none"></div>
       <div className="max-w-7xl mx-auto px-6 md:px-10 w-full relative">

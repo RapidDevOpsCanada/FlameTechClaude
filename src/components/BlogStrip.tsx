@@ -26,7 +26,7 @@ export default async function BlogStrip() {
             </div>
             <Link
               href="/articles"
-              className="inline-flex items-center gap-2 rounded-full border border-ink-900 text-ink-900 font-semibold px-5 py-2.5 text-sm hover:bg-ink-900 hover:text-cream-50 transition-colors self-start"
+              className="inline-flex items-center gap-2 rounded-full border border-ink-900 text-ink-900 font-semibold px-5 py-2.5 text-sm hover:bg-emergency-deep hover:text-cream-50 transition-colors self-start"
             >
               All articles
               <Icon name="arrow_right_alt" className="text-base" />

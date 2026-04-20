@@ -36,11 +36,11 @@ body {
 
 @layer base {
   body {
-    @apply bg-ink-900 text-cream-50 font-body;
+    @apply bg-white text-ink-900 font-body;
   }
   body::selection,
   ::selection {
-    @apply bg-emergency/30 text-cream-50;
+    @apply bg-emergency/30 text-ink-900;
   }
   h1, h2, h3, h4, h5, h6 {
     @apply font-display tracking-tight;

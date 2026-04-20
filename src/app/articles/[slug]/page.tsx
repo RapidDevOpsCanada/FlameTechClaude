@@ -35,7 +35,7 @@ export default async function ArticlePage({
   return (
     <>
       <Nav />
-      <section className="relative bg-ink-900 text-cream-50 py-24 border-b border-line-dark overflow-hidden">
+      <section className="relative bg-emergency-deep text-cream-50 py-24 border-b border-white/15 overflow-hidden">
         <div className="absolute inset-0 dotgrid opacity-40 pointer-events-none"></div>
         <div className="hidden md:block absolute -top-40 -right-40 w-[600px] h-[600px] rounded-full bg-emergency/15 blur-3xl pointer-events-none"></div>
         <div className="max-w-4xl mx-auto px-6 md:px-10 w-full relative">
@@ -56,7 +56,7 @@ export default async function ArticlePage({
           <p className="text-lg text-cream-50/70 max-w-3xl leading-relaxed mb-10">
             {article.excerpt}
           </p>
-          <div className="flex flex-wrap items-center gap-6 pt-6 border-t border-line-dark">
+          <div className="flex flex-wrap items-center gap-6 pt-6 border-t border-white/15">
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 rounded-full bg-emergency/20 flex items-center justify-center font-bold text-emergency text-sm">
                 {initials(article.author)}
@@ -72,7 +72,7 @@ export default async function ArticlePage({
                 </p>
               </div>
             </div>
-            <div className="h-8 w-px bg-line-dark hidden md:block" />
+            <div className="h-8 w-px bg-white/15 hidden md:block" />
             <div className="flex items-center gap-2">
               <Icon name="share" className="text-emergency text-base" />
               <span className="text-sm font-semibold">
@@ -84,7 +84,7 @@ export default async function ArticlePage({
       </section>
 
       {article.featured_image && (
-        <div className="bg-ink-900">
+        <div className="bg-emergency-deep">
           <div className="max-w-5xl mx-auto">
             <div className="relative aspect-[16/9] md:aspect-[21/9] overflow-hidden">
               <img

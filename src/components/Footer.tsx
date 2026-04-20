@@ -107,7 +107,7 @@ const serviceAreas: { label: string; href?: string }[] = [
 
 export default function Footer() {
   return (
-    <footer className="bg-ink-900 text-cream-50 border-t border-line-dark">
+    <footer className="bg-emergency-deep text-cream-50 border-t border-white/15">
       {/* Main columns */}
       <div className="max-w-7xl mx-auto px-6 md:px-10 py-16 grid grid-cols-2 md:grid-cols-6 gap-10">
         {/* Brand */}
@@ -139,7 +139,7 @@ export default function Footer() {
       </div>
 
       {/* Calgary neighbourhoods */}
-      <div className="border-t border-line-dark">
+      <div className="border-t border-white/15">
         <div className="max-w-7xl mx-auto px-6 md:px-10 py-10">
           <h5 className="text-[11px] font-bold uppercase tracking-[0.18em] text-primary mb-5">
             Calgary Neighbourhoods
@@ -169,7 +169,7 @@ export default function Footer() {
       </div>
 
       {/* Airdrie service pages */}
-      <div className="border-t border-line-dark">
+      <div className="border-t border-white/15">
         <div className="max-w-7xl mx-auto px-6 md:px-10 py-10">
           <h5 className="text-[11px] font-bold uppercase tracking-[0.18em] text-primary mb-5">
             Airdrie Services
@@ -190,7 +190,7 @@ export default function Footer() {
       </div>
 
       {/* Trust + service area */}
-      <div className="border-t border-line-dark">
+      <div className="border-t border-white/15">
         <div className="max-w-7xl mx-auto px-6 md:px-10 py-10 grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
           <div className="flex items-center gap-5">
             <img
@@ -215,7 +215,7 @@ export default function Footer() {
                   <Link
                     key={area.label}
                     href={area.href}
-                    className="inline-flex items-center gap-1.5 rounded-full bg-ink-800 border border-line-dark px-3 py-1 text-xs text-cream-50/80 hover:border-emergency hover:text-emergency transition-colors"
+                    className="inline-flex items-center gap-1.5 rounded-full bg-emergency-deep border border-white/15 px-3 py-1 text-xs text-cream-50/80 hover:border-emergency hover:text-emergency transition-colors"
                   >
                     <Icon name="location_on" className="text-primary text-sm" />
                     {area.label}
@@ -223,14 +223,14 @@ export default function Footer() {
                 ) : (
                   <span
                     key={area.label}
-                    className="inline-flex items-center gap-1.5 rounded-full bg-ink-800 border border-line-dark px-3 py-1 text-xs text-cream-50/80"
+                    className="inline-flex items-center gap-1.5 rounded-full bg-emergency-deep border border-white/15 px-3 py-1 text-xs text-cream-50/80"
                   >
                     <Icon name="location_on" className="text-primary text-sm" />
                     {area.label}
                   </span>
                 ),
               )}
-              <span className="inline-flex items-center rounded-full bg-ink-800 border border-line-dark px-3 py-1 text-xs text-cream-50/60">
+              <span className="inline-flex items-center rounded-full bg-emergency-deep border border-white/15 px-3 py-1 text-xs text-cream-50/60">
                 + surrounding communities
               </span>
             </div>
@@ -239,7 +239,7 @@ export default function Footer() {
       </div>
 
       {/* Bottom */}
-      <div className="border-t border-line-dark">
+      <div className="border-t border-white/15">
         <div className="max-w-7xl mx-auto px-6 md:px-10 py-6 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-cream-50/55">
           <p>
             © {new Date().getFullYear()} FlameTech Plumbing &amp; Heating Ltd.
