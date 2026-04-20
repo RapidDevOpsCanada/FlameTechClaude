@@ -172,19 +172,19 @@ export default async function ServicePage({
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaJson) }}
       />
       <Nav />
-      <main className="bg-white text-ink-900">
+      <main className="bg-ink-900 text-cream-50">
         {/* HERO */}
-        <section className="relative border-b border-line-light overflow-hidden">
+        <section className="relative border-b border-line-dark overflow-hidden">
           <div className="absolute inset-0 dotgrid opacity-50 pointer-events-none"></div>
           <div className="hidden md:block absolute -top-32 -right-32 w-[520px] h-[520px] rounded-full bg-emergency/20 blur-3xl pointer-events-none"></div>
           <div className="hidden md:block absolute top-1/2 -left-32 w-[380px] h-[380px] rounded-full bg-primary/10 blur-3xl pointer-events-none" />
 
           <div className="max-w-7xl mx-auto px-6 md:px-10 py-10 md:py-14 relative">
-            <div className="flex flex-wrap items-center gap-2 mb-4 text-[11px] uppercase tracking-[0.14em] font-semibold text-ink-500">
+            <div className="flex flex-wrap items-center gap-2 mb-4 text-[11px] uppercase tracking-[0.14em] font-semibold text-cream-50/55">
               <Link href="/" className="hover:text-emergency">
                 Home
               </Link>
-              <span className="text-ink-500">/</span>
+              <span className="text-cream-50/30">/</span>
               <span className="text-primary">{service.category}</span>
             </div>
             <div className="grid grid-cols-12 gap-6 md:gap-10 items-center">
@@ -193,7 +193,7 @@ export default async function ServicePage({
                 {service.heroImage && (
                   <div className="lg:hidden mb-6">
                     <div
-                      className={`relative rounded-2xl border border-line-light aspect-[5/3] soft-shadow overflow-hidden ${
+                      className={`relative rounded-2xl border border-line-dark aspect-[5/3] soft-shadow overflow-hidden ${
                         service.heroImage.fit === "cover"
                           ? ""
                           : "bg-gradient-to-br from-cream-50 to-cream-100 p-5 flex items-center justify-center"
@@ -224,13 +224,13 @@ export default async function ServicePage({
                 <h1 className="font-display text-4xl md:text-5xl xl:text-[56px] font-extrabold leading-[1.04] tracking-[-0.025em] mb-4">
                   {service.title}
                 </h1>
-                <p className="text-lg md:text-xl font-bold text-ink-900 max-w-xl leading-snug mb-3">
+                <p className="text-lg md:text-xl font-bold text-cream-50 max-w-xl leading-snug mb-3">
                   <RichText>{service.lead}</RichText>
                 </p>
                 {service.heroBody?.map((p, i) => (
                   <p
                     key={i}
-                    className="text-[15px] md:text-base text-ink-700 max-w-xl leading-relaxed mb-3"
+                    className="text-[15px] md:text-base text-cream-50/75 max-w-xl leading-relaxed mb-3"
                   >
                     <RichText>{p}</RichText>
                   </p>
@@ -243,13 +243,13 @@ export default async function ServicePage({
                       <span className="text-[11px] font-extrabold uppercase tracking-[0.18em] text-primary">
                         {service.heroSubhead}
                       </span>
-                      <span className="hidden md:inline-block h-3 w-px bg-ink-900/12" />
+                      <span className="hidden md:inline-block h-3 w-px bg-cream-50/20" />
                     </>
                   )}
                   {TRUST_CHIPS.map((chip) => (
                     <span
                       key={chip}
-                      className="inline-flex items-center gap-1.5 text-[11px] font-bold uppercase tracking-[0.14em] text-ink-700"
+                      className="inline-flex items-center gap-1.5 text-[11px] font-bold uppercase tracking-[0.14em] text-cream-50/75"
                     >
                       <Icon
                         name="check_circle"
@@ -264,14 +264,14 @@ export default async function ServicePage({
                 <div className="flex flex-wrap items-center gap-3">
                   <a
                     href="tel:5878343668"
-                    className="inline-flex items-center gap-2.5 rounded-full bg-emergency text-ink-900 font-black uppercase tracking-tight px-8 py-5 text-[15px] shadow-lg shadow-emergency/25 hover:bg-emergency-deep transition-colors"
+                    className="inline-flex items-center gap-2.5 rounded-full bg-emergency text-cream-50 font-black uppercase tracking-tight px-8 py-5 text-[15px] shadow-lg shadow-emergency/25 hover:bg-emergency-deep transition-colors"
                   >
                     <Icon name="call" className="text-lg" />
                     Call 587-834-3668
                   </a>
                   <a
                     href="#quote"
-                    className="inline-flex items-center gap-2 rounded-full border border-ink-900/15 text-ink-800 font-bold uppercase tracking-tight px-5 py-3 text-[12px] hover:border-emergency hover:text-emergency transition-colors"
+                    className="inline-flex items-center gap-2 rounded-full border border-cream-50/25 text-cream-50/90 font-bold uppercase tracking-tight px-5 py-3 text-[12px] hover:border-emergency hover:text-emergency transition-colors"
                   >
                     Free estimate
                     <Icon name="arrow_right_alt" className="text-base" />
@@ -284,7 +284,7 @@ export default async function ServicePage({
                   <div className="relative">
                     <div className="absolute -inset-3 bg-primary/10 rounded-[28px] blur-2xl pointer-events-none" />
                     <div
-                      className={`relative rounded-3xl border border-line-light aspect-[5/4] soft-shadow overflow-hidden ${
+                      className={`relative rounded-3xl border border-line-dark aspect-[5/4] soft-shadow overflow-hidden ${
                         service.heroImage.fit === "cover"
                           ? ""
                           : "bg-gradient-to-br from-cream-50 to-cream-100 p-8 flex items-center justify-center"
@@ -311,14 +311,14 @@ export default async function ServicePage({
                     )}
                   </div>
                 ) : (
-                  <div className="rounded-3xl bg-cream-50 border border-line-light p-8 flex flex-col items-center justify-center aspect-square soft-shadow">
+                  <div className="rounded-3xl bg-ink-800 border border-line-dark p-8 flex flex-col items-center justify-center aspect-square soft-shadow">
                     <div className="w-20 h-20 rounded-2xl bg-primary/15 text-primary-deep flex items-center justify-center mb-6">
                       <Icon name={service.icon} className="text-4xl" />
                     </div>
                     <span className="text-xs font-bold uppercase tracking-[0.18em] text-primary mb-2">
                       Service
                     </span>
-                    <p className="text-center text-ink-900 font-display font-extrabold text-2xl leading-tight">
+                    <p className="text-center text-cream-50 font-display font-extrabold text-2xl leading-tight">
                       {service.category}
                     </p>
                   </div>
@@ -329,7 +329,7 @@ export default async function ServicePage({
         </section>
 
         {/* STATS STRIP */}
-        <section className="bg-cream-50">
+        <section className="bg-ink-800">
           <div className="max-w-7xl mx-auto px-6 md:px-10 py-6 md:py-8 grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
             {stats?.slice(0, 4).map((s) => (
               <div
@@ -342,10 +342,10 @@ export default async function ServicePage({
                   </div>
                 )}
                 <div className="min-w-0 flex-1">
-                  <div className="font-display text-lg md:text-2xl font-extrabold tracking-[-0.02em] text-ink-900 leading-none">
+                  <div className="font-display text-lg md:text-2xl font-extrabold tracking-[-0.02em] text-cream-50 leading-none">
                     {s.number}
                   </div>
-                  <div className="text-[10px] md:text-[11px] uppercase tracking-[0.08em] md:tracking-[0.16em] text-ink-600 font-semibold mt-1 break-words leading-snug">
+                  <div className="text-[10px] md:text-[11px] uppercase tracking-[0.08em] md:tracking-[0.16em] text-cream-50/60 font-semibold mt-1 break-words leading-snug">
                     {s.label}
                   </div>
                 </div>
@@ -410,7 +410,7 @@ export default async function ServicePage({
               )}
 
               {service.callout && (
-                <div className="rounded-2xl bg-gradient-to-br from-emergency to-emergency-deep text-ink-900 p-6 md:p-8 mb-12">
+                <div className="rounded-2xl bg-gradient-to-br from-emergency to-emergency-deep text-cream-50 p-6 md:p-8 mb-12">
                   <div className="flex items-start gap-4">
                     <Icon
                       name="contact_emergency"
@@ -422,7 +422,7 @@ export default async function ServicePage({
                       </p>
                       <a
                         href="tel:5878343668"
-                        className="inline-flex items-center gap-2 rounded-full bg-white text-ink-900 font-bold px-5 py-2.5 text-sm mt-2"
+                        className="inline-flex items-center gap-2 rounded-full bg-ink-900 text-cream-50 font-bold px-5 py-2.5 text-sm mt-2"
                       >
                         <Icon name="call" className="text-base" />
                         Call 587-834-3668
@@ -510,7 +510,7 @@ export default async function ServicePage({
                               return (
                                 <div
                                   key={`${section.heading}-${i}`}
-                                  className="rounded-2xl bg-white text-ink-900 border border-line-light overflow-hidden soft-shadow"
+                                  className="rounded-2xl bg-ink-900 text-cream-50 border border-ink-900 overflow-hidden soft-shadow"
                                 >
                                   <div className="relative h-64 md:h-80 overflow-hidden">
                                     <img
@@ -518,8 +518,8 @@ export default async function ServicePage({
                                       alt={item.image!.alt}
                                       className="w-full h-full object-cover"
                                     />
-                                    <div className="absolute inset-0 bg-gradient-to-t from-white via-white/40 to-transparent" />
-                                    <div className="absolute top-5 left-5 rounded-full bg-emergency text-ink-900 text-[10px] font-extrabold uppercase tracking-[0.18em] px-3 py-1.5">
+                                    <div className="absolute inset-0 bg-gradient-to-t from-ink-900 via-ink-900/40 to-transparent" />
+                                    <div className="absolute top-5 left-5 rounded-full bg-emergency text-cream-50 text-[10px] font-extrabold uppercase tracking-[0.18em] px-3 py-1.5">
                                       Featured
                                     </div>
                                   </div>
@@ -529,7 +529,7 @@ export default async function ServicePage({
                                         {item.heading}
                                       </h3>
                                     )}
-                                    <p className="text-base md:text-lg text-ink-800 leading-relaxed max-w-2xl">
+                                    <p className="text-base md:text-lg text-cream-50/85 leading-relaxed max-w-2xl">
                                       <RichText>{item.body}</RichText>
                                     </p>
                                   </div>
@@ -602,7 +602,7 @@ export default async function ServicePage({
 
               {/* RICH CONTENT — promo */}
               {service.richContent?.promo && (
-                <div className="mb-14 rounded-3xl bg-white text-ink-900 overflow-hidden border border-line-light soft-shadow">
+                <div className="mb-14 rounded-3xl bg-ink-900 text-cream-50 overflow-hidden border border-line-dark soft-shadow">
                   <div className="grid grid-cols-1 md:grid-cols-5 items-stretch">
                     <div className="md:col-span-2 bg-gradient-to-br from-cream-50 to-cream-100 flex items-center justify-center p-8 md:p-10">
                       <img
@@ -628,7 +628,7 @@ export default async function ServicePage({
                               {g.items.map((li, idx) => (
                                 <li
                                   key={idx}
-                                  className="text-sm text-ink-700 flex items-start gap-2"
+                                  className="text-sm text-cream-50/80 flex items-start gap-2"
                                 >
                                   <Icon
                                     name="check_circle"
@@ -644,13 +644,13 @@ export default async function ServicePage({
                       <div className="flex flex-wrap items-center gap-4 mt-7">
                         <a
                           href="#quote"
-                          className="inline-flex items-center gap-2 rounded-full bg-emergency text-ink-900 font-extrabold uppercase tracking-tight px-5 py-2.5 text-[12px] hover:bg-emergency-deep transition-colors"
+                          className="inline-flex items-center gap-2 rounded-full bg-emergency text-cream-50 font-extrabold uppercase tracking-tight px-5 py-2.5 text-[12px] hover:bg-emergency-deep transition-colors"
                         >
                           Ask about this offer
                           <Icon name="arrow_right_alt" className="text-base" />
                         </a>
                         {service.richContent.promo.disclaimer && (
-                          <p className="text-[11px] italic text-ink-500">
+                          <p className="text-[11px] italic text-cream-50/50">
                             *{service.richContent.promo.disclaimer}
                           </p>
                         )}
@@ -698,14 +698,14 @@ export default async function ServicePage({
             </div>
 
             <aside className="col-span-12 lg:col-span-3">
-              <div className="sticky top-28 rounded-2xl bg-white text-ink-900 p-6 overflow-hidden">
+              <div className="sticky top-28 rounded-2xl bg-ink-900 text-cream-50 p-6 overflow-hidden">
                 <span className="eyebrow mb-3">
                   {service.sidebar?.subtitle ? "Get a quote" : "Get started"}
                 </span>
                 <h3 className="font-display text-xl font-extrabold tracking-tight mt-3 mb-3 leading-tight">
                   {service.sidebar?.title ?? "Ready for a free quote?"}
                 </h3>
-                <p className="text-[13px] text-ink-700 leading-relaxed mb-5">
+                <p className="text-[13px] text-cream-50/70 leading-relaxed mb-5">
                   {service.sidebar?.subtitle ??
                     "Tell us about your job and we'll follow up with pricing and availability."}
                 </p>
@@ -715,7 +715,7 @@ export default async function ServicePage({
                     {service.sidebar.bullets.map((b) => (
                       <li
                         key={b}
-                        className="flex items-start gap-2 text-[12.5px] text-ink-800 leading-snug"
+                        className="flex items-start gap-2 text-[12.5px] text-cream-50/85 leading-snug"
                       >
                         <Icon
                           name="check_circle"
@@ -730,32 +730,32 @@ export default async function ServicePage({
                 <div className="space-y-2.5 mb-5">
                   <a
                     href="tel:5878343668"
-                    className="w-full inline-flex items-center justify-center gap-2 rounded-full bg-emergency text-ink-900 font-extrabold uppercase tracking-tight px-4 py-3 text-[12px] hover:bg-emergency-deep transition-colors"
+                    className="w-full inline-flex items-center justify-center gap-2 rounded-full bg-emergency text-cream-50 font-extrabold uppercase tracking-tight px-4 py-3 text-[12px] hover:bg-emergency-deep transition-colors"
                   >
                     <Icon name="call" className="text-base" />
                     587-834-3668
                   </a>
                   <a
                     href="#quote"
-                    className="w-full inline-flex items-center justify-center gap-2 rounded-full border border-ink-900/15 text-ink-900 font-bold uppercase tracking-tight px-4 py-3 text-[12px] hover:border-emergency hover:text-emergency transition-colors"
+                    className="w-full inline-flex items-center justify-center gap-2 rounded-full border border-cream-50/25 text-cream-50 font-bold uppercase tracking-tight px-4 py-3 text-[12px] hover:border-emergency hover:text-emergency transition-colors"
                   >
                     Request a quote
                   </a>
                 </div>
 
                 {/* 5-star Google rated */}
-                <div className="pt-5 border-t border-line-light flex items-center gap-3">
+                <div className="pt-5 border-t border-line-dark flex items-center gap-3">
                   <span className="text-primary text-base tracking-[0.12em]">
                     ★★★★★
                   </span>
-                  <span className="text-[12px] font-bold text-ink-900 leading-tight">
+                  <span className="text-[12px] font-bold text-cream-50 leading-tight">
                     5-Star Google Rated
                   </span>
                 </div>
 
                 {/* Financeit — bigger-ticket services only */}
                 {service.financing && (
-                  <div className="mt-5 pt-5 border-t border-line-light">
+                  <div className="mt-5 pt-5 border-t border-line-dark">
                     <div className="rounded-xl bg-cream-50 p-4">
                       <img
                         src="/images/financeit.png"
@@ -891,7 +891,7 @@ export default async function ServicePage({
         {/* QUOTE FORM */}
         <section
           id="quote"
-          className="relative bg-white text-ink-900 py-20 overflow-hidden"
+          className="relative bg-ink-900 text-cream-50 py-20 overflow-hidden"
         >
           <div className="absolute inset-0 dotgrid opacity-30 pointer-events-none"></div>
           <div className="hidden md:block absolute top-10 -right-40 w-[520px] h-[520px] rounded-full bg-emergency/20 blur-3xl pointer-events-none"></div>
@@ -902,12 +902,12 @@ export default async function ServicePage({
                 <h2 className="font-display text-4xl md:text-5xl font-extrabold tracking-[-0.025em] mt-4 mb-6 leading-[1.02]">
                   Get a free {quoteFormLabel(service)} quote.
                 </h2>
-                <p className="text-ink-700 leading-relaxed">
+                <p className="text-cream-50/70 leading-relaxed">
                   Tell us what&apos;s going on and our dispatch team will call
                   you back with pricing and availability.
                 </p>
               </div>
-              <div className="col-span-12 md:col-span-7 rounded-3xl bg-cream-50 text-ink-900 p-8 md:p-10 border border-line-light">
+              <div className="col-span-12 md:col-span-7 rounded-3xl bg-cream-50 text-ink-900 p-8 md:p-10 border border-line-dark">
                 <QuoteForm issuePlaceholder={service.quoteFormPlaceholder} />
               </div>
             </div>
@@ -937,7 +937,7 @@ function quoteFormLabel(service: ServicePage): string {
 /** Inline testimonial block, rendered between body sections. */
 function InlineReviewBlock({ review }: { review: Review }) {
   return (
-    <div className="mb-14 rounded-3xl bg-white text-ink-900 p-8 md:p-10 relative overflow-hidden">
+    <div className="mb-14 rounded-3xl bg-ink-900 text-cream-50 p-8 md:p-10 relative overflow-hidden">
       <div className="absolute -top-4 right-6 text-primary/20 text-[140px] font-display font-extrabold leading-none select-none pointer-events-none">
         &ldquo;
       </div>
@@ -952,13 +952,13 @@ function InlineReviewBlock({ review }: { review: Review }) {
         <p className="font-display text-xl md:text-2xl font-semibold leading-snug tracking-[-0.01em] mb-6">
           &ldquo;{review.quote}&rdquo;
         </p>
-        <div className="flex items-center gap-3 pt-5 border-t border-line-light">
+        <div className="flex items-center gap-3 pt-5 border-t border-line-dark">
           <div className="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center font-bold text-primary text-sm">
             {review.initials}
           </div>
           <div>
             <p className="font-bold text-sm leading-tight">{review.author}</p>
-            <p className="text-xs text-ink-600">
+            <p className="text-xs text-cream-50/60">
               {review.area} · {review.relative_date}
             </p>
           </div>

@@ -36,11 +36,11 @@ body {
 
 @layer base {
   body {
-    @apply bg-white text-ink-900 font-body;
+    @apply bg-ink-900 text-cream-50 font-body;
   }
   body::selection,
   ::selection {
-    @apply bg-emergency/30 text-ink-900;
+    @apply bg-emergency/30 text-cream-50;
   }
   h1, h2, h3, h4, h5, h6 {
     @apply font-display tracking-tight;
@@ -63,7 +63,7 @@ body {
 
   /* Eyebrows: understated, teal accent line — not orange (reserve orange for action). */
   .eyebrow {
-    @apply inline-flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.18em] text-ink-700;
+    @apply inline-flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.18em] text-cream-50/70;
   }
   .eyebrow::before {
     content: "";
@@ -76,18 +76,12 @@ body {
     content: "";
     @apply block w-6 h-px bg-primary;
   }
-  /* Default dotgrid is tuned for light backgrounds (dark dots).
-     Use .dotgrid-inverse when placed over a dark section. */
   .dotgrid {
-    background-image: radial-gradient(rgba(38,38,44,0.08) 1px, transparent 1px);
+    background-image: radial-gradient(rgba(255,255,255,0.08) 1px, transparent 1px);
     background-size: 22px 22px;
   }
   .dotgrid-light {
-    background-image: radial-gradient(rgba(38,38,44,0.08) 1px, transparent 1px);
-    background-size: 22px 22px;
-  }
-  .dotgrid-inverse {
-    background-image: radial-gradient(rgba(255,255,255,0.08) 1px, transparent 1px);
+    background-image: radial-gradient(rgba(11,18,32,0.08) 1px, transparent 1px);
     background-size: 22px 22px;
   }
   .soft-shadow {

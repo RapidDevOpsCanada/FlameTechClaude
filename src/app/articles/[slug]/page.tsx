@@ -35,7 +35,7 @@ export default async function ArticlePage({
   return (
     <>
       <Nav />
-      <section className="relative bg-white text-ink-900 py-24 border-b border-line-light overflow-hidden">
+      <section className="relative bg-ink-900 text-cream-50 py-24 border-b border-line-dark overflow-hidden">
         <div className="absolute inset-0 dotgrid opacity-40 pointer-events-none"></div>
         <div className="hidden md:block absolute -top-40 -right-40 w-[600px] h-[600px] rounded-full bg-emergency/15 blur-3xl pointer-events-none"></div>
         <div className="max-w-4xl mx-auto px-6 md:px-10 w-full relative">
@@ -46,24 +46,24 @@ export default async function ArticlePage({
             >
               {article.category}
             </Link>
-            <span className="text-xs font-semibold text-ink-600 uppercase tracking-wider">
+            <span className="text-xs font-semibold text-cream-50/60 uppercase tracking-wider">
               {article.read_time} min read
             </span>
           </div>
           <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight leading-[1.05] mb-6">
             {article.title}
           </h1>
-          <p className="text-lg text-ink-700 max-w-3xl leading-relaxed mb-10">
+          <p className="text-lg text-cream-50/70 max-w-3xl leading-relaxed mb-10">
             {article.excerpt}
           </p>
-          <div className="flex flex-wrap items-center gap-6 pt-6 border-t border-line-light">
+          <div className="flex flex-wrap items-center gap-6 pt-6 border-t border-line-dark">
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 rounded-full bg-emergency/20 flex items-center justify-center font-bold text-emergency text-sm">
                 {initials(article.author)}
               </div>
               <div>
                 <p className="font-bold text-sm">{article.author}</p>
-                <p className="text-xs text-ink-600">
+                <p className="text-xs text-cream-50/60">
                   {new Date(article.created_at).toLocaleDateString("en-US", {
                     month: "short",
                     day: "2-digit",
@@ -72,7 +72,7 @@ export default async function ArticlePage({
                 </p>
               </div>
             </div>
-            <div className="h-8 w-px bg-line-light hidden md:block" />
+            <div className="h-8 w-px bg-line-dark hidden md:block" />
             <div className="flex items-center gap-2">
               <Icon name="share" className="text-emergency text-base" />
               <span className="text-sm font-semibold">
@@ -84,7 +84,7 @@ export default async function ArticlePage({
       </section>
 
       {article.featured_image && (
-        <div className="bg-white">
+        <div className="bg-ink-900">
           <div className="max-w-5xl mx-auto">
             <div className="relative aspect-[16/9] md:aspect-[21/9] overflow-hidden">
               <img

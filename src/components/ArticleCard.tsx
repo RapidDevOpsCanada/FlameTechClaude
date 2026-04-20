@@ -14,7 +14,7 @@ export default function ArticleCard({ article }: { article: Article }) {
       className="group col-span-12 md:col-span-6 lg:col-span-4 rounded-2xl bg-white border border-line-light overflow-hidden flex flex-col hover:border-emergency transition-colors"
     >
       {article.featured_image && (
-        <div className="relative aspect-[16/9] overflow-hidden bg-cream-50">
+        <div className="relative aspect-[16/9] overflow-hidden bg-ink-800">
           <img
             src={article.featured_image}
             alt={article.title}

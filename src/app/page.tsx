@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <>
       <Nav />
-      <main className="bg-white text-ink-900">
+      <main className="bg-ink-900 text-cream-50">
         {/* HERO — tighter vertical rhythm */}
         <section className="relative overflow-hidden">
           <div className="absolute inset-0 dotgrid opacity-60 pointer-events-none"></div>
@@ -34,7 +34,7 @@ export default function Home() {
                   </span>
                   .
                 </h1>
-                <p className="text-lg text-ink-700 max-w-xl mb-8 leading-relaxed">
+                <p className="text-lg text-cream-50/70 max-w-xl mb-8 leading-relaxed">
                   At Flame Tech, we pride ourselves on delivering top-notch
                   plumbing and heating services tailored to meet the unique
                   needs of our residential plumbing &amp; heating clients in
@@ -44,28 +44,28 @@ export default function Home() {
                 <div className="flex flex-wrap gap-4 mb-5">
                   <a
                     href="tel:5878343668"
-                    className="inline-flex items-center gap-2 rounded-full bg-emergency text-ink-900 font-extrabold uppercase tracking-tight px-7 py-4 text-[14px] hover:bg-emergency-deep transition-colors"
+                    className="inline-flex items-center gap-2 rounded-full bg-emergency text-cream-50 font-extrabold uppercase tracking-tight px-7 py-4 text-[14px] hover:bg-emergency-deep transition-colors"
                   >
                     <Icon name="call" className="text-lg" />
                     Call 587-834-3668
                   </a>
                   <a
                     href="#quote"
-                    className="inline-flex items-center gap-2 rounded-full border border-ink-900/15 text-ink-900 font-bold uppercase tracking-tight px-7 py-4 text-[14px] hover:border-emergency hover:text-emergency transition-colors"
+                    className="inline-flex items-center gap-2 rounded-full border border-cream-50/25 text-cream-50 font-bold uppercase tracking-tight px-7 py-4 text-[14px] hover:border-emergency hover:text-emergency transition-colors"
                   >
                     Free estimate
                     <Icon name="arrow_right_alt" className="text-base" />
                   </a>
                 </div>
 
-                <div className="inline-flex items-center gap-2 rounded-full bg-cream-50 border border-line-light px-4 py-2 text-xs text-ink-700 font-semibold">
+                <div className="inline-flex items-center gap-2 rounded-full bg-ink-800 border border-line-dark px-4 py-2 text-xs text-cream-50/80 font-semibold">
                   <Icon name="verified" className="text-primary text-base" />
                   Free estimate · No service charge for quotes
                 </div>
               </div>
 
               <div className="col-span-12 lg:col-span-6 relative reveal reveal-delay-200">
-                <div className="relative rounded-3xl overflow-hidden border border-line-light soft-shadow bg-cream-50">
+                <div className="relative rounded-3xl overflow-hidden border border-line-dark soft-shadow bg-cream-50">
                   <img
                     src="/images/FTVAN.jpg"
                     alt="FlameTech service van across Calgary"
@@ -85,7 +85,7 @@ export default function Home() {
         </section>
 
         {/* STATS STRIP */}
-        <section className="border-y border-line-light bg-cream-50">
+        <section className="border-y border-line-dark bg-ink-800">
           <div className="max-w-7xl mx-auto px-6 md:px-10 py-8 md:py-10 grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-4">
             <Stat number="45+" label="Years combined experience" />
             <Stat number="2,000+" label="Jobs completed" />
@@ -116,7 +116,7 @@ export default function Home() {
                       alt="Jason Mounsey and Shaun Kristoff — FlameTech founders — standing in front of the service van"
                       className="w-full aspect-[4/5] object-cover object-center"
                     />
-                    <div className="absolute bottom-3 left-3 rounded-full bg-white/90 backdrop-blur-md text-ink-900 px-3 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.14em] flex items-center gap-2 border border-ink-900/10">
+                    <div className="absolute bottom-3 left-3 rounded-full bg-ink-900/90 backdrop-blur-md text-cream-50 px-3 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.14em] flex items-center gap-2 border border-cream-50/10">
                       <Icon name="verified" className="text-sm text-primary" />
                       Red Seal · Alberta Licensed
                     </div>
@@ -156,7 +156,7 @@ export default function Home() {
                   <span className="text-emergency">trust</span>.
                 </h2>
 
-                <blockquote className="relative rounded-3xl bg-white text-ink-900 p-8 md:p-10 mb-8 overflow-hidden soft-shadow">
+                <blockquote className="relative rounded-3xl bg-ink-900 text-cream-50 p-8 md:p-10 mb-8 overflow-hidden soft-shadow">
                   <span className="absolute -top-4 right-6 text-primary/25 text-[180px] font-display font-extrabold leading-none select-none pointer-events-none">
                     &ldquo;
                   </span>
@@ -166,22 +166,22 @@ export default function Home() {
                       plumbers, look no further than Flame Tech Plumbing &amp;
                       Heating.
                     </p>
-                    <p className="text-ink-700 leading-relaxed mb-3">
+                    <p className="text-cream-50/80 leading-relaxed mb-3">
                       We are your local experts, dedicated to providing
                       top-notch plumbing services throughout Calgary and the
                       surrounding areas.
                     </p>
-                    <p className="text-ink-700 leading-relaxed mb-6">
+                    <p className="text-cream-50/80 leading-relaxed mb-6">
                       From routine maintenance to emergency repairs, our team
                       of certified plumbers is ready to handle all your
                       plumbing needs with efficiency and expertise.
                     </p>
-                    <div className="flex items-center gap-3 pt-5 border-t border-line-light">
+                    <div className="flex items-center gap-3 pt-5 border-t border-line-dark">
                       <div className="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center">
                         <Icon name="verified" className="text-primary text-base" />
                       </div>
                       <div>
-                        <p className="font-bold text-sm text-ink-900 leading-tight">
+                        <p className="font-bold text-sm text-cream-50 leading-tight">
                           Jason Mounsey &amp; Shaun Kristoff
                         </p>
                         <p className="text-[11px] uppercase tracking-[0.14em] font-semibold text-primary mt-0.5">
@@ -270,13 +270,13 @@ export default function Home() {
         </section>
 
         {/* EMERGENCY CALLOUT — split alert panel */}
-        <section className="relative bg-white py-16 overflow-hidden">
+        <section className="relative bg-ink-900 py-16 overflow-hidden">
           <div className="hidden md:block absolute top-1/2 left-1/4 -translate-y-1/2 w-[500px] h-[260px] bg-emergency/25 blur-3xl rounded-full pointer-events-none" />
           <div className="hidden md:block absolute top-1/2 right-1/4 -translate-y-1/2 w-[400px] h-[220px] bg-primary/15 blur-3xl rounded-full pointer-events-none" />
 
           <div className="max-w-7xl mx-auto px-6 md:px-10 relative">
             <Reveal>
-              <div className="relative rounded-3xl border border-line-light bg-cream-50 overflow-hidden soft-shadow">
+              <div className="relative rounded-3xl border border-line-dark bg-ink-800 overflow-hidden soft-shadow">
                 {/* Caution stripe */}
                 <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-emergency via-primary to-emergency" />
 
@@ -290,16 +290,16 @@ export default function Home() {
                       </span>
                       Emergency Response
                     </div>
-                    <h2 className="font-display text-3xl md:text-5xl font-extrabold tracking-[-0.025em] leading-[1.02] text-ink-900">
+                    <h2 className="font-display text-3xl md:text-5xl font-extrabold tracking-[-0.025em] leading-[1.02] text-cream-50">
                       Burst pipe? No heat?
                       <br />
                       <span className="text-emergency">Call now.</span>
                     </h2>
-                    <p className="text-ink-700 mt-4 max-w-md text-base leading-relaxed">
+                    <p className="text-cream-50/70 mt-4 max-w-md text-base leading-relaxed">
                       Fast on-site response across Calgary and surrounding
                       communities when you need it most.
                     </p>
-                    <ul className="mt-6 flex flex-wrap gap-x-5 gap-y-2 text-xs text-ink-700 font-semibold">
+                    <ul className="mt-6 flex flex-wrap gap-x-5 gap-y-2 text-xs text-cream-50/70 font-semibold">
                       <li className="flex items-center gap-1.5">
                         <Icon name="check_circle" className="text-emergency text-base" />
                         Burst &amp; frozen pipes
@@ -318,21 +318,21 @@ export default function Home() {
                   {/* RIGHT — tap-to-call block */}
                   <a
                     href="tel:5878343668"
-                    className="relative col-span-12 md:col-span-5 bg-gradient-to-br from-emergency to-emergency-deep text-ink-900 p-8 md:p-12 flex flex-col justify-center group overflow-hidden"
+                    className="relative col-span-12 md:col-span-5 bg-gradient-to-br from-emergency to-emergency-deep text-cream-50 p-8 md:p-12 flex flex-col justify-center group overflow-hidden"
                   >
-                    <div className="absolute -right-12 -top-12 w-48 h-48 rounded-full bg-ink-900/8 blur-2xl pointer-events-none" />
-                    <div className="absolute right-4 bottom-4 w-12 h-12 rounded-full bg-ink-900/8 flex items-center justify-center group-hover:translate-x-1 transition-transform pointer-events-none">
+                    <div className="absolute -right-12 -top-12 w-48 h-48 rounded-full bg-cream-50/10 blur-2xl pointer-events-none" />
+                    <div className="absolute right-4 bottom-4 w-12 h-12 rounded-full bg-cream-50/10 flex items-center justify-center group-hover:translate-x-1 transition-transform pointer-events-none">
                       <Icon name="arrow_right_alt" className="text-xl" />
                     </div>
 
-                    <span className="text-[11px] font-extrabold uppercase tracking-[0.18em] text-ink-700 mb-3 flex items-center gap-2">
+                    <span className="text-[11px] font-extrabold uppercase tracking-[0.18em] text-cream-50/80 mb-3 flex items-center gap-2">
                       <Icon name="call" className="text-base" />
                       Tap to dial dispatch
                     </span>
                     <span className="font-display text-4xl md:text-[44px] font-extrabold tracking-[-0.02em] leading-none">
                       587-834-3668
                     </span>
-                    <span className="text-xs text-ink-700 mt-3 font-semibold">
+                    <span className="text-xs text-cream-50/80 mt-3 font-semibold">
                       Available for urgent residential calls
                     </span>
                   </a>
@@ -356,7 +356,7 @@ export default function Home() {
                 </div>
                 <a
                   href="#quote"
-                  className="inline-flex items-center gap-2 rounded-full bg-white text-ink-900 font-bold px-6 py-3 text-sm hover:bg-emergency hover:text-ink-900 transition-colors self-start"
+                  className="inline-flex items-center gap-2 rounded-full bg-ink-900 text-cream-50 font-bold px-6 py-3 text-sm hover:bg-emergency hover:text-cream-50 transition-colors self-start"
                 >
                   Get a free quote
                   <Icon name="arrow_right_alt" className="text-base" />
@@ -365,14 +365,14 @@ export default function Home() {
             </Reveal>
 
             <div className="grid grid-cols-12 gap-6">
-              <div className="col-span-12 lg:col-span-7 rounded-3xl overflow-hidden bg-white text-ink-900 border border-line-light relative group lift">
+              <div className="col-span-12 lg:col-span-7 rounded-3xl overflow-hidden bg-ink-900 text-cream-50 border border-ink-900 relative group lift">
                 <div className="relative h-64 md:h-80 overflow-hidden">
                   <img
                     src="/images/FTVAN1.jpg"
                     alt="FlameTech plumbing service van"
                     className="w-full h-full object-cover"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-white via-white/30 to-transparent" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-ink-900 via-ink-900/30 to-transparent" />
                   <div className="absolute top-5 left-5 rounded-full bg-primary text-ink-900 text-xs font-extrabold uppercase tracking-widest px-3 py-1.5">
                     Most Requested
                   </div>
@@ -382,14 +382,14 @@ export default function Home() {
                     <h3 className="font-display text-3xl md:text-4xl font-extrabold tracking-tight mb-4">
                       Plumbing
                     </h3>
-                    <p className="text-ink-700 text-base leading-relaxed mb-6">
+                    <p className="text-cream-50/75 text-base leading-relaxed mb-6">
                       Bathroom &amp; shower plumbing, drain cleaning, PolyB
                       replacement for older Calgary homes, and fast emergency
                       repairs.
                     </p>
                     <a
                       href="tel:5878343668"
-                      className="inline-flex items-center gap-2 rounded-full bg-emergency text-ink-900 font-extrabold uppercase tracking-tight px-5 py-3 text-[13px] hover:bg-emergency-deep transition-colors"
+                      className="inline-flex items-center gap-2 rounded-full bg-emergency text-cream-50 font-extrabold uppercase tracking-tight px-5 py-3 text-[13px] hover:bg-emergency-deep transition-colors"
                     >
                       Book a free estimate
                       <Icon name="arrow_right_alt" className="text-base" />
@@ -405,7 +405,7 @@ export default function Home() {
                     ].map((item) => (
                       <li
                         key={item}
-                        className="flex items-center gap-2 text-ink-700"
+                        className="flex items-center gap-2 text-cream-50/80"
                       >
                         <Icon name="check_circle" className="text-primary text-base" />
                         {item}
@@ -473,7 +473,7 @@ export default function Home() {
         {/* SERVICE AREA — ink-900, teal glow top-left */}
         <section
           id="service-area"
-          className="relative bg-white text-ink-900 py-24 overflow-hidden"
+          className="relative bg-ink-900 text-cream-50 py-24 overflow-hidden"
         >
           <div className="absolute inset-0 dotgrid opacity-40 pointer-events-none"></div>
           <div className="hidden md:block absolute -top-32 -left-32 w-[520px] h-[520px] rounded-full bg-emergency/15 blur-3xl pointer-events-none"></div>
@@ -486,14 +486,14 @@ export default function Home() {
                     Serving Calgary and surrounding communities.
                   </h2>
                 </div>
-                <p className="text-ink-700 max-w-sm">
+                <p className="text-cream-50/70 max-w-sm">
                   Fast response across Calgary and southern Alberta. If
                   you&apos;re in the grid, we&apos;re on the way.
                 </p>
               </div>
             </Reveal>
             <div className="grid grid-cols-12 gap-6">
-              <div className="col-span-12 lg:col-span-7 rounded-2xl overflow-hidden border border-line-light bg-cream-50 p-4">
+              <div className="col-span-12 lg:col-span-7 rounded-2xl overflow-hidden border border-line-dark bg-cream-50 p-4">
                 <img
                   src="/images/Service-map.png"
                   alt="FlameTech Calgary service area map"
@@ -517,7 +517,7 @@ export default function Home() {
                 ].map((area) => (
                   <div
                     key={area}
-                    className="rounded-xl bg-cream-50 border border-line-light p-4 flex items-center gap-2 lift"
+                    className="rounded-xl bg-ink-800 border border-line-dark p-4 flex items-center gap-2 lift"
                   >
                     <Icon name="location_on" className="text-primary text-base" />
                     <span className="text-sm font-semibold">{area}</span>
@@ -537,7 +537,7 @@ export default function Home() {
         {/* QUOTE FORM — ink-900, teal glow right */}
         <section
           id="quote"
-          className="relative bg-white text-ink-900 py-20 overflow-hidden"
+          className="relative bg-ink-900 text-cream-50 py-20 overflow-hidden"
         >
           <div className="absolute inset-0 dotgrid opacity-30 pointer-events-none"></div>
           <div className="hidden md:block absolute top-10 -right-40 w-[520px] h-[520px] rounded-full bg-emergency/20 blur-3xl pointer-events-none"></div>
@@ -548,7 +548,7 @@ export default function Home() {
                 <h2 className="font-display text-4xl md:text-5xl xl:text-6xl font-extrabold tracking-[-0.025em] mt-4 mb-6 leading-[1.02]">
                   Get a free estimate.
                 </h2>
-                <p className="text-ink-700 leading-relaxed mb-8">
+                <p className="text-cream-50/70 leading-relaxed mb-8">
                   Tell us what&apos;s going on and our dispatch team will
                   call you back with pricing and availability. For urgent
                   issues, call directly.
@@ -566,7 +566,7 @@ export default function Home() {
                   />
                 </div>
 
-                <div className="mt-8 pt-6 border-t border-line-light">
+                <div className="mt-8 pt-6 border-t border-line-dark">
                   <p className="text-xs font-bold uppercase tracking-[0.18em] text-primary mb-3">
                     Monthly Financing Available
                   </p>
@@ -587,7 +587,7 @@ export default function Home() {
                 delay={120}
                 className="col-span-12 md:col-span-7"
               >
-                <div className="rounded-3xl bg-cream-50 text-ink-900 p-8 md:p-10 border border-line-light">
+                <div className="rounded-3xl bg-cream-50 text-ink-900 p-8 md:p-10 border border-line-dark">
                   <QuoteForm />
                 </div>
               </Reveal>
@@ -619,10 +619,10 @@ const brandTiles = [
 function Stat({ number, label }: { number: string; label: string }) {
   return (
     <div className="min-w-0">
-      <div className="font-display text-3xl md:text-5xl font-extrabold tracking-[-0.02em] text-ink-900">
+      <div className="font-display text-3xl md:text-5xl font-extrabold tracking-[-0.02em] text-cream-50">
         {number}
       </div>
-      <div className="text-[10px] md:text-xs uppercase tracking-[0.08em] md:tracking-[0.16em] text-ink-600 font-semibold mt-2 break-words leading-snug">
+      <div className="text-[10px] md:text-xs uppercase tracking-[0.08em] md:tracking-[0.16em] text-cream-50/60 font-semibold mt-2 break-words leading-snug">
         {label}
       </div>
     </div>
@@ -644,8 +644,8 @@ function InfoRow({
       <span
         className={
           emphasize
-            ? "font-bold text-lg text-ink-900"
-            : "text-sm text-ink-700"
+            ? "font-bold text-lg text-cream-50"
+            : "text-sm text-cream-50/70"
         }
       >
         {text}

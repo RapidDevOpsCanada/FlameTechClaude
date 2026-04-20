@@ -55,7 +55,7 @@ export default async function ReviewsSection() {
 
         <div className="grid grid-cols-12 gap-6">
           {/* Featured */}
-          <div className="col-span-12 lg:col-span-5 rounded-3xl bg-white text-ink-900 p-10 md:p-12 flex flex-col lift">
+          <div className="col-span-12 lg:col-span-5 rounded-3xl bg-ink-900 text-cream-50 p-10 md:p-12 flex flex-col lift">
             <div className="flex items-center justify-between mb-8">
               <div className="rounded-full bg-cream-50 text-ink-900 text-xs font-bold px-3 py-1.5 flex items-center gap-2">
                 <Icon name="verified" className="text-sm" />
@@ -68,13 +68,13 @@ export default async function ReviewsSection() {
             <p className="font-display text-2xl md:text-3xl font-semibold tracking-[-0.015em] leading-[1.25] mb-8 flex-grow">
               &ldquo;{featured.quote}&rdquo;
             </p>
-            <div className="flex items-center gap-4 pt-6 border-t border-line-light">
+            <div className="flex items-center gap-4 pt-6 border-t border-line-dark">
               <div className="w-12 h-12 rounded-full bg-primary/15 flex items-center justify-center font-bold text-primary text-base">
                 {featured.initials}
               </div>
               <div>
                 <p className="font-bold">{featured.author}</p>
-                <p className="text-xs text-ink-600">
+                <p className="text-xs text-cream-50/60">
                   {featured.area} · {featured.relative_date}
                 </p>
               </div>

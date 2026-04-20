@@ -66,7 +66,7 @@ export default function PortfolioCarousel({
   };
 
   return (
-    <section className="bg-white text-ink-900 py-16 md:py-20 border-t border-line-light">
+    <section className="bg-ink-900 text-cream-50 py-16 md:py-20 border-t border-line-dark">
       <div className="max-w-7xl mx-auto px-6 md:px-10">
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-10">
           <div className="max-w-2xl">
@@ -77,13 +77,13 @@ export default function PortfolioCarousel({
               {heading}
             </h2>
             {intro && (
-              <p className="text-ink-700 leading-relaxed mt-4 text-[17px]">
+              <p className="text-cream-50/70 leading-relaxed mt-4 text-[17px]">
                 {intro}
               </p>
             )}
           </div>
           <div className="flex items-center gap-4">
-            <span className="font-display tabular-nums text-sm text-ink-600">
+            <span className="font-display tabular-nums text-sm text-cream-50/60">
               {String(active + 1).padStart(2, "0")} /{" "}
               {String(items.length).padStart(2, "0")}
             </span>
@@ -93,7 +93,7 @@ export default function PortfolioCarousel({
                 aria-label="Previous install"
                 onClick={() => scrollBy(-1)}
                 disabled={active === 0}
-                className="w-11 h-11 rounded-full border border-ink-900/15 flex items-center justify-center hover:border-emergency hover:text-emergency transition-colors disabled:opacity-30 disabled:hover:border-ink-900/15 disabled:hover:text-ink-900"
+                className="w-11 h-11 rounded-full border border-cream-50/25 flex items-center justify-center hover:border-emergency hover:text-emergency transition-colors disabled:opacity-30 disabled:hover:border-cream-50/25 disabled:hover:text-cream-50"
               >
                 <Icon name="chevron_left" className="text-xl" />
               </button>
@@ -102,7 +102,7 @@ export default function PortfolioCarousel({
                 aria-label="Next install"
                 onClick={() => scrollBy(1)}
                 disabled={active >= items.length - 1}
-                className="w-11 h-11 rounded-full border border-ink-900/15 flex items-center justify-center hover:border-emergency hover:text-emergency transition-colors disabled:opacity-30 disabled:hover:border-ink-900/15 disabled:hover:text-ink-900"
+                className="w-11 h-11 rounded-full border border-cream-50/25 flex items-center justify-center hover:border-emergency hover:text-emergency transition-colors disabled:opacity-30 disabled:hover:border-cream-50/25 disabled:hover:text-cream-50"
               >
                 <Icon name="chevron_right" className="text-xl" />
               </button>
@@ -119,7 +119,7 @@ export default function PortfolioCarousel({
             <figure
               key={item.src}
               data-slide
-              className="shrink-0 snap-start w-[85%] sm:w-[55%] md:w-[calc((100%-2.5rem)/3)] rounded-2xl overflow-hidden bg-cream-50 border border-line-light"
+              className="shrink-0 snap-start w-[85%] sm:w-[55%] md:w-[calc((100%-2.5rem)/3)] rounded-2xl overflow-hidden bg-ink-800 border border-line-dark"
             >
               <div className="relative aspect-[4/3] overflow-hidden">
                 <img
@@ -130,7 +130,7 @@ export default function PortfolioCarousel({
                 />
               </div>
               {item.caption && (
-                <figcaption className="px-5 py-4 text-sm text-ink-700 leading-snug">
+                <figcaption className="px-5 py-4 text-sm text-cream-50/75 leading-snug">
                   {item.caption}
                 </figcaption>
               )}
@@ -148,7 +148,7 @@ export default function PortfolioCarousel({
               className={`h-1.5 rounded-full transition-all ${
                 i === active
                   ? "w-8 bg-primary"
-                  : "w-2 bg-ink-900/15 hover:bg-ink-900/10"
+                  : "w-2 bg-cream-50/25 hover:bg-cream-50/50"
               }`}
             />
           ))}
