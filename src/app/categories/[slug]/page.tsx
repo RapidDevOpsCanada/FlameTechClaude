@@ -41,7 +41,7 @@ export default async function CategoryPage({
         title={`${category.name} — articles and guides.`}
         description={`Filtered articles tagged under ${category.name}. Practical guides and walk-throughs from the FlameTech team.`}
       />
-      <main className="bg-cream-50 text-ink-900 py-20">
+      <main className="bg-cream-50 text-ink-900 py-20 light-surface">
         <div className="max-w-7xl mx-auto px-6 md:px-10">
           <CategoryFilter categories={categories} active={slug} />
           {articles.length === 0 ? (

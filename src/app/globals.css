@@ -84,6 +84,27 @@ body {
     background-image: radial-gradient(rgba(11,18,32,0.08) 1px, transparent 1px);
     background-size: 22px 22px;
   }
+
+  /* Subtle decoration for cream/white sections — two faint brand-color
+     corner glows plus a low-opacity dot grid. Added to a wrapping section
+     by applying the class; renders behind content via a `::before` in an
+     isolated stacking context, so nothing inside is affected. */
+  .light-surface {
+    position: relative;
+    isolation: isolate;
+  }
+  .light-surface::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image:
+      radial-gradient(ellipse 60% 80% at 8% 0%, rgba(251, 146, 60, 0.08) 0%, transparent 55%),
+      radial-gradient(ellipse 70% 90% at 92% 100%, rgba(23, 195, 176, 0.07) 0%, transparent 55%),
+      radial-gradient(rgba(38, 38, 44, 0.05) 1px, transparent 1px);
+    background-size: auto, auto, 22px 22px;
+    pointer-events: none;
+    z-index: -1;
+  }
   .soft-shadow {
     box-shadow: 0 14px 40px -20px rgba(8, 14, 28, 0.45);
   }

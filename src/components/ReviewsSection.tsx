@@ -26,7 +26,7 @@ export default async function ReviewsSection() {
   const rest = all.filter((r) => r.id !== featured.id).slice(0, 4);
 
   return (
-    <section className="bg-cream-50 text-ink-900 py-24">
+    <section className="bg-cream-50 text-ink-900 py-24 light-surface">
       <div className="max-w-7xl mx-auto px-6 md:px-10">
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-14">
           <div>

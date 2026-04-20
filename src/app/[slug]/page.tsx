@@ -358,7 +358,7 @@ export default async function ServicePage({
         <div className="section-rule" />
 
         {/* BODY */}
-        <section className="bg-cream-50 text-ink-900 py-16 md:py-20">
+        <section className="bg-cream-50 text-ink-900 py-16 md:py-20 light-surface">
           <div className="max-w-7xl mx-auto px-6 md:px-10 grid grid-cols-12 gap-6 md:gap-8 lg:gap-10">
             <div className="col-span-12 lg:col-span-9">
               {!hasRich && (
@@ -780,7 +780,7 @@ export default async function ServicePage({
         </section>
 
         {/* PROCESS TIMELINE — how we work */}
-        <section className="bg-cream-100 text-ink-900 py-16 md:py-20 border-t border-line-light">
+        <section className="bg-cream-100 text-ink-900 py-16 md:py-20 border-t border-line-light light-surface">
           <div className="max-w-7xl mx-auto px-6 md:px-10">
             <div className="max-w-3xl mb-12">
               <span className="eyebrow-light mb-3">

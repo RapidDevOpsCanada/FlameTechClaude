@@ -97,7 +97,7 @@ export default async function ArticlePage({
         </div>
       )}
 
-      <main className="bg-cream-50 text-ink-900 py-20">
+      <main className="bg-cream-50 text-ink-900 py-20 light-surface">
         <div className="max-w-3xl mx-auto px-6 md:px-10">
           <article
             className="prose-article"
@@ -131,7 +131,7 @@ export default async function ArticlePage({
       </main>
 
       {related.length > 0 && (
-        <section className="bg-cream-100 text-ink-900 py-20 border-t border-line-light">
+        <section className="bg-cream-100 text-ink-900 py-20 border-t border-line-light light-surface">
           <div className="max-w-7xl mx-auto px-6 md:px-10">
             <div className="flex items-end justify-between gap-8 mb-12">
               <div>

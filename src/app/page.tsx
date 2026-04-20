@@ -97,7 +97,7 @@ export default function Home() {
         {/* WHY US — cream, light mode */}
         <section
           id="why-us"
-          className="relative bg-cream-50 text-ink-900 py-20 overflow-hidden"
+          className="relative bg-cream-50 text-ink-900 py-20 overflow-hidden light-surface"
         >
           <div className="hidden md:block absolute -bottom-40 -right-40 w-[560px] h-[560px] rounded-full bg-primary/10 blur-3xl pointer-events-none"></div>
           <div className="max-w-7xl mx-auto px-6 md:px-10 relative">
@@ -343,7 +343,7 @@ export default function Home() {
         </section>
 
         {/* SERVICES — cream */}
-        <section id="services" className="bg-cream-50 text-ink-900 py-20">
+        <section id="services" className="bg-cream-50 text-ink-900 py-20 light-surface">
           <div className="max-w-7xl mx-auto px-6 md:px-10">
             <Reveal>
               <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-12">

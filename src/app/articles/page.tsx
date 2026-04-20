@@ -32,7 +32,7 @@ export default async function ArticlesPage() {
         title="Practical advice from Calgary's trusted plumbers."
         description="Field-tested tips, seasonal maintenance guides, and plain-language explainers from the FlameTech team."
       />
-      <main className="bg-cream-50 text-ink-900 py-20">
+      <main className="bg-cream-50 text-ink-900 py-20 light-surface">
         <div className="max-w-7xl mx-auto px-6 md:px-10">
           <CategoryFilter categories={categories} />
           {errored || articles.length === 0 ? <EmptyState /> : (

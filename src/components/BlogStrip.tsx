@@ -14,7 +14,7 @@ export default async function BlogStrip() {
   if (articles.length === 0) return null;
 
   return (
-    <section className="bg-cream-100 text-ink-900 py-24 border-t border-line-light">
+    <section className="bg-cream-100 text-ink-900 py-24 border-t border-line-light light-surface">
       <div className="max-w-7xl mx-auto px-6 md:px-10">
         <Reveal>
           <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-12">
