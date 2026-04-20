@@ -243,12 +243,12 @@ export default function Nav() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="sticky top-0 w-full z-50 bg-ink-900/95 backdrop-blur-lg border-b border-line-dark">
+    <nav className="sticky top-0 w-full z-50 bg-white/95 backdrop-blur-lg border-b border-line-light">
       <div className="max-w-7xl mx-auto px-6 md:px-10 flex items-center justify-between gap-6 h-[92px] md:h-[100px]">
         {/* Logo — prominent */}
         <Link
           href="/"
-          className="flex items-center text-cream-50 shrink-0"
+          className="flex items-center text-ink-900 shrink-0"
           onClick={() => setOpen(false)}
         >
           <img
@@ -264,7 +264,7 @@ export default function Nav() {
             <li key={item.label} className="relative group h-full flex items-stretch">
               <Link
                 href={item.href}
-                className="flex items-center gap-1.5 px-4 h-full text-[17px] font-extrabold tracking-tight uppercase text-cream-50 group-hover:text-emergency transition-colors"
+                className="flex items-center gap-1.5 px-4 h-full text-[17px] font-extrabold tracking-tight uppercase text-ink-900 group-hover:text-emergency transition-colors"
               >
                 {item.label}
                 {item.mega && (
@@ -280,14 +280,14 @@ export default function Nav() {
         <div className="hidden md:flex items-center gap-4 shrink-0">
           <a
             href="tel:5878343668"
-            className="hidden xl:flex items-center gap-2 text-[17px] font-extrabold text-cream-50 hover:text-emergency transition-colors"
+            className="hidden xl:flex items-center gap-2 text-[17px] font-extrabold text-ink-900 hover:text-emergency transition-colors"
           >
             <Icon name="call" className="text-xl text-emergency" />
             587-834-3668
           </a>
           <a
             href="#quote"
-            className="inline-flex items-center rounded-full bg-emergency text-cream-50 font-extrabold uppercase tracking-tight px-6 py-3 text-[15px] hover:bg-emergency-deep transition-colors"
+            className="inline-flex items-center rounded-full bg-emergency text-ink-900 font-extrabold uppercase tracking-tight px-6 py-3 text-[15px] hover:bg-emergency-deep transition-colors"
           >
             Contact Us
           </a>
@@ -298,7 +298,7 @@ export default function Nav() {
           type="button"
           aria-label="Toggle menu"
           onClick={() => setOpen((o) => !o)}
-          className="lg:hidden inline-flex items-center justify-center w-11 h-11 rounded-full border border-line-dark text-cream-50"
+          className="lg:hidden inline-flex items-center justify-center w-11 h-11 rounded-full border border-line-light text-ink-900"
         >
           <Icon name={open ? "close" : "menu"} className="text-xl" />
         </button>
@@ -306,7 +306,7 @@ export default function Nav() {
 
       {/* Mobile drawer */}
       {open && (
-        <div className="lg:hidden border-t border-line-dark bg-ink-900 max-h-[80vh] overflow-y-auto">
+        <div className="lg:hidden border-t border-line-light bg-white max-h-[80vh] overflow-y-auto">
           <div className="max-w-7xl mx-auto px-6 py-4 space-y-1">
             {menu.map((item) => (
               <MobileMenuItem
@@ -315,10 +315,10 @@ export default function Nav() {
                 onNavigate={() => setOpen(false)}
               />
             ))}
-            <div className="pt-4 mt-4 border-t border-line-dark flex flex-col gap-3">
+            <div className="pt-4 mt-4 border-t border-line-light flex flex-col gap-3">
               <a
                 href="tel:5878343668"
-                className="inline-flex items-center justify-center gap-2 rounded-full border border-line-dark text-cream-50 font-semibold py-3 text-sm"
+                className="inline-flex items-center justify-center gap-2 rounded-full border border-line-light text-ink-900 font-semibold py-3 text-sm"
               >
                 <Icon name="call" className="text-base text-emergency" />
                 587-834-3668
@@ -343,7 +343,7 @@ function MegaPanel({ mega }: { mega: NonNullable<NavItem["mega"]> }) {
   return (
     <div className="absolute left-0 top-full pt-3 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
       <div
-        className={`rounded-2xl bg-ink-800 border border-line-dark soft-shadow overflow-hidden ${
+        className={`rounded-2xl bg-cream-50 border border-line-light soft-shadow overflow-hidden ${
           hasPromo ? "w-[820px]" : "w-[520px]"
         }`}
       >
@@ -363,18 +363,18 @@ function MegaPanel({ mega }: { mega: NonNullable<NavItem["mega"]> }) {
                     <li key={item.label}>
                       <Link
                         href={item.href}
-                        className="flex items-start gap-3 p-3 rounded-xl hover:bg-ink-700 transition-colors group/item"
+                        className="flex items-start gap-3 p-3 rounded-xl hover:bg-cream-100 transition-colors group/item"
                       >
                         <Icon
                           name={item.icon}
                           className="text-2xl text-primary mt-0.5"
                         />
                         <span className="flex-1">
-                          <span className="block font-bold text-[16px] text-cream-50 group-hover/item:text-emergency transition-colors">
+                          <span className="block font-bold text-[16px] text-ink-900 group-hover/item:text-emergency transition-colors">
                             {item.label}
                           </span>
                           {item.desc && (
-                            <span className="block text-[13px] text-cream-50/60 mt-0.5 leading-snug">
+                            <span className="block text-[13px] text-ink-600 mt-0.5 leading-snug">
                               {item.desc}
                             </span>
                           )}
@@ -387,25 +387,25 @@ function MegaPanel({ mega }: { mega: NonNullable<NavItem["mega"]> }) {
             ))}
           </div>
           {mega.promo && (
-            <div className="relative bg-ink-900 border-l border-line-dark flex flex-col">
+            <div className="relative bg-white border-l border-line-light flex flex-col">
               <div className="relative h-36 overflow-hidden bg-cream-50 flex items-center justify-center">
                 <img
                   src={mega.promo.image}
                   alt=""
                   className="w-full h-full object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-ink-900 via-ink-900/20 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-white via-white/20 to-transparent" />
               </div>
               <div className="p-6 flex-1 flex flex-col">
-                <h5 className="font-display text-xl font-extrabold tracking-tight text-cream-50 mb-2">
+                <h5 className="font-display text-xl font-extrabold tracking-tight text-ink-900 mb-2">
                   {mega.promo.title}
                 </h5>
-                <p className="text-sm text-cream-50/70 leading-relaxed mb-5 flex-grow">
+                <p className="text-sm text-ink-700 leading-relaxed mb-5 flex-grow">
                   {mega.promo.body}
                 </p>
                 <a
                   href={mega.promo.href}
-                  className="inline-flex items-center justify-center gap-2 rounded-full bg-emergency text-cream-50 font-extrabold uppercase tracking-tight px-4 py-3 text-[13px] hover:bg-emergency-deep transition-colors"
+                  className="inline-flex items-center justify-center gap-2 rounded-full bg-emergency text-ink-900 font-extrabold uppercase tracking-tight px-4 py-3 text-[13px] hover:bg-emergency-deep transition-colors"
                 >
                   {mega.promo.cta}
                   <Icon name="arrow_right_alt" className="text-base" />
@@ -432,7 +432,7 @@ function MobileMenuItem({
       <Link
         href={item.href}
         onClick={onNavigate}
-        className="block px-3 py-3 text-base font-semibold text-cream-50/90 rounded-xl hover:bg-ink-800"
+        className="block px-3 py-3 text-base font-semibold text-ink-800 rounded-xl hover:bg-cream-50"
       >
         {item.label}
       </Link>
@@ -443,7 +443,7 @@ function MobileMenuItem({
       <button
         type="button"
         onClick={() => setExpanded((e) => !e)}
-        className="w-full flex items-center justify-between px-3 py-3 text-base font-semibold text-cream-50/90 rounded-xl hover:bg-ink-800"
+        className="w-full flex items-center justify-between px-3 py-3 text-base font-semibold text-ink-800 rounded-xl hover:bg-cream-50"
       >
         {item.label}
         <Icon
@@ -466,13 +466,13 @@ function MobileMenuItem({
                     key={sub.label}
                     href={sub.href}
                     onClick={onNavigate}
-                    className="flex items-center gap-3 px-3 py-2.5 rounded-lg hover:bg-ink-800"
+                    className="flex items-center gap-3 px-3 py-2.5 rounded-lg hover:bg-cream-50"
                   >
                     <Icon
                       name={sub.icon}
                       className="text-base text-primary"
                     />
-                    <span className="text-sm text-cream-50/80">
+                    <span className="text-sm text-ink-700">
                       {sub.label}
                     </span>
                   </Link>
