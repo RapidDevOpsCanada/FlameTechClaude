@@ -66,7 +66,7 @@ export default function PortfolioCarousel({
   };
 
   return (
-    <section className="bg-emergency-deep text-cream-50 py-16 md:py-20 border-t border-white/15">
+    <section className="bg-ink-900 text-cream-50 py-16 md:py-20 border-t border-line-dark">
       <div className="max-w-7xl mx-auto px-6 md:px-10">
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-10">
           <div className="max-w-2xl">
@@ -93,7 +93,7 @@ export default function PortfolioCarousel({
                 aria-label="Previous install"
                 onClick={() => scrollBy(-1)}
                 disabled={active === 0}
-                className="w-11 h-11 rounded-full border border-white/25 flex items-center justify-center hover:border-emergency hover:text-emergency transition-colors disabled:opacity-30 disabled:hover:border-white/25 disabled:hover:text-cream-50"
+                className="w-11 h-11 rounded-full border border-cream-50/25 flex items-center justify-center hover:border-emergency hover:text-emergency transition-colors disabled:opacity-30 disabled:hover:border-cream-50/25 disabled:hover:text-cream-50"
               >
                 <Icon name="chevron_left" className="text-xl" />
               </button>
@@ -102,7 +102,7 @@ export default function PortfolioCarousel({
                 aria-label="Next install"
                 onClick={() => scrollBy(1)}
                 disabled={active >= items.length - 1}
-                className="w-11 h-11 rounded-full border border-white/25 flex items-center justify-center hover:border-emergency hover:text-emergency transition-colors disabled:opacity-30 disabled:hover:border-white/25 disabled:hover:text-cream-50"
+                className="w-11 h-11 rounded-full border border-cream-50/25 flex items-center justify-center hover:border-emergency hover:text-emergency transition-colors disabled:opacity-30 disabled:hover:border-cream-50/25 disabled:hover:text-cream-50"
               >
                 <Icon name="chevron_right" className="text-xl" />
               </button>
@@ -119,7 +119,7 @@ export default function PortfolioCarousel({
             <figure
               key={item.src}
               data-slide
-              className="shrink-0 snap-start w-[85%] sm:w-[55%] md:w-[calc((100%-2.5rem)/3)] rounded-2xl overflow-hidden bg-emergency-deep border border-white/15"
+              className="shrink-0 snap-start w-[85%] sm:w-[55%] md:w-[calc((100%-2.5rem)/3)] rounded-2xl overflow-hidden bg-ink-800 border border-line-dark"
             >
               <div className="relative aspect-[4/3] overflow-hidden">
                 <img

@@ -74,7 +74,7 @@ export default function HowItWorks() {
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
               href="tel:5878343668"
-              className="inline-flex items-center gap-2 rounded-full bg-emergency-deep text-cream-50 font-bold px-7 py-3.5 text-sm hover:bg-emergency hover:text-ink-900 transition-colors"
+              className="inline-flex items-center gap-2 rounded-full bg-ink-900 text-cream-50 font-bold px-7 py-3.5 text-sm hover:bg-emergency hover:text-ink-900 transition-colors"
             >
               <Icon name="call" className="text-base" />
               Start with a call

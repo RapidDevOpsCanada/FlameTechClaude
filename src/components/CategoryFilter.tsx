@@ -13,7 +13,7 @@ export default function CategoryFilter({
         href="/articles"
         className={`rounded-full px-5 py-2 text-sm font-semibold transition-colors ${
           !active
-            ? "bg-emergency-deep text-cream-50"
+            ? "bg-ink-900 text-cream-50"
             : "bg-white text-ink-700 border border-line-light hover:border-emergency hover:text-emergency-deep"
         }`}
       >
@@ -25,7 +25,7 @@ export default function CategoryFilter({
           href={`/categories/${c.slug}`}
           className={`rounded-full px-5 py-2 text-sm font-semibold transition-colors ${
             active === c.slug
-              ? "bg-emergency-deep text-cream-50"
+              ? "bg-ink-900 text-cream-50"
               : "bg-white text-ink-700 border border-line-light hover:border-emergency hover:text-emergency-deep"
           }`}
         >

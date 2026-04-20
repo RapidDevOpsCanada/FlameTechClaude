@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <>
       <Nav />
-      <main className="bg-emergency-deep text-cream-50">
+      <main className="bg-ink-900 text-cream-50">
         {/* HERO — tighter vertical rhythm */}
         <section className="relative overflow-hidden">
           <div className="absolute inset-0 dotgrid opacity-60 pointer-events-none"></div>
@@ -51,21 +51,21 @@ export default function Home() {
                   </a>
                   <a
                     href="#quote"
-                    className="inline-flex items-center gap-2 rounded-full border border-white/25 text-cream-50 font-bold uppercase tracking-tight px-7 py-4 text-[14px] hover:border-emergency hover:text-emergency transition-colors"
+                    className="inline-flex items-center gap-2 rounded-full border border-cream-50/25 text-cream-50 font-bold uppercase tracking-tight px-7 py-4 text-[14px] hover:border-emergency hover:text-emergency transition-colors"
                   >
                     Free estimate
                     <Icon name="arrow_right_alt" className="text-base" />
                   </a>
                 </div>
 
-                <div className="inline-flex items-center gap-2 rounded-full bg-emergency-deep border border-white/15 px-4 py-2 text-xs text-cream-50/80 font-semibold">
+                <div className="inline-flex items-center gap-2 rounded-full bg-ink-800 border border-line-dark px-4 py-2 text-xs text-cream-50/80 font-semibold">
                   <Icon name="verified" className="text-primary text-base" />
                   Free estimate · No service charge for quotes
                 </div>
               </div>
 
               <div className="col-span-12 lg:col-span-6 relative reveal reveal-delay-200">
-                <div className="relative rounded-3xl overflow-hidden border border-white/15 soft-shadow bg-cream-50">
+                <div className="relative rounded-3xl overflow-hidden border border-line-dark soft-shadow bg-cream-50">
                   <img
                     src="/images/FTVAN.jpg"
                     alt="FlameTech service van across Calgary"
@@ -85,7 +85,7 @@ export default function Home() {
         </section>
 
         {/* STATS STRIP */}
-        <section className="border-y border-white/15 bg-emergency-deep">
+        <section className="border-y border-line-dark bg-ink-800">
           <div className="max-w-7xl mx-auto px-6 md:px-10 py-8 md:py-10 grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-4">
             <Stat number="45+" label="Years combined experience" />
             <Stat number="2,000+" label="Jobs completed" />
@@ -116,7 +116,7 @@ export default function Home() {
                       alt="Jason Mounsey and Shaun Kristoff — FlameTech founders — standing in front of the service van"
                       className="w-full aspect-[4/5] object-cover object-center"
                     />
-                    <div className="absolute bottom-3 left-3 rounded-full bg-emergency-deep/90 backdrop-blur-md text-cream-50 px-3 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.14em] flex items-center gap-2 border border-white/10">
+                    <div className="absolute bottom-3 left-3 rounded-full bg-ink-900/90 backdrop-blur-md text-cream-50 px-3 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.14em] flex items-center gap-2 border border-cream-50/10">
                       <Icon name="verified" className="text-sm text-primary" />
                       Red Seal · Alberta Licensed
                     </div>
@@ -156,7 +156,7 @@ export default function Home() {
                   <span className="text-emergency">trust</span>.
                 </h2>
 
-                <blockquote className="relative rounded-3xl bg-emergency-deep text-cream-50 p-8 md:p-10 mb-8 overflow-hidden soft-shadow">
+                <blockquote className="relative rounded-3xl bg-ink-900 text-cream-50 p-8 md:p-10 mb-8 overflow-hidden soft-shadow">
                   <span className="absolute -top-4 right-6 text-primary/25 text-[180px] font-display font-extrabold leading-none select-none pointer-events-none">
                     &ldquo;
                   </span>
@@ -176,7 +176,7 @@ export default function Home() {
                       of certified plumbers is ready to handle all your
                       plumbing needs with efficiency and expertise.
                     </p>
-                    <div className="flex items-center gap-3 pt-5 border-t border-white/15">
+                    <div className="flex items-center gap-3 pt-5 border-t border-line-dark">
                       <div className="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center">
                         <Icon name="verified" className="text-primary text-base" />
                       </div>
@@ -270,13 +270,13 @@ export default function Home() {
         </section>
 
         {/* EMERGENCY CALLOUT — split alert panel */}
-        <section className="relative bg-emergency-deep py-16 overflow-hidden">
+        <section className="relative bg-ink-900 py-16 overflow-hidden">
           <div className="hidden md:block absolute top-1/2 left-1/4 -translate-y-1/2 w-[500px] h-[260px] bg-emergency/25 blur-3xl rounded-full pointer-events-none" />
           <div className="hidden md:block absolute top-1/2 right-1/4 -translate-y-1/2 w-[400px] h-[220px] bg-primary/15 blur-3xl rounded-full pointer-events-none" />
 
           <div className="max-w-7xl mx-auto px-6 md:px-10 relative">
             <Reveal>
-              <div className="relative rounded-3xl border border-white/15 bg-emergency-deep overflow-hidden soft-shadow">
+              <div className="relative rounded-3xl border border-line-dark bg-ink-800 overflow-hidden soft-shadow">
                 {/* Caution stripe */}
                 <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-emergency via-primary to-emergency" />
 
@@ -356,7 +356,7 @@ export default function Home() {
                 </div>
                 <a
                   href="#quote"
-                  className="inline-flex items-center gap-2 rounded-full bg-emergency-deep text-cream-50 font-bold px-6 py-3 text-sm hover:bg-emergency hover:text-cream-50 transition-colors self-start"
+                  className="inline-flex items-center gap-2 rounded-full bg-ink-900 text-cream-50 font-bold px-6 py-3 text-sm hover:bg-emergency hover:text-cream-50 transition-colors self-start"
                 >
                   Get a free quote
                   <Icon name="arrow_right_alt" className="text-base" />
@@ -365,14 +365,14 @@ export default function Home() {
             </Reveal>
 
             <div className="grid grid-cols-12 gap-6">
-              <div className="col-span-12 lg:col-span-7 rounded-3xl overflow-hidden bg-emergency-deep text-cream-50 border border-ink-900 relative group lift">
+              <div className="col-span-12 lg:col-span-7 rounded-3xl overflow-hidden bg-ink-900 text-cream-50 border border-ink-900 relative group lift">
                 <div className="relative h-64 md:h-80 overflow-hidden">
                   <img
                     src="/images/FTVAN1.jpg"
                     alt="FlameTech plumbing service van"
                     className="w-full h-full object-cover"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-emergency-deep via-emergency-deep/30 to-transparent" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-ink-900 via-ink-900/30 to-transparent" />
                   <div className="absolute top-5 left-5 rounded-full bg-primary text-ink-900 text-xs font-extrabold uppercase tracking-widest px-3 py-1.5">
                     Most Requested
                   </div>
@@ -473,7 +473,7 @@ export default function Home() {
         {/* SERVICE AREA — ink-900, teal glow top-left */}
         <section
           id="service-area"
-          className="relative bg-emergency-deep text-cream-50 py-24 overflow-hidden"
+          className="relative bg-ink-900 text-cream-50 py-24 overflow-hidden"
         >
           <div className="absolute inset-0 dotgrid opacity-40 pointer-events-none"></div>
           <div className="hidden md:block absolute -top-32 -left-32 w-[520px] h-[520px] rounded-full bg-emergency/15 blur-3xl pointer-events-none"></div>
@@ -493,7 +493,7 @@ export default function Home() {
               </div>
             </Reveal>
             <div className="grid grid-cols-12 gap-6">
-              <div className="col-span-12 lg:col-span-7 rounded-2xl overflow-hidden border border-white/15 bg-cream-50 p-4">
+              <div className="col-span-12 lg:col-span-7 rounded-2xl overflow-hidden border border-line-dark bg-cream-50 p-4">
                 <img
                   src="/images/Service-map.png"
                   alt="FlameTech Calgary service area map"
@@ -517,7 +517,7 @@ export default function Home() {
                 ].map((area) => (
                   <div
                     key={area}
-                    className="rounded-xl bg-emergency-deep border border-white/15 p-4 flex items-center gap-2 lift"
+                    className="rounded-xl bg-ink-800 border border-line-dark p-4 flex items-center gap-2 lift"
                   >
                     <Icon name="location_on" className="text-primary text-base" />
                     <span className="text-sm font-semibold">{area}</span>
@@ -537,7 +537,7 @@ export default function Home() {
         {/* QUOTE FORM — ink-900, teal glow right */}
         <section
           id="quote"
-          className="relative bg-emergency-deep text-cream-50 py-20 overflow-hidden"
+          className="relative bg-ink-900 text-cream-50 py-20 overflow-hidden"
         >
           <div className="absolute inset-0 dotgrid opacity-30 pointer-events-none"></div>
           <div className="hidden md:block absolute top-10 -right-40 w-[520px] h-[520px] rounded-full bg-emergency/20 blur-3xl pointer-events-none"></div>
@@ -566,7 +566,7 @@ export default function Home() {
                   />
                 </div>
 
-                <div className="mt-8 pt-6 border-t border-white/15">
+                <div className="mt-8 pt-6 border-t border-line-dark">
                   <p className="text-xs font-bold uppercase tracking-[0.18em] text-primary mb-3">
                     Monthly Financing Available
                   </p>
@@ -587,7 +587,7 @@ export default function Home() {
                 delay={120}
                 className="col-span-12 md:col-span-7"
               >
-                <div className="rounded-3xl bg-cream-50 text-ink-900 p-8 md:p-10 border border-white/15">
+                <div className="rounded-3xl bg-cream-50 text-ink-900 p-8 md:p-10 border border-line-dark">
                   <QuoteForm />
                 </div>
               </Reveal>

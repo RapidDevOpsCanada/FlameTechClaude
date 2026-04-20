@@ -97,7 +97,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={manrope.variable}>
       <body
-        className="font-body text-cream-50 bg-emergency-deep antialiased"
+        className="font-body text-cream-50 bg-ink-900 antialiased"
         style={{ width: "100%", position: "relative" }}
       >
         <script
