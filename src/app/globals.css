@@ -13,6 +13,10 @@ html {
   width: 100%;
   max-width: 100%;
   -webkit-text-size-adjust: 100%;
+  /* Lift the root font-size slightly — Tailwind's rem-based text + spacing
+     scale proportionally, giving a uniform ~6% bump across the site
+     without touching individual classes. */
+  font-size: 17px;
 }
 body {
   width: 100%;
