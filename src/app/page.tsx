@@ -44,7 +44,7 @@ export default function Home() {
                 <div className="flex flex-wrap gap-4 mb-5">
                   <a
                     href="tel:5878343668"
-                    className="inline-flex items-center gap-2 rounded-full bg-emergency text-cream-50 font-extrabold uppercase tracking-tight px-7 py-4 text-[14px] hover:bg-emergency-deep transition-colors"
+                    className="cta-animated-border inline-flex items-center gap-2 rounded-full bg-emergency text-cream-50 font-extrabold uppercase tracking-tight px-7 py-4 text-[14px] hover:bg-emergency-deep transition-colors"
                   >
                     <Icon name="call" className="text-lg" />
                     Call 587-834-3668

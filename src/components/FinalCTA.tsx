@@ -20,7 +20,7 @@ export default function FinalCTA() {
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a
             href="tel:5878343668"
-            className="inline-flex items-center gap-2 rounded-full bg-emergency text-ink-900 font-bold px-8 py-4 text-sm hover:bg-emergency-deep hover:text-white transition-colors"
+            className="cta-animated-border inline-flex items-center gap-2 rounded-full bg-emergency text-ink-900 font-bold px-8 py-4 text-sm hover:bg-emergency-deep hover:text-white transition-colors"
           >
             <Icon name="call" className="text-base" />
             Call 587-834-3668

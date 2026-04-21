@@ -287,7 +287,7 @@ export default function Nav() {
           </a>
           <a
             href="#quote"
-            className="inline-flex items-center rounded-full bg-emergency text-cream-50 font-extrabold uppercase tracking-tight px-6 py-3 text-[15px] hover:bg-emergency-deep transition-colors"
+            className="cta-animated-border inline-flex items-center rounded-full bg-emergency text-cream-50 font-extrabold uppercase tracking-tight px-6 py-3 text-[15px] hover:bg-emergency-deep transition-colors"
           >
             Contact Us
           </a>

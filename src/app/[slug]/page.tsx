@@ -264,7 +264,7 @@ export default async function ServicePage({
                 <div className="flex flex-wrap items-center gap-3">
                   <a
                     href="tel:5878343668"
-                    className="inline-flex items-center gap-2.5 rounded-full bg-emergency text-cream-50 font-black uppercase tracking-tight px-8 py-5 text-[15px] shadow-lg shadow-emergency/25 hover:bg-emergency-deep transition-colors"
+                    className="cta-animated-border inline-flex items-center gap-2.5 rounded-full bg-emergency text-cream-50 font-black uppercase tracking-tight px-8 py-5 text-[15px] shadow-lg shadow-emergency/25 hover:bg-emergency-deep transition-colors"
                   >
                     <Icon name="call" className="text-lg" />
                     Call 587-834-3668
@@ -730,7 +730,7 @@ export default async function ServicePage({
                 <div className="space-y-2.5 mb-5">
                   <a
                     href="tel:5878343668"
-                    className="w-full inline-flex items-center justify-center gap-2 rounded-full bg-emergency text-cream-50 font-extrabold uppercase tracking-tight px-4 py-3 text-[12px] hover:bg-emergency-deep transition-colors"
+                    className="cta-animated-border w-full inline-flex items-center justify-center gap-2 rounded-full bg-emergency text-cream-50 font-extrabold uppercase tracking-tight px-4 py-3 text-[12px] hover:bg-emergency-deep transition-colors"
                   >
                     <Icon name="call" className="text-base" />
                     587-834-3668
