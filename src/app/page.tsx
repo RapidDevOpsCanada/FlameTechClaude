@@ -64,7 +64,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="col-span-12 lg:col-span-6 relative reveal reveal-delay-200">
+              <div className="col-span-12 lg:col-span-6 relative reveal reveal-delay-200 order-last lg:order-none">
                 <div className="relative rounded-3xl overflow-hidden border border-line-dark soft-shadow bg-cream-50">
                   <img
                     src="/images/FTVAN.jpg"
