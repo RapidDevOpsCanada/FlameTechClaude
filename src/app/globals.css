@@ -135,11 +135,11 @@ body {
     transition: none;
   }
 
-  /* Animated glowing border for primary CTAs — a slowly rotating conic
-     gradient (teal ↔ orange) tucked behind the button with a soft blur.
-     Reads as a breathing halo around rounded buttons without competing
-     with the button's own fill. Requires `position:relative` / `rounded-*`
-     which pill CTAs already have. */
+  /* Discrete shine-sweep border for primary CTAs. A thin 1.5px ring
+     sits in a `::before` pseudo, with a mask-composite trick that keeps
+     only the border area visible. A soft white highlight travels across
+     that ring every ~4s with a long pause between sweeps, so the motion
+     reads as a passing glint on the edge rather than a loop. */
   .cta-animated-border {
     position: relative;
     isolation: isolate;
@@ -147,30 +147,34 @@ body {
   .cta-animated-border::before {
     content: "";
     position: absolute;
-    inset: -3px;
+    inset: 0;
     border-radius: inherit;
-    background: conic-gradient(
-      from 0deg,
-      #17C3B0 0%,
-      #FB923C 30%,
-      #17C3B0 55%,
-      #FB923C 80%,
-      #17C3B0 100%
+    padding: 1.5px;
+    background: linear-gradient(
+      110deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0) 42%,
+      rgba(255, 255, 255, 0.7) 50%,
+      rgba(255, 255, 255, 0) 58%,
+      rgba(255, 255, 255, 0) 100%
     );
-    z-index: -1;
-    animation: cta-border-rotate 3.5s linear infinite;
-    filter: blur(5px);
-    opacity: 0.55;
+    background-size: 220% 100%;
+    background-position: -120% 0;
+    animation: cta-shine 4.2s ease-in-out infinite;
+    -webkit-mask:
+      linear-gradient(#000 0 0) content-box,
+      linear-gradient(#000 0 0);
+    -webkit-mask-composite: xor;
+            mask-composite: exclude;
     pointer-events: none;
   }
-  @keyframes cta-border-rotate {
-    to { transform: rotate(360deg); }
+  @keyframes cta-shine {
+    0%   { background-position: -120% 0; }
+    35%  { background-position: 220% 0; }
+    100% { background-position: 220% 0; } /* hold, then loop from -120% */
   }
   @media (prefers-reduced-motion: reduce) {
-    .cta-animated-border::before {
-      animation: none;
-      opacity: 0.3;
-    }
+    .cta-animated-border::before { animation: none; }
   }
 
   /* Infinite marquee */
