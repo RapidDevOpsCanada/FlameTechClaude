@@ -13,16 +13,6 @@ export default function ArticleCard({ article }: { article: Article }) {
       href={`/articles/${article.slug}`}
       className="group col-span-12 md:col-span-6 lg:col-span-4 rounded-2xl bg-white border border-line-light overflow-hidden flex flex-col hover:border-emergency transition-colors"
     >
-      {article.featured_image && (
-        <div className="relative aspect-[16/9] overflow-hidden bg-ink-800">
-          <img
-            src={article.featured_image}
-            alt={article.title}
-            loading="lazy"
-            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-          />
-        </div>
-      )}
       <div className="p-7 flex flex-col flex-grow">
         <div className="flex items-center gap-3 mb-5">
           <span className="rounded-full bg-primary/15 text-primary-deep px-3 py-1 text-xs font-bold uppercase tracking-wider">
