@@ -174,11 +174,19 @@ export default function Footer() {
             © {new Date().getFullYear()} FlameTech Plumbing &amp; Heating Ltd.
             All rights reserved.
           </p>
-          <div className="flex items-center gap-2">
-            <span className="w-2 h-2 rounded-full bg-emergency animate-pulse"></span>
-            <span className="font-semibold text-emergency">
-              Emergency Dispatch
-            </span>
+          <div className="flex items-center gap-5">
+            <Link
+              href="/privacy"
+              className="hover:text-cream-50 transition-colors"
+            >
+              Privacy Policy
+            </Link>
+            <div className="flex items-center gap-2">
+              <span className="w-2 h-2 rounded-full bg-emergency animate-pulse"></span>
+              <span className="font-semibold text-emergency">
+                Emergency Dispatch
+              </span>
+            </div>
           </div>
         </div>
       </div>

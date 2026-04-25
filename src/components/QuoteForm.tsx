@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 import Icon from "@/components/Icon";
 
 type Status = "idle" | "submitting" | "success" | "error";
@@ -10,6 +11,7 @@ export default function QuoteForm({
 }: {
   issuePlaceholder?: string;
 } = {}) {
+  const router = useRouter();
   const [status, setStatus] = useState<Status>("idle");
   const [errorMsg, setErrorMsg] = useState("");
 
@@ -36,6 +38,9 @@ export default function QuoteForm({
       if (!res.ok || !body.ok) throw new Error(body.error || "Request failed");
       setStatus("success");
       form.reset();
+      // Send the user to the dedicated /thank-you route. The inline success
+      // card below stays as a fallback in case routing fails.
+      router.push("/thank-you");
     } catch (err) {
       setStatus("error");
       setErrorMsg(err instanceof Error ? err.message : "Something went wrong");

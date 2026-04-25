@@ -7642,6 +7642,386 @@ export const services: ServicePage[] = [
       },
     },
   },
+
+  // ────────────────────────────────────────────────────────────
+  // ADDITIONAL SERVICE LANDING PAGES — boilers overview, water
+  // heater installation, AirEase brand page
+  // ────────────────────────────────────────────────────────────
+
+  {
+    slug: "boilers",
+    category: "Heating",
+    icon: "local_fire_department",
+    title: "Calgary Boilers — Expert Installation, Repair & Service",
+    lead:
+      "When the Calgary chill sets in, a reliable and efficient boiler is essential for keeping your home or business comfortable. FlameTech provides comprehensive boiler services from new installation through annual maintenance.",
+    heroBody: [
+      "Whether you're upgrading an aging cast iron boiler in a Mount Royal heritage home or specifying a new condensing system for a Cranston build, we handle every part of the job — heat-loss calc, gas + venting + condensate, install, commissioning, and warranty registration.",
+      "Locally owned and operated. Every technician is licensed gas fitter and Red Seal certified. Manufacturer-trained on Navien, IBC, Viessmann, and Triangle Tube.",
+    ],
+    heroSubhead: "Calgary's Boiler Specialists",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/navine-boiler.png", alt: "Navien high-efficiency wall-hung boiler installed by FlameTech" },
+    intro:
+      "Calgary boilers — install, repair, and annual service. High-efficiency condensing, conventional, and combi boilers from Navien, IBC, Viessmann, and Triangle Tube. Licensed, insured, manufacturer-trained.",
+    features: [
+      "Boiler installation & replacement",
+      "Boiler repair & diagnostics",
+      "Annual maintenance & tune-ups",
+      "Priority emergency response",
+      "High-efficiency, conventional, combi",
+      "Hydronic + radiant floor systems",
+    ],
+    bullets: [
+      {
+        t: "Calgary-climate sized",
+        d: "Heat-loss calcs against −35°C design temp on every install — sized correctly the first time, not matched to the old unit.",
+      },
+      {
+        t: "Top-brand certified",
+        d: "Manufacturer training on Navien, IBC, Viessmann, Triangle Tube, Crown, and Weil-McLain — we install what we know.",
+      },
+    ],
+    seoTitle: "Calgary Boilers | Installation, Repair & Service | FlameTech",
+    seoDescription:
+      "Expert Calgary boiler installation, repair, and annual service. High-efficiency Navien, IBC, Viessmann, Triangle Tube. Priority emergency response. Free quotes.",
+    seoKeywords: [
+      "Calgary boilers",
+      "boiler install Calgary",
+      "boiler repair Calgary",
+      "Navien boiler Calgary",
+      "IBC boiler Calgary",
+      "FlameTech Plumbing Heating",
+    ],
+    quoteFormLabel: "boiler",
+    quoteFormPlaceholder:
+      "e.g. boiler losing pressure, kettling noises, planning a high-efficiency upgrade, hydronic radiant install…",
+    sidebar: {
+      title: "Calgary Boiler Services",
+      subtitle:
+        "Install, repair, and maintain every major boiler type — high-efficiency, conventional, and combi.",
+      bullets: [
+        "Navien · IBC · Viessmann · Triangle Tube",
+        "AFUE up to 98%",
+        "Hydronic + radiant floor systems",
+        "Priority emergency dispatch",
+      ],
+    },
+    stats: [
+      { number: "15-25yr", label: "Boiler lifespan", icon: "verified" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "98%", label: "Max AFUE", icon: "award" },
+      { number: "B2", label: "Gas fitting licensed", icon: "check_circle" },
+    ],
+    financing: {
+      detail:
+        "Spread the cost of a new boiler into flexible monthly payments via our Financeit partner.",
+    },
+    callout:
+      "Boiler down in a cold snap, kettling, or losing pressure? Call 587-834-3668 — priority dispatch with parts on the truck.",
+    richContent: {
+      sections: [
+        {
+          heading: "Why Choose FlameTech for Calgary Boilers",
+          intro:
+            "Boilers aren't a swap-and-go appliance — sized wrong or vented wrong, they cost you for the next 20 years. Our team has installed and serviced thousands of boilers across Calgary, from old cast iron units in heritage homes to modern condensing combis in new builds.",
+          items: [
+            { heading: "Local Calgary Experts", body: "Our technicians live and work in Calgary. We know how Alberta's climate, hard water, and freeze-thaw cycles affect boiler systems — and we install accordingly." },
+            { heading: "Licensed & Insured", body: "Every technician carries B2 gas fitting and Red Seal plumbing certifications, plus current insurance. Permits pulled, inspections passed, work warrantied." },
+            { heading: "Manufacturer-Trained", body: "Factory training on Navien, IBC, Viessmann, Triangle Tube, Crown, and Weil-McLain — so install, troubleshooting, and warranty work are all done to spec." },
+            { heading: "Emergency Response", body: "Real person answers the phone, priority dispatch for no-heat calls, and common parts stocked on every truck so most repairs finish in a single visit." },
+          ],
+        },
+        {
+          heading: "Types of Boilers We Install & Service",
+          items: [
+            { heading: "High-Efficiency Condensing Boilers", body: "Modern condensing technology recovers heat from exhaust gases that conventional boilers waste, achieving up to 98% AFUE. Big savings during Calgary's seven-month heating season." },
+            { heading: "Conventional Boilers", body: "Traditional atmospheric and power-vent boilers remain a practical choice for many Calgary homes — proven, simple, and cost-effective when condensing isn't a fit." },
+            { heading: "Combi Boilers", body: "Combination units deliver radiant heating and endless domestic hot water from a single compact appliance. Space-efficient — no separate water heater needed." },
+            { heading: "Hydronic + Radiant Floor", body: "We design and install hydronic systems including in-floor radiant — the most comfortable heat available, and quiet enough you forget it's running." },
+          ],
+        },
+        {
+          heading: "Trusted Boiler Brands We Install",
+          items: [
+            { heading: "Navien", body: "Industry-leading efficiency — Navien condensing boilers reach 95%+ AFUE with stainless steel heat exchangers that resist Calgary's mineral-heavy water. Wall-hung designs save mechanical room space and start dependably even at −35°C." },
+            { heading: "IBC Technologies", body: "Canadian-engineered boilers built specifically for prairie climates. Premium-grade materials selected to handle Alberta's challenging water chemistry and seasonal temperature swings. Properly maintained IBC systems routinely deliver 20-25 years." },
+            { heading: "Viessmann", body: "Premium German engineering with stainless steel heat exchangers and modulating burners. The systems we recommend when budget allows for the best long-term efficiency and longevity." },
+            { heading: "Triangle Tube", body: "American-made stainless steel construction with industry-leading warranties. Particularly strong on combi and indirect-tank pairings for whole-home heating + DHW." },
+          ],
+        },
+        {
+          heading: "Why Boilers Are a Smart Choice for Calgary Homes",
+          items: [
+            { body: "Energy efficiency — high-efficiency models can save 20-40% on heating bills compared to old atmospheric units." },
+            { body: "Reliable, even heat through Calgary's coldest cold snaps with no temperature stratification or cold spots." },
+            { body: "Whisper-quiet operation — no blower noise, no air rush. Most homeowners forget the system is running." },
+            { body: "Better for allergies — no forced air means no recirculating dust, dander, or pollen." },
+            { body: "Excellent for zoning — heat only the rooms you're using, with multi-zone valves and individual thermostats." },
+            { body: "Long lifespan with proper maintenance — 20-25 years on premium units vs. 15-20 for forced-air furnaces." },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Frequently Asked Questions About Calgary Boilers",
+        items: [
+          { q: "How much does a new boiler cost in Calgary?", a: "Installation typically ranges from $8,000 to $15,000 depending on unit size, efficiency rating, and any required gas line, venting, or condensate work. Combi boilers and hydronic conversions sit at the higher end. Financing is available through Financeit with flexible monthly payments — we provide a written quote with all-in pricing before any work starts." },
+          { q: "What size boiler do I need for my Calgary home?", a: "Sizing depends on square footage, insulation quality, window quality, ceiling heights, and Calgary's −35°C design temperature. We perform a Manual J heat-loss calculation on every install instead of matching the old unit's BTU — old units were often oversized and cost you in efficiency for decades." },
+          { q: "How do I know if my boiler needs repair?", a: "Watch for kettling, whistling, or gurgling noises (limescale + air), pressure dropping below 12 PSI, visible water seepage near components, inconsistent room-to-room heating, frequent cycling, climbing gas bills, or display error codes. Yellow burner flames instead of blue indicate dangerous combustion issues — shut the unit down and call us." },
+          { q: "When is it time to replace rather than repair?", a: "Replacement makes sense once a boiler reaches 15-20+ years, when repair costs exceed half the replacement value, when AFUE is below 80% (modern units run 95%+), or when visible rust, corrosion, or heat exchanger cracks are present. We'll give you an honest comparison with the numbers — not a sales pitch." },
+          { q: "How often should I schedule boiler maintenance?", a: "Once a year, in late summer or early fall before heating season. A real annual service includes heat exchanger inspection + flush, combustion analysis with a calibrated analyzer, safety control checks (pressure relief, low-water cutoff, flame sensor), and gas leak testing on connections." },
+          { q: "Are there rebates for high-efficiency boilers in Alberta?", a: "Federal and provincial programs periodically offer incentives — the Canada Greener Homes Grant has historically provided up to $5,000 for qualifying heating upgrades. Eligibility usually requires 95%+ AFUE and professional installation with documentation. Our team stays current on what's available and helps with applications." },
+          { q: "What's the difference between a boiler and a water heater?", a: "Boilers heat water that circulates through radiators, baseboards, or in-floor tubing to warm your living spaces — a closed loop. Water heaters provide potable hot water for showers, dishes, and laundry. Combi boilers do both functions from one unit." },
+          { q: "Why is my boiler losing pressure?", a: "Persistent pressure loss usually means small leaks at pipe joints, radiator valves, or connections that may not be visible. Other causes: defective pressure relief valves, failed expansion tanks, malfunctioning automatic fill valves, or excessive bleeding from radiators. Rapid pressure drops or pooling water needs immediate professional attention." },
+          { q: "Can I convert from forced air to a boiler system?", a: "Yes, but it's a substantial investment — typically $15,000-$30,000 depending on home size and chosen heat distribution (radiators, baseboards, or in-floor radiant). Most Calgary homeowners pursue conversions during major renovations to gain zone control, eliminate allergen circulation, and enjoy quieter, more luxurious heat." },
+        ],
+      },
+    },
+  },
+
+  {
+    slug: "water-heater-installation-calgary",
+    category: "Water",
+    icon: "propane_tank",
+    title: "Water Heater Installation Calgary | Expert Hot Water Tank Setup",
+    lead:
+      "Calgary's hard water and temperature swings are tough on water heaters, which is why proper installation matters. FlameTech has been installing hot water tanks throughout Calgary for over a decade — and we still answer our phones with priority dispatch, no call centres.",
+    heroBody: [
+      "Our service trucks carry the popular tank sizes stocked and ready, so most installations happen the same day we get the call. Every job includes proper venting, gas line connections, and an expansion tank to handle Calgary's hard water pressure spikes.",
+      "Licensed gas fitters, Red Seal plumbers, certified to install Bradford White, Rheem, Giant, AO Smith, and Navien.",
+    ],
+    heroSubhead: "Calgary's Water Heater Installation Specialists",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/2026/02/bradford-white-hot-water-tank.png", alt: "Bradford White hot water tank installed by FlameTech in Calgary", fit: "contain" },
+    intro:
+      "Water heater installation in Calgary by licensed gas fitters. Tank, tankless, and replacement services — Bradford White, Rheem, AO Smith, and Navien. Same-day install when stock allows.",
+    features: [
+      "Traditional tank installation",
+      "Tankless water heater setup",
+      "Hot water tank replacement",
+      "Expansion tank installation",
+      "Gas line & venting work",
+      "Priority emergency response",
+    ],
+    bullets: [
+      {
+        t: "3,000+ tanks installed",
+        d: "Over a decade of installation experience across Calgary, with a 2-year workmanship warranty on every install.",
+      },
+      {
+        t: "Stocked & ready",
+        d: "Common 40 and 50-gallon tanks live on our service trucks, so most replacements finish the same day we get the call.",
+      },
+    ],
+    seoTitle: "Water Heater Installation Calgary | Expert Hot Water Tank Setup",
+    seoDescription:
+      "Professional water heater installation in Calgary. Tank, tankless, and replacement services. Licensed gas fitters, same-day install, priority emergency response.",
+    seoKeywords: [
+      "water heater installation Calgary",
+      "hot water tank installation Calgary",
+      "tankless installation Calgary",
+      "water heater replacement Calgary",
+      "Bradford White Calgary",
+      "FlameTech Plumbing Heating",
+    ],
+    quoteFormLabel: "water heater installation",
+    quoteFormPlaceholder:
+      "e.g. installing a new 50-gal gas tank, considering a switch to tankless, replacing a 12-year-old leaking tank…",
+    sidebar: {
+      title: "Calgary Water Heater Install",
+      subtitle:
+        "Tank, tankless, and replacement work — installed properly the first time with all gas, venting, and code requirements handled.",
+      bullets: [
+        "Bradford White · Rheem · AO Smith · Navien",
+        "Expansion tank on every install",
+        "Permits + inspections handled",
+        "2-year workmanship warranty",
+      ],
+    },
+    stats: [
+      { number: "3,000+", label: "Tanks installed", icon: "verified" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "2-4h", label: "Typical install", icon: "schedule" },
+      { number: "2-yr", label: "Workmanship warranty", icon: "award" },
+    ],
+    financing: {
+      detail:
+        "Spread the cost of a new water heater install into flexible monthly payments via our Financeit partner.",
+    },
+    callout:
+      "Tank leaking or no hot water? Call 587-834-3668 — most emergency installs done within 4-6 hours of the call.",
+    richContent: {
+      sections: [
+        {
+          heading: "Why Calgary Homeowners Choose FlameTech for Water Heater Installation",
+          intro:
+            "As a locally owned and operated company, we specialize in water heater installation for homes and businesses across Calgary. Our technicians are fully licensed gas fitters and Red Seal plumbers who have completed thousands of installations across Calgary neighborhoods. Every installation includes proper venting, gas line connections, and an expansion tank to protect against hard water pressure spikes.",
+          items: [
+            { heading: "Traditional Tank Installation", body: "Complete setup of gas or electric hot water tanks from 30 to 80 gallons, including proper venting, gas connections, and code-compliant installation." },
+            { heading: "Tankless Water Heater Setup", body: "Professional installation of on-demand water heaters — including gas line upgrades, venting modifications, and electrical connections needed for high-output condensing units." },
+            { heading: "Hot Water Tank Replacement", body: "Full removal of old units and installation of new tanks, including disposal of the old equipment and a clean walk-out from your mechanical room." },
+            { heading: "Expansion Tank Installation", body: "Mandatory in modern code — protects equipment from hard water pressure fluctuations. Installed on every replacement we do." },
+            { heading: "Gas Line & Venting Work", body: "Professional gas line connections and proper venting installation meeting Alberta safety codes. Many older Calgary homes need gas line upgrades for modern high-efficiency tanks." },
+            { heading: "Priority Emergency Installation", body: "When a tank fails outside business hours, we dispatch fast with the right tank already on the truck." },
+          ],
+        },
+        {
+          heading: "Common Water Heater Installation Issues in Calgary Homes",
+          intro:
+            "Calgary homeowners face specific challenges affecting installation requirements. We see these every week and quote upfront so there are no surprises.",
+          items: [
+            { body: "Hard water buildup requiring larger anode rods and full expansion tanks to handle pressure swings." },
+            { body: "Inadequate gas line sizing for high-efficiency units in homes built before 2000." },
+            { body: "Improper venting in basement installations causing dangerous backdrafting." },
+            { body: "Undersized water heaters in growing families — 40 gal is rarely enough for a household of four with multiple bathrooms." },
+            { body: "Failed poly-b connections requiring complete re-piping during the installation." },
+            { body: "Basement flooding damage requiring emergency replacement and platform-mount waterproofing." },
+          ],
+        },
+        {
+          heading: "Calgary Water Heater Installation Best Practices",
+          intro:
+            "Proper installation is the foundation of long-lasting equipment. Here's what we do on every job — and what cheaper installers often skip.",
+          items: [
+            { body: "Install expansion tanks on all water heater installations to handle hard water pressure variations." },
+            { body: "Size gas lines properly — many Calgary homes need upgrades for modern high-efficiency units." },
+            { body: "Use quality brass fittings instead of plastic for connections." },
+            { body: "Install proper condensate drains for high-efficiency units to prevent basement flooding." },
+            { body: "Position water heaters away from basement flood zones, on platforms or pedestals where appropriate." },
+            { body: "Verify adequate clearances for service access — saves you on every future visit." },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Frequently Asked Questions About Water Heater Installation in Calgary",
+        items: [
+          { q: "How long does water heater installation take in Calgary?", a: "Most standard tank installations take 2-4 hours depending on your home's setup and whether gas lines need upgrading. Tankless installations can take 4-6 hours since they often require gas line modifications and new venting." },
+          { q: "Do I need permits for water heater installation in Calgary?", a: "Yes — Calgary requires permits for water heater installations. We handle all permit paperwork; our licensed gas fitters pull proper permits and arrange inspections to meet Alberta safety codes. The permit process typically adds one day to the timeline." },
+          { q: "What size water heater do I need for my Calgary home?", a: "Most Calgary families need a 40-50 gallon tank, depending on household size and usage patterns. We calculate peak hour demand and factor in Calgary's cold incoming water temperatures, which affect recovery time. Tankless units are sized differently based on simultaneous flow rates." },
+          { q: "Can you install water heaters in Calgary basements that flood?", a: "Yes — water heaters can be installed on platforms or pedestals to protect from basement flooding, common in many Calgary communities. The platform raises the unit above potential flood levels with properly sealed electrical connections." },
+          { q: "Will my old water heater connections work with a new unit?", a: "Older Calgary homes often have poly-b plumbing or undersized gas lines requiring upgrade during installation. We inspect all existing connections and replace anything not meeting current codes or manufacturer specifications — included in the upfront quote, no surprise add-ons." },
+        ],
+      },
+    },
+  },
+
+  {
+    slug: "air-ease-furnaces-calgary",
+    category: "Heating",
+    icon: "local_fire_department",
+    title: "Air Ease Furnaces Calgary — Expert Installation & Service",
+    lead:
+      "Trust Calgary's certified AirEase furnace specialists for professional installation, maintenance, and repair. As an authorized AirEase Pro Team dealer, FlameTech delivers superior comfort engineered for Alberta's demanding climate.",
+    heroBody: [
+      "We specialize in AirEase's complete residential lineup — from high-efficiency modulating units reaching 98% AFUE to dependable single-stage models for budget-conscious homeowners.",
+      "Every install is sized to AirEase specifications and to Calgary's actual conditions: extreme temperature swings, dry winter air, and a heating season that runs nearly seven months.",
+    ],
+    heroSubhead: "Authorized AirEase Pro Team Dealer",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/2025/11/air-ease-furnace.png", alt: "AirEase high-efficiency furnace installed by FlameTech", fit: "contain" },
+    intro:
+      "Authorized AirEase furnace dealer in Calgary. Installation, replacement, maintenance, and repair on the full residential lineup — modulating, two-stage, and single-stage with AFUE up to 98%.",
+    features: [
+      "AirEase furnace installation",
+      "AirEase replacement & retrofit",
+      "Preventive maintenance",
+      "Emergency furnace repair",
+      "Efficiency upgrades & retrofits",
+      "Smart home integration",
+    ],
+    bullets: [
+      {
+        t: "AirEase Pro Team certified",
+        d: "Authorized dealer status — factory-trained on installation, parts access, and warranty support across the entire AirEase residential lineup.",
+      },
+      {
+        t: "Calgary-tuned installs",
+        d: "Every unit installed accounts for our temperature swings, dry air, and seven-month heating season — not just generic specs.",
+      },
+    ],
+    seoTitle: "Air Ease Furnaces Calgary | Authorized Dealer & Service | FlameTech",
+    seoDescription:
+      "Authorized AirEase furnace dealer in Calgary. Installation, repair, and maintenance on the full lineup. AFUE up to 98%, manufacturer warranty support, free quotes.",
+    seoKeywords: [
+      "AirEase furnace Calgary",
+      "Air Ease furnace install Calgary",
+      "AirEase Pro Team dealer Calgary",
+      "modulating furnace Calgary",
+      "high-efficiency furnace Calgary",
+      "FlameTech Plumbing Heating",
+    ],
+    quoteFormLabel: "AirEase furnace",
+    quoteFormPlaceholder:
+      "e.g. replacing a 20-year-old furnace with an AirEase modulating unit, planning a high-efficiency upgrade, AirEase warranty service…",
+    sidebar: {
+      title: "Calgary AirEase Furnaces",
+      subtitle:
+        "Authorized AirEase Pro Team dealer — installation, retrofit, and warranty service on the complete residential lineup.",
+      bullets: [
+        "Modulating · two-stage · single-stage",
+        "AFUE up to 98%",
+        "Manufacturer warranty support",
+        "Free written quotes, no pressure",
+      ],
+    },
+    stats: [
+      { number: "98%", label: "Max AFUE", icon: "award" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "6-10h", label: "Typical install", icon: "schedule" },
+      { number: "Pro Team", label: "AirEase certified", icon: "verified" },
+    ],
+    financing: {
+      detail:
+        "Spread the cost of a new AirEase furnace install into flexible monthly payments via our Financeit partner.",
+    },
+    callout:
+      "Old furnace running you ragged? Call 587-834-3668 for a free AirEase upgrade quote — heat-loss calc included.",
+    richContent: {
+      sections: [
+        {
+          heading: "Calgary's Trusted AirEase Furnace Professionals",
+          intro:
+            "As an authorized AirEase dealer, FlameTech brings expertise to every furnace installation, replacement, and service call throughout Calgary. We specialize in AirEase's complete residential furnace lineup, from high-efficiency modulating models achieving 98% AFUE to dependable single-stage units for budget-conscious homeowners. From initial consultation through warranty support, we provide comprehensive service that protects your investment and guarantees optimal performance year after year.",
+          items: [
+            { heading: "Certified Technicians", body: "Factory-trained on AirEase installation, controls, and warranty work — so install, troubleshooting, and warranty are all done to spec." },
+            { heading: "5-Star Rated", body: "Hundreds of Calgary homeowners rate our work 5 stars across Google reviews. Same standard on a $200 service call as a $15,000 install." },
+            { heading: "Furnace Specialists", body: "Heating is a core specialty. We install and service every major brand in Calgary, with a particular depth on AirEase, Carrier, and Lennox high-efficiency lineups." },
+            { heading: "Warranty Support", body: "AirEase Pro Team membership gives us direct access to factory warranty claims, parts, and technical support — meaning faster resolution if anything ever goes sideways." },
+          ],
+        },
+        {
+          heading: "Complete AirEase Furnace Services for Calgary Homes",
+          items: [
+            { heading: "New Furnace Installations", body: "Every install begins with proper load calculations and ductwork assessment to ensure correct sizing and efficiency for Calgary's climate demands." },
+            { heading: "System Replacements", body: "Safe removal of outdated equipment and seamless integration with existing ductwork and thermostat controls — no surprise compatibility issues mid-install." },
+            { heading: "Preventive Maintenance", body: "Comprehensive seasonal tune-ups including filter changes, blower motor inspection, heat exchanger examination, and combustion analysis to extend the unit's lifespan." },
+            { heading: "Emergency Repairs", body: "Rapid diagnosis with genuine AirEase replacement components on the truck. Most repairs finish in a single visit." },
+            { heading: "Efficiency Upgrades", body: "Retrofitting variable-speed blowers, programmable thermostats, and smart home connectivity to existing systems that aren't yet ready for replacement." },
+          ],
+        },
+        {
+          heading: "AirEase Furnace Service Across Calgary & Surrounding Areas",
+          intro:
+            "Our mobile service fleet brings trained expertise directly to homes in all four Calgary quadrants plus Airdrie, Chestermere, Okotoks, and Cochrane. Whether you need emergency furnace repair during a January cold snap, scheduled maintenance before winter, or consultation on a replacement, FlameTech's AirEase specialists deliver prompt, professional service backed by manufacturer support.",
+          items: [
+            { body: "Calgary NE · NW · SE · SW — every quadrant covered with same-day priority dispatch." },
+            { body: "Airdrie, Chestermere, Cochrane, and Okotoks — service trucks dispatched daily." },
+            { body: "AirEase parts and warranty support direct from the manufacturer through our Pro Team membership." },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Frequently Asked Questions — AirEase Furnaces Calgary",
+        items: [
+          { q: "What makes AirEase furnaces ideal for Calgary winters?", a: "AirEase furnaces are engineered for extreme cold operation and extended heating seasons. Their two-stage and modulating models maintain consistent temperatures during swings from −30°C to mild chinook conditions. Heavy-duty heat exchangers withstand thermal stress from prolonged operation, and sealed combustion designs prevent the frozen venting issues common in Alberta winters. High-efficiency models reach up to 98% AFUE — critical for managing winter energy costs." },
+          { q: "How long does an AirEase furnace installation take?", a: "Most standard AirEase furnace installations in Calgary homes complete within one full day (6-10 hours). Straightforward replacements where existing ductwork, venting, and electrical connections remain compatible finish faster. More complex projects requiring ductwork modifications, new thermostat wiring, humidifier integration, or venting upgrades may extend into a second day. We perform comprehensive load calculations before installation, inspect all existing components for compatibility, and complete thorough testing of safety systems, combustion efficiency, and airflow balance." },
+          { q: "What AirEase furnace models do you recommend for Calgary homes?", a: "We recommend AirEase modulating furnaces for maximum efficiency and comfort in Calgary's variable climate — their infinite heat adjustments eliminate temperature swings during chinooks and provide whisper-quiet operation. Budget-conscious homeowners appreciate AirEase's single-stage models offering reliable performance and straightforward maintenance at accessible pricing. For balanced performance and value, two-stage models provide substantial efficiency improvements over basic units while costing less than premium modulating systems." },
+          { q: "Do you service older AirEase furnace models?", a: "Yes — our trained technicians service AirEase furnaces across all model years and efficiency levels. We maintain relationships with parts suppliers, ensuring access to components for legacy systems, though availability becomes limited for units exceeding 20 years of age. For older furnaces, we provide honest assessments comparing repair costs against replacement benefits." },
+          { q: "What kind of warranty comes with an AirEase install?", a: "AirEase furnaces come with strong manufacturer warranties on both heat exchangers (often 10-20 years) and parts (5-10 years depending on model and registration). As Pro Team members, we register the warranty for you and handle any claims directly with AirEase — no homeowner paperwork chasing. We also back our installation work with our own workmanship warranty." },
+        ],
+      },
+    },
+  },
 ];
 
 export function getService(slug: string): ServicePage | undefined {
