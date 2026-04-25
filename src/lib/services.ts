@@ -1761,6 +1761,29 @@ export const services: ServicePage[] = [
         { src: "/images/2026/04/Furnace_1.webp", alt: "Condensing furnace with new PVC venting and condensate line" },
       ],
     },
+    beforeAfter: {
+      eyebrow: "High-efficiency before & after",
+      heading: "Drag to see what 95%+ AFUE looks like.",
+      intro:
+        "Real Calgary swap-outs from atmospheric or low-efficiency units to high-efficiency condensing furnaces. Same mechanical room, dramatically different equipment.",
+      pairs: [
+        {
+          before: { src: "/images/2026/04/Furnace-before-len.webp", alt: "Old low-efficiency furnace before replacement — Len residence" },
+          after: { src: "/images/2026/04/Furnace-after-len.webp", alt: "New 96% AFUE condensing furnace — Len residence" },
+          caption: "Len residence — atmospheric → 96% AFUE condensing",
+        },
+        {
+          before: { src: "/images/2026/04/Furnace-before-crooks.webp", alt: "Aging furnace before high-efficiency upgrade — Crooks residence" },
+          after: { src: "/images/2026/04/Furnace-after-crooks.webp", alt: "Replacement high-efficiency furnace — Crooks residence" },
+          caption: "Crooks residence — high-efficiency replacement with new PVC venting",
+        },
+        {
+          before: { src: "/images/2026/04/Furnace-before-picture-turner.webp", alt: "Aging furnace before high-efficiency swap — Turner residence" },
+          after: { src: "/images/2026/04/Furnace-after-turner.webp", alt: "New condensing furnace after clean retrofit — Turner residence" },
+          caption: "Turner residence — full retrofit with condensate drain",
+        },
+      ],
+    },
   },
   {
     slug: "garage-heaters-calgary",
@@ -2015,6 +2038,19 @@ export const services: ServicePage[] = [
           { q: "How long does installation take?", a: "Installation timelines vary based on system configuration and installation complexity. We establish transparent expectations and provide detailed scheduling before beginning any project." },
         ],
       },
+    },
+    beforeAfter: {
+      eyebrow: "Before & after",
+      heading: "Drag to see a real heat pump install.",
+      intro:
+        "An aging outdoor unit pulled and replaced with a cold-climate heat pump from a recent Calgary job. Drag the divider to compare.",
+      pairs: [
+        {
+          before: { src: "/images/2026/04/Heat-pump-before-beach.webp", alt: "Old heat pump before replacement — Beach residence" },
+          after: { src: "/images/2026/04/Heat-pump-after-beach.webp", alt: "New cold-climate heat pump installed — Beach residence" },
+          caption: "Beach residence — outdoor unit swap-out",
+        },
+      ],
     },
   },
   // AIR
