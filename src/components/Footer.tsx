@@ -72,8 +72,8 @@ export default function Footer() {
             <Image
               src="/images/FT-LOGO-DARK8.png"
               alt="FlameTech"
-              width={291}
-              height={97}
+              width={300}
+              height={183}
               className="h-[97px] w-auto object-contain"
             />
           </Link>

@@ -275,8 +275,8 @@ export default function Nav() {
           <Image
             src="/images/FT-LOGO-DARK8.png"
             alt="FlameTech"
-            width={264}
-            height={88}
+            width={300}
+            height={183}
             priority
             className="h-[68px] md:h-[77px] lg:h-[88px] w-auto object-contain"
           />

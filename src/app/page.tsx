@@ -71,8 +71,8 @@ export default function Home() {
                   <Image
                     src="/images/FTVAN.jpg"
                     alt="FlameTech service van across Calgary"
-                    width={960}
-                    height={720}
+                    width={800}
+                    height={486}
                     priority
                     sizes="(max-width: 1024px) 100vw, 580px"
                     className="w-full h-auto object-contain"
@@ -82,8 +82,8 @@ export default function Home() {
                   <Image
                     src="/images/REVIEWS1.png"
                     alt="5-star customer reviews"
-                    width={240}
-                    height={64}
+                    width={791}
+                    height={107}
                     className="h-14 md:h-16 w-auto object-contain"
                   />
                 </div>

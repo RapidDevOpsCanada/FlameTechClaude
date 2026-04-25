@@ -226,8 +226,8 @@ export default async function ServicePage({
                         <Image
                           src={service.heroBadgeImage.src}
                           alt={service.heroBadgeImage.alt}
-                          width={132}
-                          height={44}
+                          width={791}
+                          height={107}
                           className="h-11 w-auto object-contain"
                         />
                       </div>
@@ -329,8 +329,8 @@ export default async function ServicePage({
                         <Image
                           src={service.heroBadgeImage.src}
                           alt={service.heroBadgeImage.alt}
-                          width={192}
-                          height={64}
+                          width={791}
+                          height={107}
                           className="h-14 md:h-16 w-auto object-contain"
                         />
                       </div>
