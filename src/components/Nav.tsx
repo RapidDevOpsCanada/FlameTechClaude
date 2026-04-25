@@ -284,12 +284,6 @@ export default function Nav() {
         {/* Right side */}
         <div className="hidden md:flex items-center gap-4 shrink-0">
           <SiteSearch variant="compact" />
-          <Link
-            href="/about"
-            className="hidden lg:inline-flex items-center text-[17px] font-extrabold text-cream-50 hover:text-emergency transition-colors"
-          >
-            About
-          </Link>
           <a
             href="tel:5878343668"
             className="hidden xl:flex items-center gap-2 text-[17px] font-extrabold text-cream-50 hover:text-emergency transition-colors"
@@ -320,6 +314,12 @@ export default function Nav() {
       {open && (
         <div className="lg:hidden border-t border-line-dark bg-ink-900 max-h-[80vh] overflow-y-auto">
           <div className="max-w-7xl mx-auto px-6 py-4 space-y-1">
+            <div className="mb-3">
+              <SiteSearch
+                variant="inline"
+                placeholder="Search services, neighbourhoods…"
+              />
+            </div>
             {menu.map((item) => (
               <MobileMenuItem
                 key={item.label}
@@ -327,13 +327,6 @@ export default function Nav() {
                 onNavigate={() => setOpen(false)}
               />
             ))}
-            <Link
-              href="/about"
-              onClick={() => setOpen(false)}
-              className="block px-4 py-3 text-[17px] font-extrabold text-cream-50 hover:text-emergency transition-colors"
-            >
-              About
-            </Link>
             <Link
               href="/contact"
               onClick={() => setOpen(false)}
