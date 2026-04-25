@@ -9,6 +9,7 @@ import HowItWorks from "@/components/HowItWorks";
 import BlogStrip from "@/components/BlogStrip";
 import Reveal from "@/components/Reveal";
 import Icon from "@/components/Icon";
+import Image from "next/image";
 
 export const dynamic = "force-dynamic";
 
@@ -66,17 +67,23 @@ export default function Home() {
 
               <div className="col-span-12 lg:col-span-6 relative reveal reveal-delay-200 order-last lg:order-none">
                 <div className="relative rounded-3xl overflow-hidden border border-line-dark soft-shadow bg-cream-50">
-                  <img
+                  <Image
                     src="/images/FTVAN.jpg"
                     alt="FlameTech service van across Calgary"
+                    width={960}
+                    height={720}
+                    priority
+                    sizes="(max-width: 1024px) 100vw, 580px"
                     className="w-full h-auto object-contain"
                   />
                 </div>
                 <div className="mt-5 flex justify-center">
-                  <img
+                  <Image
                     src="/images/REVIEWS1.png"
                     alt="5-star customer reviews"
-                    className="h-14 md:h-16 object-contain"
+                    width={240}
+                    height={64}
+                    className="h-14 md:h-16 w-auto object-contain"
                   />
                 </div>
               </div>

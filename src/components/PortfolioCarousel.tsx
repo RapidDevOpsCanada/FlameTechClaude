@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useCallback, useEffect, useRef, useState } from "react";
 import Icon from "@/components/Icon";
 
@@ -122,11 +123,13 @@ export default function PortfolioCarousel({
               className="shrink-0 snap-start w-[85%] sm:w-[55%] md:w-[calc((100%-2.5rem)/3)] rounded-2xl overflow-hidden bg-ink-800 border border-line-dark"
             >
               <div className="relative aspect-[4/3] overflow-hidden">
-                <img
+                <Image
                   src={item.src}
                   alt={item.alt}
-                  loading={i < 3 ? "eager" : "lazy"}
-                  className="w-full h-full object-cover"
+                  fill
+                  sizes="(max-width: 640px) 85vw, (max-width: 768px) 55vw, 33vw"
+                  priority={i < 3}
+                  className="object-cover"
                 />
               </div>
               {item.caption && (

@@ -388,7 +388,7 @@ export const services: ServicePage[] = [
     ],
     heroSubhead: "Trusted Calgary Drain Cleaning Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
-    heroImage: { src: "/images/FTVAN1.jpg", alt: "FlameTech service van — Calgary drain cleaning", fit: "cover" },
+    heroImage: { src: "/images/2025/04/drain-cleaning-pipe.jpeg", alt: "Plumber working on a drain line under a sink — Calgary drain cleaning", fit: "cover" },
     intro:
       "Expert drain cleaning services in Calgary. Clogs, blockages, and backup repairs. 25+ years experience. Priority emergency response.",
     features: [
@@ -440,6 +440,17 @@ export const services: ServicePage[] = [
       { number: "1-2h", label: "Typical visit", icon: "schedule" },
       { number: "4000", label: "PSI hydro-jet", icon: "check_circle" },
     ],
+    timeline: {
+      heading: "How a drain call goes",
+      intro:
+        "We don't just shove a snake down and hope. Every visit is diagnosed first so the fix actually lasts.",
+      steps: [
+        { icon: "call", title: "Describe the symptoms", body: "Where is it slow or backing up? When did it start? We get the basics over the phone so we arrive with the right gear." },
+        { icon: "tune", title: "Camera inspection first", body: "We run a video camera through the line so we can see exactly what's blocking it — grease, scale, roots, or a collapsed pipe — before we cut anything." },
+        { icon: "water_damage", title: "Clear it (snake or hydro-jet)", body: "Light clogs come out with a cable; heavy grease, scale, or roots get a 4000 PSI hydro-jet pass that scours the pipe wall back to bare metal." },
+        { icon: "verified", title: "Verify on camera + report", body: "We re-camera the line so you can see it run clear, and tell you straight if there's an underlying pipe issue worth addressing now vs. monitoring." },
+      ],
+    },
     callout:
       "Sewage backing up or water coming out of a floor drain? Call us right away — drain emergencies escalate quickly.",
     richContent: {
@@ -799,6 +810,17 @@ export const services: ServicePage[] = [
       { number: "6-10h", label: "Typical install", icon: "schedule" },
       { number: "90-95%", label: "AFUE efficiency", icon: "award" },
     ],
+    timeline: {
+      heading: "How a boiler install runs",
+      intro:
+        "A boiler isn't a swap-and-go appliance — sized wrong or vented wrong it costs you for the next 20 years. Here's how we keep that from happening.",
+      steps: [
+        { icon: "request_quote", title: "On-site heat-loss assessment", body: "We measure square footage, insulation, windows, and ceiling heights — then run a Manual J calc against Calgary's −40°C design temp to size the boiler properly. No guessing from the old unit." },
+        { icon: "build", title: "Quote + permits in writing", body: "You get the model, AFUE rating, gas line + venting scope, and the all-in price before anything starts. Gas + electrical permits are pulled by us." },
+        { icon: "handyman", title: "Install + gas, vent, condensate", body: "Old unit drained and removed, new boiler hung, gas line and venting upgraded if needed, condensate routed to a neutralizer + drain. Typically a single day for a straight swap." },
+        { icon: "verified", title: "Commission + walkthrough", body: "Combustion analysis, pressure test, thermostat pairing, and a walk-through of the controls. We register the warranty and book your first annual service." },
+      ],
+    },
     financing: {
       detail:
         "Spread the cost of your new boiler into flexible monthly payments via our Financeit partner.",
@@ -1100,6 +1122,17 @@ export const services: ServicePage[] = [
       { number: "1-2h", label: "Typical service visit", icon: "schedule" },
       { number: "ANY", label: "Brand serviced", icon: "check_circle" },
     ],
+    timeline: {
+      heading: "What an annual boiler service covers",
+      intro:
+        "A real tune-up is more than wiping down the cabinet. Here's the checklist we run on every boiler we service.",
+      steps: [
+        { icon: "tune", title: "Inspect + flush", body: "Visual inspection of heat exchanger, expansion tank, pressure relief valve, and circulator. Flush sediment if pressure has been swinging or the boiler has been kettling." },
+        { icon: "build", title: "Combustion analysis", body: "Live combustion test with a calibrated analyzer — CO, CO₂, O₂, stack temp. Adjust gas valve if combustion is off-spec; that alone often pulls 5-10% efficiency back." },
+        { icon: "verified", title: "Safety + control checks", body: "Test pressure relief valve, low-water cutoff, flame sensor, and gas leak check on connections. Confirm thermostat + zone valves respond cleanly." },
+        { icon: "event_available", title: "Report + schedule next year", body: "Written report of what we did, anything to watch, and a recommendation on when to plan replacement. Annual service reminder lands in your calendar before next heating season." },
+      ],
+    },
     richContent: {
       sections: [
         {
@@ -1710,7 +1743,7 @@ export const services: ServicePage[] = [
     ],
     heroSubhead: "Trusted Calgary Garage Heater Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
-    heroImage: { src: "/images/FTVAN1.jpg", alt: "FlameTech service van — garage heater installation in Calgary", fit: "cover" },
+    heroImage: { src: "/images/2026/04/garage-heater-featured.jpg", alt: "Calgary garage with overhead radiant heater installed", fit: "cover" },
     intro:
       "Professional garage heater installation and repair in Calgary. Gas, electric, and radiant heaters. Priority emergency response, licensed gas fitters, 15+ years of Calgary experience.",
     features: [
@@ -2410,7 +2443,7 @@ export const services: ServicePage[] = [
     ],
     heroSubhead: "Trusted Calgary Hot Water Tank Replacement Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
-    heroImage: { src: "/images/FTVAN1.jpg", alt: "FlameTech service van — Calgary hot water tank replacement", fit: "cover" },
+    heroImage: { src: "/images/2026/04/Power-Vent-hot-water-tank.webp", alt: "Power-vent hot water tank installed by FlameTech in Calgary", fit: "contain" },
     intro:
       "Calgary hot water tank replacement by Red Seal certified plumbers. Bradford White, AO Smith, and Rheem stocked. Emergency service, permits handled, warranty included.",
     features: [
@@ -2462,6 +2495,17 @@ export const services: ServicePage[] = [
       { number: "15+", label: "Years replacing", icon: "verified" },
       { number: "Red Seal", label: "certified", icon: "award" },
     ],
+    timeline: {
+      heading: "How a tank swap actually goes",
+      intro:
+        "From the leaking tank to a hot shower, here's the day. Most replacements are done in 3–4 hours.",
+      steps: [
+        { icon: "call", title: "Phone triage + dispatch", body: "We ask the basics — fuel type (gas or electric), tank size, age, and whether it's actively leaking — then dispatch with the right tank already on the truck." },
+        { icon: "water_damage", title: "Shut off + drain old tank", body: "Water + gas/power off, tank drained safely, expansion tank inspected. Old unit disconnected and walked out — no mess left in the mechanical room." },
+        { icon: "build", title: "Install new tank + connections", body: "New tank set, gas or electrical connected, water lines tied in with new shut-offs, expansion tank fitted, drain pan + relief valve to current code. Permits arranged with the city." },
+        { icon: "verified", title: "Test, walkthrough, warranty", body: "Pressurize, leak-check every connection, light the burner (or energize the elements), set thermostat, and walk you through how to flush it annually. Manufacturer + labour warranty registered before we leave." },
+      ],
+    },
     financing: {
       detail:
         "Spread the cost of your new hot water tank replacement into flexible monthly payments via our Financeit partner.",
@@ -2545,7 +2589,7 @@ export const services: ServicePage[] = [
     ],
     heroSubhead: "Calgary Tankless Water Heater Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
-    heroImage: { src: "/images/FTVAN1.jpg", alt: "FlameTech service van — Calgary tankless water heater installs", fit: "cover" },
+    heroImage: { src: "/images/2026/04/Ibc-tankless.webp", alt: "IBC tankless water heater installed by FlameTech in Calgary", fit: "contain" },
     intro:
       "Tankless water heater install, service, and repair in Calgary. On-demand hot water, higher efficiency, space-saving design, and 20+ year lifespan with proper maintenance.",
     features: [

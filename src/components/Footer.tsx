@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import Icon from "@/components/Icon";
 
 const plumbingLinks = [
@@ -67,9 +68,11 @@ export default function Footer() {
         {/* Brand */}
         <div className="col-span-2 md:col-span-2">
           <Link href="/" className="inline-flex items-center mb-5">
-            <img
+            <Image
               src="/images/FT-LOGO-DARK8.png"
               alt="FlameTech"
+              width={291}
+              height={97}
               className="h-[97px] w-auto object-contain"
             />
           </Link>
@@ -117,9 +120,11 @@ export default function Footer() {
       <div className="border-t border-line-dark">
         <div className="max-w-7xl mx-auto px-6 md:px-10 py-10 grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
           <div className="flex items-center gap-5">
-            <img
+            <Image
               src="/images/blue-ceip-225x300.png"
               alt="BBB accredited"
+              width={48}
+              height={64}
               className="h-16 w-auto object-contain rounded-lg bg-white/5 p-1"
             />
             <div>

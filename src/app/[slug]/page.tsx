@@ -5,6 +5,7 @@ import QuoteForm from "@/components/QuoteForm";
 import FinalCTA from "@/components/FinalCTA";
 import Icon from "@/components/Icon";
 import PortfolioCarousel from "@/components/PortfolioCarousel";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
@@ -199,22 +200,34 @@ export default async function ServicePage({
                           : "bg-gradient-to-br from-cream-50 to-cream-100 p-5 flex items-center justify-center"
                       }`}
                     >
-                      <img
-                        src={service.heroImage.src}
-                        alt={service.heroImage.alt}
-                        className={
-                          service.heroImage.fit === "cover"
-                            ? "w-full h-full object-cover"
-                            : "max-h-full max-w-full object-contain"
-                        }
-                      />
+                      {service.heroImage.fit === "cover" ? (
+                        <Image
+                          src={service.heroImage.src}
+                          alt={service.heroImage.alt}
+                          fill
+                          sizes="(max-width: 1024px) 100vw, 0px"
+                          priority
+                          className="object-cover"
+                        />
+                      ) : (
+                        <Image
+                          src={service.heroImage.src}
+                          alt={service.heroImage.alt}
+                          width={520}
+                          height={320}
+                          priority
+                          className="max-h-full max-w-full object-contain"
+                        />
+                      )}
                     </div>
                     {service.heroBadgeImage && (
                       <div className="mt-3 flex justify-center">
-                        <img
+                        <Image
                           src={service.heroBadgeImage.src}
                           alt={service.heroBadgeImage.alt}
-                          className="h-11 object-contain"
+                          width={132}
+                          height={44}
+                          className="h-11 w-auto object-contain"
                         />
                       </div>
                     )}
@@ -290,22 +303,34 @@ export default async function ServicePage({
                           : "bg-gradient-to-br from-cream-50 to-cream-100 p-8 flex items-center justify-center"
                       }`}
                     >
-                      <img
-                        src={service.heroImage.src}
-                        alt={service.heroImage.alt}
-                        className={
-                          service.heroImage.fit === "cover"
-                            ? "w-full h-full object-cover"
-                            : "max-h-full max-w-full object-contain drop-shadow-[0_20px_30px_rgba(8,14,28,0.18)]"
-                        }
-                      />
+                      {service.heroImage.fit === "cover" ? (
+                        <Image
+                          src={service.heroImage.src}
+                          alt={service.heroImage.alt}
+                          fill
+                          sizes="(max-width: 1024px) 0px, 580px"
+                          priority
+                          className="object-cover"
+                        />
+                      ) : (
+                        <Image
+                          src={service.heroImage.src}
+                          alt={service.heroImage.alt}
+                          width={580}
+                          height={464}
+                          priority
+                          className="max-h-full max-w-full object-contain drop-shadow-[0_20px_30px_rgba(8,14,28,0.18)]"
+                        />
+                      )}
                     </div>
                     {service.heroBadgeImage && (
                       <div className="mt-5 flex justify-center">
-                        <img
+                        <Image
                           src={service.heroBadgeImage.src}
                           alt={service.heroBadgeImage.alt}
-                          className="h-14 md:h-16 object-contain"
+                          width={192}
+                          height={64}
+                          className="h-14 md:h-16 w-auto object-contain"
                         />
                       </div>
                     )}
@@ -1051,8 +1076,48 @@ function buildSchemaJsonLd(service: ServicePage) {
   const heroImg = service.heroImage?.src
     ? `${SITE_URL}${service.heroImage.src}`
     : undefined;
+  const city = service.location ?? "Calgary";
 
   const graph: Record<string, unknown>[] = [];
+
+  // WebSite node — referenced from WebPage.isPartOf
+  graph.push({
+    "@type": "WebSite",
+    "@id": `${SITE_URL}#website`,
+    url: SITE_URL,
+    name: BUSINESS.name,
+    publisher: { "@id": `${SITE_URL}#business` },
+  });
+
+  // LocalBusiness node — stand-alone so it can carry AggregateRating
+  graph.push({
+    "@type": "LocalBusiness",
+    "@id": `${SITE_URL}#business`,
+    name: BUSINESS.name,
+    telephone: BUSINESS.phone,
+    url: SITE_URL,
+    image: `${SITE_URL}/images/FT-LOGO-DARK8.png`,
+    priceRange: "$$",
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Calgary",
+      addressRegion: "AB",
+      addressCountry: "CA",
+    },
+    areaServed: [
+      { "@type": "City", name: "Calgary" },
+      { "@type": "City", name: "Airdrie" },
+      { "@type": "City", name: "Chestermere" },
+      { "@type": "City", name: "Cochrane" },
+      { "@type": "City", name: "Okotoks" },
+    ],
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: "5.0",
+      bestRating: "5",
+      reviewCount: "100",
+    },
+  });
 
   graph.push({
     "@type": "Service",
@@ -1064,27 +1129,15 @@ function buildSchemaJsonLd(service: ServicePage) {
     url,
     areaServed: {
       "@type": "City",
-      name: "Calgary",
+      name: city,
       address: {
         "@type": "PostalAddress",
+        addressLocality: city,
         addressRegion: "AB",
         addressCountry: "CA",
       },
     },
-    provider: {
-      "@type": "LocalBusiness",
-      "@id": `${SITE_URL}#business`,
-      name: BUSINESS.name,
-      telephone: BUSINESS.phone,
-      address: {
-        "@type": "PostalAddress",
-        addressLocality: "Calgary",
-        addressRegion: "AB",
-        addressCountry: "CA",
-      },
-      priceRange: "$$",
-      url: SITE_URL,
-    },
+    provider: { "@id": `${SITE_URL}#business` },
   });
 
   graph.push({
@@ -1092,13 +1145,7 @@ function buildSchemaJsonLd(service: ServicePage) {
     "@id": `${url}#breadcrumb`,
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
-      {
-        "@type": "ListItem",
-        position: 2,
-        name: service.category,
-        item: `${SITE_URL}/#services`,
-      },
-      { "@type": "ListItem", position: 3, name: service.title, item: url },
+      { "@type": "ListItem", position: 2, name: service.title, item: url },
     ],
   });
 
@@ -1121,6 +1168,7 @@ function buildSchemaJsonLd(service: ServicePage) {
     name: service.seoTitle || service.title,
     description: service.seoDescription || service.intro,
     isPartOf: { "@id": `${SITE_URL}#website` },
+    about: { "@id": `${url}#service` },
     primaryImageOfPage: heroImg
       ? { "@type": "ImageObject", url: heroImg }
       : undefined,

@@ -2,6 +2,7 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import FinalCTA from "@/components/FinalCTA";
 import StickyCallBar from "@/components/StickyCallBar";
+import AuthorBioCard from "@/components/AuthorBioCard";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getArticleBySlug, getAllArticles } from "@/lib/articles";
@@ -89,6 +90,7 @@ export default async function ArticlePage({
             className="prose-article"
             dangerouslySetInnerHTML={{ __html: article.body }}
           />
+          <AuthorBioCard authorName={article.author} />
         </div>
         <style
           dangerouslySetInnerHTML={{

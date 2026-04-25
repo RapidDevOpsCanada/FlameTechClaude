@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 import Icon from "@/components/Icon";
 
@@ -251,9 +252,12 @@ export default function Nav() {
           className="flex items-center text-cream-50 shrink-0"
           onClick={() => setOpen(false)}
         >
-          <img
+          <Image
             src="/images/FT-LOGO-DARK8.png"
             alt="FlameTech"
+            width={264}
+            height={88}
+            priority
             className="h-[68px] md:h-[77px] lg:h-[88px] w-auto object-contain"
           />
         </Link>
@@ -389,10 +393,12 @@ function MegaPanel({ mega }: { mega: NonNullable<NavItem["mega"]> }) {
           {mega.promo && (
             <div className="relative bg-ink-900 border-l border-line-dark flex flex-col">
               <div className="relative h-36 overflow-hidden bg-cream-50 flex items-center justify-center">
-                <img
+                <Image
                   src={mega.promo.image}
                   alt=""
-                  className="w-full h-full object-cover"
+                  fill
+                  sizes="(max-width: 768px) 100vw, 320px"
+                  className="object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-ink-900 via-ink-900/20 to-transparent" />
               </div>
