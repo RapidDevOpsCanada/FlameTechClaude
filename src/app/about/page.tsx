@@ -4,6 +4,7 @@ import FinalCTA from "@/components/FinalCTA";
 import StickyCallBar from "@/components/StickyCallBar";
 import PageHeader from "@/components/PageHeader";
 import Icon from "@/components/Icon";
+import IconBadge, { type IconTone } from "@/components/IconBadge";
 import { authors } from "@/lib/authors";
 import Link from "next/link";
 import type { Metadata } from "next";
@@ -167,10 +168,10 @@ export default function AboutPage() {
             {values.map((v) => (
               <div
                 key={v.title}
-                className="lift rounded-2xl bg-white border border-line-light p-7 md:p-8"
+                className="lift group rounded-2xl bg-white border border-line-light p-7 md:p-8"
               >
-                <div className="w-12 h-12 rounded-xl bg-primary/15 text-primary-deep flex items-center justify-center mb-5">
-                  <Icon name={v.icon} className="text-xl" />
+                <div className="mb-5">
+                  <IconBadge name={v.icon} tone="neutral" size="lg" />
                 </div>
                 <h3 className="font-display font-extrabold text-xl md:text-2xl tracking-tight mb-3 leading-tight">
                   {v.title}
@@ -223,19 +224,21 @@ export default function AboutPage() {
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-            {[
-              { label: "Plumbing", href: "/#services", icon: "plumbing" },
-              { label: "Heating & Boilers", href: "/boiler-installation-calgary", icon: "local_fire_department" },
-              { label: "Air Conditioning", href: "/air-conditioning", icon: "ac_unit" },
-              { label: "Water Systems", href: "/water-softener", icon: "water_drop" },
-            ].map((s) => (
+            {(
+              [
+                { label: "Plumbing", href: "/#services", icon: "pipe_wrench", tone: "plumbing" },
+                { label: "Heating & Boilers", href: "/boiler-installation-calgary", icon: "boiler_unit", tone: "heating" },
+                { label: "Air Conditioning", href: "/air-conditioning", icon: "ac_unit", tone: "air" },
+                { label: "Water Systems", href: "/water-softener", icon: "softener_tank", tone: "water" },
+              ] as { label: string; href: string; icon: string; tone: IconTone }[]
+            ).map((s) => (
               <Link
                 key={s.label}
                 href={s.href}
                 className="lift group rounded-2xl bg-cream-50 border border-line-light p-6 hover:border-emergency"
               >
-                <div className="w-11 h-11 rounded-xl bg-primary/15 text-primary-deep flex items-center justify-center mb-4">
-                  <Icon name={s.icon} className="text-lg" />
+                <div className="mb-4">
+                  <IconBadge name={s.icon} tone={s.tone} size="md" />
                 </div>
                 <p className="font-display font-extrabold text-lg tracking-tight group-hover:text-emergency-deep transition-colors">
                   {s.label}

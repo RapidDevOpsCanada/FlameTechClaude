@@ -5,6 +5,7 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import Icon from "@/components/Icon";
+import IconBadge, { toneFromCategory } from "@/components/IconBadge";
 import SiteSearch from "@/components/SiteSearch";
 import { getService } from "@/lib/services";
 
@@ -76,7 +77,7 @@ const menu: NavItem[] = [
             {
               label: "Drain Cleaning",
               href: "/drain-cleaning-calgary",
-              icon: "water_damage",
+              icon: "drain_camera",
               desc: "Clogs, slow drains, camera inspection.",
             },
           ],
@@ -93,7 +94,7 @@ const menu: NavItem[] = [
             {
               label: "PolyB Plumbing",
               href: "/polyb-plumbing-calgary",
-              icon: "swap_horiz",
+              icon: "pipe_wrench",
               desc: "Full replacement for 80s/90s homes.",
             },
           ],
@@ -119,19 +120,19 @@ const menu: NavItem[] = [
             {
               label: "Boiler Installation",
               href: "/boiler-installation-calgary",
-              icon: "build",
+              icon: "boiler_unit",
               desc: "New high-efficiency boilers.",
             },
             {
               label: "Boiler Repair",
               href: "/boiler-repair-calgary",
-              icon: "handyman",
+              icon: "gas_valve",
               desc: "Diagnosis and fast repairs.",
             },
             {
               label: "Boiler Service",
               href: "/boiler-service-calgary",
-              icon: "tune",
+              icon: "hydronic_loop",
               desc: "Annual maintenance & tune-ups.",
             },
           ],
@@ -241,7 +242,7 @@ const menu: NavItem[] = [
             {
               label: "Water Softeners",
               href: "/water-softener",
-              icon: "science",
+              icon: "softener_tank",
               desc: "Protect fixtures from Alberta hard water.",
             },
           ],
@@ -314,7 +315,13 @@ export default function Nav() {
                     />
                   )}
                 </Link>
-                {item.mega && <MegaPanel mega={item.mega} />}
+                {item.mega && (
+                  <MegaPanel
+                    mega={item.mega}
+                    pathname={pathname ?? ""}
+                    category={item.label}
+                  />
+                )}
               </li>
             );
           })}
@@ -396,8 +403,17 @@ export default function Nav() {
   );
 }
 
-function MegaPanel({ mega }: { mega: NonNullable<NavItem["mega"]> }) {
+function MegaPanel({
+  mega,
+  pathname,
+  category,
+}: {
+  mega: NonNullable<NavItem["mega"]>;
+  pathname: string;
+  category: string;
+}) {
   const hasPromo = !!mega.promo;
+  const tone = toneFromCategory(category);
   return (
     <div className="absolute left-0 top-full pt-3 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
       <div
@@ -417,29 +433,43 @@ function MegaPanel({ mega }: { mega: NonNullable<NavItem["mega"]> }) {
                   {group.heading}
                 </h4>
                 <ul className="space-y-1">
-                  {group.items.map((item) => (
-                    <li key={item.label}>
-                      <Link
-                        href={item.href}
-                        className="flex items-start gap-3 p-3 rounded-xl hover:bg-ink-700 transition-colors group/item"
-                      >
-                        <Icon
-                          name={item.icon}
-                          className="text-2xl text-primary mt-0.5"
-                        />
-                        <span className="flex-1">
-                          <span className="block font-bold text-[16px] text-cream-50 group-hover/item:text-emergency transition-colors">
-                            {item.label}
-                          </span>
-                          {item.desc && (
-                            <span className="block text-[13px] text-cream-50/60 mt-0.5 leading-snug">
-                              {item.desc}
+                  {group.items.map((item) => {
+                    const isActive = pathname === item.href;
+                    return (
+                      <li key={item.label}>
+                        <Link
+                          href={item.href}
+                          aria-current={isActive ? "page" : undefined}
+                          className={`flex items-start gap-3 p-3 rounded-xl transition-colors group/item ${
+                            isActive ? "bg-ink-700" : "hover:bg-ink-700"
+                          }`}
+                        >
+                          <IconBadge
+                            name={item.icon}
+                            tone={tone}
+                            variant={isActive ? "filled" : "outline"}
+                            size="sm"
+                          />
+                          <span className="flex-1">
+                            <span
+                              className={`block font-bold text-[16px] transition-colors ${
+                                isActive
+                                  ? "text-emergency"
+                                  : "text-cream-50 group-hover/item:text-emergency"
+                              }`}
+                            >
+                              {item.label}
                             </span>
-                          )}
-                        </span>
-                      </Link>
-                    </li>
-                  ))}
+                            {item.desc && (
+                              <span className="block text-[13px] text-cream-50/60 mt-0.5 leading-snug">
+                                {item.desc}
+                              </span>
+                            )}
+                          </span>
+                        </Link>
+                      </li>
+                    );
+                  })}
                 </ul>
               </div>
             ))}
