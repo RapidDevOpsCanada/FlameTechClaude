@@ -115,6 +115,21 @@ export type ServicePage = {
     intro?: string;
     items: { src: string; alt: string; caption?: string }[];
   };
+  /**
+   * Optional before/after image pairs rendered as drag-to-reveal sliders.
+   * Best on pages where we have actual install transformations (furnace
+   * swap-outs, boiler replacements, fixture upgrades).
+   */
+  beforeAfter?: {
+    eyebrow?: string;
+    heading?: string;
+    intro?: string;
+    pairs: {
+      before: { src: string; alt: string };
+      after: { src: string; alt: string };
+      caption?: string;
+    }[];
+  };
 };
 
 export const services: ServicePage[] = [
@@ -1471,21 +1486,38 @@ export const services: ServicePage[] = [
     },
     portfolio: {
       eyebrow: "Calgary furnace portfolio",
-      heading: "Before, after, and installed clean.",
+      heading: "A few recent furnace installs.",
       intro:
-        "A few recent furnace projects from around Calgary — swap-outs, tidy retrofits, and high-efficiency AirEase installs built to survive Alberta winters.",
+        "Tidy retrofits, high-efficiency AirEase swap-outs, and clean mechanical rooms from around Calgary — built to survive Alberta winters.",
       items: [
         { src: "/images/2026/04/Furnace.webp", alt: "High-efficiency furnace installed by FlameTech in a Calgary basement" },
         { src: "/images/2026/04/Furnace1.webp", alt: "Tidy furnace installation with labelled gas and return air" },
         { src: "/images/2026/04/Furnace_.webp", alt: "AirEase furnace install in a Calgary mechanical room" },
         { src: "/images/2026/04/Furnace_1.webp", alt: "Furnace install with new venting and condensate drain" },
-        { src: "/images/2026/04/Furnace-before-len.webp", alt: "Old furnace before replacement — Len residence" },
-        { src: "/images/2026/04/Furnace-after-len.webp", alt: "New high-efficiency furnace after install — Len residence" },
-        { src: "/images/2026/04/Furnace-before-crooks.webp", alt: "Aging furnace before removal — Crooks residence" },
-        { src: "/images/2026/04/Furnace-after-crooks.webp", alt: "Replacement furnace installed — Crooks residence" },
-        { src: "/images/2026/04/Furnace-before-picture-turner.webp", alt: "Old furnace before replacement — Turner residence" },
-        { src: "/images/2026/04/Furnace-after-turner.webp", alt: "Clean new furnace install — Turner residence" },
         { src: "/images/2026/04/Furnace-after-beach.webp", alt: "Finished furnace install — Beach residence" },
+      ],
+    },
+    beforeAfter: {
+      eyebrow: "Before & after",
+      heading: "Drag the divider to see the swap-out.",
+      intro:
+        "Three real Calgary furnace replacements — old atmospheric units pulled and replaced with high-efficiency AirEase furnaces, new venting, and clean piping. Drag the slider on each to compare.",
+      pairs: [
+        {
+          before: { src: "/images/2026/04/Furnace-before-len.webp", alt: "Old furnace before replacement — Len residence" },
+          after: { src: "/images/2026/04/Furnace-after-len.webp", alt: "New high-efficiency furnace after install — Len residence" },
+          caption: "Len residence — atmospheric → 96% AFUE condensing",
+        },
+        {
+          before: { src: "/images/2026/04/Furnace-before-crooks.webp", alt: "Aging furnace before removal — Crooks residence" },
+          after: { src: "/images/2026/04/Furnace-after-crooks.webp", alt: "Replacement furnace installed — Crooks residence" },
+          caption: "Crooks residence — replacement with new venting",
+        },
+        {
+          before: { src: "/images/2026/04/Furnace-before-picture-turner.webp", alt: "Old furnace before replacement — Turner residence" },
+          after: { src: "/images/2026/04/Furnace-after-turner.webp", alt: "Clean new furnace install — Turner residence" },
+          caption: "Turner residence — full retrofit including condensate",
+        },
       ],
     },
   },

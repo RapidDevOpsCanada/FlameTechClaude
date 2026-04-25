@@ -2,9 +2,26 @@
 
 import Link from "next/link";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 import { useState } from "react";
 import Icon from "@/components/Icon";
 import SiteSearch from "@/components/SiteSearch";
+import { getService } from "@/lib/services";
+
+/**
+ * Resolve the active mega-menu category from the current pathname.
+ * Returns one of "Plumbing" | "Heating" | "Air" | "Water" | null.
+ */
+function activeCategoryFromPath(pathname: string): string | null {
+  if (!pathname || pathname === "/") return null;
+  // Service pages: look up the slug in services.ts and use its category.
+  const slug = pathname.replace(/^\//, "").split("/")[0];
+  if (slug) {
+    const service = getService(slug);
+    if (service) return service.category;
+  }
+  return null;
+}
 
 type MegaItem = {
   label: string;
@@ -243,6 +260,8 @@ const menu: NavItem[] = [
 
 export default function Nav() {
   const [open, setOpen] = useState(false);
+  const pathname = usePathname();
+  const activeCategory = activeCategoryFromPath(pathname ?? "");
 
   return (
     <nav className="sticky top-0 w-full z-50 bg-ink-900/95 backdrop-blur-lg border-b border-line-dark">
@@ -265,20 +284,40 @@ export default function Nav() {
 
         {/* Desktop menu */}
         <ul className="hidden lg:flex items-center gap-1 h-full">
-          {menu.map((item) => (
-            <li key={item.label} className="relative group h-full flex items-stretch">
-              <Link
-                href={item.href}
-                className="flex items-center gap-1.5 px-4 h-full text-[19px] font-extrabold tracking-tight uppercase text-cream-50 group-hover:text-emergency transition-colors"
+          {menu.map((item) => {
+            const isActive = item.label === activeCategory;
+            return (
+              <li
+                key={item.label}
+                className="relative group h-full flex items-stretch"
               >
-                {item.label}
-                {item.mega && (
-                  <Icon name="expand_more" className="text-lg transition-transform group-hover:rotate-180" />
-                )}
-              </Link>
-              {item.mega && <MegaPanel mega={item.mega} />}
-            </li>
-          ))}
+                <Link
+                  href={item.href}
+                  aria-current={isActive ? "page" : undefined}
+                  className={`flex items-center gap-1.5 px-4 h-full text-[19px] font-extrabold tracking-tight uppercase transition-colors relative ${
+                    isActive
+                      ? "text-emergency"
+                      : "text-cream-50 group-hover:text-emergency"
+                  }`}
+                >
+                  {item.label}
+                  {item.mega && (
+                    <Icon
+                      name="expand_more"
+                      className="text-lg transition-transform group-hover:rotate-180"
+                    />
+                  )}
+                  {isActive && (
+                    <span
+                      aria-hidden="true"
+                      className="absolute left-3 right-3 bottom-3 h-[2px] bg-emergency rounded-full"
+                    />
+                  )}
+                </Link>
+                {item.mega && <MegaPanel mega={item.mega} />}
+              </li>
+            );
+          })}
         </ul>
 
         {/* Right side */}

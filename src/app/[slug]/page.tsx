@@ -5,6 +5,7 @@ import QuoteForm from "@/components/QuoteForm";
 import FinalCTA from "@/components/FinalCTA";
 import Icon from "@/components/Icon";
 import PortfolioCarousel from "@/components/PortfolioCarousel";
+import BeforeAfter from "@/components/BeforeAfter";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -175,7 +176,7 @@ export default async function ServicePage({
       <Nav />
       <main className="bg-ink-900 text-cream-50">
         {/* HERO */}
-        <section className="relative border-b border-line-dark overflow-hidden">
+        <section className="relative overflow-hidden">
           <div className="absolute inset-0 dotgrid opacity-50 pointer-events-none"></div>
           <div className="hidden md:block absolute -top-32 -right-32 w-[520px] h-[520px] rounded-full bg-emergency/20 blur-3xl pointer-events-none"></div>
           <div className="hidden md:block absolute top-1/2 -left-32 w-[380px] h-[380px] rounded-full bg-primary/10 blur-3xl pointer-events-none" />
@@ -196,7 +197,7 @@ export default async function ServicePage({
                     <div
                       className={`relative rounded-2xl border border-line-dark aspect-[5/3] soft-shadow overflow-hidden ${
                         service.heroImage.fit === "cover"
-                          ? ""
+                          ? "duotone"
                           : "bg-gradient-to-br from-cream-50 to-cream-100 p-5 flex items-center justify-center"
                       }`}
                     >
@@ -299,7 +300,7 @@ export default async function ServicePage({
                     <div
                       className={`relative rounded-3xl border border-line-dark aspect-[5/4] soft-shadow overflow-hidden ${
                         service.heroImage.fit === "cover"
-                          ? ""
+                          ? "duotone"
                           : "bg-gradient-to-br from-cream-50 to-cream-100 p-8 flex items-center justify-center"
                       }`}
                     >
@@ -859,6 +860,38 @@ export default async function ServicePage({
             heading={service.portfolio.heading}
             intro={service.portfolio.intro}
           />
+        )}
+
+        {/* BEFORE/AFTER — optional drag-to-reveal install comparisons */}
+        {service.beforeAfter && service.beforeAfter.pairs.length > 0 && (
+          <section className="bg-cream-50 text-ink-900 py-16 md:py-20 border-t border-line-light light-surface">
+            <div className="max-w-7xl mx-auto px-6 md:px-10">
+              <div className="max-w-3xl mb-10">
+                <span className="eyebrow-light mb-3">
+                  {service.beforeAfter.eyebrow ?? "Before & after"}
+                </span>
+                <h2 className="font-display text-3xl md:text-4xl font-extrabold tracking-[-0.015em] mt-4 leading-[1.1]">
+                  {service.beforeAfter.heading ?? "Drag to see the difference."}
+                </h2>
+                {service.beforeAfter.intro && (
+                  <p className="text-[17px] text-ink-700 leading-relaxed mt-5 max-w-2xl">
+                    {service.beforeAfter.intro}
+                  </p>
+                )}
+              </div>
+              <div
+                className={
+                  service.beforeAfter.pairs.length === 1
+                    ? "max-w-3xl mx-auto"
+                    : "grid grid-cols-1 lg:grid-cols-2 gap-6"
+                }
+              >
+                {service.beforeAfter.pairs.map((pair, i) => (
+                  <BeforeAfter key={i} pair={pair} />
+                ))}
+              </div>
+            </div>
+          </section>
         )}
 
         {/* RELATED — with hero thumbnails */}

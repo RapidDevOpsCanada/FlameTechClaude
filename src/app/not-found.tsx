@@ -78,7 +78,7 @@ export default function NotFound() {
                 <Link
                   key={p.href}
                   href={p.href}
-                  className="group rounded-2xl bg-white border border-line-light p-6 hover:border-emergency transition-colors flex items-center gap-4"
+                  className="lift group rounded-2xl bg-white border border-line-light p-6 hover:border-emergency flex items-center gap-4"
                 >
                   <div className="w-11 h-11 rounded-xl bg-primary/15 text-primary-deep flex items-center justify-center shrink-0">
                     <Icon name={p.icon} className="text-lg" />

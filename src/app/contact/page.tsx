@@ -104,7 +104,7 @@ export default function ContactPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
             <a
               href={`tel:${PHONE_TEL}`}
-              className="group rounded-2xl bg-white border border-line-light p-7 hover:border-emergency transition-colors"
+              className="lift group rounded-2xl bg-white border border-line-light p-7 hover:border-emergency"
             >
               <div className="w-12 h-12 rounded-xl bg-emergency/15 text-emergency flex items-center justify-center mb-4">
                 <Icon name="call" className="text-xl" />
@@ -122,7 +122,7 @@ export default function ContactPage() {
 
             <a
               href={`mailto:${EMAIL}`}
-              className="group rounded-2xl bg-white border border-line-light p-7 hover:border-emergency transition-colors"
+              className="lift group rounded-2xl bg-white border border-line-light p-7 hover:border-emergency"
             >
               <div className="w-12 h-12 rounded-xl bg-primary/15 text-primary-deep flex items-center justify-center mb-4">
                 <Icon name="share" className="text-xl" />

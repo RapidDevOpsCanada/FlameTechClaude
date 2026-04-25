@@ -112,13 +112,48 @@ body {
   .soft-shadow {
     box-shadow: 0 14px 40px -20px rgba(8, 14, 28, 0.45);
   }
-  /* Hover lift for cards */
+  /* Duotone wrapper for hero/install photography. Image is desaturated
+     and contrast-bumped, then a teal→orange overlay is composited on
+     top via mix-blend-mode so the photo picks up brand colours without
+     getting dyed flat. Only applied to lifestyle/install shots — product
+     renders (`fit="contain"`) skip this so they read literal. */
+  .duotone {
+    position: relative;
+  }
+  .duotone > img {
+    filter: grayscale(0.85) contrast(1.05);
+  }
+  .duotone::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      135deg,
+      rgba(251, 146, 60, 0.32) 0%,
+      rgba(38, 38, 44, 0.18) 50%,
+      rgba(23, 195, 176, 0.34) 100%
+    );
+    mix-blend-mode: hard-light;
+    pointer-events: none;
+  }
+
+  /* Hover lift for cards — subtle Y rise + scale + shadow */
   .lift {
-    transition: transform 250ms ease, box-shadow 250ms ease, border-color 250ms ease;
+    transition:
+      transform 280ms cubic-bezier(0.22, 1, 0.36, 1),
+      box-shadow 280ms ease,
+      border-color 200ms ease;
   }
   .lift:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 20px 40px -24px rgba(8, 14, 28, 0.35);
+    transform: translateY(-4px) scale(1.012);
+    box-shadow: 0 22px 44px -22px rgba(8, 14, 28, 0.32);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .lift,
+    .lift:hover {
+      transform: none;
+      transition: border-color 200ms ease, box-shadow 200ms ease;
+    }
   }
 
   /* Reveal/fade-in classes kept as no-ops — content is visible immediately.

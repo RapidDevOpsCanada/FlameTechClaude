@@ -167,7 +167,7 @@ export default function AboutPage() {
             {values.map((v) => (
               <div
                 key={v.title}
-                className="rounded-2xl bg-white border border-line-light p-7 md:p-8"
+                className="lift rounded-2xl bg-white border border-line-light p-7 md:p-8"
               >
                 <div className="w-12 h-12 rounded-xl bg-primary/15 text-primary-deep flex items-center justify-center mb-5">
                   <Icon name={v.icon} className="text-xl" />
@@ -232,7 +232,7 @@ export default function AboutPage() {
               <Link
                 key={s.label}
                 href={s.href}
-                className="group rounded-2xl bg-cream-50 border border-line-light p-6 hover:border-emergency transition-colors"
+                className="lift group rounded-2xl bg-cream-50 border border-line-light p-6 hover:border-emergency"
               >
                 <div className="w-11 h-11 rounded-xl bg-primary/15 text-primary-deep flex items-center justify-center mb-4">
                   <Icon name={s.icon} className="text-lg" />
