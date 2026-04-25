@@ -781,7 +781,10 @@ export default async function ServicePage({
                 {/* Financeit — bigger-ticket services only */}
                 {service.financing && (
                   <div className="mt-5 pt-5 border-t border-line-dark">
-                    <div className="rounded-xl bg-cream-50 p-4">
+                    <Link
+                      href="/financing"
+                      className="block rounded-xl bg-cream-50 p-4 hover:bg-cream-100 transition-colors group"
+                    >
                       <img
                         src="/images/financeit.png"
                         alt="Financeit"
@@ -791,12 +794,16 @@ export default async function ServicePage({
                         <p className="text-[10px] font-extrabold uppercase tracking-[0.14em] text-ink-900/70 mb-1.5">
                           Monthly Financing Available
                         </p>
-                        <p className="text-[12px] text-ink-700 leading-relaxed">
+                        <p className="text-[12px] text-ink-700 leading-relaxed mb-2">
                           {service.financing.detail ??
                             "Flexible monthly payments on larger installs via our Financeit partner."}
                         </p>
+                        <span className="inline-flex items-center gap-1 text-[12px] font-bold text-emergency-deep group-hover:gap-2 transition-all">
+                          See financing details
+                          <Icon name="arrow_right_alt" className="text-base" />
+                        </span>
                       </div>
-                    </div>
+                    </Link>
                   </div>
                 )}
               </div>

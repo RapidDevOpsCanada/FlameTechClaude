@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
 import Icon from "@/components/Icon";
+import SiteSearch from "@/components/SiteSearch";
 
 type MegaItem = {
   label: string;
@@ -282,6 +283,7 @@ export default function Nav() {
 
         {/* Right side */}
         <div className="hidden md:flex items-center gap-4 shrink-0">
+          <SiteSearch variant="compact" />
           <Link
             href="/about"
             className="hidden lg:inline-flex items-center text-[17px] font-extrabold text-cream-50 hover:text-emergency transition-colors"
