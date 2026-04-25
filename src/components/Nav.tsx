@@ -282,6 +282,12 @@ export default function Nav() {
 
         {/* Right side */}
         <div className="hidden md:flex items-center gap-4 shrink-0">
+          <Link
+            href="/about"
+            className="hidden lg:inline-flex items-center text-[17px] font-extrabold text-cream-50 hover:text-emergency transition-colors"
+          >
+            About
+          </Link>
           <a
             href="tel:5878343668"
             className="hidden xl:flex items-center gap-2 text-[17px] font-extrabold text-cream-50 hover:text-emergency transition-colors"
@@ -319,6 +325,13 @@ export default function Nav() {
                 onNavigate={() => setOpen(false)}
               />
             ))}
+            <Link
+              href="/about"
+              onClick={() => setOpen(false)}
+              className="block px-4 py-3 text-[17px] font-extrabold text-cream-50 hover:text-emergency transition-colors"
+            >
+              About
+            </Link>
             <div className="pt-4 mt-4 border-t border-line-dark flex flex-col gap-3">
               <a
                 href="tel:5878343668"

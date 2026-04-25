@@ -30,7 +30,7 @@ const airWaterLinks = [
 
 const companyLinks = [
   { label: "Services", href: "/#services" },
-  { label: "Why Us", href: "/#why-us" },
+  { label: "About", href: "/about" },
   { label: "Service Area", href: "/#service-area" },
   { label: "Resources", href: "/articles" },
   { label: "Get a Quote", href: "/#quote" },
