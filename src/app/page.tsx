@@ -10,6 +10,7 @@ import BlogStrip from "@/components/BlogStrip";
 import Reveal from "@/components/Reveal";
 import Icon from "@/components/Icon";
 import Image from "next/image";
+import Link from "next/link";
 
 export const dynamic = "force-dynamic";
 
@@ -255,9 +256,10 @@ export default function Home() {
             <div className="pointer-events-none absolute inset-y-0 right-0 w-24 bg-gradient-to-l from-cream-50 to-transparent z-10" />
             <div className="marquee">
               {[...brandTiles, ...brandTiles].map((item, i) => (
-                <div
+                <Link
+                  href={item.href}
                   key={`${item.label}-${i}`}
-                  className="shrink-0 w-56 rounded-2xl bg-white border border-line-light p-6 flex flex-col items-center justify-between h-44"
+                  className="shrink-0 w-56 rounded-2xl bg-white border border-line-light p-6 flex flex-col items-center justify-between h-44 hover:border-emergency hover:-translate-y-1 transition-all group"
                 >
                   <div className="flex-1 w-full flex items-center justify-center">
                     <img
@@ -266,10 +268,10 @@ export default function Home() {
                       className="max-h-20 max-w-full object-contain"
                     />
                   </div>
-                  <span className="text-xs font-bold uppercase tracking-[0.14em] text-ink-500 mt-3 text-center">
+                  <span className="text-xs font-bold uppercase tracking-[0.14em] text-ink-500 group-hover:text-emergency-deep mt-3 text-center transition-colors">
                     {item.label}
                   </span>
-                </div>
+                </Link>
               ))}
             </div>
           </div>
@@ -614,13 +616,13 @@ export default function Home() {
   );
 }
 
-const brandTiles = [
-  { src: "/images/navine-boiler.png", label: "Boilers" },
-  { src: "/images/air-ease-furnace.png", label: "Furnaces" },
-  { src: "/images/air-ease-ac.png", label: "AC Units" },
-  { src: "/images/bradford-white-hot-water-tank.png", label: "Hot Water Tanks" },
-  { src: "/images/graident-tankless-water-heater.png", label: "Tankless" },
-  { src: "/images/water-softener-calgary.png", label: "Water Softeners" },
+const brandTiles: { src: string; label: string; href: string }[] = [
+  { src: "/images/navine-boiler.png", label: "Boilers", href: "/boilers" },
+  { src: "/images/air-ease-furnace.png", label: "Furnaces", href: "/furnaces" },
+  { src: "/images/air-ease-ac.png", label: "AC Units", href: "/air-conditioning" },
+  { src: "/images/bradford-white-hot-water-tank.png", label: "Hot Water Tanks", href: "/hot-water-tanks" },
+  { src: "/images/graident-tankless-water-heater.png", label: "Tankless", href: "/tankless-water-heaters" },
+  { src: "/images/water-softener-calgary.png", label: "Water Softeners", href: "/water-softener" },
 ];
 
 function Stat({ number, label }: { number: string; label: string }) {

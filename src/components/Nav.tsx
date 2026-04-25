@@ -269,7 +269,7 @@ export default function Nav() {
             <li key={item.label} className="relative group h-full flex items-stretch">
               <Link
                 href={item.href}
-                className="flex items-center gap-1.5 px-4 h-full text-[17px] font-extrabold tracking-tight uppercase text-cream-50 group-hover:text-emergency transition-colors"
+                className="flex items-center gap-1.5 px-4 h-full text-[19px] font-extrabold tracking-tight uppercase text-cream-50 group-hover:text-emergency transition-colors"
               >
                 {item.label}
                 {item.mega && (
@@ -286,7 +286,7 @@ export default function Nav() {
           <SiteSearch variant="compact" />
           <a
             href="tel:5878343668"
-            className="hidden xl:flex items-center gap-2 text-[17px] font-extrabold text-cream-50 hover:text-emergency transition-colors"
+            className="hidden xl:flex items-center gap-2 text-[19px] font-extrabold text-cream-50 hover:text-emergency transition-colors"
           >
             <Icon name="call" className="text-xl text-emergency" />
             587-834-3668
@@ -330,7 +330,7 @@ export default function Nav() {
             <Link
               href="/contact"
               onClick={() => setOpen(false)}
-              className="block px-4 py-3 text-[17px] font-extrabold text-cream-50 hover:text-emergency transition-colors"
+              className="block px-4 py-3 text-[19px] font-extrabold text-cream-50 hover:text-emergency transition-colors"
             >
               Contact
             </Link>

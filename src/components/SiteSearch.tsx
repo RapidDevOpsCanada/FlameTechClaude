@@ -11,8 +11,10 @@ export default function SiteSearch({
   placeholder = "Search services, neighbourhoods, articles…",
 }: {
   /**
-   * `"inline"` renders a full-width search field (used on the 404 page).
-   * `"compact"` renders an icon button that opens a popover (used in Nav).
+   * `"inline"` renders a full-width search field in place (used on the
+   * 404 page and the mobile drawer).
+   * `"compact"` renders a small icon button that opens a full-screen
+   * modal overlay (used in the desktop Nav).
    */
   variant?: "inline" | "compact";
   placeholder?: string;
@@ -21,33 +23,37 @@ export default function SiteSearch({
   const [open, setOpen] = useState(variant === "inline");
   const [query, setQuery] = useState("");
   const [active, setActive] = useState(0);
-  const wrapRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
 
-  const results = query.trim() ? searchEntries(query) : [];
+  const results = query.trim() ? searchEntries(query, 10) : [];
 
-  // Close compact popover when clicking outside
+  // Focus input + lock body scroll when the compact overlay opens
   useEffect(() => {
-    if (variant === "inline") return;
+    if (variant !== "compact") return;
     if (!open) return;
-    function onClick(e: MouseEvent) {
-      if (!wrapRef.current?.contains(e.target as Node)) {
+    requestAnimationFrame(() => inputRef.current?.focus());
+    const prevOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.body.style.overflow = prevOverflow;
+    };
+  }, [open, variant]);
+
+  // Close compact overlay on Escape (anywhere on the page)
+  useEffect(() => {
+    if (variant !== "compact") return;
+    if (!open) return;
+    function onKey(e: KeyboardEvent) {
+      if (e.key === "Escape") {
         setOpen(false);
         setQuery("");
       }
     }
-    document.addEventListener("mousedown", onClick);
-    return () => document.removeEventListener("mousedown", onClick);
+    document.addEventListener("keydown", onKey);
+    return () => document.removeEventListener("keydown", onKey);
   }, [open, variant]);
 
-  // Focus input when popover opens
-  useEffect(() => {
-    if (open) {
-      requestAnimationFrame(() => inputRef.current?.focus());
-    }
-  }, [open]);
-
-  // Reset active highlight when results change
+  // Reset highlight when results change
   useEffect(() => {
     setActive(0);
   }, [query]);
@@ -74,14 +80,10 @@ export default function SiteSearch({
     }
   }
 
-  const inputCls =
-    variant === "inline"
-      ? "w-full rounded-full bg-white border border-line-light pl-12 pr-4 py-4 text-base text-ink-900 placeholder:text-ink-500 focus:outline-none focus:border-emergency transition-colors"
-      : "w-full rounded-full bg-cream-50 border border-line-light pl-11 pr-4 py-3 text-sm text-ink-900 placeholder:text-ink-500 focus:outline-none focus:border-emergency transition-colors";
-
-  return (
-    <div ref={wrapRef} className="relative">
-      {variant === "compact" && !open && (
+  // ───────── COMPACT (icon button → full-screen overlay) ─────────
+  if (variant === "compact") {
+    return (
+      <>
         <button
           type="button"
           aria-label="Open search"
@@ -90,104 +92,206 @@ export default function SiteSearch({
         >
           <SearchIcon />
         </button>
-      )}
 
-      {(open || variant === "inline") && (
-        <div className={variant === "compact" ? "relative w-72 md:w-80" : ""}>
-          <div className="relative">
-            <span className="absolute left-4 top-1/2 -translate-y-1/2 text-ink-500 pointer-events-none">
-              <SearchIcon />
-            </span>
-            <input
-              ref={inputRef}
-              type="text"
-              value={query}
-              onChange={(e) => setQuery(e.target.value)}
-              onKeyDown={onKeyDown}
-              placeholder={placeholder}
-              aria-label="Search the site"
-              className={inputCls}
-            />
-            {variant === "compact" && (
-              <button
-                type="button"
-                aria-label="Close search"
-                onClick={() => {
-                  setOpen(false);
-                  setQuery("");
-                }}
-                className="absolute right-2 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full hover:bg-cream-100 transition-colors flex items-center justify-center text-ink-500"
-              >
-                <Icon name="close" className="text-base" />
-              </button>
-            )}
-          </div>
-
-          {query.trim() && (
-            <div
-              className={
-                variant === "compact"
-                  ? "absolute left-0 right-0 top-full mt-2 rounded-2xl bg-white border border-line-light shadow-2xl overflow-hidden z-50"
-                  : "mt-3 rounded-2xl bg-white border border-line-light overflow-hidden"
+        {open && (
+          <div
+            className="fixed inset-0 z-[100] bg-ink-900/85 backdrop-blur-md flex items-start justify-center pt-[12vh] px-4"
+            onClick={(e) => {
+              if (e.target === e.currentTarget) {
+                setOpen(false);
+                setQuery("");
               }
-            >
-              {results.length === 0 ? (
-                <div className="px-5 py-6 text-center">
-                  <p className="text-sm text-ink-500">
-                    No matches for{" "}
-                    <span className="text-ink-900 font-semibold">
-                      &quot;{query}&quot;
-                    </span>
-                  </p>
-                  <p className="text-xs text-ink-500 mt-2">
-                    Try a service like &quot;boiler&quot; or a neighbourhood
-                    like &quot;Mount Royal&quot;.
-                  </p>
+            }}
+          >
+            <div className="w-full max-w-2xl">
+              {/* Input */}
+              <div className="relative">
+                <span className="absolute left-5 top-1/2 -translate-y-1/2 text-ink-500 pointer-events-none">
+                  <SearchIcon size={22} />
+                </span>
+                <input
+                  ref={inputRef}
+                  type="text"
+                  value={query}
+                  onChange={(e) => setQuery(e.target.value)}
+                  onKeyDown={onKeyDown}
+                  placeholder={placeholder}
+                  aria-label="Search the site"
+                  className="w-full rounded-2xl bg-white border border-line-light pl-14 pr-14 py-5 text-lg text-ink-900 placeholder:text-ink-500 focus:outline-none focus:border-emergency transition-colors shadow-2xl"
+                />
+                <button
+                  type="button"
+                  aria-label="Close search"
+                  onClick={() => {
+                    setOpen(false);
+                    setQuery("");
+                  }}
+                  className="absolute right-3 top-1/2 -translate-y-1/2 w-9 h-9 rounded-full hover:bg-cream-100 transition-colors flex items-center justify-center text-ink-500"
+                >
+                  <Icon name="close" className="text-lg" />
+                </button>
+              </div>
+
+              {/* Results */}
+              {query.trim() && (
+                <div className="mt-3 rounded-2xl bg-white border border-line-light overflow-hidden shadow-2xl">
+                  {results.length === 0 ? (
+                    <div className="px-6 py-10 text-center">
+                      <p className="text-base text-ink-700">
+                        No matches for{" "}
+                        <span className="text-ink-900 font-semibold">
+                          &quot;{query}&quot;
+                        </span>
+                      </p>
+                      <p className="text-sm text-ink-500 mt-2">
+                        Try a service like &quot;boiler&quot; or a
+                        neighbourhood like &quot;Mount Royal&quot;.
+                      </p>
+                    </div>
+                  ) : (
+                    <ul className="max-h-[60vh] overflow-y-auto">
+                      {results.map((r, i) => (
+                        <li key={r.href}>
+                          <Link
+                            href={r.href}
+                            onClick={() => {
+                              setOpen(false);
+                              setQuery("");
+                            }}
+                            onMouseEnter={() => setActive(i)}
+                            className={`flex items-center gap-4 px-5 py-4 border-b border-line-light/60 last:border-0 transition-colors ${
+                              i === active ? "bg-cream-50" : "hover:bg-cream-50"
+                            }`}
+                          >
+                            <span className="shrink-0 w-10 h-10 rounded-lg bg-primary/15 text-primary-deep flex items-center justify-center">
+                              <Icon
+                                name={
+                                  r.kind === "Service"
+                                    ? "build"
+                                    : r.kind === "Resource"
+                                    ? "request_quote"
+                                    : "verified"
+                                }
+                                className="text-lg"
+                              />
+                            </span>
+                            <span className="min-w-0 flex-1">
+                              <span className="block font-semibold text-[16px] text-ink-900 truncate">
+                                {r.title}
+                              </span>
+                              <span className="block text-[13px] text-ink-500 truncate mt-0.5">
+                                {r.meta}
+                              </span>
+                            </span>
+                            <span className="shrink-0 text-[11px] font-bold uppercase tracking-[0.14em] text-primary px-2.5 py-1 rounded-full bg-primary/10">
+                              {r.kind}
+                            </span>
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
                 </div>
-              ) : (
-                <ul className="max-h-80 overflow-y-auto">
-                  {results.map((r, i) => (
-                    <li key={r.href}>
-                      <Link
-                        href={r.href}
-                        onClick={() => {
-                          setOpen(variant === "inline");
-                          setQuery("");
-                        }}
-                        onMouseEnter={() => setActive(i)}
-                        className={`flex items-center gap-3 px-4 py-3 border-b border-line-light/60 last:border-0 transition-colors ${
-                          i === active ? "bg-cream-50" : "hover:bg-cream-50"
-                        }`}
-                      >
-                        <span className="shrink-0 w-9 h-9 rounded-lg bg-primary/15 text-primary-deep flex items-center justify-center">
-                          <Icon
-                            name={
-                              r.kind === "Service"
-                                ? "build"
-                                : r.kind === "Resource"
-                                ? "request_quote"
-                                : "verified"
-                            }
-                            className="text-base"
-                          />
-                        </span>
-                        <span className="min-w-0 flex-1">
-                          <span className="block font-semibold text-[14px] md:text-[15px] text-ink-900 truncate">
-                            {r.title}
-                          </span>
-                          <span className="block text-[12px] text-ink-500 truncate">
-                            {r.meta}
-                          </span>
-                        </span>
-                        <span className="shrink-0 text-[10px] font-bold uppercase tracking-[0.14em] text-primary px-2 py-1 rounded-full bg-primary/10">
-                          {r.kind}
-                        </span>
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
+              )}
+
+              {/* Hint footer */}
+              {!query.trim() && (
+                <p className="text-center text-cream-50/60 text-sm mt-5">
+                  Try{" "}
+                  <span className="text-cream-50 font-semibold">
+                    boiler
+                  </span>
+                  ,{" "}
+                  <span className="text-cream-50 font-semibold">
+                    drain cleaning
+                  </span>
+                  , or{" "}
+                  <span className="text-cream-50 font-semibold">
+                    Mount Royal
+                  </span>
+                  . Press{" "}
+                  <kbd className="px-1.5 py-0.5 rounded bg-cream-50/15 text-[12px] font-semibold">
+                    Esc
+                  </kbd>{" "}
+                  to close.
+                </p>
               )}
             </div>
+          </div>
+        )}
+      </>
+    );
+  }
+
+  // ───────── INLINE (full-width field in place) ─────────
+  return (
+    <div className="relative">
+      <div className="relative">
+        <span className="absolute left-4 top-1/2 -translate-y-1/2 text-ink-500 pointer-events-none">
+          <SearchIcon />
+        </span>
+        <input
+          ref={inputRef}
+          type="text"
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          onKeyDown={onKeyDown}
+          placeholder={placeholder}
+          aria-label="Search the site"
+          className="w-full rounded-full bg-white border border-line-light pl-12 pr-4 py-4 text-base text-ink-900 placeholder:text-ink-500 focus:outline-none focus:border-emergency transition-colors"
+        />
+      </div>
+
+      {query.trim() && (
+        <div className="mt-3 rounded-2xl bg-white border border-line-light overflow-hidden">
+          {results.length === 0 ? (
+            <div className="px-5 py-6 text-center">
+              <p className="text-sm text-ink-500">
+                No matches for{" "}
+                <span className="text-ink-900 font-semibold">
+                  &quot;{query}&quot;
+                </span>
+              </p>
+            </div>
+          ) : (
+            <ul className="max-h-80 overflow-y-auto">
+              {results.map((r, i) => (
+                <li key={r.href}>
+                  <Link
+                    href={r.href}
+                    onClick={() => setQuery("")}
+                    onMouseEnter={() => setActive(i)}
+                    className={`flex items-center gap-3 px-4 py-3 border-b border-line-light/60 last:border-0 transition-colors ${
+                      i === active ? "bg-cream-50" : "hover:bg-cream-50"
+                    }`}
+                  >
+                    <span className="shrink-0 w-9 h-9 rounded-lg bg-primary/15 text-primary-deep flex items-center justify-center">
+                      <Icon
+                        name={
+                          r.kind === "Service"
+                            ? "build"
+                            : r.kind === "Resource"
+                            ? "request_quote"
+                            : "verified"
+                        }
+                        className="text-base"
+                      />
+                    </span>
+                    <span className="min-w-0 flex-1">
+                      <span className="block font-semibold text-[14px] md:text-[15px] text-ink-900 truncate">
+                        {r.title}
+                      </span>
+                      <span className="block text-[12px] text-ink-500 truncate">
+                        {r.meta}
+                      </span>
+                    </span>
+                    <span className="shrink-0 text-[10px] font-bold uppercase tracking-[0.14em] text-primary px-2 py-1 rounded-full bg-primary/10">
+                      {r.kind}
+                    </span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
           )}
         </div>
       )}
@@ -195,12 +299,12 @@ export default function SiteSearch({
   );
 }
 
-function SearchIcon() {
+function SearchIcon({ size = 18 }: { size?: number }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="18"
-      height="18"
+      width={size}
+      height={size}
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
