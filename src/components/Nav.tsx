@@ -295,12 +295,12 @@ export default function Nav() {
             <Icon name="call" className="text-xl text-emergency" />
             587-834-3668
           </a>
-          <a
-            href="#quote"
+          <Link
+            href="/contact"
             className="cta-animated-border inline-flex items-center rounded-full bg-emergency text-cream-50 font-extrabold uppercase tracking-tight px-6 py-3 text-[15px] hover:bg-emergency-deep transition-colors"
           >
             Contact Us
-          </a>
+          </Link>
         </div>
 
         {/* Mobile toggle */}
@@ -332,6 +332,13 @@ export default function Nav() {
             >
               About
             </Link>
+            <Link
+              href="/contact"
+              onClick={() => setOpen(false)}
+              className="block px-4 py-3 text-[17px] font-extrabold text-cream-50 hover:text-emergency transition-colors"
+            >
+              Contact
+            </Link>
             <div className="pt-4 mt-4 border-t border-line-dark flex flex-col gap-3">
               <a
                 href="tel:5878343668"
@@ -340,13 +347,13 @@ export default function Nav() {
                 <Icon name="call" className="text-base text-emergency" />
                 587-834-3668
               </a>
-              <a
-                href="#quote"
+              <Link
+                href="/contact"
                 onClick={() => setOpen(false)}
                 className="inline-flex items-center justify-center rounded-full bg-emergency text-ink-900 font-bold py-3 text-sm"
               >
                 Contact Us
-              </a>
+              </Link>
             </div>
           </div>
         </div>
