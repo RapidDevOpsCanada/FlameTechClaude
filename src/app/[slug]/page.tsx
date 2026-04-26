@@ -703,22 +703,19 @@ export default async function ServicePage({
                     </p>
                   )}
                   <div className="space-y-3">
-                    {service.richContent.faq.items.map((f, i) => (
+                    {service.richContent.faq.items.map((f) => (
                       <details
                         key={f.q}
                         className="group rounded-2xl bg-white border border-line-light open:border-primary open:border-l-4 transition-colors"
                       >
                         <summary className="cursor-pointer list-none px-6 py-5 flex items-center gap-4 font-semibold text-base md:text-lg">
-                          <span className="font-display text-xs font-extrabold tracking-[0.14em] text-primary uppercase shrink-0 min-w-[28px]">
-                            Q{String(i + 1).padStart(2, "0")}
-                          </span>
                           <span className="flex-1">{f.q}</span>
                           <Icon
                             name="add"
                             className="text-primary text-xl transition-transform group-open:rotate-45 shrink-0"
                           />
                         </summary>
-                        <p className="px-6 pb-6 pl-14 text-ink-500 leading-relaxed">
+                        <p className="px-6 pb-6 text-ink-500 leading-relaxed">
                           <RichText>{f.a}</RichText>
                         </p>
                       </details>
