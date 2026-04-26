@@ -26,7 +26,7 @@ export default function ArticleCard({ article }: { article: Article }) {
           {article.title}
         </h3>
         <p className="text-sm text-ink-500 leading-relaxed mb-6 flex-grow">
-          {article.excerpt}
+          {article.excerpt.replace(/^📖\s*\d+\s*min read\s*·\s*Last updated[^·]*?\s+/i, "").trim()}
         </p>
         <div className="flex items-center justify-between pt-5 border-t border-line-light">
           <div className="flex flex-col">

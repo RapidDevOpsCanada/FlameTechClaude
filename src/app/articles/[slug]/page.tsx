@@ -161,13 +161,6 @@ export default async function ArticlePage({
                 </p>
               </div>
             </div>
-            <div className="h-8 w-px bg-line-dark hidden md:block" />
-            <div className="flex items-center gap-2">
-              <Icon name="share" className="text-emergency text-base" />
-              <span className="text-sm font-semibold">
-                {article.share_count.toLocaleString()} shares
-              </span>
-            </div>
           </div>
         </div>
       </section>
@@ -177,7 +170,7 @@ export default async function ArticlePage({
         <div className="max-w-3xl mx-auto px-6 md:px-10">
           <article
             className="prose-article"
-            dangerouslySetInnerHTML={{ __html: article.body }}
+            dangerouslySetInnerHTML={{ __html: article.body.replace(/^\s*<p>\s*📖[^<]*?Last updated[^<]*?<\/p>\s*/i, "") }}
           />
           <AuthorBioCard authorName={article.author} />
         </div>
