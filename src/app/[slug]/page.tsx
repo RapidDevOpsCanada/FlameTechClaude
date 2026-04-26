@@ -775,28 +775,28 @@ export default async function ServicePage({
             </div>
 
             <aside className="col-span-12 lg:col-span-3">
-              <div className="sticky top-28 rounded-2xl bg-ink-900 text-cream-50 p-6 overflow-hidden">
+              <div className="sticky top-28 rounded-2xl bg-ink-900 text-cream-50 p-7 overflow-hidden">
                 <span className="eyebrow mb-3">
                   {service.sidebar?.subtitle ? "Get a quote" : "Get started"}
                 </span>
-                <h3 className="font-display text-xl font-extrabold tracking-tight mt-3 mb-3 leading-tight">
+                <h3 className="font-display text-2xl font-extrabold tracking-tight mt-3 mb-3 leading-tight">
                   {service.sidebar?.title ?? "Ready for a free quote?"}
                 </h3>
-                <p className="text-[14.5px] text-cream-50/75 leading-relaxed mb-5">
+                <p className="text-[16px] text-cream-50/80 leading-relaxed mb-6">
                   {service.sidebar?.subtitle ??
                     "Tell us about your job and we'll follow up with pricing and availability."}
                 </p>
 
                 {service.sidebar?.bullets && (
-                  <ul className="space-y-2.5 mb-6">
+                  <ul className="space-y-3 mb-6">
                     {service.sidebar.bullets.map((b) => (
                       <li
                         key={b}
-                        className="flex items-start gap-2.5 text-[14px] text-cream-50/90 leading-snug"
+                        className="flex items-start gap-2.5 text-[15px] text-cream-50/95 leading-snug"
                       >
                         <Icon
                           name="check_circle"
-                          className="text-primary text-base mt-0.5 shrink-0"
+                          className="text-primary text-lg mt-0.5 shrink-0"
                         />
                         {b}
                       </li>
@@ -807,14 +807,14 @@ export default async function ServicePage({
                 <div className="space-y-2.5 mb-5">
                   <a
                     href="tel:5878343668"
-                    className="cta-animated-border w-full inline-flex items-center justify-center gap-2 rounded-full bg-emergency text-cream-50 font-extrabold uppercase tracking-tight px-4 py-3 text-[13.5px] hover:bg-emergency-deep transition-colors"
+                    className="cta-animated-border w-full inline-flex items-center justify-center gap-2 rounded-full bg-emergency text-cream-50 font-extrabold uppercase tracking-tight px-4 py-3.5 text-[15px] hover:bg-emergency-deep transition-colors"
                   >
                     <Icon name="call" className="text-base" />
                     587-834-3668
                   </a>
                   <a
                     href="#quote"
-                    className="w-full inline-flex items-center justify-center gap-2 rounded-full border border-cream-50/25 text-cream-50 font-bold uppercase tracking-tight px-4 py-3 text-[13.5px] hover:border-emergency hover:text-emergency transition-colors"
+                    className="w-full inline-flex items-center justify-center gap-2 rounded-full border border-cream-50/25 text-cream-50 font-bold uppercase tracking-tight px-4 py-3.5 text-[15px] hover:border-emergency hover:text-emergency transition-colors"
                   >
                     Request a quote
                   </a>
@@ -822,10 +822,10 @@ export default async function ServicePage({
 
                 {/* 5-star Google rated */}
                 <div className="pt-5 border-t border-line-dark flex items-center gap-3">
-                  <span className="text-primary text-base tracking-[0.12em]">
+                  <span className="text-primary text-lg tracking-[0.12em]">
                     ★★★★★
                   </span>
-                  <span className="text-[13px] font-bold text-cream-50 leading-tight">
+                  <span className="text-[15px] font-bold text-cream-50 leading-tight">
                     5-Star Google Rated
                   </span>
                 </div>
@@ -835,22 +835,22 @@ export default async function ServicePage({
                   <div className="mt-5 pt-5 border-t border-line-dark">
                     <Link
                       href="/financing"
-                      className="block rounded-xl bg-cream-50 p-4 hover:bg-cream-100 transition-colors group"
+                      className="block rounded-xl bg-cream-50 p-5 hover:bg-cream-100 transition-colors group"
                     >
                       <img
                         src="/images/financeit.png"
                         alt="Financeit"
-                        className="h-6 object-contain object-left mb-3"
+                        className="h-7 object-contain object-left mb-3"
                       />
                       <div className="pt-3 border-t border-line-light">
-                        <p className="text-[11px] font-extrabold uppercase tracking-[0.14em] text-ink-900/70 mb-1.5">
+                        <p className="text-[12px] font-extrabold uppercase tracking-[0.14em] text-ink-900/70 mb-2">
                           Monthly Financing Available
                         </p>
-                        <p className="text-[13.5px] text-ink-700 leading-relaxed mb-2.5">
+                        <p className="text-[15px] text-ink-700 leading-relaxed mb-3">
                           {service.financing.detail ??
                             "Flexible monthly payments on larger installs via our Financeit partner."}
                         </p>
-                        <span className="inline-flex items-center gap-1 text-[13px] font-bold text-emergency-deep group-hover:gap-2 transition-all">
+                        <span className="inline-flex items-center gap-1 text-[14px] font-bold text-emergency-deep group-hover:gap-2 transition-all">
                           See financing details
                           <Icon name="arrow_right_alt" className="text-base" />
                         </span>
