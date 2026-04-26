@@ -7,8 +7,33 @@ import ArticleCard from "@/components/ArticleCard";
 import StickyCallBar from "@/components/StickyCallBar";
 import { getAllArticles, getCategories } from "@/lib/articles";
 import Link from "next/link";
+import type { Metadata } from "next";
+
+const SITE_URL = "https://flame-tech-claude-xd6r.vercel.app";
 
 export const dynamic = "force-dynamic";
+
+export const metadata: Metadata = {
+  title: "Resources & Guides | FlameTech Plumbing & Heating",
+  description:
+    "Field-tested plumbing, heating, and HVAC guides from Calgary's FlameTech team. Maintenance tips, troubleshooting walk-throughs, and seasonal advice.",
+  alternates: { canonical: `${SITE_URL}/articles` },
+  openGraph: {
+    type: "website",
+    url: `${SITE_URL}/articles`,
+    title: "Resources & Guides | FlameTech Plumbing & Heating",
+    description:
+      "Practical plumbing and HVAC guides from FlameTech's Calgary technicians.",
+    images: [`${SITE_URL}/articles/opengraph-image`],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Resources & Guides | FlameTech Plumbing & Heating",
+    description:
+      "Practical plumbing and HVAC guides from FlameTech's Calgary technicians.",
+    images: [`${SITE_URL}/articles/opengraph-image`],
+  },
+};
 
 export default async function ArticlesPage() {
   let articles: Awaited<ReturnType<typeof getAllArticles>> = [];

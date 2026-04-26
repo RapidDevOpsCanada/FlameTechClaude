@@ -9,8 +9,48 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getArticlesByCategory, getCategories } from "@/lib/articles";
 import Icon from "@/components/Icon";
+import type { Metadata } from "next";
+
+const SITE_URL = "https://flame-tech-claude-xd6r.vercel.app";
 
 export const dynamic = "force-dynamic";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  let categories: Awaited<ReturnType<typeof getCategories>> = [];
+  try {
+    categories = await getCategories();
+  } catch {
+    return { title: "Category" };
+  }
+  const category = categories.find((c) => c.slug === slug);
+  if (!category) return { title: "Category" };
+  const url = `${SITE_URL}/categories/${slug}`;
+  const title = `${category.name} Guides | FlameTech Plumbing & Heating`;
+  const description = `Articles tagged ${category.name.toLowerCase()}. Practical plumbing and HVAC guides from FlameTech's Calgary technicians.`;
+  return {
+    title,
+    description,
+    alternates: { canonical: url },
+    openGraph: {
+      type: "website",
+      url,
+      title,
+      description,
+      images: [`${SITE_URL}/articles/opengraph-image`],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [`${SITE_URL}/articles/opengraph-image`],
+    },
+  };
+}
 
 export default async function CategoryPage({
   params,
@@ -33,8 +73,54 @@ export default async function CategoryPage({
   const category = categories.find((c) => c.slug === slug);
   if (!category) notFound();
 
+  const url = `${SITE_URL}/categories/${slug}`;
+  const schema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "CollectionPage",
+        "@id": `${url}#webpage`,
+        url,
+        name: `${category.name} — FlameTech Guides`,
+        description: `Articles tagged ${category.name.toLowerCase()} from FlameTech Plumbing & Heating.`,
+        breadcrumb: { "@id": `${url}#breadcrumb` },
+        isPartOf: { "@id": `${SITE_URL}#website` },
+        about: { "@type": "Thing", name: category.name },
+        numberOfItems: articles.length,
+      },
+      {
+        "@type": "ItemList",
+        "@id": `${url}#itemlist`,
+        itemListElement: articles.map((a, i) => ({
+          "@type": "ListItem",
+          position: i + 1,
+          url: `${SITE_URL}/articles/${a.slug}`,
+          name: a.title,
+        })),
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": `${url}#breadcrumb`,
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: "Resources",
+            item: `${SITE_URL}/articles`,
+          },
+          { "@type": "ListItem", position: 3, name: category.name, item: url },
+        ],
+      },
+    ],
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
       <Nav />
       <PageHeader
         eyebrow={`Category · ${category.name}`}

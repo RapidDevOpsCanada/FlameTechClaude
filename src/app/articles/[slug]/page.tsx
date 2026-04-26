@@ -9,10 +9,54 @@ import { notFound } from "next/navigation";
 import { getArticleBySlug, getAllArticles } from "@/lib/articles";
 import { getAuthorBio } from "@/lib/authors";
 import Icon from "@/components/Icon";
+import type { Metadata } from "next";
 
 const SITE_URL = "https://flame-tech-claude-xd6r.vercel.app";
 
 export const dynamic = "force-dynamic";
+
+function cleanExcerpt(excerpt: string): string {
+  return excerpt.replace(/^📖\s*\d+\s*min read\s*·\s*Last updated[^·]*?\s+/i, "").trim();
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  let article;
+  try {
+    article = await getArticleBySlug(slug);
+  } catch {
+    return { title: "Article" };
+  }
+  if (!article) return { title: "Article" };
+  const url = `${SITE_URL}/articles/${article.slug}`;
+  const description = cleanExcerpt(article.excerpt).slice(0, 160);
+  const ogImage = `${url}/opengraph-image`;
+  return {
+    title: article.title,
+    description,
+    alternates: { canonical: url },
+    openGraph: {
+      type: "article",
+      url,
+      title: article.title,
+      description,
+      images: [{ url: ogImage, width: 1200, height: 630 }],
+      publishedTime: new Date(article.created_at).toISOString(),
+      authors: [article.author],
+      section: article.category,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: article.title,
+      description,
+      images: [ogImage],
+    },
+  };
+}
 
 export default async function ArticlePage({
   params,

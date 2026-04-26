@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 import { services, type ServicePage } from "@/lib/services";
-import { getAllArticles } from "@/lib/articles";
+import { getAllArticles, getCategories } from "@/lib/articles";
 
 const SITE_URL = "https://flame-tech-claude-xd6r.vercel.app";
 
@@ -73,5 +73,18 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     articleUrls = [];
   }
 
-  return [...staticUrls, ...serviceUrls, ...articleUrls];
+  let categoryUrls: MetadataRoute.Sitemap = [];
+  try {
+    const categories = await getCategories();
+    categoryUrls = categories.map((c) => ({
+      url: `${SITE_URL}/categories/${c.slug}`,
+      lastModified: now,
+      changeFrequency: "weekly" as const,
+      priority: 0.6,
+    }));
+  } catch {
+    categoryUrls = [];
+  }
+
+  return [...staticUrls, ...serviceUrls, ...articleUrls, ...categoryUrls];
 }

@@ -12,7 +12,7 @@ import Icon from "@/components/Icon";
 import Image from "next/image";
 import Link from "next/link";
 
-export const dynamic = "force-dynamic";
+export const revalidate = 604800;
 
 export default function Home() {
   return (
