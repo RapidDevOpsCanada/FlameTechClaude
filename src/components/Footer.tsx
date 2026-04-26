@@ -77,7 +77,7 @@ export default function Footer() {
               className="h-[97px] w-auto object-contain"
             />
           </Link>
-          <p className="text-cream-50/70 leading-relaxed text-[15px] max-w-xs mb-6">
+          <p className="text-cream-50/75 leading-relaxed text-[16px] max-w-xs mb-6">
             Calgary&apos;s trusted residential plumbing, heating, AC, and
             water-systems experts. Licensed, insured, bonded.
           </p>
@@ -99,7 +99,7 @@ export default function Footer() {
       {/* Airdrie service pages */}
       <div className="border-t border-line-dark">
         <div className="max-w-7xl mx-auto px-6 md:px-10 py-10">
-          <h5 className="text-[13px] font-bold uppercase tracking-[0.18em] text-primary mb-5">
+          <h5 className="text-[14px] font-bold uppercase tracking-[0.18em] text-primary mb-5">
             Airdrie Services
           </h5>
           <ul className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-x-6 gap-y-3">
@@ -107,7 +107,7 @@ export default function Footer() {
               <li key={item.href}>
                 <Link
                   href={item.href}
-                  className="text-[15px] text-cream-50/75 hover:text-emergency transition-colors"
+                  className="text-[16px] text-cream-50/80 hover:text-emergency transition-colors"
                 >
                   {item.label}
                 </Link>
@@ -129,14 +129,14 @@ export default function Footer() {
               className="h-16 w-auto object-contain rounded-lg bg-white/5 p-1"
             />
             <div>
-              <p className="font-bold text-[15px] leading-tight">BBB Accredited</p>
-              <p className="text-[13px] text-cream-50/65 mt-1">
+              <p className="font-bold text-[16px] leading-tight">BBB Accredited</p>
+              <p className="text-[14px] text-cream-50/70 mt-1">
                 Red Seal · Alberta Licensed · Insured &amp; Bonded
               </p>
             </div>
           </div>
           <div className="md:col-span-2">
-            <p className="text-[13px] font-bold uppercase tracking-[0.18em] text-primary mb-3">
+            <p className="text-[14px] font-bold uppercase tracking-[0.18em] text-primary mb-3">
               Service Area
             </p>
             <div className="flex flex-wrap gap-2">
@@ -145,7 +145,7 @@ export default function Footer() {
                   <Link
                     key={area.label}
                     href={area.href}
-                    className="inline-flex items-center gap-1.5 rounded-full bg-ink-800 border border-line-dark px-3.5 py-1.5 text-[13px] text-cream-50/85 hover:border-emergency hover:text-emergency transition-colors"
+                    className="inline-flex items-center gap-1.5 rounded-full bg-ink-800 border border-line-dark px-3.5 py-1.5 text-[14px] text-cream-50/90 hover:border-emergency hover:text-emergency transition-colors"
                   >
                     <Icon name="location_on" className="text-primary text-base" />
                     {area.label}
@@ -153,14 +153,14 @@ export default function Footer() {
                 ) : (
                   <span
                     key={area.label}
-                    className="inline-flex items-center gap-1.5 rounded-full bg-ink-800 border border-line-dark px-3.5 py-1.5 text-[13px] text-cream-50/85"
+                    className="inline-flex items-center gap-1.5 rounded-full bg-ink-800 border border-line-dark px-3.5 py-1.5 text-[14px] text-cream-50/90"
                   >
                     <Icon name="location_on" className="text-primary text-base" />
                     {area.label}
                   </span>
                 ),
               )}
-              <span className="inline-flex items-center rounded-full bg-ink-800 border border-line-dark px-3.5 py-1.5 text-[13px] text-cream-50/65">
+              <span className="inline-flex items-center rounded-full bg-ink-800 border border-line-dark px-3.5 py-1.5 text-[14px] text-cream-50/70">
                 + surrounding communities
               </span>
             </div>
@@ -170,7 +170,7 @@ export default function Footer() {
 
       {/* Bottom */}
       <div className="border-t border-line-dark">
-        <div className="max-w-7xl mx-auto px-6 md:px-10 py-6 flex flex-col md:flex-row justify-between items-center gap-4 text-[13px] text-cream-50/60">
+        <div className="max-w-7xl mx-auto px-6 md:px-10 py-6 flex flex-col md:flex-row justify-between items-center gap-4 text-[14px] text-cream-50/65">
           <p>
             © {new Date().getFullYear()} FlameTech Plumbing &amp; Heating Ltd.
             All rights reserved.
@@ -204,7 +204,7 @@ function FooterColumn({
 }) {
   return (
     <div>
-      <h5 className="text-[13px] font-bold uppercase tracking-[0.18em] text-primary mb-5">
+      <h5 className="text-[14px] font-bold uppercase tracking-[0.18em] text-primary mb-5">
         {title}
       </h5>
       <ul className="space-y-3">
@@ -212,7 +212,7 @@ function FooterColumn({
           <li key={item.href}>
             <Link
               href={item.href}
-              className="text-[15px] text-cream-50/75 hover:text-emergency transition-colors"
+              className="text-[16px] text-cream-50/80 hover:text-emergency transition-colors"
             >
               {item.label}
             </Link>
