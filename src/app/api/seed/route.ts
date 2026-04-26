@@ -1327,7 +1327,7 @@ const articles: SeedArticle[] = [
 
 <p>Both rivers pick up dissolved minerals — primarily calcium and magnesium — as they flow through the Rocky Mountain foothills and across limestone-rich geology. By the time that water reaches your tap, it carries a significant mineral load.</p>
 
-<figure class="wp-block-kadence-image kb-image2489_a09a5c-5e size-full"><img src="/wp-contentuploads/2026/03/water-softener-installation.jpg" alt="Water Softener Installation in Calgary" class="kb-img wp-image-2490"/></figure>
+<figure class="wp-block-kadence-image kb-image2489_a09a5c-5e size-full"><img src="/images/2026/03/water-softener-installation.jpg" alt="Water Softener Installation in Calgary" class="kb-img wp-image-2490"/></figure>
 
 <p>According to the City of Calgary's own water quality data, hardness levels in the north typically range from about 126 to 198 mg/L (roughly 7.4 to 11.6 grains per gallon). In the <a href="/calgary-plumbers-se">south and southeast</a>, hardness is even higher, ranging from approximately 181 to 262 mg/L (10.6 to 15.3 grains per gallon). For reference, water above 120 mg/L is generally considered "hard," which means most Calgary homes are dealing with moderately hard to very hard water year-round.</p>
 
@@ -1524,7 +1524,7 @@ const articles: SeedArticle[] = [
 
 <p>If the pressure has dropped below 1 bar, your boiler will likely shut off as a safety precaution. Low pressure is often caused by a small leak somewhere in the system, or it can happen naturally over time.</p>
 
-<figure class="wp-block-image is-resized"><img src="/wp-contentuploads/2026/04/boiler-turning-off-control-dial.jpg" alt="Boiler control dial and copper supply pipes with green status indicator light" class="wp-image-2544" style="width:640px;height:360px"/><figcaption class="wp-element-caption">Check your boiler's control dial and status light — the green indicator means the unit has power.</figcaption></figure>
+<figure class="wp-block-image is-resized"><img src="/images/2026/04/boiler-turning-off-control-dial.jpg" alt="Boiler control dial and copper supply pipes with green status indicator light" class="wp-image-2544" style="width:640px;height:360px"/><figcaption class="wp-element-caption">Check your boiler's control dial and status light — the green indicator means the unit has power.</figcaption></figure>
 
 <p>To repressurize, locate your filling loop (usually a small valve or braided hose underneath the boiler). Open it slowly until the gauge reads 1.2–1.5 bar, then close it completely. If pressure drops again within a few days, you may have a leak that needs professional attention.</p>
 
@@ -1532,7 +1532,7 @@ const articles: SeedArticle[] = [
 
 <p>A faulty or incorrectly set thermostat is another leading cause of boiler shutdowns. The thermostat tells the boiler when to fire and when to stop. If it's reading the wrong temperature, the boiler may turn off prematurely.</p>
 
-<figure class="wp-block-image is-resized"><img src="/wp-contentuploads/2026/04/boiler-turning-off-thermostat.jpg" alt="Smart linked thermostat showing 17.5 degrees Celsius with mode buttons" class="wp-image-2545" style="width:640px;height:360px"/><figcaption class="wp-element-caption">Verify your thermostat is reading the correct temperature and set to the right mode.</figcaption></figure>
+<figure class="wp-block-image is-resized"><img src="/images/2026/04/boiler-turning-off-thermostat.jpg" alt="Smart linked thermostat showing 17.5 degrees Celsius with mode buttons" class="wp-image-2545" style="width:640px;height:360px"/><figcaption class="wp-element-caption">Verify your thermostat is reading the correct temperature and set to the right mode.</figcaption></figure>
 
 <p>Check that the thermostat is set to "heat" or "auto" mode, not "off" or "cool." Also make sure the target temperature is set higher than the current room temperature. Replace the batteries if it's a wireless model — dead batteries are a surprisingly common culprit.</p>
 
@@ -1542,7 +1542,7 @@ const articles: SeedArticle[] = [
 
 <p>Motorized valves (also called zone valves or diverter valves) control the flow of hot water between your radiators and hot water cylinder. When these valves stick or fail, the boiler can overheat due to restricted water flow.</p>
 
-<figure class="wp-block-image is-resized"><img src="/wp-contentuploads/2026/04/boiler-turning-off-motorized-valve.jpg" alt="Motorized valve and pipe joints in a boiler system" class="wp-image-2546" style="width:640px;height:360px"/><figcaption class="wp-element-caption">The motorized valve controls water flow — a stuck valve can cause the boiler to overheat and shut down.</figcaption></figure>
+<figure class="wp-block-image is-resized"><img src="/images/2026/04/boiler-turning-off-motorized-valve.jpg" alt="Motorized valve and pipe joints in a boiler system" class="wp-image-2546" style="width:640px;height:360px"/><figcaption class="wp-element-caption">The motorized valve controls water flow — a stuck valve can cause the boiler to overheat and shut down.</figcaption></figure>
 
 <p>You can sometimes hear a motorized valve clicking or humming when it's trying to open. If it's completely stuck, the boiler will fire up but quickly shut down because the hot water has nowhere to go. This is a repair that typically requires a licensed technician.</p>
 
@@ -1550,7 +1550,7 @@ const articles: SeedArticle[] = [
 
 <p>Condensing boilers produce acidic water as a byproduct of combustion. This water drains away through a plastic condensate pipe, which often runs outside. In freezing temperatures, this pipe can freeze solid.</p>
 
-<figure class="wp-block-image is-resized"><img src="/wp-contentuploads/2026/04/boiler-turning-off-wiring-check.jpg" alt="Boiler wiring and internal components used for troubleshooting shutdown issues" class="wp-image-2547" style="width:640px;height:360px"/><figcaption class="wp-element-caption">Check the wiring connections and internal components — loose connections can trigger safety shutdowns.</figcaption></figure>
+<figure class="wp-block-image is-resized"><img src="/images/2026/04/boiler-turning-off-wiring-check.jpg" alt="Boiler wiring and internal components used for troubleshooting shutdown issues" class="wp-image-2547" style="width:640px;height:360px"/><figcaption class="wp-element-caption">Check the wiring connections and internal components — loose connections can trigger safety shutdowns.</figcaption></figure>
 
 <p>When the condensate pipe is blocked, the boiler will lock out and display an error code. To thaw it, pour warm (not boiling) water over the frozen section of the outdoor pipe. Once cleared, reset the boiler. To prevent future freezes, ask your technician about insulating the pipe or rerouting it internally.</p>
 
@@ -1562,7 +1562,7 @@ const articles: SeedArticle[] = [
 
 <h3 class="wp-block-heading">Step 6: Verify the Boiler Is Running Correctly After Fixes</h3>
 
-<figure class="wp-block-image is-resized"><img src="/wp-contentuploads/2026/04/boiler-turning-off-front-panel.jpg" alt="Boiler front panel showing power switch blue status light and temperature control dial" class="wp-image-2548" style="width:640px;height:360px"/><figcaption class="wp-element-caption">After troubleshooting, verify the blue status light stays on steady — this confirms the boiler is running normally.</figcaption></figure>
+<figure class="wp-block-image is-resized"><img src="/images/2026/04/boiler-turning-off-front-panel.jpg" alt="Boiler front panel showing power switch blue status light and temperature control dial" class="wp-image-2548" style="width:640px;height:360px"/><figcaption class="wp-element-caption">After troubleshooting, verify the blue status light stays on steady — this confirms the boiler is running normally.</figcaption></figure>
 
 <p>After addressing any issues, reset your boiler and monitor it for at least 30 minutes. The status light should remain steady (not flashing). Check that radiators are warming evenly throughout the house.</p>
 
@@ -1668,37 +1668,37 @@ const articles: SeedArticle[] = [
         "@type": "HowToStep",
         "name": "Check the Boiler Pressure Gauge",
         "text": "Look at the pressure gauge on the front panel. If it reads below 1 bar, use the filling loop to repressurize to 1.2-1.5 bar.",
-        "image": "/wp-contentuploads/2026/04/boiler-turning-off-control-dial.jpg"
+        "image": "/images/2026/04/boiler-turning-off-control-dial.jpg"
       },
       {
         "@type": "HowToStep",
         "name": "Inspect the Thermostat Settings",
         "text": "Verify the thermostat is set to heat mode with a target temperature above the current room temperature. Replace batteries if wireless.",
-        "image": "/wp-contentuploads/2026/04/boiler-turning-off-thermostat.jpg"
+        "image": "/images/2026/04/boiler-turning-off-thermostat.jpg"
       },
       {
         "@type": "HowToStep",
         "name": "Examine the Motorized Valves",
         "text": "Listen for clicking or humming from the motorized valves. A stuck valve restricts water flow and causes the boiler to overheat.",
-        "image": "/wp-contentuploads/2026/04/boiler-turning-off-motorized-valve.jpg"
+        "image": "/images/2026/04/boiler-turning-off-motorized-valve.jpg"
       },
       {
         "@type": "HowToStep",
         "name": "Check for a Frozen Condensate Pipe",
         "text": "In cold weather, pour warm water over the outdoor condensate pipe to thaw any ice blockage, then reset the boiler.",
-        "image": "/wp-contentuploads/2026/04/boiler-turning-off-wiring-check.jpg"
+        "image": "/images/2026/04/boiler-turning-off-wiring-check.jpg"
       },
       {
         "@type": "HowToStep",
         "name": "Inspect the Pump and Circulation",
         "text": "Listen near the pump for humming. If silent, the pump may have seized and needs professional replacement.",
-        "image": "/wp-contentuploads/2026/04/boiler-turning-off-wiring-check.jpg"
+        "image": "/images/2026/04/boiler-turning-off-wiring-check.jpg"
       },
       {
         "@type": "HowToStep",
         "name": "Verify the Boiler Is Running Correctly",
         "text": "After troubleshooting, reset the boiler and monitor for 30 minutes. The status light should remain steady.",
-        "image": "/wp-contentuploads/2026/04/boiler-turning-off-front-panel.jpg"
+        "image": "/images/2026/04/boiler-turning-off-front-panel.jpg"
       }
     ]
   },
@@ -1860,7 +1860,7 @@ const articles: SeedArticle[] = [
 
 <p><strong>Corrosion inhibitor:</strong> Having a quality inhibitor added to your heating water prevents internal rust and sludge formation. This protects pipe walls from developing the pinhole leaks that cause most pressure loss cases. Ask your engineer to check inhibitor levels during annual service.</p>
 
-<figure class="wp-block-image size-full"><img src="/wp-contentuploads/2026/02/Boiler15-1.webp" alt="" class="wp-image-2260"/></figure>
+<figure class="wp-block-image size-full"><img src="/images/2026/02/Boiler15-1.webp" alt="Magnetic filter installed on a boiler return pipe to capture metallic debris" class="wp-image-2260"/></figure>
 
 <p><strong>Magnetic filter:</strong> Installing a magnetic filter (like a MagnaClean) on the return pipe captures metallic debris before it can damage boiler internals. This extends the life of your expansion vessel, pump, and valves significantly.</p>
 
@@ -2008,7 +2008,7 @@ const articles: SeedArticle[] = [
 
 <p>Flip the furnace power switch to OFF. It is usually a standard light switch mounted on or near the furnace. For extra safety, switch off the furnace breaker at your electrical panel too.</p>
 
-<figure class="wp-block-image is-resized"><img src="/wp-contentuploads/2026/04/furnace-fuse-art2-step1.jpg" alt="Turning off furnace power switch" class="wp-image-2609" style="width:640px;height:360px"/><figcaption class="wp-element-caption">Step 1: Always turn off power before opening the furnace panel</figcaption></figure>
+<figure class="wp-block-image is-resized"><img src="/images/2026/04/furnace-fuse-art2-step1.jpg" alt="Turning off furnace power switch" class="wp-image-2609" style="width:640px;height:360px"/><figcaption class="wp-element-caption">Step 1: Always turn off power before opening the furnace panel</figcaption></figure>
 
 <h3 class="wp-block-heading">Step 2: Swap the Fuse</h3>
 
@@ -2016,17 +2016,17 @@ const articles: SeedArticle[] = [
 
 <p>Make sure the replacement fuse matches exactly. A 3-amp fuse looks just like a 5-amp fuse, so read the tiny numbers printed on it carefully.</p>
 
-<figure class="wp-block-image is-resized"><img src="/wp-contentuploads/2026/04/furnace-fuse-art2-step2.jpg" alt="Finding and replacing blown fuse on furnace board" class="wp-image-2610" style="width:640px;height:360px"/><figcaption class="wp-element-caption">Step 2: Pull out the blown fuse and insert a matching replacement</figcaption></figure>
+<figure class="wp-block-image is-resized"><img src="/images/2026/04/furnace-fuse-art2-step2.jpg" alt="Finding and replacing blown fuse on furnace board" class="wp-image-2610" style="width:640px;height:360px"/><figcaption class="wp-element-caption">Step 2: Pull out the blown fuse and insert a matching replacement</figcaption></figure>
 
 <h3 class="wp-block-heading">Step 3: Power Up and Test</h3>
 
 <p>Put the access panel back on, flip the breaker and power switch back on, and set your thermostat to call for heat. Your furnace should fire up within a minute or two.</p>
 
-<figure class="wp-block-image is-resized"><img src="/wp-contentuploads/2026/04/furnace-fuse-art2-step4.jpg" alt="Restoring power to furnace after fuse replacement" class="wp-image-2612" style="width:640px;height:360px"/><figcaption class="wp-element-caption">Step 3: Turn the power back on and listen for the furnace to start</figcaption></figure>
+<figure class="wp-block-image is-resized"><img src="/images/2026/04/furnace-fuse-art2-step4.jpg" alt="Restoring power to furnace after fuse replacement" class="wp-image-2612" style="width:640px;height:360px"/><figcaption class="wp-element-caption">Step 3: Turn the power back on and listen for the furnace to start</figcaption></figure>
 
 <p>If it starts running normally, you are done. Keep a couple of spare fuses near the furnace for next time.</p>
 
-<figure class="wp-block-image is-resized"><img src="/wp-contentuploads/2026/04/furnace-fuse-art2-result.jpg" alt="Furnace running after successful quick fix" class="wp-image-2613" style="width:640px;height:360px"/><figcaption class="wp-element-caption">Success — your furnace is running again</figcaption></figure>
+<figure class="wp-block-image is-resized"><img src="/images/2026/04/furnace-fuse-art2-result.jpg" alt="Furnace running after successful quick fix" class="wp-image-2613" style="width:640px;height:360px"/><figcaption class="wp-element-caption">Success — your furnace is running again</figcaption></figure>
 
 <h2 class="wp-block-heading">When the Quick Fix Will Not Work</h2>
 
@@ -2071,9 +2071,9 @@ const articles: SeedArticle[] = [
     "description": "Quick 10-minute fix for a blown furnace fuse. Replace the fuse and get your heat running again.",
     "totalTime": "PT10M",
     "step": [
-      {"@type": "HowToStep", "name": "Kill the Power", "text": "Turn off the furnace power switch and breaker.", "image": "/wp-contentuploads/2026/04/furnace-fuse-art2-step1.jpg"},
-      {"@type": "HowToStep", "name": "Swap the Fuse", "text": "Remove the old fuse from the control board and install a matching replacement.", "image": "/wp-contentuploads/2026/04/furnace-fuse-art2-step2.jpg"},
-      {"@type": "HowToStep", "name": "Power Up and Test", "text": "Restore power and set thermostat to call for heat. Verify normal operation.", "image": "/wp-contentuploads/2026/04/furnace-fuse-art2-step4.jpg"}
+      {"@type": "HowToStep", "name": "Kill the Power", "text": "Turn off the furnace power switch and breaker.", "image": "/images/2026/04/furnace-fuse-art2-step1.jpg"},
+      {"@type": "HowToStep", "name": "Swap the Fuse", "text": "Remove the old fuse from the control board and install a matching replacement.", "image": "/images/2026/04/furnace-fuse-art2-step2.jpg"},
+      {"@type": "HowToStep", "name": "Power Up and Test", "text": "Restore power and set thermostat to call for heat. Verify normal operation.", "image": "/images/2026/04/furnace-fuse-art2-step4.jpg"}
     ]
   },
   {

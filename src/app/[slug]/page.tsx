@@ -6,6 +6,7 @@ import FinalCTA from "@/components/FinalCTA";
 import Icon from "@/components/Icon";
 import PortfolioCarousel from "@/components/PortfolioCarousel";
 import BeforeAfter from "@/components/BeforeAfter";
+import Breadcrumbs from "@/components/Breadcrumbs";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -160,9 +161,10 @@ export default async function ServicePage({
 
   const related = getRelatedServices(slug);
   const hasRich = !!service.richContent;
-  const schemaJson = buildSchemaJsonLd(service);
   const stats = service.stats ?? DEFAULT_STATS;
-  const inlineReview = await pickInlineReview(service);
+  const allReviews = await getReviews().catch(() => [] as Review[]);
+  const inlineReview = pickInlineReviewFromList(service, allReviews);
+  const schemaJson = buildSchemaJsonLd(service, allReviews);
   const timeline = service.timeline ?? { steps: DEFAULT_TIMELINE };
 
   const firstSectionHeading = service.richContent?.sections?.[0]?.heading;
@@ -182,12 +184,15 @@ export default async function ServicePage({
           <div className="hidden md:block absolute top-1/2 -left-32 w-[380px] h-[380px] rounded-full bg-primary/10 blur-3xl pointer-events-none" />
 
           <div className="max-w-7xl mx-auto px-6 md:px-10 py-10 md:py-14 relative">
-            <div className="flex flex-wrap items-center gap-2 mb-4 text-[11px] uppercase tracking-[0.14em] font-semibold text-cream-50/55">
-              <Link href="/" className="hover:text-emergency">
-                Home
-              </Link>
-              <span className="text-cream-50/30">/</span>
-              <span className="text-primary">{service.category}</span>
+            <div className="mb-4">
+              <Breadcrumbs
+                variant="dark"
+                items={[
+                  { label: "Home", href: "/" },
+                  { label: service.category },
+                  { label: service.title.replace(/\s*[—|].*$/, "").trim() },
+                ]}
+              />
             </div>
             <div className="grid grid-cols-12 gap-6 md:gap-10 items-center">
               <div className="col-span-12 lg:col-span-7">
@@ -721,6 +726,52 @@ export default async function ServicePage({
                   </div>
                 </div>
               )}
+
+              {/* HUB LINKS — for umbrella service pages (boilers, furnaces, hot-water-tanks) */}
+              {service.hubLinks && service.hubLinks.items.length > 0 && (
+                <div className="mt-12">
+                  <span className="eyebrow-light mb-3">
+                    {service.hubLinks.eyebrow ?? "Related services"}
+                  </span>
+                  <h2 className="font-display text-3xl md:text-4xl font-extrabold tracking-[-0.015em] mt-4 leading-[1.1]">
+                    {service.hubLinks.heading ?? "Browse the rest of this category."}
+                  </h2>
+                  {service.hubLinks.intro && (
+                    <p className="text-[17px] text-ink-700 leading-relaxed mt-4 max-w-2xl">
+                      {service.hubLinks.intro}
+                    </p>
+                  )}
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
+                    {service.hubLinks.items.map((item) => (
+                      <Link
+                        key={item.href}
+                        href={item.href}
+                        className="lift group rounded-2xl bg-white border border-line-light p-6 hover:border-emergency"
+                      >
+                        <div className="flex items-start gap-4">
+                          {item.icon && (
+                            <div className="w-11 h-11 rounded-xl bg-primary/15 text-primary-deep flex items-center justify-center shrink-0 transition-transform group-hover:rotate-6 group-hover:scale-110">
+                              <Icon name={item.icon} className="text-lg" />
+                            </div>
+                          )}
+                          <div className="min-w-0 flex-1">
+                            <p className="font-display font-extrabold text-lg tracking-tight text-ink-900 group-hover:text-emergency-deep transition-colors leading-tight">
+                              {item.label}
+                            </p>
+                            <p className="text-[14px] text-ink-500 mt-1.5 leading-relaxed">
+                              {item.summary}
+                            </p>
+                            <span className="inline-flex items-center gap-1 mt-3 text-[13px] font-bold text-emergency-deep">
+                              See service
+                              <Icon name="arrow_right_alt" className="text-base" />
+                            </span>
+                          </div>
+                        </div>
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              )}
             </div>
 
             <aside className="col-span-12 lg:col-span-3">
@@ -1046,10 +1097,10 @@ function InlineReviewBlock({ review }: { review: Review }) {
  * This avoids landing a boiler testimonial on a furnace page just
  * because they're both "Heating".
  */
-async function pickInlineReview(
-  service: ServicePage
-): Promise<Review | null> {
-  const all = await getReviews();
+function pickInlineReviewFromList(
+  service: ServicePage,
+  all: Review[],
+): Review | null {
   if (!all.length) return null;
 
   const basePool = all.filter((r) => !r.featured);
@@ -1111,7 +1162,7 @@ function categorizeReview(quote: string): Set<ServicePage["category"]> {
   return cats;
 }
 
-function buildSchemaJsonLd(service: ServicePage) {
+function buildSchemaJsonLd(service: ServicePage, reviews: Review[]) {
   const url = `${SITE_URL}/${service.slug}`;
   const heroImg = service.heroImage?.src
     ? `${SITE_URL}${service.heroImage.src}`
@@ -1129,21 +1180,69 @@ function buildSchemaJsonLd(service: ServicePage) {
     publisher: { "@id": `${SITE_URL}#business` },
   });
 
-  // LocalBusiness node — stand-alone so it can carry AggregateRating
+  // Real Review nodes from Postgres so AggregateRating is backed by
+  // actual data (Google increasingly requires this).
+  const reviewNodes = reviews.slice(0, 12).map((r, i) => ({
+    "@type": "Review",
+    "@id": `${SITE_URL}#review-${r.id ?? i}`,
+    author: { "@type": "Person", name: r.author },
+    reviewRating: {
+      "@type": "Rating",
+      ratingValue: String(r.rating ?? 5),
+      bestRating: "5",
+    },
+    reviewBody: r.quote,
+    itemReviewed: { "@id": `${SITE_URL}#business` },
+  }));
+  const ratingCount = reviewNodes.length || 0;
+  const ratingValue =
+    ratingCount > 0
+      ? (
+          reviews.slice(0, 12).reduce((s, r) => s + (r.rating ?? 5), 0) /
+          ratingCount
+        ).toFixed(1)
+      : "5.0";
+
+  // LocalBusiness node — stand-alone so it can carry AggregateRating + Reviews
   graph.push({
     "@type": "LocalBusiness",
     "@id": `${SITE_URL}#business`,
     name: BUSINESS.name,
     telephone: BUSINESS.phone,
+    email: "info@flametechplumbing.ca",
     url: SITE_URL,
     image: `${SITE_URL}/images/FT-LOGO-DARK8.png`,
+    logo: `${SITE_URL}/images/FT-LOGO-DARK8.png`,
     priceRange: "$$",
     address: {
       "@type": "PostalAddress",
+      streetAddress: "Woodbine Blvd",
       addressLocality: "Calgary",
       addressRegion: "AB",
       addressCountry: "CA",
     },
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: 50.945,
+      longitude: -114.118,
+    },
+    hasMap:
+      "https://www.google.com/maps/search/?api=1&query=FlameTech+Plumbing+Heating+Calgary",
+    openingHoursSpecification: [
+      {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+        ],
+        opens: "08:00",
+        closes: "18:00",
+      },
+    ],
     areaServed: [
       { "@type": "City", name: "Calgary" },
       { "@type": "City", name: "Airdrie" },
@@ -1151,12 +1250,17 @@ function buildSchemaJsonLd(service: ServicePage) {
       { "@type": "City", name: "Cochrane" },
       { "@type": "City", name: "Okotoks" },
     ],
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: "5.0",
-      bestRating: "5",
-      reviewCount: "100",
-    },
+    ...(ratingCount > 0
+      ? {
+          aggregateRating: {
+            "@type": "AggregateRating",
+            ratingValue,
+            bestRating: "5",
+            reviewCount: String(ratingCount),
+          },
+          review: reviewNodes,
+        }
+      : {}),
   });
 
   graph.push({

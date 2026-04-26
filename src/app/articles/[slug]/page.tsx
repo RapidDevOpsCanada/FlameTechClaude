@@ -3,10 +3,14 @@ import Footer from "@/components/Footer";
 import FinalCTA from "@/components/FinalCTA";
 import StickyCallBar from "@/components/StickyCallBar";
 import AuthorBioCard from "@/components/AuthorBioCard";
+import Breadcrumbs from "@/components/Breadcrumbs";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getArticleBySlug, getAllArticles } from "@/lib/articles";
+import { getAuthorBio } from "@/lib/authors";
 import Icon from "@/components/Icon";
+
+const SITE_URL = "https://flame-tech-claude-xd6r.vercel.app";
 
 export const dynamic = "force-dynamic";
 
@@ -33,13 +37,97 @@ export default async function ArticlePage({
     related = [];
   }
 
+  const url = `${SITE_URL}/articles/${article.slug}`;
+  const heroImg = article.featured_image
+    ? `${SITE_URL}${article.featured_image}`
+    : `${SITE_URL}/images/FT-LOGO-DARK8.png`;
+  const authorBio = getAuthorBio(article.author);
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "@id": `${url}#article`,
+        headline: article.title,
+        description: article.excerpt,
+        image: heroImg,
+        datePublished: new Date(article.created_at).toISOString(),
+        dateModified: new Date(article.created_at).toISOString(),
+        url,
+        mainEntityOfPage: { "@id": `${url}#webpage` },
+        articleSection: article.category,
+        author: {
+          "@type": "Person",
+          "@id": `${SITE_URL}#author-${article.author.replace(/\s+/g, "-").toLowerCase()}`,
+          name: article.author,
+          ...(authorBio
+            ? {
+                jobTitle: authorBio.role,
+                description: authorBio.bio.split(/\n\n+/)[0],
+                worksFor: { "@id": `${SITE_URL}#business` },
+              }
+            : {}),
+        },
+        publisher: { "@id": `${SITE_URL}#business` },
+        wordCount: article.body.replace(/<[^>]+>/g, " ").split(/\s+/).filter(Boolean).length,
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": `${url}#breadcrumb`,
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: "Resources",
+            item: `${SITE_URL}/articles`,
+          },
+          {
+            "@type": "ListItem",
+            position: 3,
+            name: article.category,
+            item: `${SITE_URL}/categories/${article.category_slug}`,
+          },
+          { "@type": "ListItem", position: 4, name: article.title, item: url },
+        ],
+      },
+      {
+        "@type": "WebPage",
+        "@id": `${url}#webpage`,
+        url,
+        name: article.title,
+        description: article.excerpt,
+        breadcrumb: { "@id": `${url}#breadcrumb` },
+        primaryImageOfPage: { "@type": "ImageObject", url: heroImg },
+      },
+    ],
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <Nav />
       <section className="relative bg-ink-900 text-cream-50 py-24 overflow-hidden">
         <div className="absolute inset-0 dotgrid opacity-40 pointer-events-none"></div>
         <div className="hidden md:block absolute -top-40 -right-40 w-[600px] h-[600px] rounded-full bg-emergency/15 blur-3xl pointer-events-none"></div>
         <div className="max-w-4xl mx-auto px-6 md:px-10 w-full relative">
+          <div className="mb-5">
+            <Breadcrumbs
+              variant="dark"
+              items={[
+                { label: "Home", href: "/" },
+                { label: "Resources", href: "/articles" },
+                {
+                  label: article.category,
+                  href: `/categories/${article.category_slug}`,
+                },
+                { label: article.title },
+              ]}
+            />
+          </div>
           <div className="flex flex-wrap items-center gap-3 mb-6">
             <Link
               href={`/categories/${article.category_slug}`}

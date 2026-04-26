@@ -130,6 +130,22 @@ export type ServicePage = {
       caption?: string;
     }[];
   };
+  /**
+   * Optional hub-and-spoke link grid for umbrella service pages
+   * (`/boilers`, `/furnaces`, `/hot-water-tanks`). Concentrates link
+   * equity inward to deeper sibling service pages.
+   */
+  hubLinks?: {
+    eyebrow?: string;
+    heading?: string;
+    intro?: string;
+    items: {
+      label: string;
+      href: string;
+      summary: string;
+      icon?: string;
+    }[];
+  };
 };
 
 export const services: ServicePage[] = [
@@ -1520,6 +1536,18 @@ export const services: ServicePage[] = [
         },
       ],
     },
+    hubLinks: {
+      eyebrow: "Furnace services",
+      heading: "Find the furnace service you need.",
+      intro:
+        "Install, retrofit, or upgrade — here's the path that matches your situation.",
+      items: [
+        { label: "High-Efficiency Furnaces", href: "/high-efficiency-furnaces-calgary", summary: "95–98% AFUE condensing units sized for Calgary's −35°C design temp.", icon: "local_fire_department" },
+        { label: "AirEase Furnaces", href: "/air-ease-furnaces-calgary", summary: "Authorized AirEase Pro Team dealer — full residential lineup with manufacturer warranty.", icon: "local_fire_department" },
+        { label: "Garage Heaters", href: "/garage-heaters-calgary", summary: "Forced-air gas, radiant tube, and electric heaters for Calgary garages and shops.", icon: "garage" },
+        { label: "Heat Pumps", href: "/heat-pumps-calgary", summary: "Cold-climate dual-fuel heat pumps — heating + cooling in one system.", icon: "ac_unit" },
+      ],
+    },
   },
   {
     slug: "high-efficiency-furnaces-calgary",
@@ -2496,6 +2524,18 @@ export const services: ServicePage[] = [
           { q: "How much does hot water tank installation cost in Calgary?", a: "Installation pricing varies based on tank size, fuel type, accessibility of your mechanical room, and whether any plumbing or venting modifications are needed. We provide detailed, upfront quotes after assessing your situation so there are no surprises. Contact us for a free estimate tailored to your home." },
         ],
       },
+    },
+    hubLinks: {
+      eyebrow: "Water heating services",
+      heading: "Pick the right water-heating service.",
+      intro:
+        "Tank, tankless, replacement, or new install — each one runs a different way.",
+      items: [
+        { label: "Hot Water Tank Replacement", href: "/hot-water-tank-replacement-calgary", summary: "Same-day swaps with Bradford White, AO Smith, and Rheem stocked on every truck.", icon: "sync" },
+        { label: "Tankless Water Heaters", href: "/tankless-water-heaters", summary: "On-demand hot water, 20+ year lifespan, big space + efficiency wins.", icon: "whatshot" },
+        { label: "Water Heater Installation", href: "/water-heater-installation-calgary", summary: "Tank, tankless, or replacement — gas + venting + expansion tank done right.", icon: "propane_tank" },
+        { label: "Water Softeners", href: "/water-softener", summary: "Protect your tank from Calgary's hard water with a properly-sized softener.", icon: "softener_tank" },
+      ],
     },
   },
   {
@@ -7844,6 +7884,17 @@ export const services: ServicePage[] = [
           { q: "Can I convert from forced air to a boiler system?", a: "Yes, but it's a substantial investment — typically $15,000-$30,000 depending on home size and chosen heat distribution (radiators, baseboards, or in-floor radiant). Most Calgary homeowners pursue conversions during major renovations to gain zone control, eliminate allergen circulation, and enjoy quieter, more luxurious heat." },
         ],
       },
+    },
+    hubLinks: {
+      eyebrow: "Boiler services",
+      heading: "Pick the right service for your boiler.",
+      intro:
+        "Whether you're installing new, fixing a fault, or scheduling a tune-up, here's how the work breaks out.",
+      items: [
+        { label: "Boiler Installation Calgary", href: "/boiler-installation-calgary", summary: "New high-efficiency boilers — heat-loss calc, gas + venting, full commissioning.", icon: "boiler_unit" },
+        { label: "Boiler Repair Calgary", href: "/boiler-repair-calgary", summary: "Diagnosis and same-day fixes for kettling, pressure loss, no-heat, and ignition faults.", icon: "gas_valve" },
+        { label: "Boiler Service Calgary", href: "/boiler-service-calgary", summary: "Annual tune-ups: combustion analysis, safety checks, descale, system flush.", icon: "hydronic_loop" },
+      ],
     },
   },
 
