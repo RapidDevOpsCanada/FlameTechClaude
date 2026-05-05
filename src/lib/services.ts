@@ -2240,7 +2240,7 @@ export const services: ServicePage[] = [
       promo: {
         heading: "AirEase Special — 12-year parts and labor warranty*",
         image: {
-          src: "/images/2026/01/AirEase-Promo.png",
+          src: "/images/2026/01/AirEase-Promo.jpg",
           alt: "AirEase Air Conditioning Promo",
         },
         groups: [

@@ -118,11 +118,13 @@ export default function Home() {
                       Red Seal journeypersons. 45+ years combined.
                     </h3>
                   </div>
-                  <div className="relative mx-6 md:mx-8 mb-6 rounded-2xl overflow-hidden border border-line-light">
-                    <img
+                  <div className="relative mx-6 md:mx-8 mb-6 rounded-2xl overflow-hidden border border-line-light aspect-[4/5]">
+                    <Image
                       src="/images/FTVAN1.jpg"
                       alt="Jason Mounsey and Shaun Kristoff — FlameTech founders — standing in front of the service van"
-                      className="w-full aspect-[4/5] object-cover object-center"
+                      fill
+                      sizes="(max-width: 1024px) 100vw, 50vw"
+                      className="object-cover object-center"
                     />
                     <div className="absolute bottom-3 left-3 rounded-full bg-ink-900/90 backdrop-blur-md text-cream-50 px-3 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.14em] flex items-center gap-2 border border-cream-50/10">
                       <Icon name="verified" className="text-sm text-primary" />
@@ -376,10 +378,12 @@ export default function Home() {
             <div className="grid grid-cols-12 gap-6">
               <div className="col-span-12 lg:col-span-7 rounded-3xl overflow-hidden bg-ink-900 text-cream-50 border border-ink-900 relative group lift">
                 <div className="relative h-64 md:h-80 overflow-hidden">
-                  <img
+                  <Image
                     src="/images/FTVAN1.jpg"
                     alt="FlameTech plumbing service van"
-                    className="w-full h-full object-cover"
+                    fill
+                    sizes="(max-width: 1024px) 100vw, 60vw"
+                    className="object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-ink-900 via-ink-900/30 to-transparent" />
                   <div className="absolute top-5 left-5 rounded-full bg-primary text-ink-900 text-xs font-extrabold uppercase tracking-widest px-3 py-1.5">

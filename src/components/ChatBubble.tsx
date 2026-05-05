@@ -1,12 +1,93 @@
 "use client";
 
-import Script from "next/script";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { MessageSquareText, X } from "lucide-react";
+
+const HCP_SCRIPT_SRC = "https://chat.housecallpro.com/proChat.js";
+const HCP_ORG = "658955b0-0b5a-42f1-86b4-9e46f8acce61";
 
 export default function ChatBubble() {
   const [open, setOpen] = useState(false);
   const [labelDismissed, setLabelDismissed] = useState(false);
+  const [scriptLoaded, setScriptLoaded] = useState(false);
+  const scriptInjectedRef = useRef(false);
+
+  // Inject the HCP script lazily on first user interaction. The bundle is
+  // ~1.3MB; deferring it until needed eliminates that cost from cold page
+  // loads where the visitor never engages the chat.
+  function ensureScript(): Promise<void> {
+    return new Promise((resolve) => {
+      if (scriptInjectedRef.current) {
+        if (scriptLoaded) resolve();
+        else {
+          const existing = document.getElementById(
+            "housecall-pro-chat-bubble",
+          ) as HTMLScriptElement | null;
+          if (existing) {
+            existing.addEventListener("load", () => resolve(), { once: true });
+          } else {
+            resolve();
+          }
+        }
+        return;
+      }
+      scriptInjectedRef.current = true;
+      const s = document.createElement("script");
+      s.id = "housecall-pro-chat-bubble";
+      s.src = HCP_SCRIPT_SRC;
+      s.async = true;
+      s.setAttribute("data-color", "#FB923C");
+      s.setAttribute("data-organization", HCP_ORG);
+      s.addEventListener(
+        "load",
+        () => {
+          setScriptLoaded(true);
+          resolve();
+        },
+        { once: true },
+      );
+      document.body.appendChild(s);
+    });
+  }
+
+  function showIframe() {
+    const c = document.getElementById("proChatIframeContainer");
+    if (c) {
+      c.classList.add("chat-open");
+      const w = window.innerWidth < 600 ? "100%" : "400px";
+      c.setAttribute(
+        "style",
+        `bottom:0px; position:fixed; right:0px; z-index:1200; display:block; width:${w}; height:100vh; opacity:1; pointer-events:auto;`,
+      );
+    }
+    const f = document.getElementById("proChatIframe") as HTMLIFrameElement | null;
+    if (f && f.contentWindow) {
+      f.contentWindow.postMessage({ type: "toggleChat", open: true }, "*");
+      f.contentWindow.postMessage(
+        JSON.stringify({ type: "toggleChat", open: true }),
+        "*",
+      );
+    }
+  }
+
+  async function handleOpen() {
+    setOpen(true);
+    await ensureScript();
+    // The HCP script creates #proChatIframeContainer asynchronously after
+    // load. Poll briefly until it appears, then open it.
+    const start = Date.now();
+    const tick = () => {
+      const c = document.getElementById("proChatIframeContainer");
+      if (c) {
+        showIframe();
+        return;
+      }
+      if (Date.now() - start < 4000) {
+        requestAnimationFrame(tick);
+      }
+    };
+    tick();
+  }
 
   function handleClose() {
     setOpen(false);
@@ -23,27 +104,6 @@ export default function ChatBubble() {
       f.contentWindow.postMessage({ type: "toggleChat", open: false }, "*");
       f.contentWindow.postMessage(
         JSON.stringify({ type: "toggleChat", open: false }),
-        "*",
-      );
-    }
-  }
-
-  function handleOpen() {
-    setOpen(true);
-    const c = document.getElementById("proChatIframeContainer");
-    if (c) {
-      c.classList.add("chat-open");
-      const w = window.innerWidth < 600 ? "100%" : "400px";
-      c.setAttribute(
-        "style",
-        `bottom:0px; position:fixed; right:0px; z-index:1200; display:block; width:${w}; height:100vh; opacity:1; pointer-events:auto;`,
-      );
-    }
-    const f = document.getElementById("proChatIframe") as HTMLIFrameElement | null;
-    if (f && f.contentWindow) {
-      f.contentWindow.postMessage({ type: "toggleChat", open: true }, "*");
-      f.contentWindow.postMessage(
-        JSON.stringify({ type: "toggleChat", open: true }),
         "*",
       );
     }
@@ -77,13 +137,6 @@ export default function ChatBubble() {
 
   return (
     <>
-      <Script
-        id="housecall-pro-chat-bubble"
-        src="https://chat.housecallpro.com/proChat.js"
-        strategy="afterInteractive"
-        data-color="#FB923C"
-        data-organization="658955b0-0b5a-42f1-86b4-9e46f8acce61"
-      />
       <style jsx global>{`
         /* Hide the HCP iframe container until the custom launcher opens it. */
         #proChatIframeContainer {
@@ -95,9 +148,7 @@ export default function ChatBubble() {
           pointer-events: auto !important;
         }
         /* Suppress any default launcher / bubble injected by proChat.js
-           outside of the iframe + its container. The HCP script renders
-           its own floating button after the iframe closes, which would
-           collide with the custom launcher. */
+           outside of the iframe + its container. */
         [id^="proChat"]:not(#proChatIframe):not(#proChatIframeContainer),
         [class^="proChat-bubble"],
         [class*=" proChat-bubble"],
@@ -136,6 +187,10 @@ export default function ChatBubble() {
               <button
                 type="button"
                 onClick={handleOpen}
+                onMouseEnter={() => {
+                  // Warm the script on hover so first-click latency is hidden.
+                  void ensureScript();
+                }}
                 className="lift bg-ink-900 text-cream-50 pl-4 pr-9 py-2.5 rounded-full text-[13px] font-semibold shadow-xl border border-line-dark hover:border-primary transition-colors"
               >
                 Questions? Chat with our team.
@@ -157,6 +212,9 @@ export default function ChatBubble() {
             type="button"
             aria-label="Open chat"
             onClick={handleOpen}
+            onMouseEnter={() => {
+              void ensureScript();
+            }}
             className="ftchat-launcher cta-animated-border relative w-14 h-14 rounded-full flex items-center justify-center text-ink-900 transition-transform hover:scale-105 active:scale-95"
             style={{
               background:
