@@ -1,12 +1,32 @@
 "use client";
 
 import Script from "next/script";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { MessageSquareText, X } from "lucide-react";
 
 export default function ChatBubble() {
   const [open, setOpen] = useState(false);
   const [labelDismissed, setLabelDismissed] = useState(false);
+
+  function handleClose() {
+    setOpen(false);
+    const c = document.getElementById("proChatIframeContainer");
+    if (c) {
+      c.classList.remove("chat-open");
+      c.setAttribute(
+        "style",
+        "opacity:0; pointer-events:none; position:fixed; right:0px; bottom:0px;",
+      );
+    }
+    const f = document.getElementById("proChatIframe") as HTMLIFrameElement | null;
+    if (f && f.contentWindow) {
+      f.contentWindow.postMessage({ type: "toggleChat", open: false }, "*");
+      f.contentWindow.postMessage(
+        JSON.stringify({ type: "toggleChat", open: false }),
+        "*",
+      );
+    }
+  }
 
   function handleOpen() {
     setOpen(true);
@@ -29,6 +49,32 @@ export default function ChatBubble() {
     }
   }
 
+  // Listen for the iframe's close message so the custom launcher returns
+  // when the user closes the chat from inside the HCP UI.
+  useEffect(() => {
+    function onMessage(e: MessageEvent) {
+      let payload: unknown = e.data;
+      if (typeof payload === "string") {
+        try {
+          payload = JSON.parse(payload);
+        } catch {
+          return;
+        }
+      }
+      if (
+        payload &&
+        typeof payload === "object" &&
+        "type" in payload &&
+        (payload as { type?: string }).type === "toggleChat" &&
+        (payload as { open?: boolean }).open === false
+      ) {
+        handleClose();
+      }
+    }
+    window.addEventListener("message", onMessage);
+    return () => window.removeEventListener("message", onMessage);
+  }, []);
+
   return (
     <>
       <Script
@@ -39,6 +85,7 @@ export default function ChatBubble() {
         data-organization="658955b0-0b5a-42f1-86b4-9e46f8acce61"
       />
       <style jsx global>{`
+        /* Hide the HCP iframe container until the custom launcher opens it. */
         #proChatIframeContainer {
           opacity: 0 !important;
           pointer-events: none !important;
@@ -46,6 +93,19 @@ export default function ChatBubble() {
         #proChatIframeContainer.chat-open {
           opacity: 1 !important;
           pointer-events: auto !important;
+        }
+        /* Suppress any default launcher / bubble injected by proChat.js
+           outside of the iframe + its container. The HCP script renders
+           its own floating button after the iframe closes, which would
+           collide with the custom launcher. */
+        [id^="proChat"]:not(#proChatIframe):not(#proChatIframeContainer),
+        [class^="proChat-bubble"],
+        [class*=" proChat-bubble"],
+        [class*="proChatBubble"] {
+          display: none !important;
+          visibility: hidden !important;
+          opacity: 0 !important;
+          pointer-events: none !important;
         }
         @keyframes ftchat-glow {
           0%,
