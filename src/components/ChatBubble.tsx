@@ -1,13 +1,14 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { MessageSquareText, X } from "lucide-react";
+import { Loader2, MessageSquareText, X } from "lucide-react";
 
 const HCP_SCRIPT_SRC = "https://chat.housecallpro.com/proChat.js";
 const HCP_ORG = "658955b0-0b5a-42f1-86b4-9e46f8acce61";
 
 export default function ChatBubble() {
   const [open, setOpen] = useState(false);
+  const [loading, setLoading] = useState(false);
   const [labelDismissed, setLabelDismissed] = useState(false);
   const [scriptLoaded, setScriptLoaded] = useState(false);
   const scriptInjectedRef = useRef(false);
@@ -71,19 +72,27 @@ export default function ChatBubble() {
   }
 
   async function handleOpen() {
-    setOpen(true);
+    if (loading || open) return;
+    setLoading(true);
     await ensureScript();
     // The HCP script creates #proChatIframeContainer asynchronously after
-    // load. Poll briefly until it appears, then open it.
+    // load. Poll until it appears, then open it. Only flip to the open
+    // state once the iframe is actually mounted so the launcher stays
+    // visible (with a loading indicator) on slow mobile networks instead
+    // of disappearing into a dead 2-3s gap.
     const start = Date.now();
     const tick = () => {
       const c = document.getElementById("proChatIframeContainer");
       if (c) {
         showIframe();
+        setOpen(true);
+        setLoading(false);
         return;
       }
-      if (Date.now() - start < 4000) {
+      if (Date.now() - start < 8000) {
         requestAnimationFrame(tick);
+      } else {
+        setLoading(false);
       }
     };
     tick();
@@ -210,23 +219,34 @@ export default function ChatBubble() {
           )}
           <button
             type="button"
-            aria-label="Open chat"
+            aria-label={loading ? "Loading chat" : "Open chat"}
+            aria-busy={loading}
             onClick={handleOpen}
             onMouseEnter={() => {
               void ensureScript();
             }}
-            className="ftchat-launcher cta-animated-border relative w-14 h-14 rounded-full flex items-center justify-center text-ink-900 transition-transform hover:scale-105 active:scale-95"
+            onTouchStart={() => {
+              void ensureScript();
+            }}
+            disabled={loading}
+            className="ftchat-launcher cta-animated-border relative w-14 h-14 rounded-full flex items-center justify-center text-ink-900 transition-transform hover:scale-105 active:scale-95 disabled:cursor-wait"
             style={{
               background:
                 "linear-gradient(135deg, #FB923C 0%, #EA7C22 100%)",
-              animation: "ftchat-glow 3s ease-in-out infinite",
+              animation: loading ? "none" : "ftchat-glow 3s ease-in-out infinite",
             }}
           >
-            <MessageSquareText className="w-6 h-6" strokeWidth={2.25} />
-            <span
-              aria-hidden
-              className="absolute -top-0.5 -right-0.5 w-3 h-3 rounded-full bg-emergency border-2 border-ink-900"
-            />
+            {loading ? (
+              <Loader2 className="w-6 h-6 animate-spin" strokeWidth={2.5} />
+            ) : (
+              <MessageSquareText className="w-6 h-6" strokeWidth={2.25} />
+            )}
+            {!loading && (
+              <span
+                aria-hidden
+                className="absolute -top-0.5 -right-0.5 w-3 h-3 rounded-full bg-emergency border-2 border-ink-900"
+              />
+            )}
           </button>
         </div>
       )}
