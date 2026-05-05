@@ -11,12 +11,45 @@ import Reveal from "@/components/Reveal";
 import Icon from "@/components/Icon";
 import Image from "next/image";
 import Link from "next/link";
+import { homepageFaqs } from "@/lib/homepage-faqs";
+
+const SITE_URL = "https://flametechplumbing.ca";
 
 export const revalidate = 604800;
 
 export default function Home() {
+  const homeSchema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": `${SITE_URL}#webpage`,
+        url: SITE_URL,
+        name: "FlameTech Plumbing & Heating — Trusted Calgary Plumbers",
+        isPartOf: { "@id": `${SITE_URL}#website` },
+        about: { "@id": `${SITE_URL}#business` },
+        primaryImageOfPage: {
+          "@type": "ImageObject",
+          url: `${SITE_URL}/images/FTVAN.jpg`,
+        },
+      },
+      {
+        "@type": "FAQPage",
+        "@id": `${SITE_URL}#faq`,
+        mainEntity: homepageFaqs.map((f) => ({
+          "@type": "Question",
+          name: f.q,
+          acceptedAnswer: { "@type": "Answer", text: f.a },
+        })),
+      },
+    ],
+  };
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(homeSchema) }}
+      />
       <Nav />
       <main className="bg-ink-900 text-cream-50">
         {/* HERO — tighter vertical rhythm */}

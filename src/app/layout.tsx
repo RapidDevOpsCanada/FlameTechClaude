@@ -36,12 +36,18 @@ export const metadata: Metadata = {
     siteName: "FlameTech Plumbing & Heating",
     locale: "en_CA",
     url: SITE_URL,
+    images: [
+      {
+        url: `${SITE_URL}/images/FTVAN.jpg`,
+        width: 800,
+        height: 486,
+        alt: "FlameTech Plumbing & Heating service van",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
-  },
-  icons: {
-    icon: "/images/FT-LOGO-DARK8.png",
+    images: [`${SITE_URL}/images/FTVAN.jpg`],
   },
 };
 
@@ -65,23 +71,48 @@ export default function RootLayout({
         "@type": "LocalBusiness",
         "@id": `${SITE_URL}#business`,
         name: "FlameTech Plumbing & Heating Ltd.",
-        image: `${SITE_URL}/images/FT-LOGO-DARK8.png`,
+        image: `${SITE_URL}/images/FTVAN.jpg`,
+        logo: `${SITE_URL}/images/FT-LOGO-DARK8.png`,
         url: SITE_URL,
         telephone: "+1-587-834-3668",
+        email: "info@flametechplumbing.ca",
         priceRange: "$$",
         address: {
           "@type": "PostalAddress",
+          streetAddress: "Woodbine Blvd",
           addressLocality: "Calgary",
           addressRegion: "AB",
           addressCountry: "CA",
         },
+        geo: {
+          "@type": "GeoCoordinates",
+          latitude: 50.945,
+          longitude: -114.118,
+        },
+        hasMap:
+          "https://www.google.com/maps/search/?api=1&query=FlameTech+Plumbing+Heating+Calgary",
+        openingHoursSpecification: [
+          {
+            "@type": "OpeningHoursSpecification",
+            dayOfWeek: [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday",
+            ],
+            opens: "08:00",
+            closes: "18:00",
+          },
+        ],
         areaServed: [
-          "Calgary",
-          "Airdrie",
-          "Chestermere",
-          "Cochrane",
-          "Okotoks",
-          "Carstairs",
+          { "@type": "City", name: "Calgary" },
+          { "@type": "City", name: "Airdrie" },
+          { "@type": "City", name: "Chestermere" },
+          { "@type": "City", name: "Cochrane" },
+          { "@type": "City", name: "Okotoks" },
+          { "@type": "City", name: "Carstairs" },
         ],
         sameAs: [
           "https://www.facebook.com/profile.php?id=61574205860979",
@@ -90,6 +121,7 @@ export default function RootLayout({
         aggregateRating: {
           "@type": "AggregateRating",
           ratingValue: "5.0",
+          bestRating: "5",
           reviewCount: "30",
         },
       },
