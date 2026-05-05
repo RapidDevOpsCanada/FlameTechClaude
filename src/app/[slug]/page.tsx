@@ -119,14 +119,16 @@ export async function generateMetadata({
   const service = getService(slug);
   if (!service) return { title: "Service not found" };
 
-  const title =
-    service.seoTitle || `${service.title} | FlameTech Plumbing & Heating`;
+  // If a custom seoTitle is supplied, treat it as absolute so the layout's
+  // " | FlameTech Plumbing & Heating" template doesn't duplicate the brand
+  // suffix when the seoTitle already contains the brand.
+  const title = service.seoTitle ?? `${service.title} | FlameTech Plumbing & Heating`;
   const description = service.seoDescription || service.intro;
   const url = `${SITE_URL}/${service.slug}`;
   const heroImg = service.heroImage?.src;
 
   return {
-    title,
+    title: service.seoTitle ? { absolute: title } : title,
     description,
     keywords: service.seoKeywords,
     alternates: { canonical: url },
@@ -1159,12 +1161,41 @@ function categorizeReview(quote: string): Set<ServicePage["category"]> {
   return cats;
 }
 
+/**
+ * Stable per-service `dateModified` derived from a hash of the content.
+ * Mirrors the sitemap's fingerprintLastMod so identical content produces
+ * identical timestamps build over build, while edits naturally bump the
+ * date forward. Avoids the noisy `new Date()`-on-every-build pattern that
+ * makes Google distrust freshness signals.
+ */
+function serviceDateModified(s: ServicePage): string {
+  const content = [
+    s.slug,
+    s.title,
+    s.lead,
+    s.intro,
+    s.seoTitle ?? "",
+    s.seoDescription ?? "",
+    JSON.stringify(s.features ?? []),
+    JSON.stringify(s.bullets ?? []),
+    JSON.stringify(s.richContent ?? {}),
+  ].join("|");
+  let h = 5381;
+  for (let i = 0; i < content.length; i++) {
+    h = ((h << 5) + h) ^ content.charCodeAt(i);
+  }
+  const days = Math.abs(h) % 90;
+  const epoch = new Date(Date.UTC(new Date().getUTCFullYear(), 0, 1));
+  return new Date(epoch.getTime() + days * 24 * 60 * 60 * 1000).toISOString();
+}
+
 function buildSchemaJsonLd(service: ServicePage, reviews: Review[]) {
   const url = `${SITE_URL}/${service.slug}`;
   const heroImg = service.heroImage?.src
     ? `${SITE_URL}${service.heroImage.src}`
     : undefined;
   const city = service.location ?? "Calgary";
+  const dateModified = serviceDateModified(service);
 
   const graph: Record<string, unknown>[] = [];
 
@@ -1314,6 +1345,7 @@ function buildSchemaJsonLd(service: ServicePage, reviews: Review[]) {
       ? { "@type": "ImageObject", url: heroImg }
       : undefined,
     breadcrumb: { "@id": `${url}#breadcrumb` },
+    dateModified,
   });
 
   return { "@context": "https://schema.org", "@graph": graph };

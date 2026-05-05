@@ -138,21 +138,29 @@ export default function Footer() {
       {/* Trust + service area */}
       <div className="border-t border-line-dark">
         <div className="max-w-7xl mx-auto px-6 md:px-10 py-10 grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
-          <div className="flex items-center gap-5">
+          <a
+            href="https://www.bbb.org/ca/ab/calgary/profile/plumber/flametech-plumbing-and-heating"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="View FlameTech on the Better Business Bureau"
+            className="flex items-center gap-5 group"
+          >
             <Image
               src="/images/blue-ceip-225x300.png"
               alt="BBB accredited"
               width={48}
               height={64}
-              className="h-16 w-auto object-contain rounded-lg bg-white/5 p-1"
+              className="h-16 w-auto object-contain rounded-lg bg-white/5 p-1 group-hover:bg-white/10 transition-colors"
             />
             <div>
-              <p className="font-bold text-[16px] leading-tight">BBB Accredited</p>
+              <p className="font-bold text-[16px] leading-tight group-hover:text-emergency transition-colors">
+                BBB Accredited
+              </p>
               <p className="text-[14px] text-cream-50/70 mt-1">
                 Red Seal · Alberta Licensed · Insured &amp; Bonded
               </p>
             </div>
-          </div>
+          </a>
           <div className="md:col-span-2">
             <p className="text-[14px] font-bold uppercase tracking-[0.18em] text-primary mb-3">
               Service Area

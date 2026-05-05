@@ -1057,6 +1057,37 @@ export const services: ServicePage[] = [
           ],
         },
       ],
+      faq: {
+        heading: "Calgary Boiler Repair — Frequently Asked",
+        intro:
+          "Quick answers on cost, timing, and whether your boiler is worth saving. Don't see your question? Call us at 587-834-3668 — we'll talk it through with no pressure.",
+        items: [
+          {
+            q: "How much does boiler repair cost in Calgary?",
+            a: "Most Calgary boiler repairs land between $250 and $850, depending on the part and the system. A new circulator pump or igniter is at the lower end; control boards, gas valves, or heat exchanger work cost more. We diagnose first, then give you a written quote before any work begins — so the price doesn't move on you.",
+          },
+          {
+            q: "Is my boiler worth repairing or should I replace it?",
+            a: "If your boiler is under 12 years old and the repair is under ~50% of replacement cost, fix it. Past 15 years, repeat repairs in one season, or if efficiency has dropped to mid-AFUE — replacement usually wins on running cost alone. We'll show you the math both ways and let you decide.",
+          },
+          {
+            q: "How long does a boiler repair take?",
+            a: "Most diagnostic calls and common-part replacements (circulator pumps, sensors, igniters, expansion tanks) are same-visit and finish in 1–3 hours. Control board swaps or heat exchanger work can take a half day. We carry parts for every major brand on the truck, so a return visit is the exception, not the rule.",
+          },
+          {
+            q: "My boiler keeps losing pressure — what's wrong?",
+            a: "Three usual suspects: a slow leak somewhere on the loop, a failing expansion tank, or a stuck pressure-relief valve. Calgary's hard water and chinook freeze-thaw cycles accelerate all three. We pressure-test the system, find the actual cause, and fix it — not just top up the gauge until you call again.",
+          },
+          {
+            q: "Do you repair every boiler brand?",
+            a: "Yes. Viessmann, Navien, NTI, IBC, Lochinvar, Weil-McLain, Slant/Fin, and older Burnham, Buderus, and cast-iron units. Our techs are factory-trained on the high-efficiency brands and have 25+ years on the heritage systems. If your boiler is gas-fired and lives in Calgary, we've worked on it.",
+          },
+          {
+            q: "Can you come out today?",
+            a: "For most no-heat calls during business hours, yes. Priority emergency dispatch typically gets a tech to your door in 60–90 minutes anywhere in Calgary, Airdrie, Chestermere, Cochrane, or Okotoks. Call us first — we'll confirm the window before we leave the shop.",
+          },
+        ],
+      },
     },
     portfolio: {
       eyebrow: "Boilers we've fixed",
