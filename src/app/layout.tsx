@@ -84,7 +84,8 @@ export default function RootLayout({
           "Carstairs",
         ],
         sameAs: [
-          "https://www.facebook.com/p/FlameTech-Plumbing-and-Heating-61574205860979/",
+          "https://www.facebook.com/profile.php?id=61574205860979",
+          "https://www.instagram.com/flametechplumbingandheating/",
         ],
         aggregateRating: {
           "@type": "AggregateRating",

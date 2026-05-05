@@ -2,6 +2,24 @@ import Link from "next/link";
 import Image from "next/image";
 import Icon from "@/components/Icon";
 
+function FacebookGlyph({ className }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 24 24" fill="currentColor" className={className} aria-hidden>
+      <path d="M13.5 21v-7.5h2.5l.4-3h-2.9v-1.9c0-.86.24-1.45 1.48-1.45H16.5V4.42a21 21 0 0 0-2.31-.12c-2.29 0-3.86 1.4-3.86 3.96V10.5H7.75v3h2.58V21h3.17Z" />
+    </svg>
+  );
+}
+
+function InstagramGlyph({ className }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className} aria-hidden>
+      <rect x="3" y="3" width="18" height="18" rx="5" />
+      <circle cx="12" cy="12" r="3.6" />
+      <circle cx="17.5" cy="6.5" r="0.6" fill="currentColor" stroke="none" />
+    </svg>
+  );
+}
+
 const plumbingLinks = [
   { label: "Bathroom Plumbing", href: "/bathroom-plumbing-calgary" },
   { label: "Shower Plumbing", href: "/shower-plumbing-calgary" },
@@ -172,10 +190,31 @@ export default function Footer() {
       <div className="border-t border-line-dark">
         <div className="max-w-7xl mx-auto px-6 md:px-10 py-6 flex flex-col md:flex-row justify-between items-center gap-4 text-[14px] text-cream-50/65">
           <p>
-            © {new Date().getFullYear()} FlameTech Plumbing &amp; Heating Ltd.
-            All rights reserved.
+            {"© "}
+            {new Date().getFullYear()}
+            {" FlameTech Plumbing & Heating Ltd. All rights reserved."}
           </p>
           <div className="flex items-center gap-5">
+            <div className="flex items-center gap-3">
+              <a
+                href="https://www.facebook.com/profile.php?id=61574205860979"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="FlameTech on Facebook"
+                className="w-8 h-8 rounded-full border border-line-dark flex items-center justify-center text-cream-50/70 hover:text-emergency hover:border-emergency transition-colors"
+              >
+                <FacebookGlyph className="w-4 h-4" />
+              </a>
+              <a
+                href="https://www.instagram.com/flametechplumbingandheating/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="FlameTech on Instagram"
+                className="w-8 h-8 rounded-full border border-line-dark flex items-center justify-center text-cream-50/70 hover:text-emergency hover:border-emergency transition-colors"
+              >
+                <InstagramGlyph className="w-4 h-4" />
+              </a>
+            </div>
             <Link
               href="/privacy"
               className="hover:text-cream-50 transition-colors"
