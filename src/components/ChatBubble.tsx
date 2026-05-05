@@ -2,9 +2,11 @@
 
 import Script from "next/script";
 import { useState } from "react";
+import { MessageSquareText, X } from "lucide-react";
 
 export default function ChatBubble() {
   const [open, setOpen] = useState(false);
+  const [labelDismissed, setLabelDismissed] = useState(false);
 
   function handleOpen() {
     setOpen(true);
@@ -33,7 +35,7 @@ export default function ChatBubble() {
         id="housecall-pro-chat-bubble"
         src="https://chat.housecallpro.com/proChat.js"
         strategy="afterInteractive"
-        data-color="#ff6b35"
+        data-color="#FB923C"
         data-organization="658955b0-0b5a-42f1-86b4-9e46f8acce61"
       />
       <style jsx global>{`
@@ -45,64 +47,70 @@ export default function ChatBubble() {
           opacity: 1 !important;
           pointer-events: auto !important;
         }
-        @keyframes ftchat-pulse {
+        @keyframes ftchat-glow {
           0%,
           100% {
-            box-shadow: 0 6px 20px rgba(255, 107, 53, 0.4);
+            box-shadow:
+              0 10px 28px -8px rgba(251, 146, 60, 0.55),
+              0 0 0 0 rgba(251, 146, 60, 0.35);
           }
           50% {
             box-shadow:
-              0 6px 30px rgba(255, 107, 53, 0.7),
-              0 0 60px rgba(255, 107, 53, 0.2);
+              0 14px 36px -8px rgba(251, 146, 60, 0.7),
+              0 0 0 8px rgba(251, 146, 60, 0);
           }
         }
-        @keyframes ftchat-bounce {
-          0%,
-          100% {
-            transform: translateY(0);
-          }
-          50% {
-            transform: translateY(-5px);
+        @media (prefers-reduced-motion: reduce) {
+          .ftchat-launcher {
+            animation: none !important;
           }
         }
       `}</style>
       {!open && (
-        <>
+        <div
+          className="fixed bottom-6 right-6 max-md:bottom-24 flex flex-col items-end gap-3"
+          style={{ zIndex: 2147483647 }}
+        >
+          {!labelDismissed && (
+            <div className="relative max-md:hidden">
+              <button
+                type="button"
+                onClick={handleOpen}
+                className="lift bg-ink-900 text-cream-50 pl-4 pr-9 py-2.5 rounded-full text-[13px] font-semibold shadow-xl border border-line-dark hover:border-primary transition-colors"
+              >
+                Questions? Chat with our team.
+              </button>
+              <button
+                type="button"
+                aria-label="Dismiss chat prompt"
+                onClick={(e) => {
+                  e.stopPropagation();
+                  setLabelDismissed(true);
+                }}
+                className="absolute top-1/2 -translate-y-1/2 right-2 w-5 h-5 rounded-full flex items-center justify-center text-cream-50/60 hover:text-cream-50 hover:bg-ink-700 transition-colors"
+              >
+                <X className="w-3 h-3" strokeWidth={2.5} />
+              </button>
+            </div>
+          )}
           <button
             type="button"
             aria-label="Open chat"
             onClick={handleOpen}
-            className="fixed w-16 h-16 rounded-full border-0 cursor-pointer text-[28px] leading-[64px] text-center p-0 bottom-6 right-6 max-md:bottom-24"
+            className="ftchat-launcher cta-animated-border relative w-14 h-14 rounded-full flex items-center justify-center text-ink-900 transition-transform hover:scale-105 active:scale-95"
             style={{
-              background: "linear-gradient(135deg, #ff6b35, #e85520)",
-              zIndex: 2147483647,
-              animation: "ftchat-pulse 2.5s infinite",
+              background:
+                "linear-gradient(135deg, #FB923C 0%, #EA7C22 100%)",
+              animation: "ftchat-glow 3s ease-in-out infinite",
             }}
           >
-            💬
-            <span
-              className="absolute -top-1 -right-1 bg-[#e63946] text-white w-[22px] h-[22px] rounded-full text-xs font-extrabold leading-[18px] text-center border-2 border-white"
-            >
-              1
-            </span>
-          </button>
-          <button
-            type="button"
-            onClick={handleOpen}
-            className="fixed bottom-24 right-4 max-md:bottom-44 bg-[#1a1a2e] text-white px-4 py-2.5 rounded-lg text-[13px] font-semibold cursor-pointer shadow-lg"
-            style={{
-              zIndex: 2147483647,
-              animation: "ftchat-bounce 3s ease-in-out infinite 2s",
-              fontFamily: "sans-serif",
-            }}
-          >
-            🔥 Need help? We&apos;re online!
+            <MessageSquareText className="w-6 h-6" strokeWidth={2.25} />
             <span
               aria-hidden
-              className="absolute -bottom-1.5 right-7 w-3 h-3 bg-[#1a1a2e] rotate-45"
+              className="absolute -top-0.5 -right-0.5 w-3 h-3 rounded-full bg-emergency border-2 border-ink-900"
             />
           </button>
-        </>
+        </div>
       )}
     </>
   );
