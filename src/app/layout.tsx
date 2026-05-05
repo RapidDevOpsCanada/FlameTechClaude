@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Manrope } from "next/font/google";
 import "./globals.css";
+import ChatBubble from "@/components/ChatBubble";
 
 export const viewport: Viewport = {
   width: "device-width",
@@ -105,6 +106,7 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(baseSchema) }}
         />
         {children}
+        <ChatBubble />
       </body>
     </html>
   );
