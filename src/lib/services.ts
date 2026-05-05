@@ -184,7 +184,7 @@ export const services: ServicePage[] = [
         d: "Drop cloths, shoe covers, debris removal. We leave your bathroom cleaner than we found it.",
       },
     ],
-    seoTitle: "Bathroom Plumbing Calgary | Expert Bathroom Plumbing Services",
+    seoTitle: "Bathroom Plumbing Calgary | Installation & Repair",
     seoDescription:
       "Expert bathroom plumbing in Calgary. Toilets, showers, vanities, drain cleaning & renovations. Priority emergency response. Call FlameTech today!",
     seoKeywords: [
@@ -312,7 +312,7 @@ export const services: ServicePage[] = [
         d: "Chinooks, hard water, poly-b supply lines — we know what goes wrong in Alberta and how to build systems that last.",
       },
     ],
-    seoTitle: "Shower Plumbing Calgary | Expert Shower Installation & Repair",
+    seoTitle: "Shower Plumbing Calgary | Installation & Repair",
     seoDescription:
       "Professional shower plumbing services in Calgary. Installation, repair, pressure problems & leaks. Priority emergency response. Call Flame Tech today!",
     seoKeywords: [
@@ -580,7 +580,7 @@ export const services: ServicePage[] = [
         d: "No surprise surcharges. We quote before we start — even in a crisis.",
       },
     ],
-    seoTitle: "Emergency Plumbers Calgary | Fast Emergency Plumbing Services",
+    seoTitle: "Emergency Plumbers Calgary | Fast Plumbing Services",
     seoDescription:
       "Need an emergency plumber in Calgary? Flame Tech offers priority emergency plumbing services. Fast response for burst pipes, leaks & more. Call now!",
     seoKeywords: [
@@ -974,7 +974,7 @@ export const services: ServicePage[] = [
         d: "Pumps, controls, sensors, and safety devices for most major brands — same-visit repairs whenever possible.",
       },
     ],
-    seoTitle: "Calgary Boiler Repair | Priority Emergency Service | Flame Tech",
+    seoTitle: "Calgary Boiler Repair | Priority Emergency Service",
     seoDescription:
       "Expert boiler repair in Calgary. 25+ years experience with all brands. Priority emergency service. Certified technicians. Call now!",
     seoKeywords: [
@@ -1387,7 +1387,7 @@ export const services: ServicePage[] = [
         d: "Your peace of mind is our priority. All our technicians are fully licensed and insured, guaranteeing professional and safe service that adheres to the highest industry standards.",
       },
     ],
-    seoTitle: "Furnace Calgary: Expert Repair, Install & Service | FlameTech",
+    seoTitle: "Calgary Furnace Repair, Install & Service | FlameTech",
     seoDescription:
       "Trusted Calgary furnace experts! FlameTech offers reliable installation, emergency repair & maintenance. Licensed, insured & local!",
     seoKeywords: [
@@ -2749,7 +2749,7 @@ export const services: ServicePage[] = [
         d: "We recommend softener pairing and annual descaling to protect the heat exchanger from mineral buildup.",
       },
     ],
-    seoTitle: "Tankless Water Heaters Calgary | Expert Installation & Service",
+    seoTitle: "Tankless Water Heaters Calgary | Installation & Service",
     seoDescription:
       "Calgary's trusted tankless water heater experts. Professional installation, maintenance & repair. Endless hot water, energy efficient. Call Flame Tech today!",
     seoKeywords: [
@@ -2979,7 +2979,7 @@ export const services: ServicePage[] = [
         d: "Clear, detailed estimates before any work begins. No hidden fees, no surprises.",
       },
     ],
-    seoTitle: "Airdrie Plumbers | Emergency Service & Trusted Local Plumbing",
+    seoTitle: "Airdrie Plumbers | Emergency & Local Plumbing Service",
     seoDescription:
       "Expert plumbers serving Airdrie, Alberta. Fast, reliable plumbing repairs, installations & priority emergency service. Call 587-834-3668 today!",
     seoKeywords: [
@@ -3439,7 +3439,7 @@ export const services: ServicePage[] = [
         d: "Every technician maintains current certifications and complete insurance coverage to meet provincial codes.",
       },
     ],
-    seoTitle: "Heat Pumps Airdrie | Installation, Repair & Service | Flame Tech",
+    seoTitle: "Heat Pumps Airdrie | Installation, Repair & Service",
     seoDescription:
       "Expert heat pump installation, repair & maintenance in Airdrie. Flame Tech offers energy-efficient heating & cooling with priority emergency service. Free quotes.",
     seoKeywords: [
@@ -3630,6 +3630,37 @@ export const services: ServicePage[] = [
           ],
         },
       ],
+      faq: {
+        heading: "Airdrie Hot Water Tanks — Frequently Asked",
+        intro:
+          "Quick answers on cost, sizing, and lifespan for Airdrie homes. Don't see your question? Call us at 587-834-3668 — we'll talk it through.",
+        items: [
+          {
+            q: "How much does a hot water tank cost in Airdrie?",
+            a: "Standard 40–50 gallon gas tank installs typically run $1,400–$2,200 in Airdrie, including disposal of the old unit, code-compliant venting, and permits. Power-vent units, longer warranties, or a switch from electric to gas push the price higher. We give you the all-in number in writing before any work starts.",
+          },
+          {
+            q: "How long do hot water tanks last in Airdrie?",
+            a: "Builder-grade tanks usually fail at 8–10 years in Airdrie thanks to the area's hard water (15–25 grains/gallon). With annual flushing and an anode rod swap every 3–4 years, you can stretch a quality tank to 12–15 years. A water softener upstream typically adds another 3–5.",
+          },
+          {
+            q: "What size hot water tank do I need?",
+            a: "Most 3–4 person Airdrie homes do well with a 50-gallon gas tank or a 60-gallon electric. Two-bath homes with kids or a soaker tub: step up to 60 gas. We size based on first-hour rating and peak usage, not just family size — a tank that runs out at 7am is the wrong tank.",
+          },
+          {
+            q: "Should I replace my tank or repair it?",
+            a: "If your tank is leaking from the bottom, replace it — the inner liner is gone. Pilot, thermocouple, gas valve, or thermostat issues on a tank under 10 years old: usually worth the repair. Past 12 years, even a working tank is on borrowed time and the math favours replacement.",
+          },
+          {
+            q: "Tankless or tank — which is better for an Airdrie home?",
+            a: "Tankless wins on endless hot water, smaller footprint, and 20+ year lifespan, but install runs $4,000–$6,000 with venting and gas-line upgrades. Tanks are cheaper up-front and simpler to service. For most Airdrie families we recommend tankless if you're already opening up walls or planning a 15+ year stay; otherwise a quality tank is the value play.",
+          },
+          {
+            q: "Do you handle emergency hot water tank failures in Airdrie?",
+            a: "Yes — priority dispatch typically gets a tech to your door in 60–90 minutes anywhere in Airdrie, including Coopers Crossing, Ravenswood, and Reunion. We carry the most common 40 and 50 gallon tanks on the truck so a same-day swap is usually possible.",
+          },
+        ],
+      },
     },
   },
 
@@ -4044,7 +4075,7 @@ export const services: ServicePage[] = [
         d: "Clear, detailed estimates before any work begins. No hidden fees, no surprises — just honest pricing you can trust.",
       },
     ],
-    seoTitle: "Altadore Plumbers Calgary | Priority Emergency Services Available",
+    seoTitle: "Altadore Plumbers Calgary | Priority Emergency Service",
     seoDescription:
       "Need a dependable plumber in Altadore, Calgary? Look no further than 5-Star rated FlameTech Plumbing & Heating. Priority service available.",
     seoKeywords: [
@@ -4293,7 +4324,7 @@ export const services: ServicePage[] = [
         d: "Our trucks run from SE Calgary, so we're usually at Auburn Bay homes fast — even in the middle of a blizzard.",
       },
     ],
-    seoTitle: "Auburn Bay Plumber Calgary | Priority Emergency Service | FlameTech",
+    seoTitle: "Auburn Bay Plumber Calgary | Priority Emergency Service",
     seoDescription:
       "Auburn Bay plumber serving SE Calgary. Priority emergency service, water heaters, drain cleaning, leak repairs. Local experts. Call 587-834-3668 today.",
     seoKeywords: [
@@ -5087,7 +5118,7 @@ export const services: ServicePage[] = [
         d: "Clear quotes before work starts, solid warranties on every repair, and a real FlameTech plumber on the phone — not an answering service.",
       },
     ],
-    seoTitle: "Chaparral Plumbers Calgary | Priority Emergency Service | FlameTech",
+    seoTitle: "Chaparral Plumbers Calgary | Priority Emergency Service",
     seoDescription:
       "Trusted Chaparral plumbers in Calgary. Priority emergency service, drain cleaning, water heaters, leak repairs. Local SE Calgary experts. Call 587-834-3668 now!",
     seoKeywords: [
@@ -5347,7 +5378,7 @@ export const services: ServicePage[] = [
         d: "Clear breakdown of what needs to be done and exactly what it will cost before we pick up a tool. No hidden charges or last-minute add-ons.",
       },
     ],
-    seoTitle: "Cranston Plumber Calgary | Priority Emergency Service | Flame Tech",
+    seoTitle: "Cranston Plumber Calgary | Priority Emergency Service",
     seoDescription:
       "Need a Cranston plumber in Calgary? Flame Tech provides priority emergency plumbing, drain cleaning, hot water tank repair & more.",
     seoKeywords: [
@@ -5472,7 +5503,7 @@ export const services: ServicePage[] = [
         d: "30-60 minute ETA during regular hours and 60-90 minutes after-hours for genuine emergencies. No phone trees, no automated systems.",
       },
     ],
-    seoTitle: "Edgemont Plumbers Calgary | Priority Emergency Service | FlameTech",
+    seoTitle: "Edgemont Plumbers Calgary | Priority Emergency Service",
     seoDescription:
       "Professional plumbers serving Edgemont Calgary. Priority emergency repairs, drain cleaning, water heaters. Licensed & insured. Call 587-834-3668 today!",
     seoKeywords: [
@@ -5603,7 +5634,7 @@ export const services: ServicePage[] = [
         d: "You'll know the cost before we start work, and we guarantee our repairs for a full year.",
       },
     ],
-    seoTitle: "Evanston Plumbers Calgary | Priority Emergency Service | FlameTech",
+    seoTitle: "Evanston Plumbers Calgary | Priority Emergency Service",
     seoDescription:
       "Expert Evanston plumbers in Calgary. Priority service, water heaters, drain cleaning & more. Local NW Calgary specialists. Call 587-834-3668 today!",
     seoKeywords: [
@@ -5737,7 +5768,7 @@ export const services: ServicePage[] = [
         d: "We stand behind every service with a satisfaction guarantee plus manufacturer warranties on parts and equipment we install.",
       },
     ],
-    seoTitle: "Evergreen Plumbers Calgary | Priority Service Available | Flame Tech",
+    seoTitle: "Evergreen Plumbers Calgary | Priority Plumbing Service",
     seoDescription:
       "Evergreen plumbers serving Calgary families with priority emergency repairs, water heaters & more. Honest pricing, quality work. Call 587-834-3668!",
     seoKeywords: [
@@ -5875,7 +5906,7 @@ export const services: ServicePage[] = [
         d: "We've worked streets from Hunterville Road to Country Hills Boulevard and we know what to expect before pulling into your driveway.",
       },
     ],
-    seoTitle: "Plumbers Huntington Hills Calgary | Priority Service | FlameTech",
+    seoTitle: "Huntington Hills Plumbers Calgary | Priority Service",
     seoDescription:
       "Expert plumbers serving Huntington Hills Calgary. Priority emergency service, drain cleaning, water heaters & more. Local team, fair pricing. Call 587-834-3668 today!",
     seoKeywords: [
@@ -6010,7 +6041,7 @@ export const services: ServicePage[] = [
         d: "Constant construction and tight back lanes mean we know how to get our equipment where it needs to go.",
       },
     ],
-    seoTitle: "Killarney Plumbers Calgary | Priority Emergency Service | FlameTech",
+    seoTitle: "Killarney Plumbers Calgary | Priority Emergency Service",
     seoDescription:
       "Expert plumbers serving Killarney, Calgary. Specializing in galvanized pipe replacement, sewer line repairs & infill plumbing. Priority emergency service. Call 587-834-3668",
     seoKeywords: [
@@ -6145,7 +6176,7 @@ export const services: ServicePage[] = [
         d: "Mahogany's low elevation and high water table stress sump pumps. We keep backup pumps in our trucks and can usually get your system running within an hour of arrival.",
       },
     ],
-    seoTitle: "Mahogany Plumbers Calgary - Priority Emergency Service | FlameTech",
+    seoTitle: "Mahogany Plumbers Calgary | Priority Emergency Service",
     seoDescription:
       "Expert plumbers serving Mahogany Calgary. Priority emergency repairs, drain cleaning, water heater service. Local Calgary plumbers you can trust. Call now!",
     seoKeywords: [
@@ -7145,7 +7176,7 @@ export const services: ServicePage[] = [
         d: "Clear estimates before any work begins. No hidden fees, no pressure tactics — just satisfaction guarantees and manufacturer warranties.",
       },
     ],
-    seoTitle: "Tuscany Plumbers Calgary | Priority Emergency Service | Flame Tech",
+    seoTitle: "Tuscany Plumbers Calgary | Priority Emergency Service",
     seoDescription:
       "Professional plumbers serving Tuscany Calgary. 25+ years experience with local homes. Emergency repairs, heating, water heaters & priority service.",
     seoKeywords: [
@@ -7275,7 +7306,7 @@ export const services: ServicePage[] = [
         d: "Calls get answered by real people who live in Calgary — not a call center. Dispatch from the NW means typical arrival within 30-45 minutes.",
       },
     ],
-    seoTitle: "Varsity Plumbers Calgary | Priority Emergency & Repair Services",
+    seoTitle: "Varsity Plumbers Calgary | Priority Emergency & Repair",
     seoDescription:
       "Expert plumbers in Varsity Calgary. Priority service, drain cleaning, water heaters, leak repairs. Local experts serving NW Calgary. Call 587-834-3668 now!",
     seoKeywords: [
@@ -7413,7 +7444,7 @@ export const services: ServicePage[] = [
         d: "Complimentary quotes, clear pricing guaranteed, and no surprises — just master-level workmanship with comprehensive warranties.",
       },
     ],
-    seoTitle: "West Springs Plumbers Calgary | Residential & Priority Emergency Service",
+    seoTitle: "West Springs Plumbers Calgary | Priority Emergency",
     seoDescription:
       "FlameTech offers highly rated plumbing services for the community of West Springs Calgary. Priority service, honest pricing — we have service guarantees and are available now!",
     seoKeywords: [
@@ -7543,7 +7574,7 @@ export const services: ServicePage[] = [
         d: "When you call us, you speak with a real person — not an answering service — who can dispatch a skilled plumber to your Woodbine home quickly.",
       },
     ],
-    seoTitle: "Woodbine Calgary Plumbers | Priority Emergency Service Available",
+    seoTitle: "Woodbine Plumbers Calgary | Priority Emergency Service",
     seoDescription:
       "Expert plumbers serving Woodbine, Calgary. Fast, reliable plumbing repairs, installations & priority emergency service. Call 587-834-3668 today!",
     seoKeywords: [
@@ -7672,7 +7703,7 @@ export const services: ServicePage[] = [
         d: "Transparent, comprehensive quotes before starting any project. Zero hidden charges or unexpected costs — only straightforward pricing you can count on.",
       },
     ],
-    seoTitle: "Coopers Crossing Plumbers Airdrie | Priority Emergency Service",
+    seoTitle: "Coopers Crossing Plumbers Airdrie | Priority Emergency",
     seoDescription:
       "Expert plumbers serving Coopers Crossing, Airdrie. Priority emergency service, water heaters, drain cleaning, leak repairs. Call 587-834-3668 today!",
     seoKeywords: [
@@ -7963,7 +7994,7 @@ export const services: ServicePage[] = [
         d: "Common 40 and 50-gallon tanks live on our service trucks, so most replacements finish the same day we get the call.",
       },
     ],
-    seoTitle: "Water Heater Installation Calgary | Expert Hot Water Tank Setup",
+    seoTitle: "Water Heater Installation Calgary | Hot Water Tanks",
     seoDescription:
       "Professional water heater installation in Calgary. Tank, tankless, and replacement services. Licensed gas fitters, same-day install, priority emergency response.",
     seoKeywords: [
@@ -8089,7 +8120,7 @@ export const services: ServicePage[] = [
         d: "Every unit installed accounts for our temperature swings, dry air, and seven-month heating season — not just generic specs.",
       },
     ],
-    seoTitle: "Air Ease Furnaces Calgary | Authorized Dealer & Service | FlameTech",
+    seoTitle: "Air Ease Furnaces Calgary | Authorized Dealer & Service",
     seoDescription:
       "Authorized AirEase furnace dealer in Calgary. Installation, repair, and maintenance on the full lineup. AFUE up to 98%, manufacturer warranty support, free quotes.",
     seoKeywords: [
