@@ -32,7 +32,7 @@ export async function generateMetadata({
     return { title: "Article" };
   }
   if (!article) return { title: "Article" };
-  const url = `${SITE_URL}/articles/${article.slug}`;
+  const url = `${SITE_URL}/blog/${article.slug}`;
   const description = cleanExcerpt(article.excerpt).slice(0, 160);
   const ogImage = `${url}/opengraph-image`;
   return {
@@ -81,7 +81,7 @@ export default async function ArticlePage({
     related = [];
   }
 
-  const url = `${SITE_URL}/articles/${article.slug}`;
+  const url = `${SITE_URL}/blog/${article.slug}`;
   const heroImg = article.featured_image
     ? `${SITE_URL}${article.featured_image}`
     : `${SITE_URL}/images/FT-LOGO-DARK8.png`;
@@ -123,14 +123,14 @@ export default async function ArticlePage({
           {
             "@type": "ListItem",
             position: 2,
-            name: "Resources",
-            item: `${SITE_URL}/articles`,
+            name: "Blog",
+            item: `${SITE_URL}/blog`,
           },
           {
             "@type": "ListItem",
             position: 3,
             name: article.category,
-            item: `${SITE_URL}/categories/${article.category_slug}`,
+            item: `${SITE_URL}/blog/categories/${article.category_slug}`,
           },
           { "@type": "ListItem", position: 4, name: article.title, item: url },
         ],
@@ -163,10 +163,10 @@ export default async function ArticlePage({
               variant="dark"
               items={[
                 { label: "Home", href: "/" },
-                { label: "Resources", href: "/articles" },
+                { label: "Blog", href: "/blog" },
                 {
                   label: article.category,
-                  href: `/categories/${article.category_slug}`,
+                  href: `/blog/categories/${article.category_slug}`,
                 },
                 { label: article.title },
               ]}
@@ -174,7 +174,7 @@ export default async function ArticlePage({
           </div>
           <div className="flex flex-wrap items-center gap-3 mb-6">
             <Link
-              href={`/categories/${article.category_slug}`}
+              href={`/blog/categories/${article.category_slug}`}
               className="rounded-full bg-emergency/15 text-emergency px-4 py-1.5 text-xs font-bold uppercase tracking-wider hover:bg-emergency hover:text-ink-900 transition-colors"
             >
               {article.category}
@@ -255,7 +255,7 @@ export default async function ArticlePage({
                 </h2>
               </div>
               <Link
-                href="/articles"
+                href="/blog"
                 className="hidden md:inline-flex items-center gap-2 text-sm font-bold text-emergency-deep"
               >
                 All articles
@@ -266,7 +266,7 @@ export default async function ArticlePage({
               {related.map((a) => (
                 <Link
                   key={a.id}
-                  href={`/articles/${a.slug}`}
+                  href={`/blog/${a.slug}`}
                   className="group col-span-12 md:col-span-4 rounded-2xl bg-white border border-line-light p-7 hover:border-emergency transition-colors"
                 >
                   <span className="rounded-full bg-emergency/10 text-emergency-deep px-3 py-1 text-xs font-bold uppercase tracking-wider inline-block mb-5">

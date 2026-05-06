@@ -10,7 +10,7 @@ export default function ArticleCard({ article }: { article: Article }) {
   });
   return (
     <Link
-      href={`/articles/${article.slug}`}
+      href={`/blog/${article.slug}`}
       className="lift group col-span-12 md:col-span-6 lg:col-span-4 rounded-2xl bg-white border border-line-light overflow-hidden flex flex-col hover:border-emergency"
     >
       <div className="p-7 flex flex-col flex-grow">

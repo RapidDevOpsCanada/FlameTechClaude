@@ -9,7 +9,7 @@ export default function Image() {
   return new ImageResponse(
     (
       <OgCard
-        eyebrow="Resources"
+        eyebrow="Blog"
         title="Practical advice from Calgary's trusted plumbers."
         meta="Maintenance guides  ·  Seasonal tips  ·  Plain-language explainers"
       />

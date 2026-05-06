@@ -47,7 +47,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${SITE_URL}/about`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${SITE_URL}/contact`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: `${SITE_URL}/financing`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${SITE_URL}/articles`, lastModified: now, changeFrequency: "weekly", priority: 0.7 },
+    { url: `${SITE_URL}/blog`, lastModified: now, changeFrequency: "weekly", priority: 0.7 },
     { url: `${SITE_URL}/privacy`, lastModified: now, changeFrequency: "yearly", priority: 0.3 },
   ];
 
@@ -64,7 +64,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   try {
     const articles = await getAllArticles();
     articleUrls = articles.map((a) => ({
-      url: `${SITE_URL}/articles/${a.slug}`,
+      url: `${SITE_URL}/blog/${a.slug}`,
       lastModified: new Date(a.created_at),
       changeFrequency: "yearly" as const,
       priority: 0.6,
@@ -77,7 +77,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   try {
     const categories = await getCategories();
     categoryUrls = categories.map((c) => ({
-      url: `${SITE_URL}/categories/${c.slug}`,
+      url: `${SITE_URL}/blog/categories/${c.slug}`,
       lastModified: now,
       changeFrequency: "weekly" as const,
       priority: 0.6,

@@ -51,7 +51,7 @@ const companyLinks = [
   { label: "About", href: "/about" },
   { label: "Contact", href: "/contact" },
   { label: "Financing", href: "/financing" },
-  { label: "Blog", href: "/articles" },
+  { label: "Blog", href: "/blog" },
   { label: "Get a Quote", href: "/contact#quote" },
 ];
 

@@ -23,7 +23,7 @@ const articles: SeedArticle[] = [
     slug: "ac-drip-pan-filling-up",
     title: "Why Does My AC Drip Pan Keep Filling Up?",
     excerpt: "If you've noticed water pooling in your air conditioner's drip pan, you're not alone. This is one of the most common AC issues Calgary homeowners face, especially during our hot summer months when your cooling system is…",
-    body: `<p>If you've noticed water pooling in your air conditioner's drip pan, you're not alone. This is one of the most common <a href="/categories/air-conditioning">AC issues Calgary</a> homeowners face, especially during our hot summer months when your cooling system is working overtime. While a small amount of condensation is normal, a drip pan that keeps filling up signals a problem that needs attention.</p>
+    body: `<p>If you've noticed water pooling in your air conditioner's drip pan, you're not alone. This is one of the most common <a href="/blog/categories/air-conditioning">AC issues Calgary</a> homeowners face, especially during our hot summer months when your cooling system is working overtime. While a small amount of condensation is normal, a drip pan that keeps filling up signals a problem that needs attention.</p>
 
 <p>At Flame Tech Plumbing, we've helped countless Calgary residents solve this frustrating issue. Let's explore why <a href="/air-conditioning">your AC</a> drip pan keeps filling up and what you can do about it.</p>
 
@@ -170,7 +170,7 @@ const articles: SeedArticle[] = [
     slug: "why-does-my-ac-compressor-shut-off-after-30-minutes",
     title: "Why Does My AC Compressor Shut Off After 30 Minutes?",
     excerpt: "When your air conditioning system starts cycling on and off after running for just 30 minutes, it's more than just an inconvenience—it's a sign that something isn't working properly. This frustrating issue, known as…",
-    body: `<p>When your <a href="/categories/air-conditioning">air conditioning system</a> starts cycling on and off after running for just 30 minutes, it's more than just an inconvenience—it's a sign that something isn't working properly. This frustrating issue, known as short cycling, can lead to higher energy bills, reduced comfort, and potentially costly repairs if left unaddressed.</p>
+    body: `<p>When your <a href="/blog/categories/air-conditioning">air conditioning system</a> starts cycling on and off after running for just 30 minutes, it's more than just an inconvenience—it's a sign that something isn't working properly. This frustrating issue, known as short cycling, can lead to higher energy bills, reduced comfort, and potentially costly repairs if left unaddressed.</p>
 
 <p>At Flame Tech Plumbing, we've helped countless Calgary homeowners diagnose and resolve AC compressor issues. In this guide, we'll walk you through the most common reasons why your AC compressor shuts off prematurely and what you can do about it.</p>
 
@@ -273,7 +273,7 @@ const articles: SeedArticle[] = [
     slug: "why-does-my-ac-feel-humid-understanding-your-air-conditioning-system",
     title: "Why Does My AC Feel Humid? Understanding Your Air Conditioning System",
     excerpt: "When you turn on your air conditioner on a hot Calgary summer day, you expect to feel cool, comfortable, and refreshed. But what happens when your AC is running, yet the air still feels sticky and humid? This…",
-    body: `<p>When you turn on your <a href="/categories/air-conditioning">air conditioner</a> on a hot Calgary summer day, you expect to feel cool, comfortable, and refreshed. But what happens when your AC is running, yet the air still feels sticky and humid? This frustrating problem is more common than you might think, and understanding the causes can help you get your home comfort back on track.</p>
+    body: `<p>When you turn on your <a href="/blog/categories/air-conditioning">air conditioner</a> on a hot Calgary summer day, you expect to feel cool, comfortable, and refreshed. But what happens when your AC is running, yet the air still feels sticky and humid? This frustrating problem is more common than you might think, and understanding the causes can help you get your home comfort back on track.</p>
 
 <h2 class="wp-block-heading">How <a href="/air-conditioning">Air Conditioning</a> Controls Humidity</h2>
 
@@ -1492,7 +1492,7 @@ const articles: SeedArticle[] = [
 
 <p>Another common mistake is ignoring early warning signs. A boiler that occasionally turns off might seem like a minor annoyance, but it often indicates a developing problem that will get worse over time.</p>
 
-<p>Safety is also a major concern. Boilers deal with gas, high temperatures, and pressurized water. Attempting complex internal repairs without proper training can be dangerous. If you're experiencing issues related to <a href="/articles/furnace-smell-like-gas">gas smells from your heating system</a>, always call a professional immediately.</p>
+<p>Safety is also a major concern. Boilers deal with gas, high temperatures, and pressurized water. Attempting complex internal repairs without proper training can be dangerous. If you're experiencing issues related to <a href="/blog/furnace-smell-like-gas">gas smells from your heating system</a>, always call a professional immediately.</p>
 
 <h2 class="wp-block-heading">Tools and Materials You'll Need</h2>
 
@@ -1536,7 +1536,7 @@ const articles: SeedArticle[] = [
 
 <p>Check that the thermostat is set to "heat" or "auto" mode, not "off" or "cool." Also make sure the target temperature is set higher than the current room temperature. Replace the batteries if it's a wireless model — dead batteries are a surprisingly common culprit.</p>
 
-<p>If your thermostat is outdated, consider upgrading to a smart thermostat. This can improve boiler efficiency and help prevent cycling issues. For related heating system tips, check out our guide on <a href="/articles/boiler-popping-noises">why boilers make popping noises</a>.</p>
+<p>If your thermostat is outdated, consider upgrading to a smart thermostat. This can improve boiler efficiency and help prevent cycling issues. For related heating system tips, check out our guide on <a href="/blog/boiler-popping-noises">why boilers make popping noises</a>.</p>
 
 <h3 class="wp-block-heading">Step 3: Examine the Motorized Valves</h3>
 
@@ -1599,14 +1599,14 @@ const articles: SeedArticle[] = [
 
 <li><strong>Monitor pressure monthly</strong> — get into the habit of glancing at the pressure gauge. Top up if it drops below 1 bar.</li>
 
-<li><strong>Don't ignore strange noises</strong> — banging, gurgling, or <a href="/articles/boiler-popping-noises">popping sounds</a> often indicate a developing issue.</li>
+<li><strong>Don't ignore strange noises</strong> — banging, gurgling, or <a href="/blog/boiler-popping-noises">popping sounds</a> often indicate a developing issue.</li>
 </ul>
 
 <h2 class="wp-block-heading">Still Not Working? Troubleshooting Persistent Boiler Shutdowns</h2>
 
 <p><strong>Boiler fires up then shuts off within 5 seconds:</strong> This usually points to a flame detection issue. The ignition electrode or flame sensor may need cleaning or replacement. Do not attempt this yourself — it involves gas components.</p>
 
-<p><strong>Boiler runs for 10–15 minutes then shuts off:</strong> This pattern suggests overheating, often caused by poor circulation. Check that all radiator valves are open and the pump is running. A power flush may be needed. This is similar to issues seen when <a href="/articles/furnace-smell-like-burning-plastic">furnaces overheat and produce burning smells</a>.</p>
+<p><strong>Boiler runs for 10–15 minutes then shuts off:</strong> This pattern suggests overheating, often caused by poor circulation. Check that all radiator valves are open and the pump is running. A power flush may be needed. This is similar to issues seen when <a href="/blog/furnace-smell-like-burning-plastic">furnaces overheat and produce burning smells</a>.</p>
 
 <p><strong>Boiler shows an error code and locks out:</strong> Every boiler brand uses different error codes. Check your manual or search online for your specific model's code. Common lockout codes relate to ignition failure, low pressure, or sensor faults.</p>
 
@@ -1776,7 +1776,7 @@ const articles: SeedArticle[] = [
         "@type": "ListItem",
         "position": 3,
         "name": "Why Does My Boiler Keep Turning Off",
-        "item": "/articles/why-does-my-boiler-keep-turning-off"
+        "item": "/blog/why-does-my-boiler-keep-turning-off"
       }
     ]
   }
@@ -1826,7 +1826,7 @@ const articles: SeedArticle[] = [
 
 <p>When your heating runs, water expands. The expansion vessel absorbs this extra volume by compressing the air on the other side of the diaphragm. When this diaphragm perishes or the air charge is lost, the vessel stops working.</p>
 
-<p>Without a functioning expansion vessel, expanding water has nowhere to go. Pressure spikes when the heating is on, triggering the PRV to dump water. Once the system cools, the lost water means lower overall pressure. This creates a frustrating cycle that many homeowners mistake for a simple leak. If your <a href="/articles/why-does-my-boiler-keep-turning-off">boiler also keeps turning off</a>, the expansion vessel could be causing both issues.</p>
+<p>Without a functioning expansion vessel, expanding water has nowhere to go. Pressure spikes when the heating is on, triggering the PRV to dump water. Once the system cools, the lost water means lower overall pressure. This creates a frustrating cycle that many homeowners mistake for a simple leak. If your <a href="/blog/why-does-my-boiler-keep-turning-off">boiler also keeps turning off</a>, the expansion vessel could be causing both issues.</p>
 
 <h3 class="wp-block-heading">Cause 4: Internal Corrosion</h3>
 
@@ -1852,7 +1852,7 @@ const articles: SeedArticle[] = [
 
 <p><strong>Step 4: Monitor pressure with heating on vs off.</strong> If pressure spikes above 2.5 bar when heating runs then drops significantly when off, the expansion vessel is the likely culprit.</p>
 
-<p><strong>Step 5: Professional pressure test.</strong> If you can't find the cause, a heating engineer can isolate sections of the system and perform a drop test to pinpoint exactly where water is escaping. This is the definitive diagnostic for hidden leaks. You may also want to read about <a href="/articles/boiler-popping-noises">boiler popping noises</a> which can be related to pressure issues.</p>
+<p><strong>Step 5: Professional pressure test.</strong> If you can't find the cause, a heating engineer can isolate sections of the system and perform a drop test to pinpoint exactly where water is escaping. This is the definitive diagnostic for hidden leaks. You may also want to read about <a href="/blog/boiler-popping-noises">boiler popping noises</a> which can be related to pressure issues.</p>
 
 <h2 class="wp-block-heading">Prevention Tips: Stop Pressure Loss Before It Starts</h2>
 
@@ -1872,7 +1872,7 @@ const articles: SeedArticle[] = [
 
 <p>Call a Gas Safe registered engineer if: pressure drops more than 0.5 bar per week after repressurising, the PRV discharge pipe is continuously dripping, pressure spikes above 2.5 bar when the heating is on, you can see or smell water anywhere near the boiler, or your boiler displays error codes related to pressure.</p>
 
-<p>Don't delay professional help for persistent pressure loss. Running a boiler with consistently low pressure damages the heat exchanger and pump, turning a $200 repair into a $2,000+ boiler replacement. Our <a href="/articles/furnace-smell-like-gas">guide to furnace gas smells</a> covers other important safety issues to watch for.</p>
+<p>Don't delay professional help for persistent pressure loss. Running a boiler with consistently low pressure damages the heat exchanger and pump, turning a $200 repair into a $2,000+ boiler replacement. Our <a href="/blog/furnace-smell-like-gas">guide to furnace gas smells</a> covers other important safety issues to watch for.</p>
 
 <h2 class="wp-block-heading">Frequently Asked Questions</h2>
 
@@ -2034,7 +2034,7 @@ const articles: SeedArticle[] = [
 
 <p>Also call a professional if the fuse blows again within a few days, if you smell burning or see scorch marks on the control board, or if you hear buzzing or clicking sounds before the fuse pops. These signs point to a failing component that simple fuse replacement cannot fix.</p>
 
-<p>For other furnace warning signs, check out our article on <a href="/articles/furnace-smell-like-burning-plastic">furnace burning plastic smells</a>.</p>
+<p>For other furnace warning signs, check out our article on <a href="/blog/furnace-smell-like-burning-plastic">furnace burning plastic smells</a>.</p>
 
 <h2 class="wp-block-heading">Frequently Asked Questions</h2>
 

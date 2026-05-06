@@ -10,7 +10,7 @@ export default function CategoryFilter({
   return (
     <div className="flex flex-wrap gap-2 mb-12">
       <Link
-        href="/articles"
+        href="/blog"
         className={`rounded-full px-5 py-2 text-sm font-semibold transition-colors ${
           !active
             ? "bg-ink-900 text-cream-50"
@@ -22,7 +22,7 @@ export default function CategoryFilter({
       {categories.map((c) => (
         <Link
           key={c.slug}
-          href={`/categories/${c.slug}`}
+          href={`/blog/categories/${c.slug}`}
           className={`rounded-full px-5 py-2 text-sm font-semibold transition-colors ${
             active === c.slug
               ? "bg-ink-900 text-cream-50"

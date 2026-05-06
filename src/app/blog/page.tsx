@@ -14,36 +14,36 @@ const SITE_URL = "https://flame-tech-claude-xd6r.vercel.app";
 export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
-  title: "Resources & Guides | FlameTech Plumbing & Heating",
+  title: "Blog & Guides | FlameTech Plumbing & Heating",
   description:
     "Field-tested plumbing, heating, and HVAC guides from Calgary's FlameTech team. Maintenance tips, troubleshooting walk-throughs, and seasonal advice.",
-  alternates: { canonical: `${SITE_URL}/articles` },
+  alternates: { canonical: `${SITE_URL}/blog` },
   openGraph: {
     type: "website",
-    url: `${SITE_URL}/articles`,
-    title: "Resources & Guides | FlameTech Plumbing & Heating",
+    url: `${SITE_URL}/blog`,
+    title: "Blog & Guides | FlameTech Plumbing & Heating",
     description:
       "Practical plumbing and HVAC guides from FlameTech's Calgary technicians.",
     images: [
       {
-        url: `${SITE_URL}/articles/opengraph-image`,
+        url: `${SITE_URL}/blog/opengraph-image`,
         width: 1200,
         height: 630,
-        alt: "FlameTech Resources & Guides",
+        alt: "FlameTech Blog & Guides",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Resources & Guides | FlameTech Plumbing & Heating",
+    title: "Blog & Guides | FlameTech Plumbing & Heating",
     description:
       "Practical plumbing and HVAC guides from FlameTech's Calgary technicians.",
     images: [
       {
-        url: `${SITE_URL}/articles/opengraph-image`,
+        url: `${SITE_URL}/blog/opengraph-image`,
         width: 1200,
         height: 630,
-        alt: "FlameTech Resources & Guides",
+        alt: "FlameTech Blog & Guides",
       },
     ],
   },
@@ -67,7 +67,7 @@ export default async function ArticlesPage() {
     <>
       <Nav />
       <PageHeader
-        eyebrow="Resources"
+        eyebrow="Blog"
         title="Practical advice from Calgary's trusted plumbers."
         description="Field-tested tips, seasonal maintenance guides, and plain-language explainers from the FlameTech team."
       />

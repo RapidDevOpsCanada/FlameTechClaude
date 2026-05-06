@@ -25,7 +25,7 @@ export default async function BlogStrip() {
               </h2>
             </div>
             <Link
-              href="/articles"
+              href="/blog"
               className="inline-flex items-center gap-2 rounded-full border border-ink-900 text-ink-900 font-semibold px-5 py-2.5 text-sm hover:bg-ink-900 hover:text-cream-50 transition-colors self-start"
             >
               All articles
@@ -42,7 +42,7 @@ export default async function BlogStrip() {
               className="col-span-12 md:col-span-4"
             >
               <Link
-                href={`/articles/${a.slug}`}
+                href={`/blog/${a.slug}`}
                 className="group block rounded-2xl bg-white border border-line-light p-7 h-full lift"
               >
                 <div className="flex items-center gap-3 mb-5">

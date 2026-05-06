@@ -48,7 +48,7 @@ const STATIC_PAGES: SearchEntry[] = [
     meta: "Maintenance guides and how-tos",
     haystack:
       "resources blog articles guides maintenance how-to ac boiler furnace troubleshooting",
-    href: "/articles",
+    href: "/blog",
     kind: "Resource",
   },
   {

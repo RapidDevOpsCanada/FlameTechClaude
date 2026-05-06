@@ -43,7 +43,7 @@ export async function generateMetadata({
       description,
       images: [
         {
-          url: `${SITE_URL}/articles/opengraph-image`,
+          url: `${SITE_URL}/blog/opengraph-image`,
           width: 1200,
           height: 630,
           alt: title,
@@ -56,7 +56,7 @@ export async function generateMetadata({
       description,
       images: [
         {
-          url: `${SITE_URL}/articles/opengraph-image`,
+          url: `${SITE_URL}/blog/opengraph-image`,
           width: 1200,
           height: 630,
           alt: title,
@@ -108,7 +108,7 @@ export default async function CategoryPage({
         itemListElement: articles.map((a, i) => ({
           "@type": "ListItem",
           position: i + 1,
-          url: `${SITE_URL}/articles/${a.slug}`,
+          url: `${SITE_URL}/blog/${a.slug}`,
           name: a.title,
         })),
       },
@@ -120,8 +120,8 @@ export default async function CategoryPage({
           {
             "@type": "ListItem",
             position: 2,
-            name: "Resources",
-            item: `${SITE_URL}/articles`,
+            name: "Blog",
+            item: `${SITE_URL}/blog`,
           },
           { "@type": "ListItem", position: 3, name: category.name, item: url },
         ],
@@ -153,7 +153,7 @@ export default async function CategoryPage({
                 No articles in this category yet.
               </h3>
               <Link
-                href="/articles"
+                href="/blog"
                 className="inline-flex items-center gap-2 text-emergency-deep font-bold"
               >
                 Browse all articles
