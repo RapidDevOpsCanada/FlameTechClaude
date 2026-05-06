@@ -21,6 +21,17 @@ const nextConfig = {
         destination: "/blog/categories/:slug",
         permanent: true,
       },
+      // WP legacy URLs that don't have a 1:1 page in the new build
+      {
+        source: "/chat",
+        destination: "/contact",
+        permanent: true,
+      },
+      {
+        source: "/garage-heaters-calgary-2",
+        destination: "/garage-heaters-calgary",
+        permanent: true,
+      },
     ];
   },
 };
