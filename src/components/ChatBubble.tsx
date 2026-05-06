@@ -140,13 +140,13 @@ export default function ChatBubble() {
         (payload as { type?: string }).type === "toggleChat" &&
         (payload as { open?: boolean }).open === false
       ) {
-        // Ignore spurious close messages from the iframe right after open.
-        // HCP's chat widget fires a `toggleChat:false` during its own init
-        // on mobile, which would otherwise dismiss the chat the moment it
-        // appears. Only honor close events ≥1.5s after we opened.
+        // HCP's iframe fires spurious toggleChat:false events during its
+        // own init — and the timing varies a lot on mobile. 1.5s wasn't
+        // enough for slow networks. 5s covers even cold-start cellular
+        // and still feels responsive when the user genuinely closes.
         if (
           openedAtRef.current === 0 ||
-          Date.now() - openedAtRef.current < 1500
+          Date.now() - openedAtRef.current < 5000
         ) {
           return;
         }
@@ -199,6 +199,17 @@ export default function ChatBubble() {
           }
         }
       `}</style>
+      {open && (
+        <button
+          type="button"
+          aria-label="Close chat"
+          onClick={handleClose}
+          className="md:hidden fixed top-3 left-3 w-10 h-10 rounded-full bg-ink-900 text-cream-50 border border-line-dark shadow-2xl flex items-center justify-center active:scale-95 transition-transform"
+          style={{ zIndex: 2147483647 }}
+        >
+          <X className="w-5 h-5" strokeWidth={2.5} />
+        </button>
+      )}
       {!open && (
         <div
           className="fixed bottom-6 right-6 flex flex-col items-end gap-3"
