@@ -12,6 +12,7 @@ export default function ChatBubble() {
   const [labelDismissed, setLabelDismissed] = useState(false);
   const [scriptLoaded, setScriptLoaded] = useState(false);
   const scriptInjectedRef = useRef(false);
+  const openedAtRef = useRef(0);
 
   // Inject the HCP script lazily on first user interaction. The bundle is
   // ~1.3MB; deferring it until needed eliminates that cost from cold page
@@ -85,6 +86,7 @@ export default function ChatBubble() {
       const c = document.getElementById("proChatIframeContainer");
       if (c) {
         showIframe();
+        openedAtRef.current = Date.now();
         setOpen(true);
         setLoading(false);
         return;
@@ -100,6 +102,7 @@ export default function ChatBubble() {
 
   function handleClose() {
     setOpen(false);
+    openedAtRef.current = 0;
     const c = document.getElementById("proChatIframeContainer");
     if (c) {
       c.classList.remove("chat-open");
@@ -137,6 +140,16 @@ export default function ChatBubble() {
         (payload as { type?: string }).type === "toggleChat" &&
         (payload as { open?: boolean }).open === false
       ) {
+        // Ignore spurious close messages from the iframe right after open.
+        // HCP's chat widget fires a `toggleChat:false` during its own init
+        // on mobile, which would otherwise dismiss the chat the moment it
+        // appears. Only honor close events ≥1.5s after we opened.
+        if (
+          openedAtRef.current === 0 ||
+          Date.now() - openedAtRef.current < 1500
+        ) {
+          return;
+        }
         handleClose();
       }
     }
@@ -188,7 +201,7 @@ export default function ChatBubble() {
       `}</style>
       {!open && (
         <div
-          className="fixed bottom-6 right-6 max-md:bottom-24 flex flex-col items-end gap-3"
+          className="fixed bottom-6 right-6 flex flex-col items-end gap-3"
           style={{ zIndex: 2147483647 }}
         >
           {!labelDismissed && (
