@@ -147,7 +147,14 @@ export async function generateMetadata({
       card: "summary_large_image",
       title,
       description,
-      images: heroImg ? [`${SITE_URL}${heroImg}`] : undefined,
+      images: heroImg
+        ? [
+            {
+              url: `${SITE_URL}${heroImg}`,
+              alt: service.heroImage?.alt,
+            },
+          ]
+        : undefined,
     },
   };
 }

@@ -812,7 +812,7 @@ export const services: ServicePage[] = [
     ],
     seoTitle: "Boiler Installation Calgary | Expert Boiler Services",
     seoDescription:
-      "Professional boiler installation in Calgary by certified technicians. Priority service, gas & electric boilers, all brands. Call FlameTech today for fast service!",
+      "Calgary boiler installation by certified techs. Gas & electric, all brands, priority service. Call FlameTech: 587-834-3668.",
     seoKeywords: [
       "boiler installation Calgary",
       "condensing boiler Calgary",
@@ -1155,7 +1155,7 @@ export const services: ServicePage[] = [
     seoTitle:
       "Boiler Service Calgary | Professional Boiler Repair & Maintenance",
     seoDescription:
-      "Professional boiler service in Calgary. Annual maintenance, repairs, and priority emergency response. Licensed technicians. Fast response. Call 587-834-3668 today.",
+      "Calgary boiler service. Annual maintenance, repairs, priority emergency response. Licensed technicians. Call 587-834-3668.",
     seoKeywords: [
       "boiler service Calgary",
       "boiler repair Calgary",
@@ -2605,7 +2605,7 @@ export const services: ServicePage[] = [
     ],
     seoTitle: "Hot Water Tank Replacement Calgary | Expert Installation",
     seoDescription:
-      "Calgary hot water tank replacement by licensed technicians. Priority emergency service, all brands, free quotes. Call FlameTech for fast installation: 587-834-3668",
+      "Calgary hot water tank replacement by licensed technicians. Priority service, all brands, free quotes. Call 587-834-3668.",
     seoKeywords: [
       "hot water tank replacement Calgary",
       "water heater replacement Calgary",
@@ -3441,7 +3441,7 @@ export const services: ServicePage[] = [
     ],
     seoTitle: "Heat Pumps Airdrie | Installation, Repair & Service",
     seoDescription:
-      "Expert heat pump installation, repair & maintenance in Airdrie. Flame Tech offers energy-efficient heating & cooling with priority emergency service. Free quotes.",
+      "Heat pump installation, repair & service in Airdrie. Energy-efficient heating & cooling, priority response. Free quotes.",
     seoKeywords: [
       "heat pumps Airdrie",
       "heat pump install Airdrie",
@@ -4206,7 +4206,7 @@ export const services: ServicePage[] = [
     ],
     seoTitle: "Aspen Woods Plumbers Calgary | Priority Plumbing Services",
     seoDescription:
-      "Premium plumbers serving Aspen Woods, Calgary. Luxury home specialists with priority emergency service, Poly-B replacement, and advanced leak detection. Call 587-834-3668.",
+      "Aspen Woods plumbers in Calgary. Luxury home specialists, priority emergency service, Poly-B replacement, advanced leak detection.",
     seoKeywords: [
       "Aspen Woods plumbers",
       "plumber Aspen Woods Calgary",
@@ -4463,7 +4463,7 @@ export const services: ServicePage[] = [
     ],
     seoTitle: "Bowness Plumbers Calgary | Priority Emergency | FlameTech",
     seoDescription:
-      "Expert plumbers in Bowness, Calgary. From original 1950s homes to new infills — we handle galvanized lines, sewer issues & more. Priority service. Call 587-834-3668.",
+      "Bowness plumbers in Calgary. 1950s homes to new infills — galvanized lines, sewer, priority service. Call 587-834-3668.",
     seoKeywords: [
       "Bowness plumbers",
       "plumber Bowness Calgary",
@@ -5908,7 +5908,7 @@ export const services: ServicePage[] = [
     ],
     seoTitle: "Huntington Hills Plumbers Calgary | Priority Service",
     seoDescription:
-      "Expert plumbers serving Huntington Hills Calgary. Priority emergency service, drain cleaning, water heaters & more. Local team, fair pricing. Call 587-834-3668 today!",
+      "Huntington Hills plumbers in Calgary. Priority emergency service, drain cleaning, water heaters. Local team. Call 587-834-3668.",
     seoKeywords: [
       "Huntington Hills plumbers",
       "plumber Huntington Hills Calgary",
@@ -6043,7 +6043,7 @@ export const services: ServicePage[] = [
     ],
     seoTitle: "Killarney Plumbers Calgary | Priority Emergency Service",
     seoDescription:
-      "Expert plumbers serving Killarney, Calgary. Specializing in galvanized pipe replacement, sewer line repairs & infill plumbing. Priority emergency service. Call 587-834-3668",
+      "Killarney plumbers in Calgary. Galvanized pipe replacement, sewer line repairs, infill plumbing. Priority service. Call 587-834-3668.",
     seoKeywords: [
       "Killarney plumbers",
       "plumber Killarney Calgary",
@@ -6690,7 +6690,7 @@ export const services: ServicePage[] = [
     ],
     seoTitle: "Mount Royal Plumbers Calgary | Highly Rated Plumbing Experts",
     seoDescription:
-      "Our Mount Royal Plumbers in Calgary, Alberta are available with priority service for all of your plumbing needs. Highly rated plumbers with over 25+ years of experience.",
+      "Mount Royal plumbers in Calgary. Priority service, 25+ years experience, highly rated. Call 587-834-3668 for all plumbing needs.",
     seoKeywords: [
       "Mount Royal plumbers",
       "plumber Mount Royal Calgary",
@@ -7054,7 +7054,7 @@ export const services: ServicePage[] = [
     ],
     seoTitle: "Signal Hill Plumbers Calgary | Priority Plumbing Services",
     seoDescription:
-      "Expert Signal Hill plumbers serving SW Calgary. Priority emergency service, hillside drainage expertise, luxury fixture installation & water heater service. Call 587-834-3668.",
+      "Signal Hill plumbers serving SW Calgary. Priority service, hillside drainage, luxury fixtures, water heaters. Call 587-834-3668.",
     seoKeywords: [
       "Signal Hill plumbers",
       "plumber Signal Hill Calgary",
@@ -7446,7 +7446,7 @@ export const services: ServicePage[] = [
     ],
     seoTitle: "West Springs Plumbers Calgary | Priority Emergency",
     seoDescription:
-      "FlameTech offers highly rated plumbing services for the community of West Springs Calgary. Priority service, honest pricing — we have service guarantees and are available now!",
+      "West Springs plumbers in Calgary. Priority service, honest pricing, service guarantees. Highly rated. Call 587-834-3668.",
     seoKeywords: [
       "West Springs plumbers Calgary",
       "plumber West Springs",
@@ -7996,7 +7996,7 @@ export const services: ServicePage[] = [
     ],
     seoTitle: "Water Heater Installation Calgary | Hot Water Tanks",
     seoDescription:
-      "Professional water heater installation in Calgary. Tank, tankless, and replacement services. Licensed gas fitters, same-day install, priority emergency response.",
+      "Calgary water heater installation. Tank, tankless, replacement. Licensed gas fitters, same-day install, priority response.",
     seoKeywords: [
       "water heater installation Calgary",
       "hot water tank installation Calgary",
@@ -8122,7 +8122,7 @@ export const services: ServicePage[] = [
     ],
     seoTitle: "Air Ease Furnaces Calgary | Authorized Dealer & Service",
     seoDescription:
-      "Authorized AirEase furnace dealer in Calgary. Installation, repair, and maintenance on the full lineup. AFUE up to 98%, manufacturer warranty support, free quotes.",
+      "Authorized AirEase furnace dealer in Calgary. Install, repair, maintenance, AFUE up to 98%, warranty support, free quotes.",
     seoKeywords: [
       "AirEase furnace Calgary",
       "Air Ease furnace install Calgary",
