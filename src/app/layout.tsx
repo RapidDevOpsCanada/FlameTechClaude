@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     template: "%s | FlameTech Plumbing & Heating",
   },
   description:
-    "Calgary's licensed, insured, and bonded residential plumbing and heating experts. Fast emergency response. Boilers, furnaces, drain cleaning, PolyB replacement, hot water tanks, and more. Call 587-834-3668.",
+    "Calgary's licensed plumbing & heating experts. Boilers, furnaces, drain cleaning, PolyB, hot water tanks, AC. Insured & bonded. Call 587-834-3668.",
   applicationName: "FlameTech Plumbing & Heating",
   authors: [{ name: "FlameTech Plumbing & Heating Ltd." }],
   alternates: { canonical: "/" },
@@ -47,7 +47,14 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    images: [`${SITE_URL}/images/FTVAN.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/images/FTVAN.jpg`,
+        width: 800,
+        height: 486,
+        alt: "FlameTech Plumbing & Heating service van",
+      },
+    ],
   },
 };
 
