@@ -168,13 +168,17 @@ export default function ChatBubble() {
         #proChatIframeContainer.chat-open {
           opacity: 1 !important;
           pointer-events: auto !important;
+          display: block !important;
         }
-        /* Suppress any default launcher / bubble injected by proChat.js
-           outside of the iframe + its container. */
-        [id^="proChat"]:not(#proChatIframe):not(#proChatIframeContainer),
-        [class^="proChat-bubble"],
-        [class*=" proChat-bubble"],
-        [class*="proChatBubble"] {
+        /* Suppress only HCP's default *launcher* button. Earlier we used a
+           broad [id^="proChat"] rule that also hid wrapper elements the
+           iframe lives inside, which made the chat invisible on mobile —
+           limited to bubble-named selectors only. */
+        #proChatBubble,
+        #proChatBubbleContainer,
+        [class*="proChatBubble"],
+        [class*="ProChatBubble"],
+        [id*="ChatBubble"]:not([id="proChatIframe"]):not([id="proChatIframeContainer"]) {
           display: none !important;
           visibility: hidden !important;
           opacity: 0 !important;
