@@ -91,17 +91,17 @@ export default function ChatBubble() {
       setOpen(true);
       return;
     }
-    setLoading(true);
+    // Defer the spinner: if the chat opens within 250ms (pre-warm hit, or
+    // the iframe container appears within a few frames) we skip the
+    // setLoading(true) entirely so the launcher icon never flashes to the
+    // spinner before the chat takes over.
+    const spinnerTimer = window.setTimeout(() => setLoading(true), 250);
     await ensureScript();
-    // The HCP script creates #proChatIframeContainer asynchronously after
-    // load. Poll until it appears, then open it. Only flip to the open
-    // state once the iframe is actually mounted so the launcher stays
-    // visible (with a loading indicator) on slow mobile networks instead
-    // of disappearing into a dead 2-3s gap.
     const start = Date.now();
     const tick = () => {
       const c = document.getElementById("proChatIframeContainer");
       if (c) {
+        window.clearTimeout(spinnerTimer);
         showIframe();
         openedAtRef.current = Date.now();
         setOpen(true);
@@ -111,6 +111,7 @@ export default function ChatBubble() {
       if (Date.now() - start < 8000) {
         requestAnimationFrame(tick);
       } else {
+        window.clearTimeout(spinnerTimer);
         setLoading(false);
       }
     };
@@ -138,11 +139,12 @@ export default function ChatBubble() {
     }
   }
 
-  // Pre-warm the HCP script in the background after the page is idle.
-  // We still gate the *visible* loading on user click, but by the time
-  // a real visitor reaches for the chat the bundle is already there —
-  // first click feels instant. The 2.5s delay keeps Lighthouse's TTI/
-  // TBT measurements clean (those settle inside ~2s for our routes).
+  // Pre-warm the HCP script as early as the browser is idle, plus a
+  // first-interaction backstop. The 2.5s setTimeout we used to ship with
+  // routinely lost the race against the user's first click, which is what
+  // surfaced the "click does nothing, then spinner, then chat" flash.
+  // requestIdleCallback fires after the page becomes interactive so
+  // Lighthouse TBT/TTI stays clean.
   useEffect(() => {
     const idle = (
       window as unknown as {
@@ -150,19 +152,32 @@ export default function ChatBubble() {
       }
     ).requestIdleCallback;
     let idleId: number | undefined;
-    const t = window.setTimeout(() => {
-      if (idle) {
-        idleId = idle(() => void ensureScript(), { timeout: 4000 });
-      } else {
-        void ensureScript();
-      }
-    }, 2500);
+    let fallbackTimeoutId: number | undefined;
+    if (idle) {
+      idleId = idle(() => void ensureScript(), { timeout: 2000 });
+    } else {
+      fallbackTimeoutId = window.setTimeout(() => void ensureScript(), 500);
+    }
+
+    const onFirstInteraction = () => {
+      void ensureScript();
+    };
+    const passiveOnce: AddEventListenerOptions = { once: true, passive: true };
+    window.addEventListener("pointermove", onFirstInteraction, passiveOnce);
+    window.addEventListener("pointerdown", onFirstInteraction, passiveOnce);
+    window.addEventListener("scroll", onFirstInteraction, passiveOnce);
+    window.addEventListener("keydown", onFirstInteraction, { once: true });
+
     return () => {
-      window.clearTimeout(t);
       const cancelIdle = (
         window as unknown as { cancelIdleCallback?: (id: number) => void }
       ).cancelIdleCallback;
       if (idleId !== undefined && cancelIdle) cancelIdle(idleId);
+      if (fallbackTimeoutId !== undefined) window.clearTimeout(fallbackTimeoutId);
+      window.removeEventListener("pointermove", onFirstInteraction);
+      window.removeEventListener("pointerdown", onFirstInteraction);
+      window.removeEventListener("scroll", onFirstInteraction);
+      window.removeEventListener("keydown", onFirstInteraction);
     };
   }, []);
 
