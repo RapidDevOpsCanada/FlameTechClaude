@@ -102,7 +102,7 @@ const menu: NavItem[] = [
         },
       ],
       promo: {
-        image: "/images/FTVAN1.jpg",
+        image: "/images/2026/04/Shower-Install.webp",
         title: "Book a free plumbing estimate",
         body: "Upfront pricing, no surprises.",
         cta: "Call 587-834-3668",
@@ -283,7 +283,7 @@ export default function Nav() {
             width={300}
             height={183}
             priority
-            className="h-[68px] md:h-[77px] lg:h-[88px] w-auto object-contain"
+            className="h-[56px] md:h-[64px] lg:h-[72px] w-auto object-contain"
           />
         </Link>
 
