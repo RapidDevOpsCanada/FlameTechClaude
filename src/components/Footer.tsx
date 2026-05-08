@@ -146,10 +146,11 @@ export default function Footer() {
             className="flex items-center gap-5 group"
           >
             <Image
-              src="/images/bbb-accredited-business.webp"
+              src="/images/bbb-accredited-business.svg"
               alt="FlameTech Plumbing & Heating Ltd. BBB Accredited Business"
-              width={240}
-              height={100}
+              width={323}
+              height={122}
+              unoptimized
               className="h-14 w-auto object-contain rounded-md bg-white p-1.5 group-hover:opacity-90 transition-opacity"
             />
             <div>

@@ -848,7 +848,7 @@ export default async function ServicePage({
                   className="mt-5 pt-5 border-t border-line-dark flex items-center gap-3 group"
                 >
                   <img
-                    src="/images/bbb-accredited-business.webp"
+                    src="/images/bbb-accredited-business.svg"
                     alt=""
                     className="h-9 w-auto object-contain rounded-md bg-white p-1"
                   />
