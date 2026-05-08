@@ -15,6 +15,11 @@ import { homepageFaqs } from "@/lib/homepage-faqs";
 
 const SITE_URL = "https://flametechplumbing.ca";
 
+// Manually-curated freshness signal for the homepage WebPage schema.
+// Bump when the homepage content materially changes — auto-stamping
+// every build is a weaker signal to Google.
+const HOMEPAGE_DATE_MODIFIED = "2026-05-08T00:00:00-06:00";
+
 export const revalidate = 604800;
 
 export default function Home() {
@@ -32,6 +37,7 @@ export default function Home() {
           "@type": "ImageObject",
           url: `${SITE_URL}/images/FTVAN.jpg`,
         },
+        dateModified: HOMEPAGE_DATE_MODIFIED,
       },
       {
         "@type": "FAQPage",
