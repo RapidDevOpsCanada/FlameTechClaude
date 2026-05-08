@@ -140,11 +140,12 @@ export default function RootLayout({
       { "@type": "Place", name: "Reunion" },
     ],
     sameAs: [
+      "https://share.google/aOJFMcBNwTcPsAZxK",
       "https://www.facebook.com/profile.php?id=61574205860979",
       "https://www.instagram.com/flametechplumbingandheating/",
       "https://www.bbb.org/ca/ab/calgary/profile/plumbing-and-heating/flametech-plumbing-heating-ltd-0017-267350",
-      // Add when available: LinkedIn, YouTube, Yelp.ca, HomeStars, Houzz,
-      // Google Maps place URL.
+      "https://www.yelp.com/biz/flame-tech-calgary-2",
+      "https://www.airdriechamber.ab.ca/list/member/flametech-plumbing-heating-ltd-3098",
     ],
     founder: [
       {
