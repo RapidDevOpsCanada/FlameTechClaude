@@ -203,7 +203,7 @@ const menu: NavItem[] = [
         },
       ],
       promo: {
-        image: "/images/air-ease-ac.png",
+        image: "/images/2025/04/air-conditioning-calgary.png",
         title: "Stay cool all summer",
         body: "Efficient central AC tuned for Calgary homes.",
         cta: "Get an AC quote",
@@ -253,7 +253,7 @@ const menu: NavItem[] = [
         },
       ],
       promo: {
-        image: "/images/graident-tankless-water-heater.png",
+        image: "/images/2026/03/water-softener-installation.jpg",
         title: "Upgrade your hot water",
         body: "Tankless, tanks, softeners — honest advice.",
         cta: "Book a water consult",

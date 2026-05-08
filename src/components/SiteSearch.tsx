@@ -94,130 +94,131 @@ export default function SiteSearch({
         </button>
 
         {open && (
-          <div
-            className="fixed inset-0 z-[100] bg-ink-900/85 backdrop-blur-md flex items-start justify-center pt-[12vh] px-4"
-            onClick={(e) => {
-              if (e.target === e.currentTarget) {
+          <>
+            {/* Soft backdrop covering only the area below the navbar so the
+                nav stays in context when search is open. */}
+            <div
+              className="fixed inset-x-0 bottom-0 top-[92px] md:top-[100px] z-[90] bg-ink-900/55 backdrop-blur-sm"
+              onClick={() => {
                 setOpen(false);
                 setQuery("");
-              }
-            }}
-          >
-            <div className="w-full max-w-2xl">
-              {/* Input */}
-              <div className="relative">
-                <span className="absolute left-5 top-1/2 -translate-y-1/2 text-ink-500 pointer-events-none">
-                  <SearchIcon size={22} />
-                </span>
-                <input
-                  ref={inputRef}
-                  type="text"
-                  value={query}
-                  onChange={(e) => setQuery(e.target.value)}
-                  onKeyDown={onKeyDown}
-                  placeholder={placeholder}
-                  aria-label="Search the site"
-                  className="w-full rounded-2xl bg-white border border-line-light pl-14 pr-14 py-5 text-lg text-ink-900 placeholder:text-ink-500 focus:outline-none focus:border-emergency transition-colors shadow-2xl"
-                />
-                <button
-                  type="button"
-                  aria-label="Close search"
-                  onClick={() => {
-                    setOpen(false);
-                    setQuery("");
-                  }}
-                  className="absolute right-3 top-1/2 -translate-y-1/2 w-9 h-9 rounded-full hover:bg-cream-100 transition-colors flex items-center justify-center text-ink-500"
-                >
-                  <Icon name="close" className="text-lg" />
-                </button>
-              </div>
-
-              {/* Results */}
-              {query.trim() && (
-                <div className="mt-3 rounded-2xl bg-white border border-line-light overflow-hidden shadow-2xl">
-                  {results.length === 0 ? (
-                    <div className="px-6 py-10 text-center">
-                      <p className="text-base text-ink-700">
-                        No matches for{" "}
-                        <span className="text-ink-900 font-semibold">
-                          &quot;{query}&quot;
-                        </span>
-                      </p>
-                      <p className="text-sm text-ink-500 mt-2">
-                        Try a service like &quot;boiler&quot; or a
-                        neighbourhood like &quot;Mount Royal&quot;.
-                      </p>
-                    </div>
-                  ) : (
-                    <ul className="max-h-[60vh] overflow-y-auto">
-                      {results.map((r, i) => (
-                        <li key={r.href}>
-                          <Link
-                            href={r.href}
-                            onClick={() => {
-                              setOpen(false);
-                              setQuery("");
-                            }}
-                            onMouseEnter={() => setActive(i)}
-                            className={`flex items-center gap-4 px-5 py-4 border-b border-line-light/60 last:border-0 transition-colors ${
-                              i === active ? "bg-cream-50" : "hover:bg-cream-50"
-                            }`}
-                          >
-                            <span className="shrink-0 w-10 h-10 rounded-lg bg-primary/15 text-primary-deep flex items-center justify-center">
-                              <Icon
-                                name={
-                                  r.kind === "Service"
-                                    ? "build"
-                                    : r.kind === "Resource"
-                                    ? "request_quote"
-                                    : "verified"
-                                }
-                                className="text-lg"
-                              />
-                            </span>
-                            <span className="min-w-0 flex-1">
-                              <span className="block font-semibold text-[16px] text-ink-900 truncate">
-                                {r.title}
-                              </span>
-                              <span className="block text-[13px] text-ink-500 truncate mt-0.5">
-                                {r.meta}
-                              </span>
-                            </span>
-                            <span className="shrink-0 text-[11px] font-bold uppercase tracking-[0.14em] text-primary px-2.5 py-1 rounded-full bg-primary/10">
-                              {r.kind}
-                            </span>
-                          </Link>
-                        </li>
-                      ))}
-                    </ul>
-                  )}
+              }}
+            />
+            {/* Search panel — drops down from the navbar. */}
+            <div className="fixed inset-x-0 top-[92px] md:top-[100px] z-[100] bg-ink-900 border-b border-line-dark shadow-2xl">
+              <div className="max-w-3xl mx-auto px-6 md:px-10 py-5 md:py-6">
+                {/* Input */}
+                <div className="relative">
+                  <span className="absolute left-5 top-1/2 -translate-y-1/2 text-ink-500 pointer-events-none">
+                    <SearchIcon size={20} />
+                  </span>
+                  <input
+                    ref={inputRef}
+                    type="text"
+                    value={query}
+                    onChange={(e) => setQuery(e.target.value)}
+                    onKeyDown={onKeyDown}
+                    placeholder={placeholder}
+                    aria-label="Search the site"
+                    className="w-full rounded-2xl bg-white border border-line-light pl-14 pr-14 py-4 text-base md:text-lg text-ink-900 placeholder:text-ink-500 focus:outline-none focus:border-emergency transition-colors"
+                  />
+                  <button
+                    type="button"
+                    aria-label="Close search"
+                    onClick={() => {
+                      setOpen(false);
+                      setQuery("");
+                    }}
+                    className="absolute right-3 top-1/2 -translate-y-1/2 w-9 h-9 rounded-full hover:bg-cream-100 transition-colors flex items-center justify-center text-ink-500"
+                  >
+                    <Icon name="close" className="text-lg" />
+                  </button>
                 </div>
-              )}
 
-              {/* Hint footer */}
-              {!query.trim() && (
-                <p className="text-center text-cream-50/60 text-sm mt-5">
-                  Try{" "}
-                  <span className="text-cream-50 font-semibold">
-                    boiler
-                  </span>
-                  ,{" "}
-                  <span className="text-cream-50 font-semibold">
-                    drain cleaning
-                  </span>
-                  , or{" "}
-                  <span className="text-cream-50 font-semibold">
-                    Mount Royal
-                  </span>
-                  . Press{" "}
-                  <kbd className="px-1.5 py-0.5 rounded bg-cream-50/15 text-[12px] font-semibold">
-                    Esc
-                  </kbd>{" "}
-                  to close.
-                </p>
-              )}
+                {/* Results */}
+                {query.trim() && (
+                  <div className="mt-3 rounded-2xl bg-white border border-line-light overflow-hidden">
+                    {results.length === 0 ? (
+                      <div className="px-6 py-8 text-center">
+                        <p className="text-base text-ink-700">
+                          No matches for{" "}
+                          <span className="text-ink-900 font-semibold">
+                            &quot;{query}&quot;
+                          </span>
+                        </p>
+                        <p className="text-sm text-ink-500 mt-2">
+                          Try a service like &quot;boiler&quot; or a
+                          neighbourhood like &quot;Mount Royal&quot;.
+                        </p>
+                      </div>
+                    ) : (
+                      <ul className="max-h-[55vh] overflow-y-auto">
+                        {results.map((r, i) => (
+                          <li key={r.href}>
+                            <Link
+                              href={r.href}
+                              onClick={() => {
+                                setOpen(false);
+                                setQuery("");
+                              }}
+                              onMouseEnter={() => setActive(i)}
+                              className={`flex items-center gap-4 px-5 py-4 border-b border-line-light/60 last:border-0 transition-colors ${
+                                i === active ? "bg-cream-50" : "hover:bg-cream-50"
+                              }`}
+                            >
+                              <span className="shrink-0 w-10 h-10 rounded-lg bg-primary/15 text-primary-deep flex items-center justify-center">
+                                <Icon
+                                  name={
+                                    r.kind === "Service"
+                                      ? "build"
+                                      : r.kind === "Resource"
+                                      ? "request_quote"
+                                      : "verified"
+                                  }
+                                  className="text-lg"
+                                />
+                              </span>
+                              <span className="min-w-0 flex-1">
+                                <span className="block font-semibold text-[16px] text-ink-900 truncate">
+                                  {r.title}
+                                </span>
+                                <span className="block text-[13px] text-ink-500 truncate mt-0.5">
+                                  {r.meta}
+                                </span>
+                              </span>
+                              <span className="shrink-0 text-[11px] font-bold uppercase tracking-[0.14em] text-primary px-2.5 py-1 rounded-full bg-primary/10">
+                                {r.kind}
+                              </span>
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                  </div>
+                )}
+
+                {/* Hint footer */}
+                {!query.trim() && (
+                  <p className="text-center text-cream-50/60 text-sm mt-4">
+                    Try{" "}
+                    <span className="text-cream-50 font-semibold">boiler</span>,{" "}
+                    <span className="text-cream-50 font-semibold">
+                      drain cleaning
+                    </span>
+                    , or{" "}
+                    <span className="text-cream-50 font-semibold">
+                      Mount Royal
+                    </span>
+                    . Press{" "}
+                    <kbd className="px-1.5 py-0.5 rounded bg-cream-50/15 text-[12px] font-semibold">
+                      Esc
+                    </kbd>{" "}
+                    to close.
+                  </p>
+                )}
+              </div>
             </div>
-          </div>
+          </>
         )}
       </>
     );
