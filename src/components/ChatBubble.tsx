@@ -10,8 +10,8 @@ export default function ChatBubble() {
   const [open, setOpen] = useState(false);
   const [loading, setLoading] = useState(false);
   const [labelDismissed, setLabelDismissed] = useState(false);
-  const [scriptLoaded, setScriptLoaded] = useState(false);
   const scriptInjectedRef = useRef(false);
+  const scriptLoadedRef = useRef(false);
   const openedAtRef = useRef(0);
 
   // Inject the HCP script lazily on first user interaction. The bundle is
@@ -19,17 +19,22 @@ export default function ChatBubble() {
   // loads where the visitor never engages the chat.
   function ensureScript(): Promise<void> {
     return new Promise((resolve) => {
+      // Tracked via ref, not state: a state-based check lost a race where
+      // the pre-warm load fired but React hadn't re-rendered before the
+      // user clicked, leaving us re-listening to a load event that won't
+      // fire again.
+      if (scriptLoadedRef.current) {
+        resolve();
+        return;
+      }
       if (scriptInjectedRef.current) {
-        if (scriptLoaded) resolve();
-        else {
-          const existing = document.getElementById(
-            "housecall-pro-chat-bubble",
-          ) as HTMLScriptElement | null;
-          if (existing) {
-            existing.addEventListener("load", () => resolve(), { once: true });
-          } else {
-            resolve();
-          }
+        const existing = document.getElementById(
+          "housecall-pro-chat-bubble",
+        ) as HTMLScriptElement | null;
+        if (existing) {
+          existing.addEventListener("load", () => resolve(), { once: true });
+        } else {
+          resolve();
         }
         return;
       }
@@ -43,7 +48,7 @@ export default function ChatBubble() {
       s.addEventListener(
         "load",
         () => {
-          setScriptLoaded(true);
+          scriptLoadedRef.current = true;
           resolve();
         },
         { once: true },
@@ -74,6 +79,18 @@ export default function ChatBubble() {
 
   async function handleOpen() {
     if (loading || open) return;
+    // Fast path: pre-warm finished, iframe container exists. Open in one
+    // commit so the launcher transitions straight to the chat with no
+    // intermediate spinner flash.
+    if (
+      scriptLoadedRef.current &&
+      document.getElementById("proChatIframeContainer")
+    ) {
+      showIframe();
+      openedAtRef.current = Date.now();
+      setOpen(true);
+      return;
+    }
     setLoading(true);
     await ensureScript();
     // The HCP script creates #proChatIframeContainer asynchronously after
