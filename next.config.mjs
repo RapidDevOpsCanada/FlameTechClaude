@@ -34,6 +34,14 @@ const nextConfig = {
         destination: "/garage-heaters-calgary",
         permanent: true,
       },
+      // WP shipped this slug with a typo (missing the second 'r'). The
+      // new build uses the correctly-spelled /evergreen-plumbers-calgary
+      // — preserve the existing inbound link equity from the typo URL.
+      {
+        source: "/evergeen-plumbers-calgary",
+        destination: "/evergreen-plumbers-calgary",
+        permanent: true,
+      },
     ];
   },
 };
