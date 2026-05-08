@@ -263,17 +263,6 @@ export default function ChatBubble() {
           }
         }
       `}</style>
-      {open && (
-        <button
-          type="button"
-          aria-label="Close chat"
-          onClick={handleClose}
-          className="md:hidden fixed top-3 left-3 w-10 h-10 rounded-full bg-ink-900 text-cream-50 border border-line-dark shadow-2xl flex items-center justify-center active:scale-95 transition-transform"
-          style={{ zIndex: 2147483647 }}
-        >
-          <X className="w-5 h-5" strokeWidth={2.5} />
-        </button>
-      )}
       {!open && (
         <div
           className="fixed bottom-6 right-6 flex flex-col items-end gap-3"

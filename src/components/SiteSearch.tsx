@@ -8,15 +8,18 @@ import { searchEntries, type SearchEntry } from "@/lib/search-index";
 
 export default function SiteSearch({
   variant = "inline",
+  theme = "light",
   placeholder = "Search services, neighbourhoods, articles…",
 }: {
   /**
    * `"inline"` renders a full-width search field in place (used on the
-   * 404 page and the mobile drawer).
-   * `"compact"` renders a small icon button that opens a full-screen
-   * modal overlay (used in the desktop Nav).
+   * 404 page and the mobile nav).
+   * `"compact"` renders a small icon button that opens a navbar-anchored
+   * dropdown panel (used in the desktop Nav).
    */
   variant?: "inline" | "compact";
+  /** Inline-only: switches the field + results panel to dark surfaces. */
+  theme?: "light" | "dark";
   placeholder?: string;
 }) {
   const router = useRouter();
@@ -225,10 +228,39 @@ export default function SiteSearch({
   }
 
   // ───────── INLINE (full-width field in place) ─────────
+  const dark = theme === "dark";
+  const inputCls = dark
+    ? "w-full rounded-full bg-ink-800 border border-line-dark pl-12 pr-4 py-3 text-[15px] text-cream-50 placeholder:text-cream-50/50 focus:outline-none focus:border-emergency transition-colors"
+    : "w-full rounded-full bg-white border border-line-light pl-12 pr-4 py-4 text-base text-ink-900 placeholder:text-ink-500 focus:outline-none focus:border-emergency transition-colors";
+  const iconCls = dark
+    ? "absolute left-4 top-1/2 -translate-y-1/2 text-cream-50/60 pointer-events-none"
+    : "absolute left-4 top-1/2 -translate-y-1/2 text-ink-500 pointer-events-none";
+  const resultsPanelCls = dark
+    ? "mt-3 rounded-2xl bg-ink-800 border border-line-dark overflow-hidden"
+    : "mt-3 rounded-2xl bg-white border border-line-light overflow-hidden";
+  const emptyTextCls = dark ? "text-sm text-cream-50/70" : "text-sm text-ink-500";
+  const emptyEmphCls = dark
+    ? "text-cream-50 font-semibold"
+    : "text-ink-900 font-semibold";
+  const itemBaseCls = dark
+    ? "border-b border-line-dark/70"
+    : "border-b border-line-light/60";
+  const itemActiveBg = dark
+    ? "bg-ink-700"
+    : "bg-cream-50";
+  const itemHoverBg = dark
+    ? "hover:bg-ink-700"
+    : "hover:bg-cream-50";
+  const titleCls = dark
+    ? "block font-semibold text-[14px] md:text-[15px] text-cream-50 truncate"
+    : "block font-semibold text-[14px] md:text-[15px] text-ink-900 truncate";
+  const metaCls = dark
+    ? "block text-[12px] text-cream-50/60 truncate"
+    : "block text-[12px] text-ink-500 truncate";
   return (
     <div className="relative">
       <div className="relative">
-        <span className="absolute left-4 top-1/2 -translate-y-1/2 text-ink-500 pointer-events-none">
+        <span className={iconCls}>
           <SearchIcon />
         </span>
         <input
@@ -239,17 +271,17 @@ export default function SiteSearch({
           onKeyDown={onKeyDown}
           placeholder={placeholder}
           aria-label="Search the site"
-          className="w-full rounded-full bg-white border border-line-light pl-12 pr-4 py-4 text-base text-ink-900 placeholder:text-ink-500 focus:outline-none focus:border-emergency transition-colors"
+          className={inputCls}
         />
       </div>
 
       {query.trim() && (
-        <div className="mt-3 rounded-2xl bg-white border border-line-light overflow-hidden">
+        <div className={resultsPanelCls}>
           {results.length === 0 ? (
             <div className="px-5 py-6 text-center">
-              <p className="text-sm text-ink-500">
+              <p className={emptyTextCls}>
                 No matches for{" "}
-                <span className="text-ink-900 font-semibold">
+                <span className={emptyEmphCls}>
                   &quot;{query}&quot;
                 </span>
               </p>
@@ -262,8 +294,8 @@ export default function SiteSearch({
                     href={r.href}
                     onClick={() => setQuery("")}
                     onMouseEnter={() => setActive(i)}
-                    className={`flex items-center gap-3 px-4 py-3 border-b border-line-light/60 last:border-0 transition-colors ${
-                      i === active ? "bg-cream-50" : "hover:bg-cream-50"
+                    className={`flex items-center gap-3 px-4 py-3 last:border-0 transition-colors ${itemBaseCls} ${
+                      i === active ? itemActiveBg : itemHoverBg
                     }`}
                   >
                     <span className="shrink-0 w-9 h-9 rounded-lg bg-primary/15 text-primary-deep flex items-center justify-center">
@@ -279,10 +311,10 @@ export default function SiteSearch({
                       />
                     </span>
                     <span className="min-w-0 flex-1">
-                      <span className="block font-semibold text-[14px] md:text-[15px] text-ink-900 truncate">
+                      <span className={titleCls}>
                         {r.title}
                       </span>
-                      <span className="block text-[12px] text-ink-500 truncate">
+                      <span className={metaCls}>
                         {r.meta}
                       </span>
                     </span>
