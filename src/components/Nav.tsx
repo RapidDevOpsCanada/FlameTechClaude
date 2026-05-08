@@ -354,10 +354,34 @@ export default function Nav() {
           type="button"
           aria-label="Toggle menu"
           onClick={() => setOpen((o) => !o)}
-          className="lg:hidden inline-flex items-center justify-center w-11 h-11 rounded-full border border-line-dark text-cream-50"
+          className="lg:hidden inline-flex items-center gap-2 text-cream-50 hover:text-emergency transition-colors"
         >
-          <Icon name={open ? "close" : "menu"} className="text-xl" />
+          <Icon name={open ? "close" : "menu"} className="text-2xl" />
+          <span className="text-[13px] font-extrabold uppercase tracking-[0.16em]">
+            {open ? "Close" : "Menu"}
+          </span>
         </button>
+      </div>
+
+      {/* Mobile utility bar — sticky CTAs under the primary row.
+          Hidden at md+ because the right-side cluster already shows the
+          phone and Contact Us buttons there. */}
+      <div className="md:hidden border-t border-line-dark bg-ink-900">
+        <div className="max-w-7xl mx-auto px-4 py-2.5 flex items-center gap-2.5">
+          <a
+            href="tel:5878343668"
+            className="flex-1 min-w-0 inline-flex items-center justify-center gap-1.5 rounded-full bg-emergency text-cream-50 font-extrabold text-[12px] uppercase tracking-tight px-3 py-2.5 whitespace-nowrap hover:bg-emergency-deep transition-colors"
+          >
+            <Icon name="call" className="text-sm" />
+            587-834-3668
+          </a>
+          <Link
+            href="/contact"
+            className="flex-1 inline-flex items-center justify-center rounded-full bg-cream-50 text-ink-900 font-extrabold text-[12px] uppercase tracking-tight px-3 py-2.5 hover:bg-cream-100 transition-colors"
+          >
+            Contact Us
+          </Link>
+        </div>
       </div>
 
       {/* Mobile drawer */}
