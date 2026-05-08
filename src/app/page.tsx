@@ -318,16 +318,16 @@ export default function Home() {
                 <Link
                   href={item.href}
                   key={`${item.label}-${i}`}
-                  className="shrink-0 w-56 rounded-2xl bg-white border border-line-light p-6 flex flex-col items-center justify-between h-44 hover:border-emergency hover:-translate-y-1 transition-all group"
+                  className={`${i >= brandTiles.length ? "hidden md:flex" : "flex"} shrink-0 w-40 md:w-56 rounded-2xl bg-white border border-line-light p-4 md:p-6 flex-col items-center justify-between h-36 md:h-44 hover:border-emergency hover:-translate-y-1 transition-all group`}
                 >
                   <div className="flex-1 w-full flex items-center justify-center">
                     <img
                       src={item.src}
                       alt={item.label}
-                      className="max-h-20 max-w-full object-contain"
+                      className="max-h-14 md:max-h-20 max-w-full object-contain"
                     />
                   </div>
-                  <span className="text-xs font-bold uppercase tracking-[0.14em] text-ink-500 group-hover:text-emergency-deep mt-3 text-center transition-colors">
+                  <span className="text-[10px] md:text-xs font-bold uppercase tracking-[0.14em] text-ink-500 group-hover:text-emergency-deep mt-2 md:mt-3 text-center transition-colors">
                     {item.label}
                   </span>
                 </Link>

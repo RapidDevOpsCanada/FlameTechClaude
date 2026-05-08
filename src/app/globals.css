@@ -212,13 +212,39 @@ body {
     .cta-animated-border::before { animation: none; }
   }
 
-  /* Infinite marquee */
+  /* Infinite marquee on desktop, snap-scroll carousel on mobile.
+     Touch users can't hover to pause and struggle to tap a moving target,
+     so below md we drop the animation and let the section scroll
+     natively with snap points. */
   .marquee {
     display: flex;
-    gap: 3rem;
-    animation: marquee-scroll 30s linear infinite;
+    gap: 1.25rem;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scroll-padding-inline: 1.5rem;
+    padding-inline: 1.5rem;
+    padding-block: 0.25rem;
+    scrollbar-width: none;
   }
-  .marquee:hover { animation-play-state: paused; }
+  .marquee::-webkit-scrollbar { display: none; }
+  .marquee > * { scroll-snap-align: start; }
+
+  @media (min-width: 768px) {
+    .marquee {
+      gap: 3rem;
+      overflow: hidden;
+      padding-inline: 0;
+      padding-block: 0;
+      scroll-snap-type: none;
+      animation: marquee-scroll 30s linear infinite;
+    }
+    .marquee:hover { animation-play-state: paused; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .marquee { animation: none; }
+  }
 
   @keyframes marquee-scroll {
     from { transform: translateX(0); }
