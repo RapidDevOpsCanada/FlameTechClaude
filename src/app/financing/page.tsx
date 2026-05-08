@@ -8,7 +8,7 @@ import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
 
-const SITE_URL = "https://flame-tech-claude-xd6r.vercel.app";
+const SITE_URL = "https://flametechplumbing.ca";
 const FINANCEIT_APPLY_URL = "https://www.financeit.io/consumer/products?merchant_id=flametech";
 
 export const metadata: Metadata = {

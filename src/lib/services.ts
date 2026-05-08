@@ -267,7 +267,7 @@ export const services: ServicePage[] = [
       faq: {
         heading: "What Calgary Homeowners Ask About Bathroom Plumbing",
         intro:
-          "Ready to experience the Flame Tech difference? Contact us today for a free, no-obligation quote. You can reach us by phone, email, or through our online booking system. We're here to answer your questions and schedule your service at your convenience.",
+          "Ready to experience the FlameTech difference? Contact us today for a free, no-obligation quote. You can reach us by phone, email, or through our online booking system. We're here to answer your questions and schedule your service at your convenience.",
         items: [
           { q: "How do I know when to repair versus replace my toilet?", a: "If your toilet rocks when you sit on it, has cracks in the porcelain, or needs repairs more than twice a year, it's time for replacement. Toilets typically last 15-20 years in Calgary before the hard water and settling foundations cause problems that cost more to fix than replace. Emergency repairs can often buy you time, but recurring issues mean replacement makes more financial sense." },
           { q: "Why does my shower pressure drop when other fixtures are used?", a: "This is extremely common in Calgary homes built after 2005 where builders used undersized supply lines or installed cheap pressure-balancing valves. The mixing valve can't maintain proper flow when water demand increases elsewhere in the house. We can upgrade the valve or increase supply line size depending on your home's plumbing configuration." },
@@ -314,7 +314,7 @@ export const services: ServicePage[] = [
     ],
     seoTitle: "Shower Plumbing Calgary | Installation & Repair",
     seoDescription:
-      "Professional shower plumbing services in Calgary. Installation, repair, pressure problems & leaks. Priority emergency response. Call Flame Tech today!",
+      "Professional shower plumbing services in Calgary. Installation, repair, pressure problems & leaks. Priority emergency response. Call FlameTech today!",
     seoKeywords: [
       "shower plumbing Calgary",
       "shower valve repair Calgary",
@@ -395,7 +395,7 @@ export const services: ServicePage[] = [
       faq: {
         heading: "What Calgary Homeowners Ask About Shower Plumbing",
         intro:
-          "Ready to experience the Flame Tech difference? Contact us today for a free, no-obligation quote. You can reach us by phone, email, or through our online booking system. We're here to answer your questions and schedule your service at your convenience.",
+          "Ready to experience the FlameTech difference? Contact us today for a free, no-obligation quote. You can reach us by phone, email, or through our online booking system. We're here to answer your questions and schedule your service at your convenience.",
         items: [
           { q: "How long do shower valves typically last in Calgary homes?", a: "Most shower valves last 12-15 years in Calgary, but hard water can shorten that to 8-10 years if you don't maintain them. The cartridges usually fail first — they get clogged with mineral deposits and start sticking. Regular cleaning and cartridge replacement can extend the valve's life significantly." },
           { q: "Should I repair or replace my old shower valve?", a: "If your valve is less than 10 years old and just needs a cartridge replacement, repair makes sense. If it's older than 15 years or you're having multiple issues, replacement is usually more cost-effective. We can assess your specific situation and give you an honest recommendation over the phone." },
@@ -412,10 +412,10 @@ export const services: ServicePage[] = [
     icon: "water_damage",
     title: "Professional Drain Cleaning Calgary | Fast & Reliable Service",
     lead:
-      "When stubborn clogs and slow drains disrupt your Calgary home, Flame Tech Plumbing delivers expert drain cleaning solutions that get your plumbing flowing freely again.",
+      "When stubborn clogs and slow drains disrupt your Calgary home, FlameTech Plumbing delivers expert drain cleaning solutions that get your plumbing flowing freely again.",
     heroBody: [
       "Our certified technicians use advanced equipment including hydro-jetting systems, drain snakes, and video inspection cameras to tackle everything from kitchen grease buildup to tree root intrusions.",
-      "Drain emergencies don't follow business hours, which is why Flame Tech provides priority drain cleaning throughout Calgary and surrounding areas. Our emergency response team arrives equipped with professional-grade tools to resolve your drainage issues quickly, preventing water damage and restoring your home's plumbing functionality.",
+      "Drain emergencies don't follow business hours, which is why FlameTech provides priority drain cleaning throughout Calgary and surrounding areas. Our emergency response team arrives equipped with professional-grade tools to resolve your drainage issues quickly, preventing water damage and restoring your home's plumbing functionality.",
     ],
     heroSubhead: "Trusted Calgary Drain Cleaning Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
@@ -487,9 +487,9 @@ export const services: ServicePage[] = [
     richContent: {
       sections: [
         {
-          heading: "Why Calgary Homeowners Choose Flame Tech for Drain Cleaning",
+          heading: "Why Calgary Homeowners Choose FlameTech for Drain Cleaning",
           intro:
-            "As a locally owned and operated Calgary plumbing experts, we specialize in professional drain cleaning services for homes and businesses across the city. Calgary's challenging soil conditions and aging infrastructure demand experienced professionals who understand local drainage patterns and common blockage causes. Flame Tech's technicians are certified in advanced drain cleaning techniques, from traditional cable snaking to high-pressure water jetting for commercial-grade results. Our team regularly services homes across Calgary's diverse neighborhoods, from newer developments in Evergreen to heritage properties in established areas where cast iron and clay pipes present unique challenges.",
+            "As a locally owned and operated Calgary plumbing experts, we specialize in professional drain cleaning services for homes and businesses across the city. Calgary's challenging soil conditions and aging infrastructure demand experienced professionals who understand local drainage patterns and common blockage causes. FlameTech's technicians are certified in advanced drain cleaning techniques, from traditional cable snaking to high-pressure water jetting for commercial-grade results. Our team regularly services homes across Calgary's diverse neighborhoods, from newer developments in Evergreen to heritage properties in established areas where cast iron and clay pipes present unique challenges.",
           items: [
             { heading: "Kitchen Drain Cleaning", body: "Professional removal of grease, food debris, and soap buildup using specialized enzymes and mechanical cleaning tools designed for kitchen drainage systems." },
             { heading: "Bathroom Drain Services", body: "Complete cleaning of bathtub, shower, and sink drains affected by hair clogs, soap scum, and mineral deposits common in Calgary's hard-water areas." },
@@ -552,7 +552,7 @@ export const services: ServicePage[] = [
     icon: "contact_emergency",
     title: "Emergency Plumbers Calgary – Fast Response When You Need It Most",
     lead:
-      "When disaster strikes, you need emergency plumbers in Calgary who respond immediately. At Flame Tech, we provide rapid emergency plumbing services to protect your home from water damage and restore your comfort quickly.",
+      "When disaster strikes, you need emergency plumbers in Calgary who respond immediately. At FlameTech, we provide rapid emergency plumbing services to protect your home from water damage and restore your comfort quickly.",
     heroBody: [
       "Our emergency plumbers in Calgary are on call around the clock, ready to tackle urgent plumbing crises that can't wait until morning. From burst pipes during Calgary's harsh winters to sudden water heater failures, our certified technicians arrive equipped to handle any emergency plumbing situation.",
       "When you call us, you're getting immediate help from Calgary's most trusted emergency plumbing team — priority dispatch, fair pricing, and real people who answer the phone.",
@@ -582,7 +582,7 @@ export const services: ServicePage[] = [
     ],
     seoTitle: "Emergency Plumbers Calgary | Fast Plumbing Services",
     seoDescription:
-      "Need an emergency plumber in Calgary? Flame Tech offers priority emergency plumbing services. Fast response for burst pipes, leaks & more. Call now!",
+      "Need an emergency plumber in Calgary? FlameTech offers priority emergency plumbing services. Fast response for burst pipes, leaks & more. Call now!",
     seoKeywords: [
       "emergency plumber Calgary",
       "emergency plumbing Calgary",
@@ -616,9 +616,9 @@ export const services: ServicePage[] = [
     richContent: {
       sections: [
         {
-          heading: "Why Choose Flame Tech for Emergency Plumbing in Calgary?",
+          heading: "Why Choose FlameTech for Emergency Plumbing in Calgary?",
           intro:
-            "Plumbing emergencies don't keep business hours, and neither do we. As Calgary's most reliable emergency plumbers, Flame Tech Plumbing & Heating is your lifeline when disaster strikes. We understand that plumbing emergencies cause stress, property damage, and disruption to your daily life. That's why we guarantee rapid response times throughout Calgary and surrounding communities. Our certified emergency plumbers arrive fully equipped with professional tools and genuine parts to solve your crisis efficiently — day or night, weekends and holidays included. FlameTech specializes in emergency plumbing services that protect Calgary homes from catastrophic water damage, combining decades of experience with state-of-the-art equipment to handle urgent situations including burst pipes, severe leaks, sewer backups, and water heater failures.",
+            "Plumbing emergencies don't keep business hours, and neither do we. As Calgary's most reliable emergency plumbers, FlameTech Plumbing & Heating is your lifeline when disaster strikes. We understand that plumbing emergencies cause stress, property damage, and disruption to your daily life. That's why we guarantee rapid response times throughout Calgary and surrounding communities. Our certified emergency plumbers arrive fully equipped with professional tools and genuine parts to solve your crisis efficiently — day or night, weekends and holidays included. FlameTech specializes in emergency plumbing services that protect Calgary homes from catastrophic water damage, combining decades of experience with state-of-the-art equipment to handle urgent situations including burst pipes, severe leaks, sewer backups, and water heater failures.",
           items: [
             { heading: "Rapid Response Times", body: "Strategically positioned service vehicles throughout the Calgary region mean our emergency plumbers arrive fast, minimizing water damage and limiting repair costs." },
             { heading: "Certified Technicians", body: "Every emergency plumber on our Calgary team is fully licensed, bonded, and insured — meeting all Alberta plumbing codes with the training to handle any crisis safely." },
@@ -642,13 +642,13 @@ export const services: ServicePage[] = [
         {
           heading: "Emergency Plumbers Serving All of Calgary",
           intro:
-            "When plumbing disasters strike anywhere in Calgary, our emergency response team is ready to help. We provide urgent service throughout all Calgary quadrants and surrounding communities including Airdrie, Chestermere, Okotoks, and Cochrane. Our fully-stocked emergency vehicles are strategically positioned throughout the Calgary region for the fastest possible response times to your plumbing crisis. Whether you're downtown, in the suburbs, or in outlying areas, you can count on Flame Tech's emergency plumbers to arrive quickly with the expertise and equipment needed to resolve your plumbing emergency and prevent further damage to your home.",
+            "When plumbing disasters strike anywhere in Calgary, our emergency response team is ready to help. We provide urgent service throughout all Calgary quadrants and surrounding communities including Airdrie, Chestermere, Okotoks, and Cochrane. Our fully-stocked emergency vehicles are strategically positioned throughout the Calgary region for the fastest possible response times to your plumbing crisis. Whether you're downtown, in the suburbs, or in outlying areas, you can count on FlameTech's emergency plumbers to arrive quickly with the expertise and equipment needed to resolve your plumbing emergency and prevent further damage to your home.",
         },
       ],
       faq: {
         heading: "Frequently Asked Questions — Emergency Plumbers Calgary",
         intro:
-          "Facing a plumbing emergency? You're not alone — and you probably have questions. As Calgary's premier emergency plumbing service, we understand the stress and urgency of plumbing crises, from midnight pipe bursts to weekend water heater failures. Browse our emergency plumbing FAQs below for quick answers. If your situation needs immediate attention, don't hesitate — call Flame Tech Plumbing at 587-834-3668 now for urgent assistance.",
+          "Facing a plumbing emergency? You're not alone — and you probably have questions. As Calgary's premier emergency plumbing service, we understand the stress and urgency of plumbing crises, from midnight pipe bursts to weekend water heater failures. Browse our emergency plumbing FAQs below for quick answers. If your situation needs immediate attention, don't hesitate — call FlameTech Plumbing at 587-834-3668 now for urgent assistance.",
         items: [
           { q: "What qualifies as a plumbing emergency?", a: "A plumbing emergency is any situation that threatens immediate property damage, creates health hazards, or leaves your home without essential water services. This includes burst pipes, severe leaks flooding your home, sewer backups, gas line leaks, complete water heater failures, or any plumbing issue that cannot safely wait until regular business hours. If you're unsure whether your situation is an emergency, call us at 587-834-3668 — we're happy to assess your situation over the phone." },
           { q: "How quickly can an emergency plumber arrive in Calgary?", a: "We maintain strategically positioned service vehicles throughout the Calgary region to ensure the fastest possible response. For life-threatening situations like gas leaks, we prioritize immediate dispatch. Our goal is to minimize damage and restore your peace of mind as quickly as possible." },
@@ -664,9 +664,9 @@ export const services: ServicePage[] = [
     icon: "swap_horiz",
     title: "Poly-B Plumbing Calgary — Inspection, Repair & Complete Replacement",
     lead:
-      "Protect your Calgary home from failing Poly-B pipes. Flame Tech provides expert inspection, emergency repairs, and complete polybutylene replacement services that restore your plumbing reliability and protect your property value.",
+      "Protect your Calgary home from failing Poly-B pipes. FlameTech provides expert inspection, emergency repairs, and complete polybutylene replacement services that restore your plumbing reliability and protect your property value.",
     heroBody: [
-      "If your Calgary home was constructed between 1978 and 1995, there's a strong possibility it contains polybutylene piping — a material now recognized for premature deterioration and unexpected failures that threaten property and disrupt lives. Flame Tech specializes in identifying Poly-B systems throughout Calgary neighborhoods, assessing their current condition, and executing complete replacements using modern, reliable materials like PEX and copper that insurance companies trust and homebuyers demand.",
+      "If your Calgary home was constructed between 1978 and 1995, there's a strong possibility it contains polybutylene piping — a material now recognized for premature deterioration and unexpected failures that threaten property and disrupt lives. FlameTech specializes in identifying Poly-B systems throughout Calgary neighborhoods, assessing their current condition, and executing complete replacements using modern, reliable materials like PEX and copper that insurance companies trust and homebuyers demand.",
       "Don't wait for catastrophic pipe failure — proactive replacement protects your investment, maintains insurance coverage, and delivers peace of mind that your plumbing won't betray you at the worst possible moment.",
     ],
     heroSubhead: "Calgary's Poly-B Replacement Experts",
@@ -694,7 +694,7 @@ export const services: ServicePage[] = [
     ],
     seoTitle: "Poly-B Plumbing Calgary | Replacement & Repair Experts",
     seoDescription:
-      "Poly-B plumbing problems in Calgary? Flame Tech specializes in inspection, repair, and complete replacement. Protect your home — call today for a free quote.",
+      "Poly-B plumbing problems in Calgary? FlameTech specializes in inspection, repair, and complete replacement. Protect your home — call today for a free quote.",
     seoKeywords: [
       "Poly-B plumbing Calgary",
       "polybutylene replacement Calgary",
@@ -732,9 +732,9 @@ export const services: ServicePage[] = [
     richContent: {
       sections: [
         {
-          heading: "Why Choose Flame Tech for Poly-B Issues in Calgary?",
+          heading: "Why Choose FlameTech for Poly-B Issues in Calgary?",
           intro:
-            "Thousands of Calgary homes built during the construction boom of the 1980s and early 1990s contain Poly-B plumbing that ages poorly and fails without warning. Unlike gradual deterioration you might notice, polybutylene pipes can appear perfectly fine one day and rupture catastrophically the next. Flame Tech understands the unique challenges facing Calgary homeowners with polybutylene systems. We provide honest assessments of your piping condition, explain insurance implications clearly, and deliver efficient whole-home repiping that minimizes disruption while maximizing long-term reliability. Our replacement installations meet current Alberta building codes, use materials approved by all major insurance carriers, and come backed by comprehensive warranties that protect your investment for decades to come.",
+            "Thousands of Calgary homes built during the construction boom of the 1980s and early 1990s contain Poly-B plumbing that ages poorly and fails without warning. Unlike gradual deterioration you might notice, polybutylene pipes can appear perfectly fine one day and rupture catastrophically the next. FlameTech understands the unique challenges facing Calgary homeowners with polybutylene systems. We provide honest assessments of your piping condition, explain insurance implications clearly, and deliver efficient whole-home repiping that minimizes disruption while maximizing long-term reliability. Our replacement installations meet current Alberta building codes, use materials approved by all major insurance carriers, and come backed by comprehensive warranties that protect your investment for decades to come.",
           items: [
             { heading: "Visual Poly-B Identification", body: "We recognize polybutylene's signature grey plastic appearance and PB2110 stamping, and we provide free inspections to confirm whether your home has Poly-B." },
             { heading: "Emergency Leak Repairs", body: "When a Poly-B fitting or pipe fails, we respond fast to contain the leak, stabilize the situation, and plan your next steps." },
@@ -758,19 +758,19 @@ export const services: ServicePage[] = [
         {
           heading: "Poly-B Services Throughout Calgary & Surrounding Communities",
           intro:
-            "Flame Tech serves the entire Calgary metropolitan area where Poly-B installations remain prevalent in homes built during the 1980s and 1990s construction boom. Our replacement services extend throughout all four Calgary quadrants plus neighboring communities including Airdrie, Chestermere, Okotoks, and Cochrane. We're particularly familiar with neighborhoods developed during polybutylene's peak usage years and understand the specific installation patterns common to Calgary builders of that era. Whether you need emergency leak repair after a Poly-B failure or want to proactively replace your entire system before problems develop, our experienced technicians provide thorough assessments, transparent pricing, and professional installations that restore confidence in your home's plumbing infrastructure.",
+            "FlameTech serves the entire Calgary metropolitan area where Poly-B installations remain prevalent in homes built during the 1980s and 1990s construction boom. Our replacement services extend throughout all four Calgary quadrants plus neighboring communities including Airdrie, Chestermere, Okotoks, and Cochrane. We're particularly familiar with neighborhoods developed during polybutylene's peak usage years and understand the specific installation patterns common to Calgary builders of that era. Whether you need emergency leak repair after a Poly-B failure or want to proactively replace your entire system before problems develop, our experienced technicians provide thorough assessments, transparent pricing, and professional installations that restore confidence in your home's plumbing infrastructure.",
         },
       ],
       faq: {
         heading: "Frequently Asked Questions – Poly-B Plumbing Calgary",
         intro:
-          "Concerned about Poly-B piping in your Calgary property? These common questions address the critical issues homeowners face when dealing with polybutylene plumbing systems. Understanding the risks, costs, and solutions helps you make informed decisions about protecting your home and preserving its value. Need immediate guidance on your specific situation? Contact Flame Tech at 587-834-3668 for a professional assessment and personalized recommendations.",
+          "Concerned about Poly-B piping in your Calgary property? These common questions address the critical issues homeowners face when dealing with polybutylene plumbing systems. Understanding the risks, costs, and solutions helps you make informed decisions about protecting your home and preserving its value. Need immediate guidance on your specific situation? Contact FlameTech at 587-834-3668 for a professional assessment and personalized recommendations.",
         items: [
-          { q: "How do I know if my Calgary home has Poly-B plumbing?", a: "Polybutylene pipes appear as flexible gray or occasionally white plastic tubing, typically stamped with \"PB2110\" markings along their length. Check visible plumbing beneath sinks, around water heaters, and in basement mechanical rooms — if your Calgary home was built between 1978 and 1995, there's substantial likelihood of Poly-B installation. Common locations include main water supply lines entering the house, distribution pipes running through walls and ceilings, and connections to fixtures throughout your home. The plastic fittings connecting Poly-B pipes often use metal crimp rings or compression fittings that appear different from standard copper connections. If you're uncertain, Flame Tech provides free inspections to identify polybutylene systems and assess their current condition." },
+          { q: "How do I know if my Calgary home has Poly-B plumbing?", a: "Polybutylene pipes appear as flexible gray or occasionally white plastic tubing, typically stamped with \"PB2110\" markings along their length. Check visible plumbing beneath sinks, around water heaters, and in basement mechanical rooms — if your Calgary home was built between 1978 and 1995, there's substantial likelihood of Poly-B installation. Common locations include main water supply lines entering the house, distribution pipes running through walls and ceilings, and connections to fixtures throughout your home. The plastic fittings connecting Poly-B pipes often use metal crimp rings or compression fittings that appear different from standard copper connections. If you're uncertain, FlameTech provides free inspections to identify polybutylene systems and assess their current condition." },
           { q: "Should I proactively replace Poly-B pipes before they fail?", a: "Proactive replacement offers significant advantages over waiting for catastrophic failure. Poly-B pipes deteriorate unpredictably — one section might last decades while another fails tomorrow, making it impossible to predict when disaster will strike. Emergency repairs after pipe bursts cost substantially more than planned replacements due to water damage remediation, rushed service calls, and temporary housing needs if your home becomes uninhabitable. Insurance complications worsen with age as carriers increasingly refuse coverage or demand replacement as a condition of policy renewal. Property value suffers since informed buyers recognize Poly-B as a major liability requiring immediate attention. Scheduled replacement allows you to choose timing that fits your budget and schedule, avoid emergency stress, and install superior modern materials with manufacturer warranties. Most Calgary homeowners find peace of mind alone justifies replacement investment." },
-          { q: "Will my insurance cover Poly-B damage or replacement?", a: "Insurance coverage for polybutylene failures varies dramatically between providers and specific policy language. Many Calgary insurers now exclude Poly-B-related claims entirely, refuse new policies on homes with known polybutylene systems, or demand immediate replacement as a condition of coverage continuation. Some carriers provide limited coverage for sudden failures but exclude gradual leaks or damage from known defective materials. Review your specific policy carefully and contact your insurance provider directly about Poly-B coverage — many homeowners discover exclusions only after filing claims following catastrophic failures. Documentation proving regular maintenance and prompt repairs strengthens coverage arguments, but replacement remains the only guaranteed solution to insurance complications. Flame Tech provides detailed documentation suitable for insurance purposes following all Poly-B work." },
+          { q: "Will my insurance cover Poly-B damage or replacement?", a: "Insurance coverage for polybutylene failures varies dramatically between providers and specific policy language. Many Calgary insurers now exclude Poly-B-related claims entirely, refuse new policies on homes with known polybutylene systems, or demand immediate replacement as a condition of coverage continuation. Some carriers provide limited coverage for sudden failures but exclude gradual leaks or damage from known defective materials. Review your specific policy carefully and contact your insurance provider directly about Poly-B coverage — many homeowners discover exclusions only after filing claims following catastrophic failures. Documentation proving regular maintenance and prompt repairs strengthens coverage arguments, but replacement remains the only guaranteed solution to insurance complications. FlameTech provides detailed documentation suitable for insurance purposes following all Poly-B work." },
           { q: "How much does Poly-B replacement cost in Calgary?", a: "Complete Poly-B replacement costs depend on numerous factors including home size, accessibility of existing pipes, chosen replacement material, and extent of drywall repair required. Typical Calgary homes range from basic replacements in smaller properties with exposed plumbing to extensive repiping in larger multi-story residences requiring significant wall access. PEX installations generally cost less than copper replacements while providing excellent performance and freeze resistance suited to Calgary's climate. Partial replacements focusing on high-risk areas cost substantially less but leave vulnerable sections that may fail later. We provide detailed written estimates after thorough home assessment, explaining all cost factors transparently and offering financing options for qualified homeowners. Many Calgary residents find replacement costs comparable to premium insurance deductibles plus water damage repairs following just one major Poly-B failure." },
-          { q: "What's the best replacement material for Poly-B — PEX or copper?", a: "PEX (cross-linked polyethylene) represents the optimal replacement material for most Calgary homes due to excellent freeze resistance, flexibility that simplifies installation through existing walls, resistance to corrosion and scale buildup, and cost-effectiveness compared to copper alternatives. Modern PEX carries manufacturer warranties extending 25-50 years, requires fewer fittings reducing potential leak points, and performs reliably in Calgary's temperature extremes. Copper remains preferred for specific applications including exposed piping where aesthetics matter and situations requiring maximum heat resistance. Both materials satisfy building codes, meet insurance requirements, and provide dramatic improvements over polybutylene's failure-prone characteristics. Flame Tech assesses your specific situation to recommend the ideal replacement material balancing performance, longevity, budget, and installation complexity for your unique Calgary home." },
+          { q: "What's the best replacement material for Poly-B — PEX or copper?", a: "PEX (cross-linked polyethylene) represents the optimal replacement material for most Calgary homes due to excellent freeze resistance, flexibility that simplifies installation through existing walls, resistance to corrosion and scale buildup, and cost-effectiveness compared to copper alternatives. Modern PEX carries manufacturer warranties extending 25-50 years, requires fewer fittings reducing potential leak points, and performs reliably in Calgary's temperature extremes. Copper remains preferred for specific applications including exposed piping where aesthetics matter and situations requiring maximum heat resistance. Both materials satisfy building codes, meet insurance requirements, and provide dramatic improvements over polybutylene's failure-prone characteristics. FlameTech assesses your specific situation to recommend the ideal replacement material balancing performance, longevity, budget, and installation complexity for your unique Calgary home." },
         ],
       },
     },
@@ -949,7 +949,7 @@ export const services: ServicePage[] = [
       "Calgary's unforgiving winters demand reliable heating, and when your boiler fails, FlameTech Plumbing delivers the expert repair services you need to restore warmth to your home.",
     heroBody: [
       "With over 25 years of experience servicing residential and commercial boilers throughout Calgary, our certified technicians understand the intricate mechanics of modern condensing boilers, traditional cast iron systems, and everything in between.",
-      "Heating emergencies strike without warning, which is why Flame Tech offers priority emergency boiler repair throughout Calgary and surrounding areas. Whether your boiler is cycling erratically during a −30°C cold snap or completely shut down on a Sunday evening, our real technicians answer the phone and dispatch immediately with fully-stocked service vehicles.",
+      "Heating emergencies strike without warning, which is why FlameTech offers priority emergency boiler repair throughout Calgary and surrounding areas. Whether your boiler is cycling erratically during a −30°C cold snap or completely shut down on a Sunday evening, our real technicians answer the phone and dispatch immediately with fully-stocked service vehicles.",
     ],
     heroSubhead: "Trusted Calgary Boiler Repair Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
@@ -1010,7 +1010,7 @@ export const services: ServicePage[] = [
     richContent: {
       sections: [
         {
-          heading: "Why Calgary Homeowners Choose Flame Tech for Boiler Repair",
+          heading: "Why Calgary Homeowners Choose FlameTech for Boiler Repair",
           intro:
             "As a locally owned and operated plumbers in Calgary, we specialize in professional boiler repair services for homes and businesses across the city. Technical expertise separates professional boiler repair from guesswork, and FlameTech's team brings decades of specialized knowledge to every service call. Calgary's challenging climate — from extreme temperature swings to chinook winds that stress heating systems — requires technicians who understand how weather patterns affect boiler performance, and our team has troubleshot thousands of boiler failures across every Calgary neighborhood from Kensington to McKenzie Towne.",
           items: [
@@ -1353,7 +1353,7 @@ export const services: ServicePage[] = [
     icon: "local_fire_department",
     title: "Furnace Calgary – Installation, Repair & Maintenance",
     lead:
-      "When Calgary's temperatures drop, a reliable furnace isn't just a luxury — it's essential. Flame Tech Plumbing & Heating is your trusted local expert for comprehensive furnace services in Calgary.",
+      "When Calgary's temperatures drop, a reliable furnace isn't just a luxury — it's essential. FlameTech Plumbing & Heating is your trusted local expert for comprehensive furnace services in Calgary.",
     heroBody: [
       "Whether you need a brand-new high-efficiency furnace installed, urgent repairs to get your heat back on, or routine maintenance to keep things running smoothly, our certified technicians are here to ensure your home stays warm and comfortable all winter long.",
       "We work with all makes and models but are also a part of the AirEase Pro Team.",
@@ -1368,7 +1368,7 @@ export const services: ServicePage[] = [
       alt: "AirEase high-efficiency furnace installed by FlameTech in Calgary",
     },
     intro:
-      "Flame Tech is your trusted local expert for furnace services in Calgary — installation, repair, and maintenance for every make and model.",
+      "FlameTech is your trusted local expert for furnace services in Calgary — installation, repair, and maintenance for every make and model.",
     features: [
       "High-efficiency furnace installation",
       "Priority emergency furnace repair",
@@ -1425,9 +1425,9 @@ export const services: ServicePage[] = [
     richContent: {
       sections: [
         {
-          heading: "Why Choose Flame Tech for Furnace Services in Calgary?",
+          heading: "Why Choose FlameTech for Furnace Services in Calgary?",
           intro:
-            "Choosing the right company for your furnace needs is crucial. Here's why Calgary trusts Flame Tech Plumbing & Heating:",
+            "Choosing the right company for your furnace needs is crucial. Here's why Calgary trusts FlameTech Plumbing & Heating:",
           items: [
             {
               heading: "Local Calgary Furnace Experts",
@@ -1442,7 +1442,7 @@ export const services: ServicePage[] = [
         {
           heading: "Our Calgary Furnace Services",
           intro:
-            "Flame Tech Plumbing & Heating offers a complete range of furnace services to meet all your needs:",
+            "FlameTech Plumbing & Heating offers a complete range of furnace services to meet all your needs:",
           items: [
             {
               heading: "Furnace Installation",
@@ -1454,7 +1454,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "Furnace Repair",
-              body: "Furnace broken down? Don't shiver in the cold. Flame Tech offers prompt and reliable furnace repair throughout Calgary — priority emergency service to get your heat restored during cold snaps, experienced technicians who can diagnose and repair any make or model, transparent pricing, and honest advice on whether to repair or replace.",
+              body: "Furnace broken down? Don't shiver in the cold. FlameTech offers prompt and reliable furnace repair throughout Calgary — priority emergency service to get your heat restored during cold snaps, experienced technicians who can diagnose and repair any make or model, transparent pricing, and honest advice on whether to repair or replace.",
               image: {
                 src: "/images/2025/04/furnace-repair.jpg",
                 alt: "FlameTech technician repairing a residential furnace",
@@ -1513,7 +1513,7 @@ export const services: ServicePage[] = [
         heading: "Frequently Asked Questions About Furnaces in Calgary",
         items: [
           {
-            q: "Ready to experience the Flame Tech difference?",
+            q: "Ready to experience the FlameTech difference?",
             a: "Contact us today for a free, no-obligation quote on our furnace services in Calgary. You can reach us by phone, email, or through our online booking system. We're here to answer your questions and schedule your service at your convenience. We also offer furnace repairs in Airdrie.",
           },
           {
@@ -1964,7 +1964,7 @@ export const services: ServicePage[] = [
       faq: {
         heading: "Frequently Asked Questions About Garage Heaters in Calgary",
         intro:
-          "Ready to experience the Flame Tech difference? Contact us today for a free, no-obligation quote. You can reach us by phone, email, or through our online booking system. We're here to answer your questions and schedule your service at your convenience.",
+          "Ready to experience the FlameTech difference? Contact us today for a free, no-obligation quote. You can reach us by phone, email, or through our online booking system. We're here to answer your questions and schedule your service at your convenience.",
         items: [
           { q: "What size garage heater do I need for my Calgary garage?", a: "Most single-car Calgary garages need 25,000-30,000 BTU units, while double garages typically require 45,000-60,000 BTU depending on insulation and ceiling height. We calculate heat loss based on your garage's construction, not just square footage. Our heating specialists can assess your space and recommend the right size during a free consultation." },
           { q: "Can I install a garage heater myself in Calgary?", a: "Gas garage heaters require a licensed gas fitter in Calgary, and electrical units over 240V need a qualified electrician. DIY installations often fail city inspections and void manufacturer warranties. Many insurance companies also require professional installation for coverage." },
@@ -1981,7 +1981,7 @@ export const services: ServicePage[] = [
     icon: "ac_unit",
     title: "Heat Pumps Calgary – Professional Installation & Service",
     lead:
-      "Flame Tech Plumbing & Heating is Calgary's premier provider of energy-efficient heat pump solutions.",
+      "FlameTech Plumbing & Heating is Calgary's premier provider of energy-efficient heat pump solutions.",
     heroBody: [
       "As local specialists with deep roots in our community, we understand the unique heating and cooling challenges that Calgary's climate presents throughout the year.",
       "Our expertise in heat pump technology ensures you receive customized solutions that maximize comfort while minimizing energy costs.",
@@ -2009,7 +2009,7 @@ export const services: ServicePage[] = [
         d: "Every member of our team carries full licensing and comprehensive insurance — the strictest safety benchmarks in the industry.",
       },
     ],
-    seoTitle: "Heat Pump Installation Calgary | Flame Tech Plumbing",
+    seoTitle: "Heat Pump Installation Calgary | FlameTech Plumbing",
     seoDescription:
       "Expert heat pump installation, repair & maintenance in Calgary. Energy-efficient heating & cooling solutions for Alberta homes. Priority service.",
     seoKeywords: [
@@ -2047,9 +2047,9 @@ export const services: ServicePage[] = [
     richContent: {
       sections: [
         {
-          heading: "Why Calgary Homeowners Trust Flame Tech for Heat Pumps",
+          heading: "Why Calgary Homeowners Trust FlameTech for Heat Pumps",
           intro:
-            "Selecting the ideal heat pump provider makes all the difference in performance and longevity. Here's what sets Flame Tech Plumbing & Heating apart in Calgary:",
+            "Selecting the ideal heat pump provider makes all the difference in performance and longevity. Here's what sets FlameTech Plumbing & Heating apart in Calgary:",
           items: [
             { heading: "Calgary Heat Pump Specialists", body: "Our certified technicians live and serve right here in Calgary. We're intimately familiar with how our extreme temperature swings impact heat pump performance and know exactly which systems thrive in our climate conditions." },
             { heading: "Certified & Covered Professionals", body: "Your investment deserves protection. Every member of our team carries full licensing and comprehensive insurance, delivering services that meet the strictest quality and safety benchmarks in the industry. We also have Heat Pump Experts available in Airdrie." },
@@ -2058,12 +2058,12 @@ export const services: ServicePage[] = [
         {
           heading: "Our Heat Pump Services",
           intro:
-            "Flame Tech Plumbing & Heating delivers comprehensive heat pump services designed for Calgary's climate:",
+            "FlameTech Plumbing & Heating delivers comprehensive heat pump services designed for Calgary's climate:",
           items: [
             { heading: "Heat Pump Installation", body: "Considering a heat pump upgrade for your Calgary property? Our specialists assess your property's heating and cooling requirements, recommending the optimal heat pump system that balances performance with your financial goals. We manage every installation phase with precision and professionalism from start to finish." },
-            { heading: "Heat Pump Repair", body: "Experiencing reduced heating or cooling output, unusual sounds, or complete system failure? Our trained technicians troubleshoot and repair all heat pump brands and configurations rapidly, bringing reliable climate control back to your Calgary home. When you need heat pump repair Calgary, Flame Tech responds quickly." },
+            { heading: "Heat Pump Repair", body: "Experiencing reduced heating or cooling output, unusual sounds, or complete system failure? Our trained technicians troubleshoot and repair all heat pump brands and configurations rapidly, bringing reliable climate control back to your Calgary home. When you need heat pump repair Calgary, FlameTech responds quickly." },
             { heading: "Heat Pump Maintenance & Service", body: "Preventative maintenance protects your heat pump investment and ensures peak efficiency year-round. Our thorough heat pump servicing in Calgary prevents expensive failures, optimizes energy consumption, and extends system lifespan through all seasons." },
-            { heading: "Emergency Heat Pump Services", body: "Heat pump failures never follow convenient schedules, particularly during Calgary's temperature extremes. Flame Tech provides priority emergency heat pump services in Calgary to restore your comfort when you need it most urgently." },
+            { heading: "Emergency Heat Pump Services", body: "Heat pump failures never follow convenient schedules, particularly during Calgary's temperature extremes. FlameTech provides priority emergency heat pump services in Calgary to restore your comfort when you need it most urgently." },
           ],
         },
         {
@@ -2091,7 +2091,7 @@ export const services: ServicePage[] = [
       faq: {
         heading: "Heat Pump Questions Calgary Homeowners Ask",
         items: [
-          { q: "Ready to discover the Flame Tech advantage?", a: "Reach out now for a complimentary, pressure-free estimate on our heat pump services in Calgary. Connect with us via phone, email, or our convenient online scheduling platform. We're standing by to address your questions and arrange service whenever suits you best." },
+          { q: "Ready to discover the FlameTech advantage?", a: "Reach out now for a complimentary, pressure-free estimate on our heat pump services in Calgary. Connect with us via phone, email, or our convenient online scheduling platform. We're standing by to address your questions and arrange service whenever suits you best." },
           { q: "How often should I have my heat pump serviced?", a: "We advise booking professional heat pump maintenance twice annually — spring and fall — to maintain peak efficiency and catch problems before they escalate into major repairs." },
           { q: "What are the signs my heat pump needs repair?", a: "Warning signs include irregular heating or cooling patterns, unfamiliar operational sounds, moisture accumulation, ice formation, and unexplained spikes in utility costs. Contact our Calgary heat pump repair specialists immediately when noticing these symptoms." },
           { q: "How long does installation take?", a: "Installation timelines vary based on system configuration and installation complexity. We establish transparent expectations and provide detailed scheduling before beginning any project." },
@@ -2119,7 +2119,7 @@ export const services: ServicePage[] = [
     icon: "ac_unit",
     title: "Air Conditioning Calgary – Expert AC Services",
     lead:
-      "Flame Tech Plumbing & Heating is a trusted name in Calgary for all things heating and cooling.",
+      "FlameTech Plumbing & Heating is a trusted name in Calgary for all things heating and cooling.",
     heroBody: [
       "We're not just another company; we're your neighbours, dedicated to providing reliable and efficient air conditioning services to homes across the city.",
       "Our deep understanding of Calgary's unique climate ensures we provide solutions tailored to your specific needs.",
@@ -2130,7 +2130,7 @@ export const services: ServicePage[] = [
       alt: "5-star customer reviews",
     },
     intro:
-      "Flame Tech Plumbing & Heating is a trusted name in Calgary for all things heating and cooling.",
+      "FlameTech Plumbing & Heating is a trusted name in Calgary for all things heating and cooling.",
     features: [
       "Central AC installation",
       "AC repair for all makes & models",
@@ -2156,7 +2156,7 @@ export const services: ServicePage[] = [
     seoTitle:
       "Calgary Air Conditioning Experts - Get Upto 12 Years Warranty!",
     seoDescription:
-      "Expert air conditioning services in Calgary. AC installation, repair & maintenance. Licensed technicians. Call Flame Tech today!",
+      "Expert air conditioning services in Calgary. AC installation, repair & maintenance. Licensed technicians. Call FlameTech today!",
     seoKeywords: [
       "air conditioning Calgary",
       "AC repair Calgary",
@@ -2192,9 +2192,9 @@ export const services: ServicePage[] = [
     richContent: {
       sections: [
         {
-          heading: "Why Choose Flame Tech for Air Conditioning in Calgary?",
+          heading: "Why Choose FlameTech for Air Conditioning in Calgary?",
           intro:
-            "Choosing the right company for your Air Conditioning needs is crucial. Here's why Calgary trusts Flame Tech Plumbing & Heating:",
+            "Choosing the right company for your Air Conditioning needs is crucial. Here's why Calgary trusts FlameTech Plumbing & Heating:",
           items: [
             {
               heading: "Local Calgary AC Experts",
@@ -2209,7 +2209,7 @@ export const services: ServicePage[] = [
         {
           heading: "Our Air Conditioning Services",
           intro:
-            "Flame Tech Plumbing & Heating offers a complete range of AC services to meet all your needs:",
+            "FlameTech Plumbing & Heating offers a complete range of AC services to meet all your needs:",
           items: [
             {
               heading: "Air Conditioner Installation",
@@ -2221,7 +2221,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "Air Conditioning Repair",
-              body: "Is your AC unit making strange noises, not cooling effectively, or has it stopped working altogether? Our experienced technicians are equipped to diagnose and repair all makes and models of air conditioners quickly and effectively, restoring comfort to your home. If you need AC repair Calgary, Flame Tech is ready to help.",
+              body: "Is your AC unit making strange noises, not cooling effectively, or has it stopped working altogether? Our experienced technicians are equipped to diagnose and repair all makes and models of air conditioners quickly and effectively, restoring comfort to your home. If you need AC repair Calgary, FlameTech is ready to help.",
               image: {
                 src: "/images/2023/03/services-details-img-1-2.jpg",
                 alt: "AC repair being performed by a technician",
@@ -2237,7 +2237,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "Emergency Air Conditioning Services",
-              body: "We understand that AC emergencies can happen at any time, especially during a heatwave. That's why Flame Tech offers emergency air conditioning services in Calgary to get your system back up and running as quickly as possible.",
+              body: "We understand that AC emergencies can happen at any time, especially during a heatwave. That's why FlameTech offers emergency air conditioning services in Calgary to get your system back up and running as quickly as possible.",
               image: {
                 src: "/images/2023/03/services-2-3.jpg",
                 alt: "Emergency AC service in Calgary",
@@ -2294,7 +2294,7 @@ export const services: ServicePage[] = [
         heading: "Frequently Asked Questions About Air Conditioning in Calgary",
         items: [
           {
-            q: "Ready to experience the Flame Tech difference?",
+            q: "Ready to experience the FlameTech difference?",
             a: "Contact us today for a free, no-obligation quote on our air conditioning services in Calgary. You can reach us by phone, email, or through our online booking system. We're here to answer your questions and schedule your service at your convenience.",
           },
           {
@@ -2430,7 +2430,7 @@ export const services: ServicePage[] = [
       faq: {
         heading: "Frequently Asked Questions About Humidifiers in Calgary",
         intro:
-          "Ready to experience the Flame Tech difference? Contact us today for a free, no-obligation quote. You can reach us by phone, email, or through our online booking system. We're here to answer your questions and schedule your service at your convenience.",
+          "Ready to experience the FlameTech difference? Contact us today for a free, no-obligation quote. You can reach us by phone, email, or through our online booking system. We're here to answer your questions and schedule your service at your convenience.",
         items: [
           { q: "What type of humidifier works best for Calgary homes?", a: "Bypass and powered flow-through humidifiers work best with Calgary's forced-air heating systems. Steam units are great for larger homes but require more maintenance with our hard water. Avoid portable units — they can't handle Calgary's extreme dryness and often cause mold problems. We'll assess your ductwork and furnace type to recommend the right system." },
           { q: "How often do humidifier pads need replacement in Calgary?", a: "Replace pads every heating season at minimum — often twice per year with Calgary's hard water. Mineral buildup clogs the media faster here than in softer water areas. Signs you need new pads include white dust, musty odors, or humidity readings that won't climb despite the unit running constantly." },
@@ -2448,10 +2448,10 @@ export const services: ServicePage[] = [
     icon: "propane_tank",
     title: "Hot Water Tanks Calgary – Professional Installation & Repair",
     lead:
-      "Calgary homeowners rely on Flame Tech Plumbing & Heating for dependable hot water tank solutions. Has your morning shower turned into an unwelcome cold surprise? Maybe you've spotted water pooling around the base of your current unit or noticed your energy bills creeping higher each month.",
+      "Calgary homeowners rely on FlameTech Plumbing & Heating for dependable hot water tank solutions. Has your morning shower turned into an unwelcome cold surprise? Maybe you've spotted water pooling around the base of your current unit or noticed your energy bills creeping higher each month.",
     heroBody: [
       "A properly sized and professionally installed hot water tank makes all the difference for your household's daily comfort and long-term budget.",
-      "Flame Tech Plumbing & Heating delivers complete hot water tank services throughout Calgary, from selecting the right capacity for your family's needs to ensuring flawless installation and ongoing maintenance.",
+      "FlameTech Plumbing & Heating delivers complete hot water tank services throughout Calgary, from selecting the right capacity for your family's needs to ensuring flawless installation and ongoing maintenance.",
     ],
     heroSubhead: "Trusted Hot Water Specialists",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
@@ -2476,9 +2476,9 @@ export const services: ServicePage[] = [
         d: "Every installer is fully licensed, bonded, and insured — work meets all applicable codes.",
       },
     ],
-    seoTitle: "Hot Water Tanks Calgary | Installation & Repair | Flame Tech",
+    seoTitle: "Hot Water Tanks Calgary | Installation & Repair | FlameTech",
     seoDescription:
-      "Need a new hot water tank in Calgary? Flame Tech offers professional installation, repair & replacement. Licensed technicians, upfront prices.",
+      "Need a new hot water tank in Calgary? FlameTech offers professional installation, repair & replacement. Licensed technicians, upfront prices.",
     seoKeywords: [
       "hot water tanks Calgary",
       "water heater Calgary",
@@ -2512,7 +2512,7 @@ export const services: ServicePage[] = [
     richContent: {
       sections: [
         {
-          heading: "Why Calgary Families Trust Flame Tech for Hot Water Tanks",
+          heading: "Why Calgary Families Trust FlameTech for Hot Water Tanks",
           intro:
             "Your hot water tank works harder than almost any other appliance in your home, delivering reliable warmth for showers, laundry, dishwashing, and countless daily tasks. When it comes time for replacement or repair, partnering with experienced professionals ensures your investment performs optimally for years to come. We also offer hot water tank services in Airdrie.",
           items: [
@@ -2534,12 +2534,12 @@ export const services: ServicePage[] = [
         {
           heading: "Complete Hot Water Tank Installation in Calgary",
           intro:
-            "Replacing a hot water tank involves more than simply swapping out equipment. Our licensed technicians at Flame Tech Plumbing & Heating manage every aspect of the process to deliver lasting results.",
+            "Replacing a hot water tank involves more than simply swapping out equipment. Our licensed technicians at FlameTech Plumbing & Heating manage every aspect of the process to deliver lasting results.",
           items: [
             { heading: "Thorough Evaluation", body: "We calculate your household's actual hot water demand based on occupants, fixtures, and usage patterns to recommend the ideal tank capacity and recovery rate." },
             { heading: "Permit & Code Handling", body: "Every installation follows current Calgary building requirements for gas connections, venting, and safety devices. We pull necessary permits and arrange inspections so you never have to worry about compliance." },
             { heading: "Clean & Careful Work", body: "Our crews protect your floors, remove the old unit responsibly, and leave your mechanical room tidier than they found it. We respect your home throughout the entire process." },
-            { heading: "Backed by Our Promise", body: "We stand behind our installations with solid warranties on both labour and equipment. If something isn't right, we make it right — that's the Flame Tech commitment to Calgary homeowners." },
+            { heading: "Backed by Our Promise", body: "We stand behind our installations with solid warranties on both labour and equipment. If something isn't right, we make it right — that's the FlameTech commitment to Calgary homeowners." },
           ],
         },
       ],
@@ -2704,7 +2704,7 @@ export const services: ServicePage[] = [
       faq: {
         heading: "Frequently Asked Questions About Hot Water Tank Replacement in Calgary",
         intro:
-          "Ready to experience the Flame Tech difference? Contact us today for a free, no-obligation quote. You can reach us by phone, email, or through our online booking system. We're here to answer your questions and schedule your service at your convenience.",
+          "Ready to experience the FlameTech difference? Contact us today for a free, no-obligation quote. You can reach us by phone, email, or through our online booking system. We're here to answer your questions and schedule your service at your convenience.",
         items: [
           { q: "How long does a hot water tank replacement take in Calgary?", a: "Most standard tank replacements take 3-4 hours from start to finish. This includes removing the old tank, installing the new one, connecting gas or electrical, and testing everything. Complex installations in tight spaces or with gas line modifications can take 5-6 hours. We'll give you an accurate time estimate once we see your setup." },
           { q: "What size hot water tank do I need for my Calgary home?", a: "A 40-gallon tank works for 1-2 people, 50-gallon for 3-4 people, and 60+ gallons for larger families. Calgary homes with multiple bathrooms or teenagers usually need the larger size. We factor in your family size, number of bathrooms, and usage patterns to recommend the right capacity." },
@@ -2721,9 +2721,9 @@ export const services: ServicePage[] = [
     icon: "whatshot",
     title: "Tankless Water Heaters Calgary – Expert Water Heating Services",
     lead:
-      "Flame Tech Plumbing & Heating is a trusted name in Calgary for water heaters. Tired of running out of hot water or paying high energy bills for your traditional tanked water heater? Upgrading to a tankless water heater could be the perfect solution for your Calgary home.",
+      "FlameTech Plumbing & Heating is a trusted name in Calgary for water heaters. Tired of running out of hot water or paying high energy bills for your traditional tanked water heater? Upgrading to a tankless water heater could be the perfect solution for your Calgary home.",
     heroBody: [
-      "At Flame Tech Plumbing & Heating, we specialize in the expert installation, maintenance, and repair of tankless water heaters, providing Calgary residents with efficient, on-demand hot water.",
+      "At FlameTech Plumbing & Heating, we specialize in the expert installation, maintenance, and repair of tankless water heaters, providing Calgary residents with efficient, on-demand hot water.",
       "Our team comprises highly skilled and experienced technicians who live and work right here in Calgary. We understand the specific demands each unique home places on your water heating system and are equipped to handle any issue, big or small.",
     ],
     heroSubhead: "Calgary Tankless Water Heater Experts",
@@ -2751,7 +2751,7 @@ export const services: ServicePage[] = [
     ],
     seoTitle: "Tankless Water Heaters Calgary | Installation & Service",
     seoDescription:
-      "Calgary's trusted tankless water heater experts. Professional installation, maintenance & repair. Endless hot water, energy efficient. Call Flame Tech today!",
+      "Calgary's trusted tankless water heater experts. Professional installation, maintenance & repair. Endless hot water, energy efficient. Call FlameTech today!",
     seoKeywords: [
       "tankless water heater Calgary",
       "on-demand water heater Calgary",
@@ -2789,7 +2789,7 @@ export const services: ServicePage[] = [
     richContent: {
       sections: [
         {
-          heading: "Why Choose Flame Tech for Your Tankless Water Heater in Calgary?",
+          heading: "Why Choose FlameTech for Your Tankless Water Heater in Calgary?",
           intro:
             "Tankless water heaters, also known as on-demand water heaters, offer numerous advantages over conventional storage tank models, making them an increasingly popular choice for homeowners in Calgary. Our team comprises highly skilled and experienced technicians who live and work right here in Calgary — we understand the specific demands each unique home places on your water heating system and are equipped to handle any issue, big or small. All our technicians are fully licensed and insured, guaranteeing professional and safe service that adheres to the highest industry standards.",
           items: [
@@ -2812,7 +2812,7 @@ export const services: ServicePage[] = [
         {
           heading: "Our Expert Tankless Water Heater Installation Services in Calgary",
           intro:
-            "Installing a tankless water heater is a complex job that requires specialized knowledge and experience. Our team of licensed and insured technicians at Flame Tech Plumbing & Heating are experts in tankless water heater installation in Calgary.",
+            "Installing a tankless water heater is a complex job that requires specialized knowledge and experience. Our team of licensed and insured technicians at FlameTech Plumbing & Heating are experts in tankless water heater installation in Calgary.",
           items: [
             { heading: "Professional Assessment", body: "We assess your home's hot water needs and recommend the right size and model of tankless heater for optimal performance." },
             { heading: "Code Compliance", body: "Our installations strictly adhere to all local Calgary building codes and regulations for your safety and peace of mind." },
@@ -2824,7 +2824,7 @@ export const services: ServicePage[] = [
       faq: {
         heading: "Frequently Asked Questions About Tankless Water Heaters in Calgary",
         intro:
-          "Ready to experience the Flame Tech difference? Contact us today for a free, no-obligation quote on our tankless water heater services in Calgary. You can reach us by phone, email, or through our online booking system. We're here to answer your questions and schedule your service at your convenience.",
+          "Ready to experience the FlameTech difference? Contact us today for a free, no-obligation quote on our tankless water heater services in Calgary. You can reach us by phone, email, or through our online booking system. We're here to answer your questions and schedule your service at your convenience.",
         items: [
           { q: "What is a tankless water heater?", a: "A tankless water heater is a unit that heats water on demand as it flows through the device, rather than storing and heating water in a tank." },
           { q: "How much does tankless water heater installation cost in Calgary?", a: "The cost of tankless water heater installation in Calgary varies depending on the model, complexity of the installation, and any necessary plumbing or venting modifications. Contact us for a free, no-obligation quote." },
@@ -2843,7 +2843,7 @@ export const services: ServicePage[] = [
     lead:
       "Calgary's water hardness can lead to frustrating issues, from dingy laundry to costly appliance repairs.",
     heroBody: [
-      "At Flame Tech Plumbing & Heating, we understand these challenges. We provide top-quality water softener systems and professional installation and maintenance services, ensuring your home enjoys the luxury of soft, clean water.",
+      "At FlameTech Plumbing & Heating, we understand these challenges. We provide top-quality water softener systems and professional installation and maintenance services, ensuring your home enjoys the luxury of soft, clean water.",
     ],
     heroSubhead: "Satisfaction Guaranteed",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
@@ -2905,9 +2905,9 @@ export const services: ServicePage[] = [
     richContent: {
       sections: [
         {
-          heading: "Why Choose Flame Tech for Water Softeners in Calgary?",
+          heading: "Why Choose FlameTech for Water Softeners in Calgary?",
           intro:
-            "Choosing the right company for your water-softening needs is crucial. Here's why Calgary trusts Flame Tech Plumbing & Heating:",
+            "Choosing the right company for your water-softening needs is crucial. Here's why Calgary trusts FlameTech Plumbing & Heating:",
           items: [
             { heading: "Local Water Softening Experts", body: "Our team comprises highly skilled and experienced technicians who live and work right here in Calgary. We understand the specific demands our climate places on your water softener system and are equipped to handle any issue, big or small. We also offer water softener services in Airdrie." },
             { heading: "Licensed & Insured Technicians", body: "Your peace of mind is our priority. All our technicians are fully licensed and insured, guaranteeing professional and safe service that adheres to the highest industry standards." },
@@ -2916,7 +2916,7 @@ export const services: ServicePage[] = [
         {
           heading: "Benefits of Water Softeners for Calgary Homes",
           intro:
-            "Installing a water softener from Flame Tech Plumbing & Heating offers a multitude of benefits for your Calgary home:",
+            "Installing a water softener from FlameTech Plumbing & Heating offers a multitude of benefits for your Calgary home:",
           items: [
             { body: "Extends the life of water heaters, dishwashers, washing machines, and other appliances by preventing scale buildup." },
             { body: "Reduces soap and detergent use — softened water lathers better and rinses cleanly." },
@@ -2951,7 +2951,7 @@ export const services: ServicePage[] = [
     icon: "plumbing",
     title: "Airdrie Plumbers | Expert Plumbing Services",
     lead:
-      "When plumbing problems strike your Airdrie home or business, you need reliable professionals who respond quickly and get the job done right. Flame Tech Plumbing delivers exceptional plumbing services throughout Airdrie and surrounding areas, combining technical expertise with honest, transparent service.",
+      "When plumbing problems strike your Airdrie home or business, you need reliable professionals who respond quickly and get the job done right. FlameTech Plumbing delivers exceptional plumbing services throughout Airdrie and surrounding areas, combining technical expertise with honest, transparent service.",
     heroBody: [
       "As a locally-operated plumbing company serving Airdrie, we understand the unique challenges that Alberta's climate and infrastructure present — from frozen pipes during harsh winters to water heater failures and emergency leaks.",
       "We also offer heating services and are Airdrie furnace experts. Call us today at 587-834-3668 for fast, reliable plumbing service in Airdrie.",
@@ -3025,7 +3025,7 @@ export const services: ServicePage[] = [
           ],
         },
         {
-          heading: "Why Choose Flame Tech Plumbing for Your Airdrie Property",
+          heading: "Why Choose FlameTech Plumbing for Your Airdrie Property",
           items: [
             { heading: "Experienced, Licensed Plumbers", body: "Our team consists of fully licensed and insured professionals with years of hands-on experience serving Airdrie residents and businesses." },
             { heading: "Upfront Pricing", body: "We provide clear, detailed estimates before any work begins. No hidden fees, no surprises — just honest pricing you can trust." },
@@ -3063,7 +3063,7 @@ export const services: ServicePage[] = [
     icon: "local_fire_department",
     title: "Airdrie Furnace Repair – Fast, Reliable Heating Solutions",
     lead:
-      "When your furnace stops working in Airdrie, you need help fast. Flame Tech Plumbing & Heating delivers priority furnace repair services throughout Airdrie and surrounding communities, ensuring your family stays warm when it matters most.",
+      "When your furnace stops working in Airdrie, you need help fast. FlameTech Plumbing & Heating delivers priority furnace repair services throughout Airdrie and surrounding communities, ensuring your family stays warm when it matters most.",
     heroBody: [
       "Our certified heating technicians specialize in diagnosing and repairing all furnace makes and models found in Airdrie homes. From minor fixes to major component replacements, we bring the expertise and parts needed to restore your heat quickly and correctly.",
       "Serving Airdrie's established neighborhoods and new developments alike, we're proud members of the AirEase Pro Team.",
@@ -3127,9 +3127,9 @@ export const services: ServicePage[] = [
     richContent: {
       sections: [
         {
-          heading: "Why Airdrie Homeowners Choose Flame Tech for Furnace Repairs",
+          heading: "Why Airdrie Homeowners Choose FlameTech for Furnace Repairs",
           intro:
-            "Your heating system deserves expert attention. Here's what sets Flame Tech apart when you need furnace repair in Airdrie.",
+            "Your heating system deserves expert attention. Here's what sets FlameTech apart when you need furnace repair in Airdrie.",
           items: [
             { heading: "Rapid Response for Airdrie Residents", body: "We know Alberta winters don't wait for convenient timing. Our team responds quickly to furnace breakdowns across Airdrie, from Cooper's Crossing to Williamstown, getting your heating system operational again without unnecessary delays." },
             { heading: "Certified Heating Professionals", body: "Every technician on our team holds proper certifications and insurance coverage. We're committed to safe, code-compliant repairs that protect your family and your investment in your Airdrie home." },
@@ -3137,7 +3137,7 @@ export const services: ServicePage[] = [
         },
         {
           heading: "Furnace Services We Provide in Airdrie",
-          intro: "Beyond emergency repairs, Flame Tech offers comprehensive heating solutions for Airdrie homeowners.",
+          intro: "Beyond emergency repairs, FlameTech offers comprehensive heating solutions for Airdrie homeowners.",
           items: [
             { heading: "New Furnace Installation", body: "Planning to upgrade your heating system? Our installation team serves Airdrie homes with precision and care. We help you select energy-efficient models that match your home's heating requirements and your budget. From proper sizing calculations to flawless installation that meets all building codes, we handle every detail." },
             { heading: "Emergency Furnace Repair", body: "Heating failures happen at the worst possible moments. Our technicians arrive equipped to diagnose problems efficiently and carry common replacement parts on their trucks. We service all major furnace brands found in Airdrie residences, from older models to the latest high-efficiency units." },
@@ -3148,7 +3148,7 @@ export const services: ServicePage[] = [
       faq: {
         heading: "Common Furnace Questions from Airdrie Homeowners",
         intro:
-          "Need furnace repair in Airdrie? Call Flame Tech at 587-834-3668 for fast, professional service. We provide free estimates and transparent pricing with no hidden fees.",
+          "Need furnace repair in Airdrie? Call FlameTech at 587-834-3668 for fast, professional service. We provide free estimates and transparent pricing with no hidden fees.",
         items: [
           { q: "What causes most furnace breakdowns in Airdrie?", a: "The most common furnace problems we see in Airdrie homes involve dirty or clogged filters restricting airflow, which forces your system to work harder and can trigger safety shutoffs. Ignition problems, faulty thermostats, and worn blower motors also account for many service calls. Regular maintenance prevents most of these issues." },
           { q: "How quickly can you repair my furnace in Airdrie?", a: "Response time depends on demand and weather conditions, but we prioritize emergency calls. Our technicians stock common parts and can often complete repairs the same day. For more complex issues requiring special-order components, we'll explain the timeline upfront. During extreme cold snaps, we triage calls to help families with young children, elderly residents, or no backup heat source first." },
@@ -3165,7 +3165,7 @@ export const services: ServicePage[] = [
     icon: "build",
     title: "Boiler Installation Airdrie | Expert Boiler Services for Airdrie Homes",
     lead:
-      "Alberta winters demand dependable heating systems, and choosing the right boiler installation makes all the difference in your home's comfort and energy costs. At Flame Tech Plumbing & Heating, we bring specialized expertise to Airdrie homeowners looking for efficient, reliable boiler solutions.",
+      "Alberta winters demand dependable heating systems, and choosing the right boiler installation makes all the difference in your home's comfort and energy costs. At FlameTech Plumbing & Heating, we bring specialized expertise to Airdrie homeowners looking for efficient, reliable boiler solutions.",
     heroBody: [
       "From professional new installations to emergency repairs and preventative maintenance programs, our certified technicians deliver heating solutions that keep your family warm through even the coldest months.",
       "We install and maintain every major boiler type for Airdrie properties — high-efficiency condensing boilers, standard efficiency boilers, and combi units that deliver radiant heating and endless domestic hot water from a single compact appliance.",
@@ -3235,7 +3235,7 @@ export const services: ServicePage[] = [
         {
           heading: "Your Trusted Airdrie Boiler Installation Experts",
           intro:
-            "Selecting a heating contractor impacts your home's comfort for decades. Here's what sets Flame Tech apart in Airdrie.",
+            "Selecting a heating contractor impacts your home's comfort for decades. Here's what sets FlameTech apart in Airdrie.",
           items: [
             { heading: "Airdrie-Area Heating Specialists", body: "Our technicians serve Airdrie neighborhoods daily, from established communities to newer developments. We understand how our prairie location's temperature swings and wind exposure affect heating system performance, and we size and install boilers accordingly." },
             { heading: "Fully Certified & Covered", body: "Every installation meets Alberta building codes and manufacturer specifications. Our complete licensing and comprehensive insurance coverage protects your property and gives you confidence that the work is done right the first time." },
@@ -3272,7 +3272,7 @@ export const services: ServicePage[] = [
         heading: "Airdrie Boiler Installation Questions Answered",
         items: [
           { q: "How do I determine the correct boiler size for my Airdrie property?", a: "Accurate sizing depends on total heated area, insulation, window quality, ceiling heights, and Airdrie's −32°C winter design temperature. Average 1,500–2,000 sq ft residences require approximately 75,000–100,000 BTU capacity, while larger 2,500–3,500 sq ft homes need 100,000–150,000 BTU systems. Our technicians perform comprehensive Manual J heat-loss calculations to specify optimal capacity." },
-          { q: "What warning signs indicate my boiler needs professional attention?", a: "Watch for rumbling or kettling sounds caused by limescale, whistling from trapped air, or gurgling indicating circulation problems. Pressure repeatedly dropping below 12 PSI, visible water seepage, temperature inconsistencies between rooms, excessive cycling, or yellow burner flames all warrant professional diagnosis. Contact Flame Tech at 587-834-3668 when you notice these symptoms." },
+          { q: "What warning signs indicate my boiler needs professional attention?", a: "Watch for rumbling or kettling sounds caused by limescale, whistling from trapped air, or gurgling indicating circulation problems. Pressure repeatedly dropping below 12 PSI, visible water seepage, temperature inconsistencies between rooms, excessive cycling, or yellow burner flames all warrant professional diagnosis. Contact FlameTech at 587-834-3668 when you notice these symptoms." },
           { q: "When should Airdrie homeowners replace rather than repair boilers?", a: "Replacement becomes economically sensible when equipment reaches 15–20+ years. Repair costs exceeding half the replacement value suggest investing in new equipment instead. Units with AFUE below 80% waste considerable energy compared to modern 95%+ systems, potentially saving $500–900 annually in Airdrie's climate. Visible rust, corrosion, or heat exchanger cracks require immediate replacement." },
           { q: "What does annual boiler maintenance include?", a: "Our technicians thoroughly clean heat exchangers, verify all safety controls, test combustion efficiency, inspect venting systems, flush and chemically treat the system against Airdrie's hard water, confirm proper operating pressure and flow rates, lubricate pump bearings, and test zone valve operation. Regular maintenance extends equipment life 5–10 years and preserves efficiency." },
           { q: "Are energy efficiency rebates available for Airdrie boiler installations?", a: "Federal and provincial programs periodically offer incentives for high-efficiency heating upgrades, including the Canada Greener Homes Grant providing up to $5,000 for qualifying improvements. Eligibility typically requires minimum 95% AFUE ratings and professional installation with complete documentation. Our team stays current on available incentive programs and assists Airdrie clients through application processes." },
@@ -3411,7 +3411,7 @@ export const services: ServicePage[] = [
     icon: "ac_unit",
     title: "Heat Pumps Airdrie – Expert Installation & Reliable Service",
     lead:
-      "Flame Tech Plumbing & Heating brings superior heat pump expertise to Airdrie homeowners seeking year-round comfort. Serving families throughout Airdrie and surrounding areas, we've built our reputation on delivering dependable heating and cooling solutions that stand up to Alberta's demanding weather patterns.",
+      "FlameTech Plumbing & Heating brings superior heat pump expertise to Airdrie homeowners seeking year-round comfort. Serving families throughout Airdrie and surrounding areas, we've built our reputation on delivering dependable heating and cooling solutions that stand up to Alberta's demanding weather patterns.",
     heroBody: [
       "With advanced heat pump technology and hands-on experience, we help Airdrie residents achieve optimal indoor temperatures while keeping monthly utility expenses under control.",
       "Our skilled technicians understand what Airdrie properties need. From frigid January nights to scorching summer afternoons, we've mastered matching the right heat pump systems to homes that face Alberta's dramatic seasonal shifts.",
@@ -3475,9 +3475,9 @@ export const services: ServicePage[] = [
     richContent: {
       sections: [
         {
-          heading: "What Makes Flame Tech the Right Choice for Airdrie Heat Pumps",
+          heading: "What Makes FlameTech the Right Choice for Airdrie Heat Pumps",
           intro:
-            "Finding a dependable heat pump contractor can transform your home's comfort and energy savings. Discover why Airdrie residents continue choosing Flame Tech.",
+            "Finding a dependable heat pump contractor can transform your home's comfort and energy savings. Discover why Airdrie residents continue choosing FlameTech.",
           items: [
             { heading: "Airdrie's Heat Pump Authorities", body: "Our skilled technicians understand what Airdrie properties need. From frigid January nights to scorching summer afternoons, we've mastered matching the right heat pump systems to homes facing Alberta's dramatic seasonal shifts." },
             { heading: "Licensed & Fully Insured Team", body: "Peace of mind comes standard with every job. Our crew maintains current certifications and complete insurance coverage, ensuring your heat pump project meets all provincial codes and exceeds industry standards." },
@@ -3485,12 +3485,12 @@ export const services: ServicePage[] = [
         },
         {
           heading: "Heat Pump Services We Offer",
-          intro: "Flame Tech provides end-to-end heat pump solutions built for Airdrie's weather conditions.",
+          intro: "FlameTech provides end-to-end heat pump solutions built for Airdrie's weather conditions.",
           items: [
             { heading: "Heat Pump Installation", body: "Our team conducts thorough home evaluations, analyzing square footage, insulation quality, and comfort preferences to pinpoint the perfect system that delivers results without breaking your budget. From initial consultation through final commissioning, we handle every detail." },
             { heading: "Heat Pump Repair", body: "Noticing weak airflow, strange noises, or a unit that won't start? Our experienced crew diagnoses and fixes problems across all major heat pump makes and models, getting your Airdrie home back to comfortable temperatures fast." },
             { heading: "Heat Pump Maintenance & Tune-Ups", body: "Routine care keeps your heat pump running smoothly and prevents unexpected breakdowns. Our detailed maintenance catches small issues before they become costly repairs, reduces energy waste, and adds years to your equipment's working life." },
-            { heading: "Priority Emergency Heat Pump Support", body: "Heating emergencies strike without warning, often during Airdrie's coldest snaps or hottest days. Flame Tech offers priority emergency heat pump services in Airdrie so your family stays safe and comfortable when trouble hits." },
+            { heading: "Priority Emergency Heat Pump Support", body: "Heating emergencies strike without warning, often during Airdrie's coldest snaps or hottest days. FlameTech offers priority emergency heat pump services in Airdrie so your family stays safe and comfortable when trouble hits." },
           ],
         },
         {
@@ -3798,10 +3798,10 @@ export const services: ServicePage[] = [
     icon: "plumbing",
     title: "Ravenswood Plumbers Airdrie | Expert Local Service",
     lead:
-      "Need a dependable plumber in Ravenswood, Airdrie? Flame Tech Plumbing delivers outstanding results to homeowners and businesses throughout this thriving neighborhood. Our skilled technicians provide quick, reliable solutions tailored to Ravenswood's modern homes and expanding commercial properties.",
+      "Need a dependable plumber in Ravenswood, Airdrie? FlameTech Plumbing delivers outstanding results to homeowners and businesses throughout this thriving neighborhood. Our skilled technicians provide quick, reliable solutions tailored to Ravenswood's modern homes and expanding commercial properties.",
     heroBody: [
       "As Airdrie's trusted plumbing service provider, we bring specialized knowledge and commitment to every Ravenswood address we serve. This established neighborhood showcases quality construction from the early 2000s, creating specific maintenance requirements that our veteran team manages with precision and care.",
-      "Emergencies ignore the calendar. Flame Tech Plumbing provides priority emergency availability for Ravenswood residents confronting critical situations — you'll connect with actual staff members instantly, never automated menus.",
+      "Emergencies ignore the calendar. FlameTech Plumbing provides priority emergency availability for Ravenswood residents confronting critical situations — you'll connect with actual staff members instantly, never automated menus.",
     ],
     heroSubhead: "Ravenswood's Top-Rated Plumbing Service",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
@@ -3903,10 +3903,10 @@ export const services: ServicePage[] = [
         intro:
           "From urgent repairs to routine service or major installations, we're ready to assist. Review our commonly asked questions below, or contact us directly at 587-834-3668.",
         items: [
-          { q: "Are priority emergency plumbing services available in Ravenswood?", a: "Yes, Flame Tech Plumbing provides priority emergency service throughout Ravenswood, Airdrie. Whether facing burst pipes, major leaks, or sewer backups, our licensed technicians respond rapidly. Contact us anytime at 587-834-3668." },
+          { q: "Are priority emergency plumbing services available in Ravenswood?", a: "Yes, FlameTech Plumbing provides priority emergency service throughout Ravenswood, Airdrie. Whether facing burst pipes, major leaks, or sewer backups, our licensed technicians respond rapidly. Contact us anytime at 587-834-3668." },
           { q: "What's your typical response time for Ravenswood calls?", a: "Our technicians generally reach Ravenswood locations within 60-90 minutes following your call, depending on current service demand and traffic patterns. During emergencies, we prioritize swift arrival to minimize property damage and restore functionality." },
-          { q: "Which plumbing services does Flame Tech offer in Ravenswood?", a: "We deliver complete plumbing solutions including drain clearing, water heater service and installation, leak identification, pipe repair and replacement, fixture installations, sewer line work, and bathroom/kitchen renovations." },
-          { q: "Do your technicians carry proper licensing and insurance?", a: "Absolutely. Every Flame Tech Plumbing technician holds full licensing, insurance coverage, and certification for work throughout Alberta. We maintain extensive liability protection safeguarding both our crew and your property." },
+          { q: "Which plumbing services does FlameTech offer in Ravenswood?", a: "We deliver complete plumbing solutions including drain clearing, water heater service and installation, leak identification, pipe repair and replacement, fixture installations, sewer line work, and bathroom/kitchen renovations." },
+          { q: "Do your technicians carry proper licensing and insurance?", a: "Absolutely. Every FlameTech Plumbing technician holds full licensing, insurance coverage, and certification for work throughout Alberta. We maintain extensive liability protection safeguarding both our crew and your property." },
           { q: "What warranty coverage accompanies your services?", a: "We back our craftsmanship with comprehensive warranties on all work performed. Our satisfaction commitment ensures complete happiness with results, or we'll correct any concerns. We additionally provide manufacturer warranties on components and equipment we install." },
         ],
       },
@@ -3920,10 +3920,10 @@ export const services: ServicePage[] = [
     icon: "plumbing",
     title: "Reunion Plumbers Airdrie | Quality Service & Fast Response",
     lead:
-      "Require expert plumbing in Reunion, Airdrie? Flame Tech Plumbing provides superior service to residences and businesses across this dynamic community. Our qualified technicians deliver timely, dependable solutions crafted specifically for Reunion's contemporary residential developments.",
+      "Require expert plumbing in Reunion, Airdrie? FlameTech Plumbing provides superior service to residences and businesses across this dynamic community. Our qualified technicians deliver timely, dependable solutions crafted specifically for Reunion's contemporary residential developments.",
     heroBody: [
       "As your community-focused plumbing provider, we deliver specialized expertise and outstanding customer care throughout every Reunion residence. This newer development represents Airdrie's modern residential growth, featuring quality construction and contemporary plumbing infrastructure.",
-      "Crises respect no timetable. Flame Tech Plumbing offers priority emergency availability supporting Reunion residents — reach genuine team members directly, never automated systems.",
+      "Crises respect no timetable. FlameTech Plumbing offers priority emergency availability supporting Reunion residents — reach genuine team members directly, never automated systems.",
     ],
     heroSubhead: "Reunion's Trusted Plumbing Professionals",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
@@ -4025,10 +4025,10 @@ export const services: ServicePage[] = [
         intro:
           "Whether addressing urgent repairs, standard maintenance, or significant installations, we're prepared to help. Reach us directly at 587-834-3668.",
         items: [
-          { q: "Does Flame Tech offer priority emergency service in Reunion?", a: "Yes, Flame Tech Plumbing delivers priority emergency coverage throughout Reunion, Airdrie. Whether confronting broken pipes, substantial leaks, or sewer obstructions, our licensed professionals respond swiftly. Reach us anytime at 587-834-3668." },
+          { q: "Does FlameTech offer priority emergency service in Reunion?", a: "Yes, FlameTech Plumbing delivers priority emergency coverage throughout Reunion, Airdrie. Whether confronting broken pipes, substantial leaks, or sewer obstructions, our licensed professionals respond swiftly. Reach us anytime at 587-834-3668." },
           { q: "How fast can your team reach Reunion properties?", a: "Our professionals usually arrive at Reunion addresses within 60-90 minutes after your call, subject to prevailing service demand and traffic circumstances. For critical emergencies, we emphasize rapid arrival." },
           { q: "What plumbing services do you provide in Reunion?", a: "We supply total plumbing solutions encompassing drain cleaning, water heater maintenance and setup, leak discovery, pipe restoration and substitution, fixture placements, sewer line operations, and bathroom/kitchen remodeling." },
-          { q: "Are all your plumbers properly licensed and insured?", a: "Absolutely. Every Flame Tech Plumbing technician possesses complete licensing, insurance protection, and certification throughout Alberta. We carry extensive liability coverage protecting our personnel and your premises." },
+          { q: "Are all your plumbers properly licensed and insured?", a: "Absolutely. Every FlameTech Plumbing technician possesses complete licensing, insurance protection, and certification throughout Alberta. We carry extensive liability coverage protecting our personnel and your premises." },
           { q: "What warranty protection comes with your services?", a: "We support our craftsmanship through comprehensive warranties covering all completed work. Our satisfaction commitment guarantees total happiness with outcomes, or we'll resolve any issues. We also extend manufacturer warranties covering parts and equipment we install." },
         ],
       },
@@ -4047,7 +4047,7 @@ export const services: ServicePage[] = [
     icon: "plumbing",
     title: "Altadore Plumbers Calgary | Priority Emergency Service Available",
     lead:
-      "Need a dependable plumber in Altadore, Calgary? Flame Tech Plumbing delivers outstanding service to this charming inner-city neighborhood's heritage homes and modern residences. Our experienced technicians provide swift, reliable solutions perfectly suited for Altadore's unique blend of character homes and contemporary properties.",
+      "Need a dependable plumber in Altadore, Calgary? FlameTech Plumbing delivers outstanding service to this charming inner-city neighborhood's heritage homes and modern residences. Our experienced technicians provide swift, reliable solutions perfectly suited for Altadore's unique blend of character homes and contemporary properties.",
     heroBody: [
       "As your trusted [SW Calgary plumber](/calgary-plumbers-sw), we understand the distinct character of Altadore and deliver customized service to match this established community's needs. This mature inner-city community showcases homes spanning from the 1950s through recent developments, creating unique plumbing challenges that our specialists navigate with expertise and care.",
       "From cracked pipes and serious leaks to sewer backups, our skilled technicians arrive swiftly at your Altadore property, fully equipped to handle critical situations and prevent extensive water damage. Call 587-834-3668 for priority dispatch any time.",
@@ -4138,7 +4138,7 @@ export const services: ServicePage[] = [
         {
           heading: "Altadore's Priority Emergency Plumbing Team",
           intro:
-            "Plumbing disasters strike without warning. Flame Tech Plumbing provides around-the-clock [emergency plumbing service for Calgary residents](/emergency-plumber-calgary) dealing with urgent plumbing crises. Connect with a real person instantly — no automated systems — who dispatches qualified technicians to your location right away. We maintain fully-stocked service vehicles to resolve most emergencies during the first visit.",
+            "Plumbing disasters strike without warning. FlameTech Plumbing provides around-the-clock [emergency plumbing service for Calgary residents](/emergency-plumber-calgary) dealing with urgent plumbing crises. Connect with a real person instantly — no automated systems — who dispatches qualified technicians to your location right away. We maintain fully-stocked service vehicles to resolve most emergencies during the first visit.",
         },
       ],
       faq: {
@@ -4146,7 +4146,7 @@ export const services: ServicePage[] = [
         items: [
           {
             q: "Do you offer priority emergency plumbing in Altadore?",
-            a: "Yes, Flame Tech Plumbing provides priority emergency plumbing throughout Altadore, Calgary. Whether facing a burst pipe, critical leak, or sewer backup, our licensed plumbers respond rapidly. Contact us anytime at 587-834-3668 for immediate help.",
+            a: "Yes, FlameTech Plumbing provides priority emergency plumbing throughout Altadore, Calgary. Whether facing a burst pipe, critical leak, or sewer backup, our licensed plumbers respond rapidly. Contact us anytime at 587-834-3668 for immediate help.",
           },
           {
             q: "How fast can a plumber arrive at my Altadore property?",
@@ -4158,7 +4158,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "Are your plumbers properly licensed and insured?",
-            a: "Absolutely. Every Flame Tech Plumbing technician holds full licensing, insurance, and certification to work throughout Calgary. We maintain comprehensive liability coverage protecting both our team and your property.",
+            a: "Absolutely. Every FlameTech Plumbing technician holds full licensing, insurance, and certification to work throughout Calgary. We maintain comprehensive liability coverage protecting both our team and your property.",
           },
           {
             q: "Do you warranty your plumbing work?",
@@ -4176,7 +4176,7 @@ export const services: ServicePage[] = [
     icon: "plumbing",
     title: "Aspen Woods Plumbers Calgary | Premium Plumbing Services",
     lead:
-      "Searching for premium plumbing service in Aspen Woods, Calgary? Flame Tech Plumbing brings professional expertise to this exclusive community's luxury homes and upscale neighborhoods. Our certified plumbers specialize in Aspen Woods' sophisticated plumbing requirements, delivering meticulous service that maintains your property's value and ensures your family's comfort.",
+      "Searching for premium plumbing service in Aspen Woods, Calgary? FlameTech Plumbing brings professional expertise to this exclusive community's luxury homes and upscale neighborhoods. Our certified plumbers specialize in Aspen Woods' sophisticated plumbing requirements, delivering meticulous service that maintains your property's value and ensures your family's comfort.",
     heroBody: [
       "Your dedicated [plumbing experts for SW Calgary](/calgary-plumbers-sw) recognize Aspen Woods' exclusive community standards and deliver premium service tailored to this upscale neighborhood's exceptional properties.",
       "Aspen Woods' luxury estates and custom-built homes — from sprawling family residences to exclusive cul-de-sac properties — demand sophisticated plumbing solutions that match the community's premium standards and discerning homeowner expectations. Call 587-834-3668 for priority dispatch.",
@@ -4265,8 +4265,8 @@ export const services: ServicePage[] = [
         heading: "Frequently Asked Questions",
         items: [
           {
-            q: "Does Flame Tech provide priority emergency service in Aspen Woods?",
-            a: "Absolutely. Flame Tech Plumbing delivers priority emergency response throughout Aspen Woods, Calgary. When confronting burst pipes, significant leaks, or sewage crises, our certified professionals respond rapidly. Contact our emergency line at 587-834-3668 anytime for prompt assistance.",
+            q: "Does FlameTech provide priority emergency service in Aspen Woods?",
+            a: "Absolutely. FlameTech Plumbing delivers priority emergency response throughout Aspen Woods, Calgary. When confronting burst pipes, significant leaks, or sewage crises, our certified professionals respond rapidly. Contact our emergency line at 587-834-3668 anytime for prompt assistance.",
           },
           {
             q: "How rapidly can you reach Aspen Woods properties?",
@@ -4278,11 +4278,11 @@ export const services: ServicePage[] = [
           },
           {
             q: "Are your plumbers licensed and insured?",
-            a: "Certainly. Every Flame Tech Plumbing technician maintains complete licensure, bonding, and certification for Calgary operations. We carry comprehensive liability insurance protecting both our professionals and your valuable property.",
+            a: "Certainly. Every FlameTech Plumbing technician maintains complete licensure, bonding, and certification for Calgary operations. We carry comprehensive liability insurance protecting both our professionals and your valuable property.",
           },
           {
             q: "Do Aspen Woods homes have Poly-B plumbing?",
-            a: "Some earlier-phase Aspen Woods properties built before the mid-1990s may contain polybutylene (Poly-B) piping, a material now known for premature failure. If you're unsure whether your home has Poly-B, Flame Tech offers free inspections to identify the piping material and assess its condition. Visit our [Poly-B plumbing Calgary](/polyb-plumbing-calgary) page for details on identification, insurance implications, and replacement options.",
+            a: "Some earlier-phase Aspen Woods properties built before the mid-1990s may contain polybutylene (Poly-B) piping, a material now known for premature failure. If you're unsure whether your home has Poly-B, FlameTech offers free inspections to identify the piping material and assess its condition. Visit our [Poly-B plumbing Calgary](/polyb-plumbing-calgary) page for details on identification, insurance implications, and replacement options.",
           },
         ],
       },
@@ -4698,7 +4698,7 @@ export const services: ServicePage[] = [
     icon: "plumbing",
     title: "Calgary Plumbers NW | Priority Emergency Plumbing Services",
     lead:
-      "When you need dependable plumbing services in Calgary NW, Flame Tech Plumbing provides expert solutions to residential and commercial properties across Northwest Calgary. Our experienced plumbers know Northwest Calgary inside and out — from mature neighborhoods to brand-new communities — and we run priority dispatch for all your plumbing emergencies.",
+      "When you need dependable plumbing services in Calgary NW, FlameTech Plumbing provides expert solutions to residential and commercial properties across Northwest Calgary. Our experienced plumbers know Northwest Calgary inside and out — from mature neighborhoods to brand-new communities — and we run priority dispatch for all your plumbing emergencies.",
     heroBody: [
       "From post-war bungalows in established areas like Thorncliffe and Brentwood to contemporary estates in [Panorama Hills](/panorama-hills-plumbers-calgary) and Kincora, we've seen it all. We understand common issues in 1960s-70s builds throughout communities like [Varsity](/varsity-plumbers-calgary) and Dalhousie, and we stay ahead of modern plumbing demands in newer developments like [Evanston](/evanston-plumbers-calgary) and [Edgemont](/edgemont-plumbers-calgary).",
       "Plumbing disasters strike without warning. When crisis hits at midnight or on a long weekend, our priority emergency team is standing by. Call 587-834-3668 now for fast emergency plumbing response across Northwest Calgary.",
@@ -4801,7 +4801,7 @@ export const services: ServicePage[] = [
         items: [
           {
             q: "Which NW Calgary areas do you cover?",
-            a: "Flame Tech Plumbing provides comprehensive service to every Northwest Calgary community including Arbour Lake, Brentwood, Country Hills, Edgemont, Hamptons, Kincora, Panorama Hills, Royal Oak, Scenic Acres, Thorncliffe, and dozens more. Whether you're in an established neighborhood or a brand-new development, we're your local NW plumbing specialists.",
+            a: "FlameTech Plumbing provides comprehensive service to every Northwest Calgary community including Arbour Lake, Brentwood, Country Hills, Edgemont, Hamptons, Kincora, Panorama Hills, Royal Oak, Scenic Acres, Thorncliffe, and dozens more. Whether you're in an established neighborhood or a brand-new development, we're your local NW plumbing specialists.",
           },
           {
             q: "Are you available for emergency calls in NW Calgary?",
@@ -4836,7 +4836,7 @@ export const services: ServicePage[] = [
     icon: "plumbing",
     title: "Calgary Plumbers SE | Priority Emergency Plumbing Service",
     lead:
-      "Looking for skilled plumbing professionals in Calgary SE? Flame Tech Plumbing delivers exceptional service to homes and businesses throughout Southeast Calgary's diverse communities.",
+      "Looking for skilled plumbing professionals in Calgary SE? FlameTech Plumbing delivers exceptional service to homes and businesses throughout Southeast Calgary's diverse communities.",
     heroBody: [
       "Our team brings extensive knowledge of Southeast Calgary's neighborhoods — from historic Inglewood to the expanding communities of [Auburn Bay](/auburn-bay-plumber-calgary) and [Mahogany](/mahogany-plumbers-calgary) — with priority emergency response when plumbing problems strike.",
       "From century-old character homes in Inglewood and Ramsay to the modern lake communities of Auburn Bay and Mahogany, we've tackled every type of plumbing challenge the SE quadrant can throw at us. Call 587-834-3668 for fast, reliable plumbing service across Southeast Calgary.",
@@ -4929,7 +4929,7 @@ export const services: ServicePage[] = [
         items: [
           {
             q: "What SE Calgary communities do you service?",
-            a: "Flame Tech Plumbing delivers expert service across all Southeast Calgary neighborhoods including [Auburn Bay](/auburn-bay-plumber-calgary), [Copperfield](/copperfield-plumbers-calgary), [Cranston](/cranston-plumber-calgary), Inglewood, Lake Bonavista, Legacy, [Mahogany](/mahogany-plumbers-calgary), [McKenzie Towne](/mckenzie-towne-plumbers-calgary), [New Brighton](/new-brighton-plumbers-calgary), Quarry Park, Seton, Walden, and many more. From heritage districts to the newest lake communities, we're the SE Calgary plumbing team you can count on.",
+            a: "FlameTech Plumbing delivers expert service across all Southeast Calgary neighborhoods including [Auburn Bay](/auburn-bay-plumber-calgary), [Copperfield](/copperfield-plumbers-calgary), [Cranston](/cranston-plumber-calgary), Inglewood, Lake Bonavista, Legacy, [Mahogany](/mahogany-plumbers-calgary), [McKenzie Towne](/mckenzie-towne-plumbers-calgary), [New Brighton](/new-brighton-plumbers-calgary), Quarry Park, Seton, Walden, and many more. From heritage districts to the newest lake communities, we're the SE Calgary plumbing team you can count on.",
           },
           {
             q: "Do you offer emergency plumbing in SE Calgary?",
@@ -4963,7 +4963,7 @@ export const services: ServicePage[] = [
     icon: "plumbing",
     title: "Calgary Plumbers SW | Expert Plumbing Services",
     lead:
-      "When you need a reliable plumber in Calgary SW, Flame Tech Plumbing delivers fast, professional service to homes and businesses throughout Southwest Calgary.",
+      "When you need a reliable plumber in Calgary SW, FlameTech Plumbing delivers fast, professional service to homes and businesses throughout Southwest Calgary.",
     heroBody: [
       "Our licensed plumbers understand the unique plumbing challenges facing SW Calgary properties — from older homes in established communities like [Mount Royal](/mount-royal-plumbers-calgary) and [Altadore](/altadore-plumbers-calgary) to new developments in [Aspen Woods](/aspen-woods-plumbers-calgary) and [West Springs](/west-springs-plumbers-calgary) — and we're ready to help with priority emergency dispatch.",
       "We know the plumbing systems in older character homes from the 1920s through 1950s, the infrastructure challenges in 1970s and 1980s developments throughout areas like Lakeview and Haysboro, and modern plumbing in new SW Calgary communities. Call 587-834-3668 anytime.",
@@ -5056,7 +5056,7 @@ export const services: ServicePage[] = [
         items: [
           {
             q: "Which SW Calgary communities do you serve?",
-            a: "Flame Tech Plumbing proudly serves all Southwest Calgary neighborhoods including [Altadore](/altadore-plumbers-calgary), [Evergreen](/evergreen-plumbers-calgary), [Bridlewood](/bridlewood-plumbers-calgary), [Signal Hill](/signal-hill-plumbers-calgary), Springbank Hill, [Aspen Woods](/aspen-woods-plumbers-calgary), Christie Park, Westgate, Strathcona Park, and many more. If you're located in SW Calgary, we're ready to help with all your plumbing needs.",
+            a: "FlameTech Plumbing proudly serves all Southwest Calgary neighborhoods including [Altadore](/altadore-plumbers-calgary), [Evergreen](/evergreen-plumbers-calgary), [Bridlewood](/bridlewood-plumbers-calgary), [Signal Hill](/signal-hill-plumbers-calgary), Springbank Hill, [Aspen Woods](/aspen-woods-plumbers-calgary), Christie Park, Westgate, Strathcona Park, and many more. If you're located in SW Calgary, we're ready to help with all your plumbing needs.",
           },
           {
             q: "Do you offer emergency plumbing services in SW Calgary?",
@@ -5348,7 +5348,7 @@ export const services: ServicePage[] = [
     category: "Plumbing",
     location: "Calgary",
     icon: "plumbing",
-    title: "Cranston Plumber Calgary | Priority Emergency Service | Flame Tech",
+    title: "Cranston Plumber Calgary | Priority Emergency Service | FlameTech",
     lead:
       "Searching for a trusted Cranston plumber in Calgary? FlameTech Plumbing provides dependable, professional plumbing solutions to homeowners throughout the Cranston community and surrounding Southeast Calgary neighbourhoods.",
     heroBody: [
@@ -5380,7 +5380,7 @@ export const services: ServicePage[] = [
     ],
     seoTitle: "Cranston Plumber Calgary | Priority Emergency Service",
     seoDescription:
-      "Need a Cranston plumber in Calgary? Flame Tech provides priority emergency plumbing, drain cleaning, hot water tank repair & more.",
+      "Need a Cranston plumber in Calgary? FlameTech provides priority emergency plumbing, drain cleaning, hot water tank repair & more.",
     seoKeywords: [
       "Cranston plumber Calgary",
       "plumber Cranston",
@@ -5441,7 +5441,7 @@ export const services: ServicePage[] = [
         items: [
           {
             q: "Do you serve the entire Cranston community?",
-            a: "Absolutely. Flame Tech Plumbing provides full plumbing services to every part of Cranston — from the established streets near Cranston Boulevard and Cranston Drive to the newer Riverstone enclave along the Bow River. We also serve surrounding SE Calgary communities like [Auburn Bay](/auburn-bay-plumber-calgary), [Chaparral](/chaparral-plumbers-calgary), [McKenzie Lake](/mckenzie-lake-plumbers-calgary), and Seton, so no matter where you are in the southeast, we can be there quickly.",
+            a: "Absolutely. FlameTech Plumbing provides full plumbing services to every part of Cranston — from the established streets near Cranston Boulevard and Cranston Drive to the newer Riverstone enclave along the Bow River. We also serve surrounding SE Calgary communities like [Auburn Bay](/auburn-bay-plumber-calgary), [Chaparral](/chaparral-plumbers-calgary), [McKenzie Lake](/mckenzie-lake-plumbers-calgary), and Seton, so no matter where you are in the southeast, we can be there quickly.",
           },
           {
             q: "Can I get an emergency plumber in Cranston at night or on weekends?",
@@ -5456,7 +5456,7 @@ export const services: ServicePage[] = [
             a: "Cranston's location along Deerfoot Trail and Stoney Trail gives us excellent access. We generally reach Cranston properties within 60–90 minutes, though emergency calls are prioritized for the fastest possible dispatch. Our service vans come fully equipped with common parts and tools, so most repairs are completed in a single visit without the need for a return trip.",
           },
           {
-            q: "What services does Flame Tech offer Cranston residents?",
+            q: "What services does FlameTech offer Cranston residents?",
             a: "We handle the full range of residential plumbing needs: priority emergency response, [drain cleaning](/drain-cleaning-calgary) and sewer camera inspections, [hot water tank](/hot-water-tanks) and [tankless water heater](/tankless-water-heaters) installation and repair, leak detection, pipe repair and repiping, fixture installation and upgrades, [bathroom](/bathroom-plumbing-calgary) and kitchen renovation plumbing, [water softener](/water-softener) installation, and seasonal maintenance programs.",
           },
           {
@@ -5670,7 +5670,7 @@ export const services: ServicePage[] = [
     richContent: {
       sections: [
         {
-          heading: "Why Evanston Homeowners Choose Flame Tech Plumbing",
+          heading: "Why Evanston Homeowners Choose FlameTech Plumbing",
           intro:
             "We've been working in Evanston since the community started growing in the early 2000s, and we know exactly what to expect when we pull up to your driveway. The homes built during the construction boom often have identical plumbing layouts, which means we can diagnose problems faster and carry the right parts on our trucks.",
           items: [
@@ -5740,7 +5740,7 @@ export const services: ServicePage[] = [
     icon: "plumbing",
     title: "Evergreen Plumbers Calgary | Reliable Service & Repairs",
     lead:
-      "Searching for trusted plumbers in Evergreen, Calgary? Flame Tech Plumbing brings exceptional service to every home and business in this vibrant southwest community. Our certified technicians deliver prompt, professional solutions designed for Evergreen's family-friendly neighborhoods and growing businesses.",
+      "Searching for trusted plumbers in Evergreen, Calgary? FlameTech Plumbing brings exceptional service to every home and business in this vibrant southwest community. Our certified technicians deliver prompt, professional solutions designed for Evergreen's family-friendly neighborhoods and growing businesses.",
     heroBody: [
       "As your neighborhood [SW Calgary plumbing specialists](/calgary-plumbers-sw), we bring local insight and dedicated service to every Evergreen property we visit.",
       "This growing family community features homes built primarily between 2000 and 2015, presenting modern infrastructure alongside typical wear-and-tear challenges that our team handles expertly.",
@@ -5848,7 +5848,7 @@ export const services: ServicePage[] = [
         items: [
           {
             q: "Do you provide priority emergency plumbing services in Evergreen?",
-            a: "Yes, Flame Tech Plumbing offers priority [emergency plumbing services](/emergency-plumber-calgary) throughout Evergreen, Calgary. Whether you're dealing with a burst pipe, severe leak, or backed-up sewer, our licensed plumbers are ready to respond quickly. Call us anytime at 587-834-3668 for immediate assistance.",
+            a: "Yes, FlameTech Plumbing offers priority [emergency plumbing services](/emergency-plumber-calgary) throughout Evergreen, Calgary. Whether you're dealing with a burst pipe, severe leak, or backed-up sewer, our licensed plumbers are ready to respond quickly. Call us anytime at 587-834-3668 for immediate assistance.",
           },
           {
             q: "How quickly can a plumber reach my Evergreen home?",
@@ -5860,7 +5860,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "Are your plumbers licensed and insured?",
-            a: "Absolutely. All Flame Tech Plumbing technicians are fully licensed, insured, and certified to work in Calgary. We carry comprehensive liability insurance to protect both our team and your property. You can trust that you're working with qualified professionals who meet all Alberta plumbing standards.",
+            a: "Absolutely. All FlameTech Plumbing technicians are fully licensed, insured, and certified to work in Calgary. We carry comprehensive liability insurance to protect both our team and your property. You can trust that you're working with qualified professionals who meet all Alberta plumbing standards.",
           },
           {
             q: "Do you guarantee your plumbing work?",
@@ -6537,9 +6537,9 @@ export const services: ServicePage[] = [
     icon: "plumbing",
     title: "McKenzie Towne Plumbers | Fast Local Service in SE Calgary",
     lead:
-      "McKenzie Towne homeowners have relied on Flame Tech Plumbing's expertise for over 25 years to handle everything from routine maintenance to complex emergency repairs. This vibrant southeastern Calgary community, with its distinctive heritage architecture and family-focused atmosphere, deserves plumbing professionals who understand the unique challenges these homes present.",
+      "McKenzie Towne homeowners have relied on FlameTech Plumbing's expertise for over 25 years to handle everything from routine maintenance to complex emergency repairs. This vibrant southeastern Calgary community, with its distinctive heritage architecture and family-focused atmosphere, deserves plumbing professionals who understand the unique challenges these homes present.",
     heroBody: [
-      "Plumbing emergencies don't wait for convenient hours, which is why our certified plumbers remain available with priority dispatch. Whether it's a burst pipe during Calgary's notorious temperature swings or a backed-up drain on a busy weekend, Flame Tech delivers prompt, professional service when you need it most.",
+      "Plumbing emergencies don't wait for convenient hours, which is why our certified plumbers remain available with priority dispatch. Whether it's a burst pipe during Calgary's notorious temperature swings or a backed-up drain on a busy weekend, FlameTech delivers prompt, professional service when you need it most.",
       "Our crews work throughout [SE Calgary](/calgary-plumbers-se) including neighbouring [McKenzie Lake](/mckenzie-lake-plumbers-calgary) and [New Brighton](/new-brighton-plumbers-calgary). Call 587-834-3668 for same-day service.",
     ],
     heroSubhead: "Trusted McKenzie Towne Plumbing Experts",
@@ -6562,7 +6562,7 @@ export const services: ServicePage[] = [
       },
       {
         t: "Real person, not an answering service",
-        d: "When you call Flame Tech's priority line, a real person answers and our dispatch team contacts the nearest available plumber immediately.",
+        d: "When you call FlameTech's priority line, a real person answers and our dispatch team contacts the nearest available plumber immediately.",
       },
     ],
     seoTitle: "McKenzie Towne Plumbers | Fast Local Service in SE Calgary",
@@ -6660,10 +6660,10 @@ export const services: ServicePage[] = [
     icon: "plumbing",
     title: "Mount Royal Plumbers Calgary | Premium Plumbing Services",
     lead:
-      "Searching for exceptional plumbing service in Mount Royal, Calgary? Flame Tech Plumbing brings unmatched expertise to this distinguished community's luxury estates and heritage residences. Our master plumbers deliver meticulous service perfectly aligned with Mount Royal's elevated standards, protecting your property's value and sophistication.",
+      "Searching for exceptional plumbing service in Mount Royal, Calgary? FlameTech Plumbing brings unmatched expertise to this distinguished community's luxury estates and heritage residences. Our master plumbers deliver meticulous service perfectly aligned with Mount Royal's elevated standards, protecting your property's value and sophistication.",
     heroBody: [
       "Mount Royal's spectacular properties — from early 1900s mansion estates to contemporary architectural masterworks — demand specialized plumbing knowledge and refined service delivery. Your premier plumbing specialists for [SW Calgary](/calgary-plumbers-sw) recognize Mount Royal's prestigious standing and tailor our services accordingly.",
-      "Flame Tech maintains priority availability for emergency plumbing throughout Calgary, responding immediately to urgent Mount Royal situations. Reach our live dispatch team at 587-834-3668 — never automated systems. Neighbours with [Signal Hill](/signal-hill-plumbers-calgary) and [Marda Loop](/marda-loop-plumbers-calgary).",
+      "FlameTech maintains priority availability for emergency plumbing throughout Calgary, responding immediately to urgent Mount Royal situations. Reach our live dispatch team at 587-834-3668 — never automated systems. Neighbours with [Signal Hill](/signal-hill-plumbers-calgary) and [Marda Loop](/marda-loop-plumbers-calgary).",
     ],
     heroSubhead: "Elite Plumbing Solutions for Mount Royal's Prestigious Properties",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
@@ -6681,7 +6681,7 @@ export const services: ServicePage[] = [
     bullets: [
       {
         t: "Master-level workmanship",
-        d: "Every Flame Tech technician is fully licensed, bonded, and certified for Calgary operations with extensive liability insurance.",
+        d: "Every FlameTech technician is fully licensed, bonded, and certified for Calgary operations with extensive liability insurance.",
       },
       {
         t: "Heritage-sensitive approach",
@@ -6766,10 +6766,10 @@ export const services: ServicePage[] = [
       faq: {
         heading: "Frequently Asked Questions",
         items: [
-          { q: "Does Flame Tech provide priority emergency service to Mount Royal?", a: "Absolutely. Flame Tech Plumbing delivers priority emergency response throughout Mount Royal, Calgary. When confronting burst pipes, severe leaks, or sewage emergencies, our licensed master plumbers mobilize rapidly. Reach our priority line at 587-834-3668 any hour for immediate assistance." },
+          { q: "Does FlameTech provide priority emergency service to Mount Royal?", a: "Absolutely. FlameTech Plumbing delivers priority emergency response throughout Mount Royal, Calgary. When confronting burst pipes, severe leaks, or sewage emergencies, our licensed master plumbers mobilize rapidly. Reach our priority line at 587-834-3668 any hour for immediate assistance." },
           { q: "What response time can Mount Royal homeowners expect?", a: "Our technicians typically arrive at Mount Royal properties within 60-90 minutes following your emergency call, varying with service demand and Calgary traffic conditions. We prioritize rapid response for emergency situations to minimize property damage." },
           { q: "Which plumbing services do you offer Mount Royal residents?", a: "We provide complete plumbing solutions including premium drain cleaning, luxury water heater service and installation, precision leak detection, pipe restoration and replacement, designer fixture installations, comprehensive sewer maintenance, and sophisticated bathroom/kitchen renovations." },
-          { q: "Are your technicians properly licensed and insured?", a: "Definitely. Every Flame Tech Plumbing technician maintains complete licensure, bonding, and certification for Calgary operations. We carry extensive liability insurance protecting both our professionals and your valuable property." },
+          { q: "Are your technicians properly licensed and insured?", a: "Definitely. Every FlameTech Plumbing technician maintains complete licensure, bonding, and certification for Calgary operations. We carry extensive liability insurance protecting both our professionals and your valuable property." },
           { q: "Do you provide warranties on plumbing work?", a: "Absolutely, we stand behind our workmanship with comprehensive service warranties. Our satisfaction commitment ensures complete resolution if you're dissatisfied with our work. Additionally, we extend manufacturer warranties on all components and equipment we install." },
         ],
       },
@@ -6901,7 +6901,7 @@ export const services: ServicePage[] = [
     icon: "plumbing",
     title: "Panorama Hills Plumbers Calgary | Expert Plumbing Services",
     lead:
-      "Panorama Hills homeowners know the importance of reliable plumbing in their growing northwest Calgary community. Flame Tech Plumbing has proudly served this vibrant neighborhood for over 25 years, understanding the unique needs of homes built from the late 1990s onward.",
+      "Panorama Hills homeowners know the importance of reliable plumbing in their growing northwest Calgary community. FlameTech Plumbing has proudly served this vibrant neighborhood for over 25 years, understanding the unique needs of homes built from the late 1990s onward.",
     heroBody: [
       "Plumbing emergencies don't follow business hours, especially during Calgary's unpredictable weather patterns. That's why our experienced team provides priority emergency response throughout Panorama Hills, ensuring you're never left dealing with frozen pipes or flooding alone.",
       "As a locally owned and operated [plumbing company in NW Calgary](/calgary-plumbers-nw), we understand the challenges Panorama Hills properties face. Call 587-834-3668 or see our [emergency plumber](/emergency-plumber-calgary) services.",
@@ -7011,7 +7011,7 @@ export const services: ServicePage[] = [
           { q: "What does a typical plumbing service call in Panorama Hills cost?", a: "We provide free estimates for all non-emergency work. Our pricing is transparent and upfront — you'll know the cost before we begin any repairs. We never charge hidden fees or surprise you with unexpected costs. Call us at 587-834-3668 for a detailed quote specific to your situation." },
           { q: "Do you service both detached homes and townhouses in Panorama Hills?", a: "Absolutely. We service every type of residential property in Panorama Hills, from single-family detached homes and duplexes to townhouses and condominiums. Each property type has unique plumbing considerations, and our team is experienced with all of them." },
           { q: "How can I prevent frozen pipes in my Panorama Hills home during winter?", a: "Keep cabinet doors under sinks open during extreme cold snaps to allow warm air to circulate around pipes. Ensure exterior hose bibs are shut off and drained before winter. Consider adding pipe insulation to any exposed pipes in your garage or unheated spaces. We also offer winterization services — call us before the first deep freeze for a full inspection." },
-          { q: "Are your plumbers licensed and insured to work in Calgary?", a: "Yes, every Flame Tech plumber is fully licensed, bonded, and insured in accordance with Alberta regulations. Our team holds current journeyman and master plumber certifications, and we carry comprehensive liability insurance to protect your property during every service call." },
+          { q: "Are your plumbers licensed and insured to work in Calgary?", a: "Yes, every FlameTech plumber is fully licensed, bonded, and insured in accordance with Alberta regulations. Our team holds current journeyman and master plumber certifications, and we carry comprehensive liability insurance to protect your property during every service call." },
         ],
       },
     },
@@ -7024,7 +7024,7 @@ export const services: ServicePage[] = [
     icon: "plumbing",
     title: "Signal Hill Plumbers Calgary | Expert Plumbing Services",
     lead:
-      "When you need a reliable plumber in Signal Hill, Calgary, Flame Tech Plumbing is your trusted solution for all residential and commercial plumbing needs. Our experienced team serves the Signal Hill community with fast, professional plumbing services that you can count on with priority dispatch.",
+      "When you need a reliable plumber in Signal Hill, Calgary, FlameTech Plumbing is your trusted solution for all residential and commercial plumbing needs. Our experienced team serves the Signal Hill community with fast, professional plumbing services that you can count on with priority dispatch.",
     heroBody: [
       "Signal Hill's distinctive hillside location and mix of luxury homes built from the 1980s onward present specific plumbing considerations that our experienced team handles with expertise. As a locally owned [plumbing company in SW Calgary](/calgary-plumbers-sw), we understand the unique challenges Signal Hill properties face.",
       "Our team is experienced with hillside drainage systems and the premium construction standards expected in this community. Neighbours with [Mount Royal](/mount-royal-plumbers-calgary) and [West Springs](/west-springs-plumbers-calgary). Call 587-834-3668.",
@@ -7130,11 +7130,11 @@ export const services: ServicePage[] = [
       faq: {
         heading: "Frequently Asked Questions",
         items: [
-          { q: "Do you offer priority emergency plumbing in Signal Hill?", a: "Yes. Flame Tech Plumbing offers priority emergency plumbing services to Signal Hill residents. When you call, you'll speak with a real person — not an answering service — who can dispatch a skilled plumber to your hillside location quickly." },
+          { q: "Do you offer priority emergency plumbing in Signal Hill?", a: "Yes. FlameTech Plumbing offers priority emergency plumbing services to Signal Hill residents. When you call, you'll speak with a real person — not an answering service — who can dispatch a skilled plumber to your hillside location quickly." },
           { q: "Are you familiar with hillside drainage systems?", a: "Absolutely. We're experienced with Signal Hill's infrastructure specific to 1980s through modern luxury homes, familiar with hillside drainage systems, and understand the unique requirements of Signal Hill's elevated topography." },
           { q: "How do elevation changes affect water pressure in Signal Hill?", a: "Signal Hill's hillside topography creates water pressure variations across different elevations. We install and service pressure regulators as needed and can run a full pressure test to diagnose inconsistent flow throughout your home." },
           { q: "Can you handle high-end luxury fixture installations?", a: "Yes — our plumbers expertly install and repair high-end faucets, toilets, sinks, and other fixtures to maintain your Signal Hill home's premium quality and value. We handle everything from powder room upgrades to full spa bathroom builds." },
-          { q: "Are your plumbers licensed and insured?", a: "Every Flame Tech plumber is fully licensed, bonded, and insured in accordance with Alberta regulations. We stay current on all local building codes and permit requirements for Signal Hill installations and repairs." },
+          { q: "Are your plumbers licensed and insured?", a: "Every FlameTech plumber is fully licensed, bonded, and insured in accordance with Alberta regulations. We stay current on all local building codes and permit requirements for Signal Hill installations and repairs." },
         ],
       },
     },
@@ -7148,9 +7148,9 @@ export const services: ServicePage[] = [
     icon: "plumbing",
     title: "Tuscany Plumbers Calgary | Expert Plumbing Services",
     lead:
-      "Tuscany homeowners trust Flame Tech Plumbing for reliable plumbing solutions that withstand Calgary's demanding climate. Since establishing our reputation across northwest Calgary over 25 years ago, we've become the go-to team for everything from emergency pipe repairs to complete system upgrades in this prestigious community.",
+      "Tuscany homeowners trust FlameTech Plumbing for reliable plumbing solutions that withstand Calgary's demanding climate. Since establishing our reputation across northwest Calgary over 25 years ago, we've become the go-to team for everything from emergency pipe repairs to complete system upgrades in this prestigious community.",
     heroBody: [
-      "Living in one of Calgary's most desirable neighborhoods means protecting your investment with quality workmanship. Plumbing emergencies don't wait for convenient hours, which is why Flame Tech provides priority emergency response throughout Tuscany.",
+      "Living in one of Calgary's most desirable neighborhoods means protecting your investment with quality workmanship. Plumbing emergencies don't wait for convenient hours, which is why FlameTech provides priority emergency response throughout Tuscany.",
       "Whether it's a burst pipe threatening your hardwood floors or a failing water heater on a frigid January morning, our certified technicians respond quickly to minimize damage and restore comfort. Call us today at 587-834-3668.",
     ],
     heroSubhead: "Trusted Tuscany Plumbing Experts",
@@ -7416,7 +7416,7 @@ export const services: ServicePage[] = [
     icon: "plumbing",
     title: "West Springs Calgary Plumbers | Reliable Community Service",
     lead:
-      "Looking for dependable plumbing service in West Springs, Calgary? Flame Tech Plumbing delivers trusted expertise to this vibrant family community's modern homes and established neighborhoods. Our experienced plumbers understand West Springs' unique plumbing needs, providing prompt, professional service that keeps your family comfortable year-round.",
+      "Looking for dependable plumbing service in West Springs, Calgary? FlameTech Plumbing delivers trusted expertise to this vibrant family community's modern homes and established neighborhoods. Our experienced plumbers understand West Springs' unique plumbing needs, providing prompt, professional service that keeps your family comfortable year-round.",
     heroBody: [
       "Your trusted [plumbing experts in SW Calgary](/calgary-plumbers-sw) understand West Springs' growing community needs — from starter townhomes to executive properties — and provide reliable service tailored to this dynamic neighborhood.",
       "Call 587-834-3668 for priority dispatch, honest pricing, and master-level workmanship on every job.",
@@ -7515,8 +7515,8 @@ export const services: ServicePage[] = [
         heading: "Frequently Asked Questions",
         items: [
           {
-            q: "Does Flame Tech offer priority emergency service in West Springs?",
-            a: "Yes. Flame Tech Plumbing provides priority emergency response throughout West Springs, Calgary. When facing burst pipes, severe leaks, or sewage emergencies, our licensed professionals respond quickly. Call our emergency line at 587-834-3668 anytime for immediate assistance.",
+            q: "Does FlameTech offer priority emergency service in West Springs?",
+            a: "Yes. FlameTech Plumbing provides priority emergency response throughout West Springs, Calgary. When facing burst pipes, severe leaks, or sewage emergencies, our licensed professionals respond quickly. Call our emergency line at 587-834-3668 anytime for immediate assistance.",
           },
           {
             q: "How quickly can you reach West Springs homes?",
@@ -7528,7 +7528,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "Are your plumbers licensed and insured?",
-            a: "Absolutely. Every Flame Tech Plumbing technician maintains full licensure, bonding, and certification for Calgary operations. We carry comprehensive liability insurance protecting both our team and your home. You're hiring qualified professionals who meet all Alberta plumbing regulatory standards.",
+            a: "Absolutely. Every FlameTech Plumbing technician maintains full licensure, bonding, and certification for Calgary operations. We carry comprehensive liability insurance protecting both our team and your home. You're hiring qualified professionals who meet all Alberta plumbing regulatory standards.",
           },
           {
             q: "Do you guarantee your work?",
@@ -7546,7 +7546,7 @@ export const services: ServicePage[] = [
     icon: "plumbing",
     title: "Woodbine Plumbers Calgary | Expert Plumbing",
     lead:
-      "When you need a reliable plumber in Woodbine, Calgary, Flame Tech Plumbing is your go-to solution for all residential and commercial plumbing needs. Our experienced team serves the Woodbine community with fast, professional plumbing services you can count on — with priority emergency dispatch whenever you need us.",
+      "When you need a reliable plumber in Woodbine, Calgary, FlameTech Plumbing is your go-to solution for all residential and commercial plumbing needs. Our experienced team serves the Woodbine community with fast, professional plumbing services you can count on — with priority emergency dispatch whenever you need us.",
     heroBody: [
       "As a locally owned and operated [plumbing company in SW Calgary](/calgary-plumbers-sw), we understand the unique challenges that Woodbine properties face — from older homes with aging plumbing systems to newer builds requiring modern installations.",
       "Call 587-834-3668 for fast, reliable plumbing service across Woodbine and the rest of southwest Calgary.",
@@ -7675,7 +7675,7 @@ export const services: ServicePage[] = [
     icon: "plumbing",
     title: "Coopers Crossing Plumber | Expert Plumbing Services",
     lead:
-      "Facing plumbing issues in your Coopers Crossing property? You deserve experienced professionals who deliver prompt, dependable service every time. At Flame Tech Plumbing, we're proud to serve Coopers Crossing with [Airdrie plumbing](/airdrie-plumbers) experts that are trusted and backed by integrity and clear communication.",
+      "Facing plumbing issues in your Coopers Crossing property? You deserve experienced professionals who deliver prompt, dependable service every time. At FlameTech Plumbing, we're proud to serve Coopers Crossing with [Airdrie plumbing](/airdrie-plumbers) experts that are trusted and backed by integrity and clear communication.",
     heroBody: [
       "Our locally-based team understands the specific demands of Alberta's climate on Coopers Crossing homes. Whether it's preventing frozen pipes in winter or handling urgent water heater breakdowns, we bring proven solutions to every challenge.",
       "Call us today at 587-834-3668 for fast, reliable plumbing service in Airdrie.",
@@ -7752,7 +7752,7 @@ export const services: ServicePage[] = [
           ],
         },
         {
-          heading: "Why Choose Flame Tech Plumbing for Your Coopers Crossing Property",
+          heading: "Why Choose FlameTech Plumbing for Your Coopers Crossing Property",
           items: [
             { heading: "Experienced, licensed plumbers", body: "Our crew includes fully certified and insured experts with extensive practical experience supporting Coopers Crossing homes and commercial properties." },
             { heading: "Upfront pricing", body: "Transparent, comprehensive quotes before starting any project. Zero hidden charges or unexpected costs." },
@@ -7786,7 +7786,7 @@ export const services: ServicePage[] = [
         items: [
           {
             q: "Do you offer priority emergency plumbing in Coopers Crossing?",
-            a: "Yes — Flame Tech Plumbing offers priority emergency response to Coopers Crossing residents. Your call connects you directly with our team (no automated systems or call centers) and we'll quickly dispatch an experienced plumber to your location.",
+            a: "Yes — FlameTech Plumbing offers priority emergency response to Coopers Crossing residents. Your call connects you directly with our team (no automated systems or call centers) and we'll quickly dispatch an experienced plumber to your location.",
           },
           {
             q: "How quickly can you reach Coopers Crossing?",
@@ -7802,7 +7802,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "Are your plumbers licensed and insured?",
-            a: "Yes — every Flame Tech technician is fully licensed, bonded, and insured for Alberta plumbing work. We carry comprehensive liability coverage that protects both our team and your home, and we stand behind our work with thorough warranties.",
+            a: "Yes — every FlameTech technician is fully licensed, bonded, and insured for Alberta plumbing work. We carry comprehensive liability coverage that protects both our team and your home, and we stand behind our work with thorough warranties.",
           },
           {
             q: "What should I do if a pipe bursts in the middle of the night?",

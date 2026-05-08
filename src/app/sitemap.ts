@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { services, type ServicePage } from "@/lib/services";
 import { getAllArticles, getCategories } from "@/lib/articles";
 
-const SITE_URL = "https://flame-tech-claude-xd6r.vercel.app";
+const SITE_URL = "https://flametechplumbing.ca";
 
 /**
  * Stable per-entry "lastModified" derived from the entry's content

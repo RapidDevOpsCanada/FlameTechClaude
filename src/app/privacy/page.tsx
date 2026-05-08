@@ -4,7 +4,7 @@ import StickyCallBar from "@/components/StickyCallBar";
 import PageHeader from "@/components/PageHeader";
 import type { Metadata } from "next";
 
-const SITE_URL = "https://flame-tech-claude-xd6r.vercel.app";
+const SITE_URL = "https://flametechplumbing.ca";
 
 export const metadata: Metadata = {
   title: "Privacy Policy | FlameTech Plumbing & Heating",

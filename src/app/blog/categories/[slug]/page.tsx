@@ -11,7 +11,7 @@ import { getArticlesByCategory, getCategories } from "@/lib/articles";
 import Icon from "@/components/Icon";
 import type { Metadata } from "next";
 
-const SITE_URL = "https://flame-tech-claude-xd6r.vercel.app";
+const SITE_URL = "https://flametechplumbing.ca";
 
 export const dynamic = "force-dynamic";
 

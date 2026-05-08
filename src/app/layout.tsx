@@ -18,7 +18,7 @@ const manrope = Manrope({
   display: "swap",
 });
 
-const SITE_URL = "https://flame-tech-claude-xd6r.vercel.app";
+const SITE_URL = "https://flametechplumbing.ca";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),

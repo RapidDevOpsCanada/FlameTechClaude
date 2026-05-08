@@ -77,7 +77,7 @@ export default function QuoteForm({
           name="phone"
           type="tel"
           required
-          placeholder="403-555-1234"
+          placeholder="587-834-3668"
         />
       </div>
       <Field

@@ -3,7 +3,7 @@ import type { ReactElement } from "react";
 
 export const OG_SIZE = { width: 1200, height: 630 };
 
-const SITE_URL = "https://flame-tech-claude-xd6r.vercel.app";
+const SITE_URL = "https://flametechplumbing.ca";
 
 const COLORS = {
   ink900: "#26262C",

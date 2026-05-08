@@ -20,7 +20,7 @@ import { getReviews } from "@/lib/reviews";
 import type { Review } from "@/lib/db";
 import type { Metadata } from "next";
 
-const SITE_URL = "https://flame-tech-claude-xd6r.vercel.app";
+const SITE_URL = "https://flametechplumbing.ca";
 const BUSINESS = {
   name: "FlameTech Plumbing & Heating Ltd.",
   phone: "+1-587-834-3668",

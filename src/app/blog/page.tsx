@@ -9,7 +9,7 @@ import { getAllArticles, getCategories } from "@/lib/articles";
 import Link from "next/link";
 import type { Metadata } from "next";
 
-const SITE_URL = "https://flame-tech-claude-xd6r.vercel.app";
+const SITE_URL = "https://flametechplumbing.ca";
 
 export const dynamic = "force-dynamic";
 

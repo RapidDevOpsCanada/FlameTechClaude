@@ -25,7 +25,7 @@ const articles: SeedArticle[] = [
     excerpt: "If you've noticed water pooling in your air conditioner's drip pan, you're not alone. This is one of the most common AC issues Calgary homeowners face, especially during our hot summer months when your cooling system is…",
     body: `<p>If you've noticed water pooling in your air conditioner's drip pan, you're not alone. This is one of the most common <a href="/blog/categories/air-conditioning">AC issues Calgary</a> homeowners face, especially during our hot summer months when your cooling system is working overtime. While a small amount of condensation is normal, a drip pan that keeps filling up signals a problem that needs attention.</p>
 
-<p>At Flame Tech Plumbing, we've helped countless Calgary residents solve this frustrating issue. Let's explore why <a href="/air-conditioning">your AC</a> drip pan keeps filling up and what you can do about it.</p>
+<p>At FlameTech Plumbing, we've helped countless Calgary residents solve this frustrating issue. Let's explore why <a href="/air-conditioning">your AC</a> drip pan keeps filling up and what you can do about it.</p>
 
 <h2 class="wp-block-heading">What Is an AC Drip Pan and Why Does It Matter?</h2>
 
@@ -151,13 +151,13 @@ const articles: SeedArticle[] = [
 
 <p><strong>Higher energy bills</strong>&nbsp;result when your AC works harder due to restricted airflow or other efficiency problems causing the drainage issue.</p>
 
-<h2 class="wp-block-heading">Trust Flame Tech Plumbing for Your AC Drainage Issues</h2>
+<h2 class="wp-block-heading">Trust FlameTech Plumbing for Your AC Drainage Issues</h2>
 
 <p>A constantly filling AC drip pan isn't just an inconvenience—it's a warning sign that your cooling system needs attention. While some causes are simple to fix, others require the expertise of a trained professional to diagnose and resolve properly.</p>
 
-<p>At Flame Tech Plumbing, we understand how important a functioning AC system is to your comfort during Calgary's summer heat. Our experienced technicians can quickly identify why your drip pan keeps filling up and provide effective, lasting solutions.</p>
+<p>At FlameTech Plumbing, we understand how important a functioning AC system is to your comfort during Calgary's summer heat. Our experienced technicians can quickly identify why your drip pan keeps filling up and provide effective, lasting solutions.</p>
 
-<p>Don't let a small problem become a costly disaster. If you're dealing with a persistently full AC drip pan or any other HVAC concerns, contact Flame Tech Plumbing today at&nbsp;<strong>587-834-3668</strong>. We're here to keep your home comfortable and your systems running smoothly all year long.</p>`,
+<p>Don't let a small problem become a costly disaster. If you're dealing with a persistently full AC drip pan or any other HVAC concerns, contact FlameTech Plumbing today at&nbsp;<strong>587-834-3668</strong>. We're here to keep your home comfortable and your systems running smoothly all year long.</p>`,
     category: "Air Conditioning",
     category_slug: "air-conditioning",
     author: "Shaun Kristoff",
@@ -172,7 +172,7 @@ const articles: SeedArticle[] = [
     excerpt: "When your air conditioning system starts cycling on and off after running for just 30 minutes, it's more than just an inconvenience—it's a sign that something isn't working properly. This frustrating issue, known as…",
     body: `<p>When your <a href="/blog/categories/air-conditioning">air conditioning system</a> starts cycling on and off after running for just 30 minutes, it's more than just an inconvenience—it's a sign that something isn't working properly. This frustrating issue, known as short cycling, can lead to higher energy bills, reduced comfort, and potentially costly repairs if left unaddressed.</p>
 
-<p>At Flame Tech Plumbing, we've helped countless Calgary homeowners diagnose and resolve AC compressor issues. In this guide, we'll walk you through the most common reasons why your AC compressor shuts off prematurely and what you can do about it.</p>
+<p>At FlameTech Plumbing, we've helped countless Calgary homeowners diagnose and resolve AC compressor issues. In this guide, we'll walk you through the most common reasons why your AC compressor shuts off prematurely and what you can do about it.</p>
 
 <h2 class="wp-block-heading">Understanding Normal AC Operation</h2>
 
@@ -258,7 +258,7 @@ const articles: SeedArticle[] = [
 
 <h2 class="wp-block-heading">Calgary's Trusted AC Experts</h2>
 
-<p>At Flame Tech Plumbing, we understand how uncomfortable a malfunctioning AC can make your Calgary home. Our experienced technicians can quickly diagnose why your compressor keeps shutting off and provide effective, lasting solutions.</p>
+<p>At FlameTech Plumbing, we understand how uncomfortable a malfunctioning AC can make your Calgary home. Our experienced technicians can quickly diagnose why your compressor keeps shutting off and provide effective, lasting solutions.</p>
 
 <p>Don't let AC problems disrupt your comfort. Call us today at&nbsp;<strong>587-834-3668</strong>&nbsp;to schedule a service appointment. We'll get your system running smoothly again so you can enjoy consistent, reliable cooling all season long.</p>`,
     category: "Air Conditioning",
@@ -331,7 +331,7 @@ const articles: SeedArticle[] = [
 
 <p>If basic troubleshooting doesn't resolve the issue, it's time to contact an HVAC professional. Problems like refrigerant leaks, frozen coils, drainage issues, or improperly sized equipment require expert diagnosis and repair. Attempting to fix these issues yourself can be dangerous and may void your warranty.</p>
 
-<p>At Flame Tech Plumbing, our experienced technicians can diagnose and repair humidity issues with your air conditioning system. We serve Calgary and surrounding areas with honest, reliable service. Don't suffer through another humid day in your own home – give us a call at&nbsp;<strong>587-834-3668</strong>&nbsp;to schedule an AC inspection and get your comfort back.</p>
+<p>At FlameTech Plumbing, our experienced technicians can diagnose and repair humidity issues with your air conditioning system. We serve Calgary and surrounding areas with honest, reliable service. Don't suffer through another humid day in your own home – give us a call at&nbsp;<strong>587-834-3668</strong>&nbsp;to schedule an AC inspection and get your comfort back.</p>
 
 <h2 class="wp-block-heading">Prevention Is Key</h2>
 
@@ -354,9 +354,9 @@ const articles: SeedArticle[] = [
 
 <p>You catch a whiff of something unsettling near <a href="/furnaces">your furnace</a>. That distinctive rotten egg smell. Your stomach drops. <em>Is that natural gas?</em></p>
 
-<p>Before panic sets in, take a breath. A gas smell coming from your furnace isn't always an <a href="/emergency-plumber-calgary">emergency</a>, but it's never something to ignore. As <a href="/airdrie-furnace-repairs">Airdrie's trusted Furnace Repair specialists</a> at Flame Tech Plumbing, we've diagnosed hundreds of furnace gas odor complaints, and we're here to help you understand what's happening, when to worry, and what steps to take right now.</p>
+<p>Before panic sets in, take a breath. A gas smell coming from your furnace isn't always an <a href="/emergency-plumber-calgary">emergency</a>, but it's never something to ignore. As <a href="/airdrie-furnace-repairs">Airdrie's trusted Furnace Repair specialists</a> at FlameTech Plumbing, we've diagnosed hundreds of furnace gas odor complaints, and we're here to help you understand what's happening, when to worry, and what steps to take right now.</p>
 
-<p><strong>If you're experiencing a strong, persistent gas smell, don't wait. Evacuate your home immediately, call 911 or ATCO Gas at 1-800-511-3447 from outside, then contact Flame Tech at 587-834-3668 for emergency furnace repair.</strong></p>
+<p><strong>If you're experiencing a strong, persistent gas smell, don't wait. Evacuate your home immediately, call 911 or ATCO Gas at 1-800-511-3447 from outside, then contact FlameTech at 587-834-3668 for emergency furnace repair.</strong></p>
 
 <h2 class="wp-block-heading">What Does Natural Gas Actually Smell Like?</h2>
 
@@ -395,7 +395,7 @@ const articles: SeedArticle[] = [
 
 <li><strong>Call 911 or ATCO Gas</strong> (1-800-511-3447) from outside</li>
 
-<li><strong>Call Flame Tech at 587-834-3668</strong> for emergency furnace service once ATCO clears your home</li>
+<li><strong>Call FlameTech at 587-834-3668</strong> for emergency furnace service once ATCO clears your home</li>
 </ol>
 
 <p>We offer 24/7 emergency heating services because Calgary winters don't wait for business hours.</p>
@@ -444,7 +444,7 @@ const articles: SeedArticle[] = [
 
 <p><strong>Document everything.</strong> When did you first notice it? What were you doing? This helps our technicians diagnose faster.</p>
 
-<h2 class="wp-block-heading">When to Call Flame Tech for Professional Service</h2>
+<h2 class="wp-block-heading">When to Call FlameTech for Professional Service</h2>
 
 <p>Call us at <strong>587-834-3668</strong> if:</p>
 
@@ -464,7 +464,7 @@ const articles: SeedArticle[] = [
 
 <p>There's no shame in calling professionals. We'd rather inspect and find nothing than miss a problem that endangers your family.</p>
 
-<h2 class="wp-block-heading">What to Expect from a Flame Tech Inspection</h2>
+<h2 class="wp-block-heading">What to Expect from a FlameTech Inspection</h2>
 
 <p>Our certified technicians arrive with specialized gas detection equipment that measures concentrations far below what human noses detect. We inspect every gas line connection, examine your furnace interior for heat exchanger cracks, check burner combustion, test carbon monoxide levels, and verify all safety controls.</p>
 
@@ -492,7 +492,7 @@ const articles: SeedArticle[] = [
 
 <p>Emergency repairs always cost more than scheduled maintenance. A service call finding a small leak might cost $150-300. Emergency service at 2 AM during a -35°C cold snap? Several times that.</p>
 
-<h2 class="wp-block-heading">How Flame Tech Serves Calgary Homeowners</h2>
+<h2 class="wp-block-heading">How FlameTech Serves Calgary Homeowners</h2>
 
 <p>We've built our reputation on fast response, honest assessments, and expert workmanship across Calgary—from older homes in Mount Royal to new developments in Redstone. Our technicians maintain current gas fitter certifications and ongoing education.</p>
 
@@ -508,7 +508,7 @@ const articles: SeedArticle[] = [
 
 <p>Yes. During severe cold, frozen condensate drains can cause combustion problems. Calgary's -30°C stretches test every system component, and rapid temperature changes stress gas line connections.</p>
 
-<p><strong>How quickly can Flame Tech respond?</strong></p>
+<p><strong>How quickly can FlameTech respond?</strong></p>
 
 <p>For genuine emergencies, we typically dispatch within 1-2 hours. For non-emergency concerns, we offer same-day or next-day service.</p>
 
@@ -526,11 +526,11 @@ const articles: SeedArticle[] = [
 
 <h2 class="wp-block-heading">Don't Wait on Gas Smell Concerns</h2>
 
-<p>Gas smells around your furnace demand attention—whether it's an emergency situation or you just want professional reassurance. Flame Tech Plumbing combines technical expertise with honest communication to keep Calgary families safe.</p>
+<p>Gas smells around your furnace demand attention—whether it's an emergency situation or you just want professional reassurance. FlameTech Plumbing combines technical expertise with honest communication to keep Calgary families safe.</p>
 
 <p>Calgary's winters are legendary. Your furnace works harder here than almost anywhere in Canada. It deserves professional attention from technicians who understand local conditions and proven solutions.</p>
 
-<p><strong>Don't let gas odor concerns keep you awake tonight. Call Flame Tech Plumbing at 587-834-3668 for expert furnace inspection and repair. Available 24/7 for emergencies, with same-day service for non-urgent concerns. Because your family's safety and comfort matter most.</strong></p>`,
+<p><strong>Don't let gas odor concerns keep you awake tonight. Call FlameTech Plumbing at 587-834-3668 for expert furnace inspection and repair. Available 24/7 for emergencies, with same-day service for non-urgent concerns. Because your family's safety and comfort matter most.</strong></p>`,
     category: "Heating",
     category_slug: "heating",
     author: "Jason Mounsey",
@@ -547,9 +547,9 @@ const articles: SeedArticle[] = [
 
 <p>Should you panic? Probably not. Should you ignore it? Definitely not.</p>
 
-<p>As <a href="/airdrie-furnace-repairs">Airdrie's furnace repair experts at Flame Tech Plumbing</a>, we've diagnosed countless burning plastic smell complaints. While this odor rarely signals the same immediate danger as natural gas, it always means something needs attention. Let's walk through what's causing that smell, when it's merely annoying versus genuinely concerning, and what you should do about it right now.</p>
+<p>As <a href="/airdrie-furnace-repairs">Airdrie's furnace repair experts at FlameTech Plumbing</a>, we've diagnosed countless burning plastic smell complaints. While this odor rarely signals the same immediate danger as natural gas, it always means something needs attention. Let's walk through what's causing that smell, when it's merely annoying versus genuinely concerning, and what you should do about it right now.</p>
 
-<p><strong>If the smell is accompanied by smoke, visible flames, or your smoke detector is sounding, shut off your furnace immediately and call 911. Then contact Flame Tech at 587-834-3668 for <a href="/emergency-plumber-calgary">emergency</a> heating repair.</strong></p>
+<p><strong>If the smell is accompanied by smoke, visible flames, or your smoke detector is sounding, shut off your furnace immediately and call 911. Then contact FlameTech at 587-834-3668 for <a href="/emergency-plumber-calgary">emergency</a> heating repair.</strong></p>
 
 <h2 class="wp-block-heading">What Does Burning Plastic Smell Actually Mean?</h2>
 
@@ -581,7 +581,7 @@ const articles: SeedArticle[] = [
 <li>The furnace is making loud grinding or screeching noises</li>
 </ul>
 
-<p>In these cases, turn off your furnace at the thermostat and the emergency shutoff switch (usually on or near the furnace itself), then call Flame Tech at <strong>587-834-3668</strong> for immediate service.</p>
+<p>In these cases, turn off your furnace at the thermostat and the emergency shutoff switch (usually on or near the furnace itself), then call FlameTech at <strong>587-834-3668</strong> for immediate service.</p>
 
 <h3 class="wp-block-heading">Signs This Needs Service Soon (But Not Emergency)</h3>
 
@@ -675,7 +675,7 @@ const articles: SeedArticle[] = [
 
 <p><strong>Document the details.</strong> When does the smell occur? Only during startup? Constantly? After the furnace runs for a while? This information helps our technicians diagnose faster.</p>
 
-<p><strong>Call Flame Tech at 587-834-3668.</strong> Even if the smell has stopped, the underlying cause needs professional inspection. Problems don't fix themselves—they just wait for the coldest night to become real emergencies.</p>
+<p><strong>Call FlameTech at 587-834-3668.</strong> Even if the smell has stopped, the underlying cause needs professional inspection. Problems don't fix themselves—they just wait for the coldest night to become real emergencies.</p>
 
 <h2 class="wp-block-heading">Why Professional Inspection Matters</h2>
 
@@ -689,7 +689,7 @@ const articles: SeedArticle[] = [
 
 <p>Carbon monoxide risks increase when furnaces malfunction. Overheating components can indicate combustion problems that produce deadly CO gas. You can't smell it, see it, or taste it, but it kills. A burning plastic smell might be the only warning sign you get.</p>
 
-<h2 class="wp-block-heading">What to Expect from Flame Tech Service</h2>
+<h2 class="wp-block-heading">What to Expect from FlameTech Service</h2>
 
 <p>When you call us about burning plastic smells, we take a comprehensive approach:</p>
 
@@ -749,9 +749,9 @@ const articles: SeedArticle[] = [
 
 <p>Burning plastic smells are your furnace's way of saying "I need help." The good news? Caught early, most causes are relatively inexpensive to repair. Ignored, they become winter emergencies that leave your family shivering while you wait for repairs and pay premium emergency rates.</p>
 
-<p>Flame Tech Plumbing has served Calgary homeowners through the coldest winters and the hottest emergencies. Our technicians understand local conditions, common problems, and proven solutions. We're your neighbors, and we care about keeping your family comfortable and safe.</p>
+<p>FlameTech Plumbing has served Calgary homeowners through the coldest winters and the hottest emergencies. Our technicians understand local conditions, common problems, and proven solutions. We're your neighbors, and we care about keeping your family comfortable and safe.</p>
 
-<p><strong>Don't let burning plastic smells turn into midnight emergencies. Call Flame Tech at 587-834-3668 for expert furnace diagnosis and repair. Available 24/7 for emergencies, with same-day service for urgent concerns. Your comfort and safety are our top priorities.</strong></p>`,
+<p><strong>Don't let burning plastic smells turn into midnight emergencies. Call FlameTech at 587-834-3668 for expert furnace diagnosis and repair. Available 24/7 for emergencies, with same-day service for urgent concerns. Your comfort and safety are our top priorities.</strong></p>`,
     category: "Heating",
     category_slug: "heating",
     author: "Jason Mounsey",
@@ -768,11 +768,11 @@ const articles: SeedArticle[] = [
 
 <p>You might wonder if this is normal wear and tear or if your boiler is about to explode. (Spoiler: modern boilers are extremely safe, but those noises still mean something needs attention.)</p>
 
-<p>As <a href="/boiler-installation-airdrie">Airdrie's trusted boiler specialists</a> at Flame Tech Plumbing, we've diagnosed countless noisy boiler complaints across neighborhoods from Ravenswood to Coopers Crossing. That popping sound has a name—kettling—and while it won't cause your boiler to detonate like an action movie, it definitely signals problems that will shorten your equipment's lifespan and drive up your energy bills.</p>
+<p>As <a href="/boiler-installation-airdrie">Airdrie's trusted boiler specialists</a> at FlameTech Plumbing, we've diagnosed countless noisy boiler complaints across neighborhoods from Ravenswood to Coopers Crossing. That popping sound has a name—kettling—and while it won't cause your boiler to detonate like an action movie, it definitely signals problems that will shorten your equipment's lifespan and drive up your energy bills.</p>
 
 <p>Let's explore what's causing those popping noises, why Airdrie's water makes this issue particularly common, and what you should do about it.</p>
 
-<p><strong>If your boiler is making loud banging noises accompanied by error codes, leaks, or won't maintain pressure, call Flame Tech at 587-834-3668 for same-day boiler repair service throughout Airdrie.</strong></p>
+<p><strong>If your boiler is making loud banging noises accompanied by error codes, leaks, or won't maintain pressure, call FlameTech at 587-834-3668 for same-day boiler repair service throughout Airdrie.</strong></p>
 
 <h2 class="wp-block-heading">What Causes Popping Noises in Boilers?</h2>
 
@@ -892,7 +892,7 @@ const articles: SeedArticle[] = [
 
 <h2 class="wp-block-heading">Professional Solutions for Popping Boilers</h2>
 
-<p>When you call Flame Tech at <strong>587-834-3668</strong>, here's how we address boiler kettling and noise issues:</p>
+<p>When you call FlameTech at <strong>587-834-3668</strong>, here's how we address boiler kettling and noise issues:</p>
 
 <h3 class="wp-block-heading">Power Flushing</h3>
 
@@ -986,7 +986,7 @@ const articles: SeedArticle[] = [
 
 <p><strong>Don't ignore warning signs.</strong> Noise, efficiency loss, frequent cycling, or pressure drops all deserve professional attention before they escalate.</p>
 
-<h2 class="wp-block-heading">What to Expect from Flame Tech Service</h2>
+<h2 class="wp-block-heading">What to Expect from FlameTech Service</h2>
 
 <p>When you call us about boiler noises, here's our approach:</p>
 
@@ -1036,13 +1036,13 @@ const articles: SeedArticle[] = [
 
 <h2 class="wp-block-heading">Don't Let Popping Noises Turn Into Expensive Repairs</h2>
 
-<p>Boiler kettling starts as an annoyance but progresses to expensive damage if ignored. Whether your system needs simple power flushing or you're ready to <a href="/boiler-service-calgary">upgrade to a modern, efficient boiler</a>, Flame Tech Plumbing has the expertise to keep your Airdrie home comfortable all winter.</p>
+<p>Boiler kettling starts as an annoyance but progresses to expensive damage if ignored. Whether your system needs simple power flushing or you're ready to <a href="/boiler-service-calgary">upgrade to a modern, efficient boiler</a>, FlameTech Plumbing has the expertise to keep your Airdrie home comfortable all winter.</p>
 
 <p>We've earned the trust of homeowners across Ravenswood, Reunion, Coopers Crossing, and every Airdrie neighborhood by combining technical skill with honest recommendations. When we inspect your boiler, you'll get straightforward information about what's happening, what it will cost to fix, and whether repair or replacement makes better sense for your situation.</p>
 
 <p>Airdrie winters demand reliable heating. Don't let kettling noises compromise your comfort or your budget.</p>
 
-<p><strong>Tired of listening to your boiler pop and bang? Call Flame Tech Plumbing at 587-834-3668 for expert boiler diagnosis and repair. Serving all Airdrie neighborhoods with same-day service for urgent heating concerns. Let's get your boiler running quietly and efficiently again.</strong></p>`,
+<p><strong>Tired of listening to your boiler pop and bang? Call FlameTech Plumbing at 587-834-3668 for expert boiler diagnosis and repair. Serving all Airdrie neighborhoods with same-day service for urgent heating concerns. Let's get your boiler running quietly and efficiently again.</strong></p>`,
     category: "Heating",
     category_slug: "heating",
     author: "Jason Mounsey",
@@ -1159,7 +1159,7 @@ const articles: SeedArticle[] = [
 
 <h2 class="wp-block-heading">Need Help With Your Water Softener?</h2>
 
-<p>If you're dealing with a water softener full of water and can't pinpoint the cause, or if you'd rather have a professional handle the diagnosis and repair, give us a call at <strong>587-834-3668</strong>. At Flame Tech Plumbing &amp; Heating, we service water softeners throughout Calgary and surrounding communities including Airdrie, Chestermere, Okotoks, and Cochrane.</p>
+<p>If you're dealing with a water softener full of water and can't pinpoint the cause, or if you'd rather have a professional handle the diagnosis and repair, give us a call at <strong>587-834-3668</strong>. At FlameTech Plumbing &amp; Heating, we service water softeners throughout Calgary and surrounding communities including Airdrie, Chestermere, Okotoks, and Cochrane.</p>
 
 <p>We'll get your system working properly so you can enjoy soft water again without worrying about overflow or wasted salt.</p>`,
     category: "Water",
@@ -1176,7 +1176,7 @@ const articles: SeedArticle[] = [
     excerpt: "I get calls every week from homeowners who are watching their energy bills climb and can't figure out why. Nine times out of ten, the answer is sitting right outside their house — a heat pump caked in dirt, grass…",
     body: `<p>I get calls every week from homeowners who are watching their energy bills climb and can't figure out why. Nine times out of ten, the answer is sitting right outside their house — a heat pump caked in dirt, grass clippings, and cottonwood fuzz. Dirty heat pump coils are one of the most common and most overlooked reasons your system struggles to keep up, and the fix is often simpler than you'd think.</p>
 
-<p>As an HVAC technician here at Flame Tech Plumbing &amp; Heating, I've cleaned thousands of heat pump coils across Calgary, Airdrie, and the surrounding communities. We work on <a href="/heat-pumps-airdrie">heat pumps in Airdrie</a> and throughout the Calgary region year-round, and I can tell you firsthand that a little coil maintenance goes a long way toward keeping your system efficient and reliable. In this guide, I'll walk you through exactly how to clean <a href="/heat-pumps-calgary">your heat pump</a> coils safely, what tools you'll need, and when it's smarter to leave the job to a professional.</p>
+<p>As an HVAC technician here at FlameTech Plumbing &amp; Heating, I've cleaned thousands of heat pump coils across Calgary, Airdrie, and the surrounding communities. We work on <a href="/heat-pumps-airdrie">heat pumps in Airdrie</a> and throughout the Calgary region year-round, and I can tell you firsthand that a little coil maintenance goes a long way toward keeping your system efficient and reliable. In this guide, I'll walk you through exactly how to clean <a href="/heat-pumps-calgary">your heat pump</a> coils safely, what tools you'll need, and when it's smarter to leave the job to a professional.</p>
 
 <h2 class="wp-block-heading">Why Dirty Heat Pump Coils Matter More Than You Think</h2>
 
@@ -1298,7 +1298,7 @@ const articles: SeedArticle[] = [
 
 <p>Cleaning your heat pump coils isn't glamorous work, but it's one of the highest-impact maintenance tasks you can do as a homeowner. A clean outdoor unit runs more efficiently, costs less to operate, and lasts longer than one that's been neglected. Paired with regular filter changes and professional maintenance twice a year, you'll get the most out of your heat pump investment regardless of what Alberta's weather throws your way.</p>
 
-<p>If you're not comfortable tackling the job yourself, or if it's been more than a year since your last professional tune-up, give us a call at <a href="tel:587-834-3668">587-834-3668</a>. Our team at Flame Tech Plumbing &amp; Heating services heat pumps across Calgary, Airdrie, Cochrane, Okotoks, and the surrounding areas, and we're always happy to help keep your system running at its best.</p>`,
+<p>If you're not comfortable tackling the job yourself, or if it's been more than a year since your last professional tune-up, give us a call at <a href="tel:587-834-3668">587-834-3668</a>. Our team at FlameTech Plumbing &amp; Heating services heat pumps across Calgary, Airdrie, Cochrane, Okotoks, and the surrounding areas, and we're always happy to help keep your system running at its best.</p>`,
     category: "Heating",
     category_slug: "heating",
     author: "Shaun Kristoff",

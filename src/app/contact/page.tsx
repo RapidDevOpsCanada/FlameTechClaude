@@ -8,7 +8,7 @@ import Icon from "@/components/Icon";
 import Link from "next/link";
 import type { Metadata } from "next";
 
-const SITE_URL = "https://flame-tech-claude-xd6r.vercel.app";
+const SITE_URL = "https://flametechplumbing.ca";
 const PHONE_DISPLAY = "(587) 834-3668";
 const PHONE_TEL = "+15878343668";
 const EMAIL = "info@flametechplumbing.ca";

@@ -9,7 +9,7 @@ import { authors } from "@/lib/authors";
 import Link from "next/link";
 import type { Metadata } from "next";
 
-const SITE_URL = "https://flame-tech-claude-xd6r.vercel.app";
+const SITE_URL = "https://flametechplumbing.ca";
 
 export const metadata: Metadata = {
   title: "About FlameTech Plumbing & Heating | Calgary's Trusted Trade Team",

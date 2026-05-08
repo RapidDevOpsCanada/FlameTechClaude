@@ -95,7 +95,7 @@ export default function Home() {
                 </div>
 
                 <p className="text-lg text-cream-50/70 max-w-xl mb-8 leading-relaxed">
-                  At Flame Tech, we pride ourselves on delivering top-notch
+                  At FlameTech, we pride ourselves on delivering top-notch
                   plumbing and heating services tailored to meet the unique
                   needs of our residential plumbing &amp; heating clients in
                   Calgary and the surrounding areas.
@@ -230,7 +230,7 @@ export default function Home() {
                   <div className="relative">
                     <p className="font-display text-xl md:text-2xl font-semibold leading-snug tracking-[-0.015em] mb-4">
                       When you need reliable and professional Calgary
-                      plumbers, look no further than Flame Tech Plumbing &amp;
+                      plumbers, look no further than FlameTech Plumbing &amp;
                       Heating.
                     </p>
                     <p className="text-cream-50/80 leading-relaxed mb-3">
