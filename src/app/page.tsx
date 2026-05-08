@@ -69,6 +69,31 @@ export default function Home() {
                   </span>
                   .
                 </h1>
+
+                {/* Mobile-only hero image — slots in under the headline */}
+                <div className="lg:hidden mb-6">
+                  <div className="relative rounded-2xl overflow-hidden border border-line-dark soft-shadow bg-cream-50">
+                    <Image
+                      src="/images/FTVAN.jpg"
+                      alt="FlameTech service van across Calgary"
+                      width={800}
+                      height={486}
+                      priority
+                      sizes="100vw"
+                      className="w-full h-auto object-contain"
+                    />
+                  </div>
+                  <div className="mt-3 flex justify-center">
+                    <Image
+                      src="/images/REVIEWS1.png"
+                      alt="5-star customer reviews"
+                      width={791}
+                      height={107}
+                      className="h-12 w-auto object-contain"
+                    />
+                  </div>
+                </div>
+
                 <p className="text-lg text-cream-50/70 max-w-xl mb-8 leading-relaxed">
                   At Flame Tech, we pride ourselves on delivering top-notch
                   plumbing and heating services tailored to meet the unique
@@ -99,15 +124,14 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="col-span-12 lg:col-span-6 relative reveal reveal-delay-200 order-last lg:order-none">
+              <div className="hidden lg:block col-span-12 lg:col-span-6 relative reveal reveal-delay-200">
                 <div className="relative rounded-3xl overflow-hidden border border-line-dark soft-shadow bg-cream-50">
                   <Image
                     src="/images/FTVAN.jpg"
                     alt="FlameTech service van across Calgary"
                     width={800}
                     height={486}
-                    priority
-                    sizes="(max-width: 1024px) 100vw, 580px"
+                    sizes="580px"
                     className="w-full h-auto object-contain"
                   />
                 </div>

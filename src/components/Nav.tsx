@@ -33,6 +33,7 @@ type MegaItem = {
 
 type MegaGroup = {
   heading: string;
+  headingHref?: string;
   items: MegaItem[];
 };
 
@@ -116,6 +117,7 @@ const menu: NavItem[] = [
       groups: [
         {
           heading: "Boilers",
+          headingHref: "/boilers",
           items: [
             {
               label: "Boiler Installation",
@@ -139,6 +141,7 @@ const menu: NavItem[] = [
         },
         {
           heading: "Furnaces & More",
+          headingHref: "/furnaces",
           items: [
             {
               label: "Calgary Furnaces",
@@ -215,6 +218,7 @@ const menu: NavItem[] = [
       groups: [
         {
           heading: "Water Heating",
+          headingHref: "/hot-water-tanks",
           items: [
             {
               label: "Hot Water Tanks",
@@ -429,9 +433,22 @@ function MegaPanel({
           <div className="p-7 grid grid-cols-2 gap-x-6 gap-y-7">
             {mega.groups.map((group) => (
               <div key={group.heading} className="col-span-2 md:col-span-1">
-                <h4 className="text-[12px] font-extrabold uppercase tracking-[0.18em] text-primary mb-4">
-                  {group.heading}
-                </h4>
+                {group.headingHref ? (
+                  <Link
+                    href={group.headingHref}
+                    className="inline-flex items-center gap-1.5 text-[12px] font-extrabold uppercase tracking-[0.18em] text-primary hover:text-emergency mb-4 transition-colors group/heading"
+                  >
+                    {group.heading}
+                    <Icon
+                      name="arrow_right_alt"
+                      className="text-base transition-transform group-hover/heading:translate-x-0.5"
+                    />
+                  </Link>
+                ) : (
+                  <h4 className="text-[12px] font-extrabold uppercase tracking-[0.18em] text-primary mb-4">
+                    {group.heading}
+                  </h4>
+                )}
                 <ul className="space-y-1">
                   {group.items.map((item) => {
                     const isActive = pathname === item.href;
@@ -547,9 +564,20 @@ function MobileMenuItem({
         <div className="pl-3 pb-2 space-y-4">
           {item.mega.groups.map((group) => (
             <div key={group.heading}>
-              <h5 className="text-[10px] font-bold uppercase tracking-[0.18em] text-primary px-3 mb-2 mt-2">
-                {group.heading}
-              </h5>
+              {group.headingHref ? (
+                <Link
+                  href={group.headingHref}
+                  onClick={onNavigate}
+                  className="inline-flex items-center gap-1 text-[10px] font-bold uppercase tracking-[0.18em] text-primary px-3 mb-2 mt-2 hover:text-emergency transition-colors"
+                >
+                  {group.heading}
+                  <Icon name="arrow_right_alt" className="text-sm" />
+                </Link>
+              ) : (
+                <h5 className="text-[10px] font-bold uppercase tracking-[0.18em] text-primary px-3 mb-2 mt-2">
+                  {group.heading}
+                </h5>
+              )}
               <div className="space-y-1">
                 {group.items.map((sub) => (
                   <Link
