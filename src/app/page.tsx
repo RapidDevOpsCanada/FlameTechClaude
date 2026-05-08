@@ -436,8 +436,8 @@ export default function Home() {
               <div className="col-span-12 lg:col-span-7 rounded-3xl overflow-hidden bg-ink-900 text-cream-50 border border-ink-900 relative group lift">
                 <div className="relative h-64 md:h-80 overflow-hidden">
                   <Image
-                    src="/images/FTVAN1.jpg"
-                    alt="FlameTech plumbing service van"
+                    src="/images/2026/04/Shower-Install.webp"
+                    alt="Bathroom shower installation by FlameTech in a Calgary home"
                     fill
                     sizes="(max-width: 1024px) 100vw, 60vw"
                     className="object-cover"
