@@ -77,6 +77,7 @@ export default function RootLayout({
     url: SITE_URL,
     telephone: "+1-587-834-3668",
     email: "info@flametechplumbing.ca",
+    foundingDate: "2025",
     priceRange: "$$",
     currenciesAccepted: "CAD",
     paymentAccepted: [
