@@ -398,7 +398,7 @@ const articles: SeedArticle[] = [
 <li><strong>Call FlameTech at 587-834-3668</strong> for emergency furnace service once ATCO clears your home</li>
 </ol>
 
-<p>We offer 24/7 emergency heating services because Calgary winters don't wait for business hours.</p>
+<p>We offer priority emergency heating service because Calgary winters don't wait for business hours.</p>
 
 <h2 class="wp-block-heading">Non-Emergency Gas Smells: Common Causes</h2>
 
@@ -496,7 +496,7 @@ const articles: SeedArticle[] = [
 
 <p>We've built our reputation on fast response, honest assessments, and expert workmanship across Calgary—from older homes in Mount Royal to new developments in Redstone. Our technicians maintain current gas fitter certifications and ongoing education.</p>
 
-<p>We stock trucks with common parts because Calgary winters are unforgiving. We're prepared to complete most repairs on the spot. We offer 24/7 emergency service with upfront pricing—no surprises, no hidden fees, no pressure tactics.</p>
+<p>We stock trucks with common parts because Calgary winters are unforgiving. We're prepared to complete most repairs on the spot. We offer priority emergency service with upfront pricing—no surprises, no hidden fees, no pressure tactics.</p>
 
 <h2 class="wp-block-heading">Frequently Asked Questions</h2>
 
@@ -530,7 +530,7 @@ const articles: SeedArticle[] = [
 
 <p>Calgary's winters are legendary. Your furnace works harder here than almost anywhere in Canada. It deserves professional attention from technicians who understand local conditions and proven solutions.</p>
 
-<p><strong>Don't let gas odor concerns keep you awake tonight. Call FlameTech Plumbing at 587-834-3668 for expert furnace inspection and repair. Available 24/7 for emergencies, with same-day service for non-urgent concerns. Because your family's safety and comfort matter most.</strong></p>`,
+<p><strong>Don't let gas odor concerns keep you awake tonight. Call FlameTech Plumbing at 587-834-3668 for expert furnace inspection and repair. Priority dispatch on emergencies and same-day service for non-urgent concerns. Because your family's safety and comfort matter most.</strong></p>`,
     category: "Heating",
     category_slug: "heating",
     author: "Jason Mounsey",
@@ -751,7 +751,7 @@ const articles: SeedArticle[] = [
 
 <p>FlameTech Plumbing has served Calgary homeowners through the coldest winters and the hottest emergencies. Our technicians understand local conditions, common problems, and proven solutions. We're your neighbors, and we care about keeping your family comfortable and safe.</p>
 
-<p><strong>Don't let burning plastic smells turn into midnight emergencies. Call FlameTech at 587-834-3668 for expert furnace diagnosis and repair. Available 24/7 for emergencies, with same-day service for urgent concerns. Your comfort and safety are our top priorities.</strong></p>`,
+<p><strong>Don't let burning plastic smells turn into midnight emergencies. Call FlameTech at 587-834-3668 for expert furnace diagnosis and repair. Priority dispatch on emergencies and same-day service for urgent concerns. Your comfort and safety are our top priorities.</strong></p>`,
     category: "Heating",
     category_slug: "heating",
     author: "Jason Mounsey",

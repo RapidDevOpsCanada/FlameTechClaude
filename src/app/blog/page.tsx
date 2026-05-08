@@ -24,28 +24,12 @@ export const metadata: Metadata = {
     title: "Blog & Guides | FlameTech Plumbing & Heating",
     description:
       "Practical plumbing and HVAC guides from FlameTech's Calgary technicians.",
-    images: [
-      {
-        url: `${SITE_URL}/blog/opengraph-image`,
-        width: 1200,
-        height: 630,
-        alt: "FlameTech Blog & Guides",
-      },
-    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Blog & Guides | FlameTech Plumbing & Heating",
     description:
       "Practical plumbing and HVAC guides from FlameTech's Calgary technicians.",
-    images: [
-      {
-        url: `${SITE_URL}/blog/opengraph-image`,
-        width: 1200,
-        height: 630,
-        alt: "FlameTech Blog & Guides",
-      },
-    ],
   },
 };
 

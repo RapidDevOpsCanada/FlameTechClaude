@@ -1,5 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // Canonical URLs have no trailing slash. /foo/ 308-redirects to /foo.
+  trailingSlash: false,
   images: {
     remotePatterns: [
       { protocol: "https", hostname: "lh3.googleusercontent.com" },

@@ -34,7 +34,6 @@ export async function generateMetadata({
   if (!article) return { title: "Article" };
   const url = `${SITE_URL}/blog/${article.slug}`;
   const description = cleanExcerpt(article.excerpt).slice(0, 160);
-  const ogImage = `${url}/opengraph-image`;
   return {
     title: article.title,
     description,
@@ -44,7 +43,6 @@ export async function generateMetadata({
       url,
       title: article.title,
       description,
-      images: [{ url: ogImage, width: 1200, height: 630 }],
       publishedTime: new Date(article.created_at).toISOString(),
       authors: [article.author],
       section: article.category,
@@ -53,7 +51,6 @@ export async function generateMetadata({
       card: "summary_large_image",
       title: article.title,
       description,
-      images: [{ url: ogImage, width: 1200, height: 630, alt: article.title }],
     },
   };
 }
