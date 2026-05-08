@@ -384,22 +384,17 @@ export default function Nav() {
         </div>
       </div>
 
-      {/* Mobile search bar — always visible under the nav so users
-          don't have to open the drawer to search. */}
-      <div className="md:hidden border-t border-line-dark bg-ink-900">
-        <div className="max-w-7xl mx-auto px-4 py-2.5">
-          <SiteSearch
-            variant="inline"
-            theme="dark"
-            placeholder="Search services, neighbourhoods…"
-          />
-        </div>
-      </div>
-
       {/* Mobile drawer */}
       {open && (
         <div className="lg:hidden border-t border-line-dark bg-ink-900 max-h-[80vh] overflow-y-auto">
           <div className="max-w-7xl mx-auto px-6 py-4 space-y-1">
+            <div className="mb-3">
+              <SiteSearch
+                variant="inline"
+                theme="dark"
+                placeholder="Search services, neighbourhoods…"
+              />
+            </div>
             {menu.map((item) => (
               <MobileMenuItem
                 key={item.label}
