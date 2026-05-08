@@ -124,6 +124,7 @@ export default function RootLayout({
         sameAs: [
           "https://www.facebook.com/profile.php?id=61574205860979",
           "https://www.instagram.com/flametechplumbingandheating/",
+          "https://www.bbb.org/ca/ab/calgary/profile/plumbing-and-heating/flametech-plumbing-heating-ltd-0017-267350",
         ],
         aggregateRating: {
           "@type": "AggregateRating",

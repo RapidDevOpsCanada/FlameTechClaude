@@ -836,6 +836,27 @@ export default async function ServicePage({
                   </span>
                 </div>
 
+                {/* BBB Accredited Business — adds an external trust link
+                    on every service page, addressing the audit finding
+                    that boiler-repair (and others) had zero outbound
+                    citations. */}
+                <a
+                  href="https://www.bbb.org/ca/ab/calgary/profile/plumbing-and-heating/flametech-plumbing-heating-ltd-0017-267350"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="View FlameTech Plumbing & Heating Ltd. on the Better Business Bureau"
+                  className="mt-5 pt-5 border-t border-line-dark flex items-center gap-3 group"
+                >
+                  <img
+                    src="/images/bbb-accredited-business.webp"
+                    alt=""
+                    className="h-9 w-auto object-contain rounded-md bg-white p-1"
+                  />
+                  <span className="text-[15px] font-bold text-cream-50 leading-tight group-hover:text-emergency transition-colors">
+                    BBB Accredited Business
+                  </span>
+                </a>
+
                 {/* Financeit — bigger-ticket services only */}
                 {service.financing && (
                   <div className="mt-5 pt-5 border-t border-line-dark">

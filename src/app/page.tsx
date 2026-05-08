@@ -646,7 +646,10 @@ export default function Home() {
                   <p className="text-xs font-bold uppercase tracking-[0.18em] text-primary mb-3">
                     Monthly Financing Available
                   </p>
-                  <div className="flex items-center gap-4 rounded-2xl bg-cream-50 p-4">
+                  <Link
+                    href="/financing"
+                    className="flex items-center gap-4 rounded-2xl bg-cream-50 p-4 hover:bg-cream-100 transition-colors"
+                  >
                     <img
                       src="/images/financeit.png"
                       alt="Financing via Financeit"
@@ -656,7 +659,7 @@ export default function Home() {
                       Flexible monthly payments on larger installs via our
                       Financeit partner.
                     </p>
-                  </div>
+                  </Link>
                 </div>
               </Reveal>
               <Reveal

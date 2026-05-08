@@ -139,22 +139,22 @@ export default function Footer() {
       <div className="border-t border-line-dark">
         <div className="max-w-7xl mx-auto px-6 md:px-10 py-10 grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
           <a
-            href="https://www.bbb.org/ca/ab/calgary/profile/plumber/flametech-plumbing-and-heating"
+            href="https://www.bbb.org/ca/ab/calgary/profile/plumbing-and-heating/flametech-plumbing-heating-ltd-0017-267350"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="View FlameTech on the Better Business Bureau"
             className="flex items-center gap-5 group"
           >
             <Image
-              src="/images/blue-ceip-225x300.png"
-              alt="BBB accredited"
-              width={48}
-              height={64}
-              className="h-16 w-auto object-contain rounded-lg bg-white/5 p-1 group-hover:bg-white/10 transition-colors"
+              src="/images/bbb-accredited-business.webp"
+              alt="FlameTech Plumbing & Heating Ltd. BBB Accredited Business"
+              width={240}
+              height={100}
+              className="h-14 w-auto object-contain rounded-md bg-white p-1.5 group-hover:opacity-90 transition-opacity"
             />
             <div>
               <p className="font-bold text-[16px] leading-tight group-hover:text-emergency transition-colors">
-                BBB Accredited
+                BBB Accredited Business
               </p>
               <p className="text-[14px] text-cream-50/70 mt-1">
                 Red Seal · Alberta Licensed · Insured &amp; Bonded
