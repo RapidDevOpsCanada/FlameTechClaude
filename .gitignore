@@ -2,6 +2,10 @@
 FireShot*
 *-design-ref.*
 *.reference.png
+SCR-*.png
+
+# TypeScript incremental build cache
+tsconfig.tsbuildinfo
 
 node_modules/
 .next/
