@@ -65,8 +65,49 @@ export default function AboutPage() {
   const shaun = authors["Shaun Kristoff"];
   const jason = authors["Jason Mounsey"];
 
+  // Per-founder Person JSON-LD anchored to the about page so the founder
+  // entries in the homepage business schema's `founder` array resolve to
+  // a real, indexable Person profile (the E-E-A-T signal Aspen Mountain
+  // Plumbing leans on).
+  const aboutSchema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "AboutPage",
+        "@id": `${SITE_URL}/about#webpage`,
+        url: `${SITE_URL}/about`,
+        name: "About FlameTech Plumbing & Heating",
+        isPartOf: { "@id": `${SITE_URL}#website` },
+        about: { "@id": `${SITE_URL}#business` },
+        inLanguage: "en-CA",
+      },
+      {
+        "@type": "Person",
+        "@id": `${SITE_URL}/about#shaun-kristoff`,
+        name: shaun.name,
+        jobTitle: shaun.role,
+        description: shaun.bio.split("\n\n")[0],
+        worksFor: { "@id": `${SITE_URL}#business` },
+        knowsAbout: shaun.credentials,
+      },
+      {
+        "@type": "Person",
+        "@id": `${SITE_URL}/about#jason-mounsey`,
+        name: jason.name,
+        jobTitle: jason.role,
+        description: jason.bio.split("\n\n")[0],
+        worksFor: { "@id": `${SITE_URL}#business` },
+        knowsAbout: jason.credentials,
+      },
+    ],
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutSchema) }}
+      />
       <Nav />
       <PageHeader
         eyebrow="About FlameTech"
