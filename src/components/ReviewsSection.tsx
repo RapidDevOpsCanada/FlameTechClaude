@@ -2,7 +2,9 @@ import { getReviews } from "@/lib/reviews";
 import type { Review } from "@/lib/db";
 import Icon from "@/components/Icon";
 
-// Placeholder used when DB is empty / not yet seeded.
+// Used when the DB is empty / not yet seeded so the section still
+// renders a populated grid instead of a featured card next to a blank
+// 7-column gap. Real reviews sourced from GoogleReviews.txt.
 const fallback: Review[] = [
   {
     id: 0,
@@ -15,6 +17,58 @@ const fallback: Review[] = [
       "Called FlameTech for a burst pipe. A technician was at our door within the hour, shut the water off, and had the leak fixed before midnight. Fair price, clean work, genuinely kind people.",
     featured: true,
     sort_order: 1,
+    created_at: new Date().toISOString(),
+  },
+  {
+    id: 1,
+    author: "Shosh Cohen",
+    initials: "SC",
+    area: "Calgary",
+    rating: 5,
+    relative_date: "1 day ago",
+    quote:
+      "I had a great experience. I highly recommend everyone to use them. They are professional. They work clean, organized, and explain everything.",
+    featured: false,
+    sort_order: 2,
+    created_at: new Date().toISOString(),
+  },
+  {
+    id: 2,
+    author: "C. Strat",
+    initials: "CS",
+    area: "Calgary",
+    rating: 5,
+    relative_date: "4 days ago",
+    quote:
+      "Shaun did a great job and was punctual, courteous and took pride in the work. Would highly recommend to anyone looking for plumbing and heating work.",
+    featured: false,
+    sort_order: 3,
+    created_at: new Date().toISOString(),
+  },
+  {
+    id: 3,
+    author: "Ali Derakhshan",
+    initials: "AD",
+    area: "Calgary",
+    rating: 5,
+    relative_date: "5 days ago",
+    quote:
+      "A job well engineered and executed by FlameTech. Jason and his coworker did an amazing job.",
+    featured: false,
+    sort_order: 4,
+    created_at: new Date().toISOString(),
+  },
+  {
+    id: 4,
+    author: "Cindy Luntley",
+    initials: "CL",
+    area: "Calgary",
+    rating: 5,
+    relative_date: "6 months ago",
+    quote:
+      "As a long-time customer I'm happy to recommend Shaun Kristoff. He knows his stuff and I trust him to do excellent work at a fair price.",
+    featured: false,
+    sort_order: 5,
     created_at: new Date().toISOString(),
   },
 ];
