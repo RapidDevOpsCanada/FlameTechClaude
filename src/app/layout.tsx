@@ -1,7 +1,9 @@
 import type { Metadata, Viewport } from "next";
 import { Manrope } from "next/font/google";
+import { GoogleTagManager } from "@next/third-parties/google";
 import "./globals.css";
 import ChatBubble from "@/components/ChatBubble";
+import TelClickTracker from "@/components/TelClickTracker";
 
 export const viewport: Viewport = {
   width: "device-width",
@@ -63,6 +65,148 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  // Shared business fields. Spread into the Plumber, HVACBusiness, and
+  // LocalBusiness nodes below so all three describe the same entity from
+  // different schema-typed angles (mirrors the Aspen Mountain Plumbing
+  // multi-block pattern that ranks well in Calgary local-pack results).
+  const sharedBusinessFields = {
+    name: "FlameTech Plumbing & Heating Ltd.",
+    alternateName: "FlameTech",
+    image: `${SITE_URL}/images/FTVAN.jpg`,
+    logo: `${SITE_URL}/images/FT-LOGO-DARK8.png`,
+    url: SITE_URL,
+    telephone: "+1-587-834-3668",
+    email: "info@flametechplumbing.ca",
+    priceRange: "$$",
+    currenciesAccepted: "CAD",
+    paymentAccepted: [
+      "Cash",
+      "Credit Card",
+      "Debit Card",
+      "Financing",
+      "E-Transfer",
+    ],
+    slogan: "Calgary's most trusted plumbers.",
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "Woodbine Blvd",
+      addressLocality: "Calgary",
+      addressRegion: "AB",
+      postalCode: "T2W 3K8",
+      addressCountry: "CA",
+    },
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: 50.945,
+      longitude: -114.118,
+    },
+    hasMap:
+      "https://www.google.com/maps/search/?api=1&query=FlameTech+Plumbing+Heating+Calgary",
+    openingHoursSpecification: [
+      {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+        ],
+        opens: "08:00",
+        closes: "18:00",
+      },
+    ],
+    areaServed: [
+      // Greater Calgary metro — incorporated municipalities.
+      { "@type": "City", name: "Calgary" },
+      { "@type": "City", name: "Airdrie" },
+      { "@type": "City", name: "Chestermere" },
+      { "@type": "City", name: "Cochrane" },
+      { "@type": "City", name: "Okotoks" },
+      { "@type": "City", name: "Carstairs" },
+      // Calgary quadrants + neighbourhoods — Place type for unincorporated
+      // areas referenced in the page copy and dedicated location pages.
+      { "@type": "Place", name: "Calgary NW" },
+      { "@type": "Place", name: "Calgary NE" },
+      { "@type": "Place", name: "Calgary SE" },
+      { "@type": "Place", name: "Calgary SW" },
+      { "@type": "Place", name: "Cooper's Crossing" },
+      { "@type": "Place", name: "Evergreen" },
+      { "@type": "Place", name: "Signal Hill" },
+      { "@type": "Place", name: "Woodbine" },
+      { "@type": "Place", name: "Ravenswood" },
+      { "@type": "Place", name: "Reunion" },
+    ],
+    sameAs: [
+      "https://www.facebook.com/profile.php?id=61574205860979",
+      "https://www.instagram.com/flametechplumbingandheating/",
+      "https://www.bbb.org/ca/ab/calgary/profile/plumbing-and-heating/flametech-plumbing-heating-ltd-0017-267350",
+      // Add when available: LinkedIn, YouTube, Yelp.ca, HomeStars, Houzz,
+      // Google Maps place URL.
+    ],
+    founder: [
+      {
+        "@type": "Person",
+        name: "Shaun Kristoff",
+        jobTitle: "Co-founder & Red Seal Journeyperson",
+      },
+      {
+        "@type": "Person",
+        name: "Jason Mounsey",
+        jobTitle: "Co-founder & Red Seal Journeyperson",
+      },
+    ],
+    knowsAbout: [
+      "Boiler installation",
+      "Boiler repair",
+      "Boiler service",
+      "Furnace installation",
+      "Furnace repair",
+      "Hot water tank replacement",
+      "Tankless water heaters",
+      "PolyB pipe replacement",
+      "Drain cleaning",
+      "Heat pumps",
+      "Air conditioning",
+      "Water softeners",
+      "Emergency plumbing",
+    ],
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: "5.0",
+      bestRating: "5",
+      reviewCount: "30",
+    },
+  };
+
+  const plumberOffers = [
+    "Boiler installation",
+    "Boiler repair",
+    "Hot water tank replacement",
+    "Tankless water heaters",
+    "PolyB pipe replacement",
+    "Drain cleaning",
+    "Bathroom plumbing",
+    "Emergency plumbing",
+  ].map((name) => ({
+    "@type": "Offer",
+    itemOffered: { "@type": "Service", name },
+  }));
+
+  const hvacOffers = [
+    "Furnace installation",
+    "Furnace repair",
+    "High-efficiency furnaces",
+    "Heat pumps",
+    "Air conditioning",
+    "Garage heaters",
+    "Humidifiers",
+  ].map((name) => ({
+    "@type": "Offer",
+    itemOffered: { "@type": "Service", name },
+  }));
+
   const baseSchema = {
     "@context": "https://schema.org",
     "@graph": [
@@ -73,65 +217,31 @@ export default function RootLayout({
         name: "FlameTech Plumbing & Heating",
         inLanguage: "en-CA",
         publisher: { "@id": `${SITE_URL}#business` },
+        potentialAction: {
+          "@type": "SearchAction",
+          target: {
+            "@type": "EntryPoint",
+            urlTemplate: `${SITE_URL}/?q={search_term_string}`,
+          },
+          "query-input": "required name=search_term_string",
+        },
+      },
+      {
+        "@type": "Plumber",
+        "@id": `${SITE_URL}#business`,
+        ...sharedBusinessFields,
+        makesOffer: plumberOffers,
+      },
+      {
+        "@type": "HVACBusiness",
+        "@id": `${SITE_URL}#hvac`,
+        ...sharedBusinessFields,
+        makesOffer: hvacOffers,
       },
       {
         "@type": "LocalBusiness",
-        "@id": `${SITE_URL}#business`,
-        name: "FlameTech Plumbing & Heating Ltd.",
-        image: `${SITE_URL}/images/FTVAN.jpg`,
-        logo: `${SITE_URL}/images/FT-LOGO-DARK8.png`,
-        url: SITE_URL,
-        telephone: "+1-587-834-3668",
-        email: "info@flametechplumbing.ca",
-        priceRange: "$$",
-        address: {
-          "@type": "PostalAddress",
-          streetAddress: "Woodbine Blvd",
-          addressLocality: "Calgary",
-          addressRegion: "AB",
-          addressCountry: "CA",
-        },
-        geo: {
-          "@type": "GeoCoordinates",
-          latitude: 50.945,
-          longitude: -114.118,
-        },
-        hasMap:
-          "https://www.google.com/maps/search/?api=1&query=FlameTech+Plumbing+Heating+Calgary",
-        openingHoursSpecification: [
-          {
-            "@type": "OpeningHoursSpecification",
-            dayOfWeek: [
-              "Monday",
-              "Tuesday",
-              "Wednesday",
-              "Thursday",
-              "Friday",
-              "Saturday",
-            ],
-            opens: "08:00",
-            closes: "18:00",
-          },
-        ],
-        areaServed: [
-          { "@type": "City", name: "Calgary" },
-          { "@type": "City", name: "Airdrie" },
-          { "@type": "City", name: "Chestermere" },
-          { "@type": "City", name: "Cochrane" },
-          { "@type": "City", name: "Okotoks" },
-          { "@type": "City", name: "Carstairs" },
-        ],
-        sameAs: [
-          "https://www.facebook.com/profile.php?id=61574205860979",
-          "https://www.instagram.com/flametechplumbingandheating/",
-          "https://www.bbb.org/ca/ab/calgary/profile/plumbing-and-heating/flametech-plumbing-heating-ltd-0017-267350",
-        ],
-        aggregateRating: {
-          "@type": "AggregateRating",
-          ratingValue: "5.0",
-          bestRating: "5",
-          reviewCount: "30",
-        },
+        "@id": `${SITE_URL}#localbusiness`,
+        ...sharedBusinessFields,
       },
     ],
   };
@@ -148,7 +258,9 @@ export default function RootLayout({
         />
         {children}
         <ChatBubble />
+        <TelClickTracker />
       </body>
+      <GoogleTagManager gtmId="GT-T5JXTGGW" />
     </html>
   );
 }

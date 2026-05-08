@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import { sendGTMEvent } from "@next/third-parties/google";
 import Icon from "@/components/Icon";
 
 type Status = "idle" | "submitting" | "success" | "error";
@@ -36,6 +37,7 @@ export default function QuoteForm({
       });
       const body = await res.json();
       if (!res.ok || !body.ok) throw new Error(body.error || "Request failed");
+      sendGTMEvent({ event: "generate_lead", form: "quote", value: 0 });
       setStatus("success");
       form.reset();
       // Send the user to the dedicated /thank-you route. The inline success

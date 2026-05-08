@@ -12,6 +12,7 @@ import Icon from "@/components/Icon";
 import Image from "next/image";
 import Link from "next/link";
 import { homepageFaqs } from "@/lib/homepage-faqs";
+import { getReviews } from "@/lib/reviews";
 
 const SITE_URL = "https://flametechplumbing.ca";
 
@@ -22,7 +23,26 @@ const HOMEPAGE_DATE_MODIFIED = "2026-05-08T00:00:00-06:00";
 
 export const revalidate = 604800;
 
-export default function Home() {
+export default async function Home() {
+  // Pull real reviews from Postgres so the homepage graph carries
+  // individual Review nodes (the audit calls out that aggregateRating
+  // alone is no longer enough — Google increasingly wants the
+  // underlying review data on the same page).
+  const dbReviews = await getReviews().catch(() => []);
+  const reviewNodes = dbReviews.slice(0, 10).map((r, i) => ({
+    "@type": "Review",
+    "@id": `${SITE_URL}#review-${r.id ?? i}`,
+    author: { "@type": "Person", name: r.author },
+    datePublished: new Date(r.created_at).toISOString().slice(0, 10),
+    reviewRating: {
+      "@type": "Rating",
+      ratingValue: String(r.rating ?? 5),
+      bestRating: "5",
+    },
+    reviewBody: r.quote,
+    itemReviewed: { "@id": `${SITE_URL}#business` },
+  }));
+
   const homeSchema = {
     "@context": "https://schema.org",
     "@graph": [
@@ -38,6 +58,20 @@ export default function Home() {
           url: `${SITE_URL}/images/FTVAN.jpg`,
         },
         dateModified: HOMEPAGE_DATE_MODIFIED,
+        breadcrumb: { "@id": `${SITE_URL}#breadcrumb` },
+        inLanguage: "en-CA",
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": `${SITE_URL}#breadcrumb`,
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: "Home",
+            item: SITE_URL,
+          },
+        ],
       },
       {
         "@type": "FAQPage",
@@ -48,6 +82,7 @@ export default function Home() {
           acceptedAnswer: { "@type": "Answer", text: f.a },
         })),
       },
+      ...reviewNodes,
     ],
   };
   return (
