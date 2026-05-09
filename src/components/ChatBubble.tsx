@@ -220,8 +220,19 @@ export default function ChatBubble() {
   return (
     <>
       <style jsx global>{`
-        /* Hide the HCP iframe container until the custom launcher opens it. */
-        #proChatIframeContainer {
+        /* Hide the HCP iframe container until the custom launcher opens it.
+           :not(.chat-open) keeps the override scoped to the closed state
+           so showIframe's inline width/height take over cleanly when
+           the chat is opened. Without forcing position:fixed + 0x0 here,
+           HCP's default block layout sat in normal flow at full height
+           and added phantom scroll below the footer on short pages
+           (e.g. /privacy). */
+        #proChatIframeContainer:not(.chat-open) {
+          position: fixed !important;
+          bottom: 0 !important;
+          right: 0 !important;
+          width: 0 !important;
+          height: 0 !important;
           opacity: 0 !important;
           pointer-events: none !important;
         }
