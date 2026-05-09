@@ -230,12 +230,6 @@ export default function Footer() {
             >
               Privacy Policy
             </Link>
-            <div className="flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-emergency animate-pulse"></span>
-              <span className="font-semibold text-emergency">
-                Emergency Dispatch
-              </span>
-            </div>
           </div>
         </div>
       </div>
