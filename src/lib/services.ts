@@ -1641,7 +1641,6 @@ export const services: ServicePage[] = [
       subtitle:
         "92–95% AFUE systems installed by Red Seal technicians who understand Calgary's climate.",
       bullets: [
-        "Carrier Infinity, Lennox SLP98V, Rheem Prestige",
         "Proper sizing + ductwork modifications",
         "Gas line & venting upgrades when needed",
         "Rebate paperwork handled for you",

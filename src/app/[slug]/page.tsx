@@ -778,6 +778,40 @@ export default async function ServicePage({
                   </div>
                 </div>
               )}
+
+              {/* Financeit — bigger-ticket services only. Lives in the
+                  main content column (not the sidebar) so the sticky
+                  sidebar stays compact on long pages. */}
+              {service.financing && (
+                <Link
+                  href="/financing"
+                  className="mt-12 block rounded-2xl bg-cream-50 border border-line-light p-6 md:p-8 hover:bg-cream-100 transition-colors group"
+                >
+                  <div className="flex flex-col md:flex-row md:items-center gap-6">
+                    <img
+                      src="/images/financeit.png"
+                      alt="Financeit"
+                      className="h-9 object-contain object-left shrink-0"
+                    />
+                    <div className="flex-1">
+                      <p className="text-[11px] font-extrabold uppercase tracking-[0.16em] text-ink-900/70 mb-2">
+                        Monthly Financing Available
+                      </p>
+                      <h3 className="font-display text-xl md:text-2xl font-extrabold tracking-tight text-ink-900 mb-2 leading-tight">
+                        Spread the cost into manageable monthly payments.
+                      </h3>
+                      <p className="text-[15px] text-ink-700 leading-relaxed">
+                        {service.financing.detail ??
+                          "Flexible monthly payments on larger installs via our Financeit partner."}
+                      </p>
+                    </div>
+                    <span className="shrink-0 inline-flex items-center gap-1.5 text-[14px] font-bold text-emergency-deep group-hover:gap-2.5 transition-all">
+                      See details
+                      <Icon name="arrow_right_alt" className="text-lg" />
+                    </span>
+                  </div>
+                </Link>
+              )}
             </div>
 
             <aside className="col-span-12 lg:col-span-3">
@@ -857,34 +891,6 @@ export default async function ServicePage({
                   </span>
                 </a>
 
-                {/* Financeit — bigger-ticket services only */}
-                {service.financing && (
-                  <div className="mt-5 pt-5 border-t border-line-dark">
-                    <Link
-                      href="/financing"
-                      className="block rounded-xl bg-cream-50 p-5 hover:bg-cream-100 transition-colors group"
-                    >
-                      <img
-                        src="/images/financeit.png"
-                        alt="Financeit"
-                        className="h-7 object-contain object-left mb-3"
-                      />
-                      <div className="pt-3 border-t border-line-light">
-                        <p className="text-[12px] font-extrabold uppercase tracking-[0.14em] text-ink-900/70 mb-2">
-                          Monthly Financing Available
-                        </p>
-                        <p className="text-[15px] text-ink-700 leading-relaxed mb-3">
-                          {service.financing.detail ??
-                            "Flexible monthly payments on larger installs via our Financeit partner."}
-                        </p>
-                        <span className="inline-flex items-center gap-1 text-[14px] font-bold text-emergency-deep group-hover:gap-2 transition-all">
-                          See financing details
-                          <Icon name="arrow_right_alt" className="text-base" />
-                        </span>
-                      </div>
-                    </Link>
-                  </div>
-                )}
               </div>
             </aside>
           </div>
