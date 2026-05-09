@@ -2,10 +2,10 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import FinalCTA from "@/components/FinalCTA";
 import StickyCallBar from "@/components/StickyCallBar";
-import PageHeader from "@/components/PageHeader";
 import Icon from "@/components/Icon";
 import IconBadge, { type IconTone } from "@/components/IconBadge";
 import { authors } from "@/lib/authors";
+import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
 
@@ -109,11 +109,39 @@ export default function AboutPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutSchema) }}
       />
       <Nav />
-      <PageHeader
-        eyebrow="About FlameTech"
-        title="Calgary's locally owned plumbing and heating team."
-        description="Founded and run by two Red Seal–certified journeymen with 45+ years of combined experience. We do honest residential plumbing, heating, AC, and water-systems work — and we treat every home like it's our own."
-      />
+      <section className="relative bg-ink-900 text-cream-50 overflow-hidden">
+        <div className="absolute inset-0 dotgrid opacity-40 pointer-events-none" />
+        <div className="hidden md:block absolute -top-40 -right-40 w-[600px] h-[600px] rounded-full bg-emergency/15 blur-3xl pointer-events-none" />
+        <div className="max-w-7xl mx-auto px-6 md:px-10 relative pt-16 md:pt-24 pb-16 md:pb-20">
+          <div className="grid grid-cols-12 gap-8 md:gap-12 items-center">
+            <div className="col-span-12 lg:col-span-7">
+              <span className="eyebrow mb-6">About FlameTech</span>
+              <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight leading-[1.05] mt-6 mb-6 max-w-3xl">
+                Calgary&apos;s locally owned plumbing and heating team.
+              </h1>
+              <p className="text-lg text-cream-50/70 max-w-2xl leading-relaxed">
+                Founded and run by two Red Seal–certified journeymen with 45+
+                years of combined experience. We do honest residential
+                plumbing, heating, AC, and water-systems work — and we treat
+                every home like it&apos;s our own.
+              </p>
+            </div>
+            <div className="col-span-12 lg:col-span-5">
+              <div className="relative rounded-2xl overflow-hidden border border-line-dark soft-shadow aspect-[4/5] max-w-md mx-auto">
+                <Image
+                  src="/images/FTVAN1.jpg"
+                  alt="Jason Mounsey and Shaun Kristoff — FlameTech founders — standing in front of the service van"
+                  fill
+                  priority
+                  sizes="(max-width: 1024px) 100vw, 40vw"
+                  className="object-cover object-center"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div aria-hidden="true" className="section-rule" />
 
       {/* Mission / company overview */}
       <section className="bg-cream-50 text-ink-900 py-20 border-t border-line-light light-surface">
