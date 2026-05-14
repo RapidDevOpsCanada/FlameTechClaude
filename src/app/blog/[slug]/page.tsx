@@ -22,6 +22,7 @@ import { tagSlug } from "@/lib/article-tags";
 import Icon from "@/components/Icon";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import rehypeSlug from "rehype-slug";
+import remarkFillImageAlt from "@/lib/remark-fill-image-alt";
 import type { Metadata } from "next";
 
 // Author display name → /about anchor slug. Used to link bylines to
@@ -426,6 +427,7 @@ export default async function ArticlePage({
               source={article.body}
               options={{
                 mdxOptions: {
+                  remarkPlugins: [remarkFillImageAlt],
                   rehypePlugins: [rehypeSlug],
                 },
               }}

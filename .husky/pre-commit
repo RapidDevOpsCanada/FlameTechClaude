@@ -1,0 +1,25 @@
+#!/usr/bin/env sh
+# Pre-commit: run the image optimization pipeline against any staged
+# raster images under public/images/. Converted files + the refreshed
+# featured-image-dimensions.ts get re-staged so the commit that lands
+# already includes the optimized versions and updated references.
+
+# Collect staged image paths (added or modified). xargs -0 keeps spaces
+# in filenames safe.
+staged=$(git diff --cached --name-only --diff-filter=AM -z \
+  | tr '\0' '\n' \
+  | grep -E '^public/images/.*\.(jpe?g|png)$' || true)
+
+if [ -n "$staged" ]; then
+  # shellcheck disable=SC2086
+  echo "$staged" | xargs node scripts/optimize-images.mjs
+else
+  # Even if no images are staged, refresh the dimensions map in case
+  # an image was removed in the same commit.
+  node scripts/optimize-images.mjs
+fi
+
+# Re-stage anything the script touched (deleted JPGs, new WebPs,
+# rewritten references, refreshed dimensions module).
+git add public/images src/lib/featured-image-dimensions.ts
+git add -u

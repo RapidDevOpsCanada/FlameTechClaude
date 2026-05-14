@@ -131,7 +131,7 @@ export default function AboutPage() {
             <div className="col-span-12 lg:col-span-5">
               <div className="relative rounded-2xl overflow-hidden border border-line-dark soft-shadow aspect-[4/5] max-w-md mx-auto">
                 <Image
-                  src="/images/FTVAN1.jpg"
+                  src="/images/FTVAN1.webp"
                   alt="Jason Mounsey and Shaun Kristoff — FlameTech founders — standing in front of the service van"
                   fill
                   priority
