@@ -171,7 +171,7 @@ const menu: NavItem[] = [
         },
       ],
       promo: {
-        image: "/images/navine-boiler.png",
+        image: "/images/2026/04/Double-boiler.webp",
         title: "Winter-ready heating install",
         body: "Free quote on boilers, furnaces & heat pumps.",
         cta: "Request heating quote",
