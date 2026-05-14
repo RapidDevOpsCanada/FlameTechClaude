@@ -2456,7 +2456,7 @@ export const services: ServicePage[] = [
     ],
     heroSubhead: "Trusted Hot Water Specialists",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
-    heroImage: { src: "/images/2026/02/bradford-white-hot-water-tank.webp", alt: "Bradford White hot water tank installed by FlameTech in Calgary", fit: "contain" },
+    heroImage: { src: "/images/2026/04/Power-Vent-hot-water-tank.webp", alt: "Bradford White power-vent hot water tank installed by FlameTech in a Calgary basement", fit: "cover" },
     intro:
       "Hot water tank installation, repair, and replacement in Calgary. Gas and electric units, proper sizing, permits handled, annual flushing and anode rod service.",
     features: [
@@ -3535,7 +3535,7 @@ export const services: ServicePage[] = [
     ],
     heroSubhead: "Trusted Airdrie Hot Water Tank Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
-    heroImage: { src: "/images/2026/02/bradford-white-hot-water-tank.webp", alt: "Bradford White hot water tank installed by FlameTech in Airdrie", fit: "contain" },
+    heroImage: { src: "/images/2026/04/Power-Vent-hot-water-tank.webp", alt: "Bradford White power-vent hot water tank installed by FlameTech in an Airdrie home", fit: "cover" },
     intro:
       "Hot water tank installation, replacement, and repair in Airdrie. Bradford White, AO Smith, Rheem tanks stocked. Priority emergency service, same-day installs.",
     features: [
@@ -7974,7 +7974,7 @@ export const services: ServicePage[] = [
     ],
     heroSubhead: "Calgary's Water Heater Installation Specialists",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
-    heroImage: { src: "/images/2026/02/bradford-white-hot-water-tank.webp", alt: "Bradford White hot water tank installed by FlameTech in Calgary", fit: "contain" },
+    heroImage: { src: "/images/2026/04/Power-Vent-hot-water-tank.webp", alt: "Bradford White power-vent hot water tank installed by FlameTech in a Calgary basement", fit: "cover" },
     intro:
       "Water heater installation in Calgary by licensed gas fitters. Tank, tankless, and replacement services — Bradford White, Rheem, AO Smith, and Navien. Same-day install when stock allows.",
     features: [
