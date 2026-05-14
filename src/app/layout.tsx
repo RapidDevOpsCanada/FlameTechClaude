@@ -231,21 +231,16 @@ export default function RootLayout({
         },
       },
       {
-        "@type": "Plumber",
+        // One physical business described as three Schema.org types
+        // in a single node. Avoids the "multiple aggregateRating" warning
+        // Google's Rich Results Test raises when three sibling entities
+        // each claim the same review count, and keeps every existing
+        // #business @id reference (provider, itemReviewed historically,
+        // about, etc.) pointing at one canonical entity.
+        "@type": ["LocalBusiness", "Plumber", "HVACBusiness"],
         "@id": `${SITE_URL}#business`,
         ...sharedBusinessFields,
-        makesOffer: plumberOffers,
-      },
-      {
-        "@type": "HVACBusiness",
-        "@id": `${SITE_URL}#hvac`,
-        ...sharedBusinessFields,
-        makesOffer: hvacOffers,
-      },
-      {
-        "@type": "LocalBusiness",
-        "@id": `${SITE_URL}#localbusiness`,
-        ...sharedBusinessFields,
+        makesOffer: [...plumberOffers, ...hvacOffers],
       },
     ],
   };

@@ -1317,7 +1317,9 @@ function buildSchemaJsonLd(service: ServicePage, reviews: Review[]) {
       bestRating: "5",
     },
     reviewBody: r.quote,
-    itemReviewed: { "@id": `${SITE_URL}#business` },
+    // No itemReviewed: Google flags a "directional conflict" when a
+    // Review references a business on the same page. The on-page
+    // graph already wires the relationship.
   }));
   const ratingCount = reviewNodes.length || 0;
   const ratingValue =

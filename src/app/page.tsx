@@ -42,7 +42,10 @@ export default async function Home() {
       bestRating: "5",
     },
     reviewBody: r.quote,
-    itemReviewed: { "@id": `${SITE_URL}#business` },
+    // No itemReviewed: Google's Rich Results Test flags a "directional
+    // conflict" when a Review references a business on the same page —
+    // the association is already established by being in the same
+    // graph as the LocalBusiness node.
   }));
 
   // Effective freshness = max(content baseline, newest review date).
