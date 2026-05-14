@@ -36,7 +36,7 @@ const dimensionsFile = path.join(
   "featured-image-dimensions.ts",
 );
 
-const OPTIMIZE_THRESHOLD = 200 * 1024; // bytes
+const OPTIMIZE_THRESHOLD = 60 * 1024; // bytes
 const WEBP_QUALITY = 85;
 const DRY_RUN = process.env.DRY_RUN === "1";
 

@@ -139,26 +139,16 @@ export default function ChatBubble() {
     }
   }
 
-  // Pre-warm the HCP script as early as the browser is idle, plus a
-  // first-interaction backstop. The 2.5s setTimeout we used to ship with
-  // routinely lost the race against the user's first click, which is what
-  // surfaced the "click does nothing, then spinner, then chat" flash.
-  // requestIdleCallback fires after the page becomes interactive so
-  // Lighthouse TBT/TTI stays clean.
+  // Pre-warm the HCP script ONLY after the visitor engages with the
+  // page (move, scroll, tap, or key). The bundle is ~1.36 MB across
+  // three files; loading it on idle costs every visitor that 1.36 MB
+  // even when they never reach for chat — GT Metrix's "Avoid enormous
+  // network payloads" audit flagged it as the single biggest LCP
+  // contributor. The first-interaction listeners almost always fire
+  // long before the user reaches for the chat launcher, so the click
+  // still feels instant; visitors who bounce without interacting pay
+  // zero bytes for HCP.
   useEffect(() => {
-    const idle = (
-      window as unknown as {
-        requestIdleCallback?: (cb: () => void, opts?: { timeout: number }) => number;
-      }
-    ).requestIdleCallback;
-    let idleId: number | undefined;
-    let fallbackTimeoutId: number | undefined;
-    if (idle) {
-      idleId = idle(() => void ensureScript(), { timeout: 2000 });
-    } else {
-      fallbackTimeoutId = window.setTimeout(() => void ensureScript(), 500);
-    }
-
     const onFirstInteraction = () => {
       void ensureScript();
     };
@@ -169,11 +159,6 @@ export default function ChatBubble() {
     window.addEventListener("keydown", onFirstInteraction, { once: true });
 
     return () => {
-      const cancelIdle = (
-        window as unknown as { cancelIdleCallback?: (id: number) => void }
-      ).cancelIdleCallback;
-      if (idleId !== undefined && cancelIdle) cancelIdle(idleId);
-      if (fallbackTimeoutId !== undefined) window.clearTimeout(fallbackTimeoutId);
       window.removeEventListener("pointermove", onFirstInteraction);
       window.removeEventListener("pointerdown", onFirstInteraction);
       window.removeEventListener("scroll", onFirstInteraction);

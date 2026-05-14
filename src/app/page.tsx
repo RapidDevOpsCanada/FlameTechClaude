@@ -754,8 +754,8 @@ export default async function Home() {
 const brandTiles: { src: string; label: string; href: string }[] = [
   { src: "/images/navine-boiler.png", label: "Boilers", href: "/boilers" },
   { src: "/images/air-ease-furnace.png", label: "Furnaces", href: "/furnaces" },
-  { src: "/images/air-ease-ac.png", label: "AC Units", href: "/air-conditioning" },
-  { src: "/images/bradford-white-hot-water-tank.png", label: "Hot Water Tanks", href: "/hot-water-tanks" },
+  { src: "/images/air-ease-ac.webp", label: "AC Units", href: "/air-conditioning" },
+  { src: "/images/bradford-white-hot-water-tank.webp", label: "Hot Water Tanks", href: "/hot-water-tanks" },
   { src: "/images/graident-tankless-water-heater.png", label: "Tankless", href: "/tankless-water-heaters" },
   { src: "/images/water-softener-calgary.png", label: "Water Softeners", href: "/water-softener" },
 ];

@@ -419,7 +419,7 @@ export const services: ServicePage[] = [
     ],
     heroSubhead: "Trusted Calgary Drain Cleaning Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
-    heroImage: { src: "/images/2025/04/drain-cleaning-pipe.jpeg", alt: "Plumber working on a drain line under a sink — Calgary drain cleaning", fit: "cover" },
+    heroImage: { src: "/images/2025/04/drain-cleaning-pipe.webp", alt: "Plumber working on a drain line under a sink — Calgary drain cleaning", fit: "cover" },
     intro:
       "Expert drain cleaning services in Calgary. Clogs, blockages, and backup repairs. 25+ years experience. Priority emergency response.",
     features: [
@@ -559,7 +559,7 @@ export const services: ServicePage[] = [
     ],
     heroSubhead: "Priority Emergency Response",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
-    heroImage: { src: "/images/2025/04/flame-tech-van.jpg", alt: "FlameTech emergency plumbing service van in Calgary", fit: "cover" },
+    heroImage: { src: "/images/2025/04/flame-tech-van.webp", alt: "FlameTech emergency plumbing service van in Calgary", fit: "cover" },
     intro:
       "Emergency plumbing in Calgary — burst pipes, active leaks, sewer backups, water heater failures. Priority dispatch, honest quotes, certified technicians.",
     features: [
@@ -671,7 +671,7 @@ export const services: ServicePage[] = [
     ],
     heroSubhead: "Calgary's Poly-B Replacement Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
-    heroImage: { src: "/images/2023/03/man-working-with-electronics.jpg", alt: "FlameTech technician working on Poly-B replacement", fit: "cover" },
+    heroImage: { src: "/images/2023/03/man-working-with-electronics.webp", alt: "FlameTech technician working on Poly-B replacement", fit: "cover" },
     intro:
       "Calgary Poly-B plumbing specialists — inspection, emergency repair, and complete polybutylene replacement with PEX or copper. Insurance-grade documentation, manufacturer warranties.",
     features: [
@@ -1856,7 +1856,7 @@ export const services: ServicePage[] = [
     ],
     heroSubhead: "Trusted Calgary Garage Heater Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
-    heroImage: { src: "/images/2026/04/garage-heater-featured.jpg", alt: "Calgary garage with overhead radiant heater installed", fit: "cover" },
+    heroImage: { src: "/images/2026/04/garage-heater-featured.webp", alt: "Calgary garage with overhead radiant heater installed", fit: "cover" },
     intro:
       "Professional garage heater installation and repair in Calgary. Gas, electric, and radiant heaters. Priority emergency response, licensed gas fitters, 15+ years of Calgary experience.",
     features: [
@@ -1987,7 +1987,7 @@ export const services: ServicePage[] = [
     ],
     heroSubhead: "Year-Round Comfort",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
-    heroImage: { src: "/images/2026/01/image.png", alt: "AirEase cold-climate heat pump installed by FlameTech" },
+    heroImage: { src: "/images/2026/01/image.webp", alt: "AirEase cold-climate heat pump installed by FlameTech" },
     intro:
       "Expert heat pump installation, repair, and maintenance in Calgary. Energy-efficient heating and cooling for Alberta homes.",
     features: [
@@ -2149,7 +2149,7 @@ export const services: ServicePage[] = [
       },
     ],
     heroImage: {
-      src: "/images/2025/12/air-ease-ac.png",
+      src: "/images/2025/12/air-ease-ac.webp",
       alt: "Air Ease Air Conditioning Unit",
     },
     seoTitle:
@@ -2222,7 +2222,7 @@ export const services: ServicePage[] = [
               heading: "Air Conditioning Repair",
               body: "Is your AC unit making strange noises, not cooling effectively, or has it stopped working altogether? Our experienced technicians are equipped to diagnose and repair all makes and models of air conditioners quickly and effectively, restoring comfort to your home. If you need AC repair Calgary, FlameTech is ready to help.",
               image: {
-                src: "/images/2023/03/services-details-img-1-2.jpg",
+                src: "/images/2023/03/services-details-img-1-2.webp",
                 alt: "AC repair being performed by a technician",
               },
             },
@@ -2270,7 +2270,7 @@ export const services: ServicePage[] = [
       promo: {
         heading: "AirEase Special — 12-year parts and labor warranty*",
         image: {
-          src: "/images/2026/01/AirEase-Promo.jpg",
+          src: "/images/2026/01/AirEase-Promo.webp",
           alt: "AirEase Air Conditioning Promo",
         },
         groups: [
@@ -2454,7 +2454,7 @@ export const services: ServicePage[] = [
     ],
     heroSubhead: "Trusted Hot Water Specialists",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
-    heroImage: { src: "/images/2026/02/bradford-white-hot-water-tank.png", alt: "Bradford White hot water tank installed by FlameTech in Calgary", fit: "contain" },
+    heroImage: { src: "/images/2026/02/bradford-white-hot-water-tank.webp", alt: "Bradford White hot water tank installed by FlameTech in Calgary", fit: "contain" },
     intro:
       "Hot water tank installation, repair, and replacement in Calgary. Gas and electric units, proper sizing, permits handled, annual flushing and anode rod service.",
     features: [
@@ -3295,7 +3295,7 @@ export const services: ServicePage[] = [
     ],
     heroSubhead: "Trusted Airdrie Boilers Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
-    heroImage: { src: "/images/2025/04/close-up-of-hands-adjusting-a-boiler-system.jpeg", alt: "Boiler service being performed on an Airdrie home", fit: "cover" },
+    heroImage: { src: "/images/2025/04/close-up-of-hands-adjusting-a-boiler-system.webp", alt: "Boiler service being performed on an Airdrie home", fit: "cover" },
     intro:
       "Boiler installation, repair, and service in Airdrie. Circulation pumps, expansion tanks, zone valves, heat exchanger cleaning — all major brands.",
     features: [
@@ -3417,7 +3417,7 @@ export const services: ServicePage[] = [
     ],
     heroSubhead: "Trusted Local Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
-    heroImage: { src: "/images/2025/12/air-ease-ac.png", alt: "AirEase heat pump installed by FlameTech in Airdrie", fit: "contain" },
+    heroImage: { src: "/images/2025/12/air-ease-ac.webp", alt: "AirEase heat pump installed by FlameTech in Airdrie", fit: "contain" },
     intro:
       "Heat pump installation, repair, and maintenance in Airdrie. Air-source, ductless mini-split, and geothermal systems. AirEase 12-year parts + labor warranty on qualifying units.",
     features: [
@@ -3533,7 +3533,7 @@ export const services: ServicePage[] = [
     ],
     heroSubhead: "Trusted Airdrie Hot Water Tank Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
-    heroImage: { src: "/images/2026/02/bradford-white-hot-water-tank.png", alt: "Bradford White hot water tank installed by FlameTech in Airdrie", fit: "contain" },
+    heroImage: { src: "/images/2026/02/bradford-white-hot-water-tank.webp", alt: "Bradford White hot water tank installed by FlameTech in Airdrie", fit: "contain" },
     intro:
       "Hot water tank installation, replacement, and repair in Airdrie. Bradford White, AO Smith, Rheem tanks stocked. Priority emergency service, same-day installs.",
     features: [
@@ -7972,7 +7972,7 @@ export const services: ServicePage[] = [
     ],
     heroSubhead: "Calgary's Water Heater Installation Specialists",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
-    heroImage: { src: "/images/2026/02/bradford-white-hot-water-tank.png", alt: "Bradford White hot water tank installed by FlameTech in Calgary", fit: "contain" },
+    heroImage: { src: "/images/2026/02/bradford-white-hot-water-tank.webp", alt: "Bradford White hot water tank installed by FlameTech in Calgary", fit: "contain" },
     intro:
       "Water heater installation in Calgary by licensed gas fitters. Tank, tankless, and replacement services — Bradford White, Rheem, AO Smith, and Navien. Same-day install when stock allows.",
     features: [

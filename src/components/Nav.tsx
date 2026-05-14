@@ -253,7 +253,7 @@ const menu: NavItem[] = [
         },
       ],
       promo: {
-        image: "/images/2026/03/water-softener-installation.jpg",
+        image: "/images/2026/03/water-softener-installation.webp",
         title: "Upgrade your hot water",
         body: "Tankless, tanks, softeners — honest advice.",
         cta: "Book a water consult",
