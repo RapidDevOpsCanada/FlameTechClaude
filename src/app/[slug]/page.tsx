@@ -1305,90 +1305,27 @@ function buildSchemaJsonLd(service: ServicePage, reviews: Review[]) {
     publisher: { "@id": `${SITE_URL}#business` },
   });
 
-  // Real Review nodes from Postgres so AggregateRating is backed by
-  // actual data (Google increasingly requires this).
-  const reviewNodes = reviews.slice(0, 12).map((r, i) => ({
-    "@type": "Review",
-    "@id": `${SITE_URL}#review-${r.id ?? i}`,
-    author: { "@type": "Person", name: r.author },
-    reviewRating: {
-      "@type": "Rating",
-      ratingValue: String(r.rating ?? 5),
-      bestRating: "5",
-    },
-    reviewBody: r.quote,
-    // No itemReviewed: Google flags a "directional conflict" when a
-    // Review references a business on the same page. The on-page
-    // graph already wires the relationship.
-  }));
-  const ratingCount = reviewNodes.length || 0;
-  const ratingValue =
-    ratingCount > 0
-      ? (
-          reviews.slice(0, 12).reduce((s, r) => s + (r.rating ?? 5), 0) /
-          ratingCount
-        ).toFixed(1)
-      : "5.0";
-
-  // LocalBusiness node — stand-alone so it can carry AggregateRating + Reviews
-  graph.push({
-    "@type": "LocalBusiness",
-    "@id": `${SITE_URL}#business`,
-    name: BUSINESS.name,
-    telephone: BUSINESS.phone,
-    email: "info@flametechplumbing.ca",
-    url: SITE_URL,
-    image: `${SITE_URL}/images/FT-LOGO-DARK8.png`,
-    logo: `${SITE_URL}/images/FT-LOGO-DARK8.png`,
-    priceRange: "$$",
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: "Woodbine Blvd",
-      addressLocality: "Calgary",
-      addressRegion: "AB",
-      addressCountry: "CA",
-    },
-    geo: {
-      "@type": "GeoCoordinates",
-      latitude: 50.945,
-      longitude: -114.118,
-    },
-    hasMap:
-      "https://www.google.com/maps/search/?api=1&query=FlameTech+Plumbing+Heating+Calgary",
-    openingHoursSpecification: [
-      {
-        "@type": "OpeningHoursSpecification",
-        dayOfWeek: [
-          "Monday",
-          "Tuesday",
-          "Wednesday",
-          "Thursday",
-          "Friday",
-          "Saturday",
-        ],
-        opens: "08:00",
-        closes: "18:00",
+  // Per-page Review nodes. Attach as stand-alone graph members — the
+  // canonical business node (with the site-wide AggregateRating) lives
+  // in src/app/layout.tsx. Redefining LocalBusiness here with its own
+  // aggregateRating produced two AggregateRating values for the same
+  // @id and tripped Rich Results Test's "multiple aggregateRating"
+  // warning. No itemReviewed on the Review nodes either — Google flags
+  // a "directional conflict" when a Review points at a business on the
+  // same page; the on-page graph already wires the relationship.
+  for (const r of reviews.slice(0, 12)) {
+    graph.push({
+      "@type": "Review",
+      "@id": `${SITE_URL}#review-${r.id ?? r.author}`,
+      author: { "@type": "Person", name: r.author },
+      reviewRating: {
+        "@type": "Rating",
+        ratingValue: String(r.rating ?? 5),
+        bestRating: "5",
       },
-    ],
-    areaServed: [
-      { "@type": "City", name: "Calgary" },
-      { "@type": "City", name: "Airdrie" },
-      { "@type": "City", name: "Chestermere" },
-      { "@type": "City", name: "Cochrane" },
-      { "@type": "City", name: "Okotoks" },
-    ],
-    ...(ratingCount > 0
-      ? {
-          aggregateRating: {
-            "@type": "AggregateRating",
-            ratingValue,
-            bestRating: "5",
-            reviewCount: String(ratingCount),
-          },
-          review: reviewNodes,
-        }
-      : {}),
-  });
+      reviewBody: r.quote,
+    });
+  }
 
   graph.push({
     "@type": "Service",
