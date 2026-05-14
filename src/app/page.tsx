@@ -12,7 +12,7 @@ import Icon from "@/components/Icon";
 import Image from "next/image";
 import Link from "next/link";
 import { homepageFaqs } from "@/lib/homepage-faqs";
-import { getReviews, getReviewsSummary } from "@/lib/reviews";
+import { getReviews } from "@/lib/reviews";
 
 const SITE_URL = "https://flametechplumbing.ca";
 
@@ -31,7 +31,6 @@ export default async function Home() {
   // alone is no longer enough — Google increasingly wants the
   // underlying review data on the same page).
   const dbReviews = await getReviews().catch(() => []);
-  const reviewsSummary = getReviewsSummary();
   const reviewNodes = dbReviews.slice(0, 10).map((r, i) => ({
     "@type": "Review",
     "@id": `${SITE_URL}#review-${r.id ?? i}`,
@@ -146,9 +145,12 @@ export default async function Home() {
                     />
                   </div>
                   <div className="mt-3 flex justify-center">
-                    <ReviewsPill
-                      total={reviewsSummary.total}
-                      average={reviewsSummary.average}
+                    <Image
+                      src="/images/REVIEWS1.png"
+                      alt="5-star customer reviews"
+                      width={791}
+                      height={107}
+                      className="h-12 w-auto object-contain"
                     />
                   </div>
                 </div>
@@ -199,10 +201,12 @@ export default async function Home() {
                   />
                 </div>
                 <div className="mt-5 flex justify-center">
-                  <ReviewsPill
-                    total={reviewsSummary.total}
-                    average={reviewsSummary.average}
-                    size="lg"
+                  <Image
+                    src="/images/REVIEWS1.png"
+                    alt="5-star customer reviews"
+                    width={791}
+                    height={107}
+                    className="h-14 md:h-16 w-auto object-contain"
                   />
                 </div>
               </div>
@@ -752,41 +756,6 @@ const brandTiles: { src: string; label: string; href: string }[] = [
   { src: "/images/graident-tankless-water-heater.png", label: "Tankless", href: "/tankless-water-heaters" },
   { src: "/images/water-softener-calgary.png", label: "Water Softeners", href: "/water-softener" },
 ];
-
-function ReviewsPill({
-  total,
-  average,
-  size = "md",
-}: {
-  total: number;
-  average: number;
-  size?: "md" | "lg";
-}) {
-  const padding =
-    size === "lg" ? "px-5 py-3 gap-3" : "px-4 py-2.5 gap-2.5";
-  const starsSize = size === "lg" ? "text-lg" : "text-base";
-  const ratingSize = size === "lg" ? "text-[15px]" : "text-[13px]";
-  const metaSize = size === "lg" ? "text-[13px]" : "text-[12px]";
-  return (
-    <a
-      href="https://share.google/aOJFMcBNwTcPsAZxK"
-      target="_blank"
-      rel="noopener noreferrer"
-      aria-label={`${average.toFixed(1)} out of 5 across ${total} Google reviews — opens the FlameTech Google Business Profile`}
-      className={`inline-flex items-center ${padding} rounded-full bg-cream-50 text-ink-900 border border-line-light hover:border-emergency transition-colors`}
-    >
-      <span className={`text-primary ${starsSize} tracking-wider`} aria-hidden>
-        ★★★★★
-      </span>
-      <span className={`font-extrabold ${ratingSize}`}>
-        {average.toFixed(1)}
-      </span>
-      <span className={`text-ink-700 font-semibold ${metaSize}`}>
-        · {total} Google reviews
-      </span>
-    </a>
-  );
-}
 
 function Stat({ number, label }: { number: string; label: string }) {
   return (
