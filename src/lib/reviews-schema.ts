@@ -30,6 +30,13 @@ export const reviewSchema = z.object({
 });
 
 export const reviewsFileSchema = z.object({
+  /** Total number of Google reviews the business has — including any
+   *  not imported into this file. Drives the rating badge on the
+   *  homepage and aggregateRating.reviewCount in LocalBusiness JSON-LD.
+   *  Defaults to the count of entries when omitted. */
+  total_reviews: z.number().int().positive().optional(),
+  /** Display rating (e.g. 5.0). Defaults to 5.0. */
+  average_rating: z.number().min(0).max(5).optional(),
   reviews: z.array(reviewSchema),
 });
 

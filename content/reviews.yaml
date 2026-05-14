@@ -2,6 +2,12 @@
 # and the LocalBusiness JSON-LD review nodes. Order in this file does
 # not matter — sort_order controls render position.
 
+# Total Google review count — drives the homepage rating badge and
+# aggregateRating.reviewCount in LocalBusiness JSON-LD. Bump when
+# Google reports more reviews than are imported below.
+total_reviews: 86
+average_rating: 5.0
+
 reviews:
   - author: "Clifford Lawrick"
     initials: "CL"

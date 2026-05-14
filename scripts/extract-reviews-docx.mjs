@@ -349,10 +349,30 @@ function yamlEscape(s) {
   return `"${safe}"`;
 }
 
+// Preserve total_reviews / average_rating if the YAML already has them
+// (those are the Google-reported headlines, not the extracted count).
+let preservedTotal = null;
+let preservedAverage = null;
+try {
+  const existing = await fs.readFile(yamlOut, "utf8");
+  const tm = existing.match(/^total_reviews:\s*(\d+)\s*$/m);
+  if (tm) preservedTotal = Number(tm[1]);
+  const am = existing.match(/^average_rating:\s*([\d.]+)\s*$/m);
+  if (am) preservedAverage = Number(am[1]);
+} catch {
+  /* first run; nothing to preserve */
+}
+
 const lines = [
   "# Customer reviews. Source of truth for the homepage Reviews section",
   "# and the LocalBusiness JSON-LD review nodes. Order in this file does",
   "# not matter — sort_order controls render position.",
+  "",
+  "# Total Google review count — drives the homepage rating badge and",
+  "# aggregateRating.reviewCount in LocalBusiness JSON-LD. Bump when",
+  "# Google reports more reviews than are imported below.",
+  `total_reviews: ${preservedTotal ?? finalReviews.length}`,
+  `average_rating: ${preservedAverage ?? "5.0"}`,
   "",
   "reviews:",
 ];

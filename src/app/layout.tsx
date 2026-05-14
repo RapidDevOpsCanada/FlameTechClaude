@@ -4,6 +4,7 @@ import { GoogleTagManager } from "@next/third-parties/google";
 import "./globals.css";
 import ChatBubble from "@/components/ChatBubble";
 import TelClickTracker from "@/components/TelClickTracker";
+import { getReviewsSummary } from "@/lib/reviews";
 
 export const viewport: Viewport = {
   width: "device-width",
@@ -69,6 +70,7 @@ export default function RootLayout({
   // LocalBusiness nodes below so all three describe the same entity from
   // different schema-typed angles (mirrors the Aspen Mountain Plumbing
   // multi-block pattern that ranks well in Calgary local-pack results).
+  const reviewsSummary = getReviewsSummary();
   const sharedBusinessFields = {
     name: "FlameTech Plumbing & Heating Ltd.",
     alternateName: "FlameTech",
@@ -176,9 +178,9 @@ export default function RootLayout({
     ],
     aggregateRating: {
       "@type": "AggregateRating",
-      ratingValue: "5.0",
+      ratingValue: reviewsSummary.average.toFixed(1),
       bestRating: "5",
-      reviewCount: "30",
+      reviewCount: String(reviewsSummary.total),
     },
   };
 

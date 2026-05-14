@@ -1,10 +1,11 @@
 import Image from "next/image";
-import { getReviews } from "@/lib/reviews";
+import { getReviews, getReviewsSummary } from "@/lib/reviews";
 import Icon from "@/components/Icon";
 
 export default async function ReviewsSection() {
   const all = await getReviews();
   if (all.length === 0) return null;
+  const summary = getReviewsSummary();
   const featured = all.find((r) => r.featured) ?? all[0];
   const rest = all.filter((r) => r.id !== featured.id).slice(0, 4);
 
@@ -21,8 +22,10 @@ export default async function ReviewsSection() {
           <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
             <div className="flex items-center gap-3 rounded-full bg-white border border-line-light px-5 py-3">
               <span className="text-primary text-lg">★★★★★</span>
-              <span className="font-bold">5.0</span>
-              <span className="text-sm text-ink-500">· hundreds of reviews</span>
+              <span className="font-bold">{summary.average.toFixed(1)}</span>
+              <span className="text-sm text-ink-500">
+                · {summary.total} Google reviews
+              </span>
             </div>
             <a
               href="https://www.google.com/search?q=FlameTech+Plumbing+%26+Heating+Calgary+reviews"

@@ -48,6 +48,29 @@ function loadReviewsFile(): ReviewEntry[] {
   return validated.data.reviews;
 }
 
+/** Headline numbers for the rating badge + LocalBusiness JSON-LD. */
+export type ReviewsSummary = {
+  total: number;
+  average: number;
+};
+
+export function getReviewsSummary(): ReviewsSummary {
+  let raw: string;
+  try {
+    raw = fs.readFileSync(REVIEWS_FILE, "utf8");
+  } catch {
+    return { total: 0, average: 5 };
+  }
+  const parsed = yaml.load(raw);
+  const validated = reviewsFileSchema.safeParse(parsed);
+  if (!validated.success) return { total: 0, average: 5 };
+  const data = validated.data;
+  return {
+    total: data.total_reviews ?? data.reviews.length,
+    average: data.average_rating ?? 5,
+  };
+}
+
 export async function getReviews(): Promise<Review[]> {
   const entries = loadReviewsFile();
   const now = new Date().toISOString();
