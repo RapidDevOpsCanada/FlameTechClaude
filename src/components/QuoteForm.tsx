@@ -70,19 +70,13 @@ export default function QuoteForm({
     setStatus("submitting");
 
     // Form submissions go straight to Formspree, which handles spam
-    // filtering + email delivery to the configured inbox. No DNS
-    // changes on the customer's Google Workspace domain needed. The
-    // endpoint URL is set in NEXT_PUBLIC_FORMSPREE_ENDPOINT (Vercel
-    // env vars). If it's not set, surface a clear error instead of
-    // POSTing somewhere unexpected.
-    const endpoint = process.env.NEXT_PUBLIC_FORMSPREE_ENDPOINT;
-    if (!endpoint) {
-      setStatus("error");
-      setErrorMsg(
-        "Form is not configured yet. Please call 587-834-3668 directly.",
-      );
-      return;
-    }
+    // filtering + email delivery to the owner's inbox. No DNS changes
+    // on the customer's Google Workspace domain needed. Defaults to
+    // the production FlameTech Formspree form; override via env var
+    // when running staging deploys or swapping providers.
+    const endpoint =
+      process.env.NEXT_PUBLIC_FORMSPREE_ENDPOINT ||
+      "https://formspree.io/f/meenborw";
 
     try {
       const res = await fetch(endpoint, {
