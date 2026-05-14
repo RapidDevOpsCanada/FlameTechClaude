@@ -1112,9 +1112,19 @@ function InlineReviewBlock({ review }: { review: Review }) {
           </a>
           <div className="text-primary text-lg tracking-wider" aria-hidden>★★★★★</div>
         </div>
-        <p className="font-display text-xl md:text-2xl font-semibold leading-snug tracking-[-0.01em] mb-6">
-          &ldquo;{review.quote}&rdquo;
-        </p>
+        <div className="font-display text-xl md:text-2xl font-semibold leading-snug tracking-[-0.01em] mb-6 space-y-3">
+          {review.quote
+            .split(/\n{2,}/)
+            .map((p) => p.trim())
+            .filter(Boolean)
+            .map((para, i, arr) => (
+              <p key={i}>
+                {i === 0 ? "“" : ""}
+                {para}
+                {i === arr.length - 1 ? "”" : ""}
+              </p>
+            ))}
+        </div>
         <div className="flex items-center gap-3 pt-5 border-t border-line-dark">
           {review.avatar ? (
             // eslint-disable-next-line @next/next/no-img-element

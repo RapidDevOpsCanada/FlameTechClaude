@@ -87,14 +87,28 @@ const docXml = await fs.readFile(
   "utf8",
 );
 
-/** Each paragraph collapses to { text, imageRIds[] }. */
+// Sentinel that survives the /\s+/ collapse below; converted back to a
+// real \n\n once whitespace normalisation is done.
+const BR_TOKEN = "§§BR§§";
+
+/** Each paragraph collapses to { text, imageRIds[] }. <w:br/> inside
+ *  a paragraph is treated as a paragraph break so multi-line quotes
+ *  in the docx round-trip as multi-paragraph quotes downstream. */
 function paragraphsFromDoc(xml) {
   const out = [];
   for (const pMatch of xml.matchAll(/<w:p\b[^>]*>([\s\S]*?)<\/w:p>/g)) {
     const inner = pMatch[1];
-    // Concatenate every <w:t>...</w:t> run to recover the paragraph text.
-    const text = [...inner.matchAll(/<w:t\b[^>]*>([\s\S]*?)<\/w:t>/g)]
-      .map((m) => m[1])
+    // Walk <w:t> text and <w:br/> breaks in document order so soft
+    // returns Google sometimes inserts mid-paragraph become real
+    // paragraph splits in the captured quote.
+    const parts = [];
+    const re = /<w:t\b[^>]*>([\s\S]*?)<\/w:t>|<w:br\s*\/?>/g;
+    let m;
+    while ((m = re.exec(inner)) !== null) {
+      if (m[1] !== undefined) parts.push(m[1]);
+      else parts.push(BR_TOKEN);
+    }
+    const text = parts
       .join("")
       .replace(/&amp;/g, "&")
       .replace(/&lt;/g, "<")
@@ -102,6 +116,8 @@ function paragraphsFromDoc(xml) {
       .replace(/&quot;/g, '"')
       .replace(/&apos;/g, "'")
       .replace(/\s+/g, " ")
+      .replace(new RegExp(`\\s*${BR_TOKEN}\\s*`, "g"), "\n\n")
+      .replace(/\n{3,}/g, "\n\n")
       .trim();
     const imageRIds = [
       ...inner.matchAll(/<a:blip\b[^>]*r:embed="([^"]+)"/g),
@@ -207,7 +223,12 @@ function captureQuote(starIdx, paras, nextAnchorIdx) {
     if (!p.text) continue;
     parts.push(p.text.replace(/\s*View full review\s*$/i, "").trim());
   }
-  return { quote: parts.join(" ").trim(), relativeDate };
+  // Join with double newlines so the originally-distinct paragraphs
+  // round-trip through YAML and render as separate <p> tags. Joining
+  // with a single space (the previous behaviour) produced a wall of
+  // text and even glued sentences together when a paragraph ended in
+  // ".I" with no trailing whitespace.
+  return { quote: parts.join("\n\n").trim(), relativeDate };
 }
 
 const reviews = [];
@@ -345,7 +366,10 @@ function yamlEscape(s) {
   const safe = String(s)
     .replace(/\\/g, "\\\\")
     .replace(/"/g, '\\"')
-    .replace(/\n/g, " ");
+    // Preserve newlines as YAML escape sequences so multi-paragraph
+    // quotes survive a round trip through the file. js-yaml decodes
+    // \n inside double-quoted scalars back into a real newline.
+    .replace(/\n/g, "\\n");
   return `"${safe}"`;
 }
 

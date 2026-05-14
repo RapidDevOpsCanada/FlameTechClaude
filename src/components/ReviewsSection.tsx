@@ -57,9 +57,11 @@ export default async function ReviewsSection() {
                 ★★★★★
               </div>
             </div>
-            <p className="font-display text-2xl md:text-3xl font-semibold tracking-[-0.015em] leading-[1.25] flex-grow">
-              &ldquo;{featured.quote}&rdquo;
-            </p>
+            <Quote
+              text={featured.quote}
+              wrap
+              className="font-display text-2xl md:text-3xl font-semibold tracking-[-0.015em] leading-[1.25] flex-grow space-y-4"
+            />
             <div className="flex items-center gap-4 pt-6 border-t border-line-dark">
               {featured.avatar ? (
                 <Image
@@ -98,9 +100,11 @@ export default async function ReviewsSection() {
                     {r.relative_date}
                   </span>
                 </div>
-                <p className="text-sm text-ink-700 leading-relaxed flex-grow line-clamp-6">
-                  &ldquo;{r.quote}&rdquo;
-                </p>
+                <Quote
+                  text={r.quote}
+                  wrap
+                  className="text-sm text-ink-700 leading-relaxed flex-grow space-y-3"
+                />
                 <div className="flex items-center gap-3 pt-4 border-t border-line-light">
                   {r.avatar ? (
                     <Image
@@ -128,5 +132,38 @@ export default async function ReviewsSection() {
         </div>
       </div>
     </section>
+  );
+}
+
+/**
+ * Render a review quote that may contain multiple paragraphs (split on
+ * \n\n). Each paragraph is its own <p> so prose breathes instead of
+ * becoming a wall of text. With `wrap`, the first paragraph gets a
+ * leading curly quote and the last gets a trailing one.
+ */
+function Quote({
+  text,
+  className,
+  wrap = false,
+}: {
+  text: string;
+  className?: string;
+  wrap?: boolean;
+}) {
+  const paragraphs = text
+    .split(/\n{2,}/)
+    .map((p) => p.trim())
+    .filter(Boolean);
+  if (paragraphs.length === 0) return null;
+  return (
+    <div className={className}>
+      {paragraphs.map((p, i) => (
+        <p key={i}>
+          {wrap && i === 0 ? "“" : ""}
+          {p}
+          {wrap && i === paragraphs.length - 1 ? "”" : ""}
+        </p>
+      ))}
+    </div>
   );
 }
