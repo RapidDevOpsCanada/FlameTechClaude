@@ -58,7 +58,7 @@ export default function StickyCallBar() {
           type="button"
           aria-label="Dismiss"
           onClick={() => setDismissed(true)}
-          className="w-9 h-9 rounded-full flex items-center justify-center text-cream-50/60 hover:text-cream-50"
+          className="w-9 h-9 rounded-full flex items-center justify-center text-cream-50/75 hover:text-cream-50"
         >
           <Icon name="close" className="text-lg" />
         </button>

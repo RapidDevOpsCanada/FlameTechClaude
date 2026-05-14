@@ -6,6 +6,33 @@ import { sendGTMEvent } from "@next/third-parties/google";
 import Icon from "@/components/Icon";
 
 type Status = "idle" | "submitting" | "success" | "error";
+type FieldName = "name" | "phone" | "address" | "issue";
+type FieldErrors = Partial<Record<FieldName, string>>;
+
+const PHONE_RE = /^[+\d][\d\s\-().]{6,}$/;
+
+function validateField(name: FieldName, value: string): string | null {
+  const v = value.trim();
+  if (!v) {
+    return "Required.";
+  }
+  if (name === "phone" && !PHONE_RE.test(v)) {
+    return "Use a valid phone number (digits, spaces, dashes).";
+  }
+  if (name === "issue" && v.length < 10) {
+    return "Tell us a bit more — at least 10 characters.";
+  }
+  return null;
+}
+
+function validateAll(values: Record<FieldName, string>): FieldErrors {
+  const errs: FieldErrors = {};
+  (Object.keys(values) as FieldName[]).forEach((k) => {
+    const e = validateField(k, values[k]);
+    if (e) errs[k] = e;
+  });
+  return errs;
+}
 
 export default function QuoteForm({
   issuePlaceholder,
@@ -15,19 +42,32 @@ export default function QuoteForm({
   const router = useRouter();
   const [status, setStatus] = useState<Status>("idle");
   const [errorMsg, setErrorMsg] = useState("");
+  const [errors, setErrors] = useState<FieldErrors>({});
 
   async function onSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    setStatus("submitting");
     setErrorMsg("");
 
     const form = e.currentTarget;
-    const data = {
+    const data: Record<FieldName, string> = {
       name: (form.elements.namedItem("name") as HTMLInputElement).value,
       phone: (form.elements.namedItem("phone") as HTMLInputElement).value,
       address: (form.elements.namedItem("address") as HTMLInputElement).value,
       issue: (form.elements.namedItem("issue") as HTMLTextAreaElement).value,
     };
+
+    const validationErrors = validateAll(data);
+    if (Object.keys(validationErrors).length > 0) {
+      setErrors(validationErrors);
+      // Move focus to the first invalid field for keyboard / SR users.
+      const firstBad = (Object.keys(validationErrors) as FieldName[])[0];
+      (
+        form.elements.namedItem(firstBad) as HTMLElement | null
+      )?.focus();
+      return;
+    }
+    setErrors({});
+    setStatus("submitting");
 
     try {
       const res = await fetch("/api/lead", {
@@ -47,6 +87,15 @@ export default function QuoteForm({
       setStatus("error");
       setErrorMsg(err instanceof Error ? err.message : "Something went wrong");
     }
+  }
+
+  function clearFieldError(name: FieldName) {
+    if (!errors[name]) return;
+    setErrors((prev) => {
+      const next = { ...prev };
+      delete next[name];
+      return next;
+    });
   }
 
   if (status === "success") {
@@ -71,15 +120,23 @@ export default function QuoteForm({
   }
 
   return (
-    <form onSubmit={onSubmit} className="space-y-5">
+    <form onSubmit={onSubmit} noValidate className="space-y-5">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-        <Field label="Full name" name="name" required />
+        <Field
+          label="Full name"
+          name="name"
+          required
+          error={errors.name}
+          onInput={() => clearFieldError("name")}
+        />
         <Field
           label="Phone number"
           name="phone"
           type="tel"
           required
           placeholder="587-834-3668"
+          error={errors.phone}
+          onInput={() => clearFieldError("phone")}
         />
       </div>
       <Field
@@ -87,6 +144,8 @@ export default function QuoteForm({
         name="address"
         required
         placeholder="Street, City, Postal Code"
+        error={errors.address}
+        onInput={() => clearFieldError("address")}
       />
       <div>
         <label
@@ -94,21 +153,37 @@ export default function QuoteForm({
           className="text-xs font-semibold uppercase tracking-[0.18em] text-ink-500 mb-2 block"
         >
           Describe the issue
+          <span className="text-emergency">*</span>
         </label>
         <textarea
           id="issue"
           name="issue"
           rows={4}
           required
+          aria-invalid={errors.issue ? "true" : undefined}
+          aria-describedby={errors.issue ? "issue-error" : undefined}
+          onInput={() => clearFieldError("issue")}
           placeholder={
             issuePlaceholder ??
             "e.g. Water heater not working, tap leaking, furnace making noise…"
           }
-          className="w-full rounded-xl border border-line-light bg-white px-4 py-3 text-sm text-ink-900 focus:outline-none focus:border-emergency transition-colors"
+          className={`w-full rounded-xl border bg-white px-4 py-3 text-sm text-ink-900 focus:outline-none transition-colors ${
+            errors.issue
+              ? "border-emergency focus:border-emergency"
+              : "border-line-light focus:border-emergency"
+          }`}
         />
+        {errors.issue && (
+          <p
+            id="issue-error"
+            className="mt-2 text-xs font-semibold text-emergency-deep"
+          >
+            {errors.issue}
+          </p>
+        )}
       </div>
       {status === "error" && (
-        <p className="text-xs text-emergency-deep">
+        <p className="text-xs text-emergency-deep" role="alert">
           {errorMsg || "Submission failed. Please call 587-834-3668 directly."}
         </p>
       )}
@@ -138,13 +213,18 @@ function Field({
   type = "text",
   required,
   placeholder,
+  error,
+  onInput,
 }: {
   label: string;
-  name: string;
+  name: FieldName;
   type?: string;
   required?: boolean;
   placeholder?: string;
+  error?: string;
+  onInput?: () => void;
 }) {
+  const errorId = error ? `${name}-error` : undefined;
   return (
     <div>
       <label
@@ -160,8 +240,23 @@ function Field({
         type={type}
         required={required}
         placeholder={placeholder}
-        className="w-full rounded-xl border border-line-light bg-white px-4 py-3 text-sm text-ink-900 focus:outline-none focus:border-emergency transition-colors"
+        aria-invalid={error ? "true" : undefined}
+        aria-describedby={errorId}
+        onInput={onInput}
+        className={`w-full rounded-xl border bg-white px-4 py-3 text-sm text-ink-900 focus:outline-none transition-colors ${
+          error
+            ? "border-emergency focus:border-emergency"
+            : "border-line-light focus:border-emergency"
+        }`}
       />
+      {error && (
+        <p
+          id={errorId}
+          className="mt-2 text-xs font-semibold text-emergency-deep"
+        >
+          {error}
+        </p>
+      )}
     </div>
   );
 }

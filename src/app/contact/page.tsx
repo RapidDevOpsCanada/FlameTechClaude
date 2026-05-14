@@ -206,7 +206,7 @@ export default function ContactPage() {
                   <h3 className="font-display text-xl md:text-2xl font-extrabold tracking-tight leading-tight mb-3">
                     Burst pipe, no heat, sewer backup?
                   </h3>
-                  <p className="text-[14px] text-cream-50/70 leading-relaxed mb-5">
+                  <p className="text-[14px] text-cream-50/80 leading-relaxed mb-5">
                     Skip the form — call directly for priority emergency
                     dispatch. Real person answers, plumber on the way.
                   </p>

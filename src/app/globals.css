@@ -67,7 +67,7 @@ body {
 
   /* Eyebrows: understated, teal accent line — not orange (reserve orange for action). */
   .eyebrow {
-    @apply inline-flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.18em] text-cream-50/70;
+    @apply inline-flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.18em] text-cream-50/80;
   }
   .eyebrow::before {
     content: "";

@@ -390,7 +390,7 @@ export default async function ServicePage({
                   <div className="font-display text-lg md:text-2xl font-extrabold tracking-[-0.02em] text-cream-50 leading-none">
                     {s.number}
                   </div>
-                  <div className="text-[10px] md:text-[11px] uppercase tracking-[0.08em] md:tracking-[0.16em] text-cream-50/60 font-semibold mt-1 break-words leading-snug">
+                  <div className="text-[10px] md:text-[11px] uppercase tracking-[0.08em] md:tracking-[0.16em] text-cream-50/75 font-semibold mt-1 break-words leading-snug">
                     {s.label}
                   </div>
                 </div>
@@ -1056,7 +1056,7 @@ export default async function ServicePage({
                 <h2 className="font-display text-4xl md:text-5xl font-extrabold tracking-[-0.025em] mt-4 mb-6 leading-[1.02]">
                   Get a free {quoteFormLabel(service)} quote.
                 </h2>
-                <p className="text-cream-50/70 leading-relaxed">
+                <p className="text-cream-50/80 leading-relaxed">
                   Tell us what&apos;s going on and our dispatch team will call
                   you back with pricing and availability.
                 </p>
@@ -1092,16 +1092,25 @@ function quoteFormLabel(service: ServicePage): string {
 function InlineReviewBlock({ review }: { review: Review }) {
   return (
     <div className="mb-14 rounded-3xl bg-ink-900 text-cream-50 p-8 md:p-10 relative overflow-hidden">
-      <div className="absolute -top-4 right-6 text-primary/20 text-[140px] font-display font-extrabold leading-none select-none pointer-events-none">
+      <div
+        aria-hidden="true"
+        className="absolute -top-4 right-6 text-primary/20 text-[140px] font-display font-extrabold leading-none select-none pointer-events-none"
+      >
         &ldquo;
       </div>
       <div className="relative">
         <div className="flex items-center justify-between mb-5">
-          <div className="rounded-full bg-cream-50 text-ink-900 text-xs font-bold px-3 py-1.5 flex items-center gap-2">
+          <a
+            href="https://share.google/aOJFMcBNwTcPsAZxK"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Read all FlameTech reviews on Google"
+            className="rounded-full bg-cream-50 text-ink-900 text-xs font-bold px-3 py-1.5 flex items-center gap-2 hover:bg-cream-100 transition-colors"
+          >
             <Icon name="verified" className="text-sm" />
             via Google
-          </div>
-          <div className="text-primary text-lg tracking-wider">★★★★★</div>
+          </a>
+          <div className="text-primary text-lg tracking-wider" aria-hidden>★★★★★</div>
         </div>
         <p className="font-display text-xl md:text-2xl font-semibold leading-snug tracking-[-0.01em] mb-6">
           &ldquo;{review.quote}&rdquo;
@@ -1123,7 +1132,7 @@ function InlineReviewBlock({ review }: { review: Review }) {
           )}
           <div>
             <p className="font-bold text-sm leading-tight">{review.author}</p>
-            <p className="text-xs text-cream-50/60">
+            <p className="text-xs text-cream-50/75">
               {review.area} · {review.relative_date}
             </p>
           </div>

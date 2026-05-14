@@ -121,7 +121,7 @@ export default function AboutPage() {
               <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight leading-[1.05] mt-6 mb-6 max-w-3xl">
                 Calgary&apos;s locally owned plumbing and heating team.
               </h1>
-              <p className="text-lg text-cream-50/70 max-w-2xl leading-relaxed">
+              <p className="text-lg text-cream-50/80 max-w-2xl leading-relaxed">
                 Founded and run by two Red Seal–certified journeymen with 45+
                 years of combined experience. We do honest residential
                 plumbing, heating, AC, and water-systems work — and we treat

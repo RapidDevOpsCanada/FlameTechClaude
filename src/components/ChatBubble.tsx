@@ -315,7 +315,7 @@ export default function ChatBubble() {
                   e.stopPropagation();
                   setLabelDismissed(true);
                 }}
-                className="absolute top-1/2 -translate-y-1/2 right-2 w-5 h-5 rounded-full flex items-center justify-center text-cream-50/60 hover:text-cream-50 hover:bg-ink-700 transition-colors"
+                className="absolute top-1/2 -translate-y-1/2 right-2 w-5 h-5 rounded-full flex items-center justify-center text-cream-50/75 hover:text-cream-50 hover:bg-ink-700 transition-colors"
               >
                 <X className="w-3 h-3" strokeWidth={2.5} />
               </button>

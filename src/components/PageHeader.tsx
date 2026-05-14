@@ -18,7 +18,7 @@ export default function PageHeader({
             {title}
           </h1>
           {description && (
-            <p className="text-lg text-cream-50/70 max-w-2xl leading-relaxed">
+            <p className="text-lg text-cream-50/80 max-w-2xl leading-relaxed">
               {description}
             </p>
           )}

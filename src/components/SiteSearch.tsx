@@ -202,7 +202,7 @@ export default function SiteSearch({
 
                 {/* Hint footer */}
                 {!query.trim() && (
-                  <p className="text-center text-cream-50/60 text-sm mt-4">
+                  <p className="text-center text-cream-50/75 text-sm mt-4">
                     Try{" "}
                     <span className="text-cream-50 font-semibold">boiler</span>,{" "}
                     <span className="text-cream-50 font-semibold">
@@ -233,12 +233,12 @@ export default function SiteSearch({
     ? "w-full rounded-full bg-ink-800 border border-line-dark pl-12 pr-4 py-3 text-[15px] text-cream-50 placeholder:text-cream-50/50 focus:outline-none focus:border-emergency transition-colors"
     : "w-full rounded-full bg-white border border-line-light pl-12 pr-4 py-4 text-base text-ink-900 placeholder:text-ink-500 focus:outline-none focus:border-emergency transition-colors";
   const iconCls = dark
-    ? "absolute left-4 top-1/2 -translate-y-1/2 text-cream-50/60 pointer-events-none"
+    ? "absolute left-4 top-1/2 -translate-y-1/2 text-cream-50/75 pointer-events-none"
     : "absolute left-4 top-1/2 -translate-y-1/2 text-ink-500 pointer-events-none";
   const resultsPanelCls = dark
     ? "mt-3 rounded-2xl bg-ink-800 border border-line-dark overflow-hidden"
     : "mt-3 rounded-2xl bg-white border border-line-light overflow-hidden";
-  const emptyTextCls = dark ? "text-sm text-cream-50/70" : "text-sm text-ink-500";
+  const emptyTextCls = dark ? "text-sm text-cream-50/80" : "text-sm text-ink-500";
   const emptyEmphCls = dark
     ? "text-cream-50 font-semibold"
     : "text-ink-900 font-semibold";
@@ -255,7 +255,7 @@ export default function SiteSearch({
     ? "block font-semibold text-[14px] md:text-[15px] text-cream-50 truncate"
     : "block font-semibold text-[14px] md:text-[15px] text-ink-900 truncate";
   const metaCls = dark
-    ? "block text-[12px] text-cream-50/60 truncate"
+    ? "block text-[12px] text-cream-50/75 truncate"
     : "block text-[12px] text-ink-500 truncate";
   return (
     <div className="relative">

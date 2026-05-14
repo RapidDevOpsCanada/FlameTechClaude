@@ -157,7 +157,7 @@ export default function Footer() {
               <p className="font-bold text-[16px] leading-tight group-hover:text-emergency transition-colors">
                 BBB Accredited Business
               </p>
-              <p className="text-[14px] text-cream-50/70 mt-1">
+              <p className="text-[14px] text-cream-50/80 mt-1">
                 Red Seal · Alberta Licensed · Insured &amp; Bonded
               </p>
             </div>
@@ -187,7 +187,7 @@ export default function Footer() {
                   </span>
                 ),
               )}
-              <span className="inline-flex items-center rounded-full bg-ink-800 border border-line-dark px-3.5 py-1.5 text-[14px] text-cream-50/70">
+              <span className="inline-flex items-center rounded-full bg-ink-800 border border-line-dark px-3.5 py-1.5 text-[14px] text-cream-50/80">
                 + surrounding communities
               </span>
             </div>
@@ -210,7 +210,7 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="FlameTech on Facebook"
-                className="w-8 h-8 rounded-full border border-line-dark flex items-center justify-center text-cream-50/70 hover:text-emergency hover:border-emergency transition-colors"
+                className="w-8 h-8 rounded-full border border-line-dark flex items-center justify-center text-cream-50/80 hover:text-emergency hover:border-emergency transition-colors"
               >
                 <FacebookGlyph className="w-4 h-4" />
               </a>
@@ -219,7 +219,7 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="FlameTech on Instagram"
-                className="w-8 h-8 rounded-full border border-line-dark flex items-center justify-center text-cream-50/70 hover:text-emergency hover:border-emergency transition-colors"
+                className="w-8 h-8 rounded-full border border-line-dark flex items-center justify-center text-cream-50/80 hover:text-emergency hover:border-emergency transition-colors"
               >
                 <InstagramGlyph className="w-4 h-4" />
               </a>

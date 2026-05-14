@@ -47,7 +47,7 @@ export default function ThankYouPage() {
             <p className="font-display text-xl md:text-2xl font-extrabold tracking-tight leading-tight mb-3">
               Burst pipe, no heat, sewer backup?
             </p>
-            <p className="text-cream-50/70 leading-relaxed mb-5 text-[15px]">
+            <p className="text-cream-50/80 leading-relaxed mb-5 text-[15px]">
               Skip the queue — call directly for priority emergency dispatch.
               Real person answers, plumber on the way.
             </p>

@@ -13,7 +13,7 @@ export default function FinalCTA() {
         <h2 className="font-display text-4xl md:text-5xl xl:text-6xl font-extrabold tracking-[-0.03em] mt-6 mb-5 leading-[1.02]">
           Book a Red Seal plumber in Calgary.
         </h2>
-        <p className="text-cream-50/70 max-w-xl mx-auto text-lg leading-relaxed mb-10">
+        <p className="text-cream-50/80 max-w-xl mx-auto text-lg leading-relaxed mb-10">
           Free estimates, upfront pricing, and a satisfaction guarantee — local
           technicians who treat your home like their own.
         </p>

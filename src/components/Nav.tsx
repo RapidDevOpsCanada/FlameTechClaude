@@ -270,6 +270,14 @@ export default function Nav() {
 
   return (
     <nav className="sticky top-0 w-full z-50 bg-ink-900/95 backdrop-blur-lg border-b border-line-dark">
+      {/* Skip-to-content — visually hidden until focused, then jumps
+          a keyboard / screen-reader user past the nav into <main>. */}
+      <a
+        href="#main"
+        className="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-50 focus:rounded-full focus:bg-emergency focus:text-cream-50 focus:px-4 focus:py-2 focus:text-sm focus:font-bold"
+      >
+        Skip to content
+      </a>
       <div className="max-w-7xl mx-auto px-6 md:px-10 flex items-center justify-between gap-6 h-[92px] md:h-[100px]">
         {/* Logo — prominent */}
         <Link
@@ -503,7 +511,7 @@ function MegaPanel({
                               {item.label}
                             </span>
                             {item.desc && (
-                              <span className="block text-[13px] text-cream-50/60 mt-0.5 leading-snug">
+                              <span className="block text-[13px] text-cream-50/75 mt-0.5 leading-snug">
                                 {item.desc}
                               </span>
                             )}
@@ -532,7 +540,7 @@ function MegaPanel({
                 <h5 className="font-display text-xl font-extrabold tracking-tight text-cream-50 mb-2">
                   {mega.promo.title}
                 </h5>
-                <p className="text-sm text-cream-50/70 leading-relaxed mb-5 flex-grow">
+                <p className="text-sm text-cream-50/80 leading-relaxed mb-5 flex-grow">
                   {mega.promo.body}
                 </p>
                 <a

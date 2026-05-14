@@ -12,7 +12,7 @@ import Icon from "@/components/Icon";
 import Image from "next/image";
 import Link from "next/link";
 import { homepageFaqs } from "@/lib/homepage-faqs";
-import { getReviews } from "@/lib/reviews";
+import { getReviews, getReviewsSummary } from "@/lib/reviews";
 
 const SITE_URL = "https://flametechplumbing.ca";
 
@@ -31,6 +31,7 @@ export default async function Home() {
   // alone is no longer enough — Google increasingly wants the
   // underlying review data on the same page).
   const dbReviews = await getReviews().catch(() => []);
+  const reviewsSummary = getReviewsSummary();
   const reviewNodes = dbReviews.slice(0, 10).map((r, i) => ({
     "@type": "Review",
     "@id": `${SITE_URL}#review-${r.id ?? i}`,
@@ -74,6 +75,12 @@ export default async function Home() {
         dateModified,
         breadcrumb: { "@id": `${SITE_URL}#breadcrumb` },
         inLanguage: "en-CA",
+        // Voice-assistant eligibility: read the page h1 + the lead
+        // paragraph in the hero. Same pattern used on article pages.
+        speakable: {
+          "@type": "SpeakableSpecification",
+          cssSelector: ["h1", "#hero-lead"],
+        },
       },
       {
         "@type": "BreadcrumbList",
@@ -106,7 +113,7 @@ export default async function Home() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(homeSchema) }}
       />
       <Nav />
-      <main className="bg-ink-900 text-cream-50">
+      <main id="main" className="bg-ink-900 text-cream-50">
         {/* HERO — tighter vertical rhythm */}
         <section className="relative overflow-hidden">
           <div className="absolute inset-0 dotgrid opacity-60 pointer-events-none"></div>
@@ -139,17 +146,17 @@ export default async function Home() {
                     />
                   </div>
                   <div className="mt-3 flex justify-center">
-                    <Image
-                      src="/images/REVIEWS1.png"
-                      alt="5-star customer reviews"
-                      width={791}
-                      height={107}
-                      className="h-12 w-auto object-contain"
+                    <ReviewsPill
+                      total={reviewsSummary.total}
+                      average={reviewsSummary.average}
                     />
                   </div>
                 </div>
 
-                <p className="text-lg text-cream-50/70 max-w-xl mb-8 leading-relaxed">
+                <p
+                  id="hero-lead"
+                  className="text-lg text-cream-50/80 max-w-xl mb-8 leading-relaxed"
+                >
                   Residential plumbing and heating in Calgary, run by two Red
                   Seal journeypersons with 45+ years of combined experience.
                   Honest estimates, code-compliant installs, and the same
@@ -186,17 +193,16 @@ export default async function Home() {
                     alt="FlameTech service van across Calgary"
                     width={800}
                     height={486}
+                    priority
                     sizes="580px"
                     className="w-full h-auto object-contain"
                   />
                 </div>
                 <div className="mt-5 flex justify-center">
-                  <Image
-                    src="/images/REVIEWS1.png"
-                    alt="5-star customer reviews"
-                    width={791}
-                    height={107}
-                    className="h-14 md:h-16 w-auto object-contain"
+                  <ReviewsPill
+                    total={reviewsSummary.total}
+                    average={reviewsSummary.average}
+                    size="lg"
                   />
                 </div>
               </div>
@@ -226,9 +232,9 @@ export default async function Home() {
                 <div className="rounded-3xl bg-white border border-line-light overflow-hidden h-full flex flex-col soft-shadow">
                   <div className="p-8 md:p-10 pb-6">
                     <span className="eyebrow-light mb-4">Founders</span>
-                    <h3 className="font-display text-3xl md:text-4xl font-extrabold tracking-[-0.02em] mt-4 mb-6 leading-tight">
+                    <h2 className="font-display text-3xl md:text-4xl font-extrabold tracking-[-0.02em] mt-4 mb-6 leading-tight">
                       Red Seal journeypersons. 45+ years combined.
-                    </h3>
+                    </h2>
                   </div>
                   <div className="relative mx-6 md:mx-8 mb-6 rounded-2xl overflow-hidden border border-line-light aspect-[4/5]">
                     <Image
@@ -279,7 +285,10 @@ export default async function Home() {
                 </h2>
 
                 <blockquote className="relative rounded-3xl bg-ink-900 text-cream-50 p-8 md:p-10 mb-8 overflow-hidden soft-shadow">
-                  <span className="absolute -top-4 right-6 text-primary/25 text-[180px] font-display font-extrabold leading-none select-none pointer-events-none">
+                  <span
+                    aria-hidden="true"
+                    className="absolute -top-4 right-6 text-primary/25 text-[180px] font-display font-extrabold leading-none select-none pointer-events-none"
+                  >
                     &ldquo;
                   </span>
                   <div className="relative">
@@ -418,11 +427,11 @@ export default async function Home() {
                       <br />
                       <span className="text-emergency">Call now.</span>
                     </h2>
-                    <p className="text-cream-50/70 mt-4 max-w-md text-base leading-relaxed">
+                    <p className="text-cream-50/80 mt-4 max-w-md text-base leading-relaxed">
                       Fast on-site response across Calgary and surrounding
                       communities when you need it most.
                     </p>
-                    <ul className="mt-6 flex flex-wrap gap-x-5 gap-y-2 text-xs text-cream-50/70 font-semibold">
+                    <ul className="mt-6 flex flex-wrap gap-x-5 gap-y-2 text-xs text-cream-50/80 font-semibold">
                       <li className="flex items-center gap-1.5">
                         <Icon name="check_circle" className="text-emergency text-base" />
                         Burst &amp; frozen pipes
@@ -481,7 +490,7 @@ export default async function Home() {
                   href="#quote"
                   className="inline-flex items-center gap-2 rounded-full bg-ink-900 text-cream-50 font-bold px-6 py-3 text-sm hover:bg-emergency hover:text-cream-50 transition-colors self-start"
                 >
-                  Get a free quote
+                  Free estimate
                   <Icon name="arrow_right_alt" className="text-base" />
                 </a>
               </div>
@@ -611,7 +620,7 @@ export default async function Home() {
                     Serving Calgary and surrounding communities.
                   </h2>
                 </div>
-                <p className="text-cream-50/70 max-w-sm">
+                <p className="text-cream-50/80 max-w-sm">
                   Fast response across Calgary and southern Alberta. If
                   you&apos;re in the grid, we&apos;re on the way.
                 </p>
@@ -673,7 +682,7 @@ export default async function Home() {
                 <h2 className="font-display text-4xl md:text-5xl xl:text-6xl font-extrabold tracking-[-0.025em] mt-4 mb-6 leading-[1.02]">
                   Get a free estimate.
                 </h2>
-                <p className="text-cream-50/70 leading-relaxed mb-8">
+                <p className="text-cream-50/80 leading-relaxed mb-8">
                   Tell us what&apos;s going on and our dispatch team will
                   call you back with pricing and availability. For urgent
                   issues, call directly.
@@ -744,13 +753,48 @@ const brandTiles: { src: string; label: string; href: string }[] = [
   { src: "/images/water-softener-calgary.png", label: "Water Softeners", href: "/water-softener" },
 ];
 
+function ReviewsPill({
+  total,
+  average,
+  size = "md",
+}: {
+  total: number;
+  average: number;
+  size?: "md" | "lg";
+}) {
+  const padding =
+    size === "lg" ? "px-5 py-3 gap-3" : "px-4 py-2.5 gap-2.5";
+  const starsSize = size === "lg" ? "text-lg" : "text-base";
+  const ratingSize = size === "lg" ? "text-[15px]" : "text-[13px]";
+  const metaSize = size === "lg" ? "text-[13px]" : "text-[12px]";
+  return (
+    <a
+      href="https://share.google/aOJFMcBNwTcPsAZxK"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label={`${average.toFixed(1)} out of 5 across ${total} Google reviews — opens the FlameTech Google Business Profile`}
+      className={`inline-flex items-center ${padding} rounded-full bg-cream-50 text-ink-900 border border-line-light hover:border-emergency transition-colors`}
+    >
+      <span className={`text-primary ${starsSize} tracking-wider`} aria-hidden>
+        ★★★★★
+      </span>
+      <span className={`font-extrabold ${ratingSize}`}>
+        {average.toFixed(1)}
+      </span>
+      <span className={`text-ink-700 font-semibold ${metaSize}`}>
+        · {total} Google reviews
+      </span>
+    </a>
+  );
+}
+
 function Stat({ number, label }: { number: string; label: string }) {
   return (
     <div className="min-w-0">
       <div className="font-display text-3xl md:text-5xl font-extrabold tracking-[-0.02em] text-cream-50">
         {number}
       </div>
-      <div className="text-[10px] md:text-xs uppercase tracking-[0.08em] md:tracking-[0.16em] text-cream-50/60 font-semibold mt-2 break-words leading-snug">
+      <div className="text-[10px] md:text-xs uppercase tracking-[0.08em] md:tracking-[0.16em] text-cream-50/75 font-semibold mt-2 break-words leading-snug">
         {label}
       </div>
     </div>
@@ -773,7 +817,7 @@ function InfoRow({
         className={
           emphasize
             ? "font-bold text-lg text-cream-50"
-            : "text-sm text-cream-50/70"
+            : "text-sm text-cream-50/80"
         }
       >
         {text}

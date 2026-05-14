@@ -78,13 +78,13 @@ export default function PortfolioCarousel({
               {heading}
             </h2>
             {intro && (
-              <p className="text-cream-50/70 leading-relaxed mt-4 text-[17px]">
+              <p className="text-cream-50/80 leading-relaxed mt-4 text-[17px]">
                 {intro}
               </p>
             )}
           </div>
           <div className="flex items-center gap-4">
-            <span className="font-display tabular-nums text-sm text-cream-50/60">
+            <span className="font-display tabular-nums text-sm text-cream-50/75">
               {String(active + 1).padStart(2, "0")} /{" "}
               {String(items.length).padStart(2, "0")}
             </span>

@@ -43,11 +43,17 @@ export default async function ReviewsSection() {
           {/* Featured */}
           <div className="col-span-12 lg:col-span-5 rounded-3xl bg-ink-900 text-cream-50 p-10 md:p-12 flex flex-col gap-8 lift">
             <div className="flex items-center justify-between">
-              <div className="rounded-full bg-cream-50 text-ink-900 text-xs font-bold px-3 py-1.5 flex items-center gap-2">
+              <a
+                href="https://share.google/aOJFMcBNwTcPsAZxK"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Read all FlameTech reviews on Google"
+                className="rounded-full bg-cream-50 text-ink-900 text-xs font-bold px-3 py-1.5 flex items-center gap-2 hover:bg-cream-100 transition-colors"
+              >
                 <Icon name="verified" className="text-sm" />
                 via Google
-              </div>
-              <div className="text-primary text-xl tracking-wider">
+              </a>
+              <div className="text-primary text-xl tracking-wider" aria-hidden>
                 ★★★★★
               </div>
             </div>
@@ -70,7 +76,7 @@ export default async function ReviewsSection() {
               )}
               <div>
                 <p className="font-bold">{featured.author}</p>
-                <p className="text-xs text-cream-50/60">
+                <p className="text-xs text-cream-50/75">
                   {featured.area} · {featured.relative_date}
                 </p>
               </div>

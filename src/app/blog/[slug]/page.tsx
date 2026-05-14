@@ -324,14 +324,14 @@ export default async function ArticlePage({
             >
               {article.category}
             </Link>
-            <span className="text-xs font-semibold text-cream-50/60 uppercase tracking-wider">
+            <span className="text-xs font-semibold text-cream-50/75 uppercase tracking-wider">
               {article.read_time} min read
             </span>
           </div>
           <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight leading-[1.05] mb-6">
             {article.title}
           </h1>
-          <p className="text-lg text-cream-50/70 max-w-3xl leading-relaxed mb-10">
+          <p className="text-lg text-cream-50/80 max-w-3xl leading-relaxed mb-10">
             {article.excerpt}
           </p>
           <div className="flex flex-wrap items-center gap-6 pt-6 border-t border-line-dark">
@@ -353,7 +353,7 @@ export default async function ArticlePage({
                   )}
                   <div>
                     <p className="font-bold text-sm">{article.author}</p>
-                    <p className="text-xs text-cream-50/60">
+                    <p className="text-xs text-cream-50/75">
                       {new Date(article.created_at).toLocaleDateString(
                         "en-US",
                         { month: "short", day: "2-digit", year: "numeric" },
