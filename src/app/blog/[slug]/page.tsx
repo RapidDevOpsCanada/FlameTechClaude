@@ -7,10 +7,16 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getArticleBySlug, getAllArticles } from "@/lib/articles";
+import {
+  getArticleBySlug,
+  getAllArticles,
+  getArticlesByCategory,
+} from "@/lib/articles";
+import ArticleCard from "@/components/ArticleCard";
 import { getAuthorBio } from "@/lib/authors";
 import { getFeaturedImageDimensions } from "@/lib/featured-image-dimensions";
 import { getArticleHowTo } from "@/lib/article-how-to";
+import { extractToc } from "@/lib/article-toc";
 import Icon from "@/components/Icon";
 import type { Metadata } from "next";
 
@@ -99,10 +105,24 @@ export default async function ArticlePage({
   }
   if (!article) notFound();
 
+  // Related = same-category posts (excluding current). Fall back to
+  // most-recent across all categories if the category is too thin.
   let related: Awaited<ReturnType<typeof getAllArticles>> = [];
   try {
-    const all = await getAllArticles();
-    related = all.filter((a) => a.slug !== article!.slug).slice(0, 3);
+    const sameCategory = await getArticlesByCategory(article!.category_slug);
+    related = sameCategory.filter((a) => a.slug !== article!.slug).slice(0, 3);
+    if (related.length < 3) {
+      const all = await getAllArticles();
+      const seen = new Set(related.map((r) => r.slug));
+      seen.add(article!.slug);
+      for (const a of all) {
+        if (related.length >= 3) break;
+        if (!seen.has(a.slug)) {
+          related.push(a);
+          seen.add(a.slug);
+        }
+      }
+    }
   } catch {
     related = [];
   }
@@ -115,6 +135,13 @@ export default async function ArticlePage({
   const authorBio = getAuthorBio(article.author);
   const authorAnchor = AUTHOR_ABOUT_ANCHORS[article.author];
   const howTo = getArticleHowTo(article.slug);
+  // Strip the legacy "📖 X min read · Last updated …" lead paragraph
+  // first, then extract the TOC + inject heading IDs into the body.
+  const cleanedBody = article.body.replace(
+    /^\s*<p>\s*📖[^<]*?Last updated[^<]*?<\/p>\s*/i,
+    "",
+  );
+  const { html: bodyHtml, toc } = extractToc(cleanedBody);
   const articleSchema = {
     "@context": "https://schema.org",
     "@graph": [
@@ -346,9 +373,36 @@ export default async function ArticlePage({
 
       <main className="bg-cream-50 text-ink-900 py-20 light-surface">
         <div className="max-w-3xl mx-auto px-6 md:px-10">
+          {toc.length >= 3 && (
+            <nav
+              aria-label="Table of contents"
+              className="mb-10 rounded-2xl bg-white border border-line-light p-6 md:p-7"
+            >
+              <p className="text-[11px] font-bold uppercase tracking-[0.18em] text-primary mb-4">
+                Table of contents
+              </p>
+              <ol className="space-y-2 list-none">
+                {toc.map((entry) => (
+                  <li
+                    key={entry.id}
+                    className={entry.level === 3 ? "ml-5" : ""}
+                  >
+                    <a
+                      href={`#${entry.id}`}
+                      className={`text-[15px] leading-snug text-ink-700 hover:text-emergency-deep transition-colors ${
+                        entry.level === 2 ? "font-semibold" : ""
+                      }`}
+                    >
+                      {entry.text}
+                    </a>
+                  </li>
+                ))}
+              </ol>
+            </nav>
+          )}
           <article
             className="prose-article"
-            dangerouslySetInnerHTML={{ __html: article.body.replace(/^\s*<p>\s*📖[^<]*?Last updated[^<]*?<\/p>\s*/i, "") }}
+            dangerouslySetInnerHTML={{ __html: bodyHtml }}
           />
           <AuthorBioCard authorName={article.author} />
         </div>
@@ -356,8 +410,8 @@ export default async function ArticlePage({
           dangerouslySetInnerHTML={{
             __html: `
               .prose-article p { font-size: 1.1875rem; line-height: 1.8; color: #334155; margin-bottom: 1.6rem; }
-              .prose-article h2 { font-weight: 800; letter-spacing: -0.02em; font-size: 2.125rem; margin: 3rem 0 1.25rem; color: #26262C; line-height: 1.15; }
-              .prose-article h3 { font-weight: 700; letter-spacing: -0.01em; font-size: 1.5rem; margin: 2.4rem 0 1rem; color: #26262C; line-height: 1.25; }
+              .prose-article h2 { font-weight: 800; letter-spacing: -0.02em; font-size: 2.125rem; margin: 3rem 0 1.25rem; color: #26262C; line-height: 1.15; scroll-margin-top: 110px; }
+              .prose-article h3 { font-weight: 700; letter-spacing: -0.01em; font-size: 1.5rem; margin: 2.4rem 0 1rem; color: #26262C; line-height: 1.25; scroll-margin-top: 110px; }
               .prose-article ul { margin: 1.1rem 0 1.6rem; padding-left: 1.4rem; list-style: disc; color: #334155; }
               .prose-article ol { margin: 1.1rem 0 1.6rem; padding-left: 1.6rem; list-style: decimal; color: #334155; }
               .prose-article li { font-size: 1.1875rem; margin-bottom: 0.6rem; line-height: 1.75; }
@@ -398,18 +452,7 @@ export default async function ArticlePage({
             </div>
             <div className="grid grid-cols-12 gap-6">
               {related.map((a) => (
-                <Link
-                  key={a.id}
-                  href={`/blog/${a.slug}`}
-                  className="group col-span-12 md:col-span-4 rounded-2xl bg-white border border-line-light p-7 hover:border-emergency transition-colors"
-                >
-                  <span className="rounded-full bg-emergency/10 text-emergency-deep px-3 py-1 text-xs font-bold uppercase tracking-wider inline-block mb-5">
-                    {a.category}
-                  </span>
-                  <h3 className="text-lg font-extrabold tracking-tight group-hover:text-emergency-deep transition-colors">
-                    {a.title}
-                  </h3>
-                </Link>
+                <ArticleCard key={a.id} article={a} />
               ))}
             </div>
           </div>
