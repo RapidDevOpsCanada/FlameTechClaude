@@ -89,22 +89,25 @@ export default function BeforeAfter({
         tabIndex={0}
         className="relative aspect-[16/10] md:aspect-[16/9] rounded-2xl overflow-hidden border border-line-light bg-cream-50 select-none cursor-ew-resize touch-none focus:outline-none focus:ring-2 focus:ring-emergency"
       >
-        {/* Before — full image underneath */}
+        {/* After — full image underneath (always present, gets revealed
+            as the BEFORE overlay is wiped left-to-right). */}
         <img
-          src={pair.before.src}
-          alt={pair.before.alt}
+          src={pair.after.src}
+          alt={pair.after.alt}
           className="absolute inset-0 w-full h-full object-cover pointer-events-none"
           draggable={false}
         />
 
-        {/* After — clipped from the left edge to the divider position */}
+        {/* Before — clipped from the right edge so it's only visible
+            LEFT of the divider. Matches the corner labels: "Before" left,
+            "After" right. Drag the handle right to wipe before away. */}
         <div
           className="absolute inset-0 overflow-hidden pointer-events-none"
           style={{ clipPath: `inset(0 ${100 - pct}% 0 0)` }}
         >
           <img
-            src={pair.after.src}
-            alt={pair.after.alt}
+            src={pair.before.src}
+            alt={pair.before.alt}
             className="absolute inset-0 w-full h-full object-cover"
             draggable={false}
           />

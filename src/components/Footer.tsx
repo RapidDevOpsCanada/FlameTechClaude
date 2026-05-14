@@ -148,10 +148,10 @@ export default function Footer() {
             <Image
               src="/images/bbb-accredited-business.svg"
               alt="FlameTech Plumbing & Heating Ltd. BBB Accredited Business"
-              width={323}
+              width={240}
               height={122}
               unoptimized
-              className="h-20 w-auto object-contain group-hover:opacity-90 transition-opacity"
+              className="h-24 w-auto object-contain group-hover:opacity-90 transition-opacity"
             />
             <div>
               <p className="font-bold text-[16px] leading-tight group-hover:text-emergency transition-colors">
