@@ -1,3 +1,5 @@
+import { SERVICE_CATEGORIES } from "./service-categories";
+
 export type RichImage = {
   src: string;
   alt: string;
@@ -8203,6 +8205,39 @@ export const services: ServicePage[] = [
     },
   },
 ];
+
+// Drift guard for the client-side mega-menu category map. Nav.tsx
+// imports only src/lib/service-categories.ts (≈2 KB) rather than this
+// file (≈500 KB) so the homepage JS doesn't ship every service page's
+// prose, FAQ entries, and image URLs. The two files must agree on
+// slug → category for the active mega-menu state to highlight
+// correctly. Runs at module load; services.ts is imported by every
+// server-side route, so any drift trips the next build instead of
+// silently breaking the active state.
+{
+  const mapKeys = new Set(Object.keys(SERVICE_CATEGORIES));
+  const dataKeys = new Set(services.map((s) => s.slug));
+  for (const s of services) {
+    const mapped = SERVICE_CATEGORIES[s.slug];
+    if (!mapped) {
+      throw new Error(
+        `service-categories.ts is missing slug "${s.slug}". Add it with category "${s.category}".`,
+      );
+    }
+    if (mapped !== s.category) {
+      throw new Error(
+        `service-categories.ts has "${s.slug}" → "${mapped}" but services.ts has "${s.category}". Update one of them.`,
+      );
+    }
+  }
+  for (const k of mapKeys) {
+    if (!dataKeys.has(k)) {
+      throw new Error(
+        `service-categories.ts has stale slug "${k}" (no matching entry in services.ts). Remove it.`,
+      );
+    }
+  }
+}
 
 export function getService(slug: string): ServicePage | undefined {
   return services.find((s) => s.slug === slug);

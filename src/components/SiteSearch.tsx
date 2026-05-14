@@ -4,13 +4,20 @@ import { useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import Icon from "@/components/Icon";
-import { searchEntries, type SearchEntry } from "@/lib/search-index";
+import { searchEntries, type SearchEntry } from "@/lib/search-fn";
 
 export default function SiteSearch({
+  searchIndex,
   variant = "inline",
   theme = "light",
   placeholder = "Search services, neighbourhoods, articles…",
 }: {
+  /**
+   * Prebuilt search index passed in from the server-side Nav wrapper.
+   * Keeps the source services module out of the client JS bundle —
+   * only the slim SearchEntry array ships, via the RSC payload.
+   */
+  searchIndex: SearchEntry[];
   /**
    * `"inline"` renders a full-width search field in place (used on the
    * 404 page and the mobile nav).
@@ -28,7 +35,7 @@ export default function SiteSearch({
   const [active, setActive] = useState(0);
   const inputRef = useRef<HTMLInputElement>(null);
 
-  const results = query.trim() ? searchEntries(query, 10) : [];
+  const results = query.trim() ? searchEntries(searchIndex, query, 10) : [];
 
   // Focus input + lock body scroll when the compact overlay opens
   useEffect(() => {

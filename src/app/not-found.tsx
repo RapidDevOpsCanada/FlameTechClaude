@@ -4,6 +4,7 @@ import StickyCallBar from "@/components/StickyCallBar";
 import SiteSearch from "@/components/SiteSearch";
 import Icon from "@/components/Icon";
 import Link from "next/link";
+import { buildSearchIndex } from "@/lib/search-index";
 
 const TOP_PICKS: { label: string; href: string; meta: string; icon: string }[] = [
   { label: "Emergency Plumber", href: "/emergency-plumber-calgary", meta: "Burst pipes, leaks, sewer backups", icon: "contact_emergency" },
@@ -15,6 +16,7 @@ const TOP_PICKS: { label: string; href: string; meta: string; icon: string }[] =
 ];
 
 export default function NotFound() {
+  const searchIndex = buildSearchIndex();
   return (
     <>
       <Nav />
@@ -37,7 +39,7 @@ export default function NotFound() {
             us directly — we&apos;re here.
           </p>
 
-          <SiteSearch variant="inline" />
+          <SiteSearch searchIndex={searchIndex} variant="inline" />
 
           <div className="mt-10 flex flex-wrap gap-3">
             <Link
