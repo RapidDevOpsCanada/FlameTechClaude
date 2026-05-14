@@ -151,7 +151,7 @@ export default function Footer() {
               width={323}
               height={122}
               unoptimized
-              className="h-14 w-auto object-contain rounded-md bg-white p-1.5 group-hover:opacity-90 transition-opacity"
+              className="h-20 w-auto object-contain group-hover:opacity-90 transition-opacity"
             />
             <div>
               <p className="font-bold text-[16px] leading-tight group-hover:text-emergency transition-colors">
