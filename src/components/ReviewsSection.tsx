@@ -36,10 +36,10 @@ export default async function ReviewsSection() {
           </div>
         </div>
 
-        <div className="grid grid-cols-12 gap-6">
+        <div className="grid grid-cols-12 gap-8">
           {/* Featured */}
-          <div className="col-span-12 lg:col-span-5 rounded-3xl bg-ink-900 text-cream-50 p-10 md:p-12 flex flex-col lift">
-            <div className="flex items-center justify-between mb-8">
+          <div className="col-span-12 lg:col-span-5 rounded-3xl bg-ink-900 text-cream-50 p-10 md:p-12 flex flex-col gap-8 lift">
+            <div className="flex items-center justify-between">
               <div className="rounded-full bg-cream-50 text-ink-900 text-xs font-bold px-3 py-1.5 flex items-center gap-2">
                 <Icon name="verified" className="text-sm" />
                 via Google
@@ -48,7 +48,7 @@ export default async function ReviewsSection() {
                 ★★★★★
               </div>
             </div>
-            <p className="font-display text-2xl md:text-3xl font-semibold tracking-[-0.015em] leading-[1.25] mb-8 flex-grow">
+            <p className="font-display text-2xl md:text-3xl font-semibold tracking-[-0.015em] leading-[1.25] flex-grow">
               &ldquo;{featured.quote}&rdquo;
             </p>
             <div className="flex items-center gap-4 pt-6 border-t border-line-dark">
@@ -75,13 +75,13 @@ export default async function ReviewsSection() {
           </div>
 
           {/* Grid */}
-          <div className="col-span-12 lg:col-span-7 grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="col-span-12 lg:col-span-7 grid grid-cols-1 md:grid-cols-2 gap-6 auto-rows-fr">
             {rest.map((r) => (
               <div
                 key={r.id}
-                className="rounded-2xl bg-white border border-line-light p-6 flex flex-col lift"
+                className="rounded-2xl bg-white border border-line-light p-6 flex flex-col gap-5 lift"
               >
-                <div className="flex items-center justify-between mb-4">
+                <div className="flex items-center justify-between">
                   <div className="text-primary text-sm tracking-wider">
                     ★★★★★
                   </div>
@@ -89,7 +89,7 @@ export default async function ReviewsSection() {
                     {r.relative_date}
                   </span>
                 </div>
-                <p className="text-sm text-ink-700 leading-relaxed mb-6 flex-grow">
+                <p className="text-sm text-ink-700 leading-relaxed flex-grow line-clamp-6">
                   &ldquo;{r.quote}&rdquo;
                 </p>
                 <div className="flex items-center gap-3 pt-4 border-t border-line-light">
