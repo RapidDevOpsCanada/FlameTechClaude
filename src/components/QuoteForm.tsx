@@ -69,14 +69,39 @@ export default function QuoteForm({
     setErrors({});
     setStatus("submitting");
 
+    // Form submissions go straight to Formspree, which handles spam
+    // filtering + email delivery to the configured inbox. No DNS
+    // changes on the customer's Google Workspace domain needed. The
+    // endpoint URL is set in NEXT_PUBLIC_FORMSPREE_ENDPOINT (Vercel
+    // env vars). If it's not set, surface a clear error instead of
+    // POSTing somewhere unexpected.
+    const endpoint = process.env.NEXT_PUBLIC_FORMSPREE_ENDPOINT;
+    if (!endpoint) {
+      setStatus("error");
+      setErrorMsg(
+        "Form is not configured yet. Please call 587-834-3668 directly.",
+      );
+      return;
+    }
+
     try {
-      const res = await fetch("/api/lead", {
+      const res = await fetch(endpoint, {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
         body: JSON.stringify(data),
       });
-      const body = await res.json();
-      if (!res.ok || !body.ok) throw new Error(body.error || "Request failed");
+      if (!res.ok) {
+        const body = await res
+          .json()
+          .catch(() => ({ errors: [{ message: "Request failed" }] }));
+        const msg = Array.isArray(body.errors)
+          ? body.errors.map((e: { message?: string }) => e.message).join(", ")
+          : "Request failed";
+        throw new Error(msg);
+      }
       sendGTMEvent({ event: "generate_lead", form: "quote", value: 0 });
       setStatus("success");
       form.reset();

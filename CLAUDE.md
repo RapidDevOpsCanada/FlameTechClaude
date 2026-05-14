@@ -6,7 +6,7 @@ Next.js 16 site for FlameTech Plumbing & Heating, a residential plumbing and hea
 
 - Service and neighbourhood pages: `src/lib/services.ts` → rendered by `src/app/[slug]/page.tsx`.
 - Blog articles: one MDX file per article at `content/blog/<slug>.mdx`. Read from the filesystem at build time. Not in the database.
-- Lead form: `src/app/api/lead/route.ts` writes to Postgres `leads` table.
+- Lead form: posts directly to Formspree (no Next.js API route). Spam filtering + email delivery to the owner inbox are handled by Formspree's free tier. Endpoint URL lives in `NEXT_PUBLIC_FORMSPREE_ENDPOINT`.
 - Reviews: one YAML file at `content/reviews.yaml`. Read from the filesystem at build time. Not in the database.
 - Components: `src/components/`. Tailwind 3.
 
@@ -83,5 +83,5 @@ Run `npm run build` locally. If frontmatter is invalid or an internal link point
 - Do not restore `src/app/api/seed/route.ts` under any name. It was a destructive public endpoint and was removed deliberately. Reviews live in `content/reviews.yaml` — read from the filesystem at build time.
 - Do not use `localStorage` or `sessionStorage`. They are not used anywhere in this codebase.
 - Tailwind 3 only. Don't introduce Tailwind 4 or unrelated UI libraries.
-- The lead form notifies the owners via email (Resend) in addition to writing the row to Postgres. Wiring lives in `src/lib/lead-notifications.ts`. The email channel is gated on `RESEND_API_KEY` + `LEAD_NOTIFY_EMAIL` (with optional `LEAD_NOTIFY_FROM`). SMS via Twilio is wired in the same file but is **optional and disabled by default** — only set the four `TWILIO_*` env vars if email-only proves insufficient after launch (missed leads, slow callbacks, emergency-heavy lead mix). Both channels fail open: a missing key or flaky provider must never turn the form response red on a successful DB save.
+- The lead form POSTs directly to Formspree (see `src/components/QuoteForm.tsx`). No `/api/lead` route, no Postgres writes, no Resend/Twilio wiring. Spam protection + email delivery to the owners' inbox are Formspree's job. The endpoint URL is read from `NEXT_PUBLIC_FORMSPREE_ENDPOINT` at runtime; the form surfaces a clear "form not configured" error and a phone fallback if the env var is missing. Changing providers later means swapping the endpoint URL only — the form code is provider-agnostic.
 - The `StickyCallBar` component currently returns `null` — it's a stub. Imports of it from pages should be left in place; the component will be implemented later.
