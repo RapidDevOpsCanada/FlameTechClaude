@@ -11,6 +11,13 @@ export const reviewSchema = z.object({
   area: z.string().min(1),
   rating: z.number().int().min(1).max(5),
   relative_date: z.string().min(1),
+  /** Absolute posting date (YYYY-MM-DD). When present, the runtime
+   *  recomputes the "X time ago" display string from this instead of
+   *  showing the stale `relative_date` field. */
+  posted_at: z
+    .string()
+    .regex(/^\d{4}-\d{2}-\d{2}$/, "expected YYYY-MM-DD")
+    .optional(),
   quote: z.string().min(1),
   featured: z.boolean().default(false),
   sort_order: z.number().int().nonnegative().default(0),

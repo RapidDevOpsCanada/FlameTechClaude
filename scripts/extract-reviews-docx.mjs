@@ -20,6 +20,53 @@ const docxRoot = "/tmp/ft-reviews"; // already unzipped
 const avatarOutDir = path.join(repoRoot, "public", "images", "reviews");
 const yamlOut = path.join(repoRoot, "content", "reviews.yaml");
 
+// The Google export's relative dates ("5 days ago", "10 weeks ago"…)
+// are anchored to the day the document was generated. Used to convert
+// each phrase to an absolute posted_at YYYY-MM-DD so the displayed
+// "X time ago" string can be re-derived at render time and stay
+// correct as months pass. Bump this whenever you re-export.
+const EXPORT_DATE_ISO = "2026-05-13";
+
+const MONTHS = {
+  jan: 0, feb: 1, mar: 2, apr: 3, may: 4, jun: 5,
+  jul: 6, aug: 7, sep: 8, oct: 9, nov: 10, dec: 11,
+};
+
+function relativeToPostedAt(phrase, baselineIso) {
+  if (!phrase) return null;
+  const raw = phrase.trim();
+  const p = raw.toLowerCase();
+  const base = new Date(`${baselineIso}T00:00:00Z`);
+  function shift(days) {
+    const d = new Date(base.getTime() - days * 86_400_000);
+    return d.toISOString().slice(0, 10);
+  }
+  if (p === "yesterday") return shift(1);
+  if (p === "today" || p === "just now" || /^a few seconds ago$/.test(p)) {
+    return shift(0);
+  }
+  if (/^an? hour ago$|^\d+ hours? ago$/.test(p)) return shift(0);
+  if (/^an? day ago$/.test(p)) return shift(1);
+  let m;
+  if ((m = /^a week ago$/.exec(p))) return shift(7);
+  if ((m = /^a month ago$/.exec(p))) return shift(30);
+  if ((m = /^a year ago$/.exec(p))) return shift(365);
+  if ((m = /^(\d+)\s+days?\s+ago$/.exec(p))) return shift(Number(m[1]));
+  if ((m = /^(\d+)\s+weeks?\s+ago$/.exec(p))) return shift(Number(m[1]) * 7);
+  if ((m = /^(\d+)\s+months?\s+ago$/.exec(p))) return shift(Number(m[1]) * 30);
+  if ((m = /^(\d+)\s+years?\s+ago$/.exec(p))) return shift(Number(m[1]) * 365);
+  // Absolute "May 12, 2025" or "Apr 23, 2025" — Google switches from
+  // relative to absolute once a review is older than ~1 year.
+  if ((m = /^([a-z]{3,})\s+(\d{1,2}),?\s+(\d{4})$/i.exec(raw))) {
+    const mon = MONTHS[m[1].slice(0, 3).toLowerCase()];
+    if (mon !== undefined) {
+      const day = String(Number(m[2])).padStart(2, "0");
+      return `${m[3]}-${String(mon + 1).padStart(2, "0")}-${day}`;
+    }
+  }
+  return null;
+}
+
 // --- 1. Parse the .rels file → rId map ----------------------------
 
 const relsXml = await fs.readFile(
@@ -280,6 +327,7 @@ for (let i = 0; i < reviews.length; i++) {
     area: "Calgary", // not in the doc; site-level default
     rating: r.rating,
     relative_date: r.relativeDate,
+    posted_at: relativeToPostedAt(r.relativeDate, EXPORT_DATE_ISO),
     quote: r.quote,
     featured: i === 0, // first one in the doc → featured
     sort_order: i + 1,
@@ -314,6 +362,7 @@ for (const r of finalReviews) {
   lines.push(`    area: ${yamlEscape(r.area)}`);
   lines.push(`    rating: ${r.rating}`);
   lines.push(`    relative_date: ${yamlEscape(r.relative_date)}`);
+  if (r.posted_at) lines.push(`    posted_at: ${yamlEscape(r.posted_at)}`);
   lines.push(`    quote: ${yamlEscape(r.quote)}`);
   lines.push(`    featured: ${r.featured ? "true" : "false"}`);
   lines.push(`    sort_order: ${r.sort_order}`);

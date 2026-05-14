@@ -106,6 +106,11 @@ const DEFAULT_TIMELINE: NonNullable<ServicePage["timeline"]>["steps"] = [
   },
 ];
 
+// Daily ISR so the inline review's relative_date keeps drifting forward
+// between deploys ("yesterday" doesn't stay "yesterday" forever). Page
+// content is otherwise static, so cache-hit cost is unchanged.
+export const revalidate = 86400;
+
 export async function generateStaticParams() {
   return services.map((s) => ({ slug: s.slug }));
 }

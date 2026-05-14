@@ -3,6 +3,7 @@ import fs from "node:fs";
 import path from "node:path";
 import yaml from "js-yaml";
 import { reviewsFileSchema, type ReviewEntry } from "@/lib/reviews-schema";
+import { relativeDateFromIso } from "@/lib/relative-date";
 
 /**
  * Filesystem-backed reviews. Source of truth: content/reviews.yaml,
@@ -57,13 +58,19 @@ export async function getReviews(): Promise<Review[]> {
       initials: r.initials,
       area: r.area,
       rating: r.rating,
-      relative_date: r.relative_date,
+      // Prefer the live-computed phrase when posted_at is set so the
+      // displayed age stays correct as time passes; fall back to the
+      // YAML's static relative_date for any entry without posted_at.
+      relative_date:
+        (r.posted_at && relativeDateFromIso(r.posted_at)) ?? r.relative_date,
       quote: r.quote,
       featured: r.featured,
       sort_order: r.sort_order,
       avatar: r.avatar ?? null,
       tags: r.tags,
-      created_at: now,
+      created_at: r.posted_at
+        ? new Date(`${r.posted_at}T00:00:00Z`).toISOString()
+        : now,
     }))
     .sort((a, b) => a.sort_order - b.sort_order);
 }
