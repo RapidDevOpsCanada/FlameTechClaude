@@ -42,6 +42,45 @@ const nextConfig = {
         destination: "/evergreen-plumbers-calgary",
         permanent: true,
       },
+      // WP appended -2 to this blog slug; new build uses the canonical
+      // slug. Inbound links from the WP version still resolve.
+      {
+        source: "/blog/furnace-fuse-keeps-blowing-2",
+        destination: "/blog/furnace-fuse-keeps-blowing",
+        permanent: true,
+      },
+      // WP used singular /category/ in addition to the plural we
+      // already redirect. Cover both.
+      {
+        source: "/category/:slug",
+        destination: "/blog/categories/:slug",
+        permanent: true,
+      },
+      // WP author archive pages — collapse to /about so any bookmarked
+      // /author/shaun-kristoff links land somewhere meaningful instead
+      // of 404'ing.
+      {
+        source: "/author/:slug",
+        destination: "/about",
+        permanent: true,
+      },
+      // Defensive: bot probing of WP admin / login / content surfaces.
+      // Send them all home so they stop showing up in 404 logs.
+      {
+        source: "/wp-admin/:path*",
+        destination: "/",
+        permanent: true,
+      },
+      {
+        source: "/wp-login.php",
+        destination: "/",
+        permanent: true,
+      },
+      {
+        source: "/wp-content/:path*",
+        destination: "/",
+        permanent: true,
+      },
     ];
   },
 };
