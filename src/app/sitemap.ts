@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { services, type ServicePage } from "@/lib/services";
 import { getAllArticles, getCategories } from "@/lib/articles";
+import { getAllTags, tagSlug } from "@/lib/article-tags";
 
 const SITE_URL = "https://flametechplumbing.ca";
 
@@ -86,5 +87,20 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     categoryUrls = [];
   }
 
-  return [...staticUrls, ...serviceUrls, ...articleUrls, ...categoryUrls];
+  // Tag-archive pages — derived from the static tag map (no DB query
+  // needed; tags is also a fixed taxonomy curated in lib/article-tags).
+  const tagUrls: MetadataRoute.Sitemap = getAllTags().map((t) => ({
+    url: `${SITE_URL}/blog/tags/${tagSlug(t)}`,
+    lastModified: now,
+    changeFrequency: "weekly" as const,
+    priority: 0.5,
+  }));
+
+  return [
+    ...staticUrls,
+    ...serviceUrls,
+    ...articleUrls,
+    ...categoryUrls,
+    ...tagUrls,
+  ];
 }

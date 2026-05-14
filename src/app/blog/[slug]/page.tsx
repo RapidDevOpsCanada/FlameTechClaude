@@ -17,6 +17,7 @@ import { getAuthorBio } from "@/lib/authors";
 import { getFeaturedImageDimensions } from "@/lib/featured-image-dimensions";
 import { getArticleHowTo } from "@/lib/article-how-to";
 import { extractToc } from "@/lib/article-toc";
+import { tagSlug } from "@/lib/article-tags";
 import Icon from "@/components/Icon";
 import type { Metadata } from "next";
 
@@ -79,6 +80,9 @@ export async function generateMetadata({
       ).toISOString(),
       authors: [article.author],
       section: article.category,
+      ...(article.tags && article.tags.length > 0
+        ? { tags: article.tags }
+        : {}),
       ...(ogImages ? { images: ogImages } : {}),
     },
     twitter: {
@@ -162,6 +166,9 @@ export default async function ArticlePage({
         url,
         mainEntityOfPage: { "@id": `${url}#webpage` },
         articleSection: article.category,
+        ...(article.tags && article.tags.length > 0
+          ? { keywords: article.tags.join(", ") }
+          : {}),
         // Speakable spec — points voice assistants at the article lead
         // (first paragraph) so the page is eligible for voice answers.
         speakable: {
@@ -404,6 +411,24 @@ export default async function ArticlePage({
             className="prose-article"
             dangerouslySetInnerHTML={{ __html: bodyHtml }}
           />
+          {article.tags && article.tags.length > 0 && (
+            <div className="mt-12 pt-8 border-t border-line-light">
+              <p className="text-[11px] font-bold uppercase tracking-[0.18em] text-primary mb-4">
+                Filed under
+              </p>
+              <div className="flex flex-wrap gap-2">
+                {article.tags.map((t) => (
+                  <Link
+                    key={t}
+                    href={`/blog/tags/${tagSlug(t)}`}
+                    className="rounded-full bg-white border border-line-light px-3.5 py-1.5 text-[12px] font-semibold text-ink-700 hover:border-emergency hover:text-emergency-deep transition-colors"
+                  >
+                    {t}
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
           <AuthorBioCard authorName={article.author} />
         </div>
         <style

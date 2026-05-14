@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { sql } from "@/lib/db";
+import { articleTags } from "@/lib/article-tags";
 
 export const dynamic = "force-dynamic";
 
@@ -2250,6 +2251,7 @@ async function runSeed() {
       read_time INTEGER NOT NULL DEFAULT 5,
       share_count INTEGER NOT NULL DEFAULT 0,
       featured_image TEXT,
+      tags TEXT[] NOT NULL DEFAULT '{}',
       created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
       updated_at TIMESTAMPTZ
     )
@@ -2281,14 +2283,16 @@ async function runSeed() {
   for (const a of articles) {
     // Default updated_at to published_at when not explicitly bumped.
     const updatedAt = a.updated_at ?? a.published_at ?? null;
+    const tags = articleTags[a.slug] ?? [];
     await sql`
       INSERT INTO articles
         (slug, title, excerpt, body, category, category_slug, author,
-         read_time, share_count, featured_image, created_at, updated_at)
+         read_time, share_count, featured_image, tags, created_at,
+         updated_at)
       VALUES
         (${a.slug}, ${a.title}, ${a.excerpt}, ${a.body}, ${a.category},
          ${a.category_slug}, ${a.author}, ${a.read_time}, ${a.share_count},
-         ${a.featured_image ?? null},
+         ${a.featured_image ?? null}, ${tags},
          COALESCE(${a.published_at ?? null}::timestamptz, NOW()),
          ${updatedAt}::timestamptz)
     `;

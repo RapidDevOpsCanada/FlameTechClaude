@@ -3,8 +3,8 @@ import { sql, type Article } from "@/lib/db";
 export async function getAllArticles(): Promise<Article[]> {
   const rows = await sql`
     SELECT id, slug, title, excerpt, body, category, category_slug,
-           author, read_time, share_count, featured_image, created_at,
-           updated_at
+           author, read_time, share_count, featured_image, tags,
+           created_at, updated_at
     FROM articles
     ORDER BY created_at DESC
   `;
@@ -16,8 +16,8 @@ export async function getArticlesByCategory(
 ): Promise<Article[]> {
   const rows = await sql`
     SELECT id, slug, title, excerpt, body, category, category_slug,
-           author, read_time, share_count, featured_image, created_at,
-           updated_at
+           author, read_time, share_count, featured_image, tags,
+           created_at, updated_at
     FROM articles
     WHERE category_slug = ${categorySlug}
     ORDER BY created_at DESC
@@ -28,8 +28,8 @@ export async function getArticlesByCategory(
 export async function getArticleBySlug(slug: string): Promise<Article | null> {
   const rows = await sql`
     SELECT id, slug, title, excerpt, body, category, category_slug,
-           author, read_time, share_count, featured_image, created_at,
-           updated_at
+           author, read_time, share_count, featured_image, tags,
+           created_at, updated_at
     FROM articles
     WHERE slug = ${slug}
     LIMIT 1
@@ -46,4 +46,20 @@ export async function getCategories(): Promise<
     ORDER BY category
   `;
   return rows as { name: string; slug: string }[];
+}
+
+/**
+ * Articles tagged with the given display tag (case-sensitive match
+ * against the tags TEXT[] column).
+ */
+export async function getArticlesByTag(displayTag: string): Promise<Article[]> {
+  const rows = await sql`
+    SELECT id, slug, title, excerpt, body, category, category_slug,
+           author, read_time, share_count, featured_image, tags,
+           created_at, updated_at
+    FROM articles
+    WHERE ${displayTag} = ANY(tags)
+    ORDER BY created_at DESC
+  `;
+  return rows as Article[];
 }
