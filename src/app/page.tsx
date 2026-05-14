@@ -16,10 +16,12 @@ import { getReviews } from "@/lib/reviews";
 
 const SITE_URL = "https://flametechplumbing.ca";
 
-// Manually-curated freshness signal for the homepage WebPage schema.
-// Bump when the homepage content materially changes — auto-stamping
-// every build is a weaker signal to Google.
-const HOMEPAGE_DATE_MODIFIED = "2026-05-08T00:00:00-06:00";
+// Manually-curated baseline for the homepage WebPage schema's dateModified.
+// Bump whenever the homepage prose itself materially changes. The
+// effective dateModified shipped to Google is max(this, newest review's
+// posted_at) so a fresh Google review naturally bumps the page's
+// freshness signal without a code change.
+const HOMEPAGE_CONTENT_DATE = "2026-05-13";
 
 export const revalidate = 604800;
 
@@ -43,6 +45,18 @@ export default async function Home() {
     itemReviewed: { "@id": `${SITE_URL}#business` },
   }));
 
+  // Effective freshness = max(content baseline, newest review date).
+  // Newer reviews keep the homepage's dateModified moving without a
+  // manual bump.
+  const newestReview = dbReviews
+    .map((r) => new Date(r.created_at).toISOString().slice(0, 10))
+    .sort()
+    .at(-1);
+  const dateModified =
+    newestReview && newestReview > HOMEPAGE_CONTENT_DATE
+      ? newestReview
+      : HOMEPAGE_CONTENT_DATE;
+
   const homeSchema = {
     "@context": "https://schema.org",
     "@graph": [
@@ -57,7 +71,7 @@ export default async function Home() {
           "@type": "ImageObject",
           url: `${SITE_URL}/images/FTVAN.jpg`,
         },
-        dateModified: HOMEPAGE_DATE_MODIFIED,
+        dateModified,
         breadcrumb: { "@id": `${SITE_URL}#breadcrumb` },
         inLanguage: "en-CA",
       },
@@ -136,15 +150,15 @@ export default async function Home() {
                 </div>
 
                 <p className="text-lg text-cream-50/70 max-w-xl mb-8 leading-relaxed">
-                  At FlameTech, we pride ourselves on delivering top-notch
-                  plumbing and heating services tailored to meet the unique
-                  needs of our residential plumbing &amp; heating clients in
-                  Calgary and the surrounding areas.
+                  Residential plumbing and heating in Calgary, run by two Red
+                  Seal journeypersons with 45+ years of combined experience.
+                  Honest estimates, code-compliant installs, and the same
+                  person on the phone as the one doing the work.
                 </p>
 
                 <div className="flex flex-wrap gap-4 mb-5">
                   <a
-                    href="tel:5878343668"
+                    href="tel:+15878343668"
                     className="cta-animated-border inline-flex items-center gap-2 rounded-full bg-emergency text-cream-50 font-extrabold uppercase tracking-tight px-7 py-4 text-[14px] hover:bg-emergency-deep transition-colors"
                   >
                     <Icon name="call" className="text-lg" />
@@ -270,14 +284,14 @@ export default async function Home() {
                   </span>
                   <div className="relative">
                     <p className="font-display text-xl md:text-2xl font-semibold leading-snug tracking-[-0.015em] mb-4">
-                      When you need reliable and professional Calgary
-                      plumbers, look no further than FlameTech Plumbing &amp;
-                      Heating.
+                      Calgary plumbers who answer the phone, show up on time,
+                      and price the job before they pick up a tool.
                     </p>
                     <p className="text-cream-50/80 leading-relaxed mb-3">
-                      We are your local experts, dedicated to providing
-                      top-notch plumbing services throughout Calgary and the
-                      surrounding areas.
+                      Residential plumbing across Calgary and surrounding
+                      communities — bathroom and shower retrofits, PolyB
+                      replacements, drain cleaning, hot water tanks, emergency
+                      leaks.
                     </p>
                     <p className="text-cream-50/80 leading-relaxed mb-6">
                       From routine maintenance to emergency repairs, our team
@@ -426,7 +440,7 @@ export default async function Home() {
 
                   {/* RIGHT — tap-to-call block */}
                   <a
-                    href="tel:5878343668"
+                    href="tel:+15878343668"
                     className="relative col-span-12 md:col-span-5 bg-gradient-to-br from-emergency to-emergency-deep text-cream-50 p-8 md:p-12 flex flex-col justify-center group overflow-hidden"
                   >
                     <div className="absolute -right-12 -top-12 w-48 h-48 rounded-full bg-cream-50/10 blur-2xl pointer-events-none" />
@@ -499,7 +513,7 @@ export default async function Home() {
                       repairs.
                     </p>
                     <a
-                      href="tel:5878343668"
+                      href="tel:+15878343668"
                       className="inline-flex items-center gap-2 rounded-full bg-emergency text-cream-50 font-extrabold uppercase tracking-tight px-5 py-3 text-[13px] hover:bg-emergency-deep transition-colors"
                     >
                       Book a free estimate

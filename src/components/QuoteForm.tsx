@@ -61,7 +61,7 @@ export default function QuoteForm({
           emergencies, please call directly.
         </p>
         <a
-          href="tel:5878343668"
+          href="tel:+15878343668"
           className="inline-block rounded-full bg-emergency text-ink-900 font-bold px-8 py-3 text-sm hover:bg-emergency-deep hover:text-white transition-colors"
         >
           Call 587-834-3668 now
@@ -122,7 +122,7 @@ export default function QuoteForm({
         </button>
         <p className="text-xs text-ink-500">
           Or call{" "}
-          <a href="tel:5878343668" className="text-emergency font-bold">
+          <a href="tel:+15878343668" className="text-emergency font-bold">
             587-834-3668
           </a>{" "}
           for immediate service

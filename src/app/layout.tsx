@@ -89,7 +89,7 @@ export default function RootLayout({
       "Financing",
       "E-Transfer",
     ],
-    slogan: "Calgary's most trusted plumbers.",
+    slogan: "Red Seal journeyperson plumbers serving Calgary homes.",
     address: {
       "@type": "PostalAddress",
       streetAddress: "Woodbine Blvd",

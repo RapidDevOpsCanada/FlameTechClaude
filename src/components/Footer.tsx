@@ -100,7 +100,7 @@ export default function Footer() {
             water-systems experts. Licensed, insured, bonded.
           </p>
           <a
-            href="tel:5878343668"
+            href="tel:+15878343668"
             className="inline-flex items-center gap-2 text-lg font-extrabold text-emergency hover:text-cream-50 transition-colors"
           >
             <Icon name="call" className="text-xl" />

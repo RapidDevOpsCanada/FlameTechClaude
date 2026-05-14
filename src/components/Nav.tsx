@@ -106,7 +106,7 @@ const menu: NavItem[] = [
         title: "Book a free plumbing estimate",
         body: "Upfront pricing, no surprises.",
         cta: "Call 587-834-3668",
-        href: "tel:5878343668",
+        href: "tel:+15878343668",
       },
     },
   },
@@ -335,7 +335,7 @@ export default function Nav() {
         <div className="hidden md:flex items-center gap-4 shrink-0">
           <SiteSearch variant="compact" />
           <a
-            href="tel:5878343668"
+            href="tel:+15878343668"
             className="hidden xl:flex items-center gap-2 text-[19px] font-extrabold text-cream-50 hover:text-emergency transition-colors"
           >
             <Icon name="call" className="text-xl text-emergency" />
@@ -369,7 +369,7 @@ export default function Nav() {
       <div className="md:hidden border-t border-line-dark bg-ink-900">
         <div className="max-w-7xl mx-auto px-4 py-2.5 flex items-center gap-2.5">
           <a
-            href="tel:5878343668"
+            href="tel:+15878343668"
             className="flex-1 min-w-0 inline-flex items-center justify-center gap-1.5 rounded-full bg-emergency text-cream-50 font-extrabold text-[12px] uppercase tracking-tight px-3 py-2.5 whitespace-nowrap hover:bg-emergency-deep transition-colors"
           >
             <Icon name="call" className="text-sm" />
@@ -411,7 +411,7 @@ export default function Nav() {
             </Link>
             <div className="pt-4 mt-4 border-t border-line-dark flex flex-col gap-3">
               <a
-                href="tel:5878343668"
+                href="tel:+15878343668"
                 className="inline-flex items-center justify-center gap-2 rounded-full border border-line-dark text-cream-50 font-semibold py-3 text-sm"
               >
                 <Icon name="call" className="text-base text-emergency" />

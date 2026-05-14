@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { sql } from "@/lib/db";
+import { notifyLead } from "@/lib/lead-notifications";
 
 export const dynamic = "force-dynamic";
 
@@ -48,6 +49,11 @@ export async function POST(req: Request) {
       INSERT INTO leads (name, phone, address, issue)
       VALUES (${name}, ${phone}, ${address}, ${issue})
     `;
+
+    // Fire owner email + SMS in the background. Both gated on env
+    // vars and fail open — a flaky provider must never turn the
+    // form response red on a successful save.
+    await notifyLead({ name, phone, address, issue });
 
     return NextResponse.json({ ok: true });
   } catch (err) {

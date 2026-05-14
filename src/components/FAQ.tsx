@@ -21,7 +21,7 @@ export default function FAQ() {
             Quick answers to what Calgary homeowners ask us most. Don&apos;t see
             your question? Call us at{" "}
             <a
-              href="tel:5878343668"
+              href="tel:+15878343668"
               className="text-emergency-deep font-bold"
             >
               587-834-3668

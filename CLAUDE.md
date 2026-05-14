@@ -83,5 +83,5 @@ Run `npm run build` locally. If frontmatter is invalid or an internal link point
 - Do not restore `src/app/api/seed/route.ts` under any name. It was a destructive public endpoint and was removed deliberately. Reviews live in `content/reviews.yaml` — read from the filesystem at build time.
 - Do not use `localStorage` or `sessionStorage`. They are not used anywhere in this codebase.
 - Tailwind 3 only. Don't introduce Tailwind 4 or unrelated UI libraries.
-- The lead form does not currently send an email or SMS notification. Leads land in Postgres only. If you touch `api/lead/route.ts`, do not regress this — and if you can wire a notification, that's wanted.
+- The lead form notifies the owners via Resend (email) and Twilio (SMS) in addition to writing the row to Postgres. Wiring lives in `src/lib/lead-notifications.ts`. Both channels gate on env vars (`RESEND_API_KEY` + `LEAD_NOTIFY_EMAIL`; `TWILIO_ACCOUNT_SID` + `TWILIO_AUTH_TOKEN` + `TWILIO_FROM` + `TWILIO_TO`) and fail open — a missing key or flaky provider must never turn the form response red on a successful DB save.
 - The `StickyCallBar` component currently returns `null` — it's a stub. Imports of it from pages should be left in place; the component will be implemented later.

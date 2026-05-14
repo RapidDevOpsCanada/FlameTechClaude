@@ -11,7 +11,7 @@ export default function FinalCTA() {
           Ready when you are
         </span>
         <h2 className="font-display text-4xl md:text-5xl xl:text-6xl font-extrabold tracking-[-0.03em] mt-6 mb-5 leading-[1.02]">
-          Book Calgary&apos;s most trusted plumbers.
+          Book a Red Seal plumber in Calgary.
         </h2>
         <p className="text-cream-50/70 max-w-xl mx-auto text-lg leading-relaxed mb-10">
           Free estimates, upfront pricing, and a satisfaction guarantee — local
@@ -19,7 +19,7 @@ export default function FinalCTA() {
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a
-            href="tel:5878343668"
+            href="tel:+15878343668"
             className="cta-animated-border inline-flex items-center gap-2 rounded-full bg-emergency text-ink-900 font-bold px-8 py-4 text-sm hover:bg-emergency-deep hover:text-white transition-colors"
           >
             <Icon name="call" className="text-base" />
