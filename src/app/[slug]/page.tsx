@@ -1102,9 +1102,20 @@ function InlineReviewBlock({ review }: { review: Review }) {
           &ldquo;{review.quote}&rdquo;
         </p>
         <div className="flex items-center gap-3 pt-5 border-t border-line-dark">
-          <div className="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center font-bold text-primary text-sm">
-            {review.initials}
-          </div>
+          {review.avatar ? (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img
+              src={review.avatar}
+              alt=""
+              width={40}
+              height={40}
+              className="w-10 h-10 rounded-full object-cover border border-line-dark shrink-0"
+            />
+          ) : (
+            <div className="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center font-bold text-primary text-sm shrink-0">
+              {review.initials}
+            </div>
+          )}
           <div>
             <p className="font-bold text-sm leading-tight">{review.author}</p>
             <p className="text-xs text-cream-50/60">
@@ -1121,11 +1132,13 @@ function InlineReviewBlock({ review }: { review: Review }) {
  * Pick an inline review relevant to the service.
  *
  * Priority order:
- *   1. Reviews that mention the *specific* service topic (e.g. furnace
- *      review on /furnaces, boiler review on /boiler-service-calgary)
- *   2. Reviews categorized to the same broad category as the service
- *   3. Generic reviews (no topic keywords)
- *   4. Whatever's left
+ *   1. Reviews with an explicit tag matching this service (e.g. a
+ *      "Boilers"-tagged review on /boiler-repair-calgary). Curated
+ *      in content/reviews.yaml so it's the most trustworthy signal.
+ *   2. Reviews that mention the *specific* service topic in the quote
+ *      text (keyword fallback for older / untagged data).
+ *   3. Reviews categorized to the same broad category as the service.
+ *   4. Anything in the pool.
  *
  * This avoids landing a boiler testimonial on a furnace page just
  * because they're both "Heating".
@@ -1142,14 +1155,23 @@ function pickInlineReviewFromList(
   const hashIdx = (size: number) =>
     [...service.slug].reduce((a, c) => a + c.charCodeAt(0), 0) % size;
 
-  // 1. Exact topic match
+  // 1. Curated tag match — strongest signal
+  const wantTags = expectedReviewTags(service.slug);
+  if (wantTags.length > 0) {
+    const tagged = pool.filter((r) =>
+      r.tags.some((t) => wantTags.includes(t)),
+    );
+    if (tagged.length) return tagged[hashIdx(tagged.length)];
+  }
+
+  // 2. Exact topic match in quote text (keyword fallback)
   const topic = reviewTopicPattern(service.slug);
   if (topic) {
     const exact = pool.filter((r) => topic.test(r.quote));
     if (exact.length) return exact[hashIdx(exact.length)];
   }
 
-  // 2. Category match (includes generic reviews)
+  // 3. Category match (includes generic reviews)
   const byCategory = pool.filter((r) => {
     const cats = categorizeReview(r.quote);
     if (cats.size === 0) return true;
@@ -1157,8 +1179,25 @@ function pickInlineReviewFromList(
   });
   if (byCategory.length) return byCategory[hashIdx(byCategory.length)];
 
-  // 3. Anything
+  // 4. Anything
   return pool[hashIdx(pool.length)];
+}
+
+/**
+ * Map a service page slug to the review tag(s) it should surface.
+ * Tags come from content/reviews.yaml; keep this in sync with the
+ * curated taxonomy in scripts/extract-reviews-docx.mjs.
+ */
+function expectedReviewTags(slug: string): string[] {
+  if (/boiler/.test(slug)) return ["Boilers"];
+  if (/furnace|garage-heater/.test(slug)) return ["Furnaces"];
+  if (/heat-pump/.test(slug)) return ["Heat Pumps"];
+  if (/air-conditioning|humidifier/.test(slug)) return ["AC"];
+  if (/water-softener/.test(slug)) return ["Water Softeners"];
+  if (/hot-water-tank|tankless/.test(slug)) return ["Water Heaters"];
+  if (/emergency/.test(slug)) return ["Emergency"];
+  if (/drain|polyb|bathroom|shower|plumb/.test(slug)) return ["Plumbing"];
+  return [];
 }
 
 /**
