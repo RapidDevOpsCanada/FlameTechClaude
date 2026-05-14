@@ -10,6 +10,7 @@ import { notFound } from "next/navigation";
 import { getArticleBySlug, getAllArticles } from "@/lib/articles";
 import { getAuthorBio } from "@/lib/authors";
 import { getFeaturedImageDimensions } from "@/lib/featured-image-dimensions";
+import { getArticleHowTo } from "@/lib/article-how-to";
 import Icon from "@/components/Icon";
 import type { Metadata } from "next";
 
@@ -113,6 +114,7 @@ export default async function ArticlePage({
   const heroDims = getFeaturedImageDimensions(article.featured_image);
   const authorBio = getAuthorBio(article.author);
   const authorAnchor = AUTHOR_ABOUT_ANCHORS[article.author];
+  const howTo = getArticleHowTo(article.slug);
   const articleSchema = {
     "@context": "https://schema.org",
     "@graph": [
@@ -198,6 +200,46 @@ export default async function ArticlePage({
         ).toISOString(),
         inLanguage: "en-CA",
       },
+      ...(howTo
+        ? [
+            {
+              "@type": "HowTo",
+              "@id": `${url}#howto`,
+              name: howTo.name ?? article.title,
+              description: howTo.description ?? cleanExcerpt(article.excerpt),
+              image: {
+                "@type": "ImageObject",
+                url: heroImg,
+                ...(heroDims
+                  ? { width: heroDims.w, height: heroDims.h }
+                  : {}),
+              },
+              ...(howTo.totalTime ? { totalTime: howTo.totalTime } : {}),
+              ...(howTo.tool && howTo.tool.length > 0
+                ? {
+                    tool: howTo.tool.map((name) => ({
+                      "@type": "HowToTool",
+                      name,
+                    })),
+                  }
+                : {}),
+              ...(howTo.supply && howTo.supply.length > 0
+                ? {
+                    supply: howTo.supply.map((name) => ({
+                      "@type": "HowToSupply",
+                      name,
+                    })),
+                  }
+                : {}),
+              step: howTo.steps.map((s, i) => ({
+                "@type": "HowToStep",
+                position: i + 1,
+                name: s.name,
+                text: s.text,
+              })),
+            },
+          ]
+        : []),
     ],
   };
 
