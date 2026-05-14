@@ -34,32 +34,7 @@ export const sql: NeonQueryFunction<false, false> = new Proxy(
   }
 );
 
-export type Article = {
-  id: number;
-  slug: string;
-  title: string;
-  excerpt: string;
-  body: string;
-  category: string;
-  category_slug: string;
-  author: string;
-  read_time: number;
-  share_count: number;
-  featured_image: string | null;
-  tags: string[];
-  created_at: string;
-  updated_at: string | null;
-};
-
-export type Review = {
-  id: number;
-  author: string;
-  initials: string;
-  area: string;
-  rating: number;
-  relative_date: string;
-  quote: string;
-  featured: boolean;
-  sort_order: number;
-  created_at: string;
-};
+// Article and Review types moved to their respective lib modules
+// (src/lib/articles.ts, src/lib/reviews.ts) when content shifted from
+// Postgres to the filesystem. db.ts now exports only `sql` for the
+// leads table (and any future DB-backed feature).

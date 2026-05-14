@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import type { Article } from "@/lib/db";
+import type { Article } from "@/lib/articles";
 import Icon from "@/components/Icon";
 import { getAuthorBio } from "@/lib/authors";
 

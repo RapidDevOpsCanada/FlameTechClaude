@@ -1,7 +1,10 @@
+import GithubSlugger from "github-slugger";
+
 /**
- * Extract a table of contents from an article's HTML body and inject
- * stable id slugs into the heading tags so the TOC entries can anchor
- * to them. Mutates the html string.
+ * Extract a table of contents from an MDX article body. Returns the
+ * ordered list of H2/H3 headings with stable id slugs (matching the
+ * ids that rehype-slug injects into the rendered output, so the TOC
+ * links anchor correctly).
  */
 
 export type TocEntry = {
@@ -10,39 +13,25 @@ export type TocEntry = {
   level: 2 | 3;
 };
 
-function slugify(s: string): string {
-  return s
-    .toLowerCase()
-    .replace(/&[a-z]+;/g, " ")
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-+|-+$/g, "");
-}
-
-export function extractToc(html: string): { html: string; toc: TocEntry[] } {
+export function extractToc(mdx: string): TocEntry[] {
+  const slugger = new GithubSlugger();
   const toc: TocEntry[] = [];
-  const used = new Set<string>();
-
-  const next = html.replace(
-    /<(h2|h3)([^>]*)>([\s\S]*?)<\/\1>/gi,
-    (match, tag: string, attrs: string, inner: string) => {
-      const text = inner.replace(/<[^>]+>/g, "").trim();
-      if (!text) return match;
-      let id = slugify(text);
-      if (!id) return match;
-      // Ensure id uniqueness in case two headings slugify the same.
-      let unique = id;
-      let n = 2;
-      while (used.has(unique)) {
-        unique = `${id}-${n++}`;
-      }
-      used.add(unique);
-      id = unique;
-      toc.push({ id, text, level: tag.toLowerCase() === "h2" ? 2 : 3 });
-      // Skip injecting if the tag already has an id.
-      if (/\bid\s*=/.test(attrs)) return match;
-      return `<${tag}${attrs} id="${id}">${inner}</${tag}>`;
-    },
-  );
-
-  return { html: next, toc };
+  // Markdown headings: line starting with ## or ### (but not ####+).
+  // Multiline flag so ^ matches each line. The trailing capture goes
+  // to end-of-line.
+  const re = /^(#{2,3})\s+(.+?)\s*$/gm;
+  let m: RegExpExecArray | null;
+  while ((m = re.exec(mdx)) !== null) {
+    const level = m[1].length === 2 ? 2 : 3;
+    // Strip basic inline markdown so the displayed TOC text and slug
+    // match the rendered heading.
+    const text = m[2]
+      .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1") // [link text](href) -> link text
+      .replace(/[*_`]+/g, "")
+      .trim();
+    if (!text) continue;
+    const id = slugger.slug(text);
+    toc.push({ id, text, level: level as 2 | 3 });
+  }
+  return toc;
 }

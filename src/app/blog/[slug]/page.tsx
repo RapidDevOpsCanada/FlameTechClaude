@@ -11,6 +11,7 @@ import {
   getArticleBySlug,
   getAllArticles,
   getArticlesByCategory,
+  getAllArticleSlugs,
 } from "@/lib/articles";
 import ArticleCard from "@/components/ArticleCard";
 import { getAuthorBio } from "@/lib/authors";
@@ -19,6 +20,8 @@ import { getArticleHowTo } from "@/lib/article-how-to";
 import { extractToc } from "@/lib/article-toc";
 import { tagSlug } from "@/lib/article-tags";
 import Icon from "@/components/Icon";
+import { MDXRemote } from "next-mdx-remote/rsc";
+import rehypeSlug from "rehype-slug";
 import type { Metadata } from "next";
 
 // Author display name → /about anchor slug. Used to link bylines to
@@ -31,9 +34,15 @@ const AUTHOR_ABOUT_ANCHORS: Record<string, string> = {
 
 const SITE_URL = "https://flametechplumbing.ca";
 
-export const dynamic = "force-dynamic";
+export async function generateStaticParams() {
+  return getAllArticleSlugs().map((slug) => ({ slug }));
+}
 
 function cleanExcerpt(excerpt: string): string {
+  // Legacy WP-exported excerpts started with "📖 X min read · Last
+  // updated Month YYYY ". The MDX converter already stripped this from
+  // every existing article, but the guard stays for any future hand-
+  // pasted content that slipped through.
   return excerpt.replace(/^📖\s*\d+\s*min read\s*·\s*Last updated[^·]*?\s+/i, "").trim();
 }
 
@@ -139,13 +148,11 @@ export default async function ArticlePage({
   const authorBio = getAuthorBio(article.author);
   const authorAnchor = AUTHOR_ABOUT_ANCHORS[article.author];
   const howTo = getArticleHowTo(article.slug);
-  // Strip the legacy "📖 X min read · Last updated …" lead paragraph
-  // first, then extract the TOC + inject heading IDs into the body.
-  const cleanedBody = article.body.replace(
-    /^\s*<p>\s*📖[^<]*?Last updated[^<]*?<\/p>\s*/i,
-    "",
-  );
-  const { html: bodyHtml, toc } = extractToc(cleanedBody);
+  // Parse the MDX body for H2/H3 headings to build the TOC. Heading
+  // ids in the rendered output are injected by the rehype-slug plugin
+  // configured on MDXRemote below, using the same github-slugger
+  // algorithm extractToc uses, so anchor links match.
+  const toc = extractToc(article.body);
   const articleSchema = {
     "@context": "https://schema.org",
     "@graph": [
@@ -194,7 +201,14 @@ export default async function ArticlePage({
             : {}),
         },
         publisher: { "@id": `${SITE_URL}#business` },
-        wordCount: article.body.replace(/<[^>]+>/g, " ").split(/\s+/).filter(Boolean).length,
+        wordCount: article.body
+          // Strip markdown markup so words like **bold** and [link](href)
+          // count as one word each.
+          .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
+          .replace(/[*_`~#>]+/g, " ")
+          .replace(/<[^>]+>/g, " ")
+          .split(/\s+/)
+          .filter(Boolean).length,
       },
       {
         "@type": "BreadcrumbList",
@@ -407,10 +421,16 @@ export default async function ArticlePage({
               </ol>
             </nav>
           )}
-          <article
-            className="prose-article"
-            dangerouslySetInnerHTML={{ __html: bodyHtml }}
-          />
+          <article className="prose-article">
+            <MDXRemote
+              source={article.body}
+              options={{
+                mdxOptions: {
+                  rehypePlugins: [rehypeSlug],
+                },
+              }}
+            />
+          </article>
           {article.tags && article.tags.length > 0 && (
             <div className="mt-12 pt-8 border-t border-line-light">
               <p className="text-[11px] font-bold uppercase tracking-[0.18em] text-primary mb-4">

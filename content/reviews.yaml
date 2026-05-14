@@ -1,0 +1,85 @@
+# Customer reviews. Source of truth for the homepage Reviews section
+# and the LocalBusiness JSON-LD review nodes. Order in this file does
+# not matter — sort_order controls render position.
+
+reviews:
+  - author: "Corey Mitchell"
+    initials: "CM"
+    area: "Calgary"
+    rating: 5
+    relative_date: "15 weeks ago"
+    quote: "The only honest plumber out of a dozen I called — everyone else wanted to rip us off with a $100 assessment charge to change a kitchen faucet. FlameTech was honest and fair — a refreshing experience. Thank you."
+    featured: true
+    sort_order: 1
+  - author: "Shosh Cohen"
+    initials: "SC"
+    area: "Calgary"
+    rating: 5
+    relative_date: "1 day ago"
+    quote: "I had a great experience. I highly recommend everyone to use them. They are professional. They work clean, organized, and explain everything."
+    featured: false
+    sort_order: 2
+  - author: "C Strat"
+    initials: "CS"
+    area: "Calgary"
+    rating: 5
+    relative_date: "4 days ago"
+    quote: "Shaun did a great job and was punctual, courteous, and took pride in the work. Would highly recommend to anyone looking for plumbing and heating work."
+    featured: false
+    sort_order: 3
+  - author: "Ali Derakhshan"
+    initials: "AD"
+    area: "Calgary"
+    rating: 5
+    relative_date: "5 days ago"
+    quote: "A job well engineered and executed by FlameTech. Jason and his coworker did an amazing job installing our new boiler system."
+    featured: false
+    sort_order: 4
+  - author: "Linda N"
+    initials: "LN"
+    area: "Calgary"
+    rating: 5
+    relative_date: "4 weeks ago"
+    quote: "So glad I went with a professional for my bathroom upgrade. Jason from FlameTech was fast, efficient, and super friendly."
+    featured: false
+    sort_order: 5
+  - author: "Joëlle Howe"
+    initials: "JH"
+    area: "Calgary"
+    rating: 5
+    relative_date: "5 weeks ago"
+    quote: "Service was prompt and very thorough, and they offered suggestions on how to avoid further problems in the future."
+    featured: false
+    sort_order: 6
+  - author: "Greg Jackson"
+    initials: "GJ"
+    area: "Calgary"
+    rating: 5
+    relative_date: "10 weeks ago"
+    quote: "Shaun was punctual, informative, and super friendly. We're excited to have FlameTech for all our plumbing and heating needs."
+    featured: false
+    sort_order: 7
+  - author: "Devnam Mangat"
+    initials: "DM"
+    area: "Calgary"
+    rating: 5
+    relative_date: "10 weeks ago"
+    quote: "Really appreciated Shaun coming by to carry out an inspection of our boiler. Great advice and a logical follow-up plan!"
+    featured: false
+    sort_order: 8
+  - author: "Amanda Wong"
+    initials: "AW"
+    area: "Calgary"
+    rating: 5
+    relative_date: "14 weeks ago"
+    quote: "Shaun at FlameTech Plumbing was fantastic to work with. He was honest, polite, and even showed up early. Glad the fix didn't damage our drywall."
+    featured: false
+    sort_order: 9
+  - author: "Bonnie Offredi"
+    initials: "BO"
+    area: "Calgary"
+    rating: 5
+    relative_date: "8 weeks ago"
+    quote: "Had a new furnace installed by Shaun and Jason. Shaun was honest and professional diagnosing the problem, and the install went flawlessly."
+    featured: false
+    sort_order: 10

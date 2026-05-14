@@ -13,8 +13,6 @@ import type { Metadata } from "next";
 const SITE_URL = "https://flametechplumbing.ca";
 const PAGE_SIZE = 9;
 
-export const dynamic = "force-dynamic";
-
 function parsePage(raw: string | string[] | undefined): number {
   const v = Array.isArray(raw) ? raw[0] : raw;
   const n = Number.parseInt(v ?? "1", 10);
@@ -182,14 +180,10 @@ function EmptyState() {
         No articles yet
       </span>
       <h3 className="text-2xl font-extrabold tracking-tight mb-3 mt-3">
-        Database not seeded.
+        Nothing published.
       </h3>
       <p className="text-ink-500 max-w-xl mx-auto mb-6">
-        Hit{" "}
-        <Link href="/api/seed" className="text-emergency-deep font-bold">
-          /api/seed
-        </Link>{" "}
-        to populate the archive with sample articles.
+        Drop an MDX file under <code>content/blog/</code> and redeploy.
       </p>
     </div>
   );

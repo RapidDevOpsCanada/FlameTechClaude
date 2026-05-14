@@ -13,7 +13,10 @@ import type { Metadata } from "next";
 
 const SITE_URL = "https://flametechplumbing.ca";
 
-export const dynamic = "force-dynamic";
+export async function generateStaticParams() {
+  const cats = await getCategories();
+  return cats.map((c) => ({ slug: c.slug }));
+}
 
 export async function generateMetadata({
   params,

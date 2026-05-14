@@ -17,7 +17,7 @@ import {
   type ServicePage,
 } from "@/lib/services";
 import { getReviews } from "@/lib/reviews";
-import type { Review } from "@/lib/db";
+import type { Review } from "@/lib/reviews";
 import type { Metadata } from "next";
 
 const SITE_URL = "https://flametechplumbing.ca";
