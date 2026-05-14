@@ -4,12 +4,22 @@ import FinalCTA from "@/components/FinalCTA";
 import StickyCallBar from "@/components/StickyCallBar";
 import AuthorBioCard from "@/components/AuthorBioCard";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getArticleBySlug, getAllArticles } from "@/lib/articles";
 import { getAuthorBio } from "@/lib/authors";
+import { getFeaturedImageDimensions } from "@/lib/featured-image-dimensions";
 import Icon from "@/components/Icon";
 import type { Metadata } from "next";
+
+// Author display name → /about anchor slug. Used to link bylines to
+// the founder bio on /about so the Person ↔ Article ↔ Organization
+// hop is explicit for Google's E-E-A-T systems.
+const AUTHOR_ABOUT_ANCHORS: Record<string, string> = {
+  "Shaun Kristoff": "/about#shaun-kristoff",
+  "Jason Mounsey": "/about#jason-mounsey",
+};
 
 const SITE_URL = "https://flametechplumbing.ca";
 
@@ -34,6 +44,19 @@ export async function generateMetadata({
   if (!article) return { title: "Article" };
   const url = `${SITE_URL}/blog/${article.slug}`;
   const description = cleanExcerpt(article.excerpt).slice(0, 160);
+  // Per-article OG image: prefer the featured image so social previews
+  // show the post's hero. Falls through to the layout's FTVAN.jpg
+  // default when the article has no featured_image.
+  const ogDims = getFeaturedImageDimensions(article.featured_image);
+  const ogImages = article.featured_image
+    ? [
+        {
+          url: article.featured_image,
+          alt: article.title,
+          ...(ogDims ? { width: ogDims.w, height: ogDims.h } : {}),
+        },
+      ]
+    : undefined;
   return {
     title: article.title,
     description,
@@ -44,13 +67,18 @@ export async function generateMetadata({
       title: article.title,
       description,
       publishedTime: new Date(article.created_at).toISOString(),
+      modifiedTime: new Date(
+        article.updated_at ?? article.created_at,
+      ).toISOString(),
       authors: [article.author],
       section: article.category,
+      ...(ogImages ? { images: ogImages } : {}),
     },
     twitter: {
       card: "summary_large_image",
       title: article.title,
       description,
+      ...(ogImages ? { images: ogImages } : {}),
     },
   };
 }
@@ -82,7 +110,9 @@ export default async function ArticlePage({
   const heroImg = article.featured_image
     ? `${SITE_URL}${article.featured_image}`
     : `${SITE_URL}/images/FT-LOGO-DARK8.png`;
+  const heroDims = getFeaturedImageDimensions(article.featured_image);
   const authorBio = getAuthorBio(article.author);
+  const authorAnchor = AUTHOR_ABOUT_ANCHORS[article.author];
   const articleSchema = {
     "@context": "https://schema.org",
     "@graph": [
@@ -91,20 +121,38 @@ export default async function ArticlePage({
         "@id": `${url}#article`,
         headline: article.title,
         description: article.excerpt,
-        image: heroImg,
+        image: {
+          "@type": "ImageObject",
+          url: heroImg,
+          ...(heroDims ? { width: heroDims.w, height: heroDims.h } : {}),
+        },
         datePublished: new Date(article.created_at).toISOString(),
-        dateModified: new Date(article.created_at).toISOString(),
+        dateModified: new Date(
+          article.updated_at ?? article.created_at,
+        ).toISOString(),
         url,
         mainEntityOfPage: { "@id": `${url}#webpage` },
         articleSection: article.category,
+        // Speakable spec — points voice assistants at the article lead
+        // (first paragraph) so the page is eligible for voice answers.
+        speakable: {
+          "@type": "SpeakableSpecification",
+          cssSelector: [".prose-article p:first-of-type", "h1"],
+        },
         author: {
           "@type": "Person",
-          "@id": `${SITE_URL}#author-${article.author.replace(/\s+/g, "-").toLowerCase()}`,
+          "@id": authorAnchor
+            ? `${SITE_URL}${authorAnchor}`
+            : `${SITE_URL}#author-${article.author.replace(/\s+/g, "-").toLowerCase()}`,
           name: article.author,
+          ...(authorAnchor ? { url: `${SITE_URL}${authorAnchor}` } : {}),
           ...(authorBio
             ? {
                 jobTitle: authorBio.role,
                 description: authorBio.bio.split(/\n\n+/)[0],
+                image: authorBio.avatar
+                  ? `${SITE_URL}${authorBio.avatar}`
+                  : undefined,
                 worksFor: { "@id": `${SITE_URL}#business` },
               }
             : {}),
@@ -139,7 +187,16 @@ export default async function ArticlePage({
         name: article.title,
         description: article.excerpt,
         breadcrumb: { "@id": `${url}#breadcrumb` },
-        primaryImageOfPage: { "@type": "ImageObject", url: heroImg },
+        primaryImageOfPage: {
+          "@type": "ImageObject",
+          url: heroImg,
+          ...(heroDims ? { width: heroDims.w, height: heroDims.h } : {}),
+        },
+        datePublished: new Date(article.created_at).toISOString(),
+        dateModified: new Date(
+          article.updated_at ?? article.created_at,
+        ).toISOString(),
+        inLanguage: "en-CA",
       },
     ],
   };
@@ -187,21 +244,59 @@ export default async function ArticlePage({
             {article.excerpt}
           </p>
           <div className="flex flex-wrap items-center gap-6 pt-6 border-t border-line-dark">
-            <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-full bg-emergency/20 flex items-center justify-center font-bold text-emergency text-sm">
-                {initials(article.author)}
-              </div>
-              <div>
-                <p className="font-bold text-sm">{article.author}</p>
-                <p className="text-xs text-cream-50/60">
-                  {new Date(article.created_at).toLocaleDateString("en-US", {
-                    month: "short",
-                    day: "2-digit",
-                    year: "numeric",
-                  })}
-                </p>
-              </div>
-            </div>
+            {(() => {
+              const authorByline = (
+                <>
+                  {authorBio?.avatar ? (
+                    <Image
+                      src={authorBio.avatar}
+                      alt=""
+                      width={40}
+                      height={40}
+                      className="w-10 h-10 rounded-full object-cover border border-line-dark"
+                    />
+                  ) : (
+                    <div className="w-10 h-10 rounded-full bg-emergency/20 flex items-center justify-center font-bold text-emergency text-sm">
+                      {initials(article.author)}
+                    </div>
+                  )}
+                  <div>
+                    <p className="font-bold text-sm">{article.author}</p>
+                    <p className="text-xs text-cream-50/60">
+                      {new Date(article.created_at).toLocaleDateString(
+                        "en-US",
+                        { month: "short", day: "2-digit", year: "numeric" },
+                      )}
+                      {article.updated_at &&
+                      new Date(article.updated_at).getTime() >
+                        new Date(article.created_at).getTime() + 86_400_000 ? (
+                        <>
+                          {" · Updated "}
+                          {new Date(article.updated_at).toLocaleDateString(
+                            "en-US",
+                            {
+                              month: "short",
+                              day: "2-digit",
+                              year: "numeric",
+                            },
+                          )}
+                        </>
+                      ) : null}
+                    </p>
+                  </div>
+                </>
+              );
+              return authorAnchor ? (
+                <Link
+                  href={authorAnchor}
+                  className="flex items-center gap-3 hover:text-emergency transition-colors"
+                >
+                  {authorByline}
+                </Link>
+              ) : (
+                <div className="flex items-center gap-3">{authorByline}</div>
+              );
+            })()}
           </div>
         </div>
       </section>

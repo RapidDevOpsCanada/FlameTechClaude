@@ -1,12 +1,19 @@
 import Image from "next/image";
+import Link from "next/link";
 import Icon from "@/components/Icon";
 import { getAuthorBio } from "@/lib/authors";
+
+const ABOUT_ANCHORS: Record<string, string> = {
+  "Shaun Kristoff": "/about#shaun-kristoff",
+  "Jason Mounsey": "/about#jason-mounsey",
+};
 
 export default function AuthorBioCard({ authorName }: { authorName: string }) {
   const author = getAuthorBio(authorName);
   if (!author) return null;
 
   const paragraphs = author.bio.split(/\n\n+/);
+  const anchor = ABOUT_ANCHORS[author.name];
 
   return (
     <aside className="mt-16 mb-4 rounded-2xl bg-white border border-line-light p-7 md:p-9 soft-shadow">
@@ -29,7 +36,16 @@ export default function AuthorBioCard({ authorName }: { authorName: string }) {
             About the author
           </p>
           <h3 className="font-display text-xl md:text-2xl font-extrabold tracking-tight leading-tight text-ink-900">
-            {author.name}
+            {anchor ? (
+              <Link
+                href={anchor}
+                className="hover:text-emergency-deep transition-colors"
+              >
+                {author.name}
+              </Link>
+            ) : (
+              author.name
+            )}
           </h3>
           <p className="text-sm text-ink-500 mt-1 leading-snug">{author.role}</p>
         </div>

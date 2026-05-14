@@ -20,7 +20,7 @@ export default function ArticleCard({ article }: { article: Article }) {
         <div className="relative aspect-[16/9] overflow-hidden bg-cream-100">
           <Image
             src={article.featured_image}
-            alt=""
+            alt={article.title}
             fill
             sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
             className="object-cover group-hover:scale-[1.03] transition-transform duration-500"

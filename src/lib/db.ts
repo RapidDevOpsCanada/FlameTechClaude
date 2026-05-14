@@ -47,6 +47,7 @@ export type Article = {
   share_count: number;
   featured_image: string | null;
   created_at: string;
+  updated_at: string | null;
 };
 
 export type Review = {

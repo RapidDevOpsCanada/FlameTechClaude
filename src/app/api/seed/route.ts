@@ -16,6 +16,10 @@ type SeedArticle = {
   featured_image?: string;
   /** ISO-like timestamp "YYYY-MM-DD HH:MM:SS"; overrides default NOW() in the seed. */
   published_at?: string;
+  /** When the article body was last materially updated. Defaults to
+   *  published_at when omitted. Bump this whenever you edit the body
+   *  so Google sees a real freshness signal. */
+  updated_at?: string;
 };
 
 const articles: SeedArticle[] = [
@@ -2246,7 +2250,8 @@ async function runSeed() {
       read_time INTEGER NOT NULL DEFAULT 5,
       share_count INTEGER NOT NULL DEFAULT 0,
       featured_image TEXT,
-      created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+      created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+      updated_at TIMESTAMPTZ
     )
   `;
   await sql`
@@ -2274,15 +2279,18 @@ async function runSeed() {
   }
 
   for (const a of articles) {
+    // Default updated_at to published_at when not explicitly bumped.
+    const updatedAt = a.updated_at ?? a.published_at ?? null;
     await sql`
       INSERT INTO articles
         (slug, title, excerpt, body, category, category_slug, author,
-         read_time, share_count, featured_image, created_at)
+         read_time, share_count, featured_image, created_at, updated_at)
       VALUES
         (${a.slug}, ${a.title}, ${a.excerpt}, ${a.body}, ${a.category},
          ${a.category_slug}, ${a.author}, ${a.read_time}, ${a.share_count},
          ${a.featured_image ?? null},
-         COALESCE(${a.published_at ?? null}::timestamptz, NOW()))
+         COALESCE(${a.published_at ?? null}::timestamptz, NOW()),
+         ${updatedAt}::timestamptz)
     `;
   }
 
