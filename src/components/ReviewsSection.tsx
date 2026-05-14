@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { getReviews } from "@/lib/reviews";
 import Icon from "@/components/Icon";
 
@@ -51,9 +52,19 @@ export default async function ReviewsSection() {
               &ldquo;{featured.quote}&rdquo;
             </p>
             <div className="flex items-center gap-4 pt-6 border-t border-line-dark">
-              <div className="w-12 h-12 rounded-full bg-primary/15 flex items-center justify-center font-bold text-primary text-base">
-                {featured.initials}
-              </div>
+              {featured.avatar ? (
+                <Image
+                  src={featured.avatar}
+                  alt=""
+                  width={48}
+                  height={48}
+                  className="w-12 h-12 rounded-full object-cover border border-line-dark shrink-0"
+                />
+              ) : (
+                <div className="w-12 h-12 rounded-full bg-primary/15 flex items-center justify-center font-bold text-primary text-base shrink-0">
+                  {featured.initials}
+                </div>
+              )}
               <div>
                 <p className="font-bold">{featured.author}</p>
                 <p className="text-xs text-cream-50/60">
@@ -82,9 +93,19 @@ export default async function ReviewsSection() {
                   &ldquo;{r.quote}&rdquo;
                 </p>
                 <div className="flex items-center gap-3 pt-4 border-t border-line-light">
-                  <div className="w-9 h-9 rounded-full bg-primary/10 flex items-center justify-center font-bold text-primary text-xs">
-                    {r.initials}
-                  </div>
+                  {r.avatar ? (
+                    <Image
+                      src={r.avatar}
+                      alt=""
+                      width={36}
+                      height={36}
+                      className="w-9 h-9 rounded-full object-cover border border-line-light shrink-0"
+                    />
+                  ) : (
+                    <div className="w-9 h-9 rounded-full bg-primary/10 flex items-center justify-center font-bold text-primary text-xs shrink-0">
+                      {r.initials}
+                    </div>
+                  )}
                   <div>
                     <p className="font-bold text-sm leading-tight">
                       {r.author}

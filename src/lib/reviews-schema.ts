@@ -14,6 +14,12 @@ export const reviewSchema = z.object({
   quote: z.string().min(1),
   featured: z.boolean().default(false),
   sort_order: z.number().int().nonnegative().default(0),
+  /** Path to the reviewer's avatar (e.g. "/images/reviews/jane.png").
+   *  Omitted = render the initials chip instead. */
+  avatar: z.string().optional(),
+  /** Service categories the review is relevant to. Used to surface
+   *  topical reviews on service pages. */
+  tags: z.array(z.string()).default([]),
 });
 
 export const reviewsFileSchema = z.object({

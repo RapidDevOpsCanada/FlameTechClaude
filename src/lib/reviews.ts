@@ -20,6 +20,8 @@ export type Review = {
   quote: string;
   featured: boolean;
   sort_order: number;
+  avatar: string | null;
+  tags: string[];
   /** Synthetic to keep call sites that expect created_at working. */
   created_at: string;
 };
@@ -59,6 +61,8 @@ export async function getReviews(): Promise<Review[]> {
       quote: r.quote,
       featured: r.featured,
       sort_order: r.sort_order,
+      avatar: r.avatar ?? null,
+      tags: r.tags,
       created_at: now,
     }))
     .sort((a, b) => a.sort_order - b.sort_order);
