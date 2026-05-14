@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Icon from "@/components/Icon";
 import { getAuthorBio } from "@/lib/authors";
 
@@ -10,9 +11,19 @@ export default function AuthorBioCard({ authorName }: { authorName: string }) {
   return (
     <aside className="mt-16 mb-4 rounded-2xl bg-white border border-line-light p-7 md:p-9 soft-shadow">
       <div className="flex items-start gap-5 mb-6">
-        <div className="w-14 h-14 md:w-16 md:h-16 rounded-full bg-emergency/15 text-emergency flex items-center justify-center font-display font-extrabold text-lg md:text-xl shrink-0">
-          {author.initials}
-        </div>
+        {author.avatar ? (
+          <Image
+            src={author.avatar}
+            alt={`${author.name} headshot`}
+            width={64}
+            height={64}
+            className="w-14 h-14 md:w-16 md:h-16 rounded-full object-cover border border-line-light shrink-0"
+          />
+        ) : (
+          <div className="w-14 h-14 md:w-16 md:h-16 rounded-full bg-emergency/15 text-emergency flex items-center justify-center font-display font-extrabold text-lg md:text-xl shrink-0">
+            {author.initials}
+          </div>
+        )}
         <div className="min-w-0">
           <p className="text-[11px] font-bold uppercase tracking-[0.18em] text-primary mb-2">
             About the author

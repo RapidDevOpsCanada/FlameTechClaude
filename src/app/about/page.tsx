@@ -87,6 +87,7 @@ export default function AboutPage() {
         name: shaun.name,
         jobTitle: shaun.role,
         description: shaun.bio.split("\n\n")[0],
+        image: shaun.avatar ? `${SITE_URL}${shaun.avatar}` : undefined,
         worksFor: { "@id": `${SITE_URL}#business` },
         knowsAbout: shaun.credentials,
       },
@@ -96,6 +97,7 @@ export default function AboutPage() {
         name: jason.name,
         jobTitle: jason.role,
         description: jason.bio.split("\n\n")[0],
+        image: jason.avatar ? `${SITE_URL}${jason.avatar}` : undefined,
         worksFor: { "@id": `${SITE_URL}#business` },
         knowsAbout: jason.credentials,
       },
@@ -188,9 +190,19 @@ export default function AboutPage() {
                 className="rounded-2xl bg-cream-50 border border-line-light p-8 md:p-10 soft-shadow"
               >
                 <div className="flex items-start gap-5 mb-6">
-                  <div className="w-16 h-16 md:w-20 md:h-20 rounded-full bg-emergency/15 text-emergency flex items-center justify-center font-display font-extrabold text-xl md:text-2xl shrink-0">
-                    {person.initials}
-                  </div>
+                  {person.avatar ? (
+                    <Image
+                      src={person.avatar}
+                      alt={`${person.name} headshot`}
+                      width={80}
+                      height={80}
+                      className="w-16 h-16 md:w-20 md:h-20 rounded-full object-cover border border-line-light shrink-0"
+                    />
+                  ) : (
+                    <div className="w-16 h-16 md:w-20 md:h-20 rounded-full bg-emergency/15 text-emergency flex items-center justify-center font-display font-extrabold text-xl md:text-2xl shrink-0">
+                      {person.initials}
+                    </div>
+                  )}
                   <div className="min-w-0">
                     <h3 className="font-display text-2xl md:text-3xl font-extrabold tracking-tight leading-tight text-ink-900">
                       {person.name}
