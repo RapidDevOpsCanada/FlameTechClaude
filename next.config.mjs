@@ -1,7 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Canonical URLs have no trailing slash. /foo/ 308-redirects to /foo.
-  trailingSlash: false,
+  // Canonical URLs have a trailing slash to match the legacy WordPress
+  // site at flametechplumbing.ca, where every page was indexed with a
+  // trailing slash. Keeping the slash means existing GSC entries and
+  // backlinks land directly with no redirect during the reindex window.
+  // /foo 308-redirects to /foo/.
+  trailingSlash: true,
   images: {
     remotePatterns: [
       { protocol: "https", hostname: "lh3.googleusercontent.com" },

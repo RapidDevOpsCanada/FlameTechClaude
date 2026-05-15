@@ -4,8 +4,8 @@ import Icon from "@/components/Icon";
 import { getAuthorBio } from "@/lib/authors";
 
 const ABOUT_ANCHORS: Record<string, string> = {
-  "Shaun Kristoff": "/about#shaun-kristoff",
-  "Jason Mounsey": "/about#jason-mounsey",
+  "Shaun Kristoff": "/about/#shaun-kristoff",
+  "Jason Mounsey": "/about/#jason-mounsey",
 };
 
 export default function AuthorBioCard({ authorName }: { authorName: string }) {

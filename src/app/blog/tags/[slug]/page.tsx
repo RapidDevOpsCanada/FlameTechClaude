@@ -25,7 +25,7 @@ export async function generateMetadata({
   const { slug } = await params;
   const tag = tagFromSlug(slug);
   if (!tag) return { title: "Tag" };
-  const url = `${SITE_URL}/blog/tags/${slug}`;
+  const url = `${SITE_URL}/blog/tags/${slug}/`;
   const title = `${tag} — Articles | FlameTech Plumbing & Heating`;
   const description = `Plumbing and HVAC articles tagged ${tag.toLowerCase()} from FlameTech's Calgary technicians.`;
   return {
@@ -53,7 +53,7 @@ export default async function TagPage({
     notFound();
   }
 
-  const url = `${SITE_URL}/blog/tags/${slug}`;
+  const url = `${SITE_URL}/blog/tags/${slug}/`;
   const allTags = getAllTags();
   const schema = {
     "@context": "https://schema.org",
@@ -75,7 +75,7 @@ export default async function TagPage({
         itemListElement: articles.map((a, i) => ({
           "@type": "ListItem",
           position: i + 1,
-          url: `${SITE_URL}/blog/${a.slug}`,
+          url: `${SITE_URL}/blog/${a.slug}/`,
           name: a.title,
         })),
       },
@@ -84,7 +84,7 @@ export default async function TagPage({
         "@id": `${url}#breadcrumb`,
         itemListElement: [
           { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
-          { "@type": "ListItem", position: 2, name: "Blog", item: `${SITE_URL}/blog` },
+          { "@type": "ListItem", position: 2, name: "Blog", item: `${SITE_URL}/blog/` },
           { "@type": "ListItem", position: 3, name: tag, item: url },
         ],
       },

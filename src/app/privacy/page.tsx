@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "Privacy Policy | FlameTech Plumbing & Heating",
   description:
     "How FlameTech Plumbing & Heating Ltd. collects, uses, and protects personal information submitted through our website and during service calls.",
-  alternates: { canonical: `${SITE_URL}/privacy` },
+  alternates: { canonical: `${SITE_URL}/privacy/` },
 };
 
 const LAST_UPDATED = "April 2026";

@@ -32,7 +32,7 @@ export async function generateMetadata({
   }
   const category = categories.find((c) => c.slug === slug);
   if (!category) return { title: "Category" };
-  const url = `${SITE_URL}/categories/${slug}`;
+  const url = `${SITE_URL}/blog/categories/${slug}/`;
   const title = `${category.name} Guides | FlameTech Plumbing & Heating`;
   const description = `Articles tagged ${category.name.toLowerCase()}. Practical plumbing and HVAC guides from FlameTech's Calgary technicians.`;
   return {
@@ -74,7 +74,7 @@ export default async function CategoryPage({
   const category = categories.find((c) => c.slug === slug);
   if (!category) notFound();
 
-  const url = `${SITE_URL}/categories/${slug}`;
+  const url = `${SITE_URL}/blog/categories/${slug}/`;
   const schema = {
     "@context": "https://schema.org",
     "@graph": [
@@ -95,7 +95,7 @@ export default async function CategoryPage({
         itemListElement: articles.map((a, i) => ({
           "@type": "ListItem",
           position: i + 1,
-          url: `${SITE_URL}/blog/${a.slug}`,
+          url: `${SITE_URL}/blog/${a.slug}/`,
           name: a.title,
         })),
       },
@@ -108,7 +108,7 @@ export default async function CategoryPage({
             "@type": "ListItem",
             position: 2,
             name: "Blog",
-            item: `${SITE_URL}/blog`,
+            item: `${SITE_URL}/blog/`,
           },
           { "@type": "ListItem", position: 3, name: category.name, item: url },
         ],

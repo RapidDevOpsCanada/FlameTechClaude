@@ -15,13 +15,13 @@ export const metadata: Metadata = {
   title: "About FlameTech Plumbing & Heating | Calgary's Trusted Trade Team",
   description:
     "Locally owned and operated by Red Seal–certified Shaun Kristoff and Jason Mounsey. 45+ years combined experience serving Calgary and surrounding areas with honest, quality plumbing and heating work.",
-  alternates: { canonical: `${SITE_URL}/about` },
+  alternates: { canonical: `${SITE_URL}/about/` },
   openGraph: {
     type: "website",
     title: "About FlameTech Plumbing & Heating",
     description:
       "Meet Shaun and Jason — Red Seal–certified plumbers with 45+ years of combined experience serving Calgary homes.",
-    url: `${SITE_URL}/about`,
+    url: `${SITE_URL}/about/`,
     siteName: "FlameTech Plumbing & Heating",
     locale: "en_CA",
   },
@@ -74,8 +74,8 @@ export default function AboutPage() {
     "@graph": [
       {
         "@type": "AboutPage",
-        "@id": `${SITE_URL}/about#webpage`,
-        url: `${SITE_URL}/about`,
+        "@id": `${SITE_URL}/about/#webpage`,
+        url: `${SITE_URL}/about/`,
         name: "About FlameTech Plumbing & Heating",
         isPartOf: { "@id": `${SITE_URL}#website` },
         about: { "@id": `${SITE_URL}#business` },
@@ -83,7 +83,7 @@ export default function AboutPage() {
       },
       {
         "@type": "Person",
-        "@id": `${SITE_URL}/about#shaun-kristoff`,
+        "@id": `${SITE_URL}/about/#shaun-kristoff`,
         name: shaun.name,
         jobTitle: shaun.role,
         description: shaun.bio.split("\n\n")[0],
@@ -93,7 +93,7 @@ export default function AboutPage() {
       },
       {
         "@type": "Person",
-        "@id": `${SITE_URL}/about#jason-mounsey`,
+        "@id": `${SITE_URL}/about/#jason-mounsey`,
         name: jason.name,
         jobTitle: jason.role,
         description: jason.bio.split("\n\n")[0],

@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: "Thanks — we'll be in touch | FlameTech Plumbing & Heating",
   description:
     "Your quote request landed safely. A real plumber will respond within one business day.",
-  alternates: { canonical: `${SITE_URL}/thank-you` },
+  alternates: { canonical: `${SITE_URL}/thank-you/` },
   robots: { index: false, follow: true },
 };
 

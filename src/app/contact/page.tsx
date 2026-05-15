@@ -18,13 +18,13 @@ export const metadata: Metadata = {
   title: "Contact FlameTech Plumbing & Heating | Calgary, Airdrie, & Surrounding Areas",
   description:
     "Call (587) 834-3668 or request a free quote online. Real people answer the phone. Priority emergency dispatch across Calgary, Airdrie, Cochrane, Chestermere, and Okotoks.",
-  alternates: { canonical: `${SITE_URL}/contact` },
+  alternates: { canonical: `${SITE_URL}/contact/` },
   openGraph: {
     type: "website",
     title: "Contact FlameTech Plumbing & Heating",
     description:
       "Call, email, or request a free quote online. Real people answer the phone — priority dispatch for emergencies.",
-    url: `${SITE_URL}/contact`,
+    url: `${SITE_URL}/contact/`,
     siteName: "FlameTech Plumbing & Heating",
     locale: "en_CA",
   },
@@ -50,7 +50,7 @@ export default function ContactPage() {
     name: "FlameTech Plumbing & Heating Ltd.",
     telephone: PHONE_TEL,
     email: EMAIL,
-    url: `${SITE_URL}/contact`,
+    url: `${SITE_URL}/contact/`,
     image: `${SITE_URL}/images/FT-LOGO-DARK8.png`,
     priceRange: "$$",
     address: {

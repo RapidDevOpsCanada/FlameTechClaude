@@ -44,16 +44,16 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const now = new Date();
 
   const staticUrls: MetadataRoute.Sitemap = [
-    { url: SITE_URL, lastModified: now, changeFrequency: "weekly", priority: 1.0 },
-    { url: `${SITE_URL}/about`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
-    { url: `${SITE_URL}/contact`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
-    { url: `${SITE_URL}/financing`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${SITE_URL}/blog`, lastModified: now, changeFrequency: "weekly", priority: 0.7 },
-    { url: `${SITE_URL}/privacy`, lastModified: now, changeFrequency: "yearly", priority: 0.3 },
+    { url: `${SITE_URL}/`, lastModified: now, changeFrequency: "weekly", priority: 1.0 },
+    { url: `${SITE_URL}/about/`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${SITE_URL}/contact/`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${SITE_URL}/financing/`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${SITE_URL}/blog/`, lastModified: now, changeFrequency: "weekly", priority: 0.7 },
+    { url: `${SITE_URL}/privacy/`, lastModified: now, changeFrequency: "yearly", priority: 0.3 },
   ];
 
   const serviceUrls: MetadataRoute.Sitemap = services.map((s) => ({
-    url: `${SITE_URL}/${s.slug}`,
+    url: `${SITE_URL}/${s.slug}/`,
     lastModified: fingerprintLastMod(serviceFingerprint(s)),
     changeFrequency: "monthly" as const,
     priority: 0.8,
@@ -65,7 +65,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   try {
     const articles = await getAllArticles();
     articleUrls = articles.map((a) => ({
-      url: `${SITE_URL}/blog/${a.slug}`,
+      url: `${SITE_URL}/blog/${a.slug}/`,
       lastModified: new Date(a.created_at),
       changeFrequency: "yearly" as const,
       priority: 0.6,
@@ -78,7 +78,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   try {
     const categories = await getCategories();
     categoryUrls = categories.map((c) => ({
-      url: `${SITE_URL}/blog/categories/${c.slug}`,
+      url: `${SITE_URL}/blog/categories/${c.slug}/`,
       lastModified: now,
       changeFrequency: "weekly" as const,
       priority: 0.6,
@@ -90,7 +90,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // Tag-archive pages — derived from the static tag map (no DB query
   // needed; tags is also a fixed taxonomy curated in lib/article-tags).
   const tagUrls: MetadataRoute.Sitemap = getAllTags().map((t) => ({
-    url: `${SITE_URL}/blog/tags/${tagSlug(t)}`,
+    url: `${SITE_URL}/blog/tags/${tagSlug(t)}/`,
     lastModified: now,
     changeFrequency: "weekly" as const,
     priority: 0.5,

@@ -129,7 +129,7 @@ export async function generateMetadata({
   // suffix when the seoTitle already contains the brand.
   const title = service.seoTitle ?? `${service.title} | FlameTech Plumbing & Heating`;
   const description = service.seoDescription || service.intro;
-  const url = `${SITE_URL}/${service.slug}`;
+  const url = `${SITE_URL}/${service.slug}/`;
   const heroImg = service.heroImage?.src;
 
   return {
@@ -1287,7 +1287,7 @@ function serviceDateModified(s: ServicePage): string {
 }
 
 function buildSchemaJsonLd(service: ServicePage, reviews: Review[]) {
-  const url = `${SITE_URL}/${service.slug}`;
+  const url = `${SITE_URL}/${service.slug}/`;
   const heroImg = service.heroImage?.src
     ? `${SITE_URL}${service.heroImage.src}`
     : undefined;

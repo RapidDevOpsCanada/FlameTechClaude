@@ -29,7 +29,7 @@ export async function generateMetadata({
   // Page 1 is the canonical /blog (no ?page=1 in URL); pages 2+ are
   // self-canonical so each is independently indexable.
   const canonical =
-    page === 1 ? `${SITE_URL}/blog` : `${SITE_URL}/blog?page=${page}`;
+    page === 1 ? `${SITE_URL}/blog/` : `${SITE_URL}/blog/?page=${page}`;
   const titleSuffix = page === 1 ? "" : ` — Page ${page}`;
   return {
     title: `Blog & Guides${titleSuffix} | FlameTech Plumbing & Heating`,

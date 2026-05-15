@@ -29,8 +29,8 @@ import type { Metadata } from "next";
 // the founder bio on /about so the Person ↔ Article ↔ Organization
 // hop is explicit for Google's E-E-A-T systems.
 const AUTHOR_ABOUT_ANCHORS: Record<string, string> = {
-  "Shaun Kristoff": "/about#shaun-kristoff",
-  "Jason Mounsey": "/about#jason-mounsey",
+  "Shaun Kristoff": "/about/#shaun-kristoff",
+  "Jason Mounsey": "/about/#jason-mounsey",
 };
 
 const SITE_URL = "https://flametechplumbing.ca";
@@ -60,7 +60,7 @@ export async function generateMetadata({
     return { title: "Article" };
   }
   if (!article) return { title: "Article" };
-  const url = `${SITE_URL}/blog/${article.slug}`;
+  const url = `${SITE_URL}/blog/${article.slug}/`;
   const description = cleanExcerpt(article.excerpt).slice(0, 160);
   // Per-article OG image: prefer the featured image so social previews
   // show the post's hero. Falls through to the layout's FTVAN.jpg
@@ -141,7 +141,7 @@ export default async function ArticlePage({
     related = [];
   }
 
-  const url = `${SITE_URL}/blog/${article.slug}`;
+  const url = `${SITE_URL}/blog/${article.slug}/`;
   const heroImg = article.featured_image
     ? `${SITE_URL}${article.featured_image}`
     : `${SITE_URL}/images/FT-LOGO-DARK8.png`;
@@ -220,13 +220,13 @@ export default async function ArticlePage({
             "@type": "ListItem",
             position: 2,
             name: "Blog",
-            item: `${SITE_URL}/blog`,
+            item: `${SITE_URL}/blog/`,
           },
           {
             "@type": "ListItem",
             position: 3,
             name: article.category,
-            item: `${SITE_URL}/blog/categories/${article.category_slug}`,
+            item: `${SITE_URL}/blog/categories/${article.category_slug}/`,
           },
           { "@type": "ListItem", position: 4, name: article.title, item: url },
         ],

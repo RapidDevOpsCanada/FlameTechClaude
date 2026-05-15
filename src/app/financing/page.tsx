@@ -15,13 +15,13 @@ export const metadata: Metadata = {
   title: "Financing — Monthly Payments via Financeit | FlameTech Plumbing & Heating",
   description:
     "Spread the cost of a new boiler, furnace, AC, or water heater install into flexible monthly payments via our Financeit partner. Quick online application, soft credit check, no prepayment penalty.",
-  alternates: { canonical: `${SITE_URL}/financing` },
+  alternates: { canonical: `${SITE_URL}/financing/` },
   openGraph: {
     type: "website",
     title: "FlameTech Financing — Monthly Payments via Financeit",
     description:
       "Flexible monthly payments on bigger Calgary installs via Financeit. Quick application, fast decision, start the work right away.",
-    url: `${SITE_URL}/financing`,
+    url: `${SITE_URL}/financing/`,
     siteName: "FlameTech Plumbing & Heating",
     locale: "en_CA",
   },
