@@ -10,6 +10,9 @@ const nextConfig = {
     remotePatterns: [
       { protocol: "https", hostname: "lh3.googleusercontent.com" },
     ],
+    // Next 16 rejects ?q= values not declared here. 70 is for the FTVAN
+    // hero photos (visually indistinguishable from 75, ~10% smaller).
+    qualities: [70, 75],
   },
   async redirects() {
     return [

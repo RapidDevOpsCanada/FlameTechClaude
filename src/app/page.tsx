@@ -143,7 +143,8 @@ export default async function Home() {
                       width={800}
                       height={486}
                       priority
-                      sizes="100vw"
+                      quality={70}
+                      sizes="(max-width: 1023px) 100vw, 0px"
                       className="w-full h-auto object-contain"
                     />
                   </div>
@@ -199,6 +200,7 @@ export default async function Home() {
                     width={800}
                     height={486}
                     priority
+                    quality={70}
                     sizes="580px"
                     className="w-full h-auto object-contain"
                   />
@@ -248,6 +250,7 @@ export default async function Home() {
                       src="/images/FTVAN1.webp"
                       alt="Jason Mounsey and Shaun Kristoff — FlameTech founders — standing in front of the service van"
                       fill
+                      quality={70}
                       sizes="(max-width: 1024px) 100vw, 50vw"
                       className="object-cover object-center"
                     />
@@ -392,9 +395,12 @@ export default async function Home() {
                   className={`${i >= brandTiles.length ? "hidden md:flex" : "flex"} shrink-0 w-40 md:w-56 rounded-2xl bg-white border border-line-light p-4 md:p-6 flex-col items-center justify-between h-36 md:h-44 hover:border-emergency hover:-translate-y-1 transition-all group`}
                 >
                   <div className="flex-1 w-full flex items-center justify-center">
-                    <img
+                    <Image
                       src={item.src}
                       alt={item.label}
+                      width={item.w}
+                      height={item.h}
+                      sizes="(min-width: 768px) 80px, 56px"
                       className="max-h-14 md:max-h-20 max-w-full object-contain"
                     />
                   </div>
@@ -751,13 +757,25 @@ export default async function Home() {
   );
 }
 
-const brandTiles: { src: string; label: string; href: string }[] = [
-  { src: "/images/navine-boiler.png", label: "Boilers", href: "/boilers" },
-  { src: "/images/air-ease-furnace.png", label: "Furnaces", href: "/furnaces" },
-  { src: "/images/air-ease-ac.webp", label: "AC Units", href: "/air-conditioning" },
-  { src: "/images/bradford-white-hot-water-tank.webp", label: "Hot Water Tanks", href: "/hot-water-tanks" },
-  { src: "/images/graident-tankless-water-heater.png", label: "Tankless", href: "/tankless-water-heaters" },
-  { src: "/images/water-softener-calgary.png", label: "Water Softeners", href: "/water-softener" },
+// Intrinsic w/h are required by next/image to compute aspect ratio.
+// They do NOT control rendered size — that's done by the className
+// max-h-14 / max-h-20 + the max-w-full on the img. The `sizes` prop
+// on the Image element below tells the optimizer to serve a tiny
+// variant (≈80px display × 2 DPR) instead of the source dimensions
+// GTMetrix flagged for "image larger than displayed".
+const brandTiles: {
+  src: string;
+  label: string;
+  href: string;
+  w: number;
+  h: number;
+}[] = [
+  { src: "/images/navine-boiler.png", label: "Boilers", href: "/boilers", w: 166, h: 300 },
+  { src: "/images/air-ease-furnace.png", label: "Furnaces", href: "/furnaces", w: 250, h: 352 },
+  { src: "/images/air-ease-ac.webp", label: "AC Units", href: "/air-conditioning", w: 250, h: 250 },
+  { src: "/images/bradford-white-hot-water-tank.webp", label: "Hot Water Tanks", href: "/hot-water-tanks", w: 500, h: 500 },
+  { src: "/images/graident-tankless-water-heater.png", label: "Tankless", href: "/tankless-water-heaters", w: 304, h: 583 },
+  { src: "/images/water-softener-calgary.png", label: "Water Softeners", href: "/water-softener", w: 800, h: 794 },
 ];
 
 function Stat({ number, label }: { number: string; label: string }) {
