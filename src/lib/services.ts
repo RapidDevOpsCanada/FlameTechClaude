@@ -1209,8 +1209,9 @@ export const services: ServicePage[] = [
               heading: "Annual Boiler Tune-ups",
               body: "Complete system inspection, cleaning, and efficiency testing to prevent breakdowns and reduce gas bills.",
               image: {
-                src: "/images/navine-boiler.png",
-                alt: "Modern residential boiler serviced by FlameTech",
+                src: "/images/FTVAN1.webp",
+                alt: "FlameTech service van — annual boiler tune-ups across Calgary",
+                fit: "cover",
               },
             },
             {
