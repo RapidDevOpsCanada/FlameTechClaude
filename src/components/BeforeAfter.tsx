@@ -113,12 +113,41 @@ export default function BeforeAfter({
           />
         </div>
 
-        {/* Corner labels */}
-        <span className="absolute top-3 left-3 rounded-full bg-ink-900/85 backdrop-blur text-cream-50 text-[10px] font-extrabold uppercase tracking-[0.18em] px-3 py-1.5 pointer-events-none">
+        {/* Divider-anchored labels. Each pill sits flush against the
+            divider on its own side (Before on the left, After on the
+            right) so the slider position always tells you which image
+            is which. As the user drags the handle, the labels slide
+            with it; when the divider hits an edge, the corresponding
+            pill slides out of view (which is the correct cue — there's
+            no image left on that side to label). */}
+        <span
+          className="absolute top-3 rounded-full bg-ink-900/90 backdrop-blur text-cream-50 text-[11px] font-extrabold uppercase tracking-[0.18em] px-3 py-1.5 pointer-events-none flex items-center gap-1.5 shadow-lg"
+          style={{ right: `calc(${100 - pct}% + 10px)` }}
+        >
+          <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" aria-hidden="true">
+            <polyline points="15 18 9 12 15 6" />
+          </svg>
           Before
         </span>
-        <span className="absolute top-3 right-3 rounded-full bg-emergency text-cream-50 text-[10px] font-extrabold uppercase tracking-[0.18em] px-3 py-1.5 pointer-events-none">
+        <span
+          className="absolute top-3 rounded-full bg-emergency text-cream-50 text-[11px] font-extrabold uppercase tracking-[0.18em] px-3 py-1.5 pointer-events-none flex items-center gap-1.5 shadow-lg"
+          style={{ left: `calc(${pct}% + 10px)` }}
+        >
           After
+          <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" aria-hidden="true">
+            <polyline points="9 18 15 12 9 6" />
+          </svg>
+        </span>
+
+        {/* First-load hint — fades out after the user starts dragging.
+            Reinforces the "drag the handle" affordance for users who
+            don't immediately recognise the slider pattern. */}
+        <span
+          className={`absolute bottom-3 left-1/2 -translate-x-1/2 rounded-full bg-ink-900/70 backdrop-blur text-cream-50 text-[10px] font-bold uppercase tracking-[0.14em] px-3 py-1.5 pointer-events-none transition-opacity duration-300 ${
+            pct === initial ? "opacity-100" : "opacity-0"
+          }`}
+        >
+          Drag to compare
         </span>
 
         {/* Divider line + handle */}
