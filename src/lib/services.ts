@@ -1859,7 +1859,7 @@ export const services: ServicePage[] = [
     ],
     heroSubhead: "Trusted Calgary Garage Heater Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
-    heroImage: { src: "/images/2026/04/garage-heater-featured.webp", alt: "Calgary garage with overhead radiant heater installed", fit: "cover" },
+    heroImage: { src: "/images/FTVAN1.webp", alt: "FlameTech service van — garage heater installation and repair across Calgary", fit: "cover" },
     intro:
       "Professional garage heater installation and repair in Calgary. Gas, electric, and radiant heaters. Priority emergency response, licensed gas fitters, 15+ years of Calgary experience.",
     features: [
