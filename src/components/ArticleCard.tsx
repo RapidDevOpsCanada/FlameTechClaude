@@ -47,7 +47,7 @@ export default function ArticleCard({ article }: { article: Article }) {
             {authorBio?.avatar ? (
               <Image
                 src={authorBio.avatar}
-                alt=""
+                alt={`${article.author} — FlameTech author`}
                 width={32}
                 height={32}
                 className="w-8 h-8 rounded-full object-cover border border-line-light shrink-0"

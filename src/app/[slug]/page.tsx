@@ -888,7 +888,7 @@ export default async function ServicePage({
                 >
                   <img
                     src="/images/bbb-accredited-business.svg"
-                    alt=""
+                    alt="BBB Accredited Business seal"
                     className="h-9 w-auto object-contain rounded-md bg-white p-1"
                   />
                   <span className="text-[15px] font-bold text-cream-50 leading-tight group-hover:text-emergency transition-colors">
@@ -1130,7 +1130,7 @@ function InlineReviewBlock({ review }: { review: Review }) {
             // eslint-disable-next-line @next/next/no-img-element
             <img
               src={review.avatar}
-              alt=""
+              alt={`${review.author} — verified Google review for FlameTech`}
               width={40}
               height={40}
               className="w-10 h-10 rounded-full object-cover border border-line-dark shrink-0"

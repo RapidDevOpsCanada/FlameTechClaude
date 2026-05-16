@@ -66,7 +66,7 @@ export default async function ReviewsSection() {
               {featured.avatar ? (
                 <Image
                   src={featured.avatar}
-                  alt=""
+                  alt={`${featured.author} — verified Google review for FlameTech`}
                   width={48}
                   height={48}
                   className="w-12 h-12 rounded-full object-cover border border-line-dark shrink-0"
@@ -109,7 +109,7 @@ export default async function ReviewsSection() {
                   {r.avatar ? (
                     <Image
                       src={r.avatar}
-                      alt=""
+                      alt={`${r.author} — verified Google review for FlameTech`}
                       width={36}
                       height={36}
                       className="w-9 h-9 rounded-full object-cover border border-line-light shrink-0"

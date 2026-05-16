@@ -23,3 +23,28 @@ fi
 # rewritten references, refreshed dimensions module).
 git add public/images src/lib/featured-image-dimensions.ts
 git add -u
+
+# Guard against empty alt="" on rendered images. SEO crawlers count
+# alt="" as missing alt regardless of WCAG decorative-image rules,
+# which drops the site's alt-coverage score and pulls down image SEO.
+# Every <img> and <Image> in this repo must have meaningful alt text —
+# review avatars, author headshots, mega-menu promos, etc. all derive
+# their alt from an adjacent label (author name, promo title) so this
+# is enforceable. If a future image is truly decorative, change the
+# tactic (e.g. wrap in a <span aria-hidden>) rather than alt="".
+staged_tsx=$(git diff --cached --name-only --diff-filter=AM -z \
+  | tr '\0' '\n' \
+  | grep -E '\.(tsx?|jsx?)$' || true)
+
+if [ -n "$staged_tsx" ]; then
+  empty_alts=$(echo "$staged_tsx" | xargs grep -l 'alt=""' 2>/dev/null || true)
+  if [ -n "$empty_alts" ]; then
+    echo "Error: empty alt=\"\" found in:" >&2
+    echo "$empty_alts" | sed 's/^/  /' >&2
+    echo "" >&2
+    echo "Empty alt is counted as 'missing alt' by SEO crawlers." >&2
+    echo "Use meaningful alt text. For avatar/promo images, derive it" >&2
+    echo "from the adjacent label (author name, promo title, etc)." >&2
+    exit 1
+  fi
+fi

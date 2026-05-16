@@ -534,7 +534,7 @@ function MegaPanel({
               <div className="relative h-36 overflow-hidden bg-cream-50 flex items-center justify-center">
                 <Image
                   src={mega.promo.image}
-                  alt=""
+                  alt={mega.promo.title}
                   fill
                   sizes="(max-width: 768px) 100vw, 320px"
                   className="object-cover"
