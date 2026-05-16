@@ -391,7 +391,29 @@ export const services: ServicePage[] = [
         {
           heading: "Calgary Shower Plumbing Expertise You Can Trust",
           intro:
-            "FlameTech's plumbing technicians are licensed journeymen with extensive training on all major shower valve manufacturers. We're certified installers for Kohler, Moen, Delta, and Grohe systems, and we stock parts for most shower valves installed in Calgary over the past 20 years. When you need someone who knows the difference between a thermostatic valve and a pressure balancing valve — and which one works better in your specific situation — you've found us. We work with everything from basic builder-grade shower installations to high-end custom tile work with multiple shower heads and steam systems. Our crew understands Calgary's building codes, knows how to properly waterproof shower surrounds, and can handle the plumbing for complex installations like recirculation pumps for instant hot water delivery. Alberta's weather creates unique challenges for shower plumbing that many contractors don't understand. Chinook temperature swings can cause pipes to expand and contract rapidly, poly-b supply lines are particularly vulnerable to failure, and hard water accelerates wear on valve cartridges.",
+            "Licensed journeymen who've trained on every major shower valve manufacturer and know what actually fails in Calgary homes.",
+          items: [
+            {
+              heading: "Certified on the brands you've got",
+              body: "Factory-trained on Kohler, Moen, Delta, and Grohe systems. We stock cartridges and parts for most shower valves installed in Calgary over the past 20 years, so a repair usually happens on the first visit.",
+            },
+            {
+              heading: "Valves matched to your situation",
+              body: "Thermostatic, pressure-balancing, multi-head, steam — we'll walk you through the difference and recommend what fits your home and water pressure. No upselling a thermostatic valve when a pressure-balancing one does the job.",
+            },
+            {
+              heading: "Builder-grade to high-end custom",
+              body: "From a quick valve swap in a 1990s bungalow to full custom tile work with multiple shower heads, [recirculation pumps](/hot-water-tank-replacement-calgary/) for instant hot water, and steam systems. Same crew, same standard.",
+            },
+            {
+              heading: "Built for Alberta conditions",
+              body: "Chinook temperature swings flex supply lines hard. [Poly-B piping](/polyb-plumbing-calgary/) common in 80s-90s builds is especially prone to fail at shower take-offs, and our hard water chews through valve cartridges faster than spec. We size and spec for what Calgary actually throws at the system.",
+            },
+            {
+              heading: "Code + waterproofing done right",
+              body: "Alberta building code, proper shower-surround waterproofing, and the small details — like correct slope on the pan and the right primer on every joint — that separate a 25-year install from a 5-year leak.",
+            },
+          ],
         },
       ],
       faq: {
