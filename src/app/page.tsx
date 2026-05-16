@@ -649,26 +649,33 @@ export default async function Home() {
               </div>
               <div className="col-span-12 lg:col-span-5 grid grid-cols-2 gap-3">
                 {[
-                  "Calgary NE",
-                  "Calgary NW",
-                  "Calgary SE",
-                  "Calgary SW",
-                  "Airdrie",
-                  "Chestermere",
-                  "Cochrane",
-                  "Okotoks",
-                  "Carstairs",
-                  "Cooper's Crossing",
-                  "Evergreen",
-                  "Signal Hill",
+                  // Communities with dedicated service-area landings get
+                  // linked directly. The ones without (Calgary NE,
+                  // Chestermere, Cochrane, Okotoks, Carstairs) fall back
+                  // to /contact — accurate ("we serve you, get in touch")
+                  // rather than misleading by sending them to a different
+                  // area's landing page.
+                  { name: "Calgary NE", href: "/contact/" },
+                  { name: "Calgary NW", href: "/calgary-plumbers-nw/" },
+                  { name: "Calgary SE", href: "/calgary-plumbers-se/" },
+                  { name: "Calgary SW", href: "/calgary-plumbers-sw/" },
+                  { name: "Airdrie", href: "/airdrie-plumbers/" },
+                  { name: "Chestermere", href: "/contact/" },
+                  { name: "Cochrane", href: "/contact/" },
+                  { name: "Okotoks", href: "/contact/" },
+                  { name: "Carstairs", href: "/contact/" },
+                  { name: "Cooper's Crossing", href: "/coopers-crossing-plumbers/" },
+                  { name: "Evergreen", href: "/evergreen-plumbers-calgary/" },
+                  { name: "Signal Hill", href: "/signal-hill-plumbers-calgary/" },
                 ].map((area) => (
-                  <div
-                    key={area}
-                    className="rounded-xl bg-ink-800 border border-line-dark p-4 flex items-center gap-2 lift"
+                  <Link
+                    key={area.name}
+                    href={area.href}
+                    className="rounded-xl bg-ink-800 border border-line-dark p-4 flex items-center gap-2 lift hover:border-emergency transition-colors group"
                   >
-                    <Icon name="location_on" className="text-primary text-base" />
-                    <span className="text-sm font-semibold">{area}</span>
-                  </div>
+                    <Icon name="location_on" className="text-primary text-base group-hover:text-emergency transition-colors" />
+                    <span className="text-sm font-semibold group-hover:text-cream-50 transition-colors">{area.name}</span>
+                  </Link>
                 ))}
               </div>
             </div>
