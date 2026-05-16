@@ -49,6 +49,15 @@ const nextConfig = {
         destination: "/evergreen-plumbers-calgary",
         permanent: true,
       },
+      // /huntington-hills was an off-pattern slug — every other
+      // neighbourhood page is <area>-plumbers-calgary. Renamed for
+      // consistency + better keyword match; preserve any existing
+      // inbound links via 301.
+      {
+        source: "/huntington-hills",
+        destination: "/huntington-hills-plumbers-calgary",
+        permanent: true,
+      },
       // WP appended -2 to this blog slug; new build uses the canonical
       // slug. Inbound links from the WP version still resolve.
       {

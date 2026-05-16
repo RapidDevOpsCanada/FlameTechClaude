@@ -1358,8 +1358,8 @@ export const services: ServicePage[] = [
     lead:
       "When Calgary's temperatures drop, a reliable furnace isn't just a luxury — it's essential. FlameTech Plumbing & Heating is your trusted local expert for comprehensive furnace services in Calgary.",
     heroBody: [
-      "Whether you need a brand-new high-efficiency furnace installed, urgent repairs to get your heat back on, or routine maintenance to keep things running smoothly, our certified technicians are here to ensure your home stays warm and comfortable all winter long.",
-      "We work with all makes and models but are also a part of the AirEase Pro Team.",
+      "Whether you need a brand-new [high-efficiency furnace](/high-efficiency-furnaces-calgary/) installed, urgent repairs to get your heat back on, or routine maintenance to keep things running smoothly, our certified technicians are here to ensure your home stays warm and comfortable all winter long.",
+      "We work with all makes and models but are also a part of the AirEase Pro Team — see our dedicated [AirEase furnaces page](/air-ease-furnaces-calgary/) for details. Need service north of the city? We cover [furnace repairs in Airdrie](/airdrie-furnace-repairs/) too.",
     ],
     heroSubhead: "Satisfaction Guaranteed",
     heroBadgeImage: {
@@ -2452,8 +2452,8 @@ export const services: ServicePage[] = [
     lead:
       "Calgary homeowners rely on FlameTech Plumbing & Heating for dependable hot water tank solutions. Has your morning shower turned into an unwelcome cold surprise? Maybe you've spotted water pooling around the base of your current unit or noticed your energy bills creeping higher each month.",
     heroBody: [
-      "A properly sized and professionally installed hot water tank makes all the difference for your household's daily comfort and long-term budget.",
-      "FlameTech Plumbing & Heating delivers complete hot water tank services throughout Calgary, from selecting the right capacity for your family's needs to ensuring flawless installation and ongoing maintenance.",
+      "A properly sized and professionally installed hot water tank makes all the difference for your household's daily comfort and long-term budget. Same-day [hot water tank replacement](/hot-water-tank-replacement-calgary/) when your old unit fails, or full [water heater installation](/water-heater-installation-calgary/) when you're building out.",
+      "FlameTech delivers complete hot water tank services throughout Calgary, from selecting the right capacity to flawless installation and ongoing maintenance. Considering an upgrade? Compare against [tankless water heaters](/tankless-water-heaters/) — endless hot water, lower running costs. North of the city, see [hot water tanks Airdrie](/hot-water-tanks-airdrie/).",
     ],
     heroSubhead: "Trusted Hot Water Specialists",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
@@ -5874,7 +5874,7 @@ export const services: ServicePage[] = [
   },
 
   {
-    slug: "huntington-hills",
+    slug: "huntington-hills-plumbers-calgary",
     category: "Plumbing",
     location: "Calgary",
     icon: "plumbing",
@@ -7826,10 +7826,10 @@ export const services: ServicePage[] = [
     icon: "local_fire_department",
     title: "Calgary Boilers — Expert Installation, Repair & Service",
     lead:
-      "When the Calgary chill sets in, a reliable and efficient boiler is essential for keeping your home or business comfortable. FlameTech provides comprehensive boiler services from new installation through annual maintenance.",
+      "When the Calgary chill sets in, a reliable and efficient boiler is essential for keeping your home or business comfortable. FlameTech handles the full lifecycle: [boiler installation](/boiler-installation-calgary/), [boiler repair](/boiler-repair-calgary/), and [annual boiler service](/boiler-service-calgary/) — one team, one number, every part of the job.",
     heroBody: [
       "Whether you're upgrading an aging cast iron boiler in a Mount Royal heritage home or specifying a new condensing system for a Cranston build, we handle every part of the job — heat-loss calc, gas + venting + condensate, install, commissioning, and warranty registration.",
-      "Locally owned and operated. Every technician is licensed gas fitter and Red Seal certified. Manufacturer-trained on Navien, IBC, Viessmann, and Triangle Tube.",
+      "Locally owned and operated. Every technician is licensed gas fitter and Red Seal certified. Manufacturer-trained on Navien, IBC, Viessmann, and Triangle Tube. Also serving [boilers in Airdrie](/boilers-airdrie/) and [boiler installation Airdrie](/boiler-installation-airdrie/).",
     ],
     heroSubhead: "Calgary's Boiler Specialists",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },

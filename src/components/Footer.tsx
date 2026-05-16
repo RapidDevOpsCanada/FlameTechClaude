@@ -68,15 +68,20 @@ const airdrieLinks = [
   { label: "Reunion Plumbers", href: "/reunion-plumbers-airdrie" },
 ];
 
-const serviceAreas: { label: string; href?: string }[] = [
-  { label: "Calgary NE" },
+// Every entry has an href. For areas without a dedicated landing
+// (NE, Chestermere, Cochrane, Okotoks) we send users to /contact —
+// accurate ("we serve you, get in touch") and avoids dead labels in
+// the footer that hurt SEO crawler link-coverage scores.
+const serviceAreas: { label: string; href: string }[] = [
+  { label: "Calgary NE", href: "/contact" },
   { label: "Calgary NW", href: "/calgary-plumbers-nw" },
   { label: "Calgary SE", href: "/calgary-plumbers-se" },
   { label: "Calgary SW", href: "/calgary-plumbers-sw" },
+  { label: "Huntington Hills", href: "/huntington-hills-plumbers-calgary" },
   { label: "Airdrie", href: "/airdrie-plumbers" },
-  { label: "Chestermere" },
-  { label: "Cochrane" },
-  { label: "Okotoks" },
+  { label: "Chestermere", href: "/contact" },
+  { label: "Cochrane", href: "/contact" },
+  { label: "Okotoks", href: "/contact" },
 ];
 
 export default function Footer() {
@@ -167,26 +172,16 @@ export default function Footer() {
               Service Area
             </p>
             <div className="flex flex-wrap gap-2">
-              {serviceAreas.map((area) =>
-                area.href ? (
-                  <Link
-                    key={area.label}
-                    href={area.href}
-                    className="inline-flex items-center gap-1.5 rounded-full bg-ink-800 border border-line-dark px-3.5 py-1.5 text-[14px] text-cream-50/90 hover:border-emergency hover:text-emergency transition-colors"
-                  >
-                    <Icon name="location_on" className="text-primary text-base" />
-                    {area.label}
-                  </Link>
-                ) : (
-                  <span
-                    key={area.label}
-                    className="inline-flex items-center gap-1.5 rounded-full bg-ink-800 border border-line-dark px-3.5 py-1.5 text-[14px] text-cream-50/90"
-                  >
-                    <Icon name="location_on" className="text-primary text-base" />
-                    {area.label}
-                  </span>
-                ),
-              )}
+              {serviceAreas.map((area) => (
+                <Link
+                  key={area.label}
+                  href={area.href}
+                  className="inline-flex items-center gap-1.5 rounded-full bg-ink-800 border border-line-dark px-3.5 py-1.5 text-[14px] text-cream-50/90 hover:border-emergency hover:text-emergency transition-colors"
+                >
+                  <Icon name="location_on" className="text-primary text-base" />
+                  {area.label}
+                </Link>
+              ))}
               <span className="inline-flex items-center rounded-full bg-ink-800 border border-line-dark px-3.5 py-1.5 text-[14px] text-cream-50/80">
                 + surrounding communities
               </span>
