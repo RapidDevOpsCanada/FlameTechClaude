@@ -1990,7 +1990,7 @@ export const services: ServicePage[] = [
     ],
     heroSubhead: "Year-Round Comfort",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
-    heroImage: { src: "/images/2026/01/image.webp", alt: "AirEase cold-climate heat pump installed by FlameTech" },
+    heroImage: { src: "/images/2026/05/air-ease-heat-pump.webp", alt: "AirEase outdoor heat pump condenser installed by FlameTech", fit: "contain" },
     intro:
       "Expert heat pump installation, repair, and maintenance in Calgary. Energy-efficient heating and cooling for Alberta homes.",
     features: [

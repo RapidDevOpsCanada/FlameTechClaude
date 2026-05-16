@@ -80,6 +80,7 @@ export const featuredImageDimensions: Record<string, { w: number; h: number }> =
   "/images/2026/04/garage-heater-featured.webp": { w: 1312, h: 736 },
   "/images/2026/04/humidifier-install-calgary.jpg": { w: 800, h: 579 },
   "/images/2026/04/why-does-my-boiler-keep-turning-off-featured.webp": { w: 1312, h: 736 },
+  "/images/2026/05/air-ease-heat-pump.webp": { w: 250, h: 250 },
   "/images/FT-LOGO-DARK8.png": { w: 300, h: 183 },
   "/images/FT-Logo.webp": { w: 618, h: 391 },
   "/images/FTVAN.jpg": { w: 800, h: 486 },
