@@ -263,7 +263,25 @@ export const services: ServicePage[] = [
         {
           heading: "Calgary Bathroom Plumbing Expertise You Can Trust",
           intro:
-            "FlameTech's bathroom plumbing technicians are certified for all major fixture brands and hold current Alberta plumbing licenses. We've completed thousands of bathroom renovations and repairs across Calgary, from emergency calls in established neighbourhoods to full hot water tank installations serving new master bathrooms. We work with every major bathroom fixture brand sold in Calgary — Kohler, Moen, Delta, American Standard, and the builder-grade fixtures common in newer developments. Our trucks stock parts for the mixing valves, fill valves, and faucet cartridges that fail most often in Calgary homes built between 2005-2015. Alberta's temperature extremes put serious stress on bathroom plumbing — from frozen pipes during cold snaps to thermal expansion during chinooks. We understand how Calgary's climate affects bathroom fixtures and always account for temperature movement when installing new plumbing. Hard water is another constant challenge that we factor into every repair and installation recommendation.",
+            "Alberta-licensed plumbers with thousands of bathroom calls behind us — from quick emergency fixes to full reno-stage rough-ins.",
+          items: [
+            {
+              heading: "Every major fixture brand",
+              body: "Certified on Kohler, Moen, Delta, American Standard, and the builder-grade fixtures common in newer developments. We carry parts for mixing valves, fill valves, and faucet cartridges that fail most often in Calgary homes built 2005-2015.",
+            },
+            {
+              heading: "Reno scope to emergency call",
+              body: "Same crew handles a 2am toilet overflow and a full master-bath reno. We coordinate with tile, drywall, and electrical so the plumbing rough-in lands on schedule.",
+            },
+            {
+              heading: "Built for Alberta conditions",
+              body: "Cold-snap freeze risk, chinook thermal expansion, and hard-water scale all shape how we route, fasten, and spec fixtures. Our installs account for movement and mineral load instead of pretending they don't exist.",
+            },
+            {
+              heading: "Calgary code + permits handled",
+              body: "City of Calgary plumbing permit, inspections booked, and Alberta plumbing code applied. You don't chase paperwork.",
+            },
+          ],
         },
       ],
       faq: {
@@ -666,7 +684,25 @@ export const services: ServicePage[] = [
         {
           heading: "Emergency Plumbers Serving All of Calgary",
           intro:
-            "When plumbing disasters strike anywhere in Calgary, our emergency response team is ready to help. We provide urgent service throughout all Calgary quadrants and surrounding communities including Airdrie, Chestermere, Okotoks, and Cochrane. Our fully-stocked emergency vehicles are strategically positioned throughout the Calgary region for the fastest possible response times to your plumbing crisis. Whether you're downtown, in the suburbs, or in outlying areas, you can count on FlameTech's emergency plumbers to arrive quickly with the expertise and equipment needed to resolve your plumbing emergency and prevent further damage to your home.",
+            "When plumbing disasters strike, response time and a fully-stocked truck matter more than anything else.",
+          items: [
+            {
+              heading: "Every Calgary quadrant + nearby cities",
+              body: "Calgary NE/NW/SE/SW plus Airdrie, Chestermere, Okotoks, and Cochrane. Trucks positioned across the region for the fastest possible response.",
+            },
+            {
+              heading: "Trucks stocked for the common emergencies",
+              body: "Burst supply lines, water-heater failures, sewer backups, frozen pipes. Most calls resolve on the first visit because the part is already on the van.",
+            },
+            {
+              heading: "Real plumbers answer the phone",
+              body: "Not a call centre, not voicemail. The same person dispatching you is licensed to do the work. That's why same-day-or-faster response actually happens.",
+            },
+            {
+              heading: "Damage containment first",
+              body: "On arrival we stop the water, isolate the system, and assess. Quote and full repair come after the bleeding stops — minimising flood damage costs.",
+            },
+          ],
         },
       ],
       faq: {
@@ -782,7 +818,25 @@ export const services: ServicePage[] = [
         {
           heading: "Poly-B Services Throughout Calgary & Surrounding Communities",
           intro:
-            "FlameTech serves the entire Calgary metropolitan area where Poly-B installations remain prevalent in homes built during the 1980s and 1990s construction boom. Our replacement services extend throughout all four Calgary quadrants plus neighboring communities including Airdrie, Chestermere, Okotoks, and Cochrane. We're particularly familiar with neighborhoods developed during polybutylene's peak usage years and understand the specific installation patterns common to Calgary builders of that era. Whether you need emergency leak repair after a Poly-B failure or want to proactively replace your entire system before problems develop, our experienced technicians provide thorough assessments, transparent pricing, and professional installations that restore confidence in your home's plumbing infrastructure.",
+            "Where we're seeing Poly-B failures and what we do about them.",
+          items: [
+            {
+              heading: "All four Calgary quadrants + surrounding cities",
+              body: "Calgary NE/NW/SE/SW plus Airdrie, Chestermere, Okotoks, and Cochrane. The 1980s-90s construction boom put Poly-B into homes across all of these — we work in them every week.",
+            },
+            {
+              heading: "Neighbourhoods built in the Poly-B peak window",
+              body: "[Mahogany](/mahogany-plumbers-calgary/), [Tuscany](/tuscany-plumbers-calgary/), [Evergreen](/evergreen-plumbers-calgary/), [Edgemont](/edgemont-plumbers-calgary/), [Huntington Hills](/huntington-hills-plumbers-calgary/), and [Varsity](/varsity-plumbers-calgary/) all saw heavy polybutylene installation. We know the builders' typical routing and which fittings tend to fail first.",
+            },
+            {
+              heading: "Emergency leak or proactive replacement",
+              body: "Same crew handles 2am pipe-failure water damage and pre-emptive whole-home re-pipes. If you've had even one fitting let go, the rest are on the clock.",
+            },
+            {
+              heading: "Transparent pricing, real assessment",
+              body: "Free inspection, written quote, no upsell pressure. If a partial replacement makes more sense than a full re-pipe, we'll say so.",
+            },
+          ],
         },
       ],
       faq: {
@@ -2448,7 +2502,29 @@ export const services: ServicePage[] = [
         {
           heading: "Calgary Humidifier Expertise You Can Trust",
           intro:
-            "We've been installing humidifiers in Calgary since 2008 and we're certified on all major brands — Aprilaire, Honeywell, GeneralAire, and Skuttle. Most Calgary homes need 600-800 gallons per day capacity because of our dry climate and forced-air heating. We properly size units based on your home's square footage, ductwork design, and furnace capacity — no guesswork. Calgary's building boom means we work on everything from 1960s bungalows to 2023 luxury homes. Older homes often need ductwork modifications for proper humidifier installation. Newer builds frequently have undersized units because builders went cheap. We know which systems work best with high-efficiency furnaces and which ones cause condensation problems in Calgary's climate. Alberta winters are brutal on humidifiers — we regularly see -35°C with 10% humidity. Chinooks create wild temperature swings that stress mechanical components. Our installations account for these extremes with proper drainage, oversized water lines, and controls that prevent over-humidification during warm spells.",
+            "Installing humidifiers in Calgary since 2008 — certified on the brands you'll actually see in homes here, sized for what Alberta winters really do.",
+          items: [
+            {
+              heading: "Certified on every major brand",
+              body: "[Aprilaire](https://www.aprilaire.com/), [Honeywell](https://www.honeywellhome.com/), GeneralAire, and Skuttle. We stock parts for the units we install, so service is fast.",
+            },
+            {
+              heading: "Sized for our dry climate",
+              body: "Most Calgary homes need 600-800 gallons per day because of forced-air heating and -35°C dry spells. We size based on square footage, ductwork, and furnace capacity — not a guess off the side of the box.",
+            },
+            {
+              heading: "Works on 1960s bungalow to 2023 luxury build",
+              body: "Older homes often need ductwork modifications for proper humidifier installation. Newer builds frequently have undersized units because the builder cheaped out. We assess what's there before quoting.",
+            },
+            {
+              heading: "Plays nice with high-efficiency furnaces",
+              body: "We know which humidifiers cause condensation problems on [high-efficiency furnaces](/high-efficiency-furnaces-calgary/) and which run cleanly. Right pairing matters as much as the unit choice.",
+            },
+            {
+              heading: "Built for chinook swings",
+              body: "Wild temperature swings stress mechanical components. Our installs use proper drainage, oversized water lines, and outdoor-temperature-aware controls that prevent over-humidification when it warms up suddenly.",
+            },
+          ],
         },
       ],
       faq: {
