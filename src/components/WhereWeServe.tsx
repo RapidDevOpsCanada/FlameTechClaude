@@ -76,8 +76,7 @@ export default function WhereWeServe({ serviceTitle }: { serviceTitle: string })
               ))}
             </div>
             <p className="mt-5 text-sm text-cream-50/70">
-              Not listed? We cover Chestermere, Cochrane, Okotoks, and
-              Carstairs too — <Link href="/contact/" className="underline decoration-primary/40 underline-offset-4 hover:decoration-primary hover:text-primary transition-colors">get in touch</Link>.
+              Also serving <Link href="/chestermere-plumbers/" className="underline decoration-primary/40 underline-offset-4 hover:decoration-primary hover:text-primary transition-colors">Chestermere</Link>, <Link href="/cochrane-plumbers/" className="underline decoration-primary/40 underline-offset-4 hover:decoration-primary hover:text-primary transition-colors">Cochrane</Link>, <Link href="/okotoks-plumbers/" className="underline decoration-primary/40 underline-offset-4 hover:decoration-primary hover:text-primary transition-colors">Okotoks</Link>, and <Link href="/carstairs-plumbers/" className="underline decoration-primary/40 underline-offset-4 hover:decoration-primary hover:text-primary transition-colors">Carstairs</Link>.
             </p>
           </div>
         </div>

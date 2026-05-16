@@ -48,7 +48,7 @@ export type ServicePage = {
   slug: string;
   category: "Plumbing" | "Heating" | "Air" | "Water";
   /** City this page targets. Defaults to "Calgary" when omitted. */
-  location?: "Calgary" | "Airdrie";
+  location?: "Calgary" | "Airdrie" | "Chestermere" | "Cochrane" | "Okotoks" | "Carstairs";
   icon: string;
   title: string;
   /** First hero paragraph (strong lead). */
@@ -8299,6 +8299,345 @@ export const services: ServicePage[] = [
           { q: "What AirEase furnace models do you recommend for Calgary homes?", a: "We recommend AirEase modulating furnaces for maximum efficiency and comfort in Calgary's variable climate — their infinite heat adjustments eliminate temperature swings during chinooks and provide whisper-quiet operation. Budget-conscious homeowners appreciate AirEase's single-stage models offering reliable performance and straightforward maintenance at accessible pricing. For balanced performance and value, two-stage models provide substantial efficiency improvements over basic units while costing less than premium modulating systems." },
           { q: "Do you service older AirEase furnace models?", a: "Yes — our trained technicians service AirEase furnaces across all model years and efficiency levels. We maintain relationships with parts suppliers, ensuring access to components for legacy systems, though availability becomes limited for units exceeding 20 years of age. For older furnaces, we provide honest assessments comparing repair costs against replacement benefits." },
           { q: "What kind of warranty comes with an AirEase install?", a: "AirEase furnaces come with strong manufacturer warranties on both heat exchangers (often 10-20 years) and parts (5-10 years depending on model and registration). As Pro Team members, we register the warranty for you and handle any claims directly with AirEase — no homeowner paperwork chasing. We also back our installation work with our own workmanship warranty." },
+        ],
+      },
+    },
+  },
+
+  // ────────────────────────────────────────────────────────────
+  // Surrounding-area landings — Chestermere, Cochrane, Okotoks,
+  // Carstairs. Lighter than the in-Calgary neighbourhood pages
+  // because the search volume per term is lower; the goal here is
+  // to rank for "[town] plumber" and avoid sending those visitors
+  // to a generic /contact fallback.
+  // ────────────────────────────────────────────────────────────
+
+  {
+    slug: "chestermere-plumbers",
+    category: "Plumbing",
+    location: "Chestermere",
+    icon: "plumbing",
+    title: "Chestermere Plumbers | Plumbing & Heating Service",
+    lead:
+      "Chestermere homes share Calgary's hard water and chinook freeze-thaw cycles — and the same Poly-B-era construction window in the older lakeside neighbourhoods. FlameTech serves Chestermere with the same priority dispatch and Red Seal-certified team we run in Calgary.",
+    heroBody: [
+      "From Lakeview Landing to Westmere and Rainbow Falls, we cover Chestermere for [emergency plumbing](/emergency-plumber-calgary/), [hot water tank](/hot-water-tanks/) replacement, [boiler service](/boiler-service-calgary/), and [Poly-B replacement](/polyb-plumbing-calgary/) on older builds.",
+      "Local team, fair pricing, real person on the phone. Call 587-834-3668 — we'll dispatch quickly from our Calgary base.",
+    ],
+    heroSubhead: "Chestermere Plumbing & Heating Specialists",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/FTVAN1.webp", alt: "FlameTech plumbing service van — Chestermere coverage", fit: "cover" },
+    intro:
+      "Professional plumbers serving Chestermere. Priority emergency response, hot water tanks, boilers, drain cleaning, and Poly-B replacement. Licensed, insured, honest pricing.",
+    features: [
+      "Priority emergency plumbing",
+      "Hot water tank install & repair",
+      "Boiler & furnace service",
+      "Drain cleaning & sewer camera",
+      "Poly-B identification & replacement",
+      "Water softener install",
+    ],
+    bullets: [
+      { t: "Quick dispatch from Calgary", d: "Trucks roll east on 17 Ave or Glenmore directly into Chestermere — most calls land within 60-90 minutes." },
+      { t: "Licensed & insured", d: "Alberta-licensed plumbers and gas fitters. Full liability coverage protecting your property." },
+      { t: "Hard-water aware", d: "Same well-and-treatment water profile as east Calgary. We size and spec for the mineral load, not against a generic baseline." },
+    ],
+    seoTitle: "Chestermere Plumbers | Plumbing & Heating Services",
+    seoDescription:
+      "Trusted Chestermere plumbers. Priority emergency response, hot water tanks, boilers, Poly-B replacement, and drain cleaning. Licensed and insured.",
+    seoKeywords: [
+      "Chestermere plumbers",
+      "plumber Chestermere",
+      "Chestermere plumbing and heating",
+      "emergency plumber Chestermere",
+      "Chestermere boiler repair",
+      "FlameTech Plumbing",
+    ],
+    quoteFormLabel: "Chestermere plumbing",
+    quoteFormPlaceholder:
+      "e.g. burst pipe, hot water tank failing, boiler not firing, sewer backup…",
+    sidebar: {
+      title: "Chestermere Plumbers",
+      subtitle:
+        "Lakeside community coverage with the same crew that serves Calgary.",
+      bullets: [
+        "60-90 minute Chestermere ETA",
+        "Licensed, insured, bonded",
+        "Real person answers the phone",
+        "Poly-B specialists for older lakeside builds",
+      ],
+    },
+    callout:
+      "Emergency in Chestermere? Call 587-834-3668 — a real person will dispatch a plumber right away.",
+    richContent: {
+      sections: [
+        {
+          heading: "What we cover in Chestermere",
+          intro:
+            "Same scope as our Calgary service, dispatched east into Chestermere.",
+          items: [
+            { heading: "Emergency plumbing", body: "Burst pipes, failing supply lines, sewer backups. Trucks stocked for first-visit resolution. See [emergency plumber Calgary](/emergency-plumber-calgary/) for the full scope." },
+            { heading: "Hot water tank service + install", body: "Same-day replacement when your old unit fails. We install Bradford White and John Wood — the brands that hold up best to hard water. See [hot water tanks](/hot-water-tanks/) and [tank replacement](/hot-water-tank-replacement-calgary/)." },
+            { heading: "Boiler & furnace work", body: "Annual [boiler service](/boiler-service-calgary/), urgent [boiler repair](/boiler-repair-calgary/), and full [furnace](/furnaces/) install on every major brand." },
+            { heading: "Drain cleaning + sewer camera", body: "Hydro-jetting and camera inspection for slow drains and full main-line backups. See [drain cleaning Calgary](/drain-cleaning-calgary/)." },
+            { heading: "Poly-B replacement", body: "Older Chestermere builds along the lake have Poly-B supply lines that fail at fittings. Free inspection, written quote. See [Poly-B replacement Calgary](/polyb-plumbing-calgary/)." },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Chestermere Plumbing FAQs",
+        items: [
+          { q: "Do you dispatch to Chestermere for emergencies?", a: "Yes — Chestermere is on our regular dispatch radius. Most emergency calls land in 60-90 minutes depending on time of day and where in town you are." },
+          { q: "Is plumbing in Chestermere different from Calgary?", a: "The water profile and chinook freeze-thaw cycles are the same as east Calgary. Older lake-area builds from the 80s-90s often have Poly-B piping that needs attention — same pattern as Mahogany or McKenzie Lake." },
+          { q: "Are FlameTech plumbers licensed for Chestermere?", a: "Yes. Our Alberta plumbing and gas-fitting licenses cover Chestermere, Cochrane, Okotoks, Carstairs, and the rest of Calgary's surrounding municipalities." },
+        ],
+      },
+    },
+  },
+
+  {
+    slug: "cochrane-plumbers",
+    category: "Plumbing",
+    location: "Cochrane",
+    icon: "plumbing",
+    title: "Cochrane Plumbers | Plumbing & Heating Service",
+    lead:
+      "Cochrane homes face Calgary's freeze-thaw cycles plus the added wear of well water in some acreage areas. FlameTech serves Cochrane with the same priority dispatch and Red Seal team we run in Calgary — proper sizing for the local conditions, no upselling.",
+    heroBody: [
+      "From Riverview and Sunset Ridge to GlenEagles and Heartland, we cover Cochrane for [emergency plumbing](/emergency-plumber-calgary/), [hot water tanks](/hot-water-tanks/), [boiler service](/boiler-service-calgary/), [furnace repair](/furnaces/), and [water softener install](/water-softener/) for well-fed properties.",
+      "Trucks dispatched NW on Highway 1A — typical Cochrane ETA is 75-90 minutes. Call 587-834-3668 for priority service.",
+    ],
+    heroSubhead: "Cochrane Plumbing & Heating Team",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/FTVAN1.webp", alt: "FlameTech plumbing service van — Cochrane coverage", fit: "cover" },
+    intro:
+      "Professional plumbers serving Cochrane, AB. Priority emergency response, hot water tanks, boilers, furnaces, well-water softener installs. Licensed and insured.",
+    features: [
+      "Priority emergency plumbing",
+      "Hot water tank install & repair",
+      "Boiler & furnace service",
+      "Drain cleaning & sewer camera",
+      "Well-water softener systems",
+      "Acreage plumbing experience",
+    ],
+    bullets: [
+      { t: "Acreage + well-water experience", d: "Many Cochrane properties run off well water with substantially higher mineral and iron levels than Calgary's treated supply. We size softeners and spec tanks accordingly." },
+      { t: "Trucks dispatched NW", d: "Typical Cochrane ETA is 75-90 minutes via Highway 1A. Same crew that services Tuscany and Edgemont." },
+      { t: "Licensed gas fitters", d: "Alberta-licensed plumbers and B2 gas fitters — boiler, furnace, and water-heater work all in scope." },
+    ],
+    seoTitle: "Cochrane Plumbers | Plumbing & Heating Services",
+    seoDescription:
+      "Trusted Cochrane plumbers. Priority emergency response, hot water tanks, boilers, furnace repair, well-water softeners. Licensed and insured.",
+    seoKeywords: [
+      "Cochrane plumbers",
+      "plumber Cochrane AB",
+      "Cochrane plumbing and heating",
+      "emergency plumber Cochrane",
+      "Cochrane well water softener",
+      "FlameTech Plumbing",
+    ],
+    quoteFormLabel: "Cochrane plumbing",
+    quoteFormPlaceholder:
+      "e.g. well-water softener install, hot water tank failing, boiler service, acreage plumbing…",
+    sidebar: {
+      title: "Cochrane Plumbers",
+      subtitle:
+        "NW Calgary coverage extends to Cochrane — same crew, same standards.",
+      bullets: [
+        "75-90 minute Cochrane ETA",
+        "Licensed, insured, bonded",
+        "Well-water + acreage experience",
+        "Real person answers the phone",
+      ],
+    },
+    callout:
+      "Cochrane emergency? Call 587-834-3668 — real dispatcher, fast response, fully-stocked truck.",
+    richContent: {
+      sections: [
+        {
+          heading: "What we cover in Cochrane",
+          intro:
+            "Same scope as our NW Calgary service, dispatched west on Highway 1A.",
+          items: [
+            { heading: "Emergency plumbing", body: "Burst pipes, no-water calls, sewer backups. See [emergency plumber Calgary](/emergency-plumber-calgary/) for the full scope." },
+            { heading: "Well-water softener installs", body: "Cochrane well water often runs much harder than Calgary's treated supply, with higher iron. We size and spec [water softeners](/water-softener/) for the actual test results, not a generic baseline." },
+            { heading: "Hot water tanks + tankless", body: "Same-day [hot water tank](/hot-water-tanks/) replacement, plus [tankless](/tankless-water-heaters/) installs for larger acreage homes that run out of capacity on a tank." },
+            { heading: "Boiler & furnace service", body: "Annual [boiler service](/boiler-service-calgary/), urgent [boiler repair](/boiler-repair-calgary/), [furnace install](/furnaces/), and [high-efficiency furnace](/high-efficiency-furnaces-calgary/) upgrades." },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Cochrane Plumbing FAQs",
+        items: [
+          { q: "Do you do well-water work in Cochrane?", a: "Yes — we install and service softeners, filtration, pressure tanks, and pump-side plumbing on Cochrane acreage properties. Bring us a recent water test (or we can take one) and we'll spec the right system." },
+          { q: "How long does it take you to get to Cochrane?", a: "Typically 75-90 minutes depending on time of day. We dispatch from Calgary along Highway 1A. Priority emergency calls take precedence." },
+          { q: "Are you licensed to work in Cochrane?", a: "Yes. Alberta plumbing and gas-fitting licenses cover all surrounding municipalities including Cochrane, plus Town of Cochrane permits where required." },
+        ],
+      },
+    },
+  },
+
+  {
+    slug: "okotoks-plumbers",
+    category: "Plumbing",
+    location: "Okotoks",
+    icon: "plumbing",
+    title: "Okotoks Plumbers | Plumbing & Heating Service",
+    lead:
+      "Okotoks homes share Calgary's hard water and chinook stress — plus a substantial stock of 90s-era builds with Poly-B piping reaching end-of-life. FlameTech runs the same Red Seal team in Okotoks as in Calgary, with priority dispatch from the south.",
+    heroBody: [
+      "From Drake Landing and Cimarron to Air Ranch and downtown Okotoks, we cover the full town for [emergency plumbing](/emergency-plumber-calgary/), [hot water tank](/hot-water-tanks/) work, [boiler service](/boiler-service-calgary/), [furnace repair](/furnaces/), and [Poly-B replacement](/polyb-plumbing-calgary/).",
+      "Trucks dispatched south on Highway 2 — typical Okotoks ETA is 60-75 minutes. Call 587-834-3668 for fast service.",
+    ],
+    heroSubhead: "Okotoks Plumbing & Heating Specialists",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/FTVAN1.webp", alt: "FlameTech plumbing service van — Okotoks coverage", fit: "cover" },
+    intro:
+      "Professional plumbers serving Okotoks, AB. Priority emergency response, hot water tanks, boilers, furnace repair, Poly-B replacement. Licensed and insured.",
+    features: [
+      "Priority emergency plumbing",
+      "Hot water tank install & repair",
+      "Boiler & furnace service",
+      "Poly-B identification & replacement",
+      "Drain cleaning & sewer camera",
+      "Water softener installs",
+    ],
+    bullets: [
+      { t: "Poly-B specialists", d: "Many Okotoks 90s builds — Drake Landing, original Cimarron — have Poly-B supply lines now hitting 25-30 years and failing at fittings. We do free inspections and written quotes." },
+      { t: "60-75 minute ETA", d: "Trucks dispatched south on Highway 2. Same crew that services [Chaparral](/chaparral-plumbers-calgary/) and [Cranston](/cranston-plumber-calgary/)." },
+      { t: "Licensed & insured", d: "Alberta plumbing and gas-fitting licenses, full liability coverage." },
+    ],
+    seoTitle: "Okotoks Plumbers | Plumbing & Heating Services",
+    seoDescription:
+      "Trusted Okotoks plumbers. Priority emergency response, hot water tanks, boilers, furnace repair, Poly-B replacement. Licensed and insured.",
+    seoKeywords: [
+      "Okotoks plumbers",
+      "plumber Okotoks",
+      "Okotoks plumbing and heating",
+      "emergency plumber Okotoks",
+      "Poly-B Okotoks",
+      "FlameTech Plumbing",
+    ],
+    quoteFormLabel: "Okotoks plumbing",
+    quoteFormPlaceholder:
+      "e.g. Poly-B inspection on a 90s build, hot water tank failing, boiler service, sewer backup…",
+    sidebar: {
+      title: "Okotoks Plumbers",
+      subtitle:
+        "SE Calgary coverage extends south to Okotoks — same team, same standards.",
+      bullets: [
+        "60-75 minute Okotoks ETA",
+        "Licensed, insured, bonded",
+        "Poly-B replacement specialists",
+        "Real person answers the phone",
+      ],
+    },
+    callout:
+      "Okotoks emergency? Call 587-834-3668 — real dispatcher, fast response, fully-stocked truck.",
+    richContent: {
+      sections: [
+        {
+          heading: "What we cover in Okotoks",
+          intro:
+            "Same scope as our SE Calgary service, dispatched south on Highway 2.",
+          items: [
+            { heading: "Emergency plumbing", body: "Burst pipes, no-water calls, sewer backups. See [emergency plumber Calgary](/emergency-plumber-calgary/) for the full scope." },
+            { heading: "Poly-B replacement", body: "Drake Landing, Cimarron, and other 90s-era Okotoks builds are right in the Poly-B failure window. Free inspection, written quote. See [Poly-B replacement Calgary](/polyb-plumbing-calgary/) for the full process." },
+            { heading: "Hot water tanks", body: "Same-day [tank replacement](/hot-water-tank-replacement-calgary/) on Bradford White and John Wood, plus [tankless](/tankless-water-heaters/) installs." },
+            { heading: "Boiler & furnace service", body: "Annual [boiler service](/boiler-service-calgary/), [boiler repair](/boiler-repair-calgary/), [furnace](/furnaces/) install, [high-efficiency furnaces](/high-efficiency-furnaces-calgary/) for cold-snap performance." },
+            { heading: "Drain cleaning", body: "Hydro-jetting and camera inspection. See [drain cleaning Calgary](/drain-cleaning-calgary/)." },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Okotoks Plumbing FAQs",
+        items: [
+          { q: "How fast can you get to Okotoks?", a: "Typically 60-75 minutes from Calgary via Highway 2. Priority emergency calls take precedence in scheduling." },
+          { q: "Do many Okotoks homes have Poly-B?", a: "Yes — substantial portions of Drake Landing, original Cimarron, and other 90s-era builds were piped with polybutylene. Most are now at 25-30 years and starting to fail at fittings. If yours hasn't been inspected, it's worth a free look." },
+          { q: "Are you licensed for Okotoks?", a: "Yes. Alberta plumbing and gas-fitting licenses cover Okotoks, plus we handle Town of Okotoks permits where required." },
+        ],
+      },
+    },
+  },
+
+  {
+    slug: "carstairs-plumbers",
+    category: "Plumbing",
+    location: "Carstairs",
+    icon: "plumbing",
+    title: "Carstairs Plumbers | Plumbing & Heating Service",
+    lead:
+      "Carstairs sits an hour north of Calgary and shares Airdrie's water profile and acreage mix. FlameTech runs priority dispatch north from Calgary via Airdrie — same Red Seal team, same standards.",
+    heroBody: [
+      "We cover Carstairs for [emergency plumbing](/emergency-plumber-calgary/), [hot water tanks](/hot-water-tanks/), [boiler service](/boiler-service-calgary/), [furnace repair](/furnaces/), [Poly-B replacement](/polyb-plumbing-calgary/), and [well-water softeners](/water-softener/) on acreage properties.",
+      "Trucks dispatched north on Highway 2 through [Airdrie](/airdrie-plumbers/) — typical Carstairs ETA is 90 minutes. Call 587-834-3668 for priority dispatch.",
+    ],
+    heroSubhead: "Carstairs Plumbing & Heating Team",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/FTVAN1.webp", alt: "FlameTech plumbing service van — Carstairs coverage", fit: "cover" },
+    intro:
+      "Plumbers serving Carstairs, AB. Priority emergency response, hot water tanks, boilers, furnace repair, well-water softeners, Poly-B replacement. Licensed and insured.",
+    features: [
+      "Priority emergency plumbing",
+      "Hot water tank install & repair",
+      "Boiler & furnace service",
+      "Well-water softener systems",
+      "Poly-B identification & replacement",
+      "Acreage plumbing experience",
+    ],
+    bullets: [
+      { t: "Acreage + well-water experience", d: "Many Carstairs properties run on well water with high mineral and iron levels. We test, size, and spec — not guess." },
+      { t: "Routed through Airdrie", d: "Same crew that services [Airdrie](/airdrie-plumbers/), [Reunion](/reunion-plumbers-airdrie/), and [Ravenswood](/ravenswood-plumbers-airdrie/). Typical Carstairs ETA is 90 minutes." },
+      { t: "Licensed gas fitters", d: "Alberta plumbing and B2 gas fitting licenses — boilers, furnaces, water heaters all in scope." },
+    ],
+    seoTitle: "Carstairs Plumbers | Plumbing & Heating Services",
+    seoDescription:
+      "Trusted Carstairs plumbers. Priority emergency response, hot water tanks, boilers, furnace repair, well-water softeners, Poly-B replacement.",
+    seoKeywords: [
+      "Carstairs plumbers",
+      "plumber Carstairs AB",
+      "Carstairs plumbing and heating",
+      "emergency plumber Carstairs",
+      "Carstairs well water softener",
+      "FlameTech Plumbing",
+    ],
+    quoteFormLabel: "Carstairs plumbing",
+    quoteFormPlaceholder:
+      "e.g. well-water softener install, hot water tank failing, boiler service, acreage plumbing…",
+    sidebar: {
+      title: "Carstairs Plumbers",
+      subtitle:
+        "Coverage north of Airdrie — same crew that serves Calgary.",
+      bullets: [
+        "90 minute Carstairs ETA",
+        "Licensed, insured, bonded",
+        "Well-water + acreage experience",
+        "Real person answers the phone",
+      ],
+    },
+    callout:
+      "Carstairs emergency? Call 587-834-3668 — real dispatcher, fast response, fully-stocked truck.",
+    richContent: {
+      sections: [
+        {
+          heading: "What we cover in Carstairs",
+          intro:
+            "Same scope as our Airdrie service, dispatched further north.",
+          items: [
+            { heading: "Emergency plumbing", body: "Burst pipes, no-water calls, sewer backups. See [emergency plumber Calgary](/emergency-plumber-calgary/) for the full scope." },
+            { heading: "Well-water softener installs", body: "Carstairs well water typically runs harder than treated municipal supply. We size [softeners](/water-softener/) based on actual test results — not the side of the box." },
+            { heading: "Hot water tanks + tankless", body: "[Hot water tank](/hot-water-tanks/) and [tankless](/tankless-water-heaters/) installs sized for acreage demand. Bradford White and John Wood for tanks; Navien and Rinnai for tankless." },
+            { heading: "Boiler & furnace service", body: "Annual [boiler service](/boiler-service-calgary/), urgent [boiler repair](/boiler-repair-calgary/), [furnace](/furnaces/) install, and [high-efficiency furnace](/high-efficiency-furnaces-calgary/) upgrades." },
+            { heading: "Poly-B replacement", body: "Carstairs 90s builds saw Poly-B installation too. Free inspection, written quote. See [Poly-B replacement Calgary](/polyb-plumbing-calgary/)." },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Carstairs Plumbing FAQs",
+        items: [
+          { q: "How long does it take you to get to Carstairs?", a: "Typically 90 minutes from Calgary via Highway 2, routed through Airdrie. Priority emergency calls take precedence in scheduling." },
+          { q: "Do you handle well-water plumbing in Carstairs?", a: "Yes — softeners, filtration, pressure tanks, and pump-side plumbing on acreage properties. Bring a recent water test (or we can take one) and we'll spec accordingly." },
+          { q: "Are you licensed for Carstairs?", a: "Yes. Alberta plumbing and gas-fitting licenses cover Carstairs and the rest of MD of Mountain View." },
         ],
       },
     },

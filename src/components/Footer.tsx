@@ -79,9 +79,10 @@ const serviceAreas: { label: string; href: string }[] = [
   { label: "Calgary SW", href: "/calgary-plumbers-sw" },
   { label: "Huntington Hills", href: "/huntington-hills-plumbers-calgary" },
   { label: "Airdrie", href: "/airdrie-plumbers" },
-  { label: "Chestermere", href: "/contact" },
-  { label: "Cochrane", href: "/contact" },
-  { label: "Okotoks", href: "/contact" },
+  { label: "Chestermere", href: "/chestermere-plumbers" },
+  { label: "Cochrane", href: "/cochrane-plumbers" },
+  { label: "Okotoks", href: "/okotoks-plumbers" },
+  { label: "Carstairs", href: "/carstairs-plumbers" },
 ];
 
 export default function Footer() {

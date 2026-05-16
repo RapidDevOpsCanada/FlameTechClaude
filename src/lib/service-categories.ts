@@ -73,6 +73,10 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
   boilers: "Heating",
   "water-heater-installation-calgary": "Water",
   "air-ease-furnaces-calgary": "Heating",
+  "chestermere-plumbers": "Plumbing",
+  "cochrane-plumbers": "Plumbing",
+  "okotoks-plumbers": "Plumbing",
+  "carstairs-plumbers": "Plumbing",
 };
 
 export function getServiceCategory(slug: string): ServiceCategory | null {
