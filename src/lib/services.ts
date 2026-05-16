@@ -2472,7 +2472,7 @@ export const services: ServicePage[] = [
     icon: "propane_tank",
     title: "Hot Water Tanks Calgary – Professional Installation & Repair",
     lead:
-      "Calgary homeowners rely on FlameTech Plumbing & Heating for dependable hot water tank solutions. Has your morning shower turned into an unwelcome cold surprise? Maybe you've spotted water pooling around the base of your current unit or noticed your energy bills creeping higher each month.",
+      "Calgary homeowners rely on FlameTech Plumbing & Heating for dependable hot water tank solutions. We install and service [Bradford White](https://www.bradfordwhite.com/) and [John Wood](https://www.jwhwh.com/) — the two brands we've found hold up best to Calgary's hard water. Has your morning shower turned into an unwelcome cold surprise? Maybe you've spotted water pooling around the base of your current unit or noticed your energy bills creeping higher each month.",
     heroBody: [
       "A properly sized and professionally installed hot water tank makes all the difference for your household's daily comfort and long-term budget. Same-day [hot water tank replacement](/hot-water-tank-replacement-calgary/) when your old unit fails, or full [water heater installation](/water-heater-installation-calgary/) when you're building out.",
       "FlameTech delivers complete hot water tank services throughout Calgary, from selecting the right capacity to flawless installation and ongoing maintenance. Considering an upgrade? Compare against [tankless water heaters](/tankless-water-heaters/) — endless hot water, lower running costs. North of the city, see [hot water tanks Airdrie](/hot-water-tanks-airdrie/).",
@@ -2747,7 +2747,7 @@ export const services: ServicePage[] = [
     lead:
       "FlameTech Plumbing & Heating is a trusted name in Calgary for water heaters. Tired of running out of hot water or paying high energy bills for your traditional tanked water heater? Upgrading to a tankless water heater could be the perfect solution for your Calgary home.",
     heroBody: [
-      "At FlameTech Plumbing & Heating, we specialize in the expert installation, maintenance, and repair of tankless water heaters, providing Calgary residents with efficient, on-demand hot water.",
+      "At FlameTech Plumbing & Heating, we specialize in the expert installation, maintenance, and repair of tankless water heaters, providing Calgary residents with efficient, on-demand hot water. We install and service every major brand including [Navien](https://www.navieninc.com/), [Rinnai](https://www.rinnai.us/), and [IBC](https://ibcboiler.com/).",
       "Our team comprises highly skilled and experienced technicians who live and work right here in Calgary. We understand the specific demands each unique home places on your water heating system and are equipped to handle any issue, big or small.",
     ],
     heroSubhead: "Calgary Tankless Water Heater Experts",
@@ -7851,7 +7851,7 @@ export const services: ServicePage[] = [
       "When the Calgary chill sets in, a reliable and efficient boiler is essential for keeping your home or business comfortable. FlameTech handles the full lifecycle: [boiler installation](/boiler-installation-calgary/), [boiler repair](/boiler-repair-calgary/), and [annual boiler service](/boiler-service-calgary/) — one team, one number, every part of the job.",
     heroBody: [
       "Whether you're upgrading an aging cast iron boiler in a Mount Royal heritage home or specifying a new condensing system for a Cranston build, we handle every part of the job — heat-loss calc, gas + venting + condensate, install, commissioning, and warranty registration.",
-      "Locally owned and operated. Every technician is licensed gas fitter and Red Seal certified. Manufacturer-trained on Navien, IBC, Viessmann, and Triangle Tube. Also serving [boilers in Airdrie](/boilers-airdrie/) and [boiler installation Airdrie](/boiler-installation-airdrie/).",
+      "Locally owned and operated. Every technician is licensed gas fitter and Red Seal certified. Manufacturer-trained on [Navien](https://www.navieninc.com/), [IBC](https://ibcboiler.com/), [Viessmann](https://www.viessmann.ca/), and [Triangle Tube](https://triangletube.com/). Also serving [boilers in Airdrie](/boilers-airdrie/) and [boiler installation Airdrie](/boiler-installation-airdrie/).",
     ],
     heroSubhead: "Calgary's Boiler Specialists",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
@@ -8116,7 +8116,7 @@ export const services: ServicePage[] = [
     icon: "local_fire_department",
     title: "Air Ease Furnaces Calgary — Expert Installation & Service",
     lead:
-      "Trust Calgary's certified AirEase furnace specialists for professional installation, maintenance, and repair. As an authorized AirEase Pro Team dealer, FlameTech delivers superior comfort engineered for Alberta's demanding climate.",
+      "Trust Calgary's certified AirEase furnace specialists for professional installation, maintenance, and repair. As an [authorized AirEase Pro Team dealer](https://www.airease.com/), FlameTech delivers superior comfort engineered for Alberta's demanding climate.",
     heroBody: [
       "We specialize in AirEase's complete residential lineup — from high-efficiency modulating units reaching 98% AFUE to dependable single-stage models for budget-conscious homeowners.",
       "Every install is sized to AirEase specifications and to Calgary's actual conditions: extreme temperature swings, dry winter air, and a heating season that runs nearly seven months.",
