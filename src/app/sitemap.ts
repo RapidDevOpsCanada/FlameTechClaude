@@ -43,21 +43,58 @@ function serviceFingerprint(s: ServicePage): string {
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const now = new Date();
 
+  // Images field on each sitemap entry serves the Google image-sitemap
+  // extension (sitemaps.org image:image namespace). Surfaces install
+  // photos to Google Image Search — drives real local-intent traffic
+  // for queries like "Bradford White install Calgary".
   const staticUrls: MetadataRoute.Sitemap = [
-    { url: `${SITE_URL}/`, lastModified: now, changeFrequency: "weekly", priority: 1.0 },
-    { url: `${SITE_URL}/about/`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
-    { url: `${SITE_URL}/contact/`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    {
+      url: `${SITE_URL}/`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 1.0,
+      images: [`${SITE_URL}/images/FTVAN.jpg`, `${SITE_URL}/images/FTVAN1.webp`],
+    },
+    {
+      url: `${SITE_URL}/about/`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.8,
+      images: [`${SITE_URL}/images/FTVAN1.webp`],
+    },
+    {
+      url: `${SITE_URL}/contact/`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.9,
+      images: [`${SITE_URL}/images/FT-LOGO-DARK8.png`],
+    },
     { url: `${SITE_URL}/financing/`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${SITE_URL}/blog/`, lastModified: now, changeFrequency: "weekly", priority: 0.7 },
     { url: `${SITE_URL}/privacy/`, lastModified: now, changeFrequency: "yearly", priority: 0.3 },
   ];
 
-  const serviceUrls: MetadataRoute.Sitemap = services.map((s) => ({
-    url: `${SITE_URL}/${s.slug}/`,
-    lastModified: fingerprintLastMod(serviceFingerprint(s)),
-    changeFrequency: "monthly" as const,
-    priority: 0.8,
-  }));
+  const serviceUrls: MetadataRoute.Sitemap = services.map((s) => {
+    // Collect every image the page renders — hero, badge, plus any
+    // images embedded in richContent.sections[].items[]. Absolute URLs
+    // required by the image-sitemap spec.
+    const imgs = new Set<string>();
+    const push = (src?: string) => {
+      if (src && src.startsWith("/")) imgs.add(`${SITE_URL}${src}`);
+    };
+    push(s.heroImage?.src);
+    push(s.heroBadgeImage?.src);
+    s.richContent?.sections?.forEach((section) =>
+      section.items?.forEach((it) => push(it.image?.src)),
+    );
+    return {
+      url: `${SITE_URL}/${s.slug}/`,
+      lastModified: fingerprintLastMod(serviceFingerprint(s)),
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+      ...(imgs.size > 0 ? { images: [...imgs] } : {}),
+    };
+  });
 
   // Article URLs — `created_at` from Postgres gives a real lastmod.
   // Fail open if the DB isn't reachable (sitemap should still build).
@@ -69,6 +106,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       lastModified: new Date(a.created_at),
       changeFrequency: "yearly" as const,
       priority: 0.6,
+      ...(a.featured_image
+        ? { images: [`${SITE_URL}${a.featured_image}`] }
+        : {}),
     }));
   } catch {
     articleUrls = [];
