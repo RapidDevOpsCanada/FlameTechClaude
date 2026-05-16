@@ -544,18 +544,20 @@ export default async function Home() {
                   </div>
                   <ul className="md:col-span-2 space-y-2 text-sm">
                     {[
-                      "Drain cleaning",
-                      "PolyB replacement",
-                      "Bathroom & shower",
-                      "Emergency leaks",
-                      "Water line repair",
+                      { label: "Drain cleaning", href: "/drain-cleaning-calgary/" },
+                      { label: "Poly-B replacement", href: "/polyb-plumbing-calgary/" },
+                      { label: "Bathroom plumbing", href: "/bathroom-plumbing-calgary/" },
+                      { label: "Shower plumbing", href: "/shower-plumbing-calgary/" },
+                      { label: "Emergency leaks", href: "/emergency-plumber-calgary/" },
                     ].map((item) => (
-                      <li
-                        key={item}
-                        className="flex items-center gap-2 text-cream-50/80"
-                      >
-                        <Icon name="check_circle" className="text-primary text-base" />
-                        {item}
+                      <li key={item.label}>
+                        <Link
+                          href={item.href}
+                          className="flex items-center gap-2 text-cream-50/80 hover:text-cream-50 group"
+                        >
+                          <Icon name="check_circle" className="text-primary text-base group-hover:text-emergency transition-colors" />
+                          <span className="group-hover:underline underline-offset-4">{item.label}</span>
+                        </Link>
                       </li>
                     ))}
                   </ul>
@@ -568,17 +570,22 @@ export default async function Home() {
                     icon: "local_fire_department",
                     title: "Heating",
                     body: "High-efficiency furnaces, boilers, garage heaters, and cold-climate heat pumps built for Calgary winters.",
-                    items: ["Furnaces", "Boilers", "Garage heaters", "Heat pumps"],
+                    items: [
+                      { label: "Furnaces", href: "/furnaces/" },
+                      { label: "Boilers", href: "/boilers/" },
+                      { label: "Garage heaters", href: "/garage-heaters-calgary/" },
+                      { label: "Heat pumps", href: "/heat-pumps-calgary/" },
+                    ],
                   },
                   {
                     icon: "water_drop",
                     title: "Air & Water",
                     body: "AC, humidifiers, hot water tanks, tankless heaters, and water softeners for Alberta hard water.",
                     items: [
-                      "Air conditioning",
-                      "Tankless heaters",
-                      "Hot water tanks",
-                      "Water softeners",
+                      { label: "Air conditioning", href: "/air-conditioning/" },
+                      { label: "Tankless heaters", href: "/tankless-water-heaters/" },
+                      { label: "Hot water tanks", href: "/hot-water-tanks/" },
+                      { label: "Water softeners", href: "/water-softener/" },
                     ],
                   },
                 ].map((s) => (
@@ -598,12 +605,13 @@ export default async function Home() {
                       </p>
                       <div className="flex flex-wrap gap-2">
                         {s.items.map((i) => (
-                          <span
-                            key={i}
-                            className="rounded-full bg-cream-50 text-ink-700 text-xs font-semibold px-3 py-1 border border-line-light"
+                          <Link
+                            key={i.label}
+                            href={i.href}
+                            className="rounded-full bg-cream-50 text-ink-700 text-xs font-semibold px-3 py-1 border border-line-light hover:border-emergency hover:text-emergency transition-colors"
                           >
-                            {i}
-                          </span>
+                            {i.label}
+                          </Link>
                         ))}
                       </div>
                     </div>
