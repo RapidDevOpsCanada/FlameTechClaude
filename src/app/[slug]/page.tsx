@@ -7,6 +7,7 @@ import Icon from "@/components/Icon";
 import PortfolioCarousel from "@/components/PortfolioCarousel";
 import BeforeAfter from "@/components/BeforeAfter";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import WhereWeServe, { isNeighbourhoodSlug } from "@/components/WhereWeServe";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -1041,6 +1042,13 @@ export default async function ServicePage({
 
         {/* cream -> dark transition rule */}
         <div className="section-rule" />
+
+        {/* Where we serve — only on trade-service pages. Neighbourhood
+            pages already link UP to the trades; rendering this on them
+            would create a tight loop without adding new equity. */}
+        {!isNeighbourhoodSlug(service.slug) && (
+          <WhereWeServe serviceTitle={service.title.replace(/\s*[—|].*$/, "").trim()} />
+        )}
 
         {/* QUOTE FORM */}
         <section
