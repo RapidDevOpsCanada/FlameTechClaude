@@ -673,7 +673,7 @@ export const services: ServicePage[] = [
     ],
     heroSubhead: "Calgary's Poly-B Replacement Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
-    heroImage: { src: "/images/2023/03/man-working-with-electronics.webp", alt: "FlameTech technician working on Poly-B replacement", fit: "cover" },
+    heroImage: { src: "/images/FTVAN1.webp", alt: "FlameTech plumbing service van — Poly-B replacement specialists in Calgary", fit: "cover" },
     intro:
       "Calgary Poly-B plumbing specialists — inspection, emergency repair, and complete polybutylene replacement with PEX or copper. Insurance-grade documentation, manufacturer warranties.",
     features: [
