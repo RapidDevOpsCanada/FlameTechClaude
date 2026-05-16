@@ -28,6 +28,16 @@ export const SERVICE_TO_ARTICLES: Record<string, string[]> = {
     "why-does-my-water-softener-have-water-in-it",
   ],
 
+  // Water — Hot water tanks + tankless
+  "hot-water-tanks": ["tankless-vs-tank-water-heaters-calgary"],
+  "hot-water-tank-replacement-calgary": [
+    "tankless-vs-tank-water-heaters-calgary",
+  ],
+  "water-heater-installation-calgary": [
+    "tankless-vs-tank-water-heaters-calgary",
+  ],
+  "tankless-water-heaters": ["tankless-vs-tank-water-heaters-calgary"],
+
   // Heating — Boilers
   boilers: [
     "why-does-my-boiler-keep-turning-off",
@@ -55,23 +65,33 @@ export const SERVICE_TO_ARTICLES: Record<string, string[]> = {
 
   // Heating — Furnaces
   furnaces: [
+    "new-furnace-cost-calgary-2026",
+    "heat-pump-vs-furnace-calgary",
     "furnace-fuse-keeps-blowing",
-    "furnace-smell-like-burning-plastic",
-    "furnace-smell-like-gas",
   ],
   "high-efficiency-furnaces-calgary": [
-    "furnace-fuse-keeps-blowing",
+    "new-furnace-cost-calgary-2026",
+    "heat-pump-vs-furnace-calgary",
     "furnace-smell-like-burning-plastic",
   ],
-  "air-ease-furnaces-calgary": ["furnace-fuse-keeps-blowing"],
+  "air-ease-furnaces-calgary": [
+    "new-furnace-cost-calgary-2026",
+    "furnace-fuse-keeps-blowing",
+  ],
   "airdrie-furnace-repairs": [
     "furnace-fuse-keeps-blowing",
     "furnace-smell-like-gas",
   ],
 
   // Air — Heat Pumps + AC
-  "heat-pumps-calgary": ["how-to-clean-heat-pump-coils"],
-  "heat-pumps-airdrie": ["how-to-clean-heat-pump-coils"],
+  "heat-pumps-calgary": [
+    "heat-pump-vs-furnace-calgary",
+    "how-to-clean-heat-pump-coils",
+  ],
+  "heat-pumps-airdrie": [
+    "heat-pump-vs-furnace-calgary",
+    "how-to-clean-heat-pump-coils",
+  ],
   "air-conditioning": [
     "ac-drip-pan-filling-up",
     "why-does-my-ac-compressor-shut-off-after-30-minutes",
