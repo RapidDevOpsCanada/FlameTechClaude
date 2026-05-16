@@ -8,6 +8,9 @@ import PortfolioCarousel from "@/components/PortfolioCarousel";
 import BeforeAfter from "@/components/BeforeAfter";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import WhereWeServe, { isNeighbourhoodSlug } from "@/components/WhereWeServe";
+import RelatedGuides from "@/components/RelatedGuides";
+import { getArticleBySlug } from "@/lib/articles";
+import { getRelatedArticleSlugs } from "@/lib/service-related-articles";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -181,6 +184,18 @@ export default async function ServicePage({
   const inlineReview = pickInlineReviewFromList(service, allReviews);
   const schemaJson = buildSchemaJsonLd(service, allReviews);
   const timeline = service.timeline ?? { steps: DEFAULT_TIMELINE };
+
+  // Pull the 2-3 blog articles curated for this service in
+  // service-related-articles.ts. Resolved here (server) so the
+  // component is dumb. Missing slugs (article deleted, typo) silently
+  // drop out — better than failing the whole page render.
+  const relatedArticles = (
+    await Promise.all(
+      getRelatedArticleSlugs(service.slug).map((s) =>
+        getArticleBySlug(s).catch(() => null),
+      ),
+    )
+  ).filter((a): a is NonNullable<typeof a> => a !== null);
 
   const firstSectionHeading = service.richContent?.sections?.[0]?.heading;
 
@@ -1049,6 +1064,11 @@ export default async function ServicePage({
         {!isNeighbourhoodSlug(service.slug) && (
           <WhereWeServe serviceTitle={service.title.replace(/\s*[—|].*$/, "").trim()} />
         )}
+
+        {/* Related blog guides — curated per service in
+            service-related-articles.ts. Renders nothing if no mapping
+            exists, so service pages without a curated set are a no-op. */}
+        <RelatedGuides articles={relatedArticles} />
 
         {/* QUOTE FORM */}
         <section
