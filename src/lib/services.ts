@@ -1905,11 +1905,6 @@ export const services: ServicePage[] = [
         "Real Calgary swap-outs from atmospheric or low-efficiency units to high-efficiency condensing furnaces. Same mechanical room, dramatically different equipment.",
       pairs: [
         {
-          before: { src: "/images/2026/04/Furnace-before-len.webp", alt: "Old low-efficiency furnace before replacement — Len residence" },
-          after: { src: "/images/2026/04/Furnace-after-len.webp", alt: "New 96% AFUE condensing furnace — Len residence" },
-          caption: "Len residence — atmospheric → 96% AFUE condensing",
-        },
-        {
           before: { src: "/images/2026/04/Furnace-before-crooks.webp", alt: "Aging furnace before high-efficiency upgrade — Crooks residence" },
           after: { src: "/images/2026/04/Furnace-after-crooks.webp", alt: "Replacement high-efficiency furnace — Crooks residence" },
           caption: "Crooks residence — high-efficiency replacement with new PVC venting",

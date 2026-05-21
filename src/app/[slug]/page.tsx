@@ -986,8 +986,12 @@ export default async function ServicePage({
               </div>
               <div
                 className={
-                  service.beforeAfter.pairs.length === 1
-                    ? "max-w-3xl mx-auto"
+                  // 1 or 2 pairs: stack at full width so each slider gets
+                  // the larger frame (≈40% taller than the side-by-side
+                  // grid layout). 3+ pairs: switch to a 2-col grid so we
+                  // don't blow the section height out.
+                  service.beforeAfter.pairs.length <= 2
+                    ? "max-w-3xl mx-auto space-y-8"
                     : "grid grid-cols-1 lg:grid-cols-2 gap-6"
                 }
               >
