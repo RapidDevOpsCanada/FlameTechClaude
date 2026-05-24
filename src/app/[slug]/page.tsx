@@ -243,7 +243,13 @@ export default async function ServicePage({
                           fill
                           sizes="(max-width: 1024px) 100vw, 0px"
                           priority
-                          className="object-cover"
+                          className={`object-cover ${
+                            service.heroImage.position === "top"
+                              ? "object-top"
+                              : service.heroImage.position === "bottom"
+                              ? "object-bottom"
+                              : "object-center"
+                          }`}
                         />
                       ) : (
                         <Image
@@ -346,7 +352,13 @@ export default async function ServicePage({
                           fill
                           sizes="(max-width: 1024px) 0px, 580px"
                           priority
-                          className="object-cover"
+                          className={`object-cover ${
+                            service.heroImage.position === "top"
+                              ? "object-top"
+                              : service.heroImage.position === "bottom"
+                              ? "object-bottom"
+                              : "object-center"
+                          }`}
                         />
                       ) : (
                         <Image

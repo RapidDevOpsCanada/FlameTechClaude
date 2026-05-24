@@ -11,6 +11,12 @@ export type RichImage = {
    *   by cropping to fit
    */
   fit?: "contain" | "cover";
+  /**
+   * Crop anchor for "cover" images. Defaults to "center". Set to
+   * "top" when the subject sits at the top of the source frame and
+   * the bottom edge contains less-important context (sky, floor).
+   */
+  position?: "center" | "top" | "bottom";
 };
 
 export type RichItem = {
@@ -462,7 +468,7 @@ export const services: ServicePage[] = [
     ],
     heroSubhead: "Trusted Calgary Drain Cleaning Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
-    heroImage: { src: "/images/FTVAN1.webp", alt: "FlameTech service van — drain cleaning across Calgary", fit: "cover" },
+    heroImage: { src: "/images/FTVAN1.webp", alt: "FlameTech service van — drain cleaning across Calgary", fit: "cover", position: "top" },
     intro:
       "Expert drain cleaning services in Calgary. Clogs, blockages, and backup repairs. 25+ years experience. Priority emergency response.",
     features: [
