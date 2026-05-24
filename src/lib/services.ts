@@ -3631,7 +3631,8 @@ export const services: ServicePage[] = [
       "Airdrie's hard water and temperature swings are brutal on hot water tanks. FlameTech's technicians have replaced hundreds of tanks in Airdrie neighborhoods, from [Coopers Crossing](/coopers-crossing-plumbers)' newer builds to established areas where original tanks are hitting the 12-year mark. When your tank starts leaking or you're running out of hot water, our Airdrie plumbers know exactly what's wrong and how to fix it.",
     heroBody: [
       "We're based in Calgary but keep our service vehicles stocked and ready for fast dispatch to Airdrie. No waiting days for parts or scheduling weeks out — we answer the phone with priority dispatch and can usually get a new tank installed same day. See our broader [hot water tanks](/hot-water-tanks/) and [tank replacement](/hot-water-tank-replacement-calgary/) pages for full scope.",
-      "Our certified hot water specialists have been handling tank installations and repairs across Airdrie's communities for over two decades. We stock the most common 40 and 50-gallon [Bradford White](https://www.bradfordwhite.com/) tanks on our trucks and know which models hold up best against Airdrie's mineral-heavy water. Considering [tankless](/tankless-water-heaters/) or a [water softener](/water-softener-airdrie/) instead? Read the [tankless vs tank comparison](/blog/tankless-vs-tank-water-heaters-calgary/) before deciding.",
+      "Our certified hot water specialists have been handling tank installations and repairs across Airdrie's communities for over two decades. We stock the most common 40 and 50-gallon [Bradford White](https://www.bradfordwhite.com/) tanks on our trucks and know which models hold up best against Airdrie's mineral-heavy water.",
+      "Considering [tankless](/tankless-water-heaters/) or a [water softener](/water-softener-airdrie/) instead? Read the [tankless vs tank comparison](/blog/tankless-vs-tank-water-heaters-calgary/) before deciding — Calgary and Airdrie share the same hard-water profile so the analysis applies directly.",
     ],
     heroSubhead: "Trusted Airdrie Hot Water Tank Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
@@ -8195,8 +8196,8 @@ export const services: ServicePage[] = [
     lead:
       "Trust Calgary's certified AirEase furnace specialists for professional installation, maintenance, and repair. As an [authorized AirEase Pro Team dealer](https://www.airease.com/), FlameTech delivers superior comfort engineered for Alberta's demanding climate.",
     heroBody: [
-      "We specialize in AirEase's complete residential lineup — from high-efficiency modulating units reaching 98% AFUE to dependable single-stage models for budget-conscious homeowners.",
-      "Every install is sized to AirEase specifications and to Calgary's actual conditions: extreme temperature swings, dry winter air, and a heating season that runs nearly seven months.",
+      "We specialise in AirEase's complete residential lineup — from [high-efficiency modulating units](/high-efficiency-furnaces-calgary/) reaching 98% AFUE to dependable single-stage models for budget-conscious homeowners. Same crew handles every other [furnace](/furnaces/) brand too, plus full [boiler installation](/boiler-installation-calgary/) and [heat pump](/heat-pumps-calgary/) work.",
+      "Every install is sized to [AirEase specifications](https://www.airease.com/) and to Calgary's actual conditions: extreme temperature swings, dry winter air, and a heating season that runs nearly seven months. Wondering whether a furnace or [heat pump](/blog/heat-pump-vs-furnace-calgary/) is the right call for your home? Read the comparison first.",
     ],
     heroSubhead: "Authorized AirEase Pro Team Dealer",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
