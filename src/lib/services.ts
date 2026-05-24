@@ -3821,7 +3821,7 @@ export const services: ServicePage[] = [
     stats: [
       { number: "2,000+", label: "Tanks installed", icon: "verified" },
       { number: "5.0★", label: "Google rated", icon: "star" },
-      { number: "60-90m", label: "Airdrie ETA", icon: "schedule" },
+      { number: "FREE", label: "Written estimates", icon: "request_quote" },
       { number: "Red Seal", label: "certified", icon: "award" },
     ],
     callout:
