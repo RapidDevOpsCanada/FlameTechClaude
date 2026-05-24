@@ -1482,31 +1482,33 @@ export const services: ServicePage[] = [
     slug: "furnaces",
     category: "Heating",
     icon: "local_fire_department",
-    title: "Furnace Calgary – Installation, Repair & Maintenance",
+    title: "Calgary Furnace Installation, Replacement, Repair & Service",
     lead:
-      "When Calgary's temperatures drop, a reliable furnace isn't just a luxury — it's essential. FlameTech Plumbing & Heating is your trusted local expert for comprehensive furnace services in Calgary.",
+      "Calgary winters run nearly seven months. A failing furnace is a same-day problem — not a get-around-to-it problem. FlameTech installs, replaces, and services every major brand, with priority response when yours quits in the middle of a cold snap.",
     heroBody: [
-      "Whether you need a brand-new [high-efficiency furnace](/high-efficiency-furnaces-calgary/) installed, urgent repairs to get your heat back on, or routine maintenance to keep things running smoothly, our certified technicians are here to ensure your home stays warm and comfortable all winter long.",
-      "We work with all makes and models but are also a part of the AirEase Pro Team — see our dedicated [AirEase furnaces page](/air-ease-furnaces-calgary/) for details. Need service north of the city? We cover [furnace repairs in Airdrie](/airdrie-furnace-repairs/) too.",
+      "Whether you need a brand-new [high-efficiency furnace](/high-efficiency-furnaces-calgary/) installed, urgent repairs to get your heat back on, or routine maintenance to keep things running smoothly, our certified technicians are here to ensure your home stays warm through Calgary's worst weeks.",
+      "We work on every make and model and are an authorised [AirEase Pro Team dealer](/air-ease-furnaces-calgary/) — that's the brand we install most often because the 12-year parts-and-labour warranty actually means something in our climate. North of the city, we also cover [furnace repairs in Airdrie](/airdrie-furnace-repairs/).",
+      "Comparing options? Our honest [heat pump vs furnace in Calgary](/blog/heat-pump-vs-furnace-calgary/) guide breaks down which makes sense for which type of home. If you want a heat pump alongside the furnace for shoulder seasons, that's a [hybrid setup](/heat-pumps-calgary/) we install regularly.",
     ],
-    heroSubhead: "Satisfaction Guaranteed",
+    heroSubhead: "Trusted Calgary Furnace Specialists",
     heroBadgeImage: {
       src: "/images/REVIEWS1.png",
       alt: "5-star Google rated",
     },
     heroImage: {
-      src: "/images/air-ease-furnace.png",
-      alt: "AirEase high-efficiency furnace installed by FlameTech in Calgary",
+      src: "/images/2026/04/Furnace_.webp",
+      alt: "AirEase high-efficiency furnace installed by FlameTech with new ductwork in a Calgary basement",
+      fit: "cover",
     },
     intro:
-      "FlameTech is your trusted local expert for furnace services in Calgary — installation, repair, and maintenance for every make and model.",
+      "Furnace installation, replacement, repair, and annual service across Calgary. AirEase Pro Team dealer, every major brand serviced. Typical install $5,500-$12,000.",
     features: [
+      "Furnace replacement (full system swap)",
       "High-efficiency furnace installation",
       "Priority emergency furnace repair",
       "Annual tune-ups & safety inspections",
       "Smart thermostat integration",
       "AirEase Pro Team installs",
-      "All makes & models serviced",
     ],
     bullets: [
       {
@@ -1518,17 +1520,21 @@ export const services: ServicePage[] = [
         d: "Your peace of mind is our priority. All our technicians are fully licensed and insured, guaranteeing professional and safe service that adheres to the highest industry standards.",
       },
     ],
-    seoTitle: "Calgary Furnace Repair, Install & Service | FlameTech",
+    seoTitle: "Calgary Furnace Install, Replacement, Repair | FlameTech",
     seoDescription:
-      "Trusted Calgary furnace experts! FlameTech offers reliable installation, emergency repair & maintenance. Licensed, insured & local!",
+      "Calgary furnace installation, replacement, emergency repair, and annual service. AirEase Pro Team dealer, 12-yr warranty option. Typical install $5,500-$12,000. Call 587-834-3668.",
     seoKeywords: [
       "furnace Calgary",
       "furnace repair Calgary",
       "furnace installation Calgary",
+      "furnace replacement Calgary",
+      "furnace cost Calgary",
       "AirEase Calgary",
       "high-efficiency furnace Calgary",
+      "Calgary HVAC",
       "FlameTech Plumbing Heating",
     ],
+    priceRange: "$5,500-$12,000",
     quoteFormLabel: "furnace",
     quoteFormPlaceholder:
       "e.g. furnace not firing up, blowing cold air, short-cycling, or need a quote on a high-efficiency replacement…",
@@ -1556,64 +1562,102 @@ export const services: ServicePage[] = [
     richContent: {
       sections: [
         {
-          heading: "Why Choose FlameTech for Furnace Services in Calgary?",
+          heading: "Why Calgary Homeowners Pick FlameTech",
           intro:
-            "Choosing the right company for your furnace needs is crucial. Here's why Calgary trusts FlameTech Plumbing & Heating:",
+            "Hundreds of installs across Calgary since 2010, manufacturer-trained on the brands that hold up in our climate, and a phone someone actually answers when it's −30°C and your heat is out.",
           items: [
             {
-              heading: "Local Calgary Furnace Experts",
-              body: "Our team comprises highly skilled and experienced technicians who live and work right here in Calgary. We understand the specific demands our climate places on your furnace system and are equipped to handle any issue, big or small.",
+              heading: "AirEase Pro Team dealer",
+              body: "Direct factory relationship means we install the [full AirEase residential lineup](/air-ease-furnaces-calgary/) — A97 modulating, A96 two-stage, A93 single-stage — and register the [12-year parts-and-labour warranty](https://www.airease.com/) for you. That warranty is the meaningful one in this market.",
             },
             {
-              heading: "Licensed & Insured Technicians",
-              body: "Your peace of mind is our priority. All our technicians are fully licensed and insured, guaranteeing professional and safe service that adheres to the highest industry standards.",
+              heading: "Manual J sizing, not guesswork",
+              body: "Every install starts with a heat-loss calculation against Calgary's -35°C design temperature, not a square-footage rule of thumb. Oversized furnaces short-cycle and feel uncomfortable; undersized ones run flat-out and never satisfy the thermostat. We get it right the first time.",
+            },
+            {
+              heading: "Real Calgary expertise",
+              body: "We work on every brand sold here — AirEase, [Carrier, Lennox, Rheem](/high-efficiency-furnaces-calgary/), Daikin, Goodman — and know which ones fail at which mile-markers. Honest replace-or-repair calls based on your specific unit, not a sales script.",
+            },
+            {
+              heading: "Licensed gas fitters + Red Seal plumbers",
+              body: "B2 gas fitting and Red Seal trade tickets across the team. Permits pulled, inspections booked, manufacturer warranties registered — no homeowner paperwork chasing.",
             },
           ],
         },
         {
-          heading: "Our Calgary Furnace Services",
+          heading: "Calgary Furnace Services We Offer",
           intro:
-            "FlameTech Plumbing & Heating offers a complete range of furnace services to meet all your needs:",
+            "Install, replace, repair, and service — one crew, one number, every furnace job.",
           items: [
             {
-              heading: "Furnace Installation",
-              body: "Is it time for a new furnace? We provide expert installation services across Calgary, including high-efficiency options that lower your energy bills, expert sizing tailored to your home, and seamless code-compliant installation meeting all local codes and manufacturer specifications for optimal performance and safety.",
+              heading: "Furnace Installation & Replacement",
+              body: "New high-efficiency installs and full-system [replacements](/high-efficiency-furnaces-calgary/) when your old unit is past saving. Includes proper sizing (Manual J heat-loss calc), gas line and venting upgrades when needed, chimney lining for code compliance, electrical work, permit, and inspection. Typical install completes in one day for a straight swap.",
               image: {
-                src: "/images/2025/04/furnace-install.jpg",
-                alt: "New furnace installation in a Calgary home",
+                src: "/images/2026/04/Furnace_.webp",
+                alt: "AirEase furnace installed by FlameTech in a Calgary basement with new ductwork and humidifier",
               },
             },
             {
-              heading: "Furnace Repair",
-              body: "Furnace broken down? Don't shiver in the cold. FlameTech offers prompt and reliable furnace repair throughout Calgary — priority emergency service to get your heat restored during cold snaps, experienced technicians who can diagnose and repair any make or model, transparent pricing, and honest advice on whether to repair or replace.",
+              heading: "Emergency Furnace Repair",
+              body: "Furnace down in a cold snap? We answer the phone with priority dispatch — real plumbers, no call centre. Trucks stock the parts that fail most often (igniters, flame sensors, inducer motors, capacitors), so most repairs resolve on the first visit. Honest repair-vs-replace assessment if your unit is borderline.",
               image: {
-                src: "/images/2025/04/furnace-repair.jpg",
-                alt: "FlameTech technician repairing a residential furnace",
+                src: "/images/2026/04/Furnace.webp",
+                alt: "Daikin furnace with ductwork, condensate venting, and humidifier installed by FlameTech in Calgary",
               },
             },
             {
-              heading: "Furnace Maintenance",
-              body: "Preventative maintenance is key to a long-lasting, efficient furnace. Protect your investment with annual tune-ups and safety inspections (including carbon monoxide), improved efficiency that saves on energy bills and extends operational lifespan, and pre-season check-ups that prevent mid-winter breakdowns during Calgary's coldest months.",
+              heading: "Annual Maintenance & Tune-Ups",
+              body: "Combustion analysis, heat-exchanger inspection for cracks (the safety check that matters most), blower cleaning, filter change, and full safety system test including carbon monoxide. Booked in September-October so you're not finding problems in January. Required to maintain manufacturer warranty coverage on most modern furnaces.",
               image: {
-                src: "/images/2025/04/furnace-maintainance.jpg",
-                alt: "Annual furnace maintenance and tune-up in Calgary",
+                src: "/images/2026/04/Furnace_1.webp",
+                alt: "AirEase furnace with humidifier and air filter — annual maintenance setup in a Calgary home",
               },
             },
           ],
         },
         {
-          heading: "Calgary Furnace Rebates & Energy Savings",
+          heading: "What a Furnace Replacement Costs in Calgary (2026)",
           intro:
-            "Upgrading your furnace in Calgary doesn't have to break the bank. Alberta homeowners may qualify for rebates and incentives when installing high-efficiency furnace models.",
+            "Real numbers from quotes we wrote this month. Three tiers, honest variables.",
           items: [
             {
-              body: "Programs like the Canada Greener Homes Initiative and municipal energy improvement programs can help offset the upfront cost of a new furnace, making it easier to switch to a system rated at 96% AFUE or higher.",
+              heading: "Entry — single-stage 92% AFUE",
+              body: "**$5,500-$7,500** all-in. Meets Alberta code minimum, reliable single output level, AirEase A93 or Carrier Comfort tier. Right call for smaller homes, tight budgets, or short-term ownership (selling within 5 years).",
             },
             {
-              body: "Our team stays up to date on current rebate programs and can help you understand which ones apply to your installation. We'll handle the paperwork and make sure your new furnace meets all the efficiency requirements to qualify.",
+              heading: "Mid — two-stage 95-96% AFUE",
+              body: "**$7,500-$9,500** all-in. Most common Calgary spec. [AirEase A96](/air-ease-furnaces-calgary/), Carrier Performance, or Lennox Elite. Two-stage modulation (low/high) means quieter operation, more even temperatures, and meaningfully better gas efficiency over a Calgary winter.",
             },
             {
-              body: "Not sure if your current furnace is costing you more than it should? A system older than 15 years is likely running well below modern efficiency standards — meaning higher monthly gas bills throughout Calgary's long heating season. Contact us for an honest assessment and we'll walk you through your options.",
+              heading: "Premium — modulating 97-98% AFUE + variable-speed blower",
+              body: "**$9,000-$12,000+** all-in. AirEase A97, Carrier Infinity, Lennox SLP98V. Variable output (40-100% in fine increments) paired with ECM blower. Best efficiency, most even temperatures, quietest operation. Justified for larger homes, hot/cold spots, or long-term ownership.",
+            },
+            {
+              heading: "Common cost adds",
+              body: "Chimney liner $800-$1,500 · Ductwork modifications $500-$3,000 · Gas line upsize $300-$800 · Electrical panel work $400-$1,200. All flagged in writing before install. [Monthly financing](/financing/) available via Financeit.",
+            },
+            {
+              heading: "Full deep-dive on pricing",
+              body: "Our [furnace cost in Calgary 2026 guide](/blog/new-furnace-cost-calgary-2026/) walks through itemised line breakdowns, what to watch for in quotes, and the hidden-cost flags. Worth reading before getting any quote.",
+            },
+          ],
+        },
+        {
+          heading: "Calgary Rebates & Energy Savings",
+          intro:
+            "Rebate programs shift annually. Here's the honest current state as of 2026.",
+          items: [
+            {
+              body: "The Canada Greener Homes Grant was retired in early 2024 — replaced by the [Canada Greener Homes Loan](https://natural-resources.canada.ca/energy-efficiency/homes/canada-greener-homes-initiative), an interest-free loan up to $40,000. Useful for spreading the cost of a high-efficiency install but doesn't reduce the net.",
+            },
+            {
+              body: "Provincial rebates have been thin for residential furnaces since 2022. ENMAX, EPCOR, and Direct Energy occasionally run promotional rebates on high-efficiency installs — we check current programs at quote time. Our honest advice: assume zero rebate when comparing quotes, then treat anything you do qualify for as a bonus.",
+            },
+            {
+              body: "Where the real savings show up: a 96% AFUE replacement of a 25-year-old 70% AFUE unit cuts your heating gas bill roughly 20-25%. On a typical $1,400-$1,800 annual Calgary heating bill, that's $300-$450 saved every year. Payback on the install premium typically lands inside 5-8 years.",
+            },
+            {
+              body: "Pair the new furnace with a properly-tuned thermostat schedule and a [water softener](/water-softener/) upstream of your [hot water tank](/hot-water-tanks/), and you'll see compounding savings across the whole heating + hot-water budget.",
             },
           ],
         },
@@ -1641,23 +1685,39 @@ export const services: ServicePage[] = [
         disclaimer: "Terms and Conditions Apply",
       },
       faq: {
-        heading: "Frequently Asked Questions About Furnaces in Calgary",
+        heading: "Calgary Furnace FAQs",
         items: [
           {
-            q: "Ready to experience the FlameTech difference?",
-            a: "Contact us today for a free, no-obligation quote on our furnace services in Calgary. You can reach us by phone, email, or through our online booking system. We're here to answer your questions and schedule your service at your convenience. We also offer furnace repairs in Airdrie.",
+            q: "How much does a furnace cost in Calgary?",
+            a: "Typical Calgary residential installs run **$5,500-$12,000 all-in**, depending on tier and scope.\n\nEntry single-stage 92% AFUE: $5,500-$7,500. Mid two-stage 95-96% AFUE (most common spec): $7,500-$9,500. Premium modulating 97-98% AFUE: $9,000-$12,000+.\n\nCost adds: chimney liner $800-$1,500, ductwork mods $500-$3,000, gas line upsize $300-$800. All flagged before install. Our [furnace cost in Calgary 2026](/blog/new-furnace-cost-calgary-2026/) guide has the full breakdown.",
           },
           {
-            q: "How often should I have my furnace serviced?",
-            a: "We strongly recommend annual furnace maintenance, ideally in the fall before the heavy heating season begins. This ensures safety, efficiency, and helps catch minor issues before they become major problems during a Calgary cold spell.",
-          },
-          {
-            q: "What's the best type of furnace for Calgary's climate?",
-            a: "High-efficiency natural gas furnaces (95% AFUE or higher) are generally the most cost-effective and reliable choice for Calgary's climate. The specific model and size depend on your home. Our experts can provide tailored recommendations.",
+            q: "Furnace or heat pump — which is right for my Calgary home?",
+            a: "Depends on your insulation, ductwork, and whether you also need cooling.\n\nA modern high-efficiency furnace is the simplest and lowest-cost-upfront path, especially for older homes with marginal insulation. A hybrid setup (furnace + cold-climate heat pump) cuts your gas bill 60-70% across the year while still using the furnace for the worst cold-snap weeks.\n\nOur [heat pump vs furnace in Calgary](/blog/heat-pump-vs-furnace-calgary/) guide walks through the math with real Calgary numbers. If a hybrid sounds right, we install those — see [heat pumps in Calgary](/heat-pumps-calgary/).",
           },
           {
             q: "When should I replace rather than repair my furnace?",
-            a: "Consider the age of your furnace (typically 15–20 years is lifespan), frequency and cost of repairs, rising energy bills, and overall performance. If repairs are becoming frequent or costly, especially on an older unit, replacement is often the more economical long-term solution. We provide honest assessments to help you decide.",
+            a: "Consider replacement when your furnace is over 15-20 years old (typical lifespan), repair costs exceed 40% of replacement, the unit fails repeatedly within 24 months, or your heat exchanger has cracked (safety issue — never repair).\n\nUnder 15 years old with a single failed component (igniter $250-$450, inducer motor $400-$700, control board $500-$900)? Usually worth the repair.\n\nWe give honest replace-or-repair assessments — if your 12-year-old furnace just needs an igniter, we'll do the repair and tell you so.",
+          },
+          {
+            q: "How often should I have my furnace serviced?",
+            a: "Annually, ideally booked September through October before the heavy heating season starts. The annual service includes combustion analysis, heat-exchanger crack inspection (safety check that matters most), blower cleaning, filter change, and a full safety system test including carbon monoxide.\n\nAnnual maintenance is also required to maintain warranty coverage on most modern furnaces — skip it and you may void parts coverage if you ever need a claim.",
+          },
+          {
+            q: "What's the best brand of furnace for Calgary's climate?",
+            a: "We're an [AirEase Pro Team dealer](/air-ease-furnaces-calgary/) and install AirEase most often — the 12-year parts-and-labour warranty is the strongest in the market, and the A96 two-stage and A97 modulating units perform reliably through Alberta winters.\n\nWe also install and service Carrier, Lennox, Rheem, Daikin, and most other brands. Avoid the no-name builder-grade units from big-box retailers — the warranties are weak and part availability becomes a problem within 5-7 years.",
+          },
+          {
+            q: "How long does furnace installation take?",
+            a: "Straight replacements typically complete in 6-10 hours (one day). More complex jobs requiring ductwork modifications, chimney lining, or gas line upgrades may extend into a second day. Winter installs require freeze-protection precautions and may take longer. We confirm timeline at the quote stage.",
+          },
+          {
+            q: "Do I need a permit for furnace installation in Calgary?",
+            a: "Yes. Calgary requires a residential gas permit and inspection for furnace installations, plus an electrical permit when ECM blowers need a dedicated circuit. FlameTech handles all permit applications, schedules inspections, and registers manufacturer warranties as part of the install — no homeowner paperwork chasing.",
+          },
+          {
+            q: "Are condensing high-efficiency furnaces worth it in Calgary?",
+            a: "In nearly every case. Condensing units (90%+ AFUE) extract extra heat from exhaust gases that older 70-80% AFUE units lose up the chimney.\n\nIn Calgary's seven-month heating season, the efficiency gain typically saves $300-$600 per year in gas. Payback on the install premium happens in 5-8 years and the furnace runs another 10-15 years after that.\n\nThe only cases where standard efficiency might make sense: temporary install (selling within 2-3 years) or a mechanical room where condensate drainage genuinely can't be routed.",
           },
         ],
       },
