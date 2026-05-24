@@ -87,7 +87,7 @@ export default function BeforeAfter({
         aria-valuemax={100}
         aria-valuenow={Math.round(pct)}
         tabIndex={0}
-        className="relative aspect-[16/10] md:aspect-[16/9] rounded-2xl overflow-hidden border border-line-light bg-cream-50 select-none cursor-ew-resize touch-none focus:outline-none focus:ring-2 focus:ring-emergency"
+        className="relative aspect-[4/3] rounded-2xl overflow-hidden border border-line-light bg-cream-50 select-none cursor-ew-resize touch-none focus:outline-none focus:ring-2 focus:ring-emergency"
       >
         {/* After — full image underneath (always present, gets revealed
             as the BEFORE overlay is wiped left-to-right). */}
