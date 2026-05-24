@@ -457,7 +457,8 @@ export const services: ServicePage[] = [
       "When stubborn clogs and slow drains disrupt your Calgary home, FlameTech Plumbing delivers expert drain cleaning solutions that get your plumbing flowing freely again.",
     heroBody: [
       "Our certified technicians use advanced equipment including hydro-jetting systems, drain snakes, and video inspection cameras to tackle everything from kitchen grease buildup to tree root intrusions.",
-      "Drain emergencies don't follow business hours, which is why FlameTech provides priority drain cleaning throughout Calgary and surrounding areas. Our emergency response team arrives equipped with professional-grade tools to resolve your drainage issues quickly, preventing water damage and restoring your home's plumbing functionality.",
+      "Drain emergencies don't follow business hours. FlameTech provides priority [emergency plumbing](/emergency-plumber-calgary/) throughout Calgary and surrounding areas — our response team arrives with professional-grade tools to resolve drainage issues quickly and prevent water damage.",
+      "Calgary's hard water accelerates scale buildup inside drainage lines. If you're seeing recurring backups, a [water softener install](/water-softener/) often pairs well with regular cleaning. We also cover [Airdrie](/airdrie-plumbers/), [Chestermere](/chestermere-plumbers/), and [Cochrane](/cochrane-plumbers/).",
     ],
     heroSubhead: "Trusted Calgary Drain Cleaning Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
@@ -531,7 +532,7 @@ export const services: ServicePage[] = [
         {
           heading: "Why Calgary Homeowners Choose FlameTech for Drain Cleaning",
           intro:
-            "As a locally owned and operated Calgary plumbing experts, we specialize in professional drain cleaning services for homes and businesses across the city. Calgary's challenging soil conditions and aging infrastructure demand experienced professionals who understand local drainage patterns and common blockage causes. FlameTech's technicians are certified in advanced drain cleaning techniques, from traditional cable snaking to high-pressure water jetting for commercial-grade results. Our team regularly services homes across Calgary's diverse neighborhoods, from newer developments in Evergreen to heritage properties in established areas where cast iron and clay pipes present unique challenges.",
+            "Locally owned and operated, we specialise in professional drain cleaning for homes and businesses across Calgary. Calgary's challenging soil and aging infrastructure demand experienced professionals who understand local drainage patterns and common blockage causes.\n\nFlameTech's technicians are certified in advanced drain cleaning techniques, from traditional cable snaking to high-pressure water jetting for commercial-grade results.\n\nWe regularly service homes across Calgary's diverse neighbourhoods, from newer developments in [Evergreen](/evergreen-plumbers-calgary/) to heritage properties in [Mount Royal](/mount-royal-plumbers-calgary/) and [Marda Loop](/marda-loop-plumbers-calgary/) where cast iron and clay pipes present unique challenges. Trees and old clay laterals are the two most common drivers of repeat backups here.",
           items: [
             { heading: "Kitchen Drain Cleaning", body: "Professional removal of grease, food debris, and soap buildup using specialized enzymes and mechanical cleaning tools designed for kitchen drainage systems." },
             { heading: "Bathroom Drain Services", body: "Complete cleaning of bathtub, shower, and sink drains affected by hair clogs, soap scum, and mineral deposits common in Calgary's hard-water areas." },
@@ -596,8 +597,9 @@ export const services: ServicePage[] = [
     lead:
       "When disaster strikes, you need emergency plumbers in Calgary who respond immediately. At FlameTech, we provide rapid emergency plumbing services to protect your home from water damage and restore your comfort quickly.",
     heroBody: [
-      "Our emergency plumbers in Calgary are on call around the clock, ready to tackle urgent plumbing crises that can't wait until morning. From burst pipes during Calgary's harsh winters to sudden water heater failures, our certified technicians arrive equipped to handle any emergency plumbing situation.",
-      "When you call us, you're getting immediate help from Calgary's most trusted emergency plumbing team — priority dispatch, fair pricing, and real people who answer the phone.",
+      "Our emergency plumbers in Calgary are on call around the clock, ready to tackle urgent plumbing crises that can't wait until morning. From burst pipes during Calgary's harsh winters to sudden [hot water tank](/hot-water-tanks/) failures, our certified technicians arrive equipped to handle any emergency.",
+      "Aging [Poly-B piping](/polyb-plumbing-calgary/) is a common culprit for sudden failures in 80s-90s Calgary builds — we carry replacement parts on every truck. Same for [drain backups](/drain-cleaning-calgary/) and frozen-pipe thaws.",
+      "When you call us, you're getting immediate help from a real dispatcher — priority dispatch, fair pricing, and real people who answer the phone. We cover Calgary plus [Airdrie](/airdrie-plumbers/), [Chestermere](/chestermere-plumbers/), [Cochrane](/cochrane-plumbers/), and [Okotoks](/okotoks-plumbers/).",
     ],
     heroSubhead: "Priority Emergency Response",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
@@ -660,7 +662,7 @@ export const services: ServicePage[] = [
         {
           heading: "Why Choose FlameTech for Emergency Plumbing in Calgary?",
           intro:
-            "Plumbing emergencies don't keep business hours, and neither do we. As Calgary's most reliable emergency plumbers, FlameTech Plumbing & Heating is your lifeline when disaster strikes. We understand that plumbing emergencies cause stress, property damage, and disruption to your daily life. That's why we guarantee rapid response times throughout Calgary and surrounding communities. Our certified emergency plumbers arrive fully equipped with professional tools and genuine parts to solve your crisis efficiently — day or night, weekends and holidays included. FlameTech specializes in emergency plumbing services that protect Calgary homes from catastrophic water damage, combining decades of experience with state-of-the-art equipment to handle urgent situations including burst pipes, severe leaks, sewer backups, and water heater failures.",
+            "Plumbing emergencies don't keep business hours, and neither do we. As Calgary's most reliable emergency plumbers, FlameTech is your lifeline when disaster strikes.\n\nWe understand that plumbing emergencies cause stress, property damage, and disruption to your daily life. That's why we guarantee rapid response times throughout Calgary and surrounding communities. Our certified emergency plumbers arrive fully equipped with professional tools and genuine parts to solve your crisis efficiently — day or night, weekends and holidays included.\n\nFlameTech specialises in emergency plumbing that protects Calgary homes from catastrophic water damage. Common urgent calls include burst pipes, severe leaks, sewer backups, and [hot water tank](/hot-water-tanks/) failures. If a [Poly-B fitting](/polyb-plumbing-calgary/) has let go, we handle that too — and document for your insurer.",
           items: [
             { heading: "Rapid Response Times", body: "Strategically positioned service vehicles throughout the Calgary region mean our emergency plumbers arrive fast, minimizing water damage and limiting repair costs." },
             { heading: "Certified Technicians", body: "Every emergency plumber on our Calgary team is fully licensed, bonded, and insured — meeting all Alberta plumbing codes with the training to handle any crisis safely." },
@@ -1197,8 +1199,8 @@ export const services: ServicePage[] = [
     lead:
       "Calgary's harsh winters put serious demands on your boiler system.",
     heroBody: [
-      "FlameTech has been servicing residential and commercial boilers across Calgary for years, handling everything from routine maintenance to emergency breakdowns. We work with all major brands including Viessmann, Buderus, Weil-McLain, and more, keeping your boiler system running efficiently when temperatures drop to −30°C.",
-      "When your boiler fails on a January morning, you need someone who answers the phone and shows up fast. We offer priority emergency boiler service in Calgary, with fully stocked service trucks and technicians who know these systems inside and out.",
+      "FlameTech has been servicing residential and commercial boilers across Calgary for years, handling everything from routine maintenance to emergency breakdowns. We work with [Viessmann](https://www.viessmann.ca/), Buderus, Weil-McLain, and [every major brand](/boilers/), keeping systems running efficiently when temperatures drop to −30°C.",
+      "When your boiler fails on a January morning, you need someone who answers the phone and shows up fast. We offer priority [emergency boiler repair](/boiler-repair-calgary/) across Calgary, with fully-stocked trucks and technicians who know these systems inside and out. Need a new system? See our [boiler installation](/boiler-installation-calgary/) page.",
     ],
     heroSubhead: "Trusted Calgary Boiler Service Experts",
     heroBadgeImage: {
@@ -2057,8 +2059,8 @@ export const services: ServicePage[] = [
     lead:
       "FlameTech Plumbing & Heating is Calgary's premier provider of energy-efficient heat pump solutions.",
     heroBody: [
-      "As local specialists with deep roots in our community, we understand the unique heating and cooling challenges that Calgary's climate presents throughout the year.",
-      "Our expertise in heat pump technology ensures you receive customized solutions that maximize comfort while minimizing energy costs.",
+      "As local specialists with deep roots in our community, we understand the unique heating and cooling challenges Calgary's climate presents throughout the year. Cold-climate heat pumps now hold output down to -25°C, making them viable as a partner to a [high-efficiency furnace](/high-efficiency-furnaces-calgary/) in a hybrid setup — or a replacement for a tired [air conditioner](/air-conditioning/).",
+      "Our expertise in heat pump technology ensures you receive customised solutions that maximise comfort while minimising energy costs. We also cover [heat pumps in Airdrie](/heat-pumps-airdrie/). Curious whether a heat pump or [furnace](/furnaces/) is the right fit for your home? Read our [heat pump vs furnace comparison](/blog/heat-pump-vs-furnace-calgary/).",
     ],
     heroSubhead: "Year-Round Comfort",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
@@ -2195,8 +2197,8 @@ export const services: ServicePage[] = [
     lead:
       "FlameTech Plumbing & Heating is a trusted name in Calgary for all things heating and cooling.",
     heroBody: [
-      "We're not just another company; we're your neighbours, dedicated to providing reliable and efficient air conditioning services to homes across the city.",
-      "Our deep understanding of Calgary's unique climate ensures we provide solutions tailored to your specific needs.",
+      "We're not just another company — we're your neighbours, dedicated to reliable AC installation, service, and repair across the city. If your old AC is also due for replacement, consider a cold-climate [heat pump](/heat-pumps-calgary/) — same install, two functions (heating + cooling).",
+      "Our deep understanding of Calgary's climate shapes every install. Sized for our actual cooling load (not generic square-footage), paired with a properly-tuned [furnace](/furnaces/) for off-season air handling. Need spec-level reading? See [heat pump vs furnace in Calgary](/blog/heat-pump-vs-furnace-calgary/).",
     ],
     heroSubhead: "Satisfaction Guaranteed",
     heroBadgeImage: {
@@ -2939,7 +2941,8 @@ export const services: ServicePage[] = [
     lead:
       "Calgary's water hardness can lead to frustrating issues, from dingy laundry to costly appliance repairs.",
     heroBody: [
-      "At FlameTech Plumbing & Heating, we understand these challenges. We provide top-quality water softener systems and professional installation and maintenance services, ensuring your home enjoys the luxury of soft, clean water.",
+      "At FlameTech Plumbing & Heating, we understand these challenges. We provide top-quality water softener systems and professional installation and maintenance, ensuring your home enjoys soft, clean water that protects your fixtures, appliances, and plumbing.",
+      "Hard water shortens the life of [hot water tanks](/hot-water-tanks/) and contributes to scale-related failures in [tankless water heaters](/tankless-water-heaters/) — a softener upstream pays back across both. We also cover [water softeners in Airdrie](/water-softener-airdrie/).",
     ],
     heroSubhead: "Satisfaction Guaranteed",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
