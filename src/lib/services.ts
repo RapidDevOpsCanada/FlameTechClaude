@@ -2704,7 +2704,7 @@ export const services: ServicePage[] = [
     stats: [
       { number: "8-12yr", label: "Typical lifespan", icon: "verified" },
       { number: "5.0★", label: "Google rated", icon: "star" },
-      { number: "Same-day", label: "when stock allows", icon: "schedule" },
+      { number: "4hr", label: "Typical install", icon: "schedule" },
       { number: "Licensed", label: "& insured", icon: "award" },
     ],
     callout:
