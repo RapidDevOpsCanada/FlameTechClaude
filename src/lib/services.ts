@@ -876,7 +876,7 @@ export const services: ServicePage[] = [
     ],
     heroSubhead: "Trusted Calgary Boiler Installation Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
-    heroImage: { src: "/images/navine-boiler.png", alt: "Navien high-efficiency boiler installed by FlameTech" },
+    heroImage: { src: "/images/2026/04/Boiler.webp", alt: "Copper hydronic manifold with zone pumps and expansion tank — boiler install by FlameTech in Calgary", fit: "cover" },
     intro:
       "Professional boiler installation in Calgary by certified technicians. Priority service, gas & electric boilers, all brands.",
     features: [
