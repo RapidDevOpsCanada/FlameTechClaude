@@ -1080,11 +1080,6 @@ export default async function ServicePage({
           <WhereWeServe serviceTitle={service.title.replace(/\s*[—|].*$/, "").trim()} />
         )}
 
-        {/* Related blog guides — curated per service in
-            service-related-articles.ts. Renders nothing if no mapping
-            exists, so service pages without a curated set are a no-op. */}
-        <RelatedGuides articles={relatedArticles} />
-
         {/* QUOTE FORM */}
         <section
           id="quote"
@@ -1110,6 +1105,13 @@ export default async function ServicePage({
             </div>
           </div>
         </section>
+
+        {/* Related blog guides — sit AFTER the quote form so high-intent
+            visitors hit the form first. Visitors who scroll past (i.e.
+            weren't ready to convert this visit) still see the related
+            content. Preserves the topical/SEO signal without leaking
+            decision-stage conversions to awareness-stage articles. */}
+        <RelatedGuides articles={relatedArticles} />
 
         <FinalCTA />
       </main>
