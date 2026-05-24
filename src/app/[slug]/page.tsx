@@ -1403,6 +1403,17 @@ function buildSchemaJsonLd(service: ServicePage, reviews: Review[]) {
       },
     },
     provider: { "@id": `${SITE_URL}#business` },
+    ...(service.priceRange
+      ? {
+          offers: {
+            "@type": "Offer",
+            priceRange: service.priceRange,
+            priceCurrency: "CAD",
+            availability: "https://schema.org/InStock",
+            seller: { "@id": `${SITE_URL}#business` },
+          },
+        }
+      : {}),
   });
 
   graph.push({

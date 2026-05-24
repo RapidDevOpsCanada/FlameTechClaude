@@ -76,6 +76,11 @@ export type ServicePage = {
   seoTitle?: string;
   seoDescription?: string;
   seoKeywords?: string[];
+  /** Schema.org price range hint for the Service.offers. Free-form string
+   *  per the Schema spec ("$$", "$$$", "$5,500-$12,000", etc). When set,
+   *  the Service node gets an offers block — useful for cost-intent SERP
+   *  features on installation/replacement pages. */
+  priceRange?: string;
   /** Optional image rendered below a specific richContent section. Key = section heading. */
   sectionImages?: Record<string, RichImage>;
   /** Per-service sticky sidebar copy (falls back to generic defaults). */
@@ -867,25 +872,26 @@ export const services: ServicePage[] = [
     slug: "boiler-installation-calgary",
     category: "Heating",
     icon: "build",
-    title: "Boiler Installation Calgary | Professional Boiler Services",
+    title: "Expert Boiler Installation in Calgary",
     lead:
-      "Calgary's harsh winters demand reliable heating systems, and boiler installation requires the expertise that comes from years of working with Alberta's climate extremes.",
+      "Most Calgary boilers fail at 18-22 years. When yours is on the way out, FlameTech replaces it without the cold-snap scramble — heat-loss calc, manufacturer-matched system, full install and commission in a single day for a straight swap.",
     heroBody: [
-      "FlameTech's certified technicians have installed hundreds of boilers throughout Calgary, from compact units for downtown condos to high-capacity systems for sprawling homes in communities like [Aspen Woods](/aspen-woods-plumbers-calgary). We handle everything from gas-fired condensing boilers to electric units, matching the right system to your home's specific heating needs.",
-      "When your old boiler finally gives up during a January cold snap, you need fast response from people who answer their phones. Our Calgary-based crew offers priority emergency boiler installations — no automated messages, no waiting until Monday morning.",
+      "FlameTech's certified technicians have installed hundreds of boilers throughout Calgary, from compact units for downtown condos to high-capacity systems for sprawling homes in communities like [Aspen Woods](/aspen-woods-plumbers-calgary/) and [Cranston](/cranston-plumber-calgary/). We handle everything from gas-fired condensing boilers to electric units, matching the right system to your home's specific heating needs.",
+      "Considering a [heat pump instead](/heat-pumps-calgary/)? Worth reading our [heat pump vs furnace comparison](/blog/heat-pump-vs-furnace-calgary/) first — the same trade-offs apply to a boiler-vs-heat-pump decision. Need annual upkeep on the new system? See our [boiler service](/boiler-service-calgary/) page.",
+      "When your old boiler finally gives up during a January cold snap, you need fast response from people who answer their phones. Our Calgary-based crew offers priority emergency [boiler replacement](/boiler-repair-calgary/) and installation — no automated messages, no waiting until Monday morning. [Monthly financing](/financing/) available via Financeit.",
     ],
     heroSubhead: "Trusted Calgary Boiler Installation Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
     heroImage: { src: "/images/2026/04/Boiler.webp", alt: "Copper hydronic manifold with zone pumps and expansion tank — boiler install by FlameTech in Calgary", fit: "cover" },
     intro:
-      "Professional boiler installation in Calgary by certified technicians. Priority service, gas & electric boilers, all brands.",
+      "Professional boiler installation and replacement in Calgary by certified technicians. Free on-site heat-loss quote, gas & electric, all brands. Typical install $5,500-$12,000.",
     features: [
-      "Gas boiler installation",
-      "Electric boiler installation",
-      "Condensing boiler systems",
+      "Boiler replacement (full system swap)",
+      "Gas & electric boiler installation",
+      "Condensing boiler systems (90-95% AFUE)",
       "Combi boiler installation",
       "Hydronic radiant systems",
-      "Boiler replacement & upgrades",
+      "Heat-loss-calculated sizing",
     ],
     bullets: [
       {
@@ -897,17 +903,21 @@ export const services: ServicePage[] = [
         d: "Manufacturer training on Viessmann, Navien, Triangle Tube, Crown, and Weil-McLain.",
       },
     ],
-    seoTitle: "Boiler Installation Calgary | Expert Boiler Services",
+    seoTitle: "Calgary Boiler Installation & Replacement | FlameTech",
     seoDescription:
-      "Calgary boiler installation by certified techs. Gas & electric, all brands, priority service. Call FlameTech: 587-834-3668.",
+      "Free on-site heat-loss quote, manufacturer-certified install on Viessmann, Navien, and IBC. Calgary boiler installation and replacement done right. Typical install $5,500-$12,000. Call 587-834-3668.",
     seoKeywords: [
       "boiler installation Calgary",
+      "boiler replacement Calgary",
+      "boiler installation cost Calgary",
       "condensing boiler Calgary",
       "gas boiler install",
-      "Viessmann Navien Triangle Tube",
+      "Viessmann Navien IBC Triangle Tube",
       "combi boiler Calgary",
+      "hydronic radiant Calgary",
       "FlameTech Plumbing Heating",
     ],
+    priceRange: "$5,500-$12,000",
     quoteFormLabel: "boiler install",
     quoteFormPlaceholder:
       "e.g. old boiler needs replacing, looking at condensing upgrade, planning a hydronic radiant system…",
@@ -961,48 +971,80 @@ export const services: ServicePage[] = [
           ],
         },
         {
-          heading: "Common Boiler Installation Issues in Calgary Homes",
+          heading: "What Boiler Replacement Costs in Calgary (2026)",
           intro:
-            "Calgary homeowners call us for boiler installations when their old systems can't keep up with our brutal winters or when energy bills get too expensive to ignore. If your boiler is over 20 years old or your heating bills keep climbing, it's time for a replacement conversation.",
+            "Real numbers from quotes we wrote this month. Every install is sized to your home, so the range is honest — the variables are scope, brand, and existing infrastructure.",
+          items: [
+            {
+              heading: "Entry — gas, single-stage condensing (~90% AFUE)",
+              body: "**$5,500-$7,500** all-in. Replacement of an existing unit with a like-for-like condensing boiler, re-using compatible gas line and venting. Crown or Weil-McLain entry-tier. Permit, removal, install, commissioning included.",
+            },
+            {
+              heading: "Mid — gas, modulating condensing (~95% AFUE)",
+              body: "**$7,500-$10,000** all-in. Most common Calgary spec. [Navien](https://www.navieninc.com/) NHB, [IBC](https://ibcboiler.com/) SL/V series, or [Viessmann](https://www.viessmann.ca/) Vitodens 100. Often includes new PVC venting, condensate neutraliser, and upgraded expansion tank.",
+            },
+            {
+              heading: "Premium — combi or high-output modulating",
+              body: "**$10,000-$14,000+** all-in. Combi units replacing boiler + [hot water tank](/hot-water-tanks/) in one. Larger homes, multi-zone setups, hydronic radiant integration. Viessmann Vitodens 200, IBC HC series, Triangle Tube Prestige Excellence.",
+            },
+            {
+              heading: "Common cost adds (real-world)",
+              body: "Gas line upsize $300-$800 · Chimney liner or full re-venting $800-$1,500 · Outdoor reset control $400-$700 · New zone valves or circulators $200-$500 each · Indirect-fired DHW tank pairing $1,200-$2,200. We flag these in writing before the install — no surprises.",
+            },
+            {
+              heading: "Financing",
+              body: "[Financeit monthly payments](/financing/) available with soft credit check. Most installs qualify for 6-60 month terms — spreads a $9,000 install into roughly $190/month at 60 months without putting it on a credit card.",
+            },
+          ],
+        },
+        {
+          heading: "When It's Time to Replace, Not Repair",
+          intro:
+            "Calgary homeowners call us for [boiler replacement](/boiler-repair-calgary/) when their old systems can't keep up with our brutal winters or when energy bills get too expensive to ignore. If your boiler is over 20 years old or your heating bills keep climbing, it's time for a replacement conversation.",
           items: [
             { body: "Old cast iron boilers that take forever to heat up and waste gas." },
             { body: "Undersized boilers that run constantly but never get the house warm enough." },
             { body: "Ancient boilers with parts that aren't made anymore." },
             { body: "Systems installed in the 1980s with efficiency ratings under 70%." },
-            { body: "Boilers that can't handle Calgary's hard water and scale up quickly." },
+            { body: "Boilers that can't handle Calgary's hard water and scale up quickly — a [water softener](/water-softener/) upstream of any new install protects your investment." },
             { body: "Units that break down every winter when you need them most." },
           ],
         },
         {
-          heading: "Calgary Boiler Installation Best Practices",
+          heading: "How We Install a Boiler That Lasts",
           intro:
             "Proper boiler installation is critical in Calgary's climate — a system that's not sized correctly or installed properly will cost you thousands in wasted energy and repairs over its lifespan.",
           items: [
             { body: "Size the boiler correctly for Calgary's −40°C design temperature, not just mild winter days." },
-            { body: "Install proper water treatment systems to handle Calgary's hard water." },
+            { body: "Install a [water softener](/water-softener/) upstream to handle Calgary's hard water and protect the heat exchanger." },
             { body: "Use high-quality expansion tanks sized for the system's water volume." },
             { body: "Install zone controls if you have multiple heating areas in your home." },
-            { body: "Schedule annual maintenance starting the year after installation." },
+            { body: "Schedule annual [boiler service](/boiler-service-calgary/) starting the year after installation." },
             { body: "Keep the boiler room clear and accessible for service calls." },
           ],
         },
         {
-          heading: "Common Calgary Boiler Installation Challenges We Handle",
+          heading: "Site Conditions We Resolve During Install",
           items: [
             { heading: "Undersized Gas Lines", body: "Many Calgary homes have gas lines sized for old, low-input boilers. New high-efficiency units often need larger gas supply lines to operate properly. We assess gas line capacity during the installation quote and upgrade lines when necessary." },
             { heading: "Inadequate Venting Systems", body: "Older Calgary homes often have brick chimneys that aren't suitable for modern condensing boilers. These units need plastic venting that can handle acidic condensate. We install proper venting systems that meet current Alberta gas codes and manufacturer requirements." },
-            { heading: "Hard Water Damage", body: "Calgary's hard water causes scale buildup in boiler heat exchangers, reducing efficiency and causing premature failure. We recommend and install water treatment systems during boiler installations to protect your investment from mineral buildup." },
+            { heading: "Hard Water Damage", body: "Calgary's hard water causes scale buildup in boiler heat exchangers, reducing efficiency and causing premature failure. We recommend and install [water softener systems](/water-softener/) during boiler installations to protect your investment from mineral buildup." },
+            { heading: "Indirect-fired Hot Water Pairing", body: "Pairing your new boiler with an indirect-fired [hot water tank](/hot-water-tanks/) uses the same flame for both heating and domestic hot water — typically more efficient than a separate standalone unit. We size and tie in the indirect at install time so the system is one cohesive build, not two." },
           ],
         },
       ],
       faq: {
-        heading: "Frequently Asked Questions About Boiler Installation in Calgary",
+        heading: "Calgary Boiler Installation FAQs",
         items: [
-          { q: "How long does boiler installation take in Calgary homes?", a: "Most boiler installations take 6–10 hours for a straight replacement, or 1–2 days for complex installations with new piping or electrical work. Calgary's older homes often need additional work like upgrading gas lines or installing new venting systems. We'll give you an accurate timeline after assessing your specific installation requirements." },
-          { q: "What size boiler do I need for my Calgary home?", a: "Boiler sizing depends on your home's square footage, insulation levels, ceiling heights, and Calgary's −40°C design temperature. Most Calgary homes need 20–30 BTU per square foot, but older homes with poor insulation may need more. We perform proper heat-loss calculations instead of just matching your old boiler's size, which may have been wrong to begin with." },
-          { q: "Can you install a boiler in Calgary's winter weather?", a: "Yes, we install boilers year-round, including during Calgary's coldest months. Winter installations require extra care to prevent pipes from freezing during the changeover, but our technicians carry freeze-protection equipment and work quickly to minimize downtime. Emergency winter installations typically take longer due to weather precautions." },
+          { q: "How much does boiler installation cost in Calgary?", a: "Typical Calgary residential installs run **$5,500-$12,000 all-in**, depending on tier and scope.\n\nEntry-tier single-stage condensing replacements with compatible existing infrastructure land $5,500-$7,500. Mid-tier modulating condensing (the most common spec — Navien, IBC, or Viessmann) runs $7,500-$10,000. Premium combi or high-output systems run $10,000-$14,000+.\n\nCost adds: gas line upsize $300-$800, chimney liner $800-$1,500, indirect-fired DHW tank $1,200-$2,200. We flag all of these in writing before install. [Financeit monthly payments](/financing/) available to spread the cost." },
+          { q: "How long does boiler installation take in Calgary homes?", a: "Most boiler installations take 6-10 hours for a straight replacement, or 1-2 days for complex installations with new piping or electrical work. Calgary's older homes often need additional work like upgrading gas lines or installing new venting systems. We'll give you an accurate timeline after assessing your specific installation requirements." },
+          { q: "What size boiler do I need for my Calgary home?", a: "Boiler sizing depends on your home's square footage, insulation levels, ceiling heights, and Calgary's −40°C design temperature. Most Calgary homes need 20-30 BTU per square foot, but older homes with poor insulation may need more. We perform proper Manual J heat-loss calculations instead of just matching your old boiler's size, which may have been wrong to begin with." },
+          { q: "Are condensing boilers worth it for Calgary winters?", a: "Yes, in nearly every case. Condensing boilers extract extra heat from exhaust gases, achieving 90-95% efficiency compared to 80-85% for standard units.\n\nIn Calgary's long heating season (typically October to April), the extra efficiency saves $300-$600 per year in gas costs on a typical home. Payback on the install premium happens in 5-8 years and the boiler runs another 12+ years after that.\n\nThe only times non-condensing makes sense: a temporary install (selling the home soon), or a mechanical room where condensate drainage genuinely can't be routed." },
+          { q: "What's the difference between a boiler and a furnace?", a: "A [furnace](/furnaces/) heats air and pushes it through ducts. A boiler heats water and pumps it through pipes to radiators, baseboards, or in-floor radiant loops.\n\nBoilers deliver more even heat (no temperature swings between cycles), are quieter, and pair naturally with hydronic radiant systems and indirect-fired domestic hot water. Furnaces are simpler, work with AC integration, and cost less upfront.\n\nMost Calgary homes built before the 1990s with radiators or baseboards already have boilers and benefit from staying on the same system rather than converting." },
+          { q: "Can I convert from a furnace to a boiler in Calgary?", a: "Yes, but it's a major project. Converting requires installing a full hydronic distribution system (pipes, radiators or in-floor tubing, pump, expansion tank) AND a new boiler. Typical conversion cost: $25,000-$60,000+ depending on home size and whether you're going with radiators (lower) or in-floor radiant (higher).\n\nMost conversions only pencil out during major renovations where floors are already opening up. If you're considering it, we'll do an honest assessment of whether the comfort/efficiency gain justifies the cost." },
+          { q: "How long do new boilers last in Calgary?", a: "Modern condensing boilers installed and maintained properly last 18-22 years on average in Calgary. Cast iron non-condensing units can run 25-30 years.\n\nThe biggest factors in longevity: annual [boiler service](/boiler-service-calgary/) (combustion check, condensate trap clean, expansion tank verification), water quality (a [water softener](/water-softener/) upstream extends heat exchanger life), and not running at extreme low-load operation that causes excess condensation cycles." },
+          { q: "Can you install a boiler in Calgary's winter weather?", a: "Yes, we install boilers year-round, including during Calgary's coldest months. Winter installations require extra care to prevent pipes from freezing during the changeover, but our technicians carry freeze-protection equipment and work quickly to minimise downtime. Emergency winter installations typically take longer due to weather precautions." },
           { q: "Do I need permits for boiler installation in Calgary?", a: "Yes, boiler installations in Calgary require gas permits and often electrical permits if we're upgrading controls or adding new circuits. FlameTech handles all permit applications and city inspections as part of our installation service. We know Calgary's inspection requirements and schedule inspections to avoid delays in getting your system operational." },
-          { q: "What's the difference between condensing and non-condensing boilers for Calgary homes?", a: "Condensing boilers extract extra heat from exhaust gases, achieving 90–95% efficiency compared to 80–85% for standard units. In Calgary's long heating season, the extra efficiency saves significant money on natural gas bills. However, condensing boilers need proper drainage for condensate and may require different venting materials. We'll recommend the best type based on your home's setup and budget." },
         ],
       },
     },
