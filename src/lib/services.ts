@@ -1208,8 +1208,9 @@ export const services: ServicePage[] = [
       alt: "5-star Google rated",
     },
     heroImage: {
-      src: "/images/navine-boiler.png",
-      alt: "Residential condensing boiler installed by FlameTech in Calgary",
+      src: "/images/2025/04/close-up-of-hands-adjusting-a-boiler-system.webp",
+      alt: "FlameTech technician servicing a boiler — circulator pump and pressure-gauge panel visible",
+      fit: "cover",
     },
     intro:
       "Calgary's harsh winters put serious demands on your boiler system. FlameTech handles everything from routine maintenance to emergency breakdowns for every major boiler brand.",
