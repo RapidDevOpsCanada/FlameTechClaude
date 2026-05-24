@@ -65,18 +65,18 @@ export const SERVICE_TO_ARTICLES: Record<string, string[]> = {
 
   // Heating — Furnaces
   furnaces: [
-    "new-furnace-cost-calgary-2026",
     "heat-pump-vs-furnace-calgary",
     "furnace-fuse-keeps-blowing",
-  ],
-  "high-efficiency-furnaces-calgary": [
-    "new-furnace-cost-calgary-2026",
-    "heat-pump-vs-furnace-calgary",
     "furnace-smell-like-burning-plastic",
   ],
+  "high-efficiency-furnaces-calgary": [
+    "heat-pump-vs-furnace-calgary",
+    "furnace-smell-like-burning-plastic",
+    "furnace-smell-like-gas",
+  ],
   "air-ease-furnaces-calgary": [
-    "new-furnace-cost-calgary-2026",
     "furnace-fuse-keeps-blowing",
+    "furnace-smell-like-burning-plastic",
   ],
   "airdrie-furnace-repairs": [
     "furnace-fuse-keeps-blowing",
