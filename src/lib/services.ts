@@ -1928,8 +1928,8 @@ export const services: ServicePage[] = [
     lead:
       "Calgary garages drop to -40°C in January, and working in that cold isn't just uncomfortable — it's dangerous. FlameTech installs and services garage heaters across Calgary, from forced-air gas units to radiant tube heaters and electric models.",
     heroBody: [
-      "We know which heating solutions work best in Alberta's brutal winters and which ones are just money down the drain.",
-      "Your project doesn't stop because it's cold outside. We're available with priority emergency response for garage heater repairs and can usually get to Calgary homes within two hours for emergency calls.",
+      "We know which heating solutions work best in Alberta's brutal winters and which ones are just money down the drain. Same B2-licensed gas fitters that handle our [furnace](/furnaces/) and [boiler](/boilers/) work — garage heaters share the same gas and venting fundamentals.",
+      "Your project doesn't stop because it's cold outside. We're available with priority [emergency response](/emergency-plumber-calgary/) for garage heater repairs and can usually get to Calgary homes within two hours for emergency calls. North of the city, we also dispatch to [Airdrie](/airdrie-plumbers/) and [Cochrane](/cochrane-plumbers/).",
     ],
     heroSubhead: "Trusted Calgary Garage Heater Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
@@ -2675,8 +2675,9 @@ export const services: ServicePage[] = [
     lead:
       "Calgary's hard water kills hot water tanks faster than anywhere else in Alberta. At FlameTech, we've been replacing failed tanks throughout Calgary for years, and we know exactly what brands hold up best in our water conditions.",
     heroBody: [
-      "Whether your tank is leaking, making noise, or just not heating water properly, our hot water tank specialists will get you back to hot showers fast. We stock Bradford White, AO Smith, and Rheem tanks in our service vehicles — all models that handle Calgary's hard water better than cheap builder-grade units.",
-      "We answer our phones with priority dispatch — no call centre, no voicemail. When your hot water tank fails, we'll be there fast with a truck full of quality tanks ready for installation.",
+      "Whether your tank is leaking, making noise, or just not heating water properly, our hot water tank specialists will get you back to hot showers fast. We stock [Bradford White](https://www.bradfordwhite.com/), AO Smith, and Rheem tanks in our service vehicles — all models that handle Calgary's hard water better than cheap builder-grade units.",
+      "Considering a switch instead of a like-for-like swap? Compare against [tankless water heaters](/tankless-water-heaters/) — read the [tankless vs tank in Calgary](/blog/tankless-vs-tank-water-heaters-calgary/) comparison first. A [water softener](/water-softener/) upstream extends the life of either system.",
+      "We answer our phones with priority dispatch — no call centre, no voicemail. When your hot water tank fails, our [emergency plumber](/emergency-plumber-calgary/) team will be there fast with a truck full of quality tanks ready for installation. North of the city, see [hot water tanks Airdrie](/hot-water-tanks-airdrie/).",
     ],
     heroSubhead: "Trusted Calgary Hot Water Tank Replacement Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
@@ -2821,8 +2822,9 @@ export const services: ServicePage[] = [
     lead:
       "FlameTech Plumbing & Heating is a trusted name in Calgary for water heaters. Tired of running out of hot water or paying high energy bills for your traditional tanked water heater? Upgrading to a tankless water heater could be the perfect solution for your Calgary home.",
     heroBody: [
-      "At FlameTech Plumbing & Heating, we specialize in the expert installation, maintenance, and repair of tankless water heaters, providing Calgary residents with efficient, on-demand hot water. We install and service every major brand including [Navien](https://www.navieninc.com/), [Rinnai](https://www.rinnai.us/), and [IBC](https://ibcboiler.com/).",
-      "Our team comprises highly skilled and experienced technicians who live and work right here in Calgary. We understand the specific demands each unique home places on your water heating system and are equipped to handle any issue, big or small.",
+      "At FlameTech Plumbing & Heating, we specialise in the installation, maintenance, and repair of tankless water heaters, providing Calgary residents with efficient, on-demand hot water. We install and service every major brand including [Navien](https://www.navieninc.com/), [Rinnai](https://www.rinnai.us/), and [IBC](https://ibcboiler.com/).",
+      "Not sure tankless is right for your home? Read our honest [tankless vs tank comparison](/blog/tankless-vs-tank-water-heaters-calgary/) — it covers Calgary's hard-water and cold-inlet realities most generic guides miss. If a tank still makes sense for you, see [hot water tanks](/hot-water-tanks/) or our [tank replacement page](/hot-water-tank-replacement-calgary/).",
+      "Our team lives and works right here in Calgary and understands the demands each home places on its water-heating system. A [water softener](/water-softener/) upstream of any tankless extends its life dramatically — worth considering in the same conversation.",
     ],
     heroSubhead: "Calgary Tankless Water Heater Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
@@ -3052,8 +3054,8 @@ export const services: ServicePage[] = [
     lead:
       "When plumbing problems strike your Airdrie home or business, you need reliable professionals who respond quickly and get the job done right. FlameTech Plumbing delivers exceptional plumbing services throughout Airdrie and surrounding areas, combining technical expertise with honest, transparent service.",
     heroBody: [
-      "As a locally-operated plumbing company serving Airdrie, we understand the unique challenges that Alberta's climate and infrastructure present — from frozen pipes during harsh winters to water heater failures and emergency leaks.",
-      "We also offer heating services and are Airdrie furnace experts. Call us today at 587-834-3668 for fast, reliable plumbing service in Airdrie.",
+      "As a locally-operated plumbing company serving Airdrie, we understand the unique challenges Alberta's climate and infrastructure present — frozen pipes during cold snaps, [hot water tank](/hot-water-tanks-airdrie/) failures, [emergency leaks](/emergency-plumber-calgary/), and aging [Poly-B piping](/polyb-plumbing-calgary/) on 80s-90s builds in Ravenswood, Reunion, and Coopers Crossing.",
+      "We also cover heating: [furnace repair](/airdrie-furnace-repairs/), [boiler installation](/boiler-installation-airdrie/), [boilers](/boilers-airdrie/), [heat pumps](/heat-pumps-airdrie/), and [water softeners](/water-softener-airdrie/) for hard-water homes. Call 587-834-3668 for fast, reliable plumbing or heating service in Airdrie.",
     ],
     heroSubhead: "Trusted Airdrie Plumbing Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
@@ -3164,8 +3166,8 @@ export const services: ServicePage[] = [
     lead:
       "When your furnace stops working in Airdrie, you need help fast. FlameTech Plumbing & Heating delivers priority furnace repair services throughout Airdrie and surrounding communities, ensuring your family stays warm when it matters most.",
     heroBody: [
-      "Our certified heating technicians specialize in diagnosing and repairing all furnace makes and models found in Airdrie homes. From minor fixes to major component replacements, we bring the expertise and parts needed to restore your heat quickly and correctly.",
-      "Serving Airdrie's established neighborhoods and new developments alike, we're proud members of the AirEase Pro Team.",
+      "Our certified heating technicians specialise in diagnosing and repairing all furnace makes and models found in Airdrie homes. From minor fixes to major component replacements, we bring the expertise and parts needed to restore your heat quickly and correctly. We cover [Airdrie plumbing](/airdrie-plumbers/), [boiler installation](/boiler-installation-airdrie/), and [boilers](/boilers-airdrie/) too — one team, one call.",
+      "Serving Airdrie's established neighborhoods and new developments alike, we're proud members of the [AirEase Pro Team](https://www.airease.com/). Need a full furnace replacement? Compare entry, mid, and premium tiers on our Calgary [furnaces](/furnaces/) and [high-efficiency furnaces](/high-efficiency-furnaces-calgary/) pages — same equipment, same pricing in Airdrie.",
     ],
     heroSubhead: "Emergency Service Available",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
@@ -3266,8 +3268,8 @@ export const services: ServicePage[] = [
     lead:
       "Alberta winters demand dependable heating systems, and choosing the right boiler installation makes all the difference in your home's comfort and energy costs. At FlameTech Plumbing & Heating, we bring specialized expertise to Airdrie homeowners looking for efficient, reliable boiler solutions.",
     heroBody: [
-      "From professional new installations to emergency repairs and preventative maintenance programs, our certified technicians deliver heating solutions that keep your family warm through even the coldest months.",
-      "We install and maintain every major boiler type for Airdrie properties — high-efficiency condensing boilers, standard efficiency boilers, and combi units that deliver radiant heating and endless domestic hot water from a single compact appliance.",
+      "From professional new installations to [emergency boiler repair](/boiler-repair-calgary/) and preventative [maintenance programs](/boiler-service-calgary/), our certified technicians deliver heating solutions that keep your family warm through even the coldest months. Same team that handles [Calgary boiler installation](/boiler-installation-calgary/) and [boilers in Airdrie](/boilers-airdrie/) more broadly.",
+      "We install and maintain every major boiler type for Airdrie properties — high-efficiency condensing boilers from [Navien](https://www.navieninc.com/), [Viessmann](https://www.viessmann.ca/), and [IBC](https://ibcboiler.com/), plus combi units that deliver radiant heating and endless domestic hot water from a single compact appliance. Also serving [Airdrie plumbing](/airdrie-plumbers/) and [furnace repair](/airdrie-furnace-repairs/).",
     ],
     heroSubhead: "Your Trusted Airdrie Boiler Installation Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
@@ -3390,8 +3392,8 @@ export const services: ServicePage[] = [
     lead:
       "Airdrie's rapid growth means thousands of homes rely on boilers for radiant heat and domestic hot water. Our crew at FlameTech has serviced boilers across Airdrie neighborhoods since these communities started filling up in the 2000s. We know which builder-grade boilers are failing first and which systems will give you another decade of reliable service.",
     heroBody: [
-      "When your boiler dies on a −35°C morning, you need someone who answers the phone — not a voicemail. We're available with priority emergency response for boiler repairs and can usually get to most Airdrie homes within the hour.",
-      "Most heating contractors in Airdrie focus on forced air furnaces. Boilers are different animals — they need technicians who understand water pressure, circulation pumps, expansion tanks, and zone controls. Our trucks carry boiler-specific parts that most shops don't stock.",
+      "When your boiler dies on a −35°C morning, you need someone who answers the phone — not a voicemail. We're available with priority [emergency boiler repair](/boiler-repair-calgary/) and can usually get to most Airdrie homes within the hour. Need a full system? See [boiler installation in Airdrie](/boiler-installation-airdrie/).",
+      "Most heating contractors in Airdrie focus on forced air furnaces. Boilers are different animals — they need technicians who understand water pressure, circulation pumps, expansion tanks, and zone controls. Our trucks carry boiler-specific parts that most shops don't stock. Same crew handles [Calgary boilers](/boilers/), [boiler service](/boiler-service-calgary/), and [Airdrie plumbing](/airdrie-plumbers/) more broadly.",
     ],
     heroSubhead: "Trusted Airdrie Boilers Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
@@ -3512,8 +3514,8 @@ export const services: ServicePage[] = [
     lead:
       "FlameTech Plumbing & Heating brings superior heat pump expertise to Airdrie homeowners seeking year-round comfort. Serving families throughout Airdrie and surrounding areas, we've built our reputation on delivering dependable heating and cooling solutions that stand up to Alberta's demanding weather patterns.",
     heroBody: [
-      "With advanced heat pump technology and hands-on experience, we help Airdrie residents achieve optimal indoor temperatures while keeping monthly utility expenses under control.",
-      "Our skilled technicians understand what Airdrie properties need. From frigid January nights to scorching summer afternoons, we've mastered matching the right heat pump systems to homes that face Alberta's dramatic seasonal shifts.",
+      "With advanced heat pump technology and hands-on experience, we help Airdrie residents achieve optimal indoor temperatures while keeping monthly utility expenses under control. Wondering whether a heat pump is right for your home? Read our [heat pump vs furnace in Calgary](/blog/heat-pump-vs-furnace-calgary/) comparison.",
+      "Our skilled technicians understand what Airdrie properties need. From frigid January nights to scorching summer afternoons, we've mastered matching the right heat pump systems to homes that face Alberta's dramatic seasonal shifts. Same crew handles [heat pumps in Calgary](/heat-pumps-calgary/), [furnace repair](/airdrie-furnace-repairs/), and [plumbing in Airdrie](/airdrie-plumbers/) more broadly.",
     ],
     heroSubhead: "Trusted Local Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
@@ -3628,8 +3630,8 @@ export const services: ServicePage[] = [
     lead:
       "Airdrie's hard water and temperature swings are brutal on hot water tanks. FlameTech's technicians have replaced hundreds of tanks in Airdrie neighborhoods, from [Coopers Crossing](/coopers-crossing-plumbers)' newer builds to established areas where original tanks are hitting the 12-year mark. When your tank starts leaking or you're running out of hot water, our Airdrie plumbers know exactly what's wrong and how to fix it.",
     heroBody: [
-      "We're based in Calgary but keep our service vehicles stocked and ready for fast dispatch to Airdrie. No waiting days for parts or scheduling weeks out — we answer the phone with priority dispatch and can usually get a new tank installed same day.",
-      "Our certified hot water specialists have been handling tank installations and repairs across Airdrie's communities for over two decades. We stock the most common 40 and 50-gallon tanks on our trucks and know which models hold up best against Airdrie's mineral-heavy water.",
+      "We're based in Calgary but keep our service vehicles stocked and ready for fast dispatch to Airdrie. No waiting days for parts or scheduling weeks out — we answer the phone with priority dispatch and can usually get a new tank installed same day. See our broader [hot water tanks](/hot-water-tanks/) and [tank replacement](/hot-water-tank-replacement-calgary/) pages for full scope.",
+      "Our certified hot water specialists have been handling tank installations and repairs across Airdrie's communities for over two decades. We stock the most common 40 and 50-gallon [Bradford White](https://www.bradfordwhite.com/) tanks on our trucks and know which models hold up best against Airdrie's mineral-heavy water. Considering [tankless](/tankless-water-heaters/) or a [water softener](/water-softener-airdrie/) instead? Read the [tankless vs tank comparison](/blog/tankless-vs-tank-water-heaters-calgary/) before deciding.",
     ],
     heroSubhead: "Trusted Airdrie Hot Water Tank Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
@@ -3772,8 +3774,8 @@ export const services: ServicePage[] = [
     lead:
       "Airdrie's hard water is brutal on your plumbing, appliances, and skin. We install and service water softeners that actually work — not the big box store units that break down after two years. Our Airdrie plumbers handle everything from whole-home systems to maintenance on existing units.",
     heroBody: [
-      "When your water softener quits regenerating, you need someone who answers the phone. We're available with priority emergency response for repairs throughout Airdrie and can usually get your system running the same day.",
-      "FlameTech has been installing water softeners in Airdrie since the community started booming in the early 2000s. Our technicians are certified on Fleck, Autotrol, and Clack valve systems — the workhorses that last 15+ years.",
+      "When your water softener quits regenerating, you need someone who answers the phone. We're available with priority [emergency repair](/emergency-plumber-calgary/) throughout Airdrie and can usually get your system running the same day. Same crew handles [Calgary water softeners](/water-softener/) and [Airdrie plumbing](/airdrie-plumbers/) generally.",
+      "FlameTech has been installing water softeners in Airdrie since the community started booming in the early 2000s. Our technicians are certified on Fleck, Autotrol, and Clack valve systems — the workhorses that last 15+ years. A softener upstream extends the life of your [hot water tank](/hot-water-tanks-airdrie/) and protects fixtures from scale.",
     ],
     heroSubhead: "Trusted Airdrie Water Softener Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
@@ -3899,8 +3901,8 @@ export const services: ServicePage[] = [
     lead:
       "Need a dependable plumber in Ravenswood, Airdrie? FlameTech Plumbing delivers outstanding results to homeowners and businesses throughout this thriving neighborhood. Our skilled technicians provide quick, reliable solutions tailored to Ravenswood's modern homes and expanding commercial properties.",
     heroBody: [
-      "As Airdrie's trusted plumbing service provider, we bring specialized knowledge and commitment to every Ravenswood address we serve. This established neighborhood showcases quality construction from the early 2000s, creating specific maintenance requirements that our veteran team manages with precision and care.",
-      "Emergencies ignore the calendar. FlameTech Plumbing provides priority emergency availability for Ravenswood residents confronting critical situations — you'll connect with actual staff members instantly, never automated menus.",
+      "As [Airdrie's trusted plumbing service](/airdrie-plumbers/) provider, we bring specialised knowledge and commitment to every Ravenswood address we serve. This established neighbourhood showcases quality construction from the early 2000s, creating specific maintenance requirements — [hot water tank](/hot-water-tanks-airdrie/) replacements on 20-year-old units, and the occasional [Poly-B](/polyb-plumbing-calgary/) line on earlier-phase builds.",
+      "Emergencies ignore the calendar. We provide priority [emergency response](/emergency-plumber-calgary/) for Ravenswood residents confronting critical situations — you'll connect with actual staff members instantly, never automated menus. Heating side too: [furnace repair](/airdrie-furnace-repairs/), [boiler service](/boilers-airdrie/), [heat pumps](/heat-pumps-airdrie/).",
     ],
     heroSubhead: "Ravenswood's Top-Rated Plumbing Service",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
@@ -4021,8 +4023,8 @@ export const services: ServicePage[] = [
     lead:
       "Require expert plumbing in Reunion, Airdrie? FlameTech Plumbing provides superior service to residences and businesses across this dynamic community. Our qualified technicians deliver timely, dependable solutions crafted specifically for Reunion's contemporary residential developments.",
     heroBody: [
-      "As your community-focused plumbing provider, we deliver specialized expertise and outstanding customer care throughout every Reunion residence. This newer development represents Airdrie's modern residential growth, featuring quality construction and contemporary plumbing infrastructure.",
-      "Crises respect no timetable. FlameTech Plumbing offers priority emergency availability supporting Reunion residents — reach genuine team members directly, never automated systems.",
+      "As your community-focused plumbing provider, we deliver specialised expertise across every Reunion residence. This newer development represents Airdrie's modern residential growth — quality construction, contemporary plumbing infrastructure, and not yet hitting the [Poly-B](/polyb-plumbing-calgary/) failure window the older parts of town are in. Same crew handles [Airdrie plumbing](/airdrie-plumbers/) more broadly.",
+      "Crises respect no timetable. We offer priority [emergency response](/emergency-plumber-calgary/) for Reunion residents — reach genuine team members directly, never automated systems. Heating side too: [furnace repair](/airdrie-furnace-repairs/), [boilers](/boilers-airdrie/), [heat pumps](/heat-pumps-airdrie/), [hot water tanks](/hot-water-tanks-airdrie/).",
     ],
     heroSubhead: "Reunion's Trusted Plumbing Professionals",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
@@ -8067,8 +8069,8 @@ export const services: ServicePage[] = [
     lead:
       "Calgary's hard water and temperature swings are tough on water heaters, which is why proper installation matters. FlameTech has been installing hot water tanks throughout Calgary for over a decade — and we still answer our phones with priority dispatch, no call centres.",
     heroBody: [
-      "Our service trucks carry the popular tank sizes stocked and ready, so most installations happen the same day we get the call. Every job includes proper venting, gas line connections, and an expansion tank to handle Calgary's hard water pressure spikes.",
-      "Licensed gas fitters, Red Seal plumbers, certified to install Bradford White, Rheem, Giant, AO Smith, and Navien.",
+      "Our service trucks carry the popular tank sizes stocked and ready, so most installations happen the same day we get the call. Every job includes proper venting, gas line connections, and an expansion tank to handle Calgary's hard water pressure spikes. If your existing unit just failed, see our [hot water tank replacement](/hot-water-tank-replacement-calgary/) page for same-day options.",
+      "Licensed gas fitters, Red Seal plumbers, certified to install [Bradford White](https://www.bradfordwhite.com/), Rheem, Giant, AO Smith, and [Navien](https://www.navieninc.com/). Considering [tankless](/tankless-water-heaters/) instead? Read our [tankless vs tank comparison](/blog/tankless-vs-tank-water-heaters-calgary/) before deciding — and consider pairing either with a [water softener](/water-softener/) to extend lifespan.",
     ],
     heroSubhead: "Calgary's Water Heater Installation Specialists",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
