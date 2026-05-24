@@ -523,9 +523,16 @@ export default async function ServicePage({
                         {section.heading}
                       </h2>
                       {section.intro && (
-                        <p className="text-[17px] text-ink-700 leading-relaxed mb-8 max-w-2xl">
-                          <RichText>{section.intro}</RichText>
-                        </p>
+                        // Split on \n\n so long prose can be broken into
+                        // readable paragraphs from the data side. Single-
+                        // paragraph intros still render as one <p>.
+                        <div className="text-[17px] text-ink-700 leading-relaxed mb-8 max-w-2xl space-y-4">
+                          {section.intro.split(/\n\n+/).map((para, pi) => (
+                            <p key={pi}>
+                              <RichText>{para}</RichText>
+                            </p>
+                          ))}
+                        </div>
                       )}
 
                       {hasItems && mode === "checklist" && (
@@ -745,9 +752,13 @@ export default async function ServicePage({
                             className="text-primary text-xl transition-transform group-open:rotate-45 shrink-0"
                           />
                         </summary>
-                        <p className="px-6 pb-6 text-ink-500 leading-relaxed">
-                          <RichText>{f.a}</RichText>
-                        </p>
+                        <div className="px-6 pb-6 text-ink-500 leading-relaxed space-y-3">
+                          {f.a.split(/\n\n+/).map((para, pi) => (
+                            <p key={pi}>
+                              <RichText>{para}</RichText>
+                            </p>
+                          ))}
+                        </div>
                       </details>
                     ))}
                   </div>
