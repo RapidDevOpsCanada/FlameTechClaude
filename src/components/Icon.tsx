@@ -32,6 +32,7 @@ import {
   DollarSign,
   ChevronLeft,
   ChevronRight,
+  Mail,
   type LucideProps,
 } from "lucide-react";
 import type { ReactElement } from "react";
@@ -73,6 +74,7 @@ type IconName =
   | "dollar"
   | "chevron_left"
   | "chevron_right"
+  | "mail"
   // Custom trade icons
   | "pipe_wrench"
   | "drain_camera"
@@ -118,6 +120,7 @@ const lucideMap: Record<string, React.ComponentType<LucideProps>> = {
   dollar: DollarSign,
   chevron_left: ChevronLeft,
   chevron_right: ChevronRight,
+  mail: Mail,
 };
 
 // ──────────────────────────────────────────────────────────
