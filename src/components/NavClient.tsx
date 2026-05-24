@@ -282,7 +282,7 @@ export default function NavClient({
       >
         Skip to content
       </a>
-      <div className="max-w-7xl mx-auto px-6 md:px-10 flex items-center justify-between gap-6 h-[92px] md:h-[100px]">
+      <div className="max-w-7xl mx-auto px-4 md:px-10 flex items-center justify-between gap-3 md:gap-6 h-[80px] md:h-[100px]">
         {/* Logo — prominent */}
         <Link
           href="/"
@@ -295,9 +295,30 @@ export default function NavClient({
             width={300}
             height={183}
             priority
-            className="h-[56px] md:h-[64px] lg:h-[72px] w-auto object-contain"
+            className="h-[48px] md:h-[64px] lg:h-[72px] w-auto object-contain"
           />
         </Link>
+
+        {/* Mobile CTA icons — replace the old secondary utility bar so
+            the call + contact actions live in the primary row, freeing
+            ~46px of vertical real estate. Icon-only on mobile to fit
+            alongside the logo + menu hamburger at 360px viewports. */}
+        <div className="md:hidden flex items-center gap-2 ml-auto">
+          <a
+            href="tel:+15878343668"
+            aria-label="Call 587-834-3668"
+            className="inline-flex items-center justify-center w-11 h-11 rounded-full bg-emergency text-cream-50 active:bg-emergency-deep transition-colors shadow-md"
+          >
+            <Icon name="call" className="text-xl" />
+          </a>
+          <Link
+            href="/contact/"
+            aria-label="Contact us"
+            className="inline-flex items-center justify-center w-11 h-11 rounded-full bg-cream-50 text-ink-900 active:bg-cream-100 transition-colors shadow-md"
+          >
+            <Icon name="mail" className="text-xl" />
+          </Link>
+        </div>
 
         {/* Desktop menu */}
         <ul className="hidden lg:flex items-center gap-1 h-full">
@@ -361,39 +382,21 @@ export default function NavClient({
           </Link>
         </div>
 
-        {/* Mobile toggle */}
+        {/* Mobile toggle — icon-only on small screens (the call + contact
+            icons already sit beside it, so adding the "Menu" word here
+            would push the row over on 360px viewports). Text re-appears
+            at md+ where the right-side desktop cluster lives. */}
         <button
           type="button"
-          aria-label="Toggle menu"
+          aria-label={open ? "Close menu" : "Open menu"}
           onClick={() => setOpen((o) => !o)}
-          className="lg:hidden inline-flex items-center gap-2 text-cream-50 hover:text-emergency transition-colors"
+          className="lg:hidden inline-flex items-center justify-center w-11 h-11 md:w-auto md:px-3 md:gap-2 rounded-full text-cream-50 hover:text-emergency border border-line-dark md:border-0 transition-colors"
         >
           <Icon name={open ? "close" : "menu"} className="text-2xl" />
-          <span className="text-[13px] font-extrabold uppercase tracking-[0.16em]">
+          <span className="hidden md:inline text-[13px] font-extrabold uppercase tracking-[0.16em]">
             {open ? "Close" : "Menu"}
           </span>
         </button>
-      </div>
-
-      {/* Mobile utility bar — sticky CTAs under the primary row.
-          Hidden at md+ because the right-side cluster already shows the
-          phone and Contact Us buttons there. */}
-      <div className="md:hidden border-t border-line-dark bg-ink-900">
-        <div className="max-w-7xl mx-auto px-4 py-2.5 flex items-center gap-2.5">
-          <a
-            href="tel:+15878343668"
-            className="flex-1 min-w-0 inline-flex items-center justify-center gap-1.5 rounded-full bg-emergency text-cream-50 font-extrabold text-[12px] uppercase tracking-tight px-3 py-2.5 whitespace-nowrap hover:bg-emergency-deep transition-colors"
-          >
-            <Icon name="call" className="text-sm" />
-            587-834-3668
-          </a>
-          <Link
-            href="/contact"
-            className="flex-1 inline-flex items-center justify-center rounded-full bg-cream-50 text-ink-900 font-extrabold text-[12px] uppercase tracking-tight px-3 py-2.5 hover:bg-cream-100 transition-colors"
-          >
-            Contact Us
-          </Link>
-        </div>
       </div>
 
       {/* Mobile drawer */}
