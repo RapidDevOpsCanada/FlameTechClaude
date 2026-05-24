@@ -462,7 +462,7 @@ export const services: ServicePage[] = [
     ],
     heroSubhead: "Trusted Calgary Drain Cleaning Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
-    heroImage: { src: "/images/2025/04/drain-cleaning-pipe.webp", alt: "Plumber working on a drain line under a sink — Calgary drain cleaning", fit: "cover" },
+    heroImage: { src: "/images/FTVAN1.webp", alt: "FlameTech service van — drain cleaning across Calgary", fit: "cover" },
     intro:
       "Expert drain cleaning services in Calgary. Clogs, blockages, and backup repairs. 25+ years experience. Priority emergency response.",
     features: [
