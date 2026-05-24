@@ -2941,14 +2941,15 @@ export const services: ServicePage[] = [
     icon: "science",
     title: "Water Softener Calgary – Installation & Service",
     lead:
-      "Calgary's water hardness can lead to frustrating issues, from dingy laundry to costly appliance repairs.",
+      "Calgary's tap water runs 14-16 grains per gallon — firmly in the 'very hard' range. That's the source of stiff laundry, spotted glasses, soap that won't lather, premature appliance failures, and the rate at which your [hot water tank](/hot-water-tanks/) and [tankless heater](/tankless-water-heaters/) scale up internally.",
     heroBody: [
-      "At FlameTech Plumbing & Heating, we understand these challenges. We provide top-quality water softener systems and professional installation and maintenance, ensuring your home enjoys soft, clean water that protects your fixtures, appliances, and plumbing.",
-      "Hard water shortens the life of [hot water tanks](/hot-water-tanks/) and contributes to scale-related failures in [tankless water heaters](/tankless-water-heaters/) — a softener upstream pays back across both. We also cover [water softeners in Airdrie](/water-softener-airdrie/).",
+      "FlameTech installs and services properly-sized softener systems for Calgary homes. We size to your actual household demand — not to the side of the box — and use professional-grade Fleck, Autotrol, and Clack valves that last 15+ years instead of the 5-year big-box throwaways.",
+      "Every install includes bypass plumbing so future service is a single-shutoff job, a brine tank sized for your household, and salt-tank setup with a recommendation on which type to use for our water.",
+      "Same crew services [water softeners in Airdrie](/water-softener-airdrie/), pairs softeners with [hot water tank installs](/hot-water-tank-replacement-calgary/), and handles the [Poly-B replacement](/polyb-plumbing-calgary/) work where 80s-90s scale damage means you're rebuilding supply lines anyway.",
     ],
-    heroSubhead: "Satisfaction Guaranteed",
+    heroSubhead: "Calgary Water Softener Specialists",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
-    heroImage: { src: "/images/water-softener-calgary.png", alt: "Residential water softener installed by FlameTech" },
+    heroImage: { src: "/images/2026/03/water-softener-installation.webp", alt: "Fleck-valve water softener installed by FlameTech next to an IBC water heater in a Calgary basement", fit: "cover" },
     intro:
       "Calgary water measures 14–16 grains per gallon — firmly in the very-hard range. A softener extends appliance life, reduces soap use, and makes fixtures easier to clean.",
     features: [
@@ -3006,36 +3007,69 @@ export const services: ServicePage[] = [
     richContent: {
       sections: [
         {
-          heading: "Why Choose FlameTech for Water Softeners in Calgary?",
+          heading: "Why Calgary Water Needs a Softener",
           intro:
-            "Choosing the right company for your water-softening needs is crucial. Here's why Calgary trusts FlameTech Plumbing & Heating:",
+            "Calgary's municipal water comes from the Bow and Elbow rivers via the Glenmore reservoir, picking up calcium and magnesium as it flows through Alberta's limestone-rich geology. The result is some of the hardest treated water in any major Canadian city — substantially harder than Edmonton, Toronto, or Vancouver.\n\nHardness is measured in grains per gallon (gpg). Anything over 10.5 is classified as \"very hard.\" Calgary runs **14-16 gpg year-round**, with seasonal spikes to 18+ during low-flow conditions. That's the source of every hard-water complaint Calgary homeowners have.",
           items: [
-            { heading: "Local Water Softening Experts", body: "Our team comprises highly skilled and experienced technicians who live and work right here in Calgary. We understand the specific demands our climate places on your water softener system and are equipped to handle any issue, big or small. We also offer water softener services in Airdrie." },
-            { heading: "Licensed & Insured Technicians", body: "Your peace of mind is our priority. All our technicians are fully licensed and insured, guaranteeing professional and safe service that adheres to the highest industry standards." },
+            { heading: "What hard water does to your home", body: "Scale buildup chews through the inside of [hot water tanks](/hot-water-tanks/) and [tankless heat exchangers](/tankless-water-heaters/), shortening service life by 30-50%. Dishwasher and washing-machine elements scale up the same way. Faucet aerators, showerheads, and toilet fill valves clog. Glass shower doors etch permanently from mineral deposits — they cannot be polished back." },
+            { heading: "What it does to your bills", body: "Soap and detergent stop lathering at high hardness, so households use more (often 2-3x) of every cleaning product. Water-heater efficiency drops as scale insulates the heat exchanger from the water it's trying to heat — typically 10-20% more gas to reach the same set point on a scaled tank vs a clean one." },
+            { heading: "What it does to you", body: "Soap residue doesn't rinse cleanly from skin or hair in hard water — the persistent film is what dries skin out and leaves hair feeling coated. Many Calgary homeowners notice immediately when they shower at a softer-water hotel for the first time." },
           ],
         },
         {
-          heading: "Benefits of Water Softeners for Calgary Homes",
+          heading: "What We Install",
           intro:
-            "Installing a water softener from FlameTech Plumbing & Heating offers a multitude of benefits for your Calgary home:",
+            "We install professional-grade twin-tank and single-tank softeners with the valve brands that actually last. We don't install big-box-store consumer units — they fail in 4-6 years in Calgary water and you can't get parts.",
           items: [
-            { body: "Extends the life of water heaters, dishwashers, washing machines, and other appliances by preventing scale buildup." },
-            { body: "Reduces soap and detergent use — softened water lathers better and rinses cleanly." },
-            { body: "Keeps fixtures, glass shower doors, and sinks free from hard-water spotting." },
-            { body: "Improves skin and hair feel after showers by eliminating the mineral film hard water leaves behind." },
-            { body: "Protects tankless water heaters from scaling that otherwise requires frequent descaling service." },
-            { body: "Makes laundry softer and brighter, with colors lasting longer over repeat washes." },
+            { heading: "Fleck-valve systems (most installs)", body: "[Fleck](https://fleckwatersofteners.com/) makes the most serviceable softener valves on the market — every internal part is replaceable, parts are stocked locally, and a properly-maintained Fleck system runs 15-20+ years. We default to Fleck for residential installs unless the household demand calls for something larger." },
+            { heading: "Autotrol & Clack alternatives", body: "Autotrol valves offer simpler programming and slightly lower upfront cost; Clack valves are common on whole-home and light-commercial systems where higher flow rates matter. We carry parts for all three on our service trucks." },
+            { heading: "Demand-regenerating vs timer-based", body: "Every system we install is demand-regenerating — it measures actual water usage and only regenerates when capacity is consumed. Timer-based systems (which regen on a fixed schedule whether needed or not) waste salt and water in low-usage households. The premium is small and the operating savings pay back inside 2 years." },
+            { heading: "Salt-free conditioners — why we don't push them", body: "Salt-free \"conditioners\" use template-assisted crystallization (TAC) to change the form of calcium and magnesium so they don't bond to surfaces. They reduce scale but don't remove hardness — soap still won't lather, glasses still spot, and the water still tests hard. If true softening is what you want, they're not the right tool. If a sodium-free alternative is the goal, ask us and we'll explain the actual trade-offs." },
+          ],
+        },
+        {
+          heading: "Sizing It Right for Your Household",
+          intro:
+            "Undersized softeners regenerate constantly and burn through resin; oversized softeners cost more upfront and can produce \"channelling\" issues. Sizing is based on three numbers: household water use (gallons/day), water hardness (Calgary = 14-16 gpg), and resin capacity (measured in grains).",
+          items: [
+            { heading: "Typical Calgary household sizing", body: "A 2-3 person household: 32,000-grain system. 4 people: 40,000-48,000-grain. 5-6 people: 64,000-grain. Larger households or homes with extensive irrigation: 80,000+ or a twin-tank system that provides soft water 24/7 with no service-interruption window during regeneration." },
+            { heading: "Why we ask about your hot water setup", body: "If you're on a [tankless water heater](/tankless-water-heaters/), softening is more critical (scale destroys heat exchangers fast) and we'll often spec one grade up. Same with high-end plumbing fixtures, heat pumps, or in-floor hydronic loops — anywhere mineral buildup costs you money long-term." },
+            { heading: "Water test — free with any quote", body: "We bring a hardness test kit to every consultation. Walk-in shower buildup and faucet aerator scale tell us a lot but the actual ppm reading dictates sizing. Five minutes, no charge." },
+          ],
+        },
+        {
+          heading: "Our Install Process",
+          intro:
+            "Most softener installs in Calgary homes complete in 3-5 hours, depending on plumbing access and whether we're tying into existing supply lines or installing fresh ones.",
+          items: [
+            { heading: "On-site consult + water test", body: "We assess your basement layout, locate the main supply, check distance to a drain (regen waste needs to go somewhere), and run a hardness test. Quote in writing on the spot." },
+            { heading: "Install + bypass plumbing", body: "Standard install includes a 3-valve bypass loop so future service or salt-refill issues don't require shutting off the whole house. Brine tank sized for your household, drain line routed to the nearest floor drain or laundry standpipe, and the system commissioned + first regen cycle verified before we leave." },
+            { heading: "Setup + walkthrough", body: "We program the demand-regen settings for your actual hardness and household size, show you where to add salt, how to read the valve display, and what to watch for over time." },
+          ],
+        },
+        {
+          heading: "Maintenance + Service",
+          intro:
+            "A properly-sized Fleck or Clack softener is largely self-maintaining. Real maintenance is just keeping salt in the brine tank — but a few things benefit from professional attention every couple of years.",
+          items: [
+            { heading: "Salt refills (homeowner)", body: "Add salt when the brine tank drops below 1/4 full. Most Calgary households use 1-2 bags per month. Use solar salt or pellets — avoid rock salt (more impurities) unless specifically recommended for your unit." },
+            { heading: "Annual visual check (homeowner)", body: "Once a year, look for salt bridging (a crust that holds salt above the water in the brine tank) and break it up with a broom handle. Look for resin beads in your softened water — they shouldn't appear; if they do, the distribution basket has failed." },
+            { heading: "Professional service (every 2-3 years)", body: "We sanitise the resin bed, check the brine valve and float, inspect the bypass, replace any worn O-rings, and run a full regen test. Catches small problems before they become resin-replacement-sized problems." },
+            { heading: "Resin replacement (10-15 years)", body: "Resin lasts 10-15 years in Calgary water. When you start noticing hardness creep — spots returning on glasses, soap performance dropping — the resin is at end of life. Resin swap is straightforward and far cheaper than full system replacement." },
           ],
         },
       ],
       faq: {
-        heading: "Frequently Asked Questions About Water Softening in Calgary",
+        heading: "Calgary Water Softener FAQs",
         items: [
-          { q: "How does a water softener work?", a: "Water softeners use a process called ion exchange to remove calcium and magnesium minerals from your water. Resin beads within the softener attract and trap these hard-water minerals, replacing them with sodium ions." },
-          { q: "How much does a water softener cost?", a: "The cost of a water softener can vary depending on the size and type of system, as well as the complexity of the installation. Contact us for a free, no-obligation quote." },
-          { q: "How long do water softeners last?", a: "With proper maintenance, a good quality water softener can last for 10 to 15 years or even longer." },
-          { q: "Is softened water safe to drink?", a: "Yes, softened water is generally safe to drink. The amount of sodium added during the softening process is typically minimal and well within safe drinking water standards. Individuals on strict low-sodium diets should consult with their doctor." },
-          { q: "How often does a water softener need servicing?", a: "Regular maintenance typically involves periodically adding salt to the brine tank and potentially having a professional inspection every few years." },
+          { q: "How much does a water softener cost in Calgary?", a: "A professional-grade Fleck or Clack residential softener installed in a typical Calgary home runs **$1,800 - $3,200 all-in** (system + install + brine tank + bypass plumbing + permits). Twin-tank systems for larger households or 24/7 soft-water demand range $3,500 - $5,500.\n\nThe big-box-store DIY units at $500-900 will work for 4-6 years before failing in our water — by total-cost-of-ownership they're not actually cheaper. We provide written quotes after a free in-home consult." },
+          { q: "How does ion exchange actually work?", a: "Resin beads inside the softener carry sodium ions on their surface. As your hard water flows through, calcium and magnesium swap places with the sodium — the resin holds onto the hard minerals, and your water comes out softened.\n\nWhen the resin's sodium is used up, the unit \"regenerates\" — a brine solution (water + salt) flushes through, knocking the calcium and magnesium off the resin and recharging it with fresh sodium. The waste goes down a drain. That's the cycle in plain English." },
+          { q: "Is softened water safe to drink?", a: "Yes. The sodium added by a softener is small — roughly 7-10 mg per glass of water at Calgary's hardness. For comparison, a single slice of white bread contains 150-200 mg of sodium.\n\nIndividuals on strict medically-prescribed low-sodium diets (under 1500 mg/day) should consult their doctor. Most installs include a non-softened tap at the kitchen sink anyway, for drinking and cooking, which sidesteps the question entirely." },
+          { q: "How often does a softener need salt?", a: "Most Calgary households use 1-2 bags of solar salt per month. Larger households or heavy water use can hit 3-4. The brine tank holds enough for several months between refills — you don't have to think about it constantly." },
+          { q: "Will a softener fix my discoloured water or smell?", a: "No — those are different problems. Discoloured water usually means iron, manganese, or sediment, and needs a filtration system upstream of (or instead of) a softener. Rotten-egg smell is hydrogen sulphide, which needs a different filter or aeration treatment. We diagnose during the consultation and recommend the right system, not just a softener for every issue." },
+          { q: "Can I install a softener myself?", a: "Technically yes if you've got plumbing experience, but we wouldn't recommend it. The most common DIY mistakes we end up fixing: wrong-size drain line that floods during regen, no bypass plumbing (every future service call requires whole-house shutoff), and incorrect programming that wastes salt and resin life.\n\nProfessional install runs a few hundred more than DIY but typically pays itself back in fewer service issues and longer system life. Plus Alberta plumbing code applies — softener install needs a permit and inspection in Calgary." },
+          { q: "How long do water softeners last?", a: "Professional-grade Fleck, Autotrol, or Clack systems run 15-20+ years with basic maintenance. The resin bed itself lasts 10-15 years before needing replacement. Mineral tanks and brine tanks typically outlast the resin. Big-box consumer-grade units fail at 4-6 years in Calgary water — the valves aren't built for our hardness load." },
+          { q: "Do you service softeners you didn't install?", a: "Yes — we service every major brand and valve type. If your system is fixable we'll fix it; if it's a 12-year-old big-box unit with a failed valve and no parts available, we'll tell you straight rather than chase parts that don't exist." },
         ],
       },
     },
