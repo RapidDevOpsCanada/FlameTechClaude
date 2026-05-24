@@ -877,7 +877,7 @@ export const services: ServicePage[] = [
       "Most Calgary boilers fail at 18-22 years. When yours is on the way out, FlameTech replaces it without the cold-snap scramble — heat-loss calc, manufacturer-matched system, full install and commission in a single day for a straight swap.",
     heroBody: [
       "FlameTech's certified technicians have installed hundreds of boilers throughout Calgary, from compact units for downtown condos to high-capacity systems for sprawling homes in communities like [Aspen Woods](/aspen-woods-plumbers-calgary/) and [Cranston](/cranston-plumber-calgary/). We handle everything from gas-fired condensing boilers to electric units, matching the right system to your home's specific heating needs.",
-      "Considering a [heat pump instead](/heat-pumps-calgary/)? Worth reading our [heat pump vs furnace comparison](/blog/heat-pump-vs-furnace-calgary/) first — the same trade-offs apply to a boiler-vs-heat-pump decision. Need annual upkeep on the new system? See our [boiler service](/boiler-service-calgary/) page.",
+      "Considering a [heat pump instead](/heat-pumps-calgary/)? Worth reading our heat pump vs furnace comparison first — the same trade-offs apply to a boiler-vs-heat-pump decision. Need annual upkeep on the new system? See our [boiler service](/boiler-service-calgary/) page.",
       "When your old boiler finally gives up during a January cold snap, you need fast response from people who answer their phones. Our Calgary-based crew offers priority emergency [boiler replacement](/boiler-repair-calgary/) and installation — no automated messages, no waiting until Monday morning. [Monthly financing](/financing/) available via Financeit.",
     ],
     heroSubhead: "Trusted Calgary Boiler Installation Experts",
@@ -1488,7 +1488,7 @@ export const services: ServicePage[] = [
     heroBody: [
       "Whether you need a brand-new [high-efficiency furnace](/high-efficiency-furnaces-calgary/) installed, urgent repairs to get your heat back on, or routine maintenance to keep things running smoothly, our certified technicians are here to ensure your home stays warm through Calgary's worst weeks.",
       "We work on every make and model and are an authorised [AirEase Pro Team dealer](/air-ease-furnaces-calgary/) — that's the brand we install most often because the 12-year parts-and-labour warranty actually means something in our climate. North of the city, we also cover [furnace repairs in Airdrie](/airdrie-furnace-repairs/).",
-      "Comparing options? Our honest [heat pump vs furnace in Calgary](/blog/heat-pump-vs-furnace-calgary/) guide breaks down which makes sense for which type of home. If you want a heat pump alongside the furnace for shoulder seasons, that's a [hybrid setup](/heat-pumps-calgary/) we install regularly.",
+      "Comparing options? Our honest heat pump vs furnace in Calgary guide breaks down which makes sense for which type of home. If you want a heat pump alongside the furnace for shoulder seasons, that's a [hybrid setup](/heat-pumps-calgary/) we install regularly.",
     ],
     heroSubhead: "Trusted Calgary Furnace Specialists",
     heroBadgeImage: {
@@ -1638,7 +1638,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "Full deep-dive on pricing",
-              body: "Our [furnace cost in Calgary 2026 guide](/blog/new-furnace-cost-calgary-2026/) walks through itemised line breakdowns, what to watch for in quotes, and the hidden-cost flags. Worth reading before getting any quote.",
+              body: "Our furnace cost in Calgary 2026 guide walks through itemised line breakdowns, what to watch for in quotes, and the hidden-cost flags. Worth reading before getting any quote.",
             },
           ],
         },
@@ -1689,11 +1689,11 @@ export const services: ServicePage[] = [
         items: [
           {
             q: "How much does a furnace cost in Calgary?",
-            a: "Typical Calgary residential installs run **$5,500-$12,000 all-in**, depending on tier and scope.\n\nEntry single-stage 92% AFUE: $5,500-$7,500. Mid two-stage 95-96% AFUE (most common spec): $7,500-$9,500. Premium modulating 97-98% AFUE: $9,000-$12,000+.\n\nCost adds: chimney liner $800-$1,500, ductwork mods $500-$3,000, gas line upsize $300-$800. All flagged before install. Our [furnace cost in Calgary 2026](/blog/new-furnace-cost-calgary-2026/) guide has the full breakdown.",
+            a: "Typical Calgary residential installs run **$5,500-$12,000 all-in**, depending on tier and scope.\n\nEntry single-stage 92% AFUE: $5,500-$7,500. Mid two-stage 95-96% AFUE (most common spec): $7,500-$9,500. Premium modulating 97-98% AFUE: $9,000-$12,000+.\n\nCost adds: chimney liner $800-$1,500, ductwork mods $500-$3,000, gas line upsize $300-$800. All flagged before install. Our furnace cost in Calgary 2026 guide has the full breakdown.",
           },
           {
             q: "Furnace or heat pump — which is right for my Calgary home?",
-            a: "Depends on your insulation, ductwork, and whether you also need cooling.\n\nA modern high-efficiency furnace is the simplest and lowest-cost-upfront path, especially for older homes with marginal insulation. A hybrid setup (furnace + cold-climate heat pump) cuts your gas bill 60-70% across the year while still using the furnace for the worst cold-snap weeks.\n\nOur [heat pump vs furnace in Calgary](/blog/heat-pump-vs-furnace-calgary/) guide walks through the math with real Calgary numbers. If a hybrid sounds right, we install those — see [heat pumps in Calgary](/heat-pumps-calgary/).",
+            a: "Depends on your insulation, ductwork, and whether you also need cooling.\n\nA modern high-efficiency furnace is the simplest and lowest-cost-upfront path, especially for older homes with marginal insulation. A hybrid setup (furnace + cold-climate heat pump) cuts your gas bill 60-70% across the year while still using the furnace for the worst cold-snap weeks.\n\nOur heat pump vs furnace in Calgary guide walks through the math with real Calgary numbers. If a hybrid sounds right, we install those — see [heat pumps in Calgary](/heat-pumps-calgary/).",
           },
           {
             q: "When should I replace rather than repair my furnace?",
@@ -1846,7 +1846,7 @@ export const services: ServicePage[] = [
           heading:
             "Why Calgary Homeowners Choose FlameTech for High-Efficiency Furnaces",
           intro:
-            "From emergency repairs in [Signal Hill](/signal-hill-plumbers-calgary/) to new installations in west Calgary, our certified technicians bring real-world experience with every major furnace brand. FlameTech's HVAC technicians are factory-trained on Carrier, Lennox, Rheem, and we're an [AirEase Pro Team dealer](/air-ease-furnaces-calgary/).\n\nWe've handled everything from cramped mechanical rooms in [Mount Royal](/mount-royal-plumbers-calgary/) character homes to wide-open basements in new builds across [Cranston](/cranston-plumber-calgary/). Our installations include proper sizing calculations, ductwork modifications, and gas line upgrades when needed.\n\nThat's the work many contractors skip but it makes the difference between a furnace that struggles and one that performs efficiently for 15-20 years. Wondering if a [heat pump](/heat-pumps-calgary/) makes more sense for your home? Read our [heat pump vs furnace comparison](/blog/heat-pump-vs-furnace-calgary/) before committing.",
+            "From emergency repairs in [Signal Hill](/signal-hill-plumbers-calgary/) to new installations in west Calgary, our certified technicians bring real-world experience with every major furnace brand. FlameTech's HVAC technicians are factory-trained on Carrier, Lennox, Rheem, and we're an [AirEase Pro Team dealer](/air-ease-furnaces-calgary/).\n\nWe've handled everything from cramped mechanical rooms in [Mount Royal](/mount-royal-plumbers-calgary/) character homes to wide-open basements in new builds across [Cranston](/cranston-plumber-calgary/). Our installations include proper sizing calculations, ductwork modifications, and gas line upgrades when needed.\n\nThat's the work many contractors skip but it makes the difference between a furnace that struggles and one that performs efficiently for 15-20 years. Wondering if a [heat pump](/heat-pumps-calgary/) makes more sense for your home? Read our heat pump vs furnace comparison before committing.",
           items: [
             {
               heading: "High-Efficiency Furnace Installation",
@@ -2162,7 +2162,7 @@ export const services: ServicePage[] = [
       "FlameTech Plumbing & Heating is Calgary's premier provider of energy-efficient heat pump solutions.",
     heroBody: [
       "As local specialists with deep roots in our community, we understand the unique heating and cooling challenges Calgary's climate presents throughout the year. Cold-climate heat pumps now hold output down to -25°C, making them viable as a partner to a [high-efficiency furnace](/high-efficiency-furnaces-calgary/) in a hybrid setup — or a replacement for a tired [air conditioner](/air-conditioning/).",
-      "Our expertise in heat pump technology ensures you receive customised solutions that maximise comfort while minimising energy costs. We also cover [heat pumps in Airdrie](/heat-pumps-airdrie/). Curious whether a heat pump or [furnace](/furnaces/) is the right fit for your home? Read our [heat pump vs furnace comparison](/blog/heat-pump-vs-furnace-calgary/).",
+      "Our expertise in heat pump technology ensures you receive customised solutions that maximise comfort while minimising energy costs. We also cover [heat pumps in Airdrie](/heat-pumps-airdrie/). Curious whether a heat pump or [furnace](/furnaces/) is the right fit for your home? Read our heat pump vs furnace comparison.",
     ],
     heroSubhead: "Year-Round Comfort",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
@@ -2300,7 +2300,7 @@ export const services: ServicePage[] = [
       "FlameTech Plumbing & Heating is a trusted name in Calgary for all things heating and cooling.",
     heroBody: [
       "We're not just another company — we're your neighbours, dedicated to reliable AC installation, service, and repair across the city. If your old AC is also due for replacement, consider a cold-climate [heat pump](/heat-pumps-calgary/) — same install, two functions (heating + cooling).",
-      "Our deep understanding of Calgary's climate shapes every install. Sized for our actual cooling load (not generic square-footage), paired with a properly-tuned [furnace](/furnaces/) for off-season air handling. Need spec-level reading? See [heat pump vs furnace in Calgary](/blog/heat-pump-vs-furnace-calgary/).",
+      "Our deep understanding of Calgary's climate shapes every install. Sized for our actual cooling load (not generic square-footage), paired with a properly-tuned [furnace](/furnaces/) for off-season air handling. Need spec-level reading? See heat pump vs furnace in Calgary.",
     ],
     heroSubhead: "Satisfaction Guaranteed",
     heroBadgeImage: {
@@ -2773,19 +2773,19 @@ export const services: ServicePage[] = [
     slug: "hot-water-tank-replacement-calgary",
     category: "Water",
     icon: "sync",
-    title: "Hot Water Tank Replacement Calgary | Professional Installation Services",
+    title: "Calgary Hot Water Tank Replacement — Same-Day Service",
     lead:
-      "Calgary's hard water kills hot water tanks faster than anywhere else in Alberta. At FlameTech, we've been replacing failed tanks throughout Calgary for years, and we know exactly what brands hold up best in our water conditions.",
+      "Hot water tanks in Calgary fail at 8-12 years — sooner if you don't have a water softener. When yours goes, FlameTech has stocked trucks rolling for same-day replacement, with the brands that actually survive our hard water.",
     heroBody: [
       "Whether your tank is leaking, making noise, or just not heating water properly, our hot water tank specialists will get you back to hot showers fast. We stock [Bradford White](https://www.bradfordwhite.com/), AO Smith, and Rheem tanks in our service vehicles — all models that handle Calgary's hard water better than cheap builder-grade units.",
-      "Considering a switch instead of a like-for-like swap? Compare against [tankless water heaters](/tankless-water-heaters/) — read the [tankless vs tank in Calgary](/blog/tankless-vs-tank-water-heaters-calgary/) comparison first. A [water softener](/water-softener/) upstream extends the life of either system.",
+      "Considering a switch instead of a like-for-like swap? Compare against [tankless water heaters](/tankless-water-heaters/). A [water softener](/water-softener/) upstream extends the life of either system and is the single best protection against premature tank failure in this city.",
       "We answer our phones with priority dispatch — no call centre, no voicemail. When your hot water tank fails, our [emergency plumber](/emergency-plumber-calgary/) team will be there fast with a truck full of quality tanks ready for installation. North of the city, see [hot water tanks Airdrie](/hot-water-tanks-airdrie/).",
     ],
     heroSubhead: "Trusted Calgary Hot Water Tank Replacement Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
-    heroImage: { src: "/images/2026/04/Power-Vent-hot-water-tank.webp", alt: "Power-vent hot water tank installed by FlameTech in Calgary", fit: "contain" },
+    heroImage: { src: "/images/2026/04/Power-Vent-hot-water-tank.webp", alt: "Bradford White power-vent hot water tank installed by FlameTech in a Calgary basement", fit: "cover" },
     intro:
-      "Calgary hot water tank replacement by Red Seal certified plumbers. Bradford White, AO Smith, and Rheem stocked. Emergency service, permits handled, warranty included.",
+      "Calgary hot water tank replacement by Red Seal certified plumbers. Bradford White, AO Smith, and Rheem stocked. Same-day emergency dispatch, permits handled, warranty included. Typical install $2,200-$3,500.",
     features: [
       "Emergency tank replacement",
       "Tank removal & disposal",
@@ -2804,17 +2804,20 @@ export const services: ServicePage[] = [
         d: "Bradford White, AO Smith, and Rheem tanks on every truck — the units that actually last in Calgary's hard water.",
       },
     ],
-    seoTitle: "Hot Water Tank Replacement Calgary | Expert Installation",
+    seoTitle: "Calgary Hot Water Tank Replacement | Same-Day Service",
     seoDescription:
-      "Calgary hot water tank replacement by licensed technicians. Priority service, all brands, free quotes. Call 587-834-3668.",
+      "Same-day Calgary hot water tank replacement. Bradford White, AO Smith, Rheem stocked. Red Seal plumbers, permits handled. Typical install $2,200-$3,500. Call 587-834-3668.",
     seoKeywords: [
       "hot water tank replacement Calgary",
       "water heater replacement Calgary",
+      "hot water tank cost Calgary",
       "Bradford White Calgary",
-      "tank install emergency",
+      "tank install emergency Calgary",
       "AO Smith Calgary",
+      "Rheem water heater Calgary",
       "FlameTech Plumbing Heating",
     ],
+    priceRange: "$2,200-$3,500",
     quoteFormLabel: "tank replacement",
     quoteFormPlaceholder:
       "e.g. 50-gallon gas tank leaking, need same-day replacement, considering tankless conversion…",
@@ -2857,7 +2860,7 @@ export const services: ServicePage[] = [
         {
           heading: "Why Calgary Homeowners Choose FlameTech for Hot Water Tank Replacement",
           intro:
-            "FlameTech's Calgary plumbing team has installed thousands of hot water tanks across every neighbourhood from [Mount Royal](/mount-royal-plumbers-calgary/) to [McKenzie Towne](/mckenzie-towne-plumbers-calgary/). We've personally replaced tanks in Calgary homes for over 15 years, and we can tell you which brands fail early and which ones actually last.\n\nWe stock [Bradford White](https://www.bradfordwhite.com/), AO Smith, and Rheem tanks in our service vehicles — all models that handle Calgary's hard water better than the cheap builder-grade units. Our technicians are Red Seal certified and insured, and we warranty both parts and labour.\n\nFrom heritage homes in Mount Royal with tricky basement access to new builds in [Cranston](/cranston-plumber-calgary/) with standard installations, we've done it all. Considering [tankless](/tankless-water-heaters/) instead? Read the [tankless vs tank comparison](/blog/tankless-vs-tank-water-heaters-calgary/) first.",
+            "FlameTech's Calgary plumbing team has installed thousands of hot water tanks across every neighbourhood from [Mount Royal](/mount-royal-plumbers-calgary/) to [McKenzie Towne](/mckenzie-towne-plumbers-calgary/). We've personally replaced tanks in Calgary homes for over 15 years, and we can tell you which brands fail early and which ones actually last.\n\nWe stock [Bradford White](https://www.bradfordwhite.com/), AO Smith, and Rheem tanks in our service vehicles — all models that handle Calgary's hard water better than the cheap builder-grade units. Our technicians are Red Seal certified and insured, and we warranty both parts and labour.\n\nFrom heritage homes in Mount Royal with tricky basement access to new builds in [Cranston](/cranston-plumber-calgary/) with standard installations, we've done it all. Considering [tankless](/tankless-water-heaters/) instead? Read the tankless vs tank comparison first.",
           items: [
             { heading: "Emergency Tank Replacement", body: "Tank burst at 3 AM? We'll shut off your water, assess the damage, and have a new tank installed fast. Our emergency trucks carry 40 and 50-gallon tanks ready to go." },
             { heading: "Tank Removal & Disposal", body: "We handle the heavy lifting. Old tanks get drained, disconnected, and hauled out properly. No mess left behind for you to deal with." },
@@ -2868,9 +2871,36 @@ export const services: ServicePage[] = [
           ],
         },
         {
-          heading: "Common Hot Water Tank Replacement Issues in Calgary Homes",
+          heading: "What Tank Replacement Costs in Calgary (2026)",
           intro:
-            "Calgary homeowners call us with these hot water tank problems every single day. Don't wait until you're taking cold showers — call us at the first sign of tank trouble.",
+            "Real numbers from quotes we wrote this month. Three tiers, honest variables.",
+          items: [
+            {
+              heading: "Standard — 40 to 50-gal gas (most installs)",
+              body: "**$2,200-$3,500** all-in. Replacement of an existing 40-50 gallon gas atmospheric or power-vent tank. Bradford White, AO Smith, or Rheem residential. Permit, removal, install, expansion tank, drain pan, and commissioning included.",
+            },
+            {
+              heading: "Larger or higher-spec",
+              body: "**$3,500-$4,800** all-in. 60-75 gallon tanks for larger households, premium Bradford White Defender series, or installs needing new venting (atmospheric to power-vent conversion). Includes any code upgrades to the gas line or relief valve.",
+            },
+            {
+              heading: "Electric tank replacement",
+              body: "**$1,800-$3,000** all-in. Simpler installs since there's no gas or venting work, but element + thermostat + breaker verification still required. Common in condos and homes without gas service.",
+            },
+            {
+              heading: "Tankless conversion (separate path)",
+              body: "**$5,500-$8,500** all-in. Different scope entirely — see our [tankless water heaters](/tankless-water-heaters/) page for the full breakdown. Includes gas-line upsize, venting changes, and condensate drain.",
+            },
+            {
+              heading: "Common cost adds",
+              body: "Expansion tank if you don't already have one $150-$250 · Drain pan + line to a floor drain $200-$400 · Gas shut-off upgrade $100-$200 · Old tank removal + disposal included on every quote. [Monthly financing](/financing/) available via Financeit.",
+            },
+          ],
+        },
+        {
+          heading: "Signs Your Tank Is Telling You It's Done",
+          intro:
+            "Calgary homeowners call us with these hot water tank problems every day. Don't wait until you're taking cold showers — call at the first sign of tank trouble.",
           items: [
             { body: "Tank leaking from the bottom — usually means the tank has rusted through and needs immediate replacement." },
             { body: "No hot water after 8-10 years — heating element burned out on electric tanks or thermocouple failed on gas units." },
@@ -2881,37 +2911,31 @@ export const services: ServicePage[] = [
           ],
         },
         {
-          heading: "Extending Your Calgary Hot Water Tank Life",
+          heading: "Stretching Your New Tank's Life",
           intro:
-            "Calgary's hard water is brutal on hot water tanks, but proper maintenance can help your tank reach its full 8-12 year lifespan instead of failing at 6 years like most do.",
+            "Calgary's hard water is brutal on hot water tanks. The single biggest factor in whether your new tank reaches 12 years vs failing at 6 is upstream water treatment — followed by simple annual maintenance.",
           items: [
-            { body: "Flush your tank annually to remove sediment buildup — Calgary water deposits minerals that settle at the bottom and cause premature failure." },
-            { body: "Replace the anode rod every 3-4 years — this sacrificial rod protects the tank from corrosion but gets eaten away by our hard water." },
+            { body: "Install a [water softener](/water-softener/) upstream of the tank — the single best investment to protect any new tank from Calgary's 14-16 gpg hardness." },
+            { body: "Flush your tank annually to remove sediment buildup. Calgary water deposits minerals that settle at the bottom and cause premature failure." },
+            { body: "Replace the anode rod every 3-4 years — this sacrificial rod protects the tank from corrosion but gets eaten away faster in our hard water." },
             { body: "Test the temperature relief valve yearly — lift the lever to make sure it releases properly and reseats without dripping." },
-            { body: "Set temperature to 120°F maximum — higher settings waste energy and accelerate mineral buildup in Calgary water." },
-            { body: "Check for leaks around fittings monthly — small drips turn into major failures fast, especially with our temperature swings." },
-            { body: "Install a water softener if you don't have one — it's the single best investment to protect your tank from Calgary's hard water." },
-          ],
-        },
-        {
-          heading: "Common Calgary Hot Water Tank Problems We Fix",
-          items: [
-            { heading: "Tank Leaking & Water Damage", body: "Calgary homes with failing tanks often have water pooling around the unit or dripping from relief valves. Once a tank starts leaking from the bottom, it's done — the steel has rusted through and replacement is the only option. We'll shut off water, assess damage, and get a new tank installed fast." },
-            { heading: "No Hot Water Production", body: "When Calgary families suddenly lose hot water, it's usually a failed heating element, thermocouple, or gas valve. On tanks over 8 years old with our hard water conditions, these failures often mean the tank is at end-of-life. We'll diagnose the problem and give you honest advice about repair versus replacement." },
-            { heading: "Mineral Buildup & Efficiency Loss", body: "Calgary's hard water creates mineral deposits that reduce tank capacity and make your unit work harder. If your gas bills are climbing and hot water runs out faster than before, sediment buildup is likely the culprit. Sometimes flushing helps, but heavily scaled tanks usually need replacement." },
+            { body: "Set temperature to 120°F maximum — higher settings waste energy and accelerate mineral buildup." },
+            { body: "Check for leaks around fittings monthly — small drips turn into major failures fast, especially with our chinook temperature swings." },
           ],
         },
       ],
       faq: {
-        heading: "Frequently Asked Questions About Hot Water Tank Replacement in Calgary",
-        intro:
-          "Ready to experience the FlameTech difference? Contact us today for a free, no-obligation quote. You can reach us by phone, email, or through our online booking system. We're here to answer your questions and schedule your service at your convenience.",
+        heading: "Calgary Hot Water Tank Replacement FAQs",
         items: [
-          { q: "How long does a hot water tank replacement take in Calgary?", a: "Most standard tank replacements take 3-4 hours from start to finish. This includes removing the old tank, installing the new one, connecting gas or electrical, and testing everything. Complex installations in tight spaces or with gas line modifications can take 5-6 hours. We'll give you an accurate time estimate once we see your setup." },
-          { q: "What size hot water tank do I need for my Calgary home?", a: "A 40-gallon tank works for 1-2 people, 50-gallon for 3-4 people, and 60+ gallons for larger families. Calgary homes with multiple bathrooms or teenagers usually need the larger size. We factor in your family size, number of bathrooms, and usage patterns to recommend the right capacity." },
-          { q: "Do I need permits for hot water tank replacement in Calgary?", a: "Yes, Calgary requires permits for gas hot water tank installations and electrical permits for electric tanks. We handle all permit applications and inspections as part of our service. The permits protect you by ensuring the work meets current safety codes and won't cause insurance issues later." },
-          { q: "Should I replace my hot water tank or repair it?", a: "If your tank is over 8 years old and having problems, replacement usually makes more sense than repairs. Calgary's hard water is brutal on tanks, and once they start failing, multiple problems follow quickly. Tankless water heaters are also worth considering for long-term savings." },
-          { q: "Can you install a hot water tank in any Calgary home?", a: "We can install tanks in almost any situation — basement installations, main floor utility rooms, even outdoor installations with proper enclosures. Older Calgary homes sometimes need gas line upgrades or venting modifications, but our experienced technicians have handled every possible configuration. We'll assess your space and explain any modifications needed upfront." },
+          { q: "How much does hot water tank replacement cost in Calgary?", a: "Typical Calgary residential replacement: $2,200-$3,500 all-in for a 40-50 gallon gas tank. Larger or higher-spec units run $3,500-$4,800. Electric tanks $1,800-$3,000.\n\nCost adds: expansion tank $150-$250, new drain pan $200-$400, gas shut-off upgrade $100-$200. Old tank removal and disposal included on every quote. We provide written prices before any work starts — [Financeit monthly payments](/financing/) available." },
+          { q: "How long does a hot water tank replacement take?", a: "Most standard tank replacements take 3-4 hours from start to finish. This includes removing the old tank, installing the new one, connecting gas or electrical, and testing everything.\n\nComplex installations in tight spaces or with gas line modifications can take 5-6 hours. We'll give you an accurate timeline once we see your setup." },
+          { q: "What size hot water tank do I need for my Calgary home?", a: "A 40-gallon tank works for 1-2 people, 50-gallon for 3-4 people, and 60+ gallons for larger families. Calgary homes with multiple bathrooms, teenagers, or soaker tubs usually need the larger size. We factor in family size, number of bathrooms, and usage patterns when we quote." },
+          { q: "Should I replace with another tank or switch to tankless?", a: "Depends on your situation. If your existing tank just failed and you need hot water back tonight, a direct [tank replacement](/hot-water-tanks/) is faster, cheaper, and lower risk.\n\nIf you're renovating, your current tank is 10+ years old and you're planning long-term, or your household genuinely runs out of hot water, [tankless](/tankless-water-heaters/) deserves a serious look. Different scope and requires gas-line + venting work, but lasts longer and runs more efficiently if you maintain it." },
+          { q: "What brand of tank do you recommend for Calgary?", a: "We default to [Bradford White](https://www.bradfordwhite.com/) — the brand we've seen hold up best to Calgary's 14-16 gpg hardness. Specifically the Defender Safety System line on gas, and ICON for premium installs.\n\nAO Smith and Rheem also perform well and we stock both. Avoid no-name builder-grade units from big-box retailers — the warranties are weaker and tanks tend to fail at 5-6 years instead of 8-12." },
+          { q: "How long do hot water tanks actually last in Calgary?", a: "Typical lifespan in Calgary water: 8-12 years on standard residential tanks, sometimes stretching to 15 with annual flushing and timely anode rod replacement.\n\nThe single biggest factor is whether you have a [water softener](/water-softener/) upstream. Softened water roughly doubles tank life — homes with softeners regularly hit 15-18 years on the same tank, while unsoftened homes are commonly replacing at 6-8 years." },
+          { q: "Do I need permits for hot water tank replacement in Calgary?", a: "Yes. Calgary requires permits for gas hot water tank installations and electrical permits for electric tanks. We handle all permit applications and inspections as part of our service. The permits protect you by ensuring the work meets current safety codes and won't cause insurance issues later." },
+          { q: "Can you replace a tank in any Calgary home setup?", a: "We can install tanks in almost any situation — basement installations, main floor utility rooms, even outdoor installations with proper enclosures. Older Calgary homes sometimes need gas line upgrades or venting modifications, but our experienced technicians have handled every possible configuration. We'll assess your space and explain any modifications needed upfront." },
+          { q: "Do you stock tanks on your trucks?", a: "Yes. Our service trucks carry 40 and 50-gallon Bradford White, AO Smith, and Rheem tanks ready for immediate install. For emergency calls, this means most replacements happen the same day you call — no waiting for parts orders." },
         ],
       },
     },
@@ -2925,7 +2949,7 @@ export const services: ServicePage[] = [
       "FlameTech Plumbing & Heating is a trusted name in Calgary for water heaters. Tired of running out of hot water or paying high energy bills for your traditional tanked water heater? Upgrading to a tankless water heater could be the perfect solution for your Calgary home.",
     heroBody: [
       "At FlameTech Plumbing & Heating, we specialise in the installation, maintenance, and repair of tankless water heaters, providing Calgary residents with efficient, on-demand hot water. We install and service every major brand including [Navien](https://www.navieninc.com/), [Rinnai](https://www.rinnai.us/), and [IBC](https://ibcboiler.com/).",
-      "Not sure tankless is right for your home? Read our honest [tankless vs tank comparison](/blog/tankless-vs-tank-water-heaters-calgary/) — it covers Calgary's hard-water and cold-inlet realities most generic guides miss. If a tank still makes sense for you, see [hot water tanks](/hot-water-tanks/) or our [tank replacement page](/hot-water-tank-replacement-calgary/).",
+      "Not sure tankless is right for your home? Read our honest tankless vs tank comparison — it covers Calgary's hard-water and cold-inlet realities most generic guides miss. If a tank still makes sense for you, see [hot water tanks](/hot-water-tanks/) or our [tank replacement page](/hot-water-tank-replacement-calgary/).",
       "Our team lives and works right here in Calgary and understands the demands each home places on its water-heating system. A [water softener](/water-softener/) upstream of any tankless extends its life dramatically — worth considering in the same conversation.",
     ],
     heroSubhead: "Calgary Tankless Water Heater Experts",
@@ -2993,7 +3017,7 @@ export const services: ServicePage[] = [
         {
           heading: "Why Choose FlameTech for Your Tankless Water Heater in Calgary?",
           intro:
-            "Tankless water heaters (also called on-demand water heaters) offer real advantages over conventional storage-tank models, making them an increasingly popular choice for Calgary homeowners. The full breakdown is in our [tankless vs tank comparison](/blog/tankless-vs-tank-water-heaters-calgary/) — endless hot water, lower running costs, longer lifespan with proper maintenance.\n\nOur team is made up of highly skilled and experienced technicians who live and work right here in Calgary. We understand the specific demands each home places on its water-heating system and are equipped to handle any issue, big or small.\n\nAll our technicians are fully licensed and insured, guaranteeing professional and safe service to the highest industry standards. If you're not sure tankless is right for you, see [hot water tanks](/hot-water-tanks/) and [tank replacement](/hot-water-tank-replacement-calgary/) for the conventional path.",
+            "Tankless water heaters (also called on-demand water heaters) offer real advantages over conventional storage-tank models, making them an increasingly popular choice for Calgary homeowners. The full breakdown is in our tankless vs tank comparison — endless hot water, lower running costs, longer lifespan with proper maintenance.\n\nOur team is made up of highly skilled and experienced technicians who live and work right here in Calgary. We understand the specific demands each home places on its water-heating system and are equipped to handle any issue, big or small.\n\nAll our technicians are fully licensed and insured, guaranteeing professional and safe service to the highest industry standards. If you're not sure tankless is right for you, see [hot water tanks](/hot-water-tanks/) and [tank replacement](/hot-water-tank-replacement-calgary/) for the conventional path.",
           items: [
             { heading: "Local Calgary Experts", body: "Our technicians live and work in Calgary. We understand the demands local homes place on water heating systems and are equipped to handle any issue, big or small." },
             { heading: "Licensed & Insured", body: "Every technician on our team is fully licensed and insured, guaranteeing professional, safe service that adheres to the highest industry standards." },
@@ -3650,7 +3674,7 @@ export const services: ServicePage[] = [
     lead:
       "FlameTech Plumbing & Heating brings superior heat pump expertise to Airdrie homeowners seeking year-round comfort. Serving families throughout Airdrie and surrounding areas, we've built our reputation on delivering dependable heating and cooling solutions that stand up to Alberta's demanding weather patterns.",
     heroBody: [
-      "With advanced heat pump technology and hands-on experience, we help Airdrie residents achieve optimal indoor temperatures while keeping monthly utility expenses under control. Wondering whether a heat pump is right for your home? Read our [heat pump vs furnace in Calgary](/blog/heat-pump-vs-furnace-calgary/) comparison.",
+      "With advanced heat pump technology and hands-on experience, we help Airdrie residents achieve optimal indoor temperatures while keeping monthly utility expenses under control. Wondering whether a heat pump is right for your home? Read our heat pump vs furnace in Calgary comparison.",
       "Our skilled technicians understand what Airdrie properties need. From frigid January nights to scorching summer afternoons, we've mastered matching the right heat pump systems to homes that face Alberta's dramatic seasonal shifts. Same crew handles [heat pumps in Calgary](/heat-pumps-calgary/), [furnace repair](/airdrie-furnace-repairs/), and [plumbing in Airdrie](/airdrie-plumbers/) more broadly.",
     ],
     heroSubhead: "Trusted Local Experts",
@@ -3768,7 +3792,7 @@ export const services: ServicePage[] = [
     heroBody: [
       "We're based in Calgary but keep our service vehicles stocked and ready for fast dispatch to Airdrie. No waiting days for parts or scheduling weeks out — we answer the phone with priority dispatch and can usually get a new tank installed same day. See our broader [hot water tanks](/hot-water-tanks/) and [tank replacement](/hot-water-tank-replacement-calgary/) pages for full scope.",
       "Our certified hot water specialists have been handling tank installations and repairs across Airdrie's communities for over two decades. We stock the most common 40 and 50-gallon [Bradford White](https://www.bradfordwhite.com/) tanks on our trucks and know which models hold up best against Airdrie's mineral-heavy water.",
-      "Considering [tankless](/tankless-water-heaters/) or a [water softener](/water-softener-airdrie/) instead? Read the [tankless vs tank comparison](/blog/tankless-vs-tank-water-heaters-calgary/) before deciding — Calgary and Airdrie share the same hard-water profile so the analysis applies directly.",
+      "Considering [tankless](/tankless-water-heaters/) or a [water softener](/water-softener-airdrie/) instead? Read the tankless vs tank comparison before deciding — Calgary and Airdrie share the same hard-water profile so the analysis applies directly.",
     ],
     heroSubhead: "Trusted Airdrie Hot Water Tank Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
@@ -8207,7 +8231,7 @@ export const services: ServicePage[] = [
       "Calgary's hard water and temperature swings are tough on water heaters, which is why proper installation matters. FlameTech has been installing hot water tanks throughout Calgary for over a decade — and we still answer our phones with priority dispatch, no call centres.",
     heroBody: [
       "Our service trucks carry the popular tank sizes stocked and ready, so most installations happen the same day we get the call. Every job includes proper venting, gas line connections, and an expansion tank to handle Calgary's hard water pressure spikes. If your existing unit just failed, see our [hot water tank replacement](/hot-water-tank-replacement-calgary/) page for same-day options.",
-      "Licensed gas fitters, Red Seal plumbers, certified to install [Bradford White](https://www.bradfordwhite.com/), Rheem, Giant, AO Smith, and [Navien](https://www.navieninc.com/). Considering [tankless](/tankless-water-heaters/) instead? Read our [tankless vs tank comparison](/blog/tankless-vs-tank-water-heaters-calgary/) before deciding — and consider pairing either with a [water softener](/water-softener/) to extend lifespan.",
+      "Licensed gas fitters, Red Seal plumbers, certified to install [Bradford White](https://www.bradfordwhite.com/), Rheem, Giant, AO Smith, and [Navien](https://www.navieninc.com/). Considering [tankless](/tankless-water-heaters/) instead? Read our tankless vs tank comparison before deciding — and consider pairing either with a [water softener](/water-softener/) to extend lifespan.",
     ],
     heroSubhead: "Calgary's Water Heater Installation Specialists",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
@@ -8333,7 +8357,7 @@ export const services: ServicePage[] = [
       "Trust Calgary's certified AirEase furnace specialists for professional installation, maintenance, and repair. As an [authorized AirEase Pro Team dealer](https://www.airease.com/), FlameTech delivers superior comfort engineered for Alberta's demanding climate.",
     heroBody: [
       "We specialise in AirEase's complete residential lineup — from [high-efficiency modulating units](/high-efficiency-furnaces-calgary/) reaching 98% AFUE to dependable single-stage models for budget-conscious homeowners. Same crew handles every other [furnace](/furnaces/) brand too, plus full [boiler installation](/boiler-installation-calgary/) and [heat pump](/heat-pumps-calgary/) work.",
-      "Every install is sized to [AirEase specifications](https://www.airease.com/) and to Calgary's actual conditions: extreme temperature swings, dry winter air, and a heating season that runs nearly seven months. Wondering whether a furnace or [heat pump](/blog/heat-pump-vs-furnace-calgary/) is the right call for your home? Read the comparison first.",
+      "Every install is sized to [AirEase specifications](https://www.airease.com/) and to Calgary's actual conditions: extreme temperature swings, dry winter air, and a heating season that runs nearly seven months. Wondering whether a furnace or heat pump is the right call for your home? Read the comparison first.",
     ],
     heroSubhead: "Authorized AirEase Pro Team Dealer",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
