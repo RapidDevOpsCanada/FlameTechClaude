@@ -214,6 +214,9 @@ reviews:
     relative_date: "11 weeks ago"
     posted_at: "2026-02-25"
     quote: "I first used FlameTech back in December 2025 to service my boiler for my in-floor heating system. They responded the same day to my online service request. The day before the booking I got a text confirming my scheduled appointment, the day of the booking I got another text advising me Jason their Tech would arrive at the time promised. My boiler problem was resolved and I got a tutorial from Jason on how to regulate the floor temperature. February 2026 I again had a heating problem, this time with my furnace, I didn’t hesitate to call FlameTech who again responded quickly, arrived as promised and resolve my furnace problem for what I thought was a fair price on both service calls. My “go to” for plumbing and heating now is FlameTech, thanks Jason and Shaun.!"
+    quote_overrides:
+      high-efficiency-furnaces-calgary: "I had a heating problem with my furnace and didn’t hesitate to call FlameTech. They responded quickly, arrived as promised, and resolved my furnace problem for what I thought was a fair price. My “go to” for plumbing and heating now is FlameTech, thanks Jason and Shaun."
+      furnaces: "I had a heating problem with my furnace and didn’t hesitate to call FlameTech. They responded quickly, arrived as promised, and resolved my furnace problem for what I thought was a fair price. My “go to” for plumbing and heating now is FlameTech, thanks Jason and Shaun."
     featured: false
     sort_order: 19
     avatar: "/images/reviews/jim-wetterberg.png"

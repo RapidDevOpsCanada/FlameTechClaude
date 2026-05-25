@@ -19,6 +19,11 @@ export type Review = {
   rating: number;
   relative_date: string;
   quote: string;
+  /** Optional per-page quote replacements keyed by service slug. Used
+   *  when a multi-topic review is overweight for a single-service page
+   *  (e.g. a boiler + furnace review trimmed to just the furnace
+   *  portion on /high-efficiency-furnaces-calgary). */
+  quote_overrides?: Record<string, string>;
   featured: boolean;
   sort_order: number;
   avatar: string | null;
@@ -87,6 +92,7 @@ export async function getReviews(): Promise<Review[]> {
       relative_date:
         (r.posted_at && relativeDateFromIso(r.posted_at)) ?? r.relative_date,
       quote: r.quote,
+      quote_overrides: r.quote_overrides,
       featured: r.featured,
       sort_order: r.sort_order,
       avatar: r.avatar ?? null,

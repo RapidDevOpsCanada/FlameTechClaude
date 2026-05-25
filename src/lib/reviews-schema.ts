@@ -19,6 +19,12 @@ export const reviewSchema = z.object({
     .regex(/^\d{4}-\d{2}-\d{2}$/, "expected YYYY-MM-DD")
     .optional(),
   quote: z.string().min(1),
+  /** Optional per-page quote replacements. Map of service slug ->
+   *  trimmed quote, used when the full review covers multiple
+   *  services and only one is relevant on a given page. The full
+   *  `quote` is still the canonical version (used everywhere else
+   *  and in the Schema.org Review nodes). */
+  quote_overrides: z.record(z.string(), z.string()).optional(),
   featured: z.boolean().default(false),
   sort_order: z.number().int().nonnegative().default(0),
   /** Path to the reviewer's avatar (e.g. "/images/reviews/jane.png").

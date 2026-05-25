@@ -1214,20 +1214,28 @@ function pickInlineReviewFromList(
   const hashIdx = (size: number) =>
     [...service.slug].reduce((a, c) => a + c.charCodeAt(0), 0) % size;
 
+  // Wrap the chosen review so per-page quote_overrides apply. Lets a
+  // multi-topic review surface a slug-specific trimmed quote without
+  // changing the canonical text stored in content/reviews.yaml.
+  const applyOverride = (r: Review): Review => {
+    const override = r.quote_overrides?.[service.slug];
+    return override ? { ...r, quote: override } : r;
+  };
+
   // 1. Curated tag match — strongest signal
   const wantTags = expectedReviewTags(service.slug);
   if (wantTags.length > 0) {
     const tagged = pool.filter((r) =>
       r.tags.some((t) => wantTags.includes(t)),
     );
-    if (tagged.length) return tagged[hashIdx(tagged.length)];
+    if (tagged.length) return applyOverride(tagged[hashIdx(tagged.length)]);
   }
 
   // 2. Exact topic match in quote text (keyword fallback)
   const topic = reviewTopicPattern(service.slug);
   if (topic) {
     const exact = pool.filter((r) => topic.test(r.quote));
-    if (exact.length) return exact[hashIdx(exact.length)];
+    if (exact.length) return applyOverride(exact[hashIdx(exact.length)]);
   }
 
   // 3. Category match (includes generic reviews)
@@ -1236,10 +1244,10 @@ function pickInlineReviewFromList(
     if (cats.size === 0) return true;
     return cats.has(service.category);
   });
-  if (byCategory.length) return byCategory[hashIdx(byCategory.length)];
+  if (byCategory.length) return applyOverride(byCategory[hashIdx(byCategory.length)]);
 
   // 4. Anything
-  return pool[hashIdx(pool.length)];
+  return applyOverride(pool[hashIdx(pool.length)]);
 }
 
 /**
