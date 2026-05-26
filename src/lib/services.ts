@@ -4166,7 +4166,7 @@ export const services: ServicePage[] = [
           "From urgent repairs to routine service or major installations, we're ready to assist. Review our commonly asked questions below, or contact us directly at 587-834-3668.",
         items: [
           { q: "Are priority emergency plumbing services available in Ravenswood?", a: "Yes, FlameTech Plumbing provides priority emergency service throughout Ravenswood, Airdrie. Whether facing burst pipes, major leaks, or sewer backups, our licensed technicians respond rapidly. Contact us anytime at 587-834-3668." },
-          { q: "What's your typical response time for Ravenswood calls?", a: "Our technicians generally reach Ravenswood locations quickly when conditions allow following your call, depending on current service demand and traffic patterns. During emergencies, we prioritize swift arrival to minimize property damage and restore functionality." },
+          { q: "How does dispatch to Ravenswood work?", a: "We dispatch from Calgary north up the QEII into Airdrie, so Ravenswood — west of Main, north of Yankee Valley — is on our regular run. Emergency situations get priority routing. Call 587-834-3668 and we'll confirm a window before the truck leaves." },
           { q: "Which plumbing services does FlameTech offer in Ravenswood?", a: "We deliver complete plumbing solutions including drain clearing, water heater service and installation, leak identification, pipe repair and replacement, fixture installations, sewer line work, and bathroom/kitchen renovations." },
           { q: "Do your technicians carry proper licensing and insurance?", a: "Absolutely. Every FlameTech Plumbing technician holds full licensing, insurance coverage, and certification for work throughout Alberta. We maintain extensive liability protection safeguarding both our crew and your property." },
           { q: "What warranty coverage accompanies your services?", a: "We back our craftsmanship with comprehensive warranties on all work performed. Our satisfaction commitment ensures complete happiness with results, or we'll correct any concerns. We additionally provide manufacturer warranties on components and equipment we install." },
@@ -4288,7 +4288,7 @@ export const services: ServicePage[] = [
           "Whether addressing urgent repairs, standard maintenance, or significant installations, we're prepared to help. Reach us directly at 587-834-3668.",
         items: [
           { q: "Does FlameTech offer priority emergency service in Reunion?", a: "Yes, FlameTech Plumbing delivers priority emergency coverage throughout Reunion, Airdrie. Whether confronting broken pipes, substantial leaks, or sewer obstructions, our licensed professionals respond swiftly. Reach us anytime at 587-834-3668." },
-          { q: "How fast can your team reach Reunion properties?", a: "Our professionals usually arrive at Reunion addresses quickly when conditions allow after your call, subject to prevailing service demand and traffic circumstances. For critical emergencies, we emphasize rapid arrival." },
+          { q: "How does dispatch to Reunion work?", a: "We dispatch from Calgary up the QEII into Airdrie, and Reunion — west side, north of 40 Ave — is one of the closer Airdrie communities to the highway exit. Emergency calls get priority routing. Call 587-834-3668 and we'll confirm a window before the truck rolls." },
           { q: "What plumbing services do you provide in Reunion?", a: "We supply total plumbing solutions encompassing drain cleaning, water heater maintenance and setup, leak discovery, pipe restoration and substitution, fixture placements, sewer line operations, and bathroom/kitchen remodeling." },
           { q: "Are all your plumbers properly licensed and insured?", a: "Absolutely. Every FlameTech Plumbing technician possesses complete licensing, insurance protection, and certification throughout Alberta. We carry extensive liability coverage protecting our personnel and your premises." },
           { q: "What warranty protection comes with your services?", a: "We support our craftsmanship through comprehensive warranties covering all completed work. Our satisfaction commitment guarantees total happiness with outcomes, or we'll resolve any issues. We also extend manufacturer warranties covering parts and equipment we install." },
@@ -4412,7 +4412,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "How fast can a plumber arrive at my Altadore property?",
-            a: "Our plumbers generally reach Altadore homes quickly when conditions allow after your call, depending on current service demand and traffic patterns. For emergency situations, we prioritize quick response times to minimize water damage and restore your plumbing system promptly.",
+            a: "We dispatch from Calgary across the inner SW, and Altadore — bordered by Crowchild, 50 Ave, and the river — is on our regular run. Emergency calls get priority routing over scheduled work. Call 587-834-3668 and we'll confirm a window before the truck rolls.",
           },
           {
             q: "What plumbing services are available in Altadore?",
@@ -4532,7 +4532,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "How rapidly can you reach Aspen Woods properties?",
-            a: "Our technicians generally arrive at Aspen Woods estates quickly when conditions allow of your emergency contact, contingent upon current service demand and Calgary traffic patterns. We prioritize swift response for emergencies to minimize damage.",
+            a: "We dispatch from Calgary across the west side, and Aspen Woods sits right off Stoney Trail and 17 Ave SW — easy access from any direction. Emergency calls get priority routing. Call 587-834-3668 and we'll confirm a window before the truck rolls.",
           },
           {
             q: "What plumbing solutions do you offer Aspen Woods homeowners?",
@@ -5237,8 +5237,8 @@ export const services: ServicePage[] = [
             a: "Southeast Calgary spans everything from historic homes in Inglewood and Ramsay dating back over a century to brand-new construction in communities like Seton and Wolf Willow. This range creates diverse challenges — older properties may have galvanized pipes or outdated drainage systems, while newer subdivisions sometimes experience settling-related issues. Our plumbers are trained to handle the specific conditions found throughout SE Calgary properties.",
           },
           {
-            q: "How quickly can you reach my SE Calgary location?",
-            a: "We typically arrive at Southeast Calgary addresses quickly when conditions allow of your call, depending on your specific location and current road conditions. Emergency calls receive priority routing to minimize water damage and get your system functioning again quickly. Our service vehicles are stocked with commonly needed parts, allowing us to resolve most issues during the first visit.",
+            q: "How does dispatch to SE Calgary work?",
+            a: "We dispatch from Calgary across the entire SE quadrant — from Inglewood and Ramsay near downtown out to Seton, Mahogany, and Wolf Willow on the south edge. Deerfoot, Glenmore, and Stoney Trail give us fast access in any direction. Emergency calls receive priority routing over scheduled work. Call 587-834-3668 and we'll confirm a window before the truck rolls. Our vehicles stock the common parts, so most jobs finish on the first visit.",
           },
           {
             q: "What plumbing services do you provide in SE Calgary?",
@@ -5364,8 +5364,8 @@ export const services: ServicePage[] = [
             a: "Southwest Calgary features a diverse mix of properties — from heritage homes in established neighborhoods like Altadore to modern developments in Evergreen and luxury estates in Aspen Woods. This variety means plumbing systems range from aging infrastructure requiring specialized knowledge to brand-new installations. Our team understands these unique challenges and adapts our services accordingly.",
           },
           {
-            q: "How quickly can you respond to calls in Southwest Calgary?",
-            a: "We typically arrive at SW Calgary properties quickly when conditions allow of your call, depending on your specific location and current traffic conditions. For emergency situations, we prioritize rapid response to minimize water damage and get your plumbing system operational as quickly as possible. Our service vehicles are fully stocked to handle most repairs on the first visit.",
+            q: "How does dispatch to SW Calgary work?",
+            a: "We dispatch from Calgary across the entire SW quadrant — from inner-city heritage neighbourhoods like Altadore and Mount Royal out to Evergreen, Aspen Woods, and Springbank Hill on the west edge. Crowchild, Glenmore, and Stoney Trail give us fast access in any direction. Emergency calls receive priority routing over scheduled work. Call 587-834-3668 and we'll confirm a window before the truck rolls. Our vehicles stock the common parts, so most jobs finish on the first visit.",
           },
           {
             q: "What plumbing services do you provide in SW Calgary?",
@@ -6149,7 +6149,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "How quickly can a plumber reach my Evergreen home?",
-            a: "Our plumbers typically arrive at Evergreen properties quickly when conditions allow of your call, depending on current demand and traffic. For emergency situations we prioritize rapid response to minimize water damage and get your plumbing back to normal as quickly as possible.",
+            a: "We dispatch from Calgary down Stoney Trail or 14 St SW into Evergreen — straightforward access on either route. Emergency calls get priority routing over scheduled work. Call 587-834-3668 and we'll confirm a window before the truck rolls.",
           },
           {
             q: "What plumbing services do you offer in Evergreen?",
@@ -7064,7 +7064,7 @@ export const services: ServicePage[] = [
         heading: "Frequently Asked Questions",
         items: [
           { q: "Does FlameTech provide priority emergency service to Mount Royal?", a: "Absolutely. FlameTech Plumbing delivers priority emergency response throughout Mount Royal, Calgary. When confronting burst pipes, severe leaks, or sewage emergencies, our licensed master plumbers mobilize rapidly. Reach our priority line at 587-834-3668 any hour for immediate assistance." },
-          { q: "What response time can Mount Royal homeowners expect?", a: "Our technicians typically arrive at Mount Royal properties quickly when conditions allow following your emergency call, varying with service demand and Calgary traffic conditions. We prioritize rapid response for emergency situations to minimize property damage." },
+          { q: "How does dispatch to Mount Royal work?", a: "We dispatch from Calgary into both Upper and Lower Mount Royal regularly — heritage homes here have specific plumbing patterns (cast-iron stacks, original galvanized supply lines, knob-and-tube-era layouts) and we plan for them. Emergency calls receive priority routing. Call 587-834-3668 and we'll confirm a window before the truck rolls." },
           { q: "Which plumbing services do you offer Mount Royal residents?", a: "We provide complete plumbing solutions including premium drain cleaning, luxury water heater service and installation, precision leak detection, pipe restoration and replacement, designer fixture installations, comprehensive sewer maintenance, and sophisticated bathroom/kitchen renovations." },
           { q: "Are your technicians properly licensed and insured?", a: "Definitely. Every FlameTech Plumbing technician maintains complete licensure, bonding, and certification for Calgary operations. We carry extensive liability insurance protecting both our professionals and your valuable property." },
           { q: "Do you provide warranties on plumbing work?", a: "Absolutely, we stand behind our workmanship with comprehensive service warranties. Our satisfaction commitment ensures complete resolution if you're dissatisfied with our work. Additionally, we extend manufacturer warranties on all components and equipment we install." },
@@ -7817,7 +7817,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "How quickly can you reach West Springs homes?",
-            a: "Our technicians typically arrive at West Springs properties quickly when conditions allow of your emergency call, depending on current service demand and Calgary traffic conditions. We prioritize quick response for emergencies to minimize damage and restore your plumbing function promptly.",
+            a: "We dispatch from Calgary west on 17 Ave SW or Bow Trail directly into West Springs — both routes give us fast access. Emergency calls receive priority routing over scheduled work. Call 587-834-3668 and we'll confirm a window before the truck rolls.",
           },
           {
             q: "What plumbing services do you provide to West Springs families?",
@@ -8087,7 +8087,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "How quickly can you reach Coopers Crossing?",
-            a: "Our technicians typically arrive quickly when conditions allow of your emergency call, depending on traffic and weather. We dispatch from nearby and stock our trucks with common parts for Airdrie-area homes so most issues get fixed on the first visit.",
+            a: "We dispatch from Calgary up the QEII into Airdrie, and Coopers Crossing — east side, east of Main and south of Yankee Valley — is one of the easier Airdrie communities to reach via the 8 St SW exit. Emergency calls get priority routing. Our trucks carry the common parts for Airdrie-area homes so most jobs finish on the first visit.",
           },
           {
             q: "Can you handle hard water problems in Coopers Crossing?",
