@@ -8488,7 +8488,7 @@ export const services: ServicePage[] = [
     ],
     heroSubhead: "Chestermere Plumbing & Heating Specialists",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
-    heroImage: { src: "/images/FTVAN1.webp", alt: "FlameTech plumbing service van — Chestermere coverage", fit: "cover" },
+    heroImage: { src: "/images/FTVAN1.webp", alt: "FlameTech plumbing service van — Chestermere coverage", fit: "cover", position: "top" },
     intro:
       "Professional plumbers serving Chestermere. Priority emergency response, hot water tanks, boilers, drain cleaning, and Poly-B replacement. Licensed, insured, honest pricing.",
     features: [
@@ -8736,7 +8736,7 @@ export const services: ServicePage[] = [
     ],
     heroSubhead: "Carstairs Plumbing & Heating Team",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
-    heroImage: { src: "/images/FTVAN1.webp", alt: "FlameTech plumbing service van — Carstairs coverage", fit: "cover" },
+    heroImage: { src: "/images/FTVAN1.webp", alt: "FlameTech plumbing service van — Carstairs coverage", fit: "cover", position: "top" },
     intro:
       "Plumbers serving Carstairs, AB. Priority emergency response, hot water tanks, boilers, furnace repair, well-water softeners, Poly-B replacement. Licensed and insured.",
     features: [
