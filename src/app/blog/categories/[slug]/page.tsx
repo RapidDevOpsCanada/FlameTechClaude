@@ -140,7 +140,7 @@ export default async function CategoryPage({
                 No articles in this category yet.
               </h3>
               <Link
-                href="/blog"
+                href="/blog/"
                 className="inline-flex items-center gap-2 text-emergency-deep font-bold"
               >
                 Browse all articles

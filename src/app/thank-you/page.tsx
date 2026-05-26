@@ -69,7 +69,7 @@ export default function ThankYouPage() {
               Back to home
             </Link>
             <Link
-              href="/blog"
+              href="/blog/"
               className="inline-flex items-center gap-2 rounded-full border border-cream-50/25 text-cream-50 font-bold px-6 py-3 text-sm hover:border-emergency hover:text-emergency transition-colors"
             >
               Read our maintenance guides

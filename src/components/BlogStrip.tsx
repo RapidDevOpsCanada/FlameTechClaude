@@ -25,7 +25,7 @@ export default async function BlogStrip() {
               </h2>
             </div>
             <Link
-              href="/blog"
+              href="/blog/"
               className="inline-flex items-center gap-2 rounded-full border border-ink-900 text-ink-900 font-semibold px-5 py-2.5 text-sm hover:bg-ink-900 hover:text-cream-50 transition-colors self-start"
             >
               All articles
@@ -35,17 +35,23 @@ export default async function BlogStrip() {
         </Reveal>
 
         <div className="grid grid-cols-12 gap-6">
-          {articles.map((a, i) => (
+          {articles.map((a, i) => {
+            const publishedDate = new Date(a.created_at).toLocaleDateString("en-US", {
+              month: "short",
+              day: "numeric",
+              year: "numeric",
+            });
+            return (
             <Reveal
               key={a.id}
               delay={i * 100}
               className="col-span-12 md:col-span-4"
             >
               <Link
-                href={`/blog/${a.slug}`}
+                href={`/blog/${a.slug}/`}
                 className="group block rounded-2xl bg-white border border-line-light p-7 h-full lift"
               >
-                <div className="flex items-center gap-3 mb-5">
+                <div className="flex items-center gap-3 mb-3">
                   <span className="rounded-full bg-primary/15 text-primary-deep px-3 py-1 text-xs font-bold uppercase tracking-wider">
                     {a.category}
                   </span>
@@ -53,6 +59,12 @@ export default async function BlogStrip() {
                     {a.read_time} min
                   </span>
                 </div>
+                <time
+                  dateTime={a.created_at.slice(0, 10)}
+                  className="block text-[11px] text-ink-500 font-semibold uppercase tracking-wider mb-4"
+                >
+                  {publishedDate}
+                </time>
                 <h3 className="font-display text-xl font-extrabold tracking-tight mb-3 group-hover:text-emergency-deep transition-colors leading-snug">
                   {a.title}
                 </h3>
@@ -65,7 +77,8 @@ export default async function BlogStrip() {
                 </span>
               </Link>
             </Reveal>
-          ))}
+            );
+          })}
         </div>
       </div>
     </section>

@@ -134,7 +134,7 @@ export default async function TagPage({
                 No articles tagged {tag} yet.
               </h3>
               <Link
-                href="/blog"
+                href="/blog/"
                 className="inline-flex items-center gap-2 text-emergency-deep font-bold"
               >
                 Browse all articles

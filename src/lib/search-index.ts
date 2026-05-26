@@ -20,7 +20,7 @@ const STATIC_PAGES: SearchEntry[] = [
     meta: "Founders, story, credentials",
     haystack:
       "about flametech founders shaun kristoff jason mounsey red seal calgary plumbers heating story credentials",
-    href: "/about",
+    href: "/about/",
     kind: "Page",
   },
   {
@@ -28,7 +28,7 @@ const STATIC_PAGES: SearchEntry[] = [
     meta: "Phone, email, hours, service area",
     haystack:
       "contact phone email hours service area calgary airdrie chestermere cochrane okotoks carstairs",
-    href: "/contact",
+    href: "/contact/",
     kind: "Page",
   },
   {
@@ -36,7 +36,7 @@ const STATIC_PAGES: SearchEntry[] = [
     meta: "Monthly payments via Financeit",
     haystack:
       "financing monthly payments financeit installment loan boiler furnace ac water heater finance",
-    href: "/financing",
+    href: "/financing/",
     kind: "Page",
   },
   {
@@ -44,14 +44,14 @@ const STATIC_PAGES: SearchEntry[] = [
     meta: "Maintenance guides and how-tos",
     haystack:
       "resources blog articles guides maintenance how-to ac boiler furnace troubleshooting",
-    href: "/blog",
+    href: "/blog/",
     kind: "Resource",
   },
   {
     title: "Privacy Policy",
     meta: "How we handle your information",
     haystack: "privacy policy data information cookies pipeda alberta",
-    href: "/privacy",
+    href: "/privacy/",
     kind: "Page",
   },
 ];

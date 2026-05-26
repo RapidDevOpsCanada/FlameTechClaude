@@ -308,9 +308,9 @@ export default function AboutPage() {
             {(
               [
                 { label: "Plumbing", href: "/#services", icon: "pipe_wrench", tone: "plumbing" },
-                { label: "Heating & Boilers", href: "/boiler-installation-calgary", icon: "boiler_unit", tone: "heating" },
-                { label: "Air Conditioning", href: "/air-conditioning", icon: "ac_unit", tone: "air" },
-                { label: "Water Systems", href: "/water-softener", icon: "softener_tank", tone: "water" },
+                { label: "Heating & Boilers", href: "/boiler-installation-calgary/", icon: "boiler_unit", tone: "heating" },
+                { label: "Air Conditioning", href: "/air-conditioning/", icon: "ac_unit", tone: "air" },
+                { label: "Water Systems", href: "/water-softener/", icon: "softener_tank", tone: "water" },
               ] as { label: string; href: string; icon: string; tone: IconTone }[]
             ).map((s) => (
               <Link

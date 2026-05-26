@@ -184,32 +184,64 @@ export default function RootLayout({
     },
   };
 
+  // hasOfferCatalog with nested OfferCatalog by category — richer than
+  // a flat makesOffer because Google can surface specific services in
+  // local results and sitelinks. Each Offer carries a url back to the
+  // service page so Google associates the offering with a real landing.
   const plumberOffers = [
-    "Boiler installation",
-    "Boiler repair",
-    "Hot water tank replacement",
-    "Tankless water heaters",
-    "PolyB pipe replacement",
-    "Drain cleaning",
-    "Bathroom plumbing",
-    "Emergency plumbing",
-  ].map((name) => ({
+    { name: "Boiler installation", slug: "boiler-installation-calgary" },
+    { name: "Boiler repair", slug: "boiler-repair-calgary" },
+    { name: "Hot water tank replacement", slug: "hot-water-tank-replacement-calgary" },
+    { name: "Tankless water heaters", slug: "tankless-water-heaters" },
+    { name: "Poly-B pipe replacement", slug: "polyb-plumbing-calgary" },
+    { name: "Drain cleaning", slug: "drain-cleaning-calgary" },
+    { name: "Bathroom plumbing", slug: "bathroom-plumbing-calgary" },
+    { name: "Emergency plumbing", slug: "emergency-plumber-calgary" },
+    { name: "Water softener installation", slug: "water-softener" },
+  ].map(({ name, slug }) => ({
     "@type": "Offer",
-    itemOffered: { "@type": "Service", name },
+    itemOffered: {
+      "@type": "Service",
+      name,
+      url: `${SITE_URL}/${slug}/`,
+      provider: { "@id": `${SITE_URL}#business` },
+    },
   }));
 
   const hvacOffers = [
-    "Furnace installation",
-    "Furnace repair",
-    "High-efficiency furnaces",
-    "Heat pumps",
-    "Air conditioning",
-    "Garage heaters",
-    "Humidifiers",
-  ].map((name) => ({
+    { name: "Furnace installation", slug: "furnaces" },
+    { name: "Furnace repair", slug: "furnace-repair-calgary" },
+    { name: "High-efficiency furnaces", slug: "high-efficiency-furnaces-calgary" },
+    { name: "Heat pump installation", slug: "heat-pumps-calgary" },
+    { name: "Air conditioning installation", slug: "air-conditioning-calgary" },
+    { name: "Garage heater installation", slug: "garage-heaters-calgary" },
+    { name: "Humidifier installation", slug: "humidifiers-calgary" },
+  ].map(({ name, slug }) => ({
     "@type": "Offer",
-    itemOffered: { "@type": "Service", name },
+    itemOffered: {
+      "@type": "Service",
+      name,
+      url: `${SITE_URL}/${slug}/`,
+      provider: { "@id": `${SITE_URL}#business` },
+    },
   }));
+
+  const offerCatalog = {
+    "@type": "OfferCatalog",
+    name: "Plumbing & Heating Services",
+    itemListElement: [
+      {
+        "@type": "OfferCatalog",
+        name: "Plumbing",
+        itemListElement: plumberOffers,
+      },
+      {
+        "@type": "OfferCatalog",
+        name: "Heating, HVAC & Air Conditioning",
+        itemListElement: hvacOffers,
+      },
+    ],
+  };
 
   const baseSchema = {
     "@context": "https://schema.org",
@@ -241,6 +273,7 @@ export default function RootLayout({
         "@id": `${SITE_URL}#business`,
         ...sharedBusinessFields,
         makesOffer: [...plumberOffers, ...hvacOffers],
+        hasOfferCatalog: offerCatalog,
       },
     ],
   };

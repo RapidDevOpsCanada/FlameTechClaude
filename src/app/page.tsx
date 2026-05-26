@@ -687,6 +687,81 @@ export default async function Home() {
                 ))}
               </div>
             </div>
+
+            {/* NEIGHBOURHOOD HUB — text-link grid by quadrant.
+                Pushes link equity from the homepage into 25+ dedicated
+                neighbourhood landings. Quiet visually (small text links)
+                so it reads as a footer-style reference, not a CTA grid. */}
+            <Reveal>
+              <div className="mt-14 pt-10 border-t border-line-dark">
+                <p className="text-xs font-bold uppercase tracking-[0.18em] text-primary mb-8">
+                  Plumbing by Calgary neighbourhood
+                </p>
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-x-6 gap-y-3 text-sm">
+                  {[
+                    { region: "NW Calgary", links: [
+                      { name: "Edgemont", href: "/edgemont-plumbers-calgary/" },
+                      { name: "Evanston", href: "/evanston-plumbers-calgary/" },
+                      { name: "Tuscany", href: "/tuscany-plumbers-calgary/" },
+                      { name: "Varsity", href: "/varsity-plumbers-calgary/" },
+                      { name: "Bowness", href: "/bowness-plumbers-calgary/" },
+                      { name: "Panorama Hills", href: "/panorama-hills-plumbers-calgary/" },
+                      { name: "Huntington Hills", href: "/huntington-hills-plumbers-calgary/" },
+                    ]},
+                    { region: "SW Calgary", links: [
+                      { name: "Altadore", href: "/altadore-plumbers-calgary/" },
+                      { name: "Aspen Woods", href: "/aspen-woods-plumbers-calgary/" },
+                      { name: "Mount Royal", href: "/mount-royal-plumbers-calgary/" },
+                      { name: "Marda Loop", href: "/marda-loop-plumbers-calgary/" },
+                      { name: "Signal Hill", href: "/signal-hill-plumbers-calgary/" },
+                      { name: "West Springs", href: "/west-springs-plumbers-calgary/" },
+                      { name: "Evergreen", href: "/evergreen-plumbers-calgary/" },
+                      { name: "Killarney", href: "/killarney-plumbers-calgary/" },
+                      { name: "Bridlewood", href: "/bridlewood-plumbers-calgary/" },
+                      { name: "Woodbine", href: "/woodbine-plumber/" },
+                    ]},
+                    { region: "SE Calgary", links: [
+                      { name: "Auburn Bay", href: "/auburn-bay-plumber-calgary/" },
+                      { name: "Mahogany", href: "/mahogany-plumbers-calgary/" },
+                      { name: "Cranston", href: "/cranston-plumber-calgary/" },
+                      { name: "Chaparral", href: "/chaparral-plumbers-calgary/" },
+                      { name: "Copperfield", href: "/copperfield-plumbers-calgary/" },
+                      { name: "New Brighton", href: "/new-brighton-plumbers-calgary/" },
+                      { name: "McKenzie Lake", href: "/mckenzie-lake-plumbers-calgary/" },
+                      { name: "McKenzie Towne", href: "/mckenzie-towne-plumbers-calgary/" },
+                    ]},
+                    { region: "Airdrie & area", links: [
+                      { name: "Airdrie", href: "/airdrie-plumbers/" },
+                      { name: "Coopers Crossing", href: "/coopers-crossing-plumbers/" },
+                      { name: "Ravenswood", href: "/ravenswood-plumbers-airdrie/" },
+                      { name: "Reunion", href: "/reunion-plumbers-airdrie/" },
+                      { name: "Chestermere", href: "/chestermere-plumbers/" },
+                      { name: "Cochrane", href: "/cochrane-plumbers/" },
+                      { name: "Okotoks", href: "/okotoks-plumbers/" },
+                      { name: "Carstairs", href: "/carstairs-plumbers/" },
+                    ]},
+                  ].map((col) => (
+                    <div key={col.region}>
+                      <p className="text-xs font-bold uppercase tracking-wider text-cream-50/60 mb-3">
+                        {col.region}
+                      </p>
+                      <ul className="space-y-2">
+                        {col.links.map((l) => (
+                          <li key={l.href}>
+                            <Link
+                              href={l.href}
+                              className="text-cream-50/85 hover:text-emergency transition-colors"
+                            >
+                              {l.name}
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </Reveal>
           </div>
         </section>
 
@@ -733,7 +808,7 @@ export default async function Home() {
                     Monthly Financing Available
                   </p>
                   <Link
-                    href="/financing"
+                    href="/financing/"
                     className="flex items-center gap-4 rounded-2xl bg-cream-50 p-4 hover:bg-cream-100 transition-colors"
                   >
                     <img
@@ -785,12 +860,12 @@ const brandTiles: {
   w: number;
   h: number;
 }[] = [
-  { src: "/images/navine-boiler.png", label: "Boilers", href: "/boilers", w: 166, h: 300 },
-  { src: "/images/air-ease-furnace.png", label: "Furnaces", href: "/furnaces", w: 250, h: 352 },
-  { src: "/images/air-ease-ac.webp", label: "AC Units", href: "/air-conditioning", w: 250, h: 250 },
-  { src: "/images/bradford-white-hot-water-tank.webp", label: "Hot Water Tanks", href: "/hot-water-tanks", w: 500, h: 500 },
-  { src: "/images/graident-tankless-water-heater.png", label: "Tankless", href: "/tankless-water-heaters", w: 304, h: 583 },
-  { src: "/images/water-softener-calgary.png", label: "Water Softeners", href: "/water-softener", w: 800, h: 794 },
+  { src: "/images/navine-boiler.png", label: "Boilers", href: "/boilers/", w: 166, h: 300 },
+  { src: "/images/air-ease-furnace.png", label: "Furnaces", href: "/furnaces/", w: 250, h: 352 },
+  { src: "/images/air-ease-ac.webp", label: "AC Units", href: "/air-conditioning/", w: 250, h: 250 },
+  { src: "/images/bradford-white-hot-water-tank.webp", label: "Hot Water Tanks", href: "/hot-water-tanks/", w: 500, h: 500 },
+  { src: "/images/graident-tankless-water-heater.png", label: "Tankless", href: "/tankless-water-heaters/", w: 304, h: 583 },
+  { src: "/images/water-softener-calgary.png", label: "Water Softeners", href: "/water-softener/", w: 800, h: 794 },
 ];
 
 function Stat({ number, label }: { number: string; label: string }) {

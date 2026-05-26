@@ -78,15 +78,15 @@ const examples = [
 ];
 
 const qualifyingServices: { label: string; href: string; icon: string }[] = [
-  { label: "Boiler installation", href: "/boiler-installation-calgary", icon: "build" },
-  { label: "High-efficiency furnaces", href: "/high-efficiency-furnaces-calgary", icon: "local_fire_department" },
-  { label: "AirEase furnaces", href: "/air-ease-furnaces-calgary", icon: "local_fire_department" },
-  { label: "Air conditioning", href: "/air-conditioning", icon: "ac_unit" },
-  { label: "Heat pumps", href: "/heat-pumps-calgary", icon: "ac_unit" },
-  { label: "Tankless water heaters", href: "/tankless-water-heaters", icon: "whatshot" },
-  { label: "Hot water tank replacement", href: "/hot-water-tank-replacement-calgary", icon: "sync" },
-  { label: "Water softener install", href: "/water-softener", icon: "science" },
-  { label: "PolyB plumbing replacement", href: "/polyb-plumbing-calgary", icon: "swap_horiz" },
+  { label: "Boiler installation", href: "/boiler-installation-calgary/", icon: "build" },
+  { label: "High-efficiency furnaces", href: "/high-efficiency-furnaces-calgary/", icon: "local_fire_department" },
+  { label: "AirEase furnaces", href: "/air-ease-furnaces-calgary/", icon: "local_fire_department" },
+  { label: "Air conditioning", href: "/air-conditioning/", icon: "ac_unit" },
+  { label: "Heat pumps", href: "/heat-pumps-calgary/", icon: "ac_unit" },
+  { label: "Tankless water heaters", href: "/tankless-water-heaters/", icon: "whatshot" },
+  { label: "Hot water tank replacement", href: "/hot-water-tank-replacement-calgary/", icon: "sync" },
+  { label: "Water softener install", href: "/water-softener/", icon: "science" },
+  { label: "PolyB plumbing replacement", href: "/polyb-plumbing-calgary/", icon: "swap_horiz" },
 ];
 
 const faq = [

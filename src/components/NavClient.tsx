@@ -65,19 +65,19 @@ const menu: NavItem[] = [
           items: [
             {
               label: "Bathroom Plumbing",
-              href: "/bathroom-plumbing-calgary",
+              href: "/bathroom-plumbing-calgary/",
               icon: "bathroom",
               desc: "Sinks, toilets, full bathroom retrofits.",
             },
             {
               label: "Shower Plumbing",
-              href: "/shower-plumbing-calgary",
+              href: "/shower-plumbing-calgary/",
               icon: "shower",
               desc: "Shower installs, valve replacements.",
             },
             {
               label: "Drain Cleaning",
-              href: "/drain-cleaning-calgary",
+              href: "/drain-cleaning-calgary/",
               icon: "drain_camera",
               desc: "Clogs, slow drains, camera inspection.",
             },
@@ -88,13 +88,13 @@ const menu: NavItem[] = [
           items: [
             {
               label: "Emergency Plumbing",
-              href: "/emergency-plumber-calgary",
+              href: "/emergency-plumber-calgary/",
               icon: "contact_emergency",
               desc: "Leaks, burst pipes, urgent fixes.",
             },
             {
               label: "PolyB Plumbing",
-              href: "/polyb-plumbing-calgary",
+              href: "/polyb-plumbing-calgary/",
               icon: "pipe_wrench",
               desc: "Full replacement for 80s/90s homes.",
             },
@@ -121,19 +121,19 @@ const menu: NavItem[] = [
           items: [
             {
               label: "Boiler Installation",
-              href: "/boiler-installation-calgary",
+              href: "/boiler-installation-calgary/",
               icon: "boiler_unit",
               desc: "New high-efficiency boilers.",
             },
             {
               label: "Boiler Repair",
-              href: "/boiler-repair-calgary",
+              href: "/boiler-repair-calgary/",
               icon: "gas_valve",
               desc: "Diagnosis and fast repairs.",
             },
             {
               label: "Boiler Service",
-              href: "/boiler-service-calgary",
+              href: "/boiler-service-calgary/",
               icon: "hydronic_loop",
               desc: "Annual maintenance & tune-ups.",
             },
@@ -145,25 +145,25 @@ const menu: NavItem[] = [
           items: [
             {
               label: "Calgary Furnaces",
-              href: "/furnaces",
+              href: "/furnaces/",
               icon: "local_fire_department",
               desc: "Install, repair, and maintenance for every major brand.",
             },
             {
               label: "High-Efficiency Furnaces",
-              href: "/high-efficiency-furnaces-calgary",
+              href: "/high-efficiency-furnaces-calgary/",
               icon: "local_fire_department",
               desc: "95–98% AFUE installs.",
             },
             {
               label: "Garage Heaters",
-              href: "/garage-heaters-calgary",
+              href: "/garage-heaters-calgary/",
               icon: "garage",
               desc: "Warm, code-compliant garages.",
             },
             {
               label: "Heat Pumps",
-              href: "/heat-pumps-calgary",
+              href: "/heat-pumps-calgary/",
               icon: "ac_unit",
               desc: "Cold-climate dual-fuel setups.",
             },
@@ -189,13 +189,13 @@ const menu: NavItem[] = [
           items: [
             {
               label: "Air Conditioning",
-              href: "/air-conditioning",
+              href: "/air-conditioning/",
               icon: "ac_unit",
               desc: "Central AC installs & service.",
             },
             {
               label: "Humidifiers",
-              href: "/humidifiers-calgary",
+              href: "/humidifiers-calgary/",
               icon: "water_drop",
               desc: "Whole-home humidification.",
             },
@@ -222,19 +222,19 @@ const menu: NavItem[] = [
           items: [
             {
               label: "Hot Water Tanks",
-              href: "/hot-water-tanks",
+              href: "/hot-water-tanks/",
               icon: "propane_tank",
               desc: "Service, repair, and new installs.",
             },
             {
               label: "Hot Water Tank Replacement",
-              href: "/hot-water-tank-replacement-calgary",
+              href: "/hot-water-tank-replacement-calgary/",
               icon: "sync",
               desc: "Same-day tank swaps when possible.",
             },
             {
               label: "Tankless Water Heaters",
-              href: "/tankless-water-heaters",
+              href: "/tankless-water-heaters/",
               icon: "whatshot",
               desc: "Endless hot water, lower running costs.",
             },
@@ -245,7 +245,7 @@ const menu: NavItem[] = [
           items: [
             {
               label: "Water Softeners",
-              href: "/water-softener",
+              href: "/water-softener/",
               icon: "softener_tank",
               desc: "Protect fixtures from Alberta hard water.",
             },
@@ -375,7 +375,7 @@ export default function NavClient({
             587-834-3668
           </a>
           <Link
-            href="/contact"
+            href="/contact/"
             className="cta-animated-border inline-flex items-center rounded-full bg-emergency text-cream-50 font-extrabold uppercase tracking-tight px-6 py-3 text-[15px] hover:bg-emergency-deep transition-colors"
           >
             Contact Us
@@ -419,7 +419,7 @@ export default function NavClient({
               />
             ))}
             <Link
-              href="/contact"
+              href="/contact/"
               onClick={() => setOpen(false)}
               className="block px-4 py-3 text-[19px] font-extrabold text-cream-50 hover:text-emergency transition-colors"
             >
@@ -434,7 +434,7 @@ export default function NavClient({
                 587-834-3668
               </a>
               <Link
-                href="/contact"
+                href="/contact/"
                 onClick={() => setOpen(false)}
                 className="inline-flex items-center justify-center rounded-full bg-emergency text-ink-900 font-bold py-3 text-sm"
               >

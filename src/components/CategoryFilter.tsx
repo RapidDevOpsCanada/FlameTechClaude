@@ -10,7 +10,7 @@ export default function CategoryFilter({
   return (
     <div className="flex flex-wrap gap-2 mb-12">
       <Link
-        href="/blog"
+        href="/blog/"
         className={`rounded-full px-5 py-2 text-sm font-semibold transition-colors ${
           !active
             ? "bg-ink-900 text-cream-50"

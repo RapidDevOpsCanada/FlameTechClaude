@@ -813,7 +813,7 @@ export default async function ServicePage({
                   sidebar stays compact on long pages. */}
               {service.financing && (
                 <Link
-                  href="/financing"
+                  href="/financing/"
                   className="mt-12 block rounded-2xl bg-cream-50 border border-line-light p-6 md:p-8 hover:bg-cream-100 transition-colors group"
                 >
                   <div className="flex flex-col md:flex-row md:items-center gap-6">

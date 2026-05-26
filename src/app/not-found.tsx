@@ -7,12 +7,12 @@ import Link from "next/link";
 import { buildSearchIndex } from "@/lib/search-index";
 
 const TOP_PICKS: { label: string; href: string; meta: string; icon: string }[] = [
-  { label: "Emergency Plumber", href: "/emergency-plumber-calgary", meta: "Burst pipes, leaks, sewer backups", icon: "contact_emergency" },
-  { label: "Boiler Service", href: "/boiler-service-calgary", meta: "Repair, tune-ups, no-heat calls", icon: "build" },
-  { label: "Furnace Install", href: "/furnaces", meta: "AirEase, Carrier, Lennox, more", icon: "local_fire_department" },
-  { label: "Air Conditioning", href: "/air-conditioning", meta: "Central AC + heat pumps", icon: "ac_unit" },
-  { label: "Hot Water Tanks", href: "/hot-water-tanks", meta: "Repair, replace, install", icon: "propane_tank" },
-  { label: "Water Softener", href: "/water-softener", meta: "Calgary hard water solutions", icon: "science" },
+  { label: "Emergency Plumber", href: "/emergency-plumber-calgary/", meta: "Burst pipes, leaks, sewer backups", icon: "contact_emergency" },
+  { label: "Boiler Service", href: "/boiler-service-calgary/", meta: "Repair, tune-ups, no-heat calls", icon: "build" },
+  { label: "Furnace Install", href: "/furnaces/", meta: "AirEase, Carrier, Lennox, more", icon: "local_fire_department" },
+  { label: "Air Conditioning", href: "/air-conditioning/", meta: "Central AC + heat pumps", icon: "ac_unit" },
+  { label: "Hot Water Tanks", href: "/hot-water-tanks/", meta: "Repair, replace, install", icon: "propane_tank" },
+  { label: "Water Softener", href: "/water-softener/", meta: "Calgary hard water solutions", icon: "science" },
 ];
 
 export default function NotFound() {
@@ -50,7 +50,7 @@ export default function NotFound() {
               Back to home
             </Link>
             <Link
-              href="/contact"
+              href="/contact/"
               className="inline-flex items-center gap-2 rounded-full border border-cream-50/25 text-cream-50 font-bold px-6 py-3 text-sm hover:border-emergency hover:text-emergency transition-colors"
             >
               Contact us

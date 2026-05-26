@@ -21,51 +21,51 @@ function InstagramGlyph({ className }: { className?: string }) {
 }
 
 const plumbingLinks = [
-  { label: "Bathroom Plumbing", href: "/bathroom-plumbing-calgary" },
-  { label: "Shower Plumbing", href: "/shower-plumbing-calgary" },
-  { label: "Drain Cleaning", href: "/drain-cleaning-calgary" },
-  { label: "Emergency Plumbing", href: "/emergency-plumber-calgary" },
-  { label: "PolyB Replacement", href: "/polyb-plumbing-calgary" },
+  { label: "Bathroom Plumbing", href: "/bathroom-plumbing-calgary/" },
+  { label: "Shower Plumbing", href: "/shower-plumbing-calgary/" },
+  { label: "Drain Cleaning", href: "/drain-cleaning-calgary/" },
+  { label: "Emergency Plumbing", href: "/emergency-plumber-calgary/" },
+  { label: "PolyB Replacement", href: "/polyb-plumbing-calgary/" },
 ];
 
 const heatingLinks = [
-  { label: "Boiler Installation", href: "/boiler-installation-calgary" },
-  { label: "Boiler Repair", href: "/boiler-repair-calgary" },
-  { label: "Boiler Service", href: "/boiler-service-calgary" },
-  { label: "Furnaces", href: "/furnaces" },
-  { label: "High-Efficiency Furnaces", href: "/high-efficiency-furnaces-calgary" },
-  { label: "Garage Heaters", href: "/garage-heaters-calgary" },
-  { label: "Heat Pumps", href: "/heat-pumps-calgary" },
+  { label: "Boiler Installation", href: "/boiler-installation-calgary/" },
+  { label: "Boiler Repair", href: "/boiler-repair-calgary/" },
+  { label: "Boiler Service", href: "/boiler-service-calgary/" },
+  { label: "Furnaces", href: "/furnaces/" },
+  { label: "High-Efficiency Furnaces", href: "/high-efficiency-furnaces-calgary/" },
+  { label: "Garage Heaters", href: "/garage-heaters-calgary/" },
+  { label: "Heat Pumps", href: "/heat-pumps-calgary/" },
 ];
 
 const airWaterLinks = [
-  { label: "Air Conditioning", href: "/air-conditioning" },
-  { label: "Humidifiers", href: "/humidifiers-calgary" },
-  { label: "Hot Water Tanks", href: "/hot-water-tanks" },
-  { label: "Tankless Heaters", href: "/tankless-water-heaters" },
-  { label: "Water Softener", href: "/water-softener" },
+  { label: "Air Conditioning", href: "/air-conditioning/" },
+  { label: "Humidifiers", href: "/humidifiers-calgary/" },
+  { label: "Hot Water Tanks", href: "/hot-water-tanks/" },
+  { label: "Tankless Heaters", href: "/tankless-water-heaters/" },
+  { label: "Water Softener", href: "/water-softener/" },
 ];
 
 const companyLinks = [
   { label: "Services", href: "/#services" },
-  { label: "About", href: "/about" },
-  { label: "Contact", href: "/contact" },
-  { label: "Financing", href: "/financing" },
-  { label: "Blog", href: "/blog" },
+  { label: "About", href: "/about/" },
+  { label: "Contact", href: "/contact/" },
+  { label: "Financing", href: "/financing/" },
+  { label: "Blog", href: "/blog/" },
   { label: "Get a Quote", href: "/contact#quote" },
 ];
 
 const airdrieLinks = [
-  { label: "Airdrie Plumbers", href: "/airdrie-plumbers" },
-  { label: "Airdrie Furnace Repair", href: "/airdrie-furnace-repairs" },
-  { label: "Boilers Airdrie", href: "/boilers-airdrie" },
-  { label: "Boiler Installation", href: "/boiler-installation-airdrie" },
-  { label: "Heat Pumps Airdrie", href: "/heat-pumps-airdrie" },
-  { label: "Hot Water Tanks", href: "/hot-water-tanks-airdrie" },
-  { label: "Water Softener", href: "/water-softener-airdrie" },
-  { label: "Coopers Crossing", href: "/coopers-crossing-plumbers" },
-  { label: "Ravenswood Plumbers", href: "/ravenswood-plumbers-airdrie" },
-  { label: "Reunion Plumbers", href: "/reunion-plumbers-airdrie" },
+  { label: "Airdrie Plumbers", href: "/airdrie-plumbers/" },
+  { label: "Airdrie Furnace Repair", href: "/airdrie-furnace-repairs/" },
+  { label: "Boilers Airdrie", href: "/boilers-airdrie/" },
+  { label: "Boiler Installation", href: "/boiler-installation-airdrie/" },
+  { label: "Heat Pumps Airdrie", href: "/heat-pumps-airdrie/" },
+  { label: "Hot Water Tanks", href: "/hot-water-tanks-airdrie/" },
+  { label: "Water Softener", href: "/water-softener-airdrie/" },
+  { label: "Coopers Crossing", href: "/coopers-crossing-plumbers/" },
+  { label: "Ravenswood Plumbers", href: "/ravenswood-plumbers-airdrie/" },
+  { label: "Reunion Plumbers", href: "/reunion-plumbers-airdrie/" },
 ];
 
 // Every entry has an href. For areas without a dedicated landing
@@ -73,16 +73,16 @@ const airdrieLinks = [
 // accurate ("we serve you, get in touch") and avoids dead labels in
 // the footer that hurt SEO crawler link-coverage scores.
 const serviceAreas: { label: string; href: string }[] = [
-  { label: "Calgary NE", href: "/contact" },
-  { label: "Calgary NW", href: "/calgary-plumbers-nw" },
-  { label: "Calgary SE", href: "/calgary-plumbers-se" },
-  { label: "Calgary SW", href: "/calgary-plumbers-sw" },
-  { label: "Huntington Hills", href: "/huntington-hills-plumbers-calgary" },
-  { label: "Airdrie", href: "/airdrie-plumbers" },
-  { label: "Chestermere", href: "/chestermere-plumbers" },
-  { label: "Cochrane", href: "/cochrane-plumbers" },
-  { label: "Okotoks", href: "/okotoks-plumbers" },
-  { label: "Carstairs", href: "/carstairs-plumbers" },
+  { label: "Calgary NE", href: "/contact/" },
+  { label: "Calgary NW", href: "/calgary-plumbers-nw/" },
+  { label: "Calgary SE", href: "/calgary-plumbers-se/" },
+  { label: "Calgary SW", href: "/calgary-plumbers-sw/" },
+  { label: "Huntington Hills", href: "/huntington-hills-plumbers-calgary/" },
+  { label: "Airdrie", href: "/airdrie-plumbers/" },
+  { label: "Chestermere", href: "/chestermere-plumbers/" },
+  { label: "Cochrane", href: "/cochrane-plumbers/" },
+  { label: "Okotoks", href: "/okotoks-plumbers/" },
+  { label: "Carstairs", href: "/carstairs-plumbers/" },
 ];
 
 export default function Footer() {
@@ -221,7 +221,7 @@ export default function Footer() {
               </a>
             </div>
             <Link
-              href="/privacy"
+              href="/privacy/"
               className="hover:text-cream-50 transition-colors"
             >
               Privacy Policy

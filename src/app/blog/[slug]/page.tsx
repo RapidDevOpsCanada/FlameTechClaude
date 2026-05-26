@@ -308,7 +308,7 @@ export default async function ArticlePage({
               variant="dark"
               items={[
                 { label: "Home", href: "/" },
-                { label: "Blog", href: "/blog" },
+                { label: "Blog", href: "/blog/" },
                 {
                   label: article.category,
                   href: `/blog/categories/${article.category_slug}`,
@@ -490,7 +490,7 @@ export default async function ArticlePage({
                 </h2>
               </div>
               <Link
-                href="/blog"
+                href="/blog/"
                 className="hidden md:inline-flex items-center gap-2 text-sm font-bold text-emergency-deep"
               >
                 All articles

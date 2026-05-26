@@ -32,10 +32,10 @@ export const metadata: Metadata = {
 
 const serviceAreas: { city: string; href?: string; note?: string }[] = [
   { city: "Calgary NE" },
-  { city: "Calgary NW", href: "/calgary-plumbers-nw" },
-  { city: "Calgary SE", href: "/calgary-plumbers-se" },
-  { city: "Calgary SW", href: "/calgary-plumbers-sw" },
-  { city: "Airdrie", href: "/airdrie-plumbers" },
+  { city: "Calgary NW", href: "/calgary-plumbers-nw/" },
+  { city: "Calgary SE", href: "/calgary-plumbers-se/" },
+  { city: "Calgary SW", href: "/calgary-plumbers-sw/" },
+  { city: "Airdrie", href: "/airdrie-plumbers/" },
   { city: "Chestermere" },
   { city: "Cochrane" },
   { city: "Okotoks" },

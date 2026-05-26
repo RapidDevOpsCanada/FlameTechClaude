@@ -169,7 +169,7 @@ export const services: ServicePage[] = [
     icon: "bathroom",
     title: "Bathroom Plumbing Calgary | Professional Bathroom Services",
     lead:
-      "Calgary's hard water and extreme temperature swings wreak havoc on bathroom plumbing — we see it every day. FlameTech's bathroom plumbing specialists handle everything from emergency burst pipes in older [Mount Royal](/mount-royal-plumbers-calgary) homes to complete bathroom renovations in new [Evergreen](/evergreen-plumbers-calgary) developments.",
+      "Calgary's hard water and extreme temperature swings wreak havoc on bathroom plumbing — we see it every day. FlameTech's bathroom plumbing specialists handle everything from emergency burst pipes in older [Mount Royal](/mount-royal-plumbers-calgary/) homes to complete bathroom renovations in new [Evergreen](/evergreen-plumbers-calgary/) developments.",
     heroBody: [
       "When your toilet won't stop running at 3 AM or your shower suddenly turns ice cold, we answer the phone — not a voicemail system. Our Calgary crews are equipped to handle any bathroom plumbing emergency with priority dispatch, day or night.",
       "From emergency calls in established neighbourhoods to full renovations in new builds, our Calgary plumbing specialists have seen every bathroom configuration this city has to offer.",
@@ -652,7 +652,7 @@ export const services: ServicePage[] = [
     sidebar: {
       title: "Calgary Emergency Plumbing",
       subtitle:
-        "Burst pipes, sewer backups, major leaks — priority dispatch from Calgary's most trusted emergency plumbers.",
+        "Burst pipes, sewer backups, major leaks — priority dispatch from licensed plumbers and gas fitters with 20+ years in Calgary.",
       bullets: [
         "Certified, licensed, and insured technicians",
         "Fully-stocked emergency service vehicles",
@@ -726,7 +726,7 @@ export const services: ServicePage[] = [
           { q: "What qualifies as a plumbing emergency?", a: "A plumbing emergency is any situation that threatens immediate property damage, creates health hazards, or leaves your home without essential water services. This includes burst pipes, severe leaks flooding your home, sewer backups, gas line leaks, complete water heater failures, or any plumbing issue that cannot safely wait until regular business hours. If you're unsure whether your situation is an emergency, call us at 587-834-3668 — we're happy to assess your situation over the phone." },
           { q: "How quickly can an emergency plumber arrive in Calgary?", a: "We maintain strategically positioned service vehicles throughout the Calgary region to ensure the fastest possible response. For life-threatening situations like gas leaks, we prioritize immediate dispatch. Our goal is to minimize damage and restore your peace of mind as quickly as possible." },
           { q: "What should I do while waiting for the emergency plumber?", a: "If safe to do so, shut off the main water supply to stop flooding. For burst pipes, turn off your home's water at the main shut-off valve. If there's a gas leak, evacuate immediately and call 911, then contact us. Move valuables away from water damage. Take photos for insurance purposes if possible. For overflowing toilets, stop using all plumbing fixtures. Our emergency dispatch team will provide specific guidance based on your situation when you call." },
-          { q: "Are your emergency plumbers licensed and insured?", a: "Absolutely. Every emergency plumber on our Calgary team is fully licensed, bonded, and insured. We meet all Alberta plumbing codes and regulations, and our technicians undergo rigorous training and background checks. You can trust that the emergency plumber arriving at your door has the qualifications, expertise, and insurance coverage to handle your crisis safely and effectively — protecting both you and your property." },
+          { q: "Are your emergency plumbers licensed and insured?", a: "Yes — every tech on the truck is licensed, bonded, and insured to work across Alberta. We meet all Alberta plumbing codes and Calgary permit requirements. Insurance certificate available on request before we start work." },
         ],
       },
     },
@@ -1096,7 +1096,7 @@ export const services: ServicePage[] = [
     bullets: [
       {
         t: "25+ years of Calgary experience",
-        d: "We've troubleshot thousands of boiler failures across every Calgary neighborhood from Kensington to [McKenzie Towne](/mckenzie-towne-plumbers-calgary).",
+        d: "We've troubleshot thousands of boiler failures across every Calgary neighborhood from Kensington to [McKenzie Towne](/mckenzie-towne-plumbers-calgary/).",
       },
       {
         t: "Stocked service trucks",
@@ -1181,7 +1181,7 @@ export const services: ServicePage[] = [
           heading: "Calgary Boiler Repair Expertise You Can Trust",
           items: [
             { body: "Twenty-five years of Calgary boiler service has equipped our team with deep understanding of how different boiler designs perform in our climate, enabling accurate diagnosis of complex issues that stump less experienced technicians." },
-            { body: "From high-efficiency condensing boilers in new construction to cast iron workhorses in heritage Calgary homes, our technicians service every boiler type installed throughout the city's diverse housing stock. Experience with Calgary's building codes, basement configurations, and utility connections ensures proper repairs that meet local standards while addressing unique installation challenges in older neighborhoods like Hillhurst and newer developments in [Cranston](/cranston-plumber-calgary)." },
+            { body: "From high-efficiency condensing boilers in new construction to cast iron workhorses in heritage Calgary homes, our technicians service every boiler type installed throughout the city's diverse housing stock. Experience with Calgary's building codes, basement configurations, and utility connections ensures proper repairs that meet local standards while addressing unique installation challenges in older neighborhoods like Hillhurst and newer developments in [Cranston](/cranston-plumber-calgary/)." },
             { body: "Calgary's extreme winter conditions and dramatic temperature swings create unique stresses on boiler systems that require specialized knowledge to address effectively. Our team understands why expansion tanks fail more frequently in our climate and how to prevent condensate freezing issues that plague boilers during extended cold spells, ensuring reliable heating performance through Calgary's demanding winter months." },
           ],
         },
@@ -1213,7 +1213,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "Can you come out today?",
-            a: "For most no-heat calls during business hours, yes. Priority emergency dispatch typically gets a tech to your door quickly when conditions allow anywhere in Calgary, Airdrie, Chestermere, Cochrane, or Okotoks. Call us first — we'll confirm the window before we leave the shop.",
+            a: "For most no-heat calls during business hours, yes. Priority emergency dispatch covers Calgary, Airdrie, Chestermere, Cochrane, and Okotoks. Call us first — we'll confirm a window before the truck leaves the shop.",
           },
         ],
       },
@@ -1757,10 +1757,10 @@ export const services: ServicePage[] = [
       intro:
         "Install, retrofit, or upgrade — here's the path that matches your situation.",
       items: [
-        { label: "High-Efficiency Furnaces", href: "/high-efficiency-furnaces-calgary", summary: "95–98% AFUE condensing units sized for Calgary's −35°C design temp.", icon: "local_fire_department" },
-        { label: "AirEase Furnaces", href: "/air-ease-furnaces-calgary", summary: "Authorized AirEase Pro Team dealer — full residential lineup with manufacturer warranty.", icon: "local_fire_department" },
-        { label: "Garage Heaters", href: "/garage-heaters-calgary", summary: "Forced-air gas, radiant tube, and electric heaters for Calgary garages and shops.", icon: "garage" },
-        { label: "Heat Pumps", href: "/heat-pumps-calgary", summary: "Cold-climate dual-fuel heat pumps — heating + cooling in one system.", icon: "ac_unit" },
+        { label: "High-Efficiency Furnaces", href: "/high-efficiency-furnaces-calgary/", summary: "95–98% AFUE condensing units sized for Calgary's −35°C design temp.", icon: "local_fire_department" },
+        { label: "AirEase Furnaces", href: "/air-ease-furnaces-calgary/", summary: "Authorized AirEase Pro Team dealer — full residential lineup with manufacturer warranty.", icon: "local_fire_department" },
+        { label: "Garage Heaters", href: "/garage-heaters-calgary/", summary: "Forced-air gas, radiant tube, and electric heaters for Calgary garages and shops.", icon: "garage" },
+        { label: "Heat Pumps", href: "/heat-pumps-calgary/", summary: "Cold-climate dual-fuel heat pumps — heating + cooling in one system.", icon: "ac_unit" },
       ],
     },
   },
@@ -1772,7 +1772,7 @@ export const services: ServicePage[] = [
     lead:
       "Calgary's unpredictable winters — from −35°C cold snaps to sudden chinook thaws — demand furnaces that can handle anything.",
     heroBody: [
-      "FlameTech's heating specialists have been installing and servicing high-efficiency furnaces across Calgary for over a decade, helping homeowners cut their gas bills while staying warm through Alberta's toughest winters. Whether you're upgrading an old builder-grade unit in [Evergreen](/evergreen-plumbers-calgary) or installing a new system in a custom home, we know which units perform best in Calgary's climate.",
+      "FlameTech's heating specialists have been installing and servicing high-efficiency furnaces across Calgary for over a decade, helping homeowners cut their gas bills while staying warm through Alberta's toughest winters. Whether you're upgrading an old builder-grade unit in [Evergreen](/evergreen-plumbers-calgary/) or installing a new system in a custom home, we know which units perform best in Calgary's climate.",
       "When your furnace fails at 2 AM in January, you need someone who answers the phone — not a voicemail. Our technicians offer priority response and carry the parts needed to get Calgary homes heated fast.",
     ],
     heroSubhead: "Trusted Calgary High-Efficiency Furnace Experts",
@@ -2762,10 +2762,10 @@ export const services: ServicePage[] = [
       intro:
         "Tank, tankless, replacement, or new install — each one runs a different way.",
       items: [
-        { label: "Hot Water Tank Replacement", href: "/hot-water-tank-replacement-calgary", summary: "Same-day swaps with Bradford White, AO Smith, and Rheem stocked on every truck.", icon: "sync" },
-        { label: "Tankless Water Heaters", href: "/tankless-water-heaters", summary: "On-demand hot water, 20+ year lifespan, big space + efficiency wins.", icon: "whatshot" },
-        { label: "Water Heater Installation", href: "/water-heater-installation-calgary", summary: "Tank, tankless, or replacement — gas + venting + expansion tank done right.", icon: "propane_tank" },
-        { label: "Water Softeners", href: "/water-softener", summary: "Protect your tank from Calgary's hard water with a properly-sized softener.", icon: "softener_tank" },
+        { label: "Hot Water Tank Replacement", href: "/hot-water-tank-replacement-calgary/", summary: "Same-day swaps with Bradford White, AO Smith, and Rheem stocked on every truck.", icon: "sync" },
+        { label: "Tankless Water Heaters", href: "/tankless-water-heaters/", summary: "On-demand hot water, 20+ year lifespan, big space + efficiency wins.", icon: "whatshot" },
+        { label: "Water Heater Installation", href: "/water-heater-installation-calgary/", summary: "Tank, tankless, or replacement — gas + venting + expansion tank done right.", icon: "propane_tank" },
+        { label: "Water Softeners", href: "/water-softener/", summary: "Protect your tank from Calgary's hard water with a properly-sized softener.", icon: "softener_tank" },
       ],
     },
   },
@@ -3276,7 +3276,7 @@ export const services: ServicePage[] = [
     richContent: {
       sections: [
         {
-          heading: "Comprehensive Plumbing Services in Airdrie",
+          heading: "Plumbing Services in Airdrie",
           intro:
             "Plumbing emergencies don't wait for convenient times. Whether it's a burst pipe flooding your basement at midnight or a backed-up sewer line on a holiday weekend, our emergency plumbers are ready to respond with priority service that minimizes damage and restores your plumbing system quickly.",
           items: [
@@ -3616,7 +3616,7 @@ export const services: ServicePage[] = [
         {
           heading: "Why Airdrie Homeowners Choose FlameTech for Boilers",
           intro:
-            "As a locally owned and operated plumbing company, we specialize in professional boiler services for Airdrie homes and businesses. Most heating contractors focus on forced-air furnaces; boilers need technicians who understand water pressure, circulation pumps, expansion tanks, and zone controls. We've worked on everything from old cast iron radiators in [Ravenswood](/ravenswood-plumbers-airdrie) character homes to modern condensing boilers in [Coopers Crossing](/coopers-crossing-plumbers).",
+            "As a locally owned and operated plumbing company, we specialize in professional boiler services for Airdrie homes and businesses. Most heating contractors focus on forced-air furnaces; boilers need technicians who understand water pressure, circulation pumps, expansion tanks, and zone controls. We've worked on everything from old cast iron radiators in [Ravenswood](/ravenswood-plumbers-airdrie/) character homes to modern condensing boilers in [Coopers Crossing](/coopers-crossing-plumbers/).",
           items: [
             { heading: "Boiler Installation", body: "Complete replacement of old or failed boilers with high-efficiency condensing units. We handle all gas connections, venting, and hydronic piping." },
             { heading: "Circulation Pump Repair", body: "Failed pumps mean no heat distribution. We carry replacement pumps for Grundfos, Taco, and Bell & Gossett models commonly found in Airdrie homes." },
@@ -3788,7 +3788,7 @@ export const services: ServicePage[] = [
     icon: "propane_tank",
     title: "Hot Water Tanks Airdrie | Professional Installation & Repair Services",
     lead:
-      "Airdrie's hard water and temperature swings are brutal on hot water tanks. FlameTech's technicians have replaced hundreds of tanks in Airdrie neighborhoods, from [Coopers Crossing](/coopers-crossing-plumbers)' newer builds to established areas where original tanks are hitting the 12-year mark. When your tank starts leaking or you're running out of hot water, our Airdrie plumbers know exactly what's wrong and how to fix it.",
+      "Airdrie's hard water and temperature swings are brutal on hot water tanks. FlameTech's technicians have replaced hundreds of tanks in Airdrie neighborhoods, from [Coopers Crossing](/coopers-crossing-plumbers/)' newer builds to established areas where original tanks are hitting the 12-year mark. When your tank starts leaking or you're running out of hot water, our Airdrie plumbers know exactly what's wrong and how to fix it.",
     heroBody: [
       "We're based in Calgary but keep our service vehicles stocked and ready for fast dispatch to Airdrie. No waiting days for parts or scheduling weeks out — we answer the phone with priority dispatch and can usually get a new tank installed same day. See our broader [hot water tanks](/hot-water-tanks/) and [tank replacement](/hot-water-tank-replacement-calgary/) pages for full scope.",
       "Our certified hot water specialists have been handling tank installations and repairs across Airdrie's communities for over two decades. We stock the most common 40 and 50-gallon [Bradford White](https://www.bradfordwhite.com/) tanks on our trucks and know which models hold up best against Airdrie's mineral-heavy water.",
@@ -3849,7 +3849,7 @@ export const services: ServicePage[] = [
       { number: "Red Seal", label: "certified", icon: "award" },
     ],
     callout:
-      "Tank leaking or water gone cold? Call 587-834-3668 — our Calgary trucks are stocked and can reach most Airdrie addresses quickly when conditions allow.",
+      "Tank leaking or water gone cold? Call 587-834-3668 — our Calgary trucks are stocked with 40 and 50 gallon tanks and dispatch up the QEII into every Airdrie community.",
     richContent: {
       sections: [
         {
@@ -3919,7 +3919,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "Do you handle emergency hot water tank failures in Airdrie?",
-            a: "Yes — priority dispatch typically gets a tech to your door quickly when conditions allow anywhere in Airdrie, including Coopers Crossing, Ravenswood, and Reunion. We carry the most common 40 and 50 gallon tanks on the truck so a same-day swap is usually possible.",
+            a: "Yes — priority dispatch covers every Airdrie community, including Coopers Crossing, Ravenswood, and Reunion. We carry the most common 40 and 50 gallon tanks on the truck so a same-day swap is usually possible.",
           },
         ],
       },
@@ -4124,7 +4124,7 @@ export const services: ServicePage[] = [
     richContent: {
       sections: [
         {
-          heading: "Comprehensive Plumbing Services for Ravenswood",
+          heading: "Plumbing Services for Ravenswood",
           items: [
             { heading: "Priority Emergency Response", body: "Unexpected failures occur without notice — ruptured lines, significant leaks, or complete sewer blockages demand immediate attention. Our response team arrives equipped and ready, protecting your Ravenswood property from extensive water damage through swift professional action." },
             { heading: "Professional Drainage Solutions", body: "Persistent clogs disrupt daily routines. We employ industrial-strength tools to completely clear obstructions, returning full functionality to your waste lines. From bathroom fixtures to main sewer connections, we handle every drainage challenge efficiently." },
@@ -4167,8 +4167,8 @@ export const services: ServicePage[] = [
         items: [
           { q: "Are priority emergency plumbing services available in Ravenswood?", a: "Yes, FlameTech Plumbing provides priority emergency service throughout Ravenswood, Airdrie. Whether facing burst pipes, major leaks, or sewer backups, our licensed technicians respond rapidly. Contact us anytime at 587-834-3668." },
           { q: "How does dispatch to Ravenswood work?", a: "We dispatch from Calgary north up the QEII into Airdrie, so Ravenswood — west of Main, north of Yankee Valley — is on our regular run. Emergency situations get priority routing. Call 587-834-3668 and we'll confirm a window before the truck leaves." },
-          { q: "Which plumbing services does FlameTech offer in Ravenswood?", a: "We deliver complete plumbing solutions including drain clearing, water heater service and installation, leak identification, pipe repair and replacement, fixture installations, sewer line work, and bathroom/kitchen renovations." },
-          { q: "Do your technicians carry proper licensing and insurance?", a: "Absolutely. Every FlameTech Plumbing technician holds full licensing, insurance coverage, and certification for work throughout Alberta. We maintain extensive liability protection safeguarding both our crew and your property." },
+          { q: "Which plumbing services does FlameTech offer in Ravenswood?", a: "Drain cleaning, water heater service and replacement, leak detection, pipe repair and replacement, fixture installation, sewer line work, and bathroom/kitchen renovations. If it carries water or gas, we work on it." },
+          { q: "Are your technicians licensed and insured?", a: "Yes. Every tech is licensed, bonded, and insured to work across Alberta. Insurance certificate available on request before we start." },
           { q: "What warranty coverage accompanies your services?", a: "We back our craftsmanship with comprehensive warranties on all work performed. Our satisfaction commitment ensures complete happiness with results, or we'll correct any concerns. We additionally provide manufacturer warranties on components and equipment we install." },
         ],
       },
@@ -4246,7 +4246,7 @@ export const services: ServicePage[] = [
     richContent: {
       sections: [
         {
-          heading: "Complete Plumbing Solutions for Reunion Properties",
+          heading: "Plumbing Services for Reunion Properties",
           items: [
             { heading: "Continuous Emergency Coverage", body: "Disasters strike unexpectedly — fractured connections, substantial water escapes, or complete wastewater backups demand immediate professional response. Our emergency specialists arrive fully prepared, safeguarding your Reunion property from serious water damage." },
             { heading: "Advanced Drain Management", body: "Stubborn blockages interrupt household routines. Using commercial-grade machinery, we obliterate obstacles completely, reestablishing optimal drainage throughout your system. Whether tackling bathroom fixtures or primary sewer connections, our approach guarantees lasting results." },
@@ -4290,7 +4290,7 @@ export const services: ServicePage[] = [
           { q: "Does FlameTech offer priority emergency service in Reunion?", a: "Yes, FlameTech Plumbing delivers priority emergency coverage throughout Reunion, Airdrie. Whether confronting broken pipes, substantial leaks, or sewer obstructions, our licensed professionals respond swiftly. Reach us anytime at 587-834-3668." },
           { q: "How does dispatch to Reunion work?", a: "We dispatch from Calgary up the QEII into Airdrie, and Reunion — west side, north of 40 Ave — is one of the closer Airdrie communities to the highway exit. Emergency calls get priority routing. Call 587-834-3668 and we'll confirm a window before the truck rolls." },
           { q: "What plumbing services do you provide in Reunion?", a: "We supply total plumbing solutions encompassing drain cleaning, water heater maintenance and setup, leak discovery, pipe restoration and substitution, fixture placements, sewer line operations, and bathroom/kitchen remodeling." },
-          { q: "Are all your plumbers properly licensed and insured?", a: "Absolutely. Every FlameTech Plumbing technician possesses complete licensing, insurance protection, and certification throughout Alberta. We carry extensive liability coverage protecting our personnel and your premises." },
+          { q: "Are all your plumbers licensed and insured?", a: "Yes. Every tech is licensed, bonded, and insured to work across Alberta. Insurance certificate available on request before we start." },
           { q: "What warranty protection comes with your services?", a: "We support our craftsmanship through comprehensive warranties covering all completed work. Our satisfaction commitment guarantees total happiness with outcomes, or we'll resolve any issues. We also extend manufacturer warranties covering parts and equipment we install." },
         ],
       },
@@ -4311,7 +4311,7 @@ export const services: ServicePage[] = [
     lead:
       "Need a dependable plumber in Altadore, Calgary? FlameTech Plumbing delivers outstanding service to this charming inner-city neighborhood's heritage homes and modern residences. Our experienced technicians provide swift, reliable solutions perfectly suited for Altadore's unique blend of character homes and contemporary properties.",
     heroBody: [
-      "As your trusted [SW Calgary plumber](/calgary-plumbers-sw), we understand the distinct character of Altadore and deliver customized service to match this established community's needs. This mature inner-city community showcases homes spanning from the 1950s through recent developments, creating unique plumbing challenges that our specialists navigate with expertise and care.",
+      "As your trusted [SW Calgary plumber](/calgary-plumbers-sw/), we understand the distinct character of Altadore and deliver customized service to match this established community's needs. This mature inner-city community showcases homes spanning from the 1950s through recent developments, creating unique plumbing challenges that our specialists navigate with expertise and care.",
       "From cracked pipes and serious leaks to sewer backups, our skilled technicians arrive swiftly at your Altadore property, fully equipped to handle critical situations and prevent extensive water damage. Call 587-834-3668 for priority dispatch any time.",
     ],
     heroSubhead: "Trusted Altadore Plumbing Experts",
@@ -4339,7 +4339,7 @@ export const services: ServicePage[] = [
     ],
     seoTitle: "Altadore Plumbers Calgary | Priority Emergency Service",
     seoDescription:
-      "Need a dependable plumber in Altadore, Calgary? Look no further than 5-Star rated FlameTech Plumbing & Heating. Priority service available.",
+      "Licensed plumbers serving Altadore — 50 Ave SW, Crowchild Trail, River Park. Priority emergency dispatch. Call 587-834-3668.",
     seoKeywords: [
       "Altadore plumbers",
       "plumber Altadore Calgary",
@@ -4373,13 +4373,13 @@ export const services: ServicePage[] = [
     richContent: {
       sections: [
         {
-          heading: "Complete Plumbing Solutions for Altadore",
+          heading: "Plumbing Services for Altadore",
           intro:
             "Plumbing emergencies don't wait for business hours — cracked pipes, serious leaks, or sewer backups demand immediate attention. Our skilled technicians arrive swiftly at your Altadore property, fully equipped to handle critical situations and prevent extensive water damage.",
           items: [
-            { heading: "Professional Drain Solutions", body: "Slow-moving drains create daily frustrations. We use advanced equipment to clear blockages completely, ensuring optimal drainage throughout your property. From bathroom sinks to main sewer lines, we solve drainage problems with lasting results. Learn more about our [drain cleaning services in Calgary](/drain-cleaning-calgary)." },
-            { heading: "Water Heater Service & Installation", body: "From [tankless models](/tankless-water-heaters) to [conventional tanks](/hot-water-tanks), our experts guarantee reliable hot water supply through Calgary's harsh winters. We maintain all leading brands and help you select the ideal system matching your household requirements and budget constraints." },
-            { heading: "Fixture Replacement & Installation", body: "Considering kitchen or [bathroom upgrades](/bathroom-plumbing-calgary)? We install contemporary faucets, toilets, sinks, and [shower systems](/shower-plumbing-calgary) that improve functionality while elevating your home's aesthetics. All installations comply with current building regulations." },
+            { heading: "Professional Drain Solutions", body: "Slow-moving drains create daily frustrations. We use advanced equipment to clear blockages completely, ensuring optimal drainage throughout your property. From bathroom sinks to main sewer lines, we solve drainage problems with lasting results. Learn more about our [drain cleaning services in Calgary](/drain-cleaning-calgary/)." },
+            { heading: "Water Heater Service & Installation", body: "From [tankless models](/tankless-water-heaters/) to [conventional tanks](/hot-water-tanks/), our experts guarantee reliable hot water supply through Calgary's harsh winters. We maintain all leading brands and help you select the ideal system matching your household requirements and budget constraints." },
+            { heading: "Fixture Replacement & Installation", body: "Considering kitchen or [bathroom upgrades](/bathroom-plumbing-calgary/)? We install contemporary faucets, toilets, sinks, and [shower systems](/shower-plumbing-calgary/) that improve functionality while elevating your home's aesthetics. All installations comply with current building regulations." },
             { heading: "Advanced Leak Detection", body: "Concealed leaks silently damage your property's structure. Using thermal cameras and acoustic sensors, we pinpoint leaks behind walls and beneath floors without unnecessary demolition, then implement permanent repairs that protect your investment." },
             { heading: "Complete Sewer Line Services", body: "Through video camera inspections and powerful hydro-jetting technology, we maintain healthy sewer systems. Our specialists handle everything from minor repairs to full line replacements when needed for Altadore homes." },
           ],
@@ -4400,7 +4400,7 @@ export const services: ServicePage[] = [
         {
           heading: "Altadore's Priority Emergency Plumbing Team",
           intro:
-            "Plumbing disasters strike without warning. FlameTech Plumbing provides around-the-clock [emergency plumbing service for Calgary residents](/emergency-plumber-calgary) dealing with urgent plumbing crises. Connect with a real person instantly — no automated systems — who dispatches qualified technicians to your location right away. We maintain fully-stocked service vehicles to resolve most emergencies during the first visit.",
+            "Plumbing disasters strike without warning. FlameTech Plumbing provides around-the-clock [emergency plumbing service for Calgary residents](/emergency-plumber-calgary/) dealing with urgent plumbing crises. Connect with a real person instantly — no automated systems — who dispatches qualified technicians to your location right away. We maintain fully-stocked service vehicles to resolve most emergencies during the first visit.",
         },
       ],
       faq: {
@@ -4416,11 +4416,11 @@ export const services: ServicePage[] = [
           },
           {
             q: "What plumbing services are available in Altadore?",
-            a: "We deliver comprehensive plumbing services including drain cleaning, water heater service and replacement, leak detection, pipe repair and replacement, fixture installation, sewer line maintenance, and kitchen/bathroom plumbing renovations.",
+            a: "Drain cleaning, water heater service and replacement, leak detection, pipe repair and replacement, fixture installation, sewer line work, and bathroom/kitchen renovations. If it carries water or gas in an Altadore home, we work on it.",
           },
           {
             q: "Are your plumbers properly licensed and insured?",
-            a: "Absolutely. Every FlameTech Plumbing technician holds full licensing, insurance, and certification to work throughout Calgary. We maintain comprehensive liability coverage protecting both our team and your property.",
+            a: "Yes. Every tech is licensed, bonded, and insured to work across Alberta. Insurance certificate available on request before we start.",
           },
           {
             q: "Do you warranty your plumbing work?",
@@ -4436,14 +4436,14 @@ export const services: ServicePage[] = [
     category: "Plumbing",
     location: "Calgary",
     icon: "plumbing",
-    title: "Aspen Woods Plumbers Calgary | Premium Plumbing Services",
+    title: "Aspen Woods Plumbers Calgary | Licensed & Insured",
     lead:
-      "Searching for premium plumbing service in Aspen Woods, Calgary? FlameTech Plumbing brings professional expertise to this exclusive community's luxury homes and upscale neighborhoods. Our certified plumbers specialize in Aspen Woods' sophisticated plumbing requirements, delivering meticulous service that maintains your property's value and ensures your family's comfort.",
+      "Licensed plumbers and gas fitters serving Aspen Woods — from the 17 Ave SW corridor to the homes backing onto the West Springs ridge. We work on the high-end fixtures, multi-zone boiler systems, and large hot water demands that define Aspen Woods builds.",
     heroBody: [
-      "Your dedicated [plumbing experts for SW Calgary](/calgary-plumbers-sw) recognize Aspen Woods' exclusive community standards and deliver premium service tailored to this upscale neighborhood's exceptional properties.",
-      "Aspen Woods' luxury estates and custom-built homes — from sprawling family residences to exclusive cul-de-sac properties — demand sophisticated plumbing solutions that match the community's premium standards and discerning homeowner expectations. Call 587-834-3668 for priority dispatch.",
+      "Most Aspen Woods homes were built between 2002 and 2015 — that puts them in the modern PEX era (so no Poly-B), but it also means the original boilers, water heaters, and high-end fixtures are now hitting end-of-life replacement windows. We handle those swaps regularly across [SW Calgary](/calgary-plumbers-sw/).",
+      "Larger square footage means longer hot water runs, dual heating zones, and bigger demand at the meter. We size replacement equipment to the house — not a generic 50-gallon tank that runs out before the second bathroom finishes. Call 587-834-3668 for priority dispatch.",
     ],
-    heroSubhead: "Premium Plumbing for Aspen Woods Homes",
+    heroSubhead: "Plumbing & Heating for Aspen Woods",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
     heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing service van in Aspen Woods", fit: "cover" },
     intro:
@@ -4502,13 +4502,13 @@ export const services: ServicePage[] = [
     richContent: {
       sections: [
         {
-          heading: "Comprehensive Plumbing Solutions for Aspen Woods",
+          heading: "Plumbing Services for Aspen Woods",
           intro:
             "Sophisticated drainage systems, luxury fixtures, and premium water heaters deserve technicians who match that standard. Our Aspen Woods service is built around discretion, precision, and first-visit resolution.",
           items: [
-            { heading: "Expert Drain and Sewer Services", body: "Luxury homes need specialized attention. Our professionals utilize cutting-edge [drain cleaning technology](/drain-cleaning-calgary) to eliminate stubborn blockages completely, from gourmet kitchen drains to main sewer lines, with precision and thoroughness." },
-            { heading: "Premium Water Heater Solutions", body: "From state-of-the-art [tankless systems](/tankless-water-heaters) to high-capacity [conventional units](/hot-water-tanks), our specialists ensure uninterrupted hot water for your luxury lifestyle. We service elite brands and recommend solutions delivering exceptional performance through Calgary's demanding winters." },
-            { heading: "Luxury Fixture Installation", body: "Enhancing your executive home's [bathrooms](/bathroom-plumbing-calgary) or designer kitchen? We install premium faucets, high-end toilets, designer sinks, and spa-grade [shower systems](/shower-plumbing-calgary) that complement your home's sophisticated aesthetic." },
+            { heading: "Expert Drain and Sewer Services", body: "Luxury homes need specialized attention. Our professionals utilize cutting-edge [drain cleaning technology](/drain-cleaning-calgary/) to eliminate stubborn blockages completely, from gourmet kitchen drains to main sewer lines, with precision and thoroughness." },
+            { heading: "Premium Water Heater Solutions", body: "From state-of-the-art [tankless systems](/tankless-water-heaters/) to high-capacity [conventional units](/hot-water-tanks/), our specialists ensure uninterrupted hot water for your luxury lifestyle. We service elite brands and recommend solutions delivering exceptional performance through Calgary's demanding winters." },
+            { heading: "Luxury Fixture Installation", body: "Enhancing your executive home's [bathrooms](/bathroom-plumbing-calgary/) or designer kitchen? We install premium faucets, high-end toilets, designer sinks, and spa-grade [shower systems](/shower-plumbing-calgary/) that complement your home's sophisticated aesthetic." },
             { heading: "Sophisticated Leak Detection", body: "Concealed leaks waste resources, damage expensive finishes, and escalate utility costs. Employing thermal imaging and precision acoustic detection, we locate leaks within walls and beneath floors without invasive investigation." },
           ],
         },
@@ -4520,7 +4520,7 @@ export const services: ServicePage[] = [
         {
           heading: "Serving Adjacent Communities",
           intro:
-            "Beyond Aspen Woods, FlameTech Plumbing delivers exceptional service throughout Calgary's premier west communities, including Springbank Hill, [West Springs](/west-springs-plumbers-calgary), Cougar Ridge, Strathcona Park, and [Signal Hill](/signal-hill-plumbers-calgary). Whether you require [emergency repairs](/emergency-plumber-calgary), sophisticated drain solutions, or preventive maintenance, our certified plumbers respond promptly.",
+            "Beyond Aspen Woods, FlameTech Plumbing delivers exceptional service throughout Calgary's premier west communities, including Springbank Hill, [West Springs](/west-springs-plumbers-calgary/), Cougar Ridge, Strathcona Park, and [Signal Hill](/signal-hill-plumbers-calgary/). Whether you require [emergency repairs](/emergency-plumber-calgary/), sophisticated drain solutions, or preventive maintenance, our certified plumbers respond promptly.",
         },
       ],
       faq: {
@@ -4528,7 +4528,7 @@ export const services: ServicePage[] = [
         items: [
           {
             q: "Does FlameTech provide priority emergency service in Aspen Woods?",
-            a: "Absolutely. FlameTech Plumbing delivers priority emergency response throughout Aspen Woods, Calgary. When confronting burst pipes, significant leaks, or sewage crises, our certified professionals respond rapidly. Contact our emergency line at 587-834-3668 anytime for prompt assistance.",
+            a: "Yes — Aspen Woods is on our regular priority-dispatch radius. Burst pipes, major leaks, and sewer backups get routed ahead of scheduled work. Call 587-834-3668 and we'll confirm a window before the truck rolls.",
           },
           {
             q: "How rapidly can you reach Aspen Woods properties?",
@@ -4536,7 +4536,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "What plumbing solutions do you offer Aspen Woods homeowners?",
-            a: "We deliver comprehensive plumbing expertise including sophisticated drain cleaning, premium water heater service and installation, advanced leak detection, expert pipe repair and replacement, luxury fixture installations, thorough sewer maintenance, and executive-quality bathroom/kitchen renovations.",
+            a: "Drain cleaning, water heater service and replacement, leak detection, pipe repair and replacement, fixture installation (we work on Brizo, Hansgrohe, Kohler and other high-end lines you'll find in Aspen Woods homes), sewer line work, bathroom and kitchen renovations. If it carries water or gas, we work on it.",
           },
           {
             q: "Are your plumbers licensed and insured?",
@@ -4544,7 +4544,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "Do Aspen Woods homes have Poly-B plumbing?",
-            a: "Some earlier-phase Aspen Woods properties built before the mid-1990s may contain polybutylene (Poly-B) piping, a material now known for premature failure. If you're unsure whether your home has Poly-B, FlameTech offers free inspections to identify the piping material and assess its condition. Visit our [Poly-B plumbing Calgary](/polyb-plumbing-calgary) page for details on identification, insurance implications, and replacement options.",
+            a: "Some earlier-phase Aspen Woods properties built before the mid-1990s may contain polybutylene (Poly-B) piping, a material now known for premature failure. If you're unsure whether your home has Poly-B, FlameTech offers free inspections to identify the piping material and assess its condition. Visit our [Poly-B plumbing Calgary](/polyb-plumbing-calgary/) page for details on identification, insurance implications, and replacement options.",
           },
         ],
       },
@@ -4558,10 +4558,10 @@ export const services: ServicePage[] = [
     icon: "plumbing",
     title: "Auburn Bay Plumber Calgary | Priority Emergency Service | FlameTech",
     lead:
-      "Auburn Bay homeowners know that when your plumbing fails, you need a plumber who understands this newer community's unique challenges. FlameTech Plumbing has been serving Auburn Bay since these homes started going up in 2005, and we've seen every issue these builder-grade systems can throw at you. From [hot water tank failures](/hot-water-tanks) in those mechanical rooms to main line backups, we know exactly what breaks and how to fix it right.",
+      "Auburn Bay homeowners know that when your plumbing fails, you need a plumber who understands this newer community's unique challenges. FlameTech Plumbing has been serving Auburn Bay since these homes started going up in 2005, and we've seen every issue these builder-grade systems can throw at you. From [hot water tank failures](/hot-water-tanks/) in those mechanical rooms to main line backups, we know exactly what breaks and how to fix it right.",
     heroBody: [
-      "As a locally owned and operated [plumbing team in SE Calgary](/calgary-plumbers-se), we understand the unique challenges that Auburn Bay properties face. Auburn Bay's homes are mostly built between 2005-2015, which means your builder-grade plumbing is hitting that 15-20 year mark where things start failing.",
-      "Our crew has serviced homes throughout SE Calgary, from [Cranston](/cranston-plumber-calgary) to [McKenzie Towne](/mckenzie-towne-plumbers-calgary), so we understand how these newer communities were built and what problems to expect. Call 587-834-3668 any time — priority dispatch, real person on the line.",
+      "As a locally owned and operated [plumbing team in SE Calgary](/calgary-plumbers-se/), we understand the unique challenges that Auburn Bay properties face. Auburn Bay's homes are mostly built between 2005-2015, which means your builder-grade plumbing is hitting that 15-20 year mark where things start failing.",
+      "Our crew has serviced homes throughout SE Calgary, from [Cranston](/cranston-plumber-calgary/) to [McKenzie Towne](/mckenzie-towne-plumbers-calgary/), so we understand how these newer communities were built and what problems to expect. Call 587-834-3668 any time — priority dispatch, real person on the line.",
     ],
     heroSubhead: "Auburn Bay's Trusted SE Calgary Plumbers",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
@@ -4626,9 +4626,9 @@ export const services: ServicePage[] = [
           intro:
             "Auburn Bay's homes are mostly built between 2005-2015, which means your builder-grade plumbing is hitting that 15-20 year mark where things start failing. We know exactly where the weak points are.",
           items: [
-            { heading: "Emergency Plumbing Repairs", body: "Priority service for burst pipes, sewer backups, flooding, and major leaks that can't wait. See our [emergency plumber page](/emergency-plumber-calgary) for more." },
-            { heading: "Drain Cleaning & Unclogging", body: "Main line cleaning, kitchen sink clogs, bathroom drains, and laundry room backups. Learn more about our [Calgary drain cleaning service](/drain-cleaning-calgary)." },
-            { heading: "Water Heater Services", body: "[Tank replacement](/hot-water-tanks), [tankless installation](/tankless-water-heaters), repairs, and maintenance for all brands. Most Auburn Bay tanks are hitting the 12-15 year mark." },
+            { heading: "Emergency Plumbing Repairs", body: "Priority service for burst pipes, sewer backups, flooding, and major leaks that can't wait. See our [emergency plumber page](/emergency-plumber-calgary/) for more." },
+            { heading: "Drain Cleaning & Unclogging", body: "Main line cleaning, kitchen sink clogs, bathroom drains, and laundry room backups. Learn more about our [Calgary drain cleaning service](/drain-cleaning-calgary/)." },
+            { heading: "Water Heater Services", body: "[Tank replacement](/hot-water-tanks/), [tankless installation](/tankless-water-heaters/), repairs, and maintenance for all brands. Most Auburn Bay tanks are hitting the 12-15 year mark." },
             { heading: "Leak Detection & Repair", body: "Hidden leaks, slab leaks, pipe repairs, and water damage prevention using thermal imaging and acoustic detection." },
             { heading: "Sewer Line Services", body: "Camera inspections, line cleaning, repairs, and full sewer line replacement. Mid-2000s Auburn Bay sewer lines need checking every 5 years." },
           ],
@@ -4669,7 +4669,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "Why does my Auburn Bay home have low water pressure?",
-            a: "Low pressure in Auburn Bay is usually from hard water buildup in faucets and showerheads, or failing pressure regulators that were installed during construction. We see this constantly in homes 15+ years old. A [water softener system](/water-softener) can prevent future buildup and protect your fixtures.",
+            a: "Low pressure in Auburn Bay is usually from hard water buildup in faucets and showerheads, or failing pressure regulators that were installed during construction. We see this constantly in homes 15+ years old. A [water softener system](/water-softener/) can prevent future buildup and protect your fixtures.",
           },
           {
             q: "What causes sewer backups in Auburn Bay?",
@@ -4677,7 +4677,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "Should I replace or repair my Auburn Bay home's plumbing fixtures?",
-            a: "If your fixtures are original to the home (2005-2015), replacement usually makes more sense than repairs. Those builder-grade faucets and toilets were designed to last just long enough to get past warranty. [Emergency repairs](/emergency-plumber-calgary) on cheap fixtures often cost more than upgrading to quality replacements.",
+            a: "If your fixtures are original to the home (2005-2015), replacement usually makes more sense than repairs. Those builder-grade faucets and toilets were designed to last just long enough to get past warranty. [Emergency repairs](/emergency-plumber-calgary/) on cheap fixtures often cost more than upgrading to quality replacements.",
           },
           {
             q: "How fast can you get to my Auburn Bay home?",
@@ -4695,10 +4695,10 @@ export const services: ServicePage[] = [
     icon: "plumbing",
     title: "Bowness Plumbers Calgary | Priority Emergency | FlameTech",
     lead:
-      "The biggest mistake we see in Bowness? Homeowners trying to connect new plumbing to their 1960s galvanized lines without calling a plumber first. FlameTech has been handling these tricky plumbing jobs across Calgary's inner-city neighborhoods for over two decades, and our [emergency plumbing team](/emergency-plumber-calgary) knows exactly how to work with both original homes and modern infills.",
+      "The biggest mistake we see in Bowness? Homeowners trying to connect new plumbing to their 1960s galvanized lines without calling a plumber first. FlameTech has been handling these tricky plumbing jobs across Calgary's inner-city neighborhoods for over two decades, and our [emergency plumbing team](/emergency-plumber-calgary/) knows exactly how to work with both original homes and modern infills.",
     heroBody: [
-      "FlameTech started right here in Calgary, and our [NW Calgary plumbers](/calgary-plumbers-nw) have been fixing pipes in Bowness since day one. Bowness is one of Calgary's most interesting neighborhoods for plumbers — you've got original wartime bungalows sitting next to brand-new $800K infills, which means we're dealing with everything from lead supply lines to modern PEX on the same block.",
-      "Our crew has seen it all in this area, from [Poly-B replacement jobs](/polyb-plumbing-calgary) in 1980s renovated bungalows to fixing drainage problems caused by that new infill next door that sits three feet higher than your foundation. Pipes don't care if it's 2 AM on Christmas morning — that's why we run priority dispatch. Call 587-834-3668.",
+      "FlameTech started right here in Calgary, and our [NW Calgary plumbers](/calgary-plumbers-nw/) have been fixing pipes in Bowness since day one. Bowness is one of Calgary's most interesting neighborhoods for plumbers — you've got original wartime bungalows sitting next to brand-new $800K infills, which means we're dealing with everything from lead supply lines to modern PEX on the same block.",
+      "Our crew has seen it all in this area, from [Poly-B replacement jobs](/polyb-plumbing-calgary/) in 1980s renovated bungalows to fixing drainage problems caused by that new infill next door that sits three feet higher than your foundation. Pipes don't care if it's 2 AM on Christmas morning — that's why we run priority dispatch. Call 587-834-3668.",
     ],
     heroSubhead: "Trusted Bowness Plumbing Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
@@ -4763,9 +4763,9 @@ export const services: ServicePage[] = [
           intro:
             "Each home on your block might have completely different plumbing, but we've worked on them all — from lead supply lines to modern PEX on the same street.",
           items: [
-            { heading: "Emergency Plumbing Repairs", body: "Burst pipes, overflowing toilets, no hot water — we respond fast to genuine [emergencies in Bowness](/emergency-plumber-calgary)." },
-            { heading: "Drain Cleaning & Unclogging", body: "Kitchen sinks, bathroom drains, main line blockages — we clear them all with professional equipment. See our [drain cleaning Calgary](/drain-cleaning-calgary) service." },
-            { heading: "Water Heater Services", body: "Installation, repair, and replacement of [tank](/hot-water-tanks) and [tankless water heaters](/tankless-water-heaters). Calgary's hard water is brutal on older tanks, especially in original Bowness homes." },
+            { heading: "Emergency Plumbing Repairs", body: "Burst pipes, overflowing toilets, no hot water — we respond fast to genuine [emergencies in Bowness](/emergency-plumber-calgary/)." },
+            { heading: "Drain Cleaning & Unclogging", body: "Kitchen sinks, bathroom drains, main line blockages — we clear them all with professional equipment. See our [drain cleaning Calgary](/drain-cleaning-calgary/) service." },
+            { heading: "Water Heater Services", body: "Installation, repair, and replacement of [tank](/hot-water-tanks/) and [tankless water heaters](/tankless-water-heaters/). Calgary's hard water is brutal on older tanks, especially in original Bowness homes." },
             { heading: "Leak Detection & Repair", body: "Hidden leaks behind walls, under slabs, in crawl spaces — we find them and fix them without unnecessary demolition." },
             { heading: "Sewer Line Services", body: "Main line repairs, replacements, and connections for both original homes and new construction. Many Bowness blocks still have original clay city mains from the 1950s." },
           ],
@@ -4827,10 +4827,10 @@ export const services: ServicePage[] = [
     icon: "plumbing",
     title: "Bridlewood Plumbers Calgary | Priority Emergency Service",
     lead:
-      "Bridlewood homeowners know that plumbing problems don't follow your schedule. When your hot water tank floods the utility room at 2 AM or your main drain backs up during Sunday dinner, you need [emergency plumbers in Calgary](/emergency-plumber-calgary) who actually answer the phone and show up fast. FlameTech Plumbing has been serving Bridlewood families for over 20 years.",
+      "Bridlewood homeowners know that plumbing problems don't follow your schedule. When your hot water tank floods the utility room at 2 AM or your main drain backs up during Sunday dinner, you need [emergency plumbers in Calgary](/emergency-plumber-calgary/) who actually answer the phone and show up fast. FlameTech Plumbing has been serving Bridlewood families for over 20 years.",
     heroBody: [
-      "Having grown up fixing pipes across Calgary, our [SW Calgary plumbing team](/calgary-plumbers-sw) knows exactly what Bridlewood homes need and when they need it. Most Bridlewood houses were built between 2005 and 2015, which means your plumbing is hitting that sweet spot where things start breaking down.",
-      "We've replaced dozens of [hot water tanks](/hot-water-tanks) in this community and know the common weak points in these developments. Plus, we understand how Calgary's hard water affects your pipes and fixtures. Call 587-834-3668 for priority dispatch — a real person, no phone trees.",
+      "Having grown up fixing pipes across Calgary, our [SW Calgary plumbing team](/calgary-plumbers-sw/) knows exactly what Bridlewood homes need and when they need it. Most Bridlewood houses were built between 2005 and 2015, which means your plumbing is hitting that sweet spot where things start breaking down.",
+      "We've replaced dozens of [hot water tanks](/hot-water-tanks/) in this community and know the common weak points in these developments. Plus, we understand how Calgary's hard water affects your pipes and fixtures. Call 587-834-3668 for priority dispatch — a real person, no phone trees.",
     ],
     heroSubhead: "Trusted Bridlewood Plumbing Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
@@ -4895,10 +4895,10 @@ export const services: ServicePage[] = [
           intro:
             "Most homes in your neighborhood have similar layouts and plumbing configurations, which means we know exactly where to look when problems develop.",
           items: [
-            { heading: "Emergency Plumbing Repairs", body: "Burst pipes, water leaks, sewer backups, and other urgent issues that can't wait until Monday morning. See our [emergency plumber Calgary](/emergency-plumber-calgary) service for details." },
-            { heading: "Drain Cleaning & Unclogging", body: "Kitchen sinks, bathroom drains, floor drains, and main sewer line cleaning using professional equipment. Learn more about [drain cleaning Calgary](/drain-cleaning-calgary)." },
-            { heading: "Water Heater Services", body: "Installation, repair, and replacement of [tank](/hot-water-tanks) and [tankless water heaters](/tankless-water-heaters) from all major brands." },
-            { heading: "Fixture Installation & Repair", body: "Toilets, sinks, faucets, [showers](/shower-plumbing-calgary), and other [bathroom](/bathroom-plumbing-calgary) fixtures installed properly the first time." },
+            { heading: "Emergency Plumbing Repairs", body: "Burst pipes, water leaks, sewer backups, and other urgent issues that can't wait until Monday morning. See our [emergency plumber Calgary](/emergency-plumber-calgary/) service for details." },
+            { heading: "Drain Cleaning & Unclogging", body: "Kitchen sinks, bathroom drains, floor drains, and main sewer line cleaning using professional equipment. Learn more about [drain cleaning Calgary](/drain-cleaning-calgary/)." },
+            { heading: "Water Heater Services", body: "Installation, repair, and replacement of [tank](/hot-water-tanks/) and [tankless water heaters](/tankless-water-heaters/) from all major brands." },
+            { heading: "Fixture Installation & Repair", body: "Toilets, sinks, faucets, [showers](/shower-plumbing-calgary/), and other [bathroom](/bathroom-plumbing-calgary/) fixtures installed properly the first time." },
             { heading: "Leak Detection & Repair", body: "Finding hidden leaks behind walls, under slabs, and in crawl spaces before they cause major damage." },
             { heading: "Sewer Line Services", body: "Camera inspections, cleaning, and repair of main sewer lines and weeping tile systems." },
           ],
@@ -4938,7 +4938,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "Should I be concerned about frozen pipes in my Bridlewood home?",
-            a: "Absolutely. Bridlewood gets hit hard during cold snaps, especially homes on the north-facing slopes. [Emergency calls](/emergency-plumber-calgary) for frozen pipes spike every January and February in this community. Disconnect exterior hoses, insulate any pipes in unheated areas, and keep interior temperature above 15°C even when you're away.",
+            a: "Yes — Bridlewood gets hit hard during cold snaps, especially homes on the north-facing slopes. [Emergency calls](/emergency-plumber-calgary/) for frozen pipes spike every January and February in this community. Disconnect exterior hoses, insulate any pipes in unheated areas, and keep interior temperature above 15°C even when you're away.",
           },
           {
             q: "How often should I have my main sewer line inspected in Bridlewood?",
@@ -4962,7 +4962,7 @@ export const services: ServicePage[] = [
     lead:
       "When you need dependable plumbing services in Calgary NW, FlameTech Plumbing provides expert solutions to residential and commercial properties across Northwest Calgary. Our experienced plumbers know Northwest Calgary inside and out — from mature neighborhoods to brand-new communities — and we run priority dispatch for all your plumbing emergencies.",
     heroBody: [
-      "From post-war bungalows in established areas like Thorncliffe and Brentwood to contemporary estates in [Panorama Hills](/panorama-hills-plumbers-calgary) and Kincora, we've seen it all. We understand common issues in 1960s-70s builds throughout communities like [Varsity](/varsity-plumbers-calgary) and Dalhousie, and we stay ahead of modern plumbing demands in newer developments like [Evanston](/evanston-plumbers-calgary) and [Edgemont](/edgemont-plumbers-calgary).",
+      "From post-war bungalows in established areas like Thorncliffe and Brentwood to contemporary estates in [Panorama Hills](/panorama-hills-plumbers-calgary/) and Kincora, we've seen it all. We understand common issues in 1960s-70s builds throughout communities like [Varsity](/varsity-plumbers-calgary/) and Dalhousie, and we stay ahead of modern plumbing demands in newer developments like [Evanston](/evanston-plumbers-calgary/) and [Edgemont](/edgemont-plumbers-calgary/).",
       "Plumbing disasters strike without warning. When crisis hits at midnight or on a long weekend, our priority emergency team is standing by. Call 587-834-3668 now for fast emergency plumbing response across Northwest Calgary.",
     ],
     heroSubhead: "Northwest Calgary Plumbing Specialists",
@@ -5013,7 +5013,7 @@ export const services: ServicePage[] = [
     sidebar: {
       title: "Calgary Plumbers NW",
       subtitle:
-        "Comprehensive plumbing service across every Northwest Calgary community — priority emergency dispatch, honest pricing.",
+        "Plumbing service across every Northwest Calgary community — priority emergency dispatch, honest pricing.",
       bullets: [
         "Licensed, insured, and bonded",
         "Every NW neighborhood covered",
@@ -5036,10 +5036,10 @@ export const services: ServicePage[] = [
           intro:
             "From post-war bungalows to modern estates, our NW Calgary plumbers handle every kind of plumbing system.",
           items: [
-            { heading: "Drain & Sewer Solutions", body: "Professional sewer camera inspections, expert [drain cleaning](/drain-cleaning-calgary) for all fixtures, modern trenchless sewer rehabilitation, foundation drain servicing, and commercial grease interceptor maintenance." },
-            { heading: "Water Heater Expertise", body: "On-demand [tankless system installations](/tankless-water-heaters), [conventional hot water tank services](/hot-water-tanks), annual maintenance and tank flushing, and emergency water heater troubleshooting." },
-            { heading: "Plumbing Fixtures", body: "Toilet installation and servicing, kitchen and [bathroom faucet upgrades](/bathroom-plumbing-calgary), [shower and tub system repairs](/shower-plumbing-calgary), garbage disposal services, and utility room plumbing connections." },
-            { heading: "Pipe & Line Services", body: "Complete home re-piping, winter pipe insulation and freeze protection, advanced leak detection technology, main water line replacements, and legacy [Poly-B pipe retrofitting](/polyb-plumbing-calgary) prevalent in 1980s-90s NW Calgary construction." },
+            { heading: "Drain & Sewer Solutions", body: "Professional sewer camera inspections, expert [drain cleaning](/drain-cleaning-calgary/) for all fixtures, modern trenchless sewer rehabilitation, foundation drain servicing, and commercial grease interceptor maintenance." },
+            { heading: "Water Heater Expertise", body: "On-demand [tankless system installations](/tankless-water-heaters/), [conventional hot water tank services](/hot-water-tanks/), annual maintenance and tank flushing, and emergency water heater troubleshooting." },
+            { heading: "Plumbing Fixtures", body: "Toilet installation and servicing, kitchen and [bathroom faucet upgrades](/bathroom-plumbing-calgary/), [shower and tub system repairs](/shower-plumbing-calgary/), garbage disposal services, and utility room plumbing connections." },
+            { heading: "Pipe & Line Services", body: "Complete home re-piping, winter pipe insulation and freeze protection, advanced leak detection technology, main water line replacements, and legacy [Poly-B pipe retrofitting](/polyb-plumbing-calgary/) prevalent in 1980s-90s NW Calgary construction." },
           ],
         },
         {
@@ -5047,17 +5047,17 @@ export const services: ServicePage[] = [
           intro:
             "Our certified plumbers serve all Northwest Calgary communities, including:",
           items: [
-            { body: "Arbour Lake, Beddington Heights, [Bowness](/bowness-plumbers-calgary), Brentwood, Cambrian Heights, Citadel." },
-            { body: "Country Hills, Dalhousie, [Edgemont](/edgemont-plumbers-calgary), [Evanston](/evanston-plumbers-calgary), Hamptons, Hawkwood." },
-            { body: "Hidden Valley, Kincora, MacEwan Glen, Montgomery, North Haven, [Panorama Hills](/panorama-hills-plumbers-calgary)." },
+            { body: "Arbour Lake, Beddington Heights, [Bowness](/bowness-plumbers-calgary/), Brentwood, Cambrian Heights, Citadel." },
+            { body: "Country Hills, Dalhousie, [Edgemont](/edgemont-plumbers-calgary/), [Evanston](/evanston-plumbers-calgary/), Hamptons, Hawkwood." },
+            { body: "Hidden Valley, Kincora, MacEwan Glen, Montgomery, North Haven, [Panorama Hills](/panorama-hills-plumbers-calgary/)." },
             { body: "Royal Oak, Ranchlands, Sandstone Valley, Scenic Acres, Silverspring, Thorncliffe." },
-            { body: "[Varsity](/varsity-plumbers-calgary), [Tuscany](/tuscany-plumbers-calgary), Sage Hill, and every other Northwest quadrant community." },
+            { body: "[Varsity](/varsity-plumbers-calgary/), [Tuscany](/tuscany-plumbers-calgary/), Sage Hill, and every other Northwest quadrant community." },
           ],
         },
         {
           heading: "Priority Emergency Plumber Calgary NW",
           intro:
-            "Plumbing disasters strike without warning. When crisis hits at midnight or on a long weekend, our [emergency plumbers in Calgary NW](/emergency-plumber-calgary) are standing by to help with:",
+            "Plumbing disasters strike without warning. When crisis hits at midnight or on a long weekend, our [emergency plumbers in Calgary NW](/emergency-plumber-calgary/) are standing by to help with:",
           items: [
             { body: "Frozen and burst pipe emergencies (critical during Calgary's harsh winters)." },
             { body: "Hot water tank breakdowns requiring urgent replacement." },
@@ -5114,7 +5114,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "What services does your NW Calgary team provide?",
-            a: "We deliver complete plumbing solutions including priority emergency response, drain and sewer line services, water heater installation and repair, leak detection and remediation, comprehensive pipe services, fixture upgrades and repairs, bathroom and kitchen renovations, preventative maintenance programs, and water treatment systems.",
+            a: "Priority emergency response, drain and sewer work, water heater installation and repair, leak detection, pipe repair and replacement, fixture installation, bathroom and kitchen renovations, scheduled maintenance, and water treatment. If it carries water or gas, we work on it.",
           },
           {
             q: "How does your pricing work?",
@@ -5135,14 +5135,14 @@ export const services: ServicePage[] = [
     lead:
       "Looking for skilled plumbing professionals in Calgary SE? FlameTech Plumbing delivers exceptional service to homes and businesses throughout Southeast Calgary's diverse communities.",
     heroBody: [
-      "Our team brings extensive knowledge of Southeast Calgary's neighborhoods — from historic Inglewood to the expanding communities of [Auburn Bay](/auburn-bay-plumber-calgary) and [Mahogany](/mahogany-plumbers-calgary) — with priority emergency response when plumbing problems strike.",
+      "Our team brings extensive knowledge of Southeast Calgary's neighborhoods — from historic Inglewood to the expanding communities of [Auburn Bay](/auburn-bay-plumber-calgary/) and [Mahogany](/mahogany-plumbers-calgary/) — with priority emergency response when plumbing problems strike.",
       "From century-old character homes in Inglewood and Ramsay to the modern lake communities of Auburn Bay and Mahogany, we've tackled every type of plumbing challenge the SE quadrant can throw at us. Call 587-834-3668 for fast, reliable plumbing service across Southeast Calgary.",
     ],
     heroSubhead: "Trusted Southeast Calgary Plumbing Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
     heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing service van in Southeast Calgary", fit: "cover" },
     intro:
-      "Expert plumbers serving every Southeast Calgary community. Fast [emergency response](/emergency-plumber-calgary), [drain cleaning](/drain-cleaning-calgary), [hot water tanks](/hot-water-tanks), and [Poly-B replacement](/polyb-plumbing-calgary) — licensed, insured, honest pricing.",
+      "Expert plumbers serving every Southeast Calgary community. Fast [emergency response](/emergency-plumber-calgary/), [drain cleaning](/drain-cleaning-calgary/), [hot water tanks](/hot-water-tanks/), and [Poly-B replacement](/polyb-plumbing-calgary/) — licensed, insured, honest pricing.",
     features: [
       "Priority emergency plumbing repairs",
       "HD sewer camera inspections",
@@ -5202,10 +5202,10 @@ export const services: ServicePage[] = [
           intro:
             "Plumbing problems rarely announce themselves in advance. When disaster hits your Southeast Calgary property at any hour, our emergency plumbing team responds swiftly to address frozen and burst pipes (especially crucial during Calgary's frigid winter months), water heater failures leaving your household without hot water, and gas line concerns requiring certified professional intervention.",
           items: [
-            { heading: "Drain & Sewer Services", body: "HD sewer camera inspections for accurate diagnosis, thorough [drain clearing](/drain-cleaning-calgary) for kitchens, bathrooms and floor drains, no-dig trenchless sewer line repairs, weeping tile and foundation drainage solutions, and restaurant or commercial grease trap cleaning." },
-            { heading: "Water Heater Services", body: "[Tankless water heater](/tankless-water-heaters) setup and configuration, standard [tank water heater](/hot-water-tanks) installation and repairs, routine maintenance and sediment flushing, energy-efficient upgrade consultations, and same-day water heater diagnostics." },
-            { heading: "Fixture Installation & Repair", body: "Toilet replacement and troubleshooting, sink and faucet installations, [bathtub and shower valve repairs](/shower-plumbing-calgary), garburator installation, and laundry room hookups and connections." },
-            { heading: "Pipe & Water Line Services", body: "Whole-home repiping projects, pipe winterization and freeze prevention, electronic leak detection, water main repair and replacement, and [Poly-B pipe replacement](/polyb-plumbing-calgary) common in 1980s-90s SE Calgary homes." },
+            { heading: "Drain & Sewer Services", body: "HD sewer camera inspections for accurate diagnosis, thorough [drain clearing](/drain-cleaning-calgary/) for kitchens, bathrooms and floor drains, no-dig trenchless sewer line repairs, weeping tile and foundation drainage solutions, and restaurant or commercial grease trap cleaning." },
+            { heading: "Water Heater Services", body: "[Tankless water heater](/tankless-water-heaters/) setup and configuration, standard [tank water heater](/hot-water-tanks/) installation and repairs, routine maintenance and sediment flushing, energy-efficient upgrade consultations, and same-day water heater diagnostics." },
+            { heading: "Fixture Installation & Repair", body: "Toilet replacement and troubleshooting, sink and faucet installations, [bathtub and shower valve repairs](/shower-plumbing-calgary/), garburator installation, and laundry room hookups and connections." },
+            { heading: "Pipe & Water Line Services", body: "Whole-home repiping projects, pipe winterization and freeze prevention, electronic leak detection, water main repair and replacement, and [Poly-B pipe replacement](/polyb-plumbing-calgary/) common in 1980s-90s SE Calgary homes." },
           ],
         },
         {
@@ -5214,10 +5214,10 @@ export const services: ServicePage[] = [
             "Our Calgary Plumbing team works extensively throughout Southeast Calgary, bringing intimate knowledge of the quadrant's plumbing landscape. We recognize the specific concerns found in established communities like Lake Bonavista and Willow Park while also understanding the unique requirements of master-planned developments throughout the south end.",
           items: [
             { body: "Century-old character homes in Inglewood and Ramsay with galvanized pipes and aging drainage systems." },
-            { body: "Master-planned lake communities like [Auburn Bay](/auburn-bay-plumber-calgary), [Mahogany](/mahogany-plumbers-calgary) and [McKenzie Lake](/mckenzie-lake-plumbers-calgary)." },
-            { body: "2000s-boom neighborhoods including [Copperfield](/copperfield-plumbers-calgary), [Cranston](/cranston-plumber-calgary), [New Brighton](/new-brighton-plumbers-calgary), and [McKenzie Towne](/mckenzie-towne-plumbers-calgary)." },
+            { body: "Master-planned lake communities like [Auburn Bay](/auburn-bay-plumber-calgary/), [Mahogany](/mahogany-plumbers-calgary/) and [McKenzie Lake](/mckenzie-lake-plumbers-calgary/)." },
+            { body: "2000s-boom neighborhoods including [Copperfield](/copperfield-plumbers-calgary/), [Cranston](/cranston-plumber-calgary/), [New Brighton](/new-brighton-plumbers-calgary/), and [McKenzie Towne](/mckenzie-towne-plumbers-calgary/)." },
             { body: "Newer construction in Seton, Legacy, and Walden where settling-related issues occasionally appear." },
-            { body: "Established areas like [Chaparral](/chaparral-plumbers-calgary), Douglas Glen, Douglasdale, Erin Woods, Forest Lawn, and Quarry Park." },
+            { body: "Established areas like [Chaparral](/chaparral-plumbers-calgary/), Douglas Glen, Douglasdale, Erin Woods, Forest Lawn, and Quarry Park." },
           ],
         },
       ],
@@ -5226,11 +5226,11 @@ export const services: ServicePage[] = [
         items: [
           {
             q: "What SE Calgary communities do you service?",
-            a: "FlameTech Plumbing delivers expert service across all Southeast Calgary neighborhoods including [Auburn Bay](/auburn-bay-plumber-calgary), [Copperfield](/copperfield-plumbers-calgary), [Cranston](/cranston-plumber-calgary), Inglewood, Lake Bonavista, Legacy, [Mahogany](/mahogany-plumbers-calgary), [McKenzie Towne](/mckenzie-towne-plumbers-calgary), [New Brighton](/new-brighton-plumbers-calgary), Quarry Park, Seton, Walden, and many more. From heritage districts to the newest lake communities, we're the SE Calgary plumbing team you can count on.",
+            a: "FlameTech Plumbing delivers expert service across all Southeast Calgary neighborhoods including [Auburn Bay](/auburn-bay-plumber-calgary/), [Copperfield](/copperfield-plumbers-calgary/), [Cranston](/cranston-plumber-calgary/), Inglewood, Lake Bonavista, Legacy, [Mahogany](/mahogany-plumbers-calgary/), [McKenzie Towne](/mckenzie-towne-plumbers-calgary/), [New Brighton](/new-brighton-plumbers-calgary/), Quarry Park, Seton, Walden, and many more. From heritage districts to the newest lake communities, we're the SE Calgary plumbing team you can count on.",
           },
           {
             q: "Do you offer emergency plumbing in SE Calgary?",
-            a: "Yes — our [emergency plumbing service](/emergency-plumber-calgary) runs with priority dispatch for all Southeast Calgary residents and businesses. Plumbing emergencies happen without warning, so whether it's the middle of the night or a holiday long weekend, our dispatch team is ready to send help. Contact us at 587-834-3668 anytime for urgent plumbing assistance.",
+            a: "Yes — our [emergency plumbing service](/emergency-plumber-calgary/) runs with priority dispatch for all Southeast Calgary residents and businesses. Plumbing emergencies happen without warning, so whether it's the middle of the night or a holiday long weekend, our dispatch team is ready to send help. Contact us at 587-834-3668 anytime for urgent plumbing assistance.",
           },
           {
             q: "What plumbing issues are common in SE Calgary homes?",
@@ -5242,7 +5242,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "What plumbing services do you provide in SE Calgary?",
-            a: "We offer comprehensive plumbing solutions: priority emergency response, [drain cleaning](/drain-cleaning-calgary) and sewer services, [water heater installation](/hot-water-tanks) and repair, leak detection and repair, full pipe services, fixture installation and upgrades, [bathroom](/bathroom-plumbing-calgary) and kitchen plumbing renovations, scheduled maintenance programs, and water quality systems. Our team handles residential and commercial projects of all sizes throughout Southeast Calgary.",
+            a: "Priority emergency response, [drain cleaning](/drain-cleaning-calgary/) and sewer work, [water heater installation](/hot-water-tanks/) and repair, leak detection, pipe repair and replacement, fixture installation, [bathroom](/bathroom-plumbing-calgary/) and kitchen renovations, scheduled maintenance, and water treatment. We handle residential and commercial across Southeast Calgary.",
           },
           {
             q: "How do you handle pricing and estimates?",
@@ -5262,14 +5262,14 @@ export const services: ServicePage[] = [
     lead:
       "When you need a reliable plumber in Calgary SW, FlameTech Plumbing delivers fast, professional service to homes and businesses throughout Southwest Calgary.",
     heroBody: [
-      "Our licensed plumbers understand the unique plumbing challenges facing SW Calgary properties — from older homes in established communities like [Mount Royal](/mount-royal-plumbers-calgary) and [Altadore](/altadore-plumbers-calgary) to new developments in [Aspen Woods](/aspen-woods-plumbers-calgary) and [West Springs](/west-springs-plumbers-calgary) — and we're ready to help with priority emergency dispatch.",
+      "Our licensed plumbers understand the unique plumbing challenges facing SW Calgary properties — from older homes in established communities like [Mount Royal](/mount-royal-plumbers-calgary/) and [Altadore](/altadore-plumbers-calgary/) to new developments in [Aspen Woods](/aspen-woods-plumbers-calgary/) and [West Springs](/west-springs-plumbers-calgary/) — and we're ready to help with priority emergency dispatch.",
       "We know the plumbing systems in older character homes from the 1920s through 1950s, the infrastructure challenges in 1970s and 1980s developments throughout areas like Lakeview and Haysboro, and modern plumbing in new SW Calgary communities. Call 587-834-3668 anytime.",
     ],
     heroSubhead: "Trusted Southwest Calgary Plumbing Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
     heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing service van in Southwest Calgary", fit: "cover" },
     intro:
-      "Expert plumbing services in Calgary SW. Priority service [emergency plumbers](/emergency-plumber-calgary) serving Southwest Calgary. Call 587-834-3668 for fast, reliable service.",
+      "Expert plumbing services in Calgary SW. Priority service [emergency plumbers](/emergency-plumber-calgary/) serving Southwest Calgary. Call 587-834-3668 for fast, reliable service.",
     features: [
       "Stocked Calgary trucks",
       "Sewer camera inspections & repairs",
@@ -5329,10 +5329,10 @@ export const services: ServicePage[] = [
           intro:
             "Plumbing emergencies don't wait for business hours. Whether it's 2 AM on a Sunday or during a holiday, our emergency plumbers in Calgary SW respond quickly to burst pipes and frozen pipe emergencies (especially common in SW Calgary winters), water heater failures leaving you without hot water, and gas line leaks requiring immediate attention.",
           items: [
-            { heading: "Drain & Sewer Services", body: "Main sewer line camera inspections and repairs, kitchen and bathroom [drain cleaning](/drain-cleaning-calgary), trenchless sewer line replacement, floor drain maintenance, and grease trap cleaning for SW Calgary properties." },
-            { heading: "Water Heater Services", body: "[Tankless water heater](/tankless-water-heaters) installation and repair, traditional [tank water heater](/hot-water-tanks) replacement, maintenance and flushing, energy-efficient upgrade consultations, and same-day water heater repairs." },
-            { heading: "Fixture Installation & Repair", body: "Toilet repairs and replacements, faucet and sink installations, [bathtub and shower repairs](/shower-plumbing-calgary), garburator installation, and laundry room plumbing." },
-            { heading: "Piping Services", body: "Re-piping for older SW Calgary homes, pipe insulation for Calgary winters, leak detection and repair, water line replacements, and [polybutylene pipe replacement](/polyb-plumbing-calgary) common in 1980s-90s SW Calgary homes." },
+            { heading: "Drain & Sewer Services", body: "Main sewer line camera inspections and repairs, kitchen and bathroom [drain cleaning](/drain-cleaning-calgary/), trenchless sewer line replacement, floor drain maintenance, and grease trap cleaning for SW Calgary properties." },
+            { heading: "Water Heater Services", body: "[Tankless water heater](/tankless-water-heaters/) installation and repair, traditional [tank water heater](/hot-water-tanks/) replacement, maintenance and flushing, energy-efficient upgrade consultations, and same-day water heater repairs." },
+            { heading: "Fixture Installation & Repair", body: "Toilet repairs and replacements, faucet and sink installations, [bathtub and shower repairs](/shower-plumbing-calgary/), garburator installation, and laundry room plumbing." },
+            { heading: "Piping Services", body: "Re-piping for older SW Calgary homes, pipe insulation for Calgary winters, leak detection and repair, water line replacements, and [polybutylene pipe replacement](/polyb-plumbing-calgary/) common in 1980s-90s SW Calgary homes." },
           ],
         },
         {
@@ -5340,11 +5340,11 @@ export const services: ServicePage[] = [
           intro:
             "Our Calgary Plumbers work and live in the SW, which means we understand every era of construction in the quadrant. We know how Calgary's freeze-thaw cycles specifically affect SW Calgary properties, and we stay current on all local building codes and permit requirements.",
           items: [
-            { body: "Character homes in [Mount Royal](/mount-royal-plumbers-calgary), Elbow Park, Scarboro and Parkhill from the 1920s-1950s." },
-            { body: "Post-war and mid-century homes in Lakeview, Haysboro, Rutland Park, Rosscarrock and [Killarney](/killarney-plumbers-calgary)." },
-            { body: "Established communities like [Altadore](/altadore-plumbers-calgary), [Marda Loop](/marda-loop-plumbers-calgary), Garrison Woods, Bayview, Britannia and Richmond." },
-            { body: "Modern master-planned areas including [Evergreen](/evergreen-plumbers-calgary), [Bridlewood](/bridlewood-plumbers-calgary), [Signal Hill](/signal-hill-plumbers-calgary) and [Woodbine](/woodbine-plumber)." },
-            { body: "Luxury estates and newer developments in [Aspen Woods](/aspen-woods-plumbers-calgary), [West Springs](/west-springs-plumbers-calgary), Springbank Hill, Christie Park and Strathcona Park." },
+            { body: "Character homes in [Mount Royal](/mount-royal-plumbers-calgary/), Elbow Park, Scarboro and Parkhill from the 1920s-1950s." },
+            { body: "Post-war and mid-century homes in Lakeview, Haysboro, Rutland Park, Rosscarrock and [Killarney](/killarney-plumbers-calgary/)." },
+            { body: "Established communities like [Altadore](/altadore-plumbers-calgary/), [Marda Loop](/marda-loop-plumbers-calgary/), Garrison Woods, Bayview, Britannia and Richmond." },
+            { body: "Modern master-planned areas including [Evergreen](/evergreen-plumbers-calgary/), [Bridlewood](/bridlewood-plumbers-calgary/), [Signal Hill](/signal-hill-plumbers-calgary/) and [Woodbine](/woodbine-plumber/)." },
+            { body: "Luxury estates and newer developments in [Aspen Woods](/aspen-woods-plumbers-calgary/), [West Springs](/west-springs-plumbers-calgary/), Springbank Hill, Christie Park and Strathcona Park." },
           ],
         },
       ],
@@ -5353,7 +5353,7 @@ export const services: ServicePage[] = [
         items: [
           {
             q: "Which SW Calgary communities do you serve?",
-            a: "FlameTech Plumbing proudly serves all Southwest Calgary neighborhoods including [Altadore](/altadore-plumbers-calgary), [Evergreen](/evergreen-plumbers-calgary), [Bridlewood](/bridlewood-plumbers-calgary), [Signal Hill](/signal-hill-plumbers-calgary), Springbank Hill, [Aspen Woods](/aspen-woods-plumbers-calgary), Christie Park, Westgate, Strathcona Park, and many more. If you're located in SW Calgary, we're ready to help with all your plumbing needs.",
+            a: "FlameTech Plumbing proudly serves all Southwest Calgary neighborhoods including [Altadore](/altadore-plumbers-calgary/), [Evergreen](/evergreen-plumbers-calgary/), [Bridlewood](/bridlewood-plumbers-calgary/), [Signal Hill](/signal-hill-plumbers-calgary/), Springbank Hill, [Aspen Woods](/aspen-woods-plumbers-calgary/), Christie Park, Westgate, Strathcona Park, and many more. If you're located in SW Calgary, we're ready to help with all your plumbing needs.",
           },
           {
             q: "Do you offer emergency plumbing services in SW Calgary?",
@@ -5369,7 +5369,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "What plumbing services do you provide in SW Calgary?",
-            a: "We offer complete plumbing services including [emergency repairs](/emergency-plumber-calgary), [drain cleaning](/drain-cleaning-calgary) and unclogging, [water heater installation](/hot-water-tanks) and repair, leak detection and repair, pipe replacement, fixture installation and upgrades, sewer line services, [bathroom](/bathroom-plumbing-calgary) and kitchen plumbing renovations, preventative maintenance programs, and water quality solutions.",
+            a: "We offer complete plumbing services including [emergency repairs](/emergency-plumber-calgary/), [drain cleaning](/drain-cleaning-calgary/) and unclogging, [water heater installation](/hot-water-tanks/) and repair, leak detection and repair, pipe replacement, fixture installation and upgrades, sewer line services, [bathroom](/bathroom-plumbing-calgary/) and kitchen plumbing renovations, preventative maintenance programs, and water quality solutions.",
           },
           {
             q: "Do you provide free estimates for plumbing work?",
@@ -5389,14 +5389,14 @@ export const services: ServicePage[] = [
     lead:
       "FlameTech has been serving Chaparral plumbers Calgary needs since the community was first developed in 2004. Most homes here are 15-20 years old, which means your builder-grade plumbing is hitting that sweet spot where things start to fail.",
     heroBody: [
-      "Our crew knows every street in this SE Calgary neighborhood, and we've fixed everything from [failing hot water tanks](/hot-water-tanks) to frozen pipes during those brutal February cold snaps.",
-      "Plumbing problems don't wait for business hours, and neither do we. Our [emergency plumber](/emergency-plumber-calgary) is on call with priority dispatch, ready to get to your Chaparral home fast when disaster strikes. Call 587-834-3668.",
+      "Our crew knows every street in this SE Calgary neighborhood, and we've fixed everything from [failing hot water tanks](/hot-water-tanks/) to frozen pipes during those brutal February cold snaps.",
+      "Plumbing problems don't wait for business hours, and neither do we. Our [emergency plumber](/emergency-plumber-calgary/) is on call with priority dispatch, ready to get to your Chaparral home fast when disaster strikes. Call 587-834-3668.",
     ],
     heroSubhead: "Trusted Chaparral Plumbing Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
     heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing service van in Chaparral", fit: "cover" },
     intro:
-      "Expert Chaparral plumbers in SE Calgary. Priority emergency service, [drain cleaning](/drain-cleaning-calgary), [water heaters](/hot-water-tanks), [Poly-B replacement](/polyb-plumbing-calgary), and leak repairs. Licensed, insured, and local.",
+      "Expert Chaparral plumbers in SE Calgary. Priority emergency service, [drain cleaning](/drain-cleaning-calgary/), [water heaters](/hot-water-tanks/), [Poly-B replacement](/polyb-plumbing-calgary/), and leak repairs. Licensed, insured, and local.",
     features: [
       "Priority emergency plumbing repairs",
       "Drain cleaning & unclogging",
@@ -5456,9 +5456,9 @@ export const services: ServicePage[] = [
             "Our Southeast Calgary plumbing team has been fixing pipes and water heaters in Chaparral since the first homes were built.\n\nMost Chaparral homes were built with standard builder-grade plumbing that's now showing its age — we've replaced dozens of original [hot water tanks](/hot-water-tanks/) that finally gave up after 15+ years of Calgary's hard water. A [water softener](/water-softener/) upstream stretches the next tank's life considerably.\n\nThe newer sections near Chaparral Valley Way have different challenges than the original development near 194 Avenue, and our experienced SE Calgary crew knows exactly what to expect when we pull up to your driveway.",
           items: [
             { heading: "Emergency Plumbing Repairs", body: "Burst pipes, backed-up sewers, no hot water — we're there fast with fully stocked trucks." },
-            { heading: "Drain Cleaning & Unclogging", body: "Kitchen sinks, bathroom drains, main sewer lines — we clear them all with professional equipment. Learn more about [drain cleaning](/drain-cleaning-calgary)." },
-            { heading: "Water Heater Services", body: "Tank and [tankless installation](/tankless-water-heaters), repairs, and maintenance for all major brands." },
-            { heading: "Fixture Installation & Repair", body: "Toilets, faucets, sinks, tubs, [showers](/shower-plumbing-calgary) — professional installation and repair work." },
+            { heading: "Drain Cleaning & Unclogging", body: "Kitchen sinks, bathroom drains, main sewer lines — we clear them all with professional equipment. Learn more about [drain cleaning](/drain-cleaning-calgary/)." },
+            { heading: "Water Heater Services", body: "Tank and [tankless installation](/tankless-water-heaters/), repairs, and maintenance for all major brands." },
+            { heading: "Fixture Installation & Repair", body: "Toilets, faucets, sinks, tubs, [showers](/shower-plumbing-calgary/) — professional installation and repair work." },
             { heading: "Leak Detection & Repair", body: "Hidden leaks behind walls, under slabs, or in crawl spaces — we find and fix them." },
             { heading: "Sewer Line Services", body: "Camera inspection, cleaning, repair, and full sewer line replacement when needed." },
           ],
@@ -5487,7 +5487,7 @@ export const services: ServicePage[] = [
         items: [
           {
             q: "Why do so many hot water tanks fail in Chaparral at the same time?",
-            a: "Most Chaparral homes were built between 2004-2008 with identical builder-grade hot water tanks that have now reached their 15-year lifespan. Calgary's extremely hard water accelerates sediment buildup, causing these tanks to fail within months of each other. We typically see a surge of [hot water tank replacements](/hot-water-tanks) every winter as the original units give up.",
+            a: "Most Chaparral homes were built between 2004-2008 with identical builder-grade hot water tanks that have now reached their 15-year lifespan. Calgary's extremely hard water accelerates sediment buildup, causing these tanks to fail within months of each other. We typically see a surge of [hot water tank replacements](/hot-water-tanks/) every winter as the original units give up.",
           },
           {
             q: "Are Chaparral homes more prone to foundation settling that affects plumbing?",
@@ -5499,11 +5499,11 @@ export const services: ServicePage[] = [
           },
           {
             q: "How often should I have my main sewer line cleaned in Chaparral?",
-            a: "Every 3-4 years for most homes, or immediately if you notice slow drains throughout the house. The clay soil and settling foundations in this area can cause sewer line connections to separate, leading to backups. [Camera inspection](/drain-cleaning-calgary) during cleaning helps identify problems before they become expensive emergencies.",
+            a: "Every 3-4 years for most homes, or immediately if you notice slow drains throughout the house. The clay soil and settling foundations in this area can cause sewer line connections to separate, leading to backups. [Camera inspection](/drain-cleaning-calgary/) during cleaning helps identify problems before they become expensive emergencies.",
           },
           {
             q: "Do I need a water softener in Chaparral?",
-            a: "Absolutely — Calgary has some of the hardest water in Canada, and it's particularly brutal on plumbing fixtures and appliances. A quality [water softener system](/water-softener) will extend the life of your hot water tank, prevent mineral buildup in faucets, and reduce soap scum. Most Chaparral homeowners see the investment pay for itself within 3-4 years through reduced repairs and replacements.",
+            a: "Absolutely — Calgary has some of the hardest water in Canada, and it's particularly brutal on plumbing fixtures and appliances. A quality [water softener system](/water-softener/) will extend the life of your hot water tank, prevent mineral buildup in faucets, and reduce soap scum. Most Chaparral homeowners see the investment pay for itself within 3-4 years through reduced repairs and replacements.",
           },
         ],
       },
@@ -5519,14 +5519,14 @@ export const services: ServicePage[] = [
     lead:
       "Most homes in Copperfield were built during the 2000s housing boom, which means your builder-grade plumbing fixtures are hitting that 15-20 year mark where problems start showing up.",
     heroBody: [
-      "FlameTech has been fixing plumbing issues in this SE Calgary community since day one, and we know exactly what to expect when we walk into these homes — from [failing hot water tanks](/hot-water-tanks) to clogged main drains.",
+      "FlameTech has been fixing plumbing issues in this SE Calgary community since day one, and we know exactly what to expect when we walk into these homes — from [failing hot water tanks](/hot-water-tanks/) to clogged main drains.",
       "When your pipes burst at 2 AM or your basement starts flooding, you need a plumber who answers the phone and shows up fast. We offer priority emergency dispatch and typically get to Copperfield homes within an hour of your call. Dial 587-834-3668.",
     ],
     heroSubhead: "Trusted Copperfield Plumbing Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
     heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing service van in Copperfield", fit: "cover" },
     intro:
-      "Expert plumbers serving Copperfield Calgary. Priority emergency service, [drain cleaning](/drain-cleaning-calgary), [water heaters](/hot-water-tanks), [Poly-B replacement](/polyb-plumbing-calgary), and leak repair. Licensed & insured.",
+      "Expert plumbers serving Copperfield Calgary. Priority emergency service, [drain cleaning](/drain-cleaning-calgary/), [water heaters](/hot-water-tanks/), [Poly-B replacement](/polyb-plumbing-calgary/), and leak repair. Licensed & insured.",
     features: [
       "Priority emergency repairs",
       "Kitchen, bathroom & main drain cleaning",
@@ -5586,9 +5586,9 @@ export const services: ServicePage[] = [
             "We've been serving SE Calgary for plumbing services for many years and understand the unique challenges that Copperfield properties face — from shifting clay soil to builder-grade systems now hitting their failure point.",
           items: [
             { heading: "Priority Emergency Repairs", body: "Burst pipes, gas leaks, sewer backups, and flooding — we're there fast with fully stocked trucks." },
-            { heading: "Drain Cleaning", body: "Kitchen sinks, bathroom drains, main sewer lines, and storm drains. Learn more about [drain cleaning](/drain-cleaning-calgary)." },
-            { heading: "Water Heater Services", body: "Tank and [tankless water heater](/tankless-water-heaters) installation, repair, and replacement." },
-            { heading: "Fixture Services", body: "Toilet, faucet, [shower and bathtub](/shower-plumbing-calgary) installation and repair." },
+            { heading: "Drain Cleaning", body: "Kitchen sinks, bathroom drains, main sewer lines, and storm drains. Learn more about [drain cleaning](/drain-cleaning-calgary/)." },
+            { heading: "Water Heater Services", body: "Tank and [tankless water heater](/tankless-water-heaters/) installation, repair, and replacement." },
+            { heading: "Fixture Services", body: "Toilet, faucet, [shower and bathtub](/shower-plumbing-calgary/) installation and repair." },
             { heading: "Leak Detection", body: "Hidden leaks, slab leaks, and pipe damage using electronic detection." },
             { heading: "Sewer Line Services", body: "Camera inspection, drain cleaning, and pipe replacement." },
           ],
@@ -5621,15 +5621,15 @@ export const services: ServicePage[] = [
           },
           {
             q: "How often should I have my sewer line cleaned in this area?",
-            a: "With the mature trees in Copperfield, we recommend [camera inspection and cleaning](/drain-cleaning-calgary) every 2-3 years. The clay soil here holds moisture that encourages root growth toward your pipes. Early detection saves you from dealing with a backed-up basement.",
+            a: "With the mature trees in Copperfield, we recommend [camera inspection and cleaning](/drain-cleaning-calgary/) every 2-3 years. The clay soil here holds moisture that encourages root growth toward your pipes. Early detection saves you from dealing with a backed-up basement.",
           },
           {
             q: "What's causing low water pressure throughout my house?",
-            a: "Calgary's hard water builds up mineral deposits in pipes and fixtures over time. In Copperfield homes, we often find the main water line has significant buildup after 15+ years. A [water softener](/water-softener) helps prevent future buildup, but existing blockages need professional cleaning or pipe replacement.",
+            a: "Calgary's hard water builds up mineral deposits in pipes and fixtures over time. In Copperfield homes, we often find the main water line has significant buildup after 15+ years. A [water softener](/water-softener/) helps prevent future buildup, but existing blockages need professional cleaning or pipe replacement.",
           },
           {
             q: "Should I replace my water heater before it fails?",
-            a: "Most [water heaters](/hot-water-tanks) in Copperfield homes are hitting 12-15 years old, which is past their expected lifespan with our hard water. Replacing before failure prevents water damage and lets you choose timing. We recommend upgrading when you start seeing rust-colored water or hearing rumbling sounds.",
+            a: "Most [water heaters](/hot-water-tanks/) in Copperfield homes are hitting 12-15 years old, which is past their expected lifespan with our hard water. Replacing before failure prevents water damage and lets you choose timing. We recommend upgrading when you start seeing rust-colored water or hearing rumbling sounds.",
           },
           {
             q: "Why do my drains back up after heavy rain?",
@@ -5650,13 +5650,13 @@ export const services: ServicePage[] = [
       "Searching for a trusted Cranston plumber in Calgary? FlameTech Plumbing provides dependable, professional plumbing solutions to homeowners throughout the Cranston community and surrounding Southeast Calgary neighbourhoods.",
     heroBody: [
       "From single-family homes along Cranston Boulevard to townhomes in Riverstone, our licensed plumbers are familiar with the modern construction and plumbing systems found across this master-planned community — and we're available with priority dispatch when you need us most.",
-      "We also serve surrounding SE Calgary communities like [Auburn Bay](/auburn-bay-plumber-calgary), [Chaparral](/chaparral-plumbers-calgary), [McKenzie Lake](/mckenzie-lake-plumbers-calgary), and Seton. Call 587-834-3668 for urgent plumbing help in Cranston.",
+      "We also serve surrounding SE Calgary communities like [Auburn Bay](/auburn-bay-plumber-calgary/), [Chaparral](/chaparral-plumbers-calgary/), [McKenzie Lake](/mckenzie-lake-plumbers-calgary/), and Seton. Call 587-834-3668 for urgent plumbing help in Cranston.",
     ],
     heroSubhead: "Your Neighbourhood Plumbing Professionals",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
     heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing service van in Cranston", fit: "cover" },
     intro:
-      "Reliable Cranston plumbers serving SE Calgary. Priority [emergency response](/emergency-plumber-calgary), [drain cleaning](/drain-cleaning-calgary), [hot water tank](/hot-water-tanks) service, and [Poly-B replacement](/polyb-plumbing-calgary).",
+      "Reliable Cranston plumbers serving SE Calgary. Priority [emergency response](/emergency-plumber-calgary/), [drain cleaning](/drain-cleaning-calgary/), [hot water tank](/hot-water-tanks/) service, and [Poly-B replacement](/polyb-plumbing-calgary/).",
     features: [
       "Stocked Calgary trucks",
       "Sewer camera inspections",
@@ -5715,21 +5715,21 @@ export const services: ServicePage[] = [
           intro:
             "A plumbing disaster at home never happens at a convenient time. Whether it's the middle of the night, a long weekend, or during a Calgary cold snap, our emergency plumbers serving Cranston are ready to handle frozen and burst pipes during sudden temperature drops along Cranston's exposed southeast corridors, hot water tank breakdowns that leave your family without warm water, and gas line concerns that demand immediate professional attention.",
           items: [
-            { heading: "Drain & Sewer Solutions", body: "Sewer line video inspections and targeted repairs, kitchen sink and bathroom [drain clearing](/drain-cleaning-calgary), no-dig trenchless sewer line replacement, basement floor drain servicing, and preventative drain maintenance for Cranston properties." },
-            { heading: "Hot Water Tank & Water Heater Services", body: "[Tankless water heater](/tankless-water-heaters) setup and troubleshooting, standard [tank hot water heater](/hot-water-tanks) swaps, annual water heater flushing and tune-ups, high-efficiency water heater recommendations, and rapid same-day hot water tank repairs." },
-            { heading: "Fixture Upgrades & Repairs", body: "Toilet troubleshooting and full replacements, kitchen and bathroom faucet installations, [shower valve and bathtub plumbing](/shower-plumbing-calgary) repairs, garburator setup, and washing machine hookups." },
-            { heading: "Pipe & Water Line Services", body: "Whole-home repiping for aging plumbing systems, pipe winterization for Calgary's climate, pinhole leak detection and precision repair, main water line replacement, and [Poly-B pipe identification and replacement](/polyb-plumbing-calgary) found in some early Cranston-area homes." },
+            { heading: "Drain & Sewer Solutions", body: "Sewer line video inspections and targeted repairs, kitchen sink and bathroom [drain clearing](/drain-cleaning-calgary/), no-dig trenchless sewer line replacement, basement floor drain servicing, and preventative drain maintenance for Cranston properties." },
+            { heading: "Hot Water Tank & Water Heater Services", body: "[Tankless water heater](/tankless-water-heaters/) setup and troubleshooting, standard [tank hot water heater](/hot-water-tanks/) swaps, annual water heater flushing and tune-ups, high-efficiency water heater recommendations, and rapid same-day hot water tank repairs." },
+            { heading: "Fixture Upgrades & Repairs", body: "Toilet troubleshooting and full replacements, kitchen and bathroom faucet installations, [shower valve and bathtub plumbing](/shower-plumbing-calgary/) repairs, garburator setup, and washing machine hookups." },
+            { heading: "Pipe & Water Line Services", body: "Whole-home repiping for aging plumbing systems, pipe winterization for Calgary's climate, pinhole leak detection and precision repair, main water line replacement, and [Poly-B pipe identification and replacement](/polyb-plumbing-calgary/) found in some early Cranston-area homes." },
           ],
         },
         {
-          heading: "Comprehensive Plumbing for Cranston Homeowners",
+          heading: "Plumbing for Cranston Homeowners",
           intro:
             "Because most Cranston homes were built after 2000, you're less likely to encounter outdated piping materials. However, Calgary's hard water causes mineral buildup that can reduce water heater efficiency, clog fixtures, and shorten appliance lifespans. The rapid temperature swings from chinook winds also stress pipe joints and connections.",
           items: [
             { body: "Original fixtures and water heaters in Cranston's earliest phases now reaching 20+ years and due for proactive replacement." },
-            { body: "Hard-water scale reducing [tankless](/tankless-water-heaters) and [tank](/hot-water-tanks) efficiency — regular flushing and a [water softener](/water-softener) extend equipment life." },
+            { body: "Hard-water scale reducing [tankless](/tankless-water-heaters/) and [tank](/hot-water-tanks/) efficiency — regular flushing and a [water softener](/water-softener/) extend equipment life." },
             { body: "Chinook-driven freeze/thaw stress on outdoor hose bibs and exposed lines along the southeast corridors." },
-            { body: "Bathroom and kitchen renovation plumbing — new [shower valves](/shower-plumbing-calgary), faucets, and laundry hookups." },
+            { body: "Bathroom and kitchen renovation plumbing — new [shower valves](/shower-plumbing-calgary/), faucets, and laundry hookups." },
           ],
         },
       ],
@@ -5738,23 +5738,23 @@ export const services: ServicePage[] = [
         items: [
           {
             q: "Do you serve the entire Cranston community?",
-            a: "Absolutely. FlameTech Plumbing provides full plumbing services to every part of Cranston — from the established streets near Cranston Boulevard and Cranston Drive to the newer Riverstone enclave along the Bow River. We also serve surrounding SE Calgary communities like [Auburn Bay](/auburn-bay-plumber-calgary), [Chaparral](/chaparral-plumbers-calgary), [McKenzie Lake](/mckenzie-lake-plumbers-calgary), and Seton, so no matter where you are in the southeast, we can be there quickly.",
+            a: "Yes — FlameTech Plumbing provides full plumbing services to every part of Cranston — from the established streets near Cranston Boulevard and Cranston Drive to the newer Riverstone enclave along the Bow River. We also serve surrounding SE Calgary communities like [Auburn Bay](/auburn-bay-plumber-calgary/), [Chaparral](/chaparral-plumbers-calgary/), [McKenzie Lake](/mckenzie-lake-plumbers-calgary/), and Seton, so no matter where you are in the southeast, we can be there quickly.",
           },
           {
             q: "Can I get an emergency plumber in Cranston at night or on weekends?",
-            a: "You can. Our [emergency plumbing team](/emergency-plumber-calgary) is available with priority dispatch including holidays. Whether it's a frozen pipe that's cracked open during a January cold snap or a sewer backup on a Saturday evening, we dispatch a licensed plumber to your Cranston home as fast as possible. Reach us anytime at 587-834-3668.",
+            a: "You can. Our [emergency plumbing team](/emergency-plumber-calgary/) is available with priority dispatch including holidays. Whether it's a frozen pipe that's cracked open during a January cold snap or a sewer backup on a Saturday evening, we dispatch a licensed plumber to your Cranston home as fast as possible. Reach us anytime at 587-834-3668.",
           },
           {
             q: "What plumbing issues are common in Cranston homes?",
-            a: "Because most Cranston homes were built after 2000, you're less likely to encounter outdated piping materials. However, Calgary's hard water causes mineral buildup that can reduce [water heater](/hot-water-tanks) efficiency, clog fixtures, and shorten appliance lifespans. The rapid temperature swings from chinook winds also stress pipe joints. As homes in Cranston's earlier phases reach 20+ years, original fixtures and water heaters may be nearing end-of-life.",
+            a: "Because most Cranston homes were built after 2000, you're less likely to encounter outdated piping materials. However, Calgary's hard water causes mineral buildup that can reduce [water heater](/hot-water-tanks/) efficiency, clog fixtures, and shorten appliance lifespans. The rapid temperature swings from chinook winds also stress pipe joints. As homes in Cranston's earlier phases reach 20+ years, original fixtures and water heaters may be nearing end-of-life.",
           },
           {
             q: "How fast can a plumber reach my Cranston home?",
-            a: "Cranston's location along Deerfoot Trail and Stoney Trail gives us excellent access. We generally reach Cranston properties quickly when conditions allow, though emergency calls are prioritized for the fastest possible dispatch. Our service vans come fully equipped with common parts and tools, so most repairs are completed in a single visit without the need for a return trip.",
+            a: "Cranston sits right off Deerfoot and Stoney Trail, so we have direct access from anywhere in Calgary. Emergency calls receive priority routing over scheduled work. Call 587-834-3668 and we'll confirm a window before the truck rolls. Our vans stock the common parts so most jobs finish on the first visit.",
           },
           {
             q: "What services does FlameTech offer Cranston residents?",
-            a: "We handle the full range of residential plumbing needs: priority emergency response, [drain cleaning](/drain-cleaning-calgary) and sewer camera inspections, [hot water tank](/hot-water-tanks) and [tankless water heater](/tankless-water-heaters) installation and repair, leak detection, pipe repair and repiping, fixture installation and upgrades, [bathroom](/bathroom-plumbing-calgary) and kitchen renovation plumbing, [water softener](/water-softener) installation, and seasonal maintenance programs.",
+            a: "We handle the full range of residential plumbing needs: priority emergency response, [drain cleaning](/drain-cleaning-calgary/) and sewer camera inspections, [hot water tank](/hot-water-tanks/) and [tankless water heater](/tankless-water-heaters/) installation and repair, leak detection, pipe repair and repiping, fixture installation and upgrades, [bathroom](/bathroom-plumbing-calgary/) and kitchen renovation plumbing, [water softener](/water-softener/) installation, and seasonal maintenance programs.",
           },
           {
             q: "Is there a charge for plumbing estimates in Cranston?",
@@ -5774,14 +5774,14 @@ export const services: ServicePage[] = [
     lead:
       "The houses up in Edgemont were built mostly in the 1990s and early 2000s, which means we see a lot of original plumbing starting to show its age.",
     heroBody: [
-      "When your drains back up or your [hot water tank](/hot-water-tanks) starts leaking all over your basement floor, you need Edgemont plumbers who know these homes inside and out. That's exactly what FlameTech brings to your door.",
+      "When your drains back up or your [hot water tank](/hot-water-tanks/) starts leaking all over your basement floor, you need Edgemont plumbers who know these homes inside and out. That's exactly what FlameTech brings to your door.",
       "We offer priority emergency dispatch for plumbing emergencies in Edgemont because burst pipes and sewer backups don't wait for business hours. A real person answers our phone, and we dispatch a licensed plumber to your Edgemont home fast. Call 587-834-3668.",
     ],
     heroSubhead: "Trusted Edgemont Plumbing Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
     heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing service van in Edgemont", fit: "cover" },
     intro:
-      "Professional plumbers serving Edgemont Calgary. Priority emergency repairs, [drain cleaning](/drain-cleaning-calgary), [water heaters](/hot-water-tanks), and [Poly-B replacement](/polyb-plumbing-calgary). Licensed & insured.",
+      "Professional plumbers serving Edgemont Calgary. Priority emergency repairs, [drain cleaning](/drain-cleaning-calgary/), [water heaters](/hot-water-tanks/), and [Poly-B replacement](/polyb-plumbing-calgary/). Licensed & insured.",
     features: [
       "Priority emergency plumbing repairs",
       "Drain cleaning & main line unclogging",
@@ -5841,9 +5841,9 @@ export const services: ServicePage[] = [
             "Locally owned and operated in NW Calgary, we understand the unique challenges Edgemont properties face. Edgemont sits on higher ground in northwest Calgary, but that doesn't mean you're immune to plumbing problems.\n\nThe older homes here often have original fixtures and water lines due for updates, and the newer builds sometimes have builder-grade components failing earlier than expected.\n\nWe also serve neighbouring [Tuscany](/tuscany-plumbers-calgary/), [Varsity](/varsity-plumbers-calgary/), [Evanston](/evanston-plumbers-calgary/), and [Panorama Hills](/panorama-hills-plumbers-calgary/).",
           items: [
             { heading: "Emergency Plumbing Repairs", body: "Burst pipes, sewer backups, no hot water — we handle the urgent stuff that can't wait until Monday." },
-            { heading: "Drain Cleaning & Unclogging", body: "Kitchen sinks, bathroom drains, main sewer lines — see our [drain cleaning service](/drain-cleaning-calgary)." },
-            { heading: "Water Heater Services", body: "Tank and [tankless water heater](/tankless-water-heaters) installation, repair, and replacement." },
-            { heading: "Fixture Installation & Repair", body: "Toilets, faucets, sinks, [showers](/shower-plumbing-calgary) — professional installation and repairs that last." },
+            { heading: "Drain Cleaning & Unclogging", body: "Kitchen sinks, bathroom drains, main sewer lines — see our [drain cleaning service](/drain-cleaning-calgary/)." },
+            { heading: "Water Heater Services", body: "Tank and [tankless water heater](/tankless-water-heaters/) installation, repair, and replacement." },
+            { heading: "Fixture Installation & Repair", body: "Toilets, faucets, sinks, [showers](/shower-plumbing-calgary/) — professional installation and repairs that last." },
             { heading: "Leak Detection & Repair", body: "Finding hidden leaks before they cause major damage to your Edgemont home." },
             { heading: "Sewer Line Services", body: "Camera inspections, root removal, and sewer line repairs to keep your system flowing." },
           ],
@@ -5872,7 +5872,7 @@ export const services: ServicePage[] = [
         items: [
           {
             q: "Why do my drains keep backing up in my Edgemont home?",
-            a: "Edgemont homes from the 1990s often have cast iron drain lines that are starting to corrode, creating rough surfaces where debris catches and builds up. Tree roots are also common culprits, especially on properties with mature landscaping. We use [camera inspections](/drain-cleaning-calgary) to pinpoint the exact problem and recommend the most cost-effective solution.",
+            a: "Edgemont homes from the 1990s often have cast iron drain lines that are starting to corrode, creating rough surfaces where debris catches and builds up. Tree roots are also common culprits, especially on properties with mature landscaping. We use [camera inspections](/drain-cleaning-calgary/) to pinpoint the exact problem and recommend the most cost-effective solution.",
           },
           {
             q: "Do you service both the original Edgemont and newer Edgemont developments?",
@@ -5880,15 +5880,15 @@ export const services: ServicePage[] = [
           },
           {
             q: "How quickly can you get to my Edgemont home for an emergency?",
-            a: "For genuine plumbing emergencies in Edgemont, our priority dispatch gets a tech on the way as quickly as conditions allow. Our [emergency plumbers](/emergency-plumber-calgary) are familiar with the neighborhood and keep the most common repair parts in their trucks. We understand that every minute counts when you're dealing with flooding or sewer backups.",
+            a: "For genuine plumbing emergencies in Edgemont, our priority dispatch gets a tech on the way as quickly as conditions allow. Our [emergency plumbers](/emergency-plumber-calgary/) are familiar with the neighborhood and keep the most common repair parts in their trucks. We understand that every minute counts when you're dealing with flooding or sewer backups.",
           },
           {
             q: "Should I replace my Poly-B plumbing if I'm selling my Edgemont home?",
-            a: "[Poly-B replacement](/polyb-plumbing-calgary) isn't legally required for home sales in Calgary, but it's becoming a major negotiating point with buyers and their home inspectors. Most Edgemont homes with Poly-B are now 25-30 years old, which is when these systems typically start failing. Getting quotes for replacement gives you options during negotiations and prevents surprises down the road.",
+            a: "[Poly-B replacement](/polyb-plumbing-calgary/) isn't legally required for home sales in Calgary, but it's becoming a major negotiating point with buyers and their home inspectors. Most Edgemont homes with Poly-B are now 25-30 years old, which is when these systems typically start failing. Getting quotes for replacement gives you options during negotiations and prevents surprises down the road.",
           },
           {
             q: "Do I need a water softener in Edgemont?",
-            a: "Calgary has some of the hardest water in Canada, and Edgemont is no exception. A quality [water softener](/water-softener) extends the life of your hot water tank, prevents mineral buildup in faucets, and reduces soap scum. Most Edgemont homeowners with original 1990s plumbing see meaningful reductions in fixture failures after softener installation.",
+            a: "Calgary has some of the hardest water in Canada, and Edgemont is no exception. A quality [water softener](/water-softener/) extends the life of your hot water tank, prevents mineral buildup in faucets, and reduces soap scum. Most Edgemont homeowners with original 1990s plumbing see meaningful reductions in fixture failures after softener installation.",
           },
         ],
       },
@@ -5903,16 +5903,16 @@ export const services: ServicePage[] = [
     icon: "plumbing",
     title: "Evanston Plumbers Calgary | Expert Plumbing Services",
     lead:
-      "Evanston homeowners know that when your plumbing fails, you need someone who understands this northwest community's unique challenges. Our FlameTech crew has been fixing everything from frozen pipes in those exposed basement areas to replacing builder-grade [hot water tanks](/hot-water-tanks) that are hitting the 15-year mark in Evanston's older sections.",
+      "Evanston homeowners know that when your plumbing fails, you need someone who understands this northwest community's unique challenges. Our FlameTech crew has been fixing everything from frozen pipes in those exposed basement areas to replacing builder-grade [hot water tanks](/hot-water-tanks/) that are hitting the 15-year mark in Evanston's older sections.",
     heroBody: [
       "When your toilet won't stop running at 2 AM or your basement starts flooding during spring thaw, we're the plumbers you call. Real person answers, real truck dispatched, real solutions that last.",
-      "As a locally owned and operated [plumbing company in NW Calgary](/calgary-plumbers-nw), we understand the unique challenges that Evanston properties face — from Poly-B failures in older phases to the hard water issues that plague every home in this area.",
+      "As a locally owned and operated [plumbing company in NW Calgary](/calgary-plumbers-nw/), we understand the unique challenges that Evanston properties face — from Poly-B failures in older phases to the hard water issues that plague every home in this area.",
     ],
     heroSubhead: "Trusted Evanston Plumbing Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
     heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing service van in Evanston", fit: "cover" },
     intro:
-      "Expert plumbers serving Evanston, Calgary. Priority emergency dispatch, water heaters, drain cleaning, [Poly-B replacement](/polyb-plumbing-calgary), and fixture work. Licensed NW Calgary specialists with honest pricing.",
+      "Expert plumbers serving Evanston, Calgary. Priority emergency dispatch, water heaters, drain cleaning, [Poly-B replacement](/polyb-plumbing-calgary/), and fixture work. Licensed NW Calgary specialists with honest pricing.",
     features: [
       "Priority emergency plumbing repairs",
       "Drain cleaning & unclogging",
@@ -5971,9 +5971,9 @@ export const services: ServicePage[] = [
           intro:
             "We've been working in Evanston since the community started growing in the early 2000s, and we know exactly what to expect when we pull up to your driveway. The homes built during the construction boom often have identical plumbing layouts, which means we can diagnose problems faster and carry the right parts on our trucks.",
           items: [
-            { heading: "Emergency Plumbing Repairs", body: "Burst pipes, backed-up sewers, no hot water — we handle the disasters that can't wait until Monday morning. Our [emergency plumbers](/emergency-plumber-calgary) roll to Evanston addresses with fully stocked trucks." },
-            { heading: "Drain Cleaning & Unclogging", body: "Kitchen sinks, bathroom drains, main lines — we clear the blockages and get your water flowing again. For persistent backups we bring hydro-jetting and camera gear. See our [drain cleaning services](/drain-cleaning-calgary) for more." },
-            { heading: "Water Heater Services", body: "Repair, replacement, and maintenance for both tank and tankless systems, including warranty work on newer units. We've replaced dozens of [tankless water heaters](/tankless-water-heaters) in the newer builds." },
+            { heading: "Emergency Plumbing Repairs", body: "Burst pipes, backed-up sewers, no hot water — we handle the disasters that can't wait until Monday morning. Our [emergency plumbers](/emergency-plumber-calgary/) roll to Evanston addresses with fully stocked trucks." },
+            { heading: "Drain Cleaning & Unclogging", body: "Kitchen sinks, bathroom drains, main lines — we clear the blockages and get your water flowing again. For persistent backups we bring hydro-jetting and camera gear. See our [drain cleaning services](/drain-cleaning-calgary/) for more." },
+            { heading: "Water Heater Services", body: "Repair, replacement, and maintenance for both tank and tankless systems, including warranty work on newer units. We've replaced dozens of [tankless water heaters](/tankless-water-heaters/) in the newer builds." },
             { heading: "Fixture Installation & Repair", body: "Toilets, faucets, sinks, and showers — from quick repairs to complete bathroom updates." },
             { heading: "Sewer Line Services", body: "Camera inspections, drain cleaning, and sewer line repairs including tree root removal." },
           ],
@@ -5994,7 +5994,7 @@ export const services: ServicePage[] = [
         {
           heading: "Local Evanston & NW Calgary Expertise",
           intro:
-            "Our Calgary plumbers work and live in the NW, so we understand Evanston's layout — from the established areas near Evanston Drive to the newer phases being built on the north side. Each section has its own plumbing personality. We also serve neighbouring communities like [Panorama Hills](/panorama-hills-plumbers-calgary) and [Edgemont](/edgemont-plumbers-calgary).",
+            "Our Calgary plumbers work and live in the NW, so we understand Evanston's layout — from the established areas near Evanston Drive to the newer phases being built on the north side. Each section has its own plumbing personality. We also serve neighbouring communities like [Panorama Hills](/panorama-hills-plumbers-calgary/) and [Edgemont](/edgemont-plumbers-calgary/).",
           items: [
             { heading: "Stocked Trucks, Fast Fixes", body: "Most Evanston homes were built with similar floor plans and plumbing configurations, so we know where to look for problems and what parts to bring." },
             { heading: "Built for Alberta Weather", body: "Calgary's extreme weather puts extra stress on plumbing systems. We design our repairs to handle everything from -40°C cold snaps to rapid chinook thaws, following Calgary building codes and using materials rated for our climate." },
@@ -6011,7 +6011,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "Should I replace the Poly-B piping in my 2003 Evanston home?",
-            a: "If your home still has the original Poly-B plumbing, it's worth getting it inspected even if you haven't had leaks yet. Most Poly-B systems start failing around the 20-year mark, and replacing it proactively costs less than dealing with water damage. [Poly-B replacement](/polyb-plumbing-calgary) for a typical Evanston home runs $8,000-12,000 depending on accessibility.",
+            a: "If your home still has the original Poly-B plumbing, it's worth getting it inspected even if you haven't had leaks yet. Most Poly-B systems start failing around the 20-year mark, and replacing it proactively costs less than dealing with water damage. [Poly-B replacement](/polyb-plumbing-calgary/) for a typical Evanston home runs $8,000-12,000 depending on accessibility.",
           },
           {
             q: "Why does my basement floor drain smell like sewer gas?",
@@ -6023,7 +6023,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "Do you service the brand new homes being built in north Evanston?",
-            a: "Absolutely. We handle warranty work on new construction plumbing and know the common issues with current builder-grade fixtures and systems. Many of the furnaces and water heaters in new Evanston homes are basic models that we service regularly throughout NW Calgary.",
+            a: "Yes — We handle warranty work on new construction plumbing and know the common issues with current builder-grade fixtures and systems. Many of the furnaces and water heaters in new Evanston homes are basic models that we service regularly throughout NW Calgary.",
           },
         ],
       },
@@ -6039,14 +6039,14 @@ export const services: ServicePage[] = [
     lead:
       "Searching for trusted plumbers in Evergreen, Calgary? FlameTech Plumbing brings exceptional service to every home and business in this vibrant southwest community. Our certified technicians deliver prompt, professional solutions designed for Evergreen's family-friendly neighborhoods and growing businesses.",
     heroBody: [
-      "As your neighborhood [SW Calgary plumbing specialists](/calgary-plumbers-sw), we bring local insight and dedicated service to every Evergreen property we visit.",
+      "As your neighborhood [SW Calgary plumbing specialists](/calgary-plumbers-sw/), we bring local insight and dedicated service to every Evergreen property we visit.",
       "This growing family community features homes built primarily between 2000 and 2015, presenting modern infrastructure alongside typical wear-and-tear challenges that our team handles expertly.",
     ],
     heroSubhead: "Evergreen's Dedicated Plumbing Professionals",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
     heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing service van in Evergreen", fit: "cover" },
     intro:
-      "Evergreen plumbers serving Calgary families with priority emergency repairs, water heaters, [drain cleaning](/drain-cleaning-calgary), and fixture upgrades. Honest pricing, quality workmanship, satisfaction guaranteed.",
+      "Evergreen plumbers serving Calgary families with priority emergency repairs, water heaters, [drain cleaning](/drain-cleaning-calgary/), and fixture upgrades. Honest pricing, quality workmanship, satisfaction guaranteed.",
     features: [
       "Priority emergency plumbing service",
       "Expert drain care & hydro-jetting",
@@ -6082,7 +6082,7 @@ export const services: ServicePage[] = [
     sidebar: {
       title: "Evergreen Plumbers",
       subtitle:
-        "Comprehensive plumbing for SW Calgary's Evergreen community — priority dispatch, modern equipment, family-friendly service.",
+        "Plumbing for SW Calgary's Evergreen community — priority dispatch, modern equipment, family-friendly service.",
       bullets: [
         "Licensed, insured, certified",
         "Live team member on every call",
@@ -6106,9 +6106,9 @@ export const services: ServicePage[] = [
             "Troubles appear without warning — burst pipes, major leaks, or backed-up sewers can strike anytime. Our emergency crew responds instantly to protect your Evergreen residence from water-related damage, arriving prepared to tackle urgent situations efficiently.",
           items: [
             { heading: "Priority Emergency Service", body: "Our team maintains priority emergency availability for Evergreen residents. Trucks are stocked with common parts to resolve most emergencies in one visit." },
-            { heading: "Expert Drain Care", body: "Sluggish drains frustrate busy households. We deploy professional-grade equipment to eliminate blockages thoroughly — from kitchen sinks to main-line obstructions. See [drain cleaning](/drain-cleaning-calgary) for details." },
-            { heading: "Water Heater Installation & Repair", body: "Whether you need [tankless efficiency](/tankless-water-heaters) or traditional [tank reliability](/hot-water-tanks), we ensure your family never runs out of hot water during Calgary's freezing winters." },
-            { heading: "Fixture Upgrades & Repairs", body: "Planning bathroom or kitchen renovations? We install modern faucets, toilets, sinks, and shower systems that enhance both function and aesthetics. See [bathroom plumbing](/bathroom-plumbing-calgary)." },
+            { heading: "Expert Drain Care", body: "Sluggish drains frustrate busy households. We deploy professional-grade equipment to eliminate blockages thoroughly — from kitchen sinks to main-line obstructions. See [drain cleaning](/drain-cleaning-calgary/) for details." },
+            { heading: "Water Heater Installation & Repair", body: "Whether you need [tankless efficiency](/tankless-water-heaters/) or traditional [tank reliability](/hot-water-tanks/), we ensure your family never runs out of hot water during Calgary's freezing winters." },
+            { heading: "Fixture Upgrades & Repairs", body: "Planning bathroom or kitchen renovations? We install modern faucets, toilets, sinks, and shower systems that enhance both function and aesthetics. See [bathroom plumbing](/bathroom-plumbing-calgary/)." },
             { heading: "Precision Leak Detection", body: "We use thermal imaging and acoustic technology to locate leaks behind walls and under floors quickly, then execute lasting repairs." },
             { heading: "Comprehensive Sewer Services", body: "Camera inspections reveal pipe conditions and hydro-jetting clears years of buildup. We handle repairs and full replacements when necessary." },
           ],
@@ -6116,7 +6116,7 @@ export const services: ServicePage[] = [
         {
           heading: "Typical Plumbing Issues Evergreen Homeowners Face",
           intro:
-            "Living in this modern family neighborhood comes with predictable maintenance needs. Our seasoned professionals have addressed these scenarios hundreds of times throughout [southwest Calgary](/calgary-plumbers-sw), including neighbouring [Signal Hill](/signal-hill-plumbers-calgary) and [Bridlewood](/bridlewood-plumbers-calgary).",
+            "Living in this modern family neighborhood comes with predictable maintenance needs. Our seasoned professionals have addressed these scenarios hundreds of times throughout [southwest Calgary](/calgary-plumbers-sw/), including neighbouring [Signal Hill](/signal-hill-plumbers-calgary/) and [Bridlewood](/bridlewood-plumbers-calgary/).",
           items: [
             { body: "Builder-grade fixtures reaching end of lifespan requiring upgrades." },
             { body: "Pipe freezing risks during extreme Alberta cold waves." },
@@ -6145,7 +6145,7 @@ export const services: ServicePage[] = [
         items: [
           {
             q: "Do you provide priority emergency plumbing services in Evergreen?",
-            a: "Yes, FlameTech Plumbing offers priority [emergency plumbing services](/emergency-plumber-calgary) throughout Evergreen, Calgary. Whether you're dealing with a burst pipe, severe leak, or backed-up sewer, our licensed plumbers are ready to respond quickly. Call us anytime at 587-834-3668 for immediate assistance.",
+            a: "Yes, FlameTech Plumbing offers priority [emergency plumbing services](/emergency-plumber-calgary/) throughout Evergreen, Calgary. Whether you're dealing with a burst pipe, severe leak, or backed-up sewer, our licensed plumbers are ready to respond quickly. Call us anytime at 587-834-3668 for immediate assistance.",
           },
           {
             q: "How quickly can a plumber reach my Evergreen home?",
@@ -6153,11 +6153,11 @@ export const services: ServicePage[] = [
           },
           {
             q: "What plumbing services do you offer in Evergreen?",
-            a: "We provide comprehensive plumbing services including drain cleaning, water heater repair and installation, leak detection, pipe repair and replacement, fixture installation, sewer line services, and bathroom/kitchen plumbing renovations. Whether it's a minor repair or major installation, we handle all residential and commercial plumbing needs in Evergreen.",
+            a: "Drain cleaning, water heater repair and installation, leak detection, pipe repair and replacement, fixture installation, sewer line work, and bathroom/kitchen renovations. Residential and commercial — anything that carries water or gas in an Evergreen property.",
           },
           {
             q: "Are your plumbers licensed and insured?",
-            a: "Absolutely. All FlameTech Plumbing technicians are fully licensed, insured, and certified to work in Calgary. We carry comprehensive liability insurance to protect both our team and your property. You can trust that you're working with qualified professionals who meet all Alberta plumbing standards.",
+            a: "Yes. Every tech is licensed, bonded, and insured to work across Alberta. Insurance certificate available on request before we start.",
           },
           {
             q: "Do you guarantee your plumbing work?",
@@ -6175,16 +6175,16 @@ export const services: ServicePage[] = [
     icon: "plumbing",
     title: "Huntington Hills Plumbers Calgary | Expert Plumbing Services",
     lead:
-      "FlameTech has been the go-to plumbing team for Huntington Hills homeowners since this northwest Calgary community was established. Whether you're dealing with a burst pipe in one of the older bungalows or need [hot water tank replacement](/hot-water-tanks) in a newer two-story, we know exactly what plumbing challenges this area throws at you.",
+      "FlameTech has been the go-to plumbing team for Huntington Hills homeowners since this northwest Calgary community was established. Whether you're dealing with a burst pipe in one of the older bungalows or need [hot water tank replacement](/hot-water-tanks/) in a newer two-story, we know exactly what plumbing challenges this area throws at you.",
     heroBody: [
       "Plumbing emergencies don't wait for business hours, and neither do we. Our Calgary-based team offers priority dispatch to handle everything from flooded basements to frozen pipes across Huntington Hills.",
-      "From Huntington Green to Huntington Village, our [NW Calgary plumbers](/calgary-plumbers-nw) have been fixing pipes in this community for over two decades.",
+      "From Huntington Green to Huntington Village, our [NW Calgary plumbers](/calgary-plumbers-nw/) have been fixing pipes in this community for over two decades.",
     ],
     heroSubhead: "Trusted Huntington Hills Plumbing Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
     heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing service van in Huntington Hills", fit: "cover" },
     intro:
-      "Expert plumbers serving Huntington Hills Calgary. Priority emergency service, drain cleaning, water heaters, [Poly-B replacement](/polyb-plumbing-calgary) & more. Local team, fair pricing.",
+      "Expert plumbers serving Huntington Hills Calgary. Priority emergency service, drain cleaning, water heaters, [Poly-B replacement](/polyb-plumbing-calgary/) & more. Local team, fair pricing.",
     features: [
       "Priority emergency plumbing repairs",
       "Drain cleaning & unclogging",
@@ -6241,11 +6241,11 @@ export const services: ServicePage[] = [
         {
           heading: "Why Huntington Hills Homeowners Choose FlameTech Plumbing",
           intro:
-            "Huntington Hills homes range from the original 1970s builds to newer infill developments, and each era comes with its own plumbing personality. The older homes often have original cast iron drain lines that are finally giving up, while the 1990s builds are dealing with [Poly-B piping issues](/polyb-plumbing-calgary).",
+            "Huntington Hills homes range from the original 1970s builds to newer infill developments, and each era comes with its own plumbing personality. The older homes often have original cast iron drain lines that are finally giving up, while the 1990s builds are dealing with [Poly-B piping issues](/polyb-plumbing-calgary/).",
           items: [
             { heading: "Emergency Plumbing Repairs", body: "Burst pipes, sewer backups, and water heater failures happen at the worst times. We offer priority dispatch to get your Huntington Hills home back to normal." },
-            { heading: "Drain Cleaning & Unclogging", body: "From kitchen sinks clogged with grease to main drains blocked by tree roots, we clear them all with professional equipment. See [drain cleaning](/drain-cleaning-calgary)." },
-            { heading: "Water Heater Services", body: "Installation, repair, and replacement of traditional tanks and [tankless units](/tankless-water-heaters). We stock the brands that perform best in Calgary's hard water." },
+            { heading: "Drain Cleaning & Unclogging", body: "From kitchen sinks clogged with grease to main drains blocked by tree roots, we clear them all with professional equipment. See [drain cleaning](/drain-cleaning-calgary/)." },
+            { heading: "Water Heater Services", body: "Installation, repair, and replacement of traditional tanks and [tankless units](/tankless-water-heaters/). We stock the brands that perform best in Calgary's hard water." },
             { heading: "Fixture Installation & Repair", body: "Leaky faucets, running toilets, and shower valve replacements. Quality fixtures installed right the first time." },
             { heading: "Leak Detection & Repair", body: "Hidden leaks behind walls or under slabs can cause serious damage. We find them fast and fix them permanently." },
             { heading: "Sewer Line Services", body: "Camera inspections, drain cleaning, and sewer line repairs. Root intrusion is common in Huntington Hills' mature trees." },
@@ -6254,7 +6254,7 @@ export const services: ServicePage[] = [
         {
           heading: "Common Plumbing Issues in Huntington Hills Homes",
           intro:
-            "After years of service calls across Huntington Hills, we see the same plumbing problems pop up again and again. Sound familiar? We fix all of these problems regularly across northwest Calgary, including [Panorama Hills](/panorama-hills-plumbers-calgary) and [Edgemont](/edgemont-plumbers-calgary).",
+            "After years of service calls across Huntington Hills, we see the same plumbing problems pop up again and again. Sound familiar? We fix all of these problems regularly across northwest Calgary, including [Panorama Hills](/panorama-hills-plumbers-calgary/) and [Edgemont](/edgemont-plumbers-calgary/).",
           items: [
             { body: "Cast iron drain lines in 1970s homes finally corroding through." },
             { body: "Poly-B supply lines leaking in 1980s-90s builds." },
@@ -6270,7 +6270,7 @@ export const services: ServicePage[] = [
             "Huntington Hills' mix of housing styles means we never know exactly what we'll find until we open up the walls, but that's what keeps the job interesting. Our Calgary plumbers work and live in the NW.",
           items: [
             { heading: "1970s Bungalows", body: "These often have original galvanized steel supply lines that are ready for replacement after 50 years in Calgary's hard water." },
-            { heading: "1990s Two-Story Builds", body: "The 1990s boom homes are dealing with [aging water heaters](/hot-water-tanks) and failing bathroom fixtures." },
+            { heading: "1990s Two-Story Builds", body: "The 1990s boom homes are dealing with [aging water heaters](/hot-water-tanks/) and failing bathroom fixtures." },
             { heading: "Built for Chinooks", body: "Alberta's brutal winters and rapid temperature swings during chinooks are hard on plumbing. We design our repairs to handle everything from -40°C cold snaps to sudden thaws." },
           ],
         },
@@ -6280,7 +6280,7 @@ export const services: ServicePage[] = [
         items: [
           {
             q: "How long do hot water tanks last in Huntington Hills homes?",
-            a: "With Calgary's hard water, most hot water tanks last 8-10 years before they start showing signs of failure. The mineral buildup is particularly hard on the heating elements and tank walls. If your [water heater](/hot-water-tanks) is over 8 years old and making rumbling noises, it's time to start planning for replacement.",
+            a: "With Calgary's hard water, most hot water tanks last 8-10 years before they start showing signs of failure. The mineral buildup is particularly hard on the heating elements and tank walls. If your [water heater](/hot-water-tanks/) is over 8 years old and making rumbling noises, it's time to start planning for replacement.",
           },
           {
             q: "Why do my drains keep backing up in my older Huntington Hills home?",
@@ -6288,11 +6288,11 @@ export const services: ServicePage[] = [
           },
           {
             q: "Should I be worried about Poly-B piping in my 1990s Huntington Hills home?",
-            a: "Yes, Poly-B piping typically starts failing after 20-25 years, and many Huntington Hills homes built in the 1990s are right in that failure zone. The connections are usually the first to go, often behind walls where you can't see them. We recommend having [Poly-B systems](/polyb-plumbing-calgary) inspected annually once they hit 20 years old.",
+            a: "Yes, Poly-B piping typically starts failing after 20-25 years, and many Huntington Hills homes built in the 1990s are right in that failure zone. The connections are usually the first to go, often behind walls where you can't see them. We recommend having [Poly-B systems](/polyb-plumbing-calgary/) inspected annually once they hit 20 years old.",
           },
           {
             q: "How quickly can you respond to plumbing emergencies in Huntington Hills?",
-            a: "We typically arrive quickly when conditions allow for true emergencies like burst pipes or sewer backups. Our trucks are staged across Calgary, and we know all the fastest routes to get to northwest communities like Huntington Hills even during rush hour or bad weather.",
+            a: "Burst pipes and sewer backups get priority routing over scheduled work. We dispatch from Calgary up Centre St or Deerfoot into Huntington Hills, and we know which routes hold up during rush hour or bad weather. Call 587-834-3668 and we'll confirm a window before the truck rolls.",
           },
           {
             q: "What's the best way to prevent frozen pipes during chinooks?",
@@ -6310,16 +6310,16 @@ export const services: ServicePage[] = [
     icon: "plumbing",
     title: "Killarney Plumbers Calgary | Expert Plumbing Services",
     lead:
-      "We got a call last spring from a homeowner in Killarney whose 1960s bungalow was flooding from a burst galvanized water line that finally gave out after 60 years. That's the reality in this area — you've got original homes with aging plumbing sitting right next to brand-new infills with modern [hot water systems](/hot-water-tanks). FlameTech has been handling both ends of that spectrum across Killarney for years.",
+      "We got a call last spring from a homeowner in Killarney whose 1960s bungalow was flooding from a burst galvanized water line that finally gave out after 60 years. That's the reality in this area — you've got original homes with aging plumbing sitting right next to brand-new infills with modern [hot water systems](/hot-water-tanks/). FlameTech has been handling both ends of that spectrum across Killarney for years.",
     heroBody: [
       "Whether it's 2 AM and your basement is flooding, or you need to upgrade the plumbing in your 1970s home before it fails, we offer priority emergency dispatch. Our Calgary plumbers know Killarney's mix of old and new, and we come prepared for both.",
-      "FlameTech started right here in Calgary, and our [southwest Calgary plumbers](/calgary-plumbers-sw) have been working on Killarney homes since the area started its transformation.",
+      "FlameTech started right here in Calgary, and our [southwest Calgary plumbers](/calgary-plumbers-sw/) have been working on Killarney homes since the area started its transformation.",
     ],
     heroSubhead: "Trusted Killarney Plumbing Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
     heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing service van in Killarney", fit: "cover" },
     intro:
-      "Expert plumbers serving Killarney, Calgary. Specializing in galvanized pipe replacement, [sewer line repairs](/drain-cleaning-calgary), [Poly-B replacement](/polyb-plumbing-calgary), and infill plumbing. Priority emergency service.",
+      "Expert plumbers serving Killarney, Calgary. Specializing in galvanized pipe replacement, [sewer line repairs](/drain-cleaning-calgary/), [Poly-B replacement](/polyb-plumbing-calgary/), and infill plumbing. Priority emergency service.",
     features: [
       "Priority emergency plumbing repairs",
       "Galvanized & lead line replacement",
@@ -6376,12 +6376,12 @@ export const services: ServicePage[] = [
         {
           heading: "Why Killarney Homeowners Choose FlameTech Plumbing",
           intro:
-            "This neighborhood presents unique challenges — we regularly work on 1950s bungalows with original galvanized supply lines right next door to 2020 infills with PEX plumbing that connects to 70-year-old city sewer mains. When your neighbor's new infill changes the lot grading and your basement floods during spring runoff, we understand exactly what happened and how to fix it. We've also helped dozens of homeowners navigate [replacing Poly-B plumbing](/polyb-plumbing-calgary) during major renovations.",
+            "This neighborhood presents unique challenges — we regularly work on 1950s bungalows with original galvanized supply lines right next door to 2020 infills with PEX plumbing that connects to 70-year-old city sewer mains. When your neighbor's new infill changes the lot grading and your basement floods during spring runoff, we understand exactly what happened and how to fix it. We've also helped dozens of homeowners navigate [replacing Poly-B plumbing](/polyb-plumbing-calgary/) during major renovations.",
           items: [
-            { heading: "Emergency Plumbing Repairs", body: "Burst pipes, sewer backups, flooding, and urgent repairs that can't wait. Our [emergency plumbers](/emergency-plumber-calgary) know the fastest routes into Killarney." },
+            { heading: "Emergency Plumbing Repairs", body: "Burst pipes, sewer backups, flooding, and urgent repairs that can't wait. Our [emergency plumbers](/emergency-plumber-calgary/) know the fastest routes into Killarney." },
             { heading: "Drain Cleaning & Unclogging", body: "Main-line cleaning, kitchen sinks, bathroom drains, and stubborn blockages cleared with professional gear." },
-            { heading: "Water Heater Services", body: "Tank and [tankless](/tankless-water-heaters) installation, repairs, and upgrades for any home age — from 1950s bungalows to modern infills." },
-            { heading: "Fixture Installation & Repair", body: "Toilets, faucets, showers, and [bathroom/kitchen upgrades](/bathroom-plumbing-calgary)." },
+            { heading: "Water Heater Services", body: "Tank and [tankless](/tankless-water-heaters/) installation, repairs, and upgrades for any home age — from 1950s bungalows to modern infills." },
+            { heading: "Fixture Installation & Repair", body: "Toilets, faucets, showers, and [bathroom/kitchen upgrades](/bathroom-plumbing-calgary/)." },
             { heading: "Leak Detection & Repair", body: "Hidden leaks, slab leaks, and water damage prevention — critical in homes with original galvanized supply lines." },
             { heading: "Sewer Line Services", body: "Camera inspections, cleaning, repairs, and full replacements for aging clay and cast iron mains." },
           ],
@@ -6389,7 +6389,7 @@ export const services: ServicePage[] = [
         {
           heading: "Common Plumbing Issues in Killarney Homes",
           intro:
-            "Killarney's mix of 1950s-70s original homes and modern infills creates a perfect storm of plumbing problems you won't find in newer communities. Each block tells a different plumbing story, and we've learned to read them all. Neighbouring communities like [Marda Loop](/marda-loop-plumbers-calgary) and [Altadore](/altadore-plumbers-calgary) see the same issues.",
+            "Killarney's mix of 1950s-70s original homes and modern infills creates a perfect storm of plumbing problems you won't find in newer communities. Each block tells a different plumbing story, and we've learned to read them all. Neighbouring communities like [Marda Loop](/marda-loop-plumbers-calgary/) and [Altadore](/altadore-plumbers-calgary/) see the same issues.",
           items: [
             { body: "Galvanized supply lines in original homes failing after 50-70 years, causing low water pressure and rust-colored water." },
             { body: "Lead service connections from the street in pre-1960 homes requiring full replacement to meet current standards." },
@@ -6404,7 +6404,7 @@ export const services: ServicePage[] = [
           intro:
             "Our Calgary plumbers work and live in the SW, which means we understand Killarney's unique challenges — from dealing with lead service connections in 1950s homes to managing drainage problems caused by infill construction next door.",
           items: [
-            { heading: "Every Era of Home", body: "We've worked on everything from original wartime bungalows with cast iron drains to brand-new infills with [tankless water heaters](/tankless-water-heaters). The experience matters when connecting a modern renovation to 70-year-old plumbing." },
+            { heading: "Every Era of Home", body: "We've worked on everything from original wartime bungalows with cast iron drains to brand-new infills with [tankless water heaters](/tankless-water-heaters/). The experience matters when connecting a modern renovation to 70-year-old plumbing." },
             { heading: "Climate-Smart Repairs", body: "Alberta's brutal winters and chinook temperature swings are hard enough on new plumbing — they're murder on the aging galvanized and cast iron systems still serving many Killarney homes." },
             { heading: "Code & Permit Savvy", body: "We factor in Calgary's climate challenges and building code requirements for every job we do." },
           ],
@@ -6423,7 +6423,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "What plumbing upgrades should I prioritize during a major Killarney home renovation?",
-            a: "Start with the supply lines if you have galvanized — that's your biggest risk for water damage. Then address the sewer line connection, especially if you're adding fixtures or square footage. [Hot water tank replacement](/hot-water-tanks) should be part of any major reno in homes where the tank is over 10 years old. Don't mix old and new plumbing systems without proper transition fittings.",
+            a: "Start with the supply lines if you have galvanized — that's your biggest risk for water damage. Then address the sewer line connection, especially if you're adding fixtures or square footage. [Hot water tank replacement](/hot-water-tanks/) should be part of any major reno in homes where the tank is over 10 years old. Don't mix old and new plumbing systems without proper transition fittings.",
           },
           {
             q: "How do I know if my Killarney home has lead service lines?",
@@ -6431,7 +6431,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "Why does my sewer back up every spring in my original Killarney home?",
-            a: "Spring thaw combined with aging clay sewer lines and root intrusion creates perfect conditions for backups in this area. Many original Killarney homes have mature trees whose roots have infiltrated deteriorating clay pipes over decades. [Emergency cleaning](/drain-cleaning-calgary) solves the immediate problem, but camera inspection usually reveals the need for partial or complete sewer line replacement.",
+            a: "Spring thaw combined with aging clay sewer lines and root intrusion creates perfect conditions for backups in this area. Many original Killarney homes have mature trees whose roots have infiltrated deteriorating clay pipes over decades. [Emergency cleaning](/drain-cleaning-calgary/) solves the immediate problem, but camera inspection usually reveals the need for partial or complete sewer line replacement.",
           },
         ],
       },
@@ -6445,16 +6445,16 @@ export const services: ServicePage[] = [
     icon: "plumbing",
     title: "Mahogany Plumbers Calgary | Expert Plumbing Services",
     lead:
-      "Most homes in Mahogany were built between 2000 and 2015, which means you're dealing with builder-grade plumbing that's starting to show its age. We've been fixing plumbing problems in this southeast Calgary community for years, from frozen pipes during those brutal chinooks to [hot water tanks](/hot-water-tanks) that gave up the ghost right when you need them most. FlameTech Plumbing knows Mahogany's homes inside and out.",
+      "Most homes in Mahogany were built between 2000 and 2015, which means you're dealing with builder-grade plumbing that's starting to show its age. We've been fixing plumbing problems in this southeast Calgary community for years, from frozen pipes during those brutal chinooks to [hot water tanks](/hot-water-tanks/) that gave up the ghost right when you need them most. FlameTech Plumbing knows Mahogany's homes inside and out.",
     heroBody: [
       "When your plumbing goes sideways at 2 AM on a Sunday, we're still answering the phone. Our trucks are stocked and ready to roll to Mahogany with priority emergency dispatch, because plumbing emergencies don't care about your schedule.",
-      "As a locally owned and operated [plumbing company in SE Calgary](/calgary-plumbers-se), we understand the unique challenges that Mahogany properties face — including neighbouring [Cranston](/cranston-plumber-calgary) and [Auburn Bay](/auburn-bay-plumber-calgary).",
+      "As a locally owned and operated [plumbing company in SE Calgary](/calgary-plumbers-se/), we understand the unique challenges that Mahogany properties face — including neighbouring [Cranston](/cranston-plumber-calgary/) and [Auburn Bay](/auburn-bay-plumber-calgary/).",
     ],
     heroSubhead: "Trusted Mahogany Plumbing Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
     heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing service van in Mahogany", fit: "cover" },
     intro:
-      "Expert plumbers serving Mahogany Calgary. Priority emergency repairs, drain cleaning, water heater service, sump pump replacement, and [Poly-B work](/polyb-plumbing-calgary). Local SE Calgary plumbers you can trust.",
+      "Expert plumbers serving Mahogany Calgary. Priority emergency repairs, drain cleaning, water heater service, sump pump replacement, and [Poly-B work](/polyb-plumbing-calgary/). Local SE Calgary plumbers you can trust.",
     features: [
       "Priority emergency plumbing repairs",
       "Drain cleaning & unclogging",
@@ -6514,8 +6514,8 @@ export const services: ServicePage[] = [
             "Mahogany sits in a low-lying area near the Bow River, which means foundation settling and sump pump issues are more common here than in other Calgary neighborhoods. We've seen it all in this community — from the original Poly-B piping in the older sections to the cheap fixtures that builders installed in the mid-2000s boom.",
           items: [
             { heading: "Emergency Plumbing Repairs", body: "Burst pipes, major leaks, sewer backups. Priority dispatch because emergencies don't wait for business hours." },
-            { heading: "Drain Cleaning & Unclogging", body: "Kitchen sinks, bathroom drains, main sewer lines. We clear the blockage and tell you how to prevent it next time. See [drain cleaning](/drain-cleaning-calgary)." },
-            { heading: "Water Heater Services", body: "Tank and [tankless](/tankless-water-heaters) repairs, replacements, and maintenance. Calgary's hard water is tough on water heaters." },
+            { heading: "Drain Cleaning & Unclogging", body: "Kitchen sinks, bathroom drains, main sewer lines. We clear the blockage and tell you how to prevent it next time. See [drain cleaning](/drain-cleaning-calgary/)." },
+            { heading: "Water Heater Services", body: "Tank and [tankless](/tankless-water-heaters/) repairs, replacements, and maintenance. Calgary's hard water is tough on water heaters." },
             { heading: "Fixture Installation & Repair", body: "Toilets, sinks, faucets, showers. We install it right the first time and fix what others messed up." },
             { heading: "Leak Detection & Repair", body: "Hidden leaks behind walls, under slabs, in crawl spaces. We find them fast and fix them permanently." },
             { heading: "Sewer Line Services", body: "Camera inspections, root removal, line repairs. Mahogany's mature trees love to get into sewer lines." },
@@ -6537,11 +6537,11 @@ export const services: ServicePage[] = [
         {
           heading: "Local Mahogany & SE Calgary Expertise",
           intro:
-            "Mahogany's location in southeast Calgary creates unique challenges. The community sits at a lower elevation than much of the city, which means gravity drainage issues and higher groundwater levels during heavy rains. Our Calgary plumbers work and live in the SE, also serving [McKenzie Lake](/mckenzie-lake-plumbers-calgary), [McKenzie Towne](/mckenzie-towne-plumbers-calgary), and [New Brighton](/new-brighton-plumbers-calgary).",
+            "Mahogany's location in southeast Calgary creates unique challenges. The community sits at a lower elevation than much of the city, which means gravity drainage issues and higher groundwater levels during heavy rains. Our Calgary plumbers work and live in the SE, also serving [McKenzie Lake](/mckenzie-lake-plumbers-calgary/), [McKenzie Towne](/mckenzie-towne-plumbers-calgary/), and [New Brighton](/new-brighton-plumbers-calgary/).",
           items: [
             { heading: "Phase-Specific Knowledge", body: "Most of Mahogany was developed in phases from 2000 to 2015, so we know exactly what plumbing materials and methods were used in each section." },
             { heading: "Code-Change Aware", body: "Calgary's building codes changed several times during Mahogany's development, especially around water heater venting and sump pump requirements. We know which homes need upgrades and which are grandfathered." },
-            { heading: "Hard Water Defense", body: "Calgary's extremely hard water builds sediment faster in Mahogany homes because the groundwater has higher mineral content. We recommend [water softeners](/water-softener) to extend fixture life." },
+            { heading: "Hard Water Defense", body: "Calgary's extremely hard water builds sediment faster in Mahogany homes because the groundwater has higher mineral content. We recommend [water softeners](/water-softener/) to extend fixture life." },
           ],
         },
       ],
@@ -6558,11 +6558,11 @@ export const services: ServicePage[] = [
           },
           {
             q: "Are the older homes in Mahogany at risk for Poly-B pipe failures?",
-            a: "Homes built in the late 1990s and early 2000s in the original Mahogany development likely have Poly-B piping, which starts failing after 20-25 years. If you're experiencing low water pressure or small leaks behind walls, it's time for a [Poly-B inspection](/polyb-plumbing-calgary). Replacement is usually necessary once failures start.",
+            a: "Homes built in the late 1990s and early 2000s in the original Mahogany development likely have Poly-B piping, which starts failing after 20-25 years. If you're experiencing low water pressure or small leaks behind walls, it's time for a [Poly-B inspection](/polyb-plumbing-calgary/). Replacement is usually necessary once failures start.",
           },
           {
             q: "Why does my hot water tank need replacement sooner than expected?",
-            a: "Calgary's extremely hard water builds up sediment faster in Mahogany homes because the groundwater here has higher mineral content. Most hot water tanks in this area last 8-10 years instead of the typical 12-15. Annual flushing helps, but [tankless systems](/tankless-water-heaters) handle hard water better long-term.",
+            a: "Calgary's extremely hard water builds up sediment faster in Mahogany homes because the groundwater here has higher mineral content. Most hot water tanks in this area last 8-10 years instead of the typical 12-15. Annual flushing helps, but [tankless systems](/tankless-water-heaters/) handle hard water better long-term.",
           },
           {
             q: "What's the most common plumbing emergency you see in Mahogany?",
@@ -6580,16 +6580,16 @@ export const services: ServicePage[] = [
     icon: "plumbing",
     title: "Marda Loop Plumbers Calgary | Expert Plumbing Services",
     lead:
-      "Last February's brutal -35°C stretch had us running flat out across Marda Loop — frozen pipes in 1960s bungalows and brand-new infills alike. FlameTech plumbers know this inner-city Calgary neighborhood inside and out, from the original galvanized water lines in wartime homes to the [hot water tank issues](/hot-water-tanks) that come with mixing old plumbing and new construction.",
+      "Last February's brutal -35°C stretch had us running flat out across Marda Loop — frozen pipes in 1960s bungalows and brand-new infills alike. FlameTech plumbers know this inner-city Calgary neighborhood inside and out, from the original galvanized water lines in wartime homes to the [hot water tank issues](/hot-water-tanks/) that come with mixing old plumbing and new construction.",
     heroBody: [
       "When your pipes burst at 2 AM or your basement starts flooding, we're the crew Marda Loop homeowners call. Real plumbers answer our phones with priority dispatch, and we'll be at your door within the hour.",
-      "FlameTech started right here in Calgary, and our [SW Calgary plumbers](/calgary-plumbers-sw) have been fixing pipes in Marda Loop for many years, including adjacent [Altadore](/altadore-plumbers-calgary) and [Killarney](/killarney-plumbers-calgary).",
+      "FlameTech started right here in Calgary, and our [SW Calgary plumbers](/calgary-plumbers-sw/) have been fixing pipes in Marda Loop for many years, including adjacent [Altadore](/altadore-plumbers-calgary/) and [Killarney](/killarney-plumbers-calgary/).",
     ],
     heroSubhead: "Trusted Marda Loop Plumbing Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
     heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing service van in Marda Loop", fit: "cover" },
     intro:
-      "Expert plumbers serving Marda Loop Calgary. From galvanized line replacement to infill construction drainage issues, [Poly-B work](/polyb-plumbing-calgary), and [drain cleaning](/drain-cleaning-calgary). Priority emergency service.",
+      "Expert plumbers serving Marda Loop Calgary. From galvanized line replacement to infill construction drainage issues, [Poly-B work](/polyb-plumbing-calgary/), and [drain cleaning](/drain-cleaning-calgary/). Priority emergency service.",
     features: [
       "Priority emergency plumbing repairs",
       "Galvanized & lead line replacement",
@@ -6648,10 +6648,10 @@ export const services: ServicePage[] = [
           intro:
             "Marda Loop is a plumbing minefield — you've got 1950s homes with original galvanized lines sitting next to $800K infills that connect to the same aging city sewer mains. The construction boom here creates unique challenges: lot grading gets messed up, old pipes can't handle new loads, and some of the quick renovation work we see is pretty sketchy.",
           items: [
-            { heading: "Emergency Plumbing Repairs", body: "Burst pipes, flooding, no hot water — our [emergency plumbers](/emergency-plumber-calgary) offer priority dispatch for Marda Loop emergencies." },
+            { heading: "Emergency Plumbing Repairs", body: "Burst pipes, flooding, no hot water — our [emergency plumbers](/emergency-plumber-calgary/) offer priority dispatch for Marda Loop emergencies." },
             { heading: "Drain Cleaning & Unclogging", body: "Main-line backups, kitchen sinks, and bathroom drains cleared fast with professional gear." },
-            { heading: "Water Heater Services", body: "Installation, repair, and replacement of conventional and [tankless units](/tankless-water-heaters)." },
-            { heading: "Fixture Installation & Repair", body: "Toilets, faucets, sinks, and bathroom fixtures installed right the first time. See [bathroom plumbing](/bathroom-plumbing-calgary)." },
+            { heading: "Water Heater Services", body: "Installation, repair, and replacement of conventional and [tankless units](/tankless-water-heaters/)." },
+            { heading: "Fixture Installation & Repair", body: "Toilets, faucets, sinks, and bathroom fixtures installed right the first time. See [bathroom plumbing](/bathroom-plumbing-calgary/)." },
             { heading: "Leak Detection & Repair", body: "Finding hidden leaks in walls, under slabs, and in supply lines before they cause major damage." },
             { heading: "Sewer Line Services", body: "Camera inspections, cleaning, and replacement of damaged sewer mains and laterals." },
           ],
@@ -6672,7 +6672,7 @@ export const services: ServicePage[] = [
         {
           heading: "Local Marda Loop & SW Calgary Expertise",
           intro:
-            "You've got a 1962 bungalow that's been renovated three times sitting next to a brand-new infill that cost more than most people's retirement savings. Our crew has worked on every style of home in this area. We've replaced original [galvanized supply lines](/polyb-plumbing-calgary) in wartime homes, fixed sewer connections on new builds, and cleaned up the plumbing disasters left behind by renovation crews who didn't know what they were doing.",
+            "You've got a 1962 bungalow that's been renovated three times sitting next to a brand-new infill that cost more than most people's retirement savings. Our crew has worked on every style of home in this area. We've replaced original [galvanized supply lines](/polyb-plumbing-calgary/) in wartime homes, fixed sewer connections on new builds, and cleaned up the plumbing disasters left behind by renovation crews who didn't know what they were doing.",
           items: [
             { heading: "Freeze-Thaw Ready", body: "Alberta's temperature swings are brutal — from -35°C in February to +30°C by May, with chinooks throwing rapid thaws into the mix. We size pipes for these conditions and use materials that handle freeze-thaw cycles." },
             { heading: "Back-Alley Access", body: "We know the fastest route to your Marda Loop home, even when the back alleys are packed with construction equipment." },
@@ -6693,7 +6693,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "What annual plumbing maintenance should I schedule for a mixed-age Marda Loop home?",
-            a: "Get your [hot water tank flushed](/hot-water-tanks) every 2-3 years minimum — Calgary's hard water builds up fast. Have your main sewer line camera-inspected every 5 years if you have mature trees, and check your water pressure annually if you're on galvanized supply lines. Spring and fall drain cleaning prevents most emergency calls.",
+            a: "Get your [hot water tank flushed](/hot-water-tanks/) every 2-3 years minimum — Calgary's hard water builds up fast. Have your main sewer line camera-inspected every 5 years if you have mature trees, and check your water pressure annually if you're on galvanized supply lines. Spring and fall drain cleaning prevents most emergency calls.",
           },
           {
             q: "Can I connect new plumbing to my home's original 1950s sewer line?",
@@ -6718,14 +6718,14 @@ export const services: ServicePage[] = [
     lead:
       "McKenzie Lake homeowners know their plumbing systems face unique challenges in this established SE Calgary community. FlameTech Plumbing has been serving this area for years, handling everything from emergency repairs to planned maintenance in these well-built homes from the early 2000s.",
     heroBody: [
-      "When plumbing problems strike at 2 AM or during a holiday weekend, we're here. Our McKenzie Lake plumbers offer priority emergency response with real people answering the phone and fast response times throughout [SE Calgary](/calgary-plumbers-se).",
-      "As a locally owned and operated plumbing team, we know McKenzie Lake's infrastructure inside and out — the original plumbing systems in these homes are now 20+ years old, and we've replaced countless [hot water tanks](/hot-water-tanks) and repaired main lines throughout the community. Call 587-834-3668 for priority dispatch.",
+      "When plumbing problems strike at 2 AM or during a holiday weekend, we're here. Our McKenzie Lake plumbers offer priority emergency response with real people answering the phone and fast response times throughout [SE Calgary](/calgary-plumbers-se/).",
+      "As a locally owned and operated plumbing team, we know McKenzie Lake's infrastructure inside and out — the original plumbing systems in these homes are now 20+ years old, and we've replaced countless [hot water tanks](/hot-water-tanks/) and repaired main lines throughout the community. Call 587-834-3668 for priority dispatch.",
     ],
     heroSubhead: "Trusted McKenzie Lake Plumbing Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
     heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing service van in McKenzie Lake", fit: "cover" },
     intro:
-      "Expert plumbers serving McKenzie Lake, SE Calgary. Emergency repairs, drain cleaning, water heaters, and main line service with priority emergency response. Neighbours with [McKenzie Towne](/mckenzie-towne-plumbers-calgary) and [New Brighton](/new-brighton-plumbers-calgary).",
+      "Expert plumbers serving McKenzie Lake, SE Calgary. Emergency repairs, drain cleaning, water heaters, and main line service with priority emergency response. Neighbours with [McKenzie Towne](/mckenzie-towne-plumbers-calgary/) and [New Brighton](/new-brighton-plumbers-calgary/).",
     features: [
       "Emergency plumbing repairs",
       "Drain cleaning & root removal",
@@ -6784,12 +6784,12 @@ export const services: ServicePage[] = [
           intro:
             "Living in McKenzie Lake comes with specific plumbing challenges we see regularly — from original hot water tanks now failing to tree root intrusion in sewer lines. Here's what our crews handle week in, week out.",
           items: [
-            { heading: "Emergency Plumbing Repairs", body: "Burst pipes, sewer backups, major leaks, and flooding situations handled with priority response. Visit our [emergency plumber](/emergency-plumber-calgary) page for details." },
-            { heading: "Drain Cleaning & Unclogging", body: "Main line blockages, root removal, kitchen and bathroom drain clearing using hydro-jetting and professional cutting equipment. See our [drain cleaning](/drain-cleaning-calgary) services." },
-            { heading: "Water Heater Services", body: "Tank replacements, [tankless installations](/tankless-water-heaters), repairs, and maintenance. We've replaced dozens of heaters in this neighborhood." },
+            { heading: "Emergency Plumbing Repairs", body: "Burst pipes, sewer backups, major leaks, and flooding situations handled with priority response. Visit our [emergency plumber](/emergency-plumber-calgary/) page for details." },
+            { heading: "Drain Cleaning & Unclogging", body: "Main line blockages, root removal, kitchen and bathroom drain clearing using hydro-jetting and professional cutting equipment. See our [drain cleaning](/drain-cleaning-calgary/) services." },
+            { heading: "Water Heater Services", body: "Tank replacements, [tankless installations](/tankless-water-heaters/), repairs, and maintenance. We've replaced dozens of heaters in this neighborhood." },
             { heading: "Sewer Line Services", body: "Camera inspections, line replacement, root cutting, and main line repairs — essential given McKenzie Lake's mature landscaping." },
             { heading: "Leak Detection & Repair", body: "Hidden leaks, slab leaks, pipe repairs, and water damage prevention using electronic leak detection to pinpoint problems without unnecessary wall removal." },
-            { heading: "Fixture Installation & Repair", body: "Toilets, faucets, sinks, showers, and full bathroom renovations. See [bathroom plumbing](/bathroom-plumbing-calgary) for more." },
+            { heading: "Fixture Installation & Repair", body: "Toilets, faucets, sinks, showers, and full bathroom renovations. See [bathroom plumbing](/bathroom-plumbing-calgary/) for more." },
           ],
         },
         {
@@ -6837,13 +6837,13 @@ export const services: ServicePage[] = [
       "McKenzie Towne homeowners have relied on FlameTech Plumbing's expertise for over 25 years to handle everything from routine maintenance to complex emergency repairs. This vibrant southeastern Calgary community, with its distinctive heritage architecture and family-focused atmosphere, deserves plumbing professionals who understand the unique challenges these homes present.",
     heroBody: [
       "Plumbing emergencies don't wait for convenient hours, which is why our certified plumbers remain available with priority dispatch. Whether it's a burst pipe during Calgary's notorious temperature swings or a backed-up drain on a busy weekend, FlameTech delivers prompt, professional service when you need it most.",
-      "Our crews work throughout [SE Calgary](/calgary-plumbers-se) including neighbouring [McKenzie Lake](/mckenzie-lake-plumbers-calgary) and [New Brighton](/new-brighton-plumbers-calgary). Call 587-834-3668 for same-day service.",
+      "Our crews work throughout [SE Calgary](/calgary-plumbers-se/) including neighbouring [McKenzie Lake](/mckenzie-lake-plumbers-calgary/) and [New Brighton](/new-brighton-plumbers-calgary/). Call 587-834-3668 for same-day service.",
     ],
     heroSubhead: "Trusted McKenzie Towne Plumbing Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
     heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing service van in McKenzie Towne", fit: "cover" },
     intro:
-      "Need a plumber in McKenzie Towne? FlameTech provides same-day plumbing repairs, [drain cleaning](/drain-cleaning-calgary), and water heater service with priority emergency response. Licensed plumbers serving SE Calgary.",
+      "Need a plumber in McKenzie Towne? FlameTech provides same-day plumbing repairs, [drain cleaning](/drain-cleaning-calgary/), and water heater service with priority emergency response. Licensed plumbers serving SE Calgary.",
     features: [
       "Emergency plumbing repairs",
       "Hydro-jetting & camera drain cleaning",
@@ -6902,10 +6902,10 @@ export const services: ServicePage[] = [
           intro:
             "McKenzie Towne's mix of early 2000s construction and newer developments creates distinct plumbing considerations that generic service providers often miss. Here's what our crews handle.",
           items: [
-            { heading: "Emergency Plumbing Repairs", body: "From midnight pipe bursts to weekend water heater failures, our priority team responds quickly throughout McKenzie Towne with fully stocked trucks. See our [emergency plumber](/emergency-plumber-calgary) services." },
+            { heading: "Emergency Plumbing Repairs", body: "From midnight pipe bursts to weekend water heater failures, our priority team responds quickly throughout McKenzie Towne with fully stocked trucks. See our [emergency plumber](/emergency-plumber-calgary/) services." },
             { heading: "Drain Cleaning & Unclogging", body: "Advanced hydro-jetting and camera inspection technology clears stubborn blockages in McKenzie Towne's varied plumbing systems, from main sewer lines to kitchen sink drains." },
-            { heading: "Water Heater Services", body: "Complete installation, repair, and maintenance of [tank](/hot-water-tanks) and [tankless water heaters](/tankless-water-heaters), with energy-efficient options perfect for family homes." },
-            { heading: "Fixture Installation & Repair", body: "Professional installation and repair of faucets, toilets, sinks, and shower systems — see our [shower plumbing](/shower-plumbing-calgary) page for bathroom upgrades." },
+            { heading: "Water Heater Services", body: "Complete installation, repair, and maintenance of [tank](/hot-water-tanks/) and [tankless water heaters](/tankless-water-heaters/), with energy-efficient options perfect for family homes." },
+            { heading: "Fixture Installation & Repair", body: "Professional installation and repair of faucets, toilets, sinks, and shower systems — see our [shower plumbing](/shower-plumbing-calgary/) page for bathroom upgrades." },
             { heading: "Leak Detection & Repair", body: "State-of-the-art leak detection equipment pinpoints hidden water damage before it becomes costly, protecting your McKenzie Towne investment with precision repairs." },
             { heading: "Sewer Line Services", body: "Comprehensive sewer line inspection, cleaning, and repair using trenchless technology when possible, minimizing disruption to your landscaping and driveway." },
           ],
@@ -6942,9 +6942,9 @@ export const services: ServicePage[] = [
         items: [
           { q: "How fast can you get a plumber to McKenzie Towne?", a: "Our dispatch team typically arrives at McKenzie Towne addresses within 45 minutes of an emergency call, with fully equipped trucks ready to tackle any crisis professionally and efficiently. A real person answers our priority line — never an automated system." },
           { q: "Do you handle trenchless sewer repair in McKenzie Towne?", a: "Yes. We use trenchless technology wherever possible to minimize disruption to your McKenzie Towne landscaping and driveway. We'll run a camera inspection first to confirm the best approach." },
-          { q: "My basement sump pump failed during spring melt — can you help?", a: "Absolutely. Sump pump failures during spring melt are common in McKenzie Towne given the proximity to the Bow River. We stock replacement pumps on our trucks and can usually have you back up and running the same day." },
+          { q: "My basement sump pump failed during spring melt — can you help?", a: "Yes — Sump pump failures during spring melt are common in McKenzie Towne given the proximity to the Bow River. We stock replacement pumps on our trucks and can usually have you back up and running the same day." },
           { q: "Are you familiar with homes built during McKenzie Towne's development boom?", a: "Twenty-five years of service throughout McKenzie Towne means our technicians have worked on everything from the area's original estate homes to the latest energy-efficient builds. We know the specific pipe materials and fixtures used during each construction era." },
-          { q: "Do you service both tank and tankless water heaters?", a: "Yes — we install, repair, and maintain both conventional tank water heaters and [tankless systems](/tankless-water-heaters). We'll help you choose the right option for your family's hot water demand." },
+          { q: "Do you service both tank and tankless water heaters?", a: "Yes — we install, repair, and maintain both conventional tank water heaters and [tankless systems](/tankless-water-heaters/). We'll help you choose the right option for your family's hot water demand." },
         ],
       },
     },
@@ -6955,18 +6955,18 @@ export const services: ServicePage[] = [
     category: "Plumbing",
     location: "Calgary",
     icon: "plumbing",
-    title: "Mount Royal Plumbers Calgary | Premium Plumbing Services",
+    title: "Mount Royal Plumbers Calgary | Heritage Home Specialists",
     lead:
-      "Searching for exceptional plumbing service in Mount Royal, Calgary? FlameTech Plumbing brings unmatched expertise to this distinguished community's luxury estates and heritage residences. Our master plumbers deliver meticulous service perfectly aligned with Mount Royal's elevated standards, protecting your property's value and sophistication.",
+      "Licensed plumbers serving Upper and Lower Mount Royal — homes built between 1910 and 1940 with cast-iron stacks, original galvanized supply lines, and clay sewer laterals. We've worked on the heritage stock here for 25+ years and know what's behind the plaster.",
     heroBody: [
-      "Mount Royal's spectacular properties — from early 1900s mansion estates to contemporary architectural masterworks — demand specialized plumbing knowledge and refined service delivery. Your premier plumbing specialists for [SW Calgary](/calgary-plumbers-sw) recognize Mount Royal's prestigious standing and tailor our services accordingly.",
-      "FlameTech maintains priority availability for emergency plumbing throughout Calgary, responding immediately to urgent Mount Royal situations. Reach our live dispatch team at 587-834-3668 — never automated systems. Neighbours with [Signal Hill](/signal-hill-plumbers-calgary) and [Marda Loop](/marda-loop-plumbers-calgary).",
+      "Mount Royal's homes — from early 1900s estates to mid-century rebuilds and modern infill — each have their own plumbing patterns. Cast-iron stacks reaching end of life, galvanized supply lines closing off with mineral scale, clay laterals with root intrusion from mature street trees. Your plumbing team for [SW Calgary](/calgary-plumbers-sw/) knows which problem comes with which build year.",
+      "Priority dispatch for emergency calls — live answer, never automated. Call 587-834-3668. Neighbours with [Signal Hill](/signal-hill-plumbers-calgary/) and [Marda Loop](/marda-loop-plumbers-calgary/).",
     ],
-    heroSubhead: "Elite Plumbing Solutions for Mount Royal's Prestigious Properties",
+    heroSubhead: "Heritage-Home Plumbing for Mount Royal",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
     heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing service van in Mount Royal", fit: "cover" },
     intro:
-      "Premium plumbing services for Mount Royal's luxury estates and heritage homes. Priority emergency response, designer fixture installation, heritage-sensitive restoration, and comprehensive sewer care.",
+      "Licensed plumbers for Mount Royal — heritage cast-iron and galvanized supply lines, clay sewer laterals, high-end fixture installations, priority emergency dispatch.",
     features: [
       "Priority emergency plumbing",
       "Heritage property restoration",
@@ -7002,12 +7002,12 @@ export const services: ServicePage[] = [
     sidebar: {
       title: "Mount Royal Plumbers",
       subtitle:
-        "Master-level plumbing for Mount Royal's heritage estates and luxury residences — refined service, priority dispatch.",
+        "Licensed plumbers for Upper and Lower Mount Royal — heritage homes, original cast-iron and galvanized supply lines, priority dispatch.",
       bullets: [
-        "Master-level workmanship",
-        "Heritage-sensitive restoration",
+        "25+ years on Calgary heritage homes",
+        "Cast-iron stack repair + replacement",
         "Live dispatch — never automated",
-        "Comprehensive liability insurance",
+        "Fully licensed and insured",
       ],
     },
     stats: [
@@ -7017,33 +7017,33 @@ export const services: ServicePage[] = [
       { number: "Master", label: "licensed plumbers", icon: "award" },
     ],
     callout:
-      "Ruptured pipe, major leak, or sewage backup threatening your Mount Royal estate? Call 587-834-3668 — our licensed master plumbers mobilize with priority response any hour.",
+      "Burst pipe, major leak, or sewer backup in Mount Royal? Call 587-834-3668 — priority dispatch from licensed plumbers any hour.",
     richContent: {
       sections: [
         {
-          heading: "Comprehensive Plumbing Services for Mount Royal",
+          heading: "What We Do in Mount Royal",
           intro:
-            "Mount Royal properties demand specialized plumbing knowledge and refined service delivery. Here's what our master plumbers handle throughout the community.",
+            "Mount Royal homes were mostly built between 1910 and 1940 — that means cast-iron stacks, original galvanized supply lines, and clay sewer laterals. Here's what we work on regularly across the neighbourhood.",
           items: [
-            { heading: "Priority Emergency Plumbing Response", body: "Plumbing emergencies threaten your property at any hour — ruptured pipes, major leaks, or sewage backups require urgent professional intervention. See our [emergency plumber](/emergency-plumber-calgary) page." },
-            { heading: "Expert Drain and Sewer Services", body: "Our technicians deploy sophisticated equipment to eliminate obstructions thoroughly, restoring flawless drainage throughout your estate. We service everything from powder room fixtures to primary sewer systems. See [drain cleaning](/drain-cleaning-calgary)." },
-            { heading: "Premium Water Heater Solutions", body: "From advanced [tankless systems](/tankless-water-heaters) to high-capacity conventional [units](/hot-water-tanks), our specialists ensure uninterrupted hot water delivery through Calgary's coldest months." },
-            { heading: "Luxury Fixture Installation", body: "We install designer faucets, statement toilets, spa-quality sinks, and premium shower systems. See our [bathroom plumbing](/bathroom-plumbing-calgary) services." },
-            { heading: "Precision Leak Detection", body: "Utilizing infrared imaging and acoustic technology, we locate leaks within walls and foundation systems without destructive investigation, preserving your home's architectural beauty." },
-            { heading: "Comprehensive Sewer System Care", body: "Using high-definition video inspection and industrial-grade hydro-jetting, we maintain optimal sewer performance — from routine preventive maintenance to complete line rehabilitation." },
+            { heading: "Emergency Plumbing", body: "Burst pipes and sewer backups get routed ahead of scheduled work. Heritage homes are particularly vulnerable to frozen-pipe failures because the original walls have minimal insulation in the supply-line runs. See our [emergency plumber](/emergency-plumber-calgary/) page." },
+            { heading: "Drain and Sewer Work", body: "Clay sewer laterals on the original 1920s installations need camera inspection first, then hydro-jet or root barriers depending on what we find. Mature elms and maples across Mount Royal send roots into the joints. See [drain cleaning](/drain-cleaning-calgary/)." },
+            { heading: "Water Heater Replacement", body: "Many Mount Royal renovations have upgraded to [tankless](/tankless-water-heaters/) or higher-capacity [conventional tanks](/hot-water-tanks/) to handle multiple bathrooms in the same hot-water run. We size to the house, not a default." },
+            { heading: "Fixture Installation", body: "We install Kohler, Brizo, Hansgrohe and other high-end lines you'll find in Mount Royal renovations — and we work on the original cast-iron clawfoot tubs and pedestal sinks when owners want to keep them. See [bathroom plumbing](/bathroom-plumbing-calgary/)." },
+            { heading: "Leak Detection", body: "Infrared imaging and acoustic detection lets us find leaks inside plaster walls without tearing out the lath — important on heritage interiors where the wall finish is itself irreplaceable." },
+            { heading: "Sewer Camera + Hydro-Jet", body: "Video inspection first, mechanical or hydro-jet clearing second, root barriers or trenchless lining if the lateral needs it. We don't tear up the front lawn unless there's no other option." },
           ],
         },
         {
-          heading: "Plumbing Challenges Unique to Mount Royal Estates",
+          heading: "What's Different About Mount Royal Plumbing",
           intro:
-            "Calgary's most prestigious neighborhood presents distinctive service requirements that our team has addressed throughout Mount Royal's distinguished properties.",
+            "Heritage homes have specific patterns. Here's what we see most often on Mount Royal service calls.",
           items: [
-            { body: "Century-old plumbing infrastructure in historic mansion properties requiring sensitive restoration." },
-            { body: "Heritage designation considerations affecting renovation approaches and material selections." },
-            { body: "Established tree root systems interfering with underground sewer lines." },
-            { body: "Mineral deposits from Calgary's hard water affecting luxury fixtures and appliances — a [water softener](/water-softener) often helps." },
-            { body: "Complex multi-level estates demanding sophisticated plumbing design and maintenance." },
-            { body: "Slope and elevation variations creating unique drainage and water pressure dynamics." },
+            { body: "Original galvanized supply lines (1910s-1930s) closing off with mineral scale — water pressure drops, hot side worse than cold." },
+            { body: "Cast-iron stacks reaching end of life — joints separating, pinhole rust through the bottom of horizontal runs." },
+            { body: "Clay sewer laterals with root intrusion at the joints from mature street trees." },
+            { body: "Calgary's hard water destroying high-end fixtures faster than expected — a [water softener](/water-softener/) extends fixture life by years." },
+            { body: "Multi-storey layouts with long horizontal hot-water runs — replacement equipment needs to be sized for the actual demand, not a default 50-gallon." },
+            { body: "Slope and elevation across Mount Royal Crescent create unusual drainage paths that don't show on standard plans." },
           ],
         },
         {
@@ -7063,9 +7063,9 @@ export const services: ServicePage[] = [
       faq: {
         heading: "Frequently Asked Questions",
         items: [
-          { q: "Does FlameTech provide priority emergency service to Mount Royal?", a: "Absolutely. FlameTech Plumbing delivers priority emergency response throughout Mount Royal, Calgary. When confronting burst pipes, severe leaks, or sewage emergencies, our licensed master plumbers mobilize rapidly. Reach our priority line at 587-834-3668 any hour for immediate assistance." },
+          { q: "Do you provide priority emergency service to Mount Royal?", a: "Yes — Mount Royal is on our regular dispatch radius. Burst pipes, major leaks, and sewer backups get routed ahead of scheduled work. Call 587-834-3668 any hour." },
           { q: "How does dispatch to Mount Royal work?", a: "We dispatch from Calgary into both Upper and Lower Mount Royal regularly — heritage homes here have specific plumbing patterns (cast-iron stacks, original galvanized supply lines, knob-and-tube-era layouts) and we plan for them. Emergency calls receive priority routing. Call 587-834-3668 and we'll confirm a window before the truck rolls." },
-          { q: "Which plumbing services do you offer Mount Royal residents?", a: "We provide complete plumbing solutions including premium drain cleaning, luxury water heater service and installation, precision leak detection, pipe restoration and replacement, designer fixture installations, comprehensive sewer maintenance, and sophisticated bathroom/kitchen renovations." },
+          { q: "Which plumbing services do you offer Mount Royal residents?", a: "Drain cleaning, water heater service and replacement, leak detection, pipe repair and replacement (including galvanized supply line and cast-iron stack work), high-end fixture installation, sewer line work, and bathroom/kitchen renovations. The heritage-home work — galvanized, cast-iron, original clay laterals — is where we spend most of our Mount Royal time." },
           { q: "Are your technicians properly licensed and insured?", a: "Definitely. Every FlameTech Plumbing technician maintains complete licensure, bonding, and certification for Calgary operations. We carry extensive liability insurance protecting both our professionals and your valuable property." },
           { q: "Do you provide warranties on plumbing work?", a: "Absolutely, we stand behind our workmanship with comprehensive service warranties. Our satisfaction commitment ensures complete resolution if you're dissatisfied with our work. Additionally, we extend manufacturer warranties on all components and equipment we install." },
         ],
@@ -7080,10 +7080,10 @@ export const services: ServicePage[] = [
     icon: "plumbing",
     title: "New Brighton Plumbers Calgary | Expert Plumbing Services",
     lead:
-      "FlameTech Plumbing has been the go-to plumber for New Brighton Calgary homeowners since this SE Calgary community started growing. Whether you're dealing with a burst pipe in your Brookfield home or need [hot water tank replacement](/hot-water-tanks) in your two-story family house, our crew knows exactly what New Brighton properties need. We've fixed everything from frozen outdoor taps to full basement re-pipes.",
+      "FlameTech Plumbing has been the go-to plumber for New Brighton Calgary homeowners since this SE Calgary community started growing. Whether you're dealing with a burst pipe in your Brookfield home or need [hot water tank replacement](/hot-water-tanks/) in your two-story family house, our crew knows exactly what New Brighton properties need. We've fixed everything from frozen outdoor taps to full basement re-pipes.",
     heroBody: [
       "Plumbing emergencies don't wait for business hours, and neither do we. Our priority line is answered by a real person, and we can have a fully-equipped truck to your New Brighton address within an hour of your call.",
-      "Our [SE Calgary plumbing team](/calgary-plumbers-se) has been fixing pipes and installing water heaters in New Brighton since the first homes went up — we're neighbours with [McKenzie Towne](/mckenzie-towne-plumbers-calgary) and [Copperfield](/copperfield-plumbers-calgary). Call 587-834-3668.",
+      "Our [SE Calgary plumbing team](/calgary-plumbers-se/) has been fixing pipes and installing water heaters in New Brighton since the first homes went up — we're neighbours with [McKenzie Towne](/mckenzie-towne-plumbers-calgary/) and [Copperfield](/copperfield-plumbers-calgary/). Call 587-834-3668.",
     ],
     heroSubhead: "Trusted New Brighton Plumbing Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
@@ -7149,8 +7149,8 @@ export const services: ServicePage[] = [
             "New Brighton's mix of Brookfield-built homes from the early 2000s and newer custom builds means we see everything from original builder-grade fixtures failing to modern high-efficiency systems needing specialized service.",
           items: [
             { heading: "Emergency Plumbing Repairs", body: "Burst pipes, overflowing toilets, no hot water — we're on-call with priority response and fully stocked trucks ready to fix it fast." },
-            { heading: "Drain Cleaning & Unclogging", body: "Kitchen sinks, bathroom drains, floor drains, and main line blockages cleared with professional equipment. See [drain cleaning](/drain-cleaning-calgary)." },
-            { heading: "Water Heater Services", body: "[Tank](/hot-water-tanks) and [tankless water heater](/tankless-water-heaters) installation, repair, and replacement with same-day service available." },
+            { heading: "Drain Cleaning & Unclogging", body: "Kitchen sinks, bathroom drains, floor drains, and main line blockages cleared with professional equipment. See [drain cleaning](/drain-cleaning-calgary/)." },
+            { heading: "Water Heater Services", body: "[Tank](/hot-water-tanks/) and [tankless water heater](/tankless-water-heaters/) installation, repair, and replacement with same-day service available." },
             { heading: "Fixture Installation & Repair", body: "Toilets, sinks, faucets, showers, and bathtubs installed or repaired to manufacturer specifications." },
             { heading: "Leak Detection & Repair", body: "Hidden leaks behind walls, under slabs, and in crawl spaces found and fixed before they cause major damage." },
             { heading: "Sewer Line Services", body: "Main line cleaning, camera inspections, and full sewer line replacement when tree roots or pipe collapse cause backups." },
@@ -7181,7 +7181,7 @@ export const services: ServicePage[] = [
       faq: {
         heading: "Frequently Asked Questions",
         items: [
-          { q: "How long do hot water tanks typically last in New Brighton homes?", a: "Most hot water tanks in New Brighton last 8-12 years, but Calgary's hard water can shorten that to 8-10 years if you don't have a [water softener](/water-softener). The original tanks in early 2000s Brookfield homes are definitely due for replacement. We can assess your tank and give you an honest timeline before it fails." },
+          { q: "How long do hot water tanks typically last in New Brighton homes?", a: "Most hot water tanks in New Brighton last 8-12 years, but Calgary's hard water can shorten that to 8-10 years if you don't have a [water softener](/water-softener/). The original tanks in early 2000s Brookfield homes are definitely due for replacement. We can assess your tank and give you an honest timeline before it fails." },
           { q: "Why do tree roots keep getting into my sewer line?", a: "Tree roots are attracted to the joints in older sewer lines, especially the clay pipes common in New Brighton's original infrastructure. We recommend camera inspections every 3-5 years if you have mature trees, and root cutting when roots start causing slow drains. Full line replacement is sometimes necessary when roots have completely invaded the pipe." },
           { q: "What should I do if my basement floods during spring thaw?", a: "Turn off your water main immediately, then call us for priority service. Spring flooding in New Brighton often overwhelms sump pumps or causes backup through floor drains when the city storm system can't handle rapid runoff. We'll pump out the water, identify the source, and get your basement dry again." },
           { q: "How quickly can you get to New Brighton for an emergency call?", a: "Our dispatch typically gets a plumber to New Brighton within 45-90 minutes, depending on traffic and weather conditions. We keep trucks stationed across Calgary, and SE Calgary is one of our primary service areas. Priority calls jump the queue over scheduled maintenance work." },
@@ -7201,13 +7201,13 @@ export const services: ServicePage[] = [
       "Panorama Hills homeowners know the importance of reliable plumbing in their growing northwest Calgary community. FlameTech Plumbing has proudly served this vibrant neighborhood for over 25 years, understanding the unique needs of homes built from the late 1990s onward.",
     heroBody: [
       "Plumbing emergencies don't follow business hours, especially during Calgary's unpredictable weather patterns. That's why our experienced team provides priority emergency response throughout Panorama Hills, ensuring you're never left dealing with frozen pipes or flooding alone.",
-      "As a locally owned and operated [plumbing company in NW Calgary](/calgary-plumbers-nw), we understand the challenges Panorama Hills properties face. Call 587-834-3668 or see our [emergency plumber](/emergency-plumber-calgary) services.",
+      "As a locally owned and operated [plumbing company in NW Calgary](/calgary-plumbers-nw/), we understand the challenges Panorama Hills properties face. Call 587-834-3668 or see our [emergency plumber](/emergency-plumber-calgary/) services.",
     ],
     heroSubhead: "Trusted Panorama Hills Plumbing Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
     heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing service van in Panorama Hills", fit: "cover" },
     intro:
-      "Expert plumbers serving Panorama Hills Calgary. 25+ years experience with local homes. Priority emergency repairs, [drain cleaning](/drain-cleaning-calgary), water heaters. Neighbours with [Evanston](/evanston-plumbers-calgary) and [Edgemont](/edgemont-plumbers-calgary).",
+      "Expert plumbers serving Panorama Hills Calgary. 25+ years experience with local homes. Priority emergency repairs, [drain cleaning](/drain-cleaning-calgary/), water heaters. Neighbours with [Evanston](/evanston-plumbers-calgary/) and [Edgemont](/edgemont-plumbers-calgary/).",
     features: [
       "Emergency plumbing repairs",
       "Drain cleaning & main line service",
@@ -7268,8 +7268,8 @@ export const services: ServicePage[] = [
           items: [
             { heading: "Emergency Plumbing Repairs", body: "Burst pipes, severe leaks, and backed-up sewers require immediate attention to prevent costly water damage to your Panorama Hills home." },
             { heading: "Drain Cleaning & Unclogging", body: "From kitchen sink blockages to main sewer line clogs, we clear drains quickly using professional-grade equipment and techniques." },
-            { heading: "Water Heater Services", body: "Installation, repair, and maintenance of conventional [tank](/hot-water-tanks) and [tankless water heaters](/tankless-water-heaters), ensuring reliable hot water through Calgary's harsh winters." },
-            { heading: "Fixture Installation & Repair", body: "Professional installation and repair of toilets, faucets, sinks, and shower systems — see [shower plumbing](/shower-plumbing-calgary)." },
+            { heading: "Water Heater Services", body: "Installation, repair, and maintenance of conventional [tank](/hot-water-tanks/) and [tankless water heaters](/tankless-water-heaters/), ensuring reliable hot water through Calgary's harsh winters." },
+            { heading: "Fixture Installation & Repair", body: "Professional installation and repair of toilets, faucets, sinks, and shower systems — see [shower plumbing](/shower-plumbing-calgary/)." },
             { heading: "Leak Detection & Repair", body: "Advanced leak detection technology helps us locate hidden leaks behind walls and under slabs before they cause extensive damage." },
             { heading: "Sewer Line Services", body: "Complete sewer line inspection, cleaning, and repair services to keep your home's waste system flowing properly." },
           ],
@@ -7281,7 +7281,7 @@ export const services: ServicePage[] = [
           items: [
             { body: "Frozen supply lines during extreme cold snaps, particularly in homes with north-facing utility rooms." },
             { body: "Main floor toilet backups caused by tree root intrusion into older sewer connections near Nose Hill Park." },
-            { body: "Water heater strain from Calgary's hard water, requiring more frequent maintenance and earlier replacement — a [water softener](/water-softener) helps significantly." },
+            { body: "Water heater strain from Calgary's hard water, requiring more frequent maintenance and earlier replacement — a [water softener](/water-softener/) helps significantly." },
             { body: "Basement floor drain issues during rapid snow melt and spring runoff periods." },
             { body: "Kitchen disposal problems from the area's higher-than-average entertaining and large family households." },
             { body: "Pressure-assisted toilet malfunctions common in the neighborhood's two-story home designs." },
@@ -7306,7 +7306,7 @@ export const services: ServicePage[] = [
         items: [
           { q: "How quickly can you get to Panorama Hills for a plumbing emergency?", a: "Our plumbers are strategically located throughout NW Calgary. For Panorama Hills emergencies, we typically arrive within 60 minutes of your call. Our priority dispatch ensures someone is always available, even during holidays and severe weather events." },
           { q: "What does a typical plumbing service call in Panorama Hills cost?", a: "We provide free estimates for all non-emergency work. Our pricing is transparent and upfront — you'll know the cost before we begin any repairs. We never charge hidden fees or surprise you with unexpected costs. Call us at 587-834-3668 for a detailed quote specific to your situation." },
-          { q: "Do you service both detached homes and townhouses in Panorama Hills?", a: "Absolutely. We service every type of residential property in Panorama Hills, from single-family detached homes and duplexes to townhouses and condominiums. Each property type has unique plumbing considerations, and our team is experienced with all of them." },
+          { q: "Do you service both detached homes and townhouses in Panorama Hills?", a: "Yes — We service every type of residential property in Panorama Hills, from single-family detached homes and duplexes to townhouses and condominiums. Each property type has unique plumbing considerations, and our team is experienced with all of them." },
           { q: "How can I prevent frozen pipes in my Panorama Hills home during winter?", a: "Keep cabinet doors under sinks open during extreme cold snaps to allow warm air to circulate around pipes. Ensure exterior hose bibs are shut off and drained before winter. Consider adding pipe insulation to any exposed pipes in your garage or unheated spaces. We also offer winterization services — call us before the first deep freeze for a full inspection." },
           { q: "Are your plumbers licensed and insured to work in Calgary?", a: "Yes, every FlameTech plumber is fully licensed, bonded, and insured in accordance with Alberta regulations. Our team holds current journeyman and master plumber certifications, and we carry comprehensive liability insurance to protect your property during every service call." },
         ],
@@ -7323,14 +7323,14 @@ export const services: ServicePage[] = [
     lead:
       "When you need a reliable plumber in Signal Hill, Calgary, FlameTech Plumbing is your trusted solution for all residential and commercial plumbing needs. Our experienced team serves the Signal Hill community with fast, professional plumbing services that you can count on with priority dispatch.",
     heroBody: [
-      "Signal Hill's distinctive hillside location and mix of luxury homes built from the 1980s onward present specific plumbing considerations that our experienced team handles with expertise. As a locally owned [plumbing company in SW Calgary](/calgary-plumbers-sw), we understand the unique challenges Signal Hill properties face.",
-      "Our team is experienced with hillside drainage systems and the premium construction standards expected in this community. Neighbours with [Mount Royal](/mount-royal-plumbers-calgary) and [West Springs](/west-springs-plumbers-calgary). Call 587-834-3668.",
+      "Signal Hill's distinctive hillside location and mix of luxury homes built from the 1980s onward present specific plumbing considerations that our experienced team handles with expertise. As a locally owned [plumbing company in SW Calgary](/calgary-plumbers-sw/), we understand the unique challenges Signal Hill properties face.",
+      "Our team is experienced with hillside drainage systems and the premium construction standards expected in this community. Neighbours with [Mount Royal](/mount-royal-plumbers-calgary/) and [West Springs](/west-springs-plumbers-calgary/). Call 587-834-3668.",
     ],
     heroSubhead: "Trusted Signal Hill Plumbing Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
     heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing service van in Signal Hill", fit: "cover" },
     intro:
-      "Signal Hill plumbers for SW Calgary. Priority emergency response, hillside drainage expertise, luxury fixture installation, [drain cleaning](/drain-cleaning-calgary), and water heater service.",
+      "Signal Hill plumbers for SW Calgary. Priority emergency response, hillside drainage expertise, luxury fixture installation, [drain cleaning](/drain-cleaning-calgary/), and water heater service.",
     features: [
       "Priority emergency plumbing",
       "Hillside drainage expertise",
@@ -7389,10 +7389,10 @@ export const services: ServicePage[] = [
           intro:
             "Signal Hill's unique hillside location and upscale construction mean homeowners face specific plumbing challenges. Here's what our team handles throughout the community.",
           items: [
-            { heading: "Emergency Plumbing Repairs", body: "Whether you're dealing with a burst pipe, severe leak, or backed-up sewer line, our priority plumbers respond quickly to protect your Signal Hill home. Our team understands hillside drainage urgency. See [emergency plumber](/emergency-plumber-calgary)." },
-            { heading: "Drain Cleaning & Unclogging", body: "Our professional drain cleaning services use advanced equipment to clear blockages and restore proper flow — we're experienced with the specific challenges of hillside drainage systems. See [drain cleaning](/drain-cleaning-calgary)." },
-            { heading: "Water Heater Services", body: "From [tankless installations](/tankless-water-heaters) to traditional [tank repairs](/hot-water-tanks) and replacements, we keep your hot water flowing through Calgary's cold winters." },
-            { heading: "Luxury Fixture Installation & Repair", body: "Our plumbers expertly install and repair high-end faucets, toilets, sinks, and other fixtures to maintain your Signal Hill home's premium quality. See [bathroom plumbing](/bathroom-plumbing-calgary)." },
+            { heading: "Emergency Plumbing Repairs", body: "Whether you're dealing with a burst pipe, severe leak, or backed-up sewer line, our priority plumbers respond quickly to protect your Signal Hill home. Our team understands hillside drainage urgency. See [emergency plumber](/emergency-plumber-calgary/)." },
+            { heading: "Drain Cleaning & Unclogging", body: "Our professional drain cleaning services use advanced equipment to clear blockages and restore proper flow — we're experienced with the specific challenges of hillside drainage systems. See [drain cleaning](/drain-cleaning-calgary/)." },
+            { heading: "Water Heater Services", body: "From [tankless installations](/tankless-water-heaters/) to traditional [tank repairs](/hot-water-tanks/) and replacements, we keep your hot water flowing through Calgary's cold winters." },
+            { heading: "Luxury Fixture Installation & Repair", body: "Our plumbers expertly install and repair high-end faucets, toilets, sinks, and other fixtures to maintain your Signal Hill home's premium quality. See [bathroom plumbing](/bathroom-plumbing-calgary/)." },
             { heading: "Leak Detection & Repair", body: "We use modern leak detection technology to quickly locate and repair leaks before they become costly — particularly important in hillside properties where water damage can affect structural stability." },
             { heading: "Sewer Line Services", body: "Comprehensive sewer line inspections, cleaning, repairs, and replacements. Signal Hill's hillside topography requires specialized expertise for proper maintenance and repair." },
           ],
@@ -7407,7 +7407,7 @@ export const services: ServicePage[] = [
             { body: "Frozen pipes during Calgary's harsh winters, especially on exposed hillside areas." },
             { body: "High-end fixture maintenance and specialized repairs." },
             { body: "Sewer line issues related to hillside topography." },
-            { body: "Hard water buildup affecting premium appliances and fixtures — a [water softener](/water-softener) often helps." },
+            { body: "Hard water buildup affecting premium appliances and fixtures — a [water softener](/water-softener/) often helps." },
           ],
         },
         {
@@ -7428,7 +7428,7 @@ export const services: ServicePage[] = [
         heading: "Frequently Asked Questions",
         items: [
           { q: "Do you offer priority emergency plumbing in Signal Hill?", a: "Yes. FlameTech Plumbing offers priority emergency plumbing services to Signal Hill residents. When you call, you'll speak with a real person — not an answering service — who can dispatch a skilled plumber to your hillside location quickly." },
-          { q: "Are you familiar with hillside drainage systems?", a: "Absolutely. We're experienced with Signal Hill's infrastructure specific to 1980s through modern luxury homes, familiar with hillside drainage systems, and understand the unique requirements of Signal Hill's elevated topography." },
+          { q: "Are you familiar with hillside drainage systems?", a: "Yes — We're experienced with Signal Hill's infrastructure specific to 1980s through modern luxury homes, familiar with hillside drainage systems, and understand the unique requirements of Signal Hill's elevated topography." },
           { q: "How do elevation changes affect water pressure in Signal Hill?", a: "Signal Hill's hillside topography creates water pressure variations across different elevations. We install and service pressure regulators as needed and can run a full pressure test to diagnose inconsistent flow throughout your home." },
           { q: "Can you handle high-end luxury fixture installations?", a: "Yes — our plumbers expertly install and repair high-end faucets, toilets, sinks, and other fixtures to maintain your Signal Hill home's premium quality and value. We handle everything from powder room upgrades to full spa bathroom builds." },
           { q: "Are your plumbers licensed and insured?", a: "Every FlameTech plumber is fully licensed, bonded, and insured in accordance with Alberta regulations. We stay current on all local building codes and permit requirements for Signal Hill installations and repairs." },
@@ -7454,7 +7454,7 @@ export const services: ServicePage[] = [
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
     heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing service van in Tuscany", fit: "cover" },
     intro:
-      "Expert plumbers serving Tuscany and [NW Calgary](/calgary-plumbers-nw). Priority emergency dispatch, [Poly-B replacement](/polyb-plumbing-calgary), water heaters, drain cleaning — 25+ years of local experience.",
+      "Expert plumbers serving Tuscany and [NW Calgary](/calgary-plumbers-nw/). Priority emergency dispatch, [Poly-B replacement](/polyb-plumbing-calgary/), water heaters, drain cleaning — 25+ years of local experience.",
     features: [
       "Priority emergency repairs",
       "Poly-B replacement",
@@ -7511,11 +7511,11 @@ export const services: ServicePage[] = [
         {
           heading: "Our Tuscany Plumbing Services",
           intro:
-            "Tuscany's unique position near the Bow River and its mix of custom-built luxury homes from the 1990s onward creates specific plumbing challenges that generic contractors often miss. Our crew understands how elevated terrain affects water pressure, why certain streets experience more [Poly-B pipe failures](/polyb-plumbing-calgary), and how mature trees can impact underground sewer lines.",
+            "Tuscany's unique position near the Bow River and its mix of custom-built luxury homes from the 1990s onward creates specific plumbing challenges that generic contractors often miss. Our crew understands how elevated terrain affects water pressure, why certain streets experience more [Poly-B pipe failures](/polyb-plumbing-calgary/), and how mature trees can impact underground sewer lines.",
           items: [
             { heading: "Priority emergency repairs", body: "Round-the-clock response for burst pipes, sewer backups, and heating failures that can't wait until morning." },
-            { heading: "Professional drain cleaning", body: "Advanced [hydro-jetting and camera equipment](/drain-cleaning-calgary) clears stubborn blockages without damaging your pipes." },
-            { heading: "Water heater services", body: "Routine maintenance through full replacements, including [tankless](/tankless-water-heaters) and traditional units sized for larger Tuscany homes." },
+            { heading: "Professional drain cleaning", body: "Advanced [hydro-jetting and camera equipment](/drain-cleaning-calgary/) clears stubborn blockages without damaging your pipes." },
+            { heading: "Water heater services", body: "Routine maintenance through full replacements, including [tankless](/tankless-water-heaters/) and traditional units sized for larger Tuscany homes." },
             { heading: "Fixture installation & repair", body: "Expert installation and repair of toilets, faucets, showers, and high-end bathroom fixtures common in luxury Tuscany homes." },
             { heading: "Advanced leak detection", body: "Thermal and acoustic technology to locate hidden problems before they cause expensive damage to hardwood floors and finished basements." },
             { heading: "Sewer line inspections", body: "Comprehensive camera inspections, cleaning, and trenchless repairs that preserve your landscaping investment." },
@@ -7537,7 +7537,7 @@ export const services: ServicePage[] = [
         {
           heading: "Local Tuscany & NW Calgary Expertise",
           intro:
-            "Our plumbers work and live in the NW. We've worked on hundreds of homes throughout Tuscany, and our technicians recognize the common layouts and plumbing configurations found in different phases of development — from the original custom homes near Tuscany Hills to newer constructions closer to Crowchild Trail. Similar experience across [Varsity](/varsity-plumbers-calgary) and [Edgemont](/edgemont-plumbers-calgary) means we know what to expect before we even open the van doors.",
+            "Our plumbers work and live in the NW. We've worked on hundreds of homes throughout Tuscany, and our technicians recognize the common layouts and plumbing configurations found in different phases of development — from the original custom homes near Tuscany Hills to newer constructions closer to Crowchild Trail. Similar experience across [Varsity](/varsity-plumbers-calgary/) and [Edgemont](/edgemont-plumbers-calgary/) means we know what to expect before we even open the van doors.",
         },
       ],
       faq: {
@@ -7545,7 +7545,7 @@ export const services: ServicePage[] = [
         items: [
           {
             q: "How much does it cost to replace a water heater in Tuscany?",
-            a: "Water heater replacement in Tuscany typically ranges from $1,200 to $3,500, depending on the unit type and installation complexity. Many Tuscany homes have custom utility rooms or unique venting requirements that can affect pricing. We provide upfront estimates and discuss all options, including [tankless water heaters](/tankless-water-heaters) that work well in larger homes. Most installations are completed within 4-6 hours.",
+            a: "Water heater replacement in Tuscany typically ranges from $1,200 to $3,500, depending on the unit type and installation complexity. Many Tuscany homes have custom utility rooms or unique venting requirements that can affect pricing. We provide upfront estimates and discuss all options, including [tankless water heaters](/tankless-water-heaters/) that work well in larger homes. Most installations are completed within 4-6 hours.",
           },
           {
             q: "Why do Tuscany homes have low water pressure issues?",
@@ -7557,7 +7557,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "Should I be concerned about Poly-B pipes in my Tuscany home?",
-            a: "Many Tuscany homes built in the 1990s contain Poly-B plumbing that becomes brittle over time, especially with Calgary's temperature extremes. We recommend professional inspection if you notice discolored water, frequent leaks, or haven't had the system evaluated recently. [Poly-B replacement](/polyb-plumbing-calgary) prevents costly flood damage and increases home value.",
+            a: "Many Tuscany homes built in the 1990s contain Poly-B plumbing that becomes brittle over time, especially with Calgary's temperature extremes. We recommend professional inspection if you notice discolored water, frequent leaks, or haven't had the system evaluated recently. [Poly-B replacement](/polyb-plumbing-calgary/) prevents costly flood damage and increases home value.",
           },
           {
             q: "What's the best way to prevent frozen pipes in Tuscany winters?",
@@ -7584,7 +7584,7 @@ export const services: ServicePage[] = [
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
     heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing service van in Varsity", fit: "cover" },
     intro:
-      "Expert plumbers serving Varsity and [NW Calgary](/calgary-plumbers-nw). Priority emergency service, cast-iron drain replacement, [Poly-B replacement](/polyb-plumbing-calgary), [water heaters](/hot-water-tanks).",
+      "Expert plumbers serving Varsity and [NW Calgary](/calgary-plumbers-nw/). Priority emergency service, cast-iron drain replacement, [Poly-B replacement](/polyb-plumbing-calgary/), [water heaters](/hot-water-tanks/).",
     features: [
       "Priority emergency repairs",
       "Cast-iron drain replacement",
@@ -7641,11 +7641,11 @@ export const services: ServicePage[] = [
         {
           heading: "Our Varsity Plumbing Services",
           intro:
-            "Varsity's mature neighborhood means we deal with a lot of cast iron drain lines backing up, original copper supply lines showing their age, and builder-grade fixtures finally giving out after 30+ years. Our crew has also worked extensively in nearby communities like [Panorama Hills](/panorama-hills-plumbers-calgary) and [Edgemont](/edgemont-plumbers-calgary), so we understand the common issues that plague homes built during Calgary's growth boom.",
+            "Varsity's mature neighborhood means we deal with a lot of cast iron drain lines backing up, original copper supply lines showing their age, and builder-grade fixtures finally giving out after 30+ years. Our crew has also worked extensively in nearby communities like [Panorama Hills](/panorama-hills-plumbers-calgary/) and [Edgemont](/edgemont-plumbers-calgary/), so we understand the common issues that plague homes built during Calgary's growth boom.",
           items: [
             { heading: "Emergency plumbing repairs", body: "Burst pipes, sewer backups, no hot water — priority dispatch because disasters don't wait for business hours." },
-            { heading: "Drain cleaning & unclogging", body: "Kitchen sinks, main lines, floor drains — [professional drain cleaning](/drain-cleaning-calgary) to get water flowing again." },
-            { heading: "Water heater services", body: "Installation, repair, and replacement of tank and [tankless units](/tankless-water-heaters). Most Varsity water heaters are overdue for replacement." },
+            { heading: "Drain cleaning & unclogging", body: "Kitchen sinks, main lines, floor drains — [professional drain cleaning](/drain-cleaning-calgary/) to get water flowing again." },
+            { heading: "Water heater services", body: "Installation, repair, and replacement of tank and [tankless units](/tankless-water-heaters/). Most Varsity water heaters are overdue for replacement." },
             { heading: "Fixture installation & repair", body: "Toilets, faucets, sinks, tubs — we fix what's broken and upgrade what needs replacing with modern, efficient fixtures." },
             { heading: "Leak detection & repair", body: "From dripping taps to hidden pipe leaks behind walls, we find them with thermal and acoustic tools and fix them right." },
             { heading: "Sewer line services", body: "Camera inspections, root removal, and line repairs for aging sewer systems common in established NW neighborhoods." },
@@ -7683,7 +7683,7 @@ export const services: ServicePage[] = [
         items: [
           {
             q: "How long do water heaters typically last in Varsity homes?",
-            a: "Most water heaters in Varsity homes last 8-12 years, but Calgary's hard water can shorten that lifespan significantly. If your tank is over 10 years old and you're seeing rust-colored water or hearing rumbling noises, it's time for a replacement. We can assess your current unit and recommend whether repair or [replacement with a tankless system](/tankless-water-heaters) makes more sense.",
+            a: "Most water heaters in Varsity homes last 8-12 years, but Calgary's hard water can shorten that lifespan significantly. If your tank is over 10 years old and you're seeing rust-colored water or hearing rumbling noises, it's time for a replacement. We can assess your current unit and recommend whether repair or [replacement with a tankless system](/tankless-water-heaters/) makes more sense.",
           },
           {
             q: "Why do my drains keep backing up even after I snake them?",
@@ -7691,7 +7691,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "Should I be concerned about poly-b piping in my 1980s Varsity home?",
-            a: "Yes, polybutylene piping was commonly used in Varsity homes built in the 1980s and early 90s, and it's known to fail without warning. If you still have poly-b supply lines, we recommend having them inspected and potentially replaced before they cause water damage. The good news is we've done dozens of [poly-b replacements](/polyb-plumbing-calgary) in your neighborhood.",
+            a: "Yes, polybutylene piping was commonly used in Varsity homes built in the 1980s and early 90s, and it's known to fail without warning. If you still have poly-b supply lines, we recommend having them inspected and potentially replaced before they cause water damage. The good news is we've done dozens of [poly-b replacements](/polyb-plumbing-calgary/) in your neighborhood.",
           },
           {
             q: "How quickly can you respond to emergency calls in Varsity?",
@@ -7715,14 +7715,14 @@ export const services: ServicePage[] = [
     lead:
       "Looking for dependable plumbing service in West Springs, Calgary? FlameTech Plumbing delivers trusted expertise to this vibrant family community's modern homes and established neighborhoods. Our experienced plumbers understand West Springs' unique plumbing needs, providing prompt, professional service that keeps your family comfortable year-round.",
     heroBody: [
-      "Your trusted [plumbing experts in SW Calgary](/calgary-plumbers-sw) understand West Springs' growing community needs — from starter townhomes to executive properties — and provide reliable service tailored to this dynamic neighborhood.",
+      "Your trusted [plumbing experts in SW Calgary](/calgary-plumbers-sw/) understand West Springs' growing community needs — from starter townhomes to executive properties — and provide reliable service tailored to this dynamic neighborhood.",
       "Call 587-834-3668 for priority dispatch, honest pricing, and master-level workmanship on every job.",
     ],
     heroSubhead: "Professional Plumbing Excellence for West Springs Families",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
     heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing service van in West Springs", fit: "cover" },
     intro:
-      "Expert plumbers serving West Springs and [SW Calgary](/calgary-plumbers-sw). Priority emergency response, [drain cleaning](/drain-cleaning-calgary), water heaters, and modern fixture installs for family homes.",
+      "Expert plumbers serving West Springs and [SW Calgary](/calgary-plumbers-sw/). Priority emergency response, [drain cleaning](/drain-cleaning-calgary/), water heaters, and modern fixture installs for family homes.",
     features: [
       "Priority emergency plumbing",
       "Drain & sewer solutions",
@@ -7782,8 +7782,8 @@ export const services: ServicePage[] = [
             "West Springs' modern family homes and established residences require responsive plumbing care that fits busy lifestyles and family budgets. Our team understands the needs of the community and delivers solutions that work.",
           items: [
             { heading: "Priority emergency plumbing", body: "Burst pipes, flooding, or sewer backups demand immediate attention. Our technicians respond quickly to West Springs homes with the tools to resolve urgent situations." },
-            { heading: "Professional drain & sewer solutions", body: "[Advanced drain cleaning](/drain-cleaning-calgary) clears stubborn blockages completely — from kitchen sink clogs to main sewer line issues." },
-            { heading: "Reliable water heater services", body: "Energy-efficient [tankless systems](/tankless-water-heaters) through high-capacity traditional units, sized for your family's hot water needs." },
+            { heading: "Professional drain & sewer solutions", body: "[Advanced drain cleaning](/drain-cleaning-calgary/) clears stubborn blockages completely — from kitchen sink clogs to main sewer line issues." },
+            { heading: "Reliable water heater services", body: "Energy-efficient [tankless systems](/tankless-water-heaters/) through high-capacity traditional units, sized for your family's hot water needs." },
             { heading: "Quality fixture installation", body: "Modern faucets, efficient toilets, stylish sinks, and upgraded shower systems — every installation meets current building codes." },
             { heading: "Advanced leak detection", body: "Thermal imaging and acoustic equipment locate leaks behind walls and under floors without destructive investigation." },
             { heading: "Complete sewer line maintenance", body: "Video camera inspection and high-pressure hydro-jetting to prevent costly backups and system failures." },
@@ -7805,7 +7805,7 @@ export const services: ServicePage[] = [
         {
           heading: "Serving Nearby Communities",
           intro:
-            "In addition to West Springs, FlameTech Plumbing proudly serves homeowners throughout Calgary's west end, including Cougar Ridge, [Aspen Woods](/aspen-woods-plumbers-calgary), Coach Hill, Wentworth, and [Signal Hill](/signal-hill-plumbers-calgary). Whether you need [emergency repairs](/emergency-plumber-calgary), drain cleaning, or routine maintenance, our licensed plumbers are just minutes away from your neighbourhood.",
+            "In addition to West Springs, FlameTech Plumbing proudly serves homeowners throughout Calgary's west end, including Cougar Ridge, [Aspen Woods](/aspen-woods-plumbers-calgary/), Coach Hill, Wentworth, and [Signal Hill](/signal-hill-plumbers-calgary/). Whether you need [emergency repairs](/emergency-plumber-calgary/), drain cleaning, or routine maintenance, our licensed plumbers are just minutes away from your neighbourhood.",
         },
       ],
       faq: {
@@ -7821,11 +7821,11 @@ export const services: ServicePage[] = [
           },
           {
             q: "What plumbing services do you provide to West Springs families?",
-            a: "We provide comprehensive plumbing solutions including professional drain cleaning, water heater service and installation, reliable leak detection, pipe repair and replacement, modern fixture installations, complete sewer maintenance, and family-friendly [bathroom](/bathroom-plumbing-calgary) and kitchen upgrades.",
+            a: "Drain cleaning, water heater service and installation, leak detection, pipe repair and replacement, fixture installation, sewer line work, and [bathroom](/bathroom-plumbing-calgary/) and kitchen renovations. If it carries water or gas in a West Springs home, we work on it.",
           },
           {
             q: "Are your plumbers licensed and insured?",
-            a: "Absolutely. Every FlameTech Plumbing technician maintains full licensure, bonding, and certification for Calgary operations. We carry comprehensive liability insurance protecting both our team and your home. You're hiring qualified professionals who meet all Alberta plumbing regulatory standards.",
+            a: "Yes. Every tech is licensed, bonded, and insured to work across Alberta. Insurance certificate available on request before we start.",
           },
           {
             q: "Do you guarantee your work?",
@@ -7845,14 +7845,14 @@ export const services: ServicePage[] = [
     lead:
       "When you need a reliable plumber in Woodbine, Calgary, FlameTech Plumbing is your go-to solution for all residential and commercial plumbing needs. Our experienced team serves the Woodbine community with fast, professional plumbing services you can count on — with priority emergency dispatch whenever you need us.",
     heroBody: [
-      "As a locally owned and operated [plumbing company in SW Calgary](/calgary-plumbers-sw), we understand the unique challenges that Woodbine properties face — from older homes with aging plumbing systems to newer builds requiring modern installations.",
+      "As a locally owned and operated [plumbing company in SW Calgary](/calgary-plumbers-sw/), we understand the unique challenges that Woodbine properties face — from older homes with aging plumbing systems to newer builds requiring modern installations.",
       "Call 587-834-3668 for fast, reliable plumbing service across Woodbine and the rest of southwest Calgary.",
     ],
     heroSubhead: "Trusted Calgary Plumbing Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
     heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing service van in Woodbine", fit: "cover" },
     intro:
-      "Expert plumbers serving Woodbine and [SW Calgary](/calgary-plumbers-sw). Priority emergency service, [drain cleaning](/drain-cleaning-calgary), water heaters, fixture installs, sewer line repair.",
+      "Expert plumbers serving Woodbine and [SW Calgary](/calgary-plumbers-sw/). Priority emergency service, [drain cleaning](/drain-cleaning-calgary/), water heaters, fixture installs, sewer line repair.",
     features: [
       "Priority emergency repairs",
       "Drain cleaning & unclogging",
@@ -7912,8 +7912,8 @@ export const services: ServicePage[] = [
             "Whether you're dealing with a burst pipe, severe leak, or backed-up sewer line, our emergency plumbers are available around the clock to protect your Woodbine home from water damage. From older homes with aging plumbing systems to newer builds requiring modern installations, our team has the expertise to handle it all.",
           items: [
             { heading: "Emergency plumbing repairs", body: "Priority dispatch for burst pipes, severe leaks, or backed-up sewer lines — we'll protect your Woodbine home from water damage." },
-            { heading: "Drain cleaning & unclogging", body: "[Professional drain cleaning](/drain-cleaning-calgary) with advanced equipment clears stubborn blockages and restores proper flow." },
-            { heading: "Water heater services", body: "[Tankless installations](/tankless-water-heaters) through traditional [tank repairs](/hot-water-tanks) — Calgary's cold winters make a functioning water heater essential." },
+            { heading: "Drain cleaning & unclogging", body: "[Professional drain cleaning](/drain-cleaning-calgary/) with advanced equipment clears stubborn blockages and restores proper flow." },
+            { heading: "Water heater services", body: "[Tankless installations](/tankless-water-heaters/) through traditional [tank repairs](/hot-water-tanks/) — Calgary's cold winters make a functioning water heater essential." },
             { heading: "Fixture installation & repair", body: "Faucets, toilets, sinks, and other fixtures installed to enhance your home's functionality and value." },
             { heading: "Leak detection & repair", body: "Modern leak detection technology quickly locates and repairs hidden leaks before they become costly problems." },
             { heading: "Sewer line services", body: "Inspections, cleaning, repairs, and replacements to keep your wastewater system functioning properly." },
@@ -7950,7 +7950,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "What preventative maintenance do you recommend for Woodbine homes?",
-            a: "We recommend annual plumbing inspections to catch issues early, seasonal pipe winterization, water heater flushing to extend equipment life, [drain cleaning](/drain-cleaning-calgary) to prevent stubborn clogs, and sewer line camera inspections every few years.",
+            a: "We recommend annual plumbing inspections to catch issues early, seasonal pipe winterization, water heater flushing to extend equipment life, [drain cleaning](/drain-cleaning-calgary/) to prevent stubborn clogs, and sewer line camera inspections every few years.",
           },
           {
             q: "Can tree roots really damage my sewer line?",
@@ -7958,7 +7958,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "Is my hard water damaging my appliances?",
-            a: "Calgary's mineral-rich water builds scale in water heaters, dishwashers, and fixtures, shortening their lifespan. A [water softener](/water-softener) can dramatically extend appliance life and improve fixture performance. We can assess your water quality during a service visit.",
+            a: "Calgary's mineral-rich water builds scale in water heaters, dishwashers, and fixtures, shortening their lifespan. A [water softener](/water-softener/) can dramatically extend appliance life and improve fixture performance. We can assess your water quality during a service visit.",
           },
         ],
       },
@@ -7972,7 +7972,7 @@ export const services: ServicePage[] = [
     icon: "plumbing",
     title: "Coopers Crossing Plumber | Expert Plumbing Services",
     lead:
-      "Facing plumbing issues in your Coopers Crossing property? You deserve experienced professionals who deliver prompt, dependable service every time. At FlameTech Plumbing, we're proud to serve Coopers Crossing with [Airdrie plumbing](/airdrie-plumbers) experts that are trusted and backed by integrity and clear communication.",
+      "Facing plumbing issues in your Coopers Crossing property? You deserve experienced professionals who deliver prompt, dependable service every time. At FlameTech Plumbing, we're proud to serve Coopers Crossing with [Airdrie plumbing](/airdrie-plumbers/) experts that are trusted and backed by integrity and clear communication.",
     heroBody: [
       "Our locally-based team understands the specific demands of Alberta's climate on Coopers Crossing homes. Whether it's preventing frozen pipes in winter or handling urgent water heater breakdowns, we bring proven solutions to every challenge.",
       "Call us today at 587-834-3668 for fast, reliable plumbing service in Airdrie.",
@@ -7981,7 +7981,7 @@ export const services: ServicePage[] = [
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
     heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing service van in Coopers Crossing", fit: "cover" },
     intro:
-      "Expert plumbers serving Coopers Crossing and the rest of [Airdrie](/airdrie-plumbers). Priority emergency response, [drain cleaning](/drain-cleaning-calgary), water heaters, and transparent pricing.",
+      "Expert plumbers serving Coopers Crossing and the rest of [Airdrie](/airdrie-plumbers/). Priority emergency response, [drain cleaning](/drain-cleaning-calgary/), water heaters, and transparent pricing.",
     features: [
       "Priority emergency repairs",
       "Drain cleaning & repair",
@@ -8036,12 +8036,12 @@ export const services: ServicePage[] = [
     richContent: {
       sections: [
         {
-          heading: "Comprehensive Plumbing Services in Coopers Crossing",
+          heading: "Plumbing Services in Coopers Crossing",
           intro:
             "Plumbing crises happen without warning. From midnight pipe bursts to weekend sewer backups, our emergency team stands ready to help with priority dispatch that protects your property and restores functionality fast.",
           items: [
-            { heading: "Drain cleaning & repair", body: "Our Coopers Crossing specialists employ cutting-edge tools like [hydro-jetting and camera diagnostics](/drain-cleaning-calgary) to eliminate blockages and detect problems before they escalate." },
-            { heading: "Water heater services", body: "Whether you need [tankless system installation](/tankless-water-heaters) or conventional [tank service](/hot-water-tanks-airdrie), we've got your hot water requirements covered across all leading brands." },
+            { heading: "Drain cleaning & repair", body: "Our Coopers Crossing specialists employ cutting-edge tools like [hydro-jetting and camera diagnostics](/drain-cleaning-calgary/) to eliminate blockages and detect problems before they escalate." },
+            { heading: "Water heater services", body: "Whether you need [tankless system installation](/tankless-water-heaters/) or conventional [tank service](/hot-water-tanks-airdrie/), we've got your hot water requirements covered across all leading brands." },
             { heading: "Fixture installation & repair", body: "We install and repair all types of plumbing fixtures including faucets, toilets, sinks, garbage disposals, and more — with attention to detail for proper installation." },
             { heading: "Leak detection", body: "Thermal and acoustic equipment to locate hidden leaks behind walls and under floors before they cause damage." },
             { heading: "Sump pump service", body: "Installation, testing, and repair of sump pumps to prevent basement flooding during spring melt and heavy rainfall." },
@@ -8062,7 +8062,7 @@ export const services: ServicePage[] = [
         {
           heading: "Serving All of Airdrie",
           intro:
-            "We're honored to serve all Coopers Crossing residents and surrounding Airdrie neighborhoods, including Kings Heights, Williamstown, Edwards Landing, [Reunion](/reunion-plumbers-airdrie), Chinook Gate, [Ravenswood](/ravenswood-plumbers-airdrie), Big Springs, and Hillcrest. Need broader coverage? See our main [Airdrie plumbers](/airdrie-plumbers) page.",
+            "We're honored to serve all Coopers Crossing residents and surrounding Airdrie neighborhoods, including Kings Heights, Williamstown, Edwards Landing, [Reunion](/reunion-plumbers-airdrie/), Chinook Gate, [Ravenswood](/ravenswood-plumbers-airdrie/), Big Springs, and Hillcrest. Need broader coverage? See our main [Airdrie plumbers](/airdrie-plumbers/) page.",
         },
         {
           heading: "Common Coopers Crossing Plumbing Issues We Solve",
@@ -8070,7 +8070,7 @@ export const services: ServicePage[] = [
             "Coopers Crossing properties face unique plumbing demands. Our technicians excel at resolving:",
           items: [
             { body: "Winter pipe freezing in Alberta's harsh climate." },
-            { body: "Mineral-heavy water damaging fixtures and appliances — solved with a [water softener](/water-softener-airdrie)." },
+            { body: "Mineral-heavy water damaging fixtures and appliances — solved with a [water softener](/water-softener-airdrie/)." },
             { body: "Older plumbing infrastructure throughout Coopers Crossing and adjacent Airdrie areas." },
             { body: "Insufficient water pressure concerns." },
             { body: "Sump pump malfunctions leading to basement flooding." },
@@ -8091,11 +8091,11 @@ export const services: ServicePage[] = [
           },
           {
             q: "Can you handle hard water problems in Coopers Crossing?",
-            a: "Yes — Airdrie's mineral-heavy water damages fixtures, appliances, and water heaters over time. A [water softener](/water-softener-airdrie) dramatically extends equipment life and improves fixture performance. We can assess your water during any service visit.",
+            a: "Yes — Airdrie's mineral-heavy water damages fixtures, appliances, and water heaters over time. A [water softener](/water-softener-airdrie/) dramatically extends equipment life and improves fixture performance. We can assess your water during any service visit.",
           },
           {
             q: "Do you service other Airdrie neighborhoods?",
-            a: "Absolutely — we serve every Airdrie community, including [Ravenswood](/ravenswood-plumbers-airdrie), [Reunion](/reunion-plumbers-airdrie), Kings Heights, Williamstown, Edwards Landing, Chinook Gate, Big Springs, and Hillcrest. See our main [Airdrie plumbers](/airdrie-plumbers) page for the full list.",
+            a: "Absolutely — we serve every Airdrie community, including [Ravenswood](/ravenswood-plumbers-airdrie/), [Reunion](/reunion-plumbers-airdrie/), Kings Heights, Williamstown, Edwards Landing, Chinook Gate, Big Springs, and Hillcrest. See our main [Airdrie plumbers](/airdrie-plumbers/) page for the full list.",
           },
           {
             q: "Are your plumbers licensed and insured?",
@@ -8250,9 +8250,9 @@ export const services: ServicePage[] = [
       intro:
         "Whether you're installing new, fixing a fault, or scheduling a tune-up, here's how the work breaks out.",
       items: [
-        { label: "Boiler Installation Calgary", href: "/boiler-installation-calgary", summary: "New high-efficiency boilers — heat-loss calc, gas + venting, full commissioning.", icon: "boiler_unit" },
-        { label: "Boiler Repair Calgary", href: "/boiler-repair-calgary", summary: "Diagnosis and same-day fixes for kettling, pressure loss, no-heat, and ignition faults.", icon: "gas_valve" },
-        { label: "Boiler Service Calgary", href: "/boiler-service-calgary", summary: "Annual tune-ups: combustion analysis, safety checks, descale, system flush.", icon: "hydronic_loop" },
+        { label: "Boiler Installation Calgary", href: "/boiler-installation-calgary/", summary: "New high-efficiency boilers — heat-loss calc, gas + venting, full commissioning.", icon: "boiler_unit" },
+        { label: "Boiler Repair Calgary", href: "/boiler-repair-calgary/", summary: "Diagnosis and same-day fixes for kettling, pressure loss, no-heat, and ignition faults.", icon: "gas_valve" },
+        { label: "Boiler Service Calgary", href: "/boiler-service-calgary/", summary: "Annual tune-ups: combustion analysis, safety checks, descale, system flush.", icon: "hydronic_loop" },
       ],
     },
   },
@@ -8535,7 +8535,7 @@ export const services: ServicePage[] = [
       "Water softener install",
     ],
     bullets: [
-      { t: "Quick dispatch from Calgary", d: "Trucks roll east on 17 Ave or Glenmore directly into Chestermere — most calls land quickly when conditions allow." },
+      { t: "Quick dispatch from Calgary", d: "Trucks roll east on 17 Ave or Glenmore directly into Chestermere — straightforward access on either route, emergency calls get priority routing." },
       { t: "Licensed & insured", d: "Alberta-licensed plumbers and gas fitters. Full liability coverage protecting your property." },
       { t: "Hard-water aware", d: "Same well-and-treatment water profile as east Calgary. We size and spec for the mineral load, not against a generic baseline." },
     ],
@@ -8584,7 +8584,7 @@ export const services: ServicePage[] = [
       faq: {
         heading: "Chestermere Plumbing FAQs",
         items: [
-          { q: "Do you dispatch to Chestermere for emergencies?", a: "Yes — Chestermere is on our regular dispatch radius. Most emergency calls land quickly when conditions allow depending on time of day and where in town you are." },
+          { q: "Do you dispatch to Chestermere for emergencies?", a: "Yes — Chestermere is on our regular dispatch radius. Emergency calls get priority routing over scheduled work. Call 587-834-3668 and we'll confirm a window before the truck rolls east on 17 Ave or Glenmore." },
           { q: "Is plumbing in Chestermere different from Calgary?", a: "The water profile and chinook freeze-thaw cycles are the same as east Calgary. Older lake-area builds from the 80s-90s often have Poly-B piping that needs attention — same pattern as Mahogany or McKenzie Lake." },
           { q: "Are FlameTech plumbers licensed for Chestermere?", a: "Yes. Our Alberta plumbing and gas-fitting licenses cover Chestermere, Cochrane, Okotoks, Carstairs, and the rest of Calgary's surrounding municipalities." },
         ],
