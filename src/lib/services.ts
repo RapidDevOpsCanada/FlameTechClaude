@@ -8701,6 +8701,8 @@ export const services: ServicePage[] = [
     ],
     bullets: [
       { t: "Poly-B specialists", d: "Many Okotoks 90s builds — Drake Landing, original Cimarron — have Poly-B supply lines now hitting 25-30 years and failing at fittings. We do free inspections and written quotes." },
+      { t: "Acreage + well-water experience", d: "Many properties south and east of town run on well water with high mineral and iron loads. We test, size softener and filtration, and handle pump-side plumbing on the well itself." },
+      { t: "Heritage Olde Towne stock", d: "Pre-1970 homes north of Elma St and around the railway have galvanized supply lines and cast-iron drains. We work on the original infrastructure without ripping out finished walls." },
       { t: "Stocked Calgary trucks", d: "Trucks dispatched south on Highway 2. Same crew that services [Chaparral](/chaparral-plumbers-calgary/) and [Cranston](/cranston-plumber-calgary/)." },
       { t: "Licensed & insured", d: "Alberta plumbing and gas-fitting licenses, full liability coverage." },
     ],
@@ -8740,18 +8742,35 @@ export const services: ServicePage[] = [
           items: [
             { heading: "Emergency plumbing", body: "Burst pipes, no-water calls, sewer backups. See [emergency plumber Calgary](/emergency-plumber-calgary/) for the full scope." },
             { heading: "Poly-B replacement", body: "Drake Landing, Cimarron, and other 90s-era Okotoks builds are right in the Poly-B failure window. Free inspection, written quote. See [Poly-B replacement Calgary](/polyb-plumbing-calgary/) for the full process." },
+            { heading: "Well-water systems", body: "Acreage properties south and east of Okotoks run on private wells. We size [softeners](/water-softener/), install filtration and iron-removal stages, and service pressure tanks + pump-side plumbing." },
             { heading: "Hot water tanks", body: "Same-day [tank replacement](/hot-water-tank-replacement-calgary/) on Bradford White and John Wood, plus [tankless](/tankless-water-heaters/) installs." },
             { heading: "Boiler & furnace service", body: "Annual [boiler service](/boiler-service-calgary/), [boiler repair](/boiler-repair-calgary/), [furnace](/furnaces/) install, [high-efficiency furnaces](/high-efficiency-furnaces-calgary/) for cold-snap performance." },
             { heading: "Drain cleaning", body: "Hydro-jetting and camera inspection. See [drain cleaning Calgary](/drain-cleaning-calgary/)." },
+          ],
+        },
+        {
+          heading: "Why Okotoks plumbing is different from Calgary",
+          intro:
+            "Okotoks isn't just \"Calgary further south.\" The town has its own water source, a distinct build-era mix, and a real acreage component that all change what we run into on service calls.",
+          items: [
+            { heading: "Sheep River water + groundwater blend", body: "Okotoks Town water comes from the Sheep River and a deep aquifer — slightly different mineral profile than Calgary's Bow/Elbow supply. Hardness is still high enough that softeners pay back quickly on fixture and water-heater life." },
+            { heading: "Drake Landing's solar district heating", body: "Drake Landing Solar Community uses seasonal borehole thermal storage to heat homes via hydronic loops. The in-home distribution is conventional, but the supply connections and heat-exchanger interface need somebody who knows what they're looking at before swapping a circulator or rebalancing a manifold." },
+            { heading: "Poly-B concentration in 90s builds", body: "Cimarron, Drake Landing, Crystal Shores, Sheep River Ridge — the 1990s and early 2000s expansion happened right in the polybutylene window. A high portion of resale homes here still have it, and 25-30 years in it starts splitting at the brass crimp fittings." },
+            { heading: "Well water on acreage south + east", body: "Foothills County land outside town limits is well-and-septic, not municipal. Iron, manganese, and hardness can each be severe. We pull a real water test before quoting a softener or RO system — sizing from the side of the box wastes money on most Okotoks wells." },
+            { heading: "Olde Towne heritage stock", body: "Homes north of Elma Street and around the original railway grid date back to the 1900s-1940s. Galvanized supply, cast-iron drains, original clay sewer laterals. Repairs there are about preserving the finished interior — different mindset than ripping out drywall in a 2010 build." },
+            { heading: "Septic on the rural fringe", body: "Many acreage properties run on septic fields rather than municipal sewer. We don't pump tanks — but we do diagnose backups, replace failed pumps, and rebuild the in-home side (drain stacks, vent integrity, ejector pumps for below-grade fixtures)." },
           ],
         },
       ],
       faq: {
         heading: "Okotoks Plumbing FAQs",
         items: [
-          { q: "How does dispatch to Okotoks work?", a: "We dispatch from Calgary via Highway 2. Priority emergency calls take precedence in scheduling. Call 587-834-3668 and we'll confirm the closest available technician and timing for your call." },
-          { q: "Do many Okotoks homes have Poly-B?", a: "Yes — substantial portions of Drake Landing, original Cimarron, and other 90s-era builds were piped with polybutylene. Most are now at 25-30 years and starting to fail at fittings. If yours hasn't been inspected, it's worth a free look." },
-          { q: "Are you licensed for Okotoks?", a: "Yes. Alberta plumbing and gas-fitting licenses cover Okotoks, plus we handle Town of Okotoks permits where required." },
+          { q: "How does dispatch to Okotoks work?", a: "We dispatch from Calgary south on Highway 2 — straight shot from the south end of the city. Emergency calls receive priority routing over scheduled work. Call 587-834-3668 and we'll confirm a window before the truck rolls." },
+          { q: "Do many Okotoks homes have Poly-B?", a: "Yes — substantial portions of Drake Landing, original Cimarron, Crystal Shores, and other 90s-and-early-2000s builds were piped with polybutylene. Most are now at 25-30 years and starting to fail at the brass crimp fittings. If yours hasn't been inspected, it's worth a free look — failure usually shows as a slow ceiling-line stain before it becomes a flood." },
+          { q: "Do you work on Drake Landing's solar heating system?", a: "We work on the conventional side — circulators, manifolds, in-home hydronic distribution, supply connections. The seasonal borehole storage field itself is district infrastructure (not homeowner-serviced), but anything from the building entry inward is fair game and we know how the system is laid out." },
+          { q: "Can you handle well water and septic on Okotoks acreage?", a: "Yes. Wells: softeners, iron and manganese filtration, pressure tanks, pump-side plumbing. Septic: diagnosing backups, replacing failed lift/ejector pumps, drain stack and vent integrity — basically everything in-home that connects to the septic field. We don't pump tanks; that's a specialty truck. Bring a recent water test (or we can take one) and we'll spec properly." },
+          { q: "Do you service the Olde Towne heritage homes?", a: "Yes — galvanized supply lines, cast-iron stacks, original clay laterals. We work on the heritage infrastructure with the same approach we use in Calgary's Mount Royal: preserve the finished interior, target the actual failure, document what's behind the wall for future work." },
+          { q: "Are you licensed for Okotoks?", a: "Yes. Alberta plumbing and gas-fitting licenses cover Okotoks and the surrounding Foothills County, and we handle Town of Okotoks permits where required." },
         ],
       },
     },
