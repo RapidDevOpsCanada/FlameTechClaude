@@ -94,8 +94,9 @@ export default function ContactPage() {
       <Nav />
       <PageHeader
         eyebrow="Contact FlameTech"
-        title="A real plumber answers — every call, every time."
+        title="Plumbers, heating techs, and gas fitters — one call."
         description="Call, text, or send a quote request. We respond fast — priority dispatch for emergencies, and free written estimates on planned work."
+        compact
       />
 
       {/* Quick contact strip */}

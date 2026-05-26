@@ -371,7 +371,7 @@ export const services: ServicePage[] = [
     stats: [
       { number: "25+", label: "Years in Calgary", icon: "verified" },
       { number: "5.0★", label: "Google rated", icon: "star" },
-      { number: "~2h", label: "Emergency ETA", icon: "schedule" },
+      { number: "FREE", label: "Written estimates", icon: "request_quote" },
       { number: "Licensed", label: "journeyman", icon: "award" },
     ],
     callout:
@@ -622,7 +622,7 @@ export const services: ServicePage[] = [
       "Active leak containment",
       "Sewer and drain backups",
       "Water heater failures",
-      "Gas line leak response",
+      "Stocked Calgary trucks",
       "Overflowing toilet repairs",
     ],
     bullets: [
@@ -1213,7 +1213,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "Can you come out today?",
-            a: "For most no-heat calls during business hours, yes. Priority emergency dispatch typically gets a tech to your door in 60–90 minutes anywhere in Calgary, Airdrie, Chestermere, Cochrane, or Okotoks. Call us first — we'll confirm the window before we leave the shop.",
+            a: "For most no-heat calls during business hours, yes. Priority emergency dispatch typically gets a tech to your door quickly when conditions allow anywhere in Calgary, Airdrie, Chestermere, Cochrane, or Okotoks. Call us first — we'll confirm the window before we leave the shop.",
           },
         ],
       },
@@ -2084,7 +2084,7 @@ export const services: ServicePage[] = [
     stats: [
       { number: "15+", label: "Years installing", icon: "verified" },
       { number: "5.0★", label: "Google rated", icon: "star" },
-      { number: "~2h", label: "Emergency ETA", icon: "schedule" },
+      { number: "FREE", label: "Written estimates", icon: "request_quote" },
       { number: "Licensed", label: "gas + electrical", icon: "award" },
     ],
     callout:
@@ -3268,7 +3268,7 @@ export const services: ServicePage[] = [
     stats: [
       { number: "25+", label: "Years in Alberta", icon: "verified" },
       { number: "5.0★", label: "Google rated", icon: "star" },
-      { number: "60-90m", label: "Airdrie ETA", icon: "schedule" },
+      { number: "FREE", label: "Written estimates", icon: "request_quote" },
       { number: "Licensed", label: "& insured", icon: "award" },
     ],
     callout:
@@ -3344,7 +3344,7 @@ export const services: ServicePage[] = [
     ],
     bullets: [
       {
-        t: "Rapid Airdrie response",
+        t: "Stocked Calgary trucks",
         d: "We know Alberta winters don't wait — our team responds quickly from Coopers Crossing to Williamstown.",
       },
       {
@@ -3442,7 +3442,7 @@ export const services: ServicePage[] = [
       "Combi boiler installation",
       "Navien & IBC systems",
       "Complete gas, venting, hydronic piping",
-      "Priority emergency response",
+      "Stocked Calgary trucks",
     ],
     bullets: [
       {
@@ -3606,7 +3606,7 @@ export const services: ServicePage[] = [
     stats: [
       { number: "20+", label: "Years on boilers", icon: "verified" },
       { number: "5.0★", label: "Google rated", icon: "star" },
-      { number: "~1h", label: "Emergency ETA", icon: "schedule" },
+      { number: "FREE", label: "Written estimates", icon: "request_quote" },
       { number: "Certified", label: "hydronic", icon: "award" },
     ],
     callout:
@@ -3838,7 +3838,7 @@ export const services: ServicePage[] = [
       bullets: [
         "Red Seal + gas fitting certified",
         "40 & 50-gallon tanks on-truck",
-        "60-90 minute Airdrie ETA",
+        "Stocked Calgary trucks",
         "Warranty on parts + labor",
       ],
     },
@@ -3849,7 +3849,7 @@ export const services: ServicePage[] = [
       { number: "Red Seal", label: "certified", icon: "award" },
     ],
     callout:
-      "Tank leaking or water gone cold? Call 587-834-3668 — our Calgary trucks are stocked and can reach most Airdrie addresses within 60-90 minutes.",
+      "Tank leaking or water gone cold? Call 587-834-3668 — our Calgary trucks are stocked and can reach most Airdrie addresses quickly when conditions allow.",
     richContent: {
       sections: [
         {
@@ -3919,7 +3919,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "Do you handle emergency hot water tank failures in Airdrie?",
-            a: "Yes — priority dispatch typically gets a tech to your door in 60–90 minutes anywhere in Airdrie, including Coopers Crossing, Ravenswood, and Reunion. We carry the most common 40 and 50 gallon tanks on the truck so a same-day swap is usually possible.",
+            a: "Yes — priority dispatch typically gets a tech to your door quickly when conditions allow anywhere in Airdrie, including Coopers Crossing, Ravenswood, and Reunion. We carry the most common 40 and 50 gallon tanks on the truck so a same-day swap is usually possible.",
           },
         ],
       },
@@ -4071,7 +4071,7 @@ export const services: ServicePage[] = [
     intro:
       "Ravenswood plumbers serving Airdrie's established early-2000s neighborhood. Emergency repairs, water heaters, drain cleaning, leak detection.",
     features: [
-      "Priority emergency response",
+      "Stocked Calgary trucks",
       "Professional drain cleaning",
       "Complete water heater services",
       "Fixture installation & replacement",
@@ -4107,7 +4107,7 @@ export const services: ServicePage[] = [
       subtitle:
         "Fast, reliable plumbing for Ravenswood's modern homes and commercial properties — priority emergency dispatch.",
       bullets: [
-        "60-90 minute Ravenswood response",
+        "Stocked Calgary trucks",
         "Infrared + acoustic leak detection",
         "Full licensing + insurance",
         "Comprehensive workmanship warranty",
@@ -4116,7 +4116,7 @@ export const services: ServicePage[] = [
     stats: [
       { number: "25+", label: "Years in Alberta", icon: "verified" },
       { number: "5.0★", label: "Google rated", icon: "star" },
-      { number: "60-90m", label: "Ravenswood ETA", icon: "schedule" },
+      { number: "FREE", label: "Written estimates", icon: "request_quote" },
       { number: "Licensed", label: "& insured", icon: "award" },
     ],
     callout:
@@ -4166,7 +4166,7 @@ export const services: ServicePage[] = [
           "From urgent repairs to routine service or major installations, we're ready to assist. Review our commonly asked questions below, or contact us directly at 587-834-3668.",
         items: [
           { q: "Are priority emergency plumbing services available in Ravenswood?", a: "Yes, FlameTech Plumbing provides priority emergency service throughout Ravenswood, Airdrie. Whether facing burst pipes, major leaks, or sewer backups, our licensed technicians respond rapidly. Contact us anytime at 587-834-3668." },
-          { q: "What's your typical response time for Ravenswood calls?", a: "Our technicians generally reach Ravenswood locations within 60-90 minutes following your call, depending on current service demand and traffic patterns. During emergencies, we prioritize swift arrival to minimize property damage and restore functionality." },
+          { q: "What's your typical response time for Ravenswood calls?", a: "Our technicians generally reach Ravenswood locations quickly when conditions allow following your call, depending on current service demand and traffic patterns. During emergencies, we prioritize swift arrival to minimize property damage and restore functionality." },
           { q: "Which plumbing services does FlameTech offer in Ravenswood?", a: "We deliver complete plumbing solutions including drain clearing, water heater service and installation, leak identification, pipe repair and replacement, fixture installations, sewer line work, and bathroom/kitchen renovations." },
           { q: "Do your technicians carry proper licensing and insurance?", a: "Absolutely. Every FlameTech Plumbing technician holds full licensing, insurance coverage, and certification for work throughout Alberta. We maintain extensive liability protection safeguarding both our crew and your property." },
           { q: "What warranty coverage accompanies your services?", a: "We back our craftsmanship with comprehensive warranties on all work performed. Our satisfaction commitment ensures complete happiness with results, or we'll correct any concerns. We additionally provide manufacturer warranties on components and equipment we install." },
@@ -4229,7 +4229,7 @@ export const services: ServicePage[] = [
       subtitle:
         "Specialized plumbing for Reunion's modern residential developments — priority emergency dispatch.",
       bullets: [
-        "60-90 minute Reunion response",
+        "Stocked Calgary trucks",
         "Thermal + ultrasonic leak detection",
         "Full licensing + insurance",
         "Comprehensive workmanship warranty",
@@ -4238,7 +4238,7 @@ export const services: ServicePage[] = [
     stats: [
       { number: "25+", label: "Years in Alberta", icon: "verified" },
       { number: "5.0★", label: "Google rated", icon: "star" },
-      { number: "60-90m", label: "Reunion ETA", icon: "schedule" },
+      { number: "FREE", label: "Written estimates", icon: "request_quote" },
       { number: "Licensed", label: "& insured", icon: "award" },
     ],
     callout:
@@ -4288,7 +4288,7 @@ export const services: ServicePage[] = [
           "Whether addressing urgent repairs, standard maintenance, or significant installations, we're prepared to help. Reach us directly at 587-834-3668.",
         items: [
           { q: "Does FlameTech offer priority emergency service in Reunion?", a: "Yes, FlameTech Plumbing delivers priority emergency coverage throughout Reunion, Airdrie. Whether confronting broken pipes, substantial leaks, or sewer obstructions, our licensed professionals respond swiftly. Reach us anytime at 587-834-3668." },
-          { q: "How fast can your team reach Reunion properties?", a: "Our professionals usually arrive at Reunion addresses within 60-90 minutes after your call, subject to prevailing service demand and traffic circumstances. For critical emergencies, we emphasize rapid arrival." },
+          { q: "How fast can your team reach Reunion properties?", a: "Our professionals usually arrive at Reunion addresses quickly when conditions allow after your call, subject to prevailing service demand and traffic circumstances. For critical emergencies, we emphasize rapid arrival." },
           { q: "What plumbing services do you provide in Reunion?", a: "We supply total plumbing solutions encompassing drain cleaning, water heater maintenance and setup, leak discovery, pipe restoration and substitution, fixture placements, sewer line operations, and bathroom/kitchen remodeling." },
           { q: "Are all your plumbers properly licensed and insured?", a: "Absolutely. Every FlameTech Plumbing technician possesses complete licensing, insurance protection, and certification throughout Alberta. We carry extensive liability coverage protecting our personnel and your premises." },
           { q: "What warranty protection comes with your services?", a: "We support our craftsmanship through comprehensive warranties covering all completed work. Our satisfaction commitment guarantees total happiness with outcomes, or we'll resolve any issues. We also extend manufacturer warranties covering parts and equipment we install." },
@@ -4320,7 +4320,7 @@ export const services: ServicePage[] = [
     intro:
       "Expert plumbers serving Altadore, Calgary. Heritage home specialists with fast response, honest pricing, and priority emergency service for inner-city SW Calgary properties.",
     features: [
-      "Priority emergency plumbing response",
+      "Stocked Calgary trucks",
       "Drain cleaning & hydro-jetting",
       "Water heater service & installation",
       "Advanced leak detection",
@@ -4358,14 +4358,14 @@ export const services: ServicePage[] = [
       bullets: [
         "Licensed, insured, and bonded",
         "Real person answers the phone",
-        "60-90 minute Altadore ETA",
+        "Stocked Calgary trucks",
         "Heritage home experience",
       ],
     },
     stats: [
       { number: "25+", label: "Years in Calgary", icon: "verified" },
       { number: "5.0★", label: "Google rated", icon: "star" },
-      { number: "60-90m", label: "Altadore ETA", icon: "schedule" },
+      { number: "FREE", label: "Written estimates", icon: "request_quote" },
       { number: "Licensed", label: "& insured", icon: "award" },
     ],
     callout:
@@ -4412,7 +4412,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "How fast can a plumber arrive at my Altadore property?",
-            a: "Our plumbers generally reach Altadore homes within 60-90 minutes after your call, depending on current service demand and traffic patterns. For emergency situations, we prioritize quick response times to minimize water damage and restore your plumbing system promptly.",
+            a: "Our plumbers generally reach Altadore homes quickly when conditions allow after your call, depending on current service demand and traffic patterns. For emergency situations, we prioritize quick response times to minimize water damage and restore your plumbing system promptly.",
           },
           {
             q: "What plumbing services are available in Altadore?",
@@ -4487,14 +4487,14 @@ export const services: ServicePage[] = [
       bullets: [
         "Licensed, insured, and bonded",
         "Real person answers the phone",
-        "60-90 minute Aspen Woods ETA",
+        "Stocked Calgary trucks",
         "Poly-B identification & replacement",
       ],
     },
     stats: [
       { number: "25+", label: "Years in Calgary", icon: "verified" },
       { number: "5.0★", label: "Google rated", icon: "star" },
-      { number: "60-90m", label: "Aspen Woods ETA", icon: "schedule" },
+      { number: "FREE", label: "Written estimates", icon: "request_quote" },
       { number: "Licensed", label: "& insured", icon: "award" },
     ],
     callout:
@@ -4532,7 +4532,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "How rapidly can you reach Aspen Woods properties?",
-            a: "Our technicians generally arrive at Aspen Woods estates within 60-90 minutes of your emergency contact, contingent upon current service demand and Calgary traffic patterns. We prioritize swift response for emergencies to minimize damage.",
+            a: "Our technicians generally arrive at Aspen Woods estates quickly when conditions allow of your emergency contact, contingent upon current service demand and Calgary traffic patterns. We prioritize swift response for emergencies to minimize damage.",
           },
           {
             q: "What plumbing solutions do you offer Aspen Woods homeowners?",
@@ -4582,7 +4582,7 @@ export const services: ServicePage[] = [
         d: "We've worked in hundreds of Auburn Bay homes and know how Morrison, Brookfield, and other builders ran their plumbing.",
       },
       {
-        t: "45-minute typical ETA",
+        t: "Stocked Calgary trucks",
         d: "Our trucks run from SE Calgary, so we're usually at Auburn Bay homes fast — even in the middle of a blizzard.",
       },
     ],
@@ -4603,18 +4603,18 @@ export const services: ServicePage[] = [
     sidebar: {
       title: "Auburn Bay Plumber",
       subtitle:
-        "Local SE Calgary plumbers — 45-minute typical ETA, fully-stocked trucks, priority emergency dispatch.",
+        "Local SE Calgary plumbers — fully-stocked trucks, priority emergency dispatch.",
       bullets: [
         "Licensed, insured, and bonded",
         "Real person answers the phone",
-        "45-min typical Auburn Bay ETA",
+        "Stocked Calgary trucks",
         "Builder-grade system experts",
       ],
     },
     stats: [
       { number: "25+", label: "Years in Calgary", icon: "verified" },
       { number: "5.0★", label: "Google rated", icon: "star" },
-      { number: "45m", label: "Auburn Bay ETA", icon: "schedule" },
+      { number: "FREE", label: "Written estimates", icon: "request_quote" },
       { number: "Licensed", label: "& insured", icon: "award" },
     ],
     callout:
@@ -4751,7 +4751,7 @@ export const services: ServicePage[] = [
     stats: [
       { number: "25+", label: "Years in Calgary", icon: "verified" },
       { number: "5.0★", label: "Google rated", icon: "star" },
-      { number: "60-90m", label: "Bowness ETA", icon: "schedule" },
+      { number: "FREE", label: "Written estimates", icon: "request_quote" },
       { number: "Licensed", label: "& insured", icon: "award" },
     ],
     callout:
@@ -4883,7 +4883,7 @@ export const services: ServicePage[] = [
     stats: [
       { number: "25+", label: "Years in Calgary", icon: "verified" },
       { number: "5.0★", label: "Google rated", icon: "star" },
-      { number: "60-90m", label: "Bridlewood ETA", icon: "schedule" },
+      { number: "FREE", label: "Written estimates", icon: "request_quote" },
       { number: "Licensed", label: "& insured", icon: "award" },
     ],
     callout:
@@ -4971,7 +4971,7 @@ export const services: ServicePage[] = [
     intro:
       "Expert plumbers serving all NW Calgary communities. Priority emergency service, repairs & installations. Licensed, reliable, and affordable.",
     features: [
-      "Priority emergency response",
+      "Stocked Calgary trucks",
       "Drain & sewer camera inspection",
       "Tankless & tank water heaters",
       "Poly-B retrofitting",
@@ -5009,14 +5009,14 @@ export const services: ServicePage[] = [
       bullets: [
         "Licensed, insured, and bonded",
         "Every NW neighborhood covered",
-        "60-90 minute typical ETA",
+        "Stocked Calgary trucks",
         "Poly-B & galvanized experts",
       ],
     },
     stats: [
       { number: "25+", label: "Years in Calgary", icon: "verified" },
       { number: "5.0★", label: "Google rated", icon: "star" },
-      { number: "60-90m", label: "NW Calgary ETA", icon: "schedule" },
+      { number: "FREE", label: "Written estimates", icon: "request_quote" },
       { number: "Licensed", label: "& insured", icon: "award" },
     ],
     callout:
@@ -5075,7 +5075,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "What's your typical response time in Northwest Calgary?",
-            a: "Most Northwest Calgary locations see our trucks within 60-90 minutes of your call, though actual timing varies based on your exact address and current traffic patterns. Emergency situations receive priority dispatch to limit potential damage.",
+            a: "Most Northwest Calgary locations see our trucks quickly when conditions allow of your call, though actual timing varies based on your exact address and current traffic patterns. Emergency situations receive priority dispatch to limit potential damage.",
           },
           {
             q: "What services does your NW Calgary team provide?",
@@ -5155,7 +5155,7 @@ export const services: ServicePage[] = [
     stats: [
       { number: "25+", label: "Years in Alberta", icon: "verified" },
       { number: "5.0★", label: "Google rated", icon: "star" },
-      { number: "60-90m", label: "SE Calgary ETA", icon: "schedule" },
+      { number: "FREE", label: "Written estimates", icon: "request_quote" },
       { number: "Licensed", label: "& insured", icon: "award" },
     ],
     callout:
@@ -5203,7 +5203,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "How quickly can you reach my SE Calgary location?",
-            a: "We typically arrive at Southeast Calgary addresses within 60-90 minutes of your call, depending on your specific location and current road conditions. Emergency calls receive priority routing to minimize water damage and get your system functioning again quickly. Our service vehicles are stocked with commonly needed parts, allowing us to resolve most issues during the first visit.",
+            a: "We typically arrive at Southeast Calgary addresses quickly when conditions allow of your call, depending on your specific location and current road conditions. Emergency calls receive priority routing to minimize water damage and get your system functioning again quickly. Our service vehicles are stocked with commonly needed parts, allowing us to resolve most issues during the first visit.",
           },
           {
             q: "What plumbing services do you provide in SE Calgary?",
@@ -5236,7 +5236,7 @@ export const services: ServicePage[] = [
     intro:
       "Expert plumbing services in Calgary SW. Priority service [emergency plumbers](/emergency-plumber-calgary) serving Southwest Calgary. Call 587-834-3668 for fast, reliable service.",
     features: [
-      "Priority emergency plumbing response",
+      "Stocked Calgary trucks",
       "Sewer camera inspections & repairs",
       "Tankless & tank water heater service",
       "Leak detection & repair",
@@ -5282,7 +5282,7 @@ export const services: ServicePage[] = [
     stats: [
       { number: "25+", label: "Years in Alberta", icon: "verified" },
       { number: "5.0★", label: "Google rated", icon: "star" },
-      { number: "60-90m", label: "SW Calgary ETA", icon: "schedule" },
+      { number: "FREE", label: "Written estimates", icon: "request_quote" },
       { number: "Licensed", label: "& insured", icon: "award" },
     ],
     callout:
@@ -5330,7 +5330,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "How quickly can you respond to calls in Southwest Calgary?",
-            a: "We typically arrive at SW Calgary properties within 60-90 minutes of your call, depending on your specific location and current traffic conditions. For emergency situations, we prioritize rapid response to minimize water damage and get your plumbing system operational as quickly as possible. Our service vehicles are fully stocked to handle most repairs on the first visit.",
+            a: "We typically arrive at SW Calgary properties quickly when conditions allow of your call, depending on your specific location and current traffic conditions. For emergency situations, we prioritize rapid response to minimize water damage and get your plumbing system operational as quickly as possible. Our service vehicles are fully stocked to handle most repairs on the first visit.",
           },
           {
             q: "What plumbing services do you provide in SW Calgary?",
@@ -5408,7 +5408,7 @@ export const services: ServicePage[] = [
     stats: [
       { number: "2004+", label: "Serving Chaparral", icon: "verified" },
       { number: "5.0★", label: "Google rated", icon: "star" },
-      { number: "60-90m", label: "Chaparral ETA", icon: "schedule" },
+      { number: "FREE", label: "Written estimates", icon: "request_quote" },
       { number: "Licensed", label: "& insured", icon: "award" },
     ],
     callout:
@@ -5538,7 +5538,7 @@ export const services: ServicePage[] = [
     stats: [
       { number: "25+", label: "Years in Alberta", icon: "verified" },
       { number: "5.0★", label: "Google rated", icon: "star" },
-      { number: "<60m", label: "Copperfield ETA", icon: "schedule" },
+      { number: "FREE", label: "Written estimates", icon: "request_quote" },
       { number: "Licensed", label: "& insured", icon: "award" },
     ],
     callout:
@@ -5623,7 +5623,7 @@ export const services: ServicePage[] = [
     intro:
       "Reliable Cranston plumbers serving SE Calgary. Priority [emergency response](/emergency-plumber-calgary), [drain cleaning](/drain-cleaning-calgary), [hot water tank](/hot-water-tanks) service, and [Poly-B replacement](/polyb-plumbing-calgary).",
     features: [
-      "Priority emergency plumbing response",
+      "Stocked Calgary trucks",
       "Sewer camera inspections",
       "Trenchless sewer line replacement",
       "Tank & tankless water heater service",
@@ -5668,7 +5668,7 @@ export const services: ServicePage[] = [
     stats: [
       { number: "25+", label: "Years in Alberta", icon: "verified" },
       { number: "5.0★", label: "Google rated", icon: "star" },
-      { number: "60-90m", label: "Cranston ETA", icon: "schedule" },
+      { number: "FREE", label: "Written estimates", icon: "request_quote" },
       { number: "Licensed", label: "& insured", icon: "award" },
     ],
     callout:
@@ -5715,7 +5715,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "How fast can a plumber reach my Cranston home?",
-            a: "Cranston's location along Deerfoot Trail and Stoney Trail gives us excellent access. We generally reach Cranston properties within 60–90 minutes, though emergency calls are prioritized for the fastest possible dispatch. Our service vans come fully equipped with common parts and tools, so most repairs are completed in a single visit without the need for a return trip.",
+            a: "Cranston's location along Deerfoot Trail and Stoney Trail gives us excellent access. We generally reach Cranston properties quickly when conditions allow, though emergency calls are prioritized for the fastest possible dispatch. Our service vans come fully equipped with common parts and tools, so most repairs are completed in a single visit without the need for a return trip.",
           },
           {
             q: "What services does FlameTech offer Cranston residents?",
@@ -5761,8 +5761,8 @@ export const services: ServicePage[] = [
         d: "We service every area of Edgemont — from the original 1990s developments to the newer infill homes. Our trucks are stocked with parts for both older and newer plumbing systems.",
       },
       {
-        t: "Real person answers, fast ETA",
-        d: "30-60 minute ETA during regular hours and 60-90 minutes after-hours for genuine emergencies. No phone trees, no automated systems.",
+        t: "Stocked Calgary trucks",
+        d: "Real person answers, even after-hours, for genuine emergencies. No phone trees, no automated systems — straight to a plumber who can dispatch.",
       },
     ],
     seoTitle: "Edgemont Plumbers Calgary | Priority Emergency Service",
@@ -5793,7 +5793,7 @@ export const services: ServicePage[] = [
     stats: [
       { number: "25+", label: "Years in Alberta", icon: "verified" },
       { number: "5.0★", label: "Google rated", icon: "star" },
-      { number: "30-60m", label: "Edgemont ETA", icon: "schedule" },
+      { number: "FREE", label: "Written estimates", icon: "request_quote" },
       { number: "Licensed", label: "& insured", icon: "award" },
     ],
     callout:
@@ -5845,7 +5845,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "How quickly can you get to my Edgemont home for an emergency?",
-            a: "For genuine plumbing emergencies in Edgemont, we typically arrive within 30-60 minutes during regular hours and 60-90 minutes for after-hours calls. Our [emergency plumbers](/emergency-plumber-calgary) are familiar with the neighborhood and keep the most common repair parts in their trucks. We understand that every minute counts when you're dealing with flooding or sewer backups.",
+            a: "For genuine plumbing emergencies in Edgemont, our priority dispatch gets a tech on the way as quickly as conditions allow. Our [emergency plumbers](/emergency-plumber-calgary) are familiar with the neighborhood and keep the most common repair parts in their trucks. We understand that every minute counts when you're dealing with flooding or sewer backups.",
           },
           {
             q: "Should I replace my Poly-B plumbing if I'm selling my Edgemont home?",
@@ -5924,7 +5924,7 @@ export const services: ServicePage[] = [
     stats: [
       { number: "25+", label: "Years in Alberta", icon: "verified" },
       { number: "5.0★", label: "Google rated", icon: "star" },
-      { number: "45-60m", label: "Evanston ETA", icon: "schedule" },
+      { number: "FREE", label: "Written estimates", icon: "request_quote" },
       { number: "Licensed", label: "& insured", icon: "award" },
     ],
     callout:
@@ -5984,7 +5984,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "How quickly can you respond to emergency calls in Evanston?",
-            a: "We typically arrive within 45-60 minutes for emergency calls in Evanston, sometimes faster depending on traffic and our current location. We stock our trucks with the most common parts for Evanston homes, so many repairs can be completed on the first visit even during emergencies.",
+            a: "We typically arrive within s for emergency calls in Evanston, sometimes faster depending on traffic and our current location. We stock our trucks with the most common parts for Evanston homes, so many repairs can be completed on the first visit even during emergencies.",
           },
           {
             q: "Do you service the brand new homes being built in north Evanston?",
@@ -6058,7 +6058,7 @@ export const services: ServicePage[] = [
     stats: [
       { number: "25+", label: "Years in Alberta", icon: "verified" },
       { number: "5.0★", label: "Google rated", icon: "star" },
-      { number: "60-90m", label: "Evergreen ETA", icon: "schedule" },
+      { number: "FREE", label: "Written estimates", icon: "request_quote" },
       { number: "Licensed", label: "& insured", icon: "award" },
     ],
     callout:
@@ -6114,7 +6114,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "How quickly can a plumber reach my Evergreen home?",
-            a: "Our plumbers typically arrive at Evergreen properties within 60-90 minutes of your call, depending on current demand and traffic. For emergency situations we prioritize rapid response to minimize water damage and get your plumbing back to normal as quickly as possible.",
+            a: "Our plumbers typically arrive at Evergreen properties quickly when conditions allow of your call, depending on current demand and traffic. For emergency situations we prioritize rapid response to minimize water damage and get your plumbing back to normal as quickly as possible.",
           },
           {
             q: "What plumbing services do you offer in Evergreen?",
@@ -6196,7 +6196,7 @@ export const services: ServicePage[] = [
     stats: [
       { number: "25+", label: "Years in Alberta", icon: "verified" },
       { number: "5.0★", label: "Google rated", icon: "star" },
-      { number: "60-90m", label: "Huntington ETA", icon: "schedule" },
+      { number: "FREE", label: "Written estimates", icon: "request_quote" },
       { number: "Licensed", label: "& insured", icon: "award" },
     ],
     callout:
@@ -6257,7 +6257,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "How quickly can you respond to plumbing emergencies in Huntington Hills?",
-            a: "We typically arrive within 60-90 minutes for true emergencies like burst pipes or sewer backups. Our trucks are staged across Calgary, and we know all the fastest routes to get to northwest communities like Huntington Hills even during rush hour or bad weather.",
+            a: "We typically arrive quickly when conditions allow for true emergencies like burst pipes or sewer backups. Our trucks are staged across Calgary, and we know all the fastest routes to get to northwest communities like Huntington Hills even during rush hour or bad weather.",
           },
           {
             q: "What's the best way to prevent frozen pipes during chinooks?",
@@ -6331,7 +6331,7 @@ export const services: ServicePage[] = [
     stats: [
       { number: "25+", label: "Years in Alberta", icon: "verified" },
       { number: "5.0★", label: "Google rated", icon: "star" },
-      { number: "45-60m", label: "Killarney ETA", icon: "schedule" },
+      { number: "FREE", label: "Written estimates", icon: "request_quote" },
       { number: "Licensed", label: "& insured", icon: "award" },
     ],
     callout:
@@ -6459,14 +6459,14 @@ export const services: ServicePage[] = [
       bullets: [
         "Licensed SE Calgary plumbers",
         "Backup sump pumps on every truck",
-        "30-45 minute Mahogany ETA",
+        "Stocked Calgary trucks",
         "One-year workmanship guarantee",
       ],
     },
     stats: [
       { number: "25+", label: "Years in Alberta", icon: "verified" },
       { number: "5.0★", label: "Google rated", icon: "star" },
-      { number: "30-45m", label: "Mahogany ETA", icon: "schedule" },
+      { number: "FREE", label: "Written estimates", icon: "request_quote" },
       { number: "Licensed", label: "& insured", icon: "award" },
     ],
     callout:
@@ -6601,7 +6601,7 @@ export const services: ServicePage[] = [
     stats: [
       { number: "25+", label: "Years in Alberta", icon: "verified" },
       { number: "5.0★", label: "Google rated", icon: "star" },
-      { number: "45-60m", label: "Marda Loop ETA", icon: "schedule" },
+      { number: "FREE", label: "Written estimates", icon: "request_quote" },
       { number: "Licensed", label: "& insured", icon: "award" },
     ],
     callout:
@@ -6729,7 +6729,7 @@ export const services: ServicePage[] = [
         "Fast, reliable plumbing service throughout McKenzie Lake — priority emergency dispatch, honest pricing, local crew.",
       bullets: [
         "Real person answers the phone",
-        "60-minute typical ETA for emergencies",
+        "Priority emergency dispatch",
         "Licensed, insured, and bonded",
         "Experts in 2000-2005 builder-grade systems",
       ],
@@ -6737,7 +6737,7 @@ export const services: ServicePage[] = [
     stats: [
       { number: "20+", label: "Years in SE Calgary", icon: "verified" },
       { number: "5.0★", label: "Google rated", icon: "star" },
-      { number: "60m", label: "McKenzie Lake ETA", icon: "schedule" },
+      { number: "FREE", label: "Written estimates", icon: "request_quote" },
       { number: "Licensed", label: "& insured", icon: "award" },
     ],
     callout:
@@ -6846,7 +6846,7 @@ export const services: ServicePage[] = [
       subtitle:
         "Fully stocked trucks, priority dispatch, and 25+ years of local experience throughout McKenzie Towne.",
       bullets: [
-        "45-minute typical emergency ETA",
+        "Stocked Calgary trucks",
         "Licensed, bonded & insured",
         "Hydro-jetting & camera inspection on truck",
         "Trenchless sewer repair capable",
@@ -6855,7 +6855,7 @@ export const services: ServicePage[] = [
     stats: [
       { number: "25+", label: "Years in McKenzie Towne", icon: "verified" },
       { number: "5.0★", label: "Google rated", icon: "star" },
-      { number: "45m", label: "Typical emergency ETA", icon: "schedule" },
+      { number: "FREE", label: "Written estimates", icon: "request_quote" },
       { number: "Licensed", label: "& insured", icon: "award" },
     ],
     callout:
@@ -6978,7 +6978,7 @@ export const services: ServicePage[] = [
     stats: [
       { number: "25+", label: "Years of experience", icon: "verified" },
       { number: "5.0★", label: "Google rated", icon: "star" },
-      { number: "60-90m", label: "Mount Royal ETA", icon: "schedule" },
+      { number: "FREE", label: "Written estimates", icon: "request_quote" },
       { number: "Master", label: "licensed plumbers", icon: "award" },
     ],
     callout:
@@ -7029,7 +7029,7 @@ export const services: ServicePage[] = [
         heading: "Frequently Asked Questions",
         items: [
           { q: "Does FlameTech provide priority emergency service to Mount Royal?", a: "Absolutely. FlameTech Plumbing delivers priority emergency response throughout Mount Royal, Calgary. When confronting burst pipes, severe leaks, or sewage emergencies, our licensed master plumbers mobilize rapidly. Reach our priority line at 587-834-3668 any hour for immediate assistance." },
-          { q: "What response time can Mount Royal homeowners expect?", a: "Our technicians typically arrive at Mount Royal properties within 60-90 minutes following your emergency call, varying with service demand and Calgary traffic conditions. We prioritize rapid response for emergency situations to minimize property damage." },
+          { q: "What response time can Mount Royal homeowners expect?", a: "Our technicians typically arrive at Mount Royal properties quickly when conditions allow following your emergency call, varying with service demand and Calgary traffic conditions. We prioritize rapid response for emergency situations to minimize property damage." },
           { q: "Which plumbing services do you offer Mount Royal residents?", a: "We provide complete plumbing solutions including premium drain cleaning, luxury water heater service and installation, precision leak detection, pipe restoration and replacement, designer fixture installations, comprehensive sewer maintenance, and sophisticated bathroom/kitchen renovations." },
           { q: "Are your technicians properly licensed and insured?", a: "Definitely. Every FlameTech Plumbing technician maintains complete licensure, bonding, and certification for Calgary operations. We carry extensive liability insurance protecting both our professionals and your valuable property." },
           { q: "Do you provide warranties on plumbing work?", a: "Absolutely, we stand behind our workmanship with comprehensive service warranties. Our satisfaction commitment ensures complete resolution if you're dissatisfied with our work. Additionally, we extend manufacturer warranties on all components and equipment we install." },
@@ -7092,16 +7092,16 @@ export const services: ServicePage[] = [
       subtitle:
         "SE Calgary plumbing team with parts on the truck for Brookfield builder-grade fixtures and modern custom builds alike.",
       bullets: [
-        "45-90 minute typical emergency ETA",
+        "Stocked Calgary trucks",
         "Real dispatcher answers the phone",
         "Same-day water heater replacement",
-        "Spring thaw flood response",
+        "Stocked Calgary trucks",
       ],
     },
     stats: [
       { number: "20+", label: "Years in SE Calgary", icon: "verified" },
       { number: "5.0★", label: "Google rated", icon: "star" },
-      { number: "45-90m", label: "New Brighton ETA", icon: "schedule" },
+      { number: "FREE", label: "Written estimates", icon: "request_quote" },
       { number: "Licensed", label: "& insured", icon: "award" },
     ],
     callout:
@@ -7210,7 +7210,7 @@ export const services: ServicePage[] = [
       subtitle:
         "NW Calgary plumbing specialists with 25+ years in Panorama Hills — priority dispatch, honest pricing, licensed crew.",
       bullets: [
-        "60-minute typical emergency ETA",
+        "Stocked Calgary trucks",
         "Licensed, bonded & insured",
         "Journeyman & master certified",
         "Detached homes, duplexes, townhouses",
@@ -7219,7 +7219,7 @@ export const services: ServicePage[] = [
     stats: [
       { number: "25+", label: "Years in NW Calgary", icon: "verified" },
       { number: "5.0★", label: "Google rated", icon: "star" },
-      { number: "60m", label: "Panorama Hills ETA", icon: "schedule" },
+      { number: "FREE", label: "Written estimates", icon: "request_quote" },
       { number: "Licensed", label: "& insured", icon: "award" },
     ],
     callout:
@@ -7335,14 +7335,14 @@ export const services: ServicePage[] = [
       bullets: [
         "Specialized hillside drainage knowledge",
         "Licensed, bonded & insured",
-        "Priority emergency response",
+        "Stocked Calgary trucks",
         "Real person answers the phone",
       ],
     },
     stats: [
       { number: "25+", label: "Years in SW Calgary", icon: "verified" },
       { number: "5.0★", label: "Google rated", icon: "star" },
-      { number: "60-90m", label: "Signal Hill ETA", icon: "schedule" },
+      { number: "FREE", label: "Written estimates", icon: "request_quote" },
       { number: "Licensed", label: "& insured", icon: "award" },
     ],
     callout:
@@ -7466,7 +7466,7 @@ export const services: ServicePage[] = [
     stats: [
       { number: "25+", label: "Years in Calgary", icon: "verified" },
       { number: "5.0★", label: "Google rated", icon: "star" },
-      { number: "45-60m", label: "Tuscany ETA", icon: "schedule" },
+      { number: "FREE", label: "Written estimates", icon: "request_quote" },
       { number: "Licensed", label: "& insured", icon: "award" },
     ],
     callout:
@@ -7518,7 +7518,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "How quickly can you respond to emergency calls in Tuscany?",
-            a: "Emergency response time to Tuscany averages 45-60 minutes, depending on traffic and weather. Our northwest Calgary dispatch gives us quick access via Crowchild Trail or Bow Trail. We stock our service vehicles with common repair parts for Tuscany's typical home configurations.",
+            a: "Emergency response time to Tuscany averages s, depending on traffic and weather. Our northwest Calgary dispatch gives us quick access via Crowchild Trail or Bow Trail. We stock our service vehicles with common repair parts for Tuscany's typical home configurations.",
           },
           {
             q: "Should I be concerned about Poly-B pipes in my Tuscany home?",
@@ -7596,7 +7596,7 @@ export const services: ServicePage[] = [
     stats: [
       { number: "25+", label: "Years in Calgary", icon: "verified" },
       { number: "5.0★", label: "Google rated", icon: "star" },
-      { number: "30-45m", label: "Varsity ETA", icon: "schedule" },
+      { number: "FREE", label: "Written estimates", icon: "request_quote" },
       { number: "Licensed", label: "& insured", icon: "award" },
     ],
     callout:
@@ -7734,7 +7734,7 @@ export const services: ServicePage[] = [
     stats: [
       { number: "25+", label: "Years in Calgary", icon: "verified" },
       { number: "5.0★", label: "Google rated", icon: "star" },
-      { number: "60-90m", label: "West Springs ETA", icon: "schedule" },
+      { number: "FREE", label: "Written estimates", icon: "request_quote" },
       { number: "Licensed", label: "& insured", icon: "award" },
     ],
     callout:
@@ -7782,7 +7782,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "How quickly can you reach West Springs homes?",
-            a: "Our technicians typically arrive at West Springs properties within 60-90 minutes of your emergency call, depending on current service demand and Calgary traffic conditions. We prioritize quick response for emergencies to minimize damage and restore your plumbing function promptly.",
+            a: "Our technicians typically arrive at West Springs properties quickly when conditions allow of your emergency call, depending on current service demand and Calgary traffic conditions. We prioritize quick response for emergencies to minimize damage and restore your plumbing function promptly.",
           },
           {
             q: "What plumbing services do you provide to West Springs families?",
@@ -7864,7 +7864,7 @@ export const services: ServicePage[] = [
     stats: [
       { number: "25+", label: "Years in Calgary", icon: "verified" },
       { number: "5.0★", label: "Google rated", icon: "star" },
-      { number: "60-90m", label: "Woodbine ETA", icon: "schedule" },
+      { number: "FREE", label: "Written estimates", icon: "request_quote" },
       { number: "Licensed", label: "& insured", icon: "award" },
     ],
     callout:
@@ -7993,7 +7993,7 @@ export const services: ServicePage[] = [
     stats: [
       { number: "25+", label: "Years in Alberta", icon: "verified" },
       { number: "5.0★", label: "Google rated", icon: "star" },
-      { number: "60-90m", label: "Airdrie ETA", icon: "schedule" },
+      { number: "FREE", label: "Written estimates", icon: "request_quote" },
       { number: "Licensed", label: "& insured", icon: "award" },
     ],
     callout:
@@ -8010,7 +8010,7 @@ export const services: ServicePage[] = [
             { heading: "Fixture installation & repair", body: "We install and repair all types of plumbing fixtures including faucets, toilets, sinks, garbage disposals, and more — with attention to detail for proper installation." },
             { heading: "Leak detection", body: "Thermal and acoustic equipment to locate hidden leaks behind walls and under floors before they cause damage." },
             { heading: "Sump pump service", body: "Installation, testing, and repair of sump pumps to prevent basement flooding during spring melt and heavy rainfall." },
-            { heading: "Priority emergency response", body: "A real person answers your call and dispatches a plumber from nearby. No automated systems or overseas call centers." },
+            { heading: "Stocked Calgary trucks", body: "A real person answers your call and dispatches a plumber from nearby. No automated systems or overseas call centers." },
           ],
         },
         {
@@ -8052,7 +8052,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "How quickly can you reach Coopers Crossing?",
-            a: "Our technicians typically arrive within 60-90 minutes of your emergency call, depending on traffic and weather. We dispatch from nearby and stock our trucks with common parts for Airdrie-area homes so most issues get fixed on the first visit.",
+            a: "Our technicians typically arrive quickly when conditions allow of your emergency call, depending on traffic and weather. We dispatch from nearby and stock our trucks with common parts for Airdrie-area homes so most issues get fixed on the first visit.",
           },
           {
             q: "Can you handle hard water problems in Coopers Crossing?",
@@ -8100,7 +8100,7 @@ export const services: ServicePage[] = [
       "Boiler installation & replacement",
       "Boiler repair & diagnostics",
       "Annual maintenance & tune-ups",
-      "Priority emergency response",
+      "Stocked Calgary trucks",
       "High-efficiency, conventional, combi",
       "Hydronic + radiant floor systems",
     ],
@@ -8244,7 +8244,7 @@ export const services: ServicePage[] = [
       "Hot water tank replacement",
       "Expansion tank installation",
       "Gas line & venting work",
-      "Priority emergency response",
+      "Stocked Calgary trucks",
     ],
     bullets: [
       {
@@ -8500,7 +8500,7 @@ export const services: ServicePage[] = [
       "Water softener install",
     ],
     bullets: [
-      { t: "Quick dispatch from Calgary", d: "Trucks roll east on 17 Ave or Glenmore directly into Chestermere — most calls land within 60-90 minutes." },
+      { t: "Quick dispatch from Calgary", d: "Trucks roll east on 17 Ave or Glenmore directly into Chestermere — most calls land quickly when conditions allow." },
       { t: "Licensed & insured", d: "Alberta-licensed plumbers and gas fitters. Full liability coverage protecting your property." },
       { t: "Hard-water aware", d: "Same well-and-treatment water profile as east Calgary. We size and spec for the mineral load, not against a generic baseline." },
     ],
@@ -8523,7 +8523,7 @@ export const services: ServicePage[] = [
       subtitle:
         "Lakeside community coverage with the same crew that serves Calgary.",
       bullets: [
-        "60-90 minute Chestermere ETA",
+        "Stocked Calgary trucks",
         "Licensed, insured, bonded",
         "Real person answers the phone",
         "Poly-B specialists for older lakeside builds",
@@ -8549,7 +8549,7 @@ export const services: ServicePage[] = [
       faq: {
         heading: "Chestermere Plumbing FAQs",
         items: [
-          { q: "Do you dispatch to Chestermere for emergencies?", a: "Yes — Chestermere is on our regular dispatch radius. Most emergency calls land in 60-90 minutes depending on time of day and where in town you are." },
+          { q: "Do you dispatch to Chestermere for emergencies?", a: "Yes — Chestermere is on our regular dispatch radius. Most emergency calls land quickly when conditions allow depending on time of day and where in town you are." },
           { q: "Is plumbing in Chestermere different from Calgary?", a: "The water profile and chinook freeze-thaw cycles are the same as east Calgary. Older lake-area builds from the 80s-90s often have Poly-B piping that needs attention — same pattern as Mahogany or McKenzie Lake." },
           { q: "Are FlameTech plumbers licensed for Chestermere?", a: "Yes. Our Alberta plumbing and gas-fitting licenses cover Chestermere, Cochrane, Okotoks, Carstairs, and the rest of Calgary's surrounding municipalities." },
         ],
@@ -8567,7 +8567,7 @@ export const services: ServicePage[] = [
       "Cochrane homes face Calgary's freeze-thaw cycles plus the added wear of well water in some acreage areas. FlameTech serves Cochrane with the same priority dispatch and Red Seal team we run in Calgary — proper sizing for the local conditions, no upselling.",
     heroBody: [
       "From Riverview and Sunset Ridge to GlenEagles and Heartland, we cover Cochrane for [emergency plumbing](/emergency-plumber-calgary/), [hot water tanks](/hot-water-tanks/), [boiler service](/boiler-service-calgary/), [furnace repair](/furnaces/), and [water softener install](/water-softener/) for well-fed properties.",
-      "Trucks dispatched NW on Highway 1A — typical Cochrane ETA is 75-90 minutes. Call 587-834-3668 for priority service.",
+      "Trucks dispatched NW on Highway 1A — call 587-834-3668 for priority service.",
     ],
     heroSubhead: "Cochrane Plumbing & Heating Team",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
@@ -8584,7 +8584,7 @@ export const services: ServicePage[] = [
     ],
     bullets: [
       { t: "Acreage + well-water experience", d: "Many Cochrane properties run off well water with substantially higher mineral and iron levels than Calgary's treated supply. We size softeners and spec tanks accordingly." },
-      { t: "Trucks dispatched NW", d: "Typical Cochrane ETA is 75-90 minutes via Highway 1A. Same crew that services Tuscany and Edgemont." },
+      { t: "Trucks dispatched NW", d: "Calgary base, Highway 1A routing. Same crew that services Tuscany and Edgemont." },
       { t: "Licensed gas fitters", d: "Alberta-licensed plumbers and B2 gas fitters — boiler, furnace, and water-heater work all in scope." },
     ],
     seoTitle: "Cochrane Plumbers | Plumbing & Heating Services",
@@ -8606,7 +8606,7 @@ export const services: ServicePage[] = [
       subtitle:
         "NW Calgary coverage extends to Cochrane — same crew, same standards.",
       bullets: [
-        "75-90 minute Cochrane ETA",
+        "Stocked Calgary trucks",
         "Licensed, insured, bonded",
         "Well-water + acreage experience",
         "Real person answers the phone",
@@ -8632,7 +8632,7 @@ export const services: ServicePage[] = [
         heading: "Cochrane Plumbing FAQs",
         items: [
           { q: "Do you do well-water work in Cochrane?", a: "Yes — we install and service softeners, filtration, pressure tanks, and pump-side plumbing on Cochrane acreage properties. Bring us a recent water test (or we can take one) and we'll spec the right system." },
-          { q: "How long does it take you to get to Cochrane?", a: "Typically 75-90 minutes depending on time of day. We dispatch from Calgary along Highway 1A. Priority emergency calls take precedence." },
+          { q: "How does dispatch to Cochrane work?", a: "We dispatch from Calgary along Highway 1A. Priority emergency calls take precedence in scheduling. Call 587-834-3668 and we'll confirm the closest available technician and timing for your call." },
           { q: "Are you licensed to work in Cochrane?", a: "Yes. Alberta plumbing and gas-fitting licenses cover all surrounding municipalities including Cochrane, plus Town of Cochrane permits where required." },
         ],
       },
@@ -8649,7 +8649,7 @@ export const services: ServicePage[] = [
       "Okotoks homes share Calgary's hard water and chinook stress — plus a substantial stock of 90s-era builds with Poly-B piping reaching end-of-life. FlameTech runs the same Red Seal team in Okotoks as in Calgary, with priority dispatch from the south.",
     heroBody: [
       "From Drake Landing and Cimarron to Air Ranch and downtown Okotoks, we cover the full town for [emergency plumbing](/emergency-plumber-calgary/), [hot water tank](/hot-water-tanks/) work, [boiler service](/boiler-service-calgary/), [furnace repair](/furnaces/), and [Poly-B replacement](/polyb-plumbing-calgary/).",
-      "Trucks dispatched south on Highway 2 — typical Okotoks ETA is 60-75 minutes. Call 587-834-3668 for fast service.",
+      "Trucks dispatched south on Highway 2 — call 587-834-3668 for fast service.",
     ],
     heroSubhead: "Okotoks Plumbing & Heating Specialists",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
@@ -8666,7 +8666,7 @@ export const services: ServicePage[] = [
     ],
     bullets: [
       { t: "Poly-B specialists", d: "Many Okotoks 90s builds — Drake Landing, original Cimarron — have Poly-B supply lines now hitting 25-30 years and failing at fittings. We do free inspections and written quotes." },
-      { t: "60-75 minute ETA", d: "Trucks dispatched south on Highway 2. Same crew that services [Chaparral](/chaparral-plumbers-calgary/) and [Cranston](/cranston-plumber-calgary/)." },
+      { t: "Stocked Calgary trucks", d: "Trucks dispatched south on Highway 2. Same crew that services [Chaparral](/chaparral-plumbers-calgary/) and [Cranston](/cranston-plumber-calgary/)." },
       { t: "Licensed & insured", d: "Alberta plumbing and gas-fitting licenses, full liability coverage." },
     ],
     seoTitle: "Okotoks Plumbers | Plumbing & Heating Services",
@@ -8688,7 +8688,7 @@ export const services: ServicePage[] = [
       subtitle:
         "SE Calgary coverage extends south to Okotoks — same team, same standards.",
       bullets: [
-        "60-75 minute Okotoks ETA",
+        "Stocked Calgary trucks",
         "Licensed, insured, bonded",
         "Poly-B replacement specialists",
         "Real person answers the phone",
@@ -8714,7 +8714,7 @@ export const services: ServicePage[] = [
       faq: {
         heading: "Okotoks Plumbing FAQs",
         items: [
-          { q: "How fast can you get to Okotoks?", a: "Typically 60-75 minutes from Calgary via Highway 2. Priority emergency calls take precedence in scheduling." },
+          { q: "How does dispatch to Okotoks work?", a: "We dispatch from Calgary via Highway 2. Priority emergency calls take precedence in scheduling. Call 587-834-3668 and we'll confirm the closest available technician and timing for your call." },
           { q: "Do many Okotoks homes have Poly-B?", a: "Yes — substantial portions of Drake Landing, original Cimarron, and other 90s-era builds were piped with polybutylene. Most are now at 25-30 years and starting to fail at fittings. If yours hasn't been inspected, it's worth a free look." },
           { q: "Are you licensed for Okotoks?", a: "Yes. Alberta plumbing and gas-fitting licenses cover Okotoks, plus we handle Town of Okotoks permits where required." },
         ],
