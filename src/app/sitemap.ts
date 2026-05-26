@@ -53,14 +53,14 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       lastModified: now,
       changeFrequency: "weekly",
       priority: 1.0,
-      images: [`${SITE_URL}/images/FTVAN.jpg`, `${SITE_URL}/images/FTVAN1.webp`],
+      images: [`${SITE_URL}/images/FTVAN.jpg`, `${SITE_URL}/images/FTVAN2.jpg`],
     },
     {
       url: `${SITE_URL}/about/`,
       lastModified: now,
       changeFrequency: "monthly",
       priority: 0.8,
-      images: [`${SITE_URL}/images/FTVAN1.webp`],
+      images: [`${SITE_URL}/images/FTVAN2.jpg`],
     },
     {
       url: `${SITE_URL}/contact/`,

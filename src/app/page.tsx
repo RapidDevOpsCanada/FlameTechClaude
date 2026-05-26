@@ -247,7 +247,7 @@ export default async function Home() {
                   </div>
                   <div className="relative mx-6 md:mx-8 mb-6 rounded-2xl overflow-hidden border border-line-light aspect-[4/5]">
                     <Image
-                      src="/images/FTVAN1.webp"
+                      src="/images/FTVAN2.jpg"
                       alt="Jason Mounsey and Shaun Kristoff — FlameTech founders — standing in front of the service van"
                       fill
                       quality={70}

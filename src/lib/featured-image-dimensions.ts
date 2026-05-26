@@ -85,6 +85,7 @@ export const featuredImageDimensions: Record<string, { w: number; h: number }> =
   "/images/FT-Logo.webp": { w: 618, h: 391 },
   "/images/FTVAN.jpg": { w: 800, h: 486 },
   "/images/FTVAN1.webp": { w: 700, h: 1056 },
+  "/images/FTVAN2.jpg": { w: 640, h: 718 },
   "/images/REVIEWS1.png": { w: 791, h: 107 },
   "/images/Service-map.png": { w: 454, h: 320 },
   "/images/air-ease-ac.webp": { w: 250, h: 250 },
