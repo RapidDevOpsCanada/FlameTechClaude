@@ -8732,7 +8732,7 @@ export const services: ServicePage[] = [
       "Carstairs sits an hour north of Calgary and shares Airdrie's water profile and acreage mix. FlameTech runs priority dispatch north from Calgary via Airdrie — same Red Seal team, same standards.",
     heroBody: [
       "We cover Carstairs for [emergency plumbing](/emergency-plumber-calgary/), [hot water tanks](/hot-water-tanks/), [boiler service](/boiler-service-calgary/), [furnace repair](/furnaces/), [Poly-B replacement](/polyb-plumbing-calgary/), and [well-water softeners](/water-softener/) on acreage properties.",
-      "Trucks dispatched north on Highway 2 through [Airdrie](/airdrie-plumbers/) — typical Carstairs ETA is 90 minutes. Call 587-834-3668 for priority dispatch.",
+      "Trucks dispatched north on Highway 2 through [Airdrie](/airdrie-plumbers/) — call 587-834-3668 for priority dispatch.",
     ],
     heroSubhead: "Carstairs Plumbing & Heating Team",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
@@ -8749,7 +8749,7 @@ export const services: ServicePage[] = [
     ],
     bullets: [
       { t: "Acreage + well-water experience", d: "Many Carstairs properties run on well water with high mineral and iron levels. We test, size, and spec — not guess." },
-      { t: "Routed through Airdrie", d: "Same crew that services [Airdrie](/airdrie-plumbers/), [Reunion](/reunion-plumbers-airdrie/), and [Ravenswood](/ravenswood-plumbers-airdrie/). Typical Carstairs ETA is 90 minutes." },
+      { t: "Routed through Airdrie", d: "Same crew that services [Airdrie](/airdrie-plumbers/), [Reunion](/reunion-plumbers-airdrie/), and [Ravenswood](/ravenswood-plumbers-airdrie/) — Calgary base, Airdrie routing." },
       { t: "Licensed gas fitters", d: "Alberta plumbing and B2 gas fitting licenses — boilers, furnaces, water heaters all in scope." },
     ],
     seoTitle: "Carstairs Plumbers | Plumbing & Heating Services",
@@ -8771,7 +8771,7 @@ export const services: ServicePage[] = [
       subtitle:
         "Coverage north of Airdrie — same crew that serves Calgary.",
       bullets: [
-        "90 minute Carstairs ETA",
+        "Calgary dispatch via Airdrie",
         "Licensed, insured, bonded",
         "Well-water + acreage experience",
         "Real person answers the phone",
@@ -8797,7 +8797,7 @@ export const services: ServicePage[] = [
       faq: {
         heading: "Carstairs Plumbing FAQs",
         items: [
-          { q: "How long does it take you to get to Carstairs?", a: "Typically 90 minutes from Calgary via Highway 2, routed through Airdrie. Priority emergency calls take precedence in scheduling." },
+          { q: "How does dispatch to Carstairs work?", a: "We dispatch from Calgary north on Highway 2, routed through Airdrie. Priority emergency calls take precedence in scheduling. Call 587-834-3668 and we'll confirm the closest available technician and timing for your call." },
           { q: "Do you handle well-water plumbing in Carstairs?", a: "Yes — softeners, filtration, pressure tanks, and pump-side plumbing on acreage properties. Bring a recent water test (or we can take one) and we'll spec accordingly." },
           { q: "Are you licensed for Carstairs?", a: "Yes. Alberta plumbing and gas-fitting licenses cover Carstairs and the rest of MD of Mountain View." },
         ],
