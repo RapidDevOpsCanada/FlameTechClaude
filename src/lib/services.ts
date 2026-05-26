@@ -3001,7 +3001,7 @@ export const services: ServicePage[] = [
       ],
     },
     stats: [
-      { number: "20+", label: "Year lifespan", icon: "verified" },
+      { number: "98%", label: "AFUE efficiency", icon: "verified" },
       { number: "5.0★", label: "Google rated", icon: "star" },
       { number: "Endless", label: "hot water", icon: "schedule" },
       { number: "Licensed", label: "& insured", icon: "award" },
