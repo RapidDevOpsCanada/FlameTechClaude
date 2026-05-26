@@ -4987,6 +4987,14 @@ export const services: ServicePage[] = [
         t: "Priority dispatch, real person",
         d: "Whether it's 3 AM Tuesday or Sunday afternoon, you reach a real person who gets a truck rolling — no phone trees.",
       },
+      {
+        t: "Poly-B + galvanized depth",
+        d: "Two NW-specific problems: galvanized supply lines in 1960s-70s Brentwood/Montgomery builds, and Poly-B in 80s-90s Edgemont/Hamptons/Royal Oak. We diagnose and replace both.",
+      },
+      {
+        t: "Mature-tree root expertise",
+        d: "Inner NW (Brentwood, Thorncliffe, Montgomery) has decades-old elms and poplars sending roots into clay sewer mains. We camera-inspect first, hydro-jet second, recommend root barriers third.",
+      },
     ],
     seoTitle: "Calgary Plumbers NW | Priority Emergency Plumbing Services",
     seoDescription:
@@ -5057,6 +5065,33 @@ export const services: ServicePage[] = [
             { body: "Sewer backups and main line failures during heavy rains or spring thaw." },
           ],
         },
+        {
+          heading: "Why NW Calgary Plumbing Is Different",
+          intro:
+            "NW Calgary covers everything from 1950s post-war bungalows to 2020s master-planned builds. The plumbing problems we see vary dramatically by community and decade — knowing which pattern fits your home matters.",
+          items: [
+            {
+              heading: "1960s-70s galvanized supply lines",
+              body: "Thorncliffe, Brentwood, Cambrian Heights, Montgomery, North Haven — the post-war NW builds were piped with galvanized steel. Internal corrosion narrows the pipe diameter over time, reducing pressure and eventually pinholing through the wall. Replacement with PEX or copper is the only real fix. We've done dozens of full re-pipes in these neighbourhoods.",
+            },
+            {
+              heading: "Poly-B in the 80s-90s boom communities",
+              body: "[Edgemont](/edgemont-plumbers-calgary/), Hamptons, Hawkwood, [Varsity](/varsity-plumbers-calgary/), Dalhousie, Sandstone Valley — heavy polybutylene installation through this construction era. Now 25-35 years old and well into the failure window. Free [Poly-B inspections](/polyb-plumbing-calgary/) — most of these homes need it sooner than later.",
+            },
+            {
+              heading: "Mature-tree root intrusion in clay sewer mains",
+              body: "Inner NW has decades-old elms, poplars, and willows sending roots into aging clay sewer laterals. Symptoms: gurgling drains, intermittent backups, slow toilets. We camera-inspect to confirm, hydro-jet to clear, and recommend root-barrier or trenchless lining for chronic offenders.",
+            },
+            {
+              heading: "Higher-elevation pressure issues",
+              body: "Tuscany, Citadel, Royal Oak, Country Hills sit on Calgary's NW ridge — water has to be pumped uphill, and many homes show lower static pressure (40-50 psi instead of the 60-65 you'd see in central neighbourhoods). Booster pumps and pressure-regulating valves are common installs up here.",
+            },
+            {
+              heading: "Bow River proximity = ground saturation",
+              body: "Bowness, Montgomery, and parts of Silver Springs sit close to the river. Spring runoff + chinook melt cause weeping-tile overwhelm and sump pump strain. We install backwater valves, second sump pumps, and battery backups to keep basements dry.",
+            },
+          ],
+        },
       ],
       faq: {
         heading: "Frequently Asked Questions",
@@ -5074,8 +5109,8 @@ export const services: ServicePage[] = [
             a: "Northwest Calgary encompasses everything from vintage post-war homes in Brentwood and Montgomery to cutting-edge builds in master-planned communities like Evanston and Sage Hill. This diversity means varying infrastructure ages, different pipe materials, and unique installation approaches. Our technicians specialize in navigating these differences.",
           },
           {
-            q: "What's your typical response time in Northwest Calgary?",
-            a: "Most Northwest Calgary locations see our trucks quickly when conditions allow of your call, though actual timing varies based on your exact address and current traffic patterns. Emergency situations receive priority dispatch to limit potential damage.",
+            q: "How does dispatch to Northwest Calgary work?",
+            a: "We dispatch from Calgary across the NW quadrant — Tuscany, Edgemont, Royal Oak, Brentwood, all of it. Emergency situations receive priority. Call 587-834-3668 and we'll confirm the closest available technician and timing for your specific address.",
           },
           {
             q: "What services does your NW Calgary team provide?",
