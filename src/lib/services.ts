@@ -2954,7 +2954,7 @@ export const services: ServicePage[] = [
     ],
     heroSubhead: "Calgary Tankless Water Heater Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
-    heroImage: { src: "/images/2026/04/Ibc-tankless.webp", alt: "IBC tankless water heater installed by FlameTech in Calgary", fit: "contain" },
+    heroImage: { src: "/images/2026/04/Ibc-tankless.webp", alt: "IBC tankless water heater installed by FlameTech in a Calgary basement", fit: "cover" },
     intro:
       "Tankless water heater install, service, and repair in Calgary. On-demand hot water, higher efficiency, space-saving design, and 20+ year lifespan with proper maintenance.",
     features: [
