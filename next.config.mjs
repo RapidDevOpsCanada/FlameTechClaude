@@ -74,10 +74,75 @@ const nextConfig = {
       },
       // WP author archive pages — collapse to /about so any bookmarked
       // /author/shaun-kristoff links land somewhere meaningful instead
-      // of 404'ing.
+      // of 404'ing. WP Yoast exposed authors at both /author/X/ and
+      // /blog/author/X/ — cover both prefixes.
       {
         source: "/author/:slug",
         destination: "/about",
+        permanent: true,
+      },
+      {
+        source: "/blog/author/:slug",
+        destination: "/about",
+        permanent: true,
+      },
+      // WP blog category archives — Yoast emitted these at
+      // /blog/category/X/ (singular). New build uses /blog/categories/X/
+      // (plural) with a different category taxonomy (we collapsed
+      // boilers + furnaces + heat-pumps into one "heating" category).
+      // Slug mappings done individually because they're not 1:1.
+      {
+        source: "/blog/category/air-conditioning",
+        destination: "/blog/categories/air-conditioning",
+        permanent: true,
+      },
+      {
+        source: "/blog/category/boilers",
+        destination: "/blog/categories/heating",
+        permanent: true,
+      },
+      {
+        source: "/blog/category/furnace",
+        destination: "/blog/categories/heating",
+        permanent: true,
+      },
+      {
+        source: "/blog/category/heat-pumps",
+        destination: "/blog/categories/heating",
+        permanent: true,
+      },
+      {
+        source: "/blog/category/water-softeners",
+        destination: "/blog/categories/water",
+        permanent: true,
+      },
+      // Generic WP category archives — no direct equivalent. Send to
+      // the blog index rather than 404. Order matters: specific slug
+      // redirects above must come first; this catch-all only fires
+      // for the remaining /blog/category/* paths Next.js hasn't yet
+      // matched.
+      {
+        source: "/blog/category/:slug",
+        destination: "/blog",
+        permanent: true,
+      },
+      // WP blog tag archives — /blog/tag/X/ (singular) vs our
+      // /blog/tags/X/ (plural). Only `maintenance` has an exact slug
+      // match; the rest collapse to either the closest category or
+      // the blog index.
+      {
+        source: "/blog/tag/maintenance",
+        destination: "/blog/tags/maintenance",
+        permanent: true,
+      },
+      {
+        source: "/blog/tag/heating",
+        destination: "/blog/categories/heating",
+        permanent: true,
+      },
+      {
+        source: "/blog/tag/:slug",
+        destination: "/blog",
         permanent: true,
       },
       // Defensive: bot probing of WP admin / login / content surfaces.
