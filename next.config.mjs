@@ -22,7 +22,7 @@ const nextConfig = {
         permanent: true,
       },
       // Blog moved from /articles → /blog
-      { source: "/articles", destination: "/blog", permanent: true },
+      { source: "/articles", destination: "/blog/", permanent: true },
       { source: "/articles/:slug", destination: "/blog/:slug", permanent: true },
       // Category archives nested under /blog
       {
@@ -33,12 +33,12 @@ const nextConfig = {
       // WP legacy URLs that don't have a 1:1 page in the new build
       {
         source: "/chat",
-        destination: "/contact",
+        destination: "/contact/",
         permanent: true,
       },
       {
         source: "/garage-heaters-calgary-2",
-        destination: "/garage-heaters-calgary",
+        destination: "/garage-heaters-calgary/",
         permanent: true,
       },
       // WP shipped this slug with a typo (missing the second 'r'). The
@@ -46,7 +46,7 @@ const nextConfig = {
       // — preserve the existing inbound link equity from the typo URL.
       {
         source: "/evergeen-plumbers-calgary",
-        destination: "/evergreen-plumbers-calgary",
+        destination: "/evergreen-plumbers-calgary/",
         permanent: true,
       },
       // /huntington-hills was an off-pattern slug — every other
@@ -55,14 +55,14 @@ const nextConfig = {
       // inbound links via 301.
       {
         source: "/huntington-hills",
-        destination: "/huntington-hills-plumbers-calgary",
+        destination: "/huntington-hills-plumbers-calgary/",
         permanent: true,
       },
       // WP appended -2 to this blog slug; new build uses the canonical
       // slug. Inbound links from the WP version still resolve.
       {
         source: "/blog/furnace-fuse-keeps-blowing-2",
-        destination: "/blog/furnace-fuse-keeps-blowing",
+        destination: "/blog/furnace-fuse-keeps-blowing/",
         permanent: true,
       },
       // WP used singular /category/ in addition to the plural we
@@ -78,12 +78,12 @@ const nextConfig = {
       // /blog/author/X/ — cover both prefixes.
       {
         source: "/author/:slug",
-        destination: "/about",
+        destination: "/about/",
         permanent: true,
       },
       {
         source: "/blog/author/:slug",
-        destination: "/about",
+        destination: "/about/",
         permanent: true,
       },
       // WP blog category archives — Yoast emitted these at
@@ -93,27 +93,27 @@ const nextConfig = {
       // Slug mappings done individually because they're not 1:1.
       {
         source: "/blog/category/air-conditioning",
-        destination: "/blog/categories/air-conditioning",
+        destination: "/blog/categories/air-conditioning/",
         permanent: true,
       },
       {
         source: "/blog/category/boilers",
-        destination: "/blog/categories/heating",
+        destination: "/blog/categories/heating/",
         permanent: true,
       },
       {
         source: "/blog/category/furnace",
-        destination: "/blog/categories/heating",
+        destination: "/blog/categories/heating/",
         permanent: true,
       },
       {
         source: "/blog/category/heat-pumps",
-        destination: "/blog/categories/heating",
+        destination: "/blog/categories/heating/",
         permanent: true,
       },
       {
         source: "/blog/category/water-softeners",
-        destination: "/blog/categories/water",
+        destination: "/blog/categories/water/",
         permanent: true,
       },
       // Generic WP category archives — no direct equivalent. Send to
@@ -123,7 +123,7 @@ const nextConfig = {
       // matched.
       {
         source: "/blog/category/:slug",
-        destination: "/blog",
+        destination: "/blog/",
         permanent: true,
       },
       // WP blog tag archives — /blog/tag/X/ (singular) vs our
@@ -132,17 +132,17 @@ const nextConfig = {
       // the blog index.
       {
         source: "/blog/tag/maintenance",
-        destination: "/blog/tags/maintenance",
+        destination: "/blog/tags/maintenance/",
         permanent: true,
       },
       {
         source: "/blog/tag/heating",
-        destination: "/blog/categories/heating",
+        destination: "/blog/categories/heating/",
         permanent: true,
       },
       {
         source: "/blog/tag/:slug",
-        destination: "/blog",
+        destination: "/blog/",
         permanent: true,
       },
       // Defensive: bot probing of WP admin / login / content surfaces.
