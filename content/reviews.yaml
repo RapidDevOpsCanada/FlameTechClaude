@@ -213,10 +213,10 @@ reviews:
     rating: 5
     relative_date: "11 weeks ago"
     posted_at: "2026-02-25"
-    quote: "I first used FlameTech back in December 2025 to service my boiler for my in-floor heating system. They responded the same day to my online service request. The day before the booking I got a text confirming my scheduled appointment, the day of the booking I got another text advising me Jason their Tech would arrive at the time promised. My boiler problem was resolved and I got a tutorial from Jason on how to regulate the floor temperature. February 2026 I again had a heating problem, this time with my furnace, I didn’t hesitate to call FlameTech who again responded quickly, arrived as promised and resolve my furnace problem for what I thought was a fair price on both service calls. My “go to” for plumbing and heating now is FlameTech, thanks Jason and Shaun.!"
+    quote: "I first used FlameTech in December 2025 to service my boiler for in-floor heating. Jason resolved the issue and gave me a tutorial on regulating floor temperature. February 2026 I had a furnace problem — same quick response, fair price both times. My go-to for plumbing and heating now. Thanks Jason and Shaun."
     quote_overrides:
-      high-efficiency-furnaces-calgary: "I had a heating problem with my furnace and didn’t hesitate to call FlameTech. They responded quickly, arrived as promised, and resolved my furnace problem for what I thought was a fair price. My “go to” for plumbing and heating now is FlameTech, thanks Jason and Shaun."
-      furnaces: "I had a heating problem with my furnace and didn’t hesitate to call FlameTech. They responded quickly, arrived as promised, and resolved my furnace problem for what I thought was a fair price. My “go to” for plumbing and heating now is FlameTech, thanks Jason and Shaun."
+      high-efficiency-furnaces-calgary: "Had a furnace problem and called FlameTech. They responded quickly, arrived as promised, and resolved it for a fair price. My go-to for heating now."
+      furnaces: "Had a furnace problem and called FlameTech. They responded quickly, arrived as promised, and resolved it for a fair price. My go-to for heating now."
     featured: false
     sort_order: 19
     avatar: "/images/reviews/jim-wetterberg.png"
@@ -231,7 +231,7 @@ reviews:
     rating: 5
     relative_date: "11 weeks ago"
     posted_at: "2026-02-25"
-    quote: "Jason, our service tech from FlameTech, was fantastic. He spent a lot of time with us explaining the different heaters we could go with and the ups and downs of each. He talked us out of the more expensive unit and made sure everything was up to code including a smaller issue (counterbalance) that the other 2 companies missed during their quotation process and should extend the life of our unit. I would highly recommend him. I'll be sure to update this if there are any issues in the next few years."
+    quote: "Jason explained the different heater options and the trade-offs of each, then talked us out of the more expensive unit. He also caught a counterbalance issue two other companies missed during quotation — that should extend the life of our unit. Highly recommend."
     featured: false
     sort_order: 20
     avatar: "/images/reviews/robert-nikolai.png"
@@ -265,7 +265,7 @@ reviews:
     rating: 5
     relative_date: "13 weeks ago"
     posted_at: "2026-02-11"
-    quote: "This was my second time having Jason out to my home resolving plumbing issues. First and foremost he is incredibly professional. The quality of his work shows a high level of skill and craftsmanship and he clearly takes pride in the finished product. I highly recommend FlameTech.\n\n-Steven-\n\nJust had the guys in from FlameTech to replace my hot water tank that failed while on vacation. Jason went to my home the day I called and isolated the leak and assessed the problem. That took a lot of stress off while I was out of town. And of course, the tank was replaced quickly and professionally. Amazing service as always! Thank you."
+    quote: "Second time having Jason out — quality of work shows real skill and craftsmanship. Most recently he replaced my hot water tank that failed while I was on vacation. Jason went to the house the day I called, isolated the leak, and replaced the tank quickly. Took a lot of stress off while I was out of town. Highly recommend FlameTech."
     featured: false
     sort_order: 23
     avatar: "/images/reviews/steve-k.png"
@@ -333,7 +333,7 @@ reviews:
     rating: 5
     relative_date: "16 weeks ago"
     posted_at: "2026-01-21"
-    quote: "We had a pipe leak happened and contacted FlameTech after our friends recommended to reach out.\n\nWe were surprised how speedy they were and transparent on pricing before beginning any work. They took the time to be thorough and found a second leak they were able to repair.\n\nThey took the time to take a look at our hot water tank as well (as it is older) and went over all our pricing options for replacing. We appreciated that each quote had all the details we would need so we wouldn’t be caught with any surprises and made the decision to move forward with the replacement because we know the level of service we will get with them."
+    quote: "Friends recommended FlameTech for a pipe leak. They were fast, transparent on pricing, and thorough — found a second leak we didn't know about and repaired both. Looked at our older hot water tank too and walked us through pricing options. Detailed quotes, no surprises. We're moving forward with the tank replacement based on the level of service."
     featured: false
     sort_order: 29
     avatar: "/images/reviews/amanda-howlett.png"
@@ -415,7 +415,7 @@ reviews:
     rating: 5
     relative_date: "21 weeks ago"
     posted_at: "2025-12-17"
-    quote: "FlameTech was recommended by a friend who had a few jobs that Shaun looked after. Scheduling an appointment was quick and easy - had a booking for one week out with Jason. Day of, he arrived on time, and quickly assessed what parts were required, and what work needed to be done. One of the two fixes required parts for an uncommon fix, and Shaun did a parts drop to my house for Jason so work flowed without stopping (and a second schedule appointment). Jason was extremely friendly, and efficient in his work. Highly recommended."
+    quote: "Recommended by a friend Shaun had done work for. Jason arrived on time and quickly worked out what was needed. One of the two fixes needed uncommon parts, so Shaun did a parts drop at my house mid-job — Jason kept working with no second appointment needed. Friendly, efficient, highly recommended."
     featured: false
     sort_order: 36
     avatar: "/images/reviews/adam-s.png"
@@ -509,7 +509,7 @@ reviews:
     rating: 5
     relative_date: "30 weeks ago"
     posted_at: "2025-10-15"
-    quote: "I had a fantastic experience with this FlameTech Plumbing and Heating. From start to finish, their service was top-notch. They were very knowledgeable and clearly knew what they were doing, which gave me a lot of confidence in their work.\n\nOne thing I really appreciated was their punctuality – they let me know exactly when they would arrive and stuck to it, which is rare these days. They also only advised on the necessary work, with no upselling or pressure to do more than what was needed. Honest, reliable, and professional – I wouldn’t hesitate to use them again or recommend them to others."
+    quote: "Punctual — they told me exactly when they'd arrive and stuck to it. Only advised on the work that was actually needed, no upselling. Honest, reliable, professional. Wouldn't hesitate to use them again."
     featured: false
     sort_order: 45
     avatar: "/images/reviews/red-lux-tallow-orders.png"
@@ -724,7 +724,7 @@ reviews:
     rating: 5
     relative_date: "47 weeks ago"
     posted_at: "2025-06-18"
-    quote: "Excellent Service from Shaun at FlameTech!\n\nWe had a fantastic experience with Shaun from FlameTech who serviced our AC and heat pump. He was incredibly knowledgeable and clearly explained everything he was doing. We really appreciated how efficient he was, getting the job done thoroughly and without wasting any time. Shaun was also on time for his appointment, which is always a plus! On top of all that, the price was very good for the quality of service we received. Highly recommend Shaun and FlameTech for your HVAC needs!"
+    quote: "Shaun serviced our AC and heat pump. On time, explained what he was doing, efficient, thorough. Good price for the quality of service. Highly recommend Shaun and FlameTech for HVAC."
     featured: false
     sort_order: 63
     avatar: "/images/reviews/michelle-g.png"
