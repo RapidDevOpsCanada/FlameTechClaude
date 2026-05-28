@@ -1036,19 +1036,29 @@ export default async function ServicePage({
                 {related.map((r) => (
                   <Link
                     key={r.slug}
-                    href={`/${r.slug}`}
+                    href={`/${r.slug}/`}
                     className="group col-span-12 md:col-span-4 rounded-2xl bg-white border border-line-light overflow-hidden hover:border-emergency transition-colors"
                   >
-                    <div className="relative aspect-[16/9] bg-gradient-to-br from-cream-50 to-cream-100 flex items-center justify-center overflow-hidden">
+                    <div className="relative aspect-[16/9] bg-cream-100 overflow-hidden">
                       {r.heroImage ? (
                         <img
                           src={r.heroImage.src}
                           alt={r.heroImage.alt}
-                          className="max-h-[85%] max-w-[85%] object-contain drop-shadow-[0_10px_20px_rgba(8,14,28,0.15)] group-hover:scale-105 transition-transform"
+                          className="w-full h-full object-cover group-hover:scale-[1.03] transition-transform duration-500"
+                          style={{
+                            objectPosition:
+                              r.heroImage.position === "top"
+                                ? "center top"
+                                : r.heroImage.position === "bottom"
+                                ? "center bottom"
+                                : "center center",
+                          }}
                         />
                       ) : (
-                        <div className="w-16 h-16 rounded-xl bg-primary/15 text-primary-deep flex items-center justify-center">
-                          <Icon name={r.icon} className="text-3xl" />
+                        <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-cream-50 to-cream-100">
+                          <div className="w-16 h-16 rounded-xl bg-primary/15 text-primary-deep flex items-center justify-center">
+                            <Icon name={r.icon} className="text-3xl" />
+                          </div>
                         </div>
                       )}
                     </div>
