@@ -83,6 +83,16 @@ export type ServicePage = {
   priceRange?: string;
   /** Optional image rendered below a specific richContent section. Key = section heading. */
   sectionImages?: Record<string, RichImage>;
+  /** Quadrant / area-hub neighbourhood grid. When set, the page renders a
+   *  compact card-grid section listing every neighbourhood landing page that
+   *  belongs to this area. Drives both UX (jump to your neighbourhood) and
+   *  SEO (deep internal linking from the hub to each spoke). Only set on
+   *  the three Calgary quadrant pages today. */
+  neighbourhoodHub?: {
+    heading: string;
+    intro: string;
+    neighbourhoods: { name: string; slug: string; blurb?: string }[];
+  };
   /** Per-service sticky sidebar copy (falls back to generic defaults). */
   sidebar?: {
     title?: string;
@@ -5007,6 +5017,20 @@ export const services: ServicePage[] = [
       "plumber Tuscany Calgary",
       "FlameTech Plumbing",
     ],
+    neighbourhoodHub: {
+      heading: "Northwest Calgary neighbourhoods we serve",
+      intro:
+        "Pages below cover the specific plumbing patterns, build eras, and common issues we see in each NW community. Click through for neighbourhood-specific detail.",
+      neighbourhoods: [
+        { name: "Bowness", slug: "bowness-plumbers-calgary", blurb: "River-adjacent, ground saturation, sump pump strain." },
+        { name: "Edgemont", slug: "edgemont-plumbers-calgary", blurb: "Heavy 80s-90s Poly-B concentration." },
+        { name: "Evanston", slug: "evanston-plumbers-calgary", blurb: "Modern builds, first-service replacement window." },
+        { name: "Huntington Hills", slug: "huntington-hills-plumbers-calgary", blurb: "Established 70s-80s stock, mixed pipe materials." },
+        { name: "Panorama Hills", slug: "panorama-hills-plumbers-calgary", blurb: "Hilltop pressure issues, mid-2000s builds." },
+        { name: "Tuscany", slug: "tuscany-plumbers-calgary", blurb: "High-elevation static pressure, PRV territory." },
+        { name: "Varsity", slug: "varsity-plumbers-calgary", blurb: "80s-era Poly-B + mature tree-root sewer issues." },
+      ],
+    },
     quoteFormLabel: "NW Calgary plumbing",
     quoteFormPlaceholder:
       "e.g. burst pipe in Brentwood, Poly-B replacement in Edgemont, tankless install in Tuscany, sewer camera in Bowness…",
@@ -5161,6 +5185,21 @@ export const services: ServicePage[] = [
         d: "Free estimates on scheduled work and a detailed breakdown before any tools come off the truck. No hidden charges, no surprises.",
       },
     ],
+    neighbourhoodHub: {
+      heading: "Southeast Calgary neighbourhoods we serve",
+      intro:
+        "Pages below cover the specific plumbing patterns, build eras, and common issues we see in each SE community. Click through for neighbourhood-specific detail.",
+      neighbourhoods: [
+        { name: "Auburn Bay", slug: "auburn-bay-plumber-calgary", blurb: "Lake community, modern PEX, sized hot-water demand." },
+        { name: "Chaparral", slug: "chaparral-plumbers-calgary", blurb: "Mid-2000s builds, 15-20 year first-service window." },
+        { name: "Copperfield", slug: "copperfield-plumbers-calgary", blurb: "2000s-boom subdivision, builder-grade equipment failing." },
+        { name: "Cranston", slug: "cranston-plumber-calgary", blurb: "Riverside elevation, modern stock + Riverstone enclave." },
+        { name: "Mahogany", slug: "mahogany-plumbers-calgary", blurb: "Calgary's largest lake community, lakefront irrigation." },
+        { name: "McKenzie Lake", slug: "mckenzie-lake-plumbers-calgary", blurb: "Established lake community, Poly-B in original builds." },
+        { name: "McKenzie Towne", slug: "mckenzie-towne-plumbers-calgary", blurb: "Late-90s through 2010s mixed stock." },
+        { name: "New Brighton", slug: "new-brighton-plumbers-calgary", blurb: "2000s-era PEX builds, settling-related drainage." },
+      ],
+    },
     seoTitle: "Calgary Plumbers SE | Priority Emergency Plumbing Service",
     seoDescription:
       "Need a plumber in Calgary SE? FlameTech Plumbing provides expert residential plumbing services across Southeast Calgary. Priority service available.",
@@ -5288,6 +5327,23 @@ export const services: ServicePage[] = [
         d: "Complimentary estimates on non-emergency work, a detailed breakdown before we start, and no hidden fees or surprise charges.",
       },
     ],
+    neighbourhoodHub: {
+      heading: "Southwest Calgary neighbourhoods we serve",
+      intro:
+        "Pages below cover the specific plumbing patterns, build eras, and common issues we see in each SW community. Click through for neighbourhood-specific detail.",
+      neighbourhoods: [
+        { name: "Altadore", slug: "altadore-plumbers-calgary", blurb: "Heritage inner-SW, river-adjacent, mixed pipe eras." },
+        { name: "Aspen Woods", slug: "aspen-woods-plumbers-calgary", blurb: "2002-2015 builds, sized hot-water + multi-zone systems." },
+        { name: "Bridlewood", slug: "bridlewood-plumbers-calgary", blurb: "Mid-90s through 2000s, north-slope freeze risk." },
+        { name: "Evergreen", slug: "evergreen-plumbers-calgary", blurb: "2000s subdivision off Stoney + 14 St SW." },
+        { name: "Killarney", slug: "killarney-plumbers-calgary", blurb: "Mid-century stock + new infill, mixed plumbing." },
+        { name: "Marda Loop", slug: "marda-loop-plumbers-calgary", blurb: "Heritage + infill, character-home plumbing." },
+        { name: "Mount Royal", slug: "mount-royal-plumbers-calgary", blurb: "1910-1940 heritage, cast-iron + galvanized + clay laterals." },
+        { name: "Signal Hill", slug: "signal-hill-plumbers-calgary", blurb: "80s through modern luxury, hillside drainage." },
+        { name: "West Springs", slug: "west-springs-plumbers-calgary", blurb: "Modern PEX, west-edge access via 17 Ave / Bow Trail." },
+        { name: "Woodbine", slug: "woodbine-plumber", blurb: "Established 80s community, Poly-B in original builds." },
+      ],
+    },
     seoTitle: "Calgary Plumbers SW | Expert Plumbing Services",
     seoDescription:
       "Expert plumbing services in Calgary SW. Priority emergency plumbers serving Southwest Calgary. Call 587-834-3668 for fast, reliable service.",

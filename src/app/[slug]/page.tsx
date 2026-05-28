@@ -1011,6 +1011,55 @@ export default async function ServicePage({
           </section>
         )}
 
+        {/* NEIGHBOURHOOD HUB — chip grid linking from quadrant pages
+            (NW/SE/SW) to each specific neighbourhood landing. Drives
+            internal-link depth from the hub to every spoke and gives
+            users a fast jump to their actual community. */}
+        {service.neighbourhoodHub && service.neighbourhoodHub.neighbourhoods.length > 0 && (
+          <section className="relative bg-ink-900 text-cream-50 py-20 overflow-hidden">
+            <div className="absolute inset-0 dotgrid opacity-30 pointer-events-none" />
+            <div className="hidden md:block absolute -top-32 -right-32 w-[520px] h-[520px] rounded-full bg-emergency/15 blur-3xl pointer-events-none" />
+            <div className="max-w-7xl mx-auto px-6 md:px-10 relative">
+              <div className="max-w-3xl mb-12">
+                <span className="eyebrow mb-3">Neighbourhood pages</span>
+                <h2 className="font-display text-3xl md:text-4xl font-extrabold tracking-[-0.015em] mt-4 leading-[1.1]">
+                  {service.neighbourhoodHub.heading}
+                </h2>
+                <p className="text-[17px] text-cream-50/80 leading-relaxed mt-5">
+                  {service.neighbourhoodHub.intro}
+                </p>
+              </div>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                {service.neighbourhoodHub.neighbourhoods.map((n) => (
+                  <Link
+                    key={n.slug}
+                    href={`/${n.slug}/`}
+                    className="group rounded-2xl bg-ink-800 border border-line-dark p-5 flex items-start gap-4 hover:border-emergency transition-colors"
+                  >
+                    <span className="shrink-0 w-10 h-10 rounded-xl bg-primary/15 text-primary flex items-center justify-center mt-0.5">
+                      <Icon name="location_on" className="text-xl" />
+                    </span>
+                    <div className="flex-1 min-w-0">
+                      <h3 className="font-display font-extrabold text-base tracking-tight group-hover:text-emergency transition-colors">
+                        {n.name}
+                      </h3>
+                      {n.blurb && (
+                        <p className="text-[13px] text-cream-50/70 leading-snug mt-1">
+                          {n.blurb}
+                        </p>
+                      )}
+                    </div>
+                    <Icon
+                      name="arrow_right_alt"
+                      className="text-cream-50/40 group-hover:text-emergency transition-colors mt-1"
+                    />
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+
         {/* RELATED — with hero thumbnails */}
         {related.length > 0 && (
           <section className="bg-cream-100 text-ink-900 py-16 md:py-20 border-t border-line-light">
