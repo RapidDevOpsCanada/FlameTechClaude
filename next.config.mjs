@@ -14,6 +14,22 @@ const nextConfig = {
     // hero photos (visually indistinguishable from 75, ~10% smaller).
     qualities: [70, 75],
   },
+  // Preserve the WP/Yoast sitemap URLs. Google Search Console has
+  // /sitemap_index.xml (and the child sitemaps) registered for
+  // flametechplumbing.ca and has been crawling them for years.
+  // Rewrites (not redirects) serve our /sitemap.xml content at the
+  // legacy URLs — Google sees a 200 at the same URL it knows about,
+  // no crawler confusion from chained redirects on sitemap discovery.
+  async rewrites() {
+    return [
+      { source: "/sitemap_index.xml", destination: "/sitemap.xml" },
+      { source: "/post-sitemap.xml", destination: "/sitemap.xml" },
+      { source: "/page-sitemap.xml", destination: "/sitemap.xml" },
+      { source: "/category-sitemap.xml", destination: "/sitemap.xml" },
+      { source: "/post_tag-sitemap.xml", destination: "/sitemap.xml" },
+      { source: "/author-sitemap.xml", destination: "/sitemap.xml" },
+    ];
+  },
   async redirects() {
     return [
       {
