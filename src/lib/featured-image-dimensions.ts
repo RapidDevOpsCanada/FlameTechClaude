@@ -96,6 +96,7 @@ export const featuredImageDimensions: Record<string, { w: number; h: number }> =
   "/images/cropped-logo-dark1-1.png": { w: 618, h: 377 },
   "/images/financeit.png": { w: 500, h: 91 },
   "/images/graident-tankless-water-heater.png": { w: 304, h: 583 },
+  "/images/grizzly-agency-logo.png": { w: 512, h: 512 },
   "/images/navine-boiler.png": { w: 166, h: 300 },
   "/images/reviews/adam-s.png": { w: 36, h: 36 },
   "/images/reviews/ali-derakhshan.png": { w: 36, h: 36 },

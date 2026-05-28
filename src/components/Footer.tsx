@@ -228,6 +228,29 @@ export default function Footer() {
             </Link>
           </div>
         </div>
+        {/* Agency credit. Subtle row beneath the copyright/socials line —
+            ensures it sits in the bottom-right area without crowding the
+            primary footer info, and stays accessible (no aria-hidden,
+            real <a> with hover state). */}
+        <div className="border-t border-line-dark/60">
+          <div className="max-w-7xl mx-auto px-6 md:px-10 py-4 flex justify-center md:justify-end">
+            <a
+              href="https://grizzlyagency.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group inline-flex items-center gap-2.5 text-[12px] text-cream-50/55 hover:text-cream-50 transition-colors"
+            >
+              <span>Designed &amp; Built by Grizzly Agency</span>
+              <Image
+                src="/images/grizzly-agency-logo.png"
+                alt="Grizzly Agency"
+                width={20}
+                height={20}
+                className="opacity-75 group-hover:opacity-100 transition-opacity"
+              />
+            </a>
+          </div>
+        </div>
       </div>
     </footer>
   );
