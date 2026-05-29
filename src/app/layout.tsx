@@ -89,7 +89,7 @@ export default function RootLayout({
       "Financing",
       "E-Transfer",
     ],
-    slogan: "Red Seal journeyperson plumbers serving Calgary homes.",
+    slogan: "Red Seal journeyman plumbers serving Calgary homes.",
     address: {
       "@type": "PostalAddress",
       streetAddress: "Woodbine Blvd",
@@ -153,12 +153,12 @@ export default function RootLayout({
       {
         "@type": "Person",
         name: "Shaun Kristoff",
-        jobTitle: "Co-founder & Red Seal Journeyperson",
+        jobTitle: "Co-founder & Red Seal Journeyman",
       },
       {
         "@type": "Person",
         name: "Jason Mounsey",
-        jobTitle: "Co-founder & Red Seal Journeyperson",
+        jobTitle: "Co-founder & Red Seal Journeyman",
       },
     ],
     knowsAbout: [

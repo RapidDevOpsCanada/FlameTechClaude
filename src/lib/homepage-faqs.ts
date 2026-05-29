@@ -17,7 +17,7 @@ export const homepageFaqs = [
   },
   {
     q: "Are your technicians licensed and insured?",
-    a: "Yes — every FlameTech technician is fully licensed, insured, and bonded, and all work is performed to Alberta's plumbing and gas code. We're BBB accredited and our owners are Red Seal–certified journeypersons with 45+ years of combined trade experience.",
+    a: "Yes — every FlameTech technician is fully licensed, insured, and bonded, and all work is performed to Alberta's plumbing and gas code. We're BBB accredited and our owners are Red Seal–certified journeymen with 45+ years of combined trade experience.",
   },
   {
     q: "Can you replace PolyB piping without tearing up the whole house?",

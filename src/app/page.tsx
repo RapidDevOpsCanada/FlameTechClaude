@@ -165,7 +165,7 @@ export default async function Home() {
                   className="text-lg text-cream-50/80 max-w-xl mb-6 leading-relaxed"
                 >
                   Residential plumbing and heating in Calgary, run by two Red
-                  Seal journeypersons with 45+ years of combined experience.
+                  Seal journeymen with 45+ years of combined experience.
                   Honest estimates, code-compliant installs, and the same
                   person on the phone as the one doing the work.
                 </p>
@@ -272,7 +272,7 @@ export default async function Home() {
                   <div className="p-8 md:p-10 pb-6">
                     <span className="eyebrow-light mb-4">Founders</span>
                     <h2 className="font-display text-3xl md:text-4xl font-extrabold tracking-[-0.02em] mt-4 mb-6 leading-tight">
-                      Red Seal journeypersons. 45+ years combined.
+                      Red Seal journeymen. 45+ years combined.
                     </h2>
                   </div>
                   <div className="relative mx-6 md:mx-8 mb-6 rounded-2xl overflow-hidden border border-line-light aspect-[4/5]">
