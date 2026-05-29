@@ -12,7 +12,7 @@ import Icon from "@/components/Icon";
 import Image from "next/image";
 import Link from "next/link";
 import { homepageFaqs } from "@/lib/homepage-faqs";
-import { getReviews } from "@/lib/reviews";
+import { getReviews, getReviewsSummary } from "@/lib/reviews";
 
 const SITE_URL = "https://flametechplumbing.ca";
 
@@ -31,6 +31,7 @@ export default async function Home() {
   // alone is no longer enough — Google increasingly wants the
   // underlying review data on the same page).
   const dbReviews = await getReviews().catch(() => []);
+  const reviewsSummary = getReviewsSummary();
   const reviewNodes = dbReviews.slice(0, 10).map((r, i) => ({
     "@type": "Review",
     "@id": `${SITE_URL}#review-${r.id ?? i}`,
@@ -125,11 +126,11 @@ export default async function Home() {
           <div className="max-w-7xl mx-auto px-6 md:px-10 pt-10 md:pt-14 pb-14 md:pb-16 relative">
             <div className="grid grid-cols-12 gap-6 md:gap-10 items-center">
               <div className="col-span-12 lg:col-span-6 reveal">
-                <span className="eyebrow mb-5">Get To Know Us</span>
+                <span className="eyebrow mb-5">Plumbing · Heating · Gas Fitting</span>
                 <h1 className="font-display text-[38px] md:text-[52px] xl:text-[62px] font-extrabold leading-[1.0] tracking-[-0.025em] mt-4 mb-6">
-                  Calgary Plumbers —{" "}
+                  Calgary plumbing & heating,{" "}
                   <span className="text-emergency">
-                    Trusted Plumbing Services
+                    run by the guys on the trucks
                   </span>
                   .
                 </h1>
@@ -161,13 +162,42 @@ export default async function Home() {
 
                 <p
                   id="hero-lead"
-                  className="text-lg text-cream-50/80 max-w-xl mb-8 leading-relaxed"
+                  className="text-lg text-cream-50/80 max-w-xl mb-6 leading-relaxed"
                 >
                   Residential plumbing and heating in Calgary, run by two Red
                   Seal journeypersons with 45+ years of combined experience.
                   Honest estimates, code-compliant installs, and the same
                   person on the phone as the one doing the work.
                 </p>
+
+                {/* Proof bar — consolidated trust signals: rating, credentials,
+                    accreditations. Replaces a scattered mix of badges that
+                    previously sat in different parts of the hero. Single
+                    visual unit reads as one strong proof block above the
+                    fold rather than competing for attention.
+
+                    Chip pattern matches the existing service-area chips +
+                    "Free estimate" badge so visual rhythm is consistent. */}
+                <div className="flex flex-wrap gap-2 mb-7 max-w-xl">
+                  <span className="inline-flex items-center gap-1.5 rounded-full bg-ink-800 border border-line-dark px-3.5 py-1.5 text-xs text-cream-50/90 font-semibold">
+                    <span className="text-emergency tracking-tight">★★★★★</span>
+                    <span>
+                      {reviewsSummary.average.toFixed(1)} ({reviewsSummary.total} Google reviews)
+                    </span>
+                  </span>
+                  <span className="inline-flex items-center gap-1.5 rounded-full bg-ink-800 border border-line-dark px-3.5 py-1.5 text-xs text-cream-50/90 font-semibold">
+                    <Icon name="verified" className="text-primary text-base" />
+                    Red Seal Certified
+                  </span>
+                  <span className="inline-flex items-center gap-1.5 rounded-full bg-ink-800 border border-line-dark px-3.5 py-1.5 text-xs text-cream-50/90 font-semibold">
+                    <Icon name="award" className="text-primary text-base" />
+                    Licensed · Insured · Bonded
+                  </span>
+                  <span className="inline-flex items-center gap-1.5 rounded-full bg-ink-800 border border-line-dark px-3.5 py-1.5 text-xs text-cream-50/90 font-semibold">
+                    <Icon name="check_circle" className="text-primary text-base" />
+                    BBB Accredited
+                  </span>
+                </div>
 
                 <div className="flex flex-wrap gap-4 mb-5">
                   <a
