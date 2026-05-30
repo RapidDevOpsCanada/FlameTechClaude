@@ -35,6 +35,10 @@ export default async function Home() {
   const reviewNodes = dbReviews.slice(0, 10).map((r, i) => ({
     "@type": "Review",
     "@id": `${SITE_URL}#review-${r.id ?? i}`,
+    // itemReviewed is REQUIRED by schema.org. GSC was flagging this as
+    // "Missing field itemReviewed" — hard error that disqualifies the
+    // rich result. Point at the sitewide LocalBusiness node by @id.
+    itemReviewed: { "@id": `${SITE_URL}#business` },
     author: { "@type": "Person", name: r.author },
     datePublished: new Date(r.created_at).toISOString().slice(0, 10),
     reviewRating: {
@@ -43,10 +47,6 @@ export default async function Home() {
       bestRating: "5",
     },
     reviewBody: r.quote,
-    // No itemReviewed: Google's Rich Results Test flags a "directional
-    // conflict" when a Review references a business on the same page —
-    // the association is already established by being in the same
-    // graph as the LocalBusiness node.
   }));
 
   // Effective freshness = max(content baseline, newest review date).

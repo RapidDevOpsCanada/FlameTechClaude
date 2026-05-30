@@ -1412,13 +1412,20 @@ function buildSchemaJsonLd(service: ServicePage, reviews: Review[]) {
   // in src/app/layout.tsx. Redefining LocalBusiness here with its own
   // aggregateRating produced two AggregateRating values for the same
   // @id and tripped Rich Results Test's "multiple aggregateRating"
-  // warning. No itemReviewed on the Review nodes either — Google flags
-  // a "directional conflict" when a Review points at a business on the
-  // same page; the on-page graph already wires the relationship.
+  // warning.
+  //
+  // itemReviewed is REQUIRED by schema.org for Review nodes — Google
+  // Search Console flags "Missing field itemReviewed" as a hard error
+  // and disqualifies the rich result. We point at the sitewide
+  // LocalBusiness node by @id; this is the canonical pattern. The
+  // LocalBusiness node does not have a reciprocal `review` array, so
+  // there's no circular structure to trigger a directional-conflict
+  // warning.
   for (const r of reviews.slice(0, 12)) {
     graph.push({
       "@type": "Review",
       "@id": `${SITE_URL}#review-${r.id ?? r.author}`,
+      itemReviewed: { "@id": `${SITE_URL}#business` },
       author: { "@type": "Person", name: r.author },
       reviewRating: {
         "@type": "Rating",
