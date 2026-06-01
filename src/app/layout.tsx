@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Manrope } from "next/font/google";
-import { GoogleTagManager } from "@next/third-parties/google";
+import { GoogleAnalytics, GoogleTagManager } from "@next/third-parties/google";
 import "./globals.css";
 import ChatBubble from "@/components/ChatBubble";
 import TelClickTracker from "@/components/TelClickTracker";
@@ -293,6 +293,20 @@ export default function RootLayout({
         <TelClickTracker />
       </body>
       <GoogleTagManager gtmId="GT-T5JXTGGW" />
+      {/* Direct GA4 install via @next/third-parties/google. GTM was
+          already wired above, but if the GTM container doesn't have a
+          GA4 Config tag set up inside it (or that tag is paused / wrong
+          ID), GA4 silently receives nothing. Embedding gtag.js directly
+          guarantees GA4 fires on every page regardless of GTM state.
+
+          DUPLICATION RISK: if the GTM container ALSO fires a GA4 Config
+          tag for G-V29PNC94PL, every pageview will land in GA4 twice.
+          To avoid double-counting, EITHER:
+            (a) leave this direct install in place and PAUSE the GA4
+                Config tag inside GTM, or
+            (b) remove this direct install once you've verified the GA4
+                Config tag inside GTM is fixed and firing. */}
+      <GoogleAnalytics gaId="G-V29PNC94PL" />
     </html>
   );
 }
