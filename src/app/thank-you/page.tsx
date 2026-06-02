@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import StickyCallBar from "@/components/StickyCallBar";
 import Icon from "@/components/Icon";
 import Link from "next/link";
+import Script from "next/script";
 import type { Metadata } from "next";
 
 const SITE_URL = "https://flametechplumbing.ca";
@@ -20,6 +21,24 @@ export const metadata: Metadata = {
 export default function ThankYouPage() {
   return (
     <>
+      {/* Google Ads conversion event. Fires once when the page loads —
+          users land here only after a successful form submission (the
+          QuoteForm component router.push()es here on success). The page
+          is noindex,follow and not in the sitemap, so direct organic
+          visits that would inflate conversions are negligible.
+
+          The site-wide gtag('config', 'AW-17941264946') call in
+          src/app/layout.tsx initializes the Google Ads account so this
+          send_to label resolves correctly. Value is CAD 100 as the
+          standard lead-value baseline — adjust in Google Ads if you
+          want to tune later. */}
+      <Script id="google-ads-conversion" strategy="afterInteractive">
+        {`gtag('event', 'conversion', {
+            'send_to': 'AW-17941264946/-bC4CPP-rp0cELL0h-tC',
+            'value': 100.0,
+            'currency': 'CAD'
+          });`}
+      </Script>
       <Nav />
       <main className="bg-ink-900 text-cream-50 min-h-[70vh] relative overflow-hidden">
         <div className="absolute inset-0 dotgrid opacity-40 pointer-events-none" />

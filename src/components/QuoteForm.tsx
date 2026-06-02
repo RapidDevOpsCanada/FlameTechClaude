@@ -101,7 +101,7 @@ export default function QuoteForm({
       form.reset();
       // Send the user to the dedicated /thank-you route. The inline success
       // card below stays as a fallback in case routing fails.
-      router.push("/thank-you");
+      router.push("/thank-you/");
     } catch (err) {
       setStatus("error");
       setErrorMsg(err instanceof Error ? err.message : "Something went wrong");

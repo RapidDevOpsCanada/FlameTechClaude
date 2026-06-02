@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Manrope } from "next/font/google";
 import { GoogleAnalytics, GoogleTagManager } from "@next/third-parties/google";
+import Script from "next/script";
 import "./globals.css";
 import ChatBubble from "@/components/ChatBubble";
 import TelClickTracker from "@/components/TelClickTracker";
@@ -307,6 +308,16 @@ export default function RootLayout({
             (b) remove this direct install once you've verified the GA4
                 Config tag inside GTM is fixed and firing. */}
       <GoogleAnalytics gaId="G-V29PNC94PL" />
+      {/* Google Ads conversion-tracking account. Initializes the AW
+          account so `gtag('event', 'conversion', { send_to: 'AW-…/<label>' })`
+          calls on the thank-you page (and any future conversion-page
+          snippets) report into Google Ads. gtag.js is already loaded
+          by <GoogleAnalytics> above — calling gtag('config', 'AW-…')
+          just registers an additional measurement target on the same
+          gtag instance. Multiple config calls are fully supported. */}
+      <Script id="google-ads-config" strategy="afterInteractive">
+        {`gtag('config', 'AW-17941264946');`}
+      </Script>
     </html>
   );
 }
