@@ -42,10 +42,10 @@ export const metadata: Metadata = {
     url: SITE_URL,
     images: [
       {
-        url: `${SITE_URL}/images/FTVAN.jpg`,
-        width: 800,
-        height: 486,
-        alt: "FlameTech Plumbing & Heating service van",
+        url: `${SITE_URL}/images/FTVAN2.jpg`,
+        width: 640,
+        height: 718,
+        alt: "Shaun and Jason — FlameTech founders with the service van",
       },
     ],
   },
@@ -53,10 +53,10 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     images: [
       {
-        url: `${SITE_URL}/images/FTVAN.jpg`,
-        width: 800,
-        height: 486,
-        alt: "FlameTech Plumbing & Heating service van",
+        url: `${SITE_URL}/images/FTVAN2.jpg`,
+        width: 640,
+        height: 718,
+        alt: "Shaun and Jason — FlameTech founders with the service van",
       },
     ],
   },
@@ -75,7 +75,7 @@ export default function RootLayout({
   const sharedBusinessFields = {
     name: "FlameTech Plumbing & Heating Ltd.",
     alternateName: "FlameTech",
-    image: `${SITE_URL}/images/FTVAN.jpg`,
+    image: `${SITE_URL}/images/FTVAN2.jpg`,
     logo: `${SITE_URL}/images/FT-LOGO-DARK8.png`,
     url: SITE_URL,
     telephone: "+1-587-834-3668",

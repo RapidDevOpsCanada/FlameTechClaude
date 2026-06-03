@@ -624,7 +624,7 @@ export const services: ServicePage[] = [
     ],
     heroSubhead: "Priority Emergency Response",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
-    heroImage: { src: "/images/2025/04/flame-tech-van.webp", alt: "FlameTech emergency plumbing service van in Calgary", fit: "cover" },
+    heroImage: { src: "/images/FTVAN2.jpg", alt: "Shaun and Jason — FlameTech founders, emergency plumbing dispatch in Calgary", fit: "cover" },
     intro:
       "Emergency plumbing in Calgary — burst pipes, active leaks, sewer backups, water heater failures. Priority dispatch, honest quotes, certified technicians.",
     features: [
@@ -1092,7 +1092,7 @@ export const services: ServicePage[] = [
     ],
     heroSubhead: "Trusted Calgary Boiler Repair Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
-    heroImage: { src: "/images/FTVAN.jpg", alt: "FlameTech service van ready for boiler repair in Calgary", fit: "cover" },
+    heroImage: { src: "/images/FTVAN2.jpg", alt: "Shaun and Jason — FlameTech founders ready for boiler repair in Calgary", fit: "cover" },
     intro:
       "Expert boiler repair in Calgary. 25+ years experience with all brands. Priority emergency response. Certified technicians.",
     features: [

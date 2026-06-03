@@ -73,7 +73,7 @@ export default async function Home() {
         about: { "@id": `${SITE_URL}#business` },
         primaryImageOfPage: {
           "@type": "ImageObject",
-          url: `${SITE_URL}/images/FTVAN.jpg`,
+          url: `${SITE_URL}/images/FTVAN2.jpg`,
         },
         dateModified,
         breadcrumb: { "@id": `${SITE_URL}#breadcrumb` },
@@ -139,10 +139,10 @@ export default async function Home() {
                 <div className="lg:hidden mb-6">
                   <div className="relative rounded-2xl overflow-hidden border border-line-dark soft-shadow bg-cream-50">
                     <Image
-                      src="/images/FTVAN.jpg"
-                      alt="FlameTech service van across Calgary"
-                      width={800}
-                      height={486}
+                      src="/images/FTVAN2.jpg"
+                      alt="Shaun and Jason — FlameTech founders with the service van"
+                      width={640}
+                      height={718}
                       priority
                       quality={70}
                       sizes="(max-width: 1023px) 100vw, 0px"
@@ -225,10 +225,10 @@ export default async function Home() {
               <div className="hidden lg:block col-span-12 lg:col-span-6 relative reveal reveal-delay-200">
                 <div className="relative rounded-3xl overflow-hidden border border-line-dark soft-shadow bg-cream-50">
                   <Image
-                    src="/images/FTVAN.jpg"
-                    alt="FlameTech service van across Calgary"
-                    width={800}
-                    height={486}
+                    src="/images/FTVAN2.jpg"
+                    alt="Shaun and Jason — FlameTech founders with the service van"
+                    width={640}
+                    height={718}
                     priority
                     quality={70}
                     sizes="580px"
