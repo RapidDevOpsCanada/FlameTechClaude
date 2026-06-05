@@ -8,9 +8,16 @@
  */
 
 import { buildSearchIndex } from "@/lib/search-index";
+import { getReviewsSummary } from "@/lib/reviews";
 import NavClient from "@/components/NavClient";
 
 export default function Nav() {
   const searchIndex = buildSearchIndex();
-  return <NavClient searchIndex={searchIndex} />;
+  // Pull the rating + count server-side so the nav utility bar shows
+  // live values from content/reviews.yaml. Bumping total_reviews in
+  // YAML now updates the header automatically — no second edit.
+  const reviewsSummary = getReviewsSummary();
+  return (
+    <NavClient searchIndex={searchIndex} reviewsSummary={reviewsSummary} />
+  );
 }
