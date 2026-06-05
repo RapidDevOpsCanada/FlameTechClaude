@@ -563,27 +563,27 @@ export const services: ServicePage[] = [
           items: [
             {
               heading: "Standard 1-piece or 2-piece swap",
-              body: "Direct replacement of an existing toilet. $400-$650 installed depending on brand and accessibility. Brands we install most: Toto Drake, American Standard Champion, Kohler Cimarron — all proven in Calgary's hard water.",
+              body: "Direct replacement of an existing toilet. Brands we install most: Toto Drake, American Standard Champion, Kohler Cimarron — all proven in Calgary's hard water. Free written quote after we see the bathroom.",
             },
             {
               heading: "Comfort-height upgrade",
-              body: "Toilet seat height moves from the standard 14-15\" to 16-17\" — easier for aging knees and back. Common upgrade in [Mount Royal](/mount-royal-plumbers-calgary/), [Bel-Aire](/bel-aire-plumbers-calgary/), and any aging-in-place renovation. $650-$950 installed depending on model.",
+              body: "Toilet seat height moves from the standard 14-15\" to 16-17\" — easier for aging knees and back. Common upgrade in [Mount Royal](/mount-royal-plumbers-calgary/), [Bel-Aire](/bel-aire-plumbers-calgary/), and any aging-in-place renovation. Toto Drake II, Kohler Highline Comfort Height, American Standard Champion 4 Comfort Height are our common picks.",
             },
             {
               heading: "Dual-flush + low-flow",
-              body: "Modern dual-flush toilets (1.0 / 1.6 GPF) cut water use by ~30% vs. older 3+ GPF units. Pays back through your water bill within 4-6 years for typical households. We confirm your drain slope handles the lower flow before installing — older flat-slope drains can clog with low-flow units.",
+              body: "Modern dual-flush toilets (1.0 / 1.6 GPF) cut water use by ~30% vs. older 3+ GPF units. We confirm your drain slope handles the lower flow before installing — older flat-slope drains can clog with low-flow units.",
             },
             {
               heading: "Wall-hung Toto / Geberit",
-              body: "Wall-hung toilets with in-wall carrier + concealed tank — the cleanest look + easiest floor cleaning. Requires a structural carrier mounted in the wall and a concealed tank with access panel. Install runs $1,500-$2,500 including the carrier hardware. Common in luxury rebuilds in [Aspen Woods](/aspen-woods-plumbers-calgary/), Bel-Aire, [West Springs](/west-springs-plumbers-calgary/).",
+              body: "Wall-hung toilets with in-wall carrier + concealed tank — the cleanest look + easiest floor cleaning. Requires a structural carrier mounted in the wall and a concealed tank with access panel. Common in luxury rebuilds in [Aspen Woods](/aspen-woods-plumbers-calgary/), Bel-Aire, [West Springs](/west-springs-plumbers-calgary/). Pair with your drywall/tile trade for the wall finish.",
             },
             {
               heading: "Owner-supplied install (labour only)",
-              body: "Bought your own toilet from Home Depot, Costco, Wayfair, or Amazon? We'll install it — $250-$400 labour-only, includes flange inspection + new wax ring + supply line + shutoff check. We do not warrant the toilet itself (that's on the manufacturer), but we warrant the install for 1 year.",
+              body: "Bought your own toilet from Home Depot, Costco, Wayfair, or Amazon? We'll install it — labour-only quote available, includes flange inspection + new wax ring + supply line + shutoff check. We don't warrant the toilet itself (that's on the manufacturer), but we warrant the install for 1 year.",
             },
             {
               heading: "Flange repair / replacement",
-              body: "If we lift your old toilet and find a cracked, corroded, or out-of-position flange — we quote the repair on the spot. PVC flange replacement: $150-$250. Cast-iron flange repair with a spanner-type repair flange: $200-$300. Full cast-iron flange cutout + new PVC: $300-$450. Skipping this means your new toilet leaks within 6-18 months.",
+              body: "If we lift your old toilet and find a cracked, corroded, or out-of-position flange — we quote the repair on the spot. PVC repair flange, cast-iron spanner-type repair, or full cast-iron cutout + new PVC depending on what we find. Skipping this means your new toilet leaks within 6-18 months.",
             },
           ],
         },
@@ -610,38 +610,11 @@ export const services: ServicePage[] = [
             },
             {
               heading: "Shutoff valves seize over time",
-              body: "Toilet shutoff valves rarely get exercised. After 15-20 years they often won't fully close (you turn it off, water still drips through) or won't fully open afterwards. Replacing the shutoff with a quarter-turn ball valve adds $40-$60 to the install and means you can actually shut the water off the next time you need to.",
+              body: "Toilet shutoff valves rarely get exercised. After 15-20 years they often won't fully close (you turn it off, water still drips through) or won't fully open afterwards. Replacing the shutoff with a quarter-turn ball valve is a small add to the install and means you can actually shut the water off the next time you need to.",
             },
             {
               heading: "Hard water builds in the tank",
               body: "Calgary hard water leaves mineral deposits on the flush valve seat, fill valve, and inside the tank. By year 5 most untreated tanks have scale that causes phantom flushing (water trickles through the flush valve constantly). We recommend annual tank cleaning with a vinegar soak, OR a [water softener](/water-softener/) for whole-home protection.",
-            },
-          ],
-        },
-        {
-          heading: "Pricing in writing",
-          intro:
-            "Honest ranges so you know what to budget. Specific quote after we see the bathroom.",
-          items: [
-            {
-              heading: "Standard install — $400-$650",
-              body: "Direct swap of an existing toilet in a typical bathroom. Includes new wax ring, supply line, and shutoff valve check. Toto Drake, American Standard Champion, Kohler Cimarron, or any standard 1-piece or 2-piece toilet supplied by us.",
-            },
-            {
-              heading: "Comfort-height install — $650-$950",
-              body: "Same scope as standard install but the toilet itself is a comfort-height (16-17\" seat) model. Toto Drake II, Kohler Highline Comfort Height, American Standard Champion 4 Comfort Height.",
-            },
-            {
-              heading: "Wall-hung Toto / Geberit — $1,500-$2,500",
-              body: "Includes in-wall carrier, concealed tank, dual-flush actuator plate, and bowl. Carrier install requires opening the finished wall (drywall repair NOT included — pair with your drywall/tile trade).",
-            },
-            {
-              heading: "Labour-only on owner-supplied toilet — $250-$400",
-              body: "You provide the toilet (from Home Depot, Costco, Wayfair, Amazon, anywhere). We provide the labour, wax ring, supply line, and shutoff check. Quoted on bathroom accessibility — main-floor powder room cheapest, basement bathroom with poor access higher.",
-            },
-            {
-              heading: "Flange repair add-on — $150-$450",
-              body: "Quoted on what we find when we lift the old toilet. Most common repair: PVC repair flange over an existing damaged PVC flange ($150-$250). Cast-iron repair with a spanner flange: $200-$300. Full flange replacement: $300-$450.",
             },
           ],
         },
@@ -651,7 +624,7 @@ export const services: ServicePage[] = [
         items: [
           {
             q: "How much does toilet installation cost in Calgary?",
-            a: "Standard toilet install: $400-$650 all-in (includes the toilet, wax ring, supply line, and shutoff check). Comfort-height install: $650-$950. Wall-hung Toto or Geberit with in-wall carrier: $1,500-$2,500. Labour-only on an owner-supplied toilet: $250-$400. Flange repair, if needed, adds $150-$450 depending on flange type. We quote in writing before starting.",
+            a: "Toilet install pricing depends on the toilet itself (standard, comfort-height, dual-flush, or wall-hung with carrier), whether you supply the toilet or we source it, and what we find at the flange when we lift the old toilet. We give a free written quote on-site before starting — no surprises at the end.",
           },
           {
             q: "How long does a toilet installation take?",
@@ -659,7 +632,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "Can I supply my own toilet?",
-            a: "Yes. We install owner-supplied toilets from Home Depot, Costco, Wayfair, Amazon, or any other source — $250-$400 labour-only, includes wax ring + supply line + shutoff check + 1-year workmanship warranty. We don't warrant the toilet itself (that's on the manufacturer), but the install is covered.",
+            a: "Yes. We install owner-supplied toilets from Home Depot, Costco, Wayfair, Amazon, or any other source — labour-only quote on-site, includes wax ring + supply line + shutoff check + 1-year workmanship warranty. We don't warrant the toilet itself (that's on the manufacturer), but the install is covered.",
           },
           {
             q: "Should I upgrade to a comfort-height toilet?",
@@ -667,11 +640,11 @@ export const services: ServicePage[] = [
           },
           {
             q: "Do you handle wall-hung toilet installations?",
-            a: "Yes. Wall-hung toilets with in-wall carriers (Toto, Geberit, Duravit) require structural mounting to the wall studs, a concealed tank, and the access panel for the dual-flush actuator. We install the carrier and bowl; you pair us with your drywall/tile trade for the wall finish. Total cost $1,500-$2,500 for our portion, plus the wall finish work separately.",
+            a: "Yes. Wall-hung toilets with in-wall carriers (Toto, Geberit, Duravit) require structural mounting to the wall studs, a concealed tank, and the access panel for the dual-flush actuator. We install the carrier and bowl; you pair us with your drywall/tile trade for the wall finish. Quoted on-site after we see the install location.",
           },
           {
             q: "Why does my old toilet leak around the base?",
-            a: "Almost always the wax ring failed — either from age (wax dries and shifts over 10-20 years), from the toilet rocking on an uneven floor (breaks the wax seal), or from a damaged or settled flange. The fix is pulling the toilet, replacing the wax ring (and the flange if it's compromised), then re-seating the toilet level on the floor with new caulk at the base. $250-$450 typical for a base-leak repair.",
+            a: "Almost always the wax ring failed — either from age (wax dries and shifts over 10-20 years), from the toilet rocking on an uneven floor (breaks the wax seal), or from a damaged or settled flange. The fix is pulling the toilet, replacing the wax ring (and the flange if it's compromised), then re-seating the toilet level on the floor with new caulk at the base. Quoted on-site after we lift the toilet and see what the flange looks like.",
           },
           {
             q: "What's the best toilet for Calgary's hard water?",
@@ -2619,7 +2592,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "5. Repair OR honest replace-vs-repair quote",
-              body: "Capacitor — replace on the spot ($40-$80 part + $150 labour, $200-$240 typical). PSC/X13 motor — replace if furnace has 5+ years of useful life left ($350-$600 motor + $200-$300 labour). ECM motor on a 12+ year-old furnace — quote both motor replacement and full furnace replacement; let you decide. Free quote on the replacement option either way.",
+              body: "Capacitor — replace on the spot if it tests bad (cheapest fix). PSC/X13 motor — replace if your furnace has 5+ years of useful life left. ECM motor on a 12+ year-old furnace — we quote both motor replacement and full furnace replacement, let you decide based on the math. Free written quote on the replacement option either way.",
             },
             {
               heading: "6. Filter + duct recommendations",
@@ -2633,7 +2606,7 @@ export const services: ServicePage[] = [
         items: [
           {
             q: "How much does it cost to fix a furnace blower in Calgary?",
-            a: "Depends on what failed. Capacitor replacement (most common cheap fix) typically runs $200-$240 all-in. PSC or X13 motor replacement: $550-$900 depending on motor size and access. ECM variable-speed motor replacement: $900-$1,600 because the motor itself is $500-$900 just for the part. We diagnose first ($150 service call, applied to the repair if you proceed) so you know which bucket you're in before committing.",
+            a: "Depends on what failed. A capacitor replacement is the cheapest fix — usually the first thing we check, because a $40 part swap solves a lot of \"my furnace blower is broken\" calls. PSC and X13 motor replacements are mid-range. ECM variable-speed motor replacements are the most expensive because the motor itself is the priciest part. We diagnose first and quote in writing before committing to any repair, so you always know which bucket you're in.",
           },
           {
             q: "Should I repair my blower or replace the whole furnace?",
@@ -3871,7 +3844,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "5. Repair OR honest replace-vs-repair quote",
-              body: "Most repairs: $200-$450 all-in (thermostat $200-$280, single element $250-$320, anode rod $200, TPR valve $180-$220, gas control valve $400-$550). Tank replacement: separate quote — typically $1,800-$3,200 depending on tank size, gas vs electric, and venting condition. Free quote on the replacement option either way.",
+              body: "Most repairs are quoted in writing on-site after diagnosis — thermostat, single element, anode rod, TPR valve, or gas control valve replacement depending on what failed. Tank replacement is a separate quote when the tank itself has failed (bottom leaks, severe corrosion). Free written quote on the replacement option either way.",
             },
             {
               heading: "6. Maintenance recommendations",
@@ -3885,7 +3858,7 @@ export const services: ServicePage[] = [
         items: [
           {
             q: "How much does it cost to fix a hot water tank in Calgary?",
-            a: "Depends on what failed. Thermostat replacement: $200-$280 all-in. Single electric element: $250-$320. Anode rod replacement: $200. TPR valve: $180-$220. Gas control valve: $400-$550. Pilot/thermocouple service: $180-$240. Full tank replacement (when repair isn't worth it): $1,800-$3,200 depending on tank size, gas vs electric, and venting condition. We diagnose first ($150 service call, applied to the repair if you proceed) so you know which bucket you're in before committing.",
+            a: "Depends on what failed. Common repairs include thermostat replacement, electric element swap, anode rod replacement, TPR valve replacement, gas control valve, pilot/thermocouple service. Full tank replacement is the bigger-ticket option when the tank itself has failed (leaks from the bottom, severe corrosion). We diagnose first and quote in writing before any repair, so you always know which bucket you're in.",
           },
           {
             q: "Should I repair my hot water tank or replace it?",
@@ -4143,15 +4116,15 @@ export const services: ServicePage[] = [
           items: [
             {
               heading: "4-stage standard under-sink RO",
-              body: "Sediment pre-filter → carbon block (chlorine/odour) → RO membrane → post-carbon polish. ~75 GPD membrane covers most households. Standard chrome faucet at the sink, 3-gallon pressurized storage tank, drain saddle to the sink trap. Quiet, proven, $700-$1,200 installed.",
+              body: "Sediment pre-filter → carbon block (chlorine/odour) → RO membrane → post-carbon polish. ~75 GPD membrane covers most households. Standard chrome faucet at the sink, 3-gallon pressurized storage tank, drain saddle to the sink trap. Quiet, proven, our most common install. Free written quote.",
             },
             {
               heading: "5-stage with remineralization",
-              body: "Adds a calcium/magnesium remineralization cartridge after the RO membrane so the output has the alkaline-water minerality some homeowners prefer (and that's better for kettle boiler scale balance and coffee extraction). $200-$300 add to standard install.",
+              body: "Adds a calcium/magnesium remineralization cartridge after the RO membrane so the output has the alkaline-water minerality some homeowners prefer (and that's better for kettle boiler scale balance and coffee extraction). Add-on to the standard 4-stage install.",
             },
             {
               heading: "Tankless RO (high-efficiency)",
-              body: "Newer systems with a high-flow membrane and internal pump that produce water on-demand without the pressurized storage tank — frees up under-sink space, much better wastewater ratio (typically 1:1 vs 3:1 on standard), instant water at the tap. $1,200-$1,800 installed.",
+              body: "Newer systems with a high-flow membrane and internal pump that produce water on-demand without the pressurized storage tank — frees up under-sink space, much better wastewater ratio (typically 1:1 vs 3:1 on standard), instant water at the tap. Premium tier — quoted on-site.",
             },
             {
               heading: "Whole-home + under-sink combo",
@@ -4159,7 +4132,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "Membrane + filter replacement service",
-              body: "Existing RO that's making weird-tasting water, lower flow, or just hit its annual? We service every common brand — APEC, iSpring, Aquasana, Culligan, Kinetico, Reverse Osmosis Revolution, Waterdrop. Filter replacement $80-$150, membrane replacement $180-$280, full system service $200-$350 depending on system.",
+              body: "Existing RO that's making weird-tasting water, lower flow, or just hit its annual? We service every common brand — APEC, iSpring, Aquasana, Culligan, Kinetico, Reverse Osmosis Revolution, Waterdrop. Quoted on-site based on the system and what's due.",
             },
           ],
         },
@@ -4190,7 +4163,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "Bottled water + delivery costs add up",
-              body: "Many Calgary households spend $40-$80/month on bottled water or delivery service. A $700-$1,200 RO install pays back in 12-24 months, then keeps producing — most homeowners switch entirely to tap-quality RO water within a few weeks.",
+              body: "Many Calgary households spend meaningful money each month on bottled water or delivery service. A one-time RO install pays back within a year or two for most households, then keeps producing — most homeowners switch entirely to tap-quality RO water within a few weeks.",
             },
           ],
         },
@@ -4231,7 +4204,7 @@ export const services: ServicePage[] = [
         items: [
           {
             q: "How much does a reverse osmosis system cost in Calgary?",
-            a: "Standard 4-stage under-sink RO: $700-$1,200 installed. 5-stage with remineralization: $900-$1,500. Tankless high-efficiency RO: $1,200-$1,800. Whole-home + under-sink combo: varies by config, typically $2,500-$4,500. Pairs naturally with a [water softener](/water-softener/) install — combined pricing available. Annual filter service runs $80-$150; membrane replacement every 2-3 years $180-$280.",
+            a: "RO install pricing depends on the system tier (standard 4-stage, 5-stage with remineralization, tankless high-efficiency, or whole-home + under-sink combo). Pairs naturally with a [water softener](/water-softener/) install — combined pricing available. Annual filter and membrane service quoted separately based on the system. Free written quote on-site after assessment.",
           },
           {
             q: "Do I really need an RO system in Calgary?",
@@ -4251,7 +4224,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "Can I install a reverse osmosis system myself?",
-            a: "Technically yes, with a hardware store kit. The catch: most DIY installs skip the air-gap faucet (required by Alberta code), use compression fittings that fail under cold-snap pressure swings, and tap the cold supply with the wrong valve type. We see a lot of DIY installs leaking from the saddle valve or producing low flow because the drain saddle was installed wrong. A professional install is $700-$1,200 and includes code-compliant air gap + proper drain saddle + system commissioning.",
+            a: "Technically yes, with a hardware store kit. The catch: most DIY installs skip the air-gap faucet (required by Alberta code), use compression fittings that fail under cold-snap pressure swings, and tap the cold supply with the wrong valve type. We see a lot of DIY installs leaking from the saddle valve or producing low flow because the drain saddle was installed wrong. A professional install includes code-compliant air gap + proper drain saddle + system commissioning.",
           },
           {
             q: "Does RO water leach minerals from my body?",
