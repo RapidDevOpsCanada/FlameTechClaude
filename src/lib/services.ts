@@ -2240,6 +2240,217 @@ export const services: ServicePage[] = [
     },
   },
   {
+    slug: "furnace-blower-issues-calgary",
+    category: "Heating",
+    icon: "tune",
+    title: "Furnace Blower Issues in Calgary — Diagnosis & Repair",
+    lead:
+      "Weak airflow, loud rattling, blower that won't stop running — most Calgary furnace problems start at the blower motor or its capacitor before they take the whole furnace down. FlameTech diagnoses the actual failure (not just \"the blower's broken\") and quotes repair vs. replace honestly.",
+    heroBody: [
+      "The blower is the most-cycled component in any forced-air furnace — and Calgary's heating season puts more hours on it than almost anywhere else in Canada. Dusty chinook air clogs the wheel, freeze-thaw cycles stress the bearings, and the long shoulder seasons (running the fan-only mode) extend motor wear well past nominal life.",
+      "We work on every common Calgary blower setup: older PSC motors in pre-2000 builds, X13 multi-speed motors in mid-2000s-2010s furnaces, and modern variable-speed ECM motors in newer high-efficiency units. Same crew as our [furnace repair](/furnace-repair-calgary/), [boiler service](/boiler-service-calgary/), and [furnace install](/furnaces/) work.",
+      "Call 587-834-3668 for priority dispatch — most blower diagnoses take 30 minutes; many repairs finish the same visit because we stock common capacitors and motor sizes on the truck.",
+    ],
+    heroSubhead: "Diagnosis, Repair, and Honest Replace-or-Repair Calls",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/FTVAN2.jpg", alt: "Shaun and Jason — FlameTech furnace blower repair, Calgary", fit: "cover" },
+    intro:
+      "Calgary furnace blower diagnosis and repair — capacitor replacement, motor swap, wheel cleaning + balance, limit switch troubleshooting. Honest replace-vs-repair calls. Call 587-834-3668.",
+    features: [
+      "Blower motor diagnosis (PSC, X13, ECM)",
+      "Capacitor replacement",
+      "Blower wheel cleaning + rebalance",
+      "Bearing inspection + lubrication",
+      "Limit switch + control board diagnosis",
+      "Motor replacement when repair isn't worth it",
+    ],
+    bullets: [
+      {
+        t: "Real diagnosis — not parts swapping",
+        d: "We check capacitor microfarads, motor amp draw, wheel balance, and limit switch operation before quoting a part. Box-store guesswork (\"probably the motor — that'll be $900\") gets a lot of homeowners overpaying for a $40 capacitor problem.",
+      },
+      {
+        t: "Honest repair vs. replace call",
+        d: "If your furnace is 15+ years old and the ECM motor has burned out, replacement is often the right move — a new motor on a tired furnace is throwing $700 at a system that'll need replacement in 2 years anyway. We'll say so plainly.",
+      },
+      {
+        t: "Most repairs finish first visit",
+        d: "Service trucks carry the common capacitor sizes, universal-fit X13 + PSC motor stock, and the diagnostic tools to confirm the failure on-site. Variable-speed ECM motor replacements sometimes need an overnight parts order; we'll tell you upfront.",
+      },
+      {
+        t: "Calgary winter-aware",
+        d: "We prioritize no-heat blower calls during cold snaps — same priority dispatch as [furnace repair](/furnace-repair-calgary/) and [boiler emergency](/boiler-repair-calgary/) work. No automated phone trees.",
+      },
+    ],
+    seoTitle: "Furnace Blower Issues Calgary | Diagnosis & Repair | FlameTech",
+    seoDescription:
+      "Calgary furnace blower motor diagnosis, capacitor replacement, wheel cleaning + balance, motor swap. Honest repair vs. replace calls. Call 587-834-3668.",
+    seoKeywords: [
+      "furnace blower issues Calgary",
+      "furnace blower motor Calgary",
+      "furnace blower not working",
+      "furnace capacitor replacement Calgary",
+      "ECM motor replacement Calgary",
+      "FlameTech Plumbing Heating",
+    ],
+    quoteFormLabel: "furnace blower",
+    quoteFormPlaceholder:
+      "e.g. weak airflow from vents, blower running constantly, loud rattling/squealing, blower won't start, burning smell from furnace…",
+    sidebar: {
+      title: "Calgary Furnace Blower Repair",
+      subtitle:
+        "Diagnosis + repair on every common Calgary blower setup — PSC, X13, ECM. Honest replace-vs-repair calls.",
+      bullets: [
+        "Most diagnoses in 30 minutes",
+        "Common parts on the truck",
+        "Priority dispatch in cold snaps",
+        "Free quote on motor replacement",
+      ],
+    },
+    stats: [
+      { number: "25+", label: "Years in Calgary", icon: "verified" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "30 min", label: "Typical diagnosis", icon: "schedule" },
+      { number: "ANY", label: "Motor type", icon: "check_circle" },
+    ],
+    callout:
+      "Weak airflow, loud blower, or no heat in a cold snap? Call 587-834-3668 — priority dispatch with common parts on the truck.",
+    richContent: {
+      sections: [
+        {
+          heading: "Common Calgary furnace blower symptoms (and what they usually mean)",
+          intro:
+            "Most blower problems show up as one of these. The underlying cause varies — and the right repair depends on the cause, not the symptom.",
+          items: [
+            {
+              heading: "Weak airflow from vents",
+              body: "Usually a clogged blower wheel (the most common Calgary cause — dusty chinook air clogs the squirrel-cage fins, dropping CFM 30-50%), a failing capacitor (running but not at full speed), or a dirty / collapsed filter. We pull the blower assembly, inspect the wheel, test the capacitor, and check the filter housing — all in one visit.",
+            },
+            {
+              heading: "Loud rattling, squealing, or grinding noise",
+              body: "Rattling is usually an unbalanced or loose blower wheel — debris caught in the fins, or a wheel that's loosened on the motor shaft. Squealing is bearing failure on PSC and X13 motors (ECM motors are sealed-bearing — no squeal warning, they just stop). Grinding is bearing failure already in progress.",
+            },
+            {
+              heading: "Blower runs constantly, never shuts off",
+              body: "Limit switch tripping — the furnace senses overheat (often because the blower CAN'T keep up with airflow demand) and runs the fan continuously to dump heat. Root cause is usually a clogged filter, restricted ducts, or a failing blower. Just resetting the limit doesn't fix it; we trace airflow and address the source.",
+            },
+            {
+              heading: "Blower won't start at all — humming or silence",
+              body: "Humming = motor's getting power but can't spin. Almost always a failed capacitor on PSC or X13 motors ($40-$80 part, 15-minute fix). Silence = no power to motor — could be control board, limit switch, or motor windings open. ECM motors have integrated controllers that fail differently — error codes help diagnose.",
+            },
+            {
+              heading: "Burning smell from furnace",
+              body: "If it's a sweet/dusty smell on the first burn of the season, that's accumulated dust burning off the heat exchanger — normal. If it's electrical/plastic smell, that's motor windings overheating or capacitor failing — turn the furnace off immediately and call us. Continuing to run can damage the heat exchanger or wiring.",
+            },
+            {
+              heading: "Air feels weak or barely warm",
+              body: "Blower is running but moving less air across the heat exchanger than designed. Result: air doesn't have time to pick up much heat. Causes: clogged wheel, slow motor (failing capacitor or bearings), or restricted ductwork. We measure static pressure to confirm where the restriction is.",
+            },
+          ],
+        },
+        {
+          heading: "Why Calgary furnaces are tough on blower motors",
+          intro:
+            "The Calgary climate puts more hours and harder cycles on a furnace blower than most Canadian cities. Knowing why helps explain why blower failures cluster the way they do here.",
+          items: [
+            {
+              heading: "Long heating season + cold snaps = high cycle counts",
+              body: "Calgary furnaces typically run 7-8 months of the year, with peak demand during −30°C cold snaps where the burner cycles much more frequently. More cycles means more start/stop wear on the motor — capacitors degrade with start cycles, not run hours.",
+            },
+            {
+              heading: "Chinook freeze-thaw stresses motor bearings",
+              body: "Rapid temperature swings in chinook events expand and contract motor housings repeatedly. PSC and X13 motors with conventional bearings show wear faster here than in stable climates. ECM motors hold up better because the bearings are sealed and the motor runs at lower speeds for longer with less start/stop stress.",
+            },
+            {
+              heading: "Prairie dust + chinook air clog blower wheels fast",
+              body: "Chinook winds bring fine Prairie dust into Calgary that bypasses standard 1\" pleated filters. The dust accumulates on blower wheel fins, throwing them out of balance and dropping CFM. We see severely-clogged wheels every winter — sometimes with 40% airflow reduction the homeowner had attributed to \"old furnace, what can you do.\"",
+            },
+            {
+              heading: "Shoulder-season fan-only running adds wear",
+              body: "Many Calgary homeowners run furnace fan-only in spring/fall for circulation or fresh air. That's hundreds of additional running hours per year — meaningful on ECM motors rated for ~2,000 hours/year design life. Worth knowing if you're trying to figure out why your 8-year-old furnace's ECM motor has already failed.",
+            },
+            {
+              heading: "Older NW + SE neighbourhoods have more PSC failures",
+              body: "Pre-2000 builds (Brentwood, Thorncliffe, Inglewood, Ramsay, Bowness) often still have original PSC blower motors — 25+ years on the same motor. Capacitor failure is the #1 issue we see in these homes; the fix is cheap ($40-$80 part), but the underlying motor is often near end of life and the call repeats within 12-24 months.",
+            },
+            {
+              heading: "2010s mid-efficiency builds: X13 motor era",
+              body: "Communities built 2005-2015 (Mahogany, Auburn Bay, Evanston, Cranston, Tuscany) typically have X13 multi-speed motors. These fail differently than PSC — programmed speed taps go bad one at a time (cooling speed fails but heating still works, etc.), so symptoms are subtler. Diagnosis usually requires checking which speed taps work, not just \"does it spin.\"",
+            },
+            {
+              heading: "Modern ECM motors: $500-$900 to replace",
+              body: "Newer builds (post-2015) have variable-speed ECM motors that run quietly, use less power, and last longer — but when they fail, the replacement motor is $500-$900 just for the part (the controller is integrated). On a 12+ year-old furnace, that often pushes the math toward full replacement instead. We do the honest calculation with you.",
+            },
+          ],
+        },
+        {
+          heading: "What we do on a blower service call",
+          intro:
+            "Standard diagnosis sequence. Most calls finish first visit; some ECM replacements need next-day parts.",
+          items: [
+            {
+              heading: "1. Symptom + history",
+              body: "What's happening, when it started, how the furnace was performing before. Filter change history matters a lot here — restricted airflow is the root cause of a lot of blower failures.",
+            },
+            {
+              heading: "2. Visual inspection — wheel, motor, capacitor, wiring",
+              body: "Pull the blower assembly, check wheel for debris and balance, check motor housing for heat discoloration, check capacitor for bulging or leaking, check wiring connections.",
+            },
+            {
+              heading: "3. Electrical diagnosis",
+              body: "Measure capacitor microfarads against rated value, measure motor amp draw against nameplate, check control board signal to motor, verify limit switch operation. This is where we separate \"capacitor failure\" from \"motor failure\" — they look identical at the symptom level but cost 10× different to fix.",
+            },
+            {
+              heading: "4. Airflow diagnosis",
+              body: "Measure static pressure across blower compartment. High static pressure = restricted ducts or filter (the real cause that's burning out the motor). Just replacing the motor without addressing this means you'll be replacing it again.",
+            },
+            {
+              heading: "5. Repair OR honest replace-vs-repair quote",
+              body: "Capacitor — replace on the spot ($40-$80 part + $150 labour, $200-$240 typical). PSC/X13 motor — replace if furnace has 5+ years of useful life left ($350-$600 motor + $200-$300 labour). ECM motor on a 12+ year-old furnace — quote both motor replacement and full furnace replacement; let you decide. Free quote on the replacement option either way.",
+            },
+            {
+              heading: "6. Filter + duct recommendations",
+              body: "If we found a clogged filter, restricted ducts, or undersized return air contributing to the failure, we'll recommend a fix. Better filter rating, return-air upgrade, or duct rebalancing — whatever the real cause was.",
+            },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Furnace Blower Issues Calgary — FAQs",
+        items: [
+          {
+            q: "How much does it cost to fix a furnace blower in Calgary?",
+            a: "Depends on what failed. Capacitor replacement (most common cheap fix) typically runs $200-$240 all-in. PSC or X13 motor replacement: $550-$900 depending on motor size and access. ECM variable-speed motor replacement: $900-$1,600 because the motor itself is $500-$900 just for the part. We diagnose first ($150 service call, applied to the repair if you proceed) so you know which bucket you're in before committing.",
+          },
+          {
+            q: "Should I repair my blower or replace the whole furnace?",
+            a: "Depends on furnace age and which part failed. Capacitor on any-age furnace — always repair (cheap, easy). PSC or X13 motor on a furnace under 12 years — repair. ECM motor replacement on a furnace 12+ years old — often makes more sense to replace the whole furnace, because the rest of the system (heat exchanger, control board, igniter) is approaching end of life too. We'll do both calculations and let you decide.",
+          },
+          {
+            q: "What's the difference between a PSC, X13, and ECM blower motor?",
+            a: "PSC (permanent-split capacitor) = older single-speed motors found in pre-2000 furnaces. Cheapest to replace ($350-$500), prone to capacitor failure but the capacitor itself is a $40-$80 fix. X13 = multi-speed motors common in mid-2000s to mid-2010s furnaces — runs different speeds for cooling, heating, and fan-only. ECM (electronically commutated motor) = variable-speed motors in modern high-efficiency furnaces. Quietest, most efficient, longest-lived — but most expensive to replace ($500-$900 for the motor alone) because the controller is integrated.",
+          },
+          {
+            q: "My blower runs constantly and won't shut off. What's wrong?",
+            a: "Almost always a limit switch tripping. The furnace senses an overheat condition and runs the blower continuously to dump heat. Root cause is usually restricted airflow — clogged filter, clogged blower wheel, blocked return-air grilles, or undersized ductwork — that prevents the blower from moving enough air across the heat exchanger. We diagnose the actual restriction rather than just resetting the limit, because resetting alone means you'll be back here in a week.",
+          },
+          {
+            q: "Why does my furnace make a loud rattling noise when the blower starts?",
+            a: "Usually one of three things: blower wheel debris (something physically hitting the wheel as it spins), wheel imbalance (wheel has loosened on the motor shaft or fins are damaged), or loose blower assembly mounting. All are repairable on the same visit — we pull the assembly, inspect the wheel, rebalance or replace as needed. A wheel left rattling will eventually destroy the bearings, the motor shaft, or both — worth addressing before it cascades.",
+          },
+          {
+            q: "How often should I have my furnace blower serviced?",
+            a: "Annual service covers blower wheel cleaning, motor inspection, capacitor test, and airflow check — that's the right cadence. If you're noticing weak airflow or noise between annual services, call sooner rather than later. Calgary's dusty chinook air clogs blower wheels faster than service techs in other cities are used to seeing — many homeowners are due for a wheel cleaning long before their next scheduled service.",
+          },
+          {
+            q: "Can I clean the blower wheel myself?",
+            a: "Technically yes, but it's involved — you need to shut off power at the disconnect, remove the blower assembly (usually 4-6 sheet metal screws + wiring disconnects), pull the wheel off the motor shaft, clean each fin with a brush, reinstall, and rebalance. Most homeowners aren't set up for that. Once the wheel comes off, it's also a good moment to inspect the motor, capacitor, and limit switch — which is what we do during annual service. Easier and safer to book it once a year.",
+          },
+        ],
+      },
+    },
+  },
+  {
     slug: "garage-heaters-calgary",
     category: "Heating",
     icon: "garage",

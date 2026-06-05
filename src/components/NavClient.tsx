@@ -162,6 +162,12 @@ const menu: NavItem[] = [
               desc: "95–98% AFUE installs.",
             },
             {
+              label: "Furnace Blower Issues",
+              href: "/furnace-blower-issues-calgary/",
+              icon: "tune",
+              desc: "Diagnosis + repair: weak airflow, noise, no heat.",
+            },
+            {
               label: "Garage Heaters",
               href: "/garage-heaters-calgary/",
               icon: "garage",

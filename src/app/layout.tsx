@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Manrope, Fraunces } from "next/font/google";
+import { Manrope } from "next/font/google";
 import { GoogleAnalytics, GoogleTagManager } from "@next/third-parties/google";
 import Script from "next/script";
 import "./globals.css";
@@ -20,18 +20,6 @@ const manrope = Manrope({
   weight: ["300", "400", "500", "600", "700", "800"],
   variable: "--font-manrope",
   display: "swap",
-});
-
-// Display serif. Used on H1/H2 via the .font-display + .font-serif
-// utility class — pairs against Manrope (body / UI) for clearer
-// hierarchy and a trade-craft feel than a single sans-serif.
-// Variable axes: opsz 9-144 (we use opsz across heading sizes for
-// optical correctness), wght 100-900 (we'll use 600-800 only).
-const fraunces = Fraunces({
-  subsets: ["latin"],
-  variable: "--font-fraunces",
-  display: "swap",
-  axes: ["opsz"],
 });
 
 const SITE_URL = "https://flametechplumbing.ca";
@@ -292,7 +280,7 @@ export default function RootLayout({
   };
 
   return (
-    <html lang="en-CA" className={`${manrope.variable} ${fraunces.variable}`}>
+    <html lang="en-CA" className={manrope.variable}>
       <body
         className="font-body text-cream-50 bg-ink-900 antialiased"
         style={{ width: "100%", position: "relative" }}

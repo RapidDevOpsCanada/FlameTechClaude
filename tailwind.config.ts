@@ -40,20 +40,10 @@ const config: Config = {
         full: "9999px",
       },
       fontFamily: {
-        // font-display = Fraunces variable serif. Used on H1/H2 to
-        // give the brand more character than a single-typeface site.
-        // Fraunces is a high-contrast serif with strong personality
-        // at large sizes; pairs cleanly against Manrope for body.
-        display: ["var(--font-fraunces)", "ui-serif", "Georgia", "serif"],
-        headline: ["var(--font-fraunces)", "ui-serif", "Georgia", "serif"],
-        // Body, ui, captions, eyebrow chips, button text — Manrope.
+        display: ["var(--font-manrope)", "Manrope", "Inter", "sans-serif"],
+        headline: ["var(--font-manrope)", "Manrope", "Inter", "sans-serif"],
         body: ["var(--font-manrope)", "Manrope", "Inter", "sans-serif"],
         technical: ["var(--font-manrope)", "Manrope", "Inter", "sans-serif"],
-        // Escape-hatch sans-display for when a display element
-        // intentionally needs to stay in Manrope (e.g. compact
-        // numerical stats where serif kerning fights with monospace
-        // numerals).
-        "display-sans": ["var(--font-manrope)", "Manrope", "Inter", "sans-serif"],
       },
     },
   },
