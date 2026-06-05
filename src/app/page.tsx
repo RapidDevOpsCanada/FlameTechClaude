@@ -765,6 +765,7 @@ export default async function Home() {
                     { region: "SW Calgary", links: [
                       { name: "Altadore", href: "/altadore-plumbers-calgary/" },
                       { name: "Aspen Woods", href: "/aspen-woods-plumbers-calgary/" },
+                      { name: "Bel-Aire", href: "/bel-aire-plumbers-calgary/" },
                       { name: "Mount Royal", href: "/mount-royal-plumbers-calgary/" },
                       { name: "Marda Loop", href: "/marda-loop-plumbers-calgary/" },
                       { name: "Signal Hill", href: "/signal-hill-plumbers-calgary/" },

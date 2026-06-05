@@ -5286,6 +5286,166 @@ export const services: ServicePage[] = [
   },
 
   {
+    slug: "bel-aire-plumbers-calgary",
+    category: "Plumbing",
+    location: "Calgary",
+    icon: "plumbing",
+    title: "Bel-Aire Plumbers Calgary | SW Calgary Plumbing & Heating",
+    lead:
+      "Licensed plumbers serving Bel-Aire — Glenmore Reservoir frontage, mature trees, and one of Calgary's oldest estate communities. We work on the heritage 1960s-70s stock with its original galvanized supply lines and clay sewer laterals, as well as the modern luxury rebuilds and infill homes that fill out the area today.",
+    heroBody: [
+      "Bel-Aire is a small, established community between the Elbow River and Glenmore Reservoir — most of the original housing dates to the 1960s-70s, and a lot of those homes still have their first-generation plumbing. We've worked on the patterns specific to this neighbourhood for years: galvanized supply lines closing off with scale, cast-iron stack joints failing at the bottom of the run, clay sewer laterals taking root intrusion from the mature elms and poplars that define the streetscape.",
+      "On the newer side, the luxury rebuilds and custom infill that have replaced original homes since the 2000s often have hydronic radiant heating, high-end fixtures (Brizo, Hansgrohe, Kohler), and multi-zone hot water demand that needs proper sizing — not a default 50-gallon tank that runs out before the second en-suite finishes a shower.",
+      "Same team that handles [Mount Royal](/mount-royal-plumbers-calgary/), [Altadore](/altadore-plumbers-calgary/), and the rest of [SW Calgary](/calgary-plumbers-sw/). Call 587-834-3668 for priority dispatch.",
+    ],
+    heroSubhead: "Plumbing & Heating for Bel-Aire Homes",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing service van — Bel-Aire Calgary coverage", fit: "cover" },
+    intro:
+      "Licensed plumbers for Bel-Aire — heritage 1960s-70s stock (galvanized + cast-iron), luxury rebuilds with hydronic radiant + high-end fixtures, mature-tree root intrusion in clay laterals. Priority emergency dispatch.",
+    features: [
+      "Heritage galvanized + cast-iron repair",
+      "Clay sewer lateral camera + hydro-jet",
+      "Hydronic radiant + high-end fixture install",
+      "Sized hot water for larger estate homes",
+      "Priority emergency plumbing",
+      "Polybutylene replacement (where present)",
+    ],
+    bullets: [
+      {
+        t: "Heritage-home expertise",
+        d: "1960s-70s Bel-Aire homes have galvanized supply lines that close off with mineral scale (pressure drops, hot side worse than cold), cast-iron stacks reaching end of life, and clay sewer laterals with root intrusion from the mature street trees. We diagnose and replace without ripping out finished interiors.",
+      },
+      {
+        t: "Estate-class hot water sizing",
+        d: "Larger Bel-Aire homes (3+ bathrooms, multi-zone hydronic) need water heaters sized for actual demand. We've moved a lot of homes from undersized 40-gallon tanks to properly-sized 75-gallon or tankless setups — no more running out mid-shower.",
+      },
+      {
+        t: "Mature-tree root inspection",
+        d: "Decades-old elms and poplars across Bel-Aire send roots into clay sewer laterals. Camera-inspect first, hydro-jet second, root barriers or trenchless lining for chronic offenders. Catching it before backup beats reacting to it after.",
+      },
+      {
+        t: "Quick dispatch from Calgary",
+        d: "Bel-Aire sits right off 14 St SW and Glenmore Trail — direct routes from the inner SW. Same dispatch as [Altadore](/altadore-plumbers-calgary/), [Marda Loop](/marda-loop-plumbers-calgary/), [Mount Royal](/mount-royal-plumbers-calgary/), and the rest of central SW Calgary.",
+      },
+    ],
+    seoTitle: "Bel-Aire Plumbers Calgary | Heritage + Estate Home Specialists",
+    seoDescription:
+      "Plumbers serving Bel-Aire, SW Calgary. Heritage 1960s-70s stock, luxury rebuilds, hydronic radiant, mature-tree root intrusion. Priority dispatch. Call 587-834-3668.",
+    seoKeywords: [
+      "Bel-Aire plumbers",
+      "Bel-Aire Calgary plumber",
+      "plumber Bel-Aire Calgary",
+      "SW Calgary plumber",
+      "Bel-Aire heritage home plumbing",
+      "FlameTech Plumbing",
+    ],
+    quoteFormLabel: "Bel-Aire plumbing",
+    quoteFormPlaceholder:
+      "e.g. galvanized supply replacement, clay sewer root intrusion, hydronic boiler service, high-end fixture install, Poly-B replacement…",
+    sidebar: {
+      title: "Bel-Aire Plumbers",
+      subtitle:
+        "Licensed plumbers for Bel-Aire — heritage stock + luxury rebuilds, hydronic specialists, priority dispatch.",
+      bullets: [
+        "25+ years on Calgary heritage homes",
+        "Galvanized + cast-iron repair + replacement",
+        "Estate-class hot water sizing",
+        "Live dispatch — never automated",
+      ],
+    },
+    stats: [
+      { number: "25+", label: "Years in Calgary", icon: "verified" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "FREE", label: "Written estimates", icon: "request_quote" },
+      { number: "Red Seal", label: "Plumbers + gas fitters", icon: "award" },
+    ],
+    callout:
+      "Burst pipe, no heat, or sewer backup in Bel-Aire? Call 587-834-3668 — priority dispatch from licensed plumbers any hour.",
+    richContent: {
+      sections: [
+        {
+          heading: "What we cover in Bel-Aire",
+          intro:
+            "Same scope as our inner-SW Calgary service, dispatched from Calgary direct via 14 St SW or Glenmore Trail.",
+          items: [
+            { heading: "Heritage plumbing repair + replacement", body: "Galvanized supply line replacement (the #1 issue on the original 60s-70s stock), cast-iron stack repair, original clay sewer lateral camera inspection + hydro-jet clearing or trenchless lining." },
+            { heading: "Hydronic + high-end fixture work", body: "Modern rebuilds in Bel-Aire often have hydronic radiant heating + high-end fixtures (Brizo, Hansgrohe, Kohler). We design, install, and service [hydronic systems](/boiler-installation-calgary/) and work on the premium fixture brands you'll find in these homes." },
+            { heading: "Hot water tanks + tankless", body: "Larger Bel-Aire homes outgrow standard 40-gallon tanks. We size [hot water tank replacements](/hot-water-tank-replacement-calgary/) or [tankless](/tankless-water-heaters/) for actual household demand — multi-bathroom, multi-zone use." },
+            { heading: "Emergency plumbing", body: "Burst pipes, major leaks, sewer backups. Heritage homes are especially vulnerable to frozen-pipe failures because the original walls have minimal insulation in supply-line runs. See our [emergency plumber](/emergency-plumber-calgary/) page." },
+            { heading: "Drain cleaning + sewer camera", body: "Hydro-jetting and HD camera inspection. Mature trees on the Bel-Aire streets send roots into clay laterals — we camera-inspect first, then hydro-jet or recommend barriers/lining depending on what we find. See [drain cleaning](/drain-cleaning-calgary/)." },
+            { heading: "Poly-B replacement", body: "Some 80s-90s renovations and rebuilds in Bel-Aire have Poly-B supply lines now 25-35 years old and in the failure window. Free inspection, written quote — see [Poly-B replacement Calgary](/polyb-plumbing-calgary/)." },
+          ],
+        },
+        {
+          heading: "What's different about Bel-Aire plumbing",
+          intro:
+            "Bel-Aire's mix of original 1960s-70s estate homes, mature trees, and modern luxury rebuilds creates a specific set of plumbing patterns we see across the neighbourhood.",
+          items: [
+            {
+              heading: "1960s-70s galvanized supply lines",
+              body: "Most original Bel-Aire homes were piped with galvanized steel. Internal corrosion narrows the pipe diameter over decades — pressure drops, hot side worse than cold, brownish discharge on first morning draw. The only real fix is full re-pipe with PEX or copper. Common Bel-Aire renovation.",
+            },
+            {
+              heading: "Cast-iron stacks at end of life",
+              body: "Stacks reaching 55-65 years old in the original homes — joints separating, pinhole rust through horizontal runs at the bottom of the stack. We've replaced a lot of these across the neighbourhood. Catching before a basement-bathroom leak is the cheap path.",
+            },
+            {
+              heading: "Mature-tree root intrusion in clay sewer mains",
+              body: "Bel-Aire's mature elms, poplars, and willows have decades of root growth into the original clay sewer laterals. Symptoms: gurgling drains, slow toilets, intermittent backups. Camera inspection confirms, hydro-jet clears, root barriers or trenchless lining stop the cycle.",
+            },
+            {
+              heading: "Hydronic radiant in luxury rebuilds",
+              body: "A high portion of the post-2000 rebuilds + custom infills run hydronic radiant heating throughout the main floor (and sometimes the bathrooms upstairs too). We design and install these systems — including the manifolds, zone valves, circulators, and condensing boiler that drive them.",
+            },
+            {
+              heading: "Multi-zone hot water demand",
+              body: "Larger Bel-Aire homes routinely have 3+ bathrooms, en-suites in master + multiple guest rooms, often a basement kitchen or bar. Standard 40-gallon tanks can't keep up. We size 75-gallon tanks or tankless setups based on actual fixture count and use patterns — not the default install.",
+            },
+            {
+              heading: "High-end fixture installations",
+              body: "Brizo, Hansgrohe, Kohler, and other premium fixture brands are common in Bel-Aire renovations. We work on these regularly — the trade-off vs. builder-grade is fewer warranty hassles but more complex valve cartridges that require brand-specific parts inventory.",
+            },
+            {
+              heading: "Glenmore Reservoir proximity",
+              body: "Bel-Aire sits adjacent to the Glenmore Reservoir. Standard municipal supply pressure for the area, no unusual water-table issues at most lots, but the Elbow River proximity is worth flagging during spring melt — properties on the north edge can see higher groundwater in big melt events.",
+            },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Bel-Aire Plumbing FAQs",
+        items: [
+          {
+            q: "How does dispatch to Bel-Aire work?",
+            a: "We dispatch from Calgary direct via 14 St SW or Glenmore Trail — Bel-Aire is on the regular inner-SW dispatch radius alongside Altadore, Marda Loop, and Mount Royal. Emergency calls get priority routing over scheduled work. Call 587-834-3668 and we'll confirm a window before the truck rolls.",
+          },
+          {
+            q: "My Bel-Aire home was built in the 1960s — is the galvanized plumbing a problem?",
+            a: "Probably yes if it's never been re-piped. Galvanized steel supply lines corrode internally — the pipe wall gets thinner, the inside diameter gets smaller from rust scale buildup, and eventually you get reduced pressure (hot side first, since hot water accelerates the corrosion), brownish water on the first morning draw, and eventually pinhole leaks behind walls. The only permanent fix is full repipe with PEX or copper. We've done a lot of these in Bel-Aire and surrounding 60s-70s neighbourhoods.",
+          },
+          {
+            q: "Do you handle hydronic radiant heating systems?",
+            a: "Yes — we design, install, and service hydronic systems. Most modern Bel-Aire rebuilds we work on have radiant heating throughout the main floor, often with secondary zones in en-suite bathrooms or basement spaces. We work with every major boiler brand (Viessmann, Navien, IBC, Triangle Tube) and handle the full system — manifolds, zone valves, circulators, expansion tanks, controls. See our [boiler installation](/boiler-installation-calgary/) page for the full scope.",
+          },
+          {
+            q: "What size hot water system do I need for a 4-bathroom Bel-Aire home?",
+            a: "Depends on simultaneous use patterns, not just bathroom count. A 4-bathroom home with normal staggered morning use can often run a properly-sized 75-gallon high-recovery tank. A home with multiple simultaneous shower use (kids, guests, etc.) might need a 75-gallon plus a small recirc loop, or a single high-output tankless (180,000+ BTU). We measure actual peak demand and size based on real numbers — most undersized tank failures in this neighbourhood come from defaulting to a 50-gallon when 75 was the right call.",
+          },
+          {
+            q: "How do you handle clay sewer lateral root intrusion?",
+            a: "Three-step approach. (1) HD camera inspection to confirm the location and severity of root intrusion. (2) Hydro-jet clearing to remove the root mass and any accumulated debris. (3) Decision on long-term fix: chemical root barriers (cheap, requires repeat applications), trenchless pipe lining (more expensive but the lateral effectively becomes new), or full lateral replacement (highest cost, longest disruption — only when the existing pipe is structurally failed). For Bel-Aire's mature-tree streets, we usually recommend the trenchless lining after the second backup — solves it for 50+ years.",
+          },
+          {
+            q: "Are you licensed and insured for Bel-Aire work?",
+            a: "Yes. Alberta-licensed plumbers and gas fitters, Red Seal certified, fully insured and bonded. Insurance certificate available on request before we start any job.",
+          },
+        ],
+      },
+    },
+  },
+
+  {
     slug: "aspen-woods-plumbers-calgary",
     category: "Plumbing",
     location: "Calgary",
@@ -6178,6 +6338,7 @@ export const services: ServicePage[] = [
       neighbourhoods: [
         { name: "Altadore", slug: "altadore-plumbers-calgary", blurb: "Heritage inner-SW, river-adjacent, mixed pipe eras." },
         { name: "Aspen Woods", slug: "aspen-woods-plumbers-calgary", blurb: "2002-2015 builds, sized hot-water + multi-zone systems." },
+        { name: "Bel-Aire", slug: "bel-aire-plumbers-calgary", blurb: "60s-70s estate stock + luxury rebuilds, mature-tree clay sewer issues." },
         { name: "Bridlewood", slug: "bridlewood-plumbers-calgary", blurb: "Mid-90s through 2000s, north-slope freeze risk." },
         { name: "Evergreen", slug: "evergreen-plumbers-calgary", blurb: "2000s subdivision off Stoney + 14 St SW." },
         { name: "Killarney", slug: "killarney-plumbers-calgary", blurb: "Mid-century stock + new infill, mixed plumbing." },

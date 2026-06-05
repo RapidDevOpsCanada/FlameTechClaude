@@ -47,6 +47,7 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
   "reunion-plumbers-airdrie": "Plumbing",
   "altadore-plumbers-calgary": "Plumbing",
   "aspen-woods-plumbers-calgary": "Plumbing",
+  "bel-aire-plumbers-calgary": "Plumbing",
   "auburn-bay-plumber-calgary": "Plumbing",
   "bowness-plumbers-calgary": "Plumbing",
   "bridlewood-plumbers-calgary": "Plumbing",
