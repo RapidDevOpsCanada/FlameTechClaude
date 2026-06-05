@@ -173,6 +173,7 @@ export const featuredImageDimensions: Record<string, { w: number; h: number }> =
   "/images/reviews/u9-sw-gold-treasurer.png": { w: 36, h: 36 },
   "/images/reviews/vicki-mclaughlin.png": { w: 36, h: 36 },
   "/images/reviews/wade-mcgowan.png": { w: 36, h: 36 },
+  "/images/team/ben-driedger.jpg": { w: 600, h: 565 },
   "/images/team/jason-mounsey.jpg": { w: 283, h: 316 },
   "/images/team/shaun-kristoff.jpg": { w: 302, h: 297 },
   "/images/water-softener-calgary.png": { w: 800, h: 794 },

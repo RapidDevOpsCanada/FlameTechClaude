@@ -268,11 +268,11 @@ export default async function Home() {
           <div className="max-w-7xl mx-auto px-6 md:px-10 relative">
             <div className="grid grid-cols-12 gap-8 md:gap-12 items-stretch">
               <Reveal className="col-span-12 lg:col-span-6">
-                <div className="rounded-3xl bg-white border border-line-light overflow-hidden h-full flex flex-col soft-shadow">
+                <div className="rounded-3xl bg-white border-2 border-emergency/15 overflow-hidden h-full flex flex-col soft-shadow ring-1 ring-emergency/5">
                   <div className="p-8 md:p-10 pb-6">
-                    <span className="eyebrow-light mb-4">Founders</span>
-                    <h2 className="font-display text-3xl md:text-4xl font-extrabold tracking-[-0.02em] mt-4 mb-6 leading-tight">
-                      Red Seal journeymen. 45+ years combined.
+                    <span className="eyebrow-light mb-4">About FlameTech</span>
+                    <h2 className="font-display text-3xl md:text-4xl xl:text-[44px] font-extrabold tracking-[-0.02em] mt-4 mb-6 leading-[1.05]">
+                      Calgary-owned plumbing &amp; heating, run by the trade.
                     </h2>
                   </div>
                   <div className="relative mx-6 md:mx-8 mb-6 rounded-2xl overflow-hidden border border-line-light aspect-[4/5]">
@@ -291,27 +291,36 @@ export default async function Home() {
                   </div>
                   <div className="p-8 md:p-10 pt-2 flex flex-col justify-between flex-1">
                     <p className="text-ink-500 leading-relaxed mb-8">
-                      FlameTech is owned and run by Jason Mounsey and Shaun
-                      Kristoff — Red Seal–certified plumbers who built this
-                      company around honest advice, upfront pricing, and
-                      doing things right the first time.
+                      FlameTech is owner-operated by Shaun Kristoff and Jason
+                      Mounsey — Red Seal journeymen with 45+ years combined
+                      trade experience — and Red Seal tech Ben Driedger. Built
+                      around honest advice, upfront pricing, and the same
+                      direct line to the person doing the work.
                     </p>
                     <div>
-                      <div className="grid grid-cols-2 gap-4 pt-6 border-t border-line-light">
+                      <div className="grid grid-cols-3 gap-3 md:gap-4 pt-6 border-t border-line-light">
                         <div className="min-w-0">
-                          <div className="font-display text-3xl font-extrabold text-primary-deep mb-1">
-                            20+
-                          </div>
-                          <div className="text-[10px] md:text-xs uppercase tracking-[0.08em] md:tracking-[0.14em] font-semibold text-ink-500 break-words leading-snug">
-                            Jason — years in trade
-                          </div>
-                        </div>
-                        <div className="min-w-0">
-                          <div className="font-display text-3xl font-extrabold text-primary-deep mb-1">
+                          <div className="font-display text-2xl md:text-3xl font-extrabold text-primary-deep mb-1">
                             25+
                           </div>
                           <div className="text-[10px] md:text-xs uppercase tracking-[0.08em] md:tracking-[0.14em] font-semibold text-ink-500 break-words leading-snug">
-                            Shaun — years in trade
+                            Shaun — yrs in trade
+                          </div>
+                        </div>
+                        <div className="min-w-0">
+                          <div className="font-display text-2xl md:text-3xl font-extrabold text-primary-deep mb-1">
+                            20+
+                          </div>
+                          <div className="text-[10px] md:text-xs uppercase tracking-[0.08em] md:tracking-[0.14em] font-semibold text-ink-500 break-words leading-snug">
+                            Jason — yrs in trade
+                          </div>
+                        </div>
+                        <div className="min-w-0">
+                          <div className="font-display text-2xl md:text-3xl font-extrabold text-primary-deep mb-1">
+                            Red Seal
+                          </div>
+                          <div className="text-[10px] md:text-xs uppercase tracking-[0.08em] md:tracking-[0.14em] font-semibold text-ink-500 break-words leading-snug">
+                            Ben — certified 2021
                           </div>
                         </div>
                       </div>
@@ -319,7 +328,7 @@ export default async function Home() {
                         href="/about/"
                         className="group mt-6 inline-flex items-center gap-2 text-sm font-bold text-emergency-deep hover:text-emergency transition-colors"
                       >
-                        Read Shaun and Jason&apos;s full bios
+                        Meet the FlameTech team
                         <Icon
                           name="arrow_right_alt"
                           className="text-base transition-transform group-hover:translate-x-1"

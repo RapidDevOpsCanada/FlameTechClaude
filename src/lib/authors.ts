@@ -41,6 +41,18 @@ export const authors: Record<string, AuthorBio> = {
       "Red Seal · Alberta Licensed",
     ],
   },
+  "Ben Driedger": {
+    name: "Ben Driedger",
+    role: "Red Seal Plumbing & HVAC Technician, FlameTech",
+    initials: "BD",
+    avatar: "/images/team/ben-driedger.jpg",
+    bio: "Hi there! I'm Ben! I've been in the residential plumbing and HVAC field since I started back in early 2018. I quickly grew to know and love the trade, finishing my Red Seal testing in 2021.\n\nI take pride in my work, and will always make sure the job is done as if I was working in my own home.\n\nAside from work, sports primarily keep me occupied. I'm a big hockey fan, but I have always played and watched most other sports too. Born and raised in YYC, this is the place I call home.",
+    credentials: [
+      "In trade since 2018",
+      "Red Seal certified (2021)",
+      "Born & raised in Calgary",
+    ],
+  },
 };
 
 export function getAuthorBio(name: string): AuthorBio | null {

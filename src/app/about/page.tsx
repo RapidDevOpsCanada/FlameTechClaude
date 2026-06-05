@@ -64,6 +64,7 @@ const credentials = [
 export default function AboutPage() {
   const shaun = authors["Shaun Kristoff"];
   const jason = authors["Jason Mounsey"];
+  const ben = authors["Ben Driedger"];
 
   // Per-founder Person JSON-LD anchored to the about page so the founder
   // entries in the homepage business schema's `founder` array resolve to
@@ -178,13 +179,13 @@ export default function AboutPage() {
       <section className="bg-white text-ink-900 py-20 border-t border-line-light">
         <div className="max-w-7xl mx-auto px-6 md:px-10">
           <div className="max-w-3xl mb-12">
-            <span className="eyebrow-light mb-4">Meet the founders</span>
+            <span className="eyebrow-light mb-4">Meet the team</span>
             <h2 className="font-display text-3xl md:text-4xl font-extrabold tracking-[-0.015em] mt-4 leading-[1.1]">
-              Two Red Seal journeymen, 45+ years combined.
+              Red Seal certified. Owner-operated. Calgary local.
             </h2>
           </div>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-            {[shaun, jason].map((person) => (
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
+            {[shaun, jason, ben].map((person) => (
               <article
                 key={person.name}
                 className="rounded-2xl bg-cream-50 border border-line-light p-8 md:p-10 soft-shadow"
