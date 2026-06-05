@@ -3,10 +3,9 @@ import Footer from "@/components/Footer";
 import FinalCTA from "@/components/FinalCTA";
 import StickyCallBar from "@/components/StickyCallBar";
 import Icon from "@/components/Icon";
-import IconBadge, { type IconTone } from "@/components/IconBadge";
+import IconBadge from "@/components/IconBadge";
 import { authors } from "@/lib/authors";
 import Image from "next/image";
-import Link from "next/link";
 import type { Metadata } from "next";
 
 const SITE_URL = "https://flametechplumbing.ca";
@@ -102,6 +101,16 @@ export default function AboutPage() {
         worksFor: { "@id": `${SITE_URL}#business` },
         knowsAbout: jason.credentials,
       },
+      {
+        "@type": "Person",
+        "@id": `${SITE_URL}/about/#ben-driedger`,
+        name: ben.name,
+        jobTitle: ben.role,
+        description: ben.bio.split("\n\n")[0],
+        image: ben.avatar ? `${SITE_URL}${ben.avatar}` : undefined,
+        worksFor: { "@id": `${SITE_URL}#business` },
+        knowsAbout: ben.credentials,
+      },
     ],
   };
 
@@ -115,11 +124,11 @@ export default function AboutPage() {
       <section className="relative bg-ink-900 text-cream-50 overflow-hidden">
         <div className="absolute inset-0 dotgrid opacity-40 pointer-events-none" />
         <div className="hidden md:block absolute -top-40 -right-40 w-[600px] h-[600px] rounded-full bg-emergency/15 blur-3xl pointer-events-none" />
-        <div className="max-w-7xl mx-auto px-6 md:px-10 relative pt-16 md:pt-24 pb-16 md:pb-20">
-          <div className="grid grid-cols-12 gap-8 md:gap-12 items-center">
+        <div className="max-w-7xl mx-auto px-6 md:px-10 relative pt-12 md:pt-16 pb-12 md:pb-14">
+          <div className="grid grid-cols-12 gap-6 md:gap-10 items-center">
             <div className="col-span-12 lg:col-span-7">
-              <span className="eyebrow mb-6">About FlameTech</span>
-              <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight leading-[1.05] mt-6 mb-6 max-w-3xl">
+              <span className="eyebrow mb-4">About FlameTech</span>
+              <h1 className="text-4xl md:text-5xl xl:text-6xl font-extrabold tracking-tight leading-[1.05] mt-4 mb-5 max-w-3xl">
                 Calgary&apos;s locally owned plumbing and heating team.
               </h1>
               <p className="text-lg text-cream-50/80 max-w-2xl leading-relaxed">
@@ -130,7 +139,7 @@ export default function AboutPage() {
               </p>
             </div>
             <div className="col-span-12 lg:col-span-5">
-              <div className="relative rounded-2xl overflow-hidden border border-line-dark soft-shadow aspect-[4/5] max-w-md mx-auto">
+              <div className="relative rounded-2xl overflow-hidden border border-line-dark soft-shadow aspect-[4/5] max-w-sm mx-auto">
                 <Image
                   src="/images/FTVAN2.jpg"
                   alt="Jason Mounsey and Shaun Kristoff — FlameTech founders — standing in front of the service van"
@@ -147,85 +156,83 @@ export default function AboutPage() {
       <div aria-hidden="true" className="section-rule" />
 
       {/* Mission / company overview */}
-      <section className="bg-cream-50 text-ink-900 py-20 border-t border-line-light light-surface">
-        <div className="max-w-4xl mx-auto px-6 md:px-10">
-          <span className="eyebrow-light mb-4">Our story</span>
-          <h2 className="font-display text-3xl md:text-4xl font-extrabold tracking-[-0.015em] mt-4 mb-6 leading-[1.1]">
-            Built around quality craftsmanship — not the next sales target.
+      <section className="bg-cream-50 text-ink-900 py-14 md:py-16 border-t border-line-light light-surface">
+        <div className="max-w-3xl mx-auto px-6 md:px-10">
+          <span className="eyebrow-light mb-3">Our story</span>
+          <h2 className="font-display text-2xl md:text-3xl font-extrabold tracking-[-0.015em] mt-3 mb-5 leading-[1.1]">
+            Built around craftsmanship — not the next sales target.
           </h2>
-          <div className="space-y-6 text-[17px] md:text-[18px] text-ink-700 leading-relaxed">
+          <div className="space-y-4 text-[17px] text-ink-700 leading-relaxed">
             <p>
-              FlameTech Plumbing &amp; Heating is a locally owned and operated
-              Calgary company. We started this business because too many
-              homeowners were stuck choosing between fast-but-sloppy big shops
-              and friendly-but-overworked one-person operations. We wanted to
-              be the third option — fast and dependable, but with the
-              craftsmanship and honesty of a small team that actually answers
-              the phone.
+              FlameTech is a locally owned and operated Calgary company. We
+              started it because too many homeowners were stuck choosing
+              between fast-but-sloppy big shops and friendly-but-overworked
+              one-person operations. We wanted to be the third option — fast
+              and dependable, with the craftsmanship and honesty of a small
+              team that actually answers the phone.
             </p>
             <p>
-              Today we serve residential and commercial clients across Calgary
+              Today we serve homes and small commercial spaces across Calgary
               and surrounding areas — from leaky faucets and emergency boiler
-              repairs through to full plumbing and HVAC system installs. Every
-              job, big or small, gets the same Red Seal–level care, the same
-              upfront pricing, and the same direct line to the person doing
-              the work.
+              calls through to full mechanical-room installs. Every job, big
+              or small, gets the same Red Seal–level care, the same upfront
+              pricing, and the same direct line to the person doing the work.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Founders */}
-      <section className="bg-white text-ink-900 py-20 border-t border-line-light">
+      {/* Team */}
+      <section className="bg-white text-ink-900 py-14 md:py-16 border-t border-line-light">
         <div className="max-w-7xl mx-auto px-6 md:px-10">
-          <div className="max-w-3xl mb-12">
-            <span className="eyebrow-light mb-4">Meet the team</span>
-            <h2 className="font-display text-3xl md:text-4xl font-extrabold tracking-[-0.015em] mt-4 leading-[1.1]">
+          <div className="max-w-3xl mb-10">
+            <span className="eyebrow-light mb-3">Meet the team</span>
+            <h2 className="font-display text-2xl md:text-3xl font-extrabold tracking-[-0.015em] mt-3 leading-[1.1]">
               Red Seal certified. Owner-operated. Calgary local.
             </h2>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
             {[shaun, jason, ben].map((person) => (
               <article
                 key={person.name}
-                className="rounded-2xl bg-cream-50 border border-line-light p-8 md:p-10 soft-shadow"
+                className="rounded-2xl bg-cream-50 border border-line-light p-6 md:p-7 soft-shadow flex flex-col"
               >
-                <div className="flex items-start gap-5 mb-6">
+                <div className="flex items-center gap-4 mb-5">
                   {person.avatar ? (
                     <Image
                       src={person.avatar}
                       alt={`${person.name} headshot`}
-                      width={80}
-                      height={80}
-                      className="w-16 h-16 md:w-20 md:h-20 rounded-full object-cover border border-line-light shrink-0"
+                      width={96}
+                      height={96}
+                      className="w-20 h-20 md:w-24 md:h-24 rounded-full object-cover border border-line-light shrink-0"
                     />
                   ) : (
-                    <div className="w-16 h-16 md:w-20 md:h-20 rounded-full bg-emergency/15 text-emergency flex items-center justify-center font-display font-extrabold text-xl md:text-2xl shrink-0">
+                    <div className="w-20 h-20 md:w-24 md:h-24 rounded-full bg-emergency/15 text-emergency flex items-center justify-center font-display font-extrabold text-2xl shrink-0">
                       {person.initials}
                     </div>
                   )}
                   <div className="min-w-0">
-                    <h3 className="font-display text-2xl md:text-3xl font-extrabold tracking-tight leading-tight text-ink-900">
+                    <h3 className="font-display text-xl md:text-2xl font-extrabold tracking-tight leading-tight text-ink-900">
                       {person.name}
                     </h3>
-                    <p className="text-sm text-ink-500 mt-1.5 leading-snug">
+                    <p className="text-[13px] text-ink-500 mt-1 leading-snug">
                       {person.role}
                     </p>
                   </div>
                 </div>
-                <div className="space-y-4 text-[17px] text-ink-700 leading-relaxed">
+                <div className="space-y-3 text-[15px] md:text-[16px] text-ink-700 leading-relaxed flex-1">
                   {person.bio.split(/\n\n+/).map((p, i) => (
                     <p key={i}>{p}</p>
                   ))}
                 </div>
                 {person.credentials && (
-                  <div className="mt-6 pt-6 border-t border-line-light flex flex-wrap gap-2">
+                  <div className="mt-5 pt-5 border-t border-line-light flex flex-wrap gap-1.5">
                     {person.credentials.map((c) => (
                       <span
                         key={c}
-                        className="inline-flex items-center gap-1.5 rounded-full bg-white border border-line-light px-3 py-1.5 text-[13px] font-semibold text-ink-700"
+                        className="inline-flex items-center gap-1 rounded-full bg-white border border-line-light px-2.5 py-1 text-[12px] font-semibold text-ink-700"
                       >
-                        <Icon name="verified" className="text-primary text-base" />
+                        <Icon name="verified" className="text-primary text-sm" />
                         {c}
                       </span>
                     ))}
@@ -237,100 +244,54 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Values / how we work */}
-      <section className="bg-cream-100 text-ink-900 py-20 border-t border-line-light light-surface">
+      {/* Values + credentials merged — single section for "what we stand
+          for / who we are" so the bottom of the page doesn't pile section
+          on section. Credentials chip-strip sits under the values grid
+          inside the same surface, sharing the section header. */}
+      <section className="bg-cream-100 text-ink-900 py-14 md:py-16 border-t border-line-light light-surface">
         <div className="max-w-7xl mx-auto px-6 md:px-10">
-          <div className="max-w-3xl mb-12">
-            <span className="eyebrow-light mb-4">What we stand for</span>
-            <h2 className="font-display text-3xl md:text-4xl font-extrabold tracking-[-0.015em] mt-4 leading-[1.1]">
+          <div className="max-w-3xl mb-10">
+            <span className="eyebrow-light mb-3">What we stand for</span>
+            <h2 className="font-display text-2xl md:text-3xl font-extrabold tracking-[-0.015em] mt-3 leading-[1.1]">
               Four things every job gets, every time.
             </h2>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {values.map((v) => (
               <div
                 key={v.title}
-                className="lift group rounded-2xl bg-white border border-line-light p-7 md:p-8"
+                className="lift group rounded-2xl bg-white border border-line-light p-6 md:p-7"
               >
-                <div className="mb-5">
-                  <IconBadge name={v.icon} tone="neutral" size="lg" />
+                <div className="mb-4">
+                  <IconBadge name={v.icon} tone="neutral" size="md" />
                 </div>
-                <h3 className="font-display font-extrabold text-xl md:text-2xl tracking-tight mb-3 leading-tight">
+                <h3 className="font-display font-extrabold text-lg md:text-xl tracking-tight mb-2 leading-tight">
                   {v.title}
                 </h3>
-                <p className="text-[16px] md:text-[17px] text-ink-700 leading-relaxed">
+                <p className="text-[15px] md:text-[16px] text-ink-700 leading-relaxed">
                   {v.body}
                 </p>
               </div>
             ))}
           </div>
-        </div>
-      </section>
 
-      {/* Credentials strip */}
-      <section className="bg-cream-50 text-ink-900 py-16 border-t border-line-light">
-        <div className="max-w-7xl mx-auto px-6 md:px-10">
-          <div className="max-w-2xl mb-8">
-            <span className="eyebrow-light mb-3">Credentials</span>
-            <h2 className="font-display text-2xl md:text-3xl font-extrabold tracking-tight mt-4 leading-tight">
-              Licensed, certified, and trained on the brands we install.
-            </h2>
-          </div>
-          <div className="flex flex-wrap gap-2">
-            {credentials.map((c) => (
-              <span
-                key={c}
-                className="inline-flex items-center gap-1.5 rounded-full bg-white border border-line-light px-4 py-2 text-[14px] font-semibold text-ink-700"
-              >
-                <Icon name="verified" className="text-primary text-base" />
-                {c}
-              </span>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Service snapshot — links to home services anchor */}
-      <section className="bg-white text-ink-900 py-20 border-t border-line-light">
-        <div className="max-w-7xl mx-auto px-6 md:px-10">
-          <div className="max-w-3xl mb-10">
-            <span className="eyebrow-light mb-4">What we offer</span>
-            <h2 className="font-display text-3xl md:text-4xl font-extrabold tracking-[-0.015em] mt-4 leading-[1.1]">
-              From a leaky faucet to a full mechanical room.
-            </h2>
-            <p className="text-[17px] text-ink-700 leading-relaxed mt-5 max-w-2xl">
-              Plumbing, heating, air conditioning, and water-systems work for
-              homes and small commercial spaces across Calgary, Airdrie, and
-              the surrounding communities. Every job is quoted upfront, done
-              to code, and backed by our workmanship guarantee.
+          {/* Credentials chip-strip — same section to avoid a fourth-from-
+              bottom section just for a chip row. */}
+          <div className="mt-10 pt-8 border-t border-line-light/70">
+            <p className="text-xs font-bold uppercase tracking-[0.18em] text-primary-deep mb-4">
+              Licensed, certified, manufacturer-trained
             </p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-            {(
-              [
-                { label: "Plumbing", href: "/#services", icon: "pipe_wrench", tone: "plumbing" },
-                { label: "Heating & Boilers", href: "/boiler-installation-calgary/", icon: "boiler_unit", tone: "heating" },
-                { label: "Air Conditioning", href: "/air-conditioning/", icon: "ac_unit", tone: "air" },
-                { label: "Water Systems", href: "/water-softener/", icon: "softener_tank", tone: "water" },
-              ] as { label: string; href: string; icon: string; tone: IconTone }[]
-            ).map((s) => (
-              <Link
-                key={s.label}
-                href={s.href}
-                className="lift group rounded-2xl bg-cream-50 border border-line-light p-6 hover:border-emergency"
-              >
-                <div className="mb-4">
-                  <IconBadge name={s.icon} tone={s.tone} size="md" />
-                </div>
-                <p className="font-display font-extrabold text-lg tracking-tight group-hover:text-emergency-deep transition-colors">
-                  {s.label}
-                </p>
-                <span className="inline-flex items-center gap-1 mt-2 text-sm font-bold text-emergency-deep">
-                  See services
-                  <Icon name="arrow_right_alt" className="text-base" />
+            <div className="flex flex-wrap gap-1.5">
+              {credentials.map((c) => (
+                <span
+                  key={c}
+                  className="inline-flex items-center gap-1 rounded-full bg-white border border-line-light px-3 py-1.5 text-[13px] font-semibold text-ink-700"
+                >
+                  <Icon name="verified" className="text-primary text-sm" />
+                  {c}
                 </span>
-              </Link>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
       </section>
