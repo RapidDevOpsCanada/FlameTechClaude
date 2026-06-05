@@ -6,10 +6,15 @@ import { sendGTMEvent } from "@next/third-parties/google";
 import Icon from "@/components/Icon";
 
 type Status = "idle" | "submitting" | "success" | "error";
-type FieldName = "name" | "phone" | "address" | "issue";
+type FieldName = "name" | "phone" | "email" | "address" | "issue";
 type FieldErrors = Partial<Record<FieldName, string>>;
 
 const PHONE_RE = /^[+\d][\d\s\-().]{6,}$/;
+// Email regex — intentionally lightweight (not RFC 5322 perfect).
+// Goal is "catches obvious typos like missing @ or domain", not
+// rejecting edge-case-valid addresses. Formspree validates server-
+// side too.
+const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 function validateField(name: FieldName, value: string): string | null {
   const v = value.trim();
@@ -18,6 +23,9 @@ function validateField(name: FieldName, value: string): string | null {
   }
   if (name === "phone" && !PHONE_RE.test(v)) {
     return "Use a valid phone number (digits, spaces, dashes).";
+  }
+  if (name === "email" && !EMAIL_RE.test(v)) {
+    return "Use a valid email address.";
   }
   if (name === "issue" && v.length < 10) {
     return "Tell us a bit more — at least 10 characters.";
@@ -52,6 +60,7 @@ export default function QuoteForm({
     const data: Record<FieldName, string> = {
       name: (form.elements.namedItem("name") as HTMLInputElement).value,
       phone: (form.elements.namedItem("phone") as HTMLInputElement).value,
+      email: (form.elements.namedItem("email") as HTMLInputElement).value,
       address: (form.elements.namedItem("address") as HTMLInputElement).value,
       issue: (form.elements.namedItem("issue") as HTMLTextAreaElement).value,
     };
@@ -161,6 +170,15 @@ export default function QuoteForm({
           onInput={() => clearFieldError("phone")}
         />
       </div>
+      <Field
+        label="Email address"
+        name="email"
+        type="email"
+        required
+        placeholder="you@example.com"
+        error={errors.email}
+        onInput={() => clearFieldError("email")}
+      />
       <Field
         label="Service address"
         name="address"
