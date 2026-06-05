@@ -2164,6 +2164,7 @@ export const services: ServicePage[] = [
         { label: "Garage Heaters", href: "/garage-heaters-calgary/", summary: "Forced-air gas, radiant tube, and electric heaters for Calgary garages and shops.", icon: "garage" },
         { label: "Heat Pumps", href: "/heat-pumps-calgary/", summary: "Cold-climate dual-fuel heat pumps — heating + cooling in one system.", icon: "ac_unit" },
         { label: "Furnace Blower Issues", href: "/furnace-blower-issues-calgary/", summary: "Weak airflow, loud rattling, blower won't start — diagnosis + repair on PSC, X13, and ECM motors.", icon: "tune", highlight: true, badge: "Common issue" },
+        { label: "No Heat Issues", href: "/no-heat-issues-calgary/", summary: "Furnace won't fire, runs cold air, short-cycles, thermostat dead — priority dispatch in cold snaps.", icon: "local_fire_department", highlight: true, badge: "Common issue" },
       ],
     },
   },
@@ -2631,6 +2632,221 @@ export const services: ServicePage[] = [
           {
             q: "Can I clean the blower wheel myself?",
             a: "Technically yes, but it's involved — you need to shut off power at the disconnect, remove the blower assembly (usually 4-6 sheet metal screws + wiring disconnects), pull the wheel off the motor shaft, clean each fin with a brush, reinstall, and rebalance. Most homeowners aren't set up for that. Once the wheel comes off, it's also a good moment to inspect the motor, capacitor, and limit switch — which is what we do during annual service. Easier and safer to book it once a year.",
+          },
+        ],
+      },
+    },
+  },
+  {
+    slug: "no-heat-issues-calgary",
+    category: "Heating",
+    icon: "local_fire_department",
+    title: "No Heat in Calgary — Furnace & Boiler Diagnosis + Repair",
+    lead:
+      "No heat in a Calgary cold snap is the call we drop everything for. Most no-heat issues trace back to a small handful of causes — and the right fix depends on figuring out which one before swapping parts. FlameTech diagnoses on the first visit, fixes most failures on the first visit, and tells you straight whether your system needs a repair or a replacement.",
+    heroBody: [
+      "We work on every common Calgary heating setup: high-efficiency condensing furnaces (post-2000s builds), conventional gas furnaces (older homes), and hydronic boiler systems (in-floor radiant in luxury rebuilds like [Bel-Aire](/bel-aire-plumbers-calgary/), [Mount Royal](/mount-royal-plumbers-calgary/), and [Aspen Woods](/aspen-woods-plumbers-calgary/), plus baseboard hydronic in 60s-70s homes).",
+      "Priority dispatch for no-heat calls anywhere in Calgary, Airdrie, Chestermere, Cochrane, Okotoks, and surrounding communities. Real person answers the phone — we'll confirm a window before the truck rolls. Trucks stocked with common parts: igniters, flame sensors, capacitors, thermocouples, gas valves, thermostats — so most no-heat calls finish in the first visit.",
+      "Call 587-834-3668. Same crew handles our [furnace repair](/furnaces/), [boiler service](/boiler-service-calgary/), [boiler repair](/boiler-repair-calgary/), and [emergency plumbing](/emergency-plumber-calgary/).",
+    ],
+    heroSubhead: "Priority Dispatch for Cold-Snap No-Heat Calls",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/FTVAN2.jpg", alt: "Shaun and Jason — FlameTech no-heat dispatch in Calgary", fit: "cover" },
+    intro:
+      "Calgary no-heat diagnosis + repair on every furnace and boiler brand. Priority cold-snap dispatch, real person on the phone, common parts on every truck. Call 587-834-3668.",
+    features: [
+      "Furnace + boiler diagnosis",
+      "Igniter / flame sensor replacement",
+      "Pilot light + thermocouple service",
+      "Gas valve + control board diagnosis",
+      "Circulator pump + zone valve (boilers)",
+      "Thermostat + wiring diagnosis",
+    ],
+    bullets: [
+      {
+        t: "Priority dispatch in cold snaps",
+        d: "No-heat calls during −20°C or colder weather get routed ahead of scheduled work. Real person on the phone — we confirm a window before the truck leaves the shop, not a four-hour mystery slot.",
+      },
+      {
+        t: "Diagnose first, swap parts second",
+        d: "The cheap fix is usually the right fix when it's diagnosed properly. We test the suspect components (igniter, flame sensor, capacitor, thermocouple) before quoting a replacement — saves you from paying for a part the system didn't need.",
+      },
+      {
+        t: "Common parts on every truck",
+        d: "We stock universal igniters, flame sensors, capacitors, thermocouples, gas valves, and common-brand control boards. Most no-heat calls finish first visit instead of \"we'll order the part and come back tomorrow.\"",
+      },
+      {
+        t: "Honest repair vs. replace call",
+        d: "If your furnace is 18+ years old and the heat exchanger is cracked, replacement is the right move. If it's 8 years old and the igniter failed, the small-parts fix is the right call. We'll do the math with you, written quote either way.",
+      },
+    ],
+    seoTitle: "No Heat Issues Calgary | Furnace + Boiler Diagnosis & Repair",
+    seoDescription:
+      "No heat in Calgary? Priority cold-snap dispatch for furnace + boiler diagnosis and repair. Real person on the phone, common parts on the truck. Call 587-834-3668.",
+    seoKeywords: [
+      "no heat Calgary",
+      "furnace not heating Calgary",
+      "boiler no heat Calgary",
+      "emergency furnace repair Calgary",
+      "furnace won't start Calgary",
+      "FlameTech Plumbing Heating",
+    ],
+    quoteFormLabel: "no heat",
+    quoteFormPlaceholder:
+      "e.g. furnace won't fire, blower running cold air, pilot light won't stay lit, boiler dropped pressure, thermostat blank…",
+    sidebar: {
+      title: "Calgary No-Heat Service",
+      subtitle:
+        "Priority dispatch for no-heat calls in cold snaps. Real person on the phone, common parts on every truck.",
+      bullets: [
+        "Most diagnoses in 30-45 minutes",
+        "Universal parts stocked on the truck",
+        "Furnace + boiler experience",
+        "Free written quote on replacement",
+      ],
+    },
+    stats: [
+      { number: "25+", label: "Years in Calgary", icon: "verified" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "Real", label: "Person on the phone", icon: "call" },
+      { number: "ANY", label: "Furnace / boiler brand", icon: "check_circle" },
+    ],
+    callout:
+      "No heat in a Calgary cold snap? Call 587-834-3668 — priority dispatch with common parts on the truck.",
+    richContent: {
+      sections: [
+        {
+          heading: "Try these first (before calling)",
+          intro:
+            "Sometimes \"no heat\" is something you can fix in two minutes. Worth checking these before you book a service call — if any of them solves it, you've saved a service-call fee.",
+          items: [
+            {
+              heading: "Thermostat batteries + setting",
+              body: "Pull the cover off your thermostat and check for low-battery indicator. Swap the batteries even if it looks fine. Confirm the thermostat is set to HEAT (not COOL or OFF — easy to bump during seasonal switches) and the setpoint is above current room temperature.",
+            },
+            {
+              heading: "Breaker / power switch",
+              body: "Find the furnace breaker in your electrical panel — flip it OFF for 30 seconds, then back ON. Many furnaces also have a power switch on or near the unit itself (looks like a light switch in a metal box). Make sure both are ON.",
+            },
+            {
+              heading: "Furnace filter",
+              body: "A severely clogged filter can trip the high-limit safety switch and stop the burner from firing. Check your filter — if it looks dark grey or you can't see light through it, swap it. (For boiler systems, skip this — they don't have air filters.)",
+            },
+            {
+              heading: "Pilot light (gas systems with standing pilot only)",
+              body: "Older furnaces and some boilers have a standing pilot light. If it's gone out, follow the lighting instructions printed on the unit. If it won't stay lit after multiple tries, the thermocouple has likely failed — call us. (Newer high-efficiency units don't have standing pilots — they use electronic ignition. Skip this step.)",
+            },
+            {
+              heading: "Gas valve at the meter",
+              body: "If the gas was recently turned off at the meter (utility work, leak repair, etc.), the furnace won't fire. Confirm the gas valve at the meter is in the parallel-to-pipe (open) position.",
+            },
+          ],
+        },
+        {
+          heading: "Common Calgary no-heat causes (and what we usually find)",
+          intro:
+            "If the above didn't solve it, the issue is likely one of these. Each one has a different fix and a different cost — diagnosis matters.",
+          items: [
+            {
+              heading: "Failed igniter (most common modern-furnace cause)",
+              body: "High-efficiency furnaces use a hot-surface igniter — a small ceramic element that glows red to light the gas. They typically last 5-10 years and fail with no warning. Symptom: furnace cycles through its startup sequence (you hear the inducer, then nothing), no burner ignition. Universal igniters stocked on the truck — usually a 30-minute fix.",
+            },
+            {
+              heading: "Dirty flame sensor",
+              body: "The flame sensor is a metal rod that confirms the burner actually lit. When it gets coated with carbon residue, it sees no flame, and the furnace shuts off as a safety measure (sometimes within seconds of igniting). Symptom: furnace fires, runs for a few seconds, shuts off. Cleaning fixes it — quick service, no part replacement needed.",
+            },
+            {
+              heading: "Failed thermocouple (older furnaces, gas water heaters, standing-pilot boilers)",
+              body: "The thermocouple is the standing-pilot version of the flame sensor — it generates a small voltage from the heat of the pilot flame, which holds the gas valve open. When it fails, the gas valve closes and the pilot won't stay lit. Symptom: pilot lights, stays on while you hold the button, goes out the second you release. Universal thermocouple swap, on-the-truck fix.",
+            },
+            {
+              heading: "Blown fuse on the control board (furnaces)",
+              body: "Most furnace control boards have a small inline fuse (3-amp blade). Blown fuse = no power to the gas valve = no heat. Common cause: short in the thermostat wiring (often from a critter chewing it in unfinished basements). We replace the fuse + trace the short — both fixes on the same visit.",
+            },
+            {
+              heading: "Low boiler pressure (hydronic systems)",
+              body: "Boilers need water pressure (typically 12-15 PSI cold) to circulate properly. If pressure drops below ~8 PSI the boiler often won't fire as a safety. Common Calgary cause: small leak somewhere in the system (expansion tank, air vent, zone valve) bleeds water over weeks/months. Re-pressurizing is the temporary fix; finding and repairing the leak is the real one.",
+            },
+            {
+              heading: "Failed circulator pump (boilers)",
+              body: "The circulator pump moves heated water through the radiators or in-floor loops. When it fails, the boiler may fire but the heat never reaches the rooms — house gets cold even though the unit is running. Symptom: boiler running, baseboards or floor cold. Pump replacement is the fix.",
+            },
+            {
+              heading: "Stuck zone valve (multi-zone boiler systems)",
+              body: "Multi-zone hydronic systems use zone valves to direct hot water to specific areas of the house. A stuck-closed zone valve means one zone gets no heat while others work fine. Diagnosis: check which thermostats are calling vs. which zones are firing. Valve replacement or motor swap depending on what failed.",
+            },
+            {
+              heading: "Cracked heat exchanger (serious — replace, don't repair)",
+              body: "A cracked heat exchanger can leak combustion gases (carbon monoxide) into the airstream. We never repair a cracked exchanger — it's a safety issue, and the fix is full furnace replacement. We'll show you the crack on the camera scope before recommending replacement.",
+            },
+          ],
+        },
+        {
+          heading: "What we do on a no-heat call",
+          intro:
+            "Standard diagnosis sequence. Most calls finish first visit; ECM motor failures and obscure brand-specific parts sometimes need next-day parts.",
+          items: [
+            {
+              heading: "1. Symptom + timeline",
+              body: "What's happening, when it started, what's been done already (thermostat batteries, breaker flip, filter change). Saves us re-walking ground you've already covered.",
+            },
+            {
+              heading: "2. Power + thermostat check",
+              body: "Confirm 24V at the control board, signal arriving from thermostat, breaker + power switch ON, gas valve open. Rules out the simple stuff in 2 minutes.",
+            },
+            {
+              heading: "3. Watch a startup cycle",
+              body: "Drop the thermostat to call for heat, watch what the furnace actually does. Most failures show themselves in the startup sequence — no inducer, inducer but no ignition, ignition but no flame hold, etc. Each one points at a different component.",
+            },
+            {
+              heading: "4. Test the suspect component",
+              body: "Igniter resistance, flame sensor microamp draw, thermocouple millivolts, capacitor microfarads, control board signals. Real measurement, not guessing. Box-store \"probably the motor\" approach gets a lot of homeowners overpaying.",
+            },
+            {
+              heading: "5. Repair on the spot if possible",
+              body: "Common parts on every truck — igniters, flame sensors, capacitors, thermocouples, gas valves, control boards for common brands, thermostats. Most no-heat calls finish first visit. If we need a brand-specific part overnight, we'll tell you and recommend space heaters until we're back.",
+            },
+            {
+              heading: "6. Honest replace-vs-repair quote on bigger failures",
+              body: "If your system is 18+ years old with a major failure (heat exchanger crack, blown ECM motor on a tired furnace, failing boiler section), we'll quote both the repair AND a full replacement so you can do the math. Free written quote on the replacement option. Both [furnace install](/furnaces/) and [boiler install](/boiler-installation-calgary/) covered in-house.",
+            },
+          ],
+        },
+      ],
+      faq: {
+        heading: "No Heat in Calgary — FAQs",
+        items: [
+          {
+            q: "My furnace stopped working in a cold snap — what's the fastest way to get heat back?",
+            a: "Call us first — we route no-heat calls during cold snaps ahead of scheduled work, and real-person dispatch means you talk to a tech rather than a call centre. While you wait: confirm the thermostat is set to HEAT and above room temp, swap the thermostat batteries, flip the furnace breaker off-and-on, and check the furnace filter. If any of those solves it, you saved a service call. If not, we'll be there with common parts on the truck.",
+          },
+          {
+            q: "How long does a no-heat repair take?",
+            a: "Typical diagnosis runs 30-45 minutes. Most common repairs (igniter, flame sensor cleaning, capacitor, thermocouple, control board fuse) finish in the same visit — total call usually 1-2 hours. Bigger jobs (gas valve replacement, blower motor swap, control board replacement) take longer; brand-specific parts that need ordering may push to next-day. We tell you upfront which bucket you're in.",
+          },
+          {
+            q: "My boiler has no heat but it sounds like it's running — what's wrong?",
+            a: "Most common: failed circulator pump. The boiler fires (you hear it), but the pump isn't moving the heated water to your radiators or in-floor loops, so the heat never reaches the rooms. Other possibilities: stuck zone valve (one zone cold, others fine), low system pressure tripping a safety, air locked in the lines. All diagnosable on the same visit.",
+          },
+          {
+            q: "Can a dirty filter really stop my furnace from heating?",
+            a: "Yes — severely clogged filters restrict airflow so much that the heat exchanger overheats, and the high-limit safety switch shuts the burner off to prevent damage. Symptom: furnace fires briefly, then shuts off, then tries again 5-10 minutes later. Swapping the filter often solves it. If the limit switch itself has failed (it sometimes does after enough cycles), we replace that too.",
+          },
+          {
+            q: "My thermostat screen is blank — is my furnace dead?",
+            a: "Usually no — usually dead thermostat batteries (most thermostats run on AA cells you can swap in 30 seconds). If new batteries don't bring it back, the next likely cause is a blown fuse on the furnace control board (the thermostat draws its power from there). Both quick fixes. If neither works, we test the wiring and control board.",
+          },
+          {
+            q: "Should I keep running my furnace if it keeps short-cycling?",
+            a: "No — short-cycling (firing for a minute, shutting off, firing again) usually means the system is overheating or seeing a flame-detection failure, and continuing to run can damage the heat exchanger or burn out the inducer motor. Set the thermostat lower or off, call us. Most short-cycle causes (dirty flame sensor, restricted airflow, failed limit switch) are quick fixes.",
+          },
+          {
+            q: "Is it normal for my furnace to make a loud bang when it starts?",
+            a: "A small \"whoof\" on ignition is normal. A loud delayed bang is NOT — it means gas built up in the heat exchanger before ignition (delayed ignition), which is a safety issue. Usually traced to dirty burners, low gas pressure, or a failing igniter that takes too long to light. Shut the furnace off and call us — continuing to run it risks heat exchanger damage.",
+          },
+          {
+            q: "How old is too old to repair vs. replace a furnace?",
+            a: "Loose rule of thumb: under 12 years with a single failed component, repair. Over 18 years with a major failure (heat exchanger crack, ECM motor failure, control board failure on a discontinued model), strongly consider replacement. 12-18 with a single failure is a judgement call — we'll quote both options and let you decide based on the math. Cracked heat exchanger at any age = replacement (safety, not optional).",
           },
         ],
       },
@@ -9494,6 +9710,7 @@ export const services: ServicePage[] = [
         { label: "Boiler Installation Calgary", href: "/boiler-installation-calgary/", summary: "New high-efficiency boilers — heat-loss calc, gas + venting, full commissioning.", icon: "boiler_unit" },
         { label: "Boiler Repair Calgary", href: "/boiler-repair-calgary/", summary: "Diagnosis and same-day fixes for kettling, pressure loss, no-heat, and ignition faults.", icon: "gas_valve" },
         { label: "Boiler Service Calgary", href: "/boiler-service-calgary/", summary: "Annual tune-ups: combustion analysis, safety checks, descale, system flush.", icon: "hydronic_loop" },
+        { label: "No Heat Issues", href: "/no-heat-issues-calgary/", summary: "Boiler running but no heat, dropped pressure, won't fire — priority dispatch in cold snaps.", icon: "local_fire_department", highlight: true, badge: "Common issue" },
       ],
     },
   },
