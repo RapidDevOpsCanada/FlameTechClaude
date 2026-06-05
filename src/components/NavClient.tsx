@@ -381,10 +381,10 @@ export default function NavClient({
           </a>
           <Link
             href="/contact/"
-            aria-label="Request a free quote"
-            className="inline-flex items-center justify-center w-11 h-11 rounded-full bg-cream-50/10 text-cream-50 border border-cream-50/20 active:bg-cream-50/20 transition-colors"
+            aria-label="Contact us"
+            className="inline-flex items-center justify-center w-11 h-11 rounded-full bg-cream-50 text-ink-900 active:bg-cream-100 transition-colors shadow-md"
           >
-            <Icon name="request_quote" className="text-xl" />
+            <Icon name="mail" className="text-xl" />
           </Link>
         </div>
 

@@ -280,14 +280,22 @@ export default async function Home() {
                       Calgary-owned plumbing &amp; heating, run by the trade.
                     </h2>
                   </div>
-                  <div className="relative mx-6 md:mx-8 mb-6 rounded-2xl overflow-hidden border border-line-light aspect-[4/5]">
+                  {/* Container aspect matches the source image aspect
+                      (640×718 → aspect-[640/718]) so object-cover never
+                      crops Shaun + Jason at the sides — was aspect-[4/5]
+                      which was taller than the source and clipped the
+                      figures on narrow iPhone viewports. object-top
+                      biases any minor crop toward keeping faces in
+                      frame on the rare device where pixel rounding
+                      pushes a 1-2px difference. */}
+                  <div className="relative mx-6 md:mx-8 mb-6 rounded-2xl overflow-hidden border border-line-light aspect-[640/718] bg-cream-100">
                     <Image
                       src="/images/FTVAN2.jpg"
                       alt="Jason Mounsey and Shaun Kristoff — FlameTech founders — standing in front of the service van"
                       fill
                       quality={70}
                       sizes="(max-width: 1024px) 100vw, 50vw"
-                      className="object-cover object-center"
+                      className="object-cover object-top"
                     />
                     <div className="absolute bottom-3 left-3 rounded-full bg-ink-900/90 backdrop-blur-md text-cream-50 px-3 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.14em] flex items-center gap-2 border border-cream-50/10">
                       <Icon name="verified" className="text-sm text-primary" />
