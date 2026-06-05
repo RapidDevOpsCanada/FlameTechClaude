@@ -167,7 +167,7 @@ export default function ContactPage() {
                 {ADDRESS}
               </p>
               <p className="text-sm text-ink-500 mt-2">
-                Trucks dispatched from Calgary SW.
+                Serving Calgary, Airdrie & surrounding communities.
               </p>
             </div>
           </div>

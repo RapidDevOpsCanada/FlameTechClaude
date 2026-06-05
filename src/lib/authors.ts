@@ -31,10 +31,10 @@ export const authors: Record<string, AuthorBio> = {
   },
   "Jason Mounsey": {
     name: "Jason Mounsey",
-    role: "Co-Owner & Operator, FlameTech Plumbing & Heating",
+    role: "Owner & Operator, FlameTech Plumbing & Heating",
     initials: "JM",
     avatar: "/images/team/jason-mounsey.jpg",
-    bio: "With over 20 years of hands-on experience in the plumbing and HVAC industry, I bring a depth of knowledge and craftsmanship to every job I take on. Originally from England and shaped by a disciplined military background, I've built my career on reliability, precision, and pride in a job well done.\n\nNow based in Calgary and serving the surrounding areas, I'm the co-owner and operator of FlameTech Plumbing & Heating Ltd., where I specialize in residential plumbing and HVAC systems — with a particular focus on hydronic heating and boiler systems.",
+    bio: "With over 20 years of hands-on experience in the plumbing and HVAC industry, I bring a depth of knowledge and craftsmanship to every job I take on. Originally from England and shaped by a disciplined military background, I've built my career on reliability, precision, and pride in a job well done.\n\nNow based in Calgary and serving the surrounding areas, I'm the owner and operator of FlameTech Plumbing & Heating Ltd., where I specialize in residential plumbing and HVAC systems — with a particular focus on hydronic heating and boiler systems.",
     credentials: [
       "20+ years in trade",
       "Hydronic heating + boiler specialist",
