@@ -5,10 +5,71 @@
 # Total Google review count — drives the homepage rating badge and
 # aggregateRating.reviewCount in LocalBusiness JSON-LD. Bump when
 # Google reports more reviews than are imported below.
-total_reviews: 86
+total_reviews: 91
 average_rating: 5
 
 reviews:
+  - author: "Aditya Prashar"
+    initials: "AP"
+    area: "Calgary"
+    rating: 5
+    relative_date: "5 days ago"
+    posted_at: "2026-05-30"
+    quote: "Great experience working with Jason and Shaun on the installation of my water softener and RO system. Professional, knowledgeable, and took the time to explain the setup and answer all my questions. The installation was completed neatly and efficiently, and the quality of workmanship was excellent. Highly recommend Flame Tech for any plumbing or water treatment needs."
+    featured: false
+    sort_order: 1
+    tags:
+      - "Plumbing"
+      - "Install"
+  - author: "Jacquie Launer"
+    initials: "JL"
+    area: "Calgary"
+    rating: 5
+    relative_date: "1 week ago"
+    posted_at: "2026-05-28"
+    quote: "New water softener in April and a new furnace yesterday. Very happy dealing with Jason and Shaun. Would highly recommend FlameTech for all plumbing and HVAC needs."
+    featured: false
+    sort_order: 2
+    tags:
+      - "Furnaces"
+      - "Install"
+      - "Plumbing"
+  - author: "Chris Burrough"
+    initials: "CB"
+    area: "Calgary"
+    rating: 5
+    relative_date: "2 weeks ago"
+    posted_at: "2026-05-21"
+    quote: "We had Poly-B, every homeowner's nightmare. Jason and Shaun did a fantastic job replacing it, at a very fair price. It was completely stress-free. I will continue to use them for plumbing needs. I have recommended them to friends and will continue to do so."
+    featured: false
+    sort_order: 3
+    tags:
+      - "Plumbing"
+      - "Install"
+  - author: "Linda N"
+    initials: "LN"
+    area: "Calgary"
+    rating: 5
+    relative_date: "1 week ago"
+    posted_at: "2026-05-28"
+    quote: "Removed old toilet and installed new toilet. Good work."
+    featured: false
+    sort_order: 4
+    tags:
+      - "Plumbing"
+      - "Install"
+  - author: "Willrand Estates"
+    initials: "WE"
+    area: "Calgary"
+    rating: 5
+    relative_date: "1 week ago"
+    posted_at: "2026-05-28"
+    quote: "Excellent and efficient service."
+    featured: false
+    sort_order: 5
+    tags:
+      - "Plumbing"
+
   - author: "Clifford Lawrick"
     initials: "CL"
     area: "Calgary"
@@ -17,7 +78,7 @@ reviews:
     posted_at: "2026-05-12"
     quote: "Shaun advised me on a kitchen tap replacement issue today. As usual, he did a great job and makes me feel comfortable and confident that I am dealing with the right guy.\n\nI highly recommend Shaun and FlameTech!"
     featured: true
-    sort_order: 1
+    sort_order: 6
     avatar: "/images/reviews/clifford-lawrick.png"
     tags:
       - "Plumbing"
@@ -30,7 +91,7 @@ reviews:
     posted_at: "2026-05-08"
     quote: "The water tank replaced, new toilet, remediated leaking pipes under sinks, new gas line for new stove and other maintenance issues. Very professional service, very happy with the company. Fixed many issues in our home. Happy to recommend them"
     featured: false
-    sort_order: 2
+    sort_order: 7
     avatar: "/images/reviews/nwor-leclerc.png"
     tags:
       - "Plumbing"
@@ -44,7 +105,7 @@ reviews:
     posted_at: "2026-04-29"
     quote: "Fast efficient quality workman ship. I would recommend them any time for plumbing and gas fitting work"
     featured: false
-    sort_order: 3
+    sort_order: 8
     avatar: "/images/reviews/andy-and-debbie-leclerc.png"
     tags:
       - "Plumbing"
@@ -56,7 +117,7 @@ reviews:
     posted_at: "2026-04-29"
     quote: "As a long time customer I'm happy to recommend Shaun Kristoff. He knows his stuff and I trust him to do excellent work at a fair price."
     featured: false
-    sort_order: 4
+    sort_order: 9
     avatar: "/images/reviews/peter-snell.png"
   - author: "Marcenny"
     initials: "MA"
@@ -66,7 +127,7 @@ reviews:
     posted_at: "2026-04-29"
     quote: "Jason provided a fair estimate for the job and returned with a team for the larger work. They were clean, efficient, and very professional. Highly recommend!"
     featured: false
-    sort_order: 5
+    sort_order: 10
     avatar: "/images/reviews/marcenny.png"
   - author: "Terry"
     initials: "TE"
@@ -76,7 +137,7 @@ reviews:
     posted_at: "2026-04-29"
     quote: "Outstanding service. Both Shaun and Jason were very professional and highly competent. We would highly recommends them for your plumbing and heating project."
     featured: false
-    sort_order: 6
+    sort_order: 11
     avatar: "/images/reviews/terry.png"
     tags:
       - "Plumbing"
@@ -88,7 +149,7 @@ reviews:
     posted_at: "2026-04-22"
     quote: "Professional, courteous, on time and on budget. Heat Pump product was as per quote and installation was very quick. Thank you to Jason and Shaun. Highly recommend."
     featured: false
-    sort_order: 7
+    sort_order: 12
     avatar: "/images/reviews/wade-mcgowan.png"
     tags:
       - "Heat Pumps"
@@ -101,7 +162,7 @@ reviews:
     posted_at: "2026-04-22"
     quote: "Huge fan of Shaun. Honest, legit, knowledgeable guy. Recommend him highly."
     featured: false
-    sort_order: 8
+    sort_order: 13
     avatar: "/images/reviews/steven-snell.png"
   - author: "Shosh Cohen"
     initials: "SC"
@@ -111,7 +172,7 @@ reviews:
     posted_at: "2026-04-15"
     quote: "I had great experience. I highly recommend everyone to use them. They are professional. They work, clean, organize and explain everything."
     featured: false
-    sort_order: 9
+    sort_order: 14
     avatar: "/images/reviews/shosh-cohen.png"
   - author: "C Strat"
     initials: "CS"
@@ -121,7 +182,7 @@ reviews:
     posted_at: "2026-04-15"
     quote: "Shaun did a great job and was punctual, courteous and took pride in the work. Would highly recommend to anyone looking for plumbing and heating work."
     featured: false
-    sort_order: 10
+    sort_order: 15
     avatar: "/images/reviews/c-strat.png"
     tags:
       - "Plumbing"
@@ -133,7 +194,7 @@ reviews:
     posted_at: "2026-04-15"
     quote: "A job well engineered and executed by FlameTech. Jason and his coworker did an amazing job."
     featured: false
-    sort_order: 11
+    sort_order: 16
     avatar: "/images/reviews/ali-derakhshan.png"
   - author: "Monty Meikle"
     initials: "MM"
@@ -143,7 +204,7 @@ reviews:
     posted_at: "2026-04-08"
     quote: "Service man very helpful!"
     featured: false
-    sort_order: 12
+    sort_order: 17
     avatar: "/images/reviews/monty-meikle.png"
   - author: "P Cobbe"
     initials: "PC"
@@ -153,7 +214,7 @@ reviews:
     posted_at: "2026-04-01"
     quote: "Done on time and on budget. Thanks!"
     featured: false
-    sort_order: 13
+    sort_order: 18
     avatar: "/images/reviews/p-cobbe.png"
   - author: "Dalia Gr"
     initials: "DG"
@@ -163,7 +224,7 @@ reviews:
     posted_at: "2026-04-01"
     quote: "Absolutely fantastic service! They are always on time, incredibly helpful, and went above and beyond to solve any issues that came up. The quality of the work was excellent, and everything was done with care and attention to detail. I really appreciated how smooth and stress-free they made the whole process. Highly recommend!"
     featured: false
-    sort_order: 14
+    sort_order: 19
     avatar: "/images/reviews/dalia-gr.png"
   - author: "Guylaine Denis"
     initials: "GD"
@@ -173,7 +234,7 @@ reviews:
     posted_at: "2026-03-25"
     quote: "Very professional and nice"
     featured: false
-    sort_order: 15
+    sort_order: 20
     avatar: "/images/reviews/guylaine-denis.png"
   - author: "Colton Arkhangel (William-Colton)"
     initials: "CA"
@@ -183,7 +244,7 @@ reviews:
     posted_at: "2026-03-18"
     quote: "Exceptional. Needed help with replacing an old and stained toilet. Didn't have the time or energy to do myself. And I'm glad I didn't! Jason was excellent. Came same day for review and estimate. Made me aware of toilet options I didn't know existed that are perfect for my home situation. Also identified and corrected a valve issue. Excellent work, professional, fast, high quality - I'll be back for sure."
     featured: false
-    sort_order: 16
+    sort_order: 21
     avatar: "/images/reviews/colton-arkhangel-william-colton.png"
     tags:
       - "Plumbing"
@@ -195,7 +256,7 @@ reviews:
     posted_at: "2026-03-18"
     quote: "Service was prompt and very thorough and they offered suggestions on how to avoid further problems in the future"
     featured: false
-    sort_order: 17
+    sort_order: 22
     avatar: "/images/reviews/jo-lle-howe.png"
   - author: "John Abbott-Brown"
     initials: "JA"
@@ -205,7 +266,7 @@ reviews:
     posted_at: "2026-03-11"
     quote: "Good job, thank you"
     featured: false
-    sort_order: 18
+    sort_order: 23
     avatar: "/images/reviews/john-abbott-brown.png"
   - author: "Jim Wetterberg"
     initials: "JW"
@@ -218,7 +279,7 @@ reviews:
       high-efficiency-furnaces-calgary: "Had a furnace problem and called FlameTech. They responded quickly, arrived as promised, and resolved it for a fair price. My go-to for heating now."
       furnaces: "Had a furnace problem and called FlameTech. They responded quickly, arrived as promised, and resolved it for a fair price. My go-to for heating now."
     featured: false
-    sort_order: 19
+    sort_order: 24
     avatar: "/images/reviews/jim-wetterberg.png"
     tags:
       - "Plumbing"
@@ -233,7 +294,7 @@ reviews:
     posted_at: "2026-02-25"
     quote: "Jason explained the different heater options and the trade-offs of each, then talked us out of the more expensive unit. He also caught a counterbalance issue two other companies missed during quotation — that should extend the life of our unit. Highly recommend."
     featured: false
-    sort_order: 20
+    sort_order: 25
     avatar: "/images/reviews/robert-nikolai.png"
   - author: "Bonnie Offredi"
     initials: "BO"
@@ -243,7 +304,7 @@ reviews:
     posted_at: "2026-02-18"
     quote: "Had a new furnace installed today by Shaun and Jason. Shaun was honest and professional with diagnosing the problem with the furnace and discussing the best options going forward. Would definitely recommend them to anyone needing plumbing or heating repairs. Thank you very much for the awesome service you provided."
     featured: false
-    sort_order: 21
+    sort_order: 26
     avatar: "/images/reviews/bonnie-offredi.png"
     tags:
       - "Plumbing"
@@ -257,7 +318,7 @@ reviews:
     posted_at: "2026-02-18"
     quote: "Very impressed how quickly you came. Look forward to Jason coming tomorrow to fix problems."
     featured: false
-    sort_order: 22
+    sort_order: 27
     avatar: "/images/reviews/pat-strong.png"
   - author: "Steve K"
     initials: "SK"
@@ -267,7 +328,7 @@ reviews:
     posted_at: "2026-02-11"
     quote: "Second time having Jason out — quality of work shows real skill and craftsmanship. Most recently he replaced my hot water tank that failed while I was on vacation. Jason went to the house the day I called, isolated the leak, and replaced the tank quickly. Took a lot of stress off while I was out of town. Highly recommend FlameTech."
     featured: false
-    sort_order: 23
+    sort_order: 28
     avatar: "/images/reviews/steve-k.png"
     tags:
       - "Plumbing"
@@ -281,7 +342,7 @@ reviews:
     posted_at: "2026-02-04"
     quote: "Very knowledgeable and quick to resolve problems"
     featured: false
-    sort_order: 24
+    sort_order: 29
     avatar: "/images/reviews/stew-ward.png"
   - author: "greg jackson"
     initials: "GJ"
@@ -291,7 +352,7 @@ reviews:
     posted_at: "2026-02-04"
     quote: "Shaun was punctual, informative and super friendly, we’re excited to have FlameTech for all our plumbing and heating needs"
     featured: false
-    sort_order: 25
+    sort_order: 30
     avatar: "/images/reviews/greg-jackson.png"
     tags:
       - "Plumbing"
@@ -303,7 +364,7 @@ reviews:
     posted_at: "2026-02-04"
     quote: "Really Appreciated Shaun coming by to carry out an inspection of our boiler. Great advice and a logical follow up plan!"
     featured: false
-    sort_order: 26
+    sort_order: 31
     avatar: "/images/reviews/devnam-mangat.png"
     tags:
       - "Boilers"
@@ -315,7 +376,7 @@ reviews:
     posted_at: "2026-02-04"
     quote: "Shaun was amazing. Always shows up on time and is super efficient. Very fair pricing...."
     featured: false
-    sort_order: 27
+    sort_order: 32
     avatar: "/images/reviews/kyle.png"
   - author: "Linda Powell"
     initials: "LP"
@@ -325,7 +386,7 @@ reviews:
     posted_at: "2026-01-21"
     quote: "Always excellent."
     featured: false
-    sort_order: 28
+    sort_order: 33
     avatar: "/images/reviews/linda-powell.png"
   - author: "Amanda Howlett"
     initials: "AH"
@@ -335,7 +396,7 @@ reviews:
     posted_at: "2026-01-21"
     quote: "Friends recommended FlameTech for a pipe leak. They were fast, transparent on pricing, and thorough — found a second leak we didn't know about and repaired both. Looked at our older hot water tank too and walked us through pricing options. Detailed quotes, no surprises. We're moving forward with the tank replacement based on the level of service."
     featured: false
-    sort_order: 29
+    sort_order: 34
     avatar: "/images/reviews/amanda-howlett.png"
     tags:
       - "Plumbing"
@@ -349,7 +410,7 @@ reviews:
     posted_at: "2026-01-14"
     quote: "Shaun and Jason were very friendly and quick to respond and resolve our drain issues.\n\nOn time ( actually early) and completed to my satisfaction.\n\nThe price was fair and will be using them again when the need arises.\n\nThanks again fellows."
     featured: false
-    sort_order: 30
+    sort_order: 35
     avatar: "/images/reviews/dale-strand.png"
     tags:
       - "Plumbing"
@@ -361,7 +422,7 @@ reviews:
     posted_at: "2026-01-07"
     quote: "Shaun at FlameTech Plumbing was fantastic to work with. He was honest, polite, and even showed up early, which we really appreciated. Another plumber had told us they would need to cut a hole in our drywall to fix the issue, but Shaun was able to do the job without cutting anything at all. Great work, honest pricing, and a stress-free experience overall. Highly recommend!"
     featured: false
-    sort_order: 31
+    sort_order: 36
     avatar: "/images/reviews/amanda-wong.png"
     tags:
       - "Plumbing"
@@ -373,7 +434,7 @@ reviews:
     posted_at: "2026-01-07"
     quote: "Shaun is a very professional, careful and experienced plumber who always makes a consistent effort to respond quickly to service requests."
     featured: false
-    sort_order: 32
+    sort_order: 37
     avatar: "/images/reviews/jan-drader.png"
     tags:
       - "Plumbing"
@@ -385,7 +446,7 @@ reviews:
     posted_at: "2026-01-07"
     quote: "Very fast and knowledgeable, highly recommended"
     featured: false
-    sort_order: 33
+    sort_order: 38
     avatar: "/images/reviews/peggy-fraser.png"
   - author: "corey mitchell"
     initials: "CM"
@@ -395,7 +456,7 @@ reviews:
     posted_at: "2025-12-31"
     quote: "The only honest plumber out of a dozen i called - everyone else wanted to rip us off with a 100 assessment charge to change a kitchen faucet - FlameTech was honest and fair - a refreshing experience - thank u"
     featured: false
-    sort_order: 34
+    sort_order: 39
     avatar: "/images/reviews/corey-mitchell.png"
     tags:
       - "Plumbing"
@@ -407,7 +468,7 @@ reviews:
     posted_at: "2025-12-17"
     quote: "Superior service. Problem solved."
     featured: false
-    sort_order: 35
+    sort_order: 40
     avatar: "/images/reviews/gordon-beach.png"
   - author: "Adam S"
     initials: "AS"
@@ -417,7 +478,7 @@ reviews:
     posted_at: "2025-12-17"
     quote: "Recommended by a friend Shaun had done work for. Jason arrived on time and quickly worked out what was needed. One of the two fixes needed uncommon parts, so Shaun did a parts drop at my house mid-job — Jason kept working with no second appointment needed. Friendly, efficient, highly recommended."
     featured: false
-    sort_order: 36
+    sort_order: 41
     avatar: "/images/reviews/adam-s.png"
   - author: "lisa Lawson"
     initials: "LL"
@@ -427,7 +488,7 @@ reviews:
     posted_at: "2025-12-03"
     quote: "Incredible service"
     featured: false
-    sort_order: 37
+    sort_order: 42
     avatar: "/images/reviews/lisa-lawson.png"
   - author: "Qabato Geda"
     initials: "QG"
@@ -437,7 +498,7 @@ reviews:
     posted_at: "2025-11-12"
     quote: "I really happy with FlameTech Plumbing &Heating service Thank you for your service\n\nGod bless you and continue your blessings service"
     featured: false
-    sort_order: 38
+    sort_order: 43
     avatar: "/images/reviews/qabato-geda.png"
     tags:
       - "Plumbing"
@@ -449,7 +510,7 @@ reviews:
     posted_at: "2025-11-12"
     quote: "I really appreciate their services FlameTech Plumbing& Heating Company\n\nThank you so much"
     featured: false
-    sort_order: 39
+    sort_order: 44
     avatar: "/images/reviews/tiba-gada.png"
   - author: "Len Zap"
     initials: "LZ"
@@ -459,7 +520,7 @@ reviews:
     posted_at: "2025-11-12"
     quote: "Efficient ..prompt and friendly service"
     featured: false
-    sort_order: 40
+    sort_order: 45
     avatar: "/images/reviews/len-zap.png"
   - author: "Sheila Crooks"
     initials: "SC"
@@ -469,7 +530,7 @@ reviews:
     posted_at: "2025-11-05"
     quote: "Very punctual ,excellent work, explained in detail how to maintain and adjust controls . Would highly recommend"
     featured: false
-    sort_order: 41
+    sort_order: 46
     avatar: "/images/reviews/sheila-crooks.png"
   - author: "U9 SW Gold Treasurer"
     initials: "UT"
@@ -479,7 +540,7 @@ reviews:
     posted_at: "2025-10-29"
     quote: "Very friendly and helpful :)"
     featured: false
-    sort_order: 42
+    sort_order: 47
     avatar: "/images/reviews/u9-sw-gold-treasurer.png"
   - author: "Cindy Luntley"
     initials: "CL"
@@ -489,7 +550,7 @@ reviews:
     posted_at: "2025-10-22"
     quote: "I have been lucky enough to have Shaun as my go to plumber for many years. He has always been knowledgeable, he finds the problem and fixes it, he’s honest and great to work with. I am so excited that he and Jason ( also awesome) have teamed up to offer the best service around."
     featured: false
-    sort_order: 43
+    sort_order: 48
     avatar: "/images/reviews/cindy-luntley.png"
     tags:
       - "Plumbing"
@@ -501,7 +562,7 @@ reviews:
     posted_at: "2025-10-22"
     quote: "Jason is an excellent experienced technician. We have used him for many years and he explains the work from the start to finish, without any surprises."
     featured: false
-    sort_order: 44
+    sort_order: 49
     avatar: "/images/reviews/edward-leong.png"
   - author: "Red Lux Tallow Orders"
     initials: "RO"
@@ -511,7 +572,7 @@ reviews:
     posted_at: "2025-10-15"
     quote: "Punctual — they told me exactly when they'd arrive and stuck to it. Only advised on the work that was actually needed, no upselling. Honest, reliable, professional. Wouldn't hesitate to use them again."
     featured: false
-    sort_order: 45
+    sort_order: 50
     avatar: "/images/reviews/red-lux-tallow-orders.png"
     tags:
       - "Plumbing"
@@ -524,7 +585,7 @@ reviews:
     posted_at: "2025-10-15"
     quote: "Jason is so professional. Wonderful guy"
     featured: false
-    sort_order: 46
+    sort_order: 51
     avatar: "/images/reviews/marjorie-leslie.png"
   - author: "Gordon Beach"
     initials: "GB"
@@ -534,7 +595,7 @@ reviews:
     posted_at: "2025-10-08"
     quote: "Jason has given us superior service. He is prompt, competent, and reliable. He is our first and only call for plumbing and heating."
     featured: false
-    sort_order: 47
+    sort_order: 52
     avatar: "/images/reviews/gordon-beach-2.png"
     tags:
       - "Plumbing"
@@ -546,7 +607,7 @@ reviews:
     posted_at: "2025-10-08"
     quote: "My boiler stopped working at my house. Service was very timely (same day service), professional, and well priced. I’d highly recommend FlameTech"
     featured: false
-    sort_order: 48
+    sort_order: 53
     avatar: "/images/reviews/michael-ciaramella.png"
     tags:
       - "Boilers"
@@ -558,7 +619,7 @@ reviews:
     posted_at: "2025-10-08"
     quote: "Shaun is extremely competent, accommodating and honest. FlameTech will be our go to for any plumbing/furnace needs for years to come!"
     featured: false
-    sort_order: 49
+    sort_order: 54
     avatar: "/images/reviews/jim-barath.png"
     tags:
       - "Plumbing"
@@ -571,7 +632,7 @@ reviews:
     posted_at: "2025-10-01"
     quote: "FlameTech is quick, reliable, and professional."
     featured: false
-    sort_order: 50
+    sort_order: 55
     avatar: "/images/reviews/sebastian-gault.png"
   - author: "Chris E. G."
     initials: "CG"
@@ -581,7 +642,7 @@ reviews:
     posted_at: "2025-10-01"
     quote: "I had an outside tap that wouldn't shut off. Shaun from FlameTech Plumbing & Heating Ltd. arrived at the scheduled time. He was polite, professional and quickly fixed the tap. I can't say how much I appreciate honest service. I would highly recommend this company."
     featured: false
-    sort_order: 51
+    sort_order: 56
     avatar: "/images/reviews/chris-e-g.png"
     tags:
       - "Plumbing"
@@ -593,7 +654,7 @@ reviews:
     posted_at: "2025-10-01"
     quote: "Shaun arrived promptly and completed servicing my furnace and water heater.\n\nIn addition he installed a new humidifier.\n\nVery professional, knowledgeable and personal service. Highly recommend FlameTech!"
     featured: false
-    sort_order: 52
+    sort_order: 57
     avatar: "/images/reviews/elaine-cunningham.png"
     tags:
       - "Furnaces"
@@ -607,7 +668,7 @@ reviews:
     posted_at: "2025-09-24"
     quote: "FlameTech is always on time. They are very knowledgeable. They worked on our furnace and hot water heater today. They explained everything they did and asked if we had any questions."
     featured: false
-    sort_order: 53
+    sort_order: 58
     avatar: "/images/reviews/barbara-fiselier.png"
     tags:
       - "Furnaces"
@@ -620,7 +681,7 @@ reviews:
     posted_at: "2025-09-24"
     quote: "Great service"
     featured: false
-    sort_order: 54
+    sort_order: 59
     avatar: "/images/reviews/dave-mackintosh.png"
   - author: "Kyle Smith"
     initials: "KS"
@@ -630,7 +691,7 @@ reviews:
     posted_at: "2025-09-10"
     quote: "I had my bathtub and AC fixed in one trip. Amazingly fast and friendly. Shaun was awesome"
     featured: false
-    sort_order: 55
+    sort_order: 60
     avatar: "/images/reviews/kyle-smith.png"
     tags:
       - "AC"
@@ -642,7 +703,7 @@ reviews:
     posted_at: "2025-09-10"
     quote: "Excellent service. I Highly recommend FlameTech for all your heating and plumbing needs. Great customer care."
     featured: false
-    sort_order: 56
+    sort_order: 61
     avatar: "/images/reviews/tina-carey.png"
     tags:
       - "Plumbing"
@@ -654,7 +715,7 @@ reviews:
     posted_at: "2025-09-03"
     quote: "Great experience. We had a leak in our house due to a broken pipe on a hose bib. FlameTech came out and our part was effortless. Friendly and efficient technician."
     featured: false
-    sort_order: 57
+    sort_order: 62
     avatar: "/images/reviews/kei-g.png"
     tags:
       - "Plumbing"
@@ -666,7 +727,7 @@ reviews:
     posted_at: "2025-08-13"
     quote: "Shaun showed up right on time and was able to complete repair in a short amount of time. A number of residents including myself have worked with Shaun over the last few years and highly recommend him for any of your plumbing and heating needs."
     featured: false
-    sort_order: 58
+    sort_order: 63
     avatar: "/images/reviews/darryl-schmidt.png"
     tags:
       - "Plumbing"
@@ -678,7 +739,7 @@ reviews:
     posted_at: "2025-08-06"
     quote: "Exactly what you hope for when you have to call a plumber! We were so relieved then impressed, and then genuinely happy with our entire experience from quote to completion. These guys are our pick anytime we need some work done!"
     featured: false
-    sort_order: 59
+    sort_order: 64
     avatar: "/images/reviews/mgccontractinginc.png"
     tags:
       - "Plumbing"
@@ -690,7 +751,7 @@ reviews:
     posted_at: "2025-07-23"
     quote: "Highly recommended, honest , business oriented.\n\nThanks Shaun, it was a good experience dealing with you."
     featured: false
-    sort_order: 60
+    sort_order: 65
     avatar: "/images/reviews/hamza-hamza.png"
   - author: "Madison Ritchie"
     initials: "MR"
@@ -700,7 +761,7 @@ reviews:
     posted_at: "2025-07-23"
     quote: "We've used FlameTech for a few issues around our house after finding them through a friend...."
     featured: false
-    sort_order: 61
+    sort_order: 66
     avatar: "/images/reviews/madison-ritchie.png"
   - author: "Roy Smith"
     initials: "RS"
@@ -710,7 +771,7 @@ reviews:
     posted_at: "2025-07-16"
     quote: "Shaun is very accommodating and actively proposes better value solutions. He does excellent work and provides clear do it yourself maintenance instructions. He installed our A/C a couple years ago (while working for a different company) and just installed a recirculation line for near instantaneous hot water at our kitchen sink and dishwasher."
     featured: false
-    sort_order: 62
+    sort_order: 67
     avatar: "/images/reviews/roy-smith.png"
     tags:
       - "Plumbing"
@@ -726,7 +787,7 @@ reviews:
     posted_at: "2025-06-18"
     quote: "Shaun serviced our AC and heat pump. On time, explained what he was doing, efficient, thorough. Good price for the quality of service. Highly recommend Shaun and FlameTech for HVAC."
     featured: false
-    sort_order: 63
+    sort_order: 68
     avatar: "/images/reviews/michelle-g.png"
     tags:
       - "Heat Pumps"
@@ -739,7 +800,7 @@ reviews:
     posted_at: "2025-06-11"
     quote: "Was recommended by another plumber that I use him. Shaun was quick at diagnosing the problem with our water heater and on installation of our new tank was fast at installing and friendly and instructive in how to use."
     featured: false
-    sort_order: 64
+    sort_order: 69
     avatar: "/images/reviews/kiersten-dods.png"
     tags:
       - "Plumbing"
@@ -753,7 +814,7 @@ reviews:
     posted_at: "2025-06-11"
     quote: "Exceptional customer experience from scheduling an appointment to the service call for our year-old AC unit. Shaun is highly knowledgeable, listens to the customer and their specific needs and comes up with solid options to choose from and has top notch people skills. Shaun has been our go to for plumbing and HVAC for the past 5 years - glad to see he’s started up his own business."
     featured: false
-    sort_order: 65
+    sort_order: 70
     avatar: "/images/reviews/pam-louie.png"
     tags:
       - "Plumbing"
@@ -767,7 +828,7 @@ reviews:
     posted_at: "2025-06-11"
     quote: "Shaun was very knowledgeable and professional, and was able to identify and fix our plumbing issue quite quickly. We will definitely use his services again, and will confidently recommend to our friends and family! Thank you!"
     featured: false
-    sort_order: 66
+    sort_order: 71
     avatar: "/images/reviews/oana-uritescu.png"
     tags:
       - "Plumbing"
@@ -779,7 +840,7 @@ reviews:
     posted_at: "2025-06-04"
     quote: "on time. excellent service."
     featured: false
-    sort_order: 67
+    sort_order: 72
     avatar: "/images/reviews/darren-nippers.png"
   - author: "Vicki McLaughlin"
     initials: "VM"
@@ -789,7 +850,7 @@ reviews:
     posted_at: "2025-06-04"
     quote: "They were fantastic!"
     featured: false
-    sort_order: 68
+    sort_order: 73
     avatar: "/images/reviews/vicki-mclaughlin.png"
   - author: "Bill Emery"
     initials: "BE"
@@ -799,7 +860,7 @@ reviews:
     posted_at: "2025-05-14"
     quote: "Quick response to my urgent need for a new boiler. Pleasant, knowledgeable and efficient."
     featured: false
-    sort_order: 69
+    sort_order: 74
     avatar: "/images/reviews/bill-emery.png"
     tags:
       - "Boilers"
@@ -812,7 +873,7 @@ reviews:
     posted_at: "2025-05-12"
     quote: "This company is great! Shaun was quick, clean, and candid with his work. He installed an air conditioner for us in just a few a hours with no mess or fuss. Shaun spent time explaining what he was doing while he worked and walked us through how to properly set up our thermostat and home space to get the most out of our new equipment.\n\n100% would hire this company again!"
     featured: false
-    sort_order: 70
+    sort_order: 75
     avatar: "/images/reviews/paul-bjartveit.png"
     tags:
       - "AC"
@@ -825,7 +886,7 @@ reviews:
     posted_at: "2025-05-07"
     quote: "Friendly and courteous staff. Very knowledgeable and professional. Dealt with my problem in an effective and timely manner. A pleasure to do business with."
     featured: false
-    sort_order: 71
+    sort_order: 76
     avatar: "/images/reviews/don-serink.png"
   - author: "Kim Meylemans"
     initials: "KM"
@@ -835,7 +896,7 @@ reviews:
     posted_at: "2025-05-05"
     quote: "Arrived early, worked fast and charged a fair price!"
     featured: false
-    sort_order: 72
+    sort_order: 77
     avatar: "/images/reviews/kim-meylemans.png"
   - author: "John Bjartveit"
     initials: "JB"
@@ -845,7 +906,7 @@ reviews:
     posted_at: "2025-05-01"
     quote: "FlameTech did a great job with my new Air-conditioning install. The machine is super quiet, and they kept the mess to a minimum. Shaun was friendly, fast, and was great and answering all of my nosy questions. Highly recommended."
     featured: false
-    sort_order: 73
+    sort_order: 78
     avatar: "/images/reviews/john-bjartveit.png"
     tags:
       - "Install"
@@ -857,7 +918,7 @@ reviews:
     posted_at: "2025-04-23"
     quote: "probably the best boiler guy i have ever deal with. figured out the issue right away and he had parts on his van. honestly do not get service like this anymore. Would strongly recommend."
     featured: false
-    sort_order: 74
+    sort_order: 79
     avatar: "/images/reviews/brandon-mandel.png"
     tags:
       - "Boilers"
@@ -869,7 +930,7 @@ reviews:
     posted_at: "2025-04-22"
     quote: "Excellent experience with FlameTech! Highly recommend for any plumbing needs."
     featured: false
-    sort_order: 75
+    sort_order: 80
     avatar: "/images/reviews/hussain-khimji.png"
     tags:
       - "Plumbing"

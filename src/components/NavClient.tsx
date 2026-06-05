@@ -298,10 +298,8 @@ export default function NavClient({
 
   return (
     <nav
-      className={`sticky top-0 w-full z-50 backdrop-blur-lg border-b transition-shadow duration-200 ${
-        scrolled
-          ? "bg-ink-900/98 border-line-dark shadow-lg shadow-ink-900/40"
-          : "bg-ink-900/95 border-line-dark"
+      className={`sticky top-0 w-full z-50 bg-ink-900 border-b border-line-dark transition-shadow duration-200 ${
+        scrolled ? "shadow-lg shadow-ink-900/40" : ""
       }`}
     >
       {/* Skip-to-content — visually hidden until focused, then jumps
