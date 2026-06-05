@@ -19,3 +19,8 @@ out/
 next-env.d.ts
 GoogleReviews.txt
 Flame Tech Reviews*.docx
+
+# Word docs in project root (review imports, etc.) — content gets
+# extracted into content/reviews.yaml; the docx itself shouldn't ship.
+*.docx
+~$*.docx
