@@ -877,6 +877,213 @@ export const services: ServicePage[] = [
       },
     },
   },
+  {
+    slug: "sump-pump-installation-calgary",
+    category: "Plumbing",
+    icon: "water_damage",
+    title: "Sump Pump Installation in Calgary — Spec, Install, and Backup",
+    lead:
+      "Calgary's clay soil, chinook freeze-thaw cycles, and spring runoff put real load on basement sump systems — and undersized or aging pumps fail at exactly the wrong moment. FlameTech sizes, installs, and tests sump pumps with the cycle counts and backup redundancy that Calgary basements actually need.",
+    heroBody: [
+      "If your home is in [Bowness](/bowness-plumbers-calgary/), Montgomery, Silver Springs, the low-lying parts of [Mahogany](/mahogany-plumbers-calgary/) or [Auburn Bay](/auburn-bay-plumber-calgary/), or downtown's older flats — you already know what spring runoff does to a basement. Even homes nowhere near a river deal with high water tables during chinooks, and the 2013 flood made every Calgary homeowner aware of what one failed sump pump can cost.",
+      "We install primary sump pumps sized for actual cycle counts (not box-of-the-pump default), add battery-backup or water-powered secondary pumps where power outages are the real failure mode, and pair with [backwater valves](/emergency-plumber-calgary/) on properties where municipal sewer backup is a parallel risk.",
+      "Free in-home assessment — we look at your existing pit, discharge run, electrical, and history. Call 587-834-3668. [Monthly financing](/financing/) available for larger jobs.",
+    ],
+    heroSubhead: "Sump Pump Specialists for Calgary Basements",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/FTVAN2.jpg", alt: "Shaun and Jason — FlameTech sump pump installers in Calgary", fit: "cover" },
+    intro:
+      "Calgary sump pump installation — primary submersibles, battery-backup secondaries, discharge re-routing, and backwater valve pairing. Free assessment, written quote.",
+    features: [
+      "Primary sump pump install + replacement",
+      "Battery-backup secondary pumps",
+      "Water-powered backup pumps",
+      "Sump pit upsizing + replacement",
+      "Discharge line re-routing + freeze protection",
+      "Backwater valve install (sewer-side flood prevention)",
+    ],
+    bullets: [
+      {
+        t: "Cast-iron impeller, not the plastic default",
+        d: "We default to Zoeller, Liberty, or Hydromatic cast-iron submersibles — they handle the cycle counts a Calgary basement actually sees during spring melt. The plastic-impeller box-store unit burns out in 3-5 years; cast iron lasts 10-15.",
+      },
+      {
+        t: "Battery backup that covers a real outage",
+        d: "Power failures often coincide with the storms that push water tables high. We spec battery-backup pumps with enough amp-hours to run through a multi-hour outage, plus high-water alarms so you know it's working.",
+      },
+      {
+        t: "Discharge done right",
+        d: "Discharge has to drain at least 6 ft from the foundation (further on saturated lots) and route so it doesn't freeze and back-load the pump in February. We've seen too many setups where the discharge re-introduces water at the same wall.",
+      },
+      {
+        t: "Backwater valve pairing where it matters",
+        d: "Sump pumps handle groundwater; backwater valves handle municipal sewer backup. Many SE Calgary properties (post-2013 retrofit zone) benefit from both — we install and inspect both during the same visit.",
+      },
+    ],
+    seoTitle: "Sump Pump Installation Calgary | Battery Backup + Backwater Valve",
+    seoDescription:
+      "Calgary sump pump install + replacement. Cast-iron primaries, battery-backup secondaries, backwater valves. Free in-home assessment. Call 587-834-3668.",
+    seoKeywords: [
+      "sump pump installation Calgary",
+      "sump pump replacement Calgary",
+      "battery backup sump pump Calgary",
+      "backwater valve Calgary",
+      "basement flood prevention Calgary",
+      "FlameTech Plumbing",
+    ],
+    quoteFormLabel: "sump pump install",
+    quoteFormPlaceholder:
+      "e.g. existing sump cycling constantly, no backup pump, basement flooded once already, considering backwater valve…",
+    sidebar: {
+      title: "Calgary Sump Pump Install",
+      subtitle:
+        "Cast-iron primaries, battery-backup secondaries, properly-routed discharge — sized for Calgary's spring runoff and chinook freeze-thaw.",
+      bullets: [
+        "Free in-home assessment + written quote",
+        "Cast-iron Zoeller / Liberty / Hydromatic",
+        "Battery-backup + high-water alarm",
+        "Backwater valve pairing available",
+      ],
+    },
+    stats: [
+      { number: "25+", label: "Years in Calgary", icon: "verified" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "FREE", label: "In-home assessment", icon: "request_quote" },
+      { number: "Cast-iron", label: "default install", icon: "award" },
+    ],
+    financing: {
+      detail:
+        "Sump + backwater combos can run into 4 figures — Financeit monthly payments are available on installs over $1,500.",
+    },
+    callout:
+      "Basement flooded or sump pump making noise? Call 587-834-3668 — same-day [emergency dispatch](/emergency-plumber-calgary/) for active flooding, scheduled install for preventative work.",
+    richContent: {
+      sections: [
+        {
+          heading: "What we cover on a Calgary sump pump install",
+          intro:
+            "Most calls fall into one of four buckets. Here's what each looks like.",
+          items: [
+            {
+              heading: "New install in a home that doesn't have one",
+              body: "Pre-1980 Calgary builds often have no sump pit at all — or an undersized 12\" pit with no pump. We core a 18-24\" plastic basin, install the primary pump, run discharge to the property line, and add a check valve. Typical 1-day install.",
+            },
+            {
+              heading: "Replacing an aging or failed pump",
+              body: "If the pump is 8+ years old, cycling constantly, or making the rattling sound of a worn impeller, it's on borrowed time. We swap it during a scheduled visit before it fails on a Sunday in May.",
+            },
+            {
+              heading: "Adding battery backup to an existing primary",
+              body: "Existing primary still working? Add a battery-backup pump and high-water alarm to cover power outages. The backup sits in the same pit, mounted above the primary's typical water line, and only fires when the primary can't keep up or has no power.",
+            },
+            {
+              heading: "Full system overhaul — pump, pit, discharge, backwater valve",
+              body: "Older homes that have flooded once usually need more than a pump swap — undersized pit, discharge dumping at the foundation, no backwater valve. We do the full assessment, quote each piece separately, and tackle in the order that makes sense.",
+            },
+          ],
+        },
+        {
+          heading: "Why Calgary basements need a properly-sized sump system",
+          intro:
+            "Calgary's hydrology is unusual: clay soil that doesn't drain, chinooks that melt snow in 24 hours, spring runoff that overwhelms storm drains, and aging municipal sewer lines that back up under heavy load. A properly-sized sump system addresses the groundwater side; pairing with a backwater valve addresses the sewer side.",
+          items: [
+            {
+              heading: "Clay soil = water doesn't drain, it accumulates",
+              body: "Calgary sits on a thick layer of glacial till — clay-heavy soil with poor drainage. Water from melt or rainfall doesn't percolate down; it stays at the surface and eventually finds its way through foundation walls and weeping tile into your basement. The sump pump's job is to evacuate that water before it reaches finished floor.",
+            },
+            {
+              heading: "Chinook freeze-thaw cycles compound the load",
+              body: "A January chinook can melt a foot of snow in 36 hours. That water hits frozen ground, has nowhere to go, and ends up against your foundation. Sump pumps in homes south of downtown can cycle every 90 seconds during a strong chinook event. Cast-iron impellers handle that; plastic ones cook themselves.",
+            },
+            {
+              heading: "Spring runoff (March–May) is the real test",
+              body: "The combination of snow pack melting and seasonal rains creates the highest water tables of the year. Pump failures cluster in this window. We schedule a lot of preventative installs in February for this reason.",
+            },
+            {
+              heading: "Lake-area properties have higher baseline water tables",
+              body: "[Mahogany](/mahogany-plumbers-calgary/), [Auburn Bay](/auburn-bay-plumber-calgary/), Lake Bonavista, and properties near the Bow ([Bowness](/bowness-plumbers-calgary/), Montgomery, Sunnyside) have higher year-round water tables. Sump pumps run more — sometimes year-round. Cycle-count rating matters more here than in suburban dry-lot communities.",
+            },
+            {
+              heading: "Power outages and storms come together",
+              body: "The storms that push your sump system hardest are also the ones that knock out power. Battery-backup pumps exist for exactly this case. We size the battery for at least 4-6 hours of continuous run — that covers most Calgary outages.",
+            },
+            {
+              heading: "2013 flood reset Calgary's flood-protection expectations",
+              body: "The June 2013 flood left a lot of Calgary homeowners wiser about basement risk. Many SE properties did backwater valve retrofits afterward — required for newer Calgary city flood-protection rebates. We pair backwater valves with sump installs when both make sense.",
+            },
+          ],
+        },
+        {
+          heading: "What we install — pump, pit, discharge, backup, alarm",
+          intro:
+            "The components and how we spec them.",
+          items: [
+            {
+              heading: "Primary pump — cast-iron submersible",
+              body: "Zoeller M53/M63 series, Liberty 257/287 series, or Hydromatic SP40. Cast-iron motor housing dissipates heat better than plastic and lasts through high-cycle Calgary use. 1/3 HP for most residential, 1/2 HP for high-water-table lots or larger basements.",
+            },
+            {
+              heading: "Pit / basin",
+              body: "18\" minimum diameter, 22-24\" deep. If your existing pit is undersized (common in 60s-70s homes), we upsize. A larger pit means the pump cycles less often — bigger draw-down per cycle, longer pump life.",
+            },
+            {
+              heading: "Discharge line",
+              body: "1.5\" rigid PVC inside, transitions to flexible at the outlet to handle frost movement. Discharges minimum 6 ft from foundation, slopes away, routes so it doesn't freeze and back-load. Check valve mandatory to prevent backflow.",
+            },
+            {
+              heading: "Battery backup pump",
+              body: "Wayne ESP-25 or Basement Watchdog Big Dog series. Mounted above primary in the same pit. Battery sized for 4-6 hours continuous operation minimum — covers typical Calgary outages plus margin. Battery should be replaced every 4-5 years; we mark the install date on the unit.",
+            },
+            {
+              heading: "Water-powered backup (alternative)",
+              body: "For homes with municipal water service and adequate water pressure, a water-powered backup pump uses house water pressure to pump out the pit. No battery to maintain. Trade-off: uses 1-2 gallons of city water per gallon pumped out. We assess pressure first to confirm it'll work.",
+            },
+            {
+              heading: "High-water alarm",
+              body: "Audible + phone notification when water rises above the pump's normal trigger level. Catches pump failure before flooding. Standalone or integrated into a smart-home setup.",
+            },
+            {
+              heading: "Backwater valve (paired install)",
+              body: "Where municipal sewer backup is the parallel risk (post-2013 retrofit zones, properties on combined sewer lines), we install a backwater valve on the main sewer line — closes automatically if sewer-side pressure tries to push water back into the home.",
+            },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Sump Pump Installation Calgary — FAQs",
+        items: [
+          {
+            q: "How much does sump pump installation cost in Calgary?",
+            a: "A straight primary-pump replacement in an existing pit typically runs $700–$1,200 depending on pump spec and discharge condition. A new sump system from scratch (cut the slab, install pit + pump + discharge + check valve) runs $2,500–$4,500. Adding a battery backup pump to an existing primary is $900–$1,500 including battery. Backwater valve install is $2,500–$4,500 separately. All quotes are in writing with line items — no \"surprise\" charges at the end.",
+          },
+          {
+            q: "How long does a sump pump last in Calgary?",
+            a: "Cast-iron pumps in a properly-sized pit typically last 10-15 years. Plastic-impeller box-store pumps in undersized pits or high-cycle situations can fail in 3-5 years. Battery backup pumps fire much less often than primaries, so the pump itself can last 15-20 years — but the battery needs replacement every 4-5 years regardless of use.",
+          },
+          {
+            q: "Do I really need a battery backup?",
+            a: "If a flooded basement would cause meaningful damage (finished basement, drywall, flooring, stored items), yes. The storms that push your sump system to its limit are the same ones that knock out power. We've responded to too many flooded basements where the homeowner had a working primary pump — but no power and no backup. For unfinished basements with concrete floors and nothing valuable down there, the case is weaker.",
+          },
+          {
+            q: "What's the difference between a sump pump and a backwater valve?",
+            a: "Different problems. Sump pump handles GROUNDWATER coming through your foundation walls and weeping tile. Backwater valve handles MUNICIPAL SEWER BACKUP — when city sewers overload and try to push sewage back into your home through floor drains and basement fixtures. Calgary's 2013 flood drove home that you need both for properties at risk. We can install one or both depending on what your home actually needs.",
+          },
+          {
+            q: "Should the discharge tie into the storm drain or just dump on the lawn?",
+            a: "Neither, ideally. Tying into the city storm drain requires a permit and the city often denies for sump discharge. Dumping straight onto the lawn at the foundation just re-routes water back through your weeping tile. The right approach is a discharge run that takes water at least 6 feet from the foundation, slopes away from the house, and ends at a splash block or extended downspout that disperses the flow.",
+          },
+          {
+            q: "Will my sump pump freeze in winter?",
+            a: "The pump itself is below frost line in the pit — it won't freeze. The discharge line is the freeze risk. We slope discharge so water drains out after each cycle (nothing sitting in the pipe to freeze), use flex pipe at the exit point that can flex with frost movement, and avoid long horizontal exterior runs that pool water. If your existing discharge has frozen and back-loaded the pump, we re-route it during the install.",
+          },
+          {
+            q: "Do you handle the electrical for the sump install?",
+            a: "Primary and battery-backup pumps plug into a standard outlet — we don't need an electrician for that. If your sump pit doesn't have an outlet, or the outlet is shared with too much else and trips when the pump kicks on, we can install a dedicated GFCI circuit (sub-contracted to a licensed electrician — we coordinate, you only deal with one person). For most installs, electrical is not a separate cost.",
+          },
+        ],
+      },
+    },
+  },
   // HEATING
   {
     slug: "boiler-installation-calgary",

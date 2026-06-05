@@ -98,6 +98,12 @@ const menu: NavItem[] = [
               icon: "pipe_wrench",
               desc: "Full replacement for 80s/90s homes.",
             },
+            {
+              label: "Sump Pump Install",
+              href: "/sump-pump-installation-calgary/",
+              icon: "water_damage",
+              desc: "Primary + backup, basement flood prevention.",
+            },
           ],
         },
       ],
