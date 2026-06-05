@@ -25,8 +25,13 @@ export default function FinalCTA() {
             <Icon name="call" className="text-base" />
             Call 587-834-3668
           </a>
+          {/* Absolute URL — FinalCTA is rendered on pages that don't
+              themselves have an id="quote" anchor (/about/, /financing/,
+              /blog/, etc.). Linking to the contact page's form guarantees
+              the click always lands somewhere useful regardless of which
+              page hosts this CTA. */}
           <a
-            href="#quote"
+            href="/contact/#quote"
             className="inline-flex items-center gap-2 rounded-full border border-cream-50/25 text-cream-50 font-semibold px-8 py-4 text-sm hover:border-emergency hover:text-emergency transition-colors"
           >
             Request free estimate

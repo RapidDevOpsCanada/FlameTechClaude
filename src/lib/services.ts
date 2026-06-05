@@ -434,7 +434,7 @@ export const services: ServicePage[] = [
           items: [
             {
               heading: "Certified on the brands you've got",
-              body: "Factory-trained on Kohler, Moen, Delta, and Grohe systems. We stock cartridges and parts for most shower valves installed in Calgary over the past 20 years, so a repair usually happens on the first visit.",
+              body: "We service every major shower-valve brand and stock cartridges and parts for most valves installed in Calgary over the past 20 years, so a repair usually happens on the first visit.",
             },
             {
               heading: "Valves matched to your situation",
@@ -1116,13 +1116,13 @@ export const services: ServicePage[] = [
         d: "Every install sized for our −40°C design temperature, not just mild winter days.",
       },
       {
-        t: "Top-brand certifications",
-        d: "Manufacturer training on Viessmann, Navien, Triangle Tube, Crown, and Weil-McLain.",
+        t: "Every major brand installed",
+        d: "We install Viessmann, Navien, Triangle Tube, Crown, Weil-McLain, and IBC — registered with manufacturer warranties on every job.",
       },
     ],
     seoTitle: "Calgary Boiler Installation & Replacement | FlameTech",
     seoDescription:
-      "Free on-site heat-loss quote, manufacturer-certified install on Viessmann, Navien, and IBC. Calgary boiler installation and replacement done right. Typical install $5,500-$12,000. Call 587-834-3668.",
+      "Free on-site heat-loss quote, install on every major brand including Viessmann, Navien, and IBC. Calgary boiler installation and replacement done right. Typical install $5,500-$12,000. Call 587-834-3668.",
     seoKeywords: [
       "boiler installation Calgary",
       "boiler replacement Calgary",
@@ -1177,7 +1177,7 @@ export const services: ServicePage[] = [
         {
           heading: "Why Calgary Homeowners Choose FlameTech for Boiler Installation",
           intro:
-            "From emergency installations to planned upgrades, our Calgary boiler specialists bring decades of hands-on experience with every major brand and model. FlameTech's technicians hold gas fitter certifications and manufacturer training from [Viessmann](https://www.viessmann.ca/), [Navien](https://www.navieninc.com/), [Triangle Tube](https://triangletube.com/), and other top boiler brands.\n\nWe've installed systems in everything from 1920s [Mount Royal](/mount-royal-plumbers-calgary/) heritage homes to brand-new builds in [Cranston](/cranston-plumber-calgary/). Our truck inventory includes parts for the most common Calgary boiler models, which means we can often complete installations in a single visit instead of ordering parts and coming back next week.\n\nEvery installation includes proper sizing calculations based on your home's square footage, insulation levels, and Calgary's −40°C design temperature. Need annual upkeep on the new system? See our [boiler service](/boiler-service-calgary/) page.",
+            "From emergency replacements to planned upgrades, our Calgary boiler specialists bring decades of hands-on experience with every major brand and model. We install [Viessmann](https://www.viessmann.ca/), [Navien](https://www.navieninc.com/), [Triangle Tube](https://triangletube.com/), IBC, Crown, and Weil-McLain — registered with manufacturer warranties on every job. Alberta-licensed gas fitters and Red Seal plumbers on every install.\n\nWe've installed systems in everything from 1920s [Mount Royal](/mount-royal-plumbers-calgary/) heritage homes to brand-new builds in [Cranston](/cranston-plumber-calgary/). Our truck inventory includes parts for the most common Calgary boiler models, which means we can often complete installations in a single visit instead of ordering parts and coming back next week.\n\nEvery installation includes proper sizing calculations based on your home's square footage, insulation levels, and Calgary's −40°C design temperature. Need annual upkeep on the new system? See our [boiler service](/boiler-service-calgary/) page.",
           items: [
             { heading: "Gas Boiler Installation", body: "We install high-efficiency gas-fired boilers from all major manufacturers, handling gas line connections, venting, and system commissioning to manufacturer specifications." },
             { heading: "Electric Boiler Installation", body: "For homes without gas access or as backup heating systems, we install electric boilers with proper electrical connections and safety controls." },
@@ -1426,7 +1426,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "Do you repair every boiler brand?",
-            a: "Yes. Viessmann, Navien, NTI, IBC, Lochinvar, Weil-McLain, Slant/Fin, and older Burnham, Buderus, and cast-iron units. Our techs are factory-trained on the high-efficiency brands and have 25+ years on the heritage systems. If your boiler is gas-fired and lives in Calgary, we've worked on it.",
+            a: "Yes. Viessmann, Navien, NTI, IBC, Lochinvar, Weil-McLain, Slant/Fin, and older Burnham, Buderus, and cast-iron units. We work on the high-efficiency brands as well as 25+ years of heritage gas-fired systems. If your boiler is gas-fired and lives in Calgary, we've worked on it.",
           },
           {
             q: "Can you come out today?",
@@ -1493,8 +1493,8 @@ export const services: ServicePage[] = [
         d: "A Calgary plumbing business specializing in boiler service for homes and businesses across the city.",
       },
       {
-        t: "B2 gas fitting licensed",
-        d: "FlameTech's boiler technicians hold B2 gas fitting licenses and manufacturer certifications from the industry's top brands.",
+        t: "Licensed gas fitters + Red Seal plumbers",
+        d: "Alberta-licensed gas fitters and Red Seal plumbers — every job to code, insured, and warrantied.",
       },
     ],
     callout:
@@ -1507,8 +1507,8 @@ export const services: ServicePage[] = [
       "boiler service Calgary",
       "boiler repair Calgary",
       "boiler maintenance Calgary",
-      "Viessmann Buderus Weil-McLain Triangle Tube",
-      "B2 gas fitting Calgary",
+      "boiler tune-up Calgary",
+      "annual boiler service Calgary",
       "FlameTech Plumbing Heating",
     ],
     quoteFormLabel: "boiler service",
@@ -1519,14 +1519,14 @@ export const services: ServicePage[] = [
       subtitle:
         "Annual tune-ups, repairs, and priority emergency response for every major boiler brand.",
       bullets: [
-        "Viessmann · Buderus · Weil-McLain · Triangle Tube",
-        "B2 gas fitting licensed technicians",
+        "We service every major boiler brand",
+        "Alberta-licensed gas fitters",
         "Service trucks stocked for same-day repairs",
         "Priority emergency response across Calgary",
       ],
     },
     stats: [
-      { number: "B2", label: "Gas fitting licensed", icon: "verified" },
+      { number: "25+", label: "Years in Calgary", icon: "verified" },
       { number: "5.0★", label: "Google rated", icon: "star" },
       { number: "1-2h", label: "Typical service visit", icon: "schedule" },
       { number: "ANY", label: "Brand serviced", icon: "check_circle" },
@@ -1548,7 +1548,7 @@ export const services: ServicePage[] = [
           heading:
             "Why Calgary Homeowners Choose FlameTech for Boiler Service",
           intro:
-            "Locally owned and operated, we specialise in professional boiler service for homes and businesses across Calgary. FlameTech's boiler technicians hold B2 gas fitting licences and manufacturer certifications from the industry's top brands.\n\nWe've worked on thousands of boiler systems across Calgary, from older cast iron units in [Mount Royal](/mount-royal-plumbers-calgary/) to modern condensing boilers in [Aspen Woods](/aspen-woods-plumbers-calgary/). Our service trucks carry common parts for most systems, so we can often complete repairs on the first visit instead of leaving you without heat.\n\nNeed urgent help instead of routine service? See [boiler repair](/boiler-repair-calgary/). Considering a full system replacement? See [boiler installation](/boiler-installation-calgary/) or the [boilers](/boilers/) hub for the full lineup.",
+            "Locally owned and operated, we service boilers for homes and businesses across Calgary. Red Seal plumbers and Alberta-licensed gas fitters on every job.\n\nWe've worked on a lot of Calgary boilers, from older cast iron units in [Mount Royal](/mount-royal-plumbers-calgary/) to modern condensing boilers in [Aspen Woods](/aspen-woods-plumbers-calgary/). Our service trucks carry common parts for most systems, so we can often complete repairs on the first visit instead of leaving you without heat.\n\nNeed urgent help instead of routine service? See [boiler repair](/boiler-repair-calgary/). Considering a full system replacement? See [boiler installation](/boiler-installation-calgary/) or the [boilers](/boilers/) hub for the full lineup.",
           items: [
             {
               heading: "Annual Boiler Tune-ups",
@@ -1636,7 +1636,7 @@ export const services: ServicePage[] = [
           heading: "Calgary Boiler Service Expertise You Can Trust",
           items: [
             {
-              body: "Our boiler technicians complete ongoing training with manufacturers like Viessmann, Buderus, and Triangle Tube to stay current on the latest technology. We hold B2 gas fitting licenses and have collectively serviced thousands of boiler systems across Calgary, from vintage cast iron units to modern condensing boilers requiring specialized repair techniques.",
+              body: "Our boiler technicians are Red Seal plumbers and Alberta-licensed gas fitters. We've serviced boiler systems across Calgary for years — vintage cast iron units to modern condensing boilers — and we keep up with the brand-specific repair quirks on every major line we work on.",
             },
             {
               body: "FlameTech works with all major boiler brands and understands the specific challenges Calgary installations face. Many homes built in the 1980s and '90s have original boilers reaching end-of-life, while newer developments often have undersized systems that struggle during cold snaps.",
@@ -1781,7 +1781,7 @@ export const services: ServicePage[] = [
         {
           heading: "Why Calgary Homeowners Pick FlameTech",
           intro:
-            "Hundreds of installs across Calgary since 2010, manufacturer-trained on the brands that hold up in our climate, and a phone someone actually answers when it's −30°C and your heat is out.",
+            "Hundreds of installs across Calgary, real experience with the brands that hold up in our climate, and a phone someone actually answers when it's −30°C and your heat is out.",
           items: [
             {
               heading: "AirEase Pro Team dealer",
@@ -1797,7 +1797,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "Licensed gas fitters + Red Seal plumbers",
-              body: "B2 gas fitting and Red Seal trade tickets across the team. Permits pulled, inspections booked, manufacturer warranties registered — no homeowner paperwork chasing.",
+              body: "Alberta-licensed gas fitters and Red Seal trade tickets across the team. Permits pulled, inspections booked, manufacturer warranties registered — no homeowner paperwork chasing.",
             },
           ],
         },
@@ -2010,11 +2010,11 @@ export const services: ServicePage[] = [
       "Gas line & electrical upgrades",
       "Smart thermostat integration",
       "Annual efficiency maintenance",
-      "Factory-trained on Carrier, Lennox, Rheem",
+      "Install + service every major furnace brand",
     ],
     bullets: [
       {
-        t: "Factory-trained technicians",
+        t: "Real Calgary furnace expertise",
         d: "Red Seal gas fitting certifications and manufacturer training on Carrier, Lennox, Rheem, and other top brands.",
       },
       {
@@ -2063,7 +2063,7 @@ export const services: ServicePage[] = [
           heading:
             "Why Calgary Homeowners Choose FlameTech for High-Efficiency Furnaces",
           intro:
-            "From emergency repairs in [Signal Hill](/signal-hill-plumbers-calgary/) to new installations in west Calgary, our certified technicians bring real-world experience with every major furnace brand. FlameTech's HVAC technicians are factory-trained on Carrier, Lennox, Rheem, and we're an [AirEase Pro Team dealer](/air-ease-furnaces-calgary/).\n\nWe've handled everything from cramped mechanical rooms in [Mount Royal](/mount-royal-plumbers-calgary/) character homes to wide-open basements in new builds across [Cranston](/cranston-plumber-calgary/). Our installations include proper sizing calculations, ductwork modifications, and gas line upgrades when needed.\n\nThat's the work many contractors skip but it makes the difference between a furnace that struggles and one that performs efficiently for 15-20 years. Wondering if a [heat pump](/heat-pumps-calgary/) makes more sense for your home? Read our heat pump vs furnace comparison before committing.",
+            "From emergency repairs in [Signal Hill](/signal-hill-plumbers-calgary/) to new installations in west Calgary, our technicians bring real experience with every major furnace brand sold in Calgary — AirEase, Carrier, Lennox, Rheem, and more. We're an [AirEase Pro Team dealer](/air-ease-furnaces-calgary/) and install AirEase most often for the 12-year parts-and-labour warranty.\n\nWe've handled everything from cramped mechanical rooms in [Mount Royal](/mount-royal-plumbers-calgary/) character homes to wide-open basements in new builds across [Cranston](/cranston-plumber-calgary/). Our installations include proper sizing calculations, ductwork modifications, and gas line upgrades when needed.\n\nThat's the work many contractors skip but it makes the difference between a furnace that struggles and one that performs efficiently for 15-20 years. Wondering if a [heat pump](/heat-pumps-calgary/) makes more sense for your home? Read our heat pump vs furnace comparison before committing.",
           items: [
             {
               heading: "High-Efficiency Furnace Installation",
@@ -2247,7 +2247,7 @@ export const services: ServicePage[] = [
     lead:
       "Calgary garages drop to -40°C in January, and working in that cold isn't just uncomfortable — it's dangerous. FlameTech installs and services garage heaters across Calgary, from forced-air gas units to radiant tube heaters and electric models.",
     heroBody: [
-      "We know which heating solutions work best in Alberta's brutal winters and which ones are just money down the drain. Same B2-licensed gas fitters that handle our [furnace](/furnaces/) and [boiler](/boilers/) work — garage heaters share the same gas and venting fundamentals.",
+      "We know which heating solutions work best in Alberta's brutal winters and which ones are just money down the drain. Same Alberta-licensed gas fitters that handle our [furnace](/furnaces/) and [boiler](/boilers/) work — garage heaters share the same gas and venting fundamentals.",
       "Your project doesn't stop because it's cold outside. We're available with priority [emergency response](/emergency-plumber-calgary/) for garage heater repairs and can usually get to Calgary homes within two hours for emergency calls. North of the city, we also dispatch to [Airdrie](/airdrie-plumbers/) and [Cochrane](/cochrane-plumbers/).",
     ],
     heroSubhead: "Trusted Calgary Garage Heater Experts",
@@ -2311,7 +2311,7 @@ export const services: ServicePage[] = [
         {
           heading: "Why Calgary Homeowners Choose FlameTech for Garage Heaters",
           intro:
-            "When your garage heater quits in February, our Calgary heating technicians show up with the right parts and tools to get you back to work. FlameTech has been installing garage heaters in Calgary since 2015, and we've seen every type of unit fail in every possible way.\n\nOur crew holds gas fitting tickets and electrical certifications, so we can handle any garage heating system — from simple electric baseboard heaters to complex radiant tube systems. Same B2-licensed team that handles [boiler installation](/boiler-installation-calgary/) and [furnace work](/furnaces/).\n\nWe work in [Aspen Woods](/aspen-woods-plumbers-calgary/) garages with 20-foot ceilings and cramped [Altadore](/altadore-plumbers-calgary/) single-car garages built in the 1960s. Every installation includes proper venting, gas line sizing, and electrical connections that pass Calgary building code inspection.",
+            "When your garage heater quits in February, our Calgary heating technicians show up with the right parts and tools to get you back to work. We've installed garage heaters in Calgary for years, and we've seen every type of unit fail in every possible way.\n\nOur crew holds Alberta gas-fitting licenses, so we can handle any garage heating system — from simple electric baseboard heaters to complex radiant tube systems. Same team that handles [boiler installation](/boiler-installation-calgary/) and [furnace work](/furnaces/).\n\nWe work in [Aspen Woods](/aspen-woods-plumbers-calgary/) garages with 20-foot ceilings and cramped [Altadore](/altadore-plumbers-calgary/) single-car garages built in the 1960s. Every installation includes proper venting, gas line sizing, and electrical connections that pass Calgary building code inspection.",
           items: [
             { heading: "Gas Garage Heater Installation", body: "Complete installation of forced-air and radiant gas heaters, including gas line run, proper venting, and electrical connections for Calgary garages." },
             { heading: "Electric Garage Heater Setup", body: "Installation of 240V electric heaters, baseboard units, and in-floor radiant systems with proper electrical panel upgrades where needed." },
@@ -3180,7 +3180,7 @@ export const services: ServicePage[] = [
       "Annual descaling service",
       "Combi & recirculation loops",
       "Honest tank-vs-tankless advice",
-      "Manufacturer-trained technicians",
+      "Every major tankless brand installed",
     ],
     bullets: [
       {
@@ -3238,7 +3238,7 @@ export const services: ServicePage[] = [
           items: [
             { heading: "Local Calgary Experts", body: "Our technicians live and work in Calgary. We understand the demands local homes place on water heating systems and are equipped to handle any issue, big or small." },
             { heading: "Licensed & Insured", body: "Every technician on our team is fully licensed and insured, guaranteeing professional, safe service that adheres to the highest industry standards." },
-            { heading: "Manufacturer-Trained", body: "We complete manufacturer training on the leading tankless brands so every install, service, and repair follows factory specifications." },
+            { heading: "Every major brand", body: "We install and service every major tankless brand sold in Calgary — install, service, and repair to manufacturer specifications, with warranty registration on every job." },
             { heading: "Honest Recommendations", body: "We'll tell you straight if a traditional tank is the better choice for your home and budget. No upselling, no pressure." },
           ],
         },
@@ -4197,7 +4197,7 @@ export const services: ServicePage[] = [
       subtitle:
         "Whole-home softener installs plus control valve and resin service for every major valve system in Airdrie.",
       bullets: [
-        "Factory-trained on Fleck, Autotrol, Clack",
+        "Install + service every major softener brand",
         "32,000–40,000 grain systems sized right",
         "Iron-out salt recommendations",
         "Priority emergency dispatch",
@@ -8387,13 +8387,13 @@ export const services: ServicePage[] = [
       "When the Calgary chill sets in, a reliable and efficient boiler is essential for keeping your home or business comfortable. FlameTech handles the full lifecycle: [boiler installation](/boiler-installation-calgary/), [boiler repair](/boiler-repair-calgary/), and [annual boiler service](/boiler-service-calgary/) — one team, one number, every part of the job.",
     heroBody: [
       "Whether you're upgrading an aging cast iron boiler in a Mount Royal heritage home or specifying a new condensing system for a Cranston build, we handle every part of the job — heat-loss calc, gas + venting + condensate, install, commissioning, and warranty registration.",
-      "Locally owned and operated. Every technician is licensed gas fitter and Red Seal certified. Manufacturer-trained on [Navien](https://www.navieninc.com/), [IBC](https://ibcboiler.com/), [Viessmann](https://www.viessmann.ca/), and [Triangle Tube](https://triangletube.com/). Also serving [boilers in Airdrie](/boilers-airdrie/) and [boiler installation Airdrie](/boiler-installation-airdrie/).",
+      "Locally owned and operated. Alberta-licensed gas fitters and Red Seal plumbers on every job. We install [Navien](https://www.navieninc.com/), [IBC](https://ibcboiler.com/), [Viessmann](https://www.viessmann.ca/), and [Triangle Tube](https://triangletube.com/) — registered with manufacturer warranties. Also serving [boilers in Airdrie](/boilers-airdrie/) and [boiler installation Airdrie](/boiler-installation-airdrie/).",
     ],
     heroSubhead: "Calgary's Boiler Specialists",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
     heroImage: { src: "/images/navine-boiler.png", alt: "Navien high-efficiency wall-hung boiler installed by FlameTech" },
     intro:
-      "Calgary boilers — install, repair, and annual service. High-efficiency condensing, conventional, and combi boilers from Navien, IBC, Viessmann, and Triangle Tube. Licensed, insured, manufacturer-trained.",
+      "Calgary boilers — install, repair, and annual service. High-efficiency condensing, conventional, and combi boilers from Navien, IBC, Viessmann, and Triangle Tube. Licensed, insured, Red Seal plumbers + gas fitters.",
     features: [
       "Boiler installation & replacement",
       "Boiler repair & diagnostics",
@@ -8441,7 +8441,7 @@ export const services: ServicePage[] = [
       { number: "15-25yr", label: "Boiler lifespan", icon: "verified" },
       { number: "5.0★", label: "Google rated", icon: "star" },
       { number: "98%", label: "Max AFUE", icon: "award" },
-      { number: "B2", label: "Gas fitting licensed", icon: "check_circle" },
+      { number: "Red Seal", label: "Plumbers + gas fitters", icon: "check_circle" },
     ],
     financing: {
       detail:
@@ -8454,11 +8454,11 @@ export const services: ServicePage[] = [
         {
           heading: "Why Choose FlameTech for Calgary Boilers",
           intro:
-            "Boilers aren't a swap-and-go appliance — sized wrong or vented wrong, they cost you for the next 20 years. Our team has installed and serviced thousands of boilers across Calgary, from old cast iron units in heritage homes to modern condensing combis in new builds.",
+            "Boilers aren't a swap-and-go appliance — sized wrong or vented wrong, they cost you for the next 20 years. We've installed and serviced a lot of boilers across Calgary, from old cast iron units in heritage homes to modern condensing combis in new builds.",
           items: [
             { heading: "Local Calgary Experts", body: "Our technicians live and work in Calgary. We know how Alberta's climate, hard water, and freeze-thaw cycles affect boiler systems — and we install accordingly." },
-            { heading: "Licensed & Insured", body: "Every technician carries B2 gas fitting and Red Seal plumbing certifications, plus current insurance. Permits pulled, inspections passed, work warrantied." },
-            { heading: "Manufacturer-Trained", body: "Factory training on Navien, IBC, Viessmann, Triangle Tube, Crown, and Weil-McLain — so install, troubleshooting, and warranty work are all done to spec." },
+            { heading: "Licensed & Insured", body: "Alberta-licensed gas fitters and Red Seal plumbers on every job, plus current insurance. Permits pulled, inspections passed, work warrantied." },
+            { heading: "Every major brand", body: "We work on every major boiler brand sold in Calgary — install, troubleshooting, and warranty paperwork done to manufacturer spec." },
             { heading: "Emergency Response", body: "Real person answers the phone, priority dispatch for no-heat calls, and common parts stocked on every truck so most repairs finish in a single visit." },
           ],
         },
@@ -8903,7 +8903,7 @@ export const services: ServicePage[] = [
       { t: "Elevation + wind exposure", d: "Sunset Ridge, Heritage Hills, and the west-facing slopes get hit harder by chinook winds and have notable pressure differences from downtown. We've sized expansion tanks and pressure-reducing valves across both ends of town." },
       { t: "Heritage downtown stock", d: "Pre-1980 homes around 4th Avenue and the original townsite have galvanized supply lines and cast-iron stacks. We work on heritage infrastructure without ripping out finished walls." },
       { t: "Trucks dispatched NW", d: "Calgary base, Highway 1A routing. Same crew that services [Tuscany](/tuscany-plumbers-calgary/) and [Edgemont](/edgemont-plumbers-calgary/)." },
-      { t: "Licensed gas fitters", d: "Alberta-licensed plumbers and B2 gas fitters — boiler, furnace, and water-heater work all in scope." },
+      { t: "Licensed gas fitters", d: "Alberta-licensed plumbers and gas fitters — boiler, furnace, and water-heater work all in scope." },
     ],
     seoTitle: "Cochrane Plumbers | Plumbing & Heating Services",
     seoDescription:
@@ -9106,7 +9106,7 @@ export const services: ServicePage[] = [
       { t: "Septic-side experience", d: "Most rural Carstairs and MD of Mountain View properties run on septic, not municipal sewer. We diagnose backups, replace failed ejector/lift pumps, and rebuild the in-home side (drain stacks, vent integrity)." },
       { t: "Heritage railway-town stock", d: "Pre-1970 homes around the original CP rail downtown grid have galvanized supply, cast-iron stacks, and original clay laterals. We handle heritage infrastructure with the same approach we use in Calgary's older neighbourhoods." },
       { t: "Routed through Airdrie", d: "Same crew that services [Airdrie](/airdrie-plumbers/), [Reunion](/reunion-plumbers-airdrie/), and [Ravenswood](/ravenswood-plumbers-airdrie/) — Calgary base, Airdrie routing." },
-      { t: "Licensed gas fitters", d: "Alberta plumbing and B2 gas fitting licenses — boilers, furnaces, water heaters all in scope." },
+      { t: "Licensed gas fitters", d: "Alberta-licensed plumbers and gas fitters — boilers, furnaces, water heaters all in scope." },
     ],
     seoTitle: "Carstairs Plumbers | Plumbing & Heating Services",
     seoDescription:

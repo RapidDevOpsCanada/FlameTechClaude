@@ -22,10 +22,10 @@ export const authors: Record<string, AuthorBio> = {
     role: "Owner & Operator, FlameTech Plumbing & Heating",
     initials: "SK",
     avatar: "/images/team/shaun-kristoff.jpg",
-    bio: "I'm Shaun Kristoff, owner and operator of FlameTech Plumbing & Heating, with over 25 years of experience in the plumbing and heating trade.\n\nI got my start early, working alongside my dad from the age of 13, and quickly developed a strong work ethic and a passion for the trade.\n\nOver the years, I've continued to grow my skills and stay up to date with industry standards. Later in my career, I earned my Hydronics (Boiler) Design Certificate, allowing me to design and install efficient, high-performance heating systems.\n\nAt FlameTech, I focus on delivering quality workmanship, honest service, and practical solutions. Whether it's a repair, upgrade, or full installation, every job is handled with care and attention to detail.",
+    bio: "I'm Shaun Kristoff, owner and operator of FlameTech Plumbing & Heating, with over 25 years of experience in the plumbing and heating trade.\n\nI got my start early, working alongside my dad from the age of 13, and quickly developed a strong work ethic and a passion for the trade.\n\nOver the years, I've continued to grow my skills and stay up to date with industry standards, including hydronic heating system design and installation.\n\nAt FlameTech, I focus on delivering quality workmanship, honest service, and practical solutions. Whether it's a repair, upgrade, or full installation, every job is handled with care and attention to detail.",
     credentials: [
       "25+ years in trade",
-      "Hydronics (Boiler) Design Certificate",
+      "Hydronic heating experience",
       "Red Seal · Alberta Licensed",
     ],
   },

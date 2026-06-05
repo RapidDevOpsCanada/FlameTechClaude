@@ -54,10 +54,6 @@ const credentials = [
   "Alberta Licensed",
   "BBB Accredited",
   "Insured & Bonded",
-  "B2 Gas Fitting",
-  "Hydronics Design Certificate",
-  "AirEase Pro Team member",
-  "Manufacturer-trained: Viessmann · Navien · IBC · Carrier · Lennox",
 ];
 
 export default function AboutPage() {
@@ -279,7 +275,7 @@ export default function AboutPage() {
               bottom section just for a chip row. */}
           <div className="mt-10 pt-8 border-t border-line-light/70">
             <p className="text-xs font-bold uppercase tracking-[0.18em] text-primary-deep mb-4">
-              Licensed, certified, manufacturer-trained
+              Licensed, insured, accredited
             </p>
             <div className="flex flex-wrap gap-1.5">
               {credentials.map((c) => (
