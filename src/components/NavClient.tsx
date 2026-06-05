@@ -3,7 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Icon from "@/components/Icon";
 import IconBadge, { toneFromCategory } from "@/components/IconBadge";
 import SiteSearch from "@/components/SiteSearch";
@@ -284,8 +284,26 @@ export default function NavClient({
   const pathname = usePathname();
   const activeCategory = activeCategoryFromPath(pathname ?? "");
 
+  // Scroll-state shadow — when the user scrolls past the top, the
+  // sticky nav grows a soft shadow + slightly more opaque bg so it
+  // reads as "above content" instead of floating ambiguously over it.
+  // Threshold is 8px so it triggers on the first scroll wheel tick.
+  const [scrolled, setScrolled] = useState(false);
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 8);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
   return (
-    <nav className="sticky top-0 w-full z-50 bg-ink-900/95 backdrop-blur-lg border-b border-line-dark">
+    <nav
+      className={`sticky top-0 w-full z-50 backdrop-blur-lg border-b transition-shadow duration-200 ${
+        scrolled
+          ? "bg-ink-900/98 border-line-dark shadow-lg shadow-ink-900/40"
+          : "bg-ink-900/95 border-line-dark"
+      }`}
+    >
       {/* Skip-to-content — visually hidden until focused, then jumps
           a keyboard / screen-reader user past the nav into <main>. */}
       <a
@@ -294,8 +312,46 @@ export default function NavClient({
       >
         Skip to content
       </a>
-      <div className="max-w-7xl mx-auto px-4 md:px-10 flex items-center justify-between gap-3 md:gap-6 h-[80px] md:h-[100px]">
-        {/* Logo — prominent */}
+
+      {/* Utility bar — thin top strip above the main nav. Trade-business
+          convention: communicates "we're available, here's when, here's
+          where" before users hit the nav. Hidden on small mobile to keep
+          the header tight; appears from sm+ centered, splits to a 2-col
+          row at lg+ with the phone on the right.
+
+          Slightly darker bg than the main nav so the layering reads. */}
+      <div className="hidden sm:block bg-ink-800 border-b border-line-dark/60">
+        <div className="max-w-7xl mx-auto px-4 md:px-10 h-8 flex items-center justify-between text-[12px] text-cream-50/85">
+          <div className="flex items-center gap-4">
+            <span className="inline-flex items-center gap-1.5 font-semibold">
+              <span className="relative flex h-2 w-2">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emergency opacity-60" />
+                <span className="relative inline-flex rounded-full h-2 w-2 bg-emergency" />
+              </span>
+              <span className="text-emergency font-bold uppercase tracking-[0.12em]">
+                Emergency dispatch
+              </span>
+              <span className="text-cream-50/60">·</span>
+              <span>Mon–Sat 8–6</span>
+            </span>
+          </div>
+          <div className="hidden lg:flex items-center gap-4">
+            <span className="text-cream-50/60">Calgary, Airdrie & surrounding</span>
+            <span className="text-cream-50/30">·</span>
+            <a
+              href="tel:+15878343668"
+              className="inline-flex items-center gap-1.5 font-bold hover:text-emergency transition-colors"
+            >
+              <Icon name="call" className="text-sm text-emergency" />
+              587-834-3668
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div className="max-w-7xl mx-auto px-4 md:px-10 flex items-center justify-between gap-3 md:gap-6 h-[72px] md:h-[88px]">
+        {/* Logo — prominent but slightly tighter than before so nav items
+            get more breathing room (was h-48/64/72; now 44/56/60). */}
         <Link
           href="/"
           className="flex items-center text-cream-50 shrink-0"
@@ -307,33 +363,36 @@ export default function NavClient({
             width={300}
             height={183}
             priority
-            className="h-[48px] md:h-[64px] lg:h-[72px] w-auto object-contain"
+            className="h-[44px] md:h-[56px] lg:h-[60px] w-auto object-contain"
           />
         </Link>
 
-        {/* Mobile CTA icons — replace the old secondary utility bar so
-            the call + contact actions live in the primary row, freeing
-            ~46px of vertical real estate. Icon-only on mobile to fit
-            alongside the logo + menu hamburger at 360px viewports. */}
+        {/* Mobile CTA icons — call (red, primary) + quote request
+            (cream, secondary). Swapped mail icon for request_quote
+            since the contact page hosts a quote form, not an email
+            inbox. Singular red CTA visually leads. */}
         <div className="md:hidden flex items-center gap-2 ml-auto">
           <a
             href="tel:+15878343668"
             aria-label="Call 587-834-3668"
-            className="inline-flex items-center justify-center w-11 h-11 rounded-full bg-emergency text-cream-50 active:bg-emergency-deep transition-colors shadow-md"
+            className="inline-flex items-center justify-center w-11 h-11 rounded-full bg-emergency text-cream-50 active:bg-emergency-deep transition-colors shadow-md shadow-emergency/30"
           >
             <Icon name="call" className="text-xl" />
           </a>
           <Link
             href="/contact/"
-            aria-label="Contact us"
-            className="inline-flex items-center justify-center w-11 h-11 rounded-full bg-cream-50 text-ink-900 active:bg-cream-100 transition-colors shadow-md"
+            aria-label="Request a free quote"
+            className="inline-flex items-center justify-center w-11 h-11 rounded-full bg-cream-50/10 text-cream-50 border border-cream-50/20 active:bg-cream-50/20 transition-colors"
           >
-            <Icon name="mail" className="text-xl" />
+            <Icon name="request_quote" className="text-xl" />
           </Link>
         </div>
 
-        {/* Desktop menu */}
-        <ul className="hidden lg:flex items-center gap-1 h-full">
+        {/* Desktop menu — active state upgraded from a thin under-line
+            to a pill background (bg-ink-800 + border) for more presence.
+            The active item now reads as visibly elevated from its
+            neighbours, not just colored. */}
+        <ul className="hidden lg:flex items-center gap-0.5 h-full py-3">
           {menu.map((item) => {
             const isActive = item.label === activeCategory;
             return (
@@ -344,10 +403,10 @@ export default function NavClient({
                 <Link
                   href={item.href}
                   aria-current={isActive ? "page" : undefined}
-                  className={`flex items-center gap-1.5 px-4 h-full text-[19px] font-extrabold tracking-tight uppercase transition-colors relative ${
+                  className={`flex items-center gap-1.5 px-4 rounded-full text-[17px] font-extrabold tracking-tight uppercase transition-colors relative ${
                     isActive
-                      ? "text-emergency"
-                      : "text-cream-50 group-hover:text-emergency"
+                      ? "text-emergency bg-ink-800 border border-line-dark"
+                      : "text-cream-50 group-hover:text-emergency group-hover:bg-ink-800/60"
                   }`}
                 >
                   {item.label}
@@ -355,12 +414,6 @@ export default function NavClient({
                     <Icon
                       name="expand_more"
                       className="text-lg transition-transform group-hover:rotate-180"
-                    />
-                  )}
-                  {isActive && (
-                    <span
-                      aria-hidden="true"
-                      className="absolute left-3 right-3 bottom-3 h-[2px] bg-emergency rounded-full"
                     />
                   )}
                 </Link>
@@ -376,21 +429,23 @@ export default function NavClient({
           })}
         </ul>
 
-        {/* Right side */}
+        {/* Right side — phone visibility bumped from xl-only to lg+
+            (was hiding from most laptop viewports). Phone is conversion
+            #1 for plumbers; should always be visible on desktop. */}
         <div className="hidden md:flex items-center gap-4 shrink-0">
           <SiteSearch searchIndex={searchIndex} variant="compact" />
           <a
             href="tel:+15878343668"
-            className="hidden xl:flex items-center gap-2 text-[19px] font-extrabold text-cream-50 hover:text-emergency transition-colors"
+            className="hidden lg:flex items-center gap-2 text-[17px] font-extrabold text-cream-50 hover:text-emergency transition-colors"
           >
             <Icon name="call" className="text-xl text-emergency" />
             587-834-3668
           </a>
           <Link
             href="/contact/"
-            className="cta-animated-border inline-flex items-center rounded-full bg-emergency text-cream-50 font-extrabold uppercase tracking-tight px-6 py-3 text-[15px] hover:bg-emergency-deep transition-colors"
+            className="cta-animated-border inline-flex items-center rounded-full bg-emergency text-cream-50 font-extrabold uppercase tracking-tight px-6 py-3 text-[15px] hover:bg-emergency-deep transition-colors shadow-md shadow-emergency/20"
           >
-            Contact Us
+            Free Quote
           </Link>
         </div>
 
