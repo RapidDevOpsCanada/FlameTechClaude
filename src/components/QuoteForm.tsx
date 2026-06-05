@@ -119,19 +119,22 @@ export default function QuoteForm({
 
   if (status === "success") {
     return (
-      <div className="rounded-2xl bg-emergency/10 border border-emergency/30 p-10 text-center">
-        <Icon name="check_circle" className="text-emergency text-5xl mb-4 block" />
-        <h3 className="text-2xl font-extrabold tracking-tight mb-3 text-ink-900">
+      <div className="rounded-2xl bg-gradient-to-br from-emergency/15 to-emergency/5 border-2 border-emergency/30 p-10 md:p-12 text-center animate-in fade-in zoom-in-95 duration-500">
+        <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-emergency text-cream-50 mb-5 shadow-lg shadow-emergency/30">
+          <Icon name="check_circle" className="text-3xl" />
+        </div>
+        <h3 className="text-2xl md:text-3xl font-extrabold tracking-tight mb-3 text-ink-900">
           Request received.
         </h3>
-        <p className="text-ink-500 mb-6">
+        <p className="text-ink-500 mb-7 max-w-md mx-auto leading-relaxed">
           A FlameTech dispatcher will call you back shortly. For immediate
           emergencies, please call directly.
         </p>
         <a
           href="tel:+15878343668"
-          className="inline-block rounded-full bg-emergency text-ink-900 font-bold px-8 py-3 text-sm hover:bg-emergency-deep hover:text-white transition-colors"
+          className="inline-flex items-center gap-2 rounded-full bg-emergency text-cream-50 font-extrabold px-8 py-3.5 text-sm hover:bg-emergency-deep transition-colors shadow-md shadow-emergency/25"
         >
+          <Icon name="call" className="text-base" />
           Call 587-834-3668 now
         </a>
       </div>
@@ -186,10 +189,10 @@ export default function QuoteForm({
             issuePlaceholder ??
             "e.g. Water heater not working, tap leaking, furnace making noise…"
           }
-          className={`w-full rounded-xl border bg-white px-4 py-3 text-sm text-ink-900 focus:outline-none transition-colors ${
+          className={`w-full rounded-xl border bg-white px-4 py-3 text-sm text-ink-900 focus:outline-none focus:ring-4 focus:ring-emergency/15 transition-all duration-150 placeholder:text-ink-500/60 ${
             errors.issue
               ? "border-emergency focus:border-emergency"
-              : "border-line-light focus:border-emergency"
+              : "border-line-light hover:border-ink-500/40 focus:border-emergency"
           }`}
         />
         {errors.issue && (
@@ -210,9 +213,35 @@ export default function QuoteForm({
         <button
           type="submit"
           disabled={status === "submitting"}
-          className="rounded-full bg-emergency text-ink-900 px-8 py-3.5 font-bold text-sm hover:bg-emergency-deep hover:text-white transition-colors disabled:opacity-60 disabled:cursor-not-allowed"
+          className="inline-flex items-center justify-center gap-2 rounded-full bg-emergency text-cream-50 px-8 py-3.5 font-extrabold text-sm hover:bg-emergency-deep transition-all duration-150 shadow-md shadow-emergency/20 hover:shadow-lg hover:shadow-emergency/30 active:scale-[0.98] disabled:opacity-60 disabled:cursor-not-allowed disabled:hover:bg-emergency disabled:active:scale-100"
         >
-          {status === "submitting" ? "Sending…" : "Request free estimate"}
+          {status === "submitting" ? (
+            <>
+              <svg
+                className="animate-spin h-4 w-4"
+                viewBox="0 0 24 24"
+                fill="none"
+              >
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="10"
+                  stroke="currentColor"
+                  strokeWidth="3"
+                  className="opacity-25"
+                />
+                <path
+                  d="M12 2a10 10 0 0 1 10 10"
+                  stroke="currentColor"
+                  strokeWidth="3"
+                  strokeLinecap="round"
+                />
+              </svg>
+              Sending…
+            </>
+          ) : (
+            "Request free estimate"
+          )}
         </button>
         <p className="text-xs text-ink-500">
           Or call{" "}
@@ -262,10 +291,10 @@ function Field({
         aria-invalid={error ? "true" : undefined}
         aria-describedby={errorId}
         onInput={onInput}
-        className={`w-full rounded-xl border bg-white px-4 py-3 text-sm text-ink-900 focus:outline-none transition-colors ${
+        className={`w-full rounded-xl border bg-white px-4 py-3 text-sm text-ink-900 focus:outline-none focus:ring-4 focus:ring-emergency/15 transition-all duration-150 placeholder:text-ink-500/60 ${
           error
             ? "border-emergency focus:border-emergency"
-            : "border-line-light focus:border-emergency"
+            : "border-line-light hover:border-ink-500/40 focus:border-emergency"
         }`}
       />
       {error && (
