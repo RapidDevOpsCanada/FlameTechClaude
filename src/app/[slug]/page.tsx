@@ -844,7 +844,10 @@ export default async function ServicePage({
             </div>
 
             <aside className="col-span-12 lg:col-span-3">
-              <div className="sticky top-28 rounded-2xl bg-ink-900 text-cream-50 p-7 overflow-hidden">
+              {/* Sticky sidebar — top offset clears the header stack:
+                  utility bar (32px sm+) + main nav (88px lg+) +
+                  visual breathing room (~16px). top-32 = 128px. */}
+              <div className="sticky top-32 rounded-2xl bg-ink-900 text-cream-50 p-7 overflow-hidden">
                 <span className="eyebrow mb-3">
                   {service.sidebar?.subtitle ? "Get a quote" : "Get started"}
                 </span>

@@ -250,6 +250,12 @@ const menu: NavItem[] = [
               icon: "whatshot",
               desc: "Endless hot water, lower running costs.",
             },
+            {
+              label: "Hot Water Issues",
+              href: "/hot-water-issues-calgary/",
+              icon: "water_damage",
+              desc: "No hot water, lukewarm, leaks, popping — diagnosis + repair.",
+            },
           ],
         },
         {

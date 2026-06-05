@@ -951,10 +951,6 @@ export const services: ServicePage[] = [
       { number: "FREE", label: "In-home assessment", icon: "request_quote" },
       { number: "Cast-iron", label: "default install", icon: "award" },
     ],
-    financing: {
-      detail:
-        "Sump + backwater combos can run into 4 figures — Financeit monthly payments are available on installs over $1,500.",
-    },
     callout:
       "Basement flooded or sump pump making noise? Call 587-834-3668 — same-day [emergency dispatch](/emergency-plumber-calgary/) for active flooding, scheduled install for preventative work.",
     richContent: {
@@ -3077,7 +3073,7 @@ export const services: ServicePage[] = [
     icon: "propane_tank",
     title: "Hot Water Tanks Calgary – Professional Installation & Repair",
     lead:
-      "Calgary homeowners rely on FlameTech Plumbing & Heating for dependable hot water tank solutions. We install and service [Bradford White](https://www.bradfordwhite.com/) and [John Wood](https://www.jwhwh.com/) — the two brands we've found hold up best to Calgary's hard water. Has your morning shower turned into an unwelcome cold surprise? Maybe you've spotted water pooling around the base of your current unit or noticed your energy bills creeping higher each month.",
+      "Calgary homeowners rely on FlameTech Plumbing & Heating for dependable hot water tank solutions. We install and service [Bradford White](https://www.bradfordwhite.com/) and John Wood — the two brands we've found hold up best to Calgary's hard water. Has your morning shower turned into an unwelcome cold surprise? Maybe you've spotted water pooling around the base of your current unit or noticed your energy bills creeping higher each month.",
     heroBody: [
       "A properly sized and professionally installed hot water tank makes all the difference for your household's daily comfort and long-term budget. Same-day [hot water tank replacement](/hot-water-tank-replacement-calgary/) when your old unit fails, or full [water heater installation](/water-heater-installation-calgary/) when you're building out.",
       "FlameTech delivers complete hot water tank services throughout Calgary, from selecting the right capacity to flawless installation and ongoing maintenance. Considering an upgrade? Compare against [tankless water heaters](/tankless-water-heaters/) — endless hot water, lower running costs. North of the city, see [hot water tanks Airdrie](/hot-water-tanks-airdrie/).",
@@ -3195,6 +3191,7 @@ export const services: ServicePage[] = [
         { label: "Tankless Water Heaters", href: "/tankless-water-heaters/", summary: "On-demand hot water, 20+ year lifespan, big space + efficiency wins.", icon: "whatshot" },
         { label: "Water Heater Installation", href: "/water-heater-installation-calgary/", summary: "Tank, tankless, or replacement — gas + venting + expansion tank done right.", icon: "propane_tank" },
         { label: "Water Softeners", href: "/water-softener/", summary: "Protect your tank from Calgary's hard water with a properly-sized softener.", icon: "softener_tank" },
+        { label: "Hot Water Issues", href: "/hot-water-issues-calgary/", summary: "No hot water, lukewarm, popping noises, leaks — diagnosis and repair on gas, electric, and tankless.", icon: "water_damage" },
       ],
     },
   },
@@ -3486,6 +3483,221 @@ export const services: ServicePage[] = [
           { q: "How long does a tankless water heater last?", a: "With proper maintenance, a tankless water heater can last 20 years or more, significantly longer than the average lifespan of a traditional tanked heater." },
           { q: "Are tankless water heaters energy efficient in Calgary's climate?", a: "Yes, modern tankless water heaters are designed to be highly energy efficient even in colder climates like Calgary, as they only heat water when needed." },
           { q: "Can I replace my old tank water heater with a tankless unit?", a: "In most cases, yes. However, it may require modifications to your existing plumbing, gas line, or venting. Our experts can assess your home and determine the best installation plan." },
+        ],
+      },
+    },
+  },
+  {
+    slug: "hot-water-issues-calgary",
+    category: "Water",
+    icon: "water_damage",
+    title: "Hot Water Issues in Calgary — Diagnosis & Repair",
+    lead:
+      "No hot water, lukewarm showers, popping or rumbling noises, leaks around the base — most Calgary hot water tank problems trace back to one of a small handful of failures, and the right fix depends on figuring out which. FlameTech diagnoses honestly (not parts-swapping) and tells you straight whether to repair, flush, or replace.",
+    heroBody: [
+      "Calgary's water is hard. Sediment builds in the bottom of every tank faster than in lower-mineral cities — and that's the root cause of most local failures. A tank that should last 12-15 years often gives up at 8-10 here. We see the same handful of issues across every neighbourhood: sediment-driven popping, failing thermostats and elements (electric tanks), pilot/burner issues (gas tanks), and slow leaks from corroded fittings or a tank that's reached end of life.",
+      "We work on every common Calgary setup: gas tanks (Bradford White, John Wood, AO Smith), electric tanks, and tankless units (Navien, Rinnai, IBC). Same crew as our [hot water tank replacement](/hot-water-tank-replacement-calgary/), [tankless water heater](/tankless-water-heaters/), and [emergency plumbing](/emergency-plumber-calgary/) work.",
+      "Call 587-834-3668 for priority dispatch — most hot water diagnoses take 30 minutes; many repairs finish the same visit because we stock common thermostats, elements, anode rods, and TPR valves on the truck.",
+    ],
+    heroSubhead: "Diagnosis, Repair, and Honest Replace-or-Repair Calls",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/FTVAN2.jpg", alt: "Shaun and Jason — FlameTech hot water tank diagnosis, Calgary", fit: "cover" },
+    intro:
+      "Calgary hot water tank diagnosis and repair — no hot water, lukewarm output, popping noises, leaks, discoloured water. Honest replace-vs-repair calls. Call 587-834-3668.",
+    features: [
+      "No-hot-water diagnosis (gas + electric)",
+      "Thermostat + element replacement",
+      "Pilot light + igniter repair",
+      "Sediment flush (annual maintenance)",
+      "Anode rod inspection + replacement",
+      "TPR valve + expansion tank service",
+    ],
+    bullets: [
+      {
+        t: "Real diagnosis — not parts swapping",
+        d: "We check element resistance, thermostat calibration, anode rod condition, sediment depth, and gas/electrical supply before quoting a part. Box-store guesswork (\"probably the tank — that'll be $2,000\") gets a lot of homeowners replacing tanks with 4-5 years of useful life left.",
+      },
+      {
+        t: "Honest repair vs. replace call",
+        d: "If your tank is 10+ years old in Calgary's hard water and the bottom is leaking, replacement is the right move — patching a corroded tank is throwing money at a system that'll fail again in months. If it's 6 years old with a dead element, the $250 fix is the right call. We'll say so plainly.",
+      },
+      {
+        t: "Calgary hard-water aware",
+        d: "We've seen what hard water does to a tank in this city. The 8-10 year Calgary lifespan vs. 12-15 elsewhere isn't bad luck — it's mineral build-up corroding the anode rod and tank bottom. Annual flushing + anode rod replacement can extend useful life by 2-4 years.",
+      },
+      {
+        t: "Most repairs finish first visit",
+        d: "Service trucks stock common thermostats, electric elements, anode rods, TPR valves, dip tubes, and gas-control valves. Tankless flush kits on board for annual descale. We tell you upfront if a part needs ordering.",
+      },
+    ],
+    seoTitle: "Hot Water Issues Calgary | Diagnosis & Repair | FlameTech",
+    seoDescription:
+      "Calgary hot water tank diagnosis + repair. No hot water, lukewarm, popping noise, leaks, discoloured water. Honest replace vs. repair calls. Call 587-834-3668.",
+    seoKeywords: [
+      "hot water issues Calgary",
+      "no hot water Calgary",
+      "hot water tank leaking Calgary",
+      "hot water tank popping noise",
+      "lukewarm hot water Calgary",
+      "FlameTech Plumbing Heating",
+    ],
+    quoteFormLabel: "hot water issue",
+    quoteFormPlaceholder:
+      "e.g. no hot water this morning, runs out fast, popping/rumbling from the tank, water pooling around the base, discoloured hot water…",
+    sidebar: {
+      title: "Calgary Hot Water Repair",
+      subtitle:
+        "Diagnosis + repair on every common Calgary hot water setup — gas, electric, and tankless. Honest replace-vs-repair calls.",
+      bullets: [
+        "Most diagnoses in 30 minutes",
+        "Common parts on the truck",
+        "Same-day for no-hot-water calls",
+        "Free quote on tank replacement",
+      ],
+    },
+    stats: [
+      { number: "25+", label: "Years in Calgary", icon: "verified" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "30 min", label: "Typical diagnosis", icon: "schedule" },
+      { number: "ANY", label: "Tank type", icon: "check_circle" },
+    ],
+    callout:
+      "No hot water, weird tank noise, or water around the base? Call 587-834-3668 — priority dispatch with common parts on the truck.",
+    richContent: {
+      sections: [
+        {
+          heading: "Common Calgary hot water symptoms (and what they usually mean)",
+          intro:
+            "Most hot water issues show up as one of these. The underlying cause varies — and the right repair depends on the cause, not the symptom.",
+          items: [
+            {
+              heading: "No hot water at all",
+              body: "Gas tanks: usually a pilot light that's gone out (relight + check thermocouple) or a failed gas control valve. Electric tanks: usually a tripped thermal cut-off (reset + check why it tripped) or a failed upper element/thermostat. Either way, we diagnose the root cause — just relighting a pilot that keeps going out means you'll be calling again in a week.",
+            },
+            {
+              heading: "Hot water runs out faster than it used to",
+              body: "Sediment buildup in the bottom of the tank — Calgary's #1 hot water issue. Sediment reduces the effective tank volume (less hot water available) AND insulates the burner/element from the water above (slower recovery between draws). Annual flushing solves this for tanks not yet damaged; for older tanks the sediment may have damaged the bottom plate and recovery won't fully restore.",
+            },
+            {
+              heading: "Lukewarm or barely warm water",
+              body: "Electric tanks: usually a failed lower element (the upper element still works, so you get a small amount of hot water at the top of the tank, then it goes cold fast). Gas tanks: dip tube failure (cold incoming water mixes with the hot at the top of the tank instead of being delivered to the bottom) or a thermostat stuck low. Both are diagnosable in 15 minutes.",
+            },
+            {
+              heading: "Popping, rumbling, or banging from the tank",
+              body: "Sediment trapping water under it — when the burner fires, water under the sediment layer boils into steam, then escapes upward in bursts. The popping/rumbling IS the warning sign. Annual flushing prevents it; once it's loud enough to hear from another room, the tank has months left, not years.",
+            },
+            {
+              heading: "Water pooling around the base of the tank",
+              body: "Almost always tank-side corrosion (tank bottom rusting through from the inside) — non-repairable. Could also be TPR valve discharge, fitting leak at supply lines, or a failed drain valve, all of which are repairable. We trace the leak source first. If it's the tank itself, replacement is the only option.",
+            },
+            {
+              heading: "Discoloured / rusty hot water (cold runs clear)",
+              body: "Anode rod has been consumed (or never was — some tanks ship with one and don't get replaced). Without an anode, the tank itself corrodes. Catching this early — replace the anode for $200 — saves a $2,000+ tank replacement. We pull and inspect anode rods during annual service.",
+            },
+            {
+              heading: "Hot water smells like rotten eggs / sulfur",
+              body: "Bacterial reaction in the tank, usually accelerated by an aluminum anode rod reacting with high-sulfur Calgary water. Swap to a powered/aluminum-zinc anode + sanitize the tank — usually resolves within a week. Doesn't damage the tank but is unpleasant.",
+            },
+          ],
+        },
+        {
+          heading: "Why Calgary hot water tanks fail faster than elsewhere",
+          intro:
+            "Tanks rated for 12-15 year average lifespan often give up at 8-10 in Calgary. The local water profile is the main reason — knowing why helps explain when to call vs. when to replace.",
+          items: [
+            {
+              heading: "Hard water = aggressive sediment buildup",
+              body: "Calgary water runs around 150-200 mg/L hardness (most of Canada is 60-120). Calcium and magnesium drop out of solution when heated and settle at the bottom of the tank. Without annual flushing, sediment can be 2-4 inches deep by year 5, insulating the bottom of the tank from the burner/element and accelerating heat-stress corrosion.",
+            },
+            {
+              heading: "Anode rod consumed faster",
+              body: "The sacrificial anode rod is supposed to corrode INSTEAD of the tank itself. Hard water + high mineral content accelerates anode consumption — the rod that's rated for 5-7 years in soft-water cities is gone in 3-4 in Calgary. Once the anode is consumed, the tank itself starts corroding from the inside. Pulling and replacing the anode at 3-year intervals is the single best move for tank longevity.",
+            },
+            {
+              heading: "Cold incoming water = high recovery demand",
+              body: "Calgary's incoming water is cold (4-10°C from the mains, year-round). A tank heating water from 4°C to 49°C is doing more work per litre than one in milder climates. More cycles, more wear, more time spent at higher burner temperatures = faster failure.",
+            },
+            {
+              heading: "Long shower habits + Calgary winter",
+              body: "We see more hot-water demand during 7-month heating seasons — more time indoors, more long showers, more hot-water laundry. Tanks sized for typical demand get pushed harder in Calgary winter. Undersized tanks (40-gallon for 4+ person households) fail noticeably faster.",
+            },
+            {
+              heading: "Older neighbourhoods, older tanks",
+              body: "Pre-2010 builds (Brentwood, Bowness, Inglewood, Mahogany original section, Cranston original section) often still have their first or second tank. Anything past 12 years is on borrowed time in this water — we recommend proactive replacement before the spring/summer reno season when wait times for installers are longest.",
+            },
+            {
+              heading: "Newer high-efficiency tanks: better but not invincible",
+              body: "Post-2015 condensing tanks and high-efficiency models last longer than older atmospheric vented tanks, but still need annual flushing to stay at design life. The high-efficiency gain is real — but we still see ~10-12 year lifespans here vs. the rated 15.",
+            },
+          ],
+        },
+        {
+          heading: "What we do on a hot water service call",
+          intro:
+            "Standard diagnosis sequence. Most calls finish first visit; tank replacements get a separate quote.",
+          items: [
+            {
+              heading: "1. Symptom + history",
+              body: "What's happening, when it started, when the tank was last flushed/serviced, how old it is. Tank age matters a lot — anything 10+ years gets a different conversation than a 4-year-old unit.",
+            },
+            {
+              heading: "2. Visual inspection — tank, connections, venting",
+              body: "Check for visible corrosion at fittings, water around the base, condition of the TPR valve, gas line connections (gas tanks), electrical connections (electric tanks), venting and draft (gas atmospheric), condensate (high-efficiency).",
+            },
+            {
+              heading: "3. Electrical / gas diagnosis",
+              body: "Electric: measure element resistance, test thermostat continuity at temperature, check incoming voltage. Gas: test thermocouple millivolts, gas pressure at the valve, pilot flame condition. Tankless: pull error code history, check flow sensor, check heat exchanger for scale.",
+            },
+            {
+              heading: "4. Sediment + anode rod check",
+              body: "Open the drain valve to check sediment depth — if it discharges clear water followed by chunks/slurry, the tank is overdue for a flush. Pull the anode rod (5-minute job on most tanks) — if it's down to the core wire, replace it. Both are cheap maintenance items that extend tank life dramatically.",
+            },
+            {
+              heading: "5. Repair OR honest replace-vs-repair quote",
+              body: "Most repairs: $200-$450 all-in (thermostat $200-$280, single element $250-$320, anode rod $200, TPR valve $180-$220, gas control valve $400-$550). Tank replacement: separate quote — typically $1,800-$3,200 depending on tank size, gas vs electric, and venting condition. Free quote on the replacement option either way.",
+            },
+            {
+              heading: "6. Maintenance recommendations",
+              body: "If your tank's fine but overdue for service, we'll recommend annual flushing + 3-year anode inspection. Adding a [water softener](/water-softener/) is the strongest single move for tank longevity in Calgary — most of our customers who installed a softener saw their next tank last 14+ years instead of 8-10.",
+            },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Hot Water Issues Calgary — FAQs",
+        items: [
+          {
+            q: "How much does it cost to fix a hot water tank in Calgary?",
+            a: "Depends on what failed. Thermostat replacement: $200-$280 all-in. Single electric element: $250-$320. Anode rod replacement: $200. TPR valve: $180-$220. Gas control valve: $400-$550. Pilot/thermocouple service: $180-$240. Full tank replacement (when repair isn't worth it): $1,800-$3,200 depending on tank size, gas vs electric, and venting condition. We diagnose first ($150 service call, applied to the repair if you proceed) so you know which bucket you're in before committing.",
+          },
+          {
+            q: "Should I repair my hot water tank or replace it?",
+            a: "Depends on tank age and what failed. Tank under 8 years old with a single failed component (element, thermostat, anode rod) — repair. Tank 8-10 years old with a major component failure — judgement call; we'll explain the trade-off. Tank 10+ years old leaking from the bottom — replace. Tank of any age with rusty/discoloured hot water — likely anode-related but check for tank-side corrosion. We give honest assessments; if your 7-year-old tank just needs a thermostat, we'll do the repair and tell you so.",
+          },
+          {
+            q: "Why does my hot water tank pop or rumble?",
+            a: "Sediment buildup in the bottom of the tank. Water gets trapped under a layer of calcium/magnesium deposits and boils to steam when the burner fires; the steam escapes upward in bursts, which is the popping/rumbling you hear. Calgary's hard water makes this happen faster than in most cities. Annual flushing prevents it. Once it's loud enough to hear from another room, the tank has months left, not years — sediment is also insulating the bottom of the tank from the burner, which accelerates failure.",
+          },
+          {
+            q: "How long should a hot water tank last in Calgary?",
+            a: "Manufacturer ratings are 12-15 years. Calgary's hard water typically cuts that to 8-10 years for a standard tank without annual maintenance. With annual flushing + anode rod replacement every 3 years, we see Calgary tanks reach 12-14 years routinely. Adding a [water softener](/water-softener/) extends this further — most softener customers see 14+ year tank lifespans because the mineral load drops dramatically.",
+          },
+          {
+            q: "What does it mean when my hot water runs out fast?",
+            a: "Two common causes. (1) Sediment buildup — sediment reduces effective tank capacity and insulates the burner/element from the water, so recovery is slower between draws. (2) Failed lower element (electric tanks) — the upper element still gives you the top portion of the tank but the lower can't reheat the cold incoming water. Diagnosis is quick: test the elements, check sediment depth via drain valve discharge.",
+          },
+          {
+            q: "My hot water smells like rotten eggs. What's going on?",
+            a: "Bacterial reaction in the tank, usually accelerated by an aluminum anode rod reacting with sulfur compounds in Calgary water. Swap the aluminum anode for a powered (impressed-current) anode OR an aluminum-zinc anode, then chlorine-sanitize the tank. Usually resolves within a week. Doesn't damage the tank but is unpleasant — easy fix once you know the cause.",
+          },
+          {
+            q: "Can I drain and flush the tank myself?",
+            a: "Technically yes — shut off power/gas to the tank, attach a garden hose to the drain valve, open the TPR valve briefly to break vacuum, and drain. The catch: many tanks have drain valves that haven't been opened in years and will fail to close properly when you try to shut them off — leaving you with a slow-leaking drain valve and a $200 service call to replace it. We recommend professional flushing if your tank is 5+ years old and has never been flushed; for newer tanks DIY is reasonable if you're comfortable with plumbing.",
+          },
+          {
+            q: "Does a water softener really help my hot water tank?",
+            a: "Yes — measurably. Softeners remove the calcium and magnesium that drive sediment buildup and consume the anode rod. In Calgary, we routinely see tank lifespans go from 8-10 years (no softener) to 14+ years (with softener). The softener also pays back through reduced detergent use, fixture lifespan, and lower water heating costs (less sediment = better heat transfer = less burner runtime). See our [water softener](/water-softener/) page for sizing and install.",
+          },
         ],
       },
     },

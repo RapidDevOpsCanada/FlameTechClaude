@@ -45,6 +45,7 @@ const airWaterLinks = [
   { label: "Humidifiers", href: "/humidifiers-calgary/" },
   { label: "Hot Water Tanks", href: "/hot-water-tanks/" },
   { label: "Tankless Heaters", href: "/tankless-water-heaters/" },
+  { label: "Hot Water Issues", href: "/hot-water-issues-calgary/" },
   { label: "Water Softener", href: "/water-softener/" },
 ];
 
