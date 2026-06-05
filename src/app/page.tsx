@@ -321,9 +321,15 @@ export default async function Home() {
                           </div>
                         </div>
                       </div>
+                      {/* About-us CTA — promoted from subtle text link
+                          to a full-width pill button so it carries
+                          equal weight with the years-in-trade stats
+                          above it. Brand-red bg matches the hero
+                          primary CTA but at a lighter shade since
+                          this is a secondary action. */}
                       <Link
                         href="/about/"
-                        className="group mt-6 inline-flex items-center gap-2 text-sm font-bold text-emergency-deep hover:text-emergency transition-colors"
+                        className="group mt-6 inline-flex items-center justify-center gap-2 w-full rounded-full bg-emergency text-cream-50 font-extrabold uppercase tracking-tight px-6 py-3.5 text-sm hover:bg-emergency-deep transition-colors shadow-md shadow-emergency/20"
                       >
                         Meet the FlameTech team
                         <Icon
