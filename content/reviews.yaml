@@ -5,7 +5,7 @@
 # Total Google review count — drives the homepage rating badge and
 # aggregateRating.reviewCount in LocalBusiness JSON-LD. Bump when
 # Google reports more reviews than are imported below.
-total_reviews: 91
+total_reviews: 94
 average_rating: 5
 
 reviews:
