@@ -36,8 +36,10 @@ export default function FAQ() {
             return (
               <div
                 key={item.q}
-                className={`rounded-2xl bg-white border transition-colors ${
-                  isOpen ? "border-primary" : "border-line-light"
+                className={`rounded-2xl bg-white border-l-4 border-y border-r transition-colors ${
+                  isOpen
+                    ? "border-emergency border-l-emergency"
+                    : "border-line-light border-l-emergency/30 hover:border-l-emergency"
                 }`}
               >
                 <button
@@ -51,8 +53,8 @@ export default function FAQ() {
                   </span>
                   <Icon
                     name="add"
-                    className={`text-primary text-xl transition-transform duration-200 ${
-                      isOpen ? "rotate-45" : ""
+                    className={`text-xl transition-transform duration-200 ${
+                      isOpen ? "rotate-45 text-emergency" : "text-emergency-deep"
                     }`}
                   />
                 </button>

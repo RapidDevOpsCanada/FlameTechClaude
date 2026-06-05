@@ -249,9 +249,14 @@ export default async function Home() {
           </div>
         </section>
 
-        {/* STATS STRIP */}
-        <section className="border-y border-line-dark bg-ink-800">
-          <div className="max-w-7xl mx-auto px-6 md:px-10 py-8 md:py-10 grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-4">
+        {/* STATS STRIP — brand-red band. Promoted from ink-800 to
+            emergency so the page has one assertive FlameTech-red
+            moment in the upper fold. Counters the "every band is
+            dark grey" rhythm and gives the brand colour structural
+            weight instead of accent-only weight. */}
+        <section className="border-y border-emergency-deep bg-emergency relative overflow-hidden">
+          <div className="absolute inset-0 dotgrid opacity-20 pointer-events-none" />
+          <div className="max-w-7xl mx-auto px-6 md:px-10 py-8 md:py-10 grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-4 relative">
             <Stat number="45+" label="Years combined experience" />
             <Stat number="2,000+" label="Jobs completed" />
             <Stat number="5.0★" label="Google rated" />
