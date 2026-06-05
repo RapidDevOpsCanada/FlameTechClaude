@@ -16,6 +16,7 @@ export type ServiceCategory = "Plumbing" | "Heating" | "Air" | "Water";
 export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
   "bathroom-plumbing-calgary": "Plumbing",
   "shower-plumbing-calgary": "Plumbing",
+  "toilet-installation-calgary": "Plumbing",
   "drain-cleaning-calgary": "Plumbing",
   "emergency-plumber-calgary": "Plumbing",
   "polyb-plumbing-calgary": "Plumbing",

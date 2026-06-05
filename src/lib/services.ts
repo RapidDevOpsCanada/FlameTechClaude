@@ -479,6 +479,213 @@ export const services: ServicePage[] = [
     },
   },
   {
+    slug: "toilet-installation-calgary",
+    category: "Plumbing",
+    icon: "plumbing",
+    title: "Toilet Installation in Calgary — Standard, Comfort-Height & Wall-Hung",
+    lead:
+      "Most toilet installs are 1-2 hours and look the same on the surface — but how the flange, supply line, and wax ring are handled is the difference between a 15-year toilet and a leak in 18 months. FlameTech installs Toto, Kohler, American Standard, and any owner-supplied unit with a fresh wax ring, supply line, and shutoff every time.",
+    heroBody: [
+      "We install toilets across every Calgary neighbourhood — from comfort-height swaps in [Bel-Aire](/bel-aire-plumbers-calgary/) and [Mount Royal](/mount-royal-plumbers-calgary/) aging-in-place renovations, to wall-hung Toto/Geberit installs in luxury rebuilds, to straight 1-piece swaps in [Mahogany](/mahogany-plumbers-calgary/) and [Auburn Bay](/auburn-bay-plumber-calgary/).",
+      "Every install includes flange inspection (most older homes have cracked or corroded flanges that look fine until you lift the old toilet), new wax ring or waxless gasket, new braided supply line, and a fresh shutoff valve if the existing one is older than ~10 years.",
+      "Free in-home quote — call 587-834-3668. Pair with our [bathroom plumbing](/bathroom-plumbing-calgary/) and [drain cleaning](/drain-cleaning-calgary/) work for full bathroom renos.",
+    ],
+    heroSubhead: "Standard, Comfort-Height, Wall-Hung — Every Major Brand",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/2026/04/Toilet.webp", alt: "Clean toilet installation by FlameTech in a Calgary bathroom", fit: "cover" },
+    intro:
+      "Calgary toilet installation — standard, comfort-height, dual-flush, wall-hung. Flange inspection, new wax ring + supply line + shutoff included on every install. Call 587-834-3668.",
+    features: [
+      "Toilet replacement (any brand)",
+      "Comfort-height installs",
+      "Dual-flush + low-flow upgrades",
+      "Wall-hung Toto / Geberit",
+      "Flange repair + replacement",
+      "Supply line + shutoff valve replacement",
+    ],
+    bullets: [
+      {
+        t: "Flange inspection on every install",
+        d: "Most older Calgary homes (pre-1990) have cast-iron or PVC flanges that have shifted, corroded, or cracked — invisible under the old toilet, obvious the moment we lift it. We inspect and quote any repair before drilling the new toilet into a compromised flange.",
+      },
+      {
+        t: "New wax ring + supply + shutoff",
+        d: "Every install gets a fresh wax ring (or waxless gasket for heated floors), new braided stainless supply line, and a shutoff valve replacement if the existing one is 10+ years old. These three items cause 90% of post-install leaks; we don't reuse them.",
+      },
+      {
+        t: "Calgary hard-water aware",
+        d: "Hard water builds mineral deposits in toilet tanks faster than in soft-water cities — by year 5 most Calgary tanks have scale on the flush valve seat that causes phantom flushing. We flush the rough-in and recommend a [water softener](/water-softener/) for homes that want longer fixture life.",
+      },
+      {
+        t: "Owner-supplied or we source it",
+        d: "Bought a toilet from Home Depot or Costco? We'll install it — labour-only quote available. Or we'll source it for you — we work with Toto, Kohler, American Standard, and have install experience with every common Big Box brand.",
+      },
+    ],
+    seoTitle: "Toilet Installation Calgary | Standard, Comfort-Height, Wall-Hung",
+    seoDescription:
+      "Calgary toilet installation. Standard, comfort-height, wall-hung Toto/Geberit. Flange + supply line + shutoff included. Owner-supplied OK. Call 587-834-3668.",
+    seoKeywords: [
+      "toilet installation Calgary",
+      "toilet replacement Calgary",
+      "comfort height toilet Calgary",
+      "wall hung toilet Calgary",
+      "Toto toilet install Calgary",
+      "FlameTech Plumbing",
+    ],
+    quoteFormLabel: "toilet install",
+    quoteFormPlaceholder:
+      "e.g. standard toilet swap, comfort-height upgrade for aging-in-place, wall-hung Toto install, leaking at the base of existing toilet, looking at dual-flush…",
+    sidebar: {
+      title: "Calgary Toilet Installation",
+      subtitle:
+        "Every install includes flange inspection, new wax ring, new supply line, and shutoff valve check.",
+      bullets: [
+        "Most installs done in 1-2 hours",
+        "Owner-supplied or we source it",
+        "Flange repair quoted on-site",
+        "1-year workmanship warranty",
+      ],
+    },
+    stats: [
+      { number: "1-2 hr", label: "Typical install time", icon: "schedule" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "FREE", label: "Written estimates", icon: "request_quote" },
+      { number: "1 YR", label: "Workmanship warranty", icon: "award" },
+    ],
+    callout:
+      "Leaking toilet or planning a swap? Call 587-834-3668 — same-day for active leaks, scheduled install for upgrades.",
+    richContent: {
+      sections: [
+        {
+          heading: "What we install on a toilet call",
+          intro:
+            "Most common Calgary configurations. Custom installs (wall-hung carriers, basement up-flush systems, etc.) on request.",
+          items: [
+            {
+              heading: "Standard 1-piece or 2-piece swap",
+              body: "Direct replacement of an existing toilet. $400-$650 installed depending on brand and accessibility. Brands we install most: Toto Drake, American Standard Champion, Kohler Cimarron — all proven in Calgary's hard water.",
+            },
+            {
+              heading: "Comfort-height upgrade",
+              body: "Toilet seat height moves from the standard 14-15\" to 16-17\" — easier for aging knees and back. Common upgrade in [Mount Royal](/mount-royal-plumbers-calgary/), [Bel-Aire](/bel-aire-plumbers-calgary/), and any aging-in-place renovation. $650-$950 installed depending on model.",
+            },
+            {
+              heading: "Dual-flush + low-flow",
+              body: "Modern dual-flush toilets (1.0 / 1.6 GPF) cut water use by ~30% vs. older 3+ GPF units. Pays back through your water bill within 4-6 years for typical households. We confirm your drain slope handles the lower flow before installing — older flat-slope drains can clog with low-flow units.",
+            },
+            {
+              heading: "Wall-hung Toto / Geberit",
+              body: "Wall-hung toilets with in-wall carrier + concealed tank — the cleanest look + easiest floor cleaning. Requires a structural carrier mounted in the wall and a concealed tank with access panel. Install runs $1,500-$2,500 including the carrier hardware. Common in luxury rebuilds in [Aspen Woods](/aspen-woods-plumbers-calgary/), Bel-Aire, [West Springs](/west-springs-plumbers-calgary/).",
+            },
+            {
+              heading: "Owner-supplied install (labour only)",
+              body: "Bought your own toilet from Home Depot, Costco, Wayfair, or Amazon? We'll install it — $250-$400 labour-only, includes flange inspection + new wax ring + supply line + shutoff check. We do not warrant the toilet itself (that's on the manufacturer), but we warrant the install for 1 year.",
+            },
+            {
+              heading: "Flange repair / replacement",
+              body: "If we lift your old toilet and find a cracked, corroded, or out-of-position flange — we quote the repair on the spot. PVC flange replacement: $150-$250. Cast-iron flange repair with a spanner-type repair flange: $200-$300. Full cast-iron flange cutout + new PVC: $300-$450. Skipping this means your new toilet leaks within 6-18 months.",
+            },
+          ],
+        },
+        {
+          heading: "Why Calgary toilet installs need the flange check",
+          intro:
+            "Most installers swap the toilet and skip the flange — and most toilet leak callbacks 6-18 months later trace back to that skipped step.",
+          items: [
+            {
+              heading: "Cast-iron flanges in pre-1990 homes",
+              body: "Older Calgary builds (Mount Royal, Bel-Aire, Bowness, Inglewood, original Brentwood/Thorncliffe) often have cast-iron flanges. After 40-60 years they corrode at the bolt slots, rust through at the lateral connection, or shift below floor level as subfloor sags. None of this is visible until the old toilet comes off.",
+            },
+            {
+              heading: "PVC flanges in 90s-2000s builds",
+              body: "Newer homes have PVC flanges that crack at the bolt slots from over-tightened toilets, or sit below the finished floor after a tile renovation. Either way, the wax ring can't seat properly and the toilet leaks below the slab — invisible until you smell sewer gas or see a stain on the ceiling below.",
+            },
+            {
+              heading: "Wax ring is single-use",
+              body: "Every wax ring is destroyed when you lift the toilet. Re-using one (some installers do, to save $5) means the new install starts with a compromised seal. We use a fresh wax ring on every install — or a waxless rubber gasket on heated floors where wax can soften and shift.",
+            },
+            {
+              heading: "Original braided supply lines fail at 8-12 years",
+              body: "Standard chrome-braided supply lines have rubber inner cores that degrade. The classic failure mode: bursting at 2 AM, flooding a finished bathroom. We replace supply lines on every install regardless of how new the old one looks. A $15 part vs. a $5,000 ceiling repair downstairs.",
+            },
+            {
+              heading: "Shutoff valves seize over time",
+              body: "Toilet shutoff valves rarely get exercised. After 15-20 years they often won't fully close (you turn it off, water still drips through) or won't fully open afterwards. Replacing the shutoff with a quarter-turn ball valve adds $40-$60 to the install and means you can actually shut the water off the next time you need to.",
+            },
+            {
+              heading: "Hard water builds in the tank",
+              body: "Calgary hard water leaves mineral deposits on the flush valve seat, fill valve, and inside the tank. By year 5 most untreated tanks have scale that causes phantom flushing (water trickles through the flush valve constantly). We recommend annual tank cleaning with a vinegar soak, OR a [water softener](/water-softener/) for whole-home protection.",
+            },
+          ],
+        },
+        {
+          heading: "Pricing in writing",
+          intro:
+            "Honest ranges so you know what to budget. Specific quote after we see the bathroom.",
+          items: [
+            {
+              heading: "Standard install — $400-$650",
+              body: "Direct swap of an existing toilet in a typical bathroom. Includes new wax ring, supply line, and shutoff valve check. Toto Drake, American Standard Champion, Kohler Cimarron, or any standard 1-piece or 2-piece toilet supplied by us.",
+            },
+            {
+              heading: "Comfort-height install — $650-$950",
+              body: "Same scope as standard install but the toilet itself is a comfort-height (16-17\" seat) model. Toto Drake II, Kohler Highline Comfort Height, American Standard Champion 4 Comfort Height.",
+            },
+            {
+              heading: "Wall-hung Toto / Geberit — $1,500-$2,500",
+              body: "Includes in-wall carrier, concealed tank, dual-flush actuator plate, and bowl. Carrier install requires opening the finished wall (drywall repair NOT included — pair with your drywall/tile trade).",
+            },
+            {
+              heading: "Labour-only on owner-supplied toilet — $250-$400",
+              body: "You provide the toilet (from Home Depot, Costco, Wayfair, Amazon, anywhere). We provide the labour, wax ring, supply line, and shutoff check. Quoted on bathroom accessibility — main-floor powder room cheapest, basement bathroom with poor access higher.",
+            },
+            {
+              heading: "Flange repair add-on — $150-$450",
+              body: "Quoted on what we find when we lift the old toilet. Most common repair: PVC repair flange over an existing damaged PVC flange ($150-$250). Cast-iron repair with a spanner flange: $200-$300. Full flange replacement: $300-$450.",
+            },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Toilet Installation Calgary — FAQs",
+        items: [
+          {
+            q: "How much does toilet installation cost in Calgary?",
+            a: "Standard toilet install: $400-$650 all-in (includes the toilet, wax ring, supply line, and shutoff check). Comfort-height install: $650-$950. Wall-hung Toto or Geberit with in-wall carrier: $1,500-$2,500. Labour-only on an owner-supplied toilet: $250-$400. Flange repair, if needed, adds $150-$450 depending on flange type. We quote in writing before starting.",
+          },
+          {
+            q: "How long does a toilet installation take?",
+            a: "Typical standard swap: 1-2 hours from start to finish. Comfort-height or dual-flush install: same. Wall-hung install with carrier: 4-6 hours (requires opening the wall, mounting the carrier to studs, plumbing the supply + drain, then closing the wall — usually a 2-trade job with drywall/tile to follow). Flange repairs add 30-60 minutes.",
+          },
+          {
+            q: "Can I supply my own toilet?",
+            a: "Yes. We install owner-supplied toilets from Home Depot, Costco, Wayfair, Amazon, or any other source — $250-$400 labour-only, includes wax ring + supply line + shutoff check + 1-year workmanship warranty. We don't warrant the toilet itself (that's on the manufacturer), but the install is covered.",
+          },
+          {
+            q: "Should I upgrade to a comfort-height toilet?",
+            a: "If you're 50+ or have knee/back issues, yes — comfort-height seats are 2-3\" taller than standard, which makes sitting and standing easier. Common upgrade in aging-in-place renovations. The trade-off: kids find them harder to climb onto, so for households with small kids, standard height (or a step stool) is often the better call.",
+          },
+          {
+            q: "Do you handle wall-hung toilet installations?",
+            a: "Yes. Wall-hung toilets with in-wall carriers (Toto, Geberit, Duravit) require structural mounting to the wall studs, a concealed tank, and the access panel for the dual-flush actuator. We install the carrier and bowl; you pair us with your drywall/tile trade for the wall finish. Total cost $1,500-$2,500 for our portion, plus the wall finish work separately.",
+          },
+          {
+            q: "Why does my old toilet leak around the base?",
+            a: "Almost always the wax ring failed — either from age (wax dries and shifts over 10-20 years), from the toilet rocking on an uneven floor (breaks the wax seal), or from a damaged or settled flange. The fix is pulling the toilet, replacing the wax ring (and the flange if it's compromised), then re-seating the toilet level on the floor with new caulk at the base. $250-$450 typical for a base-leak repair.",
+          },
+          {
+            q: "What's the best toilet for Calgary's hard water?",
+            a: "We recommend toilets with smooth glazed trapways (Toto SanaGloss, Kohler ContinuousClean) — the slippery surface resists mineral buildup much better than older glazing. Toto Drake II and Kohler Highline are both proven in Calgary; American Standard Champion 4 is the budget pick that still holds up. Whatever toilet you pick, pair with annual tank cleaning (vinegar soak) or a whole-home [water softener](/water-softener/) for the longest fixture life.",
+          },
+          {
+            q: "How long should a toilet last?",
+            a: "The porcelain itself lasts essentially forever — toilets aren't replaced because they wear out, they're replaced because of the fill valve, flush valve, flapper, or seat wearing out (all replaceable parts) OR because the homeowner wants to upgrade for aesthetics or water efficiency. With Calgary hard water, the internal flush components typically need replacement at 8-12 years; the toilet itself can stay another decade beyond that.",
+          },
+        ],
+      },
+    },
+  },
+  {
     slug: "drain-cleaning-calgary",
     category: "Plumbing",
     icon: "water_damage",

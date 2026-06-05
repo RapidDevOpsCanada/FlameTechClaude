@@ -76,6 +76,12 @@ const menu: NavItem[] = [
               desc: "Shower installs, valve replacements.",
             },
             {
+              label: "Toilet Installation",
+              href: "/toilet-installation-calgary/",
+              icon: "plumbing",
+              desc: "Standard, comfort-height, wall-hung — every brand.",
+            },
+            {
               label: "Drain Cleaning",
               href: "/drain-cleaning-calgary/",
               icon: "drain_camera",

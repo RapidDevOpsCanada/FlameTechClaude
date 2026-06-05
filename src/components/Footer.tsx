@@ -23,6 +23,7 @@ function InstagramGlyph({ className }: { className?: string }) {
 const plumbingLinks = [
   { label: "Bathroom Plumbing", href: "/bathroom-plumbing-calgary/" },
   { label: "Shower Plumbing", href: "/shower-plumbing-calgary/" },
+  { label: "Toilet Installation", href: "/toilet-installation-calgary/" },
   { label: "Drain Cleaning", href: "/drain-cleaning-calgary/" },
   { label: "Emergency Plumbing", href: "/emergency-plumber-calgary/" },
   { label: "PolyB Replacement", href: "/polyb-plumbing-calgary/" },
