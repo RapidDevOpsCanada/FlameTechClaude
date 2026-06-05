@@ -311,38 +311,32 @@ export default function NavClient({
         Skip to content
       </a>
 
-      {/* Utility bar — thin top strip above the main nav. Trade-business
-          convention: communicates "we're available, here's when, here's
-          where" before users hit the nav. Hidden on small mobile to keep
-          the header tight; appears from sm+ centered, splits to a 2-col
-          row at lg+ with the phone on the right.
+      {/* Utility bar — thin top strip above the main nav. Surfaces the
+          star rating + review count as a persistent trust signal across
+          every page (travels with the user as they scroll, anchored at
+          the very top). Hours + service area sit on the right at lg+
+          as a complementary at-a-glance signal.
 
-          Slightly darker bg than the main nav so the layering reads. */}
+          No phone here — already in the main nav row below, would be
+          redundant. Slightly darker bg than the main nav so the layered
+          structure reads. */}
       <div className="hidden sm:block bg-ink-800 border-b border-line-dark/60">
         <div className="max-w-7xl mx-auto px-4 md:px-10 h-8 flex items-center justify-between text-[12px] text-cream-50/85">
-          <div className="flex items-center gap-4">
-            <span className="inline-flex items-center gap-1.5 font-semibold">
-              <span className="relative flex h-2 w-2">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emergency opacity-60" />
-                <span className="relative inline-flex rounded-full h-2 w-2 bg-emergency" />
-              </span>
-              <span className="text-emergency font-bold uppercase tracking-[0.12em]">
-                Emergency dispatch
-              </span>
-              <span className="text-cream-50/60">·</span>
-              <span>Mon–Sat 8–6</span>
-            </span>
-          </div>
-          <div className="hidden lg:flex items-center gap-4">
-            <span className="text-cream-50/60">Calgary, Airdrie & surrounding</span>
-            <span className="text-cream-50/30">·</span>
-            <a
-              href="tel:+15878343668"
-              className="inline-flex items-center gap-1.5 font-bold hover:text-emergency transition-colors"
+          <span className="inline-flex items-center gap-2 font-semibold">
+            <span
+              aria-hidden="true"
+              className="text-emergency tracking-tight text-[13px]"
             >
-              <Icon name="call" className="text-sm text-emergency" />
-              587-834-3668
-            </a>
+              ★★★★★
+            </span>
+            <span className="font-bold">5.0</span>
+            <span className="text-cream-50/60">·</span>
+            <span>94 Google reviews</span>
+          </span>
+          <div className="hidden lg:flex items-center gap-3 text-cream-50/70">
+            <span>Mon–Sat 8–6</span>
+            <span className="text-cream-50/30">·</span>
+            <span>Calgary &amp; surrounding</span>
           </div>
         </div>
       </div>
