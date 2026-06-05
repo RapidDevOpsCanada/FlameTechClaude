@@ -298,29 +298,21 @@ export default async function Home() {
                       direct line to the person doing the work.
                     </p>
                     <div>
-                      <div className="grid grid-cols-3 gap-3 md:gap-4 pt-6 border-t border-line-light">
+                      <div className="grid grid-cols-2 gap-4 pt-6 border-t border-line-light">
                         <div className="min-w-0">
-                          <div className="font-display text-2xl md:text-3xl font-extrabold text-primary-deep mb-1">
+                          <div className="font-display text-3xl font-extrabold text-primary-deep mb-1">
                             25+
                           </div>
                           <div className="text-[10px] md:text-xs uppercase tracking-[0.08em] md:tracking-[0.14em] font-semibold text-ink-500 break-words leading-snug">
-                            Shaun — yrs in trade
+                            Shaun — years in trade
                           </div>
                         </div>
                         <div className="min-w-0">
-                          <div className="font-display text-2xl md:text-3xl font-extrabold text-primary-deep mb-1">
+                          <div className="font-display text-3xl font-extrabold text-primary-deep mb-1">
                             20+
                           </div>
                           <div className="text-[10px] md:text-xs uppercase tracking-[0.08em] md:tracking-[0.14em] font-semibold text-ink-500 break-words leading-snug">
-                            Jason — yrs in trade
-                          </div>
-                        </div>
-                        <div className="min-w-0">
-                          <div className="font-display text-2xl md:text-3xl font-extrabold text-primary-deep mb-1">
-                            Red Seal
-                          </div>
-                          <div className="text-[10px] md:text-xs uppercase tracking-[0.08em] md:tracking-[0.14em] font-semibold text-ink-500 break-words leading-snug">
-                            Ben — certified 2021
+                            Jason — years in trade
                           </div>
                         </div>
                       </div>
