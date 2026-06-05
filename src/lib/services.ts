@@ -3200,6 +3200,7 @@ export const services: ServicePage[] = [
         { label: "Tankless Water Heaters", href: "/tankless-water-heaters/", summary: "On-demand hot water, 20+ year lifespan, big space + efficiency wins.", icon: "whatshot" },
         { label: "Water Heater Installation", href: "/water-heater-installation-calgary/", summary: "Tank, tankless, or replacement — gas + venting + expansion tank done right.", icon: "propane_tank" },
         { label: "Water Softeners", href: "/water-softener/", summary: "Protect your tank from Calgary's hard water with a properly-sized softener.", icon: "softener_tank" },
+        { label: "Reverse Osmosis", href: "/reverse-osmosis-calgary/", summary: "Under-sink + whole-home drinking-water filtration. Pairs with softener.", icon: "water_drop" },
         { label: "Hot Water Issues", href: "/hot-water-issues-calgary/", summary: "No hot water, lukewarm, popping noises, leaks — diagnosis and repair on gas, electric, and tankless.", icon: "water_damage", highlight: true, badge: "Common issue" },
       ],
     },
@@ -3846,6 +3847,209 @@ export const services: ServicePage[] = [
           { q: "Can I install a softener myself?", a: "Technically yes if you've got plumbing experience, but we wouldn't recommend it. The most common DIY mistakes we end up fixing: wrong-size drain line that floods during regen, no bypass plumbing (every future service call requires whole-house shutoff), and incorrect programming that wastes salt and resin life.\n\nProfessional install runs a few hundred more than DIY but typically pays itself back in fewer service issues and longer system life. Plus Alberta plumbing code applies — softener install needs a permit and inspection in Calgary." },
           { q: "How long do water softeners last?", a: "Professional-grade Fleck, Autotrol, or Clack systems run 15-20+ years with basic maintenance. The resin bed itself lasts 10-15 years before needing replacement. Mineral tanks and brine tanks typically outlast the resin. Big-box consumer-grade units fail at 4-6 years in Calgary water — the valves aren't built for our hardness load." },
           { q: "Do you service softeners you didn't install?", a: "Yes — we service every major brand and valve type. If your system is fixable we'll fix it; if it's a 12-year-old big-box unit with a failed valve and no parts available, we'll tell you straight rather than chase parts that don't exist." },
+        ],
+      },
+    },
+  },
+  {
+    slug: "reverse-osmosis-calgary",
+    category: "Water",
+    icon: "water_drop",
+    title: "Reverse Osmosis Water Filtration in Calgary",
+    lead:
+      "Calgary's tap water meets safety standards but it's still hard, chlorinated, and high in total dissolved solids — fine for showering, less ideal for drinking, coffee, and cooking. A reverse osmosis system at the kitchen tap removes 95-99% of dissolved minerals, chlorine, sediment, lead, and fluoride for the cleanest water in the home.",
+    heroBody: [
+      "We install under-sink RO systems (the most common Calgary setup) and whole-home configurations where it makes sense. Pre-filter for sediment, carbon block for chlorine/chloramine and taste, RO membrane for dissolved solids, post-filter to polish — plus optional remineralization for the alkaline-water minerality some homeowners prefer.",
+      "Pairs naturally with a [water softener](/water-softener/) — softener protects the RO membrane from scale (doubles membrane life) and the RO drops the sodium the softener adds back to drinking water. Combined install is the most common request from homeowners in newer lake communities like [Mahogany](/mahogany-plumbers-calgary/) and [Auburn Bay](/auburn-bay-plumber-calgary/), and from older builds in [Mount Royal](/mount-royal-plumbers-calgary/) and [Marda Loop](/marda-loop-plumbers-calgary/) where lead-soldered supply joints make point-of-use filtration a real upgrade.",
+      "Free in-home assessment — we look at your existing under-sink space, water pressure, and what you're trying to fix (taste, scale on coffee equipment, lead concerns, peace of mind). Call 587-834-3668.",
+    ],
+    heroSubhead: "Under-Sink RO + Whole-Home Filtration",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/FTVAN2.jpg", alt: "Shaun and Jason — FlameTech reverse osmosis installers, Calgary", fit: "cover" },
+    intro:
+      "Calgary reverse osmosis installation — under-sink + whole-home. 4-stage to 6-stage systems, remineralization optional, professional install with proper drain saddle + air-gap faucet. Pairs with water softener.",
+    features: [
+      "Under-sink RO system install",
+      "4-stage standard / 5-stage with remineralization",
+      "Tankless RO (high-efficiency, low wastewater)",
+      "Membrane + filter replacement service",
+      "Drain saddle + air-gap faucet install",
+      "Pairs with water softener install",
+    ],
+    bullets: [
+      {
+        t: "Sized + spec'd for Calgary water",
+        d: "Calgary TDS runs 150-200 ppm with chlorine added at the plant. A standard 4-stage RO drops it to 5-15 ppm — bottled-water territory. We spec the membrane GPD rating based on household demand, not a default.",
+      },
+      {
+        t: "Softener-first ordering",
+        d: "Hard water shortens RO membrane life dramatically. We recommend installing a [water softener](/water-softener/) before the RO if you don't already have one — doubles or triples membrane life and avoids the \"why does my new RO need a $200 membrane every 18 months\" problem.",
+      },
+      {
+        t: "Air-gap faucet + drain saddle, done to code",
+        d: "Proper RO installs include an air-gap faucet (prevents drain backflow into the system) and a drain saddle on the disposal/drain line. Some shortcuts skip these. We don't — and Alberta plumbing code requires the air gap.",
+      },
+      {
+        t: "Annual filter, 2-3 year membrane service",
+        d: "Pre-filter and carbon filters get replaced every 12 months; RO membrane every 2-3 years (longer if you have a softener upstream). We offer scheduled service so you don't have to remember.",
+      },
+    ],
+    seoTitle: "Reverse Osmosis Calgary | Under-Sink Water Filtration",
+    seoDescription:
+      "Calgary reverse osmosis install. Under-sink RO systems, optional remineralization, pairs with water softener. Free in-home assessment. Call 587-834-3668.",
+    seoKeywords: [
+      "reverse osmosis Calgary",
+      "RO system Calgary",
+      "under sink water filter Calgary",
+      "drinking water filtration Calgary",
+      "water filter install Calgary",
+      "FlameTech Plumbing",
+    ],
+    quoteFormLabel: "reverse osmosis install",
+    quoteFormPlaceholder:
+      "e.g. want better drinking water, looking at RO + softener combo, considering remineralized output, existing RO needs membrane swap…",
+    sidebar: {
+      title: "Calgary Reverse Osmosis",
+      subtitle:
+        "Under-sink RO + whole-home filtration — sized for Calgary's TDS, installed to Alberta code, pairs with water softener.",
+      bullets: [
+        "Free in-home assessment + quote",
+        "4-stage to 6-stage systems",
+        "Drain saddle + air-gap faucet to code",
+        "Annual filter / 2-3 year membrane service",
+      ],
+    },
+    stats: [
+      { number: "95-99%", label: "TDS removed", icon: "verified" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "FREE", label: "In-home assessment", icon: "request_quote" },
+      { number: "RO+", label: "Softener combo available", icon: "check_circle" },
+    ],
+    callout:
+      "Tired of bottled water or a kettle full of scale? Call 587-834-3668 for a free in-home RO assessment.",
+    richContent: {
+      sections: [
+        {
+          heading: "What we install on a Calgary RO call",
+          intro:
+            "Standard configurations. Custom builds for higher-demand homes or specific contaminant targets available on request.",
+          items: [
+            {
+              heading: "4-stage standard under-sink RO",
+              body: "Sediment pre-filter → carbon block (chlorine/odour) → RO membrane → post-carbon polish. ~75 GPD membrane covers most households. Standard chrome faucet at the sink, 3-gallon pressurized storage tank, drain saddle to the sink trap. Quiet, proven, $700-$1,200 installed.",
+            },
+            {
+              heading: "5-stage with remineralization",
+              body: "Adds a calcium/magnesium remineralization cartridge after the RO membrane so the output has the alkaline-water minerality some homeowners prefer (and that's better for kettle boiler scale balance and coffee extraction). $200-$300 add to standard install.",
+            },
+            {
+              heading: "Tankless RO (high-efficiency)",
+              body: "Newer systems with a high-flow membrane and internal pump that produce water on-demand without the pressurized storage tank — frees up under-sink space, much better wastewater ratio (typically 1:1 vs 3:1 on standard), instant water at the tap. $1,200-$1,800 installed.",
+            },
+            {
+              heading: "Whole-home + under-sink combo",
+              body: "Whole-home carbon filtration on the main supply line (removes chlorine and taste at every tap, shower, washing machine) PLUS under-sink RO for the kitchen drinking water. Often paired with a water softener for the complete water-quality stack. Pricing varies by config — free assessment.",
+            },
+            {
+              heading: "Membrane + filter replacement service",
+              body: "Existing RO that's making weird-tasting water, lower flow, or just hit its annual? We service every common brand — APEC, iSpring, Aquasana, Culligan, Kinetico, Reverse Osmosis Revolution, Waterdrop. Filter replacement $80-$150, membrane replacement $180-$280, full system service $200-$350 depending on system.",
+            },
+          ],
+        },
+        {
+          heading: "Why Calgary homes benefit from reverse osmosis",
+          intro:
+            "Calgary tap water is safe — it meets every Alberta and Health Canada standard. But \"safe\" and \"ideal for drinking, coffee, kettles, and cooking\" are different bars.",
+          items: [
+            {
+              heading: "Total dissolved solids 150-200 ppm",
+              body: "Calgary's water carries calcium, magnesium, sodium, sulfates, and bicarbonates that dissolve out of the surrounding rock. Levels are perfectly safe and within Canadian drinking-water guidelines, but they're noticeable in coffee, tea, kettles (visible scale buildup), and for people who notice mineral taste. RO drops TDS to 5-15 ppm — closer to distilled.",
+            },
+            {
+              heading: "Chlorine + chloramine at the plant",
+              body: "The City of Calgary disinfects with chlorine (and occasionally chloramine during seasonal switchovers). Standard pleated filters don't remove either. The carbon block in an RO system removes both — gives you noticeably cleaner-tasting drinking water and protects sensitive equipment like espresso machines from chlorine wear.",
+            },
+            {
+              heading: "Lead at the tap — older homes",
+              body: "Pre-1990 Calgary builds (Mount Royal, Elbow Park, Inglewood, parts of Bowness and Montgomery) often have lead-soldered copper joints. Calgary supply is lead-free at the plant but can pick up trace lead from the home's own pipes. RO removes lead at the point of use — the simplest mitigation if your home tests positive.",
+            },
+            {
+              heading: "Sediment from main breaks",
+              body: "Calgary's older neighbourhoods occasionally see water main breaks that flush sediment into the supply for a few days. RO captures this at the kitchen tap — your drinking water stays clean even when the cold water comes out cloudy for 24 hours.",
+            },
+            {
+              heading: "Softeners add sodium — RO removes it",
+              body: "A water softener replaces calcium/magnesium with sodium ions. For most uses (dishes, laundry, showers) this is the trade-off you want. For drinking water, an RO downstream of the softener removes the added sodium — net result: no scale anywhere in the home, low-sodium drinking water at the kitchen tap.",
+            },
+            {
+              heading: "Bottled water + delivery costs add up",
+              body: "Many Calgary households spend $40-$80/month on bottled water or delivery service. A $700-$1,200 RO install pays back in 12-24 months, then keeps producing — most homeowners switch entirely to tap-quality RO water within a few weeks.",
+            },
+          ],
+        },
+        {
+          heading: "How an RO install actually runs",
+          intro:
+            "Typical 2-3 hour install for under-sink systems.",
+          items: [
+            {
+              heading: "1. Site assessment + water test",
+              body: "We look at under-sink space, existing cold-water shutoff, drain configuration, and faucet hole availability. Test current TDS, hardness, and chlorine so we can confirm the right system + show measurable improvement after install.",
+            },
+            {
+              heading: "2. Faucet install",
+              body: "Drill the dedicated RO faucet hole through the sink or counter (most kitchen sinks have a sprayer hole you can repurpose; some need a new hole drilled in stainless or granite — we do both). Air-gap faucet for code compliance.",
+            },
+            {
+              heading: "3. Cold-water tap + drain saddle",
+              body: "Tap the cold water supply with a needle valve, route to the RO inlet. Install drain saddle on the sink drain line for the RO wastewater.",
+            },
+            {
+              heading: "4. System assembly + filter loading",
+              body: "Mount the system to the cabinet wall, install pre-filter, carbon filter, RO membrane, post-filter in correct order. Connect tank (if standard system) or run the system through its self-prime cycle (tankless).",
+            },
+            {
+              heading: "5. Initial flush + test",
+              body: "Run 1-2 tank fills through the system to flush manufacturing residues from the filters and membrane. Test output TDS, chlorine, and flow rate to confirm performance.",
+            },
+            {
+              heading: "6. Walkthrough + service schedule",
+              body: "Show you which filters need replacing when, how to swap them yourself (or book us), where the shutoff valves are. Mark install date on the system so the next service interval is obvious.",
+            },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Reverse Osmosis Calgary — FAQs",
+        items: [
+          {
+            q: "How much does a reverse osmosis system cost in Calgary?",
+            a: "Standard 4-stage under-sink RO: $700-$1,200 installed. 5-stage with remineralization: $900-$1,500. Tankless high-efficiency RO: $1,200-$1,800. Whole-home + under-sink combo: varies by config, typically $2,500-$4,500. Pairs naturally with a [water softener](/water-softener/) install — combined pricing available. Annual filter service runs $80-$150; membrane replacement every 2-3 years $180-$280.",
+          },
+          {
+            q: "Do I really need an RO system in Calgary?",
+            a: "\"Need\" is strong — Calgary water meets every safety standard. But if you currently buy bottled water, notice mineral taste in tap water, have visible scale buildup in your kettle or coffee maker, or live in an older home with lead-soldered pipes, RO solves all of those at once. Many homeowners install it for the coffee improvement alone — RO water makes a measurable difference in espresso extraction and tea clarity.",
+          },
+          {
+            q: "Should I get a water softener AND reverse osmosis?",
+            a: "If you can swing both, yes — they solve different problems. Softener handles whole-home hard water (no scale in fixtures, water heater, dishwasher; better detergent performance; longer fixture life). RO handles drinking water (cleanest possible water at the kitchen tap). Softener-first is the right order — soft water dramatically extends RO membrane life. See our [water softener](/water-softener/) page for combined pricing.",
+          },
+          {
+            q: "How much water does an RO system waste?",
+            a: "Standard pressurized-tank RO systems waste 3-4 gallons per gallon produced — that water goes down the drain. Tankless RO systems with internal pumps are much better at 1-1.5 gallons wasted per gallon produced. For households concerned about water use, the tankless option is worth the price premium. Calgary's average household water use makes the waste from standard RO a small fraction of total monthly use — but if it matters to you, ask about tankless.",
+          },
+          {
+            q: "How often do RO filters and membranes need replacing?",
+            a: "Pre-filter and carbon filters: every 6-12 months depending on water quality and household usage. RO membrane: every 2-3 years for standard installs, 3-5 years if you have a water softener upstream protecting the membrane. Remineralization cartridge (5-stage systems): every 12 months. We offer scheduled service so you don't have to track it — annual visit covers pre + carbon, multi-year visit covers membrane.",
+          },
+          {
+            q: "Can I install a reverse osmosis system myself?",
+            a: "Technically yes, with a hardware store kit. The catch: most DIY installs skip the air-gap faucet (required by Alberta code), use compression fittings that fail under cold-snap pressure swings, and tap the cold supply with the wrong valve type. We see a lot of DIY installs leaking from the saddle valve or producing low flow because the drain saddle was installed wrong. A professional install is $700-$1,200 and includes code-compliant air gap + proper drain saddle + system commissioning.",
+          },
+          {
+            q: "Does RO water leach minerals from my body?",
+            a: "Common concern — short answer: no. Drinking-water mineral content is a tiny fraction of total dietary mineral intake (you get vastly more calcium/magnesium from food than from any tap water). If you specifically want the alkaline-water minerality some homeowners prefer, the 5-stage remineralization option adds calcium and magnesium back after the RO membrane. Either way, RO water is safe to drink for everyone in your household.",
+          },
         ],
       },
     },

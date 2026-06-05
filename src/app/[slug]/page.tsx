@@ -1338,6 +1338,7 @@ function expectedReviewTags(slug: string): string[] {
   if (/heat-pump/.test(slug)) return ["Heat Pumps"];
   if (/air-conditioning|humidifier/.test(slug)) return ["AC"];
   if (/water-softener/.test(slug)) return ["Water Softeners"];
+  if (/reverse-osmosis/.test(slug)) return ["RO", "Water Softeners"];
   if (/hot-water-tank|tankless/.test(slug)) return ["Water Heaters"];
   if (/emergency/.test(slug)) return ["Emergency"];
   if (/drain|polyb|bathroom|shower|plumb/.test(slug)) return ["Plumbing"];
@@ -1361,6 +1362,7 @@ function reviewTopicPattern(slug: string): RegExp | null {
   if (/tankless/.test(slug)) return /\btankless/i;
   if (/hot-water-tank/.test(slug)) return /\bwater (tank|heater)|hot water/i;
   if (/water-softener/.test(slug)) return /\bsoftener/i;
+  if (/reverse-osmosis/.test(slug)) return /\b(reverse[- ]?osmosis|RO\b|water filtration|drinking water|filter system)/i;
   if (/emergency/.test(slug)) return /\bburst|leak|emergency/i;
   return null;
 }

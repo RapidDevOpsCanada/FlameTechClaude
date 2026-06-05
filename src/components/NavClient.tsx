@@ -255,6 +255,12 @@ const menu: NavItem[] = [
               icon: "softener_tank",
               desc: "Protect fixtures from Alberta hard water.",
             },
+            {
+              label: "Reverse Osmosis",
+              href: "/reverse-osmosis-calgary/",
+              icon: "water_drop",
+              desc: "Under-sink + whole-home drinking-water filtration.",
+            },
           ],
         },
       ],

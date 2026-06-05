@@ -47,6 +47,7 @@ const airWaterLinks = [
   { label: "Tankless Heaters", href: "/tankless-water-heaters/" },
   { label: "Hot Water Issues", href: "/hot-water-issues-calgary/" },
   { label: "Water Softener", href: "/water-softener/" },
+  { label: "Reverse Osmosis", href: "/reverse-osmosis-calgary/" },
 ];
 
 const companyLinks = [
