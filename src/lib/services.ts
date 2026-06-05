@@ -167,6 +167,15 @@ export type ServicePage = {
       href: string;
       summary: string;
       icon?: string;
+      /** When true, the card renders with the brand-red highlight
+       *  treatment — emergency border, "Common issue" badge, slightly
+       *  larger visual weight. Use for pages we want to surface
+       *  prominently on the hub (e.g. issue-diagnosis pages that
+       *  intentionally aren't in the main nav). */
+      highlight?: boolean;
+      /** Custom badge text when highlight=true. Defaults to
+       *  "Common issue" when omitted. */
+      badge?: string;
     }[];
   };
 };
@@ -1974,7 +1983,7 @@ export const services: ServicePage[] = [
         { label: "AirEase Furnaces", href: "/air-ease-furnaces-calgary/", summary: "Authorized AirEase Pro Team dealer — full residential lineup with manufacturer warranty.", icon: "local_fire_department" },
         { label: "Garage Heaters", href: "/garage-heaters-calgary/", summary: "Forced-air gas, radiant tube, and electric heaters for Calgary garages and shops.", icon: "garage" },
         { label: "Heat Pumps", href: "/heat-pumps-calgary/", summary: "Cold-climate dual-fuel heat pumps — heating + cooling in one system.", icon: "ac_unit" },
-        { label: "Furnace Blower Issues", href: "/furnace-blower-issues-calgary/", summary: "Weak airflow, loud rattling, blower won't start — diagnosis + repair on PSC, X13, and ECM motors.", icon: "tune" },
+        { label: "Furnace Blower Issues", href: "/furnace-blower-issues-calgary/", summary: "Weak airflow, loud rattling, blower won't start — diagnosis + repair on PSC, X13, and ECM motors.", icon: "tune", highlight: true, badge: "Common issue" },
       ],
     },
   },
@@ -3191,7 +3200,7 @@ export const services: ServicePage[] = [
         { label: "Tankless Water Heaters", href: "/tankless-water-heaters/", summary: "On-demand hot water, 20+ year lifespan, big space + efficiency wins.", icon: "whatshot" },
         { label: "Water Heater Installation", href: "/water-heater-installation-calgary/", summary: "Tank, tankless, or replacement — gas + venting + expansion tank done right.", icon: "propane_tank" },
         { label: "Water Softeners", href: "/water-softener/", summary: "Protect your tank from Calgary's hard water with a properly-sized softener.", icon: "softener_tank" },
-        { label: "Hot Water Issues", href: "/hot-water-issues-calgary/", summary: "No hot water, lukewarm, popping noises, leaks — diagnosis and repair on gas, electric, and tankless.", icon: "water_damage" },
+        { label: "Hot Water Issues", href: "/hot-water-issues-calgary/", summary: "No hot water, lukewarm, popping noises, leaks — diagnosis and repair on gas, electric, and tankless.", icon: "water_damage", highlight: true, badge: "Common issue" },
       ],
     },
   },

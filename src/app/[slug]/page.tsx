@@ -781,15 +781,30 @@ export default async function ServicePage({
                       <Link
                         key={item.href}
                         href={item.href}
-                        className="lift group rounded-2xl bg-white border border-line-light p-6 hover:border-emergency"
+                        className={`lift group rounded-2xl p-6 ${
+                          item.highlight
+                            ? "bg-emergency/5 border-2 border-emergency/40 hover:border-emergency shadow-md shadow-emergency/10"
+                            : "bg-white border border-line-light hover:border-emergency"
+                        }`}
                       >
                         <div className="flex items-start gap-4">
                           {item.icon && (
-                            <div className="w-11 h-11 rounded-xl bg-primary/15 text-primary-deep flex items-center justify-center shrink-0 transition-transform group-hover:rotate-6 group-hover:scale-110">
+                            <div
+                              className={`w-11 h-11 rounded-xl flex items-center justify-center shrink-0 transition-transform group-hover:rotate-6 group-hover:scale-110 ${
+                                item.highlight
+                                  ? "bg-emergency text-cream-50"
+                                  : "bg-primary/15 text-primary-deep"
+                              }`}
+                            >
                               <Icon name={item.icon} className="text-lg" />
                             </div>
                           )}
                           <div className="min-w-0 flex-1">
+                            {item.highlight && (
+                              <span className="inline-flex items-center gap-1 mb-1.5 rounded-full bg-emergency text-cream-50 px-2 py-0.5 text-[10px] font-extrabold uppercase tracking-[0.12em]">
+                                {item.badge ?? "Common issue"}
+                              </span>
+                            )}
                             <p className="font-display font-extrabold text-lg tracking-tight text-ink-900 group-hover:text-emergency-deep transition-colors leading-tight">
                               {item.label}
                             </p>
