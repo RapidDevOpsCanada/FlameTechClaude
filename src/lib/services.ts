@@ -1978,6 +1978,7 @@ export const services: ServicePage[] = [
         { label: "AirEase Furnaces", href: "/air-ease-furnaces-calgary/", summary: "Authorized AirEase Pro Team dealer — full residential lineup with manufacturer warranty.", icon: "local_fire_department" },
         { label: "Garage Heaters", href: "/garage-heaters-calgary/", summary: "Forced-air gas, radiant tube, and electric heaters for Calgary garages and shops.", icon: "garage" },
         { label: "Heat Pumps", href: "/heat-pumps-calgary/", summary: "Cold-climate dual-fuel heat pumps — heating + cooling in one system.", icon: "ac_unit" },
+        { label: "Furnace Blower Issues", href: "/furnace-blower-issues-calgary/", summary: "Weak airflow, loud rattling, blower won't start — diagnosis + repair on PSC, X13, and ECM motors.", icon: "tune" },
       ],
     },
   },
