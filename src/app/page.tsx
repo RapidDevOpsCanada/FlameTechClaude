@@ -73,7 +73,7 @@ export default async function Home() {
         about: { "@id": `${SITE_URL}#business` },
         primaryImageOfPage: {
           "@type": "ImageObject",
-          url: `${SITE_URL}/images/FTVAN2.jpg`,
+          url: `${SITE_URL}/images/FTVAN.jpg`,
         },
         dateModified,
         breadcrumb: { "@id": `${SITE_URL}#breadcrumb` },
@@ -139,10 +139,10 @@ export default async function Home() {
                 <div className="lg:hidden mb-6">
                   <div className="relative rounded-2xl overflow-hidden border border-line-dark soft-shadow bg-cream-50">
                     <Image
-                      src="/images/FTVAN2.jpg"
-                      alt="Shaun and Jason — FlameTech founders with the service van"
-                      width={640}
-                      height={718}
+                      src="/images/FTVAN.jpg"
+                      alt="FlameTech service van across Calgary"
+                      width={800}
+                      height={486}
                       priority
                       quality={70}
                       sizes="(max-width: 1023px) 100vw, 0px"
@@ -225,10 +225,10 @@ export default async function Home() {
               <div className="hidden lg:block col-span-12 lg:col-span-6 relative reveal reveal-delay-200">
                 <div className="relative rounded-3xl overflow-hidden border border-line-dark soft-shadow bg-cream-50">
                   <Image
-                    src="/images/FTVAN2.jpg"
-                    alt="Shaun and Jason — FlameTech founders with the service van"
-                    width={640}
-                    height={718}
+                    src="/images/FTVAN.jpg"
+                    alt="FlameTech service van across Calgary"
+                    width={800}
+                    height={486}
                     priority
                     quality={70}
                     sizes="580px"
@@ -296,23 +296,35 @@ export default async function Home() {
                       company around honest advice, upfront pricing, and
                       doing things right the first time.
                     </p>
-                    <div className="grid grid-cols-2 gap-4 pt-6 border-t border-line-light">
-                      <div className="min-w-0">
-                        <div className="font-display text-3xl font-extrabold text-primary-deep mb-1">
-                          20+
+                    <div>
+                      <div className="grid grid-cols-2 gap-4 pt-6 border-t border-line-light">
+                        <div className="min-w-0">
+                          <div className="font-display text-3xl font-extrabold text-primary-deep mb-1">
+                            20+
+                          </div>
+                          <div className="text-[10px] md:text-xs uppercase tracking-[0.08em] md:tracking-[0.14em] font-semibold text-ink-500 break-words leading-snug">
+                            Jason — years in trade
+                          </div>
                         </div>
-                        <div className="text-[10px] md:text-xs uppercase tracking-[0.08em] md:tracking-[0.14em] font-semibold text-ink-500 break-words leading-snug">
-                          Jason — years in trade
+                        <div className="min-w-0">
+                          <div className="font-display text-3xl font-extrabold text-primary-deep mb-1">
+                            25+
+                          </div>
+                          <div className="text-[10px] md:text-xs uppercase tracking-[0.08em] md:tracking-[0.14em] font-semibold text-ink-500 break-words leading-snug">
+                            Shaun — years in trade
+                          </div>
                         </div>
                       </div>
-                      <div className="min-w-0">
-                        <div className="font-display text-3xl font-extrabold text-primary-deep mb-1">
-                          25+
-                        </div>
-                        <div className="text-[10px] md:text-xs uppercase tracking-[0.08em] md:tracking-[0.14em] font-semibold text-ink-500 break-words leading-snug">
-                          Shaun — years in trade
-                        </div>
-                      </div>
+                      <Link
+                        href="/about/"
+                        className="group mt-6 inline-flex items-center gap-2 text-sm font-bold text-emergency-deep hover:text-emergency transition-colors"
+                      >
+                        Read Shaun and Jason&apos;s full bios
+                        <Icon
+                          name="arrow_right_alt"
+                          className="text-base transition-transform group-hover:translate-x-1"
+                        />
+                      </Link>
                     </div>
                   </div>
                 </div>
