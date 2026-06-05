@@ -905,7 +905,7 @@ export const services: ServicePage[] = [
     bullets: [
       {
         t: "Cast-iron impeller, not the plastic default",
-        d: "We default to Zoeller, Liberty, or Hydromatic cast-iron submersibles — they handle the cycle counts a Calgary basement actually sees during spring melt. The plastic-impeller box-store unit burns out in 3-5 years; cast iron lasts 10-15.",
+        d: "We default to ProFlo 1/2 HP cast-iron submersibles — they handle the cycle counts a Calgary basement actually sees during spring melt. The plastic-impeller box-store unit burns out in 3-5 years; cast iron lasts 10-15.",
       },
       {
         t: "Battery backup that covers a real outage",
@@ -940,7 +940,7 @@ export const services: ServicePage[] = [
         "Cast-iron primaries, battery-backup secondaries, properly-routed discharge — sized for Calgary's spring runoff and chinook freeze-thaw.",
       bullets: [
         "Free in-home assessment + written quote",
-        "Cast-iron Zoeller / Liberty / Hydromatic",
+        "ProFlo 1/2 HP cast-iron primary",
         "Battery-backup + high-water alarm",
         "Backwater valve pairing available",
       ],
@@ -1019,8 +1019,8 @@ export const services: ServicePage[] = [
             "The components and how we spec them.",
           items: [
             {
-              heading: "Primary pump — cast-iron submersible",
-              body: "Zoeller M53/M63 series, Liberty 257/287 series, or Hydromatic SP40. Cast-iron motor housing dissipates heat better than plastic and lasts through high-cycle Calgary use. 1/3 HP for most residential, 1/2 HP for high-water-table lots or larger basements.",
+              heading: "Primary pump — ProFlo 1/2 HP cast-iron",
+              body: "We default to ProFlo 1/2 HP cast-iron submersible. The 1/2 HP rating covers high-water-table lots and larger basements without changing the pump for higher-demand homes, and the cast-iron motor housing dissipates heat better than plastic-bodied alternatives — lasts through the high-cycle counts a Calgary basement actually sees during spring melt.",
             },
             {
               heading: "Pit / basin",
@@ -1054,7 +1054,7 @@ export const services: ServicePage[] = [
         items: [
           {
             q: "How much does sump pump installation cost in Calgary?",
-            a: "A straight primary-pump replacement in an existing pit typically runs $700–$1,200 depending on pump spec and discharge condition. A new sump system from scratch (cut the slab, install pit + pump + discharge + check valve) runs $2,500–$4,500. Adding a battery backup pump to an existing primary is $900–$1,500 including battery. Backwater valve install is $2,500–$4,500 separately. All quotes are in writing with line items — no \"surprise\" charges at the end.",
+            a: "Our standard pricing: replacement pump in an existing pit (ProFlo 1/2 HP cast-iron) is around $504. New sump pit + pump from scratch (cut the slab, install basin, pump, discharge, and check valve) is around $2,000. Battery backup pump add-on to an existing primary is $900–$1,500 including battery. Backwater valve install is a separate quote — typically $2,500–$4,500 depending on accessibility. All quotes are in writing with line items — no surprise charges at the end.",
           },
           {
             q: "How long does a sump pump last in Calgary?",
