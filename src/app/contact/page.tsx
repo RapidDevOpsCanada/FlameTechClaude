@@ -12,7 +12,6 @@ const SITE_URL = "https://flametechplumbing.ca";
 const PHONE_DISPLAY = "(587) 834-3668";
 const PHONE_TEL = "+15878343668";
 const EMAIL = "info@flametechplumbing.ca";
-const ADDRESS = "Woodbine Blvd, Calgary, AB";
 
 export const metadata: Metadata = {
   title: "Contact FlameTech Plumbing & Heating | Calgary, Airdrie, & Surrounding Areas",
@@ -99,85 +98,13 @@ export default function ContactPage() {
         compact
       />
 
-      {/* Quick contact strip */}
-      <section className="bg-cream-50 text-ink-900 py-16 border-t border-line-light light-surface">
-        <div className="max-w-7xl mx-auto px-6 md:px-10">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
-            <a
-              href={`tel:${PHONE_TEL}`}
-              className="lift group rounded-2xl bg-white border border-line-light p-7 hover:border-emergency"
-            >
-              <div className="w-12 h-12 rounded-xl bg-emergency/15 text-emergency flex items-center justify-center mb-4">
-                <Icon name="call" className="text-xl" />
-              </div>
-              <p className="text-[11px] font-bold uppercase tracking-[0.18em] text-primary mb-2">
-                Phone
-              </p>
-              <p className="font-display font-extrabold text-xl tracking-tight text-ink-900 group-hover:text-emergency-deep transition-colors">
-                {PHONE_DISPLAY}
-              </p>
-              <p className="text-sm text-ink-500 mt-2">
-                Real person answers — priority for emergencies.
-              </p>
-            </a>
-
-            <a
-              href={`mailto:${EMAIL}`}
-              className="lift group rounded-2xl bg-white border border-line-light p-7 hover:border-emergency"
-            >
-              <div className="w-12 h-12 rounded-xl bg-primary/15 text-primary-deep flex items-center justify-center mb-4">
-                <Icon name="share" className="text-xl" />
-              </div>
-              <p className="text-[11px] font-bold uppercase tracking-[0.18em] text-primary mb-2">
-                Email
-              </p>
-              <p className="font-display font-extrabold text-[15px] md:text-base tracking-tight text-ink-900 group-hover:text-emergency-deep transition-colors break-all">
-                {EMAIL}
-              </p>
-              <p className="text-sm text-ink-500 mt-2">
-                Replies within one business day.
-              </p>
-            </a>
-
-            <div className="rounded-2xl bg-white border border-line-light p-7">
-              <div className="w-12 h-12 rounded-xl bg-emergency/15 text-emergency flex items-center justify-center mb-4">
-                <Icon name="schedule" className="text-xl" />
-              </div>
-              <p className="text-[11px] font-bold uppercase tracking-[0.18em] text-primary mb-2">
-                Hours
-              </p>
-              <p className="font-display font-extrabold text-lg tracking-tight text-ink-900 leading-tight">
-                Mon – Sat
-                <br />
-                8:00 AM – 6:00 PM
-              </p>
-              <p className="text-sm text-ink-500 mt-2">
-                Priority emergency response outside hours.
-              </p>
-            </div>
-
-            <div className="rounded-2xl bg-white border border-line-light p-7">
-              <div className="w-12 h-12 rounded-xl bg-primary/15 text-primary-deep flex items-center justify-center mb-4">
-                <Icon name="location_on" className="text-xl" />
-              </div>
-              <p className="text-[11px] font-bold uppercase tracking-[0.18em] text-primary mb-2">
-                Based in
-              </p>
-              <p className="font-display font-extrabold text-lg tracking-tight text-ink-900 leading-tight">
-                {ADDRESS}
-              </p>
-              <p className="text-sm text-ink-500 mt-2">
-                Serving Calgary, Airdrie & surrounding communities.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Quote form + side info */}
+      {/* Quote form + side info — promoted to first content section
+          per owner: form is the primary action when landing on
+          /contact/, so it sits directly under the page header. The
+          quick-contact strip (phone/email/hours) sits below. */}
       <section
         id="quote"
-        className="bg-white text-ink-900 py-20 border-t border-line-light"
+        className="bg-white text-ink-900 py-16 md:py-20 border-t border-line-light"
       >
         <div className="max-w-7xl mx-auto px-6 md:px-10">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10">
@@ -199,7 +126,7 @@ export default function ContactPage() {
             </div>
 
             <aside className="lg:col-span-5">
-              <div className="sticky top-28 space-y-5">
+              <div className="sticky top-32 space-y-5">
                 <div className="rounded-2xl bg-ink-900 text-cream-50 p-7 overflow-hidden">
                   <span className="text-[11px] font-bold uppercase tracking-[0.18em] text-primary mb-3 block">
                     Need it solved tonight?
@@ -244,6 +171,68 @@ export default function ContactPage() {
                 </div>
               </div>
             </aside>
+          </div>
+        </div>
+      </section>
+
+      {/* Quick contact strip — phone / email / hours. The "Based in
+          Woodbine" card was removed per owner: it implied a SW-Calgary
+          focus that risks reading as exclusionary to other areas. */}
+      <section className="bg-cream-50 text-ink-900 py-16 border-t border-line-light light-surface">
+        <div className="max-w-7xl mx-auto px-6 md:px-10">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+            <a
+              href={`tel:${PHONE_TEL}`}
+              className="lift group rounded-2xl bg-white border border-line-light p-7 hover:border-emergency"
+            >
+              <div className="w-12 h-12 rounded-xl bg-emergency/15 text-emergency flex items-center justify-center mb-4">
+                <Icon name="call" className="text-xl" />
+              </div>
+              <p className="text-[11px] font-bold uppercase tracking-[0.18em] text-primary mb-2">
+                Phone
+              </p>
+              <p className="font-display font-extrabold text-xl tracking-tight text-ink-900 group-hover:text-emergency-deep transition-colors">
+                {PHONE_DISPLAY}
+              </p>
+              <p className="text-sm text-ink-500 mt-2">
+                Real person answers — priority for emergencies.
+              </p>
+            </a>
+
+            <a
+              href={`mailto:${EMAIL}`}
+              className="lift group rounded-2xl bg-white border border-line-light p-7 hover:border-emergency"
+            >
+              <div className="w-12 h-12 rounded-xl bg-primary/15 text-primary-deep flex items-center justify-center mb-4">
+                <Icon name="mail" className="text-xl" />
+              </div>
+              <p className="text-[11px] font-bold uppercase tracking-[0.18em] text-primary mb-2">
+                Email
+              </p>
+              <p className="font-display font-extrabold text-[15px] md:text-base tracking-tight text-ink-900 group-hover:text-emergency-deep transition-colors break-all">
+                {EMAIL}
+              </p>
+              <p className="text-sm text-ink-500 mt-2">
+                Replies within one business day.
+              </p>
+            </a>
+
+            <div className="rounded-2xl bg-white border border-line-light p-7">
+              <div className="w-12 h-12 rounded-xl bg-emergency/15 text-emergency flex items-center justify-center mb-4">
+                <Icon name="schedule" className="text-xl" />
+              </div>
+              <p className="text-[11px] font-bold uppercase tracking-[0.18em] text-primary mb-2">
+                Hours
+              </p>
+              <p className="font-display font-extrabold text-lg tracking-tight text-ink-900 leading-tight">
+                Mon – Sat
+                <br />
+                8:00 AM – 6:00 PM
+              </p>
+              <p className="text-sm text-ink-500 mt-2">
+                Priority emergency response outside hours.
+              </p>
+            </div>
           </div>
         </div>
       </section>
