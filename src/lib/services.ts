@@ -659,6 +659,225 @@ export const services: ServicePage[] = [
     },
   },
   {
+    slug: "blocked-toilet-calgary",
+    category: "Plumbing",
+    icon: "plumbing",
+    title: "Blocked Toilet in Calgary — Unclogging, Camera Inspection & Root Cause",
+    lead:
+      "A blocked toilet is usually a 10-minute fix with the right tool. The exception is the recurring blockage — same toilet, same problem every few weeks — and that almost always points to something further down the line that a plunger won't solve. FlameTech clears blockages, diagnoses recurring causes with a sewer camera, and fixes the underlying issue when it's there.",
+    heroBody: [
+      "We dispatch from Calgary across every neighbourhood. For a one-off blockage we'll clear it with a closet auger or hand snake at the toilet. For repeat blockages — or blockages where water also backs into the shower/tub when you flush — we run a sewer camera to find the actual cause (mineral scale in old galvanized drains, tree root intrusion in clay laterals, partial main-line blockage, vent stack issue).",
+      "Heritage homes ([Mount Royal](/mount-royal-plumbers-calgary/), [Bel-Aire](/bel-aire-plumbers-calgary/), [Bowness](/bowness-plumbers-calgary/), [Inglewood](/calgary-plumbers-se/)) have mature trees sending roots into clay sewer laterals — toilet is usually the first fixture to show the problem because it's the largest single discharge into the main line. We see this pattern across the inner SW and SE every spring.",
+      "Call 587-834-3668 — priority dispatch for active blockages, scheduled visit for recurring issues. Same crew that handles our [drain cleaning](/drain-cleaning-calgary/), [bathroom plumbing](/bathroom-plumbing-calgary/), and [toilet installation](/toilet-installation-calgary/) work.",
+    ],
+    heroSubhead: "Same-Day Clearing + Camera Diagnosis on Recurring Blockages",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/2026/04/Toilet.webp", alt: "FlameTech clears blocked toilets and inspects sewer lines across Calgary", fit: "cover" },
+    intro:
+      "Calgary blocked toilet clearing + sewer camera diagnosis. One-off plunger/auger calls, recurring-blockage root-cause diagnosis, hydro-jet, tree root intrusion in clay laterals. Call 587-834-3668.",
+    features: [
+      "Closet auger + hand snake at the toilet",
+      "Toilet pull for foreign-object retrieval",
+      "Mainline auger for deeper blockages",
+      "HD sewer camera inspection",
+      "Hydro-jet for severe mineral / root buildup",
+      "Trenchless lining for chronic root intrusion",
+    ],
+    bullets: [
+      {
+        t: "Same-day for active blockages",
+        d: "One blocked toilet = priority dispatch. We'll clear it, then tell you whether what we found is a one-off or signals something further down the line that's worth investigating.",
+      },
+      {
+        t: "Camera diagnosis on recurring issues",
+        d: "If the same toilet keeps blocking, the answer is rarely the toilet itself. We run an HD sewer camera through the trapway and into the main to find the real cause — partial blockages, scale buildup, root intrusion, broken pipe. Then quote the actual fix.",
+      },
+      {
+        t: "Calgary heritage-home expertise",
+        d: "Pre-1980 homes (Mount Royal, Bel-Aire, Bowness, Inglewood, original Brentwood) often have clay sewer laterals with decades of root intrusion. We diagnose, hydro-jet, and recommend root barriers or trenchless lining depending on what we find.",
+      },
+      {
+        t: "Honest one-off vs. root-cause call",
+        d: "Most blocked toilets are genuinely one-time events — too much paper, an object dropped in, kids being kids. We tell you when it's that vs. when it's a symptom of something bigger. No upsell pressure.",
+      },
+    ],
+    seoTitle: "Blocked Toilet Calgary | Clearing, Camera Diagnosis, Root Cause",
+    seoDescription:
+      "Calgary blocked toilet clearing + sewer camera. Same-day for active blockages, root-cause diagnosis on recurring issues, hydro-jet, root intrusion in clay laterals. Call 587-834-3668.",
+    seoKeywords: [
+      "blocked toilet Calgary",
+      "clogged toilet Calgary",
+      "toilet won't flush Calgary",
+      "recurring toilet blockage Calgary",
+      "sewer camera Calgary",
+      "FlameTech Plumbing",
+    ],
+    quoteFormLabel: "blocked toilet",
+    quoteFormPlaceholder:
+      "e.g. toilet won't flush, water rising when I flush, recurring blockage same toilet, water backs into shower when toilet flushes, gurgling sounds, foreign object dropped in…",
+    sidebar: {
+      title: "Calgary Blocked Toilet Service",
+      subtitle:
+        "Same-day for active blockages, camera diagnosis on recurring issues, hydro-jet for severe buildup.",
+      bullets: [
+        "Priority dispatch for active blockages",
+        "Most one-offs cleared in 30 minutes",
+        "HD sewer camera on recurring issues",
+        "Heritage-home clay-lateral experience",
+      ],
+    },
+    stats: [
+      { number: "30 min", label: "Typical one-off clearing", icon: "schedule" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "HD", label: "Sewer camera inspection", icon: "check_circle" },
+      { number: "Red Seal", label: "Plumbers + gas fitters", icon: "award" },
+    ],
+    callout:
+      "Toilet blocked right now? Call 587-834-3668 — priority dispatch with auger + camera on every truck.",
+    richContent: {
+      sections: [
+        {
+          heading: "Try this first (before calling)",
+          intro:
+            "Most one-time blockages clear with a plunger if you use it right. Worth trying once or twice before you book a service call.",
+          items: [
+            {
+              heading: "Use a flange plunger, not a flat sink plunger",
+              body: "Flange plungers have a soft rubber sleeve that flips out from inside the bell — designed to seal against the toilet's curved drain opening. A flat plunger (the cheap one most people own) is for sinks and tubs and gives a weak seal on a toilet. If you don't have a flange plunger, it's worth the $10 stop at the hardware store before calling us.",
+            },
+            {
+              heading: "Plunge with force AND pull",
+              body: "The pull-up is as important as the push-down. Push down once firmly to expel air, then plunge with vigorous up-and-down motion 6-10 times. The water surge in BOTH directions is what breaks up the blockage. Don't just push — most people miss the upstroke.",
+            },
+            {
+              heading: "Don't keep flushing",
+              body: "If the first flush failed, don't keep flushing. The bowl will overflow. Pull the tank lid off and push the flapper down with your hand to stop more water entering, or shut off the supply valve under the toilet (turn clockwise until it stops).",
+            },
+            {
+              heading: "Hot water + dish soap (gentle method)",
+              body: "If plunging didn't work but the water level is high, try this: pour 1 cup of dish soap into the bowl, wait 5 minutes, then pour 4-5L of hot (not boiling) tap water from waist height. The soap lubricates the trapway and the water surge can shift a stuck mass. Don't use boiling water — it can crack the porcelain.",
+            },
+            {
+              heading: "When to stop and call us",
+              body: "Two failed plunger attempts = call. Water backing into the shower or tub when you flush = call immediately (that's a main-line issue, not just the toilet). Sewage smell + multiple slow drains = call immediately.",
+            },
+          ],
+        },
+        {
+          heading: "Common Calgary causes of blocked toilets",
+          intro:
+            "When the plunger doesn't solve it, the cause is one of these. The right fix depends on which.",
+          items: [
+            {
+              heading: "Too much paper / wet wipes / hygiene products",
+              body: "Most one-off blockages. Wet wipes are the worst offender — they don't break down in the trap the way toilet paper does, and they're advertised as 'flushable' when they really aren't. Closet auger clears it. Common talk we have with families: switch wet wipes to trash-bin disposal, blockages stop.",
+            },
+            {
+              heading: "Foreign objects (kids' toys, jewelry, dental floss)",
+              body: "Kids drop things in toilets. Adults drop dental floss in toilets (it doesn't dissolve and tangles around everything). Earrings, hair pins, action figures, Lego. Closet auger can sometimes retrieve; sometimes we have to pull the toilet to get at it. Either way, we don't leave it in there to keep causing problems.",
+            },
+            {
+              heading: "Hard water scale in the trapway (chronic slow flush)",
+              body: "Calgary's hard water leaves mineral deposits inside the toilet's curved drain trap over years. The opening narrows, flush velocity drops, and clogs become easier. Symptom: same toilet has gotten slower over the years even without obvious blockages. Fix: tank vinegar soak for surface scale; severe cases need toilet replacement (trapway scale is hard to clean from inside without removal). A [water softener](/water-softener/) prevents it going forward.",
+            },
+            {
+              heading: "Vent stack blocked or undersized",
+              body: "Every toilet has a vent stack connecting to the roof that lets air into the drain system as water moves through. If the vent is blocked (leaves, ice, bird nest, debris from a chinook windstorm) the toilet flushes sluggishly — water can't move because air can't displace behind it. Symptom: weak flush + gurgling from sinks or tubs when you flush. Roof vent clearing is the fix.",
+            },
+            {
+              heading: "Cast-iron or galvanized drain scale (pre-1980 homes)",
+              body: "Older Calgary builds (Mount Royal, Bel-Aire, Bowness, Inglewood, original Brentwood/Thorncliffe) often have cast-iron or galvanized drain lines that have built up internal scale over 40-60 years. The pipe inside diameter has narrowed by 30-50%, which means anything passes through more slowly and clogs more easily. Hydro-jet can clear scale; full drain replacement is the long-term fix.",
+            },
+            {
+              heading: "Tree root intrusion in clay sewer laterals",
+              body: "Heritage neighbourhoods (Mount Royal, Bel-Aire, Bowness, Inglewood, mature areas of Edgemont and Varsity) have decades-old clay sewer laterals running under the front yard. Mature street trees send roots into the pipe joints — toilet is usually the first fixture to back up because it's the largest single discharge. Camera-inspect to confirm, hydro-jet to clear, root barriers or trenchless lining for chronic offenders.",
+            },
+            {
+              heading: "Partial main-line blockage (toilet first symptom)",
+              body: "When the main sewer line is partially blocked (grease buildup, root intrusion, broken section, foreign object lodged), the toilet is often the first fixture that shows it — water rises when you flush, then drains slowly, and you may also see water backing up in the shower or tub. Camera-inspect from the cleanout to find the location and cause, then hydro-jet or excavate depending on what we find.",
+            },
+            {
+              heading: "Low-flow toilet on a flat-slope drain",
+              body: "Some 90s-era low-flow (1.6 GPF) toilets installed on old flat-slope cast-iron drains don't have enough water volume to carry waste through the run. The drain itself isn't blocked — it just lacks the flush velocity. Chronic blockage symptom in this configuration. Fixes: high-efficiency pressure-assist toilet (more flush velocity), or drain replacement with proper slope.",
+            },
+          ],
+        },
+        {
+          heading: "What we do on a blocked-toilet call",
+          intro:
+            "Standard diagnosis + clearing sequence. One-offs done in one visit. Recurring blockages get camera diagnosis before we quote anything bigger.",
+          items: [
+            {
+              heading: "1. Symptom + history",
+              body: "Is this a one-off or has it happened before? Does water back up into the shower/tub when you flush? Any gurgling sounds from other fixtures? Sewage smell? Each answer points at a different cause.",
+            },
+            {
+              heading: "2. Closet auger at the toilet",
+              body: "The first tool we try. A closet auger is a 3-6 foot cable with a protected end that won't scratch porcelain — designed to clear blockages in or just past the trap. Most one-offs clear with this in under 10 minutes.",
+            },
+            {
+              heading: "3. Toilet removal for foreign objects",
+              body: "If we suspect a stuck object the auger can't grab (toy, large hygiene product, hard mass), we pull the toilet, retrieve from the discharge opening, and reset with a fresh wax ring. Common for households with small kids.",
+            },
+            {
+              heading: "4. Hand snake or mainline auger deeper into the line",
+              body: "If the blockage is past the toilet's trap and into the branch or main line, we use a longer cable. Most branch-line blockages clear within 10-20 feet.",
+            },
+            {
+              heading: "5. HD camera inspection (recurring issues only)",
+              body: "If this is the third blockage in 6 months, or water backs into the shower when you flush, we run a camera through the line to find the actual cause. See the location and condition of any scale, roots, or breaks. The camera footage lets us quote the right fix instead of guessing.",
+            },
+            {
+              heading: "6. Hydro-jet for severe scale or root mass",
+              body: "Hydro-jetting uses high-pressure water through a rotating head to scour the inside of the pipe — clears mineral scale, breaks up root masses, removes grease buildup. Restores the line to near-original inside diameter. Quoted separately based on what the camera found.",
+            },
+            {
+              heading: "7. Trenchless lining for chronic root intrusion",
+              body: "For heritage homes where roots have invaded the clay lateral and keep coming back, trenchless pipe lining is the long-term fix. We slide a resin-impregnated liner into the existing pipe; it cures into a new pipe inside the old one, sealing all joints against root re-entry. Lasts 50+ years. Quoted after camera inspection.",
+            },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Blocked Toilet Calgary — FAQs",
+        items: [
+          {
+            q: "Why does my toilet keep getting blocked?",
+            a: "Recurring blockages in the same toilet almost always point to something beyond the toilet itself: hard-water scale narrowing the trapway over time, partial blockage in the branch drain, vent stack issue restricting flush velocity, or main-line problems (tree roots, partial blockage, broken pipe). We run a sewer camera to find the actual cause rather than guessing — same plunger fix every few weeks isn't solving anything.",
+          },
+          {
+            q: "Water backs up into my shower when I flush the toilet — what's wrong?",
+            a: "Main sewer line is partially blocked. The toilet's discharge can't fully pass through, so it backs up into the lowest fixture available — usually the shower or tub drain. This is NOT a toilet problem; it's a main-line problem. Stop using fixtures, call us, we'll camera-inspect from the cleanout to find the cause. Common Calgary causes: tree root intrusion in heritage clay laterals, partial main-line blockage, broken section.",
+          },
+          {
+            q: "Can I use Drano or chemical drain cleaner in my toilet?",
+            a: "We don't recommend it. Chemical drain cleaners that work on sink drains can damage toilet trapway porcelain glazing over time (acid-based cleaners particularly), and they don't actually solve the underlying cause if the blockage is past the toilet. They also make follow-up service calls hazardous for plumbers. Plunger or auger first; if those don't work, call us — we'd rather diagnose properly than work on a chemically-loaded line.",
+          },
+          {
+            q: "How do I plunge a toilet properly?",
+            a: "Use a flange plunger (with the soft rubber sleeve that flips out — designed for toilets), not a flat sink plunger. Make sure there's enough water in the bowl to cover the plunger head. Push down once to expel air from the bell, then plunge vigorously up AND down 6-10 times — the pull-up is as important as the push-down. The water surge in both directions is what breaks the blockage.",
+          },
+          {
+            q: "My kid dropped a toy in the toilet — what now?",
+            a: "Don't flush. Each flush will either push it further down or wedge it harder. If you can see it, fish it out with a wire coat hanger bent into a hook (gently, to avoid scratching the porcelain). If you can't see it, call us — we'll try a closet auger first; if that doesn't grab it, we pull the toilet, retrieve from the discharge opening, and reset with a fresh wax ring.",
+          },
+          {
+            q: "Why does my older home's toilet block more often than my new home's?",
+            a: "A few overlapping reasons. (1) Older homes (pre-1980) often have cast-iron or galvanized drain lines with built-up internal scale — the inside diameter has narrowed over 40-60 years, so the same waste passes through more slowly. (2) Heritage homes (Mount Royal, Bel-Aire, Bowness, Inglewood) often have clay sewer laterals with root intrusion at the joints. (3) Some older toilets that were retrofitted to low-flow during 90s-era renovations don't have enough flush velocity for the original flat-slope drain runs.",
+          },
+          {
+            q: "What's the difference between an auger and a snake?",
+            a: "Both are flexible cables fed through a drain to clear blockages — the names get used interchangeably. The specific tool we use for a toilet is a 'closet auger' — short (3-6 feet), with a protected porcelain-friendly end. For blockages past the toilet's trap we switch to a longer hand snake or mainline auger. For severe scale or root buildup we step up to hydro-jetting (rotating water-jet head). Each tool matches a different scope of problem.",
+          },
+          {
+            q: "Are you available for emergency blocked-toilet calls?",
+            a: "Yes — single blocked toilet that won't clear with a plunger gets priority dispatch. Real person answers the phone, we'll confirm a window before the truck rolls. If the blockage is the main line (water backing into showers/tubs across multiple fixtures), that's also priority — we'd rather diagnose sooner than have you live with backups for days.",
+          },
+        ],
+      },
+    },
+  },
+  {
     slug: "drain-cleaning-calgary",
     category: "Plumbing",
     icon: "water_damage",
