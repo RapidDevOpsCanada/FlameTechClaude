@@ -5358,112 +5358,230 @@ export const services: ServicePage[] = [
     category: "Heating",
     location: "Airdrie",
     icon: "ac_unit",
-    title: "Heat Pumps Airdrie – Expert Installation & Reliable Service",
+    title: "Heat Pumps Airdrie — Cold-Climate Install, Hybrid + Ductless",
     lead:
-      "FlameTech Plumbing & Heating brings superior heat pump expertise to Airdrie homeowners seeking year-round comfort. Serving families throughout Airdrie and surrounding areas, we've built our reputation on delivering dependable heating and cooling solutions that stand up to Alberta's demanding weather patterns.",
+      "Heat pumps in Airdrie make real sense — newer housing stock with modern duct runs, larger lots that simplify outdoor unit placement, and a climate that's cold but workable with the right cold-climate heat pump (CCHP) paired with a gas furnace as backup. The wrong setup, sized wrong or matched wrong, costs more to run than the gas furnace it was supposed to improve. FlameTech sizes, installs, and commissions heat pumps that actually save money in Airdrie's specific climate.",
     heroBody: [
-      "With advanced heat pump technology and hands-on experience, we help Airdrie residents achieve optimal indoor temperatures while keeping monthly utility expenses under control. Wondering whether a heat pump is right for your home? Read our heat pump vs furnace in Calgary comparison.",
-      "Our skilled technicians understand what Airdrie properties need. From frigid January nights to scorching summer afternoons, we've mastered matching the right heat pump systems to homes that face Alberta's dramatic seasonal shifts. Same crew handles [heat pumps in Calgary](/heat-pumps-calgary/), [furnace repair](/airdrie-furnace-repairs/), and [plumbing in Airdrie](/airdrie-plumbers/) more broadly.",
+      "Airdrie sits north of Calgary on open prairie — colder design temperature (−35°C), windier, and a few degrees harsher than Calgary in mid-winter. That changes the heat pump conversation: a standard air-source heat pump that works fine in Vancouver underperforms here below −10°C. The right setup for Airdrie is either (a) a cold-climate heat pump rated to maintain capacity to −25°C, or (b) a hybrid dual-fuel setup where the heat pump handles 80% of the heating season and a gas furnace takes over below the economical balance point.",
+      "We install cold-climate air-source heat pumps (ducted central + ductless mini-split), and pair with existing or new gas furnaces for hybrid backup. Geothermal is technically an option for Airdrie's larger acreage lots on the east + south edge but rarely makes economic sense vs. CCHP today. Same crew that handles [heat pumps in Calgary](/heat-pumps-calgary/), [furnace repair in Airdrie](/airdrie-furnace-repairs/), [boilers in Airdrie](/boilers-airdrie/), and [plumbing in Airdrie](/airdrie-plumbers/).",
+      "Free in-home assessment — we check your electrical panel capacity, existing ductwork, gas line size, outdoor unit placement options, and walk through the rebate landscape. Call 587-834-3668. [Monthly financing](/financing/) available for full systems.",
     ],
-    heroSubhead: "Trusted Local Experts",
+    heroSubhead: "Cold-Climate Heat Pump Specialists",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
-    heroImage: { src: "/images/2025/12/air-ease-ac.webp", alt: "AirEase heat pump installed by FlameTech in Airdrie", fit: "contain" },
+    heroImage: { src: "/images/2025/12/air-ease-ac.webp", alt: "Air-source heat pump installed by FlameTech in Airdrie", fit: "contain" },
     intro:
-      "Heat pump installation, repair, and maintenance in Airdrie. Air-source, ductless mini-split, and geothermal systems. AirEase 12-year parts + labor warranty on qualifying units.",
+      "Airdrie heat pump installation — cold-climate ducted central, ductless mini-split, and hybrid (heat pump + gas furnace backup) systems. Electrical panel + ductwork assessment included. Free in-home quote.",
     features: [
-      "Heat pump installation",
-      "Heat pump repair",
-      "Bi-annual maintenance & tune-ups",
-      "Priority emergency support",
-      "Air-source, ductless, geothermal",
-      "AirEase 12-year warranty*",
+      "Cold-climate heat pump (CCHP) install",
+      "Hybrid dual-fuel (heat pump + gas furnace)",
+      "Ductless mini-split for additions / suites",
+      "Heat pump repair (every brand)",
+      "Bi-annual maintenance + tune-ups",
+      "Greener Homes rebate consultation",
     ],
     bullets: [
       {
-        t: "Alberta-tested sizing",
-        d: "We evaluate square footage, insulation, and comfort preferences to pinpoint the right heat pump for Airdrie conditions.",
+        t: "Sized for Airdrie's −35°C design temp",
+        d: "Airdrie is colder than Calgary in mid-winter and windier year-round (open prairie north of the city). We size cold-climate heat pumps for the −35°C design temperature, not the warmer averages — undersized systems are the #1 reason a Calgary-spec heat pump struggles when it gets installed in Airdrie.",
       },
       {
-        t: "Licensed & fully insured",
-        d: "Every technician maintains current certifications and complete insurance coverage to meet provincial codes.",
+        t: "Hybrid dual-fuel is the default recommendation",
+        d: "Below about −15°C, even cold-climate heat pumps lose efficiency to the point where natural gas is cheaper to run. A hybrid setup keeps your gas furnace as backup, switches automatically at the economical balance point. Best of both: low operating costs through 80% of Alberta's heating season + gas backup for the deep cold.",
+      },
+      {
+        t: "Electrical panel check on every quote",
+        d: "Many pre-2010 Airdrie homes have 100A electrical panels — ducted heat pumps often need 200A capacity to install cleanly. We check before quoting; if a panel upgrade is needed, you'll know upfront. Some installs proceed with the existing panel + load management; others genuinely need the upgrade.",
+      },
+      {
+        t: "Greener Homes + Alberta rebate landscape",
+        d: "Federal Greener Homes Loan + grant program covers heat pumps for qualifying homeowners. Eligibility, paperwork, and approved-equipment lists change — we walk through the current landscape so you know what's actually available before signing anything. Don't take pricing decisions based on rebates that may not apply to your specific install.",
       },
     ],
-    seoTitle: "Heat Pumps Airdrie | Installation, Repair & Service",
+    seoTitle: "Heat Pumps Airdrie | Cold-Climate Install + Hybrid Dual-Fuel",
     seoDescription:
-      "Heat pump installation, repair & service in Airdrie. Energy-efficient heating & cooling, priority response. Free quotes.",
+      "Airdrie heat pump installation — cold-climate, hybrid dual-fuel (heat pump + gas furnace backup), ductless mini-split. Sized for −35°C. Greener Homes rebate help. Call 587-834-3668.",
     seoKeywords: [
       "heat pumps Airdrie",
-      "heat pump install Airdrie",
-      "heat pump repair Airdrie",
-      "ductless mini-split Airdrie",
-      "AirEase heat pump",
+      "heat pump installation Airdrie",
+      "cold climate heat pump Airdrie",
+      "hybrid heat pump furnace Airdrie",
+      "ductless mini split Airdrie",
+      "Greener Homes Airdrie",
       "FlameTech Plumbing Heating",
     ],
     quoteFormLabel: "Airdrie heat pump",
     quoteFormPlaceholder:
-      "e.g. adding a heat pump to an existing furnace, ductless mini-split for a bonus room, geothermal consultation…",
+      "e.g. adding a heat pump to an existing furnace (hybrid), full heat pump + furnace replacement, ductless mini-split for a bonus room, Greener Homes rebate question…",
     sidebar: {
       title: "Airdrie Heat Pumps",
       subtitle:
-        "Energy-efficient heating and cooling matched to your Airdrie home — air-source, ductless, and geothermal systems.",
+        "Cold-climate heat pump install + hybrid dual-fuel setups. Sized for Airdrie's −35°C design temp, electrical panel check included.",
       bullets: [
-        "AirEase 12-year parts + labor warranty*",
-        "Bi-annual tune-ups extend equipment life",
-        "Honest sizing, tailored recommendations",
-        "Priority emergency dispatch",
+        "Free in-home assessment + written quote",
+        "Cold-climate + hybrid + ductless options",
+        "Electrical panel + ductwork check upfront",
+        "Greener Homes rebate consultation",
       ],
     },
     stats: [
-      { number: "12yr", label: "AirEase warranty*", icon: "award" },
+      { number: "−25°C", label: "CCHP design temp", icon: "ac_unit" },
       { number: "5.0★", label: "Google rated", icon: "star" },
-      { number: "Year-round", label: "heat + cool", icon: "ac_unit" },
-      { number: "Licensed", label: "& insured", icon: "verified" },
+      { number: "Red Seal", label: "Gas fitters + electricians", icon: "verified" },
+      { number: "FREE", label: "In-home assessment", icon: "request_quote" },
     ],
+    financing: {
+      detail:
+        "Spread the cost of a heat pump install into monthly payments via our Financeit partner. Pair with the federal Greener Homes Loan (interest-free) where you qualify.",
+    },
     callout:
-      "Planning a heat pump install or noticing weak airflow on an existing unit? Call 587-834-3668 for a free Airdrie assessment.",
+      "Planning a heat pump install in Airdrie? Call 587-834-3668 for a free in-home assessment — we check electrical, ducts, gas line, and walk through rebates.",
     richContent: {
       sections: [
         {
-          heading: "What Makes FlameTech the Right Choice for Airdrie Heat Pumps",
+          heading: "What we install on an Airdrie heat pump call",
           intro:
-            "Finding a dependable heat pump contractor can transform your home's comfort and energy savings. Discover why Airdrie residents continue choosing FlameTech.",
+            "Most common Airdrie configurations. We talk through trade-offs before quoting — there's no one-right-answer for every home.",
           items: [
-            { heading: "Airdrie's Heat Pump Authorities", body: "Our skilled technicians understand what Airdrie properties need. From frigid January nights to scorching summer afternoons, we've mastered matching the right heat pump systems to homes facing Alberta's dramatic seasonal shifts." },
-            { heading: "Licensed & Fully Insured Team", body: "Peace of mind comes standard with every job. Our crew maintains current certifications and complete insurance coverage, ensuring your heat pump project meets all provincial codes and exceeds industry standards." },
+            {
+              heading: "Cold-climate heat pump (CCHP) — ducted central",
+              body: "Single outdoor unit + indoor air handler integrated with your existing ductwork. Cold-climate models (inverter-driven scroll compressors) maintain rated capacity down to about −25°C — Alberta's standard for heat-pump-capable installs. Common brands: Mitsubishi Hyper-Heat, Trane XV20i, Carrier Greenspeed, Daikin Atmosphera.",
+            },
+            {
+              heading: "Hybrid dual-fuel (heat pump + gas furnace)",
+              body: "Heat pump handles heating above the balance point (typically −10°C to −15°C in Alberta), then your gas furnace takes over for the coldest stretch. Best total-cost-of-ownership in our climate — heat pump efficiency in shoulder seasons, gas reliability in deep cold. We can pair a new heat pump with your existing furnace, or install both new as a matched system.",
+            },
+            {
+              heading: "Ductless mini-split",
+              body: "Single outdoor unit + 1-4 indoor heads, no ductwork required. Great for: garage suites, finished basements without ductwork, bonus rooms over garages, master bedroom retrofits, additions. Common Airdrie use case: cooling a single hot upstairs room without retrofitting whole-home AC. Cold-climate ductless options work down to −25°C same as ducted.",
+            },
+            {
+              heading: "Heat pump repair (every brand)",
+              body: "Weak airflow, won't cool, won't heat in mid-temperatures, ice forming on outdoor unit, error codes on the thermostat. Diagnosis-first approach — we test the suspect component before quoting a part. Most repairs finish first visit; brand-specific control boards sometimes need overnight parts.",
+            },
+            {
+              heading: "Bi-annual maintenance + tune-ups",
+              body: "Spring (cooling season prep): clean outdoor coil, check refrigerant charge, inspect electrical, calibrate thermostat for cooling mode. Fall (heating season prep): clear defrost drain, check reversing valve operation, verify heat strip backup (if equipped), test thermostat heat mode. Annual or bi-annual keeps efficiency at design spec.",
+            },
+            {
+              heading: "Existing furnace + AC swap to heat pump",
+              body: "Common Airdrie upgrade path: existing 15+ year old furnace + 10+ year old AC both at end of life. Instead of replacing both, install a heat pump (covers both heating AND cooling) + keep or replace the furnace as backup. Often the same total install cost as a furnace + AC replacement, with much lower operating cost going forward.",
+            },
           ],
         },
         {
-          heading: "Heat Pump Services We Offer",
-          intro: "FlameTech provides end-to-end heat pump solutions built for Airdrie's weather conditions.",
+          heading: "Why Airdrie heat pump installs need a different approach than Calgary",
+          intro:
+            "Airdrie isn't just \"Calgary further north.\" The climate is harsher, the housing stock is younger, and the rebate landscape applies differently. Knowing the local context changes what the right install actually is.",
           items: [
-            { heading: "Heat Pump Installation", body: "Our team conducts thorough home evaluations, analyzing square footage, insulation quality, and comfort preferences to pinpoint the perfect system that delivers results without breaking your budget. From initial consultation through final commissioning, we handle every detail." },
-            { heading: "Heat Pump Repair", body: "Noticing weak airflow, strange noises, or a unit that won't start? Our experienced crew diagnoses and fixes problems across all major heat pump makes and models, getting your Airdrie home back to comfortable temperatures fast." },
-            { heading: "Heat Pump Maintenance & Tune-Ups", body: "Routine care keeps your heat pump running smoothly and prevents unexpected breakdowns. Our detailed maintenance catches small issues before they become costly repairs, reduces energy waste, and adds years to your equipment's working life." },
-            { heading: "Priority Emergency Heat Pump Support", body: "Heating emergencies strike without warning, often during Airdrie's coldest snaps or hottest days. FlameTech offers priority emergency heat pump services in Airdrie so your family stays safe and comfortable when trouble hits." },
+            {
+              heading: "Colder design temperature than Calgary",
+              body: "Airdrie sits on open prairie at higher elevation and gets meaningfully colder mid-winter — design temperature is around −35°C vs Calgary's −30°C. A heat pump rated for Calgary's design temp will be undersized in Airdrie. We size for Airdrie's real number, not the warmer Calgary spec the equipment was originally engineered against.",
+            },
+            {
+              heading: "Wind exposure matters",
+              body: "Airdrie's open prairie wind exposure increases the cooling effect on outdoor heat pump units, especially during wind chill events. We position outdoor units to minimize prevailing wind exposure (north or east walls usually, away from the prevailing west wind), add wind baffles where needed, and elevate units off the ground to avoid drift snow burying them in winter storms.",
+            },
+            {
+              heading: "Predominantly post-1990 housing stock",
+              body: "Most of Airdrie was built between 1995 and 2020 — Coopers Crossing, Ravenswood, Reunion, Kingsview, Bayside, Williamstown. That's both good and challenging: modern construction means tighter envelopes (heat pumps work well), but smaller mechanical-room footprints (squeeze fitting in a heat pump + furnace dual-fuel system) and pre-2010 builds often have 100A electrical service that needs upgrading for ducted central heat pumps.",
+            },
+            {
+              heading: "Larger lots simplify outdoor unit placement",
+              body: "Airdrie lots are typically larger than Calgary inner-city lots — easier to place the outdoor heat pump unit at least 3 ft from any wall (manufacturer spec for airflow), away from bedroom windows (noise), and clear of snow drift accumulation zones. Inner-Calgary infill homes often have to use unconventional placement; Airdrie usually doesn't.",
+            },
+            {
+              heading: "Electrical panel capacity check",
+              body: "Pre-2010 Airdrie homes (Coopers Crossing core, Big Springs, Big Hill, Meadowbrook) often have 100A electrical panels that work fine for furnace + AC but can't support a ducted central heat pump without a panel upgrade. Newer builds (post-2015 — Bayside, Williamstown, Hillcrest) typically have 200A service. We check the panel before quoting; if upgrade is needed, you know upfront.",
+            },
+            {
+              heading: "Hybrid is usually the right answer",
+              body: "Alberta natural gas is cheap. Heat pump electricity is cheap above −10°C. Below that, the heat pump's efficiency drops to where gas becomes the cheaper fuel per BTU. A hybrid system that switches automatically at the economical balance point gives you the best of both fuels through Airdrie's full heating season. Pure-electric heat pump (with electric backup) is technically possible but rarely the lowest-total-cost option here.",
+            },
+            {
+              heading: "Federal Greener Homes program",
+              body: "Federal Canada Greener Homes Loan offers interest-free financing for heat pump installations meeting specific efficiency thresholds (typically Energy Star Most Efficient or CCHP rated). Grant program rules have shifted over time — we walk through the current rules before you commit. Don't make pricing decisions based on rebates that may not apply to your specific install or address.",
+            },
+            {
+              heading: "Same dispatch as Calgary",
+              body: "We dispatch from Calgary up the QEII into Airdrie — same crew, same install standards, same warranty. Quick access to the QEII exits at Yankee Valley + 40 Ave. No \"out of service area\" surcharge for Airdrie.",
+            },
           ],
         },
         {
-          heading: "AirEase Special — 12-Year Parts and Labor Warranty*",
+          heading: "How a heat pump install actually runs",
           intro:
-            "Qualifying residential products (Heat Pump Model 4SHP18LX) come with a 12-year parts + labor warranty when you register within 60 days of installation, use in an owner-occupied residence, and maintain documented annual professional maintenance. *Terms and conditions apply.",
-        },
-        {
-          heading: "Finding the Right Heat Pump for Your Airdrie Home",
+            "Typical 1-2 day install for ducted central; ductless mini-split single-room install often finishes same day.",
           items: [
-            { heading: "Available Heat Pump Types", body: "We work with various heat pump styles — traditional air-source units, versatile ductless mini-splits, and high-efficiency geothermal systems — to accommodate different Airdrie properties." },
-            { heading: "Factors to Consider", body: "Choosing the best heat pump involves weighing home size, upfront costs, long-term energy savings, and environmental impact. We walk through each factor with you so you can make a confident, informed decision." },
-            { heading: "Expert Advice Tailored to You", body: "Backed by extensive training and real-world experience serving Airdrie households, we provide honest, customized suggestions that address your specific heating and cooling needs." },
+            {
+              heading: "1. In-home assessment + heat-loss calc",
+              body: "We measure your home (square footage, ceiling heights, insulation, windows), pull a Manual J heat-loss calculation, and size the heat pump to actual load — not a default \"X tons per Y sqft\" rule of thumb. Wrong sizing is the #1 reason heat pumps disappoint in Alberta.",
+            },
+            {
+              heading: "2. Electrical + ductwork + gas line check",
+              body: "Verify electrical panel capacity, existing ductwork can handle the new air handler's CFM rating, gas line size if hybrid setup, outdoor unit placement options. Any infrastructure upgrades quoted upfront before you commit to the heat pump itself.",
+            },
+            {
+              heading: "3. Equipment selection + rebate walkthrough",
+              body: "Match the heat pump model to your home's load, budget, and rebate eligibility. Walk through Canada Greener Homes Loan + grant rules + any active Alberta-specific programs. You see the math on both pure-cost and rebate-adjusted cost before signing.",
+            },
+            {
+              heading: "4. Outdoor unit install",
+              body: "Mount the outdoor unit on a pad or wall bracket, elevated above expected snow accumulation. Connect refrigerant lines, control wiring, and condensate drain. Wind baffles added if exposure warrants.",
+            },
+            {
+              heading: "5. Indoor unit + integration",
+              body: "Mount and connect the indoor air handler (ducted) or wall-mounted heads (ductless). Integrate with existing ductwork or run new lineset. Install or upgrade the thermostat (heat pumps need a compatible thermostat — many older ones aren't). Hybrid integration: wire the heat pump and gas furnace to a smart thermostat that handles automatic switchover at the balance point.",
+            },
+            {
+              heading: "6. Commissioning + walkthrough",
+              body: "Verify refrigerant charge, run heating and cooling cycles to confirm proper operation, check temperature differential at the registers, register manufacturer warranty, submit any rebate paperwork. Walk you through the thermostat, defrost cycle behavior (it'll cycle into cooling mode briefly to clear outdoor coil ice — normal, not a malfunction), and maintenance schedule.",
+            },
           ],
         },
       ],
       faq: {
-        heading: "Frequently Asked Heat Pump Questions from Airdrie Residents",
-        intro:
-          "Get in touch for a free, no-obligation quote on heat pump services in Airdrie. Reach us by phone, email, or our online booking system.",
+        heading: "Heat Pumps Airdrie — FAQs",
         items: [
-          { q: "How often does a heat pump need professional maintenance?", a: "Schedule tune-ups twice per year — once before winter and again before summer. This bi-annual approach helps your system run at maximum efficiency while catching minor issues before they turn into major headaches." },
-          { q: "What are the warning signs that my heat pump needs repair?", a: "Watch for uneven temperatures throughout your home, grinding or rattling sounds, water pooling near the unit, frost building up on coils, or sudden increases in your energy bills. If you spot any of these, call our Airdrie heat pump repair team right away." },
-          { q: "How long does it take to install a new heat pump?", a: "The timeline depends on which system you choose and how complex your installation requirements are. We provide clear timeframes upfront during your consultation so you know exactly what to expect." },
+          {
+            q: "Do heat pumps actually work in Airdrie's cold winters?",
+            a: "Modern cold-climate heat pumps (CCHP) maintain rated heating capacity down to about −25°C — they work for the vast majority of Alberta's heating season. Below that, efficiency drops. Best Alberta setup is hybrid dual-fuel: heat pump as the primary heat source above the balance point (typically around −10°C to −15°C depending on the specific equipment + house), gas furnace as backup below. You get heat pump efficiency through 80%+ of the heating season and gas reliability in deep cold.",
+          },
+          {
+            q: "Heat pump vs gas furnace — which is right for my Airdrie home?",
+            a: "Depends on your priorities. Gas furnace alone: cheapest install, highest operating cost in shoulder seasons, no cooling. Heat pump alone (with electric backup): highest install cost, best efficiency in mild weather, expensive in deep cold. Hybrid (heat pump + gas furnace): mid-range install cost, lowest annual operating cost in Alberta climate, includes cooling. For most Airdrie homes, hybrid is the answer. Air-conditioning capability is a real bonus for the 2-3 hot weeks Airdrie sees in summer.",
+          },
+          {
+            q: "Do I need to keep my existing furnace if I install a heat pump?",
+            a: "In Alberta, yes — strongly recommended. Even cold-climate heat pumps lose meaningful efficiency below −15°C, and Airdrie sees stretches well below that every winter. Keeping your gas furnace as backup (the hybrid dual-fuel setup) means you have a reliable heat source for the coldest week of the year, plus you avoid the cost of a high-capacity electric backup heater. The exception: if your existing furnace is past end of life, we install a new high-efficiency furnace alongside the new heat pump as a matched system.",
+          },
+          {
+            q: "Will my electrical panel handle a heat pump?",
+            a: "Often yes, sometimes no. Most ducted central heat pumps need a 30-50 amp dedicated breaker. Pre-2010 Airdrie homes with 100A panels (common in Coopers Crossing core, Big Springs, Big Hill) often need a panel upgrade to accommodate the load. Post-2015 builds typically have 200A service that handles it without upgrade. We check during the in-home assessment and quote any panel upgrade separately so you see the full cost upfront before deciding.",
+          },
+          {
+            q: "What size heat pump do I need for a 2,000 sqft Airdrie home?",
+            a: "Sizing depends on insulation, window area + quality, ceiling height, air leakage, ductwork, and orientation — not just square footage. A 2,000 sqft 1990s build in Coopers Crossing with original windows and average insulation needs a different size than a 2,000 sqft 2020 Bayside build with triple-pane windows and tight envelope. We do a Manual J heat-loss calculation as part of the assessment — gives the actual load number, then we size the equipment to match.",
+          },
+          {
+            q: "Can I get a rebate for installing a heat pump in Airdrie?",
+            a: "The federal Canada Greener Homes program has supported heat pump installs across Canada — Loan (interest-free financing) and Grant (cash back) components. Eligibility, equipment qualifications, and application windows have changed over time. We walk through current rules during the assessment so you know what's actually available for your specific install and address before committing. Don't take pricing decisions based on a rebate that may not apply.",
+          },
+          {
+            q: "What's the difference between ducted and ductless heat pumps?",
+            a: "Ducted central heat pump integrates with your home's existing ductwork — one outdoor unit + one indoor air handler. Whole-home heating + cooling through your existing vents. Best for homes with good existing ductwork. Ductless mini-split has one outdoor unit + 1-4 indoor wall-mounted heads, no ductwork needed. Best for: bonus rooms, garage suites, finished basements without ducts, additions, or single-room cooling/heating without modifying the rest of the house.",
+          },
+          {
+            q: "How loud is a heat pump outdoor unit?",
+            a: "Modern variable-speed heat pumps are noticeably quieter than older single-stage AC units — typically 50-60 dB at the unit itself (similar to a conversation). At 10 ft away that drops to about 40-50 dB (quieter than a dishwasher). We position outdoor units away from bedroom windows and use vibration-isolating mounts on the pad. Most homeowners don't notice them after the first week.",
+          },
+          {
+            q: "How long does a heat pump last in Alberta?",
+            a: "Air-source heat pumps in Alberta typically last 12-15 years for the outdoor unit, with the indoor air handler often lasting longer. Cold-climate variable-speed models are still relatively new to the market — we don't have 20-year data on those specifically, but the technology is more durable than older single-speed compressors. Bi-annual professional maintenance extends life noticeably. Compare to gas furnaces (15-20 years) — heat pump lifespan is slightly shorter on the equipment side but the install is doing more work (heating AND cooling).",
+          },
+          {
+            q: "Are you available for emergency heat pump repair in Airdrie?",
+            a: "Yes — no heat in winter or no cooling during a heat wave gets priority dispatch. Real person answers the phone, we'll confirm a window before the truck rolls. Same crew that handles our [no heat](/no-heat-issues-calgary/) and [furnace repair](/airdrie-furnace-repairs/) work. Most no-heat calls finish first visit; brand-specific control boards sometimes need overnight parts.",
+          },
         ],
       },
     },
