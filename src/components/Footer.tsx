@@ -28,6 +28,7 @@ const plumbingLinks = [
   { label: "Drain Cleaning", href: "/drain-cleaning-calgary/" },
   { label: "Emergency Plumbing", href: "/emergency-plumber-calgary/" },
   { label: "PolyB Replacement", href: "/polyb-plumbing-calgary/" },
+  { label: "Plumbing Repairs", href: "/plumbing-repairs-calgary/" },
   { label: "Sump Pump Install", href: "/sump-pump-installation-calgary/" },
 ];
 

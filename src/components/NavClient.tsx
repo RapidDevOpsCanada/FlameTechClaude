@@ -105,6 +105,12 @@ const menu: NavItem[] = [
               desc: "Full replacement for 80s/90s homes.",
             },
             {
+              label: "Plumbing Repairs",
+              href: "/plumbing-repairs-calgary/",
+              icon: "build",
+              desc: "Leaks, pipes, fixtures — diagnosis-first repair.",
+            },
+            {
               label: "Sump Pump Install",
               href: "/sump-pump-installation-calgary/",
               icon: "water_damage",

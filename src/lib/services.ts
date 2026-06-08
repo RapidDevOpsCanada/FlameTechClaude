@@ -1286,6 +1286,225 @@ export const services: ServicePage[] = [
     },
   },
   {
+    slug: "plumbing-repairs-calgary",
+    category: "Plumbing",
+    icon: "plumbing",
+    title: "Plumbing Repairs Calgary — Leaks, Pipes, Fixtures & Drains",
+    lead:
+      "Most plumbing repair calls in Calgary fall into a few buckets: leaks (pipe, fitting, fixture), failing supply lines and shutoffs, drain backups, toilet and fixture issues, and the heritage-specific repairs that come with our oldest housing stock. FlameTech diagnoses the underlying cause first, fixes correctly the first time, and tells you straight when a repair is throwing money at a system that needs replacement.",
+    heroBody: [
+      "We dispatch from Calgary across every neighbourhood for general plumbing repairs — same crew that handles our specialty work like [emergency plumbing](/emergency-plumber-calgary/), [Poly-B replacement](/polyb-plumbing-calgary/), [drain cleaning](/drain-cleaning-calgary/), [hot water issues](/hot-water-issues-calgary/), [blocked toilets](/blocked-toilet-calgary/), and [no heat calls](/no-heat-issues-calgary/). Most one-off repairs finish in the first visit because the truck carries common parts.",
+      "Calgary's housing stock is unusually varied — 1910s heritage homes in [Mount Royal](/mount-royal-plumbers-calgary/) and [Bel-Aire](/bel-aire-plumbers-calgary/), post-war 1960s-70s builds in [Brentwood](/calgary-plumbers-nw/) and [Bowness](/bowness-plumbers-calgary/), the 1980s-90s Poly-B era, 2000s mass-builds in [Mahogany](/mahogany-plumbers-calgary/) and [Auburn Bay](/auburn-bay-plumber-calgary/), and modern PEX rebuilds. The plumbing repairs we see vary by era — knowing which pattern fits your home is half the diagnosis.",
+      "Call 587-834-3668 — priority dispatch for active leaks, scheduled visit for planned repairs. Free written quote on bigger jobs before any work starts.",
+    ],
+    heroSubhead: "Calgary Plumbers Who Diagnose First & Quote Honestly",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing repair service van across Calgary", fit: "cover" },
+    intro:
+      "Calgary plumbing repairs — leaks, supply lines, shutoffs, drain backups, toilet and fixture work, heritage galvanized + cast-iron, modern PEX. Priority dispatch, free written quotes. Call 587-834-3668.",
+    features: [
+      "Leak detection + repair",
+      "Pipe replacement (galvanized, cast-iron, Poly-B, PEX)",
+      "Shutoff valve + supply line replacement",
+      "Drain + sewer line repairs",
+      "Toilet + fixture repairs",
+      "Water hammer + pressure issues",
+    ],
+    bullets: [
+      {
+        t: "Diagnose first, fix second",
+        d: "We trace the underlying cause before quoting a repair. A leak at the ceiling stain isn't necessarily a leak in the ceiling — could be a fitting two metres uphill, or condensation, or a roof leak masquerading as plumbing. Getting the cause right saves you from paying for the wrong fix.",
+      },
+      {
+        t: "Common parts on every truck",
+        d: "Supply lines, shutoffs, wax rings, common cartridge brands (Moen, Delta, Kohler, Grohe), basic copper + PEX fittings, P-traps, drain saddles. Most one-off repairs finish in the first visit. We tell you upfront if a part needs ordering.",
+      },
+      {
+        t: "Honest repair vs. replace call",
+        d: "If you've already had three pinhole leaks in the same galvanized supply line, repairing the fourth is throwing money at a system that needs replacement. We'll say so and quote both options. Same logic on aging toilets, water heaters, and fixtures.",
+      },
+      {
+        t: "Heritage-home experience",
+        d: "1960s-70s Calgary stock has its own repair patterns — galvanized supply scale, cast-iron stack failures at the joints, original clay sewer laterals. We've worked these homes for years across Mount Royal, Bel-Aire, Bowness, Inglewood, and the older parts of Brentwood, Thorncliffe, and Cambrian Heights.",
+      },
+    ],
+    seoTitle: "Plumbing Repairs Calgary | Leaks, Pipes, Fixtures, Drains",
+    seoDescription:
+      "Calgary plumbing repairs by Red Seal plumbers. Leaks, pipe replacement, shutoffs, drain backups, toilet + fixture work, heritage galvanized. Priority dispatch. Call 587-834-3668.",
+    seoKeywords: [
+      "plumbing repairs Calgary",
+      "Calgary plumber repair",
+      "leak repair Calgary",
+      "pipe repair Calgary",
+      "fixture repair Calgary",
+      "FlameTech Plumbing",
+    ],
+    quoteFormLabel: "plumbing repair",
+    quoteFormPlaceholder:
+      "e.g. ceiling stain from upstairs bathroom, dripping kitchen faucet, frozen pipe burst, low water pressure, leaking shutoff valve, running toilet…",
+    sidebar: {
+      title: "Calgary Plumbing Repairs",
+      subtitle:
+        "Diagnosis-first repair on every common Calgary plumbing issue. Priority dispatch for active leaks, scheduled visits for planned work.",
+      bullets: [
+        "Priority dispatch for active leaks",
+        "Common parts on every truck",
+        "Free written quote on bigger jobs",
+        "Heritage + modern stock experience",
+      ],
+    },
+    stats: [
+      { number: "25+", label: "Years in Calgary", icon: "verified" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "FREE", label: "Written estimates", icon: "request_quote" },
+      { number: "Red Seal", label: "Plumbers + gas fitters", icon: "award" },
+    ],
+    callout:
+      "Active leak, burst pipe, no water? Call 587-834-3668 — priority dispatch with common parts on every truck.",
+    richContent: {
+      sections: [
+        {
+          heading: "What we repair",
+          intro:
+            "Most plumbing-repair calls in Calgary fall into one of these. Each one has its own diagnostic path and its own repair-vs-replace calculus.",
+          items: [
+            {
+              heading: "Leaks (pipe, fitting, fixture)",
+              body: "Pinhole leaks in copper supply, weeping fittings, fixture connection leaks, slab leaks. Most accessible leaks fix on the first visit with a fitting repair or short section replacement. Hidden leaks (in walls, ceilings, slabs) often need a leak-detection pass before we open anything up — minimizes drywall damage.",
+            },
+            {
+              heading: "Burst pipes (cold-snap emergencies)",
+              body: "Frozen-then-burst pipes during −30°C cold snaps are our most common winter emergency. Priority dispatch, water shutoff first, then thaw and replace the burst section. See [emergency plumbing](/emergency-plumber-calgary/) for active emergencies.",
+            },
+            {
+              heading: "Failing shutoff valves + supply lines",
+              body: "Toilet shutoffs that don't fully close, dishwasher supply lines past their service life, ice-maker lines from the 90s that are about to burst. We replace shutoffs with quarter-turn ball valves and supply lines with braided stainless — both inexpensive upgrades that prevent the kind of leak that takes out a basement ceiling.",
+            },
+            {
+              heading: "Drain backups + slow drains",
+              body: "Kitchen, bathroom, basement, or main-line backups. Quick clears with a hand snake; harder cases need a camera + hydro-jet. See [drain cleaning](/drain-cleaning-calgary/) for the full diagnostic walkthrough, and [blocked toilet](/blocked-toilet-calgary/) when the toilet's the symptom.",
+            },
+            {
+              heading: "Toilet repairs",
+              body: "Running toilet, leaking at the base, weak flush, sweating tank in summer. Most internal-component repairs (flush valve, fill valve, flapper, supply line, shutoff, wax ring) finish in 30-60 minutes. Older Calgary toilets with hard-water scale damage often need full replacement — see [toilet installation](/toilet-installation-calgary/).",
+            },
+            {
+              heading: "Faucet + fixture repairs",
+              body: "Dripping kitchen or bathroom faucets, leaking shower valves, weak flow from aerators. Most modern fixtures (Moen, Delta, Kohler, Grohe) repair with manufacturer cartridge kits we stock on the truck. Older or discontinued brands often make full fixture replacement the cheaper option.",
+            },
+            {
+              heading: "Water hammer + pressure issues",
+              body: "Banging pipes after fixtures shut off (water hammer), low pressure throughout the house, fluctuating pressure on hot vs cold. Causes vary — missing or failed air chambers, loose pipe straps, pressure regulator issues, partial blockage in old galvanized supply. Diagnosis matters: each cause has a different fix.",
+            },
+            {
+              heading: "Hot water issues",
+              body: "No hot water, lukewarm, runs out fast, popping noises, discoloured. See our [hot water issues](/hot-water-issues-calgary/) page for the full symptom-to-cause mapping. Most repairs (thermostat, element, anode rod, TPR valve, gas control valve) we handle on the same visit.",
+            },
+            {
+              heading: "Heritage-home pipe issues",
+              body: "Pre-1980 Calgary homes often have galvanized supply lines closing off with scale, cast-iron stacks failing at the joints, or original clay sewer laterals with root intrusion. Repair options range from spot fixes through full re-pipes — we quote both honestly. Heritage neighbourhoods we work most: Mount Royal, Bel-Aire, Bowness, Inglewood, original Brentwood + Thorncliffe + Cambrian Heights.",
+            },
+          ],
+        },
+        {
+          heading: "Why Calgary plumbing repairs are different from generic-city repairs",
+          intro:
+            "Calgary's water profile, climate, and unusually varied housing stock create repair patterns you don't see the same way in other cities. Knowing the pattern by era + neighbourhood is half the diagnosis.",
+          items: [
+            {
+              heading: "Hard water accelerates fixture wear",
+              body: "Calgary water runs 150-200 mg/L hardness. Mineral scale builds up inside faucet cartridges, shower valves, toilet trapways, and water heater tanks faster than in soft-water cities. Fixtures that should last 15-20 years often need cartridge service at 8-10 years here. A whole-home [water softener](/water-softener/) dramatically extends fixture life.",
+            },
+            {
+              heading: "Freeze-thaw stress on supply lines",
+              body: "Calgary's chinook freeze-thaw cycles expand and contract supply lines constantly through winter. Older copper joints that survived 30 years can develop pinhole leaks after a particularly harsh chinook season. Exposed pipes in garages, crawl spaces, and exterior walls are the highest-risk spots — frost-free sillcocks and pipe insulation prevent most freeze-burst calls.",
+            },
+            {
+              heading: "Galvanized supply lines in 1960s-70s stock",
+              body: "Original housing in Brentwood, Thorncliffe, Cambrian Heights, Montgomery, North Haven, and parts of Bowness was piped with galvanized steel. Internal corrosion narrows the pipe diameter over decades — pressure drops, hot side worse than cold, brownish first-draw water. Spot repairs are temporary; permanent fix is repipe to PEX or copper.",
+            },
+            {
+              heading: "Cast-iron stacks reaching end of life",
+              body: "Pre-1970 Calgary builds have cast-iron drain stacks reaching 55-65 years old. Symptoms: joints separating, pinhole rust through horizontal runs at the bottom of the stack, occasional sewer-gas smell in basement bathrooms. Repair options range from spot patches through full stack replacement.",
+            },
+            {
+              heading: "Poly-B in 1980s-90s builds",
+              body: "Heavy polybutylene installation across Edgemont, Hamptons, Hawkwood, Varsity, Dalhousie, Sandstone Valley, and similar 80s-90s neighbourhoods. The plastic crimp fittings fail without warning. Poly-B is a dedicated repair-vs-replace conversation — see [Poly-B replacement](/polyb-plumbing-calgary/).",
+            },
+            {
+              heading: "Clay sewer laterals + mature street trees",
+              body: "Heritage Calgary streets (Mount Royal, Bel-Aire, Bowness, Inglewood, Edgemont older sections, Varsity) have mature elms, poplars, and willows sending roots into clay sewer laterals at the joints. Symptoms: recurring toilet backups, slow drains, sewer-gas smell. Camera-inspect, hydro-jet, and recommend root barriers or trenchless lining for chronic offenders.",
+            },
+            {
+              heading: "Newer-build pinhole copper",
+              body: "2010s+ builds with mass-produced copper supply lines occasionally develop pinhole leaks at the 8-12 year mark from manufacturing variability + Calgary's water chemistry. Common spot to find them: hot lines under master bathrooms, copper between joists where condensation accelerates wear.",
+            },
+          ],
+        },
+        {
+          heading: "Decision framework — repair or replace?",
+          intro:
+            "Some plumbing problems are obvious one-time fixes. Others are early signs of a system reaching end of life. Knowing the difference saves money on both ends — paying to repair a system that's about to fail again is as wasteful as replacing one with 10 years of life left.",
+          items: [
+            {
+              heading: "Single failure on a young system → repair",
+              body: "8-year-old toilet with a worn flapper, 5-year-old faucet with a failed cartridge, single pinhole leak on a 10-year-old copper line — all clear repair calls. The rest of the system has plenty of life left.",
+            },
+            {
+              heading: "Repeat failures on the same system → replace",
+              body: "Third pinhole leak on the same supply line, fourth fix on the same shutoff valve, repeated blockages on the same drain run — repeat failures are the system telling you something. The next failure is coming. Replacement once is cheaper than the next three repair calls.",
+            },
+            {
+              heading: "Age past lifespan + significant failure → replace",
+              body: "25-year-old galvanized supply lines + a major leak = repipe. 12-year-old water heater + a leaking tank = replace. 60-year-old cast-iron stack + joint failures throughout = stack replacement. We'll quote both options and let you make the call.",
+            },
+            {
+              heading: "Safety issues → always replace",
+              body: "Cracked heat exchanger on a furnace, lead-soldered joints leaching into drinking water, gas leak at an old valve — these aren't repair-vs-replace conversations. Replacement is the only safe option.",
+            },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Plumbing Repairs Calgary — FAQs",
+        items: [
+          {
+            q: "How fast can you get to an active leak in Calgary?",
+            a: "Active leaks (visible water, burst pipe, sewage backup) get priority dispatch — same-day for most addresses in Calgary and surrounding municipalities. Call 587-834-3668. While you wait: shut off the main water supply (usually in the basement near where the water enters the home), then any individual fixture shutoffs near the leak. Stopping water flow is the most important thing — water-damage cleanup is more expensive than the plumbing repair itself.",
+          },
+          {
+            q: "Do you charge a service call fee for a quote?",
+            a: "Diagnosis service call fee applies to repair work — but it's applied toward the repair cost if you proceed. Free written quotes on bigger planned jobs (re-pipes, fixture replacements, full bathroom work). We tell you upfront which bucket the call is in before we head out.",
+          },
+          {
+            q: "My ceiling has a water stain — is it a plumbing leak or something else?",
+            a: "Could be either. Ceiling stains under a bathroom are usually plumbing (toilet wax ring, shower pan, tub overflow, supply line). Ceiling stains in random spots could be roof leak, condensation from a poorly insulated bathroom fan exhaust, or AC condensate line failure. We diagnose before opening anything up — leak-detection equipment narrows it down without unnecessary drywall damage.",
+          },
+          {
+            q: "Why does my water pressure suddenly feel low?",
+            a: "Common causes: city-side issue (check with neighbours and the City of Calgary), partial blockage in the main supply line (often scale from old galvanized pipes), failed pressure regulator if your home has one, or a stuck shutoff valve part-way closed. Whole-house low pressure usually means city or main supply; single-fixture low pressure usually means the fixture itself (aerator clog, cartridge wear, supply-line restriction).",
+          },
+          {
+            q: "Should I repair my old toilet or replace it?",
+            a: "Toilet bowls last essentially forever (porcelain doesn't really wear out); what fails is the internal components — flush valve, fill valve, flapper, supply line. Those repair easily up to about 12-15 years; beyond that, the trapway often has enough hard-water scale buildup that the toilet flushes weakly even with all-new internals. We'll quote both: repair the internals vs. install a new high-efficiency toilet — see our [toilet installation](/toilet-installation-calgary/) page for install scope.",
+          },
+          {
+            q: "How long does a typical plumbing repair call take?",
+            a: "Most one-off repairs: 1-2 hours including diagnosis. Faucet cartridge swap, toilet rebuild, shutoff valve replacement, single-pipe leak repair — all in that range. Bigger jobs (full toilet replacement, multi-fixture work, partial re-pipe, hot water tank swap) run a half to a full day. Major jobs (full re-pipe, sewer lateral replacement) take multiple days. We tell you upfront which bucket your job is in.",
+          },
+          {
+            q: "Are you licensed and insured?",
+            a: "Yes. Alberta-licensed plumbers and gas fitters, Red Seal certified, fully insured and bonded. Insurance certificate available on request before we start any job.",
+          },
+          {
+            q: "Do you do plumbing repairs outside Calgary?",
+            a: "Yes. We dispatch to Airdrie, Bearspaw, Chestermere, Cochrane, Okotoks, Carstairs, and surrounding communities — same Red Seal team as our Calgary work. See our [areas served](/calgary-plumbers-sw/) pages for the specific dispatch patterns by region.",
+          },
+        ],
+      },
+    },
+  },
+  {
     slug: "sump-pump-installation-calgary",
     category: "Plumbing",
     icon: "water_damage",
