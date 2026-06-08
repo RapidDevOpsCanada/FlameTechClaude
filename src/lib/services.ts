@@ -191,7 +191,7 @@ export const services: ServicePage[] = [
       "Calgary's hard water and extreme temperature swings wreak havoc on bathroom plumbing — we see it every day. FlameTech's bathroom plumbing specialists handle everything from emergency burst pipes in older [Mount Royal](/mount-royal-plumbers-calgary/) homes to complete bathroom renovations in new [Evergreen](/evergreen-plumbers-calgary/) developments.",
     heroBody: [
       "When your toilet won't stop running at 3 AM or your shower suddenly turns ice cold, we answer the phone — not a voicemail system. Our Calgary crews are equipped to handle any bathroom plumbing emergency with priority dispatch, day or night.",
-      "From emergency calls in established neighbourhoods to full renovations in new builds, our Calgary plumbing specialists have seen every bathroom configuration this city has to offer.",
+      "From emergency calls in established neighbourhoods to full renovations in new builds, our Calgary plumbing specialists have seen every bathroom configuration this city has to offer. Specific bathroom calls we get a lot: [blocked toilet diagnosis + clearing](/blocked-toilet-calgary/), [toilet installation](/toilet-installation-calgary/), and [shower plumbing](/shower-plumbing-calgary/).",
     ],
     heroSubhead: "Trusted Calgary Bathroom Plumbing Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
@@ -487,7 +487,7 @@ export const services: ServicePage[] = [
       "Most toilet installs are 1-2 hours and look the same on the surface — but how the flange, supply line, and wax ring are handled is the difference between a 15-year toilet and a leak in 18 months. FlameTech installs Toto, Kohler, American Standard, and any owner-supplied unit with a fresh wax ring, supply line, and shutoff every time.",
     heroBody: [
       "We install toilets across every Calgary neighbourhood — from comfort-height swaps in [Bel-Aire](/bel-aire-plumbers-calgary/) and [Mount Royal](/mount-royal-plumbers-calgary/) aging-in-place renovations, to wall-hung Toto/Geberit installs in luxury rebuilds, to straight 1-piece swaps in [Mahogany](/mahogany-plumbers-calgary/) and [Auburn Bay](/auburn-bay-plumber-calgary/).",
-      "Every install includes flange inspection (most older homes have cracked or corroded flanges that look fine until you lift the old toilet), new wax ring or waxless gasket, new braided supply line, and a fresh shutoff valve if the existing one is older than ~10 years.",
+      "Every install includes flange inspection (most older homes have cracked or corroded flanges that look fine until you lift the old toilet), new wax ring or waxless gasket, new braided supply line, and a fresh shutoff valve if the existing one is older than ~10 years. Existing toilet [keeps blocking](/blocked-toilet-calgary/)? Often a separate issue from the toilet itself — we diagnose before recommending replacement.",
       "Free in-home quote — call 587-834-3668. Pair with our [bathroom plumbing](/bathroom-plumbing-calgary/) and [drain cleaning](/drain-cleaning-calgary/) work for full bathroom renos.",
     ],
     heroSubhead: "Standard, Comfort-Height, Wall-Hung — Every Major Brand",
@@ -887,7 +887,7 @@ export const services: ServicePage[] = [
     heroBody: [
       "Our certified technicians use advanced equipment including hydro-jetting systems, drain snakes, and video inspection cameras to tackle everything from kitchen grease buildup to tree root intrusions.",
       "Drain emergencies don't follow business hours. FlameTech provides priority [emergency plumbing](/emergency-plumber-calgary/) throughout Calgary and surrounding areas — our response team arrives with professional-grade tools to resolve drainage issues quickly and prevent water damage.",
-      "Calgary's hard water accelerates scale buildup inside drainage lines. If you're seeing recurring backups, a [water softener install](/water-softener/) often pairs well with regular cleaning. We also cover [Airdrie](/airdrie-plumbers/), [Chestermere](/chestermere-plumbers/), and [Cochrane](/cochrane-plumbers/).",
+      "Calgary's hard water accelerates scale buildup inside drainage lines. If you're seeing recurring backups, a [water softener install](/water-softener/) often pairs well with regular cleaning. For the single most common drain call we get — a [blocked toilet](/blocked-toilet-calgary/) — we have a dedicated diagnostic walkthrough covering one-off clogs through chronic root intrusion. We also cover [Airdrie](/airdrie-plumbers/), [Chestermere](/chestermere-plumbers/), and [Cochrane](/cochrane-plumbers/).",
     ],
     heroSubhead: "Trusted Calgary Drain Cleaning Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
