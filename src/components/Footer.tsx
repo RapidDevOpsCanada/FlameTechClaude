@@ -86,6 +86,7 @@ const serviceAreas: { label: string; href: string }[] = [
   { label: "Huntington Hills", href: "/huntington-hills-plumbers-calgary/" },
   { label: "Airdrie", href: "/airdrie-plumbers/" },
   { label: "Chestermere", href: "/chestermere-plumbers/" },
+  { label: "Bearspaw", href: "/bearspaw-plumbers/" },
   { label: "Cochrane", href: "/cochrane-plumbers/" },
   { label: "Okotoks", href: "/okotoks-plumbers/" },
   { label: "Carstairs", href: "/carstairs-plumbers/" },

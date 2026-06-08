@@ -81,6 +81,7 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
   "water-heater-installation-calgary": "Water",
   "air-ease-furnaces-calgary": "Heating",
   "chestermere-plumbers": "Plumbing",
+  "bearspaw-plumbers": "Plumbing",
   "cochrane-plumbers": "Plumbing",
   "okotoks-plumbers": "Plumbing",
   "carstairs-plumbers": "Plumbing",

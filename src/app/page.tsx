@@ -730,6 +730,7 @@ export default async function Home() {
                   { name: "Calgary SE", href: "/calgary-plumbers-se/" },
                   { name: "Calgary SW", href: "/calgary-plumbers-sw/" },
                   { name: "Airdrie", href: "/airdrie-plumbers/" },
+                  { name: "Bearspaw", href: "/bearspaw-plumbers/" },
                   { name: "Chestermere", href: "/chestermere-plumbers/" },
                   { name: "Cochrane", href: "/cochrane-plumbers/" },
                   { name: "Okotoks", href: "/okotoks-plumbers/" },
@@ -795,6 +796,7 @@ export default async function Home() {
                     ]},
                     { region: "Airdrie & area", links: [
                       { name: "Airdrie", href: "/airdrie-plumbers/" },
+                      { name: "Bearspaw", href: "/bearspaw-plumbers/" },
                       { name: "Coopers Crossing", href: "/coopers-crossing-plumbers/" },
                       { name: "Ravenswood", href: "/ravenswood-plumbers-airdrie/" },
                       { name: "Reunion", href: "/reunion-plumbers-airdrie/" },

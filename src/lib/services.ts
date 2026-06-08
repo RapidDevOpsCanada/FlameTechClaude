@@ -10069,6 +10069,192 @@ export const services: ServicePage[] = [
   },
 
   {
+    slug: "bearspaw-plumbers",
+    category: "Plumbing",
+    location: "Calgary",
+    icon: "plumbing",
+    title: "Bearspaw Plumbers | Acreage Well & Septic Specialists",
+    lead:
+      "Bearspaw is well-and-septic country — almost no municipal water or sewer west of the Calgary city limits. That changes what \"plumbing service\" means: softeners and iron filtration are essentially required, septic-side lift pumps come up regularly, and pressure-tank work matters as much as anything inside the house. FlameTech serves Bearspaw with the same Red Seal team that handles Calgary and Cochrane.",
+    heroBody: [
+      "We dispatch from Calgary west on TransCanada Hwy or Hwy 1A into Bearspaw — typically 15-25 minutes from inner-NW depending on the address. Same crew that services [Tuscany](/tuscany-plumbers-calgary/), [Edgemont](/edgemont-plumbers-calgary/), and [Cochrane](/cochrane-plumbers/).",
+      "Most Bearspaw calls are acreage-specific: well water with high iron and manganese loads, in-home septic plumbing (drain stacks, vent integrity, ejector pumps for below-grade fixtures), pressure-tank failures causing the well pump to short-cycle, and exposed outdoor or outbuilding plumbing during cold snaps. We work the patterns regularly across Bearspaw Estates, Bearspaw Glen, and the surrounding rural addresses.",
+      "Free in-home assessment — bring us a recent water test or we'll pull one ourselves before quoting filtration or softener sizing. Call 587-834-3668.",
+    ],
+    heroSubhead: "Acreage Well + Septic + In-Home Plumbing",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing service van — Bearspaw acreage coverage", fit: "cover" },
+    intro:
+      "Plumbers serving Bearspaw — acreage well water (softener, iron + manganese filtration, pressure tanks), in-home septic plumbing, hot water and hydronic systems sized for estate-class homes, emergency dispatch.",
+    features: [
+      "Water softener install + service",
+      "Iron + manganese filtration",
+      "Pressure tank + well-pump plumbing",
+      "Septic in-home work (stacks, vents, lift pumps)",
+      "Hot water + tankless sized for acreage demand",
+      "Cold-snap outdoor + outbuilding plumbing",
+    ],
+    bullets: [
+      {
+        t: "Real water test before quoting",
+        d: "Bearspaw well water varies wildly lot to lot — one property has clear soft water, the next has 15 grains hardness + 3 ppm iron + manganese staining. We test before we quote softener / filtration sizing. Anyone who quotes blind isn't sizing correctly.",
+      },
+      {
+        t: "Septic-side experience",
+        d: "Almost every Bearspaw property is on septic, not municipal sewer. We don't pump tanks (that's a separate specialty truck), but we diagnose backups, replace failed ejector and lift pumps, and rebuild drain stacks + vent integrity that septic systems need to work properly.",
+      },
+      {
+        t: "Pressure-tank diagnosis",
+        d: "Well-water properties depend on a pressure tank to smooth out pump cycling. When the bladder fails, the pump short-cycles and burns out — often in months, not years. We replace pressure tanks, diagnose cycling issues, and spec correctly for actual household demand.",
+      },
+      {
+        t: "Cold-snap exposure on outdoor + outbuilding plumbing",
+        d: "Bearspaw acreage has barn lines, garage hose bibs, secondary suite supply runs, and outbuilding plumbing that's more exposed to extended cold than a Calgary suburban yard. We handle frost-free sillcocks, heat trace on vulnerable runs, and full winterization on seasonal-use buildings.",
+      },
+    ],
+    seoTitle: "Bearspaw Plumbers | Well Water, Softener, Septic, Hydronic",
+    seoDescription:
+      "Plumbers serving Bearspaw acreage west of Calgary. Well water softener + iron filtration, pressure tanks, in-home septic, hot water + hydronic. Call 587-834-3668.",
+    seoKeywords: [
+      "Bearspaw plumbers",
+      "Bearspaw plumber",
+      "plumber Bearspaw",
+      "Bearspaw well water softener",
+      "Bearspaw acreage plumbing",
+      "FlameTech Plumbing",
+    ],
+    quoteFormLabel: "Bearspaw plumbing",
+    quoteFormPlaceholder:
+      "e.g. well-water softener install, iron filtration, pressure tank short-cycling, septic stack repair, hydronic boiler service, outdoor pipe freeze…",
+    sidebar: {
+      title: "Bearspaw Plumbers",
+      subtitle:
+        "Acreage-aware plumbing west of Calgary — well + septic + estate-class hot water all in scope.",
+      bullets: [
+        "Calgary dispatch via TransCanada or Hwy 1A",
+        "Licensed, insured, Red Seal certified",
+        "Real water test before quoting filtration",
+        "Real person answers the phone",
+      ],
+    },
+    stats: [
+      { number: "25+", label: "Years in Calgary area", icon: "verified" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "FREE", label: "In-home assessment", icon: "request_quote" },
+      { number: "Red Seal", label: "Plumbers + gas fitters", icon: "award" },
+    ],
+    callout:
+      "Bearspaw emergency? Call 587-834-3668 — real dispatcher, fast response from Calgary, fully-stocked truck.",
+    richContent: {
+      sections: [
+        {
+          heading: "What we cover in Bearspaw",
+          intro:
+            "Same scope as our NW Calgary service, plus the acreage-specific work that comes with well + septic + larger estate homes.",
+          items: [
+            {
+              heading: "Water softener install + service",
+              body: "Bearspaw hardness levels often exceed what standard urban softeners are sized for. We pull a water test and size accordingly — see our [water softener](/water-softener/) page. Add-on [reverse osmosis](/reverse-osmosis-calgary/) for drinking water is a common combo install on Bearspaw properties.",
+            },
+            {
+              heading: "Iron + manganese filtration",
+              body: "Common Bearspaw well issues — iron causes orange staining on fixtures and laundry, manganese causes black/brown deposits. Both need filtration stages BEFORE the softener (otherwise they foul the softener resin). We spec and install dedicated iron + manganese filter stages.",
+            },
+            {
+              heading: "Pressure tank + well-pump-side plumbing",
+              body: "Pressure tank replacement, pressure switch adjustment, pump short-cycling diagnosis, check-valve replacement. We don't drill wells or pull down-hole pumps (specialty work), but everything from the wellhead inward is in scope.",
+            },
+            {
+              heading: "In-home septic work",
+              body: "Drain stack repair and replacement, vent integrity, ejector and lift pumps for below-grade fixtures, diagnosing backups that trace to in-home plumbing rather than the field itself. If your septic field has failed (outside-the-house problem), we coordinate with a septic specialist for the field side.",
+            },
+            {
+              heading: "Hot water + tankless install",
+              body: "Larger Bearspaw estate homes routinely outgrow standard 40-gallon tanks. We size [hot water tank replacements](/hot-water-tank-replacement-calgary/) or [tankless](/tankless-water-heaters/) for actual household demand — multi-bathroom, multi-zone use.",
+            },
+            {
+              heading: "Hydronic + radiant heat",
+              body: "Modern Bearspaw luxury builds often have hydronic radiant throughout the main floor + outbuilding loops for heated shop floors or garage slabs. We design and service these systems — see [boiler installation](/boiler-installation-calgary/).",
+            },
+            {
+              heading: "Emergency + cold-snap dispatch",
+              body: "Burst pipes, frozen outdoor lines, no hot water, sewer backups. Priority dispatch from Calgary. See [emergency plumber](/emergency-plumber-calgary/) and [no heat issues](/no-heat-issues-calgary/) for the urgent scope.",
+            },
+          ],
+        },
+        {
+          heading: "Why Bearspaw plumbing is different from Calgary",
+          intro:
+            "Bearspaw is rural acreage country, not a suburban subdivision. The infrastructure assumptions that apply in Calgary city limits don't apply here — every property is its own water and sewer system.",
+          items: [
+            {
+              heading: "Every property is on a private well",
+              body: "There's no municipal water service in Bearspaw. Each property draws from its own well — usually a deep drilled well with a submersible pump down-hole, a pressure tank at the entry point, and a treatment chain (softener + filtration) before the water reaches fixtures. When something fails in that chain, the whole house loses water.",
+            },
+            {
+              heading: "Well water varies wildly lot to lot",
+              body: "Two neighbours 500 metres apart can have completely different water profiles depending on which aquifer their well taps. One might have clear soft water; the next has 15 grains hardness, 3 ppm iron, manganese staining, and high TDS. We test every property before sizing filtration — same softener model that's perfect for one Bearspaw home is wrong for another.",
+            },
+            {
+              heading: "Septic field + in-home septic plumbing",
+              body: "Septic systems split into two zones: the field (outside, soil-absorption — handled by septic specialty trucks) and the in-home side (drain stacks, vent stacks, ejector pumps for below-grade fixtures — that's us). Most callbacks we see trace to in-home septic plumbing that wasn't installed right or has degraded over 30+ years.",
+            },
+            {
+              heading: "Pressure-tank failure short-cycles the pump",
+              body: "The pressure tank is the buffer between the well pump and the fixtures. When the bladder fails, the pump turns on and off rapidly with every fixture draw — kills the pump in months, not years. Symptoms: noisy pump, fluctuating pressure, eventually no water. Replacing the pressure tank early saves a $2,000-$5,000 down-hole pump pull.",
+            },
+            {
+              heading: "Iron + manganese fouling softener resin",
+              body: "If iron or manganese isn't filtered out BEFORE the softener, it coats the resin beads and dramatically reduces softening capacity. We see Bearspaw softeners that were installed without iron filtration upstream and have failed at year 4-5 instead of the rated 10-15. Order of operations matters: iron filter → manganese filter → softener → optional RO at the kitchen tap.",
+            },
+            {
+              heading: "Cold-snap exposure on outbuilding plumbing",
+              body: "Most Bearspaw properties have a barn, detached garage, or shop with its own plumbing. These outbuildings often have less insulation than the main house and are more exposed during extended cold snaps. We install frost-free sillcocks, heat trace on vulnerable runs, and full winterization on seasonal-use buildings — and we handle the frozen-pipe calls when winterization wasn't done.",
+            },
+            {
+              heading: "Estate-class hot water demand",
+              body: "A 4-bathroom Bearspaw home with a master ensuite, multiple guest baths, basement bath/bar, and laundry running simultaneously will burn through a 40-gallon tank in 15 minutes. We size 75-gallon tanks or high-output tankless setups based on real fixture counts and use patterns — not the default tank a builder would have installed.",
+            },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Bearspaw Plumbing FAQs",
+        items: [
+          {
+            q: "How does dispatch to Bearspaw work?",
+            a: "We dispatch from Calgary west on TransCanada Hwy or Hwy 1A — typically 15-25 minutes from inner-NW Calgary depending on the address. Priority emergency calls take precedence in scheduling. Call 587-834-3668 and we'll confirm a window before the truck rolls.",
+          },
+          {
+            q: "Do you handle well water systems?",
+            a: "Yes. Softeners, iron + manganese filtration, pressure tanks, pressure switches, check valves, pump-side plumbing — everything from the wellhead inward. We don't drill new wells or pull down-hole submersible pumps (that's specialty well-driller work), but anything above ground or at the entry point is in scope.",
+          },
+          {
+            q: "Can you work on septic systems?",
+            a: "Yes, the in-home side. We don't pump septic tanks (separate specialty truck), but we diagnose backups, replace failed ejector and lift pumps for below-grade fixtures, and rebuild drain stacks + vent integrity. If your septic field has failed (outside-the-house issue), we coordinate with a septic specialist for the field side.",
+          },
+          {
+            q: "Why does my Bearspaw well water leave orange stains?",
+            a: "Iron — common in Bearspaw wells. The fix is dedicated iron filtration BEFORE the water reaches your softener (iron fouls softener resin and prevents proper softening). We pull a water test to confirm iron + manganese levels, then spec a filter stage sized to your actual numbers. Same approach for the brown/black manganese staining some properties see.",
+          },
+          {
+            q: "My well pump keeps turning on and off — what's wrong?",
+            a: "Almost always a failed pressure tank. The pressure tank has a rubber bladder that holds compressed air; when it fails, the pump can't build a proper pressure cushion and short-cycles with every fixture draw. Cheap fix ($300-$600 range for the tank itself) compared to the $2,000-$5,000 cost of pulling a burnt-out down-hole pump. We diagnose and replace pressure tanks regularly across Bearspaw.",
+          },
+          {
+            q: "Do you do hydronic radiant heating systems?",
+            a: "Yes. Many modern Bearspaw rebuilds have hydronic radiant throughout the main floor — and often outbuilding loops for heated shop floors or garage slabs. We design, install, and service these systems including the manifolds, zone valves, circulators, and condensing boiler. See our [boiler installation](/boiler-installation-calgary/) page for the full scope.",
+          },
+          {
+            q: "Are you licensed for Bearspaw / Rocky View County?",
+            a: "Yes. Alberta-licensed plumbers and gas fitters, Red Seal certified, fully insured and bonded. Alberta licenses cover all Rocky View County addresses including Bearspaw, plus the Calgary city limits and surrounding municipalities (Cochrane, Airdrie, Chestermere, Okotoks). Insurance certificate available on request before we start any job.",
+          },
+        ],
+      },
+    },
+  },
+
+  {
     slug: "cochrane-plumbers",
     category: "Plumbing",
     location: "Cochrane",
