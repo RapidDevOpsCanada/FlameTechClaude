@@ -1918,7 +1918,7 @@ export const services: ServicePage[] = [
       "Calgary's unforgiving winters demand reliable heating, and when your boiler fails, FlameTech Plumbing delivers the expert repair services you need to restore warmth to your home.",
     heroBody: [
       "With over 25 years of experience servicing residential and commercial boilers throughout Calgary, our certified technicians understand the intricate mechanics of modern condensing boilers, traditional cast iron systems, and everything in between.",
-      "Heating emergencies strike without warning, which is why FlameTech offers priority emergency boiler repair throughout Calgary and surrounding areas. Whether your boiler is cycling erratically during a −30°C cold snap or completely shut down on a Sunday evening, our real technicians answer the phone and dispatch immediately with fully-stocked service vehicles.",
+      "Heating emergencies strike without warning, which is why FlameTech offers priority emergency boiler repair throughout Calgary and surrounding areas. Whether your boiler is cycling erratically during a −30°C cold snap or completely shut down on a Sunday evening, our real technicians answer the phone and dispatch immediately with fully-stocked service vehicles. See our dedicated [boiler not working in Calgary](/boiler-not-working-calgary/) page for same-day dispatch and a symptom-by-symptom diagnostic walkthrough.",
     ],
     heroSubhead: "Trusted Calgary Boiler Repair Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
@@ -2316,6 +2316,269 @@ export const services: ServicePage[] = [
         { src: "/images/2026/04/Combination-boiler.webp", alt: "Combi boiler after annual service" },
         { src: "/images/2026/04/Double-boiler.webp", alt: "Twin boiler system serviced for a larger Calgary home" },
       ],
+    },
+  },
+  {
+    slug: "boiler-not-working-calgary",
+    category: "Heating",
+    icon: "boiler_unit",
+    title: "Boiler Not Working in Calgary — Same-Day Diagnosis + Repair",
+    lead:
+      "Boiler dropped pressure overnight? Locked out on a fault code? Pump running but rooms cold? Combi giving heat but no hot water at the taps? Most boiler failures in Calgary trace back to one of a small handful of causes — and the right fix depends on diagnosing which. FlameTech dispatches same-day for boiler-not-working calls, brings common parts on every truck, and most repairs finish in the first visit. Hydronic specialists with 20+ years on Calgary systems.",
+    heroBody: [
+      "Boilers fail differently from furnaces — pressure issues, expansion tank failures, locked-out flame faults, frozen condensate lines in cold snaps, failed circulator pumps, stuck zone valves, scale on combi heat exchangers. The diagnostic toolkit is different and the parts list is different. Before you call, two or three things are worth checking — covered in the try-these-first checklist below. If those don't bring heat back, that's our call.",
+      "We work on every common Calgary boiler setup: condensing combi units (Navien NPE, IBC SL, Viessmann Vitodens, Triangle Tube), condensing system boilers paired with indirect water heaters, conventional cast iron boilers in older inner-city homes, and high-mass radiant systems in luxury rebuilds across [Mount Royal](/mount-royal-plumbers-calgary/), [Bel-Aire](/bel-aire-plumbers-calgary/), and [Aspen Woods](/aspen-woods-plumbers-calgary/). Same crew handles [boiler repair](/boiler-repair-calgary/), [annual boiler service](/boiler-service-calgary/), [boiler installation](/boiler-installation-calgary/), and the broader [no heat](/no-heat-issues-calgary/) work.",
+      "Priority dispatch for boiler-not-working calls during cold snaps. Real person answers the phone — we'll confirm a window before the truck rolls. Call 587-834-3668.",
+    ],
+    heroSubhead: "Same-Day Dispatch for Boiler Failures",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/2026/04/Boiler12.webp", alt: "Condensing boiler diagnosed and repaired by FlameTech in Calgary", fit: "cover" },
+    intro:
+      "Calgary boiler diagnosis + repair — combi, system, and conventional. Same-day dispatch, real person on the phone, common parts on every truck. Hydronic specialists. Call 587-834-3668.",
+    features: [
+      "Pressure loss diagnosis + repair",
+      "Lockout fault + ignition diagnosis",
+      "Frozen condensate clearing",
+      "Circulator pump + zone valve service",
+      "Combi DHW heat exchanger descale",
+      "Expansion tank diagnosis + replacement",
+    ],
+    bullets: [
+      {
+        t: "Hydronic specialists, not generalists",
+        d: "Boilers need a different diagnostic approach than furnaces — pressure dynamics, expansion tank sizing, condensate routing, zone hydraulics, scale on heat exchangers. Jason has 20+ years in hydronic systems specifically. Calgary luxury rebuilds with in-floor radiant + multi-zone setups don't intimidate us.",
+      },
+      {
+        t: "Same-day dispatch in cold snaps",
+        d: "Boiler-not-working calls during −20°C or colder weather get routed ahead of scheduled work. Real person on the phone — we confirm a window before the truck leaves the shop, not a four-hour mystery slot. Most days we're at the door within 2-3 hours of the call.",
+      },
+      {
+        t: "Common boiler parts on the truck",
+        d: "Universal circulator pumps (Taco 007, Grundfos UPS), zone valve heads (Honeywell, Taco), expansion tanks, automatic air vents, PRVs, igniters, flame sensors, common-brand control boards (Navien, IBC). Most boiler-not-working calls finish first visit instead of \"we'll order the part and come back.\"",
+      },
+      {
+        t: "Honest repair vs. replace call",
+        d: "If your boiler is 15+ years old with a cracked heat exchanger, replacement is the right move — patching a cracked block is throwing money at a safety issue. If it's 8 years old with a failed pump, the small-parts fix is the right call. We'll do the math with you, written quote either way.",
+      },
+    ],
+    seoTitle: "Boiler Not Working Calgary | Same-Day Diagnosis + Repair",
+    seoDescription:
+      "Boiler not working in Calgary? Same-day dispatch for pressure loss, lockouts, frozen condensate, pump + zone valve failures. Hydronic specialists. Call 587-834-3668.",
+    seoKeywords: [
+      "boiler not working Calgary",
+      "boiler no heat Calgary",
+      "boiler losing pressure Calgary",
+      "boiler lockout Calgary",
+      "combi boiler not working Calgary",
+      "boiler repair emergency Calgary",
+      "FlameTech Plumbing Heating",
+    ],
+    quoteFormLabel: "boiler not working",
+    quoteFormPlaceholder:
+      "e.g. boiler keeps dropping pressure, locked out on a fault code, pump running but rooms cold, combi gives heat but no hot water at the taps, condensate line frozen…",
+    sidebar: {
+      title: "Calgary Boiler Service",
+      subtitle:
+        "Same-day dispatch for boiler failures — pressure loss, lockouts, pumps, zone valves, combi DHW issues. Hydronic specialists.",
+      bullets: [
+        "Most diagnoses in 30-45 minutes",
+        "Common parts on every truck",
+        "Combi + system + conventional",
+        "Free written quote on replacement",
+      ],
+    },
+    stats: [
+      { number: "Same-day", label: "Dispatch", icon: "schedule" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "20+", label: "Years on hydronics", icon: "verified" },
+      { number: "ANY", label: "Boiler brand", icon: "check_circle" },
+    ],
+    callout:
+      "Boiler not working in a Calgary cold snap? Call 587-834-3668 — same-day dispatch, real person on the phone, hydronic specialists.",
+    richContent: {
+      sections: [
+        {
+          heading: "Try these first (before calling)",
+          intro:
+            "Worth checking these before booking a service call — if any of them solves it in two minutes, you've saved a service-call fee. If none of them work, the issue is component failure and that's our call.",
+          items: [
+            {
+              heading: "Check the system pressure gauge",
+              body: "Almost every boiler has a pressure gauge on the front, usually reading PSI. Cold-system pressure should be around 12-15 PSI; hot-running pressure around 18-22 PSI. If the needle is below ~8 PSI, the boiler likely won't fire as a low-pressure safety. Most boilers have a filling loop (a braided hose with two valves under the boiler) — opening both valves briefly will re-pressurize the system. If pressure drops again within hours/days, there's a leak somewhere and that's our call. (Don't keep refilling — repeated overfilling damages the expansion tank and contaminates the system with fresh oxygenated water that corrodes from the inside.)",
+            },
+            {
+              heading: "Press the reset button",
+              body: "Most modern boilers have a reset button on the front panel — sometimes labelled \"reset,\" sometimes a small button next to a fault light. Press once and wait 60 seconds to see if it relights. If it locks out again immediately on the same fault, stop resetting — it's locking out for a real reason (flame failure, overheat, sensor fault) and continuing to reset can damage components or create a gas safety risk. That's our call.",
+            },
+            {
+              heading: "Thermostat + breaker check",
+              body: "Boiler controls run off a 24V signal from the thermostat. Swap thermostat batteries even if it looks fine. Confirm it's set to HEAT and the setpoint is above current room temperature. Check the boiler's dedicated breaker in the electrical panel — flip OFF for 30 seconds, then back ON. Many boilers also have a switch on the unit itself; confirm it's ON.",
+            },
+            {
+              heading: "Check the condensate trap + drain line (high-efficiency boilers)",
+              body: "Condensing boilers (most post-2005 installs in Calgary) produce acidic condensate that drains through a small plastic line. In deep cold snaps, sections of this line that run through unheated spaces or exit outdoors can FREEZE — boiler locks out as a safety. Look for a clear plastic line near the floor; if you see ice in it, that's the fault. We can usually clear it on the spot and reroute through heated space if needed.",
+            },
+            {
+              heading: "Note any fault code on the display",
+              body: "Modern boilers (Navien, IBC, Viessmann, Triangle Tube, Bosch, NTI) display error codes when they fail. Photograph the code before you call — it tells us exactly which component failed and lets us bring the right part on the first visit. Don't try to interpret it from forum posts; different brands use overlapping numbers for different faults.",
+            },
+          ],
+        },
+        {
+          heading: "Common Calgary boiler failures (and what we usually find)",
+          intro:
+            "If the above didn't solve it, the issue is likely one of these. Each has a different fix and a different cost — diagnosis matters, and the parts list for boilers is different from furnaces.",
+          items: [
+            {
+              heading: "Low system pressure (the #1 boiler complaint)",
+              body: "Boilers need water pressure (12-15 PSI cold) to circulate. Pressure drops slowly over weeks/months from a small leak somewhere — often a tired expansion tank that's lost its air charge (causing pressure to swing wildly hot-to-cold and forcing the PRV to dump water), a failed automatic air vent, a leaking zone valve, or a slow leak in a copper joint somewhere in the system. Topping up via the filling loop is the temporary fix; finding the leak source is the real one. Calgary's freeze-thaw cycles stress joints over decades.",
+            },
+            {
+              heading: "Lockout fault — flame failure",
+              body: "Boiler tries to fire, fails to detect flame, locks out. Common causes: failed ignition electrode (universal part, on the truck), failed flame sensor or flame-rectification ground issue, gas valve electrical failure, gas pressure issue (sometimes traces back to Atco gas pressure at the meter, especially in cold snaps when demand peaks), or a blocked condensate trap backing up into the combustion chamber. Diagnosis is usually 30 minutes; repair often first-visit.",
+            },
+            {
+              heading: "Frozen condensate line (cold-snap classic)",
+              body: "Condensing boilers exhaust acidic water condensate through a small PVC line. If this line runs through an unheated space (cold storage room, attic, garage) or exits outdoors with insufficient slope/insulation, it can FREEZE during −25°C or colder weather — boiler locks out as a safety. Clear the ice + permanently reroute through heated space + add heat trace where needed. Common Calgary fix — we see a wave of these calls during every deep cold snap.",
+            },
+            {
+              heading: "Failed circulator pump",
+              body: "Boiler fires, you hear it running, but rooms stay cold — the pump isn't moving heated water to your radiators or in-floor loops. Bearing failure (audible grinding or silence), seized rotor, or failed pump capacitor. Universal Taco 007 and Grundfos UPS pumps on the truck for common replacements. Some luxury systems have multiple pumps (one per zone + a primary) — diagnosis identifies which one failed.",
+            },
+            {
+              heading: "Stuck zone valve (multi-zone systems)",
+              body: "Multi-zone hydronic systems use motorized zone valves to direct hot water to specific areas of the house. A stuck-closed valve means one zone gets no heat while others work fine. Common in luxury Mount Royal / Bel-Aire / Aspen Woods radiant systems with 4-8 zones. Diagnosis: check which thermostats are calling vs which zones are firing. Valve replacement or motor swap depending on what failed — Honeywell + Taco motors stocked on the truck.",
+            },
+            {
+              heading: "Failed expansion tank",
+              body: "Hydronic systems include an expansion tank to absorb water volume changes as the system heats up. When the tank's internal bladder fails or loses air charge, pressure swings wildly between cold (~12 PSI) and hot (40+ PSI) — at the high swing, the PRV safety valve dumps water, then cold pressure drops below 8 PSI and the boiler shuts off as low-pressure safety. Symptom: PRV repeatedly dumping water, low-pressure lockouts every few days. Tank replacement is the fix — usually a 1-hour job.",
+            },
+            {
+              heading: "Combi boiler — heat works but no hot water at the taps",
+              body: "Combi boilers (Navien NPE, IBC SL, Viessmann Vitodens) heat the house AND produce domestic hot water on demand through a separate heat exchanger. When the DHW heat exchanger scales up (Calgary's hard water is brutal on these — much faster than tank-style heaters), DHW output drops or fails while heating still works. Symptom: heat fine, hot taps run cold or lukewarm, error codes around water flow. Descale fixes it; severely scaled heat exchangers sometimes need replacement.",
+            },
+            {
+              heading: "Kettling / banging from the boiler",
+              body: "Sound like a kettle boiling violently — caused by sediment or scale buildup on the heat exchanger that traps water and lets it flash to steam. Common Calgary cause: hard water + no annual flush + aging system. System flush + chemical descale usually quiets it. Persistent kettling over years can crack the heat exchanger — at which point the fix is replacement, not repair. Catching it early is the difference between a $300 service and a $7,000+ replacement.",
+            },
+            {
+              heading: "Cracked heat exchanger (serious — replace, don't repair)",
+              body: "Cracked heat exchangers can leak combustion gases (carbon monoxide) into the home, or in condensing units leak water out through the cracks shorting electronics. Never repaired — full boiler replacement is the only safe answer. Common causes in Calgary: years of kettling without descaling, untreated hard-water scale, age (15+ years), or a single severe overheat event. We show you the crack on a borescope before quoting replacement.",
+            },
+            {
+              heading: "PRV (pressure relief valve) dumping water",
+              body: "Almost always means system pressure went too high — usually because the expansion tank failed (see above) or because someone over-filled the system through the filling loop. PRVs are safety devices; if yours is dumping water, the immediate fix is to diagnose the pressure-side cause, not just replace the PRV. A weeping PRV that won't reseat after the pressure issue is fixed gets replaced (universal part, on the truck).",
+            },
+          ],
+        },
+        {
+          heading: "Why Calgary boiler failures look the way they do",
+          intro:
+            "Calgary's climate, water profile, and housing mix shape what we see on service calls. Knowing the local context speeds up diagnosis.",
+          items: [
+            {
+              heading: "Deep cold snaps stress condensate routing",
+              body: "−25°C and colder weather sticks around Calgary several weeks each winter. Any condensate line routed through an unheated space or exiting outdoors without proper insulation + slope will freeze and lock out the boiler. We see a wave of frozen-condensate calls every cold snap. Fix: reroute through heated space + add heat trace + insulation where outdoor exit is required by venting code.",
+            },
+            {
+              heading: "Hard water scales combi heat exchangers fast",
+              body: "Calgary water hardness (150-200 mg/L) is brutal on tankless heat exchangers in combi boilers. Without annual descaling, DHW heat exchangers can scale to the point of failure within 5-7 years. Tank-style hot water systems show this slower (sediment settles at the bottom) but tankless heat exchangers run water through narrow passages where scale accumulates aggressively. Annual descale + a properly-sized [water softener](/water-softener/) extends life dramatically.",
+            },
+            {
+              heading: "Chinook freeze-thaw stresses joints + venting",
+              body: "Calgary's signature chinook freeze-thaw cycles (warm to cold and back within hours) put thermal stress on copper joints, PVC venting, and outdoor condensate exits. Over decades, this is the slow leak that drops your system pressure and the cracked vent that allows recirculation. Routine annual inspection catches stress damage before it becomes a lockout.",
+            },
+            {
+              heading: "Luxury rebuild radiant systems = multi-zone complexity",
+              body: "Mount Royal, Bel-Aire, Aspen Woods, Britannia, Roxboro rebuilds in the post-2010 era often have 6-12 zone in-floor radiant systems with multiple circulator pumps, complex manifold setups, and brand-specific control boards (Viessmann Vitotronic, Triangle Tube Prestige, IBC SL series). Diagnostic and repair on these isn't generalist plumber work — Jason specializes in these systems.",
+            },
+            {
+              heading: "Inner-city heritage homes = old atmospheric boilers",
+              body: "Erlton, Inglewood, Mission, Bridgeland heritage homes often still run cast iron atmospheric boilers from the 60s-80s with standing pilot lights, draft hoods, and chimney venting. Different failure modes: thermocouple, pilot generator, draft induction issues, cracked sections in old cast iron. We service these but at 40+ years old, replacement conversations become realistic.",
+            },
+            {
+              heading: "60s-70s baseboard hydronic — original boilers still common",
+              body: "Brentwood, Glendale, Banff Trail, Wildwood, Charleswood-era homes (1960s-70s) commonly still run original or 2nd-generation cast iron boilers with baseboard fin-tube radiation. Workhorse systems but past expected life. We see a lot of replacement conversations in these neighbourhoods — usually triggered by a major component failure that's not worth fixing on a 50-year-old block.",
+            },
+          ],
+        },
+        {
+          heading: "What we do on a boiler-not-working call",
+          intro:
+            "Standard diagnostic sequence. Most calls finish first visit; rare brand-specific control boards sometimes need overnight parts.",
+          items: [
+            {
+              heading: "1. Symptom + timeline + what you've already tried",
+              body: "What's happening, when it stopped working, when the boiler was last serviced, what's been tried (reset, pressure refill, thermostat batteries, breaker cycle). Photograph any fault code from the display BEFORE we arrive — speeds diagnosis dramatically.",
+            },
+            {
+              heading: "2. Pressure + power + thermostat verification",
+              body: "Check system pressure (cold + hot), incoming 120V to the unit, 24V to the gas valve and controls, signal arriving from thermostat. Rules out the simple stuff in 2 minutes.",
+            },
+            {
+              heading: "3. Watch a startup cycle",
+              body: "Call for heat at the thermostat and watch what the boiler actually does. Most failures show themselves in the startup sequence — no power, no spark, spark but no flame, flame but instant lockout, etc. Each one points at a different component.",
+            },
+            {
+              heading: "4. Test the suspect component",
+              body: "Ignition electrode spark test, flame sensor microamp draw, gas pressure at the valve (manometer test), pump operation (listen + electrical), zone valve actuation, condensate flow, control board signals. Real measurement, not guessing. Box-store \"probably the board\" approach gets a lot of homeowners overpaying.",
+            },
+            {
+              heading: "5. Repair on the spot if possible",
+              body: "Universal circulator pumps, zone valve heads, expansion tanks, automatic air vents, PRVs, igniters, flame sensors, common-brand control boards stocked on the truck. Most boiler-not-working calls finish first visit. If we need a brand-specific part (Triangle Tube, NTI, Bosch boards), we'll tell you upfront and recommend space heaters until the part arrives.",
+            },
+            {
+              heading: "6. Honest replace-vs-repair quote on bigger failures",
+              body: "If your boiler is 15+ years old with a major failure (cracked heat exchanger, multiple component failures, severely scaled DHW exchanger on a combi), we'll quote both the repair AND a full replacement so you can do the math. Free written quote on the replacement option. Both [boiler install](/boiler-installation-calgary/) and the broader [no-heat work](/no-heat-issues-calgary/) covered in-house.",
+            },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Boiler Not Working in Calgary — FAQs",
+        items: [
+          {
+            q: "My boiler keeps losing pressure — what's wrong?",
+            a: "Almost always one of: (1) tired expansion tank that's lost its air charge — pressure swings wildly hot-to-cold and the PRV dumps water; (2) leaking automatic air vent on top of the system; (3) leaking zone valve; (4) slow leak in a copper joint somewhere in the loop. Topping up via the filling loop is the temporary fix; finding the leak source is the real one. Don't keep refilling repeatedly — fresh oxygenated water corrodes the system from the inside. Call us — most pressure-loss diagnoses finish in 30 minutes and most fixes (expansion tank, PRV, air vent) finish same visit.",
+          },
+          {
+            q: "Boiler is locked out on a fault code — should I keep resetting it?",
+            a: "Press reset ONCE. If it locks out again on the same fault, stop — it's locking out for a real reason (flame failure, overheat, condensate blockage, sensor fault) and continuing to reset can damage components or create a gas safety risk. Photograph the fault code and call us. The code tells us which component failed; we'll bring the right part on the first visit.",
+          },
+          {
+            q: "My boiler is running but the house is cold — what's wrong?",
+            a: "Usually the circulator pump — the boiler is firing but the pump isn't moving heated water to your radiators or in-floor loops, so heat never reaches the rooms. Other possibilities: stuck zone valve (one zone cold, others fine), air locked in the lines (gurgling sounds), or a control board failing to call the pump. Diagnosable on the first visit — universal Taco and Grundfos pumps on the truck for common replacements.",
+          },
+          {
+            q: "What does it mean if my condensate line is frozen?",
+            a: "Condensing boilers produce acidic water condensate that drains through a small PVC line. In Calgary cold snaps, any section of this line that runs through unheated space or exits outdoors can freeze — boiler locks out as a safety to prevent water backing up into the combustion chamber. We clear the ice and reroute through heated space + add heat trace where needed. This is a Calgary-classic cold-snap call — usually first-visit fix.",
+          },
+          {
+            q: "My combi boiler gives heat but no hot water at the taps — why?",
+            a: "Combi units have two heat exchangers — one for space heating, one for domestic hot water. The DHW exchanger heats incoming cold water on demand through narrow passages. Calgary's hard water scales these passages aggressively — often by year 5-7, scaling reduces or blocks DHW flow while space heating still works fine. Descale fixes most cases; severely scaled exchangers sometimes need replacement. Annual descaling + a [water softener](/water-softener/) extend life dramatically.",
+          },
+          {
+            q: "My PRV (pressure relief valve) keeps dumping water — what's happening?",
+            a: "PRVs are safety valves that dump water when system pressure exceeds the rated limit (usually 30 PSI). If yours is dumping, the immediate cause is high pressure — and the root cause is almost always a failed expansion tank that's lost its air charge, so the system can't absorb thermal expansion when water heats up. The fix is the expansion tank, not the PRV. A weeping PRV that won't reseat after fixing the pressure side gets replaced (universal part).",
+          },
+          {
+            q: "How old is too old to repair vs replace a boiler in Calgary?",
+            a: "Rule of thumb: under 12 years with a single failed component, repair. 12-18 years with a single failure, judgement call — we quote both options. 18+ years with a major failure (cracked heat exchanger, multiple component failures, severely scaled combi DHW exchanger), strongly consider replacement. Cracked heat exchanger at any age = replacement (safety, not optional). Calgary cast iron boilers from the 60s-70s in inner-city homes hit 50+ years routinely but at that age, ongoing parts and efficiency conversations make replacement the more economical long-term move.",
+          },
+          {
+            q: "Are you available for emergency boiler repair in Calgary?",
+            a: "Yes — boiler failure in winter gets same-day dispatch and routes ahead of scheduled work during cold snaps. Real person on the phone, we confirm a window before the truck rolls. Most days we're at the door within 2-3 hours of the call. Same crew that handles our [no-heat](/no-heat-issues-calgary/), [boiler repair](/boiler-repair-calgary/), and [emergency plumbing](/emergency-plumber-calgary/) work.",
+          },
+          {
+            q: "Do you work on every brand of boiler?",
+            a: "Yes — Navien, IBC, Viessmann, Triangle Tube, Bosch, NTI, Lochinvar, Weil-McLain, Burnham, Slant/Fin, plus older cast iron units. Common parts (pumps, zone valves, expansion tanks, PRVs, igniters, flame sensors) work across brands and ride on every truck. Brand-specific control boards on premium European brands sometimes need overnight order — we tell you upfront.",
+          },
+          {
+            q: "What's the difference between a boiler repair and a boiler service?",
+            a: "Repair: something is broken, we diagnose and fix. Service (annual maintenance): preventive — combustion analysis, safety checks, descale, system flush, expansion tank check, PRV test, pump inspection. Annual service catches most issues before they become breakdowns, and is required to keep manufacturer warranties valid on most modern boilers. See our [boiler service Calgary](/boiler-service-calgary/) page for the annual tune-up.",
+          },
+        ],
+      },
     },
   },
   {
@@ -3203,7 +3466,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "Low boiler pressure (hydronic systems)",
-              body: "Boilers need water pressure (typically 12-15 PSI cold) to circulate properly. If pressure drops below ~8 PSI the boiler often won't fire as a safety. Common Calgary cause: small leak somewhere in the system (expansion tank, air vent, zone valve) bleeds water over weeks/months. Re-pressurizing is the temporary fix; finding and repairing the leak is the real one.",
+              body: "Boilers need water pressure (typically 12-15 PSI cold) to circulate properly. If pressure drops below ~8 PSI the boiler often won't fire as a safety. Common Calgary cause: small leak somewhere in the system (expansion tank, air vent, zone valve) bleeds water over weeks/months. Re-pressurizing is the temporary fix; finding and repairing the leak is the real one. See our dedicated [boiler not working in Calgary](/boiler-not-working-calgary/) page for the full hydronic-specific diagnostic walkthrough.",
             },
             {
               heading: "Failed circulator pump (boilers)",
@@ -10510,6 +10773,7 @@ export const services: ServicePage[] = [
         { label: "Boiler Installation Calgary", href: "/boiler-installation-calgary/", summary: "New high-efficiency boilers — heat-loss calc, gas + venting, full commissioning.", icon: "boiler_unit" },
         { label: "Boiler Repair Calgary", href: "/boiler-repair-calgary/", summary: "Diagnosis and same-day fixes for kettling, pressure loss, no-heat, and ignition faults.", icon: "gas_valve" },
         { label: "Boiler Service Calgary", href: "/boiler-service-calgary/", summary: "Annual tune-ups: combustion analysis, safety checks, descale, system flush.", icon: "hydronic_loop" },
+        { label: "Boiler Not Working", href: "/boiler-not-working-calgary/", summary: "Pressure loss, lockouts, frozen condensate, pump or zone valve failures, combi DHW issues — same-day dispatch.", icon: "boiler_unit", highlight: true, badge: "Same-day dispatch" },
         { label: "No Heat Issues", href: "/no-heat-issues-calgary/", summary: "Boiler running but no heat, dropped pressure, won't fire — priority dispatch in cold snaps.", icon: "local_fire_department", highlight: true, badge: "Common issue" },
       ],
     },

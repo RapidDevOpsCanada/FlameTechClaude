@@ -36,6 +36,7 @@ const heatingLinks = [
   { label: "Boiler Installation", href: "/boiler-installation-calgary/" },
   { label: "Boiler Repair", href: "/boiler-repair-calgary/" },
   { label: "Boiler Service", href: "/boiler-service-calgary/" },
+  { label: "Boiler Not Working", href: "/boiler-not-working-calgary/" },
   { label: "Furnaces", href: "/furnaces/" },
   { label: "High-Efficiency Furnaces", href: "/high-efficiency-furnaces-calgary/" },
   { label: "Furnace Blower Issues", href: "/furnace-blower-issues-calgary/" },
