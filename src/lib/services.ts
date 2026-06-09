@@ -1026,7 +1026,7 @@ export const services: ServicePage[] = [
     lead:
       "When disaster strikes, you need emergency plumbers in Calgary who respond immediately. At FlameTech, we provide rapid emergency plumbing services to protect your home from water damage and restore your comfort quickly.",
     heroBody: [
-      "Our emergency plumbers in Calgary are on call around the clock, ready to tackle urgent plumbing crises that can't wait until morning. From burst pipes during Calgary's harsh winters to sudden [hot water tank](/hot-water-tanks/) failures, our certified technicians arrive equipped to handle any emergency.",
+      "Our emergency plumbers in Calgary are on call around the clock, ready to tackle urgent plumbing crises that can't wait until morning. From burst pipes during Calgary's harsh winters to sudden [no-hot-water calls](/no-hot-water-calgary/) and [hot water tank](/hot-water-tanks/) failures, our certified technicians arrive equipped to handle any emergency.",
       "Aging [Poly-B piping](/polyb-plumbing-calgary/) is a common culprit for sudden failures in 80s-90s Calgary builds — we carry replacement parts on every truck. Same for [drain backups](/drain-cleaning-calgary/) and frozen-pipe thaws.",
       "When you call us, you're getting immediate help from a real dispatcher — priority dispatch, fair pricing, and real people who answer the phone. We cover Calgary plus [Airdrie](/airdrie-plumbers/), [Chestermere](/chestermere-plumbers/), [Cochrane](/cochrane-plumbers/), and [Okotoks](/okotoks-plumbers/).",
     ],
@@ -1106,7 +1106,7 @@ export const services: ServicePage[] = [
           items: [
             { body: "Burst or frozen pipes during Calgary's harsh winters that can cause thousands in water damage within hours." },
             { body: "Severe drain and sewer backups that create health hazards and require immediate professional attention." },
-            { body: "Water heater failures that leave families without hot water when they need it most." },
+            { body: "Water heater failures that leave families without hot water when they need it most. See our [no hot water](/no-hot-water-calgary/) page for what we cover on those calls." },
             { body: "Gas line leaks that pose serious safety risks and demand instant response." },
             { body: "Major leaks and flooding from failed appliances or plumbing fixtures that can devastate your property." },
             { body: "Overflowing toilets that won't stop running and require urgent intervention." },
@@ -4035,7 +4035,8 @@ export const services: ServicePage[] = [
         { label: "Water Heater Installation", href: "/water-heater-installation-calgary/", summary: "Tank, tankless, or replacement — gas + venting + expansion tank done right.", icon: "propane_tank" },
         { label: "Water Softeners", href: "/water-softener/", summary: "Protect your tank from Calgary's hard water with a properly-sized softener.", icon: "softener_tank" },
         { label: "Reverse Osmosis", href: "/reverse-osmosis-calgary/", summary: "Under-sink + whole-home drinking-water filtration. Pairs with softener.", icon: "water_drop" },
-        { label: "Hot Water Issues", href: "/hot-water-issues-calgary/", summary: "No hot water, lukewarm, popping noises, leaks — diagnosis and repair on gas, electric, and tankless.", icon: "water_damage", highlight: true, badge: "Common issue" },
+        { label: "No Hot Water", href: "/no-hot-water-calgary/", summary: "Cold shower right now? Same-day dispatch with common parts on the truck — gas, electric, and tankless.", icon: "shower", highlight: true, badge: "Same-day dispatch" },
+        { label: "Hot Water Issues", href: "/hot-water-issues-calgary/", summary: "Lukewarm, popping noises, leaks, discoloured water — broader diagnosis across every tank type.", icon: "water_damage", highlight: true, badge: "Common issue" },
       ],
     },
   },
@@ -4047,7 +4048,7 @@ export const services: ServicePage[] = [
     lead:
       "Hot water tanks in Calgary fail at 8-12 years — sooner if you don't have a water softener. When yours goes, FlameTech has stocked trucks rolling for same-day replacement, with the brands that actually survive our hard water.",
     heroBody: [
-      "Whether your tank is leaking, making noise, or just not heating water properly, our hot water tank specialists will get you back to hot showers fast. We stock [Bradford White](https://www.bradfordwhite.com/), AO Smith, and Rheem tanks in our service vehicles — all models that handle Calgary's hard water better than cheap builder-grade units.",
+      "Whether your tank is leaking, making noise, or just [not heating water at all](/no-hot-water-calgary/), our hot water tank specialists will get you back to hot showers fast. We stock [Bradford White](https://www.bradfordwhite.com/), AO Smith, and Rheem tanks in our service vehicles — all models that handle Calgary's hard water better than cheap builder-grade units.",
       "Considering a switch instead of a like-for-like swap? Compare against [tankless water heaters](/tankless-water-heaters/). A [water softener](/water-softener/) upstream extends the life of either system and is the single best protection against premature tank failure in this city.",
       "We answer our phones with priority dispatch — no call centre, no voicemail. When your hot water tank fails, our [emergency plumber](/emergency-plumber-calgary/) team will be there fast with a truck full of quality tanks ready for installation. North of the city, see [hot water tanks Airdrie](/hot-water-tanks-airdrie/).",
     ],
@@ -4416,7 +4417,7 @@ export const services: ServicePage[] = [
           items: [
             {
               heading: "No hot water at all",
-              body: "Gas tanks: usually a pilot light that's gone out (relight + check thermocouple) or a failed gas control valve. Electric tanks: usually a tripped thermal cut-off (reset + check why it tripped) or a failed upper element/thermostat. Either way, we diagnose the root cause — just relighting a pilot that keeps going out means you'll be calling again in a week.",
+              body: "Gas tanks: usually a pilot light that's gone out (relight + check thermocouple) or a failed gas control valve. Electric tanks: usually a tripped thermal cut-off (reset + check why it tripped) or a failed upper element/thermostat. Either way, we diagnose the root cause — just relighting a pilot that keeps going out means you'll be calling again in a week. See our dedicated [no hot water in Calgary](/no-hot-water-calgary/) page for the same-day dispatch process and a try-these-first checklist by tank type.",
             },
             {
               heading: "Hot water runs out faster than it used to",
@@ -4541,6 +4542,249 @@ export const services: ServicePage[] = [
           {
             q: "Does a water softener really help my hot water tank?",
             a: "Yes — measurably. Softeners remove the calcium and magnesium that drive sediment buildup and consume the anode rod. In Calgary, we routinely see tank lifespans go from 8-10 years (no softener) to 14+ years (with softener). The softener also pays back through reduced detergent use, fixture lifespan, and lower water heating costs (less sediment = better heat transfer = less burner runtime). See our [water softener](/water-softener/) page for sizing and install.",
+          },
+        ],
+      },
+    },
+  },
+  {
+    slug: "no-hot-water-calgary",
+    category: "Water",
+    icon: "shower",
+    title: "No Hot Water in Calgary — Same-Day Diagnosis + Repair",
+    lead:
+      "Cold shower? Tap runs cold no matter how long you wait? Most no-hot-water calls in Calgary trace back to one of a small handful of failures — pilot light out, breaker tripped, failed thermostat or element, gas valve issue, or a tank that's reached end of life. FlameTech dispatches same-day for no-hot-water calls, diagnoses in 30 minutes, and most fixes finish in the first visit because common parts ride on every truck.",
+    heroBody: [
+      "Before you call: there are two or three things worth checking first that occasionally solve a no-hot-water call in 2 minutes — pilot light, breaker, gas valve at the meter. The try-these-first checklist below walks through each in order. If none of them work, the issue is almost always a component failure (thermostat, element, gas valve, thermocouple, pilot ignition) or a tank past end of life — and that's the call we take care of for you.",
+      "We work on every common Calgary setup: gas tanks (Bradford White, John Wood, AO Smith), electric tanks, and tankless units (Navien, Rinnai, IBC). Same crew as our broader [hot water issues](/hot-water-issues-calgary/), [hot water tank replacement](/hot-water-tank-replacement-calgary/), [tankless water heater](/tankless-water-heaters/), and [emergency plumbing](/emergency-plumber-calgary/) work. Real person on the phone — no call centre.",
+      "Call 587-834-3668 for same-day no-hot-water dispatch. Most diagnoses finish in 30 minutes; most repairs finish the same visit because the truck carries common thermostats, elements, anode rods, TPR valves, thermocouples, igniters, and gas control valves.",
+    ],
+    heroSubhead: "Same-Day Dispatch for No-Hot-Water Calls",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/FTVAN2.jpg", alt: "Shaun and Jason — FlameTech same-day no-hot-water dispatch in Calgary", fit: "cover" },
+    intro:
+      "Calgary no-hot-water diagnosis + repair — gas tanks, electric tanks, and tankless. Same-day dispatch, real person on the phone, common parts on every truck. Call 587-834-3668.",
+    features: [
+      "Pilot light + thermocouple service",
+      "Thermostat + element diagnosis (electric)",
+      "Gas control valve + ignition (gas)",
+      "Tankless error-code diagnosis",
+      "Reset + safety-switch testing",
+      "Same-visit repair when stocked",
+    ],
+    bullets: [
+      {
+        t: "Same-day dispatch — real person on the phone",
+        d: "No-hot-water calls get same-day priority. You talk to a tech, not a call centre — we confirm a window before the truck rolls, not a four-hour mystery slot. Most days we're at the door within 2-3 hours of the call.",
+      },
+      {
+        t: "Diagnose first, swap parts second",
+        d: "The cheap fix is usually the right fix when it's diagnosed properly. We test the thermostat, element resistance, thermocouple millivolts, or gas valve before quoting a replacement. The box-store \"probably the tank — that'll be $2,000\" approach gets a lot of Calgary homeowners replacing tanks with 4-5 years of useful life left.",
+      },
+      {
+        t: "Most repairs finish first visit",
+        d: "Service trucks stock common parts for every Calgary setup — thermostats, electric elements, anode rods, TPR valves, dip tubes, thermocouples, igniters, gas control valves, and Bradford White / John Wood / AO Smith parts. Tankless flush kits on board for scale-related no-hot-water calls.",
+      },
+      {
+        t: "Honest replace-vs-repair call",
+        d: "If your tank is 10+ years old in Calgary's hard water and the bottom is leaking, replacement is the right move. If it's 6 years old with a dead thermostat, the small-parts fix is the right call. Free written quote either way — and we'll explain the math, not push the bigger ticket.",
+      },
+    ],
+    seoTitle: "No Hot Water Calgary | Same-Day Diagnosis + Repair | FlameTech",
+    seoDescription:
+      "No hot water in Calgary? Same-day dispatch, real person on the phone, common parts on the truck. Gas, electric, and tankless. Call 587-834-3668.",
+    seoKeywords: [
+      "no hot water Calgary",
+      "hot water not working Calgary",
+      "water heater not heating",
+      "pilot light out Calgary",
+      "hot water tank repair Calgary",
+      "emergency hot water repair Calgary",
+      "FlameTech Plumbing Heating",
+    ],
+    quoteFormLabel: "no hot water",
+    quoteFormPlaceholder:
+      "e.g. no hot water this morning, pilot keeps going out, electric tank — breaker won't stay on, tankless showing error code, tank making popping noises and running cold…",
+    sidebar: {
+      title: "Calgary No-Hot-Water Service",
+      subtitle:
+        "Same-day dispatch when your hot water stops. Real person on the phone, common parts on every truck — gas, electric, and tankless.",
+      bullets: [
+        "Most diagnoses in 30 minutes",
+        "Common parts on the truck",
+        "Same-day for no-hot-water calls",
+        "Free quote on tank replacement",
+      ],
+    },
+    stats: [
+      { number: "Same-day", label: "Dispatch", icon: "schedule" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "Real", label: "Person on the phone", icon: "call" },
+      { number: "ANY", label: "Tank type", icon: "check_circle" },
+    ],
+    callout:
+      "No hot water right now? Call 587-834-3668 — same-day dispatch, real person on the phone, common parts on every truck.",
+    richContent: {
+      sections: [
+        {
+          heading: "Try these first (before calling)",
+          intro:
+            "Worth checking these before you book a service call — if any of them solves it in two minutes, you've saved a service-call fee. If none of them work, the issue is component failure and that's the call we take care of for you.",
+          items: [
+            {
+              heading: "Gas tank — check the pilot light first",
+              body: "Most older gas tanks (and some newer ones) have a standing pilot light visible through a small viewport at the base of the tank. If it's out, follow the lighting instructions printed on the unit itself — usually press and hold the gas control button for 30-60 seconds while clicking the igniter. If the pilot lights but won't stay lit when you release the button, the thermocouple has failed — that's our call. Newer high-efficiency tanks use electronic ignition and don't have a standing pilot to check.",
+            },
+            {
+              heading: "Electric tank — check the breaker",
+              body: "Electric tanks pull a lot of current and have their own dedicated 240V breaker (usually a double-pole breaker labelled \"hot water\" or \"water heater\" in your panel). If it's tripped, switch it fully OFF, wait 30 seconds, then back ON. If it trips again immediately, stop — that means a short or a failed element, and continuing to reset risks damage. Some electric tanks also have a manual reset on the upper thermostat — small red button behind the upper access panel. Press it firmly. If it pops out immediately again, that's our call.",
+            },
+            {
+              heading: "Gas valve at the meter (gas tanks + tankless)",
+              body: "If the gas was recently turned off at the meter (utility work, leak repair, new appliance install), your hot water tank or tankless unit won't fire. Confirm the gas valve at the meter is in the parallel-to-pipe (open) position. Also worth checking that nobody bumped the shutoff valve on the gas line right at the tank.",
+            },
+            {
+              heading: "Tankless — check for error codes on the display",
+              body: "Modern tankless units (Navien, Rinnai, IBC) display error codes on the front panel when they fail. Note the code before you call — it tells us exactly which component failed, lets us bring the right part on the first visit. Power-cycle the unit (breaker OFF for 60 seconds, then back ON) to see if the code clears. If it returns, that's our call.",
+            },
+            {
+              heading: "Hot water valve fully open at the tank",
+              body: "Rare but worth a 10-second check: the hot water shutoff valve at the top of the tank should be fully open (handle parallel to the pipe). Occasionally a contractor or previous service call closes it partially. If it's been bumped to nearly-closed, you'll get low/no hot water at the fixtures.",
+            },
+          ],
+        },
+        {
+          heading: "Why your hot water stopped — by system type",
+          intro:
+            "Different tank types fail in different ways. Knowing which you have helps us bring the right part on the first visit. Photograph the rating plate (silver sticker on the side of the tank) before you call — model and serial tell us a lot.",
+          items: [
+            {
+              heading: "Gas tank — pilot/ignition failures dominate",
+              body: "Most no-hot-water calls on gas tanks trace to one of: pilot light blown out (relight + check why), failed thermocouple (won't hold pilot — universal part on the truck), failed gas control valve (no fire at all — Honeywell + White-Rodgers stocked for common Bradford White / John Wood units), or a tripped flammable vapour sensor (high-efficiency tanks — usually means dust/lint near the tank base needs cleaning and a reset). Less common: blown high-limit safety switch from overheating, failed dip tube. All diagnosed in 20-30 minutes.",
+            },
+            {
+              heading: "Electric tank — thermostats + elements dominate",
+              body: "Electric tanks have two thermostats and two heating elements (upper + lower). Most no-hot-water calls trace to: tripped upper thermostat reset (manual red button — reset it but find out WHY it tripped, often a failed lower thermostat), failed upper element (no hot water at all — element easy to test with a multimeter), failed upper thermostat (signals the upper element to run), or a tripped 240V breaker that won't stay on (short to ground in an element — replace the element). Less common: failed lower element gives lukewarm-but-not-cold water; a fully cold tap usually points upper.",
+            },
+            {
+              heading: "Tankless — error codes tell the story",
+              body: "Tankless units (Navien NPE-A/S, Rinnai R/RU, IBC) self-diagnose and throw error codes. Common no-hot-water codes: flame failure (E03 / 03 — usually gas supply or igniter), heat exchanger overheat (E10-11 — often scale-related, needs descaling), exhaust/intake blockage (E26 / 32 — outdoor vent blocked by snow or birds), water flow sensor failure (E16 — sensor blocked or failed), or board/sensor faults requiring component replacement. Each code points at a different repair — usually first-visit with the right code captured before we roll.",
+            },
+            {
+              heading: "Power-vent or direct-vent tanks — venting failures matter",
+              body: "Power-vent tanks (most post-2010 Calgary installs) have a fan that pushes exhaust out the side wall. If the fan fails or the vent is blocked (snow, bird nest, lint), the tank shuts off as a safety. Symptom: tank tries to fire, fan runs briefly, system shuts off without producing hot water. Listen for the fan — if it's not running when the burner should fire, that's the failure point. Blower motor replacement is a same-visit fix on most common units.",
+            },
+            {
+              heading: "Sediment-driven no-hot-water (any tank type)",
+              body: "Severe sediment buildup in Calgary's hard water can cover the burner (gas tanks) or lower element (electric tanks) completely — to the point the burner/element can't transfer heat to the water above. Symptom: tank running, gas/electric supply fine, no actual heating happening. Flushing sometimes recovers; severely sediment-clogged tanks often need replacement. We diagnose during the call — if it's recoverable, we flush; if not, we quote replacement honestly.",
+            },
+            {
+              heading: "Recent power outage or gas interruption",
+              body: "If Calgary had a power blip (windstorm, transformer issue) or scheduled gas work in your area, your hot water tank may have shut down protective and need a manual reset. Gas tanks: check pilot is lit. Electric: cycle breaker. Tankless: check for an error code, power-cycle. If it doesn't come back after reset, call — sometimes a brownout damages a control board.",
+            },
+          ],
+        },
+        {
+          heading: "What we do on a no-hot-water call",
+          intro:
+            "Standard diagnosis sequence. Most calls finish first visit; rare brand-specific control boards sometimes need overnight parts.",
+          items: [
+            {
+              heading: "1. Symptom + timeline + what you've already tried",
+              body: "What's happening, when hot water stopped, when the tank was last serviced, what's been tried (pilot relight, breaker cycle, reset button). Saves us re-walking ground you've already covered. Photograph the rating plate before we arrive if you can — model and serial tell us a lot about parts and warranty.",
+            },
+            {
+              heading: "2. Tank age + visual inspection",
+              body: "Check the manufacture date on the rating plate (first 2-4 digits of the serial usually code the year). 10+ year-old tank with a serious failure starts a replace-vs-repair conversation; 6-year-old tank with a simple failure is a clear repair. Visual check for water at the base, corrosion at fittings, condition of TPR valve, gas line and venting (gas), 240V wiring (electric), error history (tankless).",
+            },
+            {
+              heading: "3. Diagnose the failed component",
+              body: "Gas: test pilot/ignition, thermocouple millivolts (should be 25mV+), gas pressure at the valve, flame condition. Electric: measure resistance of upper + lower elements, test thermostat continuity at temperature, verify incoming 240V. Tankless: pull error-code history from the controller, check flow sensor, inspect heat exchanger for scale, test gas pressure. Real measurement, not guessing.",
+            },
+            {
+              heading: "4. Sediment + anode check (relevant to hard-water Calgary)",
+              body: "Even when the immediate cause is a failed component, we crack the drain valve to check sediment depth — discharge runs clear or comes out as slurry/chunks. Pull the anode rod (5-minute job on most tanks) — if it's down to the core wire, that's the warning the tank itself is corroding. Both cheap maintenance items that extend tank life dramatically.",
+            },
+            {
+              heading: "5. Repair on the spot if possible",
+              body: "Common parts on every truck — thermostats, electric elements, anode rods, TPR valves, dip tubes, thermocouples, igniters, gas control valves, power-vent blowers for common brands. Tankless flush kits on board for scale-related calls. Most no-hot-water calls finish first visit; brand-specific control boards sometimes need overnight parts.",
+            },
+            {
+              heading: "6. Honest replace-vs-repair quote on bigger failures",
+              body: "If your tank is 10+ years old, leaking from the bottom, or has a major component failure (gas valve + high-limit safety + thermostat all failed = old tank), we quote both the repair AND a full replacement so you can do the math. Free written quote on replacement. Both [hot water tank replacement](/hot-water-tank-replacement-calgary/) and [tankless water heater](/tankless-water-heaters/) covered in-house — same crew finishes the job.",
+            },
+          ],
+        },
+        {
+          heading: "When no hot water means it's time to replace",
+          intro:
+            "Some no-hot-water calls don't have a worth-repairing answer. Knowing when replacement is the right move saves throwing money at a system that'll fail again in months.",
+          items: [
+            {
+              heading: "Tank leaking from the bottom",
+              body: "Non-repairable. The tank itself is the failed component — corroded through from the inside, usually due to a consumed anode rod and Calgary's hard water. Patching is throwing good money after bad; the next leak is weeks away, not years. Replacement is the only honest answer. Same-day tank swap usually possible with the truck stocked.",
+            },
+            {
+              heading: "Tank 12+ years old with major component failure",
+              body: "Most tanks in Calgary give up at 8-10 years (vs 12-15 elsewhere — hard water). A 12+ year tank with a failed gas valve or multiple failed components is statistically at end of life — even if the immediate failure is fixable, the next failure is months away. Replacement math usually beats stacked repair bills.",
+            },
+            {
+              heading: "Sediment-clogged beyond flushing",
+              body: "If sediment has hardened into a layer that flushing can't dislodge, the tank's effective capacity is reduced AND the burner/element can't transfer heat efficiently. Sometimes recoverable with chemical descale; often not. We diagnose honestly — if descaling can restore the tank, that's the recommendation; if it can't, replacement.",
+            },
+            {
+              heading: "Cracked heat exchanger (tankless)",
+              body: "Tankless heat exchangers can crack from severe scale buildup or thermal stress. Cracked exchanger is non-repairable on most units — full replacement or major component swap that often costs as much as a new unit. We show you the failure on inspection before quoting.",
+            },
+            {
+              heading: "Tank scale damage from years without softener",
+              body: "Tanks running on unsoftened Calgary water for 10+ years often have heavily scaled bottoms and damaged internal coatings. Even after a successful repair, life expectancy is short. We recommend pairing a tank replacement with a [water softener](/water-softener/) install — most softener customers see 14+ year tank lifespans vs. 8-10 unsoftened.",
+            },
+          ],
+        },
+      ],
+      faq: {
+        heading: "No Hot Water in Calgary — FAQs",
+        items: [
+          {
+            q: "I have no hot water — can you come today?",
+            a: "Yes — no-hot-water calls get same-day dispatch. Real person on the phone, we confirm a window before the truck rolls. Most days we're at the door within 2-3 hours of the call. Call 587-834-3668. Common parts ride on every truck so most repairs finish the first visit.",
+          },
+          {
+            q: "My pilot light keeps going out — what's wrong?",
+            a: "If the pilot lights but won't stay lit when you release the gas control button, the thermocouple has failed. The thermocouple is a small metal probe that sits in the pilot flame and generates a tiny voltage telling the gas valve \"flame is on, keep the gas flowing.\" When it weakens or fails, the valve closes and the pilot goes out. Universal thermocouple is stocked on every truck — usually a 20-minute fix. If the pilot won't even light, the cause is often a blocked pilot orifice or a failed igniter.",
+          },
+          {
+            q: "My electric hot water tank breaker keeps tripping — should I keep resetting it?",
+            a: "No — stop resetting it. If the breaker trips immediately every time you flip it back on, that's a short to ground (usually a failed heating element with a shorted casing). Continuing to reset risks damaging the breaker or causing a fault. Call us — element replacement is a same-visit fix, and we test BOTH elements while we're there so the second one doesn't fail the next week.",
+          },
+          {
+            q: "My tankless unit is showing an error code — what does it mean?",
+            a: "Each manufacturer has its own code system but common ones across Navien / Rinnai / IBC mean: E03 (flame failure — gas or ignition issue), E10/E11 (overheat — usually scale buildup needs descaling), E16 (water flow sensor — sensor or filter), E26/E32 (vent/intake blocked — outdoor pipe), board/sensor faults requiring a component. Capture the exact code before you call us — it tells us which part to bring on the first visit.",
+          },
+          {
+            q: "Is no hot water an emergency?",
+            a: "It's not life-safety the way no heat in winter is, but it's serious enough that we treat it as priority dispatch — most households need hot water for cooking, washing, and bathing. Same-day dispatch is the default for no-hot-water calls. If you're elderly, have young children, or it's deep winter, mention that on the call — we route those ahead in the same-day queue.",
+          },
+          {
+            q: "How long does no-hot-water repair take?",
+            a: "Typical diagnosis runs 30 minutes. Most common repairs (thermocouple, element swap, thermostat, igniter, gas control valve) finish in the same visit — total call usually 1-2 hours. Bigger jobs (tank replacement, tankless heat exchanger repair, brand-specific control board) take longer; rare parts that need ordering may push to next-day. We tell you upfront which bucket you're in before any work starts.",
+          },
+          {
+            q: "Should I just replace my hot water tank instead of repairing it?",
+            a: "Depends on tank age. Under 8 years with a single failed component (thermocouple, element, thermostat, anode) — repair. Tank 8-10 years old with a single failure — judgement call; we'll explain the trade-off. Tank 10+ years old leaking from the bottom — replace. Tank of any age with rusty hot water from the tap — likely anode-driven corrosion but inspect for tank-side failure. We give honest assessments; if your 6-year-old tank just needs a thermostat, we'll do the repair and tell you so.",
+          },
+          {
+            q: "Why does my hot water tank fail faster in Calgary than in other cities?",
+            a: "Calgary water is hard — 150-200 mg/L hardness vs 60-120 in most of Canada. Calcium and magnesium drop out of solution when heated and settle at the bottom of the tank as sediment. Hard water also consumes the sacrificial anode rod faster (5-7 year rod gone in 3-4 here). Without annual flushing + 3-year anode replacement, Calgary tanks typically reach 8-10 years vs the 12-15 year manufacturer rating. Installing a [water softener](/water-softener/) is the single best move for tank longevity — most softener customers see 14+ years.",
+          },
+          {
+            q: "Can I get hot water back tonight if you can't get here until tomorrow?",
+            a: "Sometimes — depends on the failure. Gas tank with a blown pilot you couldn't relight: we can sometimes walk you through the relight on the phone. Electric tank with a tripped reset button: same — we can talk you through pressing it safely. Failed component (thermocouple, element, gas valve, etc.): no, that needs a part and a tech. We'll be honest on the phone about whether a same-night fix is possible or if you're waiting until our next-morning slot.",
+          },
+          {
+            q: "Do you work on every brand of hot water tank?",
+            a: "Yes — Bradford White and John Wood (the two most common Calgary brands), plus AO Smith, Rheem, Giant, Reliance, GSW, and most others. Same with tankless: Navien, Rinnai, IBC, Noritz, Bosch. Common parts on the truck cover the brands we see most; brand-specific control boards or proprietary parts sometimes need overnight order. We tell you upfront which bucket you're in.",
           },
         ],
       },
