@@ -1026,7 +1026,7 @@ export const services: ServicePage[] = [
     lead:
       "When disaster strikes, you need emergency plumbers in Calgary who respond immediately. At FlameTech, we provide rapid emergency plumbing services to protect your home from water damage and restore your comfort quickly.",
     heroBody: [
-      "Our emergency plumbers in Calgary are on call around the clock, ready to tackle urgent plumbing crises that can't wait until morning. From burst pipes during Calgary's harsh winters to sudden [no-hot-water calls](/no-hot-water-calgary/) and [hot water tank](/hot-water-tanks/) failures, our certified technicians arrive equipped to handle any emergency.",
+      "Our emergency plumbers in Calgary are on call around the clock, ready to tackle urgent plumbing crises that can't wait until morning. From burst pipes during Calgary's harsh winters to [leaking water heaters](/leaking-water-heater-calgary/), [no-hot-water calls](/no-hot-water-calgary/), and [hot water tank](/hot-water-tanks/) failures, our certified technicians arrive equipped to handle any emergency.",
       "Aging [Poly-B piping](/polyb-plumbing-calgary/) is a common culprit for sudden failures in 80s-90s Calgary builds — we carry replacement parts on every truck. Same for [drain backups](/drain-cleaning-calgary/) and frozen-pipe thaws.",
       "When you call us, you're getting immediate help from a real dispatcher — priority dispatch, fair pricing, and real people who answer the phone. We cover Calgary plus [Airdrie](/airdrie-plumbers/), [Chestermere](/chestermere-plumbers/), [Cochrane](/cochrane-plumbers/), and [Okotoks](/okotoks-plumbers/).",
     ],
@@ -4299,7 +4299,8 @@ export const services: ServicePage[] = [
         { label: "Water Softeners", href: "/water-softener/", summary: "Protect your tank from Calgary's hard water with a properly-sized softener.", icon: "softener_tank" },
         { label: "Reverse Osmosis", href: "/reverse-osmosis-calgary/", summary: "Under-sink + whole-home drinking-water filtration. Pairs with softener.", icon: "water_drop" },
         { label: "No Hot Water", href: "/no-hot-water-calgary/", summary: "Cold shower right now? Same-day dispatch with common parts on the truck — gas, electric, and tankless.", icon: "shower", highlight: true, badge: "Same-day dispatch" },
-        { label: "Hot Water Issues", href: "/hot-water-issues-calgary/", summary: "Lukewarm, popping noises, leaks, discoloured water — broader diagnosis across every tank type.", icon: "water_damage", highlight: true, badge: "Common issue" },
+        { label: "Leaking Water Heater", href: "/leaking-water-heater-calgary/", summary: "Drip from a top fitting or pool spreading from the bottom? Same-day dispatch with emergency shutoff guidance on the call.", icon: "water_damage", highlight: true, badge: "Same-day dispatch" },
+        { label: "Hot Water Issues", href: "/hot-water-issues-calgary/", summary: "Lukewarm, popping noises, discoloured water — broader diagnosis across every tank type.", icon: "water_damage", highlight: true, badge: "Common issue" },
       ],
     },
   },
@@ -4696,7 +4697,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "Water pooling around the base of the tank",
-              body: "Almost always tank-side corrosion (tank bottom rusting through from the inside) — non-repairable. Could also be TPR valve discharge, fitting leak at supply lines, or a failed drain valve, all of which are repairable. We trace the leak source first. If it's the tank itself, replacement is the only option.",
+              body: "Almost always tank-side corrosion (tank bottom rusting through from the inside) — non-repairable. Could also be TPR valve discharge, fitting leak at supply lines, or a failed drain valve, all of which are repairable. We trace the leak source first. If it's the tank itself, replacement is the only option. See our dedicated [leaking water heater in Calgary](/leaking-water-heater-calgary/) page for the full source-of-leak diagnostic tree and emergency shutoff guidance.",
             },
             {
               heading: "Discoloured / rusty hot water (cold runs clear)",
@@ -5048,6 +5049,296 @@ export const services: ServicePage[] = [
           {
             q: "Do you work on every brand of hot water tank?",
             a: "Yes — Bradford White and John Wood (the two most common Calgary brands), plus AO Smith, Rheem, Giant, Reliance, GSW, and most others. Same with tankless: Navien, Rinnai, IBC, Noritz, Bosch. Common parts on the truck cover the brands we see most; brand-specific control boards or proprietary parts sometimes need overnight order. We tell you upfront which bucket you're in.",
+          },
+        ],
+      },
+    },
+  },
+  {
+    slug: "leaking-water-heater-calgary",
+    category: "Water",
+    icon: "water_damage",
+    title: "Leaking Water Heater in Calgary — Same-Day Emergency Repair",
+    lead:
+      "Water heater leaking? Two questions matter first: where is the leak coming from, and is your basement getting wet right now? A drip from the top of the tank is usually a same-day fix. A puddle spreading from the bottom is a tank-replacement emergency — and water damage adds up fast. FlameTech dispatches same-day for leaking water heater calls, brings replacement tanks on the truck where possible, and walks you through emergency shutoff on the phone if you need it tonight.",
+    heroBody: [
+      "Before we get there, two things matter: containing the leak (shut off the water and gas/electric — covered below) and not panicking about an explosion (tanks have safety valves; water-damage is the real risk, not a blast). If your leak is small and from a top fitting, you have hours to days. If water is pooling around the base, the tank itself is failing and the smart move is to shut off the supply and call. Either way, real person answers the phone — we'll triage on the call and confirm a window before the truck rolls.",
+      "We work on every common Calgary setup: gas tanks (Bradford White, John Wood, AO Smith), electric tanks, power-vent and direct-vent tanks, and tankless units (Navien, Rinnai, IBC). Same crew handles our broader [hot water issues](/hot-water-issues-calgary/) and [no hot water](/no-hot-water-calgary/) diagnostic work, plus [hot water tank replacement](/hot-water-tank-replacement-calgary/) and [emergency plumbing](/emergency-plumber-calgary/) more broadly.",
+      "Call 587-834-3668 for same-day dispatch. Most leaking-tank diagnoses run 20-30 minutes. Top-fitting leaks (dielectric union, supply line, drain valve, TPR) often finish first visit. Bottom-of-tank leaks mean replacement — common-brand tanks ride on the truck for same-day swaps where stocked.",
+    ],
+    heroSubhead: "Same-Day Dispatch for Leaking Tanks",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/FTVAN2.jpg", alt: "Shaun and Jason — FlameTech same-day leaking water heater dispatch in Calgary", fit: "cover" },
+    intro:
+      "Calgary leaking water heater diagnosis + repair + same-day replacement. Top-fitting leaks, TPR valve, drain valve, condensate, and bottom-of-tank failures. Real person on the phone. Call 587-834-3668.",
+    features: [
+      "Same-day leaking tank dispatch",
+      "Leak source diagnosis (top vs bottom)",
+      "TPR valve + expansion tank service",
+      "Drain valve + fitting repair",
+      "Same-day tank replacement (stocked)",
+      "Insurance documentation on request",
+    ],
+    bullets: [
+      {
+        t: "Same-day dispatch — real person on the phone",
+        d: "Leaking tanks get same-day priority. You talk to a tech, not a call centre — we'll triage on the phone (is it a top-fitting drip or bottom-of-tank failure?) and confirm a window before the truck rolls. Most days we're at the door within 2-3 hours. For active leaks we'll walk you through emergency shutoff on the call.",
+      },
+      {
+        t: "Honest source-of-leak diagnosis",
+        d: "Where the leak is coming from determines the fix entirely. Top fittings, TPR valve, drain valve, or condensate line are usually repairable — small parts, same-visit. Bottom-of-tank corrosion is non-repairable — the tank itself has failed and replacement is the only honest answer. We trace the source first, then quote.",
+      },
+      {
+        t: "Common tanks on the truck",
+        d: "Bradford White, John Wood, AO Smith — the brands that actually hold up to Calgary's hard water — stocked on our trucks for same-day swaps where size matches. Repair parts (TPR valves, dielectric unions, brass drain valves, supply lines, anode rods) ride on every truck.",
+      },
+      {
+        t: "Insurance-ready documentation",
+        d: "Water damage from a failed tank often triggers an insurance claim. We document the cause of failure (photos of corroded bottom, anode rod condition, install date if on the rating plate) and provide written diagnosis + replacement quote suitable for your adjuster on request.",
+      },
+    ],
+    seoTitle: "Leaking Water Heater Calgary | Same-Day Repair + Replacement",
+    seoDescription:
+      "Water heater leaking in Calgary? Same-day dispatch, honest source-of-leak diagnosis, repair or replace on the spot. Real person on the phone. Call 587-834-3668.",
+    seoKeywords: [
+      "leaking water heater Calgary",
+      "water heater leak Calgary",
+      "hot water tank leaking Calgary",
+      "water heater leaking from bottom",
+      "TPR valve leaking Calgary",
+      "emergency water heater replacement Calgary",
+      "FlameTech Plumbing Heating",
+    ],
+    quoteFormLabel: "leaking water heater",
+    quoteFormPlaceholder:
+      "e.g. water heater leaking from the bottom, drip from the top fittings, TPR valve dripping, pool of water around the base, drain valve leaking…",
+    sidebar: {
+      title: "Calgary Leaking Tank Service",
+      subtitle:
+        "Same-day dispatch for leaking water heaters. Honest source-of-leak diagnosis — top-fitting repair or bottom-of-tank replacement.",
+      bullets: [
+        "Real person on the phone",
+        "Emergency shutoff guidance on the call",
+        "Repair parts + replacement tanks stocked",
+        "Insurance documentation on request",
+      ],
+    },
+    stats: [
+      { number: "Same-day", label: "Dispatch", icon: "schedule" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "Real", label: "Person on the phone", icon: "call" },
+      { number: "ANY", label: "Tank brand", icon: "check_circle" },
+    ],
+    callout:
+      "Water heater leaking right now? Call 587-834-3668 — same-day dispatch. We'll walk you through emergency shutoff on the call if you need it.",
+    richContent: {
+      sections: [
+        {
+          heading: "If your tank is actively leaking — do this first",
+          intro:
+            "Before anything else, slow the water down. Containing the leak limits property damage and gives us time to do the right diagnosis rather than the rushed one. Two minutes of shutoff prep can save thousands in basement repair.",
+          items: [
+            {
+              heading: "1. Shut off the cold-water inlet to the tank",
+              body: "Find the cold-water supply line at the top of the tank — it's usually one of two pipes entering the top, typically a 3/4\" copper or PEX line with a shutoff valve nearby (ball valve handle or round gate-valve wheel). Turn it OFF (ball valve handle perpendicular to the pipe, gate valve fully clockwise). This stops new water entering the tank. If you can't find the tank shutoff, shut the WHOLE HOUSE off at the main shutoff (usually in the front basement near the water meter).",
+            },
+            {
+              heading: "2. Shut off the gas (gas tank) or breaker (electric tank)",
+              body: "Gas tank: the gas control valve at the bottom of the tank has a dial — turn it to OFF (or PILOT if you can't find OFF). For added safety, shut the gas line shutoff just upstream of the tank (handle perpendicular to the line). Electric tank: find the dedicated 240V breaker in your electrical panel (usually a double-pole breaker labelled \"hot water\" or \"water heater\") and turn it OFF. This prevents the burner/element from continuing to heat a tank that's losing water.",
+            },
+            {
+              heading: "3. Contain water and limit spread",
+              body: "Towels around the base, buckets under the worst drip, shop vac if you have one. If the tank is in a finished basement, move anything valuable away from the area. Open the drain valve at the bottom of the tank ONLY if you have a hose to direct water to a floor drain — otherwise you're just adding to the puddle. The pressure relief discharge tube (the rigid copper or PEX line running from the TPR valve down toward the floor) sometimes points at a drain — make sure it's clear.",
+            },
+            {
+              heading: "4. Call us",
+              body: "Real person on the phone — we'll triage based on where the leak is coming from and confirm a window. If the leak is small (top fittings, TPR drip), that's usually a same-day repair. If the bottom of the tank is leaking, the tank itself has failed and we're rolling with a replacement on the truck where possible. Don't keep using hot water in the meantime — every gallon out the tap is a gallon of cold incoming water filling the leak.",
+            },
+          ],
+        },
+        {
+          heading: "Where the leak is coming from determines the fix",
+          intro:
+            "Where you see water tells you almost everything. Top of the tank vs bottom of the tank means a different parts list and a different conversation about repair vs replacement.",
+          items: [
+            {
+              heading: "Drip from a top fitting (cold or hot supply connection)",
+              body: "Usually a failed dielectric union (the brass-and-galvanized fitting that connects copper supply lines to the tank's steel nipples — these corrode after years in Calgary water and start weeping), or a failed flex line connector, or a loose threaded joint. Repairable — universal dielectric unions and flex lines on the truck. Often a 30-minute fix. Tank itself is fine; this is a wear-part replacement.",
+            },
+            {
+              heading: "Drip from the TPR valve discharge tube",
+              body: "TPR (temperature/pressure relief) valves dump water as a safety when system pressure or temperature exceeds limits. A few drops occasionally during heating cycles is normal. A continuous drip means either (a) the TPR itself has failed and won't reseat — replace the valve (cheap part, on the truck), or (b) system pressure is too high and the TPR is doing its job — root cause is almost always a failed expansion tank. We diagnose root cause AND replace the leaking TPR. Don't just replace the TPR without checking the expansion tank or it'll leak again in a week.",
+            },
+            {
+              heading: "Drip from the drain valve at the bottom",
+              body: "Many builder-grade tanks ship with a plastic drain valve that cracks or loosens over time. Replace with a brass full-port drain valve — universal part, on the truck. Quick fix. Tank itself fine. Worth flushing the tank while we're there since the drain is already opened.",
+            },
+            {
+              heading: "Drip from the anode rod port (top of tank)",
+              body: "Sometimes the anode rod hex plug at the top of the tank loosens slightly over years of thermal cycling. Re-tightening with thread sealant is usually all it takes. Worth pulling and inspecting the anode rod while we're at it — if it's down to the core wire, replace it (Calgary tanks consume anodes fast). Tank itself fine.",
+            },
+            {
+              heading: "Water pooling around the base of the tank — bottom-of-tank leak",
+              body: "Almost always tank-side corrosion — the steel tank has rusted through from the inside, usually because the sacrificial anode rod was consumed years ago and never replaced. Non-repairable. The tank itself is the failed component, and the only honest answer is replacement. We don't patch corroded tank bottoms — patches fail in weeks, sometimes days, and the next leak is bigger. We'll show you the failure on inspection, give you a written replacement quote, and roll with a replacement tank on the truck where size matches.",
+            },
+            {
+              heading: "Water from the condensate line (power-vent + condensing tanks)",
+              body: "Power-vent and condensing high-efficiency tanks produce acidic condensate that drains through a small plastic line — usually 1/2\" or 3/4\" PVC, often routed to a floor drain or condensate pump. If this line is frozen (Calgary cold-snap classic — happens when the line runs through unheated space or exits outdoors), blocked with sediment, or disconnected at a joint, condensate backs up and can appear as water around or under the tank. Diagnosis takes 10 minutes; we reroute and add heat trace where needed.",
+            },
+            {
+              heading: "Water under the tank but no visible drip — tank pan or sweating",
+              body: "Newer installs sometimes include a leak-detection drain pan under the tank — water collecting in the pan without an obvious source could mean (a) a very slow tank-bottom leak you can't see, (b) condensation from cold pipes sweating in a humid basement, or (c) a leak from elsewhere (overhead pipe, washing machine) landing under the tank. We trace the source — sometimes a 10-minute diagnostic, sometimes a 30-minute one with moisture testing.",
+            },
+            {
+              heading: "Combustion-chamber water (gas tanks — serious)",
+              body: "Water dripping or pooling inside the burner area at the bottom of a gas tank is almost always a sign the tank itself is leaking internally and water is reaching the combustion chamber. Continuing to fire the burner risks damage and combustion issues. Shut the tank off and call us — this is a tank-replacement situation, not a repair.",
+            },
+          ],
+        },
+        {
+          heading: "Why Calgary water heaters leak when they do",
+          intro:
+            "Tanks rated for 12-15 year lifespan typically give up at 8-10 in Calgary. The water profile drives most of it — knowing why helps explain when a leak is a fluke and when it's a sign the whole tank is at end of life.",
+          items: [
+            {
+              heading: "Hard water consumes the anode rod fast",
+              body: "Calgary water hardness (150-200 mg/L) accelerates anode consumption. The sacrificial anode rod that's rated for 5-7 years in soft-water cities is gone in 3-4 here. Once the anode is consumed, the tank itself starts corroding from the inside — eventually rusting through the bottom and leaking. Pulling and replacing the anode every 3 years is the single best move for tank longevity.",
+            },
+            {
+              heading: "Sediment damages the tank bottom",
+              body: "Hard water sediment (calcium + magnesium) settles at the bottom of the tank. Over years, this sediment layer traps superheated water under it, weakening the tank floor through repeated thermal stress. By year 8-10 in unsoftened Calgary water, many tank bottoms are damaged enough to leak. Annual flushing dramatically slows this.",
+            },
+            {
+              heading: "Dielectric unions corrode at the top fittings",
+              body: "Where copper supply lines meet the tank's steel nipples, dielectric unions prevent galvanic corrosion — but they're a wear part. In Calgary water, they start weeping at 8-12 years. Common cause of \"sudden\" top-fitting leaks. Universal replacement, 30-minute fix.",
+            },
+            {
+              heading: "Expansion tanks fail and overpressurize the system",
+              body: "Modern Calgary builds usually have a small expansion tank near the water heater to absorb thermal expansion (water expands as it heats). When the expansion tank's internal bladder fails, system pressure swings wildly, the TPR valve starts dumping water, and the whole system runs higher pressure. Common cause of \"sudden\" TPR drips. Expansion tank replacement is a 30-minute job.",
+            },
+            {
+              heading: "Plastic drain valves crack over time",
+              body: "Builder-grade tanks often ship with cheap plastic drain valves. After years of thermal cycling, the plastic cracks or the seal fails. Common cause of slow drips from the bottom of the tank that look alarming but are actually just the drain valve. Brass replacement is the right fix.",
+            },
+            {
+              heading: "Frozen condensate lines in cold snaps",
+              body: "Power-vent and condensing tanks produce condensate that drains through PVC lines — if any section runs through unheated space or exits outdoors without proper insulation, it can freeze during Calgary's deep cold snaps. Frozen condensate backs up, appears as water around the tank, and the tank may also lock out on a safety. Reroute + heat trace fixes it permanently.",
+            },
+          ],
+        },
+        {
+          heading: "Repair or replace — how the decision actually breaks down",
+          intro:
+            "Leak source + tank age = the answer. Some leaks are wear-part replacements; others are signs the whole tank is at end of life. We give honest assessments, not push the bigger ticket.",
+          items: [
+            {
+              heading: "Top-fitting leak, tank under 10 years → repair",
+              body: "Dielectric union, supply line, TPR valve, drain valve, or anode rod port leaks are wear-part replacements. If the tank itself is in good shape (no sediment damage, anode still has material left), repair makes sense. Same-visit fix in most cases.",
+            },
+            {
+              heading: "TPR valve leaking + tank age irrelevant → repair valve + diagnose root cause",
+              body: "Replace the TPR valve (cheap, on the truck) but ALSO diagnose WHY it's relieving — usually a failed expansion tank or, less commonly, a high system pressure issue. If you just replace the valve without fixing the root cause, the new valve will leak again in days or weeks.",
+            },
+            {
+              heading: "Bottom-of-tank leak, any age → replace",
+              body: "Tank-side corrosion is non-repairable. Patching is throwing good money after bad — the next leak is days or weeks away, and the next leak is bigger. Replacement is the only honest answer. Same-day swap usually possible with common-brand tanks on the truck.",
+            },
+            {
+              heading: "Tank 10+ years old + any leak → strong replace lean",
+              body: "Even repairable leaks at this age are usually signs the whole tank is at end of life. Calgary tanks past 10 years are statistically on borrowed time. Repairing a $200 union on a $1,800 tank that'll fail anyway in 6-12 months rarely makes sense. We'll quote both options and walk through the math — most homeowners choose replacement at this age.",
+            },
+            {
+              heading: "Tank 6-8 years + repairable leak → judgement call",
+              body: "Edge of the decision. We look at: anode rod condition (if it's gone, the tank itself is corroding even if the current leak is just a fitting), sediment depth, whether you have a water softener (extends remaining life dramatically), and your appetite for proactive replacement. We quote both options, you decide.",
+            },
+            {
+              heading: "Pair tank replacement with a water softener",
+              body: "If you're replacing a Calgary tank and don't have a [water softener](/water-softener/), the conversation about adding one happens now. Most softener customers see 14+ year tank lifespans vs 8-10 unsoftened. The math on softener payback over a tank lifecycle is usually strongly positive in this water.",
+            },
+          ],
+        },
+        {
+          heading: "What we do on a leaking water heater call",
+          intro:
+            "Standard diagnostic sequence. Most calls finish first visit; tank replacements get a separate quote and usually same-day swap where stocked.",
+          items: [
+            {
+              heading: "1. Phone triage + emergency shutoff guidance",
+              body: "Real person on the phone. We'll ask where the leak appears to be coming from (top, bottom, around the base), how fast it's leaking (drip, steady stream, pool), and how old the tank is. If it's actively flooding, we'll walk you through cold-water and gas/electric shutoff before the truck rolls.",
+            },
+            {
+              heading: "2. Source-of-leak diagnosis on site",
+              body: "Dry the area around the tank with a towel, then watch carefully. Where the first new drop appears tells us almost everything. Top fitting (repair), TPR (replace + check expansion tank), drain valve (replace), bottom of tank (replace tank), condensate line (clear + reroute). Diagnosis usually takes 10-20 minutes.",
+            },
+            {
+              heading: "3. Tank age + condition check",
+              body: "Check the rating plate for manufacture date (first 2-4 digits of serial usually code the year). Pull the anode rod — if it's down to the core wire, the tank is at end of life even if the current leak is repairable. Check sediment depth via drain valve. All this informs the repair-vs-replace conversation.",
+            },
+            {
+              heading: "4. Repair on the spot or quote replacement",
+              body: "Top-fitting leaks, TPR replacements, drain valve swaps, condensate line clears — universal parts on the truck, same-visit fix. Bottom-of-tank failures get a written replacement quote with both like-for-like swap and any upgrade options ([tankless conversion](/tankless-water-heaters/), softener pairing). Free written quote on replacement either way.",
+            },
+            {
+              heading: "5. Insurance documentation if you need it",
+              body: "Failed-tank water damage is a common insurance claim. We provide written diagnosis, photos of the failure, install date if on the rating plate, and replacement quote — formatted for your adjuster on request. Doesn't slow down the repair; just paper we add to the file.",
+            },
+            {
+              heading: "6. Same-day swap where stocked",
+              body: "Bradford White and John Wood tanks in common sizes (40, 50, 60 gallon — gas + electric) ride on the truck for same-day swaps. Larger or specialty units may need next-day order. We tell you upfront which bucket you're in before quoting.",
+            },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Leaking Water Heater in Calgary — FAQs",
+        items: [
+          {
+            q: "Is a leaking water heater an emergency?",
+            a: "Depends on where it's leaking. A drip from a top fitting or the TPR valve is not flooding-emergency territory — you have hours to days to schedule a repair. A pool spreading from the BOTTOM of the tank is emergency territory — the tank itself is failing, water damage adds up fast, and the smart move is to shut off the cold-water inlet to the tank and call. Same-day dispatch is the default for leaking-tank calls; for active flooding, we'll walk you through shutoff on the phone before the truck rolls.",
+          },
+          {
+            q: "Can a leaking water heater explode?",
+            a: "Almost never. Tanks have a TPR (temperature/pressure relief) safety valve that dumps water if temperature or pressure exceeds limits — exactly to prevent the catastrophic explosions that were possible 100 years ago. The real risk from a leaking tank in 2025 is water damage to your basement, not an explosion. That said, if you smell gas anywhere near the tank, that's a separate emergency — leave the house and call your gas utility's emergency line first.",
+          },
+          {
+            q: "Can I still use my hot water while waiting for service?",
+            a: "Try not to. Every gallon of hot water you draw at the tap pulls a gallon of cold water into the tank — which means more water going out the leak. If the leak is small and from a top fitting, occasional light use is OK until we arrive same-day. If water is pooling around the base, shut off the cold-water inlet to the tank entirely and stop using hot water until we're there. The faster you slow the leak, the less basement damage you'll have to deal with.",
+          },
+          {
+            q: "How do I shut off my water heater myself?",
+            a: "Three steps. (1) Cold-water inlet: find the shutoff valve on the cold-water line entering the top of the tank — turn it fully off (ball valve handle perpendicular to pipe, gate valve fully clockwise). (2) Gas tank — turn the gas control dial at the bottom of the tank to OFF or PILOT. Electric tank — flip the dedicated 240V breaker in your electrical panel to OFF. (3) If you can't find the tank-side shutoff, shut the WHOLE HOUSE off at the main shutoff valve (usually in the front basement near the water meter). We can walk you through it on the phone if you call.",
+          },
+          {
+            q: "Why is my water heater leaking from the top?",
+            a: "Almost always a top-fitting issue — usually a dielectric union (the brass-and-galvanized fitting connecting copper supply lines to the tank's steel nipples) that's corroded after years in Calgary water, or a failed flex-line connector, or a loose threaded joint. Repairable — universal parts on the truck, often a 30-minute fix. The tank itself is usually fine. Less common but possible: leaking anode rod port (re-tighten with thread sealant) or a failed temperature/pressure relief (TPR) valve discharge line.",
+          },
+          {
+            q: "Why is my water heater leaking from the bottom?",
+            a: "Almost always tank-side corrosion — the steel tank has rusted through from the inside, usually because the sacrificial anode rod was consumed years ago and never replaced. This is non-repairable; the tank itself is the failed component. The only honest answer is replacement. We don't patch corroded tank bottoms — patches fail in days or weeks and the next leak is bigger. Same-day tank swap usually possible with common-brand tanks on the truck.",
+          },
+          {
+            q: "Why is the TPR valve dripping water?",
+            a: "Two possibilities. (1) The TPR valve itself has failed and won't reseat properly — replace the valve (cheap, on the truck, 15-minute fix). (2) System pressure is exceeding safe limits and the TPR is doing its job — root cause is almost always a failed expansion tank. We diagnose root cause AND replace the leaking valve. Don't just replace the TPR without checking the expansion tank or the new valve will leak again within days. A few drops occasionally during heating cycles is normal; a continuous drip is not.",
+          },
+          {
+            q: "How long can a leaking water heater last?",
+            a: "Depends on where it's leaking. Top-fitting leaks can persist for weeks or months as slow drips without catastrophic failure — but they damage the area around the tank cumulatively. Bottom-of-tank leaks accelerate fast: a slow weep this morning can become a steady stream by tonight as the corrosion hole opens up under pressure. If the bottom is leaking, treat it as same-day urgent.",
+          },
+          {
+            q: "Does home insurance cover a leaking water heater?",
+            a: "Most home insurance policies cover the water damage caused by a tank failure (basement repair, ruined flooring/drywall) but NOT the replacement of the tank itself (that's wear and tear). Coverage varies by policy — we provide written diagnosis, photos of the failure, install date from the rating plate, and replacement quote suitable for your adjuster on request. Doesn't slow down the repair; just paper we add to the file. Talk to your adjuster about the specifics of your policy.",
+          },
+          {
+            q: "How much does it cost to fix a leaking water heater in Calgary?",
+            a: "Depends entirely on the source. Top-fitting repairs (dielectric union, supply line, drain valve, TPR valve) are the smaller end. Bottom-of-tank failures mean full tank replacement, which is the larger end. We diagnose first, then quote in writing on-site — you always know which bucket you're in before any work starts. Same-day tank swap usually possible with common-brand tanks on the truck.",
+          },
+          {
+            q: "Can you come today?",
+            a: "Yes — leaking water heater calls get same-day dispatch. Real person on the phone, we triage based on where the leak is coming from and confirm a window before the truck rolls. Most days we're at the door within 2-3 hours. For actively flooding tanks we'll walk you through emergency shutoff on the phone. Common-brand tanks ride on the truck for same-day replacement where size matches.",
+          },
+          {
+            q: "Should I just replace the tank if it's leaking?",
+            a: "Depends on leak source + tank age. Top-fitting leak, tank under 10 years — repair. Bottom-of-tank leak, any age — replace (not repairable). Tank 10+ years old with any leak — strong replace lean (the whole tank is at end of life). We give honest assessments; if your 7-year-old tank just needs a dielectric union, we'll do the repair and tell you so. If your 13-year-old tank is leaking from the bottom, the replacement conversation is honest, not a sales pitch.",
           },
         ],
       },
