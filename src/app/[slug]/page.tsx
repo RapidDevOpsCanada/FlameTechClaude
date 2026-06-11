@@ -17,7 +17,7 @@ import {
   services,
   type ServicePage,
 } from "@/lib/services";
-import { getReviews } from "@/lib/reviews";
+import { getReviews, getReviewsSummary } from "@/lib/reviews";
 import type { Review } from "@/lib/reviews";
 import type { Metadata } from "next";
 
@@ -178,6 +178,7 @@ export default async function ServicePage({
   const hasRich = !!service.richContent;
   const stats = service.stats ?? DEFAULT_STATS;
   const allReviews = await getReviews().catch(() => [] as Review[]);
+  const reviewsSummary = getReviewsSummary();
   const inlineReview = pickInlineReviewFromList(service, allReviews);
   const schemaJson = buildSchemaJsonLd(service, allReviews);
   const timeline = service.timeline ?? { steps: DEFAULT_TIMELINE };
@@ -264,6 +265,30 @@ export default async function ServicePage({
                 <h1 className="font-display text-4xl md:text-5xl xl:text-[56px] font-extrabold leading-[1.04] tracking-[-0.025em] mb-4">
                   {service.title}
                 </h1>
+
+                {/* Above-fold trust strip — rating + reviews count + credentials.
+                    Placed directly under H1 so trust signals land in the first
+                    viewport, not below paragraphs of body copy. */}
+                <div className="mb-5 flex flex-wrap items-center gap-x-3 gap-y-2 text-[12px]">
+                  <span className="inline-flex items-center gap-1.5 font-extrabold text-cream-50">
+                    <span aria-hidden="true" className="text-amber-300 text-base leading-none">★★★★★</span>
+                    <span className="tabular-nums">{reviewsSummary.average.toFixed(1)}</span>
+                    <span className="text-cream-50/70 font-bold">
+                      · {reviewsSummary.total} Google reviews
+                    </span>
+                  </span>
+                  <span className="h-3 w-px bg-cream-50/20" />
+                  {TRUST_CHIPS.map((chip) => (
+                    <span
+                      key={chip}
+                      className="inline-flex items-center gap-1 font-bold uppercase tracking-[0.10em] text-cream-50/80"
+                    >
+                      <Icon name="check_circle" className="text-primary text-sm" />
+                      {chip}
+                    </span>
+                  ))}
+                </div>
+
                 <p className="text-lg md:text-xl font-bold text-cream-50 max-w-xl leading-snug mb-3">
                   <RichText>{service.lead}</RichText>
                 </p>
@@ -276,29 +301,14 @@ export default async function ServicePage({
                   </p>
                 ))}
 
-                {/* Compact trust row */}
-                <div className="mt-5 mb-5 flex flex-wrap items-center gap-x-4 gap-y-2">
-                  {service.heroSubhead && (
-                    <>
-                      <span className="text-[11px] font-extrabold uppercase tracking-[0.18em] text-primary">
-                        {service.heroSubhead}
-                      </span>
-                      <span className="hidden md:inline-block h-3 w-px bg-cream-50/20" />
-                    </>
-                  )}
-                  {TRUST_CHIPS.map((chip) => (
-                    <span
-                      key={chip}
-                      className="inline-flex items-center gap-1.5 text-[11px] font-bold uppercase tracking-[0.14em] text-cream-50/75"
-                    >
-                      <Icon
-                        name="check_circle"
-                        className="text-primary text-sm"
-                      />
-                      {chip}
+                {/* Page-specific kicker (e.g. "Same-Day Dispatch for Leaking Tanks") */}
+                {service.heroSubhead && (
+                  <div className="mt-5 mb-5">
+                    <span className="text-[11px] font-extrabold uppercase tracking-[0.18em] text-primary">
+                      {service.heroSubhead}
                     </span>
-                  ))}
-                </div>
+                  </div>
+                )}
 
                 {/* CTA row — primary clearly dominant */}
                 <div className="flex flex-wrap items-center gap-3">

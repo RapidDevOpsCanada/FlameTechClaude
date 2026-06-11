@@ -7,7 +7,7 @@ import type { NextRequest } from "next/server";
  * indexed alongside the production domain. The production host
  * (`flametechplumbing.ca`) is unaffected.
  */
-export function middleware(req: NextRequest) {
+export function proxy(req: NextRequest) {
   const host = req.headers.get("host") ?? "";
   const res = NextResponse.next();
   if (host.endsWith(".vercel.app")) {
