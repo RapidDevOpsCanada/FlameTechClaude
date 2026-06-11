@@ -11271,125 +11271,226 @@ export const services: ServicePage[] = [
     category: "Plumbing",
     location: "Calgary",
     icon: "plumbing",
-    title: "Tuscany Plumbers Calgary | Expert Plumbing Services",
+    title: "Tuscany Plumbers Calgary — 1996-2012 Builds, Poly-B + Equipment EOL",
     lead:
-      "Tuscany homeowners trust FlameTech Plumbing for reliable plumbing solutions that withstand Calgary's demanding climate. Since establishing our reputation across northwest Calgary over 25 years ago, we've become the go-to team for everything from emergency pipe repairs to complete system upgrades in this prestigious community.",
+      "Tuscany was built mostly between 1996 and 2012, with the earliest phases (Tuscany Hills, Tuscany Estates) now 25+ years old and the latest phases hitting the 15-year mark. That timing puts most original equipment at end-of-life right now: Poly-B plumbing in 1996-2002 builds is failing, original gas water heaters (10-12 year Calgary lifespan in this water) are second- or third-generation by now, original sump pumps on walkout-basement homes are tired, and the first wave of post-2000 high-efficiency furnaces are hitting 20+ years. FlameTech dispatches from NW Calgary and works in Tuscany routinely — we know the era, the streets, and the failure modes.",
     heroBody: [
-      "Living in one of Calgary's most desirable neighborhoods means protecting your investment with quality workmanship. Plumbing emergencies don't wait for convenient hours, which is why FlameTech provides priority emergency response throughout Tuscany.",
-      "Whether it's a burst pipe threatening your hardwood floors or a failing water heater on a frigid January morning, our certified technicians respond quickly to minimize damage and restore comfort. Call us today at 587-834-3668.",
+      "Three patterns dominate Tuscany calls: (1) Poly-B replacement on 1996-2002 builds (homes built before the industry transitioned to PEX-A and PEX-B), (2) original-equipment end-of-life replacement (water heaters, furnaces, sump pumps, water softeners all hitting their typical Calgary lifespan), and (3) elevation-related water pressure issues (Tuscany Hills + ridge lots see higher municipal static pressure that often warrants a [PRV](/plumbing-repairs-calgary/) for fixture longevity).",
+      "Same crew that handles our [Poly-B replacement](/polyb-plumbing-calgary/), [hot water tank replacement](/hot-water-tank-replacement-calgary/), [furnace work](/furnaces/), [sump pump install](/sump-pump-installation-calgary/), [drain cleaning](/drain-cleaning-calgary/), and broader [emergency plumbing](/emergency-plumber-calgary/). Same crew also works the neighbouring [Edgemont](/edgemont-plumbers-calgary/), [Varsity](/varsity-plumbers-calgary/), [Panorama Hills](/panorama-hills-plumbers-calgary/), and [Evanston](/evanston-plumbers-calgary/) — NW build eras overlap and the failure patterns rhyme.",
+      "Real person on the phone, written quote before any work starts. Same-day dispatch for emergencies — Crowchild Trail makes the run from our shop fast. Call 587-834-3668.",
     ],
-    heroSubhead: "Trusted Tuscany Plumbing Experts",
+    heroSubhead: "NW Calgary Crew, Tuscany-Era Build Specialists",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
-    heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing service van in Tuscany", fit: "cover" },
+    heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing + heating service in Tuscany, NW Calgary", fit: "cover" },
     intro:
-      "Expert plumbers serving Tuscany and [NW Calgary](/calgary-plumbers-nw/). Priority emergency dispatch, [Poly-B replacement](/polyb-plumbing-calgary/), water heaters, drain cleaning — 25+ years of local experience.",
+      "Tuscany Calgary plumbing + heating — Poly-B replacement on 1996-2002 builds, water heater + furnace + sump pump end-of-life replacement, drain + sewer service, NW dispatch. Free written quote.",
     features: [
-      "Priority emergency repairs",
-      "Poly-B replacement",
-      "Water heater services",
-      "Advanced leak detection",
-      "Sewer camera inspections",
-      "Sump pump service",
+      "Poly-B replacement (1996-2002 builds)",
+      "Water heater + tankless install",
+      "Furnace + heat-pump install",
+      "Sump pump install (walkout basements)",
+      "Sewer camera + root removal",
+      "Same-day emergency dispatch",
     ],
     bullets: [
       {
-        t: "Local NW Calgary crew",
-        d: "Our plumbers live and work in northwest Calgary — we know Tuscany's elevation quirks, Bow River proximity issues, and the typical home layouts built during the 1990s boom.",
+        t: "Tuscany-era build specialists",
+        d: "Most of Tuscany was built between 1996 and 2012 in distinct phases — Tuscany Hills, Tuscany Estates, Tuscany Springs, Tuscany Heights, then Tuscany Ridge + later infill. We know which phases used Poly-B (early), which used PEX-A and PEX-B (mid-late), which builders dominated the original construction, and what equipment fails first in each era. Saves diagnosis time on the call.",
       },
       {
-        t: "Upfront, honest pricing",
-        d: "Clear estimates before any work begins. No hidden fees, no pressure tactics — just satisfaction guarantees and manufacturer warranties.",
+        t: "Poly-B replacement is a Tuscany staple",
+        d: "Many 1996-2002 Tuscany homes still have original Poly-B supply lines. Calgary's hard water + chlorine + 25+ years means brittle fittings, brittle pipe, and increasingly frequent leaks — usually starting at fittings inside finished walls. We replace whole-home with PEX-A or copper depending on the install, restore drywall, and quote in writing. See [Poly-B replacement Calgary](/polyb-plumbing-calgary/) for full scope.",
+      },
+      {
+        t: "Walkout basement + Bow River corridor sump pump work",
+        d: "Tuscany's terrain steps down toward the Bow River — many newer-phase homes have walkout basements with sump pumps that are now 15-20 years old (original install). Spring melt + heavy rain events stress these systems hardest. We replace pumps + verify discharge routing + recommend battery backup on lower lots. See [sump pump installation](/sump-pump-installation-calgary/).",
+      },
+      {
+        t: "Real person answers — NW dispatch via Crowchild",
+        d: "No call centre. You talk to a tech, get a window before the truck rolls, and we dispatch from NW Calgary via Crowchild Trail for fast Tuscany arrival. Same-day for emergencies (burst pipes, no hot water, sewer backup, no heat in a cold snap).",
       },
     ],
-    seoTitle: "Tuscany Plumbers Calgary | Priority Emergency Service",
+    seoTitle: "Tuscany Plumbers Calgary | Poly-B, Equipment Replacement, NW Dispatch",
     seoDescription:
-      "Professional plumbers serving Tuscany Calgary. 25+ years experience with local homes. Emergency repairs, heating, water heaters & priority service.",
+      "Tuscany Calgary plumbing + heating. Poly-B replacement on 1996-2002 builds, water heater + furnace + sump pump end-of-life, drain service. Real person on the phone. Call 587-834-3668.",
     seoKeywords: [
       "Tuscany plumbers Calgary",
-      "plumber Tuscany",
+      "Tuscany Calgary plumber",
+      "Poly-B Tuscany",
       "emergency plumber Tuscany",
+      "Tuscany water heater replacement",
+      "Tuscany sump pump",
       "NW Calgary plumber",
-      "Poly-B replacement Tuscany",
       "FlameTech Plumbing",
     ],
     quoteFormLabel: "Tuscany plumbing",
     quoteFormPlaceholder:
-      "e.g. Poly-B leak in a 1990s Tuscany home, low water pressure up on Tuscany Hills, sump pump not cycling…",
+      "e.g. Poly-B leak in a 1998 build, original water heater finally going, sump pump not cycling on a walkout, furnace at 20yrs and acting up, high static pressure on Tuscany Hills…",
     sidebar: {
-      title: "Tuscany Plumbers",
+      title: "Tuscany Plumbing + Heating",
       subtitle:
-        "Fast, local plumbing service across Tuscany and the NW — priority emergency dispatch, upfront pricing, 25+ years of Calgary experience.",
+        "NW Calgary crew working Tuscany routinely — Poly-B, equipment end-of-life, sump pump, drain + sewer, emergency dispatch.",
       bullets: [
-        "Licensed, insured, and bonded",
-        "A real person answers the phone",
-        "Modern camera & hydro-jet equipment",
-        "Stocked for 1990s-era Tuscany homes",
+        "Real person on the phone",
+        "Free in-home assessment + written quote",
+        "Trucks stocked for 1996-2012 builds",
+        "Same-day emergency dispatch",
       ],
     },
     stats: [
       { number: "25+", label: "Years in Calgary", icon: "verified" },
       { number: "5.0★", label: "Google rated", icon: "star" },
-      { number: "FREE", label: "Written estimates", icon: "request_quote" },
-      { number: "Licensed", label: "& insured", icon: "award" },
+      { number: "Real", label: "Person on the phone", icon: "call" },
+      { number: "ANY", label: "Plumbing + heating brand", icon: "check_circle" },
     ],
     callout:
-      "Burst pipe, flooded basement, or failed sump pump in Tuscany? Call 587-834-3668 — a real person will dispatch a plumber right away.",
+      "Tuscany Poly-B leak, equipment at end of life, or emergency in a cold snap? Call 587-834-3668 — real person, NW dispatch via Crowchild.",
     richContent: {
       sections: [
         {
-          heading: "Our Tuscany Plumbing Services",
+          heading: "What we do most often on Tuscany calls",
           intro:
-            "Tuscany's unique position near the Bow River and its mix of custom-built luxury homes from the 1990s onward creates specific plumbing challenges that generic contractors often miss. Our crew understands how elevated terrain affects water pressure, why certain streets experience more [Poly-B pipe failures](/polyb-plumbing-calgary/), and how mature trees can impact underground sewer lines.",
+            "Most Tuscany service calls trace back to one of these — driven by the 1996-2012 build era, hard water, elevation, and equipment now hitting its Calgary end-of-life.",
           items: [
-            { heading: "Priority emergency repairs", body: "Round-the-clock response for burst pipes, sewer backups, and heating failures that can't wait until morning." },
-            { heading: "Professional drain cleaning", body: "Advanced [hydro-jetting and camera equipment](/drain-cleaning-calgary/) clears stubborn blockages without damaging your pipes." },
-            { heading: "Water heater services", body: "Routine maintenance through full replacements, including [tankless](/tankless-water-heaters/) and traditional units sized for larger Tuscany homes." },
-            { heading: "Fixture installation & repair", body: "Expert installation and repair of toilets, faucets, showers, and high-end bathroom fixtures common in luxury Tuscany homes." },
-            { heading: "Advanced leak detection", body: "Thermal and acoustic technology to locate hidden problems before they cause expensive damage to hardwood floors and finished basements." },
-            { heading: "Sewer line inspections", body: "Comprehensive camera inspections, cleaning, and trenchless repairs that preserve your landscaping investment." },
+            {
+              heading: "Poly-B replacement (1996-2002 builds)",
+              body: "Most common Tuscany call category. Original Poly-B supply lines + acetal (plastic) fittings installed during the 1990s construction boom. Chlorine + hard water + 25+ years of thermal cycling has made fittings brittle and pipes prone to surprise leaks (often behind drywall on hot-water runs to upper floors). We replace whole-home with PEX-A or copper, manage the drywall + paint repair scope, and document for insurance. See [Poly-B Calgary](/polyb-plumbing-calgary/).",
+            },
+            {
+              heading: "Water heater replacement (originals at end of life)",
+              body: "Calgary tanks last 8-10 years in this water unsoftened, 12-14 with a softener + annual flush. Tuscany originals from 1996-2005 builds are now on their second or third tank; mid-late phase originals (2005-2012) are hitting end of life now. We swap to [Bradford White or John Wood](/hot-water-tanks/) — the two brands that hold up best in Calgary's hard water — and often pair with a softener install for next-tank longevity.",
+            },
+            {
+              heading: "Furnace + heat pump replacement",
+              body: "Early-phase Tuscany high-efficiency furnaces from the late 90s and early 2000s are now 20+ years old. Heat exchanger cracks become a serious risk past 18-20 years. We replace with high-efficiency 96%+ AFUE units, often pair with a cold-climate [heat pump](/heat-pumps-calgary/) for the hybrid dual-fuel setup that's now the lowest-operating-cost option for Calgary homes. Greener Homes rebates may apply.",
+            },
+            {
+              heading: "Sump pump install + replacement",
+              body: "Walkout-basement homes in Tuscany Hills + Tuscany Ridge phases commonly have original sump pumps now 15-20 years old. Spring melt + heavy rain events stress these systems hard. We swap to ProFlo or similar quality pumps + verify discharge routing isn't dumping water back against the foundation. Battery-backup recommended on lower lots near the Bow River corridor where power outages + pump failures cascade into basement flooding.",
+            },
+            {
+              heading: "PRV install / pressure regulator on high-elevation lots",
+              body: "Tuscany Hills + ridge-top lots can see municipal static water pressure above 80 PSI — above the 60-80 PSI fixture-friendly range. High static pressure shortens fixture life, accelerates Poly-B failure where present, and stresses appliance hoses. A pressure-reducing valve at the main shutoff brings it into the right range. Quick install, dramatic life-extension on every downstream fixture.",
+            },
+            {
+              heading: "Sewer line camera + root removal (mature trees now)",
+              body: "Tuscany's first phases are 25+ years old with mature landscaping. Tree roots seek out the moisture and nutrients in sewer lines through joint cracks. Symptoms: slow drains, gurgling, recurring backups. Camera inspection identifies the location + severity; hydro-jet or mechanical cutting clears; long-term fix is spot repair or trenchless lining where damage is severe.",
+            },
+            {
+              heading: "Water softener + tankless install (hard-water protection)",
+              body: "Calgary water hardness (150-200 mg/L) is brutal on tanks, tankless heat exchangers, dishwashers, and washing machines. A properly-sized [water softener](/water-softener/) upstream extends the life of every water-using appliance. Common pair with [tankless water heater](/tankless-water-heaters/) install in larger Tuscany luxury homes since tankless heat exchangers scale especially fast unsoftened.",
+            },
+            {
+              heading: "Frozen condensate + cold-snap dispatch",
+              body: "High-efficiency furnaces in Tuscany routinely lock out during deep cold snaps when condensate lines routed through unheated space or exterior wall freeze. Common cold-snap call. Permanent fix is rerouting through heated space + heat trace where outdoor exit is required. See [no heat issues](/no-heat-issues-calgary/) and [home heating issues](/home-heating-issues-calgary/) for the broader heating diagnostic scope.",
+            },
           ],
         },
         {
-          heading: "Common Plumbing Issues in Tuscany Homes",
+          heading: "Why Tuscany homes hit predictable plumbing + heating milestones right now",
           intro:
-            "Tuscany's combination of mature infrastructure and Calgary's extreme weather patterns creates predictable plumbing challenges that require targeted solutions.",
+            "Build-era timing explains most of what we see. Tuscany's main construction phases all converge on end-of-life intervals at the same time — meaning predictable workload patterns and predictable conversations with homeowners.",
           items: [
-            { body: "Frozen pipes in homes built before current insulation standards, particularly in north-facing walls." },
-            { body: "Tree root intrusion into sewer lines from established landscaping and proximity to natural areas." },
-            { body: "Water pressure fluctuations due to elevation changes and the community's location on higher ground." },
-            { body: "Aging Poly-B plumbing in homes built during the 1990s construction boom." },
-            { body: "Sump pump failures during spring melt and heavy rainfall periods." },
-            { body: "Hard water issues affecting expensive appliances and fixture finishes in luxury homes." },
+            {
+              heading: "1996-2002 phases used Poly-B",
+              body: "Tuscany Hills + earliest Tuscany Estates phases were built in the window where Poly-B was still standard residential supply. Industry transitioned through the early 2000s. If your Tuscany home was built before 2002, there's a strong chance it has Poly-B — and 25+ years in Calgary water is past safe service life. Worth a proactive inspection even if you haven't had visible leaks.",
+            },
+            {
+              heading: "Original water heaters now on second or third generation",
+              body: "Calgary tanks last 8-10 years in this water unsoftened. A 1998 Tuscany Hills home has been through tanks in roughly 1998 → 2007 → 2017 → 2025 (now). If you don't know when yours was last replaced, it's almost certainly at or past end-of-life. Photograph the rating plate (manufacture date in the serial) and we'll triangulate.",
+            },
+            {
+              heading: "Original sump pumps tired in walkout-basement homes",
+              body: "Tuscany Hills + Ridge walkout-basement homes commonly had pumps installed during construction (1996-2008 depending on phase). Sump pumps typically last 10-15 years in residential use; primary pumps that were installed during the build phase are well past that now. We recommend proactive replacement for lower-lot homes near the Bow River corridor where pump failure means rapid basement flooding.",
+            },
+            {
+              heading: "Post-2000 high-efficiency furnaces hitting 20+ years",
+              body: "High-efficiency condensing furnaces installed during Tuscany's main construction window are now 20-25 years old. Heat exchanger cracks become statistically significant past 18-20 years. ECM blower motors often need replacement around the 15-20 year mark. Replacement conversations are appropriate at this age; safety-focused inspection at minimum is warranted.",
+            },
+            {
+              heading: "Elevation creates predictable pressure variance by lot",
+              body: "Tuscany's terrain ranges from valley-floor lots near the Bow River escarpment up to ridge-top lots at Tuscany Hills + Tuscany Ridge. Municipal pressure delivery varies by elevation — top-of-ridge lots can see 80+ PSI static, valley lots see lower numbers. PRV install is common on the upper lots; pressure booster occasionally needed on the lower lots if fixture flow is consistently weak.",
+            },
+            {
+              heading: "Mature trees + 25-year sewer lines = root intrusion era",
+              body: "Tuscany's first-phase streets now have mature trees with established root systems. Sewer pipe joints (often clay or cast iron pre-1990, PVC in Tuscany's era) develop micro-cracks over decades that roots find and infiltrate. Symptoms start with slow drains, escalate to gurgling, then to backups. Camera inspection every 5 years on older Tuscany homes catches root intrusion early.",
+            },
+            {
+              heading: "Bow River corridor = walkout basements + sump dependency",
+              body: "Tuscany's lower-elevation phases step down toward the Bow River escarpment. Walkout-basement designs are common here, which means sump pump systems handle perimeter drain water + occasional groundwater intrusion. Battery-backup sump systems matter more on these lots — power-outage + pump-failure cascades happen during spring melt when storms knock out neighbourhood power.",
+            },
+            {
+              heading: "Hard water hits everything downstream of the meter",
+              body: "Tuscany's water is the same hard Calgary municipal supply (150-200 mg/L) as the rest of the city. Without a softener, every water-using appliance + fixture wears faster: tanks fail at 8-10 years (vs 12-14 softened), tankless heat exchangers scale aggressively, dishwasher + washing machine valves and seals corrode early, shower valve cartridges seize. Single softener at the main entry protects the whole house.",
+            },
           ],
         },
         {
-          heading: "Local Tuscany & NW Calgary Expertise",
+          heading: "Tuscany sub-areas we cover routinely",
           intro:
-            "Our plumbers work and live in the NW. We've worked on hundreds of homes throughout Tuscany, and our technicians recognize the common layouts and plumbing configurations found in different phases of development — from the original custom homes near Tuscany Hills to newer constructions closer to Crowchild Trail. Similar experience across [Varsity](/varsity-plumbers-calgary/) and [Edgemont](/edgemont-plumbers-calgary/) means we know what to expect before we even open the van doors.",
+            "Different phases of Tuscany were built in different years and have different equipment failure patterns. Knowing the area helps us know what to expect.",
+          items: [
+            {
+              heading: "Tuscany Hills + Tuscany Estates (earliest phases)",
+              body: "Mid-1990s through early 2000s builds. Most likely to have Poly-B. Original sump pumps + water heaters on second-or-third generation. Tree maturity now causing sewer root intrusion on some lines. Higher elevation means PRV territory for many homes.",
+            },
+            {
+              heading: "Tuscany Springs + Tuscany Heights + Tuscany Vista (mid phases)",
+              body: "Early-to-mid 2000s builds. Tail end of Poly-B era — some homes have it, some have PEX. Water heaters from original install hitting second-tank replacement now. High-efficiency furnaces approaching 20-year mark.",
+            },
+            {
+              heading: "Tuscany Ridge + Tuscany Boulevard + later infill (late phases)",
+              body: "Late 2000s through 2012. Predominantly PEX supply (no Poly-B). Modern high-efficiency equipment that's now mid-life — original equipment at 12-17 years. Walkout-basement designs common; sump pumps from original install at end-of-life.",
+            },
+            {
+              heading: "Tuscany station + townhouses + multi-family",
+              body: "Townhouse and multi-family developments throughout Tuscany have different mechanical-room footprints + shared-wall considerations. We work with the construction era + specific unit constraints when sizing replacements.",
+            },
+          ],
         },
       ],
       faq: {
-        heading: "Frequently Asked Questions",
+        heading: "Tuscany Plumbers — FAQs",
         items: [
           {
-            q: "How much does it cost to replace a water heater in Tuscany?",
-            a: "Water heater replacement in Tuscany typically ranges from $1,200 to $3,500, depending on the unit type and installation complexity. Many Tuscany homes have custom utility rooms or unique venting requirements that can affect pricing. We provide upfront estimates and discuss all options, including [tankless water heaters](/tankless-water-heaters/) that work well in larger homes. Most installations are completed within 4-6 hours.",
-          },
-          {
-            q: "Why do Tuscany homes have low water pressure issues?",
-            a: "Several Tuscany streets experience pressure drops due to the community's elevated location and distance from main water lines. Older homes may have undersized supply lines or corroded pipes that restrict flow. Our technicians can diagnose whether the issue stems from municipal supply, your home's plumbing, or fixtures themselves. Pressure booster systems often provide an effective solution.",
+            q: "Does my Tuscany home have Poly-B plumbing?",
+            a: "Strong chance if built before about 2002, increasingly unlikely after. The industry transitioned through the early 2000s. Look for grey or blue plastic supply lines visible under sinks, near the water heater, or at the main shutoff. Poly-B is grey or blue with crimp-ring fittings (silver bands). PEX is red/blue and uses crimp or expansion fittings that look different. We can confirm during a free in-home inspection. See [Poly-B Calgary](/polyb-plumbing-calgary/).",
           },
           {
             q: "How quickly can you respond to emergency calls in Tuscany?",
-            a: "Emergency response time to Tuscany averages s, depending on traffic and weather. Our northwest Calgary dispatch gives us quick access via Crowchild Trail or Bow Trail. We stock our service vehicles with common repair parts for Tuscany's typical home configurations.",
+            a: "Same-day for emergencies — burst pipes, sewer backup, no hot water, no heat in cold snaps. Real person on the phone, we'll confirm a window before the truck rolls. Crowchild Trail makes the NW dispatch fast. Most days we're at the door within 2-3 hours.",
           },
           {
-            q: "Should I be concerned about Poly-B pipes in my Tuscany home?",
-            a: "Many Tuscany homes built in the 1990s contain Poly-B plumbing that becomes brittle over time, especially with Calgary's temperature extremes. We recommend professional inspection if you notice discolored water, frequent leaks, or haven't had the system evaluated recently. [Poly-B replacement](/polyb-plumbing-calgary/) prevents costly flood damage and increases home value.",
+            q: "Why is my Tuscany water pressure so high (or so low)?",
+            a: "Elevation. Tuscany ranges from valley-floor lots near the Bow River escarpment up to ridge-top lots at Tuscany Hills. Municipal static pressure varies by elevation — top-of-ridge lots can see 80+ PSI (above fixture-friendly range, accelerates wear), valley lots see lower numbers. PRV install on the high side; pressure booster occasionally needed on the low side. We test at the hose bib to confirm before quoting.",
           },
           {
-            q: "What's the best way to prevent frozen pipes in Tuscany winters?",
-            a: "Tuscany's exposed location makes homes vulnerable to wind chill and rapid temperature drops during Alberta clippers. Keep garage doors closed, maintain consistent indoor temperatures, and open cabinet doors under sinks during extreme cold snaps. Many Tuscany homes benefit from pipe insulation upgrades in crawl spaces and exterior walls.",
+            q: "Should I replace my Poly-B plumbing proactively even if it's not leaking?",
+            a: "Yes, if your home was built between 1996 and 2002 and still has original Poly-B. Calgary water + 25+ years of thermal cycling has made the fittings brittle — leaks come without warning, often behind drywall on upper-floor hot-water runs where damage cascades through ceilings. Insurance increasingly excludes water-damage claims on known Poly-B homes. Proactive whole-home replacement avoids the surprise + the insurance fight. We quote in writing after assessment.",
+          },
+          {
+            q: "When should I replace my original Tuscany water heater?",
+            a: "If your tank is the original from the build, it's almost certainly past end of life. Calgary tanks last 8-10 years in this water unsoftened. A 1998 Tuscany home has typically been through 2-3 tanks by now; even mid-2000s phases are on their second tank by 2025. Signs: rusty hot water, popping sounds, moisture around the base, lukewarm output. Replace with [Bradford White or John Wood](/hot-water-tanks/); pair with a softener for next-tank longevity.",
+          },
+          {
+            q: "Do Tuscany walkout-basement homes need backup sump pumps?",
+            a: "Strongly recommended on lower lots near the Bow River corridor. Spring melt + heavy rain events sometimes coincide with power outages from the same storms. Battery-backup sump pumps run independent of grid power, so basement stays dry even when the primary pump can't run. Worth the install cost on any walkout-basement home where flooding would damage finished space.",
+          },
+          {
+            q: "How long do furnaces last in Tuscany?",
+            a: "15-20 years for typical high-efficiency furnaces, sometimes longer with annual service. Tuscany's main build window means many homes have furnaces now at or past that age. Heat exchanger cracks become a serious safety concern past 18-20 years. We inspect for cracks on every service call to older units and have an honest replace-vs-repair conversation. Heat pump + hybrid dual-fuel becomes the worth-considering alternative at replacement time — see [heat pumps Calgary](/heat-pumps-calgary/).",
+          },
+          {
+            q: "My drain keeps backing up — could it be tree roots?",
+            a: "Possibly. Tuscany's first phases are now 25+ years old with mature landscaping. Tree roots seek moisture and nutrients in sewer lines through joint cracks — once they're in, recurring backups follow. Camera inspection identifies location + severity. Hydro-jet or mechanical cutting clears; long-term fix is spot repair or trenchless lining if damage is significant.",
+          },
+          {
+            q: "Do you work on every brand of plumbing + heating equipment?",
+            a: "Yes — Bradford White, John Wood, AO Smith (tanks); Navien, Rinnai, IBC (tankless); Trane, Carrier, Lennox, Goodman, AirEase (furnaces); cold-climate heat pumps; ProFlo (sump pumps); every common Tuscany-era brand. Common parts ride on every truck for first-visit repair completion.",
+          },
+          {
+            q: "What other NW Calgary neighbourhoods do you cover?",
+            a: "Same crew works [Edgemont](/edgemont-plumbers-calgary/), [Varsity](/varsity-plumbers-calgary/), [Panorama Hills](/panorama-hills-plumbers-calgary/), [Evanston](/evanston-plumbers-calgary/), [Huntington Hills](/huntington-hills-plumbers-calgary/), and the broader [NW Calgary](/calgary-plumbers-nw/). Build eras overlap and failure patterns rhyme — we know what to expect before we walk in the door.",
           },
         ],
       },
