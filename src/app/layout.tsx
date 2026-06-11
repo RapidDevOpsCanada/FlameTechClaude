@@ -72,6 +72,32 @@ export default function RootLayout({
   // different schema-typed angles (mirrors the Aspen Mountain Plumbing
   // multi-block pattern that ranks well in Calgary local-pack results).
   const reviewsSummary = getReviewsSummary();
+  // Single-source the areaServed list so both the LocalBusiness node AND
+  // every nested Service node inside makesOffer + hasOfferCatalog can
+  // reference the same set. Schema validation flagged the nested Service
+  // nodes as missing areaServed; this consolidates the truth.
+  const areasServed = [
+    // Greater Calgary metro — incorporated municipalities.
+    { "@type": "City", name: "Calgary" },
+    { "@type": "City", name: "Airdrie" },
+    { "@type": "City", name: "Chestermere" },
+    { "@type": "City", name: "Cochrane" },
+    { "@type": "City", name: "Okotoks" },
+    { "@type": "City", name: "Carstairs" },
+    // Calgary quadrants + neighbourhoods — Place type for unincorporated
+    // areas referenced in the page copy and dedicated location pages.
+    { "@type": "Place", name: "Calgary NW" },
+    { "@type": "Place", name: "Calgary NE" },
+    { "@type": "Place", name: "Calgary SE" },
+    { "@type": "Place", name: "Calgary SW" },
+    { "@type": "Place", name: "Cooper's Crossing" },
+    { "@type": "Place", name: "Evergreen" },
+    { "@type": "Place", name: "Signal Hill" },
+    { "@type": "Place", name: "Woodbine" },
+    { "@type": "Place", name: "Ravenswood" },
+    { "@type": "Place", name: "Reunion" },
+  ];
+
   const sharedBusinessFields = {
     name: "FlameTech Plumbing & Heating Ltd.",
     alternateName: "FlameTech",
@@ -121,27 +147,7 @@ export default function RootLayout({
         closes: "18:00",
       },
     ],
-    areaServed: [
-      // Greater Calgary metro — incorporated municipalities.
-      { "@type": "City", name: "Calgary" },
-      { "@type": "City", name: "Airdrie" },
-      { "@type": "City", name: "Chestermere" },
-      { "@type": "City", name: "Cochrane" },
-      { "@type": "City", name: "Okotoks" },
-      { "@type": "City", name: "Carstairs" },
-      // Calgary quadrants + neighbourhoods — Place type for unincorporated
-      // areas referenced in the page copy and dedicated location pages.
-      { "@type": "Place", name: "Calgary NW" },
-      { "@type": "Place", name: "Calgary NE" },
-      { "@type": "Place", name: "Calgary SE" },
-      { "@type": "Place", name: "Calgary SW" },
-      { "@type": "Place", name: "Cooper's Crossing" },
-      { "@type": "Place", name: "Evergreen" },
-      { "@type": "Place", name: "Signal Hill" },
-      { "@type": "Place", name: "Woodbine" },
-      { "@type": "Place", name: "Ravenswood" },
-      { "@type": "Place", name: "Reunion" },
-    ],
+    areaServed: areasServed,
     sameAs: [
       "https://share.google/aOJFMcBNwTcPsAZxK",
       "https://www.facebook.com/profile.php?id=61574205860979",
@@ -206,6 +212,7 @@ export default function RootLayout({
       name,
       url: `${SITE_URL}/${slug}/`,
       provider: { "@id": `${SITE_URL}#business` },
+      areaServed: areasServed,
     },
   }));
 
@@ -224,6 +231,7 @@ export default function RootLayout({
       name,
       url: `${SITE_URL}/${slug}/`,
       provider: { "@id": `${SITE_URL}#business` },
+      areaServed: areasServed,
     },
   }));
 
