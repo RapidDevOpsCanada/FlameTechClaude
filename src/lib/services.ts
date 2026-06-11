@@ -4555,14 +4555,15 @@ export const services: ServicePage[] = [
     slug: "humidifiers-calgary",
     category: "Air",
     icon: "water_drop",
-    title: "Humidifiers Calgary | Professional Installation & Service",
+    title: "Humidifiers Calgary — Whole-Home Install + Service",
     lead:
-      "Calgary's bone-dry winters can drop indoor humidity below 15% — that's drier than most deserts. We've been installing and servicing humidifiers across Calgary for over 15 years, and your health and your home depend on getting humidity levels right.",
+      "Calgary winter air carries almost no moisture — heated indoor air without humidification routinely drops to 15-25% relative humidity, which is drier than most deserts and well below the 30-40% range Health Canada recommends. Cracked wood, bloody noses, static shocks, hardwood floor gaps, dry sinuses, peeling veneer on furniture — these are all symptoms of indoor air that's too dry to live in comfortably. A properly-sized whole-home humidifier integrated with your furnace fixes all of it at once.",
     heroBody: [
-      "Our furnace specialists integrate humidifiers properly with your heating system to maintain that sweet spot of 30-50% humidity. We work on every major brand — Aprilaire, Honeywell, GeneralAire, and Skuttle.",
-      "When your humidifier stops working or you're tired of bloody noses and cracked furniture, we answer the phone. Real person, fast dispatch, and a fully stocked truck with the pads, cylinders, and solenoids needed to fix the problem or install a new system.",
+      "Three Calgary install scenarios: (1) first-time whole-home humidifier for a home that's never had one (most common — sudden realization that winter air is brutal), (2) replacing a dead or undersized existing unit, or (3) upgrading from a bypass/flow-through to a steam humidifier in a larger home where moisture output matters more than install cost. We install and service Aprilaire, Honeywell, GeneralAire, and Skuttle — the brands that actually hold up to Calgary's hard water + duty cycle.",
+      "Common Calgary humidifier problems: white dust from hard-water mineral spray (powered flow-through models reduce this; steam eliminates it), window condensation when the humidistat isn't outdoor-temperature-aware (target RH needs to drop in deep cold to prevent moisture on cold glass), clogged distribution trays from accelerated mineral buildup, and undersized units that never reach setpoint on the coldest stretches. We diagnose and fix all of these.",
+      "Same crew that handles our [furnace install + repair](/furnaces/), [home heating issues](/home-heating-issues-calgary/), and broader HVAC work — humidifiers integrate with the furnace blower + ductwork + controls, so it's whole-system thinking, not standalone equipment. Call 587-834-3668 for a free in-home assessment.",
     ],
-    heroSubhead: "Trusted Calgary Humidifier Experts",
+    heroSubhead: "Whole-Home Humidifier Specialists",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
     heroImage: { src: "/images/2026/04/humidifier-install-calgary.jpg", alt: "Whole-home humidifier installed by FlameTech in Calgary", fit: "cover" },
     intro:
@@ -4577,12 +4578,20 @@ export const services: ServicePage[] = [
     ],
     bullets: [
       {
-        t: "5-year parts warranty",
-        d: "New installations come with a 5-year warranty on parts, plus replacement pads and solenoids stocked on every truck.",
+        t: "Sized for actual Calgary winter demand",
+        d: "Most Calgary homes need 12-18 gallons-per-day output to hold 30-40% RH through deep winter. Undersized units never reach setpoint on the coldest stretches; oversized units cause window condensation when chinooks roll in. We size based on home volume, ductwork, envelope tightness, and your humidity target — not a generic chart on the side of the box.",
       },
       {
-        t: "Calgary-climate calibrated",
-        d: "We size, install, and dial in humidifiers for -35°C winters, chinooks, and hard water — no condensation problems.",
+        t: "Outdoor-temperature-aware controls",
+        d: "Calgary's signature chinook freeze-thaw cycles play havoc with humidity setpoints. A unit set for 40% RH at +5°C will condense moisture all over your windows when the temperature drops to −25°C overnight. Outdoor-temp-aware humidistats automatically lower target RH in deep cold — preventing condensation while keeping comfort year-round.",
+      },
+      {
+        t: "Hard-water aware (white dust + pad cadence)",
+        d: "Calgary's hard water clogs humidifier pads faster than soft-water cities and disperses minerals into your air as 'white dust' on bypass and drum models. We recommend powered flow-through or steam for hard-water Calgary homes, install softener-fed water supply when available, and replace pads twice per heating season instead of the once-yearly schedule the manuals assume.",
+      },
+      {
+        t: "Whole-system thinking + 5-year parts warranty",
+        d: "Humidifier installs touch your ductwork, furnace blower, electrical, and water supply — we integrate properly with each rather than bolting on the cheapest option. New installations come with a 5-year warranty on parts; replacement pads, cylinders, and solenoids ride on every truck for fast service when something fails mid-winter.",
       },
     ],
     seoTitle: "Humidifiers Calgary | Professional Installation & Repair",
@@ -4621,82 +4630,158 @@ export const services: ServicePage[] = [
     richContent: {
       sections: [
         {
-          heading: "Why Calgary Homeowners Choose FlameTech for Humidifiers",
+          heading: "What we install + service on Calgary humidifier calls",
           intro:
-            "FlameTech's Calgary technicians understand how Alberta's extreme weather affects indoor air quality. We install and service every major humidifier brand — [Aprilaire](https://www.aprilaire.com/), [Honeywell](https://www.honeywellhome.com/), GeneralAire, and Skuttle.\n\nMost Calgary homes need bypass or powered flow-through models because of our forced-air heating systems. We've worked on everything from basic drum units in older [Mount Royal](/mount-royal-plumbers-calgary/) homes to steam humidifiers in new builds in [Aspen Woods](/aspen-woods-plumbers-calgary/).\n\nWe carry 5-year parts warranties on new installations and stock replacement pads, cylinders, and solenoids on every truck. Pairs well with our [furnace](/furnaces/) install and [high-efficiency furnace](/high-efficiency-furnaces-calgary/) upgrade work — same crew, single visit.",
+            "Three main humidifier types serve Calgary homes — each has a different install cost, maintenance burden, and capacity profile. We pick based on your specific home and budget.",
           items: [
-            { heading: "Whole-Home Humidifier Installation", body: "We size and install bypass, powered, and steam humidifiers to work perfectly with your existing furnace and ductwork." },
-            { heading: "Humidifier Pad Replacement", body: "Annual pad changes keep your system running efficiently — we stock Aprilaire, Honeywell, and aftermarket options." },
-            { heading: "Steam Humidifier Service", body: "Cylinder cleaning, electrode replacement, and mineral buildup removal for steam units in high-end Calgary homes." },
-            { heading: "Humidifier Control Repair", body: "Digital and manual humidistat calibration, wiring repairs, and control panel replacement when needed." },
-            { heading: "Water Line Installation", body: "Proper water supply lines with shut-off valves — no more jury-rigged saddle valves that leak in your basement." },
-            { heading: "Ductwork Integration", body: "Return air plenum modifications and supply connections that don't restrict airflow or create condensation issues." },
+            {
+              heading: "Bypass humidifier (most affordable whole-home option)",
+              body: "Aprilaire 600 / 500, Honeywell HE200, GeneralAire 1000. Mounted on the furnace return duct with a bypass to the supply, uses the furnace blower to move air through a water-wetted pad. Lowest install cost (no fan, no electrical run beyond 24V from the furnace), good moisture output for typical Calgary homes up to ~2,500 sqft, easy maintenance. The workhorse for most Calgary installs.",
+            },
+            {
+              heading: "Powered flow-through (better for larger or tighter homes)",
+              body: "Aprilaire 700, Honeywell HE300, GeneralAire 4000. Adds a built-in fan that runs independently of the furnace blower — humidifies even when the furnace blower isn't running, more moisture output, less white-dust spray than bypass. Higher install cost (needs 120V power), better for homes 2,500-4,000 sqft or houses where the furnace doesn't run continuous-fan mode.",
+            },
+            {
+              heading: "Steam humidifier (largest homes, highest moisture output)",
+              body: "Aprilaire 800, GeneralAire DS-25, Skuttle Steam. Electrode-boiler that produces actual steam (no minerals dispersed in vapor — eliminates white dust). Highest moisture output (up to 32 gallons/day), best for homes 4,000+ sqft, luxury rebuilds with high ceilings or open floor plans, and homeowners who need precise humidity control. Higher install cost (240V dedicated circuit) + higher maintenance (annual cylinder/electrode replacement). The premium option.",
+            },
+            {
+              heading: "Humidistat + controls (more important than the humidifier itself)",
+              body: "The control system determines comfort and prevents window condensation. Outdoor-temp-aware humidistats (Aprilaire 76 / 60 series, Honeywell H8908) automatically lower target RH as outdoor temp drops — prevents over-humidification + condensation during deep cold. Worth upgrading from a basic manual humidistat on existing systems.",
+            },
+            {
+              heading: "Pad / cylinder replacement (twice-per-season in Calgary)",
+              body: "Most install manuals recommend annual pad replacement. In Calgary's hard water, that's not enough — twice per heating season (mid-season + end-of-season) is the right cadence. Steam cylinders require annual replacement minimum. We stock Aprilaire, Honeywell, GeneralAire, and Skuttle replacement pads + cylinders on every truck.",
+            },
+            {
+              heading: "Water line + drain (where most DIY installs fail)",
+              body: "Proper water supply with a ball valve shutoff (NOT a saddle valve — they leak after a few years), 3/8\" copper or PEX run, and a drain line routed to a floor drain or condensate pump. Modern code requires a backflow preventer on the water line. We do this right; jury-rigged DIY installs are the most common reason we get called out to existing humidifiers.",
+            },
+            {
+              heading: "Ductwork integration",
+              body: "Bypass models need a return-to-supply bypass duct with a damper for summer shutoff. Powered models mount directly on supply or return duct. Steam mounts on supply with steam distribution manifold. We size openings to not restrict airflow, position to prevent condensation on cold ductwork in unheated spaces, and seal connections to prevent air leakage.",
+            },
+            {
+              heading: "Humidifier repair (every brand)",
+              body: "Not producing moisture (clogged pad/distribution tray), water leaking (cracked reservoir, loose connections, failed solenoid), white dust (over-mineralized water — needs media swap or softener), humidity readings never reaching setpoint (failed humidistat, undersized unit, ductwork issues). Diagnose-first approach — universal parts on the truck for common Aprilaire, Honeywell, GeneralAire repairs.",
+            },
           ],
         },
         {
-          heading: "Common Humidifier Issues in Calgary Homes",
+          heading: "Why Calgary winter air is brutally dry — and what humidification fixes",
           intro:
-            "Calgary homeowners call us most often for these humidifier problems. Don't let dry air damage your health and home — call us for a proper diagnosis.",
+            "Outdoor air in Calgary winter holds almost no moisture. Heating that air without adding humidity produces indoor RH below 20% routinely. Knowing why helps explain why humidification matters more here than in milder climates.",
           items: [
-            { body: "Humidifier not producing moisture despite running — usually clogged distribution tray or worn-out pad." },
-            { body: "White dust throughout the house from over-mineralized tap water — needs proper media or steam conversion." },
-            { body: "Mold growth in or around the humidifier from poor drainage or oversized unit." },
-            { body: "Furnace cycling issues when humidifier draws power — electrical connection problems." },
-            { body: "Water pooling under the unit from cracked reservoir or loose fittings." },
-            { body: "Humidity readings never reaching set point — faulty humidistat or undersized unit." },
+            {
+              heading: "Cold air physically can't hold much moisture",
+              body: "Air's moisture-holding capacity drops dramatically as temperature drops. At −30°C, even fully saturated outdoor air contains very little moisture. When that air gets heated to 21°C indoors, the relative humidity drops proportionally — typically to 10-20% without humidification. This isn't a Calgary-only phenomenon, but our long winter and deep cold make it dominate indoor comfort here.",
+            },
+            {
+              heading: "Forced-air systems accelerate the problem",
+              body: "Most Calgary homes use forced-air heating, which continuously moves heated dry air through every room. Hydronic (boiler) systems don't have this drying effect to the same degree because they heat surfaces rather than blowing heated air. If you have a boiler-heated home, your humidity issues may be less severe — but most Calgary homes are forced air.",
+            },
+            {
+              heading: "Tight modern envelopes don't help (and sometimes hurt)",
+              body: "Counterintuitively, very tight post-2010 Calgary builds with sealed envelopes often still feel dry because the small amount of indoor moisture production (cooking, breathing, showers) gets diluted by the conditioned air volume the system circulates. The fix is the same: whole-home humidification, sized correctly.",
+            },
+            {
+              heading: "Window condensation is the upper limit",
+              body: "The constraint on Calgary winter humidification is your windows — cold glass surfaces condense moisture out of the air. At 40% RH indoors and −25°C outside, condensation forms on most double-pane windows. Triple-pane windows tolerate higher RH. We dial setpoints to maximize comfort without causing condensation — usually 30-40% RH in deep cold, 40-50% in milder weather.",
+            },
+            {
+              heading: "Health symptoms of dry indoor air",
+              body: "Bloody noses, dry sinuses, dry skin and lips, scratchy throat in the morning, static shocks, increased dust mite and viral activity (low humidity actually favors many viral pathogens), worsened asthma and allergies. These aren't \"winter\" symptoms — they're dry-air symptoms. Humidity in the 30-40% range eliminates most of them.",
+            },
+            {
+              heading: "Property damage from dry indoor air",
+              body: "Hardwood floor gaps, peeling veneer on furniture, cracking wood trim, musical instruments going out of tune, drying houseplants, leather furniture cracking. The damage accumulates slowly but adds up. Many Calgary homeowners discover their furniture and floors fared poorly through years of un-humidified winter — by the time they install a humidifier, the damage is done.",
+            },
+            {
+              heading: "Hard water clogs pads + creates white dust",
+              body: "Calgary water hardness (150-200 mg/L) means humidifier pads clog with mineral buildup faster than soft-water cities. Drum-style and ultrasonic units actually disperse those minerals into your air as white powder that settles everywhere. Powered flow-through reduces this; steam eliminates it entirely. A water softener feeding the humidifier supply is the gold-standard solution.",
+            },
+            {
+              heading: "Chinook freeze-thaw stresses controls",
+              body: "Calgary's chinook-driven temperature swings (-25°C to +10°C within 24-48 hours) can confuse fixed-setpoint humidistats — what's comfortable at +5°C condenses at -25°C. Outdoor-temp-aware controls automatically dial RH back during deep cold. Worth the upgrade in this climate.",
+            },
           ],
         },
         {
-          heading: "Humidifier Maintenance for Calgary's Dry Climate",
+          heading: "Calgary humidifier maintenance — twice-per-season cadence",
           intro:
-            "Calgary's hard water and dusty air make regular humidifier maintenance critical. Skip it, and you'll face expensive repairs or complete system replacement within a few years.",
-          items: [
-            { body: "Replace humidifier pads every heating season — more often if you have very hard water or pets." },
-            { body: "Clean the reservoir and distribution tray monthly during heating season to prevent mold and mineral buildup." },
-            { body: "Check and clean the drain line to prevent water backup and basement flooding." },
-            { body: "Calibrate your humidistat annually — Calgary's temperature swings can throw off the readings." },
-            { body: "Inspect water supply connections for leaks, especially saddle valves that tend to fail over time." },
-            { body: "Monitor humidity levels with a separate hygrometer — aim for 30-40% in winter, 50% max in summer." },
-          ],
-        },
-        {
-          heading: "Calgary Humidifier Expertise You Can Trust",
-          intro:
-            "Installing humidifiers in Calgary since 2008 — certified on the brands you'll actually see in homes here, sized for what Alberta winters really do.",
+            "Most install manuals assume softer water than Calgary actually has. Twice-per-season pad replacement and quarterly inspection is the right cadence here.",
           items: [
             {
-              heading: "Certified on every major brand",
-              body: "[Aprilaire](https://www.aprilaire.com/), [Honeywell](https://www.honeywellhome.com/), GeneralAire, and Skuttle. We stock parts for the units we install, so service is fast.",
+              heading: "Mid-season pad replacement (December-January)",
+              body: "Calgary's hard water clogs humidifier pads by mid-winter on most installs. A pad that looks white with mineral deposits is past its useful life — output drops, humidity setpoint can't be reached, white dust increases. Mid-season replacement keeps the system at design output through the coldest months when it matters most.",
             },
             {
-              heading: "Sized for our dry climate",
-              body: "Most Calgary homes need 600-800 gallons per day because of forced-air heating and -35°C dry spells. We size based on square footage, ductwork, and furnace capacity — not a guess off the side of the box.",
+              heading: "End-of-season pad replacement + shutoff (March-April)",
+              body: "When heating season ends, replace pads, shut off the water supply, drain the distribution tray, and bypass the unit (for bypass models — close the bypass damper). Prevents stagnant water + mineral crust over the summer months.",
             },
             {
-              heading: "Works on 1960s bungalow to 2023 luxury build",
-              body: "Older homes often need ductwork modifications for proper humidifier installation. Newer builds frequently have undersized units because the builder cheaped out. We assess what's there before quoting.",
+              heading: "Steam cylinder replacement (annual minimum)",
+              body: "Steam humidifiers use replaceable cylinders with internal electrodes that scale over with mineral buildup. In Calgary water, annual cylinder replacement is the minimum; harder water + heavier use may require more frequent swap. We stock Aprilaire 800, GeneralAire DS-25 cylinders.",
             },
             {
-              heading: "Plays nice with high-efficiency furnaces",
-              body: "We know which humidifiers cause condensation problems on [high-efficiency furnaces](/high-efficiency-furnaces-calgary/) and which run cleanly. Right pairing matters as much as the unit choice.",
+              heading: "Drain line + water supply inspection",
+              body: "Check that the drain line is clear (no mineral buildup blockage), water supply valve isn't slowly seeping, and saddle valves (if any — they shouldn't be) haven't started weeping. Slow-leaking saddle valves cause basement floor stains that homeowners often blame on the humidifier.",
             },
             {
-              heading: "Built for chinook swings",
-              body: "Wild temperature swings stress mechanical components. Our installs use proper drainage, oversized water lines, and outdoor-temperature-aware controls that prevent over-humidification when it warms up suddenly.",
+              heading: "Humidistat calibration",
+              body: "Compare humidifier humidistat reading against a separate hygrometer. Most humidistats drift over time — recalibration restores accurate setpoint control. Outdoor-temp-aware controls are inherently more accurate than fixed-setpoint humidistats.",
+            },
+            {
+              heading: "Annual professional service (best practice)",
+              body: "We bundle humidifier service into annual furnace tune-up calls when both are due — saves a separate dispatch. Combustion analysis on the furnace + pad/cylinder replacement + humidistat calibration + drain inspection on the humidifier. Catches most failures before they become breakdowns.",
             },
           ],
         },
       ],
       faq: {
-        heading: "Frequently Asked Questions About Humidifiers in Calgary",
-        intro:
-          "Ready to experience the FlameTech difference? Contact us today for a free, no-obligation quote. You can reach us by phone, email, or through our online booking system. We're here to answer your questions and schedule your service at your convenience.",
+        heading: "Humidifiers Calgary — FAQs",
         items: [
-          { q: "What type of humidifier works best for Calgary homes?", a: "Bypass and powered flow-through humidifiers work best with Calgary's forced-air heating systems. Steam units are great for larger homes but require more maintenance with our hard water. Avoid portable units — they can't handle Calgary's extreme dryness and often cause mold problems. We'll assess your ductwork and furnace type to recommend the right system." },
-          { q: "How often do humidifier pads need replacement in Calgary?", a: "Replace pads every heating season at minimum — often twice per year with Calgary's hard water. Mineral buildup clogs the media faster here than in softer water areas. Signs you need new pads include white dust, musty odors, or humidity readings that won't climb despite the unit running constantly." },
-          { q: "Can I install a humidifier on a high-efficiency furnace?", a: "Yes, but it requires proper planning. High-efficiency furnaces have different ductwork configurations and condensate management systems. We've installed hundreds on 90%+ efficiency units across Calgary without issues. The key is proper water line routing and drain connections that won't interfere with furnace operation." },
-          { q: "Why does my humidifier create white dust throughout the house?", a: "White dust comes from mineral deposits in Calgary's hard water being dispersed by the humidifier. This happens with drum-style and some ultrasonic units. Flow-through models with proper media reduce this significantly, or you can pair your system with a water softener for the best results." },
-          { q: "What humidity level should I maintain during Calgary winters?", a: "Aim for 30-40% humidity in winter — higher levels can cause condensation on windows and walls when it's -30°C outside. Summer humidity can safely reach 50%. Calgary's dry air often starts below 15%, so any increase helps with comfort, static electricity, and protecting wood furniture and flooring." },
+          {
+            q: "What type of humidifier is best for Calgary homes?",
+            a: "Depends on home size + budget + tolerance for maintenance. Bypass (Aprilaire 600/500, Honeywell HE200) for typical homes up to ~2,500 sqft — lowest install cost, simplest. Powered flow-through (Aprilaire 700, Honeywell HE300) for 2,500-4,000 sqft or tighter envelopes — better output, less white dust. Steam (Aprilaire 800) for 4,000+ sqft, luxury homes, or homeowners who want zero white dust + precise control — highest cost, highest output. Avoid portable single-room humidifiers — Calgary's whole-home dryness is too severe for them to keep up.",
+          },
+          {
+            q: "What humidity level should I maintain during Calgary winters?",
+            a: "30-40% RH in deep winter (-15°C and below), 40-50% RH in milder weather. Higher levels cause condensation on cold windows and walls — at -25°C outside with 50% indoor RH, most double-pane windows will sweat. Triple-pane windows tolerate higher RH. Outdoor-temp-aware humidistats automatically dial setpoint back during deep cold, which prevents condensation while keeping comfort year-round.",
+          },
+          {
+            q: "Why does my humidifier create white dust?",
+            a: "Calgary's hard water (150-200 mg/L) contains dissolved minerals (calcium, magnesium). Bypass and drum humidifiers spray water that includes those minerals into your airstream — minerals settle out as fine white dust. Solutions: powered flow-through models reduce this significantly, steam models eliminate it entirely (vapor only, no minerals), or feed the humidifier supply line from a softened water source (after the [water softener](/water-softener/)). White dust is harmless to health but cosmetically frustrating.",
+          },
+          {
+            q: "How often do humidifier pads need replacement in Calgary?",
+            a: "Twice per heating season — once mid-season (December-January) and once at end-of-season (March-April). Most install manuals assume softer water than Calgary actually has. By mid-winter, pads on a hard-water Calgary install are typically mineral-crusted enough that output drops and white dust increases. Stocking spare pads at home for self-replacement is a good idea; we stock them on every service call.",
+          },
+          {
+            q: "Can I install a humidifier on a high-efficiency furnace?",
+            a: "Yes, but with planning. High-efficiency condensing furnaces have specific requirements around water introduction near the heat exchanger — improper integration can cause condensation in the furnace itself, accelerated corrosion, and lockouts. We install humidifiers on HE furnaces routinely — the trick is positioning the humidifier on the return side (drying the return air actually IMPROVES furnace efficiency) and ensuring the drain line and water connections don't interfere with furnace condensate handling.",
+          },
+          {
+            q: "Do I need a humidifier if I have a hydronic boiler instead of forced air?",
+            a: "Maybe not. Hydronic boiler systems (in-floor radiant, baseboard) don't blow heated air through your house the way forced-air does, so they're less drying. Indoor humidity in a boiler-heated home is often 30-40% naturally during heating season without active humidification. Some larger or tighter hydronic-heated homes still benefit from a standalone steam humidifier; we assess in-home.",
+          },
+          {
+            q: "What's an HRV and should I have one instead?",
+            a: "HRV (heat recovery ventilator) brings outdoor fresh air into the house while exchanging heat with stale exhaust air — improves indoor air quality, lowers CO2, removes excess humidity in some homes. It does NOT add humidity. In Calgary, an HRV may slightly LOWER indoor humidity in deep winter because it's introducing dry outdoor air. Many tighter homes need BOTH: an HRV for fresh air + a humidifier to add moisture. They serve different purposes.",
+          },
+          {
+            q: "My humidity readings never reach setpoint — what's wrong?",
+            a: "Most common causes: undersized unit for the home volume + envelope, clogged pad reducing output, failed solenoid not delivering water, humidistat reading the wrong location (e.g., near a register), or the furnace blower isn't running enough to move humidified air. Diagnose-first approach — we measure actual humidifier output, check pad condition, test solenoid, verify humidistat location + accuracy. Most fixes finish first visit.",
+          },
+          {
+            q: "Why does my humidifier leak water?",
+            a: "Common causes: cracked distribution tray (most common — UV + thermal cycling embrittles plastic over years), failed solenoid valve stuck open, clogged drain causing backup, loose water supply connection, or a worn pad allowing water bypass instead of evaporation. Most are quick fixes — we stock universal parts for Aprilaire, Honeywell, GeneralAire common-part-failures on every truck.",
+          },
+          {
+            q: "Are you available for emergency humidifier repair?",
+            a: "Same-day service when availability allows; not typically considered an emergency the way no-heat is. If your humidifier is leaking actively and causing water damage, that bumps to emergency priority — call 587-834-3668 and we'll triage. Most humidifier issues are quick fixes; we'll often pair repair with annual furnace service if both are due.",
+          },
         ],
       },
     },
