@@ -7928,124 +7928,202 @@ export const services: ServicePage[] = [
     category: "Plumbing",
     location: "Calgary",
     icon: "plumbing",
-    title: "Altadore Plumbers Calgary | Priority Emergency Service Available",
+    title: "Altadore Plumbers Calgary — Heritage Bungalow + 2000s Infill Mix",
     lead:
-      "Need a dependable plumber in Altadore, Calgary? FlameTech Plumbing delivers outstanding service to this charming inner-city neighborhood's heritage homes and modern residences. Our experienced technicians provide swift, reliable solutions perfectly suited for Altadore's unique blend of character homes and contemporary properties.",
+      "Altadore is one of Calgary's most distinctive inner-city neighbourhoods because the housing mix is so polarized: 1950s wartime bungalows + post-war character homes with original galvanized supply lines, cast iron drains, and clay sewer laterals — sitting next to brand-new 2000s-onward infills with modern PEX, high-efficiency furnaces, and renovated mechanical rooms. Different plumbing eras on the same block, often on the SAME LOT (heritage exterior preserved + interior gutted-and-rebuilt). We work all of it — heritage maintenance + replacement, infill new-build connections + drainage, and the messy middle of partial renovations.",
     heroBody: [
-      "As your trusted [SW Calgary plumber](/calgary-plumbers-sw/), we understand the distinct character of Altadore and deliver customized service to match this established community's needs. This mature inner-city community showcases homes spanning from the 1950s through recent developments, creating unique plumbing challenges that our specialists navigate with expertise and care.",
-      "From cracked pipes and serious leaks to sewer backups, our skilled technicians arrive swiftly at your Altadore property, fully equipped to handle critical situations and prevent extensive water damage. Call 587-834-3668 for priority dispatch any time.",
+      "Three patterns dominate Altadore calls: (1) heritage 1950s-1960s home work (galvanized supply lines closing off with scale, cast iron drain stack failures, clay sewer lateral root intrusion from 60+ year mature trees, original water heater + furnace replacement on homes that have been partially modernized), (2) 2000s-onward infill construction connection + drainage work (new build hooking into aging city mains, lot regrading affecting neighbouring drainage, modern mechanical room build-outs), and (3) mid-renovation partial-modernization issues (mixed-era plumbing in the same house, where new PEX meets old galvanized at a transition point that's now leaking).",
+      "Same crew handles our [Poly-B identification](/polyb-plumbing-calgary/) (some 1980s-90s renovated Altadore homes have it), [hot water tank replacement](/hot-water-tank-replacement-calgary/), [furnace work](/furnaces/), [drain cleaning](/drain-cleaning-calgary/), and broader [emergency plumbing](/emergency-plumber-calgary/). Same crew works neighbouring [Marda Loop](/marda-loop-plumbers-calgary/), [Bel-Aire](/bel-aire-plumbers-calgary/), [Killarney](/killarney-plumbers-calgary/), and [Mount Royal](/mount-royal-plumbers-calgary/) — inner-SW Calgary inner-city patterns rhyme.",
+      "Real person on the phone, written quote before any work starts. Same-day for emergencies. SW dispatch via 14 Street + Crowchild + 50 Ave makes the run fast. Call 587-834-3668.",
     ],
-    heroSubhead: "Trusted Altadore Plumbing Experts",
+    heroSubhead: "Inner-SW Heritage + Infill Mix Specialists",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
-    heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing service van in Altadore", fit: "cover" },
+    heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing + heating service in Altadore, SW Calgary", fit: "cover" },
     intro:
-      "Expert plumbers serving Altadore, Calgary. Heritage home specialists with fast response, honest pricing, and priority emergency service for inner-city SW Calgary properties.",
+      "Altadore Calgary plumbing + heating. Heritage 1950s bungalows + 2000s infill mix. Galvanized supply line replacement, clay sewer lateral repair, equipment replacement, drain cleaning. Free written quote.",
     features: [
-      "Stocked Calgary trucks",
-      "Drain cleaning & hydro-jetting",
-      "Water heater service & installation",
-      "Advanced leak detection",
-      "Sewer line camera inspection",
-      "Heritage home pipe replacement",
+      "Heritage galvanized + cast iron replacement",
+      "Clay sewer lateral camera + trenchless repair",
+      "Water heater + furnace replacement",
+      "Infill new-build plumbing + drainage",
+      "Mixed-era partial-reno troubleshooting",
+      "Same-day emergency dispatch",
     ],
     bullets: [
       {
-        t: "Heritage home specialists",
-        d: "We work confidently on homes spanning from the 1950s through modern infills, navigating aging pipe systems and code-compliant upgrades.",
+        t: "Heritage 1950s bungalows have specific patterns",
+        d: "Original Altadore homes have galvanized supply lines (closing off with mineral scale — pressure drops, hot worse than cold), cast iron drain stacks (joints separating, pinhole leaks at horizontal runs), clay sewer laterals (root intrusion from 60+ year mature trees), and plaster + lath walls (non-destructive diagnostics matter). We've worked these for 25+ years and know what's behind the wall before we open it.",
       },
       {
-        t: "Upfront pricing",
-        d: "Clear, detailed estimates before any work begins. No hidden fees, no surprises — just honest pricing you can trust.",
+        t: "2000s infill construction + connection work",
+        d: "Major rebuild activity has transformed Altadore since 2000 — many lots now have completely new infills with modern PEX, high-efficiency mechanical, and modern drainage. We handle the new-build side too: connection to aging city mains, lot-grading drainage interactions with neighbours, sump pump install for finished basements, premium fixture coordination.",
+      },
+      {
+        t: "Mixed-era partial-renovation troubleshooting",
+        d: "Common Altadore scenario: heritage home that's been partially renovated over decades — new PEX in the kitchen meets original galvanized in the laundry, modern furnace from 2015 next to original cast iron stack. Mixed-era systems fail at transition points. Reading the situation correctly takes inner-city experience.",
+      },
+      {
+        t: "Real person — inner-SW dispatch via 14 Street + Crowchild",
+        d: "No call centre. You talk to a tech, get a window before the truck rolls. Same-day dispatch for emergencies. 14 Street + Crowchild + 50 Ave SW make Altadore arrival fast. Same dispatch as our [Marda Loop](/marda-loop-plumbers-calgary/) and [Bel-Aire](/bel-aire-plumbers-calgary/) work.",
       },
     ],
-    seoTitle: "Altadore Plumbers Calgary | Priority Emergency Service",
+    seoTitle: "Altadore Plumbers Calgary | Heritage + Infill, Inner-SW Dispatch",
     seoDescription:
-      "Licensed plumbers serving Altadore — 50 Ave SW, Crowchild Trail, River Park. Priority emergency dispatch. Call 587-834-3668.",
+      "Altadore Calgary plumbing + heating. Heritage 1950s bungalow + 2000s infill mix. Galvanized line replacement, clay sewer lateral repair, equipment replacement. Call 587-834-3668.",
     seoKeywords: [
-      "Altadore plumbers",
-      "plumber Altadore Calgary",
-      "SW Calgary plumber",
-      "Altadore emergency plumber",
-      "heritage home plumber Calgary",
+      "Altadore plumbers Calgary",
+      "Altadore Calgary plumber",
+      "Altadore heritage plumbing",
+      "Altadore galvanized line replacement",
+      "Altadore infill plumbing",
+      "SW Calgary inner-city plumber",
       "FlameTech Plumbing",
     ],
     quoteFormLabel: "Altadore plumbing",
     quoteFormPlaceholder:
-      "e.g. galvanized line leaking in a 1950s bungalow, sewer backup on 33rd Ave, water heater failing…",
+      "e.g. galvanized line leaking in a 1950s bungalow on 33rd Ave, cast iron stack pinhole, infill drainage issue, mixed-era partial reno problem, water heater EOL replacement…",
     sidebar: {
-      title: "Altadore Plumbers",
+      title: "Altadore Plumbing + Heating",
       subtitle:
-        "Inner-city SW Calgary plumbing experts — heritage homes, modern infills, and everything in between.",
+        "Inner-SW Calgary crew. Heritage 1950s bungalow + 2000s infill mix. Real-person dispatch, written quotes upfront.",
       bullets: [
-        "Licensed, insured, and bonded",
-        "Real person answers the phone",
-        "Stocked Calgary trucks",
-        "Heritage home experience",
+        "Real person on the phone",
+        "Free in-home assessment + written quote",
+        "Heritage + infill + mixed-era experience",
+        "Same-day emergency dispatch",
       ],
     },
     stats: [
       { number: "25+", label: "Years in Calgary", icon: "verified" },
       { number: "5.0★", label: "Google rated", icon: "star" },
-      { number: "FREE", label: "Written estimates", icon: "request_quote" },
-      { number: "Licensed", label: "& insured", icon: "award" },
+      { number: "Heritage", label: "+ Modern + Mixed", icon: "check_circle" },
+      { number: "Real", label: "Person on the phone", icon: "call" },
     ],
     callout:
-      "Burst pipe, flooded basement, or sewer backup in Altadore? Call 587-834-3668 — a real person will dispatch a plumber right away.",
+      "Heritage bungalow plumbing concern, infill construction question, or mixed-era partial-reno issue in Altadore? Call 587-834-3668 — real-person inner-SW dispatch.",
     richContent: {
       sections: [
         {
-          heading: "Plumbing Services for Altadore",
+          heading: "What we do most often on Altadore calls",
           intro:
-            "Plumbing emergencies don't wait for business hours — cracked pipes, serious leaks, or sewer backups demand immediate attention. Our skilled technicians arrive swiftly at your Altadore property, fully equipped to handle critical situations and prevent extensive water damage.",
+            "Altadore's split between heritage 1950s bungalows + modern 2000s infills + the messy middle of partial renovations creates a specific work mix. Different homes need different conversations.",
           items: [
-            { heading: "Professional Drain Solutions", body: "Slow-moving drains create daily frustrations. We use advanced equipment to clear blockages completely, ensuring optimal drainage throughout your property. From bathroom sinks to main sewer lines, we solve drainage problems with lasting results. Learn more about our [drain cleaning services in Calgary](/drain-cleaning-calgary/)." },
-            { heading: "Water Heater Service & Installation", body: "From [tankless models](/tankless-water-heaters/) to [conventional tanks](/hot-water-tanks/), our experts guarantee reliable hot water supply through Calgary's harsh winters. We maintain all leading brands and help you select the ideal system matching your household requirements and budget constraints." },
-            { heading: "Fixture Replacement & Installation", body: "Considering kitchen or [bathroom upgrades](/bathroom-plumbing-calgary/)? We install contemporary faucets, toilets, sinks, and [shower systems](/shower-plumbing-calgary/) that improve functionality while elevating your home's aesthetics. All installations comply with current building regulations." },
-            { heading: "Advanced Leak Detection", body: "Concealed leaks silently damage your property's structure. Using thermal cameras and acoustic sensors, we pinpoint leaks behind walls and beneath floors without unnecessary demolition, then implement permanent repairs that protect your investment." },
-            { heading: "Complete Sewer Line Services", body: "Through video camera inspections and powerful hydro-jetting technology, we maintain healthy sewer systems. Our specialists handle everything from minor repairs to full line replacements when needed for Altadore homes." },
+            {
+              heading: "Galvanized supply line replacement (heritage homes)",
+              body: "Original 1950s-1960s galvanized supply lines close off with mineral scale over decades — water pressure drops, hot-side drops worse than cold (heat accelerates scaling). Symptom: weak shower flow, slow tub fill, dropping hot pressure as the home ages. Replacement with copper or PEX-A through accessible runs; sometimes phased over renovation cycles. See [plumbing repairs](/plumbing-repairs-calgary/).",
+            },
+            {
+              heading: "Cast iron drain stack repair + replacement",
+              body: "Heritage Altadore cast iron drain stacks fail at joints + at the bottom of horizontal runs (pinhole rust). Symptom: slow drains, sewer smells, occasional leaks behind plaster walls or in basement ceilings. We repair with hubless fittings + PVC tie-ins where viable, full replacement where the stack is gone. Camera inspection identifies extent before quoting.",
+            },
+            {
+              heading: "Clay sewer lateral camera + trenchless repair",
+              body: "Original 1950s clay sewer laterals develop joint separation + root intrusion from Altadore's mature elms, maples, and poplars. Symptom: slow main drain, gurgling, recurring backups. Camera inspection identifies location + severity; trenchless lining or spot repair preserves landscaping — we don't tear up the front lawn unless there's no alternative.",
+            },
+            {
+              heading: "Original equipment replacement (water heater + furnace EOL)",
+              body: "Many partially-modernized Altadore homes still have water heaters + furnaces installed during 1990s-2000s renovations that are now well past Calgary EOL. Calgary tanks last 8-10 years unsoftened (we replace with [Bradford White or John Wood](/hot-water-tanks/)). Older furnaces from late-90s renovations are now approaching heat-exchanger-crack risk territory. Replace conversations with honest math.",
+            },
+            {
+              heading: "Poly-B replacement (1980s-90s renovated Altadore homes)",
+              body: "Some Altadore homes renovated in the late 1980s-90s had Poly-B installed during the renovation. Failures are common now (25-35 years in). Whole-home replacement with PEX-A is the lasting fix. See [Poly-B Calgary](/polyb-plumbing-calgary/) for identification + scope.",
+            },
+            {
+              heading: "Infill new-build plumbing + drainage",
+              body: "Major rebuild activity in Altadore since 2000 means lots of new-build plumbing scope: connection to aging city mains, sump pump install for finished basements, lot-grading drainage that doesn't dump water onto the neighbour, modern mechanical rooms with high-efficiency furnaces + on-demand water heaters. We handle the new-build side too.",
+            },
+            {
+              heading: "Mixed-era partial-renovation troubleshooting",
+              body: "Common Altadore scenario: heritage home renovated piecemeal over decades. New PEX in the kitchen meets original galvanized in the laundry, modern furnace from 2015 next to original cast iron drain stack. Mixed-era systems fail at TRANSITION POINTS — galvanized-to-copper dielectric union corrosion, cast-iron-to-PVC joint failure, undersized supply line feeding new high-flow fixture. Reading the situation right takes experience.",
+            },
+            {
+              heading: "Premium fixture install on renovations",
+              body: "Altadore renovations + infills frequently include premium fixture brands (Hansgrohe, Brizo, Kohler, Grohe) at the master bath + kitchen + powder room. Brand-specific cartridge knowledge matters for proper install + future service. We carry parts catalogues + order direct from authorized distributors.",
+            },
           ],
         },
         {
-          heading: "Common Plumbing Challenges in Altadore Properties",
+          heading: "Why Altadore needs a different conversation than newer suburbs",
           intro:
-            "This established inner-city community presents specific maintenance requirements we see again and again:",
+            "Altadore's heritage + infill mix creates specific service patterns. Inner-city housing reality is different from builder-suburb reality.",
           items: [
-            { body: "Aging pipe systems in older homes requiring replacement or retrofitting." },
-            { body: "Historic properties needing specialized plumbing knowledge." },
-            { body: "Mature tree roots causing sewer line intrusions." },
-            { body: "Hard water mineral buildup reducing system efficiency." },
-            { body: "Renovation projects requiring code-compliant upgrades." },
-            { body: "Winter freeze protection for exposed exterior plumbing." },
+            {
+              heading: "Three home types in one neighbourhood",
+              body: "Heritage 1950s-60s bungalows (galvanized, cast iron, clay), partially-renovated heritage (mixed-era plumbing), and modern infills (full modern PEX + high-eff equipment). Same crew, three different toolkits + diagnostic approaches needed.",
+            },
+            {
+              heading: "Mature street trees + 60+ year clay laterals = root intrusion",
+              body: "Altadore's elms + maples + poplars are 60+ years old in many cases. Established root systems find clay sewer joint cracks over decades. Symptom: slow main drain, recurring backups despite snaking. Camera inspection + trenchless lining or spot repair beats tearing up boulevard landscaping.",
+            },
+            {
+              heading: "1950s wartime bungalow construction has narrow access",
+              body: "Original Altadore bungalows often have crawlspaces (not full basements), narrow utility rooms, and tight under-cabinet access. Service work in these spaces takes longer + sometimes needs specific tooling. We plan for it on the call.",
+            },
+            {
+              heading: "Infill construction shifts lot drainage",
+              body: "New infill construction often re-grades lots significantly — water flow patterns change relative to original drainage paths. Common complaint: heritage neighbour's basement starts taking water after the next-door infill rebuild. Diagnose by perimeter drainage inspection + sump pump check; fix by exterior re-grade or interior drainage system if needed.",
+            },
+            {
+              heading: "Mixed-era partial renovations have transition-point failures",
+              body: "When old galvanized meets new copper, when old cast iron meets new PVC, when original supply feeds new high-flow fixtures — the TRANSITION POINTS are where failures happen. Diagnostic experience reading these situations is what separates inner-city plumbing from suburb work.",
+            },
+            {
+              heading: "Plaster + lath walls = non-destructive diagnostics matter",
+              body: "Many heritage Altadore homes have original plaster + lath walls that are part of the home's character. Tearing them out for diagnostics is expensive and sometimes unrecoverable. Infrared imaging + acoustic detection let us locate leaks behind plaster without destruction. We preserve the wall when we can.",
+            },
+            {
+              heading: "Marda Loop adjacency + walkability = lots of partial renos",
+              body: "Altadore's proximity to Marda Loop's restaurant + retail + walkability has driven decades of partial renovations + kitchen + bath remodels. The piecemeal-modernization scenario is the dominant call category. We've seen every era of partial reno and know how to diagnose where the latest leak is coming from.",
+            },
+            {
+              heading: "Hard water hits everything regardless of build era",
+              body: "Calgary's hard water (150-200 mg/L) is the same hard supply for Altadore as anywhere else. Single softener install at the main entry protects tanks, tankless heat exchangers, dishwashers, washing machines, premium fixtures — particularly important when renovations are installing premium-grade fixtures downstream. See [water softener Calgary](/water-softener/).",
+            },
           ],
-        },
-        {
-          heading: "Altadore's Priority Emergency Plumbing Team",
-          intro:
-            "Plumbing disasters strike without warning. FlameTech Plumbing provides around-the-clock [emergency plumbing service for Calgary residents](/emergency-plumber-calgary/) dealing with urgent plumbing crises. Connect with a real person instantly — no automated systems — who dispatches qualified technicians to your location right away. We maintain fully-stocked service vehicles to resolve most emergencies during the first visit.",
         },
       ],
       faq: {
-        heading: "Frequently Asked Questions",
+        heading: "Altadore Plumbers — FAQs",
         items: [
           {
-            q: "Do you offer priority emergency plumbing in Altadore?",
-            a: "Yes, FlameTech Plumbing provides priority emergency plumbing throughout Altadore, Calgary. Whether facing a burst pipe, critical leak, or sewer backup, our licensed plumbers respond rapidly. Contact us anytime at 587-834-3668 for immediate help.",
+            q: "What's behind the wall in my 1950s Altadore bungalow's plumbing?",
+            a: "Most likely original galvanized supply lines closing off with mineral scale, cast iron drain stacks with joints separating + pinhole leaks at horizontal runs, and clay sewer lateral to the city main. Walls are typically plaster + lath. We diagnose without destruction using infrared imaging + acoustic detection — we'll tell you what's behind the wall before recommending any tear-out.",
           },
           {
-            q: "How fast can a plumber arrive at my Altadore property?",
-            a: "We dispatch from Calgary across the inner SW, and Altadore — bordered by Crowchild, 50 Ave, and the river — is on our regular run. Emergency calls get priority routing over scheduled work. Call 587-834-3668 and we'll confirm a window before the truck rolls.",
+            q: "Why is my Altadore hot water pressure low?",
+            a: "Almost always galvanized supply lines closing off with mineral scale. Heat accelerates scaling, so hot-side pressure drops worse than cold. Replacement with copper or PEX-A through accessible runs restores flow. Often phased over major renovation cycles to coordinate with broader scope. Free in-home assessment + written quote.",
           },
           {
-            q: "What plumbing services are available in Altadore?",
-            a: "Drain cleaning, water heater service and replacement, leak detection, pipe repair and replacement, fixture installation, sewer line work, and bathroom/kitchen renovations. If it carries water or gas in an Altadore home, we work on it.",
+            q: "Does my Altadore home have Poly-B plumbing?",
+            a: "Depends on renovation history. Original 1950s-60s bungalows had galvanized supply, not Poly-B. But homes renovated during the 1980s-90s Poly-B era may have it installed during that renovation. Failures are common now (25-35 years in). Look for grey/blue plastic supply lines with crimp-ring fittings (silver bands). See [Poly-B Calgary](/polyb-plumbing-calgary/) for identification.",
           },
           {
-            q: "Are your plumbers properly licensed and insured?",
-            a: "Yes. Every tech is licensed, bonded, and insured to work across Alberta. Insurance certificate available on request before we start.",
+            q: "I'm renovating my 1950s Altadore bungalow — do I need to update all the plumbing?",
+            a: "Depends on scope. Full gut renovation: typically yes, replace everything during open-wall access (cheaper now than chasing failures later). Partial reno (kitchen + bath only): replace what's accessible + plan for future phased replacement of the rest. We assess + quote in writing based on the renovation scope. Often coordinated with the renovation GC.",
           },
           {
-            q: "Do you warranty your plumbing work?",
-            a: "Yes, we back our craftsmanship with a comprehensive warranty on all services. Our satisfaction guarantee ensures that if you're dissatisfied with our work, we'll correct it. We also provide manufacturer warranties on parts and equipment we install.",
+            q: "Why are my drains slow in my heritage Altadore home?",
+            a: "Most common cause: root intrusion in the clay sewer lateral. Altadore's mature street trees have established root systems that find joint cracks in 60+ year clay laterals. Camera inspection identifies the exact location + severity. Hydro-jet or mechanical cutting clears short-term; trenchless lining or spot repair for permanent fix.",
+          },
+          {
+            q: "My basement started flooding after the next-door infill was built — what's happening?",
+            a: "Lot regrading during infill construction sometimes changes water flow patterns. Common pattern: new infill is graded higher than original lot, water that previously sheeted away now sheets toward your home. Diagnose by perimeter drainage inspection + sump pump check; fix by exterior re-grade, interior drainage system, or sump pump install with battery backup.",
+          },
+          {
+            q: "Should I install a water softener in my Altadore home?",
+            a: "Strongly recommended. Calgary's hard water (150-200 mg/L) shortens every water-using appliance's lifespan. Particularly important when renovations are installing premium-grade fixtures (Hansgrohe, Brizo, Kohler, Grohe) — softener protects the cartridge investment. Single install at the main entry, whole-house benefit.",
+          },
+          {
+            q: "How quickly can you respond to emergencies in Altadore?",
+            a: "Same-day for emergencies — burst pipes, no hot water, sewer backup, no heat in cold snaps. Real person on the phone, we'll confirm a window before the truck rolls. 14 Street + Crowchild + 50 Ave SW make Altadore dispatch fast — typical window 2-3 hours from initial call.",
+          },
+          {
+            q: "Do you work on every brand of plumbing + heating equipment?",
+            a: "Yes — Bradford White, John Wood, AO Smith (tanks); Navien, Rinnai, IBC (tankless); Trane, Carrier, Lennox, Goodman, AirEase (furnaces); cold-climate heat pumps; ProFlo (sump pumps); Hansgrohe, Brizo, Kohler, Grohe (premium fixtures). Common parts ride on every truck for first-visit repair completion.",
+          },
+          {
+            q: "What other SW Calgary inner-city neighbourhoods do you cover?",
+            a: "Same crew works [Marda Loop](/marda-loop-plumbers-calgary/), [Bel-Aire](/bel-aire-plumbers-calgary/), [Killarney](/killarney-plumbers-calgary/), [Mount Royal](/mount-royal-plumbers-calgary/), [Signal Hill](/signal-hill-plumbers-calgary/), [Aspen Woods](/aspen-woods-plumbers-calgary/), and the broader [SW Calgary](/calgary-plumbers-sw/). Heritage + rebuild + mixed-era experience translates across all of them.",
           },
         ],
       },
@@ -9500,117 +9578,202 @@ export const services: ServicePage[] = [
     category: "Plumbing",
     location: "Calgary",
     icon: "plumbing",
-    title: "Copperfield Plumbers Calgary | FlameTech Plumbing & Heating",
+    title: "Copperfield Plumbers Calgary — 1999-2013 Builds, First-Round Equipment EOL",
     lead:
-      "Most homes in Copperfield were built during the 2000s housing boom, which means your builder-grade plumbing fixtures are hitting that 15-20 year mark where problems start showing up.",
+      "Copperfield was built between 1999 and approximately 2013 — a SE Calgary boom-era community where most homes are now 12-25 years old. That puts Copperfield squarely in first-round equipment end-of-life territory: original water heaters on their second or third generation by now, original sump pumps tired, original high-efficiency furnaces approaching mid-to-late life, and the very earliest builds (1999-2002) sitting in the boundary zone where some have Poly-B and most have PEX. FlameTech dispatches from SE Calgary for fast Copperfield arrival.",
     heroBody: [
-      "FlameTech has been fixing plumbing issues in this SE Calgary community since day one, and we know exactly what to expect when we walk into these homes — from [failing hot water tanks](/hot-water-tanks/) to clogged main drains.",
-      "When your pipes burst at 2 AM or your basement starts flooding, you need a plumber who answers the phone and shows up fast. We offer priority emergency dispatch and typically get to Copperfield homes within an hour of your call. Dial 587-834-3668.",
+      "Three patterns dominate Copperfield calls: (1) original-equipment end-of-life replacement on 1999-2010 builds (water heaters, sump pumps, first-wave high-efficiency furnaces hitting Calgary EOL), (2) hard-water-driven service across the whole community (no softener originally specced on most builds; tanks scale fast in Calgary water), and (3) sewer + drain work on mature-landscape original-phase streets where 25-year trees are now finding clay-era PVC pipe joints.",
+      "Same crew handles our [hot water tank replacement](/hot-water-tank-replacement-calgary/), [Poly-B identification](/polyb-plumbing-calgary/), [furnace work](/furnaces/), [water softener install](/water-softener/), [tankless](/tankless-water-heaters/), [sump pump install](/sump-pump-installation-calgary/), [drain cleaning](/drain-cleaning-calgary/), and broader [emergency plumbing](/emergency-plumber-calgary/). Same crew also covers [New Brighton](/new-brighton-plumbers-calgary/), [McKenzie Towne](/mckenzie-towne-plumbers-calgary/), [Cranston](/cranston-plumber-calgary/), [Mahogany](/mahogany-plumbers-calgary/), and [Auburn Bay](/auburn-bay-plumber-calgary/).",
+      "Real person on the phone, written quote before any work starts. Same-day for emergencies — 52nd Street SE + Stoney Trail make SE dispatch fast. Call 587-834-3668.",
     ],
-    heroSubhead: "Trusted Copperfield Plumbing Experts",
+    heroSubhead: "SE Calgary Crew, Boom-Era Build Specialists",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
-    heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing service van in Copperfield", fit: "cover" },
+    heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing + heating service in Copperfield, SE Calgary", fit: "cover" },
     intro:
-      "Expert plumbers serving Copperfield Calgary. Priority emergency service, [drain cleaning](/drain-cleaning-calgary/), [water heaters](/hot-water-tanks/), [Poly-B replacement](/polyb-plumbing-calgary/), and leak repair. Licensed & insured.",
+      "Copperfield Calgary plumbing + heating. First-round equipment replacement on 1999-2013 builds, hard-water protection, drain + sewer work, SE dispatch. Free written quote.",
     features: [
-      "Priority emergency repairs",
-      "Kitchen, bathroom & main drain cleaning",
-      "Tank & tankless water heaters",
-      "Toilet, faucet, shower & tub service",
-      "Electronic leak detection",
-      "Sewer camera & pipe replacement",
+      "Water heater + furnace + sump pump replacement",
+      "Water softener install (whole-house protection)",
+      "Sewer camera + root removal (mature phases)",
+      "Poly-B identification (1999-2002 builds)",
+      "Tankless water heater retrofit + service",
+      "Same-day emergency dispatch",
     ],
     bullets: [
       {
-        t: "Copperfield specialists",
-        d: "Similar floor plans and mechanical systems across most homes means we know where the shut-offs are, what fixtures were installed, and which Poly-B runs fail first.",
+        t: "Boom-era build specialists",
+        d: "Copperfield was built mostly 1999-2013 in distinct phases. We've worked these homes routinely and know which builders dominated which phases, what equipment was originally specced, and what fails first. Saves diagnosis time on the call.",
       },
       {
-        t: "Same-day, first-visit fixes",
-        d: "Most Copperfield plumbing issues can be fixed the same day you call — our trucks are stocked with parts for homes your age.",
+        t: "First-round equipment end-of-life era is HERE",
+        d: "Calgary tanks last 8-10 years in this water unsoftened, so an original 2003 Copperfield tank has typically been through 2-3 replacements by now. Original sump pumps are well past typical replacement age. First-wave high-efficiency furnaces from 1999-2005 builds are approaching the heat-exchanger-crack risk zone (statistically significant past 18-20 years). Active replacement era.",
+      },
+      {
+        t: "Earliest builds (1999-2002) may have Poly-B",
+        d: "Industry was transitioning through the early 2000s. Most Copperfield (2002+) was built with PEX, but the very earliest 1999-2001 builds may have Poly-B installed. If your home was built before about 2002 and you haven't had supply lines inspected, worth a free check. See [Poly-B Calgary](/polyb-plumbing-calgary/).",
+      },
+      {
+        t: "Real person — SE dispatch via 52nd Street + Stoney Trail",
+        d: "No call centre. You talk to a tech, get a window before the truck rolls. Same-day dispatch for emergencies — typical Copperfield arrival 2-3 hours from initial call. 52nd Street SE + Stoney Trail access make the SE run fast.",
       },
     ],
-    seoTitle: "Copperfield Plumbers Calgary | FlameTech Plumbing & Heating",
+    seoTitle: "Copperfield Plumbers Calgary | 1999-2013 Builds, Water Heater EOL",
     seoDescription:
-      "Expert plumbers serving Copperfield Calgary. Priority service, drain cleaning, water heaters, leak repair. Licensed & insured. Call 587-834-3668 today!",
+      "Copperfield Calgary plumbing + heating. Water heater + furnace + sump pump replacement on 1999-2013 builds, water softener install, drain + sewer work. Call 587-834-3668.",
     seoKeywords: [
       "Copperfield plumbers Calgary",
-      "plumber Copperfield",
-      "emergency plumber Copperfield",
+      "Copperfield Calgary plumber",
+      "Copperfield water heater replacement",
+      "Copperfield emergency plumber",
       "Copperfield sump pump",
       "SE Calgary plumber",
       "FlameTech Plumbing",
     ],
     quoteFormLabel: "Copperfield plumbing",
     quoteFormPlaceholder:
-      "e.g. sump pump running constantly, sewer line root intrusion, Poly-B replacement quote…",
+      "e.g. original 2002 water heater finally going, sump pump cycling constantly, furnace approaching 20yrs, water softener install, sewer line root intrusion, Poly-B inspection…",
     sidebar: {
-      title: "Copperfield Plumbers",
+      title: "Copperfield Plumbing + Heating",
       subtitle:
-        "Since Copperfield's first phase — priority emergency dispatch, local crew, honest pricing, solid warranties.",
+        "SE Calgary crew, boom-era build specialists. First-round equipment replacement, hard-water protection, written quotes upfront.",
       bullets: [
-        "Licensed, insured, and bonded",
-        "Real person answers the phone",
-        "Based in Calgary — no out-of-town contractors",
-        "Warranty on every job",
+        "Real person on the phone",
+        "Free in-home assessment + written quote",
+        "Stocked for 1999-2013 builds",
+        "Same-day emergency dispatch",
       ],
     },
     stats: [
-      { number: "25+", label: "Years in Alberta", icon: "verified" },
+      { number: "25+", label: "Years in Calgary", icon: "verified" },
       { number: "5.0★", label: "Google rated", icon: "star" },
-      { number: "FREE", label: "Written estimates", icon: "request_quote" },
-      { number: "Licensed", label: "& insured", icon: "award" },
+      { number: "Real", label: "Person on the phone", icon: "call" },
+      { number: "ANY", label: "Plumbing + heating brand", icon: "check_circle" },
     ],
     callout:
-      "Burst pipe dumping hundreds of gallons into your Copperfield basement? Call 587-834-3668 — a real person answers and our truck is loaded with parts for your home.",
+      "Copperfield equipment at end of life, sump pump issue, or emergency right now? Call 587-834-3668 — SE dispatch via 52nd Street + Stoney Trail.",
     richContent: {
       sections: [
         {
-          heading: "Why Copperfield Homeowners Choose FlameTech Plumbing",
+          heading: "What we do most often on Copperfield calls",
           intro:
-            "We've been serving SE Calgary for plumbing services for many years and understand the unique challenges that Copperfield properties face — from shifting clay soil to builder-grade systems now hitting their failure point.",
+            "Most Copperfield service calls trace back to one of these — driven by the boom-era build window (1999-2013), hard water across every phase, and equipment now hitting its Calgary end-of-life intervals.",
           items: [
-            { heading: "Priority Emergency Repairs", body: "Burst pipes, gas leaks, sewer backups, and flooding — we're there fast with fully stocked trucks." },
-            { heading: "Drain Cleaning", body: "Kitchen sinks, bathroom drains, main sewer lines, and storm drains. Learn more about [drain cleaning](/drain-cleaning-calgary/)." },
-            { heading: "Water Heater Services", body: "Tank and [tankless water heater](/tankless-water-heaters/) installation, repair, and replacement." },
-            { heading: "Fixture Services", body: "Toilet, faucet, [shower and bathtub](/shower-plumbing-calgary/) installation and repair." },
-            { heading: "Leak Detection", body: "Hidden leaks, slab leaks, and pipe damage using electronic detection." },
-            { heading: "Sewer Line Services", body: "Camera inspection, drain cleaning, and pipe replacement." },
+            {
+              heading: "Water heater replacement (originals long past EOL)",
+              body: "Calgary tanks last 8-10 years in this water unsoftened. An original 2003 Copperfield tank has typically been through 2-3 replacements by now; the second-gen tank from ~2013 is now nearing EOL too. We replace with [Bradford White or John Wood](/hot-water-tanks/) — the two brands that hold up best in Calgary's hard water — and recommend pairing with softener install for next-tank longevity.",
+            },
+            {
+              heading: "Water softener install — Copperfield's biggest longevity upgrade",
+              body: "Most Copperfield homes were built without a softener. Calgary's hard water (150-200 mg/L) shortens every water-using appliance's lifespan. Single softener at the main entry: tanks last 14+ years instead of 8-10, tankless heat exchangers scale slowly, dishwasher + washing machine valves last longer, shower valve cartridges seize less, fixture finishes hold up better. Pay-back over single tank cycle.",
+            },
+            {
+              heading: "Furnace replacement (first-wave HE units approaching EOL)",
+              body: "1999-2005 Copperfield originals had first-generation high-efficiency furnaces now 20+ years old. Heat exchanger cracks become statistically significant past 18-20 years (safety issue with CO leakage risk, not just efficiency). ECM blower motors fail around 15-20 years. We have honest replace-vs-repair conversations; heat pump + hybrid dual-fuel is now the math-positive alternative on replacement — see [heat pumps Calgary](/heat-pumps-calgary/).",
+            },
+            {
+              heading: "Sump pump replacement (originals tired)",
+              body: "Sump pumps typically last 10-15 years. Copperfield originals from 1999-2008 builds are well past that range. Spring melt + heavy rain events stress these systems — failure on those days is when basement damage happens. We replace with ProFlo or similar quality pumps + verify discharge routing isn't dumping water back against the foundation. Battery backup recommended for any finished-basement home.",
+            },
+            {
+              heading: "Poly-B identification + replacement (1999-2002 builds)",
+              body: "Industry transitioned through the early 2000s. Very earliest Copperfield phases may have Poly-B installed. Look for grey/blue plastic supply lines with crimp-ring fittings (silver bands). If your home was built before about 2002 and you haven't had the supply lines inspected, worth a free check. See [Poly-B Calgary](/polyb-plumbing-calgary/).",
+            },
+            {
+              heading: "Sewer line + drain service (mature phase root intrusion)",
+              body: "Original Copperfield phases now have 20-25 year mature landscaping. Tree roots find sewer pipe joints over time. Symptoms: slow drains, gurgling, recurring backups. Camera inspection identifies location + severity; hydro-jet or mechanical cutting clears short-term; spot repair or trenchless lining for severe damage. See [drain cleaning Calgary](/drain-cleaning-calgary/).",
+            },
+            {
+              heading: "Tankless water heater retrofit",
+              body: "Some Copperfield homeowners go tankless on tank replacement — endless hot water, 20+ year lifespan, space savings. Brutal on hard water though; annual descaling mandatory in Calgary + softener pairing strongly recommended. Common brands: Navien NPE-A/S, Rinnai RU/RUR. See [tankless water heaters](/tankless-water-heaters/) for the full comparison.",
+            },
+            {
+              heading: "Frozen condensate + cold-snap dispatch",
+              body: "High-efficiency furnaces in Copperfield routinely lock out during deep cold snaps when condensate lines routed through unheated space freeze. Common cold-snap call. Permanent fix: reroute through heated space + heat trace where outdoor exit is required. See [no heat issues](/no-heat-issues-calgary/) for the broader diagnostic scope.",
+            },
           ],
         },
         {
-          heading: "Common Plumbing Issues in Copperfield Homes",
+          heading: "Why Copperfield homes hit predictable maintenance milestones right now",
           intro:
-            "Living in Copperfield means dealing with specific plumbing challenges that come with this area's soil conditions and home construction.",
+            "Copperfield's narrow build window (1999-2013) means most original equipment is on similar age curves. The neighbourhood is squarely in first-round and now second-round replacement territory.",
           items: [
-            { body: "Sump pump failures during spring melt and heavy rainfall." },
-            { body: "Root intrusion in sewer lines from mature landscaping." },
-            { body: "Foundation movement causing pipe misalignment and leaks." },
-            { body: "Hard water buildup in fixtures and appliances." },
-            { body: "Frozen exterior taps and underground lines during chinook cycles." },
-            { body: "Main floor laundry drain backups in two-story homes." },
+            {
+              heading: "Most Copperfield uses PEX (no Poly-B), but watch the earliest phases",
+              body: "Industry transitioned to PEX through the early 2000s. Most Copperfield (2002+) was built with PEX. Very earliest 1999-2001 builds may have Poly-B installed. If your home is from this window, worth a free inspection. Most homes can skip this conversation.",
+            },
+            {
+              heading: "Originals (1999-2005) at full EOL territory",
+              body: "Earliest Copperfield builds are 20-25 years old now. Original water heaters typically replaced 2-3 times by now; current tank likely at or near Calgary EOL too. Original sump pumps long past replacement age. First-wave high-efficiency furnaces approaching heat-exchanger-crack risk zone. Most extensive equipment work category in Copperfield.",
+            },
+            {
+              heading: "Mid-phase (2005-2010) approaching second-cycle replacement",
+              body: "Mid-phase Copperfield builds are 15-20 years old. Tanks at end-of-life on second-generation. Furnaces at mid-to-late life. Sump pumps tired. Active replacement era — and the right time for softener install if not already done.",
+            },
+            {
+              heading: "Late-phase (2010-2013) entering first-cycle replacement",
+              body: "Late-phase Copperfield builds are 12-15 years old. Tanks entering EOL (8-10 year mark unsoftened). Sump pumps approaching first replacement. Furnaces mid-life. First-cycle equipment replacement coming due over the next 1-5 years.",
+            },
+            {
+              heading: "Mature trees on original phase = root intrusion era",
+              body: "Original Copperfield streets now have 20-25 year mature landscaping. Tree roots find sewer pipe joints over decades. Symptoms: slow main drain, gurgling, recurring backups despite snaking. Camera inspection every 5 years on older Copperfield homes catches root intrusion early. Spot repair beats full main-line replacement cost when caught early.",
+            },
+            {
+              heading: "Hard water hits everything downstream of the meter",
+              body: "All of Copperfield is on the same hard Calgary municipal supply (150-200 mg/L). Without a softener, every water-using appliance + fixture wears faster regardless of build year. Single softener install at the main entry protects the whole house — biggest single cost-effectiveness upgrade available to most Copperfield homes.",
+            },
+            {
+              heading: "52nd Street + Stoney Trail = fast SE dispatch",
+              body: "Copperfield's SE location off 52nd Street + Stoney Trail means fast access from our shop. Typical emergency dispatch window 2-3 hours from initial call. No \"out of service area\" surcharge.",
+            },
+            {
+              heading: "Builder-era similarity speeds diagnostics",
+              body: "Boom-era Copperfield was built by a small set of large-volume builders with similar floor plans + mechanical configurations. We know where the shut-offs are, what fixture grades were originally specced, and which failure modes are most common in your build phase. Saves time on the call.",
+            },
           ],
-        },
-        {
-          heading: "Local Copperfield & SE Calgary Expertise",
-          intro:
-            "Our Calgary plumbers work and live in the SE. The soil conditions here cause more foundation movement than most Calgary neighbourhoods, which puts extra stress on plumbing connections.\n\nThese homes were built during Calgary's construction boom with similar floor plans and mechanical systems — we know where the shut-offs are, what brands of fixtures were installed, and which [Poly-B piping](/polyb-plumbing-calgary/) is most likely to fail first.\n\nWe also serve neighbouring [New Brighton](/new-brighton-plumbers-calgary/), [McKenzie Towne](/mckenzie-towne-plumbers-calgary/), [Cranston](/cranston-plumber-calgary/), and [Mahogany](/mahogany-plumbers-calgary/).",
         },
       ],
       faq: {
-        heading: "Frequently Asked Questions",
+        heading: "Copperfield Plumbers — FAQs",
         items: [
           {
-            q: "Why does my sump pump run constantly during spring thaw?",
-            a: "Copperfield's low elevation means your sump pump works overtime during spring melt and heavy rains. If it's running constantly, the float switch might be stuck, or you might have groundwater infiltration that requires a second pump. We can assess your setup and recommend the right solution.",
+            q: "Does my Copperfield home have Poly-B plumbing?",
+            a: "Depends on build year. Very earliest 1999-2001 builds may have Poly-B (industry was transitioning through that window). 2002+ builds almost certainly have PEX. Look for grey/blue plastic supply lines with crimp-ring fittings (silver bands) — that's Poly-B. PEX is red/blue and uses different fittings. If your home was built before about 2002 and you haven't had supply lines inspected, worth a free check. See [Poly-B Calgary](/polyb-plumbing-calgary/).",
           },
           {
-            q: "How often should I have my sewer line cleaned in this area?",
-            a: "With the mature trees in Copperfield, we recommend [camera inspection and cleaning](/drain-cleaning-calgary/) every 2-3 years. The clay soil here holds moisture that encourages root growth toward your pipes. Early detection saves you from dealing with a backed-up basement.",
+            q: "My Copperfield water heater is still original from 2002-2005 — should I replace it?",
+            a: "Your tank from 2002-2005 is not the original anymore unless it's literally the SAME tank — which would be 20+ years old and essentially impossible (Calgary tanks fail at 8-10 years unsoftened). If you have a 20+ year-old tank, replace it today before it floods your basement. More likely you have a second or third generation tank that's also at or near Calgary EOL. Photograph the rating plate (serial code has manufacture date) and we'll confirm age.",
           },
           {
-            q: "What's causing low water pressure throughout my house?",
-            a: "Calgary's hard water builds up mineral deposits in pipes and fixtures over time. In Copperfield homes, we often find the main water line has significant buildup after 15+ years. A [water softener](/water-softener/) helps prevent future buildup, but existing blockages need professional cleaning or pipe replacement.",
+            q: "Should I install a water softener in my Copperfield home?",
+            a: "Strongly recommended. Calgary's hard water (150-200 mg/L) shortens every water-using appliance's lifespan. A softener pays back over a single tank replacement cycle (next tank lasts 14+ years instead of 8-10) and protects every fixture + appliance in the home. Often installed in the same visit as a tank replacement. See [water softener Calgary](/water-softener/).",
+          },
+          {
+            q: "Why is my sump pump running constantly during spring thaw?",
+            a: "Possible causes: float switch stuck (mechanical issue, common after years of use), groundwater infiltration from poor exterior drainage, sump pit too small for inflow, or a tired pump struggling at the end of its life. We diagnose during a service call — sometimes the fix is a new float switch ($), sometimes a new pump (10-15 year typical Calgary life), sometimes exterior drainage work to reduce the inflow. Battery backup recommended for any finished-basement home.",
+          },
+          {
+            q: "Is my original Copperfield furnace at end of life?",
+            a: "Depends on build year. 1999-2005 originals are now 20+ years old and approaching heat-exchanger-crack risk territory (statistically significant past 18-20 years). 2005-2010 builds are mid-to-late life. 2010-2013 builds are still mid-life. We borescope-inspect heat exchangers on every service call to older furnaces and have an honest replace-vs-repair conversation. Heat pump + hybrid dual-fuel becomes worth considering on replacement.",
+          },
+          {
+            q: "Why is my Copperfield home losing water pressure over time?",
+            a: "Most often: hard-water buildup at fixture aerators + showerheads (clean or replace the aerator — 5-minute job per fixture). Less commonly: mineral buildup in supply lines (15+ year-old systems sometimes see this), failing PRV at the main entry, or municipal supply variation. If pressure is low at ALL fixtures simultaneously, that's a system issue we diagnose during a service call.",
+          },
+          {
+            q: "How often should I have my Copperfield sewer line camera-inspected?",
+            a: "Every 5 years on homes 15+ years old, especially if you've had recurring slow drains. Mature street trees + clay soil + decades of joint micro-movement all contribute to potential root intrusion. Camera inspection catches issues early when they're cheap to fix. Hydro-jet cleaning every 3-5 years prevents most main-line backups. See [drain cleaning](/drain-cleaning-calgary/).",
+          },
+          {
+            q: "How fast can you respond to emergency calls in Copperfield?",
+            a: "Same-day for emergencies — burst pipes, no hot water, sewer backup, no heat in cold snaps. Real person on the phone, we'll confirm a window before the truck rolls. 52nd Street SE + Stoney Trail make Copperfield dispatch fast — typical window 2-3 hours from initial call.",
+          },
+          {
+            q: "Do you work on every brand of plumbing + heating equipment?",
+            a: "Yes — Bradford White, John Wood, AO Smith (tanks); Navien, Rinnai, IBC (tankless); Trane, Carrier, Lennox, Goodman, AirEase (furnaces); cold-climate heat pumps; ProFlo (sump pumps). Common parts ride on every truck for first-visit repair completion.",
+          },
+          {
+            q: "What other SE Calgary neighbourhoods do you cover?",
+            a: "Same crew works [New Brighton](/new-brighton-plumbers-calgary/), [McKenzie Towne](/mckenzie-towne-plumbers-calgary/), [McKenzie Lake](/mckenzie-lake-plumbers-calgary/), [Cranston](/cranston-plumber-calgary/), [Mahogany](/mahogany-plumbers-calgary/), [Auburn Bay](/auburn-bay-plumber-calgary/), [Chaparral](/chaparral-plumbers-calgary/), and the broader [SE Calgary](/calgary-plumbers-se/). Same-day dispatch across the SE.",
           },
           {
             q: "Should I replace my water heater before it fails?",
