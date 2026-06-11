@@ -3976,99 +3976,194 @@ export const services: ServicePage[] = [
     slug: "heat-pumps-calgary",
     category: "Heating",
     icon: "ac_unit",
-    title: "Heat Pumps Calgary – Professional Installation & Service",
+    title: "Heat Pumps Calgary — Cold-Climate Install, Hybrid + Ductless",
     lead:
-      "FlameTech Plumbing & Heating is Calgary's premier provider of energy-efficient heat pump solutions.",
+      "Heat pumps in Calgary are the single biggest efficiency play available to most homeowners — heating AND cooling from one system, operating costs significantly below gas-only through 80% of Alberta's heating season, and AC capability you didn't have. The catch: sized wrong or matched wrong, a heat pump costs more to run than the furnace it replaced. FlameTech sizes, installs, and commissions heat pumps that actually save money in Calgary's specific climate.",
     heroBody: [
-      "As local specialists with deep roots in our community, we understand the unique heating and cooling challenges Calgary's climate presents throughout the year. Cold-climate heat pumps now hold output down to -25°C, making them viable as a partner to a [high-efficiency furnace](/high-efficiency-furnaces-calgary/) in a hybrid setup — or a replacement for a tired [air conditioner](/air-conditioning/).",
-      "Our expertise in heat pump technology ensures you receive customised solutions that maximise comfort while minimising energy costs. We also cover [heat pumps in Airdrie](/heat-pumps-airdrie/). Curious whether a heat pump or [furnace](/furnaces/) is the right fit for your home? Read our heat pump vs furnace comparison.",
+      "Calgary sits at a -30°C heating design temperature with shoulder seasons that swing 25°C in a week. That's the climate heat pumps need to be sized AGAINST — not against the milder Vancouver/Toronto specs the equipment is often engineered to. The right setup for Calgary is almost always one of two configurations: (1) a cold-climate heat pump (CCHP) rated to maintain capacity down to -25°C paired with your existing or new high-efficiency [gas furnace](/high-efficiency-furnaces-calgary/) as backup (hybrid dual-fuel — the default Alberta recommendation), or (2) a ductless mini-split for a single zone where AC + supplemental heat matters most (bonus rooms, basements, garage suites, hot upstairs bedrooms).",
+      "We install cold-climate air-source heat pumps (ducted central + ductless mini-split), retrofit existing forced-air systems to dual-fuel, and commission everything with proper balance-point setup so the system actually operates at the cost advantage you bought it for. Same crew handles [heat pumps in Airdrie](/heat-pumps-airdrie/), [furnace install + repair](/furnaces/), [home heating issues](/home-heating-issues-calgary/), and broader [no heat dispatch](/no-heat-issues-calgary/).",
+      "Free in-home assessment — we check your electrical panel capacity, existing ductwork, gas line size, outdoor unit placement options, and walk through the federal Greener Homes rebate landscape. Call 587-834-3668. [Monthly financing](/financing/) available for full systems.",
     ],
-    heroSubhead: "Year-Round Comfort",
+    heroSubhead: "Cold-Climate Heat Pump Specialists",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
-    heroImage: { src: "/images/2026/05/air-ease-heat-pump.webp", alt: "AirEase outdoor heat pump condenser installed by FlameTech", fit: "contain" },
+    heroImage: { src: "/images/2026/05/air-ease-heat-pump.webp", alt: "AirEase outdoor heat pump condenser installed by FlameTech in Calgary", fit: "contain" },
     intro:
-      "Expert heat pump installation, repair, and maintenance in Calgary. Energy-efficient heating and cooling for Alberta homes.",
+      "Calgary heat pump installation — cold-climate ducted central, ductless mini-split, and hybrid dual-fuel (heat pump + gas furnace backup) systems. Electrical panel + ductwork assessment included. Free in-home quote.",
     features: [
-      "Heat pump installation",
-      "Heat pump repair (all brands)",
-      "Preventative maintenance & service",
-      "Air-source & ductless mini-split",
-      "Ground-source heat pumps",
-      "Priority emergency service",
+      "Cold-climate heat pump (CCHP) install",
+      "Hybrid dual-fuel retrofit (existing furnace)",
+      "Ductless mini-split for additions / single zones",
+      "Heat pump repair (every brand)",
+      "Bi-annual maintenance + tune-ups",
+      "Greener Homes rebate consultation",
     ],
     bullets: [
       {
-        t: "Calgary heat pump specialists",
-        d: "Our certified technicians live and serve right here in Calgary. We're familiar with how our extreme temperature swings impact heat pump performance.",
+        t: "Sized for Calgary's −30°C design temp",
+        d: "Heat pumps sized using mild-climate engineering data underperform here. We size cold-climate heat pumps for the −30°C heating design temperature, run a Manual J heat-loss calculation against your actual house, and pick equipment with maintained capacity at the temperatures you actually see — not the temperatures the equipment was originally engineered against.",
       },
       {
-        t: "Licensed & insured",
-        d: "Every member of our team carries full licensing and comprehensive insurance — the strictest safety benchmarks in the industry.",
+        t: "Hybrid dual-fuel is the default recommendation",
+        d: "Below about −15°C, even cold-climate heat pumps lose efficiency to where natural gas is cheaper to run per BTU. A hybrid setup keeps your gas furnace as backup and switches automatically at the economical balance point. Best of both: low operating costs through 80% of the heating season + gas reliability for the deep cold. Most Calgary homes are best served by this configuration.",
+      },
+      {
+        t: "Cooling capability you didn't have",
+        d: "Calgary summers are getting hotter — 30°C+ stretches that didn't exist a decade ago. A heat pump is BOTH your heating efficiency upgrade AND your AC install in one piece of equipment. If you were going to add AC anyway, the math on going heat-pump-instead-of-AC is usually strongly positive. We walk through the comparison.",
+      },
+      {
+        t: "Electrical panel check on every quote",
+        d: "Many pre-2005 Calgary homes (inner-city heritage, Brentwood, Glendale, Bowness, parts of Edgemont and Tuscany) have 100A electrical panels — ducted heat pumps often need 200A capacity to install cleanly. We check before quoting; if a panel upgrade is needed, you'll know upfront. Some installs proceed with the existing panel + load management; others genuinely need the upgrade.",
       },
     ],
-    seoTitle: "Heat Pump Installation Calgary | FlameTech Plumbing",
+    seoTitle: "Heat Pumps Calgary | Cold-Climate Install + Hybrid Dual-Fuel",
     seoDescription:
-      "Expert heat pump installation, repair & maintenance in Calgary. Energy-efficient heating & cooling solutions for Alberta homes. Priority service.",
+      "Calgary heat pump installation — cold-climate, hybrid dual-fuel (heat pump + gas furnace backup), ductless mini-split. Sized for −30°C. Greener Homes rebate help. Call 587-834-3668.",
     seoKeywords: [
       "heat pump Calgary",
       "heat pump installation Calgary",
-      "ductless mini-split Calgary",
-      "cold climate heat pump",
+      "cold climate heat pump Calgary",
+      "hybrid heat pump furnace Calgary",
+      "ductless mini split Calgary",
+      "heat pump vs furnace Calgary",
+      "Greener Homes Calgary",
       "AirEase heat pump Calgary",
       "FlameTech Plumbing Heating",
     ],
-    quoteFormLabel: "heat pump",
+    quoteFormLabel: "Calgary heat pump",
     quoteFormPlaceholder:
-      "e.g. looking at a new heat pump install, existing unit losing heat, considering a ductless mini-split for the basement…",
+      "e.g. hybrid setup with my existing furnace, full heat pump + furnace replacement, ductless for a bonus room, Greener Homes rebate question, ditch the dying AC and go heat-pump…",
     sidebar: {
-      title: "Calgary Heat Pump Service",
+      title: "Calgary Heat Pumps",
       subtitle:
-        "Installation, repair, and maintenance of air-source, ductless mini-split, and ground-source heat pumps.",
+        "Cold-climate heat pump install + hybrid dual-fuel retrofits. Sized for Calgary's −30°C design temp, electrical panel check included.",
       bullets: [
-        "AirEase 12-year parts & labor warranty",
-        "Ductless mini-split specialists",
-        "One system heats AND cools",
-        "Certified Calgary technicians",
+        "Free in-home assessment + written quote",
+        "Hybrid retrofit with existing furnace",
+        "Cold-climate + ductless + ground-source",
+        "Greener Homes rebate consultation",
       ],
     },
     stats: [
-      { number: "12-YR", label: "AirEase warranty", icon: "award" },
+      { number: "−25°C", label: "CCHP design temp", icon: "ac_unit" },
       { number: "5.0★", label: "Google rated", icon: "star" },
-      { number: "ALL", label: "Makes & models", icon: "check_circle" },
-      { number: "2-IN-1", label: "Heat + cool", icon: "verified" },
+      { number: "2-in-1", label: "Heat + cool", icon: "check_circle" },
+      { number: "FREE", label: "In-home assessment", icon: "request_quote" },
     ],
     financing: {
       detail:
-        "Spread the cost of your new heat pump into flexible monthly payments via our Financeit partner.",
+        "Spread the cost of a heat pump install into monthly payments via our Financeit partner. Pair with the federal Greener Homes Loan (interest-free) where you qualify.",
     },
+    callout:
+      "Planning a heat pump install or replacing a tired AC in Calgary? Call 587-834-3668 for a free in-home assessment — we check electrical, ducts, gas line, and walk through rebates.",
     richContent: {
       sections: [
         {
-          heading: "Why Calgary Homeowners Trust FlameTech for Heat Pumps",
+          heading: "What we install on a Calgary heat pump call",
           intro:
-            "Selecting the ideal heat pump provider makes all the difference in performance and longevity. Here's what sets FlameTech Plumbing & Heating apart in Calgary:",
+            "Common configurations we install across Calgary. We talk through trade-offs before quoting — there's no one-right-answer for every home.",
           items: [
-            { heading: "Calgary Heat Pump Specialists", body: "Our certified technicians live and serve right here in Calgary. We're intimately familiar with how our extreme temperature swings impact heat pump performance and know exactly which systems thrive in our climate conditions." },
-            { heading: "Certified & Covered Professionals", body: "Your investment deserves protection. Every member of our team carries full licensing and comprehensive insurance, delivering services that meet the strictest quality and safety benchmarks in the industry. We also have Heat Pump Experts available in Airdrie." },
+            {
+              heading: "Cold-climate heat pump (CCHP) — ducted central",
+              body: "Single outdoor unit + indoor air handler integrated with your existing ductwork. Cold-climate models (inverter-driven scroll compressors) maintain rated capacity down to about −25°C. Common brands: AirEase 4SHP18LX (12-year warranty when registered + maintained — see promo below), Mitsubishi Hyper-Heat, Trane XV20i, Carrier Greenspeed, Daikin Atmosphera. Best fit for whole-home heating + cooling on homes with serviceable ductwork.",
+            },
+            {
+              heading: "Hybrid dual-fuel retrofit (most common Calgary install)",
+              body: "Pair a new cold-climate heat pump with your EXISTING high-efficiency furnace (or a new furnace if yours is past end of life) as backup. Smart thermostat handles automatic switchover at the economical balance point — usually around −10°C to −15°C in Calgary depending on the specific equipment + your gas rates. Best total-cost-of-ownership in our climate. Adds AC capability if you didn't have it.",
+            },
+            {
+              heading: "Ductless mini-split",
+              body: "Single outdoor unit + 1-4 indoor heads, no ductwork required. Great for: hot upstairs bedrooms in 60s-70s two-storey Calgary homes, finished basements without ductwork, bonus rooms over garages, master bedroom retrofits, additions, garage suites. Common single-room use case: spot-cooling that one upstairs room that bakes in July without retrofitting whole-home AC. Cold-climate ductless options work down to −25°C same as ducted.",
+            },
+            {
+              heading: "Replace tired AC with a heat pump",
+              body: "Common Calgary scenario: existing 12+ year old central AC at end of life. Instead of replacing the AC alone, install a heat pump (covers cooling AND adds efficient supplemental heating). Often similar install cost to AC replacement, with the bonus of much lower heating operating cost through 80%+ of the Alberta shoulder + mild-winter season. If your furnace is fine, this is the path of least cost + highest efficiency gain.",
+            },
+            {
+              heading: "Full furnace + AC swap to hybrid (end-of-life systems)",
+              body: "Common Calgary upgrade path: existing 15-20 year old furnace + 10-15 year old AC both at or near end of life. Install a new high-efficiency furnace AND a cold-climate heat pump as a matched dual-fuel system. Slightly higher upfront cost than furnace + AC replacement, much lower operating cost going forward, plus federal Greener Homes rebates often apply.",
+            },
+            {
+              heading: "Ground-source (geothermal) — niche but real",
+              body: "Most efficient heat-pump configuration, no outdoor unit, very long life. Economics rarely beat air-source CCHP in modern Calgary (drilling/loop costs are high), but for the right property (large lot, long planned hold, premium efficiency targets) it can be the right call. We design and install with sub-contracted geo loop drilling. Honest conversation about whether the math works before you commit.",
+            },
+            {
+              heading: "Heat pump repair (every brand)",
+              body: "Weak airflow, won't cool, won't heat in mid-temperatures, ice forming on outdoor unit, error codes on the thermostat. Diagnosis-first approach — we test the suspect component before quoting a part. Most repairs finish first visit; brand-specific control boards sometimes need overnight parts.",
+            },
+            {
+              heading: "Bi-annual maintenance + tune-ups",
+              body: "Spring (cooling season prep): clean outdoor coil, check refrigerant charge, inspect electrical, calibrate thermostat for cooling mode. Fall (heating season prep): clear defrost drain, check reversing valve operation, verify backup gas furnace integration (hybrid systems), test thermostat heat mode. Required to keep most manufacturer warranties valid — including the AirEase 12-year (see promo).",
+            },
           ],
         },
         {
-          heading: "Our Heat Pump Services",
+          heading: "Why Calgary heat pump installs need a different approach than mild-climate cities",
           intro:
-            "FlameTech Plumbing & Heating delivers comprehensive heat pump services designed for Calgary's climate:",
+            "A heat pump install spec that works perfectly in Vancouver underperforms here. Knowing the local context shapes what the right install actually is.",
           items: [
-            { heading: "Heat Pump Installation", body: "Considering a heat pump upgrade for your Calgary property? Our specialists assess your property's heating and cooling requirements, recommending the optimal heat pump system that balances performance with your financial goals. We manage every installation phase with precision and professionalism from start to finish." },
-            { heading: "Heat Pump Repair", body: "Experiencing reduced heating or cooling output, unusual sounds, or complete system failure? Our trained technicians troubleshoot and repair all heat pump brands and configurations rapidly, bringing reliable climate control back to your Calgary home. When you need heat pump repair Calgary, FlameTech responds quickly." },
-            { heading: "Heat Pump Maintenance & Service", body: "Preventative maintenance protects your heat pump investment and ensures peak efficiency year-round. Our thorough heat pump servicing in Calgary prevents expensive failures, optimizes energy consumption, and extends system lifespan through all seasons." },
-            { heading: "Emergency Heat Pump Services", body: "Heat pump failures never follow convenient schedules, particularly during Calgary's temperature extremes. FlameTech provides priority emergency heat pump services in Calgary to restore your comfort when you need it most urgently." },
+            {
+              heading: "-30°C design temperature, not -10°C",
+              body: "Calgary's heating design temperature is −30°C. Equipment engineered around milder climates underperforms when actual deep cold hits. We size for the −30°C reality and pick cold-climate inverter-driven equipment with maintained capacity at low ambient — not nominal capacity at +8°C that drops 40-50% by the time the temperature actually matters.",
+            },
+            {
+              heading: "Chinook freeze-thaw stresses refrigerant cycles",
+              body: "Calgary's signature chinooks (−25°C to +10°C within 24-48 hours) force the heat pump's refrigerant cycle through dramatic operating-mode swings — defrost cycle activation, reversing valve operation, compressor speed modulation. Variable-speed inverter equipment handles this gracefully; older single-speed equipment doesn't. We spec inverter-driven cold-climate units for chinook resilience.",
+            },
+            {
+              heading: "Hybrid is the right answer for most Calgary homes",
+              body: "Alberta natural gas is cheap. Heat pump electricity is cheap above −10°C. Below that, the heat pump's efficiency drops to where gas becomes the cheaper fuel per BTU delivered. A hybrid system that switches automatically at the economical balance point gives you the best of both fuels through Calgary's full heating season. Pure-electric heat pump (with electric backup) is technically possible but rarely the lowest-total-cost option here.",
+            },
+            {
+              heading: "Calgary's housing stock spans 100 years — install context varies",
+              body: "Inner-city heritage (Mount Royal, Mission, Inglewood): often need ductwork upgrades AND electrical panel upgrades before a ducted central is viable; ductless mini-splits are sometimes the cleaner retrofit. 60s-80s homes (Brentwood, Edgemont, Tuscany, Hawkwood): 100A panels common, original ductwork serviceable, hybrid retrofit is the typical play. Post-2010 builds (Mahogany, Auburn Bay, Cranston, McKenzie Towne): 200A service, modern duct design, tight envelopes — heat pumps install cleanly and perform near nameplate spec.",
+            },
+            {
+              heading: "Cooling capability matters more than it used to",
+              body: "Calgary summers used to be \"a couple of hot weeks per year — open the windows.\" That's no longer true. 30°C+ stretches are now routine through July and August. Heat pumps deliver AC alongside efficient heating — if you don't have AC and were planning to add it, going heat-pump-instead-of-AC is typically the better math.",
+            },
+            {
+              heading: "Electrical panel capacity check on every retrofit",
+              body: "Most ducted central heat pumps need a 30-50 amp dedicated breaker. Pre-2005 Calgary homes commonly have 100A panels that work fine for furnace + AC but can't support a ducted heat pump without a panel upgrade. Post-2010 builds typically have 200A service that handles it cleanly. We check during the in-home assessment and quote any panel upgrade separately so you see the full cost upfront before deciding.",
+            },
+            {
+              heading: "Federal Greener Homes program",
+              body: "Federal Canada Greener Homes Loan offers interest-free financing for heat pump installations meeting specific efficiency thresholds (typically Energy Star Most Efficient or CCHP rated). Grant program rules have shifted over time — we walk through the current rules during the assessment so you know what's actually available before signing anything. Don't take pricing decisions based on rebates that may not apply to your specific install or address.",
+            },
+            {
+              heading: "Variable-speed inverter compressors are the right spec for Calgary",
+              body: "Single-stage heat pumps run flat-out at one speed; inverter-driven variable-speed compressors modulate continuously between ~25% and 100% of rated capacity. In Calgary's chinook-driven swings, variable speed means: smoother defrost cycles, longer compressor life, quieter operation, and significantly better part-load efficiency. The premium over single-stage is usually worth it here — flat-out short-cycling on a single-stage heat pump in mild Calgary weather erodes efficiency fast.",
+            },
           ],
         },
         {
-          heading: "Selecting the Perfect Heat Pump for Your Calgary Property",
+          heading: "How a Calgary heat pump install actually runs",
+          intro:
+            "Typical 1-2 day install for ducted central or hybrid retrofit; ductless mini-split single-zone install often finishes same day.",
           items: [
-            { heading: "Heat Pump System Options", body: "We install multiple heat pump configurations suited to diverse Calgary properties, including air-source systems, ductless mini-splits, and ground-source options. Our professionals clarify the advantages of each system type and guide you toward the ideal match for your specific situation." },
-            { heading: "Key Selection Criteria (Property Size, Investment, Performance)", body: "Your ideal heat pump selection depends on multiple variables including square footage, available investment, and desired efficiency performance levels. We thoroughly review these elements with you to guarantee a well-informed choice." },
-            { heading: "Professional Guidance You Can Trust", body: "Drawing on comprehensive heat pump knowledge and years serving Calgary residents, we deliver personalized recommendations aligned perfectly with your unique circumstances." },
+            {
+              heading: "1. In-home assessment + heat-loss calc",
+              body: "We measure your home (square footage, ceiling heights, insulation, windows), pull a Manual J heat-loss calculation, and size the heat pump to actual load — not a default \"X tons per Y sqft\" rule of thumb. Wrong sizing is the #1 reason heat pumps disappoint in Alberta.",
+            },
+            {
+              heading: "2. Electrical + ductwork + gas line check",
+              body: "Verify electrical panel capacity, existing ductwork can handle the new air handler's CFM rating, gas line size if hybrid setup, outdoor unit placement options (clear of bedroom windows, snow drift zones, prevailing wind). Any infrastructure upgrades quoted upfront before you commit to the heat pump itself.",
+            },
+            {
+              heading: "3. Equipment selection + rebate walkthrough",
+              body: "Match the heat pump model to your home's load, budget, and rebate eligibility. Walk through Canada Greener Homes Loan + grant rules + any active Alberta-specific programs. You see the math on both pure-cost and rebate-adjusted cost before signing.",
+            },
+            {
+              heading: "4. Outdoor unit install",
+              body: "Mount the outdoor unit on a pad or wall bracket, elevated above expected snow accumulation. Connect refrigerant lines, control wiring, and condensate drain. Position to minimize bedroom-window noise + drift snow accumulation.",
+            },
+            {
+              heading: "5. Indoor unit + hybrid integration",
+              body: "Mount and connect the indoor air handler (ducted) or wall-mounted heads (ductless). Integrate with existing ductwork or run new lineset. Install or upgrade the thermostat (heat pumps need a compatible thermostat — many older ones aren't). Hybrid integration: wire the heat pump and gas furnace to a smart thermostat that handles automatic switchover at the balance point.",
+            },
+            {
+              heading: "6. Commissioning + walkthrough",
+              body: "Verify refrigerant charge, run heating and cooling cycles to confirm proper operation, check temperature differential at the registers, register manufacturer warranty (AirEase 12-year requires registration within 60 days), submit any rebate paperwork. Walk you through the thermostat, defrost cycle behavior (it'll cycle into cooling mode briefly to clear outdoor coil ice — normal, not a malfunction), and maintenance schedule.",
+            },
           ],
         },
       ],
@@ -4086,12 +4181,56 @@ export const services: ServicePage[] = [
         disclaimer: "Terms and Conditions Apply",
       },
       faq: {
-        heading: "Heat Pump Questions Calgary Homeowners Ask",
+        heading: "Heat Pumps Calgary — FAQs",
         items: [
-          { q: "Ready to discover the FlameTech advantage?", a: "Reach out now for a complimentary, pressure-free estimate on our heat pump services in Calgary. Connect with us via phone, email, or our convenient online scheduling platform. We're standing by to address your questions and arrange service whenever suits you best." },
-          { q: "How often should I have my heat pump serviced?", a: "We advise booking professional heat pump maintenance twice annually — spring and fall — to maintain peak efficiency and catch problems before they escalate into major repairs." },
-          { q: "What are the signs my heat pump needs repair?", a: "Warning signs include irregular heating or cooling patterns, unfamiliar operational sounds, moisture accumulation, ice formation, and unexplained spikes in utility costs. Contact our Calgary heat pump repair specialists immediately when noticing these symptoms." },
-          { q: "How long does installation take?", a: "Installation timelines vary based on system configuration and installation complexity. We establish transparent expectations and provide detailed scheduling before beginning any project." },
+          {
+            q: "Do heat pumps actually work in Calgary winters?",
+            a: "Modern cold-climate heat pumps (CCHP) maintain rated heating capacity down to about −25°C — they work for the vast majority of Calgary's heating season. Below that, efficiency drops. Best Alberta setup is hybrid dual-fuel: heat pump as the primary heat source above the balance point (typically −10°C to −15°C depending on equipment + gas rates), gas furnace as backup below. You get heat pump efficiency through 80%+ of the heating season and gas reliability in deep cold.",
+          },
+          {
+            q: "Heat pump vs gas furnace — which is right for my Calgary home?",
+            a: "Depends on priorities. Gas furnace alone: cheapest install, highest operating cost in shoulder seasons, no cooling. Heat pump alone with electric backup: highest install cost, best efficiency in mild weather, expensive in deep cold. Hybrid (heat pump + gas furnace): mid-range install cost, lowest annual operating cost in Alberta, includes cooling. For most Calgary homes, hybrid is the answer. Air-conditioning is a real bonus for Calgary's now-routine hot summer stretches.",
+          },
+          {
+            q: "Should I replace my dying AC with a heat pump instead?",
+            a: "Usually yes. If your AC is at end of life and you're going to spend on replacement anyway, the math on going heat-pump-instead-of-AC is typically positive. Same outdoor unit footprint, same indoor air handler integration, but you gain efficient supplemental heating capability through 80%+ of Alberta's heating season. Pair it with your existing furnace as backup (hybrid setup) and you've got a much more efficient system for similar replacement cost.",
+          },
+          {
+            q: "Do I need to keep my existing furnace if I install a heat pump?",
+            a: "In Alberta, yes — strongly recommended. Even cold-climate heat pumps lose meaningful efficiency below −15°C, and Calgary sees stretches well below that every winter. Keeping your gas furnace as backup (the hybrid dual-fuel setup) means a reliable heat source for the coldest week of the year, plus you avoid the cost of a high-capacity electric backup heater. The exception: if your existing furnace is past end of life, we install a new high-efficiency furnace alongside the new heat pump as a matched system.",
+          },
+          {
+            q: "Will my electrical panel handle a heat pump?",
+            a: "Often yes, sometimes no. Most ducted central heat pumps need a 30-50 amp dedicated breaker. Pre-2005 Calgary homes with 100A panels (common in inner-city heritage, Brentwood, Glendale, Bowness, parts of Edgemont and Tuscany) often need a panel upgrade. Post-2010 builds (Mahogany, Auburn Bay, Cranston) typically have 200A service that handles it without upgrade. We check during the in-home assessment and quote any panel upgrade separately so you see the full cost upfront.",
+          },
+          {
+            q: "What size heat pump do I need for my Calgary home?",
+            a: "Sizing depends on insulation, window area + quality, ceiling height, air leakage, ductwork, and orientation — not just square footage. A 2,000 sqft 1990s build in Edgemont with original windows and average insulation needs a different size than a 2,000 sqft 2020 Mahogany build with triple-pane windows and tight envelope. We do a Manual J heat-loss calculation as part of the assessment — gives the actual load number, then we size the equipment to match.",
+          },
+          {
+            q: "Are there rebates for installing a heat pump in Calgary?",
+            a: "The federal Canada Greener Homes program has supported heat pump installs across Canada — interest-free Loan + Grant cash-back components. Eligibility, equipment qualifications, and application windows have changed over time. We walk through current rules during the assessment so you know what's actually available for your specific install and address before committing. Don't make pricing decisions based on a rebate that may not apply.",
+          },
+          {
+            q: "What's the difference between ducted central and ductless mini-split?",
+            a: "Ducted central heat pump integrates with your home's existing ductwork — one outdoor unit + one indoor air handler. Whole-home heating + cooling through your existing vents. Best for homes with good existing ductwork and serviceable supply trunks. Ductless mini-split has one outdoor unit + 1-4 indoor wall-mounted heads, no ductwork needed. Best for: hot upstairs bedrooms in two-storey homes, finished basements without ducts, additions, single-room cooling/heating without modifying the rest of the house, garage suites.",
+          },
+          {
+            q: "How loud is a heat pump outdoor unit?",
+            a: "Modern variable-speed heat pumps are noticeably quieter than older single-stage AC units — typically 50-60 dB at the unit itself (similar to a conversation). At 10 ft away that drops to about 40-50 dB (quieter than a dishwasher). We position outdoor units away from bedroom windows and use vibration-isolating mounts on the pad. Most homeowners don't notice them after the first week.",
+          },
+          {
+            q: "How long does a heat pump last in Calgary?",
+            a: "Air-source heat pumps in Calgary typically last 12-15 years for the outdoor unit, with the indoor air handler often lasting longer. Cold-climate variable-speed models are still relatively new to the market — we don't have 20-year data on those specifically, but the technology is more durable than older single-speed compressors. Bi-annual professional maintenance extends life noticeably. Compare to gas furnaces (15-20 years) — heat pump lifespan is slightly shorter on the equipment side but the install is doing more work (heating AND cooling).",
+          },
+          {
+            q: "What's the AirEase 12-year warranty about?",
+            a: "AirEase covers their qualifying heat pump (Model 4SHP18LX) with 12 years on parts AND labor when you (1) register the equipment online within 60 days of installation, (2) install in an owner-occupied residence, and (3) maintain documented annual professional maintenance. Terms apply — see the promo above for the full requirements. We're an authorized AirEase Pro Team dealer for these warranty-backed installs.",
+          },
+          {
+            q: "Are you available for emergency heat pump repair in Calgary?",
+            a: "Yes — no heat in winter or no cooling during a heat wave gets priority dispatch. Real person answers the phone, we'll confirm a window before the truck rolls. Same crew that handles our [no heat](/no-heat-issues-calgary/), [furnace repair](/furnaces/), and broader [home heating issues](/home-heating-issues-calgary/) work. Most no-heat calls finish first visit; brand-specific control boards sometimes need overnight parts.",
+          },
         ],
       },
     },
