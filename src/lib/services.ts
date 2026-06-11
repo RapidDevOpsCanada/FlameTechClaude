@@ -4253,153 +4253,223 @@ export const services: ServicePage[] = [
     slug: "air-conditioning",
     category: "Air",
     icon: "ac_unit",
-    title: "Air Conditioning Calgary – Expert AC Services",
+    title: "Air Conditioning Calgary — AC Install, Repair + Heat Pump Comparison",
     lead:
-      "FlameTech Plumbing & Heating is a trusted name in Calgary for all things heating and cooling.",
+      "Calgary summers used to be a couple of hot weeks per year. Not anymore — 30°C+ stretches are now routine through July and August. If you're adding AC for the first time, replacing a unit at end of life, or repairing a system that's not keeping up, FlameTech installs and services every common Calgary setup. And before you commit to like-for-like AC: ask us whether a heat pump makes more sense. For most Calgary homeowners adding cooling capability today, it does — same outdoor unit, AC plus efficient supplemental heating in one piece of equipment.",
     heroBody: [
-      "We're not just another company — we're your neighbours, dedicated to reliable AC installation, service, and repair across the city. If your old AC is also due for replacement, consider a cold-climate [heat pump](/heat-pumps-calgary/) — same install, two functions (heating + cooling).",
-      "Our deep understanding of Calgary's climate shapes every install. Sized for our actual cooling load (not generic square-footage), paired with a properly-tuned [furnace](/furnaces/) for off-season air handling. Need spec-level reading? See heat pump vs furnace in Calgary.",
+      "Three scenarios drive most Calgary AC calls: (1) adding AC for the first time to a furnace-only home (most common — older homes without cooling that now feel unbearable in July), (2) replacing an aging central AC at end of life (typically 12-15 years in Calgary), or (3) repairing an existing unit that's lost cooling capacity, is making noise, or has stopped working entirely. We handle all three. Same crew that handles our [heat pump install](/heat-pumps-calgary/), [furnace work](/furnaces/), [home heating issues](/home-heating-issues-calgary/) — HVAC under one roof, no subcontractors.",
+      "On any AC install conversation, we walk through the heat-pump-instead alternative honestly. Same outdoor unit footprint, same indoor air handler integration, similar install cost — but you gain efficient supplemental heating capability through 80%+ of Alberta's heating season. Not the right call for everyone, but it's the right call often enough that skipping the conversation costs Calgary homeowners money. If you decide on traditional AC after we walk through it, that's fine too — we install AirEase and other quality brands with full warranty support.",
+      "Free in-home assessment for new installs and replacements — we check electrical panel capacity, existing ductwork, outdoor unit placement (clear of bedroom windows, snow drift zones), and run a Manual J cooling-load calculation so we don't oversize. Call 587-834-3668. [Monthly financing](/financing/) available for full systems.",
     ],
-    heroSubhead: "Satisfaction Guaranteed",
+    heroSubhead: "AC Install, Repair, Maintenance",
     heroBadgeImage: {
       src: "/images/REVIEWS1.png",
       alt: "5-star customer reviews",
     },
     intro:
-      "FlameTech Plumbing & Heating is a trusted name in Calgary for all things heating and cooling.",
+      "Calgary air conditioning — new installs, replacements, repair, maintenance. Central AC and ductless mini-split. Honest heat-pump-vs-AC comparison on every quote. Free in-home assessment.",
     features: [
-      "Central AC installation",
-      "AC repair for all makes & models",
-      "AC tune-ups and maintenance",
-      "Emergency air conditioning services",
-      "Ductless mini-split systems",
+      "Central AC install (first-time + replacement)",
+      "Ductless mini-split (no-duct homes + single zones)",
+      "AC repair (every brand)",
+      "Annual tune-ups + maintenance",
       "Smart thermostat integration",
+      "Heat pump comparison on every quote",
     ],
     bullets: [
       {
-        t: "Local Calgary AC experts",
-        d: "Our team comprises highly skilled and experienced technicians who live and work right here in Calgary. We understand the specific demands our climate places on your AC system.",
+        t: "Sized for Calgary's actual cooling load",
+        d: "Oversized AC is the #1 reason Calgary homes feel clammy in summer — short cycles can't pull humidity out of the air, just blast cold then shut off. We run a Manual J cooling-load calculation (not rule-of-thumb tonnage) and size to actual load. Slightly smaller-than-rule-of-thumb is usually right for our climate.",
       },
       {
-        t: "Licensed & insured technicians",
-        d: "Your peace of mind is our priority. All our technicians are fully licensed and insured, guaranteeing professional and safe service that adheres to the highest industry standards.",
+        t: "Heat pump comparison on every quote",
+        d: "If you're going to install AC anyway, going heat-pump-instead is usually the math-positive call. Same outdoor unit, similar install, but you gain efficient supplemental heating through 80%+ of the heating season. We walk through the comparison honestly — including when traditional AC is genuinely the better fit.",
+      },
+      {
+        t: "Outdoor unit placement actually planned",
+        d: "We see a lot of Calgary AC units placed by the previous installer in spots that cause problems: bedroom-window proximity (compressor noise), drift snow zones (winter damage), tight against the house (airflow restriction). On every install we position for noise + clearance + winter snow management. Free relocation quote if your existing unit is in a bad spot.",
+      },
+      {
+        t: "Whole-system thinking, not just AC",
+        d: "AC integrates with your existing furnace's blower + thermostat + ductwork. We check duct capacity (under-returned homes underperform on AC the same way they underperform on heat), thermostat compatibility, and blower CFM. If your duct system isn't going to deliver the cooling, we tell you upfront rather than installing equipment that won't perform.",
       },
     ],
     heroImage: {
       src: "/images/2025/12/air-ease-ac.webp",
-      alt: "Air Ease Air Conditioning Unit",
+      alt: "AirEase outdoor AC condenser installed by FlameTech in Calgary",
+      fit: "contain",
     },
     seoTitle:
-      "Calgary Air Conditioning Experts - Get Upto 12 Years Warranty!",
+      "Air Conditioning Calgary | Install, Repair + Heat Pump Comparison",
     seoDescription:
-      "Expert air conditioning services in Calgary. AC installation, repair & maintenance. Licensed technicians. Call FlameTech today!",
+      "Calgary AC install, repair, and maintenance. Central and ductless. Honest heat-pump-vs-AC comparison on every quote. AirEase 12-year warranty. Call 587-834-3668.",
     seoKeywords: [
       "air conditioning Calgary",
-      "AC repair Calgary",
       "AC installation Calgary",
-      "HVAC Calgary",
-      "ductless mini-split Calgary",
+      "AC repair Calgary",
+      "central AC Calgary",
+      "ductless mini split Calgary",
+      "AC vs heat pump Calgary",
+      "AirEase AC Calgary",
       "FlameTech Plumbing Heating",
     ],
     sidebar: {
       title: "Calgary Air Conditioning",
       subtitle:
-        "Free estimates on installs, repairs, and maintenance — any make, any model.",
+        "Central + ductless install, repair, and maintenance. Free in-home assessment with heat-pump comparison on every install quote.",
       bullets: [
-        "12-year AirEase parts & labor warranty",
-        "Licensed & insured HVAC technicians",
-        "AC repair for all makes & models",
-        "Same-day service when availability allows",
+        "Manual J cooling-load sizing",
+        "AirEase 12-year warranty (qualifying units)",
+        "Heat pump comparison on every quote",
+        "AC repair on every brand + model",
       ],
     },
     stats: [
       { number: "12-YR", label: "AirEase warranty", icon: "award" },
       { number: "5.0★", label: "Google rated", icon: "star" },
-      { number: "FREE", label: "Written estimates", icon: "request_quote" },
+      { number: "FREE", label: "In-home assessment", icon: "request_quote" },
       { number: "ANY", label: "Make or model", icon: "check_circle" },
     ],
     quoteFormLabel: "AC",
     financing: {
       detail:
-        "Spread the cost of your AC install into flexible monthly payments via our Financeit partner.",
+        "Spread the cost of an AC install into monthly payments via our Financeit partner. Federal Greener Homes program may apply to qualifying heat-pump alternatives.",
     },
     quoteFormPlaceholder:
-      "e.g. AC blowing warm air, outside unit making noise, want a quote for a new central install…",
+      "e.g. first-time AC for our furnace-only home, AC blowing warm air, outside unit making noise, considering heat pump instead of AC replacement, want a quote for a new central install…",
+    callout:
+      "Planning a Calgary AC install, replacement, or repair? Call 587-834-3668 — free in-home assessment with honest heat-pump comparison.",
     richContent: {
       sections: [
         {
-          heading: "Why Choose FlameTech for Air Conditioning in Calgary?",
+          heading: "What we install + repair on a Calgary AC call",
           intro:
-            "Choosing the right company for your Air Conditioning needs is crucial. Here's why Calgary trusts FlameTech Plumbing & Heating:",
+            "Common configurations across Calgary. We talk through trade-offs before quoting — there's no one-right-answer for every home.",
           items: [
             {
-              heading: "Local Calgary AC Experts",
-              body: "Our team comprises highly skilled and experienced technicians who live and work right here in Calgary. We understand the specific demands our climate places on your AC system and are equipped to handle any issue, big or small.",
+              heading: "Central AC — first-time install on furnace-only homes",
+              body: "Most common Calgary install scenario: 1960s-2000s home built without AC, now wants cooling. We add an outdoor condenser unit + indoor evaporator coil on top of the existing furnace + use the existing ductwork. Manual J cooling-load calc to size correctly. Electrical panel + breaker check upfront. Most installs finish in 1-2 days. Common brands: AirEase 4SCU20LX / 4SCU16LS (12-year warranty when registered + maintained), Lennox, Carrier, Trane.",
             },
             {
-              heading: "Licensed & Insured Technicians",
-              body: "Your peace of mind is our priority. All our technicians are fully licensed and insured, guaranteeing professional and safe service that adheres to the highest industry standards.",
+              heading: "Central AC replacement (end-of-life)",
+              body: "Calgary central AC units typically last 12-15 years. When the existing unit fails — refrigerant leaks, compressor failure, condenser fan motor, or just age — we replace with a same-or-better sized unit. THIS is the scenario where the heat-pump-instead conversation matters most: same install footprint, similar cost, and you gain efficient heating. We walk through the comparison upfront.",
+            },
+            {
+              heading: "Ductless mini-split (no-duct or single-zone)",
+              body: "Single outdoor unit + 1-4 indoor heads, no ductwork. Best for: 60s-70s Calgary bungalows that never had central air ductwork and aren't worth retrofitting, finished basements without ducts, that one hot upstairs bedroom in a two-storey home, additions, garage suites. Significant install cost advantage over running new ductwork for central. Often the right answer for older Calgary homes.",
+            },
+            {
+              heading: "AC repair (every brand)",
+              body: "Weak cooling, ice on the outdoor coil, weird noises, unit not starting, breaker tripping, refrigerant leaks. Diagnose-first approach: capacitor test, contactor test, fan motor test, refrigerant pressure check, electrical at the disconnect. Most repairs finish first visit; brand-specific control boards sometimes need overnight parts. Universal capacitors + contactors + start kits ride on the truck.",
+            },
+            {
+              heading: "AC tune-up + annual maintenance",
+              body: "Pre-season check (April-May ideal): clean outdoor coil, check refrigerant charge, test capacitor microfarads, inspect electrical at disconnect, calibrate thermostat for cooling mode, check evaporator drain pan + condensate line for clogs, verify blower CFM. Required to keep most manufacturer warranties valid (including AirEase 12-year). Catches most failures before peak summer.",
+            },
+            {
+              heading: "Smart thermostat integration",
+              body: "Modern AC + heat pump systems benefit from smart thermostats (ecobee, Nest, Honeywell T-series, Sensi) for scheduling, remote control, and runtime diagnostics. Newer two-stage and variable-speed AC units require compatible thermostats — many older ones aren't compatible. We confirm thermostat compatibility on every install + replacement and offer upgrade options if needed.",
+            },
+            {
+              heading: "Whole-house duct + airflow check on install quotes",
+              body: "An AC install is only as good as the duct system that distributes the cool air. We check supply trunk size, return capacity (Calgary homes are commonly under-returned), register balance, and known cold/hot rooms before installing. If the duct system can't deliver the rated capacity, we tell you upfront — sometimes the right answer is a smaller AC + duct rework rather than a big AC trying to push through a restricted system.",
             },
           ],
         },
         {
-          heading: "Our Air Conditioning Services",
+          heading: "AC vs heat pump — the conversation worth having",
           intro:
-            "FlameTech Plumbing & Heating offers a complete range of AC services to meet all your needs:",
+            "If you're installing AC for the first time OR replacing an aging unit, the heat-pump-instead alternative deserves a real comparison. Here's how the math actually works out for most Calgary homes.",
           items: [
             {
-              heading: "Air Conditioner Installation",
-              body: "Looking to upgrade your old AC unit or install a new system in your Calgary home? Our experts will guide you through the selection process, ensuring you choose the right size and type of air conditioner for your needs and budget. We handle the entire installation process efficiently and professionally.",
-              image: {
-                src: "/images/2023/03/main-slider-2-2.webp",
-                alt: "Air conditioner installation in a Calgary home",
-              },
+              heading: "Same outdoor unit, same install footprint",
+              body: "An air-source heat pump and a central AC look nearly identical from outside — same condenser unit, same indoor evaporator integration, same refrigerant lineset, same install timeline. The visible install difference is essentially zero. The internal difference: a heat pump can reverse the refrigerant cycle to deliver HEAT in winter, not just cool in summer.",
             },
             {
-              heading: "Air Conditioning Repair",
-              body: "Is your AC unit making strange noises, not cooling effectively, or has it stopped working altogether? Our experienced technicians are equipped to diagnose and repair all makes and models of air conditioners quickly and effectively, restoring comfort to your home. If you need AC repair Calgary, FlameTech is ready to help.",
-              image: {
-                src: "/images/2023/03/services-details-img-1-2.webp",
-                alt: "AC repair being performed by a technician",
-              },
+              heading: "Similar install cost",
+              body: "Cold-climate heat pumps cost more than basic single-stage AC, but compare like-for-like (variable-speed AC to variable-speed cold-climate heat pump) and the upfront delta is often small — a few hundred to a couple thousand dollars depending on the specific equipment. Federal Greener Homes Loan + Grant programs may apply to qualifying heat-pump installs, often closing the gap entirely.",
             },
             {
-              heading: "AC Maintenance & Tune-Ups",
-              body: "Regular maintenance is key to ensuring the longevity and efficiency of your air conditioning system. Our comprehensive AC tune-up services in Calgary help prevent costly breakdowns, improve performance, and ensure your unit runs smoothly all summer long.",
-              image: {
-                src: "/images/2023/03/services-2-2.jpg",
-                alt: "AC maintenance service",
-              },
+              heading: "Cooling performance is identical",
+              body: "A modern variable-speed heat pump cools as well as a modern variable-speed AC — the cooling-cycle hardware is the same. If you're worried that a heat pump won't cool as effectively as \"a real AC,\" don't be. The cooling capability is genuinely identical.",
             },
             {
-              heading: "Emergency Air Conditioning Services",
-              body: "We understand that AC emergencies can happen at any time, especially during a heatwave. That's why FlameTech offers emergency air conditioning services in Calgary to get your system back up and running as quickly as possible.",
-              image: {
-                src: "/images/2023/03/services-2-3.jpg",
-                alt: "Emergency AC service in Calgary",
-              },
+              heading: "Heating capability is the bonus",
+              body: "Above the economical balance point (typically −10°C to −15°C in Calgary depending on equipment + gas rates), a cold-climate heat pump delivers heat at significantly lower operating cost per BTU than a gas furnace. That's 80%+ of Alberta's heating season. Your gas furnace stays as backup for the coldest stretch. Annual operating savings typically range $200-$600 depending on usage + utility rates.",
+            },
+            {
+              heading: "When traditional AC IS the right call",
+              body: "Heat pump isn't always the answer. Reasons to go traditional AC: (1) very tight install budget where the upfront delta matters more than 10-year operating savings; (2) electrical panel can't support a heat pump and panel upgrade is cost-prohibitive; (3) you have a very new high-efficiency furnace and don't want to disrupt that working setup; (4) you're only in the house another 2-3 years. Honest conversation upfront — we'll tell you when AC is the right call.",
+            },
+            {
+              heading: "Most common Calgary recommendation: hybrid dual-fuel",
+              body: "For most Calgary homes ADDING cooling for the first time or REPLACING an aging AC, the hybrid dual-fuel setup (heat pump + existing furnace as backup) is the recommendation. Cooling capability identical to AC, heating efficiency gain through most of the year, gas reliability in deep cold. See [heat pumps Calgary](/heat-pumps-calgary/) for the full heat-pump breakdown.",
             },
           ],
         },
         {
-          heading:
-            "How to Choose the Right Air Conditioner for Your Calgary Home",
+          heading: "Why Calgary AC installs need attention to specific details",
+          intro:
+            "Calgary's climate, housing stock, and electrical infrastructure shape what makes a good install. Knowing the local context speeds diagnosis + improves install quality.",
           items: [
             {
-              heading: "Types of Air Conditioners We Install",
-              body: "We offer a variety of air conditioning systems to suit different homes and preferences, including central AC units, ductless mini-split systems, and more. Our experts can explain the benefits of each type and help you make the best choice for your Calgary residence.",
-              image: {
-                src: "/images/2025/04/air-conditioning-calgary.png",
-                alt: "AC types — central and ductless options",
-              },
+              heading: "Summers are getting hotter — sizing has shifted",
+              body: "A 2-ton AC that was \"big enough\" for a Calgary house in 2005 is often undersized for the same house in 2025. 30°C+ stretches are routine now where they were rare a decade ago. We size for actual current cooling demand, not the milder summers our equipment-sizing tables were originally calibrated against.",
             },
             {
-              heading: "Factors to Consider (Home Size, Budget, Efficiency)",
-              body: "Choosing the right AC unit involves considering several factors, such as the size of your home, your budget, and the energy efficiency ratings of different models. We'll walk you through these considerations to ensure you make an informed decision.",
+              heading: "Older homes don't have cooling-friendly ductwork",
+              body: "Pre-2000 Calgary homes have ductwork designed for HEATING — supply trunks sized for warm air delivery, return capacity sized for furnace airflow, register positions chosen for heat distribution. Cooling requires DIFFERENT airflow patterns (cold air drops; supply registers ideally near ceilings or at floor near outside walls). Some retrofits need duct modifications; others are fine but underperform vs spec.",
             },
             {
-              heading: "Our Expert Recommendations",
-              body: "With our extensive knowledge of air conditioning systems and the specific needs of Calgary homeowners, we provide expert recommendations tailored to your individual situation.",
+              heading: "Outdoor unit placement matters for winter",
+              body: "Calgary winters dump significant snow. We elevate outdoor units off the ground (6-12 inches on a pad or wall bracket), position away from drift zones (the lee side of fences, dormers, downspouts), and add wind baffles where prevailing wind exposure is severe. A unit buried in 3 feet of snow doesn't work and damages over time.",
+            },
+            {
+              heading: "Electrical panel capacity check",
+              body: "Central AC units pull significant current. Pre-2005 Calgary homes with 100A panels (inner-city, Brentwood, Glendale, Bowness, parts of Edgemont and Tuscany) sometimes need a panel upgrade to add AC. Post-2010 builds typically have 200A service that handles it cleanly. We check during the in-home assessment and quote any panel upgrade separately so you see the full cost upfront.",
+            },
+            {
+              heading: "Humidity is rarely the problem; sizing usually is",
+              body: "Calgary's incoming summer air is dry. Most \"AC isn't dehumidifying\" complaints actually trace to OVERSIZED equipment that short-cycles before pulling moisture out of the air. Proper Manual J sizing + variable-speed equipment that modulates capacity continuously fixes this. Slightly smaller than rule-of-thumb tonnage is often correct here.",
+            },
+            {
+              heading: "Hard water on condensate pumps in finished basements",
+              body: "Condensate pumps (used when the indoor coil is in a basement without floor-drain access) collect water + minerals over time. Calgary's hard water shortens pump lifespan and can cause float-switch failures. Annual inspection + cleaning extends life; pre-emptive replacement at 7-8 years is often economical.",
+            },
+            {
+              heading: "Defrost wasn't a thing on AC — but matters on heat pumps",
+              body: "If you go heat-pump-instead-of-AC: in heating mode the outdoor coil periodically reverses into cooling mode briefly (60-90 seconds) to clear frost buildup — this is NORMAL behavior, not a malfunction. The first defrost cycle can be alarming for homeowners who didn't know to expect it. We walk through this during commissioning.",
+            },
+          ],
+        },
+        {
+          heading: "How a Calgary AC install actually runs",
+          intro:
+            "Typical 1-2 day install for central AC; ductless mini-split single-zone install often finishes same day.",
+          items: [
+            {
+              heading: "1. In-home assessment + cooling-load calc",
+              body: "We measure your home (square footage, ceiling heights, window area + orientation, insulation, air leakage), pull a Manual J cooling-load calculation, and size the AC to actual load — not rule-of-thumb \"X tons per Y sqft\". Oversized AC is the #1 cause of clammy summer feel; we size carefully.",
+            },
+            {
+              heading: "2. Electrical + ductwork + placement check",
+              body: "Verify electrical panel capacity, existing ductwork can handle the cooling CFM and is positioned for cold-air distribution, outdoor unit placement options (bedroom-window clearance, drift snow zones, prevailing wind exposure). Any infrastructure upgrades quoted upfront.",
+            },
+            {
+              heading: "3. Equipment selection + heat-pump comparison",
+              body: "Match the equipment to your cooling load, budget, and noise sensitivity. Walk through the heat-pump-instead alternative honestly. You see the cost + operating-cost math on both options before signing.",
+            },
+            {
+              heading: "4. Outdoor unit install",
+              body: "Mount the outdoor unit on a pad or wall bracket, elevated above expected snow accumulation. Connect refrigerant lines, control wiring, and condensate drain. Wind baffles added if exposure warrants.",
+            },
+            {
+              heading: "5. Indoor unit integration",
+              body: "Install the evaporator coil on top of the existing furnace (central AC) or wall-mounted heads (ductless). Integrate with existing ductwork, run new lineset, install or upgrade the thermostat if needed (variable-speed AC units often require compatible smart thermostats).",
+            },
+            {
+              heading: "6. Commissioning + walkthrough",
+              body: "Verify refrigerant charge, run a full cooling cycle to confirm proper operation, check temperature differential at the registers, register manufacturer warranty (AirEase 12-year requires registration within 60 days), submit any rebate paperwork if heat-pump path. Walk you through the thermostat, expected runtime patterns, and maintenance schedule.",
             },
           ],
         },
@@ -4427,23 +4497,55 @@ export const services: ServicePage[] = [
         disclaimer: "Terms and Conditions Apply",
       },
       faq: {
-        heading: "Frequently Asked Questions About Air Conditioning in Calgary",
+        heading: "Air Conditioning Calgary — FAQs",
         items: [
           {
-            q: "Ready to experience the FlameTech difference?",
-            a: "Contact us today for a free, no-obligation quote on our air conditioning services in Calgary. You can reach us by phone, email, or through our online booking system. We're here to answer your questions and schedule your service at your convenience.",
+            q: "Should I install AC or a heat pump in my Calgary home?",
+            a: "Worth a real comparison. Same outdoor unit, same install footprint, similar cost — but a heat pump adds efficient heating capability through 80%+ of the heating season. For most Calgary homes adding cooling for the first time OR replacing an end-of-life AC, the hybrid (heat pump + existing furnace backup) setup is the math-positive call. We walk through the comparison on every quote and tell you honestly when traditional AC is the better fit.",
           },
           {
-            q: "How often should I service my AC?",
-            a: "We recommend scheduling professional AC maintenance at least once a year, ideally before the start of the cooling season, to ensure optimal performance and prevent potential issues.",
+            q: "What size AC do I need for my Calgary home?",
+            a: "Depends on insulation, window area + quality + orientation, air leakage, ceiling heights, and ductwork — not just square footage. Most Calgary homes need 1.5-3 tons; rule-of-thumb tonnage is often oversized for our climate. We run a Manual J cooling-load calculation on every install quote, then size to the actual number. Oversized AC short-cycles, can't dehumidify properly, and feels worse than a smaller correctly-sized unit.",
+          },
+          {
+            q: "How long does AC installation take in Calgary?",
+            a: "First-time central AC install on a furnace-only home: typically 1-2 days. Central AC replacement (existing unit being swapped): often one day. Ductless mini-split single-zone install: often half a day. Add time if electrical panel upgrade is needed or if ductwork modifications are required to support the new CFM rating.",
+          },
+          {
+            q: "How long does a central AC last in Calgary?",
+            a: "12-15 years for most central AC units in Calgary, sometimes 18+ with annual maintenance. Outdoor units fail before indoor coils typically. Calgary's relatively short cooling season means fewer total runtime hours per year than warmer climates, so equipment lifespan is generally at the longer end of manufacturer specs.",
+          },
+          {
+            q: "Why does my AC make my house feel clammy?",
+            a: "Almost always oversized equipment. An oversized AC cools the air quickly and shuts off before pulling humidity out of the airstream — leaving the house cool but damp. The fix: right-sized equipment (smaller is usually better) and/or variable-speed equipment that modulates capacity continuously. We see this constantly on rule-of-thumb-tonnage installs from years ago.",
+          },
+          {
+            q: "How much does AC installation cost in Calgary?",
+            a: "Depends on equipment tier, install complexity (electrical panel, ductwork modifications), and whether we're adding for the first time vs replacing an existing unit. We quote in writing after the in-home assessment so you see the full cost upfront. Same-quote walkthrough of the heat-pump-instead alternative for direct comparison on your specific home.",
           },
           {
             q: "What are signs my AC needs repair?",
-            a: "Unusual noises, inconsistent cooling, strange odours, leaks, and a sudden increase in energy bills can all be signs that your AC system needs repair. Don't delay in calling our Calgary AC repair experts.",
+            a: "Weak cooling or warm air from vents, ice on the outdoor coil or refrigerant lines, unusual noises (grinding, screeching, banging on startup), unit not starting at all, breaker tripping repeatedly, water pooling around the indoor coil. Diagnose quickly — refrigerant leaks and electrical issues can get expensive if left running.",
           },
           {
-            q: "How long does installation take?",
-            a: "The duration of an AC installation can vary depending on the type of system and the complexity of the installation process. We will provide you with a clear timeline before starting any work.",
+            q: "How often should I have my AC serviced?",
+            a: "Annual professional tune-up before cooling season (April-May ideal). Coil cleaning, refrigerant charge check, capacitor test, electrical inspection, thermostat calibration, condensate drain clearing. Annual service catches most failures before peak summer demand and is required to keep most manufacturer warranties valid (including the AirEase 12-year warranty).",
+          },
+          {
+            q: "Can I run my furnace fan only for circulation without cooling?",
+            a: "Yes — most thermostats have a 'fan' setting that runs just the furnace blower without calling for heating or cooling. Useful for air circulation during shoulder seasons. Note: variable-speed blowers run more efficiently in 'auto' mode (only when needed) than continuous; check whether your equipment supports continuous low-speed fan operation before running it 24/7.",
+          },
+          {
+            q: "What's the AirEase 12-year AC warranty?",
+            a: "AirEase covers qualifying AC units (Models 4SCU20LX and 4SCU16LS) with 12 years on parts AND labor when you (1) register the equipment online within 60 days of installation, (2) install in an owner-occupied residence, and (3) maintain documented annual professional maintenance. Terms apply — see the promo above for full requirements. We're an authorized AirEase Pro Team dealer.",
+          },
+          {
+            q: "Do you work on every brand of AC?",
+            a: "Yes — AirEase, Lennox, Carrier, Trane, Goodman, Heil, Bryant, Daikin, Mitsubishi, plus older units. Common repair parts (capacitors, contactors, start kits, fan motors) cover most brands and ride on every truck. Brand-specific control boards sometimes need overnight order — we tell you upfront.",
+          },
+          {
+            q: "Are you available for emergency AC repair in a heat wave?",
+            a: "Yes — no cooling during a heat wave gets priority dispatch. Real person answers the phone, we'll confirm a window before the truck rolls. Same crew that handles our [emergency plumbing](/emergency-plumber-calgary/) and [heating emergency](/no-heat-issues-calgary/) work. Most repairs finish first visit; brand-specific parts may need overnight order.",
           },
         ],
       },
