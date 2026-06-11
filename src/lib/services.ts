@@ -1148,6 +1148,22 @@ export const services: ServicePage[] = [
         ],
       },
     },
+    hubLinks: {
+      eyebrow: "Same-day emergency dispatch",
+      heading: "What kind of emergency is it?",
+      intro:
+        "Most emergencies trace back to one of these. Same-day priority dispatch — real person on the phone, common parts on every truck.",
+      items: [
+        { label: "No Hot Water", href: "/no-hot-water-calgary/", summary: "Cold shower right now? Same-day dispatch — gas, electric, and tankless.", icon: "shower", highlight: true, badge: "Same-day dispatch" },
+        { label: "Leaking Water Heater", href: "/leaking-water-heater-calgary/", summary: "Drip from the top or pool from the bottom? Emergency shutoff guidance on the call.", icon: "water_damage", highlight: true, badge: "Same-day dispatch" },
+        { label: "No Heat Issues", href: "/no-heat-issues-calgary/", summary: "Furnace won't fire, runs cold air, short-cycles — priority dispatch in cold snaps.", icon: "local_fire_department", highlight: true, badge: "Cold snap priority" },
+        { label: "Boiler Not Working", href: "/boiler-not-working-calgary/", summary: "Pressure loss, lockouts, frozen condensate, pump or zone valve failures — same-day dispatch.", icon: "boiler_unit", highlight: true, badge: "Same-day dispatch" },
+        { label: "Blocked Toilet", href: "/blocked-toilet-calgary/", summary: "Toilet won't flush, overflow risk, sewer-side backup — diagnosis + clear.", icon: "bathroom", highlight: true, badge: "Common emergency" },
+        { label: "Furnace Blower Issues", href: "/furnace-blower-issues-calgary/", summary: "Blower won't start, loud rattling, weak airflow — PSC, X13, and ECM motor diagnosis.", icon: "tune" },
+        { label: "Drain Cleaning", href: "/drain-cleaning-calgary/", summary: "Backed-up main line, kitchen sink, basement floor drain — hydro-jet + camera.", icon: "drain_camera" },
+        { label: "Sump Pump Install", href: "/sump-pump-installation-calgary/", summary: "Failed pump during spring melt or heavy rain — battery backup recommended for finished basements.", icon: "swap_horiz" },
+      ],
+    },
   },
   {
     slug: "polyb-plumbing-calgary",
@@ -4916,6 +4932,20 @@ export const services: ServicePage[] = [
         ],
       },
     },
+    hubLinks: {
+      eyebrow: "Compare + related services",
+      heading: "Pick the right Calgary HVAC service.",
+      intro:
+        "AC, heat pump, furnace, humidifier — each one runs a different way. Here's how to compare.",
+      items: [
+        { label: "Heat Pumps Calgary", href: "/heat-pumps-calgary/", summary: "Heating AND cooling in one outdoor unit — math-positive call for most homes adding cooling today.", icon: "ac_unit" },
+        { label: "Humidifiers Calgary", href: "/humidifiers-calgary/", summary: "Whole-home humidifier install — fix the dry winter air that AC alone can't solve.", icon: "water_drop" },
+        { label: "Furnace Replacement", href: "/furnace-replacement-calgary/", summary: "Replacing your furnace? Pair it with AC or hybrid heat pump for matched-system install.", icon: "sync" },
+        { label: "High-Efficiency Furnaces", href: "/high-efficiency-furnaces-calgary/", summary: "95–98% AFUE condensing units — typical matched pair with central AC install.", icon: "local_fire_department" },
+        { label: "Home Heating Issues", href: "/home-heating-issues-calgary/", summary: "Uneven heat, short-cycling, high bills — broader HVAC diagnostic across every system type.", icon: "tune", highlight: true, badge: "Diagnosis" },
+        { label: "Emergency Plumber", href: "/emergency-plumber-calgary/", summary: "AC failing in a heat wave + water leak from indoor coil — same-day emergency dispatch.", icon: "contact_emergency" },
+      ],
+    },
   },
   {
     slug: "humidifiers-calgary",
@@ -5886,6 +5916,21 @@ export const services: ServicePage[] = [
         ],
       },
     },
+    hubLinks: {
+      eyebrow: "Compare + related services",
+      heading: "Pick the right water-heating service.",
+      intro:
+        "Tank, tankless, replacement, softener pairing — here's how each one fits.",
+      items: [
+        { label: "Hot Water Tanks", href: "/hot-water-tanks/", summary: "Conventional tank install + replacement — Bradford White + John Wood for Calgary's hard water.", icon: "propane_tank" },
+        { label: "Water Softener", href: "/water-softener/", summary: "Critical pairing for tankless in Calgary — protects the heat exchanger from aggressive scaling.", icon: "softener_tank", highlight: true, badge: "Strongly recommended" },
+        { label: "Hot Water Tank Replacement", href: "/hot-water-tank-replacement-calgary/", summary: "Same-day swaps when the existing tank fails — common-brand stock on the truck.", icon: "sync" },
+        { label: "Water Heater Installation", href: "/water-heater-installation-calgary/", summary: "New-build + addition installs — tank, tankless, or combi, gas + venting + condensate.", icon: "propane_tank" },
+        { label: "No Hot Water", href: "/no-hot-water-calgary/", summary: "Tankless throwing error codes? Same-day dispatch with common parts on the truck.", icon: "shower", highlight: true, badge: "Same-day dispatch" },
+        { label: "Leaking Water Heater", href: "/leaking-water-heater-calgary/", summary: "Tankless leak or condensate drain issue — emergency shutoff guidance on the call.", icon: "water_damage", highlight: true, badge: "Same-day dispatch" },
+        { label: "Hot Water Issues", href: "/hot-water-issues-calgary/", summary: "Broader symptom triage across tank + tankless — lukewarm, popping, discoloured, smell.", icon: "water_damage" },
+      ],
+    },
   },
   {
     slug: "hot-water-issues-calgary",
@@ -6772,6 +6817,21 @@ export const services: ServicePage[] = [
           { q: "Do you service softeners you didn't install?", a: "Yes — we service every major brand and valve type. If your system is fixable we'll fix it; if it's a 12-year-old big-box unit with a failed valve and no parts available, we'll tell you straight rather than chase parts that don't exist." },
         ],
       },
+    },
+    hubLinks: {
+      eyebrow: "Compare + related services",
+      heading: "Pick the right water-protection service.",
+      intro:
+        "Softener protects everything downstream — here's how it pairs with the rest of your water-system services.",
+      items: [
+        { label: "Reverse Osmosis", href: "/reverse-osmosis-calgary/", summary: "Companion drinking-water filtration — softener handles hardness, RO handles taste + dissolved solids.", icon: "water_drop" },
+        { label: "Hot Water Tanks", href: "/hot-water-tanks/", summary: "Biggest downstream beneficiary — softener customers see 14+ yr tank lifespans vs 8-10 unsoftened.", icon: "propane_tank" },
+        { label: "Tankless Water Heaters", href: "/tankless-water-heaters/", summary: "Tankless heat exchangers scale fast unsoftened — softener pairing is critical, not optional.", icon: "whatshot", highlight: true, badge: "Critical pairing" },
+        { label: "Hot Water Tank Replacement", href: "/hot-water-tank-replacement-calgary/", summary: "Common pair-install on tank replacement — protect the new tank from day one.", icon: "sync" },
+        { label: "Water Heater Installation", href: "/water-heater-installation-calgary/", summary: "New-build + addition installs — softener install often coordinated in the same project.", icon: "propane_tank" },
+        { label: "No Hot Water", href: "/no-hot-water-calgary/", summary: "Hard-water scaling is a hidden cause of poor tank + tankless performance.", icon: "shower", highlight: true, badge: "Same-day dispatch" },
+        { label: "Leaking Water Heater", href: "/leaking-water-heater-calgary/", summary: "Hard water accelerates corrosion — softener extends future tank life.", icon: "water_damage", highlight: true, badge: "Same-day dispatch" },
+      ],
     },
   },
   {
