@@ -2866,6 +2866,7 @@ export const services: ServicePage[] = [
         { label: "Heat Pumps", href: "/heat-pumps-calgary/", summary: "Cold-climate dual-fuel heat pumps — heating + cooling in one system.", icon: "ac_unit" },
         { label: "Furnace Blower Issues", href: "/furnace-blower-issues-calgary/", summary: "Weak airflow, loud rattling, blower won't start — diagnosis + repair on PSC, X13, and ECM motors.", icon: "tune", highlight: true, badge: "Common issue" },
         { label: "No Heat Issues", href: "/no-heat-issues-calgary/", summary: "Furnace won't fire, runs cold air, short-cycles, thermostat dead — priority dispatch in cold snaps.", icon: "local_fire_department", highlight: true, badge: "Common issue" },
+        { label: "Home Heating Issues", href: "/home-heating-issues-calgary/", summary: "Uneven heat, cold rooms, short-cycling, high bills, weird noises — symptom triage across every system type.", icon: "tune", highlight: true, badge: "Diagnosis" },
       ],
     },
   },
@@ -3346,7 +3347,7 @@ export const services: ServicePage[] = [
     lead:
       "No heat in a Calgary cold snap is the call we drop everything for. Most no-heat issues trace back to a small handful of causes — and the right fix depends on figuring out which one before swapping parts. FlameTech diagnoses on the first visit, fixes most failures on the first visit, and tells you straight whether your system needs a repair or a replacement.",
     heroBody: [
-      "We work on every common Calgary heating setup: high-efficiency condensing furnaces (post-2000s builds), conventional gas furnaces (older homes), and hydronic boiler systems (in-floor radiant in luxury rebuilds like [Bel-Aire](/bel-aire-plumbers-calgary/), [Mount Royal](/mount-royal-plumbers-calgary/), and [Aspen Woods](/aspen-woods-plumbers-calgary/), plus baseboard hydronic in 60s-70s homes).",
+      "We work on every common Calgary heating setup: high-efficiency condensing furnaces (post-2000s builds), conventional gas furnaces (older homes), and hydronic boiler systems (in-floor radiant in luxury rebuilds like [Bel-Aire](/bel-aire-plumbers-calgary/), [Mount Royal](/mount-royal-plumbers-calgary/), and [Aspen Woods](/aspen-woods-plumbers-calgary/), plus baseboard hydronic in 60s-70s homes). If your system isn't completely off but something is clearly off (uneven heat, high bills, weird noises), see our broader [home heating issues](/home-heating-issues-calgary/) diagnostic page.",
       "Priority dispatch for no-heat calls anywhere in Calgary, Airdrie, Chestermere, Cochrane, Okotoks, and surrounding communities. Real person answers the phone — we'll confirm a window before the truck rolls. Trucks stocked with common parts: igniters, flame sensors, capacitors, thermocouples, gas valves, thermostats — so most no-heat calls finish in the first visit.",
       "Call 587-834-3668. Same crew handles our [furnace repair](/furnaces/), [boiler service](/boiler-service-calgary/), [boiler repair](/boiler-repair-calgary/), and [emergency plumbing](/emergency-plumber-calgary/).",
     ],
@@ -3548,6 +3549,293 @@ export const services: ServicePage[] = [
           {
             q: "How old is too old to repair vs. replace a furnace?",
             a: "Loose rule of thumb: under 12 years with a single failed component, repair. Over 18 years with a major failure (heat exchanger crack, ECM motor failure, control board failure on a discontinued model), strongly consider replacement. 12-18 with a single failure is a judgement call — we'll quote both options and let you decide based on the math. Cracked heat exchanger at any age = replacement (safety, not optional).",
+          },
+        ],
+      },
+    },
+  },
+  {
+    slug: "home-heating-issues-calgary",
+    category: "Heating",
+    icon: "tune",
+    title: "Home Heating Issues in Calgary — Diagnosis Across Every System Type",
+    lead:
+      "Furnace running but the house won't warm up? Cold rooms upstairs while the basement bakes? Energy bills climbing without obvious reason? Furnace short-cycling, banging, or smelling odd? Most home heating issues in Calgary trace back to a small set of failure modes — and the right diagnosis depends on knowing which system you have, what the symptom actually is, and how Calgary's climate and housing stock shape what we typically find. FlameTech diagnoses across every Calgary heating system: forced-air gas furnaces, hydronic boilers, heat pumps, and hybrid dual-fuel.",
+    heroBody: [
+      "This page is the first stop when something is off with your heat but you don't have a binary \"no heat at all\" emergency. For those, see our dedicated [no heat issues](/no-heat-issues-calgary/) page (priority cold-snap dispatch) or the [boiler not working](/boiler-not-working-calgary/) page if you have a hydronic system.",
+      "We cover every common Calgary setup: high-efficiency condensing furnaces (post-2000s builds), conventional gas furnaces (older homes), hydronic boilers with in-floor radiant in luxury rebuilds across [Mount Royal](/mount-royal-plumbers-calgary/), [Bel-Aire](/bel-aire-plumbers-calgary/), and [Aspen Woods](/aspen-woods-plumbers-calgary/), baseboard hydronic in 60s-70s homes, [heat pumps](/heat-pumps-calgary/) and hybrid dual-fuel installs across Calgary and [Airdrie](/heat-pumps-airdrie/), and ductless mini-splits.",
+      "Real person answers the phone, written quote before any work starts, and we'll tell you straight whether the symptom needs a repair, a tune-up, or a replacement conversation. Call 587-834-3668. Same crew handles our [furnace repair](/furnaces/), [boiler service](/boiler-service-calgary/), [boiler repair](/boiler-repair-calgary/), and [annual maintenance](/boiler-service-calgary/) work.",
+    ],
+    heroSubhead: "Diagnosis Across Furnace, Boiler, Heat Pump",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/FTVAN2.jpg", alt: "Shaun and Jason — FlameTech home heating diagnosis across Calgary", fit: "cover" },
+    intro:
+      "Calgary home heating diagnosis + repair — uneven heat, short-cycling, strange noises, high bills, drafty rooms, thermostat issues. Furnace, boiler, heat pump. Real person on the phone. Call 587-834-3668.",
+    features: [
+      "Uneven heating + cold rooms diagnosis",
+      "Short-cycling + airflow issues",
+      "High-bill efficiency diagnosis",
+      "Strange noises (banging, kettling, whistling)",
+      "Thermostat + zone control issues",
+      "Repair vs replace assessment",
+    ],
+    bullets: [
+      {
+        t: "Diagnose first, swap parts second",
+        d: "Heating issues rarely have one obvious cause — symptoms like \"upstairs is cold\" can trace to duct design, register balance, dirty filter, failing blower motor, stack effect, or thermostat placement. Real measurement and inspection beats parts-swap guessing. We figure out the actual cause before quoting anything.",
+      },
+      {
+        t: "Every Calgary system covered",
+        d: "Forced-air furnaces, hydronic boilers, heat pumps, hybrid dual-fuel, ductless mini-splits, in-floor radiant. Whatever's in your mechanical room, we work on it. Jason brings 20+ years of hydronics specialty; the broader team covers forced air and heat pumps across every common brand.",
+      },
+      {
+        t: "Honest repair vs replace call",
+        d: "If your symptoms point to a 5-year-old furnace that just needs a tune-up + duct rebalance, that's the recommendation. If they point to a 22-year-old furnace at end of life with multiple failing components, the replacement conversation is honest, not a sales pitch. Free written quote either way.",
+      },
+      {
+        t: "Calgary-climate aware",
+        d: "Symptoms map differently here than in milder climates. Short-cycling in deep cold is often a normal high-efficiency response, not a fault. Uneven heating in chinook freeze-thaw weeks is often duct design, not equipment. We know what's actually broken vs what's working as designed for our climate.",
+      },
+    ],
+    seoTitle: "Home Heating Issues Calgary | Diagnosis + Repair | FlameTech",
+    seoDescription:
+      "Calgary home heating diagnosis across furnace, boiler, heat pump — uneven heat, cold rooms, high bills, short-cycling, noises. Honest repair vs replace. Call 587-834-3668.",
+    seoKeywords: [
+      "home heating issues Calgary",
+      "uneven heating Calgary",
+      "cold rooms Calgary",
+      "furnace problems Calgary",
+      "heating system issues Calgary",
+      "high heating bills Calgary",
+      "FlameTech Plumbing Heating",
+    ],
+    quoteFormLabel: "home heating issue",
+    quoteFormPlaceholder:
+      "e.g. upstairs cold while basement bakes, furnace short-cycling, banging noise from boiler, energy bills doubled, thermostat won't hold setpoint, weird smell when furnace runs…",
+    sidebar: {
+      title: "Calgary Heating Diagnosis",
+      subtitle:
+        "Diagnosis across every Calgary heating system — furnace, boiler, heat pump, hybrid. Honest answers on repair vs tune-up vs replacement.",
+      bullets: [
+        "Most diagnoses in 45-60 minutes",
+        "Forced air + hydronic + heat pump",
+        "Real measurement, not guessing",
+        "Free written quote on any work",
+      ],
+    },
+    stats: [
+      { number: "25+", label: "Years in Calgary", icon: "verified" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "ALL", label: "Heating system types", icon: "check_circle" },
+      { number: "Real", label: "Person on the phone", icon: "call" },
+    ],
+    callout:
+      "Something off with your heating but it's not a full no-heat emergency? Call 587-834-3668 — we diagnose across every Calgary system type and quote in writing.",
+    richContent: {
+      sections: [
+        {
+          heading: "Common Calgary heating symptoms — and what they usually mean",
+          intro:
+            "Symptoms are the entry point; the underlying cause is what determines the fix. Same symptom often has 3-4 possible causes — diagnosis matters more than guessing.",
+          items: [
+            {
+              heading: "Some rooms are cold while others are warm",
+              body: "Most common Calgary complaint. Possible causes (in order of likelihood): unbalanced registers/dampers (free fix), dirty filter restricting airflow, undersized return ducts on a renovated home, blower motor not running at design CFM (failing capacitor or ECM module), stack effect on multi-storey homes (hot air rising to upper floors in mild weather, sinking in cold), duct leakage in unconditioned spaces (attic, crawl space, garage), or undersized supply trunk to that part of the house (original construction issue). Diagnostic measurement at the registers + return + plenum tells us which.",
+            },
+            {
+              heading: "Furnace runs constantly, house never gets warm",
+              body: "Possible causes: thermostat sensor failure (reading wrong room temperature), undersized furnace for the home's heat loss (rare on modern builds, common on older homes after additions), dirty filter cutting airflow severely, failing flame sensor causing intermittent shutoff (you'd see it cycle), low gas pressure (sometimes utility-side in cold snaps, sometimes a regulator issue), or cracked heat exchanger cycling the safety. Different fix for each; diagnosis takes 30-45 minutes.",
+            },
+            {
+              heading: "Short-cycling — furnace fires for a minute, shuts off, repeats",
+              body: "Possible causes: dirty flame sensor (most common — quick clean), restricted airflow tripping the high-limit safety (filter, blocked returns, closed registers), failed flame rod, oversized furnace (cycles on quickly because the load is small — sizing mistake from years ago), or in HE units, a blocked condensate trap. NOTE: some short-cycling in mild Calgary weather (above 0°C) is NORMAL on properly-sized high-efficiency furnaces that have to throttle down their capacity. Below −15°C they should run longer cycles.",
+            },
+            {
+              heading: "Banging, popping, or clanging from the furnace",
+              body: "Possible causes: delayed ignition (gas building in the heat exchanger before lighting — safety issue, dirty burners or failing igniter; shut off the furnace and call us), ductwork expansion/contraction when the blower kicks on (normal for some homes; can sometimes be reduced with duct stiffening), or a failing blower motor bearing. Banging on ignition is the one that matters most — that's a delayed ignition, and continuing to run it risks heat exchanger damage.",
+            },
+            {
+              heading: "Boiler kettling — sounds like water boiling violently",
+              body: "Specific to hydronic systems. Caused by sediment or scale buildup on the heat exchanger that traps water and lets it flash to steam. Common Calgary cause: hard water + no annual flush + aging system. System flush + chemical descale usually quiets it. Persistent kettling for years can crack the heat exchanger — at which point the fix is replacement, not repair. See [boiler not working](/boiler-not-working-calgary/) for the full hydronic-specific diagnostic tree.",
+            },
+            {
+              heading: "Energy bills suddenly much higher",
+              body: "Possible causes: failing heating system running longer cycles to maintain temperature (failing capacitor, failing motor, dirty heat exchanger), failed thermostat setpoint logic (some smart thermostats malfunction), a tight envelope retrofit that exposed an oversized furnace (now short-cycles inefficiently), duct leakage you didn't have before (wear, animal damage, renovation), or a colder-than-usual stretch of weather (compare year-over-year). Diagnosis includes combustion analysis on the furnace + duct inspection.",
+            },
+            {
+              heading: "Cold air blowing from the vents",
+              body: "Two scenarios. (1) Cold air at the START of a heating cycle, then warm — usually NORMAL on high-efficiency furnaces (the blower starts before the burner has fully heated the exchanger; takes 30-60 seconds to warm up). (2) Cold air the WHOLE cycle — abnormal; usually means the burner isn't actually firing (failed igniter, gas valve, flame sensor) but the blower is running on a thermostat call. Diagnosable in 15 minutes.",
+            },
+            {
+              heading: "Thermostat reads wrong / won't hold setpoint",
+              body: "Possible causes: thermostat located in a problematic spot (drafty wall, sunlight on it, near a register, in a closed-off hallway), failed temperature sensor, low batteries, dirty contacts, or a smart-thermostat firmware issue. Sometimes the fix is moving the thermostat to a better location. Sometimes it's swapping for a more reliable model. Sometimes new batteries solve it in 30 seconds.",
+            },
+            {
+              heading: "Strange smells when the heat runs",
+              body: "Burning dust (normal on first startup of the season — clears in 1-2 hours), musty smell (mold in the ductwork or evaporator coil — needs cleaning), rotten egg / sulfur (gas leak — leave the house, call your utility's emergency line, then call us), formaldehyde-like (heat exchanger crack potentially leaking combustion gases into airflow — shut the furnace off, get a CO detector check, call us). Some smells are nothing, others are a safety issue — call if you're not sure.",
+            },
+            {
+              heading: "Humidity issues — house too dry or too humid",
+              body: "Forced air furnaces dry out indoor air dramatically in Calgary winters (incoming cold air carries almost no moisture; heating it without adding humidity creates 15-25% RH which is very dry). Solutions: bypass humidifier or steam humidifier — see our [humidifier installation](/humidifiers-calgary/) page. Too-humid problems (condensation on windows, mold in corners) typically mean too much humidity from an oversized humidifier or a too-tight envelope without ventilation; HRV may be the answer.",
+            },
+            {
+              heading: "Drafty rooms despite the furnace running",
+              body: "Possible causes: poor weatherstripping at windows/doors, air leakage at top plates and rim joists (common in 70s-80s Calgary homes), undersized supply duct to that room, leaky return ducts pulling cold air from the basement, or window single-glazing in original heritage construction. Some are heating fixes (rebalance, duct repair); some are envelope fixes (weatherization). We'll tell you which.",
+            },
+          ],
+        },
+        {
+          heading: "Why Calgary heating issues look the way they do",
+          intro:
+            "Calgary's climate, build eras, and water profile create specific patterns we see across service calls. Knowing the local context shortens diagnosis time.",
+          items: [
+            {
+              heading: "Extreme cold + extreme warm in 24 hours (chinooks)",
+              body: "Calgary's signature chinook freeze-thaw cycles (−25°C to +10°C within 24-48 hours) put repeated thermal stress on heating systems. Heat exchangers expand and contract; ductwork shifts; sealed expansion tanks on boilers cycle hard; condensate lines freeze and thaw. Over years, this concentrated thermal cycling fatigues components faster than steady-cold climates. Annual maintenance catches stress damage early.",
+            },
+            {
+              heading: "−35°C design temperature stresses undersized systems",
+              body: "Calgary's heating design temperature is −30°C; Airdrie is colder at −35°C. Systems sized for older builds, renovated layouts, or addition expansions are often undersized for the deep-cold demand they actually see. Symptom: works fine November through February most days, but during deep cold snaps the house never reaches the setpoint. Sometimes the fix is a properly-sized replacement; sometimes it's duct rework + register rebalance to match capacity to demand.",
+            },
+            {
+              heading: "Hard water destroys hydronic system components",
+              body: "Calgary water hardness (150-200 mg/L) is brutal on hydronic systems — scale builds up on heat exchangers, in zone valves, on circulator pump impellers, and in the heat-distribution loops themselves. Combi boilers (which run domestic hot water through a tankless heat exchanger) suffer fastest. Annual system flush + descaling extends life dramatically. A [water softener](/water-softener/) on the cold-water feed protects everything downstream.",
+            },
+            {
+              heading: "Build-era housing stock has predictable heating quirks",
+              body: "Pre-1960 inner-city heritage (Erlton, Mission, Inglewood, Bridgeland): often original cast-iron boilers with cast-iron radiators, single-pane windows, minimal insulation — heating performance is more about envelope than equipment. 1960s-70s (Brentwood, Glendale, Banff Trail, Wildwood): baseboard hydronic or first-generation forced air, R-7 attic insulation original, drafty rim joists. 1980s-90s (Edgemont, Hawkwood, Tuscany): original forced air, sometimes Poly-B branch lines, often original ductwork that's now 30+ years old. Post-2000 (Mahogany, Cranston, Auburn Bay, McKenzie Towne): tight envelopes, high-efficiency furnaces, modern duct design — heating problems usually map to specific equipment failure rather than building envelope.",
+            },
+            {
+              heading: "Condensate freeze on high-efficiency equipment",
+              body: "Modern high-efficiency furnaces, boilers, and tankless water heaters produce acidic condensate that drains through small PVC lines. Any section that runs through unheated space or exits outdoors can freeze during Calgary's deep cold snaps — equipment then locks out as a safety. Common cold-snap call wave. Permanent fix is reroute through heated space + heat trace where outdoor exit is required.",
+            },
+            {
+              heading: "Multi-storey stack effect in older Calgary homes",
+              body: "Older two-storey Calgary homes (1960s-90s) often have noticeable stack effect — warm air rises through stairwells to upper floors in cold weather, leaving the basement and main floor cold while upstairs bedrooms are too warm. Symptom: \"my furnace is fine in fall but useless in deep cold.\" Fix is usually a combination of better envelope sealing at the top of the house (cap rim joists, seal attic penetrations) + duct rebalance at the registers + sometimes a return air upgrade on the main floor.",
+            },
+            {
+              heading: "Renovated layouts that broke original duct design",
+              body: "Common Calgary scenario: 1980s home with original forced-air ducting laid out for the original floor plan, then a kitchen wall got knocked down, the basement got finished, an addition got built, and now the heating is uneven. The equipment is fine; the duct distribution doesn't match the new layout. Often the fix is duct rebalance + adding returns + possibly upsizing supply trunks — not equipment replacement.",
+            },
+            {
+              heading: "Heat pump + furnace hybrid systems need different diagnostic logic",
+              body: "Hybrid dual-fuel systems (heat pump + gas furnace, common new install in Calgary for the cold-climate efficiency play) have a balance point setting that determines when each takes over. If the balance point is wrong or the controls are misconfigured, you can run electric heat pump heat at temperatures where the gas furnace would be cheaper — energy bills tell the story. We commission these correctly and recheck commissioning on diagnostic calls.",
+            },
+          ],
+        },
+        {
+          heading: "What we do on a home heating issues call",
+          intro:
+            "Standard diagnostic sequence for non-emergency heating issues. Most calls finish first visit with a written diagnosis + quote; some issues (like duct rebalancing or envelope leak investigation) get a follow-up visit.",
+          items: [
+            {
+              heading: "1. Symptom + timeline + system inventory",
+              body: "What's happening, when it started, what's been done already (filter change, thermostat batteries, breaker check), whether it's worse in cold vs mild weather. We inventory every heating component: furnace age + brand, ductwork condition, thermostat make + location, humidifier presence, boiler if hydronic, heat pump if installed. Context shortens diagnosis dramatically.",
+            },
+            {
+              heading: "2. Run the system, watch the cycle",
+              body: "Call for heat at the thermostat, watch what the system actually does through a full cycle. Most issues show themselves during operation — slow startup, weak airflow, short-cycling, weird noises, error codes that the homeowner never saw. We measure temperature rise across the heat exchanger, static pressure across the filter, register temperatures + CFM at multiple locations.",
+            },
+            {
+              heading: "3. Inspect ductwork, returns, registers, thermostat placement",
+              body: "Walk the house. Check thermostat location for problematic placement (sunlight, drafts, register proximity). Check returns — most Calgary homes are under-returned, which causes airflow + pressure issues. Inspect accessible ductwork for leaks, kinks, damage. Open and check register dampers to see if previous balancing has been undone.",
+            },
+            {
+              heading: "4. Combustion + electrical measurement",
+              body: "On forced-air gas furnaces: combustion analysis (CO, O2, temperature, draft), incoming gas pressure, manifold pressure, capacitor microfarads, blower amp draw, flame sensor microamp draw. On hydronic boilers: combustion analysis + system pressure + pump flow + zone valve operation. On heat pumps: refrigerant charge, defrost cycle, COP estimation by ambient temp. Real measurement, not guessing.",
+            },
+            {
+              heading: "5. Written diagnosis + repair options",
+              body: "After diagnosis, you get a written summary: what's wrong, what's causing it, what the recommended fix is, and how confident we are in the diagnosis. If it's a single failed component (igniter, capacitor, flame sensor, etc.), repair quote in writing. If it's a system issue (oversized furnace, undersized ducts, end-of-life equipment), the repair-vs-replace conversation is honest.",
+            },
+            {
+              heading: "6. Recommendations beyond the immediate fix",
+              body: "We'll mention anything worth knowing — \"your humidifier panel is overdue,\" \"your blower motor capacitor is reading marginal and likely fails within a year,\" \"your duct insulation has settled and air-sealing the rim joist would do more for your bills than upsizing the furnace.\" Take it or leave it. We won't pressure-sell preventive work, but you should know what's coming.",
+            },
+          ],
+        },
+        {
+          heading: "When heating issues mean it's time to replace",
+          intro:
+            "Some heating issues are repair candidates; some are signs the whole system is at end of life. Knowing the difference avoids stacked repair bills on equipment that's about to fail anyway.",
+          items: [
+            {
+              heading: "Furnace 18+ years old with major failure",
+              body: "Modern high-efficiency furnaces last 15-20 years on average; conventional gas furnaces 18-25. Major failures (heat exchanger crack, ECM motor failure, control board failure on discontinued models) on 18+ year units rarely make repair-side economic sense. Replacement gets you 96%+ efficiency vs likely 80% on the old unit + 10-15 more years of reliable service. See our [high-efficiency furnace install](/high-efficiency-furnaces-calgary/) page.",
+            },
+            {
+              heading: "Heat exchanger crack at any age — replace",
+              body: "Cracked heat exchangers can leak combustion gases (carbon monoxide) into the airstream. Never repaired — safety issue. Full furnace replacement is the only safe answer. We show you the crack on a borescope before quoting. This is the non-negotiable case.",
+            },
+            {
+              heading: "Boiler 20+ years old with major component failure",
+              body: "Cast iron boilers from the 60s-70s can last 50+ years but at that age, ongoing parts availability and efficiency conversations make replacement economically realistic. Modern condensing boilers usually need replacement at 15-20 years if major components (heat exchanger, control board, pumps) all start failing in sequence.",
+            },
+            {
+              heading: "Multiple repairs in a single heating season",
+              body: "Rule of thumb: if you've had 3+ separate failures requiring service in the same heating season on a 12+ year unit, the system is signalling end of life. Each repair is technically possible but you're stacking bills on equipment that'll need full replacement within 1-2 years anyway.",
+            },
+            {
+              heading: "Pair replacement with envelope or duct fixes",
+              body: "If we recommend furnace replacement and you've got a known envelope problem (poor insulation, old windows) or duct issues (undersized returns, leaky ducts), this is the right time to address them. Pairing equipment + envelope work means the new equipment is sized for the IMPROVED house, not the leaky-old version — usually a smaller, cheaper-to-run system as a result.",
+            },
+            {
+              heading: "Consider heat pump or hybrid on replacement",
+              body: "When you're replacing the furnace anyway, the [heat pump install](/heat-pumps-calgary/) and hybrid dual-fuel conversations are worth having. Heat pumps cost more up front but operate cheaper through 80%+ of Alberta's heating season. Hybrid (heat pump + new high-efficiency furnace) gives best total cost of ownership. Greener Homes rebates may apply. We walk through the math.",
+            },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Home Heating Issues in Calgary — FAQs",
+        items: [
+          {
+            q: "Why are some rooms in my Calgary home cold while others are warm?",
+            a: "Most common causes (in order): unbalanced registers/dampers (free fix once we identify the right setting), dirty filter restricting airflow, undersized return ducts (very common in renovated Calgary homes), failing blower motor not pushing design CFM, stack effect on multi-storey homes pulling heat upward, duct leakage in unconditioned spaces, or original construction error in supply duct sizing. We measure airflow at multiple registers + returns to figure out which. Often the fix is balancing + return addition rather than equipment replacement.",
+          },
+          {
+            q: "My furnace is short-cycling — is it broken?",
+            a: "Not necessarily. Some short-cycling in mild Calgary weather (above 0°C) is NORMAL on properly-sized high-efficiency furnaces that have to throttle down. Below −15°C, cycles should be longer. Real short-cycling problems usually trace to: dirty flame sensor (quick clean), restricted airflow tripping the high-limit safety (filter, returns, registers), oversized furnace for the actual load, or blocked condensate trap on HE units. Diagnosis takes 30 minutes; most fixes finish same visit.",
+          },
+          {
+            q: "Why are my heating bills suddenly so much higher?",
+            a: "Possible causes: failing heating system working harder (capacitor, motor, or heat exchanger losing efficiency), failed thermostat setpoint logic, oversized furnace short-cycling inefficiently after a tight envelope retrofit, new duct leakage (animal damage, renovation), or simply a colder weather stretch (compare year-over-year). Diagnosis includes combustion analysis + duct inspection — usually identifies the cause in 45-60 minutes.",
+          },
+          {
+            q: "My furnace makes a loud bang when it ignites — is that dangerous?",
+            a: "Yes, that's delayed ignition and it's a safety issue. Gas builds up in the heat exchanger before lighting, then ignites all at once with a bang. Causes: dirty burners, failing igniter that takes too long to light, low gas pressure. Continuing to run it risks heat exchanger damage and CO release. Shut the furnace off and call us — most causes are quick fixes, but ignoring it can turn a $200 service into a $7,000 replacement.",
+          },
+          {
+            q: "How do I know if my furnace is the right size for my home?",
+            a: "Symptoms of an OVERSIZED furnace: short cycles, uneven temperatures (overshoot then long off-cycles), high energy bills despite a young system, noisy operation. Symptoms of an UNDERSIZED furnace: never reaches setpoint in deep cold, runs constantly, house stays cold during cold snaps. Proper sizing comes from a Manual J heat-loss calculation against your home's actual envelope. Most Calgary furnaces are oversized by 20-50% — sizing was done by rule of thumb decades ago. We do real Manual J on replacement quotes.",
+          },
+          {
+            q: "Should I replace my furnace with a heat pump?",
+            a: "Worth considering on replacement. Modern cold-climate heat pumps work efficiently in Calgary down to about −25°C, then drop in efficiency below that. Best Alberta setup is usually hybrid dual-fuel: heat pump as primary, new high-efficiency gas furnace as backup for deep cold. Total operating cost is lower than gas-only through 80%+ of the heating season; gas backup handles the rest. Greener Homes rebates may apply. We walk through the math at install quote time — see [heat pumps Calgary](/heat-pumps-calgary/).",
+          },
+          {
+            q: "What temperature should I keep my thermostat at in Calgary winter?",
+            a: "Comfort preference, but for energy efficiency: 20-21°C (68-70°F) when home, 17-18°C (62-65°F) when sleeping or away. Setbacks of more than 3-4°C don't save meaningful energy because the system has to work harder to recover; tight setbacks are diminishing returns. NOTE: don't set below 15°C in winter — pipes can freeze in unheated wall cavities even when the house feels warm. Smart thermostats can program these schedules automatically.",
+          },
+          {
+            q: "How often should I change my furnace filter in Calgary?",
+            a: "Disposable 1\" filters: every 1-3 months during heating season. Pleated 4-5\" filters: every 6-12 months. Calgary's air isn't dirtier than most cities, but the heating season is long (October-April) and furnaces run more hours per year here than in milder climates. Restricted airflow from a dirty filter is the single most common cause of short-cycling, high-limit trips, and reduced efficiency. Easy maintenance with big impact.",
+          },
+          {
+            q: "Why is my house so dry in winter?",
+            a: "Calgary's winter air carries almost no moisture (cold air can't hold much). Heating that air without adding humidity produces 15-25% relative humidity indoors — very dry. Symptoms: chapped skin, static shocks, cracked wood, sinus discomfort. Solution: a properly-sized bypass or steam humidifier on the furnace. Target: 30-40% RH (above that risks window condensation in deep cold). See [humidifiers Calgary](/humidifiers-calgary/).",
+          },
+          {
+            q: "When should I have my furnace serviced?",
+            a: "Annual professional service before heating season (August-September is ideal). Combustion analysis, safety checks, capacitor + motor inspection, ignition cleaning, drain/condensate clearing, filter swap. Annual service catches 70-80% of failures before they become breakdowns and is required to keep most manufacturer warranties valid. Worth it on every Calgary furnace — the long heating season means more accumulated hours per year than warmer climates.",
+          },
+          {
+            q: "Is it normal for my furnace to smell when it first runs in fall?",
+            a: "Yes — dust accumulated on the heat exchanger over summer burns off in the first cycle or two. Clears in 1-2 hours. If the smell persists beyond that, or smells like burning plastic, gas, or formaldehyde, that's NOT normal and we should diagnose. Carbon monoxide detectors should be in your house regardless; if any CO alarm sounds, leave the house and call your utility's emergency line.",
+          },
+          {
+            q: "Do you work on every brand and type of heating system?",
+            a: "Yes — forced-air gas furnaces (Trane, Carrier, Lennox, Bryant, Goodman, Rheem, Heil, Coleman, AirEase, Daikin), condensing boilers (Navien, IBC, Viessmann, Triangle Tube, Bosch, NTI, Lochinvar, Weil-McLain), conventional cast iron boilers (older Burnham, Slant/Fin, Weil-McLain), heat pumps (Mitsubishi, Daikin, Carrier, Trane, Lennox), and hybrid dual-fuel installs. Common parts cover most brands; brand-specific control boards sometimes need overnight order. We tell you upfront.",
           },
         ],
       },
@@ -11066,6 +11354,7 @@ export const services: ServicePage[] = [
         { label: "Boiler Service Calgary", href: "/boiler-service-calgary/", summary: "Annual tune-ups: combustion analysis, safety checks, descale, system flush.", icon: "hydronic_loop" },
         { label: "Boiler Not Working", href: "/boiler-not-working-calgary/", summary: "Pressure loss, lockouts, frozen condensate, pump or zone valve failures, combi DHW issues — same-day dispatch.", icon: "boiler_unit", highlight: true, badge: "Same-day dispatch" },
         { label: "No Heat Issues", href: "/no-heat-issues-calgary/", summary: "Boiler running but no heat, dropped pressure, won't fire — priority dispatch in cold snaps.", icon: "local_fire_department", highlight: true, badge: "Common issue" },
+        { label: "Home Heating Issues", href: "/home-heating-issues-calgary/", summary: "Kettling, uneven zones, high bills, weird noises — broader symptom triage across every Calgary heating system.", icon: "tune", highlight: true, badge: "Diagnosis" },
       ],
     },
   },

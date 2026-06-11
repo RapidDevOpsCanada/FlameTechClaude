@@ -41,6 +41,7 @@ const heatingLinks = [
   { label: "High-Efficiency Furnaces", href: "/high-efficiency-furnaces-calgary/" },
   { label: "Furnace Blower Issues", href: "/furnace-blower-issues-calgary/" },
   { label: "No Heat Issues", href: "/no-heat-issues-calgary/" },
+  { label: "Home Heating Issues", href: "/home-heating-issues-calgary/" },
   { label: "Garage Heaters", href: "/garage-heaters-calgary/" },
   { label: "Heat Pumps", href: "/heat-pumps-calgary/" },
 ];
