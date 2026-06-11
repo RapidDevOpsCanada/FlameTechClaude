@@ -8217,115 +8217,202 @@ export const services: ServicePage[] = [
     category: "Plumbing",
     location: "Calgary",
     icon: "plumbing",
-    title: "Aspen Woods Plumbers Calgary | Licensed & Insured",
+    title: "Aspen Woods Plumbers Calgary — Luxury Builds, Hydronic Radiant, Premium Fixtures",
     lead:
-      "Licensed plumbers and gas fitters serving Aspen Woods — from the 17 Ave SW corridor to the homes backing onto the West Springs ridge. We work on the high-end fixtures, multi-zone boiler systems, and large hot water demands that define Aspen Woods builds.",
+      "Aspen Woods was built between 2002 and 2015 as one of Calgary's premier luxury new-build communities. That makes the plumbing reality very specific: modern PEX supply throughout (no Poly-B at all — the industry was past that by 2002), high-end mechanical equipment originally specced (many homes with hydronic in-floor radiant + combi or system boilers), premium fixture brands (Hansgrohe, Brizo, Kohler, Grohe), and oversized hot-water demand from multi-bathroom layouts. Original equipment is now 10-23 years old — first-round and second-round replacement work coming due.",
     heroBody: [
-      "Most Aspen Woods homes were built between 2002 and 2015 — that puts them in the modern PEX era (so no Poly-B), but it also means the original boilers, water heaters, and high-end fixtures are now hitting end-of-life replacement windows. We handle those swaps regularly across [SW Calgary](/calgary-plumbers-sw/).",
-      "Larger square footage means longer hot water runs, dual heating zones, and bigger demand at the meter. We size replacement equipment to the house — not a generic 50-gallon tank that runs out before the second bathroom finishes. Call 587-834-3668 for priority dispatch.",
+      "Three patterns dominate Aspen Woods calls: (1) first-round equipment replacement on 2002-2010 builds (original boilers, water heaters, sump pumps at end-of-life), (2) hydronic radiant + multi-zone boiler service for the many Aspen Woods homes built with in-floor radiant heating — Jason's 20+ year specialty, and (3) premium fixture install + repair (Hansgrohe, Brizo, Kohler, Grohe, Waterworks) with brand-specific cartridge knowledge.",
+      "Same crew handles our [boiler installation](/boiler-installation-calgary/), [boiler service](/boiler-service-calgary/), [boiler repair](/boiler-repair-calgary/), the diagnostic [boiler not working](/boiler-not-working-calgary/) work, plus broader plumbing scope. Aspen Stone, Aspen Hills, Aspen Glen, Aspen Estates — every phase routine for us. Same crew also works [Mount Royal](/mount-royal-plumbers-calgary/), [West Springs](/west-springs-plumbers-calgary/), [Bel-Aire](/bel-aire-plumbers-calgary/), Springbank Hill, Cougar Ridge, Strathcona Park, [Signal Hill](/signal-hill-plumbers-calgary/).",
+      "Real person on the phone, confirmed windows, careful coordination with property managers + renovation GCs when relevant. Discretion + finished-interior protection on every visit. Call 587-834-3668.",
     ],
-    heroSubhead: "Plumbing & Heating for Aspen Woods",
+    heroSubhead: "Luxury Build + Hydronic Radiant Specialists",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
-    heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing service van in Aspen Woods", fit: "cover" },
+    heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing + heating service in Aspen Woods, SW Calgary", fit: "cover" },
     intro:
-      "Premium plumbers serving Aspen Woods, Calgary. Luxury home specialists offering priority emergency response, Poly-B inspections, advanced leak detection, and white-glove service.",
+      "Aspen Woods Calgary plumbing + heating. Luxury 2002-2015 builds, hydronic radiant + multi-zone boiler service, premium fixture install, first-round equipment replacement. SW dispatch.",
     features: [
-      "Priority emergency plumbing",
-      "Luxury fixture installation",
-      "Poly-B identification & replacement",
-      "Advanced leak detection",
-      "Premium water heater solutions",
-      "Sewer camera & hydro-jetting",
+      "Hydronic boiler + in-floor radiant service",
+      "Multi-zone manifold + zone valve work",
+      "Tankless retrofit + combi DHW descaling",
+      "Premium fixture install (Hansgrohe, Brizo, Kohler)",
+      "First-round water heater + sump pump replacement",
+      "Discreet, scheduled service windows",
     ],
     bullets: [
       {
-        t: "White-glove service",
-        d: "Discretion, punctuality, and careful coordination on every visit — respecting your home, your finishes, and your schedule.",
+        t: "No Poly-B in Aspen Woods — full stop",
+        d: "By the time Aspen Woods started building (2002), the industry had transitioned to PEX-A and PEX-B. Every Aspen Woods home uses modern PEX supply piping. You can skip the Poly-B conversation entirely. Focus on equipment replacement + premium fixture maintenance + softener install for hard-water protection.",
       },
       {
-        t: "Poly-B experts",
-        d: "Some earlier-phase Aspen Woods homes were built with Poly-B piping. We identify, assess, and replace it with modern PEX or copper.",
+        t: "Hydronic radiant + multi-zone boiler is Jason's specialty",
+        d: "Many Aspen Woods homes were built with hydronic in-floor radiant heating + multi-zone manifold setups. Common brands: Viessmann Vitodens, Triangle Tube Prestige + Solo, IBC SL series, Navien NHB combi, Lochinvar Knight. Jason has 20+ years of hydronic system experience — design, commissioning, zone troubleshooting, and ongoing service. Brand-agnostic on every common system.",
+      },
+      {
+        t: "First-round equipment replacement era is here",
+        d: "2002-2010 Aspen Woods originals are now 15-23 years old. Original boilers approaching or past 15-year service life. Original water heaters likely replaced once already and 2nd-gen now nearing Calgary EOL (8-10 years in this water). Original sump pumps tired. We have honest replace-vs-repair conversations on every visit to original equipment.",
+      },
+      {
+        t: "Premium fixtures need brand-specific service knowledge",
+        d: "Hansgrohe, Brizo, Kohler, Grohe, Waterworks, Newport Brass — each has proprietary cartridge designs, thermostatic mixing valves, and pressure-balance components. Generic plumbing service knowledge isn't enough. We carry parts catalogues for the major premium brands and order direct from authorized distributors so the right part arrives the first time.",
       },
     ],
-    seoTitle: "Aspen Woods Plumbers Calgary | Priority Plumbing Services",
+    seoTitle: "Aspen Woods Plumbers Calgary | Hydronic Radiant + Premium Fixtures",
     seoDescription:
-      "Aspen Woods plumbers in Calgary. Luxury home specialists, priority emergency service, Poly-B replacement, advanced leak detection.",
+      "Aspen Woods Calgary plumbing + heating. Luxury 2002-2015 builds, hydronic radiant + multi-zone boiler service, premium fixture install, first-round equipment replacement. Call 587-834-3668.",
     seoKeywords: [
-      "Aspen Woods plumbers",
-      "plumber Aspen Woods Calgary",
-      "SW Calgary plumber",
-      "luxury home plumber Calgary",
-      "Poly-B plumbing Aspen Woods",
+      "Aspen Woods plumbers Calgary",
+      "Aspen Woods Calgary plumber",
+      "Aspen Woods boiler service",
+      "Aspen Woods radiant heating",
+      "Aspen Woods water heater replacement",
+      "SW Calgary luxury plumber",
       "FlameTech Plumbing",
     ],
     quoteFormLabel: "Aspen Woods plumbing",
     quoteFormPlaceholder:
-      "e.g. Poly-B inspection needed, tankless install, leak behind a tiled wall, sewer camera inspection…",
+      "e.g. in-floor radiant zone not heating, combi boiler losing pressure, original 2005 boiler showing age, premium Hansgrohe fixture install, water softener install…",
     sidebar: {
-      title: "Aspen Woods Plumbers",
+      title: "Aspen Woods Plumbing + Heating",
       subtitle:
-        "Premium SW Calgary plumbing service for luxury homes — priority dispatch, Poly-B expertise, fully-stocked trucks.",
+        "Luxury 2002-2015 build specialists. Hydronic radiant + multi-zone boiler service. Premium fixture install. Discreet, scheduled.",
       bullets: [
-        "Licensed, insured, and bonded",
-        "Real person answers the phone",
-        "Stocked Calgary trucks",
-        "Poly-B identification & replacement",
+        "Real person on the phone",
+        "Free in-home assessment + written quote",
+        "Hydronic radiant + premium fixtures",
+        "Discreet, scheduled service windows",
       ],
     },
     stats: [
-      { number: "25+", label: "Years in Calgary", icon: "verified" },
+      { number: "20+", label: "Years on hydronics", icon: "verified" },
       { number: "5.0★", label: "Google rated", icon: "star" },
-      { number: "FREE", label: "Written estimates", icon: "request_quote" },
-      { number: "Licensed", label: "& insured", icon: "award" },
+      { number: "Modern", label: "PEX + radiant + premium", icon: "check_circle" },
+      { number: "Real", label: "Person on the phone", icon: "call" },
     ],
     callout:
-      "Luxury home emergency in Aspen Woods? Call 587-834-3668 — our priority dispatch team sends a fully-equipped technician right away.",
+      "Aspen Woods boiler issue, radiant zone problem, equipment at EOL, or premium-fixture work? Call 587-834-3668 — discreet, scheduled, real-person dispatch.",
     richContent: {
       sections: [
         {
-          heading: "Plumbing Services for Aspen Woods",
+          heading: "What we do most often on Aspen Woods calls",
           intro:
-            "Sophisticated drainage systems, luxury fixtures, and premium water heaters deserve technicians who match that standard. Our Aspen Woods service is built around discretion, precision, and first-visit resolution.",
+            "Modern PEX + hydronic radiant + premium fixtures + tight envelopes mean a specific service profile. Different conversation than older neighbourhoods or builder-suburb communities.",
           items: [
-            { heading: "Expert Drain and Sewer Services", body: "Luxury homes need specialized attention. Our professionals utilize cutting-edge [drain cleaning technology](/drain-cleaning-calgary/) to eliminate stubborn blockages completely, from gourmet kitchen drains to main sewer lines, with precision and thoroughness." },
-            { heading: "Premium Water Heater Solutions", body: "From state-of-the-art [tankless systems](/tankless-water-heaters/) to high-capacity [conventional units](/hot-water-tanks/), our specialists ensure uninterrupted hot water for your luxury lifestyle. We service elite brands and recommend solutions delivering exceptional performance through Calgary's demanding winters." },
-            { heading: "Luxury Fixture Installation", body: "Enhancing your executive home's [bathrooms](/bathroom-plumbing-calgary/) or designer kitchen? We install premium faucets, high-end toilets, designer sinks, and spa-grade [shower systems](/shower-plumbing-calgary/) that complement your home's sophisticated aesthetic." },
-            { heading: "Sophisticated Leak Detection", body: "Concealed leaks waste resources, damage expensive finishes, and escalate utility costs. Employing thermal imaging and precision acoustic detection, we locate leaks within walls and beneath floors without invasive investigation." },
+            {
+              heading: "Hydronic boiler service + install",
+              body: "Many Aspen Woods homes use high-efficiency condensing boilers driving in-floor radiant + domestic hot water. Common brands: Viessmann Vitodens 100/200, Triangle Tube Prestige + Solo, IBC SL series, Navien NHB combi, Lochinvar Knight, NTI. Jason designs new installs, commissions zone control + flow setup, and handles ongoing service. See [boiler installation Calgary](/boiler-installation-calgary/) for full scope.",
+            },
+            {
+              heading: "Multi-zone in-floor radiant + manifold service",
+              body: "Luxury Aspen Woods builds frequently have 6-12 radiant zones — kitchen, bathrooms, living areas, basement, bonus room. Manifold sets (Caleffi, Uponor, Viega) need annual flush + zone-valve actuator service + balancing-valve adjustment. Cold zones usually trace to stuck zone valves or trapped air in the loop. We diagnose by zone + repair without disturbing finished floors.",
+            },
+            {
+              heading: "Combi boiler DHW descaling (hard-water reality)",
+              body: "Combi boilers handle space heating + domestic hot water from one appliance. Calgary's hard water (150-200 mg/L) hits the narrow internal DHW heat exchanger passages aggressively — scaling reduces output well before space-heat performance suffers. Annual descaling mandatory in Calgary; softener pairing strongly recommended. See [boiler not working](/boiler-not-working-calgary/) for diagnostic scope.",
+            },
+            {
+              heading: "First-round water heater + sump pump replacement",
+              body: "2002-2010 Aspen Woods originals are 15-23 years old. Tanks have likely been replaced once already (Calgary tanks last 8-10 years unsoftened); 2nd-gen tanks now nearing EOL. Sump pumps from original install need replacement. We swap to [Bradford White or John Wood](/hot-water-tanks/) and pair with [water softener](/water-softener/) install for next-tank longevity.",
+            },
+            {
+              heading: "Tankless water heater retrofit (large-home demand)",
+              body: "Large Aspen Woods homes with multiple bathrooms benefit from tankless retrofit on replacement — endless hot water capacity matters for back-to-back morning showers. Brutal on hard water without intervention: annual descaling mandatory + softener pairing strongly recommended. Common brands: Navien NPE-A/S, Rinnai RU/RUR, IBC. See [tankless water heaters](/tankless-water-heaters/).",
+            },
+            {
+              heading: "Premium fixture installation + repair",
+              body: "Hansgrohe, Brizo, Kohler, Grohe, Waterworks, Newport Brass, California Faucets, Rohl — the brands we install + service most in Aspen Woods. Pressure-balance valves, thermostatic shower systems, body sprays + rainfall heads, freestanding tub fillers, custom drains. Brand-specific cartridge knowledge prevents wrong-part installs. See [bathroom plumbing](/bathroom-plumbing-calgary/).",
+            },
+            {
+              heading: "Water softener install (whole-house protection)",
+              body: "Most Aspen Woods homes built without a softener. Calgary's hard water shortens premium fixture cartridge life, combi boiler DHW heat exchanger life, tankless heat exchanger life, dishwasher + washing machine valve life. Single softener at the main entry protects the whole house — particularly important when premium-grade fixtures are downstream. Pay-back over single tank cycle.",
+            },
+            {
+              heading: "Snowmelt loop service (premium driveway + walk install)",
+              body: "Some Aspen Woods luxury builds include hydronic snowmelt loops in concrete driveways + walkways. Driven by the same boiler that handles heat + DHW (or sometimes a dedicated boiler). Annual pre-season service: glycol freeze-protection check, manifold + zone valve service, controls verification. Catches issues before first snowfall.",
+            },
           ],
         },
         {
-          heading: "Poly-B Pipe Concerns in Aspen Woods",
+          heading: "Why Aspen Woods needs a different conversation than typical Calgary suburbs",
           intro:
-            "Some of Aspen Woods' earlier-phase properties were constructed during the period when polybutylene (Poly-B) piping was standard in Calgary home builds.\n\nThis grey plastic piping is now recognised for premature deterioration and unexpected failures — failures that can cause significant water damage to luxury finishes and expensive renovations.\n\nIf your Aspen Woods home was built before the mid-1990s, or you're unsure what piping material is behind your walls, we recommend a professional inspection. Learn more about our [Poly-B inspection and replacement](/polyb-plumbing-calgary/) services.",
-        },
-        {
-          heading: "Serving Adjacent Communities",
-          intro:
-            "Beyond Aspen Woods, FlameTech Plumbing delivers exceptional service throughout Calgary's premier west communities, including Springbank Hill, [West Springs](/west-springs-plumbers-calgary/), Cougar Ridge, Strathcona Park, and [Signal Hill](/signal-hill-plumbers-calgary/). Whether you require [emergency repairs](/emergency-plumber-calgary/), sophisticated drain solutions, or preventive maintenance, our certified plumbers respond promptly.",
+            "Aspen Woods' luxury new-build profile creates a distinctive service mix. Modern infrastructure + premium specs + larger demand patterns.",
+          items: [
+            {
+              heading: "Hydronic radiant is the heating mode in many homes",
+              body: "Unlike most Calgary suburbs (predominantly forced-air gas furnaces), many Aspen Woods builds use hydronic boiler systems with in-floor radiant — premium comfort, clean visual (no registers + ducts), better humidity retention in deep winter. Multi-zone manifold setups, sometimes integrated snowmelt. Specific service expertise needed; not interchangeable with forced-air technician knowledge.",
+            },
+            {
+              heading: "Combi boilers add a DHW layer to the heating conversation",
+              body: "When the same boiler handles space heating AND domestic hot water (combi), the DHW heat exchanger sees full Calgary hard-water exposure. Scaling kills DHW output well before space-heat performance drops. Annual descaling mandatory + softener pairing strongly recommended. We catch these before the no-hot-water-emergency.",
+            },
+            {
+              heading: "Large square footage = sized-to-house equipment matters",
+              body: "Aspen Woods homes commonly 3,500-6,000+ sqft with multiple bathrooms. Generic 50-gallon water heater sizing fails on back-to-back morning showers. We size equipment to the actual demand pattern — sometimes 75-gallon tank with high recovery, sometimes twin tanks, sometimes tankless with recirculation loop, sometimes combi-driven DHW. Honest comparison + written quote.",
+            },
+            {
+              heading: "No Poly-B in any Aspen Woods home",
+              body: "By 2002 (Aspen Woods build start), the industry was fully past Poly-B. Every Aspen Woods home uses modern PEX. Insurance is straightforward. No Poly-B concern at all. Focus replacement-budget conversations on equipment + softener + premium fixture maintenance.",
+            },
+            {
+              heading: "Premium fixture brands need brand-specific service",
+              body: "Hansgrohe, Brizo, Grohe, Kohler each have proprietary cartridge designs + thermostatic mixing valves + pressure-balance components. Generic plumbing knowledge isn't enough; brand-specific service prevents wrong-part installs + cartridge mismatches. We carry parts catalogues + order from authorized distributors.",
+            },
+            {
+              heading: "First-wave (2002-2010) original equipment at EOL territory",
+              body: "Earliest Aspen Woods builds are 15-23 years old now. Original boilers approaching or past 15-year service life. Original tanks likely on 2nd or 3rd generation. Original sump pumps tired. Active first-round (and sometimes second-round) equipment replacement era for this wave.",
+            },
+            {
+              heading: "Mid-late wave (2010-2015) approaching first-round replacement",
+              body: "2010-2015 builds are 10-15 years old. Tanks entering EOL territory (8-10 years unsoftened). Sump pumps approaching replacement age. Boilers + ACs mid-life with annual service catching most issues. Replacement conversations are coming within 3-7 years for major equipment.",
+            },
+            {
+              heading: "Tight envelopes + premium finishes = humidity matters",
+              body: "Aspen Woods post-2010 builds have tight envelopes — good efficiency, but indoor humidity in deep winter often drops below 20% RH without active humidification. Premium hardwoods, fine cabinetry, furniture grade finishes — all affected by very dry indoor air. Whole-home humidifier on the furnace or hydronic system protects the investment. See [humidifiers Calgary](/humidifiers-calgary/).",
+            },
+          ],
         },
       ],
       faq: {
-        heading: "Frequently Asked Questions",
+        heading: "Aspen Woods Plumbers — FAQs",
         items: [
           {
-            q: "Does FlameTech provide priority emergency service in Aspen Woods?",
-            a: "Yes — Aspen Woods is on our regular priority-dispatch radius. Burst pipes, major leaks, and sewer backups get routed ahead of scheduled work. Call 587-834-3668 and we'll confirm a window before the truck rolls.",
+            q: "Does my Aspen Woods home have Poly-B plumbing?",
+            a: "No. By the time Aspen Woods started building (2002), the industry had transitioned to PEX-A and PEX-B. Every Aspen Woods home uses modern PEX supply piping. You can skip the Poly-B replacement conversation entirely.",
           },
           {
-            q: "How rapidly can you reach Aspen Woods properties?",
-            a: "We dispatch from Calgary across the west side, and Aspen Woods sits right off Stoney Trail and 17 Ave SW — easy access from any direction. Emergency calls get priority routing. Call 587-834-3668 and we'll confirm a window before the truck rolls.",
+            q: "Do you service the in-floor radiant systems common in Aspen Woods?",
+            a: "Yes — Jason's specialty. 20+ years on hydronic systems including multi-zone in-floor radiant, manifold sets (Caleffi, Uponor, Viega), zone valve service, balancing valve adjustment, snowmelt loops, and the combi or system boilers driving them. Brand-agnostic on Viessmann, Triangle Tube, IBC, Navien, Lochinvar, NTI. See [boiler not working Calgary](/boiler-not-working-calgary/) for diagnostic scope.",
           },
           {
-            q: "What plumbing solutions do you offer Aspen Woods homeowners?",
-            a: "Drain cleaning, water heater service and replacement, leak detection, pipe repair and replacement, fixture installation (we work on Brizo, Hansgrohe, Kohler and other high-end lines you'll find in Aspen Woods homes), sewer line work, bathroom and kitchen renovations. If it carries water or gas, we work on it.",
+            q: "My combi boiler heats fine but the hot taps run lukewarm — what's wrong?",
+            a: "Almost certainly DHW heat exchanger scaling. Combi boilers have two heat exchangers — one for space heating, one for domestic hot water. The DHW exchanger has narrow internal passages where Calgary's hard water (150-200 mg/L) scales aggressively. Descaling restores output in most cases; severely scaled exchangers sometimes need replacement. Annual descaling + softener pairing prevents recurrence.",
           },
           {
-            q: "Are your plumbers licensed and insured?",
-            a: "Certainly. Every FlameTech Plumbing technician maintains complete licensure, bonding, and certification for Calgary operations. We carry comprehensive liability insurance protecting both our professionals and your valuable property.",
+            q: "My Aspen Woods home has multiple bathrooms — what size water heater do I need?",
+            a: "Depends on simultaneous-demand pattern, not just square footage. Multiple-bathroom luxury homes often need 75+ gallon high-recovery tanks, twin tanks plumbed in series, or tankless with recirculation. Generic 50-gallon sizing fails on back-to-back morning showers in 3+ bathroom Aspen Woods homes. We size to actual demand pattern and quote in writing.",
           },
           {
-            q: "Do Aspen Woods homes have Poly-B plumbing?",
-            a: "Some earlier-phase Aspen Woods properties built before the mid-1990s may contain polybutylene (Poly-B) piping, a material now known for premature failure. If you're unsure whether your home has Poly-B, FlameTech offers free inspections to identify the piping material and assess its condition. Visit our [Poly-B plumbing Calgary](/polyb-plumbing-calgary/) page for details on identification, insurance implications, and replacement options.",
+            q: "Should I install a water softener in my Aspen Woods home?",
+            a: "Strongly recommended. Calgary's hard water (150-200 mg/L) shortens premium fixture cartridge life, combi boiler DHW heat exchanger life, tankless heat exchanger life, and every appliance valve downstream. Particularly important when premium-grade Hansgrohe / Brizo / Kohler fixtures are installed. Pay-back over a single tank replacement cycle. See [water softener Calgary](/water-softener/).",
+          },
+          {
+            q: "My Aspen Woods boiler is the original from 2006 — is it at end of life?",
+            a: "Yes, likely. Condensing boilers in Calgary typically reach 15-20 years; an original 2006 unit is well into that range with safety + efficiency conversations becoming appropriate. Heat exchanger inspection + combustion analysis + flue inspection during service tells the story. We have an honest replace-vs-repair conversation. Often a good time to consider system reconfiguration if the original spec doesn't match current household demand.",
+          },
+          {
+            q: "Do you install premium fixture brands like Hansgrohe, Brizo, Kohler, Grohe?",
+            a: "Yes — these are the brands we install most in Aspen Woods. Pressure-balance valves, thermostatic shower systems, body sprays + rainfall heads, freestanding tub fillers, custom drains. Brand-specific cartridge knowledge matters — generic plumbing experience isn't enough. We carry parts catalogues + order direct from authorized distributors.",
+          },
+          {
+            q: "Can you coordinate with my renovation GC?",
+            a: "Yes — we handle GC coordination routinely on Aspen Woods renovation projects. Confirmed schedule windows, written quotes formatted for GC scope review, inspection coordination, and integration with broader trade schedules (framing, electrical, HVAC, drywall). Single point of contact, scheduled communication.",
+          },
+          {
+            q: "How fast can you respond to emergencies in Aspen Woods?",
+            a: "Same-day for emergencies — burst pipes, no hot water, no heat, sewer backup. Real person on the phone, we'll confirm a window before the truck rolls. Stoney Trail + 17 Ave SW access makes the run from our shop fast.",
+          },
+          {
+            q: "What other SW Calgary luxury neighbourhoods do you cover?",
+            a: "Same crew works [Mount Royal](/mount-royal-plumbers-calgary/), [Bel-Aire](/bel-aire-plumbers-calgary/), [West Springs](/west-springs-plumbers-calgary/), [Altadore](/altadore-plumbers-calgary/), [Marda Loop](/marda-loop-plumbers-calgary/), [Signal Hill](/signal-hill-plumbers-calgary/), Springbank Hill, Cougar Ridge, Strathcona Park, and the broader [SW Calgary](/calgary-plumbers-sw/). Hydronic + premium-fixture expertise translates across all of them.",
           },
         ],
       },
@@ -11003,119 +11090,204 @@ export const services: ServicePage[] = [
     category: "Plumbing",
     location: "Calgary",
     icon: "plumbing",
-    title: "Mount Royal Plumbers Calgary | Heritage Home Specialists",
+    title: "Mount Royal Plumbers Calgary — Heritage + Rebuild + Hydronic Radiant",
     lead:
-      "Licensed plumbers serving Upper and Lower Mount Royal — homes built between 1910 and 1940 with cast-iron stacks, original galvanized supply lines, and clay sewer laterals. We've worked on the heritage stock here for 25+ years and know what's behind the plaster.",
+      "Upper and Lower Mount Royal contain Calgary's most distinctive housing mix: original 1910-1940 heritage estates with cast-iron stacks and galvanized supply lines, mid-century renovations, AND modern luxury rebuilds with in-floor radiant heating, multi-zone hydronic boiler systems, and premium fixture brands. The work varies dramatically by home. We handle all of it — heritage plumbing restoration, full rebuild scope-of-work for tear-downs + additions, hydronic boiler service for radiant heating systems (Jason's specialty — 20+ years), premium fixture installation (Kohler, Brizo, Hansgrohe, Grohe, Waterworks).",
     heroBody: [
-      "Mount Royal's homes — from early 1900s estates to mid-century rebuilds and modern infill — each have their own plumbing patterns. Cast-iron stacks reaching end of life, galvanized supply lines closing off with mineral scale, clay laterals with root intrusion from mature street trees. Your plumbing team for [SW Calgary](/calgary-plumbers-sw/) knows which problem comes with which build year.",
-      "Priority dispatch for emergency calls — live answer, never automated. Call 587-834-3668. Neighbours with [Signal Hill](/signal-hill-plumbers-calgary/) and [Marda Loop](/marda-loop-plumbers-calgary/).",
+      "Three patterns dominate Mount Royal calls: (1) heritage-home maintenance + targeted replacement on original 1910-1940 homes (cast-iron stacks at end of life, galvanized supply lines closing off with scale, clay sewer laterals with mature-tree root intrusion), (2) hydronic boiler service + in-floor radiant system work on luxury rebuilds with modern Viessmann Vitodens, Triangle Tube Prestige, or IBC SL multi-zone systems, and (3) premium fixture installation + repair across both heritage restorations and modern rebuilds.",
+      "Same crew handles our [boiler installation](/boiler-installation-calgary/), [boiler service](/boiler-service-calgary/), [boiler repair](/boiler-repair-calgary/), and the diagnostic [boiler not working](/boiler-not-working-calgary/) work. Jason specifically handles hydronic system design — radiant zones, manifolds, snowmelt loops, integrated DHW. Plus the broader plumbing scope across heritage + modern systems.",
+      "Discretion and punctuality on every visit. Confirmed windows, careful coordination with property managers and renovation GCs. Real person on the phone. Call 587-834-3668.",
     ],
-    heroSubhead: "Heritage-Home Plumbing for Mount Royal",
+    heroSubhead: "Heritage + Rebuild + Hydronic Specialists",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
-    heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing service van in Mount Royal", fit: "cover" },
+    heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing + heating service in Mount Royal, SW Calgary", fit: "cover" },
     intro:
-      "Licensed plumbers for Mount Royal — heritage cast-iron and galvanized supply lines, clay sewer laterals, high-end fixture installations, priority emergency dispatch.",
+      "Mount Royal Calgary plumbing + heating. Heritage 1910-1940 home work, luxury rebuild hydronic radiant systems, premium fixture install, discreet white-glove service.",
     features: [
-      "Priority emergency plumbing",
-      "Heritage property restoration",
-      "Designer fixture installation",
-      "Precision leak detection",
-      "Premium water heater service",
-      "HD video sewer inspection",
+      "Heritage plumbing (galvanized, cast iron, clay)",
+      "Hydronic boiler + in-floor radiant",
+      "Multi-zone manifold + snowmelt design",
+      "Premium fixture install + repair",
+      "Sewer camera + trenchless lateral repair",
+      "Discreet, scheduled service windows",
     ],
     bullets: [
       {
-        t: "Master-level workmanship",
-        d: "Every FlameTech technician is fully licensed, bonded, and certified for Calgary operations with extensive liability insurance.",
+        t: "Heritage homes need different diagnostics + tools",
+        d: "1910-1940 Mount Royal homes have galvanized supply lines (closing off with mineral scale, pressure-loss driven), cast iron drain stacks (joints separating, pinhole leaks), clay sewer laterals (root intrusion at joints), and plaster + lath walls (infrared imaging beats tearing out the wall). Different problem set than suburban homes. We've worked these for 25+ years and know what's behind the wall before we open it.",
       },
       {
-        t: "Heritage-sensitive approach",
-        d: "We understand heritage designation considerations and municipal regulations governing Mount Royal property modifications.",
+        t: "Hydronic radiant + multi-zone boiler is Jason's specialty",
+        d: "Mount Royal luxury rebuilds + major renovations commonly include in-floor radiant heating with multi-zone manifolds, sometimes integrated snowmelt loops on driveways + walks, plus combi or system boilers for domestic hot water. Jason has 20+ years of hydronic system experience — design, commissioning, and ongoing service. Brand-agnostic on Viessmann, Triangle Tube, IBC, Navien, Lochinvar, NTI.",
+      },
+      {
+        t: "Mixed-era plumbing is common — diagnostic precision matters",
+        d: "Many Mount Royal homes have HERITAGE plumbing in some areas and FULLY MODERN plumbing in renovated areas — same house, two completely different problem sets. Reading the room (and the wall) before quoting takes experience. We assess what's actually behind the surface before recommending — no rip-and-replace by default.",
+      },
+      {
+        t: "Discreet, scheduled, professional",
+        d: "Confirmed windows, careful coordination with renovation GCs + property managers when relevant, careful protection of finished interiors during work, respect for heritage materials. No call centre — real person on the phone with full context of your home.",
       },
     ],
-    seoTitle: "Mount Royal Plumbers Calgary | Highly Rated Plumbing Experts",
+    seoTitle: "Mount Royal Plumbers Calgary | Heritage + Hydronic + Rebuild",
     seoDescription:
-      "Mount Royal plumbers in Calgary. Priority service, 25+ years experience, highly rated. Call 587-834-3668 for all plumbing needs.",
+      "Mount Royal Calgary plumbing + heating. Heritage 1910-1940 home work, luxury rebuild hydronic radiant systems, premium fixture install, multi-zone boiler service. Call 587-834-3668.",
     seoKeywords: [
-      "Mount Royal plumbers",
-      "plumber Mount Royal Calgary",
-      "SW Calgary plumber",
-      "luxury plumbing Calgary",
-      "heritage home plumber",
+      "Mount Royal plumbers Calgary",
+      "Mount Royal heritage plumbing",
+      "Upper Mount Royal plumber",
+      "Lower Mount Royal plumber",
+      "Mount Royal hydronic boiler",
+      "Mount Royal radiant heating",
+      "SW Calgary luxury plumber",
       "FlameTech Plumbing",
     ],
     quoteFormLabel: "Mount Royal plumbing",
     quoteFormPlaceholder:
-      "e.g. heritage fixture restoration, century-old supply lines, designer faucet install, HD sewer inspection…",
+      "e.g. galvanized supply line replacement in a 1925 heritage home, in-floor radiant zone not heating, combi boiler losing pressure, premium fixture install for a renovation, cast iron stack leak…",
     sidebar: {
-      title: "Mount Royal Plumbers",
+      title: "Mount Royal Plumbing + Heating",
       subtitle:
-        "Licensed plumbers for Upper and Lower Mount Royal — heritage homes, original cast-iron and galvanized supply lines, priority dispatch.",
+        "Heritage + rebuild specialists. Hydronic radiant + multi-zone boiler service. Discreet, scheduled, premium-finish-aware.",
       bullets: [
-        "25+ years on Calgary heritage homes",
-        "Cast-iron stack repair + replacement",
-        "Live dispatch — never automated",
-        "Fully licensed and insured",
+        "Real person on the phone",
+        "Free in-home assessment + written quote",
+        "Heritage + rebuild + hydronic across one crew",
+        "Discreet, scheduled service windows",
       ],
     },
     stats: [
-      { number: "25+", label: "Years of experience", icon: "verified" },
+      { number: "20+", label: "Years on hydronics", icon: "verified" },
       { number: "5.0★", label: "Google rated", icon: "star" },
-      { number: "FREE", label: "Written estimates", icon: "request_quote" },
-      { number: "Master", label: "licensed plumbers", icon: "award" },
+      { number: "Heritage", label: "+ Modern + Hydronic", icon: "check_circle" },
+      { number: "Real", label: "Person on the phone", icon: "call" },
     ],
     callout:
-      "Burst pipe, major leak, or sewer backup in Mount Royal? Call 587-834-3668 — priority dispatch from licensed plumbers any hour.",
+      "Heritage home plumbing concern, radiant zone problem, or premium-fixture renovation in Mount Royal? Call 587-834-3668 — discreet, scheduled, real-person dispatch.",
     richContent: {
       sections: [
         {
-          heading: "What We Do in Mount Royal",
+          heading: "What we do most often on Mount Royal calls",
           intro:
-            "Mount Royal homes were mostly built between 1910 and 1940 — that means cast-iron stacks, original galvanized supply lines, and clay sewer laterals. Here's what we work on regularly across the neighbourhood.",
+            "The three home types — heritage 1910-1940 originals, mid-century renovations, modern luxury rebuilds — need different work. We handle all three.",
           items: [
-            { heading: "Emergency Plumbing", body: "Burst pipes and sewer backups get routed ahead of scheduled work. Heritage homes are particularly vulnerable to frozen-pipe failures because the original walls have minimal insulation in the supply-line runs. See our [emergency plumber](/emergency-plumber-calgary/) page." },
-            { heading: "Drain and Sewer Work", body: "Clay sewer laterals on the original 1920s installations need camera inspection first, then hydro-jet or root barriers depending on what we find. Mature elms and maples across Mount Royal send roots into the joints. See [drain cleaning](/drain-cleaning-calgary/)." },
-            { heading: "Water Heater Replacement", body: "Many Mount Royal renovations have upgraded to [tankless](/tankless-water-heaters/) or higher-capacity [conventional tanks](/hot-water-tanks/) to handle multiple bathrooms in the same hot-water run. We size to the house, not a default." },
-            { heading: "Fixture Installation", body: "We install Kohler, Brizo, Hansgrohe and other high-end lines you'll find in Mount Royal renovations — and we work on the original cast-iron clawfoot tubs and pedestal sinks when owners want to keep them. See [bathroom plumbing](/bathroom-plumbing-calgary/)." },
-            { heading: "Leak Detection", body: "Infrared imaging and acoustic detection lets us find leaks inside plaster walls without tearing out the lath — important on heritage interiors where the wall finish is itself irreplaceable." },
-            { heading: "Sewer Camera + Hydro-Jet", body: "Video inspection first, mechanical or hydro-jet clearing second, root barriers or trenchless lining if the lateral needs it. We don't tear up the front lawn unless there's no other option." },
+            {
+              heading: "Galvanized supply line replacement (heritage homes)",
+              body: "Original 1910-1940 galvanized supply lines close off with mineral scale over 90+ years — water pressure drops, hot-side flow drops worse than cold (hot accelerates the scaling). Replacement with copper or PEX-A through accessible runs, sometimes phased over multiple renovation cycles. We coordinate with GCs on rebuild projects so the supply-line work integrates with the broader renovation scope.",
+            },
+            {
+              heading: "Cast iron drain stack repair + replacement",
+              body: "Cast iron drain stacks from the heritage era reach end of life through joint separation + pinhole rust at the bottom of horizontal runs. Symptom: slow drains + occasional leaks behind plaster walls or in basement ceilings. We repair with hubless fittings + cast-iron-compatible PVC where viable, full replacement where the stack is gone. Camera inspection identifies extent before quoting.",
+            },
+            {
+              heading: "Clay sewer lateral camera + trenchless repair",
+              body: "Original 1920s clay sewer laterals develop joint separation + root intrusion from Mount Royal's mature street trees (elms, maples, poplars). Symptom: slow main drain, gurgling, recurring backups. Camera inspection identifies location + severity; trenchless lining or spot repair preserves landscaping — we don't tear up the front lawn unless there's no other option.",
+            },
+            {
+              heading: "Hydronic boiler install + service (rebuilds)",
+              body: "Mount Royal rebuilds commonly include high-efficiency condensing boilers driving in-floor radiant heating + domestic hot water. Common brands: Viessmann Vitodens 100/200, Triangle Tube Prestige + Solo, IBC SL series, Navien NHB combi, Lochinvar Knight. Jason designs new installs, commissions zone control + flow setup, and handles ongoing service. See [boiler installation Calgary](/boiler-installation-calgary/).",
+            },
+            {
+              heading: "Multi-zone in-floor radiant + manifold service",
+              body: "Luxury rebuilds frequently have 6-12 zones of in-floor radiant — kitchen, bathrooms, living areas, basement, sometimes garage and exterior snowmelt loops. Manifold sets (Caleffi, Uponor, Viega) need annual flush, zone-valve actuator service, balancing-valve adjustment. Cold zones usually trace to stuck zone valves or air in the loop. We diagnose by zone + repair without disturbing finished floors.",
+            },
+            {
+              heading: "Combi boiler DHW service",
+              body: "Combi boilers (heat + domestic hot water from one appliance) are common in renovated Mount Royal homes. Calgary's hard water hits the DHW heat exchanger hard — narrow internal passages scale fast. Annual descaling mandatory + softener pairing strongly recommended. See [boiler not working](/boiler-not-working-calgary/) if your combi has heat but no hot water at the taps.",
+            },
+            {
+              heading: "Premium fixture installation",
+              body: "Kohler, Brizo, Hansgrohe, Grohe, Waterworks, Newport Brass, California Faucets, Rohl — we install the high-end brands you'll see in Mount Royal renovations. Pressure-balance valves, thermostatic showers, body sprays + rainfall heads, freestanding tub fillers, custom shower drains. See [bathroom plumbing Calgary](/bathroom-plumbing-calgary/) for renovation scope.",
+            },
+            {
+              heading: "Heritage fixture repair (clawfoot tubs, pedestal sinks, period faucets)",
+              body: "Some Mount Royal owners preserve original cast-iron clawfoot tubs + pedestal sinks + period faucets during renovations. Service: faucet cartridge replacement (often modern equivalents available), drain trap upgrade to current code, supply-line replacement under the fixture while preserving the visible heritage piece. We work with restoration GCs when needed.",
+            },
           ],
         },
         {
-          heading: "What's Different About Mount Royal Plumbing",
+          heading: "Why Mount Royal homes need a different conversation than suburb pages",
           intro:
-            "Heritage homes have specific patterns. Here's what we see most often on Mount Royal service calls.",
+            "Mount Royal's unique mix of heritage stock + active rebuild market creates a service profile unlike anything else in Calgary.",
           items: [
-            { body: "Original galvanized supply lines (1910s-1930s) closing off with mineral scale — water pressure drops, hot side worse than cold." },
-            { body: "Cast-iron stacks reaching end of life — joints separating, pinhole rust through the bottom of horizontal runs." },
-            { body: "Clay sewer laterals with root intrusion at the joints from mature street trees." },
-            { body: "Calgary's hard water destroying high-end fixtures faster than expected — a [water softener](/water-softener/) extends fixture life by years." },
-            { body: "Multi-storey layouts with long horizontal hot-water runs — replacement equipment needs to be sized for the actual demand, not a default 50-gallon." },
-            { body: "Slope and elevation across Mount Royal Crescent create unusual drainage paths that don't show on standard plans." },
-          ],
-        },
-        {
-          heading: "Preventive Care Programs for Mount Royal Properties",
-          intro:
-            "Proactive maintenance protects luxury property investments. We recommend Mount Royal homeowners schedule the following services.",
-          items: [
-            { body: "Annual comprehensive system evaluations identifying potential issues before failures occur." },
-            { body: "Pre-winter weatherization services protecting exterior plumbing from freeze damage." },
-            { body: "Quarterly water heater servicing extending equipment longevity and efficiency." },
-            { body: "Biannual drain maintenance preventing accumulation-related blockages." },
-            { body: "Semi-annual sewer video inspections monitoring line condition and root intrusion." },
-            { body: "Pressure testing and flow optimization ensuring consistent water delivery." },
+            {
+              heading: "Three home types, three different problem sets",
+              body: "Heritage 1910-1940 originals (galvanized, cast iron, clay), mid-century renovations (often partial plumbing updates with mixed-era complications), and modern luxury rebuilds (full modern PEX + hydronic radiant + combi boilers + premium fixtures). Same crew, three different toolkits and diagnostic approaches.",
+            },
+            {
+              heading: "Mature street trees + 90-year clay laterals = root intrusion",
+              body: "Mount Royal's mature elms + maples + poplars have established root systems that find clay sewer joint cracks. Symptom: slow main drain, gurgling, recurring backups despite snaking. Camera inspection + spot repair or trenchless lining beats tearing up boulevard landscaping. We don't trench unless there's no alternative.",
+            },
+            {
+              heading: "Hydronic + in-floor radiant is the dominant heating mode in rebuilds",
+              body: "Unlike most Calgary neighbourhoods (which are predominantly forced-air gas furnaces), Mount Royal rebuilds heavily use hydronic boiler systems with in-floor radiant heating — comfort + premium-feel + clean visual (no registers + ducts). Multi-zone manifold setups, sometimes integrated snowmelt for driveways + walks. Jason specifically handles hydronic system work as a specialty.",
+            },
+            {
+              heading: "Combi boilers add a DHW conversation layered on heating",
+              body: "When the same boiler handles space heating AND domestic hot water (combi), the DHW heat exchanger sees the full Calgary hard-water exposure — scaling kills DHW output well before space-heat performance suffers. Annual descaling mandatory + softener pairing strongly recommended. We catch these before the no-hot-water emergency.",
+            },
+            {
+              heading: "Plaster + lath walls + heritage finishes = non-destructive diagnostics",
+              body: "Many Mount Royal heritage homes have original plaster + lath walls that are themselves part of the home's character + value. Tearing them out for plumbing diagnostics is expensive and sometimes unrecoverable. Infrared imaging + acoustic detection let us locate leaks behind plaster without destruction. We preserve the wall when we can.",
+            },
+            {
+              heading: "Renovation GC coordination matters",
+              body: "Many Mount Royal calls come through renovation GCs managing major remodels or full rebuilds. Coordinating with the broader trades schedule (framing, electrical, HVAC, drywall) takes communication discipline. We provide schedule windows, written quotes formatted for GCs, and inspection coordination.",
+            },
+            {
+              heading: "Premium fixture brands need brand-specific knowledge",
+              body: "Hansgrohe, Brizo, Grohe, Kohler each have proprietary cartridge designs, thermostatic mixing valves, and pressure-balance components. Generic plumbing experience isn't enough; brand-specific service knowledge prevents the wrong-part install. We carry parts catalogues for the major premium brands and order direct from authorized distributors.",
+            },
+            {
+              heading: "Hard water still hits Mount Royal — softener install matters",
+              body: "Calgary's hard water (150-200 mg/L) is the same hard supply for Mount Royal as anywhere else. Premium fixture cartridges, dishwasher and washing machine valves, combi boiler DHW heat exchangers all wear faster without a softener. Single softener install at the main entry protects the whole house — and protects the premium fixture investment downstream.",
+            },
           ],
         },
       ],
       faq: {
-        heading: "Frequently Asked Questions",
+        heading: "Mount Royal Plumbers — FAQs",
         items: [
-          { q: "Do you provide priority emergency service to Mount Royal?", a: "Yes — Mount Royal is on our regular dispatch radius. Burst pipes, major leaks, and sewer backups get routed ahead of scheduled work. Call 587-834-3668 any hour." },
-          { q: "How does dispatch to Mount Royal work?", a: "We dispatch from Calgary into both Upper and Lower Mount Royal regularly — heritage homes here have specific plumbing patterns (cast-iron stacks, original galvanized supply lines, knob-and-tube-era layouts) and we plan for them. Emergency calls receive priority routing. Call 587-834-3668 and we'll confirm a window before the truck rolls." },
-          { q: "Which plumbing services do you offer Mount Royal residents?", a: "Drain cleaning, water heater service and replacement, leak detection, pipe repair and replacement (including galvanized supply line and cast-iron stack work), high-end fixture installation, sewer line work, and bathroom/kitchen renovations. The heritage-home work — galvanized, cast-iron, original clay laterals — is where we spend most of our Mount Royal time." },
-          { q: "Are your technicians properly licensed and insured?", a: "Definitely. Every FlameTech Plumbing technician maintains complete licensure, bonding, and certification for Calgary operations. We carry extensive liability insurance protecting both our professionals and your valuable property." },
-          { q: "Do you provide warranties on plumbing work?", a: "Absolutely, we stand behind our workmanship with comprehensive service warranties. Our satisfaction commitment ensures complete resolution if you're dissatisfied with our work. Additionally, we extend manufacturer warranties on all components and equipment we install." },
+          {
+            q: "What's behind the wall in my 1920s Mount Royal home's plumbing?",
+            a: "Most likely original galvanized supply lines (1910s-1940s era) closing off with mineral scale, cast iron drain stacks with joints separating + pinhole leaks at horizontal runs, and clay sewer lateral to the city main. Walls are typically plaster + lath. We can diagnose without destruction using infrared imaging + acoustic detection — we'll tell you what's behind the wall before recommending any tear-out.",
+          },
+          {
+            q: "Why is my Mount Royal hot water pressure low?",
+            a: "Almost always galvanized supply lines closing off with mineral scale. Heat accelerates scaling, so hot-side pressure typically drops worse than cold. Replacement to copper or PEX-A restores flow. Often phased over major renovation cycles to coordinate with broader scope. We assess + quote in writing — no rip-and-replace by default.",
+          },
+          {
+            q: "Do you work on the in-floor radiant systems common in Mount Royal rebuilds?",
+            a: "Yes — Jason's specialty. 20+ years on hydronic systems including multi-zone in-floor radiant, manifold sets (Caleffi, Uponor, Viega), zone valve service, balancing valve adjustment, snowmelt loops, and the combi or system boilers driving them. Brand-agnostic on Viessmann, Triangle Tube, IBC, Navien, Lochinvar, NTI. See [boiler not working Calgary](/boiler-not-working-calgary/) for diagnostic scope.",
+          },
+          {
+            q: "My combi boiler heats fine but the hot taps are lukewarm — what's wrong?",
+            a: "Almost certainly DHW heat exchanger scaling. Combi boilers have two heat exchangers — one for space heating, one for domestic hot water. The DHW exchanger has narrow internal passages where Calgary's hard water (150-200 mg/L) scales aggressively. Descaling restores output in most cases; severely scaled exchangers sometimes need replacement. Annual descaling + softener pairing prevents recurrence.",
+          },
+          {
+            q: "Why are my drains slow in my heritage Mount Royal home?",
+            a: "Most common cause: root intrusion in the clay sewer lateral. Mount Royal's mature street trees have established root systems that find joint cracks in 90-year-old clay laterals. Camera inspection identifies the location + severity. Hydro-jet or mechanical cutting clears short-term; trenchless lining or spot repair for permanent fix. We don't trench up the front lawn unless there's no alternative.",
+          },
+          {
+            q: "Do you install premium fixture brands like Hansgrohe, Brizo, Kohler?",
+            a: "Yes — these are the brands we install most in Mount Royal. Pressure-balance valves, thermostatic shower systems, body sprays + rainfall heads, freestanding tub fillers, custom drains. Brand-specific cartridge knowledge matters — generic plumbing experience isn't enough on premium fixture lines. We carry parts catalogues + order direct from authorized distributors.",
+          },
+          {
+            q: "Should I install a water softener in my Mount Royal home?",
+            a: "Strongly recommended. Calgary's hard water (150-200 mg/L) is the same hard supply across the whole city. Premium fixture cartridges, dishwasher valves, washing machine valves, combi boiler DHW heat exchangers all wear faster without a softener. Single softener at the main entry protects the whole house — particularly important when the downstream fixtures are premium-grade. See [water softener Calgary](/water-softener/).",
+          },
+          {
+            q: "Can you coordinate with my renovation GC?",
+            a: "Yes — we handle GC coordination routinely on Mount Royal projects. Confirmed schedule windows, written quotes formatted for GC scope review, inspection coordination, and integration with broader trade schedules (framing, electrical, HVAC, drywall). Single point of contact, scheduled communication.",
+          },
+          {
+            q: "How quickly can you respond to emergencies in Mount Royal?",
+            a: "Same-day for emergencies — burst pipes, no hot water, no heat, sewer backup. Real person on the phone, we'll confirm a window before the truck rolls. Mount Royal is on our regular dispatch radius; SW dispatch via 14th Street or Crowchild makes the run fast.",
+          },
+          {
+            q: "What other SW Calgary inner-city neighbourhoods do you cover?",
+            a: "Same crew works [Altadore](/altadore-plumbers-calgary/), [Marda Loop](/marda-loop-plumbers-calgary/), [Killarney](/killarney-plumbers-calgary/), [Bel-Aire](/bel-aire-plumbers-calgary/), [Signal Hill](/signal-hill-plumbers-calgary/), [Aspen Woods](/aspen-woods-plumbers-calgary/), [West Springs](/west-springs-plumbers-calgary/), and the broader [SW Calgary](/calgary-plumbers-sw/). Heritage + rebuild + hydronic expertise translates across all of them.",
+          },
         ],
       },
     },
