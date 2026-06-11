@@ -5164,119 +5164,274 @@ export const services: ServicePage[] = [
     slug: "tankless-water-heaters",
     category: "Water",
     icon: "whatshot",
-    title: "Tankless Water Heaters Calgary – Expert Water Heating Services",
+    title: "Tankless Water Heaters Calgary — Navien, Rinnai, IBC Install + Service",
     lead:
-      "FlameTech Plumbing & Heating is a trusted name in Calgary for water heaters. Tired of running out of hot water or paying high energy bills for your traditional tanked water heater? Upgrading to a tankless water heater could be the perfect solution for your Calgary home.",
+      "Tankless water heaters are the right call for some Calgary homes — endless hot water capacity, 20+ year lifespan, big space savings, lower lifecycle operating cost — and the wrong call for others. Calgary's hard water is unusually punishing on tankless heat exchangers (faster scale buildup than tank-style because water passes through narrow internal passages), so annual descaling is non-negotiable and a [water softener](/water-softener/) upstream is strongly recommended. FlameTech installs and services every common brand: Navien NPE-A/S, Rinnai RU/RUR, IBC SL series, Bosch, Noritz. Honest tankless-vs-tank conversation before we quote.",
     heroBody: [
-      "At FlameTech Plumbing & Heating, we specialise in the installation, maintenance, and repair of tankless water heaters, providing Calgary residents with efficient, on-demand hot water. We install and service every major brand including [Navien](https://www.navieninc.com/), [Rinnai](https://www.rinnai.us/), and [IBC](https://ibcboiler.com/).",
-      "Not sure tankless is right for your home? Read our honest tankless vs tank comparison — it covers Calgary's hard-water and cold-inlet realities most generic guides miss. If a tank still makes sense for you, see [hot water tanks](/hot-water-tanks/) or our [tank replacement page](/hot-water-tank-replacement-calgary/).",
-      "Our team lives and works right here in Calgary and understands the demands each home places on its water-heating system. A [water softener](/water-softener/) upstream of any tankless extends its life dramatically — worth considering in the same conversation.",
+      "Three scenarios drive most Calgary tankless calls: (1) replacing an aging tank with a tankless upgrade (most common — tank at end of life, owner wants endless hot water + space savings + longer lifespan), (2) new build or major renovation where tankless is being spec'd from the design phase, or (3) basement suite / secondary suite where space constraints favor a compact wall-mounted tankless. We handle all three with permits, gas-line sizing, venting, and code-compliant condensate routing.",
+      "Tankless isn't always the right call. Higher upfront cost (often 2-3x a tank install when gas line upsizing is required — most tankless units need 200,000+ BTU vs a tank's 40,000), higher maintenance burden (annual descaling required to keep manufacturer warranties valid in Calgary water), and the cold-inlet reality of Calgary winters means tankless output drops as inlet temp drops. We tell you straight when a tank is the better fit. See [hot water tanks Calgary](/hot-water-tanks/) for the tank path or [tank replacement](/hot-water-tank-replacement-calgary/) for same-day swaps.",
+      "If something's actively wrong with your existing tankless (error code, lukewarm output, no hot water at the taps), see the diagnostic pages: [no hot water](/no-hot-water-calgary/) and [hot water issues](/hot-water-issues-calgary/) cover the common tankless error codes + descaling-related failures. Call 587-834-3668 for a free in-home tankless assessment. [Monthly financing](/financing/) available.",
     ],
-    heroSubhead: "Calgary Tankless Water Heater Experts",
+    heroSubhead: "Navien · Rinnai · IBC · Tankless Specialists",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
     heroImage: { src: "/images/2026/04/Ibc-tankless.webp", alt: "IBC tankless water heater installed by FlameTech in a Calgary basement", fit: "cover" },
     intro:
-      "Tankless water heater install, service, and repair in Calgary. On-demand hot water, higher efficiency, space-saving design, and 20+ year lifespan with proper maintenance.",
+      "Calgary tankless water heater install + service. Navien NPE, Rinnai RU/RUR, IBC SL. Gas line + venting + condensate handled. Annual descaling. Honest tank-vs-tankless conversation.",
     features: [
-      "Tankless install & retrofit",
-      "Gas line & venting upgrade",
-      "Annual descaling service",
-      "Combi & recirculation loops",
-      "Honest tank-vs-tankless advice",
-      "Every major tankless brand installed",
+      "Tankless install + tank-to-tankless retrofit",
+      "Gas line upsize + venting + condensate",
+      "Annual descaling service (Calgary required)",
+      "Combi (heat + DHW) configurations",
+      "Recirculation loop install",
+      "Tankless repair (error codes, heat exchanger)",
     ],
     bullets: [
       {
-        t: "Right for the right home",
-        d: "We'll tell you honestly when a traditional tank is the better choice — we don't upsell.",
+        t: "Honest tank-vs-tankless conversation upfront",
+        d: "Tankless isn't right for every home. We walk through the comparison — install cost, lifecycle cost, hard-water reality, peak demand patterns, available gas line capacity — before quoting. If a tank is the better fit, we'll tell you so and quote that instead. No upsell.",
       },
       {
-        t: "Calgary hard-water aware",
-        d: "We recommend softener pairing and annual descaling to protect the heat exchanger from mineral buildup.",
+        t: "Calgary hard-water aware (descaling is mandatory)",
+        d: "Calgary's hard water (150-200 mg/L) is brutal on tankless heat exchangers — internal passages narrow enough that mineral buildup happens fast. Annual descaling is REQUIRED (not optional) to keep warranties valid and prevent heat exchanger damage. We recommend pairing every tankless install with a properly-sized [water softener](/water-softener/) — extends tankless life dramatically and protects every other water-using fixture in the home.",
+      },
+      {
+        t: "Gas line + venting + condensate done right",
+        d: "Tankless installs are more complex than tank installs. A typical Navien NPE-A 240 needs 200,000 BTU input — most existing 3/4\" home gas lines can support a tank but NOT a tankless without upsizing. We size the gas line correctly, route condensate (high-efficiency condensing tankless requires acidic-condensate drain), and vent per code (concentric direct-vent or twin-pipe). Done wrong, performance suffers and warranties void.",
+      },
+      {
+        t: "Every major brand installed and serviced",
+        d: "Navien (NPE-A and NPE-S — most common Calgary brand), Rinnai (RU/RUR), IBC (SL series — also a combi boiler option), Bosch, Noritz. Brand selection depends on size, condensing vs non-condensing, combi capability, parts availability, and your install budget. We pick based on the specific install, not a single dealer relationship.",
       },
     ],
-    seoTitle: "Tankless Water Heaters Calgary | Installation & Service",
+    seoTitle: "Tankless Water Heaters Calgary | Navien + Rinnai + IBC Install",
     seoDescription:
-      "Calgary's trusted tankless water heater experts. Professional installation, maintenance & repair. Endless hot water, energy efficient. Call FlameTech today!",
+      "Calgary tankless install + service. Navien, Rinnai, IBC. Gas line + venting + condensate handled. Annual descaling. Honest tank-vs-tankless conversation. Call 587-834-3668.",
     seoKeywords: [
       "tankless water heater Calgary",
-      "on-demand water heater Calgary",
       "tankless install Calgary",
-      "Navien Rinnai tankless",
-      "water heater repair Calgary",
+      "Navien tankless Calgary",
+      "Rinnai tankless Calgary",
+      "IBC tankless Calgary",
+      "tankless vs tank Calgary",
+      "tankless descaling Calgary",
       "FlameTech Plumbing",
     ],
     quoteFormLabel: "tankless water heater",
     quoteFormPlaceholder:
-      "e.g. retiring our old tank, big family running out of hot water, looking at a Navien NPE combi, planning a basement suite…",
+      "e.g. retiring our old tank, big family running out of hot water, looking at a Navien NPE combi, planning a basement suite, tankless throwing error codes…",
     sidebar: {
       title: "Calgary Tankless Water Heaters",
       subtitle:
-        "Expert installation, annual descaling, and honest advice on whether tankless is right for your Calgary home.",
+        "Navien + Rinnai + IBC install + service. Gas line + venting + condensate handled. Annual descaling. Honest tank-vs-tankless conversation.",
       bullets: [
-        "Licensed and insured technicians",
-        "Proper sizing for busy Calgary households",
-        "Code-compliant gas, venting, and condensate",
-        "Free, no-obligation quotes",
+        "Free in-home assessment + written quote",
+        "Navien · Rinnai · IBC · Bosch · Noritz",
+        "Annual descaling (Calgary required)",
+        "Softener pairing recommended",
       ],
     },
     stats: [
-      { number: "98%", label: "AFUE efficiency", icon: "verified" },
+      { number: "20+yr", label: "Tankless lifespan", icon: "verified" },
       { number: "5.0★", label: "Google rated", icon: "star" },
-      { number: "Endless", label: "hot water", icon: "schedule" },
-      { number: "Licensed", label: "& insured", icon: "award" },
+      { number: "Endless", label: "hot water", icon: "check_circle" },
+      { number: "FREE", label: "In-home assessment", icon: "request_quote" },
     ],
     financing: {
       detail:
-        "Spread the cost of your new tankless water heater into flexible monthly payments via our Financeit partner.",
+        "Spread the cost of a tankless install into monthly payments via our Financeit partner.",
     },
     callout:
-      "Old tank leaking or constantly running out of hot water? Call 587-834-3668 for a free, no-obligation tankless assessment.",
+      "Planning a tankless install or replacing an aging tank? Call 587-834-3668 for a free in-home assessment — honest tank-vs-tankless comparison upfront.",
     richContent: {
       sections: [
         {
-          heading: "Why Choose FlameTech for Your Tankless Water Heater in Calgary?",
+          heading: "What we install + service on Calgary tankless calls",
           intro:
-            "Tankless water heaters (also called on-demand water heaters) offer real advantages over conventional storage-tank models, making them an increasingly popular choice for Calgary homeowners. The full breakdown is in our tankless vs tank comparison — endless hot water, lower running costs, longer lifespan with proper maintenance.\n\nOur team is made up of highly skilled and experienced technicians who live and work right here in Calgary. We understand the specific demands each home places on its water-heating system and are equipped to handle any issue, big or small.\n\nAll our technicians are fully licensed and insured, guaranteeing professional and safe service to the highest industry standards. If you're not sure tankless is right for you, see [hot water tanks](/hot-water-tanks/) and [tank replacement](/hot-water-tank-replacement-calgary/) for the conventional path.",
+            "Common tankless configurations across Calgary. We talk through trade-offs before quoting — brand, condensing vs non-condensing, combi vs DHW-only, recirculation, gas-line capacity.",
           items: [
-            { heading: "Local Calgary Experts", body: "Our technicians live and work in Calgary. We understand the demands local homes place on water heating systems and are equipped to handle any issue, big or small." },
-            { heading: "Licensed & Insured", body: "Every technician on our team is fully licensed and insured, guaranteeing professional, safe service that adheres to the highest industry standards." },
-            { heading: "Every major brand", body: "We install and service every major tankless brand sold in Calgary — install, service, and repair to manufacturer specifications, with warranty registration on every job." },
-            { heading: "Honest Recommendations", body: "We'll tell you straight if a traditional tank is the better choice for your home and budget. No upselling, no pressure." },
+            {
+              heading: "Navien NPE-A / NPE-S — most common Calgary install",
+              body: "Navien NPE-A (condensing, high efficiency, built-in recirculation buffer tank) and NPE-S (condensing, no buffer) are the most common tankless units we install in Calgary. Reliable, well-supported by Calgary parts distributors, strong warranty (typically 15 years on heat exchanger when registered + descaled annually). Common sizes: NPE-A 240 (240,000 BTU, 7.5 GPM at 35°F rise) for 3-4 person households; NPE-A 199 / 180 for smaller households or suite applications.",
+            },
+            {
+              heading: "Rinnai RU / RUR — premium alternative",
+              body: "Rinnai RUR (recirculation-built-in) and RU (non-recirculation) condensing tankless units. Quieter operation than Navien, slightly higher upfront cost, equally reliable in our experience. RUR models include built-in recirculation pump for instant hot water at distant fixtures (worth considering in larger homes). Common sizes: RU199 / RUR199 (199,000 BTU) for typical Calgary homes.",
+            },
+            {
+              heading: "IBC SL series — combi capability",
+              body: "IBC SL-series units are tankless heaters that also support full hydronic heating (combi units) — heat your house AND your domestic hot water from a single piece of equipment. Best for: homes converting from boiler to combi, new builds where mechanical room space is at a premium, in-floor radiant systems with modest heat-load. See [boiler not working Calgary](/boiler-not-working-calgary/) for combi DHW issues + scaling on the heat exchanger (a Calgary-specific concern).",
+            },
+            {
+              heading: "Bosch + Noritz — niche brand alternatives",
+              body: "Bosch (Greentherm series) and Noritz (NRCP / NRCB) are reliable alternatives we install when a specific feature or parts-availability situation makes them the right call. Less common in Calgary than Navien or Rinnai but well-supported.",
+            },
+            {
+              heading: "Tank-to-tankless retrofit (most common scenario)",
+              body: "Old tank at end of life, owner wants endless hot water capacity, space savings, and the longer lifespan. We size the gas line (most homes need 3/4\" upsized to 1\" for tankless), install or relocate vent (sidewall direct-vent typical), route condensate drain (HE condensing units only), wall-mount the unit, and commission. Typical retrofit: 1-2 days depending on gas line + vent complexity.",
+            },
+            {
+              heading: "Combi setup (heat + DHW from one unit)",
+              body: "Combi tankless units (IBC SL, Navien NCB series, others) handle BOTH space heating AND domestic hot water from a single appliance — eliminates the separate boiler + tank in a hydronic-heated home. Best for: homes with modest heat-load (~80-100k BTU/h heating demand), basement suites, and renovations where mechanical room space is at a premium. Calgary hard water hits the DHW heat exchanger especially hard — annual descaling + softener pairing critical.",
+            },
+            {
+              heading: "Recirculation loop for instant hot water",
+              body: "Tankless without recirculation: turn on a faucet, wait 5-30 seconds for hot water to arrive (depending on distance from the unit). Recirculation loop: a small pump circulates hot water through a dedicated return line back to the heater, so hot water is instantly available at every fixture. Common upgrade in larger Calgary homes or when the tankless is far from the master bath / kitchen. Rinnai RUR has recirculation pump built in.",
+            },
+            {
+              heading: "Annual descaling service (Calgary required)",
+              body: "Pump a citric-acid descaler through the heat exchanger for 30-45 minutes to dissolve scale buildup. Required to keep manufacturer warranties valid in Calgary's hard water. We carry descaler kits on every tankless service call. Best done in late summer / early fall before peak winter demand. Pair with annual filter clean + flame sensor check.",
+            },
           ],
         },
         {
-          heading: "Why Go Tankless?",
-          intro: "Here are some key benefits of tankless water heaters to consider for your Calgary home.",
+          heading: "Tankless vs tank — the honest Calgary comparison",
+          intro:
+            "Tankless is right for some homes, wrong for others. Here's how the comparison actually breaks down for Calgary.",
           items: [
-            { heading: "Energy Efficiency", body: "Tankless units only heat water when you need it, unlike tanked heaters that continuously heat and store water. This on-demand system can significantly reduce energy consumption and lower your utility bills — a valuable saving in Calgary's climate." },
-            { heading: "Endless Hot Water", body: "Never run out of hot water, even with multiple showers or appliances running simultaneously. Tankless heaters provide a continuous supply of hot water, perfect for busy Calgary households." },
-            { heading: "Space-Saving Design", body: "Without a large storage tank, tankless water heaters are much more compact and can be installed in smaller spaces, freeing up valuable square footage in your basement or utility room." },
-            { heading: "Suited to Calgary's Climate", body: "Modern tankless water heaters are designed to perform efficiently even in colder climates like Calgary, providing reliable hot water throughout the year." },
+            {
+              heading: "Tankless wins: endless hot water capacity",
+              body: "Tankless heaters produce hot water as long as the tap is open — never run out, even during peak simultaneous demand (multiple showers, dishwasher, laundry). Tank capacity is finite: a 50-gallon tank delivers ~40 gallons of usable hot water before recovery, then you're waiting on the burner. For families with multiple bathrooms or back-to-back morning showers, tankless wins clearly.",
+            },
+            {
+              heading: "Tankless wins: 20+ year lifespan (vs 8-10 for Calgary tanks)",
+              body: "Tankless heat exchangers don't accumulate sediment in the same way tank bottoms do. With annual descaling + a water softener, Calgary tankless units routinely hit 20+ years. Tanks here typically give up at 8-10 years unsoftened. Total-cost-of-ownership math over 20 years often favors tankless even with higher install cost.",
+            },
+            {
+              heading: "Tankless wins: space savings",
+              body: "Wall-mounted tankless units take roughly the footprint of a small briefcase. Tank takes 24\"x24\" of floor space + 60\" of vertical. Big deal in finished basements, small mechanical rooms, basement suites, and luxury rebuilds where every square foot matters.",
+            },
+            {
+              heading: "Tank wins: lower install cost",
+              body: "Tank installs in a few hours; tankless often takes 1-2 days with gas line upsizing, venting modifications, and condensate routing. Tankless install cost is often 2-3x a comparable tank install. If you're 5+ years from selling and budget matters more than lifecycle math, tank is the better near-term call.",
+            },
+            {
+              heading: "Tank wins: simpler maintenance",
+              body: "Tankless requires annual descaling (mandatory in Calgary water to keep warranties valid). Tank requires annual flushing (recommended but skipped by many homeowners without immediate consequences). Tankless maintenance burden is higher; if you won't commit to annual service, tankless is a worse choice.",
+            },
+            {
+              heading: "Tank wins: cold-inlet performance margin",
+              body: "Tankless output drops as inlet water temperature drops. Calgary's groundwater is 4°C in winter — a tankless rated for 7.5 GPM at 35°F temperature rise will only deliver maybe 4-5 GPM in deep winter (heating from 4°C to 49°C is a bigger rise than spec). Tank doesn't have this problem; the 50 gallons of stored water is always there. For homes pushing peak demand in deep winter, tank's storage buffer matters.",
+            },
           ],
         },
         {
-          heading: "Our Expert Tankless Water Heater Installation Services in Calgary",
+          heading: "Why Calgary tankless installs need extra attention",
           intro:
-            "Installing a tankless water heater is a complex job that requires specialized knowledge and experience. Our team of licensed and insured technicians at FlameTech Plumbing & Heating are experts in tankless water heater installation in Calgary.",
+            "Calgary's water, climate, and gas infrastructure shape what makes a good tankless install. Knowing the local context separates a good install from a barely-functional one.",
           items: [
-            { heading: "Professional Assessment", body: "We assess your home's hot water needs and recommend the right size and model of tankless heater for optimal performance." },
-            { heading: "Code Compliance", body: "Our installations strictly adhere to all local Calgary building codes and regulations for your safety and peace of mind." },
-            { heading: "Quality Workmanship", body: "We take pride in our meticulous work, ensuring a seamless and reliable installation that will last for years." },
-            { heading: "Customer Satisfaction", body: "Your satisfaction is our top priority. We stand behind our work with guarantees on our services." },
+            {
+              heading: "Hard water destroys tankless heat exchangers without intervention",
+              body: "Calgary water hardness (150-200 mg/L) scales tankless heat exchangers aggressively. Internal passages are narrow (helps efficiency) and water flows through quickly (helps efficiency) — but those same features mean scale accumulates fast. Without annual descaling, a tankless unit can scale to the point of failure within 5-7 years. With annual descaling + a [water softener](/water-softener/), the same unit hits 20+ years routinely.",
+            },
+            {
+              heading: "Gas line upsize is almost always required",
+              body: "Most existing Calgary home gas lines are 3/4\" — fine for a 40,000 BTU tank but insufficient for a 200,000+ BTU tankless. Upsizing to 1\" (sometimes 1-1/4\" for larger units or long runs) is part of most retrofit installs. We size the line to the specific tankless model and pull required permits. Done wrong, the unit starves for gas in peak demand and lockouts cascade.",
+            },
+            {
+              heading: "Cold inlet temperature shrinks rated capacity",
+              body: "Tankless GPM ratings assume a specific temperature rise (typically 35°F). Calgary's 4°C groundwater in winter requires a bigger rise to reach 49°C output (~80°F rise instead of 35°F). Real-world winter flow rate is often 50-60% of nameplate spec. We size to actual Calgary inlet temps, not the marketing spec — usually means sizing one model up from what a generic tankless calculator would recommend.",
+            },
+            {
+              heading: "Condensate drain on high-efficiency condensing units",
+              body: "Condensing tankless (most modern installs — Navien NPE, Rinnai RU, IBC SL) produces acidic water condensate that drains through a small PVC line. In Calgary winters, lines routed through unheated space or exiting outdoors can FREEZE — unit locks out as a safety. Permanent fix: route through heated space + heat trace where outdoor exit is required. Common cold-snap call wave for tankless units installed poorly.",
+            },
+            {
+              heading: "Power-vent sidewall is the standard",
+              body: "Tankless units vent horizontally through the side wall, not vertically through a chimney. Concentric direct-vent (intake + exhaust in one pipe) or twin-pipe configurations. We position vent terminations per code (clear of windows, fresh-air intakes, and operable openings) and ensure proper slope back to the unit for condensate management.",
+            },
+            {
+              heading: "Build-era housing matters for retrofit complexity",
+              body: "Pre-2000 Calgary homes (heritage, Brentwood, Glendale, Bowness): smaller gas lines, often chimney-vented water heating, more retrofit work to convert. Post-2010 builds (Mahogany, Auburn Bay, Cranston): newer infrastructure typically supports tankless retrofit cleanly. Luxury rebuilds (Mount Royal, Bel-Aire, Aspen Woods): often already speccing tankless or combi from the design phase, modern infrastructure makes install straightforward.",
+            },
+            {
+              heading: "Suite applications popular in Calgary",
+              body: "Basement suites, garage suites, and secondary suites benefit from tankless: compact, no flue requirements (with direct-vent), endless hot water for a small footprint, no need to dedicate floor space. Smaller-capacity tankless models (NPE-A 180 / RU160) suit single-bathroom suites well.",
+            },
+          ],
+        },
+        {
+          heading: "How a Calgary tankless install actually runs",
+          intro:
+            "Typical 1-2 day install for tank-to-tankless retrofit; new-build install often coordinated with broader plumbing rough-in.",
+          items: [
+            {
+              heading: "1. In-home assessment + sizing + brand recommendation",
+              body: "Check household demand profile (fixture count, simultaneous-use pattern, hot-water habit), available wall space for the unit, gas line size + run length, vent termination options, condensate drain options. Recommend brand + size based on the specific install. Run a real GPM calculation against Calgary winter inlet temps — usually one size up from the marketing-spec recommendation.",
+            },
+            {
+              heading: "2. Tank-vs-tankless honest conversation + written quote",
+              body: "Walk through tank-vs-tankless trade-offs for your specific home and demand pattern. If a tank is the better call, we'll tell you and quote that path instead. If tankless is the right call, written quote covers unit cost, gas line modifications, venting, condensate drain, permits, and removal of old tank. Softener pairing quoted separately as a recommendation.",
+            },
+            {
+              heading: "3. Gas line + electrical + vent + condensate prep",
+              body: "Permit pull (plumbing + gas). Upsize gas line where required (most retrofits need this). Run new vent path through the wall to terminate at code-required clearances. Route condensate drain to a floor drain or condensate pump. Run 120V power to the unit location.",
+            },
+            {
+              heading: "4. Remove old tank, mount + plumb tankless",
+              body: "Drain and remove old tank, recycle. Mount tankless unit on the wall with manufacturer-required clearances. Connect cold + hot water lines (with isolation valves for future descaling), gas line, condensate drain, vent, electrical, control wiring. If recirculation: install pump + dedicated return line back to the tankless cold-water inlet.",
+            },
+            {
+              heading: "5. Commission + parameter setup",
+              body: "Pressure-test gas line, fill water side and bleed air, power on, set output temperature (typically 49°C — Alberta code recommendation), set unit parameters (recirculation schedule if applicable, high-altitude adjustment if needed). Run a full hot-water draw at the most distant fixture to verify performance + temperature stability.",
+            },
+            {
+              heading: "6. Walkthrough + registration + inspection",
+              body: "Walk you through: pilot/igniter behavior (modern tankless has electronic ignition — no standing pilot), error code basics (capture + call if displayed), recommended descaling schedule (annually in Calgary, mandatory for warranty), softener pairing if not done. Register with manufacturer for warranty (Navien 15-year heat exchanger, Rinnai similar — require registration). Schedule code inspection if required.",
+            },
           ],
         },
       ],
       faq: {
-        heading: "Frequently Asked Questions About Tankless Water Heaters in Calgary",
-        intro:
-          "Ready to experience the FlameTech difference? Contact us today for a free, no-obligation quote on our tankless water heater services in Calgary. You can reach us by phone, email, or through our online booking system. We're here to answer your questions and schedule your service at your convenience.",
+        heading: "Tankless Water Heaters Calgary — FAQs",
         items: [
-          { q: "What is a tankless water heater?", a: "A tankless water heater is a unit that heats water on demand as it flows through the device, rather than storing and heating water in a tank." },
-          { q: "How much does tankless water heater installation cost in Calgary?", a: "The cost of tankless water heater installation in Calgary varies depending on the model, complexity of the installation, and any necessary plumbing or venting modifications. Contact us for a free, no-obligation quote." },
-          { q: "How long does a tankless water heater last?", a: "With proper maintenance, a tankless water heater can last 20 years or more, significantly longer than the average lifespan of a traditional tanked heater." },
-          { q: "Are tankless water heaters energy efficient in Calgary's climate?", a: "Yes, modern tankless water heaters are designed to be highly energy efficient even in colder climates like Calgary, as they only heat water when needed." },
-          { q: "Can I replace my old tank water heater with a tankless unit?", a: "In most cases, yes. However, it may require modifications to your existing plumbing, gas line, or venting. Our experts can assess your home and determine the best installation plan." },
+          {
+            q: "Is a tankless water heater worth it in Calgary?",
+            a: "For some homes, yes. For others, no. Tankless wins on: endless hot water capacity, 20+ year lifespan, space savings, lifecycle operating cost. Tank wins on: lower upfront cost, simpler maintenance (no mandatory descaling), better cold-inlet performance margin in deep winter, less complexity. For Calgary specifically, the hard-water reality means tankless requires annual descaling + ideally a [water softener](/water-softener/) — non-negotiable to keep warranties valid. We walk through the honest comparison before quoting.",
+          },
+          {
+            q: "How long does a tankless water heater last in Calgary?",
+            a: "With annual descaling + a water softener, 20+ years is realistic — and we routinely see Calgary tankless units hitting that. Without descaling, scale buildup can cause heat exchanger failure within 5-7 years. The longevity advantage over tanks (8-10 year Calgary average) is genuine, but it depends entirely on annual maintenance.",
+          },
+          {
+            q: "Which tankless brand is best for Calgary?",
+            a: "Navien NPE-A is the most common install — reliable, well-supported by Calgary parts distributors, strong 15-year heat exchanger warranty when registered + descaled annually. Rinnai RU/RUR is a premium alternative, quieter, slightly higher cost. IBC SL is the right call when combi (heat + DHW) is needed. We pick based on the specific install, not a single dealer relationship.",
+          },
+          {
+            q: "Do I need to descale my tankless every year?",
+            a: "In Calgary, yes — non-negotiable. Calgary's hard water (150-200 mg/L) scales tankless heat exchangers aggressively because of the narrow internal passages. Annual descaling is REQUIRED to keep manufacturer warranties valid. Without it, you'll see capacity loss, error codes, and eventual heat exchanger failure within 5-7 years. We carry descaler kits on every tankless service call.",
+          },
+          {
+            q: "Will my existing gas line support a tankless?",
+            a: "Usually no — most existing Calgary home gas lines are 3/4\" sized for tank water heaters. Tankless units typically need 200,000+ BTU input (vs ~40,000 for a tank), which requires upsizing to 1\" (sometimes 1-1/4\" for larger units or long runs from the meter). Gas line upsize is part of most retrofit installs — we size correctly and pull permits.",
+          },
+          {
+            q: "Does tankless really give me endless hot water?",
+            a: "Yes — but with a caveat for Calgary. Tankless heats water on demand as long as the tap is open, so capacity is genuinely unlimited. The caveat: tankless output (GPM) drops as inlet water temperature drops. Calgary's 4°C winter groundwater requires a bigger temperature rise than spec, so real winter flow rate is often 50-60% of nameplate GPM. We size for Calgary inlet temps, not the marketing spec — usually one size up from a generic calculator.",
+          },
+          {
+            q: "Should I get a water softener with my tankless?",
+            a: "Strongly recommended. Calgary's hard water is the #1 cause of premature tankless failure. A [water softener](/water-softener/) upstream of the tankless dramatically reduces mineral load through the heat exchanger, extends life from 10-12 years (no softener, descaled) to 20+ years (softened + descaled), and protects every other water-using appliance + fixture in the home. The math on softener payback over a tankless lifecycle is strongly positive.",
+          },
+          {
+            q: "How much does tankless installation cost in Calgary?",
+            a: "Higher than tank install — typically 2-3x depending on gas line upsizing, vent complexity, condensate routing, and brand. We quote in writing after the in-home assessment so you see the full cost upfront. Sometimes a tank is the better economic answer if budget is tight; we'll tell you so. [Monthly financing](/financing/) available via Financeit for full installs.",
+          },
+          {
+            q: "Can I retrofit a tankless into my existing home?",
+            a: "Almost always yes, with caveats. Pre-2000 Calgary homes often need: gas line upsize, new sidewall vent path, condensate drain run, electrical run if no existing 120V at the location. Post-2010 builds typically retrofit cleanly with less infrastructure work. We assess in-home and quote the full scope upfront — no surprise costs mid-install.",
+          },
+          {
+            q: "What's a combi unit? Should I consider one?",
+            a: "Combi units (IBC SL, Navien NCB, others) heat BOTH your domestic hot water AND your house's space heating from a single appliance — replaces separate tank + boiler. Best for: homes with modest heat-load, basement suites, mechanical-room-constrained installs. Calgary hard water hits the DHW heat exchanger especially hard, so annual descaling + softener pairing are critical. See [boiler not working Calgary](/boiler-not-working-calgary/) for combi DHW issues we see.",
+          },
+          {
+            q: "What does it mean if my tankless throws an error code?",
+            a: "Modern tankless units self-diagnose and display error codes when something fails. Common Calgary error codes: E03 (flame failure — gas supply or ignition), E10/E11 (overheat — usually scale-related, needs descaling), E16 (water flow sensor — blocked or failed), E26/E32 (vent or intake blocked, sometimes frozen condensate). Photograph the code and call us — it tells us exactly which component failed and lets us bring the right part on the first visit. See [no hot water Calgary](/no-hot-water-calgary/) for the tankless-specific diagnostic walkthrough.",
+          },
+          {
+            q: "Are you available for emergency tankless repair in Calgary?",
+            a: "Yes — no hot water gets same-day dispatch. Real person on the phone, we'll triage based on the error code and confirm a window. Same crew that handles our [hot water diagnostic](/hot-water-issues-calgary/) and [emergency plumbing](/emergency-plumber-calgary/) work. Most diagnoses finish in 30 minutes; many tankless repairs (heat exchanger descale, flow sensor swap, igniter, control board) finish first visit with common parts on the truck.",
+          },
         ],
       },
     },
