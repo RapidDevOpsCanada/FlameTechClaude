@@ -3845,14 +3845,15 @@ export const services: ServicePage[] = [
     slug: "garage-heaters-calgary",
     category: "Heating",
     icon: "garage",
-    title: "Garage Heaters Calgary | Professional Installation & Repair Services",
+    title: "Garage Heaters Calgary — Gas, Radiant Tube + Electric Install",
     lead:
-      "Calgary garages drop to -40°C in January, and working in that cold isn't just uncomfortable — it's dangerous. FlameTech installs and services garage heaters across Calgary, from forced-air gas units to radiant tube heaters and electric models.",
+      "Calgary garages reach −40°C in January cold snaps — wind chill turns a workshop into a place where you can't grip a tool, a hobby garage into a place where epoxy won't cure, and even a simple \"get in the car without freezing\" garage into a chronic comfort problem. A properly-sized garage heater pays for itself in usable workshop hours, protected vehicles, and the simple fact that you'll actually go out there to do the project you've been putting off. FlameTech installs and services forced-air gas, radiant tube, and electric garage heaters across every Calgary garage configuration — single-car bungalow attached, detached double, high-ceiling shop, basement-suite-over-garage.",
     heroBody: [
-      "We know which heating solutions work best in Alberta's brutal winters and which ones are just money down the drain. Same Alberta-licensed gas fitters that handle our [furnace](/furnaces/) and [boiler](/boilers/) work — garage heaters share the same gas and venting fundamentals.",
-      "Your project doesn't stop because it's cold outside. We're available with priority [emergency response](/emergency-plumber-calgary/) for garage heater repairs and can usually get to Calgary homes within two hours for emergency calls. North of the city, we also dispatch to [Airdrie](/airdrie-plumbers/) and [Cochrane](/cochrane-plumbers/).",
+      "Three install scenarios drive most calls: (1) homeowner upgrading a hobby/workshop garage that's never had heat, (2) replacing an aging garage heater that's lost capacity or efficiency, or (3) building out a new garage / addition and speccing the right heater from the start. We work in [Aspen Woods](/aspen-woods-plumbers-calgary/) garages with 20-foot ceilings and cramped 1960s [Altadore](/altadore-plumbers-calgary/) single-car attached garages — different garages need different heaters and we recommend honestly.",
+      "Same Alberta-licensed gas fitters + electricians that handle our [furnace](/furnaces/), [boiler](/boilers/), and broader heating work. Garage heaters share gas, venting, and electrical fundamentals with home heating systems — proper install is the difference between a unit that lasts 20 years and one that fails in 5. We pull permits, schedule inspections, and document the install so warranties stay valid.",
+      "Same-day dispatch for garage heater failures in winter cold snaps — workshops shut down when the heater quits in February. Coverage includes Calgary, [Airdrie](/airdrie-plumbers/), [Cochrane](/cochrane-plumbers/), and surrounding. Call 587-834-3668 for a free in-home assessment.",
     ],
-    heroSubhead: "Trusted Calgary Garage Heater Experts",
+    heroSubhead: "Forced-Air Gas, Radiant Tube + Electric Garage Heaters",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
     heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech service van — garage heater installation and repair across Calgary", fit: "cover" },
     intro:
@@ -3867,12 +3868,20 @@ export const services: ServicePage[] = [
     ],
     bullets: [
       {
-        t: "Gas + electrical certified",
-        d: "Our techs hold gas fitting tickets AND electrical certifications — no subcontractors needed.",
+        t: "Sized for Calgary's actual -40°C cold snaps",
+        d: "Most generic BTU calculators size for milder climates. We size based on garage volume, insulation level, ceiling height, attached vs detached, AND Calgary's deep-cold design temperature — typically oversizing 20-30% on uninsulated or minimally-insulated garages. Undersized heaters run constantly and never catch up; right-sized heaters cycle properly and heat the space when you actually need it.",
       },
       {
-        t: "Calgary-climate sized",
-        d: "We size units for -40°C design temps, oversizing for uninsulated garages where it's needed.",
+        t: "Forced-air gas vs radiant tube vs electric — honest recommendation",
+        d: "Different garage configurations call for different heater types. Forced-air gas (Modine, Reznor) heats the air — workhorse for typical attached doubles. Radiant tube (Re-Verber-Ray, SunStar) heats the surfaces — best for high-ceiling shops and intermittent-use garages where you want to feel warm fast. Electric (Cadet) for small garages without gas access or occasional-use scenarios. We recommend based on YOUR garage, not what's cheapest to install.",
+      },
+      {
+        t: "Gas + electrical certified, no subcontractors",
+        d: "Garage heater installs touch gas line + venting + electrical + sometimes a permit. Our crew holds Alberta gas-fitting tickets AND electrical certifications, so no subcontractor delays or coordination friction. Single quote, single install date, single point of accountability.",
+      },
+      {
+        t: "Same-day dispatch when garage heaters fail in winter",
+        d: "Workshops shut down when the heater quits in a cold snap. Same-day priority for garage heater failures in deep cold — common parts (igniters, fan motors, thermocouples, gas valves, capacitors) ride on every truck. Most repairs finish first visit.",
       },
     ],
     seoTitle: "Garage Heaters Calgary | Installation & Repair | FlameTech",
@@ -3911,63 +3920,146 @@ export const services: ServicePage[] = [
     richContent: {
       sections: [
         {
-          heading: "Why Calgary Homeowners Choose FlameTech for Garage Heaters",
+          heading: "What we install + service on Calgary garage heater calls",
           intro:
-            "When your garage heater quits in February, our Calgary heating technicians show up with the right parts and tools to get you back to work. We've installed garage heaters in Calgary for years, and we've seen every type of unit fail in every possible way.\n\nOur crew holds Alberta gas-fitting licenses, so we can handle any garage heating system — from simple electric baseboard heaters to complex radiant tube systems. Same team that handles [boiler installation](/boiler-installation-calgary/) and [furnace work](/furnaces/).\n\nWe work in [Aspen Woods](/aspen-woods-plumbers-calgary/) garages with 20-foot ceilings and cramped [Altadore](/altadore-plumbers-calgary/) single-car garages built in the 1960s. Every installation includes proper venting, gas line sizing, and electrical connections that pass Calgary building code inspection.",
+            "Three main heater types serve Calgary garages, each suited to a different use case and budget.",
           items: [
-            { heading: "Gas Garage Heater Installation", body: "Complete installation of forced-air and radiant gas heaters, including gas line run, proper venting, and electrical connections for Calgary garages." },
-            { heading: "Electric Garage Heater Setup", body: "Installation of 240V electric heaters, baseboard units, and in-floor radiant systems with proper electrical panel upgrades where needed." },
-            { heading: "Radiant Tube Heater Service", body: "Installation and repair of overhead radiant tube heaters perfect for high-ceiling Calgary garages and workshops." },
-            { heading: "Garage Heater Repair", body: "Troubleshooting and fixing ignition problems, fan motor failures, thermostat issues, and gas valve replacements on all brands." },
-            { heading: "Venting & Gas Line Work", body: "Proper venting installation through garage walls or roofs, plus gas line sizing and pressure testing for safe operation." },
-            { heading: "Thermostat & Control Upgrades", body: "Installing programmable thermostats, zone controls, and safety switches for better temperature control and energy efficiency." },
+            {
+              heading: "Forced-air gas (Modine, Reznor) — the workhorse",
+              body: "Wall- or ceiling-mounted forced-air gas units that heat air and circulate it through the garage. Modine Hot Dawg HD45/75/100 (45k/75k/100k BTU) and Reznor UDAP series are the most common Calgary installs. Best for attached double garages, regular-use workshops, and any garage where you need warm air quickly. Lower install cost than radiant tube, faster warm-up than electric. Power-vented through the side wall (most modern installs) or B-vented through the roof.",
+            },
+            {
+              heading: "Radiant tube (Re-Verber-Ray, SunStar) — high-ceiling shops",
+              body: "Overhead infrared tube heaters that heat surfaces directly (people, tools, vehicles, floor) rather than the air. Stay warm even with the bay door open briefly. Best for: high-ceiling shops where forced-air loses heat to the volume above, intermittent-use garages where you want to feel warm immediately on entry, and mechanic-style shops where you're working on cold metal. Higher install cost than forced-air, but lower operating cost in many high-ceiling applications.",
+            },
+            {
+              heading: "Electric (Cadet, King, Marley) — small or no-gas garages",
+              body: "240V electric forced-air or radiant ceiling units. Best for: small detached garages without gas service (running a new gas line can be expensive), garages used only occasionally, or homeowners who don't want a gas appliance in the space. Simpler install (no gas, no venting), higher operating cost than gas, slower warm-up. Common sizes: 4,000-7,500 watts for single-car; 10,000-15,000 watts for double-car.",
+            },
+            {
+              heading: "Garage heater repair (every brand)",
+              body: "Pilot won't stay lit (thermocouple), electronic ignition won't fire (igniter, flame sensor), fan running but no heat (gas valve, control board), short-cycling (limit switch, vent blockage), blower motor seized (capacitor, motor). Universal parts on every truck for common Modine, Reznor, Sterling, Cadet, and electric repairs. Same-day dispatch during winter cold snaps.",
+            },
+            {
+              heading: "Gas line + venting + permits",
+              body: "Most garage heater installs need: gas line run from the house meter (sized to the BTU load — typically 1/2\" or 3/4\" depending on length + load), sidewall power-vent (standard for modern installs) or rooftop B-vent, combustion air intake to meet code, electrical run for the fan + controls, gas permit + inspection. We handle the full scope.",
+            },
+            {
+              heading: "Thermostat + controls",
+              body: "Most garage heaters ship with basic mechanical thermostats. Upgrade options: programmable thermostats (set lower when not in use), wifi-enabled controls for remote startup before you walk out to the garage, two-stage thermostats for variable-output units. Worth the upgrade in workshops you use frequently.",
+            },
+            {
+              heading: "In-floor radiant (hydronic) — luxury option",
+              body: "Hot-water tubing embedded in the garage slab connected to a boiler (often shared with the house's main hydronic heating). Premium install (only viable on new construction or major slab replacement), but unbeatable comfort and the warmest-feeling garage option. Best for luxury rebuilds or new builds where the slab is being poured anyway. See [boiler not working Calgary](/boiler-not-working-calgary/) for the broader hydronic context.",
+            },
+            {
+              heading: "Annual pre-season service",
+              body: "Best done in early fall before the first cold snap. Combustion analysis, flame sensor + igniter check, fan motor inspection + capacitor test, vent inspection (rooftop vents often need clearing after summer + chinooks), thermostat calibration, gas pressure check. Catches most failures before peak winter demand.",
+            },
           ],
         },
         {
-          heading: "Common Garage Heater Issues in Calgary Homes",
+          heading: "Sizing your Calgary garage heater — BTU by configuration",
           intro:
-            "Calgary garage heaters take a beating from temperature swings and dust. Here are the problems we fix most often. Don't suffer through another winter with a cold garage — call us before the first snowfall.",
+            "Generic BTU calculators assume milder climates and don't account for Calgary's −40°C deep cold or typical garage insulation reality. Here's how we size for what Calgary garages actually need.",
           items: [
-            { body: "Ignition systems failing after sitting unused all summer — pilot lights won't stay lit or electronic ignitors crack from temperature changes." },
-            { body: "Fan motors burning out from running constantly in -30°C weather, especially on undersized units working overtime." },
-            { body: "Thermostat problems where the unit won't shut off or never reaches set temperature due to poor placement or wiring issues." },
-            { body: "Blocked venting from snow, ice, or debris causing units to shut down on high limit switches." },
-            { body: "Gas pressure problems where heaters won't fire properly due to undersized gas lines or regulator issues." },
-            { body: "Cracked heat exchangers on older units that have been through too many Calgary freeze-thaw cycles." },
+            {
+              heading: "Single-car attached garage (~250-300 sqft, 9 ft ceiling)",
+              body: "25,000-30,000 BTU forced-air gas (Modine HD30 or similar), 30-35k for uninsulated. Shares one wall with the house so loses less heat than detached. Attached garages get some heat-leak benefit from the house and typically heat fastest of any garage configuration.",
+            },
+            {
+              heading: "Double-car attached garage (~450-550 sqft, 9 ft ceiling)",
+              body: "45,000-60,000 BTU forced-air gas (Modine HD45-HD75, Reznor UDAP-60). Workhorse Calgary configuration. Insulated double-car garages do well with 45k; uninsulated or partially-insulated bump to 60k. Radiant tube is alternative for shops used intermittently.",
+            },
+            {
+              heading: "Detached double-car garage (~450-550 sqft)",
+              body: "60,000-75,000 BTU — needs more heat than attached because it doesn't benefit from the house's adjacent wall. Often a target for radiant tube heating if used as a workshop, because radiant tube gets you warm fast without heating the whole air volume first.",
+            },
+            {
+              heading: "High-ceiling shop / triple-car (12+ ft ceilings, 700+ sqft)",
+              body: "75,000-125,000+ BTU. Radiant tube becomes increasingly attractive at this scale — heating a 12-foot or 14-foot air volume with forced-air wastes huge energy heating the air column above the working area. Radiant tube heats people, tools, and floor directly. We size + recommend based on use pattern.",
+            },
+            {
+              heading: "Insulation matters as much as BTU",
+              body: "An uninsulated detached double-car needs roughly 50% more BTU than an insulated one to reach the same temperature on cold days. Often more economical to add basic exterior-wall insulation + ceiling insulation than to oversize the heater. We discuss the cost-benefit during the in-home assessment.",
+            },
           ],
         },
         {
-          heading: "Garage Heater Maintenance Tips for Calgary Homeowners",
+          heading: "Why Calgary garage heaters fail (and how to extend life)",
           intro:
-            "Garage heaters work harder than house furnaces because they're heating uninsulated spaces in Alberta's extreme cold. Regular maintenance prevents expensive breakdowns and keeps your heating bills reasonable.",
+            "Garage heaters work in harsher conditions than house furnaces — temperature swings, dust, intermittent use, and often poor maintenance. Knowing the failure modes helps explain what extends life.",
           items: [
-            { body: "Clean or replace air filters monthly during heating season — garage dust clogs filters faster than house furnace filters." },
-            { body: "Check venting annually for blockages, especially after chinooks when ice can form and melt repeatedly." },
-            { body: "Test your heater before first cold snap — don't wait until it's -20°C to discover problems." },
-            { body: "Keep the area around your heater clear — stored items too close can block airflow and create fire hazards." },
-            { body: "Have gas connections and pressure tested every 3 years by a qualified technician." },
-            { body: "Lubricate fan motors annually and check electrical connections for corrosion from temperature cycling." },
-          ],
-        },
-        {
-          heading: "Common Calgary Garage Heater Problems We Fix",
-          items: [
-            { heading: "Won't Ignite or Stay Lit", body: "Pilot lights that won't stay lit or electronic ignitors that spark but won't catch are usually caused by dirty sensors, bad thermocouples, or gas pressure problems. We carry ignition components for most brands and can usually fix these issues same-day." },
-            { heading: "Runs But Won't Heat", body: "When your heater fires up but doesn't produce heat, the problem is often a failed heat exchanger, blocked burner, or fan motor issue. These problems get worse quickly in Calgary's cold, so don't wait to call for service." },
-            { heading: "Short Cycling On and Off", body: "Units that turn on and off every few minutes are usually oversized, have blocked venting, or faulty limit switches. This wastes gas and wears out components fast — we can diagnose and fix the root cause." },
+            {
+              heading: "Sitting unused all summer kills ignition systems",
+              body: "Most garage heater failures show up at the FIRST cold snap of the season — pilot won't relight, electronic igniter cracked from thermal cycling, flame sensor coated with oxidation. The fix isn't using the heater more in summer (counterproductive); it's an annual pre-season service call to catch these failures BEFORE you need the heater.",
+            },
+            {
+              heading: "Dust burns blower motors out fast",
+              body: "Garages are dustier than living spaces — sawdust, road dirt, pollen, drywall debris, brake dust. Air filters clog faster (often monthly during workshop-use seasons), restricting airflow and forcing the blower to run harder. Clogged filters + restricted airflow burn blower motor capacitors first, then motors themselves. Monthly filter changes during heavy use seasons are the single best maintenance move.",
+            },
+            {
+              heading: "Snow + ice block vent terminations",
+              body: "Sidewall power-vent terminations are positioned per code, but drift snow + chinook melt-freeze cycles can block them. Blocked vent = high-limit trip = heater locked out. Worth a visual check after major snowfalls and during chinook freeze cycles. We clear and reposition when needed.",
+            },
+            {
+              heading: "Undersized gas line starves the heater",
+              body: "Common cause of \"heater fires but won't keep up\" complaints. Original gas line was sized for a smaller heater (or no heater); homeowner upgraded but kept the existing line. Pressure drops at peak demand, burner can't maintain output. We test gas pressure at the unit during diagnosis — common Calgary failure mode on aging DIY installs.",
+            },
+            {
+              heading: "Cracked heat exchanger on older units",
+              body: "After 15-20 years of Calgary freeze-thaw cycles, gas heater heat exchangers can develop cracks — which leak combustion products (including CO) into the air being circulated. Non-repairable, full replacement only. We borescope-inspect heat exchangers on every service call to older units. Working in your garage with a CO leak is a real risk; we catch this before it becomes an emergency.",
+            },
+            {
+              heading: "Calgary's −40°C deep cold stresses everything",
+              body: "Beyond capacity limits, deep cold accelerates wear on capacitors, electrical connections corrode from condensation cycles, plastic components embrittle, and gas valves operate at the edge of their spec. Most garage heaters live their useful life with these effects accumulating. The fix is annual service to catch early-stage degradation before catastrophic failure mid-winter.",
+            },
           ],
         },
       ],
       faq: {
-        heading: "Frequently Asked Questions About Garage Heaters in Calgary",
-        intro:
-          "Ready to experience the FlameTech difference? Contact us today for a free, no-obligation quote. You can reach us by phone, email, or through our online booking system. We're here to answer your questions and schedule your service at your convenience.",
+        heading: "Garage Heaters Calgary — FAQs",
         items: [
-          { q: "What size garage heater do I need for my Calgary garage?", a: "Most single-car Calgary garages need 25,000-30,000 BTU units, while double garages typically require 45,000-60,000 BTU depending on insulation and ceiling height. We calculate heat loss based on your garage's construction, not just square footage. Our heating specialists can assess your space and recommend the right size during a free consultation." },
-          { q: "Can I install a garage heater myself in Calgary?", a: "Gas garage heaters require a licensed gas fitter in Calgary, and electrical units over 240V need a qualified electrician. DIY installations often fail city inspections and void manufacturer warranties. Many insurance companies also require professional installation for coverage." },
-          { q: "How long do garage heaters last in Calgary's climate?", a: "Quality gas garage heaters typically last 15-20 years in Calgary, while electric units can run 20-25 years with proper maintenance. Units that cycle frequently due to poor insulation or undersizing tend to fail sooner. Regular annual maintenance significantly extends lifespan." },
-          { q: "Should I choose gas or electric for my Calgary garage?", a: "Gas heaters heat faster and cost less to operate in Calgary's long winters, making them ideal for frequent use. Electric heaters work better for occasional use or garages without gas lines, but operating costs are higher. We can assess your usage patterns and recommend the most cost-effective option." },
-          { q: "Do garage heaters work well in uninsulated Calgary garages?", a: "Yes, but they'll run constantly and cost more to operate. Most Calgary garages built before 2000 have minimal insulation, so we typically recommend oversizing the heater by 20-30% and adding basic insulation to exterior walls. Even basic insulation makes a huge difference in heating efficiency and comfort." },
+          {
+            q: "What size garage heater do I need for my Calgary garage?",
+            a: "Single-car attached (~250-300 sqft): 25,000-30,000 BTU; bump to 30-35k if uninsulated. Double-car attached: 45,000-60,000 BTU. Detached double: 60,000-75,000 BTU. High-ceiling shop or triple-car: 75,000-125,000+ BTU and often radiant tube becomes the better choice over forced-air. We size based on your garage's actual construction (insulation, ceiling height, attached vs detached), not just square footage.",
+          },
+          {
+            q: "Should I get gas, radiant tube, or electric?",
+            a: "Forced-air gas (Modine, Reznor) for typical attached doubles — fast warm-up, lowest install cost, workhorse choice. Radiant tube (Re-Verber-Ray, SunStar) for high-ceiling shops or intermittent-use garages where you want to feel warm immediately. Electric (Cadet, King) for small garages without gas access or occasional-use scenarios. Gas operating cost is meaningfully lower than electric in Calgary; electric makes sense when running a new gas line would be expensive or when the use case is sporadic.",
+          },
+          {
+            q: "Can I install a garage heater myself?",
+            a: "Gas garage heaters require an Alberta-licensed gas fitter — DIY installs without a permit fail inspection, void manufacturer warranties, and create insurance coverage issues if there's later damage. Electric heaters under 1,500W can sometimes be DIY-installed; anything 240V or hardwired needs a qualified electrician. We pull permits and schedule inspections on every install so the work is documented + legal.",
+          },
+          {
+            q: "How long do garage heaters last in Calgary?",
+            a: "Forced-air gas: 15-20 years typical, sometimes longer with annual service. Radiant tube: similar 15-20 years. Electric: 20-25 years (fewer moving parts, no combustion). Units that cycle frequently due to undersizing or poor insulation fail sooner. Annual pre-season service catches most failures before they become breakdowns and meaningfully extends lifespan.",
+          },
+          {
+            q: "Do I need to insulate my garage before installing a heater?",
+            a: "Strongly recommended. An uninsulated detached double-car garage needs ~50% more BTU than an insulated one to reach the same temperature on cold days. Often more economical to add basic exterior-wall + ceiling insulation than to oversize the heater AND pay higher operating costs forever. We discuss the cost-benefit during the in-home assessment — sometimes insulation alone makes the existing heater adequate.",
+          },
+          {
+            q: "Why does my garage heater run constantly but never reach setpoint?",
+            a: "Most common causes: undersized for the actual heat loss (uninsulated garage with a heater sized for an insulated one is the classic), clogged air filter restricting airflow, gas line undersized for the heater's BTU rating (starves on peak demand), failed limit switch reading wrong temperature, or vent blockage causing intermittent shutdown. We diagnose in 30-45 minutes and quote the fix.",
+          },
+          {
+            q: "My garage heater won't start at the beginning of winter — what's wrong?",
+            a: "First-cold-snap failures are extremely common — usually one of: thermocouple failed during summer storage (pilot won't stay lit), electronic igniter cracked from thermal cycling, flame sensor oxidized + needs cleaning, gas valve sticking after long inactivity, blower capacitor failed. All common-parts-on-the-truck fixes. Annual pre-season service catches these before you need the heater in February.",
+          },
+          {
+            q: "Is annual service really necessary?",
+            a: "For gas units, yes — annual combustion analysis catches CO risk (cracked heat exchanger) before it becomes a safety issue, flame sensor cleaning prevents nuisance shutdowns, capacitor + motor checks prevent mid-winter blower failures. For electric units, annual electrical inspection + element testing is good practice but less critical than gas service. Costs less than one emergency call and extends equipment life meaningfully.",
+          },
+          {
+            q: "Are you available for emergency garage heater repair?",
+            a: "Yes — workshops shut down when the heater quits in deep cold, so we treat winter garage-heater failures as priority dispatch. Real person on the phone, same-day in most cases. Common parts (igniters, flame sensors, thermocouples, gas valves, blower capacitors) ride on every truck — most repairs finish first visit.",
+          },
+          {
+            q: "Do you install garage heaters outside Calgary?",
+            a: "Yes — we dispatch to [Airdrie](/airdrie-plumbers/), [Cochrane](/cochrane-plumbers/), [Chestermere](/chestermere-plumbers/), [Okotoks](/okotoks-plumbers/), and surrounding communities. Same crew, same install standards, same warranty support. No \"out of service area\" surcharge for these communities.",
+          },
         ],
       },
     },
