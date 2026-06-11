@@ -1343,6 +1343,10 @@ function pickInlineReviewFromList(
  * curated taxonomy in scripts/extract-reviews-docx.mjs.
  */
 function expectedReviewTags(slug: string): string[] {
+  // Diagnostic pages — check first so they don't fall through to broader matchers.
+  if (/no-hot-water|leaking-water-heater|hot-water-issues/.test(slug)) return ["Water Heaters"];
+  if (/home-heating-issues|no-heat-issues/.test(slug)) return ["Furnaces", "Boilers"];
+  if (/blocked-toilet/.test(slug)) return ["Plumbing"];
   if (/boiler/.test(slug)) return ["Boilers"];
   if (/furnace|garage-heater/.test(slug)) return ["Furnaces"];
   if (/heat-pump/.test(slug)) return ["Heat Pumps"];
@@ -1360,6 +1364,12 @@ function expectedReviewTags(slug: string): string[] {
  * topic-specific reviews (furnace slug → furnace reviews, etc).
  */
 function reviewTopicPattern(slug: string): RegExp | null {
+  // Diagnostic pages first so they don't fall through to broader matchers.
+  if (/no-hot-water|leaking-water-heater|hot-water-issues/.test(slug))
+    return /\b(hot water|water heater|water tank|tankless|leak)/i;
+  if (/home-heating-issues|no-heat-issues/.test(slug))
+    return /\b(furnace|boiler|no heat|heat(?:ing)?)/i;
+  if (/blocked-toilet/.test(slug)) return /\b(toilet|drain|clog|backup|plumb)/i;
   if (/furnace/.test(slug)) return /\bfurnace/i;
   if (/boiler/.test(slug)) return /\bboiler/i;
   if (/heat-pump/.test(slug)) return /\bheat[- ]?pump/i;
@@ -1518,6 +1528,31 @@ function buildSchemaJsonLd(service: ServicePage, reviews: Review[]) {
       })),
     });
   }
+
+  // HowTo schema for diagnostic-page step-by-step sections.
+  // Detect "Try these first" / "do this first" sections so the step-by-step
+  // homeowner instructions get marked as a HowTo for Google + voice assistants.
+  const howToSections =
+    service.richContent?.sections?.filter(
+      (s) =>
+        /try these first|do this first|^if .* actively/i.test(s.heading) &&
+        s.items &&
+        s.items.length >= 2
+    ) ?? [];
+  howToSections.forEach((section, idx) => {
+    graph.push({
+      "@type": "HowTo",
+      "@id": `${url}#howto-${idx}`,
+      name: stripMarkdown(section.heading),
+      description: section.intro ? stripMarkdown(section.intro) : undefined,
+      step: section.items!.map((item, i) => ({
+        "@type": "HowToStep",
+        position: i + 1,
+        name: item.heading ? stripMarkdown(item.heading) : `Step ${i + 1}`,
+        text: stripMarkdown(item.body),
+      })),
+    });
+  });
 
   graph.push({
     "@type": "WebPage",

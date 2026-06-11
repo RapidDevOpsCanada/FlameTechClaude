@@ -10,7 +10,6 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "@neondatabase/serverless": "^0.10.4",
     "@next/third-parties": "^16.2.6",
     "github-slugger": "^2.0.0",
     "gray-matter": "^4.0.3",
