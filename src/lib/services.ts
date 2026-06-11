@@ -4706,113 +4706,269 @@ export const services: ServicePage[] = [
     slug: "hot-water-tanks",
     category: "Water",
     icon: "propane_tank",
-    title: "Hot Water Tanks Calgary – Professional Installation & Repair",
+    title: "Hot Water Tanks Calgary — Bradford White + John Wood Install, Sized Right",
     lead:
-      "Calgary homeowners rely on FlameTech Plumbing & Heating for dependable hot water tank solutions. We install and service [Bradford White](https://www.bradfordwhite.com/) and John Wood — the two brands we've found hold up best to Calgary's hard water. Has your morning shower turned into an unwelcome cold surprise? Maybe you've spotted water pooling around the base of your current unit or noticed your energy bills creeping higher each month.",
+      "Calgary water hardness (150-200 mg/L) is brutal on hot water tanks — sediment builds in the bottom faster than in lower-mineral cities, and the sacrificial anode rod that's supposed to last 5-7 years is gone in 3-4. The result: tanks rated for 12-15 years typically give up at 8-10 in Calgary unsoftened. FlameTech sizes, installs, and services hot water tanks built for our specific water profile — Bradford White and John Wood are the two brands we've found hold up best.",
     heroBody: [
-      "A properly sized and professionally installed hot water tank makes all the difference for your household's daily comfort and long-term budget. Same-day [hot water tank replacement](/hot-water-tank-replacement-calgary/) when your old unit fails, or full [water heater installation](/water-heater-installation-calgary/) when you're building out.",
-      "FlameTech delivers complete hot water tank services throughout Calgary, from selecting the right capacity to flawless installation and ongoing maintenance. Considering an upgrade? Compare against [tankless water heaters](/tankless-water-heaters/) — endless hot water, lower running costs. North of the city, see [hot water tanks Airdrie](/hot-water-tanks-airdrie/).",
+      "Three scenarios drive most Calgary tank calls: (1) tank at end of life and needs replacement (typically 8-10 years in unsoftened Calgary water — sometimes 12-14 with a [water softener](/water-softener/) upstream), (2) new-build or addition needing a first-time install with permits + gas + venting, or (3) annual maintenance to extend tank life (flush + anode rod inspection at 3-year intervals). We handle all three with permits pulled and inspections arranged.",
+      "If your tank just failed and you need a replacement today, see [hot water tank replacement Calgary](/hot-water-tank-replacement-calgary/) — common-brand tanks ride on the truck for same-day swap. If something's actively wrong (no hot water, leaking, lukewarm), the diagnostic pages cover it: [no hot water](/no-hot-water-calgary/), [leaking water heater](/leaking-water-heater-calgary/), [hot water issues](/hot-water-issues-calgary/).",
+      "Considering tankless instead? Compare against [tankless water heaters](/tankless-water-heaters/) — endless hot water, longer lifespan (20+ years), space savings, but higher install cost and brutal on hard water without proper softening. North of the city, see [hot water tanks Airdrie](/hot-water-tanks-airdrie/). Call 587-834-3668 for a free in-home assessment.",
     ],
-    heroSubhead: "Trusted Hot Water Specialists",
+    heroSubhead: "Bradford White + John Wood Tank Specialists",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
     heroImage: { src: "/images/2026/04/Power-Vent-hot-water-tank.webp", alt: "Bradford White power-vent hot water tank installed by FlameTech in a Calgary basement", fit: "cover" },
     intro:
-      "Hot water tank installation, repair, and replacement in Calgary. Gas and electric units, proper sizing, permits handled, annual flushing and anode rod service.",
+      "Calgary hot water tank installation, replacement, and service. Bradford White + John Wood + AO Smith. Gas and electric. Power-vent and direct-vent. Calgary hard-water aware sizing. Free in-home assessment.",
     features: [
-      "Hot water tank installation",
-      "Tank repair & diagnostics",
-      "Annual flushing & maintenance",
-      "Anode rod inspection & replacement",
-      "Gas & electric models",
-      "Airdrie service coverage",
+      "Bradford White + John Wood install",
+      "Gas + electric + power-vent options",
+      "Annual flushing + anode rod inspection",
+      "Sizing for actual household demand",
+      "Permits + inspections handled",
+      "Expansion tank + TPR + drain pan",
     ],
     bullets: [
       {
-        t: "Calgary hard-water aware",
-        d: "We factor in hard water sediment when recommending tanks, anode rods, and flush intervals.",
+        t: "Bradford White + John Wood — Calgary's two best-in-class brands",
+        d: "We've installed every common brand in this city. Bradford White (made in USA, vitreous-glass-lined tanks, robust burner design) and John Wood (Canadian-made, strong distribution and parts availability) consistently outlast cheap big-box-store equivalents in Calgary's hard water — 1-3 extra years on average. Both available on the truck for same-day swaps.",
       },
       {
-        t: "Licensed & insured",
-        d: "Every installer is fully licensed, bonded, and insured — work meets all applicable codes.",
+        t: "Sized for actual household demand, not square footage",
+        d: "Tank sizing is about peak simultaneous draw (back-to-back morning showers, dishwasher running during the bath), NOT home square footage. A 4-person family with one bathroom needs a different tank than a 2-person household with three bathrooms + a soaker tub. We size based on fixture count + household routine, not a generic chart.",
+      },
+      {
+        t: "Hard-water awareness on every install",
+        d: "Calgary's hard water is the #1 reason tanks fail early here. We discuss anode rod material (aluminum-zinc vs powered) for your specific water, recommend flush + anode replacement intervals, and have an honest conversation about whether installing a [water softener](/water-softener/) at the same time is the right move. Softener customers typically see 14+ year tank lifespans vs 8-10 unsoftened.",
+      },
+      {
+        t: "Permits + venting + expansion tank done right",
+        d: "Every install in Calgary needs permits, proper venting (power-vent or B-vent), a TPR valve discharge line per code, and a thermal expansion tank on the cold-water inlet (required by Calgary plumbing code on any system with a backflow preventer — which is most modern homes). We pull permits, schedule inspections, and install to current code so the work passes first time.",
       },
     ],
-    seoTitle: "Hot Water Tanks Calgary | Installation & Repair | FlameTech",
+    seoTitle: "Hot Water Tanks Calgary | Bradford White + John Wood Install",
     seoDescription:
-      "Need a new hot water tank in Calgary? FlameTech offers professional installation, repair & replacement. Licensed technicians, upfront prices.",
+      "Calgary hot water tank install + replacement + service. Bradford White + John Wood + AO Smith. Gas + electric + power-vent. Calgary hard-water aware. Free in-home quote.",
     seoKeywords: [
       "hot water tanks Calgary",
       "water heater Calgary",
-      "gas hot water tank",
-      "tank install Calgary",
-      "water heater repair Calgary",
+      "Bradford White Calgary",
+      "John Wood water heater Calgary",
+      "gas hot water tank Calgary",
+      "hot water tank install Calgary",
       "FlameTech Plumbing Heating",
     ],
     quoteFormLabel: "hot water tank",
     quoteFormPlaceholder:
-      "e.g. replace a 50-gallon gas tank, upgrade from electric to gas, annual flushing service…",
+      "e.g. replace a 50-gallon gas tank, first-time install for a new build, upgrade from electric to gas, annual flushing + anode service, considering tankless vs tank…",
     sidebar: {
       title: "Calgary Hot Water Tanks",
       subtitle:
-        "Gas and electric tank installation, repair, and maintenance — sized to your household and built for Alberta winters.",
+        "Bradford White + John Wood install, replacement, and service. Calgary hard-water aware sizing. Permits handled.",
       bullets: [
-        "Upfront pricing, no surprises",
-        "Permits and inspections handled",
-        "Labour + equipment warranties",
-        "Airdrie service coverage",
+        "Free in-home assessment + written quote",
+        "Bradford White + John Wood + AO Smith",
+        "Annual flushing + 3-yr anode service",
+        "Permits + venting + expansion tank",
       ],
     },
     stats: [
-      { number: "8-12yr", label: "Typical lifespan", icon: "verified" },
+      { number: "8-12yr", label: "Calgary lifespan", icon: "verified" },
       { number: "5.0★", label: "Google rated", icon: "star" },
       { number: "4hr", label: "Typical install", icon: "schedule" },
-      { number: "Licensed", label: "& insured", icon: "award" },
+      { number: "ANY", label: "Brand or fuel", icon: "check_circle" },
     ],
     callout:
-      "Rust water, puddles at the base, or rumbling noises? Your tank is telling you something — call 587-834-3668 for an honest repair-vs-replace assessment.",
+      "Tank end-of-life, planning a new install, or due for annual service? Call 587-834-3668 for a free in-home assessment — honest brand and sizing recommendations.",
     richContent: {
       sections: [
         {
-          heading: "Why Calgary Families Trust FlameTech for Hot Water Tanks",
+          heading: "What we install + service on Calgary hot water tank calls",
           intro:
-            "Your hot water tank works harder than almost any other appliance in your home, delivering reliable warmth for showers, laundry, dishwashing, and countless daily tasks. When it comes time for replacement or repair, partnering with experienced professionals ensures your investment performs optimally for years to come. We also offer hot water tank services in Airdrie.",
+            "Common configurations across Calgary. We talk through trade-offs before quoting — fuel type, vent type, brand, and sizing all matter.",
           items: [
-            { heading: "Calgary's Hot Water Tank Specialists", body: "Our technicians bring years of hands-on experience installing and servicing hot water tanks across Calgary neighbourhoods. We know how our region's hard water and temperature extremes affect equipment longevity, and we factor these local conditions into every recommendation we make." },
-            { heading: "Certified & Fully Covered", body: "Every member of our installation crew holds current licensing and carries comprehensive insurance coverage. This protects your property and gives you confidence that the work meets all applicable codes and manufacturer specifications." },
+            {
+              heading: "Bradford White + John Wood — preferred brands",
+              body: "Bradford White (American-made, vitreous-glass-lined tanks, magnesium or aluminum-zinc anode options, robust Honeywell or White-Rodgers gas valves) and John Wood (Canadian-made, strong parts distribution, reliable build quality) are our two recommended brands for Calgary's water. Both consistently outlast cheap big-box-store brands by 1-3 years here. Common sizes (40, 50, 60, 75 gallon — gas + electric) ride on the truck.",
+            },
+            {
+              heading: "Gas tanks — atmospheric vent (older homes)",
+              body: "Standard atmospheric-vent gas tanks use natural draft through a B-vent chimney for exhaust. Common in pre-2000 Calgary homes with masonry or pre-fab metal chimneys. Lower install cost than power-vent. Limitation: vent must be sized correctly + cleared of obstructions; mid-efficiency atmospheric tanks are being phased out in favor of higher-efficiency power-vent and direct-vent designs.",
+            },
+            {
+              heading: "Gas tanks — power-vent (most common modern install)",
+              body: "Power-vent tanks use a small fan to push exhaust horizontally out the side wall (no chimney needed). Standard for most modern Calgary installs — works in mechanical rooms without chimney access, eliminates draft-related backdraft risk. Slightly higher install cost but more flexible placement options. Most Bradford White installs in Calgary basements are power-vent.",
+            },
+            {
+              heading: "Direct-vent and condensing — high-efficiency",
+              body: "Direct-vent (sealed combustion, intake + exhaust through the wall) and condensing (95%+ efficiency, condensate drain required) tanks reduce energy bills and are required by some new-build codes. Higher upfront cost; payback varies based on usage. Suit luxury rebuilds where running-cost optimization matters more than install cost.",
+            },
+            {
+              heading: "Electric tanks",
+              body: "Higher operating cost than gas in Alberta (gas is cheap here) but the only option in homes without gas service. Two heating elements (upper + lower) + dedicated 240V breaker. Simpler install (no gas, no venting), often slightly cheaper upfront. Best for: small condos, suites, or homes without natural gas. Common sizes: 40, 60 gallon.",
+            },
+            {
+              heading: "Same-day replacement when tanks fail",
+              body: "When a tank fails (bottom leak, dead element, end-of-life), we replace same-day with common-brand stock. Bradford White and John Wood 40/50/60 gallon gas + electric ride on the truck. Larger or specialty units may need next-day order. See [hot water tank replacement Calgary](/hot-water-tank-replacement-calgary/) for the dedicated replacement page.",
+            },
+            {
+              heading: "Annual flushing + 3-year anode rod service",
+              body: "Single best move for Calgary tank longevity. Annual flush removes sediment buildup before it damages the tank bottom. Anode rod inspection every 3 years — if it's down to the core wire, replace ($200-ish part vs $2,000+ tank). Calgary's hard water consumes anodes fast; routine replacement extends tank life by 3-5 years on average.",
+            },
+            {
+              heading: "First-time installs for new builds + additions",
+              body: "Building out or adding a suite? We handle the full install: gas line sizing + connection, venting (power-vent or direct-vent based on the install location), expansion tank, TPR valve and discharge line, drain pan if needed, permits + inspection coordination, and commissioning. Coordinate timing with the broader build schedule.",
+            },
           ],
         },
         {
-          heading: "Advantages of a Modern Hot Water Tank",
+          heading: "Why Calgary hot water tanks fail faster than elsewhere",
           intro:
-            "Today's storage water heaters offer significant improvements over older models. Here's what a new hot water tank brings to your Calgary home.",
+            "Tanks rated for 12-15 year average lifespan often give up at 8-10 in Calgary. The local water profile is the main reason — knowing why helps explain when to call vs when to replace, and what to do during install to extend life.",
           items: [
-            { heading: "Lower Operating Costs", body: "Current hot water tank models feature enhanced insulation and more efficient burners compared to units manufactured even a decade ago. This translates to meaningful monthly savings on your natural gas bill, especially during Calgary's long heating season when demand peaks." },
-            { heading: "Consistent Supply", body: "A correctly sized storage tank maintains a ready reserve of heated water for your household's peak usage times. Whether everyone's getting ready for work and school simultaneously or you're running back-to-back loads of laundry, your hot water keeps flowing." },
-            { heading: "Straightforward Maintenance", body: "Storage water heaters use proven technology with widely available replacement parts. Annual flushing and periodic anode rod checks keep your system running efficiently for its full expected lifespan without complicated service requirements." },
-            { heading: "Built for Alberta Winters", body: "Quality hot water tanks handle cold incoming water temperatures without struggling, maintaining output even when Calgary's groundwater arrives near freezing during January cold snaps." },
+            {
+              heading: "Hard water consumes the anode rod fast",
+              body: "Calgary water hardness (150-200 mg/L) accelerates anode rod consumption. The sacrificial anode that's rated for 5-7 years in soft-water cities is gone in 3-4 here. Once the anode is consumed, the tank itself starts corroding from the inside. Pulling and replacing the anode every 3 years is the single best move for tank longevity in this water — but most homeowners never do it because they don't know to.",
+            },
+            {
+              heading: "Sediment buildup damages the tank bottom",
+              body: "Calcium and magnesium drop out of solution when heated and settle as sediment at the bottom of the tank. Calgary tanks accumulate sediment 2-4x faster than soft-water cities. Sediment insulates the burner from the water above (slower recovery, higher energy use) AND traps superheated water that flashes to steam — causing the popping/rumbling noises and slowly weakening the tank floor through thermal stress.",
+            },
+            {
+              heading: "Cold incoming water = high recovery demand",
+              body: "Calgary's incoming water is cold (4-10°C from the mains, year-round). A tank heating water from 4°C to 49°C is doing more work per litre than one in milder climates. More cycles, more wear, more time at higher burner temperatures = faster failure. Slightly oversized tanks reduce recovery demand and last longer here.",
+            },
+            {
+              heading: "Long winter heating season = more total runtime",
+              body: "Calgary's heating season runs October through April — 7 months of cold incoming water and high indoor hot-water demand (long showers, hot laundry, longer dish washing). Tanks rated for southern-Canada usage profiles see more hours per year of operation here.",
+            },
+            {
+              heading: "Build-era housing context matters",
+              body: "Pre-2000 Calgary homes often still have original or 2nd-gen tanks. Anything 12+ years old is on borrowed time in this water. Mid-2000s builds (Cranston original section, McKenzie Towne core, Auburn Bay early phases) commonly have original tanks now hitting end of life. Post-2015 builds typically have higher-efficiency tanks that last slightly longer but still benefit from annual flushing.",
+            },
+            {
+              heading: "Water softener is the single biggest longevity move",
+              body: "Installing a [water softener](/water-softener/) on the cold-water feed dramatically reduces mineral load through the tank. Customers who install a softener typically see their NEXT tank last 14+ years instead of 8-10. The softener also protects every other water-using fixture in the home (washing machine, dishwasher, faucets, shower valves, combi DHW exchangers).",
+            },
+            {
+              heading: "Newer high-efficiency tanks: better, not invincible",
+              body: "Post-2015 condensing tanks and high-efficiency power-vent models last longer than older atmospheric-vent tanks — but still need annual flushing to stay at design life. The high-efficiency gain is real, but we still see ~10-12 year lifespans here vs the rated 15. Annual maintenance is non-negotiable in this water.",
+            },
+            {
+              heading: "Code requirements: expansion tank + TPR + drain pan",
+              body: "Modern Calgary code requires a thermal expansion tank on systems with a backflow preventer (most homes), a TPR (temperature/pressure relief) valve with proper discharge piping to the floor, and a drain pan under tanks installed where leaks would cause damage. Older tanks sometimes lack these; install or replacement is the right time to bring them up to current code.",
+            },
           ],
         },
         {
-          heading: "Complete Hot Water Tank Installation in Calgary",
+          heading: "Sizing your tank for actual Calgary household demand",
           intro:
-            "Replacing a hot water tank involves more than simply swapping out equipment. Our licensed technicians at FlameTech Plumbing & Heating manage every aspect of the process to deliver lasting results.",
+            "Tank sizing is about peak simultaneous demand, not house square footage. Get this right and your tank reliably keeps up; get it wrong and you run out of hot water mid-shower for the next decade.",
           items: [
-            { heading: "Thorough Evaluation", body: "We calculate your household's actual hot water demand based on occupants, fixtures, and usage patterns to recommend the ideal tank capacity and recovery rate." },
-            { heading: "Permit & Code Handling", body: "Every installation follows current Calgary building requirements for gas connections, venting, and safety devices. We pull necessary permits and arrange inspections so you never have to worry about compliance." },
-            { heading: "Clean & Careful Work", body: "Our crews protect your floors, remove the old unit responsibly, and leave your mechanical room tidier than they found it. We respect your home throughout the entire process." },
-            { heading: "Backed by Our Promise", body: "We stand behind our installations with solid warranties on both labour and equipment. If something isn't right, we make it right — that's the FlameTech commitment to Calgary homeowners." },
+            {
+              heading: "1-2 people, 1 bathroom: 40-gallon usually sufficient",
+              body: "Small household, modest demand. 40-gallon gas (with reasonable recovery rate) keeps up with back-to-back showers + dishwasher. Electric needs to be slightly larger (50-60 gallon) due to slower recovery.",
+            },
+            {
+              heading: "3-4 people, 1-2 bathrooms: 50-gallon gas is the workhorse",
+              body: "Most common Calgary household configuration. 50-gallon gas tank with good recovery rate handles morning shower rush + same-day laundry without running out. Electric: bump to 60 gallon.",
+            },
+            {
+              heading: "4-5 people OR 2.5-3 bathrooms: 60-75 gallon",
+              body: "More fixtures + more people = more simultaneous demand potential. 60-gallon gas or 75-gallon for larger homes / luxury bathrooms with soaker tubs (which can drain a 50-gallon tank in a single fill). Heat pump water heater also becomes worth considering at this size.",
+            },
+            {
+              heading: "Big homes + multiple soakers + multi-shower: 75+ gallon or tankless",
+              body: "Luxury homes, large families, or multiple shower-bath simultaneous demand often exceeds what a single tank can handle. Options: 75+ gallon tank with high recovery, twin 50-gallon tanks plumbed in series, or [tankless water heater](/tankless-water-heaters/) for truly endless hot water capacity. We walk through the math.",
+            },
+            {
+              heading: "Recovery rate matters as much as tank size",
+              body: "A 50-gallon tank with high recovery (faster reheat between draws) often outperforms a 60-gallon tank with low recovery. High-recovery models are gas with high BTU input or electric with both elements running simultaneously. We factor recovery rate into sizing recommendations — bigger isn't always better.",
+            },
+          ],
+        },
+        {
+          heading: "How a Calgary hot water tank install actually runs",
+          intro:
+            "Typical 3-4 hour install for like-for-like replacement; first-time install in a new build or major upgrade (electric→gas, atmospheric→power-vent) takes longer.",
+          items: [
+            {
+              heading: "1. In-home assessment + sizing conversation",
+              body: "Check current tank (capacity, age, condition), household routine (peak demand pattern, fixture count, soaker tub presence), space constraints (mechanical room access, ceiling height for clearances), gas line + venting options. Discuss tank vs tankless if relevant.",
+            },
+            {
+              heading: "2. Brand + sizing + fuel-type recommendation",
+              body: "Walk through Bradford White vs John Wood vs AO Smith for your specific situation. Confirm sizing based on the household demand conversation. Discuss anode rod material options for Calgary water. Quote in writing — fuel, brand, sizing, install scope, permits, code-required components (expansion tank, drain pan if needed).",
+            },
+            {
+              heading: "3. Shut off + drain + remove old tank",
+              body: "Shut off cold-water inlet, gas (or breaker), and disconnect supply lines. Drain the old tank — often slow due to sediment buildup; we use a transfer pump to speed it. Remove old tank, recycle properly. Protect floors and walkways during the swap-out.",
+            },
+            {
+              heading: "4. Set new tank + plumbing + gas + venting",
+              body: "Position new tank, level it, connect cold + hot supply lines with dielectric unions (preventing galvanic corrosion at the steel-to-copper transition), install or replace expansion tank, install TPR valve + discharge line. Gas: sized supply line + flex connector + shutoff. Power-vent: PVC vent through the wall with proper slope and termination clearances.",
+            },
+            {
+              heading: "5. Permits + inspection coordination",
+              body: "Pull required permits (gas + plumbing). Schedule inspection. Stay through the inspection visit if needed. We don't leave permit paperwork in your hands — that's our job.",
+            },
+            {
+              heading: "6. Fill + commission + walkthrough",
+              body: "Open cold-water inlet, fill the tank (open a hot tap to bleed air during fill), light pilot or activate electric, set thermostat to 49°C (Alberta code recommendation — reduces scald risk while preventing legionella). Walk you through pilot relight (gas), reset button (electric), TPR valve test, recommended flush schedule, anode rod inspection at 3 years.",
+            },
           ],
         },
       ],
       faq: {
-        heading: "Common Questions About Hot Water Tanks in Calgary",
-        intro:
-          "Have questions about replacing or repairing your hot water tank? Get in touch with our team for straightforward answers and honest recommendations. Call us at 587-834-3668, send an email, or book online. We're ready to help you find the right solution for your home's hot water needs.",
+        heading: "Hot Water Tanks Calgary — FAQs",
         items: [
-          { q: "What size hot water tank does my Calgary home need?", a: "Tank size depends on your household's peak hot water demand. A family of four typically needs a 50-gallon tank, though homes with multiple bathrooms or high-flow fixtures may benefit from larger capacity. We assess your specific situation to recommend the right fit." },
-          { q: "How long should a hot water tank last in Calgary?", a: "Most conventional hot water tanks provide 8 to 12 years of service with proper maintenance. Calgary's hard water can shorten this lifespan if sediment builds up, which is why annual flushing and anode rod inspections matter. Units approaching a decade old warrant a professional evaluation." },
-          { q: "What are signs my hot water tank needs replacing?", a: "Watch for rust-coloured water, rumbling noises during heating cycles, puddles around the base, inconsistent water temperature, or noticeably longer recovery times. Any of these symptoms suggest internal corrosion or failing components that often make replacement more cost-effective than repair." },
-          { q: "Should I choose gas or electric for my hot water tank?", a: "Natural gas hot water tanks typically cost less to operate in Alberta due to our relatively low gas prices, and they recover faster than electric models. However, your home's existing infrastructure, available space, and venting options all factor into the best choice. We help you weigh all considerations." },
-          { q: "How much does hot water tank installation cost in Calgary?", a: "Installation pricing varies based on tank size, fuel type, accessibility of your mechanical room, and whether any plumbing or venting modifications are needed. We provide detailed, upfront quotes after assessing your situation so there are no surprises. Contact us for a free estimate tailored to your home." },
+          {
+            q: "What size hot water tank do I need for my Calgary home?",
+            a: "Depends on household size + fixture count + peak simultaneous demand, not square footage. 1-2 people, 1 bathroom: 40 gallon usually fine. 3-4 people, 1-2 bathrooms: 50 gallon is the workhorse. 4-5 people OR 2.5+ bathrooms: 60-75 gallon. Bigger luxury homes with soaker tubs and multiple shower demand may need twin tanks or tankless. Recovery rate matters as much as tank size — we factor both into recommendations.",
+          },
+          {
+            q: "How long should a hot water tank last in Calgary?",
+            a: "Manufacturer ratings are 12-15 years. Calgary's hard water typically cuts that to 8-10 years for a standard tank without annual maintenance. With annual flushing + anode rod replacement every 3 years, we see Calgary tanks reach 12-14 years routinely. Adding a [water softener](/water-softener/) extends this further — most softener customers see 14+ year tank lifespans because the mineral load drops dramatically.",
+          },
+          {
+            q: "Should I choose gas or electric in Calgary?",
+            a: "Gas almost always — Alberta natural gas is cheap and gas tanks recover faster than electric. Electric makes sense in: condos without gas service, small suites where install simplicity matters, homes where running a new gas line would be expensive, or specific code constraints. Electric tanks need a dedicated 240V breaker and slightly larger capacity to compensate for slower recovery.",
+          },
+          {
+            q: "Bradford White or John Wood — which is better for Calgary?",
+            a: "Both excellent. Bradford White is American-made with vitreous-glass-lined tanks and a strong reputation — we install a lot of these in basements with power-vent. John Wood is Canadian-made with strong parts distribution + reliable build quality. Both consistently outlast cheap big-box brands by 1-3 years in Calgary's water. We recommend based on availability and the specific install — performance difference between them is small.",
+          },
+          {
+            q: "What are signs my tank needs replacement vs repair?",
+            a: "Replace: leak from the bottom of the tank (non-repairable corrosion), tank 12+ years old with major component failure, severely scaled bottom that flushing can't recover, rusty/discoloured hot water (anode-related but check for tank-side failure). Repair: leak from top fittings, failed thermostat or element on a younger tank, TPR valve replacement, drain valve swap, pilot/thermocouple service. See [leaking water heater](/leaking-water-heater-calgary/) for the full source-of-leak diagnostic tree.",
+          },
+          {
+            q: "What's the difference between power-vent and atmospheric-vent?",
+            a: "Atmospheric-vent uses natural draft through a chimney for exhaust — works in older homes with masonry or B-vent chimneys. Power-vent uses a small fan to push exhaust horizontally out a side wall — works in any home, even without chimney access. Most modern Calgary installs are power-vent for placement flexibility. Power-vent costs slightly more upfront but is the standard for new installs and replacements where chimney isn't available.",
+          },
+          {
+            q: "Do I need a water softener with my new tank?",
+            a: "Strongly recommended for Calgary tank longevity. Softener customers typically see their NEXT tank last 14+ years vs 8-10 unsoftened — the math on softener payback over a tank lifecycle is usually strongly positive. Also protects every other water-using appliance + fixture in the home. See [water softener Calgary](/water-softener/) for the install conversation. Sometimes worth pairing softener + tank install for one mechanical-room project.",
+          },
+          {
+            q: "How often should I flush my hot water tank?",
+            a: "Annually in Calgary, period. Hard water sediment accumulates fast here — without annual flushing, sediment can be 2-4 inches deep by year 5, insulating the burner from the water above and accelerating heat-stress corrosion on the tank floor. Annual flushing also gives us a chance to inspect the anode rod (every 3 years — replace if down to the core wire). Single best move for tank longevity.",
+          },
+          {
+            q: "Should I consider tankless instead of a tank?",
+            a: "Worth comparing. Tankless: endless hot water capacity, 20+ year lifespan, big space savings, lower operating cost over the lifecycle. Downside: higher install cost, brutal on hard water without proper softening, slightly higher maintenance burden. Tank: lower install cost, simpler maintenance, well-understood technology, plenty of capacity for typical Calgary households. See [tankless water heaters Calgary](/tankless-water-heaters/) for the full comparison.",
+          },
+          {
+            q: "What permits and code requirements apply?",
+            a: "Calgary requires plumbing + gas permits for tank installs, proper venting (power-vent or B-vent), a TPR (temperature/pressure relief) valve with proper discharge piping to the floor, a thermal expansion tank on systems with a backflow preventer (most modern homes), and a drain pan under tanks installed in locations where leaks would cause damage. We pull permits, schedule inspections, and install to current code so the work passes first time.",
+          },
+          {
+            q: "What's the AirEase 12-year warranty I see mentioned elsewhere?",
+            a: "AirEase warranty applies to qualifying furnaces, ACs, and heat pumps — not hot water tanks. For tanks: Bradford White, John Wood, and AO Smith each have their own warranty (typically 6-10 years on tank + 1 year on labor, varying by model + maintenance compliance). We register every install on your behalf and document maintenance to keep warranties valid.",
+          },
+          {
+            q: "How much does hot water tank installation cost in Calgary?",
+            a: "Depends on tank size, fuel type, brand, venting type (atmospheric vs power-vent vs direct-vent), code-required additions (expansion tank, drain pan if missing), and any upgrades like brand-new gas line or electrical service. We quote in writing after the in-home assessment so you see the full cost upfront. Same-day replacement on common-brand stock often available when you need it fast.",
+          },
         ],
       },
     },
