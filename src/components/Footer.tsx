@@ -39,6 +39,7 @@ const heatingLinks = [
   { label: "Boiler Not Working", href: "/boiler-not-working-calgary/" },
   { label: "Furnaces", href: "/furnaces/" },
   { label: "High-Efficiency Furnaces", href: "/high-efficiency-furnaces-calgary/" },
+  { label: "Furnace Replacement", href: "/furnace-replacement-calgary/" },
   { label: "Furnace Blower Issues", href: "/furnace-blower-issues-calgary/" },
   { label: "No Heat Issues", href: "/no-heat-issues-calgary/" },
   { label: "Home Heating Issues", href: "/home-heating-issues-calgary/" },

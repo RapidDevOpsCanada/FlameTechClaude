@@ -2860,6 +2860,7 @@ export const services: ServicePage[] = [
       intro:
         "Install, retrofit, or upgrade — here's the path that matches your situation.",
       items: [
+        { label: "Furnace Replacement", href: "/furnace-replacement-calgary/", summary: "End-of-life replacement decision — furnace-vs-hybrid math, brand selection, Manual J sizing, Greener Homes rebates.", icon: "sync" },
         { label: "High-Efficiency Furnaces", href: "/high-efficiency-furnaces-calgary/", summary: "95–98% AFUE condensing units sized for Calgary's −35°C design temp.", icon: "local_fire_department" },
         { label: "AirEase Furnaces", href: "/air-ease-furnaces-calgary/", summary: "Authorized AirEase Pro Team dealer — full residential lineup with manufacturer warranty.", icon: "local_fire_department" },
         { label: "Garage Heaters", href: "/garage-heaters-calgary/", summary: "Forced-air gas, radiant tube, and electric heaters for Calgary garages and shops.", icon: "garage" },
@@ -2878,7 +2879,7 @@ export const services: ServicePage[] = [
     lead:
       "Calgary's unpredictable winters — from −35°C cold snaps to sudden chinook thaws — demand furnaces that can handle anything.",
     heroBody: [
-      "FlameTech's heating specialists have been installing and servicing high-efficiency furnaces across Calgary for over a decade, helping homeowners cut their gas bills while staying warm through Alberta's toughest winters. Whether you're upgrading an old builder-grade unit in [Evergreen](/evergreen-plumbers-calgary/) or installing a new system in a custom home, we know which units perform best in Calgary's climate.",
+      "FlameTech's heating specialists have been installing and servicing high-efficiency furnaces across Calgary for over a decade, helping homeowners cut their gas bills while staying warm through Alberta's toughest winters. Whether you're upgrading an old builder-grade unit in [Evergreen](/evergreen-plumbers-calgary/) or installing a new system in a custom home, we know which units perform best in Calgary's climate. See [furnace replacement Calgary](/furnace-replacement-calgary/) for the broader replacement-decision conversation including hybrid heat pump comparison + brand selection + Greener Homes rebates.",
       "When your furnace fails at 2 AM in January, you need someone who answers the phone — not a voicemail. Our technicians offer priority response and carry the parts needed to get Calgary homes heated fast.",
     ],
     heroSubhead: "Trusted Calgary High-Efficiency Furnace Experts",
@@ -3126,6 +3127,279 @@ export const services: ServicePage[] = [
           caption: "Turner residence — full retrofit with condensate drain",
         },
       ],
+    },
+  },
+  {
+    slug: "furnace-replacement-calgary",
+    category: "Heating",
+    icon: "sync",
+    title: "Furnace Replacement Calgary — Brand, Sizing + Hybrid Heat Pump Decision",
+    lead:
+      "Your furnace is at end of life — now what? The replacement decision has more moving pieces than most homeowners realize: furnace-only vs hybrid heat pump dual-fuel (the math-positive call for most Calgary homes now), brand selection (AirEase 12-year warranty vs Trane vs Carrier vs Lennox vs Goodman), proper Manual J sizing (most Calgary furnaces are oversized 20-50%), federal Greener Homes rebates, timing strategy (replace BEFORE peak winter season), and financing options. FlameTech walks Calgary homeowners through the replacement decision honestly — no upsell, no pressure, written quote with the full math.",
+    heroBody: [
+      "Two big decisions before you sign anything: (1) furnace-only vs hybrid dual-fuel (heat pump + new furnace). For most Calgary homes adding cooling capability or with high heating bills, hybrid is now the math-positive call — same heat pump install footprint, plus a new furnace as deep-cold backup, plus federal Greener Homes rebates may apply. Lower total operating cost over the equipment's life. (2) Sizing: most Calgary furnaces are oversized by 20-50% — leftover from rule-of-thumb sizing decades ago. We run a Manual J heat-loss calc on every replacement quote, then size to actual load. Right-sized furnaces are quieter, cheaper to run, and last longer.",
+      "We install and service every common Calgary brand. AirEase 12-year parts + labor warranty on qualifying models when registered + maintained (we're authorized AirEase Pro Team dealers). Trane XV / XR series, Carrier Infinity, Lennox EL / SL, Goodman, Heil, Bryant — we have honest conversations about which brand makes sense for your specific install + budget. See [high-efficiency furnaces Calgary](/high-efficiency-furnaces-calgary/) for the broader 96%+ AFUE install scope and [heat pumps Calgary](/heat-pumps-calgary/) for the hybrid dual-fuel comparison.",
+      "Free in-home assessment + written quote with the full math. Permits, venting, condensate drain, gas + electrical scope all clearly itemized. Typical install timeline 1-2 days. [Monthly financing](/financing/) via Financeit + Greener Homes Loan eligibility walkthrough. Call 587-834-3668.",
+    ],
+    heroSubhead: "Replacement Decision + Install + Honest Math",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/2026/04/Furnace-after-len.webp", alt: "New high-efficiency furnace installed by FlameTech in Calgary", fit: "cover" },
+    intro:
+      "Calgary furnace replacement. Honest furnace-vs-hybrid heat pump comparison, Manual J sizing, brand-by-brand quote (AirEase 12yr warranty, Trane, Carrier, Lennox), Greener Homes rebate walkthrough. Free in-home assessment.",
+    features: [
+      "Furnace-vs-hybrid honest comparison",
+      "Manual J heat-loss sizing on every quote",
+      "AirEase 12-yr warranty (qualifying models)",
+      "Trane, Carrier, Lennox, Goodman, Heil install",
+      "Greener Homes rebate walkthrough",
+      "Permits + venting + condensate handled",
+    ],
+    bullets: [
+      {
+        t: "Hybrid heat pump comparison on every quote",
+        d: "Furnace-only is still the right call for some Calgary homes — tight budget, no AC need, simple swap. But for most homes ADDING cooling capability or with high heating bills, hybrid dual-fuel (heat pump + new furnace) is the math-positive call: same install timeline, lower operating cost through 80%+ of the heating season, includes AC, and federal Greener Homes rebates may apply. We walk through both options honestly.",
+      },
+      {
+        t: "Manual J sizing, not rule-of-thumb",
+        d: "Most Calgary furnaces are oversized by 20-50% — leftover from \"X BTU per Y sqft\" sizing decades ago. Oversized furnaces short-cycle, waste gas, run noisy, and wear out faster. We measure your home (square footage, ceiling heights, insulation, windows, air leakage) and pull a Manual J heat-loss calculation. Then we size to the actual load. Slightly smaller-than-rule-of-thumb is usually right for our climate.",
+      },
+      {
+        t: "AirEase 12-year parts + labor warranty (we're an authorized dealer)",
+        d: "AirEase covers qualifying high-efficiency furnaces with a 12-year parts + labor warranty when you (1) register online within 60 days of install, (2) install in an owner-occupied residence, and (3) maintain documented annual professional maintenance. We're authorized AirEase Pro Team dealers — full warranty support, manufacturer training, parts on the truck for AirEase service. Brand-agnostic on other lines (Trane, Carrier, Lennox, Goodman, Heil) — we recommend by install fit, not single dealer relationship.",
+      },
+      {
+        t: "Timing strategy — replace BEFORE peak winter",
+        d: "Calgary's peak furnace-replacement demand runs January-March when failures cascade through cold snaps. Booking windows tighten, install costs sometimes climb, and you're without heat during the wait. If your furnace is 15+ years old or you're seeing performance issues, late summer / early fall replacement timing avoids all of that — book the install in August-October, drop into the new heating season on new equipment.",
+      },
+    ],
+    seoTitle: "Furnace Replacement Calgary | Brand + Sizing + Hybrid Heat Pump Math",
+    seoDescription:
+      "Calgary furnace replacement done right. Honest furnace-vs-hybrid heat pump comparison, Manual J sizing, AirEase 12yr warranty, Greener Homes rebates. Call 587-834-3668.",
+    seoKeywords: [
+      "furnace replacement Calgary",
+      "Calgary furnace replacement cost",
+      "new furnace Calgary",
+      "AirEase furnace Calgary",
+      "Trane furnace Calgary",
+      "Lennox furnace Calgary",
+      "furnace vs heat pump Calgary",
+      "Greener Homes furnace Calgary",
+      "FlameTech Plumbing Heating",
+    ],
+    quoteFormLabel: "furnace replacement",
+    quoteFormPlaceholder:
+      "e.g. 18-year-old furnace at end of life, looking at hybrid heat pump comparison, AirEase 12-yr warranty interest, fall install before winter, Greener Homes rebate eligibility…",
+    sidebar: {
+      title: "Calgary Furnace Replacement",
+      subtitle:
+        "Honest furnace-vs-hybrid comparison, Manual J sizing, AirEase + Trane + Carrier + Lennox + Goodman. Free written quote.",
+      bullets: [
+        "Free in-home assessment + Manual J calc",
+        "Hybrid heat pump math on every quote",
+        "AirEase 12-yr warranty (qualifying models)",
+        "Permits + Greener Homes rebate walkthrough",
+      ],
+    },
+    stats: [
+      { number: "12-YR", label: "AirEase warranty", icon: "award" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "FREE", label: "In-home assessment", icon: "request_quote" },
+      { number: "ANY", label: "Brand or fuel", icon: "check_circle" },
+    ],
+    financing: {
+      detail:
+        "Spread the cost of a furnace replacement into monthly payments via our Financeit partner. Pair with the federal Greener Homes Loan (interest-free) where you qualify for heat-pump or qualifying high-efficiency replacements.",
+    },
+    callout:
+      "Calgary furnace at end of life and time to plan replacement? Call 587-834-3668 for a free in-home assessment — honest hybrid comparison, Manual J sizing, written quote.",
+    richContent: {
+      sections: [
+        {
+          heading: "Signs your Calgary furnace needs replacement (not just repair)",
+          intro:
+            "Some furnace failures are clear-cut replace decisions; others are judgement calls. Here's how the math actually works.",
+          items: [
+            {
+              heading: "Heat exchanger crack — replace (safety, not optional)",
+              body: "Cracked heat exchangers can leak combustion gases (including CO) into the airstream. Never repaired — safety issue, full furnace replacement is the only safe answer. Heat exchanger cracks become statistically significant past 18-20 years; we borescope-inspect on every service call to older furnaces. If we find one, we'll show you on camera before quoting replacement.",
+            },
+            {
+              heading: "Furnace 18+ years old with major component failure",
+              body: "Modern high-efficiency furnaces last 15-20 years on average; conventional gas 18-25. Major failures (cracked heat exchanger, ECM motor failure, control board failure on discontinued models) on 18+ year units rarely make repair-side economic sense. Replacement gets you 95%+ efficiency vs likely 80% on the old unit + 10-15 years of reliable service ahead.",
+            },
+            {
+              heading: "Multiple repairs in a single heating season",
+              body: "Rule of thumb: 3+ separate failures on a 12+ year unit in the same season signals end of life. Each repair is technically possible but you're stacking bills on equipment that'll need replacement within 1-2 years anyway. Math usually favors replacement at this point.",
+            },
+            {
+              heading: "Energy bills climbing without obvious cause",
+              body: "Aging furnaces lose efficiency as components wear — secondary heat exchanger fouling, blower motor losing rated CFM, controls drifting from design setpoints. A 2007 furnace running at 82% real-world efficiency vs nameplate 92% adds up. Combustion analysis confirms; replacement to modern 96%+ AFUE can cut gas bills meaningfully.",
+            },
+            {
+              heading: "Loud or persistent noises (banging, screeching, grinding)",
+              body: "Loud bang on ignition = delayed ignition (gas buildup before light — heat exchanger damage risk if continued). Screeching = blower bearings or capacitor failing. Grinding = motor at end of life. Some are repairable on younger units; on older units the math favors replacement.",
+            },
+            {
+              heading: "Major capacity mismatch (oversized OR undersized)",
+              body: "Oversized furnaces short-cycle, can't dehumidify properly, run noisy, and wear faster. Undersized never reach setpoint in deep cold. Both can sometimes be solved by sizing the next replacement correctly with Manual J — getting closer to actual load improves comfort + lifespan + bills. Right time to fix sizing is replacement time.",
+            },
+            {
+              heading: "You're ALREADY planning AC install or replacement",
+              body: "If you're going to install or replace AC anyway, that's the right time to consider hybrid heat pump (heat pump REPLACES AC + adds efficient heating). Slightly higher install cost than AC-only, much lower heating cost going forward, may qualify for federal Greener Homes rebates. We walk through the math on every furnace replacement quote.",
+            },
+            {
+              heading: "Furnace works but you want efficiency upgrade + comfort",
+              body: "Sometimes the replace conversation isn't driven by failure — homeowner wants to upgrade to 96%+ AFUE for lower bills, two-stage or modulating burner for quieter + more even heating, variable-speed ECM blower for better airflow control. Voluntary upgrade is fine if the math works for your goals. We'll tell you honestly if the payback period makes sense.",
+            },
+          ],
+        },
+        {
+          heading: "Furnace-only vs hybrid dual-fuel — the Calgary math",
+          intro:
+            "Furnace-only is still the right call for some homes. For most Calgary homes ADDING cooling or wanting lower heating bills, hybrid (heat pump + new furnace) is now the math-positive replacement choice. Here's how the comparison actually works.",
+          items: [
+            {
+              heading: "Furnace-only: cheapest install, no cooling, highest operating cost in shoulder seasons",
+              body: "Simple swap: out with the old furnace, in with the new. Lowest install cost. No cooling capability. Operating cost is gas-only year-round — fine in deep winter, less efficient than heat pump in shoulder seasons (October-November, March-April). Right call when budget is tight, you don't want AC, and you're staying in the house another 5-10 years.",
+            },
+            {
+              heading: "Hybrid (heat pump + new furnace): mid install cost, includes cooling, lowest operating cost",
+              body: "Install a cold-climate heat pump (CCHP) AND a new furnace as a matched system. Heat pump handles heating above the balance point (typically −10°C to −15°C), furnace takes over below. Cooling capability included. Significantly lower operating cost through 80%+ of Alberta's heating season. Federal Greener Homes rebates may apply. Higher install cost but typically pays back through operating savings over the system's life.",
+            },
+            {
+              heading: "When furnace-only is genuinely the right call",
+              body: "Tight budget where upfront delta matters more than long-term operating math. Electrical panel can't support a heat pump and panel upgrade is cost-prohibitive. Very new high-efficiency furnace recently failed and you want a like-for-like replacement. Staying in the house only 2-3 more years. We tell you when furnace-only is the better fit.",
+            },
+            {
+              heading: "When hybrid is the math-positive call",
+              body: "You're adding AC anyway. You're seeing high heating bills and want efficiency improvement. You're planning to stay in the house 7+ years. Your existing AC is also at end of life (replace the heat pump in place of AC). Greener Homes rebates apply to your install (may close the upfront cost gap entirely). For most Calgary homeowners at replacement time today, hybrid is the answer.",
+            },
+            {
+              heading: "Pure heat pump (with electric backup) — rarely the right Calgary answer",
+              body: "Pure electric heat pump with electric resistance backup is possible but rarely optimal in Calgary. Alberta natural gas is cheap. Heat pump efficiency drops below −15°C to where electric backup costs more per BTU than gas would. Pure-electric tank-style hot water heaters are common in condos without gas, but pure-electric heating in a typical Calgary house? Hybrid almost always wins.",
+            },
+            {
+              heading: "How we present the math on every replacement quote",
+              body: "Free in-home assessment, Manual J heat-loss calculation, side-by-side written quote showing furnace-only cost AND hybrid cost AND Greener Homes rebate-adjusted cost AND projected operating cost differential. You see the numbers — no pressure, no upsell. If furnace-only is the right call for your situation we'll tell you. See [heat pumps Calgary](/heat-pumps-calgary/) for the broader hybrid framing.",
+            },
+          ],
+        },
+        {
+          heading: "Brand selection — honest framing on your replacement options",
+          intro:
+            "We install and service every common Calgary furnace brand. Brand choice depends on install fit, budget, warranty preferences, and parts availability. Here's the honest framing.",
+          items: [
+            {
+              heading: "AirEase (we're authorized Pro Team dealers)",
+              body: "AirEase covers qualifying high-efficiency furnaces with a 12-year parts + labor warranty when registered within 60 days + maintained annually. Strong dealer support, parts on our trucks, manufacturer training. Best value play when the 12-year warranty matters to you and you'll commit to annual service. We're authorized dealers + handle warranty registration + service.",
+            },
+            {
+              heading: "Trane (XV / XR series)",
+              body: "Premium brand with strong reliability reputation. XV20i variable-speed is the flagship; XR series is the workhorse value option. Strong parts availability in Calgary. Slightly higher install cost than mid-tier brands. Best fit when you want premium-brand reputation + long-term reliability.",
+            },
+            {
+              heading: "Carrier (Infinity / Performance / Comfort series)",
+              body: "Premium brand alongside Trane. Infinity 19VS modulating + variable-speed is the flagship. Strong parts availability + dealer network. Similar price point to Trane. Often comes down to dealer relationship + specific install fit.",
+            },
+            {
+              heading: "Lennox (SL / EL series)",
+              body: "Premium brand with focus on efficiency + comfort features. SLP99V modulating + variable-speed is the flagship. EL series is more value-tier. Strong parts availability. Sometimes preferred when ductless mini-split integration is part of the project (Lennox makes both).",
+            },
+            {
+              heading: "Goodman / Daikin",
+              body: "Value-tier brand under same parent as Daikin. Reliable mid-tier units with strong warranty coverage. Lower install cost than premium brands. Best fit when budget is the priority but you still want a name-brand install with full warranty support.",
+            },
+            {
+              heading: "Heil + Bryant",
+              body: "Mid-to-premium tier brands. Heil shares parent with Carrier; Bryant is Carrier's sister brand at slightly lower price points. Strong Calgary parts availability. Often competitive on replacement quotes.",
+            },
+          ],
+        },
+        {
+          heading: "How a Calgary furnace replacement actually runs",
+          intro:
+            "Typical 1-2 day install for like-for-like furnace replacement. Hybrid setup or major ductwork modifications can stretch to 2-3 days. We tell you upfront which bucket you're in.",
+          items: [
+            {
+              heading: "1. In-home assessment + Manual J heat-loss calc",
+              body: "We measure your home (square footage, ceiling heights, insulation, windows, air leakage), pull a Manual J heat-loss calculation, and size the furnace (and heat pump if hybrid) to actual load. Wrong sizing is the #1 reason replacement furnaces disappoint.",
+            },
+            {
+              heading: "2. Ductwork + venting + gas line + electrical inspection",
+              body: "Check existing ductwork can handle the new equipment's CFM rating, gas line size, venting options (sidewall power-vent typical for 96%+ AFUE condensing), condensate drain routing, electrical panel capacity (especially for hybrid heat pump install). Any infrastructure modifications quoted upfront.",
+            },
+            {
+              heading: "3. Brand selection + furnace-vs-hybrid comparison + written quote",
+              body: "Walk through brand options for your install + budget. Walk through the furnace-only vs hybrid math, including Greener Homes rebate eligibility. Written quote covers equipment, install scope, permits, code-required additions (condensate neutralizer, expansion of gas line if needed), and any ductwork modifications.",
+            },
+            {
+              heading: "4. Remove old furnace, install new",
+              body: "Drain heating system if hydronic-coil integrated (rare on forced air). Disconnect and remove old furnace, recycle properly. Set new furnace, level it, connect gas line + electrical + thermostat wiring + condensate drain. Vent termination through sidewall (typical) or rebuilt B-vent if conventional efficiency.",
+            },
+            {
+              heading: "5. Hybrid integration (if applicable)",
+              body: "For hybrid installs: mount outdoor heat pump unit, run refrigerant lineset, integrate with new furnace's indoor coil, wire smart thermostat for automatic balance-point switchover. See [heat pumps Calgary](/heat-pumps-calgary/) for full hybrid scope.",
+            },
+            {
+              heading: "6. Commissioning + permits + Greener Homes paperwork",
+              body: "Combustion analysis to verify proper operation (CO levels, draft, efficiency at nameplate spec). Calibrate thermostat. Register manufacturer warranty (AirEase 12-year requires online registration within 60 days). Submit any Greener Homes Loan + Grant paperwork. Schedule code inspection if required. Walk you through the new system + maintenance schedule.",
+            },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Furnace Replacement Calgary — FAQs",
+        items: [
+          {
+            q: "How do I know if I should repair or replace my furnace?",
+            a: "Quick rule: under 12 years old with a single failed component — repair. Over 18 years old with a major failure (heat exchanger crack, ECM motor failure, control board on a discontinued model) — replace. Cracked heat exchanger at any age = replace (safety, not optional). 12-18 with a single failure is a judgement call; we quote both options and walk through the math. Multiple repairs in one season also tilts toward replacement.",
+          },
+          {
+            q: "Should I replace with a furnace or go to hybrid heat pump?",
+            a: "For most Calgary homes adding cooling capability OR wanting lower heating bills, hybrid (heat pump + new furnace) is now the math-positive call. Same install timeline, lower operating cost through 80%+ of the heating season, includes AC, and federal Greener Homes rebates may apply. Furnace-only is still right when budget is tight, you don't want AC, or you're staying in the house only 2-3 more years. We walk through both options honestly on every quote.",
+          },
+          {
+            q: "What size furnace do I need for my Calgary home?",
+            a: "Depends on insulation, window area + quality, ceiling height, air leakage, and orientation — not just square footage. Most Calgary furnaces are oversized 20-50% by rule-of-thumb sizing from decades ago. We run a Manual J heat-loss calculation on every replacement quote and size to actual load. Right-sized furnaces are quieter, cheaper to run, and last longer.",
+          },
+          {
+            q: "Which furnace brand is best for Calgary?",
+            a: "Honest answer: there isn't one \"best\" — it depends on install fit + budget + warranty preferences. AirEase 12-year warranty is the value play when you'll commit to annual service. Trane + Carrier + Lennox are premium tier with strong reliability + parts availability. Goodman is the value-tier name brand. We're authorized AirEase Pro Team dealers but brand-agnostic on others — we recommend by install fit, not dealer relationship.",
+          },
+          {
+            q: "How much does furnace replacement cost in Calgary?",
+            a: "Depends on brand tier, single-stage vs two-stage vs modulating burner, single-speed vs ECM variable-speed blower, install complexity (ductwork modifications, venting changes, gas line work), and whether it's furnace-only or hybrid heat pump install. We quote in writing after the in-home assessment so you see the full cost upfront — including the hybrid comparison and Greener Homes rebate-adjusted numbers. [Monthly financing](/financing/) available via Financeit.",
+          },
+          {
+            q: "Are there rebates available for furnace replacement in Calgary?",
+            a: "Federal Canada Greener Homes program supports heat pump installations meeting specific efficiency thresholds — interest-free Loan + Grant cash-back. Eligibility, equipment qualifications, and application windows have changed over time. We walk through current rules during the assessment so you know what's actually available for your specific install before committing. Don't make pricing decisions based on a rebate that may not apply.",
+          },
+          {
+            q: "How long does furnace replacement take?",
+            a: "Typical 1-2 day install for like-for-like furnace replacement. Hybrid setup (furnace + heat pump as matched system) often 2-3 days. Major ductwork modifications can extend timeline further. We tell you upfront which bucket your install is in before quoting.",
+          },
+          {
+            q: "When's the best time of year to replace my furnace in Calgary?",
+            a: "Late summer to early fall (August-October) is ideal. You avoid the January-March peak demand when failures cascade through cold snaps and booking windows tighten. You drop into the new heating season on new equipment. Spring (April-May) is also good. Replacing during a deep-cold furnace failure works but you're sometimes paying premium for emergency dispatch.",
+          },
+          {
+            q: "What's the AirEase 12-year warranty about?",
+            a: "AirEase covers qualifying high-efficiency furnaces with a 12-year parts + labor warranty when you (1) register the equipment online within 60 days of installation, (2) install in an owner-occupied residence, and (3) maintain documented annual professional maintenance. Terms apply. We're authorized AirEase Pro Team dealers + handle warranty registration + ongoing service. Best when you'll commit to the annual service requirement.",
+          },
+          {
+            q: "Will my existing ductwork work with a new high-efficiency furnace?",
+            a: "Often yes, sometimes minor modifications needed. New high-efficiency furnaces with ECM variable-speed blowers handle a wider range of static pressure than older single-speed units, so duct compatibility is often better than expected. Common modifications: increase return air capacity (most Calgary homes are under-returned), reseal joints, add insulation to runs in unconditioned spaces. We check during the in-home assessment.",
+          },
+          {
+            q: "Can you help me decide between furnace-only and hybrid?",
+            a: "Yes — that's a significant part of every replacement quote. Free in-home assessment, Manual J heat-loss calculation, side-by-side written quote showing furnace-only cost AND hybrid cost AND Greener Homes rebate-adjusted cost AND projected operating cost differential over 10-15 years. You see the numbers — no pressure, no upsell. If furnace-only is the right call for your situation we'll tell you.",
+          },
+          {
+            q: "What other heating services do you offer?",
+            a: "Same crew handles [high-efficiency furnace install](/high-efficiency-furnaces-calgary/), [heat pumps](/heat-pumps-calgary/), [boilers](/boilers/), [no heat emergency dispatch](/no-heat-issues-calgary/), [home heating issues diagnostics](/home-heating-issues-calgary/), [furnace blower issues](/furnace-blower-issues-calgary/), [humidifiers](/humidifiers-calgary/), [garage heaters](/garage-heaters-calgary/), and [air conditioning](/air-conditioning/). HVAC under one roof.",
+          },
+        ],
+      },
     },
   },
   {
@@ -3761,7 +4035,7 @@ export const services: ServicePage[] = [
           items: [
             {
               heading: "Furnace 18+ years old with major failure",
-              body: "Modern high-efficiency furnaces last 15-20 years on average; conventional gas furnaces 18-25. Major failures (heat exchanger crack, ECM motor failure, control board failure on discontinued models) on 18+ year units rarely make repair-side economic sense. Replacement gets you 96%+ efficiency vs likely 80% on the old unit + 10-15 more years of reliable service. See our [high-efficiency furnace install](/high-efficiency-furnaces-calgary/) page.",
+              body: "Modern high-efficiency furnaces last 15-20 years on average; conventional gas furnaces 18-25. Major failures (heat exchanger crack, ECM motor failure, control board failure on discontinued models) on 18+ year units rarely make repair-side economic sense. Replacement gets you 96%+ efficiency vs likely 80% on the old unit + 10-15 more years of reliable service. See [furnace replacement Calgary](/furnace-replacement-calgary/) for the full replacement-decision conversation including hybrid heat pump comparison.",
             },
             {
               heading: "Heat exchanger crack at any age — replace",
