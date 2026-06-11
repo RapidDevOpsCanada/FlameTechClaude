@@ -8337,132 +8337,202 @@ export const services: ServicePage[] = [
     category: "Plumbing",
     location: "Calgary",
     icon: "plumbing",
-    title: "Auburn Bay Plumber Calgary | Priority Emergency Service | FlameTech",
+    title: "Auburn Bay Plumber Calgary — 2007-2020 Builds, Lake Community",
     lead:
-      "Auburn Bay homeowners know that when your plumbing fails, you need a plumber who understands this newer community's unique challenges. FlameTech Plumbing has been serving Auburn Bay since these homes started going up in 2005, and we've seen every issue these builder-grade systems can throw at you. From [hot water tank failures](/hot-water-tanks/) in those mechanical rooms to main line backups, we know exactly what breaks and how to fix it right.",
+      "Auburn Bay was built from 2007 onwards, with most homes constructed between 2010 and 2020. That makes it one of Calgary's modern lake communities — predominantly PEX supply (no Poly-B), modern high-efficiency mechanical equipment, tight envelopes, and homes that are now in the 5-18 year range. The first wave (2007-2010 builds) are hitting first-round original-equipment end-of-life RIGHT NOW: water heaters at 15+ years, sump pumps from original install, first-generation high-efficiency furnaces approaching mid-life. FlameTech dispatches from SE Calgary via 52nd Street and Deerfoot for fast Auburn Bay arrival.",
     heroBody: [
-      "As a locally owned and operated [plumbing team in SE Calgary](/calgary-plumbers-se/), we understand the unique challenges that Auburn Bay properties face. Auburn Bay's homes are mostly built between 2005-2015, which means your builder-grade plumbing is hitting that 15-20 year mark where things start failing.",
-      "Our crew has serviced homes throughout SE Calgary, from [Cranston](/cranston-plumber-calgary/) to [McKenzie Towne](/mckenzie-towne-plumbers-calgary/), so we understand how these newer communities were built and what problems to expect. Call 587-834-3668 any time — priority dispatch, real person on the line.",
+      "Three patterns dominate Auburn Bay calls: (1) first-round equipment replacement on 2007-2012 builds (water heaters, sump pumps, original-spec furnaces hitting Calgary EOL), (2) hard-water-driven service across the whole neighbourhood (no softener originally specced on most builds; tanks and tankless units scale fast in Calgary water), and (3) lake-community-specific work — irrigation systems for the lake-adjacent properties, hose-bib winterization, and the occasional sump pump issue on lower yards.",
+      "Same crew that handles our [hot water tank replacement](/hot-water-tank-replacement-calgary/), [furnace repair](/furnaces/), [water softener install](/water-softener/), [tankless](/tankless-water-heaters/), [sump pump install](/sump-pump-installation-calgary/), [drain cleaning](/drain-cleaning-calgary/), and [emergency plumbing](/emergency-plumber-calgary/). Same crew also covers neighbouring [Mahogany](/mahogany-plumbers-calgary/), [Cranston](/cranston-plumber-calgary/), [McKenzie Towne](/mckenzie-towne-plumbers-calgary/), and [New Brighton](/new-brighton-plumbers-calgary/).",
+      "Real person on the phone, written quote before any work starts. Same-day for emergencies — 52nd Street SE access makes the run from our shop fast. Call 587-834-3668.",
     ],
-    heroSubhead: "Auburn Bay's Trusted SE Calgary Plumbers",
+    heroSubhead: "SE Calgary Crew, Lake Community Builds",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
-    heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing service van in Auburn Bay", fit: "cover" },
+    heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing + heating service in Auburn Bay, SE Calgary", fit: "cover" },
     intro:
-      "Auburn Bay plumber serving SE Calgary. Priority emergency service, water heaters, drain cleaning, leak repairs. Local experts. Call 587-834-3668 today.",
+      "Auburn Bay Calgary plumbing + heating — first-round equipment replacement on 2007-2012 builds, hard-water protection, lake-community service, SE dispatch. Free written quote.",
     features: [
-      "Priority emergency plumbing",
-      "Hot water tank replacement",
-      "Main line cleaning & camera",
-      "Leak detection & repair",
-      "Sump pump service",
-      "Water softener installation",
+      "First-round water heater + furnace replacement",
+      "Water softener install (hard-water defence)",
+      "Tankless water heater retrofit + service",
+      "Sump pump install + replacement",
+      "Hose bib + irrigation winterization",
+      "Same-day emergency dispatch",
     ],
     bullets: [
       {
-        t: "Auburn Bay experience",
-        d: "We've worked in hundreds of Auburn Bay homes and know how Morrison, Brookfield, and other builders ran their plumbing.",
+        t: "2007-2020 build era specialists",
+        d: "Modern PEX supply (no Poly-B concerns), modern high-efficiency mechanical equipment, tight envelopes. We know which builders dominated which phases, what equipment was originally specced, and which components are now at first-round end-of-life. Saves diagnosis time on the call.",
       },
       {
-        t: "Stocked Calgary trucks",
-        d: "Our trucks run from SE Calgary, so we're usually at Auburn Bay homes fast — even in the middle of a blizzard.",
+        t: "First-round equipment replacement era",
+        d: "Original 2007-2010 Auburn Bay water heaters are now 15+ years old and typically past Calgary's unsoftened-water lifespan (8-10 years). Original sump pumps from the same era are tired. First-generation high-efficiency furnaces are approaching 15-18 years. We handle the replacement conversation honestly — repair when it makes sense, replace when the math says so.",
+      },
+      {
+        t: "Hard water is the silent Auburn Bay problem",
+        d: "Calgary water hardness (150-200 mg/L) wasn't really considered when most Auburn Bay homes were built. Tanks fail at 8-10 years instead of 12-14. Tankless heat exchangers scale aggressively. Dishwasher + washing machine valves corrode early. Single [water softener](/water-softener/) at the main entry protects everything downstream — Auburn Bay's #1 longevity upgrade.",
+      },
+      {
+        t: "Real person on the phone — SE dispatch",
+        d: "No call centre. You talk to a tech, get a window before the truck rolls. Same-day dispatch for emergencies. 52nd Street SE makes Auburn Bay arrival fast — usually 2-3 hours from initial call on emergencies, faster on planned work.",
       },
     ],
-    seoTitle: "Auburn Bay Plumber Calgary | Priority Emergency Service",
+    seoTitle: "Auburn Bay Plumber Calgary | Water Heater + Furnace EOL, SE Dispatch",
     seoDescription:
-      "Auburn Bay plumber serving SE Calgary. Priority emergency service, water heaters, drain cleaning, leak repairs. Local experts. Call 587-834-3668 today.",
+      "Auburn Bay Calgary plumbing + heating. Water heater + furnace + sump pump end-of-life replacement on 2007-2012 builds, water softener install, lake community service. Call 587-834-3668.",
     seoKeywords: [
       "Auburn Bay plumber",
       "plumber Auburn Bay Calgary",
-      "SE Calgary plumber",
+      "Auburn Bay water heater replacement",
+      "Auburn Bay water softener",
       "Auburn Bay emergency plumber",
-      "hot water tank Auburn Bay",
+      "SE Calgary plumber",
       "FlameTech Plumbing",
     ],
     quoteFormLabel: "Auburn Bay plumbing",
     quoteFormPlaceholder:
-      "e.g. hot water tank leaking, main line backup, frozen bathroom pipe, sump pump failure…",
+      "e.g. original water heater finally going on a 2009 build, water softener install to protect appliances, sump pump not cycling, furnace short-cycling, hose bib leak…",
     sidebar: {
-      title: "Auburn Bay Plumber",
+      title: "Auburn Bay Plumbing + Heating",
       subtitle:
-        "Local SE Calgary plumbers — fully-stocked trucks, priority emergency dispatch.",
+        "SE Calgary crew. First-round equipment replacement, hard-water protection, lake-community service, written quotes upfront.",
       bullets: [
-        "Licensed, insured, and bonded",
-        "Real person answers the phone",
-        "Stocked Calgary trucks",
-        "Builder-grade system experts",
+        "Real person on the phone",
+        "Free in-home assessment + written quote",
+        "Stocked for 2007-2020 builds",
+        "Same-day emergency dispatch",
       ],
     },
     stats: [
       { number: "25+", label: "Years in Calgary", icon: "verified" },
       { number: "5.0★", label: "Google rated", icon: "star" },
-      { number: "FREE", label: "Written estimates", icon: "request_quote" },
-      { number: "Licensed", label: "& insured", icon: "award" },
+      { number: "Real", label: "Person on the phone", icon: "call" },
+      { number: "ANY", label: "Plumbing + heating brand", icon: "check_circle" },
     ],
     callout:
-      "Burst pipe, flooded basement, or hot water tank failure in Auburn Bay? Call 587-834-3668 — priority dispatch, real person on the line.",
+      "Original Auburn Bay equipment at end of life, hard-water issue, or emergency right now? Call 587-834-3668 — SE dispatch via 52nd Street.",
     richContent: {
       sections: [
         {
-          heading: "Our Auburn Bay Plumbing Services",
+          heading: "What we do most often on Auburn Bay calls",
           intro:
-            "Auburn Bay's homes are mostly built between 2005-2015, which means your builder-grade plumbing is hitting that 15-20 year mark where things start failing. We know exactly where the weak points are.",
+            "Most Auburn Bay service calls trace to the build-era reality: modern PEX and tight envelopes (good news on Poly-B and air leakage), original equipment now at first-round end-of-life (predictable replacement work), and hard water that wasn't specced against during construction.",
           items: [
-            { heading: "Emergency Plumbing Repairs", body: "Priority service for burst pipes, sewer backups, flooding, and major leaks that can't wait. See our [emergency plumber page](/emergency-plumber-calgary/) for more." },
-            { heading: "Drain Cleaning & Unclogging", body: "Main line cleaning, kitchen sink clogs, bathroom drains, and laundry room backups. Learn more about our [Calgary drain cleaning service](/drain-cleaning-calgary/)." },
-            { heading: "Water Heater Services", body: "[Tank replacement](/hot-water-tanks/), [tankless installation](/tankless-water-heaters/), repairs, and maintenance for all brands. Most Auburn Bay tanks are hitting the 12-15 year mark." },
-            { heading: "Leak Detection & Repair", body: "Hidden leaks, slab leaks, pipe repairs, and water damage prevention using thermal imaging and acoustic detection." },
-            { heading: "Sewer Line Services", body: "Camera inspections, line cleaning, repairs, and full sewer line replacement. Mid-2000s Auburn Bay sewer lines need checking every 5 years." },
+            {
+              heading: "Water heater replacement (2007-2012 originals at EOL)",
+              body: "Calgary tanks last 8-10 years in this water unsoftened. Auburn Bay originals from the first phase are typically 15+ years now and well past Calgary EOL. We replace with [Bradford White or John Wood](/hot-water-tanks/) — the two brands that hold up best in our water — and recommend pairing with a [water softener](/water-softener/) install for next-tank longevity. See also [no hot water](/no-hot-water-calgary/) if your tank is actively failing.",
+            },
+            {
+              heading: "Water softener install — Auburn Bay's biggest longevity upgrade",
+              body: "Most Auburn Bay homes were built without a softener. Calgary's hard water (150-200 mg/L) shortens every water-using appliance's lifespan. Installing a properly-sized softener at the main entry: tanks last 14+ years instead of 8-10, tankless heat exchangers scale slowly instead of aggressively, dishwasher + washing machine valves last longer, shower valve cartridges seize less, fixture finishes hold up better. Single install, whole-house benefit.",
+            },
+            {
+              heading: "Tankless water heater retrofit + service",
+              body: "Some Auburn Bay homeowners go tankless on tank replacement — endless hot water, 20+ year lifespan, space savings. Brutal on hard water though — annual descaling mandatory in Calgary. Common brands we install: Navien NPE-A/S, Rinnai RU/RUR, IBC. Often paired with softener install. See [tankless water heaters](/tankless-water-heaters/) for the full comparison conversation.",
+            },
+            {
+              heading: "Furnace replacement (first-generation HE units approaching mid-life)",
+              body: "First-wave Auburn Bay homes (2007-2010) had original high-efficiency furnaces that are now 15-18 years old. Heat exchanger cracks become statistically significant past 18-20 years. ECM blower motors often need replacement around 15-20 years. We have an honest repair-vs-replace conversation; heat pump + hybrid dual-fuel is now the math-positive alternative on replacement — see [heat pumps Calgary](/heat-pumps-calgary/).",
+            },
+            {
+              heading: "Sump pump replacement (original install era now)",
+              body: "Sump pumps typically last 10-15 years. Auburn Bay originals from 2007-2012 builds are well into that range or past it. Spring melt + heavy rain events stress these systems — failure on one of those days is when basement damage happens. We replace with ProFlo or similar quality pumps + verify discharge routing isn't dumping water back against the foundation. Battery backup recommended for lake-adjacent and lower-lot homes.",
+            },
+            {
+              heading: "Hose bib + irrigation winterization (lake-adjacent properties)",
+              body: "Auburn Bay's lake-amenity properties commonly have irrigation systems for lawns + landscaping. Winterization (blow out + valve isolation) prevents burst lines on first deep cold. Hose bib replacement: original builder-grade bibs are tired by now and often have weeping leaks behind exterior walls; modern frost-free designs last longer.",
+            },
+            {
+              heading: "Drain + sewer service (15-year mark territory)",
+              body: "Auburn Bay's sewer lines and homes' drain stacks are 15-18 years old on the first-wave properties. Kitchen sink + laundry drains accumulate grease and lint buildup over time. Main-line cleaning every 3-5 years prevents the back-up + sewage cleanup conversation. See [drain cleaning Calgary](/drain-cleaning-calgary/) for the broader scope.",
+            },
+            {
+              heading: "Frozen pipe + cold-snap dispatch",
+              body: "Modern PEX is more forgiving on freeze than the galvanized + copper of older neighbourhoods, but Auburn Bay's corner-bathroom exterior wall runs still freeze during deep cold snaps when wind chill + exterior wall design conspire. Same-day priority for burst-pipe calls. Common diagnostic + repair completes first visit; insurance documentation provided on request.",
+            },
           ],
         },
         {
-          heading: "Common Plumbing Issues in Auburn Bay Homes",
+          heading: "Why Auburn Bay homes hit predictable maintenance milestones right now",
           intro:
-            "Auburn Bay's location in SE Calgary brings specific plumbing challenges that we see repeatedly:",
+            "Auburn Bay's narrow build window (2007-2020) means most original equipment is on similar age curves. Knowing the era helps explain what's coming due and when.",
           items: [
-            { body: "Hot water tanks failing at the 12-15 year mark (most Auburn Bay homes got builder-grade 6-year warranty tanks)." },
-            { body: "Main sewer line issues from settling and poor initial grading during the building boom." },
-            { body: "Frozen pipes in those corner bathrooms during Calgary's -30°C cold snaps." },
-            { body: "Sump pump failures during spring melt — Auburn Bay's lower elevation makes basements vulnerable." },
-            { body: "Hard water buildup destroying faucets and fixtures faster than expected." },
-            { body: "Cheap builder-grade shut-off valves failing and causing water damage." },
-          ],
-        },
-        {
-          heading: "Preventative Plumbing Maintenance for Auburn Bay",
-          intro:
-            "Regular maintenance prevents those 3 AM emergency calls and saves you thousands in water damage. Here's what Auburn Bay homeowners should be doing:",
-          items: [
-            { body: "Check your hot water tank annually after year 8 — most Auburn Bay tanks are pushing their limits." },
-            { body: "Have your main line cleaned every 2-3 years to prevent backups." },
-            { body: "Test your sump pump before spring melt hits Auburn Bay." },
-            { body: "Flush your water heater annually to remove hard water sediment buildup." },
-            { body: "Insulate pipes in crawl spaces and against exterior walls." },
-            { body: "Replace supply lines to toilets and faucets every 10 years — those braided ones fail without warning." },
+            {
+              heading: "No Poly-B in Auburn Bay",
+              body: "By 2007 the industry had transitioned to PEX-A and PEX-B. Auburn Bay homes use modern PEX supply — no Poly-B concern at all. If you've heard from neighbours in older Calgary neighbourhoods about Poly-B replacement bills, that's not your conversation. Worry less about supply pipe; focus replacement budget on equipment instead.",
+            },
+            {
+              heading: "First-wave (2007-2010) originals are at EOL",
+              body: "2007-2010 Auburn Bay water heaters, sump pumps, and dishwashers are all 15+ years old and likely past Calgary's hard-water-shortened lifespans. If you're in this wave, expect first-round major appliance + mechanical replacement over the next 1-3 years.",
+            },
+            {
+              heading: "Mid-wave (2010-2015) approaching first-round EOL",
+              body: "2010-2015 builds are 10-15 years old now. Tanks are entering EOL territory (8-10 years unsoftened); sump pumps are tired; furnaces and AC are mid-life with capacitors + motors showing wear. Annual service catches most issues; replacement conversations are coming within 3-5 years for major equipment.",
+            },
+            {
+              heading: "Late-wave (2015-2020) at first-service intervals",
+              body: "Newer homes are 5-10 years old — first annual maintenance intervals matter most here. Furnace + AC tune-ups, water heater flush + anode rod check (3-year cycle), dishwasher + washing machine supply hose replacement (~10 year safe-life). Preventive intervention extends original equipment life.",
+            },
+            {
+              heading: "Hard water hits everything — softener payback is positive",
+              body: "Auburn Bay's water is the same hard Calgary municipal supply (150-200 mg/L) as the rest of the city. Without a softener, tanks fail at 8-10 years instead of 12-14, tankless heat exchangers scale fast, every fixture downstream wears faster. A softener install pays back over a single tank replacement cycle and protects the whole house going forward.",
+            },
+            {
+              heading: "Modern tight envelope means tight humidity",
+              body: "Auburn Bay's post-2010 builds have tight envelopes — good for energy efficiency, but indoor humidity in deep winter can drop below 20% without active humidification. Many homes would benefit from a whole-home humidifier installed on the furnace. See [humidifiers Calgary](/humidifiers-calgary/).",
+            },
+            {
+              heading: "Lake-amenity = irrigation + outdoor water + hose bibs",
+              body: "Auburn Bay's lake amenity means many properties have more outdoor plumbing infrastructure than typical Calgary suburb homes: irrigation systems, multiple hose bibs for lake-side gardening, occasional gazebo or outdoor kitchen plumbing. Winter prep matters more here than on typical landlocked Calgary lots.",
+            },
+            {
+              heading: "SE dispatch via 52nd Street + Deerfoot",
+              body: "Same crew that handles our broader [SE Calgary plumbing](/calgary-plumbers-se/) work. 52nd Street SE makes the run fast even during rush hour — typical arrival window 2-3 hours on emergencies, often faster. No \"out of service area\" surcharge.",
+            },
           ],
         },
       ],
       faq: {
-        heading: "Frequently Asked Questions",
+        heading: "Auburn Bay Plumbers — FAQs",
         items: [
           {
-            q: "How long do hot water tanks last in Auburn Bay homes?",
-            a: "Most Auburn Bay homes got builder-grade tanks with 6-year warranties, but they typically last 8-12 years with Calgary's hard water. If your home was built in 2005-2010, your tank is likely due for replacement. We can assess your current tank and give you an honest timeline.",
+            q: "Does my Auburn Bay home have Poly-B plumbing?",
+            a: "No. By the time Auburn Bay started building (2007), the industry had transitioned to PEX-A and PEX-B. Every Auburn Bay home uses modern PEX supply piping. You can skip the Poly-B replacement conversation entirely and focus your maintenance budget on equipment + softener instead.",
           },
           {
-            q: "Why does my Auburn Bay home have low water pressure?",
-            a: "Low pressure in Auburn Bay is usually from hard water buildup in faucets and showerheads, or failing pressure regulators that were installed during construction. We see this constantly in homes 15+ years old. A [water softener system](/water-softener/) can prevent future buildup and protect your fixtures.",
+            q: "My Auburn Bay water heater is still original from 2008-2010 — should I replace it now?",
+            a: "Almost certainly yes. Calgary tanks last 8-10 years in this water unsoftened, and your tank is 15+ years old. You're well past statistical end-of-life — every additional year is increasingly risky for bottom-of-tank corrosion leaks that can flood a basement quickly. Proactive replacement is much cheaper than a flood + insurance fight. We can confirm tank age from the rating plate and quote replacement in writing.",
           },
           {
-            q: "What causes sewer backups in Auburn Bay?",
-            a: "Auburn Bay's sewer lines were installed during the mid-2000s building boom, and some weren't properly bedded or graded. Combined with tree root intrusion and settling, main line backups are common in homes 15-20 years old. We recommend camera inspections every 5 years and preventive cleaning every 2-3 years.",
+            q: "Should I install a water softener in my Auburn Bay home?",
+            a: "Strongly recommended. Calgary's hard water (150-200 mg/L) shortens every water-using appliance's lifespan. A softener install pays back over a single tank replacement cycle (next tank lasts 14+ years instead of 8-10) and protects every other water-using fixture + appliance in the home — dishwasher, washing machine, faucets, shower valves, fixture finishes. Single install at the main entry, whole-house benefit. See [water softener Calgary](/water-softener/).",
           },
           {
-            q: "Should I replace or repair my Auburn Bay home's plumbing fixtures?",
-            a: "If your fixtures are original to the home (2005-2015), replacement usually makes more sense than repairs. Those builder-grade faucets and toilets were designed to last just long enough to get past warranty. [Emergency repairs](/emergency-plumber-calgary/) on cheap fixtures often cost more than upgrading to quality replacements.",
+            q: "Why does my Auburn Bay home have low water pressure on certain fixtures?",
+            a: "Almost always hard-water buildup at the fixture aerators + showerheads, not a system pressure issue. Calgary water deposits minerals on every screen and orifice over years. Clean or replace the aerator (5-minute job per fixture) restores flow. If pressure is low at ALL fixtures simultaneously, that's a different issue — could be a partially-closed main shutoff, a failing PRV, or municipal supply variation. We diagnose during a service call.",
           },
           {
-            q: "How fast can you get to my Auburn Bay home?",
-            a: "Our trucks run from SE Calgary, so we're usually at Auburn Bay homes within 45 minutes. Emergency calls get priority dispatch so you're not waiting during a flood.",
+            q: "Do Auburn Bay homes need backup sump pumps?",
+            a: "Depends on lot. Higher-elevation properties further from the lake generally do fine on a single primary pump. Lake-adjacent and lower-elevation lots benefit from battery backup — power outages from spring storms occasionally coincide with peak runoff events, and a primary pump can't run without grid power. Battery backup is cheap insurance for finished-basement homes.",
+          },
+          {
+            q: "How fast can you respond to emergency calls in Auburn Bay?",
+            a: "Same-day for emergencies — burst pipes, no hot water, sewer backup. Real person on the phone, we'll confirm a window before the truck rolls. 52nd Street SE access makes Auburn Bay dispatch fast — usually 2-3 hours from initial call.",
+          },
+          {
+            q: "Is my Auburn Bay furnace at end of life?",
+            a: "Depends on build year. 2007-2010 originals are now 15-18 years old and approaching the heat-exchanger-crack risk zone (statistically significant past 18-20 years). 2010-2015 builds are mid-life — annual service is critical but replacement isn't typically needed yet. 2015-2020 builds are still in first-service-interval territory. We have an honest inspection + replace-vs-repair conversation on every service call to older units.",
+          },
+          {
+            q: "Should I add a humidifier to my Auburn Bay furnace?",
+            a: "Worth considering. Auburn Bay's tight post-2010 envelopes mean indoor humidity in deep winter often drops below 20% RH without active humidification — dry to the point of bloody noses, cracked wood, and static shocks. A whole-home humidifier on the furnace brings RH to the 30-40% range Health Canada recommends. See [humidifiers Calgary](/humidifiers-calgary/).",
+          },
+          {
+            q: "Do you work on every brand of plumbing + heating equipment?",
+            a: "Yes — Bradford White, John Wood, AO Smith (tanks); Navien, Rinnai, IBC (tankless); Trane, Carrier, Lennox, Goodman, AirEase (furnaces); cold-climate heat pumps; ProFlo (sump pumps); every common brand. Common parts ride on every truck for first-visit repair completion.",
+          },
+          {
+            q: "What other SE Calgary neighbourhoods do you cover?",
+            a: "Same crew works [Mahogany](/mahogany-plumbers-calgary/), [Cranston](/cranston-plumber-calgary/), [McKenzie Towne](/mckenzie-towne-plumbers-calgary/), [McKenzie Lake](/mckenzie-lake-plumbers-calgary/), [New Brighton](/new-brighton-plumbers-calgary/), [Copperfield](/copperfield-plumbers-calgary/), [Chaparral](/chaparral-plumbers-calgary/), and the broader [SE Calgary](/calgary-plumbers-se/). Same-day dispatch across the SE.",
           },
         ],
       },
@@ -9473,120 +9543,198 @@ export const services: ServicePage[] = [
     category: "Plumbing",
     location: "Calgary",
     icon: "plumbing",
-    title: "Cranston Plumber Calgary | Priority Emergency Service | FlameTech",
+    title: "Cranston Plumber Calgary — 1999-2018 Builds, Mixed-Era Service",
     lead:
-      "Searching for a trusted Cranston plumber in Calgary? FlameTech Plumbing provides dependable, professional plumbing solutions to homeowners throughout the Cranston community and surrounding Southeast Calgary neighbourhoods.",
+      "Cranston is one of Calgary's largest SE communities and one of the most diverse build-era neighbourhoods we work in. The original phases (Cranston, Cranston Boulevard, Cranston Drive — 1999-2005) are now 20-25 years old with original equipment at end-of-life and some early-Poly-B-era plumbing concerns. Riverstone (2013+) and Cranston East (later phases) are 10-15 years old with modern PEX, modern equipment, and first-round maintenance work coming due. Different phases need different conversations — and we work all of them routinely.",
     heroBody: [
-      "From single-family homes along Cranston Boulevard to townhomes in Riverstone, our licensed plumbers are familiar with the modern construction and plumbing systems found across this master-planned community — and we're available with priority dispatch when you need us most.",
-      "We also serve surrounding SE Calgary communities like [Auburn Bay](/auburn-bay-plumber-calgary/), [Chaparral](/chaparral-plumbers-calgary/), [McKenzie Lake](/mckenzie-lake-plumbers-calgary/), and Seton. Call 587-834-3668 for urgent plumbing help in Cranston.",
+      "Three patterns dominate Cranston calls: (1) original-phase equipment replacement on 1999-2005 builds (water heaters on their second or third generation, original sump pumps tired, first-wave high-efficiency furnaces hitting 20+ year heat-exchanger-crack risk), (2) Riverstone Bow River escarpment walkout-basement homes needing sump pump replacement + battery backup, and (3) hard-water-driven service across the whole community (softener install is the single biggest longevity upgrade on every phase).",
+      "Same crew that handles our [hot water tank replacement](/hot-water-tank-replacement-calgary/), [Poly-B replacement](/polyb-plumbing-calgary/), [furnace work](/furnaces/), [sump pump install](/sump-pump-installation-calgary/), [drain cleaning](/drain-cleaning-calgary/), and broader [emergency plumbing](/emergency-plumber-calgary/). Same crew also works [Auburn Bay](/auburn-bay-plumber-calgary/), [Mahogany](/mahogany-plumbers-calgary/), [McKenzie Towne](/mckenzie-towne-plumbers-calgary/), [Chaparral](/chaparral-plumbers-calgary/), and Seton.",
+      "Real person on the phone, written quote before work starts. Same-day for emergencies. Cranston's Deerfoot + Stoney Trail access makes SE dispatch fast. Call 587-834-3668.",
     ],
-    heroSubhead: "Your Neighbourhood Plumbing Professionals",
+    heroSubhead: "SE Calgary Crew, Cranston + Riverstone Specialists",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
-    heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing service van in Cranston", fit: "cover" },
+    heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing + heating service in Cranston, SE Calgary", fit: "cover" },
     intro:
-      "Reliable Cranston plumbers serving SE Calgary. Priority [emergency response](/emergency-plumber-calgary/), [drain cleaning](/drain-cleaning-calgary/), [hot water tank](/hot-water-tanks/) service, and [Poly-B replacement](/polyb-plumbing-calgary/).",
+      "Cranston Calgary plumbing + heating. Original-phase equipment replacement (1999-2005 builds), Riverstone walkout-basement sump work, hard-water protection, SE dispatch. Free written quote.",
     features: [
-      "Stocked Calgary trucks",
-      "Sewer camera inspections",
-      "Trenchless sewer line replacement",
-      "Tank & tankless water heater service",
-      "Pinhole leak detection & repair",
-      "Poly-B pipe identification & replacement",
+      "Water heater + furnace + sump pump replacement",
+      "Poly-B replacement (1999-2003 builds)",
+      "Water softener install (whole-house protection)",
+      "Riverstone walkout-basement sump systems",
+      "Sewer camera + root removal (mature phases)",
+      "Same-day emergency dispatch",
     ],
     bullets: [
       {
-        t: "Cranston & Riverstone coverage",
-        d: "From the established streets near Cranston Boulevard and Cranston Drive to the newer Riverstone enclave along the Bow River — we cover every phase of the community.",
+        t: "Original-phase Cranston knows the 1999-2005 reality",
+        d: "Earliest Cranston phases are now 20-25 years old with original equipment at or past end-of-life. We've worked these homes routinely — water heaters on their second or third generation, original sump pumps tired, first-wave high-efficiency furnaces hitting heat-exchanger-crack risk territory, occasional Poly-B in the very earliest builds. Saves diagnosis time on the call.",
       },
       {
-        t: "Free, no-obligation estimates",
-        d: "Clear breakdown of what needs to be done and exactly what it will cost before we pick up a tool. No hidden charges or last-minute add-ons.",
+        t: "Riverstone walkout-basement specialists",
+        d: "Riverstone (2013+) steps down toward the Bow River escarpment — many homes are walkout basement designs with sump pumps that are now hitting first-replacement age. Spring melt + heavy rain events stress these systems. We replace pumps + verify discharge routing + recommend battery backup for lower lots near the river corridor. See [sump pump installation](/sump-pump-installation-calgary/).",
+      },
+      {
+        t: "Hard water is the silent Cranston problem",
+        d: "Calgary water hardness (150-200 mg/L) wasn't specced against on most Cranston builds. Tanks fail at 8-10 years instead of 12-14. Tankless heat exchangers scale aggressively. Dishwasher + washing machine valves corrode early. Single [water softener](/water-softener/) at the main entry protects everything downstream — Cranston's #1 longevity upgrade across every phase.",
+      },
+      {
+        t: "Real person — SE dispatch via Deerfoot + Stoney Trail",
+        d: "No call centre. You talk to a tech, get a window before the truck rolls. Same-day dispatch for emergencies. Stoney Trail makes Cranston arrival fast even during rush hour — typical window 2-3 hours from initial call on emergencies.",
       },
     ],
-    seoTitle: "Cranston Plumber Calgary | Priority Emergency Service",
+    seoTitle: "Cranston Plumber Calgary | 1999-2018 Builds, Riverstone, SE Dispatch",
     seoDescription:
-      "Need a Cranston plumber in Calgary? FlameTech provides priority emergency plumbing, drain cleaning, hot water tank repair & more.",
+      "Cranston Calgary plumbing + heating. Original-phase equipment replacement, Riverstone walkout-basement sump work, water softener install, SE dispatch. Call 587-834-3668.",
     seoKeywords: [
       "Cranston plumber Calgary",
+      "Riverstone plumber Calgary",
       "plumber Cranston",
-      "emergency plumber Cranston",
-      "Riverstone plumber",
+      "Cranston water heater replacement",
+      "Cranston sump pump",
       "SE Calgary plumber",
       "FlameTech Plumbing",
     ],
     quoteFormLabel: "Cranston plumbing",
     quoteFormPlaceholder:
-      "e.g. frozen pipe on Cranston Boulevard, hot water tank replacement in Riverstone, toilet leak…",
+      "e.g. original 2001 build water heater finally going, Riverstone walkout sump pump replacement, water softener install, Poly-B leak in earliest phase, frozen condensate on a 2003 high-eff furnace…",
     sidebar: {
-      title: "Cranston Plumbers",
+      title: "Cranston + Riverstone Plumbing",
       subtitle:
-        "Full-service plumbing across Cranston and Riverstone — priority emergency dispatch, free estimates, honest pricing.",
+        "SE Calgary crew. Original-phase equipment replacement, Riverstone walkout sump work, hard-water protection, written quotes upfront.",
       bullets: [
-        "Licensed, insured, and bonded",
-        "Real person answers the phone",
-        "Trucks fully equipped for first-visit fixes",
-        "Free estimates on planned work",
+        "Real person on the phone",
+        "Free in-home assessment + written quote",
+        "Stocked for 1999-2018 builds",
+        "Same-day emergency dispatch",
       ],
     },
     stats: [
-      { number: "25+", label: "Years in Alberta", icon: "verified" },
+      { number: "25+", label: "Years in Calgary", icon: "verified" },
       { number: "5.0★", label: "Google rated", icon: "star" },
-      { number: "FREE", label: "Written estimates", icon: "request_quote" },
-      { number: "Licensed", label: "& insured", icon: "award" },
+      { number: "Real", label: "Person on the phone", icon: "call" },
+      { number: "ANY", label: "Plumbing + heating brand", icon: "check_circle" },
     ],
     callout:
-      "Frozen pipe during a January cold snap or sewer backup on Saturday evening in Cranston? Call 587-834-3668 — we dispatch a licensed plumber as fast as possible.",
+      "Cranston equipment at end of life, Riverstone sump pump issue, or emergency right now? Call 587-834-3668 — SE dispatch via Stoney Trail + Deerfoot.",
     richContent: {
       sections: [
         {
-          heading: "Priority Emergency Cranston Plumber – Always On Call",
+          heading: "What we do most often on Cranston calls",
           intro:
-            "A plumbing disaster at home never happens at a convenient time. Whether it's the middle of the night, a long weekend, or during a Calgary cold snap, our emergency plumbers serving Cranston are ready to handle frozen and burst pipes during sudden temperature drops along Cranston's exposed southeast corridors, hot water tank breakdowns that leave your family without warm water, and gas line concerns that demand immediate professional attention.",
+            "Cranston's diverse build eras mean different homes need different conversations. We work all of them.",
           items: [
-            { heading: "Drain & Sewer Solutions", body: "Sewer line video inspections and targeted repairs, kitchen sink and bathroom [drain clearing](/drain-cleaning-calgary/), no-dig trenchless sewer line replacement, basement floor drain servicing, and preventative drain maintenance for Cranston properties." },
-            { heading: "Hot Water Tank & Water Heater Services", body: "[Tankless water heater](/tankless-water-heaters/) setup and troubleshooting, standard [tank hot water heater](/hot-water-tanks/) swaps, annual water heater flushing and tune-ups, high-efficiency water heater recommendations, and rapid same-day hot water tank repairs." },
-            { heading: "Fixture Upgrades & Repairs", body: "Toilet troubleshooting and full replacements, kitchen and bathroom faucet installations, [shower valve and bathtub plumbing](/shower-plumbing-calgary/) repairs, garburator setup, and washing machine hookups." },
-            { heading: "Pipe & Water Line Services", body: "Whole-home repiping for aging plumbing systems, pipe winterization for Calgary's climate, pinhole leak detection and precision repair, main water line replacement, and [Poly-B pipe identification and replacement](/polyb-plumbing-calgary/) found in some early Cranston-area homes." },
+            {
+              heading: "Original-phase water heater replacement (1999-2005 builds)",
+              body: "Calgary tanks last 8-10 years in this water unsoftened. A 2001 Cranston build has typically been through 2-3 tanks by now. Originals from the build are LONG past EOL; second-gen tanks are often hitting end-of-life now. We replace with [Bradford White or John Wood](/hot-water-tanks/) — the two brands that hold up best in Calgary water — and recommend pairing with a softener.",
+            },
+            {
+              heading: "Poly-B replacement (earliest 1999-2003 builds)",
+              body: "Industry transitioned away from Poly-B in the early 2000s, so the very earliest Cranston builds may have it. Most subsequent phases used PEX. If your home was built before ~2003 and you haven't had the supply lines inspected, worth a free in-home check. See [Poly-B Calgary](/polyb-plumbing-calgary/).",
+            },
+            {
+              heading: "Riverstone walkout-basement sump pump work",
+              body: "Riverstone (2013+) walkout-basement homes stepping down toward the Bow River corridor commonly have original sump pumps now at 10-12 years — well into typical replacement age (10-15 years). Spring melt + heavy rain stress these systems hardest. We replace + verify discharge routing + recommend battery backup for lower lots. Critical insurance work for finished basements.",
+            },
+            {
+              heading: "Water softener install (whole-house protection)",
+              body: "Most Cranston homes built without a softener. Calgary's hard water shortens every water-using appliance's lifespan. A softener at the main entry: next tank lasts 14+ years instead of 8-10, tankless heat exchangers scale slowly, dishwasher + washing machine valves last longer, fixture finishes hold up better. Pay-back over a single tank cycle. See [water softener Calgary](/water-softener/).",
+            },
+            {
+              heading: "Furnace replacement (first-wave HE units at EOL)",
+              body: "1999-2005 Cranston originals had first-generation high-efficiency furnaces now 20-25 years old. Heat exchanger cracks become statistically significant past 18-20 years (safety issue, not just efficiency). ECM blower motors often fail around 15-20 years. We have an honest replace-vs-repair conversation; heat pump + hybrid dual-fuel is now the math-positive alternative on replacement.",
+            },
+            {
+              heading: "Tankless water heater retrofit",
+              body: "Larger Cranston luxury homes especially benefit from tankless retrofit on replacement — endless hot water capacity matters for back-to-back morning showers in multi-bathroom homes. Brutal on hard water though; annual descaling mandatory + softener pairing recommended. Common brands: Navien NPE-A/S, Rinnai RU/RUR. See [tankless water heaters](/tankless-water-heaters/).",
+            },
+            {
+              heading: "Sewer line + drain service (mature phase root intrusion)",
+              body: "Original Cranston phases now have 25-year mature landscaping. Tree roots seek out sewer line joints. Symptoms: slow drains, gurgling, recurring backups. Camera inspection identifies location + severity; hydro-jet or mechanical cutting clears short-term; spot repair or trenchless lining for severe damage. See [drain cleaning Calgary](/drain-cleaning-calgary/).",
+            },
+            {
+              heading: "Frozen condensate + cold-snap dispatch",
+              body: "High-efficiency furnaces in Cranston routinely lock out during deep cold snaps when condensate lines routed through unheated space freeze. Common cold-snap call. Permanent fix is reroute through heated space + heat trace where outdoor exit is required. See [no heat issues](/no-heat-issues-calgary/) for the full diagnostic scope.",
+            },
           ],
         },
         {
-          heading: "Plumbing for Cranston Homeowners",
+          heading: "Why Cranston needs phase-specific conversations",
           intro:
-            "Because most Cranston homes were built after 2000, you're less likely to encounter outdated piping materials. However, Calgary's hard water causes mineral buildup that can reduce water heater efficiency, clog fixtures, and shorten appliance lifespans. The rapid temperature swings from chinook winds also stress pipe joints and connections.",
+            "Cranston's three distinct development phases hit different equipment milestones at different times. Knowing your build year tells us what's coming due.",
           items: [
-            { body: "Original fixtures and water heaters in Cranston's earliest phases now reaching 20+ years and due for proactive replacement." },
-            { body: "Hard-water scale reducing [tankless](/tankless-water-heaters/) and [tank](/hot-water-tanks/) efficiency — regular flushing and a [water softener](/water-softener/) extend equipment life." },
-            { body: "Chinook-driven freeze/thaw stress on outdoor hose bibs and exposed lines along the southeast corridors." },
-            { body: "Bathroom and kitchen renovation plumbing — new [shower valves](/shower-plumbing-calgary/), faucets, and laundry hookups." },
+            {
+              heading: "Original Cranston (1999-2005) — full EOL territory",
+              body: "Streets near Cranston Boulevard + Cranston Drive built during the original phase. 20-25 years old now. Original water heaters long since replaced — second or third generation. Sump pumps need replacement. Furnaces approaching heat-exchanger-crack risk zone. Earliest Poly-B-era builds may have supply pipe concerns. Most extensive equipment work category in Cranston.",
+            },
+            {
+              heading: "Mid-phase Cranston (2005-2012)",
+              body: "Suburbs built between the original phase and Riverstone. 13-20 years old. Tanks at or past end-of-life unsoftened. Sump pumps tired. Furnaces at mid-life — annual service critical, replacement coming within 3-7 years. PEX supply throughout (no Poly-B concern in this phase). Active replacement era.",
+            },
+            {
+              heading: "Riverstone (2013+) and Cranston East (later)",
+              body: "Newer phases with modern PEX, modern high-efficiency equipment, tight envelopes. 10-12 years old now. Tanks entering EOL territory unsoftened (8-10 year mark). Sump pumps at typical replacement age (especially walkout-basement homes near Bow River escarpment). Furnaces mid-life. Softener install is the biggest single upgrade most homes haven't done.",
+            },
+            {
+              heading: "Bow River escarpment = walkout basements + sump dependency",
+              body: "Cranston steps down toward the Bow River, with Riverstone closest to the escarpment. Walkout basement designs common here, which means sump pump systems handle perimeter drain water + occasional groundwater intrusion. Battery-backup sump systems matter more on these lots — power-outage + pump-failure cascades happen during spring melt when storms knock out neighbourhood power.",
+            },
+            {
+              heading: "Mature trees on original phase = root intrusion era",
+              body: "Cranston Boulevard and original-phase streets have 25-year mature landscaping. Tree roots find sewer pipe joints over decades — once roots are in, recurring backups follow. Camera inspection every 5 years on older Cranston homes catches root intrusion early. Spot repair beats full main-line replacement cost when caught early.",
+            },
+            {
+              heading: "Hard water hits everything downstream of the meter",
+              body: "All of Cranston is on the same hard Calgary municipal supply (150-200 mg/L). Without a softener, every water-using appliance + fixture wears faster regardless of build year. Single softener install at the main entry protects the whole house — biggest single-cost-effectiveness upgrade available to most Cranston homes.",
+            },
+            {
+              heading: "Stoney Trail + Deerfoot = fast SE dispatch",
+              body: "Cranston's location at the intersection of Stoney Trail and Deerfoot means fast access from our SE shop even during rush hour. Typical emergency dispatch window 2-3 hours from initial call. No \"out of service area\" surcharge.",
+            },
           ],
         },
       ],
       faq: {
-        heading: "Frequently Asked Questions",
+        heading: "Cranston Plumbers — FAQs",
         items: [
           {
-            q: "Do you serve the entire Cranston community?",
-            a: "Yes — FlameTech Plumbing provides full plumbing services to every part of Cranston — from the established streets near Cranston Boulevard and Cranston Drive to the newer Riverstone enclave along the Bow River. We also serve surrounding SE Calgary communities like [Auburn Bay](/auburn-bay-plumber-calgary/), [Chaparral](/chaparral-plumbers-calgary/), [McKenzie Lake](/mckenzie-lake-plumbers-calgary/), and Seton, so no matter where you are in the southeast, we can be there quickly.",
+            q: "Does my Cranston home have Poly-B plumbing?",
+            a: "Depends on phase. Very earliest Cranston phases (1999-2003) MAY have Poly-B — industry was transitioning to PEX through the early 2000s. Phases from ~2003 onwards almost certainly have PEX. If your home was built before 2003 and you haven't had the supply lines inspected, worth a free check. See [Poly-B Calgary](/polyb-plumbing-calgary/) for identification.",
           },
           {
-            q: "Can I get an emergency plumber in Cranston at night or on weekends?",
-            a: "You can. Our [emergency plumbing team](/emergency-plumber-calgary/) is available with priority dispatch including holidays. Whether it's a frozen pipe that's cracked open during a January cold snap or a sewer backup on a Saturday evening, we dispatch a licensed plumber to your Cranston home as fast as possible. Reach us anytime at 587-834-3668.",
+            q: "My Cranston water heater is still original from 2001 — should I replace it?",
+            a: "Your tank from 2001 is not original anymore unless it's literally the SAME tank — which would be 25 years old and essentially impossible (Calgary tanks fail at 8-10 years unsoftened). If you have a 25-year-old tank, replace it today before it floods your basement. More likely you have a second or third generation tank that's also now well into Calgary EOL territory. Photograph the rating plate (serial code has manufacture date) and we'll confirm age.",
           },
           {
-            q: "What plumbing issues are common in Cranston homes?",
-            a: "Because most Cranston homes were built after 2000, you're less likely to encounter outdated piping materials. However, Calgary's hard water causes mineral buildup that can reduce [water heater](/hot-water-tanks/) efficiency, clog fixtures, and shorten appliance lifespans. The rapid temperature swings from chinook winds also stress pipe joints. As homes in Cranston's earlier phases reach 20+ years, original fixtures and water heaters may be nearing end-of-life.",
+            q: "Should I install a water softener in my Cranston home?",
+            a: "Strongly recommended across every Cranston phase. Calgary's hard water shortens every water-using appliance's lifespan. A softener pays back over a single tank replacement cycle and protects every fixture + appliance in the home. Often installed in the same visit as a tank replacement. See [water softener Calgary](/water-softener/).",
           },
           {
-            q: "How fast can a plumber reach my Cranston home?",
-            a: "Cranston sits right off Deerfoot and Stoney Trail, so we have direct access from anywhere in Calgary. Emergency calls receive priority routing over scheduled work. Call 587-834-3668 and we'll confirm a window before the truck rolls. Our vans stock the common parts so most jobs finish on the first visit.",
+            q: "Why does Riverstone need backup sump pumps more than other phases?",
+            a: "Riverstone steps down toward the Bow River escarpment with many walkout-basement homes. Spring melt + heavy rain events sometimes coincide with power outages from the same storms. Battery-backup sump pumps run independent of grid power, so basement stays dry even when the primary pump can't run. Cheap insurance for finished-basement homes.",
           },
           {
-            q: "What services does FlameTech offer Cranston residents?",
-            a: "We handle the full range of residential plumbing needs: priority emergency response, [drain cleaning](/drain-cleaning-calgary/) and sewer camera inspections, [hot water tank](/hot-water-tanks/) and [tankless water heater](/tankless-water-heaters/) installation and repair, leak detection, pipe repair and repiping, fixture installation and upgrades, [bathroom](/bathroom-plumbing-calgary/) and kitchen renovation plumbing, [water softener](/water-softener/) installation, and seasonal maintenance programs.",
+            q: "Is my original-phase Cranston furnace at end of life?",
+            a: "Probably yes if it's still original. 1999-2005 Cranston originals are 20-25 years old. Heat exchanger cracks become statistically significant past 18-20 years (safety issue with CO leakage risk). ECM motors fail around 15-20 years. We borescope-inspect heat exchangers on every service call to older furnaces and have an honest replace-vs-repair conversation. Heat pump + hybrid dual-fuel becomes worth considering on replacement.",
           },
           {
-            q: "Is there a charge for plumbing estimates in Cranston?",
-            a: "Not at all. We offer free, no-obligation estimates for all planned plumbing work in Cranston. Before we pick up a single tool, you'll receive a clear breakdown of what needs to be done and exactly what it will cost. There are no hidden charges or last-minute add-ons — just straightforward pricing from a company that values your trust.",
+            q: "How fast can you respond to emergency calls in Cranston?",
+            a: "Same-day for emergencies — burst pipes, no hot water, sewer backup, no heat in cold snaps. Real person on the phone, we'll confirm a window before the truck rolls. Stoney Trail makes Cranston dispatch fast — typical window 2-3 hours from initial call.",
+          },
+          {
+            q: "Do you serve all of Cranston including Riverstone?",
+            a: "Yes — all phases of Cranston including original streets near Cranston Boulevard and Cranston Drive, mid-phase developments, Riverstone (with its walkout-basement homes near the Bow River escarpment), and Cranston East. Different phases need different conversations and we work all of them routinely.",
+          },
+          {
+            q: "Is my drain backing up because of tree roots?",
+            a: "Possible on original-phase Cranston homes. The earliest phases now have 25-year mature trees with established root systems that find sewer pipe joints over time. Symptoms: slow drains, recurring backups despite snaking. Camera inspection identifies the exact location + severity. Hydro-jet or mechanical cutting clears short-term; spot repair or trenchless lining for permanent fix.",
+          },
+          {
+            q: "Do you work on every brand of plumbing + heating equipment?",
+            a: "Yes — Bradford White, John Wood, AO Smith (tanks); Navien, Rinnai, IBC (tankless); Trane, Carrier, Lennox, Goodman, AirEase (furnaces); cold-climate heat pumps; ProFlo (sump pumps). Common parts ride on every truck for first-visit repair completion.",
+          },
+          {
+            q: "What other SE Calgary neighbourhoods do you cover?",
+            a: "Same crew works [Auburn Bay](/auburn-bay-plumber-calgary/), [Mahogany](/mahogany-plumbers-calgary/), [McKenzie Towne](/mckenzie-towne-plumbers-calgary/), [McKenzie Lake](/mckenzie-lake-plumbers-calgary/), [Chaparral](/chaparral-plumbers-calgary/), [New Brighton](/new-brighton-plumbers-calgary/), [Copperfield](/copperfield-plumbers-calgary/), and the broader [SE Calgary](/calgary-plumbers-se/). Same-day dispatch across the SE.",
           },
         ],
       },
@@ -10271,130 +10419,202 @@ export const services: ServicePage[] = [
     category: "Plumbing",
     location: "Calgary",
     icon: "plumbing",
-    title: "Mahogany Plumbers Calgary | Expert Plumbing Services",
+    title: "Mahogany Plumbers Calgary — Calgary's Largest Lake Community, 2008-2024",
     lead:
-      "Most homes in Mahogany were built between 2000 and 2015, which means you're dealing with builder-grade plumbing that's starting to show its age. We've been fixing plumbing problems in this southeast Calgary community for years, from frozen pipes during those brutal chinooks to [hot water tanks](/hot-water-tanks/) that gave up the ghost right when you need them most. FlameTech Plumbing knows Mahogany's homes inside and out.",
+      "Mahogany is Calgary's largest lake community — Lake Mahogany is the centerpiece, and the surrounding development began in 2008 and continues today with ongoing infill phases. Most homes were built between 2012 and 2024, which makes Mahogany Calgary's newest major neighbourhood we work in. All modern PEX supply (no Poly-B concern), modern high-efficiency mechanical equipment, tight envelopes, and homes that are mostly 0-13 years old. The first wave is hitting first-round equipment maintenance + the OLDEST originals are approaching first-tank-replacement age in Calgary's hard water.",
     heroBody: [
-      "When your plumbing goes sideways at 2 AM on a Sunday, we're still answering the phone. Our trucks are stocked and ready to roll to Mahogany with priority emergency dispatch, because plumbing emergencies don't care about your schedule.",
-      "As a locally owned and operated [plumbing company in SE Calgary](/calgary-plumbers-se/), we understand the unique challenges that Mahogany properties face — including neighbouring [Cranston](/cranston-plumber-calgary/) and [Auburn Bay](/auburn-bay-plumber-calgary/).",
+      "Three patterns dominate Mahogany calls: (1) preventive maintenance + first-replacement-cycle work — most homes are still in original-equipment territory and the conversation is about extending life through annual service + softener install rather than replacement, (2) hard-water-driven appliance protection (Calgary's water hardness hits Mahogany the same as anywhere else; no softener on most builds), and (3) lake-amenity work — irrigation systems, hose bib winterization, and seasonal water-feature plumbing for the lake-adjacent properties.",
+      "Same crew that handles our [hot water tank replacement](/hot-water-tank-replacement-calgary/), [water softener install](/water-softener/), [furnace work](/furnaces/), [tankless](/tankless-water-heaters/), [sump pump install](/sump-pump-installation-calgary/), [drain cleaning](/drain-cleaning-calgary/), and broader [emergency plumbing](/emergency-plumber-calgary/). Same crew also works neighbouring [Auburn Bay](/auburn-bay-plumber-calgary/), [Cranston](/cranston-plumber-calgary/), [McKenzie Towne](/mckenzie-towne-plumbers-calgary/), and [Copperfield](/copperfield-plumbers-calgary/).",
+      "Real person on the phone, written quote before any work starts. Same-day for emergencies — 52nd Street SE + Deerfoot makes the SE dispatch fast. Call 587-834-3668.",
     ],
-    heroSubhead: "Trusted Mahogany Plumbing Experts",
+    heroSubhead: "SE Calgary Crew, Mahogany Lake Community",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
-    heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing service van in Mahogany", fit: "cover" },
+    heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing + heating service in Mahogany, SE Calgary", fit: "cover" },
     intro:
-      "Expert plumbers serving Mahogany Calgary. Priority emergency repairs, drain cleaning, water heater service, sump pump replacement, and [Poly-B work](/polyb-plumbing-calgary/). Local SE Calgary plumbers you can trust.",
+      "Mahogany Calgary plumbing + heating. First-round equipment service on 2012-2024 builds, water softener install, lake-community service, SE dispatch. Free written quote.",
     features: [
-      "Priority emergency plumbing repairs",
-      "Drain cleaning & unclogging",
-      "Water heater repair & replacement",
-      "Fixture installation & repair",
-      "Leak detection & repair",
-      "Sump pump & sewer camera service",
+      "Annual equipment service + tune-ups",
+      "Water softener install (hard-water defence)",
+      "First-round water heater replacement (oldest phases)",
+      "Hose bib + irrigation winterization",
+      "Sump pump install + battery backup",
+      "Same-day emergency dispatch",
     ],
     bullets: [
       {
-        t: "Real person, any hour",
-        d: "When you call FlameTech at 3 AM, you get a real person — not a call center. We dispatch from Calgary and we're usually at your Mahogany door within 30-45 minutes.",
+        t: "Mahogany's build window: 2008-present, mostly 2012-2024",
+        d: "Calgary's largest lake community is also one of its newest big neighbourhoods. Modern PEX supply throughout (no Poly-B), modern high-efficiency furnaces + ACs + tanks, tight envelopes built to post-2010 code. We know what equipment was originally specced + when first-round replacement cycles come due.",
       },
       {
-        t: "Sump pump ready",
-        d: "Mahogany's low elevation and high water table stress sump pumps. We keep backup pumps in our trucks and can usually get your system running within an hour of arrival.",
+        t: "Preventive intervention era — softener is the biggest single upgrade",
+        d: "Most Mahogany homes are still in first-round maintenance territory rather than full replacement. Annual furnace + water heater service + 3-year anode rod inspection extends original equipment to longer Calgary lifespans. A [water softener](/water-softener/) install at the main entry is the single best longevity move for tanks, tankless heat exchangers, dishwashers, washing machines — and protects every fixture finish downstream.",
+      },
+      {
+        t: "Lake-amenity work matters more here than elsewhere",
+        d: "Mahogany's lake amenity means many properties have irrigation systems, multiple hose bibs for lake-side gardening, and occasional outdoor kitchen or gazebo plumbing. Winter prep (blowout, valve isolation, hose bib insulation) prevents burst lines on first deep cold. We handle the full seasonal scope.",
+      },
+      {
+        t: "Real person — fast SE dispatch via 52nd Street + Deerfoot",
+        d: "No call centre. You talk to a tech, get a window before the truck rolls. Same-day dispatch for emergencies — typical Mahogany arrival window 2-3 hours on emergencies. 52nd Street SE makes the run fast.",
       },
     ],
-    seoTitle: "Mahogany Plumbers Calgary | Priority Emergency Service",
+    seoTitle: "Mahogany Plumbers Calgary | Lake Community, 2008-2024 Builds",
     seoDescription:
-      "Expert plumbers serving Mahogany Calgary. Priority emergency repairs, drain cleaning, water heater service. Local Calgary plumbers you can trust. Call now!",
+      "Mahogany Calgary plumbing + heating. First-round equipment service, water softener install, lake-community service, SE dispatch. Real person on the phone. Call 587-834-3668.",
     seoKeywords: [
-      "Mahogany plumbers",
-      "plumber Mahogany Calgary",
+      "Mahogany plumbers Calgary",
+      "Mahogany Calgary plumber",
+      "Mahogany water softener",
+      "Mahogany water heater replacement",
+      "Mahogany emergency plumber",
       "SE Calgary plumber",
-      "Mahogany sump pump",
-      "emergency plumber Mahogany",
       "FlameTech Plumbing",
     ],
     quoteFormLabel: "Mahogany plumbing",
     quoteFormPlaceholder:
-      "e.g. sump pump failure on Mahogany Boulevard, Poly-B leak in original Mahogany, frozen pipe near the lake…",
+      "e.g. water softener install to protect appliances, original 2010 water heater finally going, sump pump replacement, irrigation winterization, frozen hose bib…",
     sidebar: {
-      title: "Mahogany Plumbers",
+      title: "Mahogany Plumbing + Heating",
       subtitle:
-        "SE Calgary plumbing for every phase of Mahogany — priority dispatch, stocked trucks, upfront pricing, real people answering the phone.",
+        "SE Calgary crew, Calgary's largest lake community. Preventive service, hard-water protection, lake-amenity work, written quotes upfront.",
       bullets: [
-        "Licensed SE Calgary plumbers",
-        "Backup sump pumps on every truck",
-        "Stocked Calgary trucks",
-        "One-year workmanship guarantee",
+        "Real person on the phone",
+        "Free in-home assessment + written quote",
+        "Stocked for 2008-2024 builds",
+        "Same-day emergency dispatch",
       ],
     },
     stats: [
-      { number: "25+", label: "Years in Alberta", icon: "verified" },
+      { number: "25+", label: "Years in Calgary", icon: "verified" },
       { number: "5.0★", label: "Google rated", icon: "star" },
-      { number: "FREE", label: "Written estimates", icon: "request_quote" },
-      { number: "Licensed", label: "& insured", icon: "award" },
+      { number: "Real", label: "Person on the phone", icon: "call" },
+      { number: "ANY", label: "Plumbing + heating brand", icon: "check_circle" },
     ],
     callout:
-      "Sump pump failing, basement flooding, or burst pipe in Mahogany? Call 587-834-3668 — a real person answers and we dispatch a stocked truck with priority service.",
+      "Equipment service due, softener install to extend appliance life, or emergency in Mahogany right now? Call 587-834-3668 — SE dispatch via 52nd Street.",
     richContent: {
       sections: [
         {
-          heading: "Why Mahogany Homeowners Choose FlameTech Plumbing",
+          heading: "What we do most often on Mahogany calls",
           intro:
-            "Mahogany sits in a low-lying area near the Bow River, which means foundation settling and sump pump issues are more common here than in other Calgary neighborhoods. We've seen it all in this community — from the original Poly-B piping in the older sections to the cheap fixtures that builders installed in the mid-2000s boom.",
+            "Mahogany's newness means most service calls are preventive + first-cycle work — extending original equipment life, protecting against hard water, and handling lake-amenity seasonal infrastructure.",
           items: [
-            { heading: "Emergency Plumbing Repairs", body: "Burst pipes, major leaks, sewer backups. Priority dispatch because emergencies don't wait for business hours." },
-            { heading: "Drain Cleaning & Unclogging", body: "Kitchen sinks, bathroom drains, main sewer lines. We clear the blockage and tell you how to prevent it next time. See [drain cleaning](/drain-cleaning-calgary/)." },
-            { heading: "Water Heater Services", body: "Tank and [tankless](/tankless-water-heaters/) repairs, replacements, and maintenance. Calgary's hard water is tough on water heaters." },
-            { heading: "Fixture Installation & Repair", body: "Toilets, sinks, faucets, showers. We install it right the first time and fix what others messed up." },
-            { heading: "Leak Detection & Repair", body: "Hidden leaks behind walls, under slabs, in crawl spaces. We find them fast and fix them permanently." },
-            { heading: "Sewer Line Services", body: "Camera inspections, root removal, line repairs. Mahogany's mature trees love to get into sewer lines." },
+            {
+              heading: "Water softener install — Mahogany's biggest single longevity upgrade",
+              body: "Almost no Mahogany home was built with a softener. Calgary's hard water (150-200 mg/L) shortens every water-using appliance's lifespan. Installing a properly-sized softener at the main entry: tanks last 14+ years instead of 8-10, tankless heat exchangers scale slowly instead of aggressively, dishwasher + washing machine valves last longer, shower valve cartridges seize less, fixture finishes hold up better. Single install, whole-house protection.",
+            },
+            {
+              heading: "Annual water heater service (flush + anode rod check)",
+              body: "Calgary's hard water builds sediment in the bottom of every tank — Mahogany no exception. Annual flush removes sediment before it damages the tank bottom. Every 3 years we pull and inspect the anode rod (sacrificial part designed to corrode INSTEAD of the tank itself). Anode at end of life means the tank is now corroding — replace it for ~$200 and you've extended tank life by years. Best money you'll spend on Mahogany plumbing.",
+            },
+            {
+              heading: "First-round water heater replacement (oldest 2008-2010 builds)",
+              body: "The very earliest Mahogany builds are now 15-17 years old. Calgary tanks last 8-10 years unsoftened, so these originals are LONG past EOL and most have already been replaced. Second-generation tanks installed around 2018 are now hitting EOL too. We replace with [Bradford White or John Wood](/hot-water-tanks/) — best brands for Calgary water — and pair with softener install for next-tank longevity.",
+            },
+            {
+              heading: "Tankless water heater retrofit",
+              body: "Larger Mahogany luxury homes around the lake especially benefit from tankless retrofit on replacement — endless hot water capacity matters for multi-bathroom homes. Brutal on hard water though; annual descaling mandatory + softener pairing recommended. Common brands: Navien NPE-A/S, Rinnai RU/RUR. See [tankless water heaters](/tankless-water-heaters/) for the full comparison.",
+            },
+            {
+              heading: "Sump pump install + battery backup",
+              body: "Many Mahogany homes have sump pumps from original install — 10-15 year typical lifespan means oldest are at first-replacement age now. Battery backup is cheap insurance for any finished-basement home; spring melt + heavy rain events sometimes coincide with power outages from the same storms, and a primary pump can't run without grid power. See [sump pump installation](/sump-pump-installation-calgary/).",
+            },
+            {
+              heading: "Annual furnace tune-up + service",
+              body: "Mahogany's high-efficiency furnaces are mostly mid-life now (5-15 years). Annual service is critical: combustion analysis, safety checks, capacitor + motor inspection, ignition cleaning, condensate drain clearing. Catches 70-80% of failures before they become breakdowns and keeps manufacturer warranties valid. See [home heating issues](/home-heating-issues-calgary/) for the broader diagnostic scope.",
+            },
+            {
+              heading: "Hose bib + irrigation winterization (lake-amenity properties)",
+              body: "Mahogany's lake-amenity properties commonly have irrigation systems for lawns + lake-side landscaping. Winterization (blow out + valve isolation) prevents burst lines on first deep cold. Hose bib replacement: modern frost-free designs last longer than builder-grade brass bibs.",
+            },
+            {
+              heading: "Frozen pipe + cold-snap dispatch",
+              body: "Modern PEX is more forgiving on freeze than older neighbourhoods' galvanized + copper, but Mahogany's tight modern envelopes + corner exterior wall runs can still freeze during deep cold snaps. Same-day priority for burst pipes. Common diagnostic + repair completes first visit.",
+            },
           ],
         },
         {
-          heading: "Common Plumbing Issues in Mahogany Homes",
+          heading: "Why Mahogany homes need a different conversation than older Calgary neighbourhoods",
           intro:
-            "Living in Mahogany means dealing with specific plumbing challenges that come with this area's location and home construction. We've fixed all of these problems hundreds of times.",
+            "Mahogany's newness and lake-community amenity create a distinctive service profile. Most homes are still in preventive-maintenance territory rather than full equipment replacement.",
           items: [
-            { body: "Frozen pipes during chinook temperature swings — pipes expand and contract rapidly." },
-            { body: "Sump pump failures during spring thaw and heavy rainfall events." },
-            { body: "Hard water buildup reducing hot water tank lifespan to 8-10 years instead of 12." },
-            { body: "Root intrusion in sewer lines from mature poplar and spruce trees." },
-            { body: "Poly-B pipe failures in homes built in the late 1990s and early 2000s." },
-            { body: "Cheap builder-grade fixtures failing prematurely in mid-2000s construction." },
-          ],
-        },
-        {
-          heading: "Local Mahogany & SE Calgary Expertise",
-          intro:
-            "Mahogany's location in southeast Calgary creates unique challenges. The community sits at a lower elevation than much of the city, which means gravity drainage issues and higher groundwater levels during heavy rains. Our Calgary plumbers work and live in the SE, also serving [McKenzie Lake](/mckenzie-lake-plumbers-calgary/), [McKenzie Towne](/mckenzie-towne-plumbers-calgary/), and [New Brighton](/new-brighton-plumbers-calgary/).",
-          items: [
-            { heading: "Phase-Specific Knowledge", body: "Most of Mahogany was developed in phases from 2000 to 2015, so we know exactly what plumbing materials and methods were used in each section." },
-            { heading: "Code-Change Aware", body: "Calgary's building codes changed several times during Mahogany's development, especially around water heater venting and sump pump requirements. We know which homes need upgrades and which are grandfathered." },
-            { heading: "Hard Water Defense", body: "Calgary's extremely hard water builds sediment faster in Mahogany homes because the groundwater has higher mineral content. We recommend [water softeners](/water-softener/) to extend fixture life." },
+            {
+              heading: "No Poly-B in Mahogany",
+              body: "Mahogany development started in 2008 — well after the industry transition to PEX-A and PEX-B. Every Mahogany home uses modern PEX supply piping. You can skip the Poly-B replacement conversation entirely and focus on equipment + softener.",
+            },
+            {
+              heading: "Most equipment is still in original-life territory",
+              body: "Mahogany's main build window (2012-2024) means most homes are 0-13 years old. Water heaters are at or before first-tank-EOL age in Calgary water. Furnaces, ACs, dishwashers, sump pumps — all in original-equipment service-interval territory rather than replacement territory. Annual service is the conversation, not full replacement.",
+            },
+            {
+              heading: "Hard water hits new homes the same as old ones",
+              body: "Calgary's hard water (150-200 mg/L) is the same hard supply for Mahogany as anywhere else. Without a softener, every water-using appliance + fixture wears faster — regardless of how new the home is. Single softener install at the main entry pays back over a single tank replacement cycle and protects the whole house going forward.",
+            },
+            {
+              heading: "Tight envelopes mean indoor humidity matters",
+              body: "Mahogany's post-2010 builds have tight envelopes — good for energy efficiency, but indoor humidity in deep winter often drops below 20% RH without active humidification. Bloody noses, cracked wood, static shocks. Whole-home humidifier installed on the furnace brings RH to the 30-40% Health Canada recommends. See [humidifiers Calgary](/humidifiers-calgary/).",
+            },
+            {
+              heading: "Lake amenity = more outdoor plumbing infrastructure",
+              body: "Mahogany's lake amenity means many properties have more outdoor plumbing than typical Calgary suburb homes: irrigation systems for lawns, multiple hose bibs for lake-side gardening, occasional gazebo or outdoor kitchen plumbing. Winter prep (winterization) and spring re-charge matter more here than on landlocked Calgary lots.",
+            },
+            {
+              heading: "First wave (2008-2012) hitting first-replacement cycle",
+              body: "The very earliest Mahogany homes are now 13-17 years old. Original water heaters are likely on their second generation; original sump pumps are hitting first-replacement age. Original AC units (if installed) approaching 12-15 year typical lifespan. These are the homes where the replacement conversation starts in 2025.",
+            },
+            {
+              heading: "Newer phases (2018-2024) are still in first-service territory",
+              body: "Newest homes are 0-7 years old. Original equipment well within warranty windows. Conversation is about annual service to extend life — furnace tune-up, water heater flush + anode rod check, AC pre-season service, sump pump test, hose bib + irrigation winterization. Preventive intervention pays back over decades.",
+            },
+            {
+              heading: "SE dispatch via 52nd Street + Deerfoot",
+              body: "Same crew that handles our broader [SE Calgary plumbing](/calgary-plumbers-se/) work. 52nd Street SE + Deerfoot make the dispatch fast even during rush hour — typical Mahogany arrival window 2-3 hours on emergencies, faster on planned work. No \"out of service area\" surcharge.",
+            },
           ],
         },
       ],
       faq: {
-        heading: "Frequently Asked Questions",
+        heading: "Mahogany Plumbers — FAQs",
         items: [
           {
-            q: "Why do pipes freeze more often in Mahogany compared to other Calgary neighborhoods?",
-            a: "Mahogany's lower elevation and proximity to the Bow River creates more moisture in the air, which makes the temperature swings during chinooks more dramatic. Pipes in crawl spaces and exterior walls expand and contract rapidly, leading to stress fractures and bursts. We recommend insulating any exposed pipes and leaving faucets dripping during extreme cold snaps.",
+            q: "Does my Mahogany home have Poly-B plumbing?",
+            a: "No. Mahogany development started in 2008 — well after the industry transitioned to PEX-A and PEX-B. Every Mahogany home uses modern PEX supply piping. You can skip the Poly-B replacement conversation entirely.",
           },
           {
-            q: "How often should I have my sump pump serviced in this area?",
-            a: "In Mahogany, we recommend annual sump pump testing before spring melt, usually in March. The community's low-lying location means your sump pump works harder than most Calgary homes. During heavy rainfall years, some homes need backup pumps installed to handle the extra groundwater.",
+            q: "Should I install a water softener in my Mahogany home?",
+            a: "Strongly recommended. Calgary's hard water (150-200 mg/L) shortens every water-using appliance's lifespan regardless of home age. A softener install pays back over a single tank replacement cycle (next tank lasts 14+ years instead of 8-10) and protects every other water-using fixture + appliance — dishwasher, washing machine, shower valves, fixture finishes. Single install at the main entry, whole-house benefit. See [water softener Calgary](/water-softener/).",
           },
           {
-            q: "Are the older homes in Mahogany at risk for Poly-B pipe failures?",
-            a: "Homes built in the late 1990s and early 2000s in the original Mahogany development likely have Poly-B piping, which starts failing after 20-25 years. If you're experiencing low water pressure or small leaks behind walls, it's time for a [Poly-B inspection](/polyb-plumbing-calgary/). Replacement is usually necessary once failures start.",
+            q: "When should I expect to replace my original Mahogany water heater?",
+            a: "Depends on build year. Earliest Mahogany builds (2008-2010) are 15+ years old and likely on their second tank already. Mid-phase builds (2012-2016) are at first-tank EOL age now (Calgary tanks last 8-10 years unsoftened). Newer builds (2018+) still have years of original life left. Photograph the rating plate (manufacture date in the serial) and we'll confirm — pair the replacement conversation with a softener install for next-tank longevity.",
           },
           {
-            q: "Why does my hot water tank need replacement sooner than expected?",
-            a: "Calgary's extremely hard water builds up sediment faster in Mahogany homes because the groundwater here has higher mineral content. Most hot water tanks in this area last 8-10 years instead of the typical 12-15. Annual flushing helps, but [tankless systems](/tankless-water-heaters/) handle hard water better long-term.",
+            q: "How often should I service my Mahogany furnace?",
+            a: "Annually, before heating season (August-September is ideal). Combustion analysis, safety checks, capacitor + motor inspection, ignition cleaning, condensate drain clearing, filter swap. Annual service catches 70-80% of failures before they become breakdowns and is required to keep most manufacturer warranties valid. Worth it on every Mahogany furnace — long Calgary heating season means more accumulated hours per year than warmer climates.",
           },
           {
-            q: "What's the most common plumbing emergency you see in Mahogany?",
-            a: "Sump pump failures during spring melt and heavy rains top the list. The second most common is frozen pipes during chinooks — the rapid temperature changes cause more pipe bursts here than in other Calgary areas. We stock extra sump pumps and pipe fittings specifically for Mahogany service calls.",
+            q: "Do I need a humidifier in my Mahogany home?",
+            a: "Worth considering. Mahogany's tight post-2010 envelopes mean indoor humidity in deep winter often drops below 20% RH — dry to the point of bloody noses, cracked wood, and static shocks. A whole-home humidifier on the furnace brings RH to the 30-40% range Health Canada recommends. See [humidifiers Calgary](/humidifiers-calgary/).",
+          },
+          {
+            q: "When should I winterize my hose bibs + irrigation in Mahogany?",
+            a: "Before first hard freeze — usually mid-October to early November depending on the season. Shut off interior valves to outdoor hose bibs, disconnect hoses, drain the bibs. For irrigation systems: blow out with compressed air, isolate at the backflow preventer. Skip this and you'll find a burst line behind drywall when the system thaws in spring — expensive damage that's entirely preventable.",
+          },
+          {
+            q: "Does my Mahogany walkout-basement home need a backup sump pump?",
+            a: "Recommended for any finished-basement home. Spring melt + heavy rain events sometimes coincide with power outages from the same storms, and a primary pump can't run without grid power. Battery backup runs independent of the grid so basement stays dry. Cheap insurance for finished space.",
+          },
+          {
+            q: "How fast can you respond to emergency calls in Mahogany?",
+            a: "Same-day for emergencies — burst pipes, no hot water, sewer backup, no heat in cold snaps. Real person on the phone, we'll confirm a window before the truck rolls. 52nd Street SE makes Mahogany dispatch fast — typical window 2-3 hours from initial call.",
+          },
+          {
+            q: "Do you work on every brand of plumbing + heating equipment?",
+            a: "Yes — Bradford White, John Wood, AO Smith (tanks); Navien, Rinnai, IBC (tankless); Trane, Carrier, Lennox, Goodman, AirEase (furnaces); cold-climate heat pumps; ProFlo (sump pumps). Common parts ride on every truck for first-visit repair completion.",
+          },
+          {
+            q: "What other SE Calgary neighbourhoods do you cover?",
+            a: "Same crew works [Auburn Bay](/auburn-bay-plumber-calgary/), [Cranston](/cranston-plumber-calgary/), [McKenzie Towne](/mckenzie-towne-plumbers-calgary/), [McKenzie Lake](/mckenzie-lake-plumbers-calgary/), [Copperfield](/copperfield-plumbers-calgary/), [New Brighton](/new-brighton-plumbers-calgary/), [Chaparral](/chaparral-plumbers-calgary/), and the broader [SE Calgary](/calgary-plumbers-se/). Same-day dispatch across the SE.",
           },
         ],
       },
