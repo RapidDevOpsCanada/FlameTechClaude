@@ -9171,6 +9171,212 @@ export const services: ServicePage[] = [
   },
 
   {
+    slug: "brentwood-plumbers-calgary",
+    category: "Plumbing",
+    location: "Calgary",
+    icon: "plumbing",
+    title: "Brentwood Plumbers Calgary — 1960s-80s Established NW, Equipment on 3rd-4th Generation",
+    lead:
+      "Brentwood is one of Calgary's most established NW communities — built mostly between 1960 and 1980 adjacent to the University of Calgary, with significant 1990s-2000s renovation activity and ongoing modern infill rebuilds. That makes the housing reality very specific: original heritage 1960s-70s bungalows and two-storeys (galvanized supply lines, cast iron drain stacks, clay sewer laterals, mature trees with established root systems), homes renovated during the 1980s-90s Poly-B era, and modern post-2000 infills with full PEX + modern mechanical. Equipment is on 3rd or 4th generation by now in most homes.",
+    heroBody: [
+      "Three patterns dominate Brentwood calls: (1) heritage 1960s-70s home work (galvanized supply lines closing off with mineral scale, cast iron drain stack failures, clay sewer laterals with 60+ year mature-tree root intrusion, original equipment long since on 3rd-4th generation), (2) Poly-B identification + replacement on homes renovated during the 1980s-90s when Poly-B was standard, and (3) modern infill new-build + renovation work with PEX, high-efficiency mechanical, and premium fixture installs.",
+      "Same crew handles our [Poly-B replacement](/polyb-plumbing-calgary/), [hot water tank replacement](/hot-water-tank-replacement-calgary/), [furnace work](/furnaces/) + [furnace replacement](/furnace-replacement-calgary/), [drain cleaning](/drain-cleaning-calgary/), and broader [emergency plumbing](/emergency-plumber-calgary/). Same crew works neighbouring [Varsity](/varsity-plumbers-calgary/), [Edgemont](/edgemont-plumbers-calgary/), [Tuscany](/tuscany-plumbers-calgary/), [Panorama Hills](/panorama-hills-plumbers-calgary/), and [Huntington Hills](/huntington-hills-plumbers-calgary/) — NW Calgary build patterns rhyme.",
+      "Real person on the phone, written quote before any work starts. Same-day for emergencies. NW dispatch via Crowchild + 14 Street + Brentwood LRT corridor makes the run fast. Call 587-834-3668.",
+    ],
+    heroSubhead: "NW Calgary, U of C-Adjacent Established Community",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing + heating service in Brentwood, NW Calgary", fit: "cover" },
+    intro:
+      "Brentwood Calgary plumbing + heating. 1960s-80s heritage homes, Poly-B-era renovations, modern infill rebuilds. Equipment replacement, drain + sewer work, NW dispatch. Free written quote.",
+    features: [
+      "Heritage galvanized + cast iron replacement",
+      "Clay sewer lateral camera + trenchless repair",
+      "Poly-B identification + replacement",
+      "Water heater + furnace replacement",
+      "Modern infill new-build + renovation",
+      "Same-day emergency dispatch",
+    ],
+    bullets: [
+      {
+        t: "1960s-80s established NW community specialists",
+        d: "Brentwood was built mostly 1960-1980 with subsequent renovation cycles. Original homes have galvanized supply lines (closing off with mineral scale — pressure drops, hot side worse than cold), cast iron drain stacks (joints separating, pinhole leaks), and clay sewer laterals (root intrusion from 60-year mature trees). We've worked these patterns for 25+ years.",
+      },
+      {
+        t: "Poly-B from 1980s-90s renovations is common",
+        d: "Many Brentwood homes were renovated during the Poly-B era (1980s-mid-90s) and have it installed even though the original home is older. Failures are common now (30-40 years in). Look for grey/blue plastic supply lines with crimp-ring fittings. See [Poly-B Calgary](/polyb-plumbing-calgary/) for identification + replacement scope.",
+      },
+      {
+        t: "Equipment is on 3rd or 4th generation by now",
+        d: "Calgary tanks last 8-10 years in this water unsoftened. A 1965 Brentwood home has been through roughly 6 tanks. A 1975 home through 5. Most equipment in Brentwood is well past original; current tanks + furnaces + sump pumps are typically 2nd, 3rd, or 4th generation and many are themselves at end-of-life. We have honest replace-vs-repair conversations.",
+      },
+      {
+        t: "Real person — NW dispatch via Crowchild + 14 Street",
+        d: "No call centre. You talk to a tech, get a window before the truck rolls. Same-day dispatch for emergencies. Crowchild + 14 Street + Brentwood LRT corridor make NW dispatch fast — typical Brentwood arrival 2-3 hours on emergencies. Same crew that handles [Varsity](/varsity-plumbers-calgary/) and broader NW.",
+      },
+    ],
+    seoTitle: "Brentwood Plumbers Calgary | 1960s-80s NW, Equipment EOL",
+    seoDescription:
+      "Brentwood Calgary plumbing + heating. Heritage 1960s-80s NW community, Poly-B replacement, equipment replacement, drain + sewer work. Real person on the phone. Call 587-834-3668.",
+    seoKeywords: [
+      "Brentwood plumbers Calgary",
+      "Brentwood Calgary plumber",
+      "Brentwood Poly-B replacement",
+      "Brentwood water heater replacement",
+      "U of C area plumber Calgary",
+      "NW Calgary plumber",
+      "FlameTech Plumbing",
+    ],
+    quoteFormLabel: "Brentwood plumbing",
+    quoteFormPlaceholder:
+      "e.g. galvanized line leaking in a 1968 bungalow, Poly-B from a 1992 renovation, original tank finally going, sewer line root intrusion, infill drainage issue…",
+    sidebar: {
+      title: "Brentwood Plumbing + Heating",
+      subtitle:
+        "NW Calgary crew, U of C-area established community specialists. Heritage + Poly-B + modern infill across one crew.",
+      bullets: [
+        "Real person on the phone",
+        "Free in-home assessment + written quote",
+        "Heritage + Poly-B + infill experience",
+        "Same-day emergency dispatch",
+      ],
+    },
+    stats: [
+      { number: "25+", label: "Years in Calgary", icon: "verified" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "Heritage", label: "+ Poly-B + Modern", icon: "check_circle" },
+      { number: "Real", label: "Person on the phone", icon: "call" },
+    ],
+    callout:
+      "Brentwood Poly-B leak, equipment at end of life, or emergency right now? Call 587-834-3668 — real person, NW dispatch via Crowchild.",
+    richContent: {
+      sections: [
+        {
+          heading: "What we do most often on Brentwood calls",
+          intro:
+            "Brentwood's 60+ year history + multiple renovation cycles creates a specific work mix. Different home eras need different conversations.",
+          items: [
+            {
+              heading: "Galvanized supply line replacement (heritage homes)",
+              body: "Original 1960s-70s Brentwood galvanized supply lines close off with mineral scale over 50+ years — water pressure drops, hot-side flow drops worse than cold (heat accelerates scaling). Replacement with copper or PEX-A through accessible runs; sometimes phased over renovation cycles. See [plumbing repairs](/plumbing-repairs-calgary/).",
+            },
+            {
+              heading: "Poly-B replacement (1980s-90s renovations)",
+              body: "Many Brentwood homes had Poly-B installed during 1980s-90s renovation cycles even though the original house is older. Failures are common at this age (30-40 years in). Whole-home replacement with PEX-A is the lasting fix. See [Poly-B Calgary](/polyb-plumbing-calgary/).",
+            },
+            {
+              heading: "Cast iron drain stack repair + replacement",
+              body: "Heritage Brentwood cast iron drain stacks fail at joints + at the bottom of horizontal runs (pinhole rust). Symptom: slow drains, sewer smells, occasional leaks behind plaster walls or in basement ceilings. We repair with hubless fittings + PVC tie-ins where viable, full replacement where the stack is gone. Camera inspection identifies extent.",
+            },
+            {
+              heading: "Clay sewer lateral camera + trenchless repair",
+              body: "Original 1960s clay sewer laterals develop joint separation + root intrusion from Brentwood's mature elms, maples, and poplars (60+ year established root systems). Symptom: slow main drain, gurgling, recurring backups. Camera inspection identifies location + severity; trenchless lining or spot repair preserves landscaping.",
+            },
+            {
+              heading: "3rd-4th generation water heater replacement",
+              body: "Calgary tanks last 8-10 years unsoftened. Brentwood homes have been through multiple replacement cycles. Current tank likely at or near EOL too. We replace with [Bradford White or John Wood](/hot-water-tanks/) and recommend pairing with [water softener](/water-softener/) for next-tank longevity — biggest single move for Brentwood tank life.",
+            },
+            {
+              heading: "Furnace replacement (heritage + modern era)",
+              body: "Brentwood furnaces are often on 3rd generation by now. Heritage homes that had high-efficiency upgrades in the 1990s-2000s are at heat-exchanger-crack risk territory (statistically significant past 18-20 years). Honest replace-vs-repair conversation; hybrid heat pump is now math-positive on replacement. See [furnace replacement Calgary](/furnace-replacement-calgary/) and [heat pumps Calgary](/heat-pumps-calgary/).",
+            },
+            {
+              heading: "Modern infill new-build + renovation",
+              body: "Brentwood has had significant infill activity since 2000. New-build connection to aging city mains, lot-grading drainage interactions with neighbours, premium fixture install for renovations (Hansgrohe, Brizo, Kohler). We handle the new-build side too.",
+            },
+            {
+              heading: "Frozen pipe + cold-snap dispatch",
+              body: "Heritage Brentwood homes with minimal original wall insulation are particularly freeze-vulnerable during deep cold snaps. Modern PEX is more forgiving, but transition points in partially-renovated homes still fail. Same-day priority for burst pipes.",
+            },
+          ],
+        },
+        {
+          heading: "Why Brentwood needs a different conversation than newer suburbs",
+          intro:
+            "Brentwood's 60+ year history + U of C proximity + multiple renovation cycles creates specific service patterns.",
+          items: [
+            {
+              heading: "Heritage 1960s-70s housing stock dominates",
+              body: "Most Brentwood homes were built between 1960 and 1980. Original construction included galvanized supply lines (now closing off with scale), cast iron drain stacks (joints failing), and clay sewer laterals (root intrusion era). Even \"new-to-you\" Brentwood homes are 45-65 years old.",
+            },
+            {
+              heading: "Mature 60-year street trees + clay laterals = active root intrusion",
+              body: "Brentwood's elms, maples, and poplars are 60+ years old with established root systems that find clay sewer joint cracks. Symptom: slow main drain, recurring backups despite snaking. Camera inspection + trenchless lining or spot repair beats tearing up boulevard landscaping.",
+            },
+            {
+              heading: "Multiple renovation cycles = mixed-era complications",
+              body: "Many Brentwood homes have been renovated 2-3 times since original construction — each renovation potentially using different plumbing materials (galvanized original → 1980s-90s Poly-B reno → modern PEX kitchen rework). Mixed-era systems fail at TRANSITION POINTS where different materials meet. Reading the situation correctly takes experience.",
+            },
+            {
+              heading: "U of C proximity = high turnover + rental market complexity",
+              body: "Brentwood's U of C adjacency means significant rental properties + frequent turnover. Often calls come from landlords coordinating service across multiple units, or new owners discovering issues during turnover inspections. We work with property managers and landlords routinely + provide written quotes formatted for that context.",
+            },
+            {
+              heading: "Equipment 3rd-4th generation = honest replace conversations",
+              body: "Most Brentwood mechanical equipment is well past original. Current tanks at 8-10 year EOL territory; current furnaces approaching mid-to-late life. Replacement decisions get easier when we can show you what's currently installed vs what makes sense for the next cycle.",
+            },
+            {
+              heading: "Modern infill stresses heritage neighbours' drainage",
+              body: "Significant infill construction since 2000 has re-graded many Brentwood lots — water flow patterns change relative to original drainage. Common complaint: heritage neighbour's basement starts taking water after the next-door infill rebuild. Diagnose by perimeter drainage inspection + sump pump check.",
+            },
+            {
+              heading: "Hard water hits everything regardless of era",
+              body: "Calgary's hard water (150-200 mg/L) shortens every water-using appliance's lifespan. Single softener install at the main entry protects everything downstream. Particularly worth doing when next tank replacement comes due.",
+            },
+            {
+              heading: "Crowchild + 14 Street + LRT = fast NW dispatch",
+              body: "Brentwood's NW location with Crowchild access + 14 Street SW + Brentwood LRT corridor means fast service from our shop. Same crew that handles [Varsity](/varsity-plumbers-calgary/) and broader NW Calgary. No \"out of service area\" surcharge.",
+            },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Brentwood Plumbers — FAQs",
+        items: [
+          {
+            q: "Does my Brentwood home have Poly-B plumbing?",
+            a: "Depends on renovation history. Original 1960s-70s Brentwood homes had galvanized supply, not Poly-B. But homes renovated during 1980s-90s likely have Poly-B installed during that renovation. Look for grey/blue plastic supply lines with crimp-ring fittings (silver bands). Failures common now (30-40 years in). See [Poly-B Calgary](/polyb-plumbing-calgary/) for identification.",
+          },
+          {
+            q: "Why is my Brentwood water pressure low?",
+            a: "Most often original galvanized supply lines closing off with mineral scale. Heat accelerates scaling, so hot-side pressure drops worse than cold. Replacement with copper or PEX-A restores flow. Sometimes traced to fixture aerator buildup (clean or replace aerator — quick DIY). We diagnose at the source during a service call.",
+          },
+          {
+            q: "My Brentwood home is 1968 — what plumbing problems should I expect?",
+            a: "Original galvanized supply lines closing off with scale (low pressure, hot worse than cold), cast iron drain stack failures (joints separating, pinhole rust at horizontal runs), clay sewer lateral root intrusion (slow drains, gurgling), and mechanical equipment now on 3rd-4th generation. Inspection during purchase or at major renovation time catches most issues early.",
+          },
+          {
+            q: "How often should I have my Brentwood sewer line camera-inspected?",
+            a: "Every 3-5 years on heritage Brentwood homes. The combination of 60-year clay laterals + 60-year mature trees + decades of joint micro-movement makes root intrusion an active problem. Camera inspection catches issues early when spot repair beats full lateral replacement. See [drain cleaning](/drain-cleaning-calgary/).",
+          },
+          {
+            q: "Should I replace my Brentwood furnace with a heat pump?",
+            a: "Worth considering on replacement. Modern cold-climate heat pumps maintain rated capacity to -25°C; best Alberta setup is hybrid dual-fuel (heat pump + new furnace as backup). For most Brentwood homes adding cooling capability or with high heating bills, hybrid is the math-positive call. Federal Greener Homes rebates may apply. See [furnace replacement](/furnace-replacement-calgary/) and [heat pumps Calgary](/heat-pumps-calgary/).",
+          },
+          {
+            q: "How fast can you respond to emergency calls in Brentwood?",
+            a: "Same-day for emergencies — burst pipes, no hot water, sewer backup, no heat in cold snaps. Real person on the phone, we'll confirm a window before the truck rolls. Crowchild + 14 Street make NW dispatch fast — typical Brentwood window 2-3 hours from initial call.",
+          },
+          {
+            q: "Do you work with rental property landlords in Brentwood?",
+            a: "Yes — U of C proximity means significant rental work in Brentwood. We coordinate with property managers + landlords on tenant-occupied properties, provide written quotes formatted for that context, and document the work for landlord records. Same-day dispatch available for tenant emergencies.",
+          },
+          {
+            q: "Should I install a water softener in my Brentwood home?",
+            a: "Strongly recommended. Calgary's hard water (150-200 mg/L) shortens every water-using appliance's lifespan. A softener install pays back over a single tank replacement cycle (next tank lasts 14+ years instead of 8-10) and protects every other fixture + appliance in the home. Often coordinated with next tank replacement. See [water softener Calgary](/water-softener/).",
+          },
+          {
+            q: "Do you work on every brand of plumbing + heating equipment?",
+            a: "Yes — Bradford White, John Wood, AO Smith (tanks); Navien, Rinnai, IBC (tankless); Trane, Carrier, Lennox, Goodman, AirEase (furnaces); cold-climate heat pumps; ProFlo (sump pumps); Hansgrohe, Brizo, Kohler (premium fixtures). Common parts ride on every truck for first-visit repair completion.",
+          },
+          {
+            q: "What other NW Calgary neighbourhoods do you cover?",
+            a: "Same crew works [Varsity](/varsity-plumbers-calgary/), [Edgemont](/edgemont-plumbers-calgary/), [Tuscany](/tuscany-plumbers-calgary/), [Panorama Hills](/panorama-hills-plumbers-calgary/), [Evanston](/evanston-plumbers-calgary/), [Huntington Hills](/huntington-hills-plumbers-calgary/), and the broader [NW Calgary](/calgary-plumbers-nw/). Same-day dispatch across the NW.",
+          },
+        ],
+      },
+    },
+  },
+  {
     slug: "bridlewood-plumbers-calgary",
     category: "Plumbing",
     location: "Calgary",
@@ -10729,6 +10935,212 @@ export const services: ServicePage[] = [
   },
 
   {
+    slug: "hillhurst-plumbers-calgary",
+    category: "Plumbing",
+    location: "Calgary",
+    icon: "plumbing",
+    title: "Hillhurst Plumbers Calgary — Heritage + Infill Mix, Kensington-Adjacent",
+    lead:
+      "Hillhurst is one of Calgary's most distinctive inner-NW neighbourhoods because the housing mix combines original 1910-1940 heritage character homes (cast iron stacks, galvanized supply lines, clay sewer laterals) with major 2000s-onward infill rebuilds (modern PEX, high-efficiency mechanical, premium fixtures) — all walking distance to Kensington's restaurant + retail corridor. We work all three eras: heritage maintenance + replacement, mid-renovation partial-modernization, and modern infill new-build.",
+    heroBody: [
+      "Three patterns dominate Hillhurst calls: (1) heritage 1910-1940 home work (galvanized supply lines closing off with scale, cast iron drain stack failures, clay sewer laterals with 80-100 year mature-tree root intrusion), (2) modern infill construction connection + drainage work where new builds connect to aging city mains and lot regrading affects neighbouring drainage, and (3) mid-renovation partial-modernization issues where original heritage plumbing meets newer renovation work at transition points that now leak.",
+      "Same crew handles our [Poly-B identification](/polyb-plumbing-calgary/) (some 1980s-90s renovated Hillhurst homes have it), [hot water tank replacement](/hot-water-tank-replacement-calgary/), [furnace work](/furnaces/), [drain cleaning](/drain-cleaning-calgary/), and broader [emergency plumbing](/emergency-plumber-calgary/). Same crew works neighbouring inner-NW [Sunnyside](https://en.wikipedia.org/wiki/Sunnyside,_Calgary), [Briar Hill](https://en.wikipedia.org/wiki/Briar_Hill,_Calgary), West Hillhurst, and the broader [NW Calgary](/calgary-plumbers-nw/).",
+      "Real person on the phone, written quote before any work starts. Same-day for emergencies. NW dispatch via Memorial Drive + 10 Street + Kensington Road makes Hillhurst arrival fast. Call 587-834-3668.",
+    ],
+    heroSubhead: "Inner-NW Heritage + Infill, Kensington Adjacent",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing + heating service in Hillhurst, inner-NW Calgary", fit: "cover" },
+    intro:
+      "Hillhurst Calgary plumbing + heating. Heritage 1910-1940 homes + modern infill mix. Galvanized + cast iron + clay lateral work, modern infill construction, drain + sewer service. Free written quote.",
+    features: [
+      "Heritage galvanized + cast iron replacement",
+      "Clay sewer lateral camera + trenchless repair",
+      "Modern infill new-build + connection work",
+      "Mid-renovation partial-reno troubleshooting",
+      "Premium fixture install (Hansgrohe, Brizo, Kohler)",
+      "Same-day emergency dispatch",
+    ],
+    bullets: [
+      {
+        t: "Heritage 1910-1940 homes have specific patterns",
+        d: "Original Hillhurst homes have galvanized supply lines (closing off with mineral scale over 80-100 years), cast iron drain stacks (joints separating, pinhole leaks at horizontal runs), clay sewer laterals (root intrusion from 80+ year mature trees), and plaster + lath walls (non-destructive diagnostics matter). Different problem set than suburban homes. We've worked these for 25+ years.",
+      },
+      {
+        t: "2000s-onward infill rebuilds + new-build connection work",
+        d: "Major infill activity has transformed Hillhurst since 2000 — many lots now have completely new infills with modern PEX, high-efficiency mechanical, and modern drainage. We handle the new-build side: connection to aging city mains, lot-grading drainage interactions with heritage neighbours, sump pump install for finished basements, premium fixture coordination.",
+      },
+      {
+        t: "Mid-renovation partial-modernization is common",
+        d: "Common Hillhurst scenario: heritage home renovated piecemeal over decades — new PEX in the kitchen meets original galvanized in the laundry, modern furnace next to original cast iron stack. Mixed-era systems fail at transition points. Reading the situation correctly takes inner-city experience.",
+      },
+      {
+        t: "Real person — NW dispatch via Memorial + 10 Street + Kensington Rd",
+        d: "No call centre. You talk to a tech, get a window before the truck rolls. Same-day dispatch for emergencies. Memorial Drive + 10 Street + Kensington Road make Hillhurst arrival fast — typical window 2-3 hours from initial call.",
+      },
+    ],
+    seoTitle: "Hillhurst Plumbers Calgary | Heritage + Infill, Kensington Adjacent",
+    seoDescription:
+      "Hillhurst Calgary plumbing + heating. Heritage 1910-1940 home work + modern infill mix. Galvanized line replacement, clay sewer lateral repair, modern construction. Call 587-834-3668.",
+    seoKeywords: [
+      "Hillhurst plumbers Calgary",
+      "Hillhurst Calgary plumber",
+      "Hillhurst heritage plumbing",
+      "West Hillhurst plumber",
+      "Kensington plumber Calgary",
+      "inner NW Calgary plumber",
+      "FlameTech Plumbing",
+    ],
+    quoteFormLabel: "Hillhurst plumbing",
+    quoteFormPlaceholder:
+      "e.g. galvanized line leaking in a 1920s heritage home, cast iron stack pinhole, infill drainage issue, mixed-era partial reno problem, premium fixture install for renovation…",
+    sidebar: {
+      title: "Hillhurst Plumbing + Heating",
+      subtitle:
+        "Inner-NW Calgary crew. Heritage 1910-1940 homes + 2000s infill mix. Real-person dispatch, written quotes upfront.",
+      bullets: [
+        "Real person on the phone",
+        "Free in-home assessment + written quote",
+        "Heritage + infill + mixed-era experience",
+        "Same-day emergency dispatch",
+      ],
+    },
+    stats: [
+      { number: "25+", label: "Years in Calgary", icon: "verified" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "Heritage", label: "+ Modern + Mixed", icon: "check_circle" },
+      { number: "Real", label: "Person on the phone", icon: "call" },
+    ],
+    callout:
+      "Hillhurst heritage home plumbing concern, infill construction question, or mixed-era partial-reno issue? Call 587-834-3668 — real-person inner-NW dispatch.",
+    richContent: {
+      sections: [
+        {
+          heading: "What we do most often on Hillhurst calls",
+          intro:
+            "Hillhurst's split between heritage 1910-1940 homes + modern 2000s infills + the messy middle of partial renovations creates a specific work mix.",
+          items: [
+            {
+              heading: "Galvanized supply line replacement (heritage homes)",
+              body: "Original 1910-1940 galvanized supply lines close off with mineral scale over 80-100 years — water pressure drops, hot-side flow drops worse than cold. Replacement with copper or PEX-A through accessible runs; sometimes phased over renovation cycles. See [plumbing repairs](/plumbing-repairs-calgary/).",
+            },
+            {
+              heading: "Cast iron drain stack repair + replacement",
+              body: "Heritage Hillhurst cast iron drain stacks fail at joints + bottom of horizontal runs (pinhole rust). Symptom: slow drains, sewer smells, occasional leaks behind plaster walls or basement ceilings. We repair with hubless fittings + PVC tie-ins where viable, full replacement where the stack is gone.",
+            },
+            {
+              heading: "Clay sewer lateral camera + trenchless repair",
+              body: "Original 1920s clay sewer laterals develop joint separation + root intrusion from Hillhurst's mature elms, maples, and poplars (80+ year established root systems). Symptom: slow main drain, gurgling, recurring backups. Camera inspection + trenchless lining or spot repair preserves landscaping.",
+            },
+            {
+              heading: "Modern infill new-build + drainage work",
+              body: "Major rebuild activity in Hillhurst since 2000 means lots of new-build plumbing scope: connection to aging city mains, sump pump install for finished basements, lot-grading drainage that doesn't dump water onto heritage neighbours, modern mechanical rooms with high-efficiency furnaces + on-demand water heaters.",
+            },
+            {
+              heading: "Mid-renovation partial-modernization troubleshooting",
+              body: "Heritage home renovated piecemeal over decades. New PEX in the kitchen meets original galvanized in the laundry, modern furnace next to original cast iron drain stack. Mixed-era systems fail at TRANSITION POINTS — galvanized-to-copper dielectric union corrosion, cast-iron-to-PVC joint failure, undersized supply line feeding new high-flow fixture. Reading the situation right takes experience.",
+            },
+            {
+              heading: "Poly-B identification + replacement (1980s-90s renovated homes)",
+              body: "Some Hillhurst homes renovated in the late 1980s-90s had Poly-B installed during the renovation. Failures common now (25-35 years in). Whole-home replacement with PEX-A is the lasting fix. See [Poly-B Calgary](/polyb-plumbing-calgary/).",
+            },
+            {
+              heading: "Premium fixture install on renovations",
+              body: "Hillhurst renovations + infills frequently include premium fixture brands (Hansgrohe, Brizo, Kohler, Grohe) at master bath + kitchen + powder room. Brand-specific cartridge knowledge matters for proper install + future service. We carry parts catalogues + order direct from authorized distributors.",
+            },
+            {
+              heading: "Equipment replacement (heritage + modern)",
+              body: "Mechanical equipment in Hillhurst spans the full range — original 1990s replacements (now EOL), modern infill replacements (mid-life). Calgary tanks last 8-10 years unsoftened — Hillhurst home tanks typically need replacement on a similar cycle. We pair tank replacement with [water softener](/water-softener/) install for longevity.",
+            },
+          ],
+        },
+        {
+          heading: "Why Hillhurst needs a different conversation than newer suburbs",
+          intro:
+            "Hillhurst's heritage + infill mix + Kensington adjacency creates specific service patterns.",
+          items: [
+            {
+              heading: "Three home types in one neighbourhood",
+              body: "Heritage 1910-1940 originals (galvanized, cast iron, clay), partially-renovated heritage (mixed-era plumbing), and modern infills (full modern PEX + high-eff equipment). Same crew, three different toolkits + diagnostic approaches.",
+            },
+            {
+              heading: "Mature 80+ year street trees + clay laterals = active root intrusion",
+              body: "Hillhurst's elms + maples + poplars are 80-100+ years old in some cases with deeply established root systems that find clay sewer joint cracks. Symptom: slow main drain, recurring backups despite snaking. Camera inspection + trenchless lining or spot repair beats tearing up boulevard landscaping.",
+            },
+            {
+              heading: "1910-1940 wartime construction has narrow access",
+              body: "Original Hillhurst homes often have crawlspaces (not full basements), narrow utility rooms, and tight access. Service work in these spaces takes longer + sometimes needs specific tooling. We plan for it on the call.",
+            },
+            {
+              heading: "Infill construction shifts lot drainage",
+              body: "New infill construction often re-grades lots significantly — water flow patterns change relative to original drainage paths. Common complaint: heritage neighbour's basement starts taking water after the next-door infill rebuild. Diagnose + fix by exterior re-grade, interior drainage system, or sump pump install.",
+            },
+            {
+              heading: "Mixed-era partial renovations have transition-point failures",
+              body: "When old galvanized meets new copper, when old cast iron meets new PVC, when original supply feeds new high-flow fixtures — the TRANSITION POINTS are where failures happen. Diagnostic experience reading these situations separates inner-city plumbing from suburb work.",
+            },
+            {
+              heading: "Plaster + lath walls = non-destructive diagnostics matter",
+              body: "Many heritage Hillhurst homes have original plaster + lath walls that are part of the home's character. Tearing them out for diagnostics is expensive and sometimes unrecoverable. Infrared imaging + acoustic detection let us locate leaks behind plaster without destruction.",
+            },
+            {
+              heading: "Kensington adjacency + walkability = lots of partial renos",
+              body: "Hillhurst's proximity to Kensington's restaurant + retail + walkability has driven decades of partial renovations + kitchen + bath remodels. The piecemeal-modernization scenario is the dominant call category. We've seen every era of partial reno and know how to diagnose where the latest leak is coming from.",
+            },
+            {
+              heading: "Hard water hits everything regardless of build era",
+              body: "Calgary's hard water (150-200 mg/L) is the same hard supply for Hillhurst as anywhere else. Single softener install at the main entry protects tanks, premium fixtures, dishwashers, washing machines. See [water softener Calgary](/water-softener/).",
+            },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Hillhurst Plumbers — FAQs",
+        items: [
+          {
+            q: "What's behind the wall in my 1920s Hillhurst home's plumbing?",
+            a: "Most likely original galvanized supply lines closing off with mineral scale, cast iron drain stacks with joints separating + pinhole leaks at horizontal runs, and clay sewer lateral to the city main. Walls are typically plaster + lath. We diagnose without destruction using infrared imaging + acoustic detection — we'll tell you what's behind the wall before recommending any tear-out.",
+          },
+          {
+            q: "Why is my Hillhurst hot water pressure low?",
+            a: "Almost always galvanized supply lines closing off with mineral scale. Heat accelerates scaling, so hot-side pressure drops worse than cold. Replacement with copper or PEX-A through accessible runs restores flow. Often phased over major renovation cycles to coordinate with broader scope. Free in-home assessment + written quote.",
+          },
+          {
+            q: "Does my Hillhurst home have Poly-B plumbing?",
+            a: "Depends on renovation history. Original 1910-1940 homes had galvanized supply, not Poly-B. But homes renovated during the 1980s-90s Poly-B era may have it installed during that renovation. Look for grey/blue plastic supply lines with crimp-ring fittings (silver bands). See [Poly-B Calgary](/polyb-plumbing-calgary/) for identification.",
+          },
+          {
+            q: "I'm renovating my heritage Hillhurst home — do I need to update all the plumbing?",
+            a: "Depends on scope. Full gut renovation: typically yes, replace everything during open-wall access (cheaper now than chasing failures later). Partial reno (kitchen + bath only): replace what's accessible + plan for future phased replacement of the rest. We assess + quote in writing based on the renovation scope. Often coordinated with the renovation GC.",
+          },
+          {
+            q: "Why are my drains slow in my heritage Hillhurst home?",
+            a: "Most common cause: root intrusion in the clay sewer lateral. Hillhurst's mature street trees have established root systems that find joint cracks in 80+ year clay laterals. Camera inspection identifies location + severity. Hydro-jet or mechanical cutting clears short-term; trenchless lining or spot repair for permanent fix.",
+          },
+          {
+            q: "My basement started flooding after the next-door infill was built — what's happening?",
+            a: "Lot regrading during infill construction sometimes changes water flow patterns. Common pattern: new infill is graded higher than original lot, water that previously sheeted away now sheets toward your home. Diagnose by perimeter drainage inspection + sump pump check; fix by exterior re-grade, interior drainage system, or sump pump install with battery backup.",
+          },
+          {
+            q: "Do you install premium fixture brands like Hansgrohe, Brizo, Kohler?",
+            a: "Yes — these are common in Hillhurst renovations. Pressure-balance valves, thermostatic shower systems, body sprays + rainfall heads, freestanding tub fillers, custom drains. Brand-specific cartridge knowledge matters — generic plumbing experience isn't enough. We carry parts catalogues + order direct from authorized distributors.",
+          },
+          {
+            q: "Should I install a water softener in my Hillhurst home?",
+            a: "Strongly recommended. Calgary's hard water (150-200 mg/L) shortens every water-using appliance's lifespan. Particularly important when renovations are installing premium-grade fixtures — softener protects the cartridge investment. Single install at the main entry, whole-house benefit.",
+          },
+          {
+            q: "How quickly can you respond to emergencies in Hillhurst?",
+            a: "Same-day for emergencies — burst pipes, no hot water, sewer backup, no heat in cold snaps. Real person on the phone, we'll confirm a window before the truck rolls. Memorial Drive + 10 Street + Kensington Road make Hillhurst dispatch fast — typical window 2-3 hours from initial call.",
+          },
+          {
+            q: "What other inner-NW Calgary neighbourhoods do you cover?",
+            a: "Same crew works the inner-NW including West Hillhurst, [Bowness](/bowness-plumbers-calgary/), Sunnyside, Briar Hill, [Edgemont](/edgemont-plumbers-calgary/), [Varsity](/varsity-plumbers-calgary/), and the broader [NW Calgary](/calgary-plumbers-nw/). Heritage + rebuild + mixed-era experience translates across all of them.",
+          },
+        ],
+      },
+    },
+  },
+  {
     slug: "huntington-hills-plumbers-calgary",
     category: "Plumbing",
     location: "Calgary",
@@ -10864,6 +11276,211 @@ export const services: ServicePage[] = [
   },
 
   {
+    slug: "inglewood-plumbers-calgary",
+    category: "Plumbing",
+    location: "Calgary",
+    icon: "plumbing",
+    title: "Inglewood Plumbers Calgary — Heritage Pre-1940 Stock + Renovation Mix",
+    lead:
+      "Inglewood is Calgary's oldest neighbourhood — established in 1875 and home to some of the city's earliest housing stock dating back to the 1890s through 1940s. That makes Inglewood plumbing very specific: original heritage homes with cast iron drain stacks, galvanized supply lines, and clay sewer laterals that are now 80-130+ years old, paired with significant renovation activity over recent decades and modern infill rebuilds. We work all three eras: heritage maintenance + restoration, mid-renovation partial-modernization, and modern infill new-build.",
+    heroBody: [
+      "Three patterns dominate Inglewood calls: (1) heritage pre-1940 home work (cast iron drain stack failures, galvanized supply line scaling, clay sewer lateral root intrusion from 100-year mature trees, mechanical equipment now on 3rd-5th generation), (2) modern infill construction connection + lot-grading drainage work where new builds connect to aging city mains, and (3) mid-renovation partial-modernization where original heritage plumbing meets newer renovation work at transition points that now leak.",
+      "Same crew handles our [Poly-B identification](/polyb-plumbing-calgary/) (1980s-90s renovated Inglewood homes may have it), [hot water tank replacement](/hot-water-tank-replacement-calgary/), [furnace work](/furnaces/), [drain cleaning](/drain-cleaning-calgary/), and broader [emergency plumbing](/emergency-plumber-calgary/). Same crew works neighbouring [Bridgeland](https://en.wikipedia.org/wiki/Bridgeland,_Calgary), Mission, Ramsay, and the broader inner-city.",
+      "Real person on the phone, written quote before any work starts. Same-day for emergencies. Inner-SE dispatch via Memorial Drive + 9 Avenue makes Inglewood arrival fast. Call 587-834-3668.",
+    ],
+    heroSubhead: "Inner-SE Heritage Pre-1940 Specialists",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing + heating service in Inglewood, inner-SE Calgary", fit: "cover" },
+    intro:
+      "Inglewood Calgary plumbing + heating. Heritage pre-1940 homes + renovation + modern infill mix. Cast iron + galvanized + clay lateral work, premium fixture install, drain + sewer service.",
+    features: [
+      "Heritage galvanized + cast iron replacement",
+      "Clay sewer lateral camera + trenchless repair",
+      "Pre-1940 heritage home restoration plumbing",
+      "Modern infill new-build + drainage work",
+      "Premium fixture install (Hansgrohe, Brizo, Kohler)",
+      "Same-day emergency dispatch",
+    ],
+    bullets: [
+      {
+        t: "Pre-1940 heritage homes need specialized diagnostic",
+        d: "Calgary's oldest neighbourhood means Inglewood housing stock includes some 1890s-1940s homes that are now 80-130+ years old. Original cast iron drain stacks, galvanized supply lines, clay sewer laterals, lath + plaster walls. We work the patterns specific to this housing era — different problem set than suburban or even other inner-city work.",
+      },
+      {
+        t: "Mature 100-year landscape = active root intrusion era",
+        d: "Inglewood's 100+ year mature street trees have deeply established root systems that find clay sewer joint cracks. Camera inspection identifies severity; trenchless lining or spot repair preserves landscape investment. Catching it early beats reacting to sewer backup.",
+      },
+      {
+        t: "Mid-renovation partial-modernization is the dominant call type",
+        d: "Most Inglewood heritage homes have been renovated piecemeal over decades. New PEX kitchen meets original galvanized laundry; modern furnace next to original cast iron stack. Mixed-era systems fail at transition points. Reading the situation correctly takes experience with this exact housing pattern.",
+      },
+      {
+        t: "Real person — inner-SE dispatch via Memorial Drive",
+        d: "No call centre. You talk to a tech, get a window before the truck rolls. Same-day dispatch for emergencies. Memorial Drive + 9 Avenue + Macleod Trail access make Inglewood arrival fast — typical window 2-3 hours from initial call.",
+      },
+    ],
+    seoTitle: "Inglewood Plumbers Calgary | Heritage Pre-1940 + Renovation",
+    seoDescription:
+      "Inglewood Calgary plumbing + heating. Heritage pre-1940 homes + renovation + infill mix. Cast iron stack work, galvanized line replacement, clay sewer lateral repair. Call 587-834-3668.",
+    seoKeywords: [
+      "Inglewood plumbers Calgary",
+      "Inglewood Calgary plumber",
+      "Inglewood heritage plumbing",
+      "Inglewood cast iron stack",
+      "inner SE Calgary plumber",
+      "FlameTech Plumbing",
+    ],
+    quoteFormLabel: "Inglewood plumbing",
+    quoteFormPlaceholder:
+      "e.g. cast iron drain stack leaking in a 1910 heritage home, galvanized supply line pressure loss, clay sewer lateral root intrusion, premium fixture install for a renovation, infill drainage…",
+    sidebar: {
+      title: "Inglewood Plumbing + Heating",
+      subtitle:
+        "Inner-SE Calgary crew. Calgary's oldest neighbourhood — pre-1940 heritage stock + renovation + modern infill mix.",
+      bullets: [
+        "Real person on the phone",
+        "Free in-home assessment + written quote",
+        "Heritage + renovation + infill experience",
+        "Same-day emergency dispatch",
+      ],
+    },
+    stats: [
+      { number: "25+", label: "Years in Calgary", icon: "verified" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "Heritage", label: "+ Renovation + Modern", icon: "check_circle" },
+      { number: "Real", label: "Person on the phone", icon: "call" },
+    ],
+    callout:
+      "Inglewood heritage home plumbing concern, renovation transition-point leak, or emergency right now? Call 587-834-3668 — real-person inner-SE dispatch.",
+    richContent: {
+      sections: [
+        {
+          heading: "What we do most often on Inglewood calls",
+          intro:
+            "Inglewood's combination of Calgary's oldest housing stock + significant renovation activity + ongoing modern infill creates a specific work mix.",
+          items: [
+            {
+              heading: "Cast iron drain stack repair + replacement",
+              body: "Heritage Inglewood cast iron drain stacks reach end of life through joint separation + pinhole rust at horizontal runs. Some homes have stacks 80-100+ years old. Symptom: slow drains, sewer smells, leaks behind plaster walls or basement ceilings. We repair with hubless fittings + PVC tie-ins where viable, full replacement where the stack is gone. Camera inspection identifies extent.",
+            },
+            {
+              heading: "Galvanized supply line replacement",
+              body: "Original 1890s-1940s galvanized supply lines close off with mineral scale over a century — water pressure drops dramatically, hot-side flow drops worse than cold (heat accelerates scaling). Replacement with copper or PEX-A through accessible runs; sometimes phased over major renovation cycles. See [plumbing repairs](/plumbing-repairs-calgary/).",
+            },
+            {
+              heading: "Clay sewer lateral camera + trenchless repair",
+              body: "Original early-1900s clay sewer laterals develop joint separation + root intrusion from Inglewood's 100+ year mature trees. Symptom: slow main drain, gurgling, recurring backups. Camera inspection identifies location + severity; trenchless lining or spot repair preserves century-old landscape investment.",
+            },
+            {
+              heading: "Equipment replacement on 3rd-5th generation",
+              body: "Calgary tanks last 8-10 years unsoftened. A heritage Inglewood home built in 1915 has been through roughly 12+ tanks; even a 1940s home has been through 8+ tanks. Most equipment is well past original; we replace with [Bradford White or John Wood](/hot-water-tanks/) and pair with [water softener](/water-softener/) for longevity.",
+            },
+            {
+              heading: "Modern infill new-build + drainage work",
+              body: "Inglewood has had significant infill activity since 2000. New-build connection to aging city mains (some over 100 years old), sump pump install for finished basements, lot-grading drainage that doesn't dump water onto heritage neighbours, modern mechanical rooms with high-efficiency furnaces + on-demand water heaters.",
+            },
+            {
+              heading: "Mid-renovation partial-modernization",
+              body: "Most Inglewood heritage homes have been renovated piecemeal. New PEX in the kitchen meets original galvanized in the laundry, modern furnace from 2015 next to original cast iron stack. Mixed-era systems fail at TRANSITION POINTS where different materials meet — dielectric union corrosion, cast-iron-to-PVC joint failure, undersized supply feeding new high-flow fixture.",
+            },
+            {
+              heading: "Poly-B identification + replacement (1980s-90s renovations)",
+              body: "Some Inglewood homes renovated during the 1980s-90s Poly-B era had it installed. Failures common now (30-40 years in). Whole-home replacement with PEX-A is the lasting fix. See [Poly-B Calgary](/polyb-plumbing-calgary/).",
+            },
+            {
+              heading: "Premium fixture install + heritage fixture preservation",
+              body: "Inglewood renovations split between modern premium brands (Hansgrohe, Brizo, Kohler, Grohe) and heritage-fixture preservation (original clawfoot tubs, pedestal sinks, period faucets). We work both: modern install with brand-specific cartridge knowledge, plus heritage fixture restoration with code-compliant updates to supply + drain lines while preserving the visible heritage piece.",
+            },
+          ],
+        },
+        {
+          heading: "Why Inglewood needs a different conversation than newer Calgary",
+          intro:
+            "Calgary's oldest neighbourhood has the city's most distinctive housing stock + service patterns.",
+          items: [
+            {
+              heading: "Pre-1940 housing stock is uniquely old for Calgary",
+              body: "Inglewood has homes dating back to the 1890s — 130+ years old in some cases. Original construction included cast iron, galvanized, and clay materials that are now well past any reasonable service life. Even 'renovated' Inglewood homes often retain heritage core plumbing where renovation didn't reach.",
+            },
+            {
+              heading: "100+ year mature trees + 100-year clay laterals = chronic root intrusion",
+              body: "Inglewood's street trees have established root systems older than most Calgary neighbourhoods. Clay sewer lateral joints have had a century to develop micro-cracks that roots exploit. Symptom: slow main drain, recurring backups despite snaking. Camera inspection + spot repair or trenchless lining is routine work here.",
+            },
+            {
+              heading: "Significant heritage preservation + designation",
+              body: "Some Inglewood homes have heritage designation requiring specific approaches to renovation + plumbing work. We understand the constraints + coordinate with the renovation GC and city heritage planners where needed.",
+            },
+            {
+              heading: "Hipster + restaurant culture = significant renovation activity",
+              body: "Inglewood's transformation into one of Calgary's most popular dining + retail districts has driven decades of renovation activity. Many homes have been renovated 2-4 times. Each renovation potentially used different materials, creating mixed-era complications that single-renovation suburban homes don't have.",
+            },
+            {
+              heading: "Bow + Elbow River proximity = water table + drainage considerations",
+              body: "Inglewood sits at the Bow + Elbow River confluence. Some homes have shallower water tables that stress sump pumps, basement drainage, and foundation work. We diagnose drainage source carefully — sometimes the fix is exterior re-grading, sometimes sump pump install, sometimes both.",
+            },
+            {
+              heading: "Plaster + lath walls = non-destructive diagnostics matter",
+              body: "Most heritage Inglewood walls are original plaster + lath. Tearing them out for plumbing diagnostics is expensive and sometimes affects heritage character. Infrared imaging + acoustic detection let us locate leaks behind plaster without destruction.",
+            },
+            {
+              heading: "Significant infill construction stresses heritage neighbours",
+              body: "Major infill activity since 2000 has re-graded many Inglewood lots. Common complaint: heritage neighbour's basement starts taking water after the next-door infill rebuild. Diagnose by perimeter drainage inspection + sump pump check.",
+            },
+            {
+              heading: "Hard water hits everything regardless of build era",
+              body: "Calgary's hard water (150-200 mg/L) is the same hard supply for Inglewood as anywhere else. Single softener install at the main entry protects tanks, premium fixtures, dishwashers, washing machines — particularly important when premium-grade fixtures are downstream. See [water softener Calgary](/water-softener/).",
+            },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Inglewood Plumbers — FAQs",
+        items: [
+          {
+            q: "What's behind the wall in my pre-1940 Inglewood home's plumbing?",
+            a: "Likely original cast iron drain stacks (80-130 years old, joints separating, pinhole rust), galvanized supply lines closing off with mineral scale, and clay sewer lateral to the city main. Walls are typically plaster + lath. We diagnose without destruction using infrared imaging + acoustic detection — we'll tell you what's behind the wall before recommending any tear-out.",
+          },
+          {
+            q: "Why is my Inglewood hot water pressure so low?",
+            a: "Almost always galvanized supply lines closing off with 100+ years of mineral scale buildup. Heat accelerates scaling, so hot-side pressure drops worse than cold. Replacement with copper or PEX-A restores flow. Often phased over major renovation cycles. Free in-home assessment + written quote.",
+          },
+          {
+            q: "How old are the sewer lines in Inglewood?",
+            a: "Many original Inglewood clay sewer laterals are 90-110+ years old. Some city mains are similar vintage. Joint separation + root intrusion is essentially universal at this age unless previously replaced. Camera inspection every 3-5 years catches issues early. Trenchless lining or spot repair beats trenching up boulevard landscaping.",
+          },
+          {
+            q: "I'm renovating my heritage Inglewood home — do I need a heritage planning consultation?",
+            a: "Depends on the property's designation status. Some Inglewood homes have heritage designation requiring specific approval processes for exterior + sometimes interior changes. We coordinate with renovation GCs + city heritage planners when needed. Internal plumbing replacement typically doesn't trigger heritage concerns; exterior plumbing or visible heritage fixtures may.",
+          },
+          {
+            q: "Why is my Inglewood basement getting wet?",
+            a: "Multiple possible causes: failed sump pump, exterior drainage issues (sometimes triggered by next-door infill construction), foundation cracks from settling, or river-proximity high water table. We diagnose source via perimeter inspection + interior water testing + sometimes outside drainage assessment.",
+          },
+          {
+            q: "Does my Inglewood home have Poly-B plumbing?",
+            a: "Depends on renovation history. Original pre-1940 homes had galvanized + cast iron, not Poly-B. But homes renovated during the 1980s-90s Poly-B era may have it. Look for grey/blue plastic supply lines with crimp-ring fittings. See [Poly-B Calgary](/polyb-plumbing-calgary/) for identification.",
+          },
+          {
+            q: "Can you preserve my heritage clawfoot tub during a renovation?",
+            a: "Yes — heritage fixture preservation is common in Inglewood. We update supply lines + drain trap to current code while preserving the visible heritage piece (clawfoot tub, pedestal sink, period faucet). Sometimes also refit modern cartridge into a period-look fixture for code + function while keeping the aesthetic.",
+          },
+          {
+            q: "Should I install a water softener in my Inglewood home?",
+            a: "Strongly recommended. Calgary's hard water (150-200 mg/L) shortens every water-using appliance's lifespan. Particularly important when renovations are installing premium-grade fixtures — softener protects the cartridge investment. Single install at the main entry, whole-house benefit.",
+          },
+          {
+            q: "How quickly can you respond to emergencies in Inglewood?",
+            a: "Same-day for emergencies — burst pipes, no hot water, sewer backup, no heat in cold snaps. Real person on the phone, we'll confirm a window before the truck rolls. Memorial Drive + 9 Avenue access make Inglewood dispatch fast — typical window 2-3 hours from initial call.",
+          },
+          {
+            q: "What other inner-city Calgary neighbourhoods do you cover?",
+            a: "Same crew works inner-city Calgary including Bridgeland, Mission, Ramsay, [Bowness](/bowness-plumbers-calgary/), [Hillhurst](/hillhurst-plumbers-calgary/), [Altadore](/altadore-plumbers-calgary/), [Marda Loop](/marda-loop-plumbers-calgary/), [Bel-Aire](/bel-aire-plumbers-calgary/), and [Mount Royal](/mount-royal-plumbers-calgary/). Heritage + renovation + infill expertise translates across all of them.",
+          },
+        ],
+      },
+    },
+  },
+  {
     slug: "killarney-plumbers-calgary",
     category: "Plumbing",
     location: "Calgary",
@@ -10998,6 +11615,211 @@ export const services: ServicePage[] = [
     },
   },
 
+  {
+    slug: "lake-bonavista-plumbers-calgary",
+    category: "Plumbing",
+    location: "Calgary",
+    icon: "plumbing",
+    title: "Lake Bonavista Plumbers Calgary — Calgary's Original Lake Community, 1970s Established",
+    lead:
+      "Lake Bonavista is Calgary's ORIGINAL lake community — established in the late 1960s and built out through the 1970s, making it one of the city's most established prestige neighbourhoods. The lake itself (Lake Bonavista, the original artificial lake) sits at the centre, surrounded by larger lots with mature 50+ year landscaping, established families on second-generation ownership, and homes now needing first-class equipment service after multiple replacement cycles. Equipment is on 3rd-4th generation. Mature trees have decades-established root systems. And many homes have been substantially renovated since original construction.",
+    heroBody: [
+      "Three patterns dominate Lake Bonavista calls: (1) equipment replacement on 1970s-original homes (water heaters typically on 4th+ generation, furnaces on 2nd-3rd generation, original sump pumps long replaced), (2) sewer line camera + root removal from 50-year mature elms and poplars finding 1970s-era pipe joints, and (3) renovation + premium fixture install work as established homeowners modernize their long-held properties.",
+      "Same crew handles our [hot water tank replacement](/hot-water-tank-replacement-calgary/), [furnace work](/furnaces/) + [furnace replacement](/furnace-replacement-calgary/), [Poly-B identification](/polyb-plumbing-calgary/) (1980s-90s renovation work may include it), [drain cleaning](/drain-cleaning-calgary/), and broader [emergency plumbing](/emergency-plumber-calgary/). Same crew works neighbouring [McKenzie Lake](/mckenzie-lake-plumbers-calgary/), [Chaparral](/chaparral-plumbers-calgary/), Willow Park, Maple Ridge, Acadia, Lake Bonaventure-area homes, and the broader [SE Calgary](/calgary-plumbers-se/).",
+      "Real person on the phone, written quote before any work starts. Same-day for emergencies. SE dispatch via Macleod Trail + Anderson Road makes Lake Bonavista arrival fast. Call 587-834-3668.",
+    ],
+    heroSubhead: "Original Calgary Lake Community, 1970s Established",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing + heating service in Lake Bonavista, SE Calgary", fit: "cover" },
+    intro:
+      "Lake Bonavista Calgary plumbing + heating. 1970s-original prestige lake community. Equipment replacement, sewer + drain work, premium fixture install, SE dispatch. Free written quote.",
+    features: [
+      "Water heater + furnace replacement (3rd-4th gen)",
+      "Sewer camera + mature-tree root removal",
+      "Sump pump install + battery backup",
+      "Premium fixture install (Hansgrohe, Brizo, Kohler)",
+      "Poly-B identification (1980s-90s reno work)",
+      "Same-day emergency dispatch",
+    ],
+    bullets: [
+      {
+        t: "1970s-original prestige lake community specialists",
+        d: "Lake Bonavista was Calgary's first lake community, built out through the 1970s. Most homes are 45-55 years old now with original equipment long since replaced multiple times. We work the patterns specific to this era + this prestige market — established homeowners who expect quality work + careful service. 25+ years on Calgary homes including this neighbourhood.",
+      },
+      {
+        t: "50-year mature trees = active sewer root intrusion",
+        d: "Lake Bonavista's mature elms, poplars, and spruce trees are 45-55 years old with deeply established root systems. 1970s-era PVC + ABS sewer joints now develop micro-cracks that roots exploit. Symptom: slow main drain, recurring backups. Camera inspection + spot repair or trenchless lining preserves mature landscaping investment.",
+      },
+      {
+        t: "Equipment on 3rd-4th generation, EOL conversations ongoing",
+        d: "Calgary tanks last 8-10 years unsoftened. A 1972 Lake Bonavista home has been through roughly 5+ tanks. Current tank likely at or near EOL. Most 1970s-original furnaces have been replaced twice; current furnaces approaching mid-to-late life. Honest replace-vs-repair conversations + Manual J sizing on every replacement quote.",
+      },
+      {
+        t: "Real person — SE dispatch via Macleod Trail + Anderson Road",
+        d: "No call centre. You talk to a tech, get a window before the truck rolls. Same-day dispatch for emergencies. Macleod Trail + Anderson Road + Bow Bottom Trail make Lake Bonavista arrival fast — typical window 2-3 hours from initial call. Same crew that handles [McKenzie Lake](/mckenzie-lake-plumbers-calgary/) and broader SE.",
+      },
+    ],
+    seoTitle: "Lake Bonavista Plumbers Calgary | 1970s Original Lake Community",
+    seoDescription:
+      "Lake Bonavista Calgary plumbing + heating. 1970s-original prestige lake community. Equipment replacement, sewer work, premium fixture install. Call 587-834-3668.",
+    seoKeywords: [
+      "Lake Bonavista plumbers Calgary",
+      "Lake Bonavista Calgary plumber",
+      "Lake Bonavista water heater replacement",
+      "Lake Bonavista sewer line",
+      "SE Calgary plumber",
+      "FlameTech Plumbing",
+    ],
+    quoteFormLabel: "Lake Bonavista plumbing",
+    quoteFormPlaceholder:
+      "e.g. original water heater finally on its last legs, sewer line root intrusion from mature trees, furnace approaching mid-life, premium fixture install for renovation, sump pump replacement…",
+    sidebar: {
+      title: "Lake Bonavista Plumbing + Heating",
+      subtitle:
+        "SE Calgary crew, original Calgary lake community specialists. Equipment replacement, sewer + drain work, premium fixture install.",
+      bullets: [
+        "Real person on the phone",
+        "Free in-home assessment + written quote",
+        "Equipment EOL + renovation + premium fixture",
+        "Same-day emergency dispatch",
+      ],
+    },
+    stats: [
+      { number: "25+", label: "Years in Calgary", icon: "verified" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "Established", label: "lake community", icon: "check_circle" },
+      { number: "Real", label: "Person on the phone", icon: "call" },
+    ],
+    callout:
+      "Lake Bonavista equipment at end of life, sewer line concern, or renovation plumbing question? Call 587-834-3668 — real-person SE dispatch.",
+    richContent: {
+      sections: [
+        {
+          heading: "What we do most often on Lake Bonavista calls",
+          intro:
+            "Lake Bonavista's 50+ year history + prestige tier + lake community amenity creates a specific work mix.",
+          items: [
+            {
+              heading: "Water heater replacement (3rd-4th generation)",
+              body: "Calgary tanks last 8-10 years unsoftened. A 1972 Lake Bonavista home has typically been through 5+ tanks; even later-phase 1978 homes through 4+. Current tank likely at or near Calgary EOL territory. We replace with [Bradford White or John Wood](/hot-water-tanks/) — the brands that hold up best in Calgary's hard water — and recommend pairing with [water softener](/water-softener/) for next-tank longevity.",
+            },
+            {
+              heading: "Furnace replacement (2nd-3rd generation now)",
+              body: "1970s original furnaces have been replaced twice in most Lake Bonavista homes. Current furnaces are typically 1990s or 2000s installs now approaching mid-to-late life. Heat exchanger cracks become statistically significant past 18-20 years. Honest replace-vs-repair conversations; hybrid heat pump becomes worth considering on replacement. See [furnace replacement](/furnace-replacement-calgary/) and [heat pumps Calgary](/heat-pumps-calgary/).",
+            },
+            {
+              heading: "Sewer line camera + mature-tree root removal",
+              body: "1970s PVC + ABS sewer joints + 50-year mature trees = active root intrusion era. Symptom: slow main drain, gurgling, recurring backups despite snaking. Camera inspection identifies location + severity; hydro-jet or mechanical cutting clears short-term; spot repair or trenchless lining for permanent fix preserving mature landscaping.",
+            },
+            {
+              heading: "Sump pump install + battery backup",
+              body: "Original 1970s sump pumps are long-replaced; current generation pumps approaching first-replacement age in many homes. Spring melt + heavy rain events stress these systems. We replace with ProFlo or similar quality pumps + recommend battery backup for finished-basement homes — power-outage + pump-failure cascades happen during spring melt when storms knock out neighbourhood power.",
+            },
+            {
+              heading: "Premium fixture install + renovation work",
+              body: "Lake Bonavista's established homeowners + significant property value drive ongoing renovation activity. Premium fixture brands (Hansgrohe, Brizo, Kohler, Grohe, Waterworks) common at master bath + kitchen + powder room. Brand-specific cartridge knowledge matters for proper install + future service.",
+            },
+            {
+              heading: "Poly-B identification + replacement (1980s-90s renovation work)",
+              body: "Some Lake Bonavista homes renovated during the 1980s-90s Poly-B era had it installed during that renovation. Failures common now (30-40 years in). Whole-home replacement with PEX-A is the lasting fix. See [Poly-B Calgary](/polyb-plumbing-calgary/) for identification.",
+            },
+            {
+              heading: "Water softener install (whole-house protection)",
+              body: "Most Lake Bonavista homes built without a softener; many still haven't added one. Calgary's hard water (150-200 mg/L) shortens every water-using appliance's lifespan. Single softener at the main entry: next tank lasts 14+ years instead of 8-10, premium fixture cartridges last longer, dishwasher + washing machine valves last longer. See [water softener Calgary](/water-softener/).",
+            },
+            {
+              heading: "Frozen pipe + cold-snap dispatch",
+              body: "Some 1970s Lake Bonavista homes have less insulation in original wall cavities than current code requires. Corner-bathroom exterior walls + crawl-space lines can freeze during deep cold snaps. Same-day priority for burst pipes.",
+            },
+          ],
+        },
+        {
+          heading: "Why Lake Bonavista needs a different conversation than newer suburbs",
+          intro:
+            "Calgary's original lake community has the prestige, the established homeowner base, and the 50-year housing stock that makes the service profile distinctive.",
+          items: [
+            {
+              heading: "Original Calgary lake community = 1970s established",
+              body: "Lake Bonavista predates Mahogany, Auburn Bay, McKenzie Lake, and Chaparral as Calgary's first artificial-lake community. That 50+ year history means homes are well past original-equipment cycles. Even \"newer\" Lake Bonavista phases are 45+ years old.",
+            },
+            {
+              heading: "Prestige tier + established homeowner base",
+              body: "Many Lake Bonavista homeowners are second-generation residents or long-tenured owners with deep knowledge of their homes. Service conversations are different — these homeowners want substance, not marketing. We bring real diagnostics + honest replacement math.",
+            },
+            {
+              heading: "50-year mature street trees + 50-year sewer joints = root intrusion era",
+              body: "Lake Bonavista's mature trees have established root systems that find 1970s PVC + ABS sewer joint cracks. Annual camera inspection on older homes catches root intrusion early — spot repair beats full lateral replacement when caught in time.",
+            },
+            {
+              heading: "Larger lots + walkout-basement designs near the lake",
+              body: "Lake Bonavista's lots are typically larger than newer suburbs, with many homes near the lake having walkout basement designs. Walkout designs commonly have sump pumps that are now well past original-install age. Battery backup recommended for finished-basement homes.",
+            },
+            {
+              heading: "Equipment on 3rd-4th generation = replace conversations are common",
+              body: "Most Lake Bonavista mechanical equipment is well past original. Current tanks at 8-10 year EOL territory; current furnaces mid-to-late life. Replacement decisions get easier when we can show you what's installed vs what makes sense for the next 15-20 years.",
+            },
+            {
+              heading: "Significant renovation activity drives premium fixture work",
+              body: "Established homeowners modernizing long-held properties drives ongoing renovation activity. Premium fixture brands (Hansgrohe, Brizo, Kohler) are common; brand-specific service knowledge matters. We carry parts catalogues + order direct from authorized distributors.",
+            },
+            {
+              heading: "Hard water hits everything — softener install matters",
+              body: "Lake Bonavista's water is the same hard Calgary municipal supply (150-200 mg/L) as the rest of the city. Without a softener, every water-using appliance + fixture wears faster. Single softener at the main entry protects everything downstream — particularly worthwhile when next tank replacement comes due.",
+            },
+            {
+              heading: "Macleod Trail + Anderson Road + Bow Bottom = fast SE dispatch",
+              body: "Lake Bonavista's location off Macleod Trail and Anderson Road means fast service from our shop. Same crew that handles broader [SE Calgary](/calgary-plumbers-se/) plumbing. Typical emergency dispatch window 2-3 hours from initial call.",
+            },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Lake Bonavista Plumbers — FAQs",
+        items: [
+          {
+            q: "My Lake Bonavista home is 1972 — what plumbing problems should I expect at this age?",
+            a: "Equipment on 4th-5th generation (current tank likely at or near EOL — Calgary tanks last 8-10 years unsoftened), 1970s sewer line joints with active root intrusion from mature trees, possibly Poly-B from 1980s-90s renovation work, and original sump pumps long since replaced (current generation may be tired). Inspection during purchase or major renovation catches most issues early.",
+          },
+          {
+            q: "Should I replace my Lake Bonavista water heater proactively?",
+            a: "If your current tank is 8+ years old, yes — proactive replacement is much cheaper than a flood + insurance claim. Lake Bonavista homes have typically been through multiple tanks; the current one is rarely 'the first.' Photograph the rating plate (manufacture date in serial) and we'll confirm age. Pair replacement with softener install for next-tank longevity.",
+          },
+          {
+            q: "Why does my main drain back up after years of working fine?",
+            a: "Almost certainly root intrusion. Lake Bonavista's 50-year mature trees have deeply established root systems that find 1970s sewer joint cracks. Once roots are in, recurring backups follow. Camera inspection identifies location + severity. Hydro-jet or mechanical cutting clears short-term; trenchless lining or spot repair for permanent fix.",
+          },
+          {
+            q: "Does my Lake Bonavista home have Poly-B plumbing?",
+            a: "Depends on renovation history. Original 1970s homes had copper supply, not Poly-B. But homes renovated during the 1980s-90s Poly-B era may have it installed during that renovation. Look for grey/blue plastic supply lines with crimp-ring fittings. See [Poly-B Calgary](/polyb-plumbing-calgary/) for identification.",
+          },
+          {
+            q: "My walkout basement home — do I need a battery backup sump pump?",
+            a: "Strongly recommended for any finished-basement walkout home. Spring melt + heavy rain events sometimes coincide with power outages from the same storms, and a primary pump can't run without grid power. Battery backup runs independent of grid power so basement stays dry. Cheap insurance.",
+          },
+          {
+            q: "Should I replace my Lake Bonavista furnace with a heat pump?",
+            a: "Worth considering on replacement. Modern cold-climate heat pumps maintain rated capacity to -25°C; best Alberta setup is hybrid dual-fuel (heat pump + new furnace). For most Lake Bonavista homes adding cooling capability or with high heating bills, hybrid is the math-positive call. Federal Greener Homes rebates may apply. See [furnace replacement](/furnace-replacement-calgary/) and [heat pumps Calgary](/heat-pumps-calgary/).",
+          },
+          {
+            q: "Should I install a water softener in my Lake Bonavista home?",
+            a: "Strongly recommended. Calgary's hard water (150-200 mg/L) shortens every water-using appliance's lifespan. A softener install pays back over a single tank replacement cycle and protects every fixture + appliance — particularly important when premium-grade fixtures are installed. Often coordinated with next tank replacement.",
+          },
+          {
+            q: "Do you install premium fixture brands like Hansgrohe, Brizo, Kohler?",
+            a: "Yes — common in Lake Bonavista renovations. Pressure-balance valves, thermostatic shower systems, body sprays + rainfall heads, freestanding tub fillers, custom drains. Brand-specific cartridge knowledge matters — generic plumbing experience isn't enough on premium fixture lines. We carry parts catalogues + order direct.",
+          },
+          {
+            q: "How quickly can you respond to emergencies in Lake Bonavista?",
+            a: "Same-day for emergencies — burst pipes, no hot water, sewer backup, no heat in cold snaps. Real person on the phone, we'll confirm a window before the truck rolls. Macleod Trail + Anderson Road make Lake Bonavista dispatch fast — typical window 2-3 hours from initial call.",
+          },
+          {
+            q: "What other SE Calgary neighbourhoods do you cover?",
+            a: "Same crew works [McKenzie Lake](/mckenzie-lake-plumbers-calgary/), [McKenzie Towne](/mckenzie-towne-plumbers-calgary/), [Chaparral](/chaparral-plumbers-calgary/), [Cranston](/cranston-plumber-calgary/), [Auburn Bay](/auburn-bay-plumber-calgary/), [Mahogany](/mahogany-plumbers-calgary/), [Copperfield](/copperfield-plumbers-calgary/), Willow Park, Maple Ridge, Acadia, and the broader [SE Calgary](/calgary-plumbers-se/). Same-day dispatch across the SE.",
+          },
+        ],
+      },
+    },
+  },
   {
     slug: "mahogany-plumbers-calgary",
     category: "Plumbing",
