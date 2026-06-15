@@ -86,7 +86,6 @@ const airdrieLinks = [
 // accurate ("we serve you, get in touch") and avoids dead labels in
 // the footer that hurt SEO crawler link-coverage scores.
 const serviceAreas: { label: string; href: string }[] = [
-  { label: "Calgary NE", href: "/contact/" },
   { label: "Calgary NW", href: "/calgary-plumbers-nw/" },
   { label: "Calgary SE", href: "/calgary-plumbers-se/" },
   { label: "Calgary SW", href: "/calgary-plumbers-sw/" },
@@ -95,6 +94,10 @@ const serviceAreas: { label: string; href: string }[] = [
   { label: "Huntington Hills", href: "/huntington-hills-plumbers-calgary/" },
   { label: "Inglewood", href: "/inglewood-plumbers-calgary/" },
   { label: "Lake Bonavista", href: "/lake-bonavista-plumbers-calgary/" },
+  { label: "Martindale", href: "/martindale-plumbers-calgary/" },
+  { label: "Saddle Ridge", href: "/saddle-ridge-plumbers-calgary/" },
+  { label: "Skyview Ranch", href: "/skyview-ranch-plumbers-calgary/" },
+  { label: "Taradale", href: "/taradale-plumbers-calgary/" },
   { label: "Airdrie", href: "/airdrie-plumbers/" },
   { label: "Chestermere", href: "/chestermere-plumbers/" },
   { label: "Bearspaw", href: "/bearspaw-plumbers/" },

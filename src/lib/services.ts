@@ -12164,6 +12164,513 @@ export const services: ServicePage[] = [
 
   // --- from nb-entries-D.ts ---
   {
+    slug: "martindale-plumbers-calgary",
+    category: "Plumbing",
+    location: "Calgary",
+    icon: "plumbing",
+    title: "Martindale Plumbers Calgary — 1990s-Early 2000s NE, Equipment EOL Territory",
+    lead:
+      "Martindale is one of NE Calgary's largest 1990s-early 2000s suburbs, built mostly between 1990 and 2005 along the 80 Avenue NE corridor with the Martindale LRT station as the community focal point. That timing puts most original equipment squarely in end-of-life territory now: water heaters on their second or third generation, original sump pumps tired, first-wave high-efficiency furnaces hitting 20+ year heat-exchanger-crack risk, and earliest builds (1990-1995) sitting in the boundary zone where some have Poly-B and most have PEX. NE Calgary has historically been under-served by trades — FlameTech dispatches routinely.",
+    heroBody: [
+      "Three patterns dominate Martindale calls: (1) original-equipment EOL replacement on 1990s-2000s builds (water heaters, sump pumps, first-wave high-efficiency furnaces hitting Calgary EOL), (2) Poly-B identification + replacement on the earliest 1990-1995 phases that may have it installed, and (3) hard-water-driven service across the whole community (no softener originally specced on most builds; tanks scale fast in Calgary water).",
+      "Same crew handles our [hot water tank replacement](/hot-water-tank-replacement-calgary/), [Poly-B identification](/polyb-plumbing-calgary/), [furnace work](/furnaces/), [water softener install](/water-softener/), [sump pump install](/sump-pump-installation-calgary/), [drain cleaning](/drain-cleaning-calgary/), and broader [emergency plumbing](/emergency-plumber-calgary/). Same crew works neighbouring NE [Taradale](/taradale-plumbers-calgary/), [Saddle Ridge](/saddle-ridge-plumbers-calgary/), [Skyview Ranch](/skyview-ranch-plumbers-calgary/), Castleridge, Falconridge, and Whitehorn.",
+      "Real person on the phone, written quote before any work starts. Same-day for emergencies. NE dispatch via Stoney Trail + McKnight + 36 Street NE makes Martindale arrival fast. Call 587-834-3668.",
+    ],
+    heroSubhead: "NE Calgary Crew, 1990s-Early 2000s Build Specialists",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing + heating service in Martindale, NE Calgary", fit: "cover" },
+    intro:
+      "Martindale Calgary plumbing + heating. 1990s-early 2000s NE community. Water heater + furnace + sump pump replacement, Poly-B identification, drain + sewer work, NE dispatch.",
+    features: [
+      "Water heater + furnace replacement (EOL)",
+      "Poly-B identification (earliest builds)",
+      "Water softener install (whole-house protection)",
+      "Sump pump install + battery backup",
+      "Sewer camera + root removal",
+      "Same-day emergency dispatch",
+    ],
+    bullets: [
+      {
+        t: "Martindale-era build specialists",
+        d: "Most of Martindale was built between 1990 and 2005. We've worked these homes routinely — know which builders dominated which phases, what equipment was originally specced, what fails first. Saves diagnosis time on the call. NE Calgary has historically been under-served by trades and we make a point of routine NE dispatch.",
+      },
+      {
+        t: "First-round equipment EOL is HERE",
+        d: "Calgary tanks last 8-10 years in this water unsoftened. An original 1995 Martindale tank has been through 2-3 replacements by now. Original sump pumps long past typical 10-15 year replacement age. First-wave high-efficiency furnaces from 1995-2005 builds are approaching heat-exchanger-crack risk zone (statistically significant past 18-20 years). Active replacement era.",
+      },
+      {
+        t: "Earliest builds (1990-1995) may have Poly-B",
+        d: "Industry was transitioning through the early-to-mid 1990s. Most Martindale (mid-1990s+) was built with PEX, but the very earliest 1990-1995 phases may have Poly-B installed. If your home was built before about 1995 and you haven't had supply lines inspected, worth a free check. See [Poly-B Calgary](/polyb-plumbing-calgary/).",
+      },
+      {
+        t: "Real person — NE dispatch via Stoney Trail + McKnight",
+        d: "No call centre. You talk to a tech, get a window before the truck rolls. Same-day dispatch for emergencies. Stoney Trail + McKnight + 36 Street NE make Martindale arrival fast — typical window 2-3 hours from initial call. NE Calgary on our routine dispatch radius.",
+      },
+    ],
+    seoTitle: "Martindale Plumbers Calgary | 1990s-2000s NE, Equipment EOL",
+    seoDescription:
+      "Martindale Calgary plumbing + heating. Water heater + furnace + sump pump replacement on 1990s-2000s builds. Poly-B identification on earliest phases. NE dispatch. Call 587-834-3668.",
+    seoKeywords: [
+      "Martindale plumbers Calgary",
+      "Martindale Calgary plumber",
+      "NE Calgary plumber",
+      "Martindale water heater replacement",
+      "Martindale emergency plumber",
+      "FlameTech Plumbing",
+    ],
+    quoteFormLabel: "Martindale plumbing",
+    quoteFormPlaceholder:
+      "e.g. original 1996 water heater finally going, Poly-B inspection on a 1992 build, furnace approaching 20yrs, sump pump replacement, water softener install…",
+    sidebar: {
+      title: "Martindale Plumbing + Heating",
+      subtitle:
+        "NE Calgary crew, 1990s-early 2000s build specialists. First-round equipment replacement, hard-water protection.",
+      bullets: [
+        "Real person on the phone",
+        "Free in-home assessment + written quote",
+        "Stocked for 1990s-2005 builds",
+        "Same-day emergency dispatch",
+      ],
+    },
+    stats: [
+      { number: "25+", label: "Years in Calgary", icon: "verified" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "Real", label: "Person on the phone", icon: "call" },
+      { number: "ANY", label: "Plumbing + heating brand", icon: "check_circle" },
+    ],
+    callout:
+      "Martindale equipment at end of life, Poly-B concern, or emergency right now? Call 587-834-3668 — NE dispatch via Stoney Trail + McKnight.",
+    richContent: {
+      sections: [
+        {
+          heading: "What we do most often on Martindale calls",
+          intro:
+            "Most Martindale service calls trace back to one of these — driven by the 1990s-early 2000s build window, hard water across every phase, and equipment now hitting Calgary EOL intervals.",
+          items: [
+            { heading: "Water heater replacement (originals long past EOL)", body: "Calgary tanks last 8-10 years in this water unsoftened. An original 1995 Martindale tank has been through 2-3 replacements by now. We replace with [Bradford White or John Wood](/hot-water-tanks/) — the two brands that hold up best in Calgary's hard water — and recommend pairing with [water softener](/water-softener/) install for next-tank longevity." },
+            { heading: "Water softener install — Martindale's biggest longevity upgrade", body: "Most Martindale homes were built without a softener. Calgary's hard water (150-200 mg/L) shortens every water-using appliance's lifespan. Single softener at the main entry: tanks last 14+ years instead of 8-10, every fixture downstream lasts longer. Pay-back over single tank cycle." },
+            { heading: "Furnace replacement (first-wave HE units approaching EOL)", body: "1995-2005 Martindale originals had first-generation high-efficiency furnaces now 20-30 years old. Heat exchanger cracks become statistically significant past 18-20 years (safety issue with CO leakage risk). Honest replace-vs-repair conversations; heat pump + hybrid dual-fuel is now math-positive alternative. See [furnace replacement](/furnace-replacement-calgary/) and [heat pumps Calgary](/heat-pumps-calgary/)." },
+            { heading: "Sump pump replacement (originals tired)", body: "Sump pumps typically last 10-15 years. Martindale originals from 1990s-2000s builds are well past that. Spring melt + heavy rain events stress these systems. We replace with ProFlo or similar + verify discharge routing + recommend battery backup for finished-basement homes." },
+            { heading: "Poly-B identification + replacement (1990-1995 builds)", body: "Earliest Martindale phases may have Poly-B installed. Look for grey/blue plastic supply lines with crimp-ring fittings (silver bands). If your home was built before about 1995 and you haven't had supply lines inspected, worth a free check. See [Poly-B Calgary](/polyb-plumbing-calgary/)." },
+            { heading: "Sewer line + drain service (mature trees now)", body: "Original Martindale phases now have 25-30 year mature landscaping. Tree roots find sewer pipe joints over decades. Camera inspection + hydro-jet or trenchless lining for permanent fix. See [drain cleaning Calgary](/drain-cleaning-calgary/)." },
+            { heading: "Tankless water heater retrofit", body: "Some Martindale homeowners go tankless on replacement — endless hot water, 20+ year lifespan. Brutal on hard water though; annual descaling mandatory + softener pairing recommended. See [tankless water heaters](/tankless-water-heaters/)." },
+            { heading: "Frozen condensate + cold-snap dispatch", body: "High-efficiency furnaces in Martindale routinely lock out during deep cold snaps when condensate lines routed through unheated space freeze. Common cold-snap call. Permanent fix: reroute through heated space + heat trace where outdoor exit is required." },
+          ],
+        },
+        {
+          heading: "Why Martindale homes hit predictable maintenance milestones right now",
+          intro:
+            "Martindale's narrow build window (1990-2005) means most original equipment is on similar age curves. Knowing the era tells us what's coming due.",
+          items: [
+            { heading: "Most Martindale uses PEX (no Poly-B), but watch the earliest phases", body: "Industry transitioned to PEX through the mid-1990s. Most Martindale (1995+) was built with PEX. Very earliest 1990-1995 builds may have Poly-B installed. If your home is from this window, worth a free inspection." },
+            { heading: "Originals (1990-1995) at full EOL territory", body: "Earliest Martindale builds are 30-35 years old now. Original water heaters typically replaced 2-3 times by now; current tank likely at or near Calgary EOL too. Original sump pumps long past replacement age. First-wave high-efficiency furnaces approaching heat-exchanger-crack risk zone." },
+            { heading: "Mid-phase (1995-2000) at second-cycle replacement", body: "Mid-phase Martindale builds are 25-30 years old. Tanks at EOL on second-generation. Furnaces at mid-to-late life. Sump pumps tired. Active replacement era — and the right time for softener install if not already done." },
+            { heading: "Late-phase (2000-2005) entering second-cycle territory", body: "Late-phase Martindale builds are 20-25 years old. Original tanks have typically been replaced once already; second-gen now at Calgary EOL. Furnaces approaching first-replacement decision territory." },
+            { heading: "Mature trees on original phase = root intrusion era", body: "Original Martindale streets now have 25-30 year mature landscaping. Tree roots find sewer pipe joints over decades. Camera inspection every 5 years on older Martindale homes catches root intrusion early." },
+            { heading: "Hard water hits everything downstream of the meter", body: "All of Martindale is on the same hard Calgary municipal supply (150-200 mg/L). Without a softener, every water-using appliance + fixture wears faster regardless of build year. Single softener install protects the whole house." },
+            { heading: "NE Calgary has historically been under-served by trades", body: "Many NE Calgary homeowners report having to wait longer or pay more for trades service because providers concentrate in SW/NW. We make a point of routine NE dispatch — Martindale on our regular schedule, same dispatch standards as anywhere else in Calgary." },
+            { heading: "Stoney Trail + McKnight + 36 Street NE = fast NE dispatch", body: "Martindale's NE location with Stoney Trail access means fast service from our shop even during rush hour. Typical emergency dispatch window 2-3 hours from initial call. No \"out of service area\" surcharge for NE Calgary." },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Martindale Plumbers — FAQs",
+        items: [
+          { q: "Does my Martindale home have Poly-B plumbing?", a: "Depends on build year. Very earliest 1990-1995 builds may have Poly-B (industry was transitioning through that window). 1995+ builds almost certainly have PEX. Look for grey/blue plastic supply lines with crimp-ring fittings (silver bands) — that's Poly-B. PEX is red/blue and uses different fittings. See [Poly-B Calgary](/polyb-plumbing-calgary/)." },
+          { q: "My Martindale water heater is still original from 1996 — should I replace it?", a: "Your tank from 1996 is not the original anymore unless it's literally the SAME tank — which would be 30 years old and essentially impossible (Calgary tanks fail at 8-10 years unsoftened). If you have a 30 year old tank, replace it today before it floods your basement. More likely you have a second or third generation tank that's also at or near Calgary EOL. Photograph the rating plate and we'll confirm age." },
+          { q: "Should I install a water softener in my Martindale home?", a: "Strongly recommended. Calgary's hard water shortens every water-using appliance's lifespan. A softener pays back over a single tank replacement cycle and protects every fixture + appliance in the home. Often installed in the same visit as a tank replacement. See [water softener Calgary](/water-softener/)." },
+          { q: "Is my original Martindale furnace at end of life?", a: "Depends on age. 1995-2005 originals are now 20-30 years old and well into heat-exchanger-crack risk territory (safety issue with CO leakage risk past 18-20 years). We borescope-inspect heat exchangers on every service call to older furnaces and have honest replace-vs-repair conversations. Heat pump + hybrid dual-fuel becomes worth considering on replacement." },
+          { q: "Why is my sump pump running constantly during spring thaw?", a: "Possible causes: float switch stuck, groundwater infiltration from poor exterior drainage, sump pit too small for inflow, or a tired pump struggling at the end of its life. We diagnose during a service call — sometimes the fix is a new float switch, sometimes a new pump, sometimes exterior drainage work. Battery backup recommended for finished-basement homes." },
+          { q: "How fast can you respond to emergency calls in Martindale?", a: "Same-day for emergencies — burst pipes, no hot water, sewer backup, no heat in cold snaps. Real person on the phone, we'll confirm a window before the truck rolls. Stoney Trail + McKnight + 36 Street NE make Martindale dispatch fast — typical window 2-3 hours from initial call." },
+          { q: "Why is my Martindale home losing water pressure?", a: "Most often: hard-water buildup at fixture aerators + showerheads (clean or replace the aerator — quick DIY). Less commonly: failing PRV at the main entry or municipal supply variation. If pressure is low at ALL fixtures simultaneously, that's a system issue we diagnose during a service call." },
+          { q: "How often should I have my Martindale sewer line camera-inspected?", a: "Every 5 years on homes 20+ years old. Mature street trees + decades of joint micro-movement contribute to potential root intrusion. Camera inspection catches issues early when they're cheap to fix. Hydro-jet cleaning every 3-5 years prevents most main-line backups." },
+          { q: "Do you work on every brand of plumbing + heating equipment?", a: "Yes — Bradford White, John Wood, AO Smith (tanks); Navien, Rinnai, IBC (tankless); Trane, Carrier, Lennox, Goodman, AirEase (furnaces); cold-climate heat pumps; ProFlo (sump pumps). Common parts ride on every truck for first-visit repair completion." },
+          { q: "What other NE Calgary neighbourhoods do you cover?", a: "Same crew works [Taradale](/taradale-plumbers-calgary/), [Saddle Ridge](/saddle-ridge-plumbers-calgary/), [Skyview Ranch](/skyview-ranch-plumbers-calgary/), Castleridge, Falconridge, Whitehorn, Cityscape, Redstone, Cornerstone, Coral Springs, Monterey Park, Pineridge, Rundle, and the broader NE Calgary. Same-day dispatch across NE." },
+        ],
+      },
+    },
+  },
+  {
+    slug: "saddle-ridge-plumbers-calgary",
+    category: "Plumbing",
+    location: "Calgary",
+    icon: "plumbing",
+    title: "Saddle Ridge Plumbers Calgary — 2000s-2010s NE Suburb, First-Round Equipment EOL",
+    lead:
+      "Saddle Ridge is one of NE Calgary's largest 2000s-2010s suburbs, built mostly between 2005 and 2015 around the Saddletowne LRT station and 80 Avenue NE corridor. That makes the housing reality very specific: modern PEX supply throughout (no Poly-B), modern high-efficiency mechanical equipment, tight envelopes, and homes that are now in the 10-20 year range. The first wave (2005-2010 builds) is hitting first-round equipment end-of-life right now: water heaters at 15+ years, sump pumps from original install, first-generation high-efficiency furnaces approaching mid-to-late life. NE Calgary has historically been under-served by trades — FlameTech dispatches routinely.",
+    heroBody: [
+      "Three patterns dominate Saddle Ridge calls: (1) first-round equipment replacement on 2005-2012 builds (water heaters, sump pumps, first-wave high-efficiency furnaces hitting Calgary EOL), (2) hard-water-driven service across the whole neighbourhood (no softener originally specced on most builds; tanks scale fast in Calgary water), and (3) cold-snap dispatch for frozen condensate + burst pipe + no-heat calls during deep winter.",
+      "Same crew handles our [hot water tank replacement](/hot-water-tank-replacement-calgary/), [furnace work](/furnaces/) + [furnace replacement](/furnace-replacement-calgary/), [water softener install](/water-softener/), [tankless](/tankless-water-heaters/), [sump pump install](/sump-pump-installation-calgary/), [drain cleaning](/drain-cleaning-calgary/), and broader [emergency plumbing](/emergency-plumber-calgary/). Same crew works neighbouring NE [Martindale](/martindale-plumbers-calgary/), [Taradale](/taradale-plumbers-calgary/), [Skyview Ranch](/skyview-ranch-plumbers-calgary/), Falconridge, Whitehorn, Cityscape, Redstone, and Cornerstone.",
+      "Real person on the phone, written quote before any work starts. Same-day for emergencies. NE dispatch via Stoney Trail + 80 Avenue NE + McKnight makes Saddle Ridge arrival fast. Call 587-834-3668.",
+    ],
+    heroSubhead: "NE Calgary Crew, 2000s-2010s Suburb Specialists",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing + heating service in Saddle Ridge, NE Calgary", fit: "cover" },
+    intro:
+      "Saddle Ridge Calgary plumbing + heating. 2000s-2010s NE suburb. First-round equipment replacement, hard-water protection, drain + sewer work, NE dispatch.",
+    features: [
+      "First-round water heater + furnace replacement",
+      "Water softener install (hard-water defence)",
+      "Tankless water heater retrofit + service",
+      "Sump pump install + battery backup",
+      "Sewer camera + root removal",
+      "Same-day emergency dispatch",
+    ],
+    bullets: [
+      {
+        t: "2005-2015 build era specialists",
+        d: "Most of Saddle Ridge was built between 2005 and 2015. Modern PEX supply (no Poly-B concerns), modern high-efficiency mechanical equipment, tight envelopes. We know which builders dominated which phases, what equipment was originally specced, and which components are now at first-round end-of-life.",
+      },
+      {
+        t: "First-round equipment EOL era is here",
+        d: "Original 2005-2010 Saddle Ridge water heaters are now 15+ years old and typically past Calgary's unsoftened-water lifespan (8-10 years). Original sump pumps from the same era are tired. First-generation high-efficiency furnaces are approaching 15-18 years. We handle replacement honestly — repair when it makes sense, replace when the math says so.",
+      },
+      {
+        t: "Hard water is the silent Saddle Ridge problem",
+        d: "Calgary's hard water (150-200 mg/L) wasn't really considered when most Saddle Ridge homes were built. Tanks fail at 8-10 years instead of 12-14. Tankless heat exchangers scale aggressively. Dishwasher + washing machine valves corrode early. Single [water softener](/water-softener/) at the main entry protects everything downstream — Saddle Ridge's #1 longevity upgrade.",
+      },
+      {
+        t: "NE Calgary dispatch as a real priority",
+        d: "NE Calgary has historically been under-served by trades — providers concentrate in SW/NW and Saddle Ridge homeowners often wait longer for service. We make a point of routine NE dispatch with same standards as anywhere else in Calgary. Stoney Trail + 80 Avenue NE + Saddletowne LRT corridor make the run fast.",
+      },
+    ],
+    seoTitle: "Saddle Ridge Plumbers Calgary | 2000s-2010s NE, Equipment EOL",
+    seoDescription:
+      "Saddle Ridge Calgary plumbing + heating. Water heater + furnace + sump pump replacement on 2005-2012 builds, water softener install, NE dispatch. Call 587-834-3668.",
+    seoKeywords: [
+      "Saddle Ridge plumbers Calgary",
+      "Saddle Ridge Calgary plumber",
+      "Saddle Ridge water heater replacement",
+      "NE Calgary plumber",
+      "Saddletowne plumber",
+      "FlameTech Plumbing",
+    ],
+    quoteFormLabel: "Saddle Ridge plumbing",
+    quoteFormPlaceholder:
+      "e.g. original water heater finally going on a 2008 build, water softener install to protect appliances, sump pump replacement, furnace short-cycling, hose bib leak…",
+    sidebar: {
+      title: "Saddle Ridge Plumbing + Heating",
+      subtitle:
+        "NE Calgary crew. First-round equipment replacement, hard-water protection, written quotes upfront.",
+      bullets: [
+        "Real person on the phone",
+        "Free in-home assessment + written quote",
+        "Stocked for 2005-2015 builds",
+        "Same-day emergency dispatch",
+      ],
+    },
+    stats: [
+      { number: "25+", label: "Years in Calgary", icon: "verified" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "Real", label: "Person on the phone", icon: "call" },
+      { number: "ANY", label: "Plumbing + heating brand", icon: "check_circle" },
+    ],
+    callout:
+      "Saddle Ridge equipment at end of life, hard-water issue, or emergency right now? Call 587-834-3668 — NE dispatch via Stoney Trail + 80 Avenue NE.",
+    richContent: {
+      sections: [
+        {
+          heading: "What we do most often on Saddle Ridge calls",
+          intro:
+            "Most Saddle Ridge service calls trace to the build-era reality: modern PEX and tight envelopes (good news on Poly-B and air leakage), original equipment now at first-round end-of-life (predictable replacement work), and hard water that wasn't specced against during construction.",
+          items: [
+            { heading: "Water heater replacement (2005-2012 originals at EOL)", body: "Calgary tanks last 8-10 years in this water unsoftened. Saddle Ridge originals from the first phase are typically 15+ years now and well past Calgary EOL. We replace with [Bradford White or John Wood](/hot-water-tanks/) and recommend pairing with a [water softener](/water-softener/) install for next-tank longevity." },
+            { heading: "Water softener install — Saddle Ridge's biggest longevity upgrade", body: "Most Saddle Ridge homes were built without a softener. Calgary's hard water shortens every water-using appliance's lifespan. Installing a properly-sized softener at the main entry: tanks last 14+ years instead of 8-10, tankless heat exchangers scale slowly, dishwasher + washing machine valves last longer." },
+            { heading: "Tankless water heater retrofit + service", body: "Some Saddle Ridge homeowners go tankless on tank replacement — endless hot water, 20+ year lifespan, space savings. Brutal on hard water though — annual descaling mandatory in Calgary. Common brands: Navien NPE-A/S, Rinnai RU/RUR, IBC. See [tankless water heaters](/tankless-water-heaters/) for the full comparison." },
+            { heading: "Furnace replacement (first-generation HE units approaching mid-life)", body: "First-wave Saddle Ridge homes (2005-2010) had original high-efficiency furnaces that are now 15-20 years old. Heat exchanger cracks become statistically significant past 18-20 years. ECM blower motors often need replacement around 15-20 years. Honest replace-vs-repair conversation; heat pump + hybrid dual-fuel is now math-positive alternative on replacement." },
+            { heading: "Sump pump replacement (original install era now)", body: "Sump pumps typically last 10-15 years. Saddle Ridge originals from 2005-2012 builds are well into that range or past it. Spring melt + heavy rain events stress these systems. We replace with ProFlo or similar quality pumps + recommend battery backup for finished-basement homes." },
+            { heading: "Sewer + drain service (15-year mark territory)", body: "Saddle Ridge's sewer lines and homes' drain stacks are 15-18 years old on the first-wave properties. Kitchen sink + laundry drains accumulate grease and lint buildup over time. Main-line cleaning every 3-5 years prevents the back-up + sewage cleanup conversation." },
+            { heading: "Hose bib + frozen-pipe + cold-snap dispatch", body: "Modern PEX is more forgiving on freeze than older neighbourhoods' galvanized + copper, but Saddle Ridge's corner-bathroom exterior wall runs still freeze during deep cold snaps when wind chill + exterior wall design conspire. Same-day priority for burst-pipe calls." },
+            { heading: "Whole-home humidifier install (tight envelopes)", body: "Saddle Ridge's tight post-2005 envelopes mean indoor humidity in deep winter often drops below 20% RH without active humidification. Bloody noses, cracked wood, static shocks. Whole-home humidifier on the furnace brings RH to the 30-40% range Health Canada recommends. See [humidifiers Calgary](/humidifiers-calgary/)." },
+          ],
+        },
+        {
+          heading: "Why Saddle Ridge homes hit predictable maintenance milestones right now",
+          intro:
+            "Saddle Ridge's narrow build window (2005-2015) means most original equipment is on similar age curves. Knowing the era helps explain what's coming due.",
+          items: [
+            { heading: "No Poly-B in Saddle Ridge", body: "By 2005 the industry had transitioned to PEX-A and PEX-B. Saddle Ridge homes use modern PEX supply — no Poly-B concern at all. Focus replacement budget on equipment + softener instead." },
+            { heading: "First-wave (2005-2010) originals are at EOL", body: "2005-2010 Saddle Ridge water heaters, sump pumps, and dishwashers are all 15+ years old and likely past Calgary's hard-water-shortened lifespans. If you're in this wave, expect first-round major appliance + mechanical replacement over the next 1-3 years." },
+            { heading: "Mid-wave (2010-2015) approaching first-round EOL", body: "2010-2015 builds are 10-15 years old now. Tanks are entering EOL territory (8-10 years unsoftened); sump pumps are tired; furnaces and AC are mid-life with capacitors + motors showing wear." },
+            { heading: "Hard water hits everything — softener payback is positive", body: "Saddle Ridge's water is the same hard Calgary municipal supply (150-200 mg/L) as the rest of the city. Without a softener, tanks fail at 8-10 years instead of 12-14, every fixture downstream wears faster. A softener install pays back over a single tank replacement cycle." },
+            { heading: "Modern tight envelope means tight humidity", body: "Saddle Ridge's post-2005 builds have tight envelopes — good for energy efficiency, but indoor humidity in deep winter can drop below 20% RH without active humidification. Many homes would benefit from a whole-home humidifier installed on the furnace." },
+            { heading: "Multicultural community + multi-generational households", body: "Saddle Ridge has significant multi-generational household density — sometimes 6-10 people in one home with high simultaneous hot-water demand. Standard 50-gallon water heater sizing often falls short. We size to actual demand pattern, sometimes recommending tankless or larger-capacity tanks for these households." },
+            { heading: "NE Calgary historically under-served by trades", body: "Many NE Calgary homeowners report having to wait longer or pay more for trades service because providers concentrate in SW/NW. We make a point of routine NE dispatch — Saddle Ridge on our regular schedule, same dispatch standards as anywhere else in Calgary. No \"out of service area\" surcharge for NE Calgary." },
+            { heading: "Stoney Trail + 80 Avenue NE + Saddletowne LRT = fast NE dispatch", body: "Same crew that handles our broader NE Calgary work. Stoney Trail + 80 Avenue NE access make the run fast even during rush hour — typical Saddle Ridge arrival window 2-3 hours on emergencies, faster on planned work." },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Saddle Ridge Plumbers — FAQs",
+        items: [
+          { q: "Does my Saddle Ridge home have Poly-B plumbing?", a: "No. By the time Saddle Ridge started building (2005), the industry had transitioned to PEX-A and PEX-B. Every Saddle Ridge home uses modern PEX supply piping. You can skip the Poly-B replacement conversation entirely and focus your maintenance budget on equipment + softener instead." },
+          { q: "My Saddle Ridge water heater is still original from 2008-2010 — should I replace it now?", a: "Almost certainly yes. Calgary tanks last 8-10 years in this water unsoftened, and your tank is 15+ years old. You're well past statistical end-of-life — every additional year is increasingly risky for bottom-of-tank corrosion leaks that can flood a basement quickly. Proactive replacement is much cheaper than a flood + insurance fight." },
+          { q: "Should I install a water softener in my Saddle Ridge home?", a: "Strongly recommended. Calgary's hard water (150-200 mg/L) shortens every water-using appliance's lifespan. A softener install pays back over a single tank replacement cycle (next tank lasts 14+ years instead of 8-10) and protects every other water-using fixture + appliance in the home — dishwasher, washing machine, faucets, shower valves, fixture finishes. See [water softener Calgary](/water-softener/)." },
+          { q: "My multi-generational household runs out of hot water — what's the fix?", a: "Common Saddle Ridge issue — standard 50-gallon water heaters often fall short for 6-10 person households with multiple simultaneous hot-water draws. Options: larger tank (75+ gallon high recovery), twin tanks plumbed in series, or [tankless water heater](/tankless-water-heaters/) for truly endless capacity. We size to actual demand pattern and quote in writing." },
+          { q: "Do Saddle Ridge homes need backup sump pumps?", a: "Recommended for any finished-basement home. Spring melt + heavy rain events sometimes coincide with power outages from the same storms. Battery backup sump pumps run independent of grid power so basement stays dry even when the primary pump can't run." },
+          { q: "How fast can you respond to emergency calls in Saddle Ridge?", a: "Same-day for emergencies — burst pipes, no hot water, sewer backup, no heat in cold snaps. Real person on the phone, we'll confirm a window before the truck rolls. Stoney Trail + 80 Avenue NE access make Saddle Ridge dispatch fast — typical window 2-3 hours from initial call." },
+          { q: "Is my Saddle Ridge furnace at end of life?", a: "Depends on build year. 2005-2010 originals are now 15-20 years old and approaching the heat-exchanger-crack risk zone (statistically significant past 18-20 years). 2010-2015 builds are mid-life. We borescope-inspect on every service call to older units and have honest replace-vs-repair conversations." },
+          { q: "Should I add a humidifier to my Saddle Ridge furnace?", a: "Worth considering. Saddle Ridge's tight post-2005 envelopes mean indoor humidity in deep winter often drops below 20% RH without active humidification — dry to the point of bloody noses, cracked wood, and static shocks. A whole-home humidifier on the furnace brings RH to the 30-40% Health Canada recommends. See [humidifiers Calgary](/humidifiers-calgary/)." },
+          { q: "Do you work on every brand of plumbing + heating equipment?", a: "Yes — Bradford White, John Wood, AO Smith (tanks); Navien, Rinnai, IBC (tankless); Trane, Carrier, Lennox, Goodman, AirEase (furnaces); cold-climate heat pumps; ProFlo (sump pumps). Common parts ride on every truck for first-visit repair completion." },
+          { q: "What other NE Calgary neighbourhoods do you cover?", a: "Same crew works [Martindale](/martindale-plumbers-calgary/), [Taradale](/taradale-plumbers-calgary/), [Skyview Ranch](/skyview-ranch-plumbers-calgary/), Castleridge, Falconridge, Whitehorn, Cityscape, Redstone, Cornerstone, Coral Springs, Monterey Park, Pineridge, Rundle, and the broader NE Calgary. Same-day dispatch across NE." },
+        ],
+      },
+    },
+  },
+  {
+    slug: "skyview-ranch-plumbers-calgary",
+    category: "Plumbing",
+    location: "Calgary",
+    icon: "plumbing",
+    title: "Skyview Ranch Plumbers Calgary — 2010s+ NE, First-Round Maintenance Era",
+    lead:
+      "Skyview Ranch is one of NE Calgary's newest communities — built from approximately 2010 onwards, with most homes constructed between 2012 and 2024. That makes Skyview Ranch the newest NE neighbourhood we work in: all modern PEX supply (no Poly-B concern), modern high-efficiency mechanical equipment, tight envelopes, and homes that are mostly 0-13 years old. The community is squarely in first-round maintenance + intervention territory — annual service to extend original equipment life, plus first-tank-replacement age approaching for the oldest sub-phases. NE Calgary has historically been under-served by trades; FlameTech dispatches routinely.",
+    heroBody: [
+      "Three patterns dominate Skyview Ranch calls: (1) preventive maintenance + first-replacement-cycle work — most homes are still in original-equipment territory and the conversation is about extending life through annual service + softener install rather than replacement, (2) hard-water-driven appliance protection (Calgary's water hardness hits Skyview Ranch the same as anywhere else; no softener on most builds), and (3) cold-snap dispatch for frozen condensate + burst pipe + no-heat calls.",
+      "Same crew handles our [hot water tank replacement](/hot-water-tank-replacement-calgary/), [water softener install](/water-softener/), [furnace work](/furnaces/), [tankless](/tankless-water-heaters/), [sump pump install](/sump-pump-installation-calgary/), [drain cleaning](/drain-cleaning-calgary/), and broader [emergency plumbing](/emergency-plumber-calgary/). Same crew works neighbouring NE [Saddle Ridge](/saddle-ridge-plumbers-calgary/), [Martindale](/martindale-plumbers-calgary/), [Taradale](/taradale-plumbers-calgary/), Cityscape, Redstone, and Cornerstone.",
+      "Real person on the phone, written quote before any work starts. Same-day for emergencies. NE dispatch via Stoney Trail + Metis Trail + 144 Avenue NE makes Skyview Ranch arrival fast. Call 587-834-3668.",
+    ],
+    heroSubhead: "NE Calgary Crew, Newest NE Suburb",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing + heating service in Skyview Ranch, NE Calgary", fit: "cover" },
+    intro:
+      "Skyview Ranch Calgary plumbing + heating. 2010s+ NE community. Annual maintenance + first-replacement cycle work, water softener install, lake-amenity service, NE dispatch.",
+    features: [
+      "Annual equipment service + tune-ups",
+      "Water softener install (hard-water defence)",
+      "First-round water heater replacement (oldest phases)",
+      "Hose bib + irrigation winterization",
+      "Sump pump install + battery backup",
+      "Same-day emergency dispatch",
+    ],
+    bullets: [
+      {
+        t: "Newest NE Calgary suburb — modern PEX + modern equipment",
+        d: "Skyview Ranch development started ~2010 with most homes built 2012-2024. Modern PEX supply (no Poly-B), modern high-efficiency mechanical equipment, tight envelopes built to post-2010 code. We know what equipment was originally specced + when first-round replacement cycles come due.",
+      },
+      {
+        t: "Preventive intervention era — softener is the biggest upgrade",
+        d: "Most Skyview Ranch homes are still in first-round maintenance territory rather than full replacement. Annual furnace + water heater service + 3-year anode rod inspection extends original equipment life. A [water softener](/water-softener/) install at the main entry is the single best longevity move for tanks, tankless heat exchangers, dishwashers, washing machines.",
+      },
+      {
+        t: "Tight envelope means indoor humidity matters",
+        d: "Skyview Ranch's tight post-2010 envelopes mean indoor humidity in deep winter often drops below 20% RH without active humidification. Bloody noses, cracked wood, static shocks. Whole-home humidifier on the furnace brings RH to 30-40% Health Canada recommends. See [humidifiers Calgary](/humidifiers-calgary/).",
+      },
+      {
+        t: "NE Calgary dispatch as a real priority",
+        d: "NE Calgary has historically been under-served by trades. We make a point of routine NE dispatch with same standards as anywhere else. Stoney Trail + Metis Trail + 144 Avenue NE corridors make Skyview Ranch arrival fast — typical window 2-3 hours on emergencies.",
+      },
+    ],
+    seoTitle: "Skyview Ranch Plumbers Calgary | 2010s+ NE, Newest NE Suburb",
+    seoDescription:
+      "Skyview Ranch Calgary plumbing + heating. 2010s+ NE community. Annual maintenance, water softener install, first-round equipment service, NE dispatch. Call 587-834-3668.",
+    seoKeywords: [
+      "Skyview Ranch plumbers Calgary",
+      "Skyview Ranch Calgary plumber",
+      "Skyview Ranch water softener",
+      "NE Calgary plumber",
+      "FlameTech Plumbing",
+    ],
+    quoteFormLabel: "Skyview Ranch plumbing",
+    quoteFormPlaceholder:
+      "e.g. water softener install to protect appliances, annual furnace tune-up, original water heater check, sump pump replacement, humidifier install…",
+    sidebar: {
+      title: "Skyview Ranch Plumbing + Heating",
+      subtitle:
+        "NE Calgary crew, newest NE suburb specialists. Preventive service, hard-water protection, written quotes upfront.",
+      bullets: [
+        "Real person on the phone",
+        "Free in-home assessment + written quote",
+        "Stocked for 2010+ builds",
+        "Same-day emergency dispatch",
+      ],
+    },
+    stats: [
+      { number: "25+", label: "Years in Calgary", icon: "verified" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "Real", label: "Person on the phone", icon: "call" },
+      { number: "ANY", label: "Plumbing + heating brand", icon: "check_circle" },
+    ],
+    callout:
+      "Skyview Ranch annual service, softener install, or emergency right now? Call 587-834-3668 — NE dispatch via Stoney Trail + Metis Trail.",
+    richContent: {
+      sections: [
+        {
+          heading: "What we do most often on Skyview Ranch calls",
+          intro:
+            "Skyview Ranch's newness means most service calls are preventive + first-cycle work — extending original equipment life, protecting against hard water, and handling routine maintenance.",
+          items: [
+            { heading: "Water softener install — Skyview Ranch's biggest longevity upgrade", body: "Almost no Skyview Ranch home was built with a softener. Calgary's hard water (150-200 mg/L) shortens every water-using appliance's lifespan. Single softener at the main entry: tanks last 14+ years instead of 8-10, tankless heat exchangers scale slowly, dishwasher + washing machine valves last longer. See [water softener Calgary](/water-softener/)." },
+            { heading: "Annual water heater service (flush + anode rod check)", body: "Calgary's hard water builds sediment in the bottom of every tank — Skyview Ranch no exception. Annual flush removes sediment before it damages the tank bottom. Every 3 years we pull and inspect the anode rod (sacrificial part designed to corrode INSTEAD of the tank itself). Best money you'll spend on Skyview Ranch plumbing." },
+            { heading: "First-round water heater replacement (oldest 2010-2012 builds)", body: "The very earliest Skyview Ranch builds are now 13-15 years old. Calgary tanks last 8-10 years unsoftened, so these originals are past EOL and likely already replaced once. Second-generation tanks now hitting EOL too. We replace with [Bradford White or John Wood](/hot-water-tanks/) — best brands for Calgary water — and pair with softener install for next-tank longevity." },
+            { heading: "Annual furnace tune-up + service", body: "Skyview Ranch's high-efficiency furnaces are mostly first-life now (5-13 years). Annual service is critical: combustion analysis, safety checks, capacitor + motor inspection, ignition cleaning, condensate drain clearing. Catches 70-80% of failures before they become breakdowns and keeps manufacturer warranties valid." },
+            { heading: "Whole-home humidifier install (tight envelopes)", body: "Skyview Ranch's tight envelopes mean indoor humidity in deep winter often drops below 20% RH without active humidification. Whole-home humidifier on the furnace brings RH to 30-40% Health Canada recommends. Protects hardwood floors, wood trim, and furniture from dry-air damage. See [humidifiers Calgary](/humidifiers-calgary/)." },
+            { heading: "Sump pump install + battery backup", body: "Many Skyview Ranch homes have sump pumps from original install — 10-15 year typical lifespan means oldest are at first-replacement age now. Battery backup is cheap insurance for any finished-basement home; spring melt + heavy rain events sometimes coincide with power outages." },
+            { heading: "Hose bib + outdoor plumbing winterization", body: "Skyview Ranch's larger newer-suburb lots commonly have multiple hose bibs + irrigation systems. Winterization (blow out + valve isolation) prevents burst lines on first deep cold." },
+            { heading: "Frozen condensate + cold-snap dispatch", body: "High-efficiency furnaces in Skyview Ranch routinely lock out during deep cold snaps when condensate lines routed through unheated space freeze. Common cold-snap call. Permanent fix: reroute through heated space + heat trace where outdoor exit is required." },
+          ],
+        },
+        {
+          heading: "Why Skyview Ranch homes need a different conversation than older NE neighbourhoods",
+          intro:
+            "Skyview Ranch's newness and modern construction create a distinctive service profile. Most homes are still in preventive-maintenance territory rather than full equipment replacement.",
+          items: [
+            { heading: "No Poly-B in Skyview Ranch", body: "Skyview Ranch development started in 2010 — well after the industry transition to PEX-A and PEX-B. Every Skyview Ranch home uses modern PEX supply piping. You can skip the Poly-B replacement conversation entirely." },
+            { heading: "Most equipment is still in original-life territory", body: "Skyview Ranch's main build window (2012-2024) means most homes are 0-13 years old. Water heaters are at or before first-tank-EOL age in Calgary water. Furnaces, ACs, dishwashers, sump pumps — all in original-equipment service-interval territory rather than replacement territory." },
+            { heading: "Hard water hits new homes the same as old ones", body: "Calgary's hard water (150-200 mg/L) is the same hard supply for Skyview Ranch as anywhere else. Without a softener, every water-using appliance + fixture wears faster — regardless of how new the home is. Single softener install at the main entry pays back over a single tank replacement cycle." },
+            { heading: "Tight envelopes mean indoor humidity matters", body: "Skyview Ranch's post-2010 builds have tight envelopes — good for energy efficiency, but indoor humidity in deep winter often drops below 20% RH without active humidification. Bloody noses, cracked wood, static shocks." },
+            { heading: "First wave (2010-2014) hitting first-replacement cycle", body: "The very earliest Skyview Ranch homes are now 11-15 years old. Original water heaters are likely on their second generation; original sump pumps are hitting first-replacement age. Original AC units (if installed) approaching 12-15 year typical lifespan." },
+            { heading: "Newer phases (2018-2024) are still in first-service territory", body: "Newest homes are 0-7 years old. Original equipment well within warranty windows. Conversation is about annual service to extend life — furnace tune-up, water heater flush + anode rod check, AC pre-season service, sump pump test, hose bib + irrigation winterization." },
+            { heading: "NE Calgary historically under-served by trades", body: "Many NE Calgary homeowners report having to wait longer or pay more for trades service. We make a point of routine NE dispatch — Skyview Ranch on our regular schedule, same dispatch standards as anywhere else in Calgary. No \"out of service area\" surcharge for NE Calgary." },
+            { heading: "Stoney Trail + Metis Trail + 144 Avenue NE = fast NE dispatch", body: "Same crew that handles our broader NE Calgary work. Stoney Trail + Metis Trail + 144 Avenue NE make the run fast even during rush hour — typical Skyview Ranch arrival window 2-3 hours on emergencies, faster on planned work." },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Skyview Ranch Plumbers — FAQs",
+        items: [
+          { q: "Does my Skyview Ranch home have Poly-B plumbing?", a: "No. Skyview Ranch development started in 2010 — well after the industry transitioned to PEX-A and PEX-B. Every Skyview Ranch home uses modern PEX supply piping. You can skip the Poly-B replacement conversation entirely." },
+          { q: "Should I install a water softener in my Skyview Ranch home?", a: "Strongly recommended. Calgary's hard water (150-200 mg/L) shortens every water-using appliance's lifespan regardless of home age. A softener install pays back over a single tank replacement cycle (next tank lasts 14+ years instead of 8-10) and protects every other water-using fixture + appliance — dishwasher, washing machine, shower valves, fixture finishes. See [water softener Calgary](/water-softener/)." },
+          { q: "When should I expect to replace my original Skyview Ranch water heater?", a: "Depends on build year. Earliest Skyview Ranch builds (2010-2014) are 11-15 years old and likely on their second tank already. Mid-phase builds (2014-2018) are at first-tank EOL age now (Calgary tanks last 8-10 years unsoftened). Newer builds (2018+) still have years of original life left. Photograph the rating plate and we'll confirm." },
+          { q: "How often should I service my Skyview Ranch furnace?", a: "Annually, before heating season (August-September is ideal). Combustion analysis, safety checks, capacitor + motor inspection, ignition cleaning, condensate drain clearing, filter swap. Annual service catches 70-80% of failures before they become breakdowns and is required to keep most manufacturer warranties valid." },
+          { q: "Do I need a humidifier in my Skyview Ranch home?", a: "Worth considering. Skyview Ranch's tight post-2010 envelopes mean indoor humidity in deep winter often drops below 20% RH — dry to the point of bloody noses, cracked wood, and static shocks. A whole-home humidifier on the furnace brings RH to the 30-40% range Health Canada recommends. See [humidifiers Calgary](/humidifiers-calgary/)." },
+          { q: "When should I winterize my hose bibs + irrigation in Skyview Ranch?", a: "Before first hard freeze — usually mid-October to early November depending on the season. Shut off interior valves to outdoor hose bibs, disconnect hoses, drain the bibs. For irrigation systems: blow out with compressed air, isolate at the backflow preventer. Skip this and you'll find a burst line behind drywall when the system thaws in spring." },
+          { q: "Does my Skyview Ranch home need a backup sump pump?", a: "Recommended for any finished-basement home. Spring melt + heavy rain events sometimes coincide with power outages from the same storms, and a primary pump can't run without grid power. Battery backup runs independent of the grid so basement stays dry." },
+          { q: "How fast can you respond to emergency calls in Skyview Ranch?", a: "Same-day for emergencies — burst pipes, no hot water, sewer backup, no heat in cold snaps. Real person on the phone, we'll confirm a window before the truck rolls. Stoney Trail + Metis Trail + 144 Avenue NE make Skyview Ranch dispatch fast — typical window 2-3 hours from initial call." },
+          { q: "Do you work on every brand of plumbing + heating equipment?", a: "Yes — Bradford White, John Wood, AO Smith (tanks); Navien, Rinnai, IBC (tankless); Trane, Carrier, Lennox, Goodman, AirEase (furnaces); cold-climate heat pumps; ProFlo (sump pumps). Common parts ride on every truck for first-visit repair completion." },
+          { q: "What other NE Calgary neighbourhoods do you cover?", a: "Same crew works [Saddle Ridge](/saddle-ridge-plumbers-calgary/), [Martindale](/martindale-plumbers-calgary/), [Taradale](/taradale-plumbers-calgary/), Cityscape, Redstone, Cornerstone, Castleridge, Falconridge, Whitehorn, Coral Springs, Monterey Park, Pineridge, Rundle, and the broader NE Calgary. Same-day dispatch across NE." },
+        ],
+      },
+    },
+  },
+  {
+    slug: "taradale-plumbers-calgary",
+    category: "Plumbing",
+    location: "Calgary",
+    icon: "plumbing",
+    title: "Taradale Plumbers Calgary — 1990s-2000s NE, Mixed-Era Equipment EOL",
+    lead:
+      "Taradale is one of NE Calgary's largest 1990s-2000s suburbs, built mostly between 1995 and 2005 along the 80 Avenue NE corridor adjacent to Martindale + Saddle Ridge. That makes Taradale plumbing a mixed-era reality: earliest phases (1995-2000) may have some Poly-B installs, most homes have PEX, water heaters on second or third generation by now, original sump pumps tired, and first-wave high-efficiency furnaces hitting heat-exchanger-crack risk territory. NE Calgary has historically been under-served by trades — FlameTech dispatches routinely.",
+    heroBody: [
+      "Three patterns dominate Taradale calls: (1) original-equipment EOL replacement on 1995-2005 builds (water heaters, sump pumps, first-wave high-efficiency furnaces hitting Calgary EOL), (2) Poly-B identification + replacement on the earliest 1995-2000 phases that may have it installed, and (3) hard-water-driven service across the whole community (no softener originally specced on most builds; tanks scale fast in Calgary water).",
+      "Same crew handles our [hot water tank replacement](/hot-water-tank-replacement-calgary/), [Poly-B identification](/polyb-plumbing-calgary/), [furnace work](/furnaces/), [water softener install](/water-softener/), [tankless](/tankless-water-heaters/), [sump pump install](/sump-pump-installation-calgary/), [drain cleaning](/drain-cleaning-calgary/), and broader [emergency plumbing](/emergency-plumber-calgary/). Same crew works neighbouring NE [Martindale](/martindale-plumbers-calgary/), [Saddle Ridge](/saddle-ridge-plumbers-calgary/), [Skyview Ranch](/skyview-ranch-plumbers-calgary/), Castleridge, Falconridge, and Whitehorn.",
+      "Real person on the phone, written quote before any work starts. Same-day for emergencies. NE dispatch via Stoney Trail + 80 Avenue NE + Tara Boulevard NE makes Taradale arrival fast. Call 587-834-3668.",
+    ],
+    heroSubhead: "NE Calgary Crew, 1995-2005 Build Specialists",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing + heating service in Taradale, NE Calgary", fit: "cover" },
+    intro:
+      "Taradale Calgary plumbing + heating. 1995-2005 NE community. Water heater + furnace + sump pump replacement, Poly-B identification, drain + sewer work, NE dispatch.",
+    features: [
+      "Water heater + furnace + sump pump replacement",
+      "Poly-B identification (1995-2000 builds)",
+      "Water softener install (whole-house protection)",
+      "Tankless water heater retrofit + service",
+      "Sewer camera + root removal",
+      "Same-day emergency dispatch",
+    ],
+    bullets: [
+      {
+        t: "Taradale-era build specialists",
+        d: "Most of Taradale was built between 1995 and 2005 in distinct phases. We've worked these homes routinely and know which builders dominated which phases, what equipment was originally specced, and what fails first. Saves diagnosis time on the call.",
+      },
+      {
+        t: "First-round (and now second-round) equipment EOL era",
+        d: "Calgary tanks last 8-10 years in this water unsoftened. An original 1998 Taradale tank has been through 2-3 replacements by now; current generation likely at or near EOL too. Original sump pumps long past replacement age. First-wave high-efficiency furnaces from 1995-2005 builds are approaching heat-exchanger-crack risk territory.",
+      },
+      {
+        t: "Earliest builds (1995-2000) may have Poly-B",
+        d: "Industry was transitioning through the mid-to-late 1990s. Most Taradale (2000+) was built with PEX, but the very earliest 1995-2000 phases may have Poly-B installed. If your home was built before about 2000 and you haven't had supply lines inspected, worth a free check. See [Poly-B Calgary](/polyb-plumbing-calgary/).",
+      },
+      {
+        t: "NE Calgary dispatch as a real priority",
+        d: "NE Calgary has historically been under-served by trades. We make a point of routine NE dispatch with same standards as anywhere else. Stoney Trail + 80 Avenue NE + Tara Boulevard NE make the run fast — typical Taradale arrival window 2-3 hours on emergencies.",
+      },
+    ],
+    seoTitle: "Taradale Plumbers Calgary | 1995-2005 NE, Equipment EOL",
+    seoDescription:
+      "Taradale Calgary plumbing + heating. Water heater + furnace + sump pump replacement on 1995-2005 builds. Poly-B identification on earliest phases. NE dispatch. Call 587-834-3668.",
+    seoKeywords: [
+      "Taradale plumbers Calgary",
+      "Taradale Calgary plumber",
+      "Taradale water heater replacement",
+      "NE Calgary plumber",
+      "Taradale emergency plumber",
+      "FlameTech Plumbing",
+    ],
+    quoteFormLabel: "Taradale plumbing",
+    quoteFormPlaceholder:
+      "e.g. original water heater finally going on a 1998 build, Poly-B inspection on a 1997 home, sump pump replacement, furnace approaching 20yrs, water softener install…",
+    sidebar: {
+      title: "Taradale Plumbing + Heating",
+      subtitle:
+        "NE Calgary crew, 1995-2005 build specialists. First-round + second-round equipment replacement, hard-water protection.",
+      bullets: [
+        "Real person on the phone",
+        "Free in-home assessment + written quote",
+        "Stocked for 1995-2005 builds",
+        "Same-day emergency dispatch",
+      ],
+    },
+    stats: [
+      { number: "25+", label: "Years in Calgary", icon: "verified" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "Real", label: "Person on the phone", icon: "call" },
+      { number: "ANY", label: "Plumbing + heating brand", icon: "check_circle" },
+    ],
+    callout:
+      "Taradale equipment at end of life, Poly-B concern, or emergency right now? Call 587-834-3668 — NE dispatch via Stoney Trail + 80 Avenue NE.",
+    richContent: {
+      sections: [
+        {
+          heading: "What we do most often on Taradale calls",
+          intro:
+            "Most Taradale service calls trace back to one of these — driven by the 1995-2005 build window, hard water across every phase, and equipment now on second or third generation.",
+          items: [
+            { heading: "Water heater replacement (originals long past EOL)", body: "Calgary tanks last 8-10 years in this water unsoftened. An original 1998 Taradale tank has been through 2-3 replacements by now; the second-gen tank from ~2008 is now nearing EOL too. We replace with [Bradford White or John Wood](/hot-water-tanks/) — best brands for Calgary water — and recommend pairing with softener install for next-tank longevity." },
+            { heading: "Water softener install — Taradale's biggest longevity upgrade", body: "Most Taradale homes were built without a softener. Calgary's hard water shortens every water-using appliance's lifespan. Single softener at the main entry: tanks last 14+ years instead of 8-10, every fixture downstream lasts longer. Pay-back over single tank cycle." },
+            { heading: "Furnace replacement (first-wave HE units approaching EOL)", body: "1995-2005 Taradale originals had first-generation high-efficiency furnaces now 20-30 years old. Heat exchanger cracks become statistically significant past 18-20 years (safety issue with CO leakage risk). Honest replace-vs-repair conversations; heat pump + hybrid dual-fuel is now math-positive alternative. See [furnace replacement](/furnace-replacement-calgary/)." },
+            { heading: "Sump pump replacement (originals tired)", body: "Sump pumps typically last 10-15 years. Taradale originals from 1995-2005 builds are well past that range. Spring melt + heavy rain events stress these systems. We replace with ProFlo or similar + recommend battery backup for finished-basement homes." },
+            { heading: "Poly-B identification + replacement (1995-2000 builds)", body: "Earliest Taradale phases may have Poly-B installed. Look for grey/blue plastic supply lines with crimp-ring fittings (silver bands). If your home was built before about 2000 and you haven't had supply lines inspected, worth a free check. See [Poly-B Calgary](/polyb-plumbing-calgary/)." },
+            { heading: "Tankless water heater retrofit", body: "Some Taradale homeowners go tankless on tank replacement — endless hot water, 20+ year lifespan. Brutal on hard water though; annual descaling mandatory + softener pairing recommended. See [tankless water heaters](/tankless-water-heaters/)." },
+            { heading: "Sewer line + drain service (mature trees now)", body: "Original Taradale phases now have 25-30 year mature landscaping. Tree roots find sewer pipe joints over decades. Camera inspection + hydro-jet or trenchless lining for permanent fix." },
+            { heading: "Frozen condensate + cold-snap dispatch", body: "High-efficiency furnaces in Taradale routinely lock out during deep cold snaps when condensate lines routed through unheated space freeze. Common cold-snap call. Permanent fix: reroute through heated space + heat trace where outdoor exit is required." },
+          ],
+        },
+        {
+          heading: "Why Taradale homes hit predictable maintenance milestones right now",
+          intro:
+            "Taradale's narrow build window (1995-2005) means most original equipment is on similar age curves.",
+          items: [
+            { heading: "Most Taradale uses PEX (no Poly-B), but watch the earliest phases", body: "Industry transitioned to PEX through the late 1990s. Most Taradale (2000+) was built with PEX. Very earliest 1995-2000 builds may have Poly-B installed. If your home is from this window, worth a free inspection." },
+            { heading: "Originals (1995-2000) at full EOL territory", body: "Earliest Taradale builds are 25-30 years old now. Original water heaters typically replaced 2-3 times by now; current tank likely at or near Calgary EOL too. Original sump pumps long past replacement age. First-wave high-efficiency furnaces approaching heat-exchanger-crack risk zone." },
+            { heading: "Mid-late phase (2000-2005) at second-cycle replacement territory", body: "Mid-late phase Taradale builds are 20-25 years old. Tanks at EOL on second-generation. Furnaces at mid-to-late life. Sump pumps tired. Active replacement era." },
+            { heading: "Mature trees on original phase = root intrusion era", body: "Original Taradale streets now have 25-30 year mature landscaping. Tree roots find sewer pipe joints over decades. Camera inspection every 5 years on older Taradale homes catches root intrusion early." },
+            { heading: "Hard water hits everything downstream of the meter", body: "All of Taradale is on the same hard Calgary municipal supply (150-200 mg/L). Without a softener, every water-using appliance + fixture wears faster regardless of build year. Single softener install protects the whole house." },
+            { heading: "Multi-generational households common — sized hot-water demand", body: "Taradale has significant multi-generational household density — sometimes 6-10 people in one home with high simultaneous hot-water demand. Standard 50-gallon water heater sizing often falls short. We size to actual demand pattern." },
+            { heading: "NE Calgary historically under-served by trades", body: "Many NE Calgary homeowners report having to wait longer or pay more for trades service. We make a point of routine NE dispatch — Taradale on our regular schedule, same dispatch standards as anywhere else." },
+            { heading: "Stoney Trail + 80 Avenue NE + Tara Boulevard = fast NE dispatch", body: "Same crew that handles our broader NE Calgary work. Stoney Trail + 80 Avenue NE make the run fast — typical Taradale arrival window 2-3 hours on emergencies. No \"out of service area\" surcharge for NE Calgary." },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Taradale Plumbers — FAQs",
+        items: [
+          { q: "Does my Taradale home have Poly-B plumbing?", a: "Depends on build year. Very earliest 1995-2000 builds may have Poly-B (industry was transitioning through that window). 2000+ builds almost certainly have PEX. Look for grey/blue plastic supply lines with crimp-ring fittings (silver bands). See [Poly-B Calgary](/polyb-plumbing-calgary/) for identification." },
+          { q: "My Taradale water heater is still original from 1998 — should I replace it?", a: "Your tank from 1998 is not the original anymore unless it's literally the SAME tank — which would be 27 years old and essentially impossible (Calgary tanks fail at 8-10 years unsoftened). More likely you have a second or third generation tank that's also at or near Calgary EOL. Photograph the rating plate and we'll confirm age." },
+          { q: "Should I install a water softener in my Taradale home?", a: "Strongly recommended. Calgary's hard water shortens every water-using appliance's lifespan. A softener pays back over a single tank replacement cycle and protects every fixture + appliance in the home. Often installed in the same visit as a tank replacement. See [water softener Calgary](/water-softener/)." },
+          { q: "My multi-generational household runs out of hot water — what's the fix?", a: "Common Taradale issue — standard 50-gallon water heaters often fall short for 6-10 person households with multiple simultaneous hot-water draws. Options: larger tank (75+ gallon high recovery), twin tanks plumbed in series, or [tankless water heater](/tankless-water-heaters/) for truly endless capacity. We size to actual demand pattern." },
+          { q: "Is my original Taradale furnace at end of life?", a: "Depends on age. 1995-2005 originals are now 20-30 years old and well into heat-exchanger-crack risk territory (safety issue with CO leakage risk past 18-20 years). We borescope-inspect heat exchangers on every service call to older furnaces and have honest replace-vs-repair conversations." },
+          { q: "Why is my sump pump running constantly during spring thaw?", a: "Possible causes: float switch stuck, groundwater infiltration from poor exterior drainage, sump pit too small for inflow, or a tired pump struggling at end of life. We diagnose during a service call — sometimes the fix is a new float switch, sometimes a new pump. Battery backup recommended for finished-basement homes." },
+          { q: "How fast can you respond to emergency calls in Taradale?", a: "Same-day for emergencies — burst pipes, no hot water, sewer backup, no heat in cold snaps. Real person on the phone, we'll confirm a window before the truck rolls. Stoney Trail + 80 Avenue NE access make Taradale dispatch fast — typical window 2-3 hours from initial call." },
+          { q: "How often should I have my Taradale sewer line camera-inspected?", a: "Every 5 years on homes 20+ years old. Mature street trees + decades of joint micro-movement contribute to potential root intrusion. Camera inspection catches issues early when they're cheap to fix." },
+          { q: "Do you work on every brand of plumbing + heating equipment?", a: "Yes — Bradford White, John Wood, AO Smith (tanks); Navien, Rinnai, IBC (tankless); Trane, Carrier, Lennox, Goodman, AirEase (furnaces); cold-climate heat pumps; ProFlo (sump pumps). Common parts ride on every truck for first-visit repair completion." },
+          { q: "What other NE Calgary neighbourhoods do you cover?", a: "Same crew works [Martindale](/martindale-plumbers-calgary/), [Saddle Ridge](/saddle-ridge-plumbers-calgary/), [Skyview Ranch](/skyview-ranch-plumbers-calgary/), Castleridge, Falconridge, Whitehorn, Cityscape, Redstone, Cornerstone, Coral Springs, Monterey Park, Pineridge, Rundle, and the broader NE Calgary. Same-day dispatch across NE." },
+        ],
+      },
+    },
+  },
+  {
     slug: "mckenzie-lake-plumbers-calgary",
     category: "Plumbing",
     location: "Calgary",
