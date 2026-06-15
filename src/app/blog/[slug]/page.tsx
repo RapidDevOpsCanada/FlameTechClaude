@@ -484,7 +484,7 @@ export default async function ArticlePage({
           <div className="max-w-7xl mx-auto px-6 md:px-10">
             <div className="flex items-end justify-between gap-8 mb-12">
               <div>
-                <span className="eyebrow mb-4">Keep reading</span>
+                <span className="eyebrow-light mb-4">Keep reading</span>
                 <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight mt-4">
                   Related articles
                 </h2>

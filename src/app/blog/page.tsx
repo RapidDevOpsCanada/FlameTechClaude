@@ -176,7 +176,7 @@ function Pagination({
 function EmptyState() {
   return (
     <div className="rounded-2xl border border-dashed border-line-light bg-white p-16 text-center">
-      <span className="eyebrow justify-center mb-4 mx-auto">
+      <span className="eyebrow-light justify-center mb-4 mx-auto">
         No articles yet
       </span>
       <h3 className="text-2xl font-extrabold tracking-tight mb-3 mt-3">

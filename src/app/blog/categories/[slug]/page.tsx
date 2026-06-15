@@ -133,7 +133,7 @@ export default async function CategoryPage({
           <CategoryFilter categories={categories} active={slug} />
           {articles.length === 0 ? (
             <div className="rounded-2xl border border-dashed border-line-light bg-white p-16 text-center">
-              <span className="eyebrow justify-center mb-4 mx-auto">
+              <span className="eyebrow-light justify-center mb-4 mx-auto">
                 Empty
               </span>
               <h3 className="text-2xl font-extrabold tracking-tight mb-4 mt-3">
