@@ -61,6 +61,7 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
   "bowness-plumbers-calgary": "Plumbing",
   "brentwood-plumbers-calgary": "Plumbing",
   "bridlewood-plumbers-calgary": "Plumbing",
+  "calgary-plumbers-ne": "Plumbing",
   "calgary-plumbers-nw": "Plumbing",
   "calgary-plumbers-se": "Plumbing",
   "calgary-plumbers-sw": "Plumbing",

@@ -86,6 +86,7 @@ const airdrieLinks = [
 // accurate ("we serve you, get in touch") and avoids dead labels in
 // the footer that hurt SEO crawler link-coverage scores.
 const serviceAreas: { label: string; href: string }[] = [
+  { label: "Calgary NE", href: "/calgary-plumbers-ne/" },
   { label: "Calgary NW", href: "/calgary-plumbers-nw/" },
   { label: "Calgary SE", href: "/calgary-plumbers-se/" },
   { label: "Calgary SW", href: "/calgary-plumbers-sw/" },
