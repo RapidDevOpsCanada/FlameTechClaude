@@ -326,6 +326,15 @@ export default function RootLayout({
       <Script id="google-ads-config" strategy="afterInteractive">
         {`gtag('config', 'AW-17941264946');`}
       </Script>
+      {/* Microsoft Ads UET (Universal Event Tracking) — tag ID 97227526.
+          enableAutoSpaTracking handles Next.js App Router client-side
+          navigations so pageLoad events fire on every route change, not
+          just full reloads. Mirror partner to GA4 + Google Ads above.
+          Conversion goals + form-submit events are wired client-side
+          (window.uetq.push) from the QuoteForm thank-you flow. */}
+      <Script id="ms-uet" strategy="afterInteractive">
+        {`(function(w,d,t,u,o){w[u]=w[u]||[],o.ts=(new Date).getTime();var n=d.createElement(t);n.src="https://bat.bing.net/bat.js?ti="+o.ti+("uetq"!=u?"&q="+u:""),n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&"loaded"!==s&&"complete"!==s||(o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad"),n.onload=n.onreadystatechange=null)};var i=d.getElementsByTagName(t)[0];i.parentNode.insertBefore(n,i);})(window,document,"script","uetq",{ti:"97227526", enableAutoSpaTracking: true});`}
+      </Script>
     </html>
   );
 }
