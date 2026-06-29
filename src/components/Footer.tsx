@@ -75,6 +75,7 @@ const airdrieLinks = [
   { label: "Boiler Installation", href: "/boiler-installation-airdrie/" },
   { label: "Heat Pumps Airdrie", href: "/heat-pumps-airdrie/" },
   { label: "Hot Water Tanks", href: "/hot-water-tanks-airdrie/" },
+  { label: "Tankless Water Heaters", href: "/tankless-water-heaters-airdrie/" },
   { label: "Water Softener", href: "/water-softener-airdrie/" },
   { label: "Coopers Crossing", href: "/coopers-crossing-plumbers/" },
   { label: "Ravenswood Plumbers", href: "/ravenswood-plumbers-airdrie/" },
