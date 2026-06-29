@@ -8163,6 +8163,794 @@ export const services: ServicePage[] = [
     },
   },
   {
+    slug: "drain-cleaning-airdrie",
+    category: "Plumbing",
+    location: "Airdrie",
+    icon: "drain_camera",
+    title: "Drain Cleaning Airdrie — Hydro-Jet + Camera, Local Dispatch",
+    lead:
+      "Slow drains, gurgling, recurring backups, sewer-side smells — drain problems in Airdrie usually trace to one of a handful of causes that vary by build era + lot location. Mid-1990s through early 2000s sewer lines in older Coopers Crossing, Big Springs, Meadowbrook, and Edwards Landing are now 20-30+ years old with mature-tree root intrusion at joints. Newer Bayside, Williamstown, Kings Heights, and Chinook Gate builds have modern PVC mains but accumulate kitchen grease + soap scum + laundry lint over years. We diagnose the actual cause with camera inspection, then clear with hydro-jet or mechanical — local Airdrie dispatch from Coopers Crossing.",
+    heroBody: [
+      "Three patterns dominate Airdrie drain calls: (1) main sewer line root intrusion on 1990s-early 2000s builds (mature trees finding 20-30 year old PVC + ABS joint cracks), (2) kitchen + laundry drain buildup from years of grease + lint (recurring slow drain that snaking only partially fixes), and (3) basement floor drain backups during spring melt or heavy rain events (often a symptom of broader weeping tile / sump pump issues — see our [basement flooding blog post](/blog/basement-floods-every-time-it-rains-calgary/) and [sump pump install](/sump-pump-installation-airdrie/)).",
+      "Same crew handles our [emergency plumbing](/emergency-plumber-calgary/), [hot water tank replacement](/hot-water-tank-replacement-calgary/), [sump pump install](/sump-pump-installation-airdrie/), [Poly-B replacement](/polyb-plumbing-airdrie/), and broader [Airdrie plumbing](/airdrie-plumbers/) work. Same crew works neighbouring [Ravenswood](/ravenswood-plumbers-airdrie/), [Reunion](/reunion-plumbers-airdrie/), [Coopers Crossing](/coopers-crossing-plumbers/).",
+      "Local Airdrie dispatch — Jason's based in Coopers Crossing — means short response times across every Airdrie neighbourhood, not Calgary-side drive time + out-of-town surcharge. Real person on the phone. Call 587-834-3668.",
+    ],
+    heroSubhead: "Airdrie-Local · Hydro-Jet + Camera · No-Dig Where Possible",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/2025/04/drain-cleaning-pipe.webp", alt: "Drain cleaning service by FlameTech in Airdrie", fit: "cover" },
+    intro:
+      "Airdrie drain cleaning + sewer camera inspection + hydro-jet + trenchless spot repair. Local Airdrie dispatch from Coopers Crossing.",
+    features: [
+      "Sewer main camera inspection",
+      "Hydro-jet cleaning (mature root + grease)",
+      "Mechanical snake / auger (kitchen + bath)",
+      "Trenchless spot repair (no-dig where possible)",
+      "Basement floor drain + storm drain service",
+      "Same-day emergency dispatch",
+    ],
+    bullets: [
+      {
+        t: "Local Airdrie crew — Jason's in Coopers Crossing",
+        d: "Most plumbing companies dispatch into Airdrie from Calgary (30-45 min drive plus sometimes a service surcharge). Jason lives + works in Coopers Crossing so Airdrie service is genuinely local — fast arrival across every Airdrie neighbourhood, same pricing as anywhere else in our service area.",
+      },
+      {
+        t: "Camera inspection first, clear second",
+        d: "We don't blindly snake and hope. Camera inspection identifies WHERE the blockage is + WHAT it is (roots vs grease vs collapsed section vs foreign object). The right clearing method depends on the cause — hydro-jet for roots and grease, mechanical for kitchen blockages, trenchless spot repair for damaged sections. No-dig where the situation allows.",
+      },
+      {
+        t: "Airdrie build-era patterns we recognize",
+        d: "Older Coopers Crossing + Big Springs + Meadowbrook + Edwards Landing (1990s-2000s) have 20-30 year sewer joints with active root intrusion era. Newer Bayside + Williamstown + Kings Heights + Chinook Gate + Hillcrest (2010+) have modern PVC mains where buildup is the dominant cause. We diagnose to the right pattern fast.",
+      },
+      {
+        t: "Real person on the phone — same-day emergency dispatch",
+        d: "Sewer backup, basement drain overflow, or main-line block at 9pm on a Sunday? Real person on the phone, same-day priority dispatch from our local Airdrie base. Common parts on the truck for first-visit repair.",
+      },
+    ],
+    seoTitle: "Drain Cleaning Airdrie | Hydro-Jet + Camera, Local Dispatch",
+    seoDescription:
+      "Airdrie drain cleaning + sewer camera + hydro-jet + trenchless repair. Local Airdrie dispatch from Coopers Crossing. Same-day emergency. Call 587-834-3668.",
+    seoKeywords: [
+      "drain cleaning Airdrie",
+      "Airdrie drain cleaning",
+      "sewer camera Airdrie",
+      "hydro-jet Airdrie",
+      "Airdrie drain repair",
+      "Airdrie plumber drain",
+      "FlameTech Plumbing",
+    ],
+    quoteFormLabel: "Airdrie drain cleaning",
+    quoteFormPlaceholder:
+      "e.g. main sewer line backing up in Coopers Crossing, slow kitchen drain in Williamstown, recurring laundry drain backup, basement floor drain overflow…",
+    sidebar: {
+      title: "Airdrie Drain Cleaning",
+      subtitle:
+        "Local Airdrie dispatch from Coopers Crossing. Camera inspection first, hydro-jet or mechanical clearing second, no-dig repair where possible.",
+      bullets: [
+        "Real person on the phone",
+        "Camera inspection on every call",
+        "Hydro-jet + mechanical equipment",
+        "Same-day emergency dispatch",
+      ],
+    },
+    stats: [
+      { number: "25+", label: "Years in Alberta", icon: "verified" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "Local", label: "Airdrie dispatch", icon: "check_circle" },
+      { number: "Real", label: "Person on the phone", icon: "call" },
+    ],
+    callout:
+      "Sewer backup, basement drain overflow, or recurring slow drain in Airdrie? Call 587-834-3668 — local dispatch from Coopers Crossing.",
+    richContent: {
+      sections: [
+        {
+          heading: "What we do most often on Airdrie drain calls",
+          intro:
+            "Most Airdrie drain calls trace to one of these. The right clearing method depends on the cause — diagnosis comes first.",
+          items: [
+            {
+              heading: "Main sewer line root intrusion (1990s-early 2000s builds)",
+              body: "Older Coopers Crossing, Big Springs, Meadowbrook, and Edwards Landing phases now have 20-30 year mature landscaping with root systems finding joint cracks in original PVC + ABS sewer mains. Symptom: slow drain on multiple fixtures, gurgling at toilets when other drains run, recurring backups despite snaking. Camera inspection identifies exact location + severity. Hydro-jet clears short-term; trenchless spot repair or full lateral replacement for severe cases.",
+            },
+            {
+              heading: "Kitchen sink drain buildup (every era)",
+              body: "Years of grease, soap, food particles, and dishwasher detergent build up on horizontal kitchen drain runs. Mechanical snake clears short-term; hydro-jet for severe cases. Prevention: avoid pouring grease down the drain, run hot water 30 seconds after dishwasher cycles.",
+            },
+            {
+              heading: "Laundry drain backup (lint + soap)",
+              body: "Laundry drains accumulate lint + detergent buildup over years. Standing-pipe backup during the wash cycle is the classic symptom. Mechanical snake or hydro-jet clears; lint trap on the standpipe can prevent recurrence.",
+            },
+            {
+              heading: "Bathroom drain backup (hair + soap scum)",
+              body: "Tub + shower drain hair + soap scum buildup. Topical drain products (Drano etc.) often make it worse by hardening the buildup. Mechanical hair-snake clears most cases; severe cases need access at the trap.",
+            },
+            {
+              heading: "Basement floor drain overflow (often a sump/weeping symptom)",
+              body: "Basement floor drains overflowing during spring melt or heavy rain often indicates broader weeping tile or sump pump issues, not just a drain blockage. We camera-inspect the floor drain + check sump operation + look for high-water-table contribution. See [sump pump installation Airdrie](/sump-pump-installation-airdrie/) and our [basement flooding diagnostic post](/blog/basement-floods-every-time-it-rains-calgary/).",
+            },
+            {
+              heading: "Camera inspection (5-year cadence on older homes)",
+              body: "On 1990s-early 2000s Airdrie homes, we recommend sewer line camera inspection every 5 years. Catches root intrusion early when spot repair is cheap; prevents the surprise backup that ruins a finished basement.",
+            },
+            {
+              heading: "Trenchless spot repair + full lateral lining",
+              body: "Where the sewer line has joint separation or root damage but the overall pipe is structurally sound, trenchless spot repair (point lining or cured-in-place patch) restores function without trenching up the front lawn. Severe damage warrants full lateral lining. We sub-out the trenchless component to specialist crews when scope warrants.",
+            },
+          ],
+        },
+        {
+          heading: "Why Airdrie drain service is different",
+          intro:
+            "Airdrie's split between aging 1990s-2000s suburbs + newer 2010+ communities creates two distinct drain-service patterns.",
+          items: [
+            {
+              heading: "Two-era drain reality",
+              body: "Pre-2005 Airdrie sewer lines are now 20-30+ years old with active root intrusion era. Post-2010 builds have modern PVC mains where buildup is the dominant cause. Different homes need different diagnostic approaches.",
+            },
+            {
+              heading: "Flat lots + clay soil = drainage stress",
+              body: "Much of Airdrie sits on flat clay-soil terrain. Spring melt + heavy rain events don't drain away fast — basement floor drain overflow + sump pump dependency increase compared to Calgary's more sloped neighbourhoods.",
+            },
+            {
+              heading: "Mature trees mostly in older Airdrie",
+              body: "Coopers Crossing, Big Springs, Meadowbrook, Edwards Landing have 25+ year mature elms, poplars, and spruce — established root systems finding sewer joint cracks. Newer Bayside / Williamstown / Kings Heights have decorative landscaping not yet at root-intrusion age.",
+            },
+            {
+              heading: "Local dispatch matters more on emergencies",
+              body: "Sewer backup at 9pm shouldn't require a 45-min drive from Calgary. Local Airdrie dispatch from Coopers Crossing means faster arrival, less property damage from delayed response, real-person triage on the call.",
+            },
+            {
+              heading: "Hard water doesn't directly cause drain issues",
+              body: "Calgary regional water hardness (150-200 mg/L) affects WATER-HEATING appliances + fixture finishes but doesn't directly contribute to drain blockage. Drain issues here are about organic buildup (grease, hair, soap, lint) and external factors (roots, settling, foreign objects).",
+            },
+            {
+              heading: "Camera-first approach saves money",
+              body: "Blind snaking a backed-up main sometimes works, often doesn't, and can make things worse if there's a collapsed section. Camera inspection costs more upfront but identifies the right repair the first visit — fewer return calls, no \"we have to come back with different equipment.\"",
+            },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Drain Cleaning Airdrie — FAQs",
+        items: [
+          {
+            q: "How fast can you respond to a sewer backup in Airdrie?",
+            a: "Same-day emergency dispatch. Real person on the phone, local Airdrie dispatch from Coopers Crossing means short response times — typically 1-2 hours from initial call for emergencies, faster within Coopers Crossing itself.",
+          },
+          {
+            q: "Should I snake the drain myself first?",
+            a: "Sometimes worth a try on simple kitchen / bathroom drain backups with a hand auger from the hardware store. NOT recommended on main sewer line backups (you can damage joints or push the blockage further), basement floor drains, or anything with multiple fixtures involved. Call us for diagnosis first — we'll tell you honestly if DIY can solve it.",
+          },
+          {
+            q: "Why does my main drain keep backing up after snaking?",
+            a: "Almost always root intrusion in the main sewer line. Snaking clears a path through the roots temporarily but they grow back within months. Camera inspection identifies severity; hydro-jet clears with much better duration than snaking; trenchless spot repair is the permanent fix where damage is localized.",
+          },
+          {
+            q: "How often should I have my Airdrie sewer line camera-inspected?",
+            a: "Every 5 years on homes 20+ years old (older Coopers Crossing, Big Springs, Meadowbrook, Edwards Landing). Catches root intrusion early when spot repair is cheap; prevents the surprise backup that ruins a finished basement.",
+          },
+          {
+            q: "What's the difference between snaking and hydro-jetting?",
+            a: "Snaking (mechanical auger) pushes a rotating cable through the drain to break up + push through the blockage. Good for kitchen + bath drains. Hydro-jetting uses high-pressure water (3000+ PSI) to blast roots + grease off pipe walls — much more thorough on main sewer lines. We use the right tool for the job after camera inspection.",
+          },
+          {
+            q: "Can you do trenchless sewer repair in Airdrie?",
+            a: "Yes — for damaged sections where the overall pipe is structurally sound. Trenchless spot repair (point lining or cured-in-place patch) restores function without trenching up the front lawn. We sub-out the trenchless install to specialist crews; we handle the diagnosis, camera, scope, and coordination.",
+          },
+          {
+            q: "Does my Airdrie home have a basement floor drain that needs maintenance?",
+            a: "Yes — almost every Airdrie home has a basement floor drain. It rarely needs maintenance until it backs up, but it should be tested annually (pour water down it to confirm flow). Backups often indicate broader sewer or sump issues — diagnose source rather than just clearing the drain.",
+          },
+          {
+            q: "How much does drain cleaning cost in Airdrie?",
+            a: "Depends on what's needed. Simple kitchen / bath drain unclog is the cheap end; full hydro-jet of a main sewer line is mid-range; trenchless spot repair is higher. We diagnose first then quote in writing — you always know what you're paying for before any work starts.",
+          },
+          {
+            q: "Do you dispatch locally from Airdrie or come from Calgary?",
+            a: "Local from Airdrie. Jason is based in Coopers Crossing so Airdrie service is genuinely local — fast response across every Airdrie neighbourhood (Ravenswood, Reunion, Coopers Crossing, Kings Heights, Williamstown, Bayside, Hillcrest, Chinook Gate, Edwards Landing, Big Springs). No out-of-town surcharge.",
+          },
+          {
+            q: "What other Airdrie plumbing services do you offer?",
+            a: "Full plumbing + heating: [Airdrie plumbing](/airdrie-plumbers/), [hot water tanks](/hot-water-tanks-airdrie/), [tankless](/tankless-water-heaters-airdrie/), [water softener](/water-softener-airdrie/), [furnace repair](/airdrie-furnace-repairs/), [boilers](/boilers-airdrie/) + [boiler install](/boiler-installation-airdrie/), [heat pumps](/heat-pumps-airdrie/), [sump pump install](/sump-pump-installation-airdrie/), [Poly-B replacement](/polyb-plumbing-airdrie/).",
+          },
+        ],
+      },
+    },
+  },
+  {
+    slug: "air-conditioning-airdrie",
+    category: "Air",
+    location: "Airdrie",
+    icon: "ac_unit",
+    title: "Air Conditioning Airdrie — AC Install, Repair + Heat Pump Comparison",
+    lead:
+      "Airdrie summers used to be a couple of warm weeks per year. Not anymore — 30°C+ stretches are now routine through July and August. If you're adding AC for the first time, replacing a unit at end of life, or repairing a system that's not keeping up, FlameTech installs and services every common Airdrie setup. And before you commit to like-for-like AC: ask us whether a heat pump makes more sense. For most Airdrie homeowners adding cooling capability today, it does — same outdoor unit, AC plus efficient supplemental heating in one piece of equipment. Local Airdrie dispatch from Coopers Crossing.",
+    heroBody: [
+      "Three scenarios drive most Airdrie AC calls: (1) adding AC for the first time to a furnace-only home (most common — older Coopers Crossing, Big Springs, Meadowbrook, Edwards Landing homes built without AC that now feel unbearable in July), (2) replacing an aging central AC at end of life (typically 12-15 years), or (3) repairing an existing unit that's lost cooling capacity, is making noise, or has stopped working. Same crew that handles our [heat pump install](/heat-pumps-airdrie/), [furnace work](/airdrie-furnace-repairs/), and broader [Airdrie plumbing + heating](/airdrie-plumbers/).",
+      "On any AC install conversation, we walk through the heat-pump-instead alternative honestly. Same outdoor unit footprint, same indoor air handler integration, similar install cost — but you gain efficient supplemental heating capability through 80%+ of Alberta's heating season. Not the right call for everyone, but it's the right call often enough that skipping the conversation costs Airdrie homeowners money. If you decide on traditional AC after we walk through it, that's fine too — we install AirEase and other quality brands with full warranty support.",
+      "Free in-home assessment for new installs and replacements — local Airdrie dispatch from Coopers Crossing, not Calgary-side drive time + out-of-town surcharge. We check electrical panel capacity, existing ductwork, outdoor unit placement (clear of bedroom windows, snow drift zones, prevailing wind), and run a Manual J cooling-load calculation so we don't oversize. Call 587-834-3668.",
+    ],
+    heroSubhead: "Airdrie-Local AC Install, Repair, + Honest Heat Pump Comparison",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/2025/12/air-ease-ac.webp", alt: "AirEase outdoor AC condenser installed by FlameTech in Airdrie", fit: "contain" },
+    intro:
+      "Airdrie air conditioning — new installs, replacements, repair, maintenance. Central AC and ductless mini-split. Honest heat-pump-vs-AC comparison on every quote. Local Airdrie dispatch.",
+    features: [
+      "Central AC install (first-time + replacement)",
+      "Ductless mini-split (no-duct homes + single zones)",
+      "AC repair (every brand)",
+      "Annual tune-ups + maintenance",
+      "Heat pump comparison on every quote",
+      "Local Airdrie dispatch from Coopers Crossing",
+    ],
+    bullets: [
+      {
+        t: "Local Airdrie crew — Jason's in Coopers Crossing",
+        d: "Most AC companies dispatch into Airdrie from Calgary, adding drive time and sometimes a service surcharge. Jason lives + works in Coopers Crossing so Airdrie AC service is genuinely local — fast arrival across every Airdrie neighbourhood, no out-of-town overhead.",
+      },
+      {
+        t: "Heat pump comparison on every quote",
+        d: "Furnace-only is still the right call for some Airdrie homes — tight budget, no AC need, simple swap. But for most homes ADDING cooling capability or with high heating bills, hybrid dual-fuel (heat pump + furnace) is the math-positive call: same install timeline, lower operating cost through 80%+ of Alberta's heating season, includes AC, and federal Greener Homes rebates may apply. See [heat pumps Airdrie](/heat-pumps-airdrie/) for the full hybrid breakdown.",
+      },
+      {
+        t: "Sized for Airdrie's actual cooling load",
+        d: "Oversized AC is the #1 reason Airdrie homes feel clammy in summer — short cycles can't pull humidity out of the air, just blast cold then shut off. We run a Manual J cooling-load calculation (not rule-of-thumb tonnage) and size to actual load. Slightly smaller-than-rule-of-thumb is usually right for our climate.",
+      },
+      {
+        t: "Outdoor unit placement matters for Airdrie winters",
+        d: "Airdrie winters dump significant snow. We elevate outdoor units off the ground (6-12 inches on a pad or wall bracket), position away from drift zones, and add wind baffles where prevailing wind exposure is severe (Airdrie's open prairie position means more wind exposure than typical Calgary lots). A unit buried in 3 feet of snow doesn't work and damages over time.",
+      },
+    ],
+    seoTitle: "Air Conditioning Airdrie | AC Install + Heat Pump Comparison",
+    seoDescription:
+      "Airdrie AC install, repair, and maintenance. Central and ductless. Honest heat-pump-vs-AC comparison on every quote. Local Airdrie dispatch. Call 587-834-3668.",
+    seoKeywords: [
+      "air conditioning Airdrie",
+      "AC installation Airdrie",
+      "AC repair Airdrie",
+      "central AC Airdrie",
+      "ductless mini split Airdrie",
+      "AC vs heat pump Airdrie",
+      "AirEase AC Airdrie",
+      "FlameTech Plumbing",
+    ],
+    quoteFormLabel: "Airdrie AC",
+    quoteFormPlaceholder:
+      "e.g. first-time AC for our furnace-only Coopers Crossing home, AC blowing warm air, outside unit making noise, considering heat pump instead of AC replacement, ductless for a bonus room…",
+    sidebar: {
+      title: "Airdrie Air Conditioning",
+      subtitle:
+        "Local Airdrie dispatch from Coopers Crossing. Central + ductless install, repair, maintenance. Free in-home assessment with heat-pump comparison on every install quote.",
+      bullets: [
+        "Manual J cooling-load sizing",
+        "AirEase 12-yr warranty (qualifying units)",
+        "Heat pump comparison on every quote",
+        "AC repair on every brand + model",
+      ],
+    },
+    stats: [
+      { number: "12-YR", label: "AirEase warranty", icon: "award" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "Local", label: "Airdrie dispatch", icon: "check_circle" },
+      { number: "FREE", label: "In-home assessment", icon: "request_quote" },
+    ],
+    financing: {
+      detail:
+        "Spread the cost of an AC install into monthly payments via our Financeit partner. Federal Greener Homes program may apply to qualifying heat-pump alternatives.",
+    },
+    callout:
+      "Planning an Airdrie AC install, replacement, or repair? Call 587-834-3668 — local dispatch, free in-home assessment with honest heat-pump comparison.",
+    richContent: {
+      sections: [
+        {
+          heading: "What we install + repair on Airdrie AC calls",
+          intro:
+            "Common configurations across Airdrie. We talk through trade-offs before quoting — there's no one-right-answer for every home.",
+          items: [
+            {
+              heading: "Central AC — first-time install on furnace-only homes",
+              body: "Most common Airdrie install scenario: older Coopers Crossing, Big Springs, Meadowbrook, or Edwards Landing home built without AC, now wants cooling. We add an outdoor condenser unit + indoor evaporator coil on top of the existing furnace + use the existing ductwork. Manual J cooling-load calc to size correctly. Electrical panel + breaker check upfront. Most installs finish in 1-2 days. Common brands: AirEase 4SCU20LX / 4SCU16LS (12-year warranty when registered + maintained), Lennox, Carrier, Trane.",
+            },
+            {
+              heading: "Central AC replacement (end-of-life)",
+              body: "Airdrie central AC units typically last 12-15 years. When the existing unit fails — refrigerant leaks, compressor failure, condenser fan motor, or just age — we replace with a same-or-better sized unit. THIS is the scenario where the heat-pump-instead conversation matters most: same install footprint, similar cost, and you gain efficient heating. We walk through the comparison upfront.",
+            },
+            {
+              heading: "Ductless mini-split (no-duct or single-zone)",
+              body: "Single outdoor unit + 1-4 indoor heads, no ductwork. Best for: older Airdrie homes that never had central air ductwork, finished basements without ducts, that one hot upstairs bedroom in a two-storey home, additions, basement suites. Significant install cost advantage over running new ductwork for central.",
+            },
+            {
+              heading: "AC repair (every brand)",
+              body: "Weak cooling, ice on the outdoor coil, weird noises, unit not starting, breaker tripping, refrigerant leaks. Diagnose-first approach: capacitor test, contactor test, fan motor test, refrigerant pressure check, electrical at the disconnect. Most repairs finish first visit; brand-specific control boards sometimes need overnight parts.",
+            },
+            {
+              heading: "AC tune-up + annual maintenance",
+              body: "Pre-season check (April-May ideal): clean outdoor coil, check refrigerant charge, test capacitor microfarads, inspect electrical at disconnect, calibrate thermostat for cooling mode, check evaporator drain pan + condensate line for clogs, verify blower CFM. Required to keep most manufacturer warranties valid (including AirEase 12-year).",
+            },
+            {
+              heading: "Heat pump alternative (almost always worth comparing)",
+              body: "Modern cold-climate heat pumps cool exactly as well as a traditional AC (same cooling-cycle hardware) but add efficient supplemental heating for 80%+ of Alberta's heating season. Same outdoor unit footprint, similar install cost, often qualifies for federal Greener Homes rebates that close the upfront cost gap. See [heat pumps Airdrie](/heat-pumps-airdrie/) for the full breakdown.",
+            },
+            {
+              heading: "Whole-house duct + airflow check on install quotes",
+              body: "An AC install is only as good as the duct system that distributes the cool air. We check supply trunk size, return capacity (Airdrie homes are commonly under-returned like Calgary), register balance, and known cold/hot rooms before installing. If the duct system can't deliver the rated capacity, we tell you upfront.",
+            },
+          ],
+        },
+        {
+          heading: "Why Airdrie AC installs need attention to specific details",
+          intro:
+            "Airdrie's climate, housing stock, and electrical infrastructure shape what makes a good install. The story rhymes with Calgary but has its own twists.",
+          items: [
+            {
+              heading: "Summers are getting hotter — sizing has shifted",
+              body: "A 2-ton AC that was \"big enough\" for an Airdrie house in 2005 is often undersized for the same house in 2025. 30°C+ stretches are routine now where they were rare a decade ago. We size for actual current cooling demand, not the milder summers our equipment-sizing tables were originally calibrated against.",
+            },
+            {
+              heading: "Older Airdrie homes don't have cooling-friendly ductwork",
+              body: "Pre-2000 Airdrie homes (Coopers Crossing core, Big Springs, Meadowbrook, parts of Edwards Landing) have ductwork designed for HEATING — supply trunks sized for warm air delivery, return capacity sized for furnace airflow. Cooling requires DIFFERENT airflow patterns (cold air drops; supply registers ideally near ceilings). Some retrofits need duct modifications.",
+            },
+            {
+              heading: "Airdrie wind exposure stresses outdoor units",
+              body: "Airdrie's open prairie position means more wind exposure than typical Calgary lots. We position outdoor units to minimize prevailing wind, add baffles where exposure warrants, elevate above expected snow drift accumulation. Drift snow burying an outdoor unit is more common in Airdrie than Calgary.",
+            },
+            {
+              heading: "Electrical panel capacity check",
+              body: "Central AC units pull significant current. Pre-2010 Airdrie homes with 100A panels (older Coopers Crossing, Big Springs, Meadowbrook) sometimes need a panel upgrade to add AC. Post-2010 builds (Bayside, Williamstown, Hillcrest, Kings Heights) typically have 200A service. We check during the in-home assessment.",
+            },
+            {
+              heading: "Humidity is rarely the problem; sizing usually is",
+              body: "Airdrie's incoming summer air is dry (similar to Calgary). Most \"AC isn't dehumidifying\" complaints actually trace to OVERSIZED equipment that short-cycles before pulling moisture out of the air. Proper Manual J sizing + variable-speed equipment that modulates capacity continuously fixes this.",
+            },
+            {
+              heading: "Hard water on condensate pumps in finished basements",
+              body: "Condensate pumps (used when the indoor coil is in a basement without floor-drain access) collect water + minerals over time. Airdrie's hard water (150-200 mg/L — same regional supply as Calgary) shortens pump lifespan. Annual inspection + cleaning extends life.",
+            },
+            {
+              heading: "Local Airdrie dispatch matters in heat-wave emergencies",
+              body: "AC failure during a 30°C+ heat wave shouldn't require a 45-min drive from Calgary. Local Airdrie dispatch from Coopers Crossing means faster arrival when it matters most.",
+            },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Air Conditioning Airdrie — FAQs",
+        items: [
+          {
+            q: "Should I install AC or a heat pump in my Airdrie home?",
+            a: "Worth a real comparison. Same outdoor unit, same install footprint, similar cost — but a heat pump adds efficient heating capability through 80%+ of the heating season. For most Airdrie homes adding cooling for the first time OR replacing an end-of-life AC, the hybrid (heat pump + existing furnace backup) setup is the math-positive call. We walk through the comparison on every quote and tell you honestly when traditional AC is the better fit. See [heat pumps Airdrie](/heat-pumps-airdrie/).",
+          },
+          {
+            q: "Do you dispatch locally from Airdrie or come from Calgary?",
+            a: "Local from Airdrie. Jason is based in Coopers Crossing so Airdrie service is genuinely local — fast response across every Airdrie neighbourhood. Particularly important during heat-wave AC emergencies when same-day dispatch matters.",
+          },
+          {
+            q: "What size AC do I need for my Airdrie home?",
+            a: "Depends on insulation, window area + quality + orientation, air leakage, ceiling heights, and ductwork — not just square footage. Most Airdrie homes need 1.5-3 tons; rule-of-thumb tonnage is often oversized for our climate. We run a Manual J cooling-load calculation on every install quote, then size to the actual number.",
+          },
+          {
+            q: "How long does AC installation take in Airdrie?",
+            a: "First-time central AC install on a furnace-only home: typically 1-2 days. Central AC replacement: often one day. Ductless mini-split single-zone install: often half a day. Add time if electrical panel upgrade is needed or if ductwork modifications are required.",
+          },
+          {
+            q: "How long does a central AC last in Airdrie?",
+            a: "12-15 years for most central AC units in Airdrie, sometimes 18+ with annual maintenance. Outdoor units fail before indoor coils typically. Airdrie's relatively short cooling season means fewer total runtime hours per year than warmer climates, so equipment lifespan is generally at the longer end.",
+          },
+          {
+            q: "Why does my AC make my house feel clammy?",
+            a: "Almost always oversized equipment. An oversized AC cools the air quickly and shuts off before pulling humidity out of the airstream — leaving the house cool but damp. The fix: right-sized equipment (smaller is usually better) and/or variable-speed equipment that modulates capacity continuously.",
+          },
+          {
+            q: "What are signs my AC needs repair?",
+            a: "Weak cooling or warm air from vents, ice on the outdoor coil or refrigerant lines, unusual noises (grinding, screeching, banging on startup), unit not starting at all, breaker tripping repeatedly, water pooling around the indoor coil. Diagnose quickly — refrigerant leaks and electrical issues can get expensive if left running.",
+          },
+          {
+            q: "How often should I have my AC serviced?",
+            a: "Annual professional tune-up before cooling season (April-May ideal). Coil cleaning, refrigerant charge check, capacitor test, electrical inspection, thermostat calibration, condensate drain clearing. Annual service catches most failures before peak summer demand.",
+          },
+          {
+            q: "What's the AirEase 12-year AC warranty?",
+            a: "AirEase covers qualifying AC units (Models 4SCU20LX and 4SCU16LS) with 12 years on parts AND labor when you (1) register the equipment online within 60 days of installation, (2) install in an owner-occupied residence, and (3) maintain documented annual professional maintenance. We're an authorized AirEase Pro Team dealer.",
+          },
+          {
+            q: "Are you available for emergency AC repair in a heat wave?",
+            a: "Yes — no cooling during a heat wave gets priority dispatch. Local Airdrie dispatch from Coopers Crossing means short response times. Same crew that handles our broader [Airdrie plumbing + heating](/airdrie-plumbers/) work.",
+          },
+        ],
+      },
+    },
+  },
+  {
+    slug: "sump-pump-installation-airdrie",
+    category: "Plumbing",
+    location: "Airdrie",
+    icon: "swap_horiz",
+    title: "Sump Pump Installation Airdrie — Local Dispatch, Battery Backup",
+    lead:
+      "Airdrie sits on relatively flat clay-soil terrain, which means spring snowmelt + heavy summer rain don't drain away fast. Sump pumps work harder here than in more sloped neighbourhoods, and walkout-basement homes in newer phases (Bayside, Williamstown, Kings Heights) have higher groundwater stress. If you're installing a sump pump for the first time, replacing an aging original, or adding battery backup before next spring's melt, FlameTech installs ProFlo and other quality pumps with local Airdrie dispatch from Coopers Crossing.",
+    heroBody: [
+      "Three scenarios drive most Airdrie sump pump calls: (1) first-time install in an older Airdrie home (1990s-early 2000s builds without original sump systems, now experiencing basement water during spring melt or after heavy rain — see our [basement flooding diagnostic](/blog/basement-floods-every-time-it-rains-calgary/)), (2) replacement of an original pump that's now 10-15+ years old and tired (typical lifespan), and (3) adding a battery backup to an existing primary pump — cheap insurance for finished-basement homes where power-outage + primary-pump-failure cascades happen during spring storms.",
+      "Same crew handles our broader [Airdrie plumbing](/airdrie-plumbers/), [emergency plumbing](/emergency-plumber-calgary/), [drain cleaning](/drain-cleaning-airdrie/), and [hot water tank work](/hot-water-tanks-airdrie/). Same crew works neighbouring [Ravenswood](/ravenswood-plumbers-airdrie/), [Reunion](/reunion-plumbers-airdrie/), [Coopers Crossing](/coopers-crossing-plumbers/).",
+      "Local Airdrie dispatch — Jason's based in Coopers Crossing — means short response times across every Airdrie neighbourhood. Same-day for emergency situations (active basement flooding). Real person on the phone. Call 587-834-3668.",
+    ],
+    heroSubhead: "Airdrie-Local · ProFlo + Quality Pumps · Battery Backup",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech sump pump install service in Airdrie", fit: "cover" },
+    intro:
+      "Airdrie sump pump installation, replacement, battery backup. ProFlo + quality brands. Local Airdrie dispatch from Coopers Crossing. Same-day for active flooding.",
+    features: [
+      "First-time sump pump install (older Airdrie homes)",
+      "Pump replacement (originals 10-15+ years old)",
+      "Battery backup install (cheap flood insurance)",
+      "Interior weeping tile + sump system",
+      "Discharge line routing (away from foundation)",
+      "Same-day emergency dispatch",
+    ],
+    bullets: [
+      {
+        t: "Local Airdrie crew — Jason's in Coopers Crossing",
+        d: "Most plumbing companies dispatch into Airdrie from Calgary (30-45 min drive plus sometimes a service surcharge). Jason lives + works in Coopers Crossing so Airdrie service is genuinely local — particularly important when basement water is actively rising and every hour matters.",
+      },
+      {
+        t: "ProFlo + quality pumps — not big-box-store throwaways",
+        d: "Big-box-store $150 sump pumps fail in 3-5 years and have a higher failure rate during exactly the moment you need them most (peak storm + power surge). Quality pumps like ProFlo, Zoeller, Liberty cost more upfront but last 10-15 years and have better float switch reliability. Worth the difference for any finished-basement home.",
+      },
+      {
+        t: "Battery backup strongly recommended on finished basements",
+        d: "Spring melt + heavy rain events sometimes coincide with power outages from the same storms. A primary pump can't run without grid power. Battery backup pump runs independent of the grid so basement stays dry even during the worst-case scenario. Cheap insurance for any finished-basement home — install at the same time as the primary pump.",
+      },
+      {
+        t: "Discharge line routing matters more than the pump itself",
+        d: "We've seen \"new\" sump pump installs where the discharge line just dumps water back at the foundation 1m away. That water re-enters the weeping tile and the pump cycles forever (or fails from constant operation). Discharge line needs to extend 3-4m+ from the foundation with positive slope away. We do this right on every install.",
+      },
+    ],
+    seoTitle: "Sump Pump Installation Airdrie | ProFlo + Battery Backup",
+    seoDescription:
+      "Airdrie sump pump install, replacement, battery backup. ProFlo + quality brands. Local Airdrie dispatch from Coopers Crossing. Same-day for flooding. Call 587-834-3668.",
+    seoKeywords: [
+      "sump pump installation Airdrie",
+      "sump pump Airdrie",
+      "Airdrie sump pump replacement",
+      "battery backup sump pump Airdrie",
+      "Airdrie basement flooding",
+      "ProFlo sump pump",
+      "FlameTech Plumbing",
+    ],
+    quoteFormLabel: "Airdrie sump pump",
+    quoteFormPlaceholder:
+      "e.g. first-time sump install for our 1996 Coopers Crossing home, original pump finally giving out, adding battery backup before next spring, basement floor drain backing up…",
+    sidebar: {
+      title: "Airdrie Sump Pump Install",
+      subtitle:
+        "Local Airdrie dispatch from Coopers Crossing. ProFlo + quality pumps, battery backup, proper discharge routing.",
+      bullets: [
+        "Real person on the phone",
+        "Free in-home assessment + written quote",
+        "ProFlo + battery backup",
+        "Same-day for active flooding",
+      ],
+    },
+    stats: [
+      { number: "10-15yr", label: "Pump lifespan", icon: "verified" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "Local", label: "Airdrie dispatch", icon: "check_circle" },
+      { number: "Battery", label: "Backup recommended", icon: "award" },
+    ],
+    callout:
+      "Active basement flooding, sump pump failure, or planning a first-time install in Airdrie? Call 587-834-3668 — local dispatch from Coopers Crossing.",
+    richContent: {
+      sections: [
+        {
+          heading: "What we do most often on Airdrie sump pump calls",
+          intro:
+            "Most Airdrie sump pump calls fall into one of these scenarios. We diagnose first then quote in writing.",
+          items: [
+            {
+              heading: "First-time sump pump install (older Airdrie homes)",
+              body: "Older Airdrie homes (1990s-early 2000s) often were built without sump pump systems. When the homeowner experiences chronic spring melt water or heavy-rain basement flooding, retrofit install becomes the lasting fix. Typical scope: cut + excavate a sump pit in the basement floor, install perimeter interior weeping tile leading to the pit, install primary pump + discharge line routing 3-4m+ away from foundation, install battery backup pump.",
+            },
+            {
+              heading: "Pump replacement (originals 10-15+ years old)",
+              body: "Sump pumps typically last 10-15 years. Originals installed in 1990s-2000s Airdrie homes are well past replacement age in most cases. Float switch wear, motor wear, and impeller damage from years of grit cause failures — usually during the next big storm when you need it most. Proactive replacement before failure is much cheaper than reactive replacement after a flooded basement.",
+            },
+            {
+              heading: "Battery backup install (the cheap insurance)",
+              body: "Spring melt + severe storms sometimes coincide with power outages from the same storms. A primary pump can't run without grid power; basement floods exactly when conditions are worst. Battery backup pump (Liberty StormCell, Wayne ESP25, etc.) runs independent of grid power for 8-24+ hours depending on duty cycle. Cheap insurance for any finished-basement home — should be standard on every Airdrie install.",
+            },
+            {
+              heading: "Interior weeping tile system (where exterior weeping has failed)",
+              body: "Older Airdrie homes with failed exterior weeping tile (collapsed clay tile, silted PVC, or non-existent in the original build) can benefit from interior weeping tile install — perforated pipe inside the basement perimeter draining to the sump pit. Captures groundwater before it reaches the basement floor. Often paired with sump pump install as a single project.",
+            },
+            {
+              heading: "Discharge line routing + winterization",
+              body: "Discharge line should extend 3-4m+ from foundation with positive slope. Common Airdrie failure mode: discharge line frozen in winter, pump backs up, basement floods during a January thaw. We route discharge to avoid freeze risk (interior heated runs to daylight exit, or buried below frost line) and install winterization where outdoor exits can't avoid freeze.",
+            },
+            {
+              heading: "Sump pit + lid + alarm",
+              body: "Proper sump pit (18\" diameter typical) with sealed lid (prevents soil gas + odour entry) and water-level alarm (Honeywell or similar — beeps loudly when water hits the high-water mark). Lid + alarm are routine but often skipped on budget installs.",
+            },
+            {
+              heading: "Diagnostic before recommending",
+              body: "Sometimes flooding isn't a sump problem — it's a downspout-extension problem, lot-grading problem, or foundation-crack problem (see our [basement flooding diagnostic](/blog/basement-floods-every-time-it-rains-calgary/)). We diagnose source before recommending sump install. If a $200 downspout extension solves it, we'll tell you so.",
+            },
+          ],
+        },
+        {
+          heading: "Why Airdrie sump pump installs matter",
+          intro:
+            "Airdrie's terrain + climate + housing stock create specific sump pump conditions.",
+          items: [
+            {
+              heading: "Flat clay-soil terrain doesn't drain fast",
+              body: "Much of Airdrie sits on relatively flat clay-soil land. Spring snowmelt + heavy rain water doesn't sheet away quickly — it accumulates in foundation areas. Sump pumps work harder here than in more sloped Calgary neighbourhoods.",
+            },
+            {
+              heading: "Spring melt is the dominant stress event",
+              body: "Airdrie's deep winter (more snow accumulation than Calgary average) means spring melt dumps significant water in a short window. March-April is when most Airdrie sump pump failures show up — proactive pre-spring service + replacement of aging pumps avoids the disaster.",
+            },
+            {
+              heading: "Walkout-basement designs in newer phases",
+              body: "Newer Airdrie phases (Bayside, Williamstown, Kings Heights, Chinook Gate) commonly have walkout-basement designs that step down toward natural drainage paths. These homes have higher groundwater pressure + benefit most from battery backup pumps.",
+            },
+            {
+              heading: "1990s-early 2000s builds often missing sump systems",
+              body: "Many older Coopers Crossing, Big Springs, Meadowbrook, and Edwards Landing builds didn't have sump pump systems from the original construction (or had basic systems that have since failed). First-time retrofit install is common.",
+            },
+            {
+              heading: "Power outage + spring storm coincidence",
+              body: "Severe spring storms that cause sump pump strain ALSO cause power outages in the same area. Battery backup runs independent of grid — basement stays dry even during the worst-case scenario.",
+            },
+            {
+              heading: "Local Airdrie dispatch matters when water is rising",
+              body: "Basement actively flooding with the sump pump dead and a storm forecast for tonight isn't a situation where 45 minutes from Calgary works. Local Airdrie dispatch from Coopers Crossing means fast arrival when every hour matters.",
+            },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Sump Pump Installation Airdrie — FAQs",
+        items: [
+          {
+            q: "Does my Airdrie home need a sump pump?",
+            a: "Depends on the home + lot. Strong yes if: you've experienced any basement water + you're in an older Airdrie home (1990s-2000s) without an existing sump system, OR you have a finished basement worth protecting, OR you have a walkout-basement design near natural drainage paths. Maybe-not if: you've never had basement water + your home is newer + you're on higher-elevation lot with good drainage. We diagnose during a free in-home assessment.",
+          },
+          {
+            q: "How fast can you respond if my basement is actively flooding?",
+            a: "Same-day emergency dispatch. Real person on the phone, local Airdrie dispatch from Coopers Crossing — typically 1-2 hours from initial call for emergencies. We'll talk you through emergency containment over the phone while the truck rolls.",
+          },
+          {
+            q: "How long does a sump pump last?",
+            a: "Quality pumps (ProFlo, Zoeller, Liberty) last 10-15 years typically. Big-box-store budget pumps often fail at 3-5 years. Battery backup pumps last 10-15 years on the pump itself but the battery needs replacement every 5-7 years.",
+          },
+          {
+            q: "Do I really need a battery backup?",
+            a: "Strongly recommended for any finished-basement home. Spring storms that cause sump pump strain ALSO cause power outages in the same area. Without battery backup, your primary pump can't run during the exact event it was installed for. Battery backup runs independent of grid power so basement stays dry even during the worst-case scenario. Cheap insurance.",
+          },
+          {
+            q: "How much does sump pump installation cost in Airdrie?",
+            a: "First-time install with interior weeping + sump pit + primary pump + battery backup + discharge routing is the most common project — runs in the mid-range of plumbing projects. Pump-only replacement is much cheaper. We quote in writing after the in-home assessment so you see the full cost upfront.",
+          },
+          {
+            q: "Where does the discharge line go?",
+            a: "3-4m+ from foundation with positive slope away. NEVER back into the weeping tile (causes pump short-cycling and failure). NEVER into the sanitary sewer (illegal in Airdrie + every other municipality). Best practice: visible above-ground discharge to a splash block 3-4m from foundation, OR buried below frost line to a daylight exit further away.",
+          },
+          {
+            q: "Why does my sump pump run constantly?",
+            a: "Possible causes: float switch stuck, sump pit too small, groundwater inflow exceeding pump capacity, undersized pump, or discharge line dumping water back into the weeping tile. We diagnose during a service call — sometimes the fix is a new float switch, sometimes a discharge re-route, sometimes an upsized pump.",
+          },
+          {
+            q: "Should I install a sump pump if I'm not experiencing flooding yet?",
+            a: "Maybe — depends on the risk profile. If your home is older, on flat terrain, has finished basement, or you've seen any moisture indications (efflorescence on basement walls, musty smell, occasional damp patches), proactive install is much cheaper than reactive cleanup after a flood. We give honest assessments.",
+          },
+          {
+            q: "Do you dispatch locally from Airdrie or come from Calgary?",
+            a: "Local from Airdrie. Jason is based in Coopers Crossing so Airdrie service is genuinely local — particularly important when basement water is actively rising and every hour matters.",
+          },
+          {
+            q: "What other Airdrie plumbing services do you offer?",
+            a: "Full plumbing + heating: [Airdrie plumbing](/airdrie-plumbers/), [drain cleaning](/drain-cleaning-airdrie/), [hot water tanks](/hot-water-tanks-airdrie/), [tankless](/tankless-water-heaters-airdrie/), [water softener](/water-softener-airdrie/), [furnace repair](/airdrie-furnace-repairs/), [boilers](/boilers-airdrie/), [heat pumps](/heat-pumps-airdrie/), [Poly-B replacement](/polyb-plumbing-airdrie/).",
+          },
+        ],
+      },
+    },
+  },
+  {
+    slug: "polyb-plumbing-airdrie",
+    category: "Plumbing",
+    location: "Airdrie",
+    icon: "pipe_wrench",
+    title: "Poly-B Replacement Airdrie — 1990s-Early 2000s Builds, Local Dispatch",
+    lead:
+      "Airdrie's earliest neighbourhood phases — older Coopers Crossing, Big Springs, Meadowbrook, parts of Edwards Landing — were built during the late 1980s through early 2000s when polybutylene (Poly-B) supply piping was standard residential plumbing. That Poly-B is now 25-35+ years old, becoming brittle, and failing at a meaningful rate. If your Airdrie home was built before about 2002 and you haven't had supply lines inspected, you're sitting on a slow-rolling insurance claim. We do whole-home Poly-B replacement with PEX-A, restore drywall, and document for insurance — local Airdrie dispatch from Coopers Crossing.",
+    heroBody: [
+      "Three patterns dominate Airdrie Poly-B calls: (1) proactive replacement on identified Poly-B homes before failure (insurance increasingly excludes water-damage claims on known Poly-B properties), (2) emergency repair on active Poly-B failure (usually a behind-drywall hot-water-run leak that cascades through ceilings), and (3) Poly-B identification during real-estate transactions (home inspectors flag it; buyers need a quote for replacement scope).",
+      "Same crew handles our broader [Airdrie plumbing](/airdrie-plumbers/), [emergency plumbing](/emergency-plumber-calgary/), [hot water tank replacement](/hot-water-tank-replacement-calgary/), and [drain cleaning](/drain-cleaning-airdrie/) work. Same crew works neighbouring [Ravenswood](/ravenswood-plumbers-airdrie/), [Reunion](/reunion-plumbers-airdrie/), [Coopers Crossing](/coopers-crossing-plumbers/). See our full [Poly-B Calgary](/polyb-plumbing-calgary/) page for additional identification + replacement detail.",
+      "Local Airdrie dispatch — Jason's based in Coopers Crossing — means short response times across every Airdrie neighbourhood, not Calgary-side drive time + out-of-town surcharge. Real person on the phone. Call 587-834-3668 for a free in-home Poly-B inspection.",
+    ],
+    heroSubhead: "Airdrie-Local · 1990s-Early 2000s Build Specialists",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech Poly-B replacement service in Airdrie", fit: "cover" },
+    intro:
+      "Airdrie Poly-B replacement — 1990s-early 2000s builds. Whole-home replacement with PEX-A, drywall restoration, insurance documentation. Local Airdrie dispatch.",
+    features: [
+      "Free Poly-B identification inspection",
+      "Whole-home replacement with PEX-A",
+      "Drywall removal + restoration coordination",
+      "Insurance-claim documentation",
+      "Emergency repair on active failures",
+      "Local Airdrie dispatch from Coopers Crossing",
+    ],
+    bullets: [
+      {
+        t: "1990s-early 2000s Airdrie builds at highest risk",
+        d: "Industry transitioned away from Poly-B through the mid-to-late 1990s. Airdrie's earliest phases (older Coopers Crossing, Big Springs, Meadowbrook, parts of Edwards Landing) built during 1988-2002 have meaningful Poly-B prevalence. Post-2002 Airdrie builds (most Bayside, Williamstown, Kings Heights, Chinook Gate, Hillcrest, Reunion, Ravenswood) almost certainly have PEX — no Poly-B concern.",
+      },
+      {
+        t: "Failures cascade through ceilings — proactive replacement is much cheaper",
+        d: "Poly-B failures typically happen at fittings inside finished walls — usually on hot-water runs to upper floors. By the time you see water on the ceiling, the leak has been running for hours and damage has cascaded through drywall, insulation, and sometimes flooring. Proactive whole-home replacement is much cheaper than the surprise + the insurance fight.",
+      },
+      {
+        t: "Insurance increasingly excludes known Poly-B claims",
+        d: "Insurance companies have been progressively tightening water-damage coverage on known Poly-B homes. Some now require replacement as a condition of continued coverage; others exclude Poly-B-failure-related claims entirely. If your Airdrie home has Poly-B, talk to your broker about your specific policy — and consider proactive replacement to keep coverage clean.",
+      },
+      {
+        t: "Local Airdrie crew, full project management",
+        d: "Whole-home Poly-B replacement involves drywall removal, plumbing replacement, drywall + paint restoration, and insurance documentation. We coordinate the full project — local Airdrie dispatch from Coopers Crossing means responsive scheduling, no out-of-town overhead.",
+      },
+    ],
+    seoTitle: "Poly-B Replacement Airdrie | 1990s-Early 2000s Builds, Local Dispatch",
+    seoDescription:
+      "Airdrie Poly-B replacement on 1990s-early 2000s builds. Whole-home PEX-A replacement, drywall restoration, insurance documentation. Local Airdrie dispatch. Call 587-834-3668.",
+    seoKeywords: [
+      "Poly-B replacement Airdrie",
+      "Airdrie Poly-B plumbing",
+      "polybutylene replacement Airdrie",
+      "Airdrie Poly-B inspection",
+      "Poly-B Coopers Crossing",
+      "FlameTech Plumbing",
+    ],
+    quoteFormLabel: "Airdrie Poly-B",
+    quoteFormPlaceholder:
+      "e.g. Poly-B inspection on a 1996 Coopers Crossing home, active Poly-B leak in upper-floor ceiling, real-estate inspection flagged Poly-B and we need a quote, insurance asking for replacement quote…",
+    sidebar: {
+      title: "Airdrie Poly-B Replacement",
+      subtitle:
+        "Local Airdrie dispatch from Coopers Crossing. Whole-home PEX-A replacement, drywall coordination, insurance documentation.",
+      bullets: [
+        "Real person on the phone",
+        "Free in-home identification inspection",
+        "Whole-home replacement with PEX-A",
+        "Emergency repair on active failures",
+      ],
+    },
+    stats: [
+      { number: "25+", label: "Years in Alberta", icon: "verified" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "Local", label: "Airdrie dispatch", icon: "check_circle" },
+      { number: "FREE", label: "Inspection", icon: "request_quote" },
+    ],
+    callout:
+      "Active Poly-B leak in Airdrie, real-estate inspection flagged it, or want a free identification check? Call 587-834-3668 — local dispatch from Coopers Crossing.",
+    richContent: {
+      sections: [
+        {
+          heading: "What we do most often on Airdrie Poly-B calls",
+          intro:
+            "Most Airdrie Poly-B calls fall into one of these scenarios. Free in-home inspection always available — we tell you honestly whether replacement is warranted.",
+          items: [
+            {
+              heading: "Free in-home Poly-B identification inspection",
+              body: "We inspect accessible supply lines under sinks, near the water heater, at the main shutoff, and at any visible plumbing locations. Poly-B is grey or blue with crimp-ring fittings (silver bands). PEX is red/blue and uses different fittings (expansion or different crimp style). We tell you honestly what's installed and whether replacement is warranted.",
+            },
+            {
+              heading: "Whole-home replacement with PEX-A",
+              body: "Standard scope: locate every Poly-B supply run + every fitting, plan replacement route to minimize drywall disruption, remove drywall sections at fittings + along run paths, install PEX-A supply lines (modern expansion fittings), pressure test, restore drywall + paint. Typical project: 3-7 days depending on home size + complexity.",
+            },
+            {
+              heading: "Drywall coordination + restoration",
+              body: "Poly-B replacement requires drywall access at every fitting + along most runs. We either handle drywall in-house or coordinate with restoration contractor — your choice. Either way, the final state of every wall we opened gets restored + painted to match (or as close as the original paint allows).",
+            },
+            {
+              heading: "Insurance-claim documentation",
+              body: "Where Poly-B failure has caused water damage, we provide written documentation suitable for your insurance adjuster: photos of failed fittings, dated install records, replacement scope + quote, and standard Poly-B-failure descriptions. Doesn't slow down the repair; just paper we add to the file.",
+            },
+            {
+              heading: "Emergency repair on active Poly-B failures",
+              body: "Active Poly-B leak (usually behind drywall on a hot-water run to upper floors): emergency dispatch to shut off water, isolate the failure, repair the immediate leak, then schedule full replacement assessment. Real person on the phone, fast Airdrie response.",
+            },
+            {
+              heading: "Real-estate transaction quotes",
+              body: "Home inspectors flag Poly-B during pre-purchase inspections. Buyers (or their agents) need a replacement quote for negotiation purposes. We provide written quotes formatted for real-estate transaction use, with same-day or next-day inspection windows.",
+            },
+            {
+              heading: "Partial replacement (where full-home isn't yet warranted)",
+              body: "Sometimes partial replacement makes sense — for example, replacing only the hot-water runs (highest-failure-risk locations) while leaving cold-water runs for a later phase. We discuss honest trade-offs based on your specific situation, age of fittings, and renovation timing.",
+            },
+          ],
+        },
+        {
+          heading: "Why Airdrie Poly-B replacement matters now",
+          intro:
+            "Airdrie's earliest neighbourhood phases sit right in the Poly-B era. The piping is now at the age where failures become common and insurance coverage gets complicated.",
+          items: [
+            {
+              heading: "1988-2002 Airdrie builds in the Poly-B era",
+              body: "Polybutylene was standard residential supply piping from roughly 1978 through the mid-to-late 1990s, with industry transition completing around 2002. Airdrie's earliest phases (older Coopers Crossing, Big Springs, Meadowbrook, parts of Edwards Landing, some Reunion originals) built during this window have meaningful Poly-B prevalence.",
+            },
+            {
+              heading: "25-35+ years of thermal cycling + chlorine exposure",
+              body: "Poly-B becomes brittle over time through a combination of chlorine exposure (municipal water disinfection) and thermal cycling (every hot-water cycle expands + contracts the pipe). After 25-35+ years, the fittings (acetal crimp fittings) become particularly failure-prone — usually fitting failure rather than pipe failure.",
+            },
+            {
+              heading: "Failures concentrate on hot-water runs to upper floors",
+              body: "The combination of higher temperature + gravity-fed pressure makes hot-water supply runs to upper-floor bathrooms the most failure-prone locations. Leaks here cascade through ceilings + drywall, often unnoticed until significant damage has accumulated.",
+            },
+            {
+              heading: "Insurance increasingly tightens coverage on Poly-B homes",
+              body: "Insurance industry has been progressively tightening water-damage coverage on known Poly-B homes. Some carriers require replacement as a condition of continued coverage; others exclude Poly-B-failure-related claims. Talk to your broker about your specific policy.",
+            },
+            {
+              heading: "Post-2002 Airdrie almost certainly has PEX (no concern)",
+              body: "Most Airdrie neighbourhood phases built after about 2002 — Bayside, Williamstown, Kings Heights, Chinook Gate, Hillcrest, most Reunion phases, newer Ravenswood — have modern PEX supply piping. You can skip the Poly-B concern entirely if your home is from this era.",
+            },
+            {
+              heading: "Real-estate value impact",
+              body: "Buyers + their inspectors are increasingly aware of Poly-B. Identified Poly-B during a real-estate inspection typically leads to either price negotiation (buyer pays less + plans to replace) or seller-funded replacement before closing. Either way, the cost effectively comes out of seller's pocket. Proactive replacement before listing preserves full value.",
+            },
+            {
+              heading: "Local Airdrie dispatch matters for emergency Poly-B failures",
+              body: "Active Poly-B leak cascading through your ceiling at 9pm shouldn't require a 45-min drive from Calgary. Local Airdrie dispatch from Coopers Crossing means fast emergency response — minutes matter when ceiling drywall is actively dropping.",
+            },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Poly-B Replacement Airdrie — FAQs",
+        items: [
+          {
+            q: "How do I know if my Airdrie home has Poly-B?",
+            a: "Look for grey or blue plastic supply lines visible under sinks, near the water heater, or at the main shutoff. Poly-B uses crimp-ring fittings (silver bands around the joint). PEX is red/blue and uses different fittings (expansion or different crimp style). If your Airdrie home was built between 1988 and 2002, there's a meaningful chance it has Poly-B. We do free in-home identification inspection.",
+          },
+          {
+            q: "Should I replace Poly-B proactively or wait for it to fail?",
+            a: "Proactive is strongly recommended for any Poly-B home now 25+ years old. Reactive replacement after a failure costs MORE because you're paying for water damage cleanup + drywall repair + restoration + the replacement itself, plus the insurance complications. Proactive replacement is just the replacement cost. Math is clearly positive on proactive.",
+          },
+          {
+            q: "How much does Poly-B replacement cost in Airdrie?",
+            a: "Depends on home size, fitting count, and drywall access complexity. Typical Airdrie home runs in the mid-range of major plumbing projects. We quote in writing after the in-home inspection so you see the full cost upfront — including drywall coordination.",
+          },
+          {
+            q: "How long does whole-home Poly-B replacement take?",
+            a: "Typical project: 3-7 days depending on home size + access complexity. Larger homes with finished basements + multiple bathrooms take longer than smaller bungalows. We coordinate scheduling to minimize disruption — water is off only during the active replacement work, restored each evening if multi-day.",
+          },
+          {
+            q: "Does my homeowner's insurance cover Poly-B replacement?",
+            a: "Typically NO — insurance covers DAMAGE from failures (water cleanup, drywall, flooring) but doesn't cover proactive replacement (treated as maintenance/upgrade). Some insurance providers offer Poly-B-replacement discounts or rebates. Talk to your broker about your specific policy.",
+          },
+          {
+            q: "Can you do partial Poly-B replacement?",
+            a: "Yes — sometimes partial replacement makes sense as a phased approach. Replacing only hot-water runs (highest-failure-risk locations) while leaving cold-water for a later phase is one option. We discuss honest trade-offs based on your situation.",
+          },
+          {
+            q: "Will my Airdrie home insurance get cheaper after Poly-B replacement?",
+            a: "Often yes — many insurance carriers reduce premiums or offer better coverage terms on homes where Poly-B has been replaced. Document the replacement (we provide written records suitable for insurance use) and share with your broker. They'll typically re-rate the policy.",
+          },
+          {
+            q: "What's PEX-A and why do you use it?",
+            a: "PEX-A is the modern replacement for Poly-B — cross-linked polyethylene supply piping that's flexible, freeze-resistant, and has a 50+ year expected lifespan. Different chemistry than Poly-B (cross-linked vs polybutylene), different fitting system (expansion fittings vs crimp), much more reliable in long-term use. Standard residential supply piping since the early 2000s.",
+          },
+          {
+            q: "Do you dispatch locally from Airdrie or come from Calgary?",
+            a: "Local from Airdrie. Jason is based in Coopers Crossing so Airdrie service is genuinely local — particularly important for emergency Poly-B failures where every minute matters before ceiling damage cascades.",
+          },
+          {
+            q: "What other Airdrie plumbing services do you offer?",
+            a: "Full plumbing + heating: [Airdrie plumbing](/airdrie-plumbers/), [drain cleaning](/drain-cleaning-airdrie/), [sump pump install](/sump-pump-installation-airdrie/), [hot water tanks](/hot-water-tanks-airdrie/), [tankless](/tankless-water-heaters-airdrie/), [water softener](/water-softener-airdrie/), [furnace repair](/airdrie-furnace-repairs/), [boilers](/boilers-airdrie/), [heat pumps](/heat-pumps-airdrie/).",
+          },
+        ],
+      },
+    },
+  },
+  {
     slug: "water-softener-airdrie",
     category: "Water",
     location: "Airdrie",
