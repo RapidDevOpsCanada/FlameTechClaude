@@ -222,13 +222,17 @@ export default async function ServicePage({
                           : "bg-gradient-to-br from-cream-50 to-cream-100 p-5 flex items-center justify-center"
                       }`}
                     >
+                      {/* Mobile hero — duplicates the desktop hero below for
+                          a different responsive layout. `priority` lives only
+                          on the desktop instance (the higher-traffic LCP
+                          surface). The mobile branch relies on sizes=0px
+                          above lg breakpoint to skip fetch when hidden. */}
                       {service.heroImage.fit === "cover" ? (
                         <Image
                           src={service.heroImage.src}
                           alt={service.heroImage.alt}
                           fill
                           sizes="(max-width: 1024px) 100vw, 0px"
-                          priority
                           className={`object-cover ${
                             service.heroImage.position === "top"
                               ? "object-top"
@@ -243,7 +247,6 @@ export default async function ServicePage({
                           alt={service.heroImage.alt}
                           width={520}
                           height={320}
-                          priority
                           className="max-h-full max-w-full object-contain"
                         />
                       )}
@@ -1161,7 +1164,10 @@ export default async function ServicePage({
             pages already link UP to the trades; rendering this on them
             would create a tight loop without adding new equity. */}
         {!isNeighbourhoodSlug(service.slug) && (
-          <WhereWeServe serviceTitle={service.title.replace(/\s*[—|].*$/, "").trim()} />
+          <WhereWeServe
+            serviceTitle={service.title.replace(/\s*[—|].*$/, "").trim()}
+            city={service.location ?? "Calgary"}
+          />
         )}
 
         {/* QUOTE FORM */}
@@ -1190,7 +1196,7 @@ export default async function ServicePage({
           </div>
         </section>
 
-        <FinalCTA />
+        <FinalCTA city={service.location ?? "Calgary"} />
       </main>
       <Footer />
       <StickyCallBar />
@@ -1308,6 +1314,21 @@ function pickInlineReviewFromList(
     const override = r.quote_overrides?.[service.slug];
     return override ? { ...r, quote: override } : r;
   };
+
+  // STRICT TOPIC: for tankless pages, suppress the inline review unless
+  // the quote actually mentions tankless. The "Water Heaters" tag is
+  // shared by tank-style reviews; without this guard a tank-install
+  // testimonial surfaces on the tankless page (audit-flagged on
+  // /tankless-water-heaters-airdrie/). TODO: remove once at least one
+  // tankless-mentioning review lands in reviews.yaml.
+  if (/tankless/.test(service.slug)) {
+    const topic = reviewTopicPattern(service.slug);
+    if (topic) {
+      const exact = pool.filter((r) => topic.test(r.quote));
+      return exact.length ? applyOverride(exact[hashIdx(exact.length)]) : null;
+    }
+    return null;
+  }
 
   // 1. Curated tag match — strongest signal
   const wantTags = expectedReviewTags(service.slug);

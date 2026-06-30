@@ -7888,46 +7888,46 @@ export const services: ServicePage[] = [
     icon: "whatshot",
     title: "Tankless Water Heaters Airdrie — Navien, Rinnai, IBC Install + Service",
     lead:
-      "Tankless water heaters are the right call for some Airdrie homes — endless hot water capacity, 20+ year lifespan, big space savings, lower lifecycle operating cost — and the wrong call for others. Airdrie shares Calgary's hard-water profile (150-200 mg/L), so annual descaling is mandatory and a [water softener](/water-softener-airdrie/) upstream is strongly recommended. We're locally based in Airdrie — Jason is in Coopers Crossing — so dispatch is genuinely local, not Calgary-based with an Airdrie surcharge.",
+      "Endless hot water, 20-year lifespan, and a wall-mounted footprint sound great — but tankless is the right call for some Airdrie homes and the wrong call for others. We install [Navien](https://www.navieninc.com/), Rinnai, and IBC, walk through the tank-vs-tankless trade-off honestly before quoting, and dispatch locally from Coopers Crossing so service times are short.",
     heroBody: [
-      "Three scenarios drive most Airdrie tankless calls: (1) replacing an aging tank with a tankless upgrade (most common — tank at end of life, owner wants endless hot water + space savings + longer lifespan), (2) new build or major renovation where tankless is being spec'd from the design phase (common in Williamstown, Kings Heights, Bayside, Reunion, Chinook Gate, Hillcrest), or (3) basement suite / secondary suite where space constraints favor a compact wall-mounted tankless. We handle all three with permits, gas-line sizing, venting, and code-compliant condensate routing.",
-      "Tankless isn't always the right call. Higher upfront cost (often 2-3x a tank install when gas line upsizing is required — most tankless units need 200,000+ BTU vs a tank's 40,000), higher maintenance burden (annual descaling required to keep manufacturer warranties valid in Airdrie's water), and the cold-inlet reality of Airdrie winters means tankless output drops as inlet temp drops (Airdrie's groundwater hits 4°C in winter same as Calgary). We tell you straight when a tank is the better fit. See [hot water tanks Airdrie](/hot-water-tanks-airdrie/) for the tank path or the broader [tankless water heaters](/tankless-water-heaters/) page for the full comparison.",
-      "Local Airdrie dispatch — Jason's based in Coopers Crossing — means short response times across [Ravenswood](/ravenswood-plumbers-airdrie/), [Reunion](/reunion-plumbers-airdrie/), Coopers Crossing, Kings Heights, Williamstown, Bayside, Hillcrest, Chinook Gate, Edwards Landing, Big Springs. Real person on the phone. Call 587-834-3668.",
+      "Three scenarios drive most of these calls: replacing an aging tank with a tankless upgrade (the most common path), specifying tankless from the design phase on a new build or major renovation, and fitting a compact wall-mounted unit into a basement suite or secondary suite where floor space is tight. We handle all three with permits, gas-line sizing, venting, and code-compliant condensate routing.",
+      "Tankless costs more up front, demands annual descaling to keep manufacturer warranties valid, and derates noticeably in deep winter when groundwater hits 4°C. If a tank fits your home better, we'll tell you so — see [hot water tanks Airdrie](/hot-water-tanks-airdrie/) for that path or the broader [tankless explainer](/tankless-water-heaters/) for the full comparison.",
+      "Jason lives in [Coopers Crossing](/coopers-crossing-plumbers/), so service across Ravenswood, Reunion, and the rest of the city is local — not a Calgary-based crew billing extra to drive north. Call 587-834-3668.",
     ],
-    heroSubhead: "Airdrie-Local · Navien · Rinnai · IBC Specialists",
+    heroSubhead: "Local Dispatch · Navien · Rinnai · IBC",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
-    heroImage: { src: "/images/2026/04/Ibc-tankless.webp", alt: "IBC tankless water heater installed by FlameTech in an Airdrie basement", fit: "cover" },
+    heroImage: { src: "/images/2026/04/Ibc-tankless.webp", alt: "IBC tankless water heater installed by FlameTech", fit: "cover" },
     intro:
-      "Airdrie tankless water heater install + service. Navien NPE, Rinnai RU/RUR, IBC SL. Gas line + venting + condensate handled. Local Airdrie dispatch from Coopers Crossing. Annual descaling.",
+      "Airdrie tankless install and service. Navien NPE, Rinnai RU/RUR, IBC SL. Gas line, venting, and condensate handled. Local dispatch from Coopers Crossing.",
     features: [
-      "Tankless install + tank-to-tankless retrofit",
-      "Gas line upsize + venting + condensate",
-      "Annual descaling service (Airdrie required)",
-      "Combi (heat + DHW) configurations",
+      "Tank-to-tankless retrofit",
+      "Gas line upsize, venting, condensate",
+      "Annual descaling service",
+      "Combi (heat + hot water) configurations",
       "Recirculation loop install",
-      "Tankless repair (error codes, heat exchanger)",
+      "Tankless repair on every brand",
     ],
     bullets: [
       {
-        t: "Local Airdrie crew — Jason's in Coopers Crossing",
-        d: "Most plumbing companies dispatch into Airdrie from Calgary, adding drive time and sometimes a service surcharge. Jason lives and works in Coopers Crossing, so Airdrie service is genuinely local — fast arrival across every Airdrie neighbourhood, no out-of-town overhead.",
+        t: "Local dispatch from Coopers Crossing",
+        d: "Most companies serving Airdrie drive in from Calgary, adding 30-45 minutes and sometimes a service surcharge. Jason lives and works in Coopers Crossing, so response times are short and pricing matches the rest of our service area.",
       },
       {
         t: "Honest tank-vs-tankless conversation upfront",
-        d: "Tankless isn't right for every home. We walk through the comparison — install cost, lifecycle cost, hard-water reality, peak demand patterns, available gas line capacity — before quoting. If a tank is the better fit, we'll tell you so and quote that instead. No upsell.",
+        d: "Tankless isn't right for every home. We walk through install cost, lifecycle cost, peak demand, and gas-line capacity before quoting. If a tank fits your situation better, we'll quote that instead.",
       },
       {
-        t: "Airdrie hard-water aware (descaling is mandatory)",
-        d: "Airdrie shares Calgary's hard-water profile (150-200 mg/L hardness — same regional water supply system). That's brutal on tankless heat exchangers; internal passages narrow enough that mineral buildup happens fast. Annual descaling is REQUIRED (not optional) to keep warranties valid and prevent heat exchanger damage. We recommend pairing every tankless install with a properly-sized [water softener](/water-softener-airdrie/) — extends tankless life dramatically.",
+        t: "Hard-water aware from the start",
+        d: "Airdrie is on the same regional water supply as Calgary, around 150-200 mg/L hardness. That's tough on the narrow internal passages of a tankless heat exchanger. Annual descaling is part of the deal and we recommend pairing the install with a [water softener](/water-softener-airdrie/) to extend equipment life.",
       },
       {
-        t: "Gas line + venting + condensate done right",
-        d: "Tankless installs are more complex than tank installs. A typical Navien NPE-A 240 needs 200,000 BTU input — most existing 3/4\" home gas lines can support a tank but NOT a tankless without upsizing. We size the gas line correctly, route condensate (high-efficiency condensing tankless requires acidic-condensate drain — and in Airdrie's −35°C design temperature, that condensate line needs reroute through heated space to prevent freezing), and vent per code.",
+        t: "Gas line, venting, and condensate done right",
+        d: "A typical Navien NPE-A 240 needs 200,000 BTU input — most existing 3/4\" home gas lines can support a tank but not a tankless. We size the line, vent per code, and route the acidic condensate drain through heated space so winter freeze-ups don't lock the unit out.",
       },
     ],
     seoTitle: "Tankless Water Heaters Airdrie | Navien + Rinnai + IBC, Local Dispatch",
     seoDescription:
-      "Airdrie tankless install + service. Navien, Rinnai, IBC. Gas line + venting + condensate handled. Local Airdrie dispatch from Coopers Crossing. Annual descaling. Call 587-834-3668.",
+      "Airdrie tankless install and service. Navien, Rinnai, IBC. Gas line, venting, and condensate handled. Local dispatch from Coopers Crossing. Call 587-834-3668.",
     seoKeywords: [
       "tankless water heater Airdrie",
       "tankless install Airdrie",
@@ -7935,27 +7935,26 @@ export const services: ServicePage[] = [
       "Rinnai tankless Airdrie",
       "IBC tankless Airdrie",
       "Airdrie water heater",
-      "Airdrie plumber tankless",
       "FlameTech Plumbing",
     ],
     quoteFormLabel: "Airdrie tankless water heater",
     quoteFormPlaceholder:
-      "e.g. retiring our old tank, big family running out of hot water in Williamstown, looking at a Navien NPE combi for a Reunion build, basement suite in Coopers Crossing, tankless throwing error codes…",
+      "e.g. retiring our old tank, big family running out of hot water, looking at a Navien NPE combi for a new build, basement suite, tankless throwing error codes…",
     sidebar: {
-      title: "Airdrie Tankless Water Heaters",
+      title: "Airdrie Tankless Install",
       subtitle:
-        "Local Airdrie dispatch from Coopers Crossing. Navien + Rinnai + IBC install + service. Honest tank-vs-tankless conversation.",
+        "Local dispatch from Coopers Crossing. Navien, Rinnai, and IBC install and service.",
       bullets: [
         "Free in-home assessment + written quote",
-        "Navien · Rinnai · IBC · Bosch · Noritz",
-        "Annual descaling (Airdrie required)",
+        "Navien · Rinnai · IBC",
+        "Annual descaling included",
         "Softener pairing recommended",
       ],
     },
     stats: [
       { number: "20+yr", label: "Tankless lifespan", icon: "verified" },
       { number: "5.0★", label: "Google rated", icon: "star" },
-      { number: "Local", label: "Airdrie dispatch", icon: "check_circle" },
+      { number: "Local", label: "Coopers Crossing", icon: "check_circle" },
       { number: "FREE", label: "In-home assessment", icon: "request_quote" },
     ],
     financing: {
@@ -7963,200 +7962,180 @@ export const services: ServicePage[] = [
         "Spread the cost of a tankless install into monthly payments via our Financeit partner.",
     },
     callout:
-      "Planning a tankless install in Airdrie or replacing an aging tank? Call 587-834-3668 for a free in-home assessment — honest tank-vs-tankless comparison upfront from a local Airdrie crew.",
+      "Planning a tankless install or replacing an aging tank? Call 587-834-3668 for a free in-home assessment — written quote with the honest tank-vs-tankless comparison upfront.",
     richContent: {
       sections: [
         {
-          heading: "What we install + service on Airdrie tankless calls",
+          heading: "What we install and service",
           intro:
-            "Common tankless configurations across Airdrie. We talk through trade-offs before quoting — brand, condensing vs non-condensing, combi vs DHW-only, recirculation, gas-line capacity.",
+            "Common configurations. We talk through trade-offs before quoting — brand, condensing vs non-condensing, combi vs DHW-only (domestic hot water only, no space heating), recirculation, and gas-line capacity.",
           items: [
             {
-              heading: "Navien NPE-A / NPE-S — most common Airdrie install",
-              body: "Navien NPE-A (condensing, high efficiency, built-in recirculation buffer tank) and NPE-S (condensing, no buffer) are the most common tankless units we install in Airdrie. Reliable, well-supported by regional parts distributors, strong warranty (typically 15 years on heat exchanger when registered + descaled annually). Common sizes: NPE-A 240 (240,000 BTU, 7.5 GPM at 35°F rise) for 3-4 person households; NPE-A 199 / 180 for smaller households or suite applications.",
+              heading: "Navien NPE-A / NPE-S — most common install",
+              body: "Condensing high-efficiency units. NPE-A includes a built-in recirculation buffer tank; NPE-S does not. Strong 15-year heat-exchanger warranty when registered and descaled annually. Common sizes: NPE-A 240 (240,000 BTU, 7.5 GPM at 35°F rise — meaning 7.5 gallons per minute when raising water temperature 35 degrees) for 3-4 person households; NPE-A 199 or 180 for smaller homes and suites.",
             },
             {
               heading: "Rinnai RU / RUR — premium alternative",
-              body: "Rinnai RUR (recirculation-built-in) and RU (non-recirculation) condensing tankless units. Quieter operation than Navien, slightly higher upfront cost, equally reliable in our experience. RUR models include built-in recirculation pump for instant hot water at distant fixtures (worth considering in larger Williamstown / Bayside / Kings Heights homes). Common sizes: RU199 / RUR199 (199,000 BTU) for typical Airdrie homes.",
+              body: "Condensing, quieter than Navien, slightly higher cost. RUR includes a built-in recirculation pump for instant hot water at distant fixtures. Common size: RU199 or RUR199 (199,000 BTU) for typical homes.",
             },
             {
               heading: "IBC SL series — combi capability",
-              body: "IBC SL-series units are tankless heaters that also support full hydronic heating (combi units) — heat your house AND your domestic hot water from a single piece of equipment. Best for: homes converting from boiler to combi, new builds in Reunion or Chinook Gate where mechanical room space is at a premium, in-floor radiant systems with modest heat-load.",
+              body: "Combi units heat both the house and the domestic hot water from one appliance. Best fit for homes converting from boiler to combi, new builds where mechanical-room space is tight, and modest-load in-floor radiant systems.",
             },
             {
-              heading: "Tank-to-tankless retrofit (most common scenario)",
-              body: "Old tank at end of life, owner wants endless hot water capacity, space savings, and the longer lifespan. We size the gas line (most homes need 3/4\" upsized to 1\" for tankless), install or relocate vent (sidewall direct-vent typical), route condensate drain through heated space (Airdrie's −35°C design temp means outdoor condensate exits freeze fast), wall-mount the unit, and commission. Typical retrofit: 1-2 days depending on gas line + vent complexity.",
+              heading: "Tank-to-tankless retrofit",
+              body: "Old tank at end of life, owner wants endless hot water and longer lifespan. We size the gas line (most homes need 3/4\" upsized to 1\"), install sidewall direct-vent, route the condensate drain through heated space, wall-mount the unit, and commission. Typical retrofit: 1-2 days depending on gas line and vent complexity.",
             },
             {
-              heading: "Combi setup (heat + DHW from one unit)",
-              body: "Combi tankless units handle BOTH space heating AND domestic hot water from a single appliance — eliminates the separate boiler + tank in a hydronic-heated home. Best for: homes with modest heat-load, basement suites, and renovations where mechanical room space is at a premium. Airdrie hard water hits the DHW heat exchanger especially hard — annual descaling + softener pairing critical.",
+              heading: "Combi setup",
+              body: "Best for homes with modest heat-load, basement suites, and renovations where mechanical-room space is at a premium. Hard water hits the hot-water heat exchanger especially hard on these, so the descaling and softener-pairing recommendations matter even more.",
             },
             {
               heading: "Recirculation loop for instant hot water",
-              body: "Tankless without recirculation: turn on a faucet, wait 5-30 seconds for hot water to arrive (depending on distance from the unit). Recirculation loop: a small pump circulates hot water through a dedicated return line back to the heater, so hot water is instantly available at every fixture. Common upgrade in larger Airdrie homes (Williamstown estates, Bayside lakefront) where the tankless is far from the master bath / kitchen. Rinnai RUR has recirculation pump built in.",
+              body: "Without recirculation, you wait 5-30 seconds for hot water at a faucet depending on the distance from the unit. A recirculation loop adds a small pump and a dedicated return line so hot water is available instantly at every fixture. Common upgrade in larger homes where the tankless is far from the master bath or kitchen.",
             },
             {
-              heading: "Annual descaling service (Airdrie required)",
-              body: "Pump a citric-acid descaler through the heat exchanger for 30-45 minutes to dissolve scale buildup. Required to keep manufacturer warranties valid in Airdrie's hard water (same 150-200 mg/L as Calgary). We carry descaler kits on every tankless service call. Best done in late summer / early fall before peak winter demand. Pair with annual filter clean + flame sensor check.",
+              heading: "Annual descaling service",
+              body: "Pump a citric-acid descaler through the heat exchanger for 30-45 minutes to dissolve mineral buildup. Best done late summer or early fall before peak winter demand, paired with a filter clean and flame-sensor check. Skipping this voids most manufacturer warranties.",
             },
             {
-              heading: "Tankless repair (every brand)",
-              body: "Error codes (Navien E03 flame failure, Rinnai code 11, IBC heat exchanger overheat, etc.), lukewarm output (DHW heat exchanger scaling), no hot water (gas supply, ignition, control board), frozen condensate line lockout (Airdrie cold-snap classic). Diagnose-first approach — we test the suspect component before quoting a part. Most repairs finish first visit with common parts on the truck.",
-            },
-          ],
-        },
-        {
-          heading: "Tankless vs tank — the honest Airdrie comparison",
-          intro:
-            "Tankless is right for some homes, wrong for others. Here's how the comparison actually breaks down for Airdrie.",
-          items: [
-            {
-              heading: "Tankless wins: endless hot water capacity",
-              body: "Tankless heaters produce hot water as long as the tap is open — never run out, even during peak simultaneous demand (multiple showers, dishwasher, laundry). Tank capacity is finite: a 50-gallon tank delivers ~40 gallons of usable hot water before recovery. For Airdrie families with multiple bathrooms (common in Williamstown, Bayside, Kings Heights estates) or back-to-back morning showers, tankless wins clearly.",
-            },
-            {
-              heading: "Tankless wins: 20+ year lifespan (vs 8-10 for Airdrie tanks)",
-              body: "Tankless heat exchangers don't accumulate sediment in the same way tank bottoms do. With annual descaling + a water softener, Airdrie tankless units routinely hit 20+ years. Tanks here typically give up at 8-10 years unsoftened. Total-cost-of-ownership math over 20 years often favors tankless even with higher install cost.",
-            },
-            {
-              heading: "Tankless wins: space savings",
-              body: "Wall-mounted tankless units take roughly the footprint of a small briefcase. Tank takes 24\"x24\" of floor space + 60\" of vertical. Big deal in finished basements, basement suites (common in older Coopers Crossing + Big Springs homes), and newer-build mechanical rooms where every square foot matters.",
-            },
-            {
-              heading: "Tank wins: lower install cost",
-              body: "Tank installs in a few hours; tankless often takes 1-2 days with gas line upsizing, venting modifications, and condensate routing. Tankless install cost is often 2-3x a comparable tank install. If you're 5+ years from selling and budget matters more than lifecycle math, tank is the better near-term call.",
-            },
-            {
-              heading: "Tank wins: simpler maintenance",
-              body: "Tankless requires annual descaling (mandatory in Airdrie water to keep warranties valid). Tank requires annual flushing (recommended but skipped by many homeowners without immediate consequences). Tankless maintenance burden is higher; if you won't commit to annual service, tankless is a worse choice.",
-            },
-            {
-              heading: "Tank wins: cold-inlet performance margin",
-              body: "Tankless output drops as inlet water temperature drops. Airdrie's groundwater is 4°C in winter — a tankless rated for 7.5 GPM at 35°F temperature rise will only deliver maybe 4-5 GPM in deep winter (heating from 4°C to 49°C is a bigger rise than spec). Tank doesn't have this problem; the 50 gallons of stored water is always there. Airdrie's slightly colder design temp (−35°C vs Calgary's −30°C) means cold-inlet derating bites a little harder here than in Calgary.",
+              heading: "Tankless repair on every brand",
+              body: "Error codes (Navien E03 flame failure, Rinnai code 11, IBC heat-exchanger overheat), lukewarm output (DHW heat-exchanger scaling), no hot water (gas supply, ignition, control board), and the classic cold-snap frozen-condensate lockout. Diagnose first, then quote. Most repairs finish first visit with common parts on the truck.",
             },
           ],
         },
         {
-          heading: "Why Airdrie tankless installs need attention to specific details",
+          heading: "Tankless vs tank: how to decide",
           intro:
-            "Airdrie's climate, water, and gas infrastructure shape what makes a good install. Knowing the local context separates a good install from a barely-functional one.",
+            "Four sentences that cover most decisions. The honest version of the comparison most marketing pages skip.",
           items: [
             {
-              heading: "Hard water destroys tankless heat exchangers without intervention",
-              body: "Airdrie water hardness (150-200 mg/L — same regional supply as Calgary) scales tankless heat exchangers aggressively. Internal passages are narrow (helps efficiency) and water flows through quickly (helps efficiency) — but those same features mean scale accumulates fast. Without annual descaling, a tankless unit can scale to the point of failure within 5-7 years. With annual descaling + a [water softener](/water-softener-airdrie/), the same unit hits 20+ years routinely.",
+              heading: "Choose tankless if…",
+              body: "You have multiple bathrooms or run back-to-back showers; you're planning to stay 7+ years (the higher install cost amortizes); space is tight and a wall-mounted unit helps; you'll commit to annual descaling and likely a softener.",
             },
             {
-              heading: "Gas line upsize is almost always required",
-              body: "Most existing Airdrie home gas lines are 3/4\" — fine for a 40,000 BTU tank but insufficient for a 200,000+ BTU tankless. Upsizing to 1\" (sometimes 1-1/4\" for larger units or long runs) is part of most retrofit installs. We size the line to the specific tankless model and pull required permits. Done wrong, the unit starves for gas in peak demand and lockouts cascade.",
+              heading: "Choose a tank if…",
+              body: "Upfront budget matters more than 20-year math; you're 3-5 years from selling; you don't want a mandatory maintenance schedule; or your demand pattern is modest enough that a 50-gallon tank with good recovery rate already keeps up.",
             },
             {
-              heading: "Airdrie's −35°C design temp = serious condensate freeze risk",
-              body: "Airdrie is meaningfully colder than Calgary at design temperature (−35°C vs Calgary's −30°C). Condensing tankless produces acidic water condensate that drains through a small PVC line — any section routed through unheated space or exiting outdoors WILL freeze during Airdrie's deep cold snaps. Unit locks out as a safety. Permanent fix: route through heated space + heat trace where outdoor exit is required. Common cold-snap call wave for tankless units installed poorly. We design for −35°C, not Calgary spec.",
+              heading: "Cold-inlet caveat for either choice",
+              body: "Groundwater here is 4°C in mid-winter. Tankless GPM ratings assume a 35°F temperature rise, but reaching 49°C output from a 4°C inlet is roughly an 80°F rise — real-world winter flow is 50-60% of nameplate. A tank's stored 50 gallons doesn't care. We size accordingly; usually that means going one model size up from a generic calculator's recommendation.",
             },
             {
-              heading: "Cold inlet temperature shrinks rated capacity",
-              body: "Tankless GPM ratings assume a specific temperature rise (typically 35°F). Airdrie's 4°C groundwater in winter requires a bigger rise to reach 49°C output (~80°F rise instead of 35°F). Real-world winter flow rate is often 50-60% of nameplate spec. We size to actual Airdrie inlet temps — usually means sizing one model up from what a generic tankless calculator would recommend.",
+              heading: "Hard-water reality decides long-term value",
+              body: "Tankless heat exchangers scale fast on Calgary-regional water — failure inside 5-7 years without intervention. With annual descaling and a softener upstream, 20+ years is realistic and the lifecycle math beats a tank. Without that maintenance commitment, tank is the safer choice.",
+            },
+          ],
+        },
+        {
+          heading: "Local details that shape a good install",
+          intro:
+            "Climate, water, and gas infrastructure decide what makes a good install vs a barely-functional one.",
+          items: [
+            {
+              heading: "Condensate routing for −35°C winters",
+              body: "Design temperature here is colder than Calgary's, so condensate lines need extra care. The small PVC drain on a condensing tankless freezes fast if any section routes through unheated space or exits outdoors without heat trace. We route through heated space and add heat trace where outdoor exit is required.",
             },
             {
               heading: "Power-vent sidewall is the standard",
-              body: "Tankless units vent horizontally through the side wall, not vertically through a chimney. Concentric direct-vent (intake + exhaust in one pipe) or twin-pipe configurations. We position vent terminations per code (clear of windows, fresh-air intakes, and operable openings) and ensure proper slope back to the unit for condensate management.",
+              body: "Tankless units vent horizontally through a sidewall, not vertically through a chimney. Concentric direct-vent (intake and exhaust in one pipe) or twin-pipe configurations. Vent terminations clear of windows, fresh-air intakes, and operable openings per code.",
             },
             {
-              heading: "Build-era housing matters for retrofit complexity",
-              body: "Pre-2000 Airdrie homes (older Coopers Crossing, Big Springs, Meadowbrook, Edwards Landing originals): smaller gas lines, sometimes chimney-vented water heating, more retrofit work to convert. Post-2010 builds (Bayside, Williamstown, Hillcrest, Kings Heights, Chinook Gate): newer infrastructure typically supports tankless retrofit cleanly. Earliest 1990s phases may also have Poly-B supply — worth identifying during the install assessment.",
+              heading: "Build-era matters for retrofit complexity",
+              body: "Pre-2000 homes in older Coopers Crossing, Big Springs, Meadowbrook, and Edwards Landing often need smaller gas lines upsized and may have chimney-vented water heating that needs converting. Post-2010 builds in Bayside, Williamstown, Hillcrest, Kings Heights, and Chinook Gate generally retrofit cleanly. Earliest 1990s phases may also have Poly-B supply — we identify during the assessment. See [Poly-B replacement](/polyb-plumbing-airdrie/).",
             },
             {
-              heading: "Suite applications popular in Airdrie",
-              body: "Basement suites + secondary suites are common in Airdrie's larger lots (especially in older Coopers Crossing + Ravenswood phases). Tankless suits these well: compact wall-mount, no flue requirements with direct-vent, endless hot water for a small footprint. Smaller-capacity tankless models (NPE-A 180 / RU160) suit single-bathroom suites.",
+              heading: "Basement suites are a common fit",
+              body: "Suites in older Coopers Crossing and Ravenswood phases work well with smaller-capacity tankless models (NPE-A 180 or RU160). Compact wall-mount, direct-vent through the sidewall, endless hot water for a single-bathroom suite.",
             },
             {
-              heading: "Local Airdrie dispatch from Coopers Crossing",
-              body: "Most plumbing companies serving Airdrie dispatch from Calgary (typically 30-45 min drive depending on traffic) and sometimes add an out-of-town surcharge. We're genuinely local — Jason's based in Coopers Crossing — so Airdrie response times are short and pricing is the same as anywhere else in our service area.",
+              heading: "Coopers Crossing dispatch",
+              body: "Most companies serving Airdrie drive in from Calgary. Jason's based locally, so response times are short and pricing matches anywhere else in our service area.",
             },
           ],
         },
         {
-          heading: "How a Calgary tankless install actually runs",
+          heading: "How an install runs",
           intro:
-            "Typical 1-2 day install for tank-to-tankless retrofit; new-build install often coordinated with broader plumbing rough-in.",
+            "Typical 1-2 day install for a tank-to-tankless retrofit. New-build installs are coordinated with broader plumbing rough-in.",
           items: [
             {
-              heading: "1. In-home assessment + sizing + brand recommendation",
-              body: "Check household demand profile (fixture count, simultaneous-use pattern, hot-water habit), available wall space for the unit, gas line size + run length, vent termination options, condensate drain options. Recommend brand + size based on the specific install. Run a real GPM calculation against Airdrie winter inlet temps — usually one size up from the marketing-spec recommendation.",
+              heading: "1. In-home assessment and sizing",
+              body: "Check household demand (fixture count, simultaneous use, hot-water habit), available wall space, gas line size and run length, vent termination options, and condensate drain options. Run a real GPM calculation against winter inlet temps.",
             },
             {
-              heading: "2. Tank-vs-tankless honest conversation + written quote",
-              body: "Walk through tank-vs-tankless trade-offs for your specific home and demand pattern. If a tank is the better call, we'll tell you and quote that path instead. If tankless is the right call, written quote covers unit cost, gas line modifications, venting, condensate drain, permits, and removal of old tank. Softener pairing quoted separately as a recommendation.",
+              heading: "2. Written quote with the comparison",
+              body: "Walk through trade-offs for your specific home. If a tank fits better, we quote that instead. If tankless is the right call, the quote covers unit, gas-line work, venting, condensate, permits, and removal of the old tank. Softener pairing is quoted separately as a recommendation.",
             },
             {
-              heading: "3. Gas line + electrical + vent + condensate prep",
-              body: "Permit pull (plumbing + gas). Upsize gas line where required (most retrofits need this). Run new vent path through the wall to terminate at code-required clearances. Route condensate drain through HEATED space (critical in Airdrie −35°C reality) to a floor drain or condensate pump. Run 120V power to the unit location.",
+              heading: "3. Prep work",
+              body: "Pull plumbing and gas permits. Upsize the gas line where required (most retrofits). Run the new vent path through the sidewall to code clearances. Route condensate drain through heated space to a floor drain or condensate pump. Run 120V power to the unit location.",
             },
             {
-              heading: "4. Remove old tank, mount + plumb tankless",
-              body: "Drain and remove old tank, recycle. Mount tankless unit on the wall with manufacturer-required clearances. Connect cold + hot water lines (with isolation valves for future descaling), gas line, condensate drain, vent, electrical, control wiring. If recirculation: install pump + dedicated return line back to the tankless cold-water inlet.",
+              heading: "4. Remove tank, mount and plumb tankless",
+              body: "Drain and recycle the old tank. Mount the tankless on the wall with manufacturer clearances. Connect water lines with isolation valves for future descaling, gas, condensate, vent, electrical, and control wiring. Add the recirculation pump and dedicated return line if recirculation was specified.",
             },
             {
-              heading: "5. Commission + parameter setup",
-              body: "Pressure-test gas line, fill water side and bleed air, power on, set output temperature (typically 49°C — Alberta code recommendation), set unit parameters (recirculation schedule if applicable, high-altitude adjustment if needed). Run a full hot-water draw at the most distant fixture to verify performance + temperature stability.",
+              heading: "5. Commissioning",
+              body: "Pressure-test the gas line, fill the water side and bleed air, power on, set output temperature to 49°C (Alberta code recommendation), configure recirculation schedule and high-altitude adjustment if needed. Run a hot-water draw at the most distant fixture to verify performance.",
             },
             {
-              heading: "6. Walkthrough + registration + inspection",
-              body: "Walk you through: pilot/igniter behavior (modern tankless has electronic ignition — no standing pilot), error code basics (capture + call if displayed), recommended descaling schedule (annually in Airdrie, mandatory for warranty), softener pairing if not done. Register with manufacturer for warranty (Navien 15-year heat exchanger, Rinnai similar — require registration). Schedule code inspection if required.",
+              heading: "6. Walkthrough and warranty registration",
+              body: "Walk through expected behavior (modern tankless uses electronic ignition — no standing pilot), error-code basics, and the annual descaling schedule. Register the unit with the manufacturer for warranty (Navien 15-year heat exchanger, Rinnai similar). Schedule code inspection if required.",
             },
           ],
         },
       ],
       faq: {
-        heading: "Tankless Water Heaters Airdrie — FAQs",
+        heading: "Tankless FAQs",
         items: [
           {
-            q: "Is a tankless water heater worth it in Airdrie?",
-            a: "For some homes, yes. For others, no. Tankless wins on: endless hot water capacity, 20+ year lifespan, space savings, lifecycle operating cost. Tank wins on: lower upfront cost, simpler maintenance (no mandatory descaling), better cold-inlet performance margin in deep winter, less complexity. For Airdrie specifically, the hard-water reality means tankless requires annual descaling + ideally a [water softener](/water-softener-airdrie/) — non-negotiable to keep warranties valid. We walk through the honest comparison before quoting.",
+            q: "Is a tankless water heater worth it here?",
+            a: "Depends on the home. Tankless wins on endless capacity, 20+ year lifespan, space savings, and lifecycle cost. Tank wins on lower upfront cost, simpler maintenance, and a better cold-inlet performance margin. The hard-water reality means tankless requires annual descaling and ideally a softener to keep warranties valid. We walk through the comparison before quoting.",
           },
           {
-            q: "Do you dispatch locally from Airdrie or come from Calgary?",
-            a: "Local from Airdrie. Jason is based in Coopers Crossing so Airdrie service is genuinely local — fast response across every Airdrie neighbourhood (Ravenswood, Reunion, Coopers Crossing, Kings Heights, Williamstown, Bayside, Hillcrest, Chinook Gate, Edwards Landing, Big Springs). No out-of-town surcharge, no Calgary-side drive time.",
+            q: "Are you local, or driving in from Calgary?",
+            a: "Local. Jason lives in [Coopers Crossing](/coopers-crossing-plumbers/), so service across the city is short-response — no Calgary-side drive time and no out-of-town surcharge.",
           },
           {
-            q: "How long does a tankless water heater last in Airdrie?",
-            a: "With annual descaling + a water softener, 20+ years is realistic — and we routinely see Airdrie tankless units hitting that. Without descaling, scale buildup can cause heat exchanger failure within 5-7 years. The longevity advantage over tanks (8-10 year Airdrie average) is genuine, but it depends entirely on annual maintenance.",
+            q: "How long does a tankless last?",
+            a: "With annual descaling and a softener, 20+ years is realistic. Without descaling, the heat exchanger can fail in 5-7 years. The longevity advantage over tanks (8-10 year average locally) depends entirely on the maintenance commitment.",
           },
           {
-            q: "Which tankless brand is best for Airdrie?",
-            a: "Navien NPE-A is the most common install — reliable, well-supported by Calgary/Airdrie regional parts distributors, strong 15-year heat exchanger warranty when registered + descaled annually. Rinnai RU/RUR is a premium alternative, quieter, slightly higher cost. IBC SL is the right call when combi (heat + DHW) is needed. We pick based on the specific install, not a single dealer relationship.",
+            q: "Which brand is best?",
+            a: "Navien NPE-A is the workhorse — reliable, well-supported by regional parts distributors, strong warranty when registered and maintained. Rinnai RU/RUR is the premium alternative, quieter, slightly higher cost. IBC SL is the right call when combi (space heating + hot water from one unit) is needed.",
           },
           {
-            q: "Do I need to descale my tankless every year in Airdrie?",
-            a: "Yes — non-negotiable. Airdrie shares Calgary's hard water (150-200 mg/L) which scales tankless heat exchangers aggressively because of the narrow internal passages. Annual descaling is REQUIRED to keep manufacturer warranties valid. Without it, you'll see capacity loss, error codes, and eventual heat exchanger failure within 5-7 years. We carry descaler kits on every tankless service call.",
+            q: "Do I really need to descale every year?",
+            a: "Yes. The hard-water profile here is rough on tankless heat exchangers — without descaling, expect capacity loss, error codes, and eventual failure inside 5-7 years. We carry descaler kits on every tankless service call.",
           },
           {
-            q: "Will my existing gas line support a tankless?",
-            a: "Usually no — most existing Airdrie home gas lines are 3/4\" sized for tank water heaters. Tankless units typically need 200,000+ BTU input (vs ~40,000 for a tank), which requires upsizing to 1\" (sometimes 1-1/4\" for larger units or long runs from the meter). Gas line upsize is part of most retrofit installs — we size correctly and pull permits.",
+            q: "Will my existing gas line work?",
+            a: "Usually no. Most homes here have 3/4\" lines sized for a 40,000 BTU tank — a tankless typically needs 200,000+ BTU, which means upsizing to 1\" (sometimes 1-1/4\" for larger units or long runs). Gas-line upsize is part of most retrofits. We size correctly and pull permits.",
           },
           {
-            q: "Why does my Airdrie tankless lock out during deep cold snaps?",
-            a: "Almost always frozen condensate line. Condensing tankless produces acidic water condensate that drains through a small PVC line. In Airdrie's −35°C design temperature, any section of this line routed through unheated space or exiting outdoors WILL freeze — unit locks out as a safety. Permanent fix: reroute through heated space + heat trace where outdoor exit is required. Common cold-snap repair we do across Airdrie.",
+            q: "Why does my tankless lock out in deep cold?",
+            a: "Almost always a frozen condensate line. The acidic condensate drain on a condensing tankless freezes fast if any section routes through unheated space or exits outdoors. Permanent fix: reroute through heated space and add heat trace where outdoor exit is required.",
           },
           {
-            q: "Should I get a water softener with my tankless in Airdrie?",
-            a: "Strongly recommended. Airdrie's hard water (150-200 mg/L) is the #1 cause of premature tankless failure. A [water softener](/water-softener-airdrie/) upstream of the tankless dramatically reduces mineral load through the heat exchanger, extends life from 10-12 years (no softener, descaled) to 20+ years (softened + descaled), and protects every other water-using appliance + fixture in the home. The math on softener payback over a tankless lifecycle is strongly positive.",
+            q: "Should I get a softener with the install?",
+            a: "Strongly recommended — hard water is the leading cause of premature tankless failure. A properly-sized softener upstream extends life from 10-12 years (descaled only) to 20+ years (softened and descaled), and protects every other water-using appliance. See [softener pairing](/water-softener-airdrie/).",
           },
           {
-            q: "How much does tankless installation cost in Airdrie?",
-            a: "Higher than tank install — typically 2-3x depending on gas line upsizing, vent complexity, condensate routing, and brand. We quote in writing after the in-home assessment so you see the full cost upfront. Sometimes a tank is the better economic answer if budget is tight; we'll tell you so. Monthly financing available via Financeit for full installs.",
+            q: "What does tankless installation cost?",
+            a: "Typically 2-3x a comparable tank install, depending on gas-line upsizing, vent complexity, and condensate routing. We quote in writing after the assessment. If a tank is the better economic answer for your situation, we'll tell you. Monthly financing available via Financeit.",
           },
           {
-            q: "Can I retrofit a tankless into my existing Airdrie home?",
-            a: "Almost always yes, with caveats. Pre-2000 Airdrie homes often need: gas line upsize, new sidewall vent path, condensate drain run, electrical run if no existing 120V at the location. Post-2010 builds (Bayside, Williamstown, Kings Heights, Chinook Gate) typically retrofit cleanly with less infrastructure work. We assess in-home and quote the full scope upfront — no surprise costs mid-install.",
+            q: "Can I retrofit a tankless into my existing home?",
+            a: "Almost always yes, with caveats. Pre-2000 homes typically need gas-line upsize, a new sidewall vent path, condensate drain run, and sometimes electrical work. Post-2010 builds generally retrofit cleanly. We assess in-home and quote the full scope upfront.",
           },
           {
-            q: "What's a combi unit? Should I consider one?",
-            a: "Combi units (IBC SL, Navien NCB, others) heat BOTH your domestic hot water AND your house's space heating from a single appliance — replaces separate tank + boiler. Best for: homes with modest heat-load, basement suites, mechanical-room-constrained installs. Airdrie hard water hits the DHW heat exchanger especially hard, so annual descaling + softener pairing are critical.",
+            q: "What's a combi unit?",
+            a: "Combi units heat both domestic hot water and the home's space heating from a single appliance — replacing a separate tank and boiler. Best fit for homes with modest heat-load, basement suites, and mechanical-room-constrained installs. The hot-water heat exchanger sees the same hard-water exposure as the rest of the system, so annual descaling matters.",
           },
           {
-            q: "Are you available for emergency tankless repair in Airdrie?",
-            a: "Yes — no hot water gets same-day dispatch. Real person on the phone, we'll triage based on the error code and confirm a window. Local Airdrie dispatch from Coopers Crossing means short response times. Most diagnoses finish in 30 minutes; many tankless repairs (heat exchanger descale, flow sensor swap, igniter, control board) finish first visit with common parts on the truck.",
+            q: "Are you available for emergency repair?",
+            a: "Yes. No hot water gets same-day dispatch. Real person on the phone — we'll triage from the error code and confirm a window. Most diagnoses finish in 30 minutes; many repairs (descale, flow sensor, igniter, control board) finish first visit with common parts on the truck.",
           },
         ],
       },

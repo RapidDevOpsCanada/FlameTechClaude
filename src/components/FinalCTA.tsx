@@ -1,6 +1,12 @@
 import Icon from "@/components/Icon";
 
-export default function FinalCTA() {
+/**
+ * Optional city prop interpolates into the H2 — e.g. "Book a Red Seal
+ * plumber in Airdrie." on /tankless-water-heaters-airdrie/. Default is
+ * "Calgary" so unchanged callers (about/, blog/, financing/, etc.)
+ * render exactly as before.
+ */
+export default function FinalCTA({ city = "Calgary" }: { city?: string } = {}) {
   return (
     <section className="relative bg-ink-800 text-cream-50 py-20 md:py-28 overflow-hidden border-t border-line-dark">
       <div className="absolute inset-0 dotgrid opacity-40 pointer-events-none"></div>
@@ -11,7 +17,7 @@ export default function FinalCTA() {
           Ready when you are
         </span>
         <h2 className="font-display text-4xl md:text-5xl xl:text-6xl font-extrabold tracking-[-0.03em] mt-6 mb-5 leading-[1.02]">
-          Book a Red Seal plumber in Calgary.
+          Book a Red Seal plumber in {city}.
         </h2>
         <p className="text-cream-50/80 max-w-xl mx-auto text-lg leading-relaxed mb-10">
           Free estimates, upfront pricing, and a satisfaction guarantee — local

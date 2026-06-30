@@ -15,7 +15,7 @@ import Icon from "@/components/Icon";
  * "all areas" CTA catches users whose specific neighbourhood isn't
  * listed.
  */
-const FEATURED_AREAS: { name: string; href: string }[] = [
+const CALGARY_AREAS: { name: string; href: string }[] = [
   { name: "Aspen Woods", href: "/aspen-woods-plumbers-calgary/" },
   { name: "Auburn Bay", href: "/auburn-bay-plumber-calgary/" },
   { name: "Mahogany", href: "/mahogany-plumbers-calgary/" },
@@ -26,6 +26,17 @@ const FEATURED_AREAS: { name: string; href: string }[] = [
   { name: "McKenzie Towne", href: "/mckenzie-towne-plumbers-calgary/" },
   { name: "Signal Hill", href: "/signal-hill-plumbers-calgary/" },
   { name: "Airdrie", href: "/airdrie-plumbers/" },
+];
+
+// Airdrie-area pages whose routes exist in services.ts. Plain-text
+// areas without dedicated pages (Kings Heights, Williamstown, Bayside,
+// Chinook Gate, Hillcrest, Edwards Landing, Big Springs) get a single
+// "rest of Airdrie" link to /airdrie-plumbers/ rather than dead links.
+const AIRDRIE_AREAS: { name: string; href: string }[] = [
+  { name: "Coopers Crossing", href: "/coopers-crossing-plumbers/" },
+  { name: "Ravenswood", href: "/ravenswood-plumbers-airdrie/" },
+  { name: "Reunion", href: "/reunion-plumbers-airdrie/" },
+  { name: "Airdrie (all neighbourhoods)", href: "/airdrie-plumbers/" },
 ];
 
 /**
@@ -41,7 +52,26 @@ export function isNeighbourhoodSlug(slug: string): boolean {
   return /(?:^|-)plumbers?(?:-|$)/.test(slug);
 }
 
-export default function WhereWeServe({ serviceTitle }: { serviceTitle: string }) {
+export default function WhereWeServe({
+  serviceTitle,
+  city = "Calgary",
+}: {
+  serviceTitle: string;
+  city?: string;
+}) {
+  // Airdrie-located service pages get Airdrie neighbourhoods instead
+  // of Calgary ones, and a city-specific sub-headline.
+  const featured = city === "Airdrie" ? AIRDRIE_AREAS : CALGARY_AREAS;
+  const otherAreasLine =
+    city === "Airdrie" ? (
+      <>
+        Also covering nearby <Link href="/chestermere-plumbers/" className="underline decoration-primary/40 underline-offset-4 hover:decoration-primary hover:text-primary transition-colors">Chestermere</Link>, <Link href="/cochrane-plumbers/" className="underline decoration-primary/40 underline-offset-4 hover:decoration-primary hover:text-primary transition-colors">Cochrane</Link>, and <Link href="/carstairs-plumbers/" className="underline decoration-primary/40 underline-offset-4 hover:decoration-primary hover:text-primary transition-colors">Carstairs</Link>.
+      </>
+    ) : (
+      <>
+        Also serving <Link href="/chestermere-plumbers/" className="underline decoration-primary/40 underline-offset-4 hover:decoration-primary hover:text-primary transition-colors">Chestermere</Link>, <Link href="/cochrane-plumbers/" className="underline decoration-primary/40 underline-offset-4 hover:decoration-primary hover:text-primary transition-colors">Cochrane</Link>, <Link href="/okotoks-plumbers/" className="underline decoration-primary/40 underline-offset-4 hover:decoration-primary hover:text-primary transition-colors">Okotoks</Link>, and <Link href="/carstairs-plumbers/" className="underline decoration-primary/40 underline-offset-4 hover:decoration-primary hover:text-primary transition-colors">Carstairs</Link>.
+      </>
+    );
   return (
     <section className="bg-ink-900 text-cream-50 py-16 md:py-20 border-t border-line-dark">
       <div className="max-w-7xl mx-auto px-6 md:px-10">
@@ -49,17 +79,17 @@ export default function WhereWeServe({ serviceTitle }: { serviceTitle: string })
           <div className="col-span-12 md:col-span-4">
             <span className="eyebrow mb-4">Service Area</span>
             <h2 className="font-display text-3xl md:text-4xl font-extrabold tracking-[-0.02em] mt-4 mb-4 leading-[1.05]">
-              Where we cover {serviceTitle.toLowerCase()}.
+              Where we cover {city}.
             </h2>
             <p className="text-cream-50/80 leading-relaxed">
-              Same-day dispatch across Calgary and Airdrie. Find your
-              neighbourhood for area-specific notes on common
-              builds, hard-water patterns, and the systems we see most.
+              {city === "Airdrie"
+                ? "Local dispatch from Coopers Crossing across every Airdrie neighbourhood. Find your area for build-era notes, hard-water patterns, and the systems we see most."
+                : "Same-day dispatch across Calgary and Airdrie. Find your neighbourhood for area-specific notes on common builds, hard-water patterns, and the systems we see most."}
             </p>
           </div>
           <div className="col-span-12 md:col-span-8">
             <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
-              {FEATURED_AREAS.map((a) => (
+              {featured.map((a) => (
                 <Link
                   key={a.href}
                   href={a.href}
@@ -75,9 +105,7 @@ export default function WhereWeServe({ serviceTitle }: { serviceTitle: string })
                 </Link>
               ))}
             </div>
-            <p className="mt-5 text-sm text-cream-50/70">
-              Also serving <Link href="/chestermere-plumbers/" className="underline decoration-primary/40 underline-offset-4 hover:decoration-primary hover:text-primary transition-colors">Chestermere</Link>, <Link href="/cochrane-plumbers/" className="underline decoration-primary/40 underline-offset-4 hover:decoration-primary hover:text-primary transition-colors">Cochrane</Link>, <Link href="/okotoks-plumbers/" className="underline decoration-primary/40 underline-offset-4 hover:decoration-primary hover:text-primary transition-colors">Okotoks</Link>, and <Link href="/carstairs-plumbers/" className="underline decoration-primary/40 underline-offset-4 hover:decoration-primary hover:text-primary transition-colors">Carstairs</Link>.
-            </p>
+            <p className="mt-5 text-sm text-cream-50/70">{otherAreasLine}</p>
           </div>
         </div>
       </div>
