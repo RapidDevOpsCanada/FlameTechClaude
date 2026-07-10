@@ -74,6 +74,7 @@ const airdrieLinks = [
   { label: "Air Conditioning", href: "/air-conditioning-airdrie/" },
   { label: "Boilers Airdrie", href: "/boilers-airdrie/" },
   { label: "Boiler Installation", href: "/boiler-installation-airdrie/" },
+  { label: "Boiler Repair", href: "/boiler-repair-airdrie/" },
   { label: "Drain Cleaning", href: "/drain-cleaning-airdrie/" },
   { label: "Heat Pumps Airdrie", href: "/heat-pumps-airdrie/" },
   { label: "Hot Water Tanks", href: "/hot-water-tanks-airdrie/" },

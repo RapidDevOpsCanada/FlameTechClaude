@@ -7265,7 +7265,7 @@ export const services: ServicePage[] = [
     lead:
       "Alberta winters demand dependable heating systems, and choosing the right boiler installation makes all the difference in your home's comfort and energy costs. At FlameTech Plumbing & Heating, we bring specialized expertise to Airdrie homeowners looking for efficient, reliable boiler solutions.",
     heroBody: [
-      "From professional new installations to [emergency boiler repair](/boiler-repair-calgary/) and preventative [maintenance programs](/boiler-service-calgary/), our certified technicians deliver heating solutions that keep your family warm through even the coldest months. Same team that handles [Calgary boiler installation](/boiler-installation-calgary/) and [boilers in Airdrie](/boilers-airdrie/) more broadly.",
+      "From professional new installations to [emergency boiler repair](/boiler-repair-airdrie/) and preventative [maintenance programs](/boiler-service-calgary/), our certified technicians deliver heating solutions that keep your family warm through even the coldest months. Same team that handles [Calgary boiler installation](/boiler-installation-calgary/) and [boilers in Airdrie](/boilers-airdrie/) more broadly.",
       "We install and maintain every major boiler type for Airdrie properties — high-efficiency condensing boilers from [Navien](https://www.navieninc.com/), [Viessmann](https://www.viessmann.ca/), and [IBC](https://ibcboiler.com/), plus combi units that deliver radiant heating and endless domestic hot water from a single compact appliance. Also serving [Airdrie plumbing](/airdrie-plumbers/) and [furnace repair](/airdrie-furnace-repairs/).",
     ],
     heroSubhead: "Your Trusted Airdrie Boiler Installation Experts",
@@ -7389,7 +7389,7 @@ export const services: ServicePage[] = [
     lead:
       "Airdrie's rapid growth means thousands of homes rely on boilers for radiant heat and domestic hot water. Our crew at FlameTech has serviced boilers across Airdrie neighborhoods since these communities started filling up in the 2000s. We know which builder-grade boilers are failing first and which systems will give you another decade of reliable service.",
     heroBody: [
-      "When your boiler dies on a −35°C morning, you need someone who answers the phone — not a voicemail. We're available with priority [emergency boiler repair](/boiler-repair-calgary/) and can usually get to most Airdrie homes within the hour. Need a full system? See [boiler installation in Airdrie](/boiler-installation-airdrie/).",
+      "When your boiler dies on a −35°C morning, you need someone who answers the phone — not a voicemail. We're available with priority [emergency boiler repair in Airdrie](/boiler-repair-airdrie/) and can usually get to most Airdrie homes within the hour. Need a full system? See [boiler installation in Airdrie](/boiler-installation-airdrie/).",
       "Most heating contractors in Airdrie focus on forced air furnaces. Boilers are different animals — they need technicians who understand water pressure, circulation pumps, expansion tanks, and zone controls. Our trucks carry boiler-specific parts that most shops don't stock. Same crew handles [Calgary boilers](/boilers/), [boiler service](/boiler-service-calgary/), and [Airdrie plumbing](/airdrie-plumbers/) more broadly.",
     ],
     heroSubhead: "Trusted Airdrie Boilers Experts",
@@ -7499,6 +7499,235 @@ export const services: ServicePage[] = [
           { q: "Do I need annual boiler maintenance?", a: "Yes — annual maintenance prevents 90% of mid-winter breakdowns and maintains efficiency. We clean the heat exchanger, test safety controls, check combustion, and inspect all system components. Boiler repairs caught early cost hundreds instead of thousands." },
         ],
       },
+    },
+  },
+
+  {
+    slug: "boiler-repair-airdrie",
+    category: "Heating",
+    location: "Airdrie",
+    icon: "handyman",
+    title: "Boiler Repair Airdrie | Same-Day Diagnosis, Heat Back On",
+    lead:
+      "When an Airdrie boiler quits, it usually quits on the coldest morning of the year. FlameTech's hydronic crew diagnoses the actual fault — not the symptom — and carries the parts to fix most failures on the first visit.",
+    heroBody: [
+      "Boilers fail differently than furnaces. Pressure loss, a seized circulator, a frozen condensate line, a zone valve that stopped opening — these need a technician who works the water side of a heating system, not one who mainly swaps furnace filters. We've been on Airdrie boilers for two decades, from cast iron units in [Ravenswood](/ravenswood-plumbers-airdrie/) to the builder-grade condensing boilers that went into [Coopers Crossing](/coopers-crossing-plumbers/) and [Reunion](/reunion-plumbers-airdrie/) during the 2000s build wave — the ones now hitting the age where control boards and heat exchangers start letting go.",
+      "A real person answers the phone, and no-heat calls jump the queue during a cold snap. We diagnose first, hand you a written quote, and only then pick up a wrench. Need a new system rather than a fix? See [boiler installation in Airdrie](/boiler-installation-airdrie/). Want the full picture? Start at [boilers in Airdrie](/boilers-airdrie/), or see [furnace repair](/airdrie-furnace-repairs/) and [Airdrie plumbing](/airdrie-plumbers/).",
+    ],
+    heroSubhead: "Airdrie's Boiler Repair Specialists",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: {
+      src: "/images/2026/02/Boiler15-1.webp",
+      alt: "FlameTech technician repairing a boiler in an Airdrie home",
+      fit: "cover",
+    },
+    intro:
+      "Boiler repair in Airdrie — no-heat diagnosis, pressure loss, circulator pumps, zone valves, ignition faults, and heat exchanger service. All brands, priority dispatch, written quote before work starts.",
+    features: [
+      "No-heat emergency diagnosis",
+      "Circulator pump replacement",
+      "Pressure loss & expansion tanks",
+      "Ignition & flame sensor faults",
+      "Zone valve & control repair",
+      "Frozen condensate line clearing",
+    ],
+    bullets: [
+      {
+        t: "Hydronic specialists, not generalists",
+        d: "Twenty years on the water side — pumps, expansion tanks, zone controls, and pressure faults that most forced-air shops send back out the door.",
+      },
+      {
+        t: "Boiler parts on the truck",
+        d: "Circulators, pressure relief valves, aquastats, zone valves, and sensors for the brands actually installed across Airdrie — so most repairs finish the same visit.",
+      },
+    ],
+    seoTitle: "Boiler Repair Airdrie | Priority Emergency Service",
+    seoDescription:
+      "Boiler repair in Airdrie by hydronic specialists. No-heat diagnosis, pressure loss, pump and zone valve faults. All brands. Written quote first. Call 587-834-3668.",
+    seoKeywords: [
+      "boiler repair Airdrie",
+      "emergency boiler repair Airdrie",
+      "no heat Airdrie",
+      "boiler losing pressure Airdrie",
+      "circulation pump repair Airdrie",
+      "FlameTech Plumbing Heating",
+    ],
+    quoteFormLabel: "Airdrie boiler repair",
+    quoteFormPlaceholder:
+      "e.g. boiler locked out with an error code, pressure keeps dropping, radiators cold upstairs, banging on startup…",
+    sidebar: {
+      title: "Airdrie Boiler Repair",
+      subtitle:
+        "Priority no-heat dispatch and same-visit repairs on every boiler system in Airdrie — cast iron through condensing.",
+      bullets: [
+        "Every major brand serviced",
+        "Trucks stocked for same-visit repair",
+        "Written quote before any work",
+        "No after-hours surcharges",
+      ],
+    },
+    stats: [
+      { number: "20+", label: "Years on boilers", icon: "verified" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "FREE", label: "Written estimates", icon: "request_quote" },
+      { number: "ANY", label: "Brand serviced", icon: "check_circle" },
+    ],
+    callout:
+      "Smell gas, see water pooling under the boiler, or hear banging from the unit? Shut it off at the switch and call 587-834-3668 right away.",
+    timeline: {
+      heading: "How an Airdrie boiler repair call goes",
+      intro:
+        "No mystery, no surprise invoice. Four steps from the phone call to heat back on.",
+      steps: [
+        {
+          icon: "call",
+          title: "Phone triage",
+          body: "A technician — not a call centre — walks you through the pressure gauge, the fault code, and whether it's safe to leave the boiler running. Sometimes we solve it on the phone. If not, we know which parts to load before the truck leaves.",
+        },
+        {
+          icon: "handyman",
+          title: "On-site diagnosis",
+          body: "We test rather than guess: system pressure hot and cold, circulator operation, expansion tank charge, flame signal, zone valve response, and the condensate path. The goal is the root cause, not the symptom that tripped the lockout.",
+        },
+        {
+          icon: "request_quote",
+          title: "Written quote, then work",
+          body: "You get the fault explained in plain English and a written price before anything is replaced. If the honest answer is that the boiler is past saving, we say so and price both paths — repair and replacement — side by side.",
+        },
+        {
+          icon: "verified",
+          title: "Repair and recommission",
+          body: "Part goes in, system gets purged of air and repressurized, and we run the boiler through a full heat cycle with a combustion check before we pack up. Cold radiators get bled and verified warm.",
+        },
+      ],
+    },
+    richContent: {
+      sections: [
+        {
+          heading: "Boiler Repairs We Handle in Airdrie",
+          intro:
+            "Most heating contractors in Airdrie are forced-air shops. A boiler is a pressurized water system with a gas appliance attached, and the failures live on the water side as often as the fire side. These are the repairs we run most weeks.",
+          items: [
+            {
+              heading: "Circulator Pump Failure",
+              body: "A seized or failed circulator means the boiler fires but no heat reaches the radiators or in-floor loops. We carry replacement pumps for the Grundfos, Taco, and Bell & Gossett models common in Airdrie homes, and we check whether the pump failed on its own or because something upstream — air, sediment, a stuck valve — killed it.",
+            },
+            {
+              heading: "Pressure Loss & Expansion Tanks",
+              body: "Cold system pressure should sit around 12–15 PSI. If you're topping it up every few weeks, you have a leak, a waterlogged expansion tank, or a pressure relief valve that's weeping. We pressure-test to find the real cause instead of refilling the gauge until you call again — repeated refilling pulls fresh oxygenated water into the loop and corrodes it from the inside.",
+            },
+            {
+              heading: "Ignition & Flame Sensor Faults",
+              body: "Boilers that lock out on repeated ignition failure usually have a dirty flame sensor, a failing igniter, a gas valve drifting out of spec, or a combustion air problem. We diagnose with a combustion analyzer rather than swapping parts until something sticks.",
+            },
+            {
+              heading: "Zone Valve & Control Repair",
+              body: "Thermostat calls for heat, boiler fires, and one floor stays cold — that's almost always a zone valve or its end switch. We diagnose and repair Honeywell and Taco zone systems, aquastats, and outdoor reset controls.",
+            },
+            {
+              heading: "Heat Exchanger Service",
+              body: "Airdrie's hard water leaves scale on the exchanger, which creates hot spots, kettling noise, and steadily worse gas bills. We chemically descale where the exchanger is sound, and we tell you honestly when it's cracked and no longer worth flushing.",
+            },
+            {
+              heading: "Frozen Condensate Lines",
+              body: "High-efficiency boilers drain acidic condensate through a small plastic line. When that line runs through an unheated space or exits outdoors, a hard Airdrie cold snap can freeze it and lock the boiler out on a safety. We clear it, then reroute or heat-trace the run so it doesn't happen again next February.",
+            },
+          ],
+        },
+        {
+          heading: "Symptoms Airdrie Homeowners Call Us About",
+          intro:
+            "Boilers rarely fail without warning. These are the signs worth acting on before the system quits entirely — most of them are cheaper to fix in October than in January.",
+          items: [
+            { body: "No heat at all, or the boiler locks out and displays an error code on the front panel. Photograph the code before you call — it tells us which part failed and lets us bring it on the first trip." },
+            { body: "Pressure dropping below roughly 12 PSI on a cold system, week after week, no matter how often you top it up." },
+            { body: "Banging, rumbling, or kettling on startup — usually mineral scale on the heat exchanger or trapped air in the loop. Our guide on [boiler popping noises](/blog/boiler-popping-noises) walks through the causes." },
+            { body: "Radiators cold on the upper floor while the main floor overheats — circulation or zone control, not a thermostat problem." },
+            { body: "Water pooling or staining under the boiler. Could be a loose fitting; could be a cracked exchanger. Worth a look either way." },
+            { body: "The boiler keeps turning itself off after a few minutes of running. See [why a boiler keeps turning off](/blog/why-does-my-boiler-keep-turning-off) for the usual suspects." },
+            { body: "Gas bills climbing while the house feels the same or cooler — declining combustion efficiency from a dirty exchanger or an out-of-spec gas valve." },
+          ],
+        },
+        {
+          heading: "Why Airdrie Boilers Fail the Way They Do",
+          intro:
+            "Airdrie sits on open prairie north of Calgary — colder and windier than the city, with the same mineral-heavy water. That combination puts specific, predictable stresses on a hydronic system.",
+          items: [
+            { body: "Wind exposure on open lots drives heat loss higher than the equivalent Calgary house, so Airdrie boilers run longer duty cycles and their circulators, igniters, and gas valves accumulate wear faster." },
+            { body: "Mineral scale from hard water settles on the heat exchanger, creating the hot spots that cause kettling and, left long enough, stress cracks. It also clogs the narrow passages inside condensing exchangers." },
+            { body: "Condensate drain lines freeze during extended cold, tripping safety lockouts on high-efficiency units — the single most common no-heat call we take in deep winter." },
+            { body: "Expansion tanks lose their air charge and waterlog, which shows up as pressure swinging wildly between cold and running, and eventually as a weeping pressure relief valve." },
+            { body: "The condensing boilers installed across Airdrie's 2000s subdivisions are now fifteen-plus years old. Control boards, sensors, and pumps are reaching the end of their service life more or less on schedule." },
+            { body: "Rapid cycling from an oversized boiler — common in builder installs where the unit was specified generously rather than calculated — wears components far faster than steady operation would." },
+          ],
+        },
+        {
+          heading: "Repair It, or Replace It?",
+          intro:
+            "We'd rather tell you the truth than sell you a repair that buys three months. Here's the framework we use on every Airdrie call, and we'll walk you through the math on both options before you decide.",
+          items: [
+            { body: "Under about 12 years old with a single failed component: repair, almost always. A circulator, an igniter, or an expansion tank on an otherwise healthy boiler is straightforward work and the system has years left in it." },
+            { body: "Past 15 years with repeat failures in one heating season: the pattern matters more than any single part. When a boiler starts failing in different places, it's telling you the whole system is at end of life." },
+            { body: "A cracked heat exchanger is a replacement, not a repair. So is a boiler that's failing combustion tests it used to pass, with no correctable cause." },
+            { body: "An older standard-efficiency boiler swapped for a modern condensing unit cuts gas consumption meaningfully over an Airdrie heating season — worth weighing against the cost of keeping the old one limping. See [boiler installation in Airdrie](/boiler-installation-airdrie/) for what a replacement involves." },
+            { body: "If the boiler is sound and the problem is neglect, the fix is [annual boiler service](/boiler-service-calgary/), not new equipment. We'll say so." },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Airdrie Boiler Repair — Frequently Asked",
+        intro:
+          "Straight answers on timing, brands, and whether your boiler is worth saving. Don't see your question? Call 587-834-3668 and we'll talk it through with no pressure.",
+        items: [
+          {
+            q: "How much does boiler repair cost in Airdrie?",
+            a: "It depends entirely on which part failed, and we won't guess at a number over the phone. We diagnose the fault on site, then give you a free written estimate before any work starts — so the price you agree to is the price you pay. If the repair doesn't make financial sense against replacement, we'll tell you that too and quote both.",
+          },
+          {
+            q: "Can you come out today?",
+            a: "For most no-heat calls during business hours, yes. Boiler failures during a cold snap route ahead of scheduled work, and we cover Airdrie, Calgary, Chestermere, Cochrane, and Okotoks. Call first — we confirm a window before the truck leaves.",
+          },
+          {
+            q: "Do you charge extra for after-hours or weekend calls?",
+            a: "No after-hours surcharges. A boiler that dies at 9pm on a Saturday costs the same to fix as one that dies at 10am on a Tuesday.",
+          },
+          {
+            q: "My boiler keeps losing pressure — what's actually wrong?",
+            a: "Three usual causes: a slow leak somewhere on the loop, an expansion tank that has lost its air charge, or a pressure relief valve that's stuck weeping. Airdrie's hard water and freeze-thaw swings accelerate all three. We pressure-test the system and fix the cause rather than topping up the gauge. Our article on [why boilers lose pressure](/blog/boiler-losing-pressure-causes) covers the diagnostics in detail.",
+          },
+          {
+            q: "Which boiler brands do you repair?",
+            a: "All of them. Navien, IBC, Viessmann, NTI, Lochinvar, Triangle Tube, Weil-McLain, Slant/Fin, plus older Burnham, Buderus, and heritage cast iron. If it's gas-fired and it's in Airdrie, we've worked on one.",
+          },
+          {
+            q: "How long does a typical repair take?",
+            a: "Most diagnostic calls and common part replacements — circulators, sensors, igniters, expansion tanks, zone valves — are same-visit and wrap up in one to three hours. A control board swap or heat exchanger work can run to a half day. Our trucks carry boiler-specific parts, so a return trip is the exception.",
+          },
+          {
+            q: "Is there anything I should check before calling?",
+            a: "Three things, and any of them might save you a service call. Check the pressure gauge — below roughly 12 PSI cold and the boiler won't fire. Press the reset button once and wait a minute; if it locks out again immediately, stop, because it's locking out for a real reason. And confirm the thermostat is on HEAT with fresh batteries and the boiler's breaker hasn't tripped. If none of that works, it's a component failure and that's our call. Our [boiler not working](/boiler-not-working-calgary/) page has the full walkthrough.",
+          },
+          {
+            q: "Do you repair boilers in Calgary too?",
+            a: "Yes — the same crew and the same trucks. See [boiler repair in Calgary](/boiler-repair-calgary/) if that's where your system lives.",
+          },
+        ],
+      },
+    },
+    portfolio: {
+      eyebrow: "Boilers we've fixed",
+      heading: "Repairs that put the heat back on.",
+      intro:
+        "A few of the boiler systems we've diagnosed and repaired around Airdrie and the surrounding area — condensing units, combis, and heritage cast iron, all running again.",
+      items: [
+        { src: "/images/2026/04/Boiler.webp", alt: "Repaired high-efficiency boiler back in service in an Airdrie home" },
+        { src: "/images/2026/04/Boiler2.webp", alt: "Wall-hung boiler after control board replacement" },
+        { src: "/images/2026/04/Boiler6.webp", alt: "Condensing boiler repair — condensate line cleared and rerouted" },
+        { src: "/images/2026/04/Boiler7.webp", alt: "Boiler piping re-worked after a freeze failure" },
+        { src: "/images/2026/04/Boiler14.webp", alt: "Boiler back online after circulator pump replacement" },
+        { src: "/images/2026/04/Boiler19.webp", alt: "Boiler with expansion tank and air separator renewed" },
+        { src: "/images/2026/04/Combination-boiler.webp", alt: "Combi boiler repaired — heat and hot water restored" },
+      ],
     },
   },
 
