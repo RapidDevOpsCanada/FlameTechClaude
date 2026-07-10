@@ -54,6 +54,7 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
   "boiler-installation-airdrie": "Heating",
   "boiler-repair-airdrie": "Heating",
   "boilers-airdrie": "Heating",
+  "garage-heaters-airdrie": "Heating",
   "heat-pumps-airdrie": "Heating",
   "hot-water-tanks-airdrie": "Water",
   "tankless-water-heaters-airdrie": "Water",

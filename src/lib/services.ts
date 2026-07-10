@@ -4141,7 +4141,7 @@ export const services: ServicePage[] = [
     heroBody: [
       "Three install scenarios drive most calls: (1) homeowner upgrading a hobby/workshop garage that's never had heat, (2) replacing an aging garage heater that's lost capacity or efficiency, or (3) building out a new garage / addition and speccing the right heater from the start. We work in [Aspen Woods](/aspen-woods-plumbers-calgary/) garages with 20-foot ceilings and cramped 1960s [Altadore](/altadore-plumbers-calgary/) single-car attached garages — different garages need different heaters and we recommend honestly.",
       "Same Alberta-licensed gas fitters + electricians that handle our [furnace](/furnaces/), [boiler](/boilers/), and broader heating work. Garage heaters share gas, venting, and electrical fundamentals with home heating systems — proper install is the difference between a unit that lasts 20 years and one that fails in 5. We pull permits, schedule inspections, and document the install so warranties stay valid.",
-      "Same-day dispatch for garage heater failures in winter cold snaps — workshops shut down when the heater quits in February. Coverage includes Calgary, [Airdrie](/airdrie-plumbers/), [Cochrane](/cochrane-plumbers/), and surrounding. Call 587-834-3668 for a free in-home assessment.",
+      "Same-day dispatch for garage heater failures in winter cold snaps — workshops shut down when the heater quits in February. Coverage includes Calgary, [Airdrie](/garage-heaters-airdrie/), [Cochrane](/cochrane-plumbers/), and surrounding. Call 587-834-3668 for a free in-home assessment.",
     ],
     heroSubhead: "Forced-Air Gas, Radiant Tube + Electric Garage Heaters",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
@@ -4348,7 +4348,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "Do you install garage heaters outside Calgary?",
-            a: "Yes — we dispatch to [Airdrie](/airdrie-plumbers/), [Cochrane](/cochrane-plumbers/), [Chestermere](/chestermere-plumbers/), [Okotoks](/okotoks-plumbers/), and surrounding communities. Same crew, same install standards, same warranty support. No \"out of service area\" surcharge for these communities.",
+            a: "Yes — we dispatch to [Airdrie](/garage-heaters-airdrie/), [Cochrane](/cochrane-plumbers/), [Chestermere](/chestermere-plumbers/), [Okotoks](/okotoks-plumbers/), and surrounding communities. Same crew, same install standards, same warranty support. No \"out of service area\" surcharge for these communities.",
           },
         ],
       },
@@ -7959,6 +7959,260 @@ export const services: ServicePage[] = [
           {
             q: "Are you available for emergency heat pump repair in Airdrie?",
             a: "Yes — no heat in winter or no cooling during a heat wave gets priority dispatch. Real person answers the phone, we'll confirm a window before the truck rolls. Same crew that handles our [no heat](/no-heat-issues-calgary/) and [furnace repair](/airdrie-furnace-repairs/) work. Most no-heat calls finish first visit; brand-specific control boards sometimes need overnight parts.",
+          },
+        ],
+      },
+    },
+  },
+
+  {
+    slug: "garage-heaters-airdrie",
+    category: "Heating",
+    location: "Airdrie",
+    icon: "garage",
+    title: "Garage Heaters Airdrie — Gas, Radiant Tube + Electric Install",
+    lead:
+      "Airdrie sits on open prairie with nothing upwind to slow the cold down. That's the difference between an Airdrie garage and a sheltered inner-city Calgary one: the same square footage, the same insulation, and noticeably more heat pulled out through the door seals every time the wind comes up. FlameTech sizes, installs, and services forced-air gas, radiant tube, and electric garage heaters across Airdrie — attached doubles in the newer subdivisions, detached shops on the acreages, and everything between.",
+    heroBody: [
+      "Most Airdrie garage heater calls fall into three buckets. Heating a garage that's never had it — common in the 2000s-and-later builds through [Coopers Crossing](/coopers-crossing-plumbers/), [Ravenswood](/ravenswood-plumbers-airdrie/), and [Reunion](/reunion-plumbers-airdrie/), where the builder stubbed a gas line into the garage and stopped there. Replacing a heater that's lost its capacity. Or speccing a unit into a new shop or garage build before the walls close up, which is always the cheapest time to do it.",
+      "Garage heaters share their gas, venting, and control fundamentals with the [furnaces](/furnaces/) and [boilers](/boilers-airdrie/) we work on daily. A proper install is the difference between a unit that runs twenty years and one that fails in five. We pull the gas permit, book the inspection, and document the install so the manufacturer's warranty stays intact.",
+      "Same-day dispatch when a garage heater quits in a cold snap — a workshop stops being a workshop the morning the heat goes. Call 587-834-3668 for a free in-home assessment. Same crew handles [furnace repair in Airdrie](/airdrie-furnace-repairs/), [heat pumps](/heat-pumps-airdrie/), and [Airdrie plumbing](/airdrie-plumbers/).",
+    ],
+    heroSubhead: "Forced-Air Gas, Radiant Tube + Electric Garage Heaters",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: {
+      src: "/images/2026/04/garage-heater-featured.webp",
+      alt: "Gas garage heater installed by FlameTech in an Airdrie garage",
+      fit: "cover",
+    },
+    intro:
+      "Garage heater installation and repair in Airdrie. Forced-air gas, radiant tube, and electric units sized for prairie wind exposure. Licensed gas fitters, permits and inspections handled.",
+    features: [
+      "Gas garage heater installation",
+      "Radiant tube heater install",
+      "Electric garage heater setup",
+      "Garage heater repair, any brand",
+      "Gas line, venting & permits",
+      "Pre-season service & tune-ups",
+    ],
+    bullets: [
+      {
+        t: "Sized for wind, not just square footage",
+        d: "Airdrie's exposure changes the math. A detached garage on an open lot with prairie wind driving through the door seals loses heat faster than the same garage tucked behind a Calgary infill. We size on garage volume, ceiling height, insulation, attached versus detached, and exposure — not a square-footage rule of thumb.",
+      },
+      {
+        t: "Forced-air, radiant tube, or electric — an honest recommendation",
+        d: "Forced-air gas heats the air and warms a typical attached double fastest. Radiant tube heats surfaces — people, tools, the vehicle, the slab — and wins in high-ceiling shops and garages you use in bursts. Electric makes sense in a small detached garage where running gas would cost more than the heater. We recommend for your garage, not for whatever is quickest to install.",
+      },
+      {
+        t: "Alberta-licensed gas fitters, permits pulled",
+        d: "A gas garage heater is a permitted install in Airdrie. We pull it, book the inspection, and leave you the paperwork. Unpermitted installs fail inspection, void manufacturer warranties, and turn into an insurance conversation if the garage ever burns.",
+      },
+      {
+        t: "Same-day dispatch when the heater quits in deep cold",
+        d: "Igniters, flame sensors, thermocouples, gas valves, and blower capacitors ride on every truck. Most garage heater repairs finish on the first visit rather than waiting on a part order in the middle of February.",
+      },
+    ],
+    seoTitle: "Garage Heaters Airdrie | Installation & Repair",
+    seoDescription:
+      "Garage heater installation and repair in Airdrie. Forced-air gas, radiant tube, and electric units sized for prairie cold. Licensed gas fitters. Call 587-834-3668.",
+    seoKeywords: [
+      "garage heaters Airdrie",
+      "garage heater installation Airdrie",
+      "gas garage heater Airdrie",
+      "radiant tube heater Airdrie",
+      "electric garage heater Airdrie",
+      "FlameTech Plumbing Heating",
+    ],
+    quoteFormLabel: "Airdrie garage heater",
+    quoteFormPlaceholder:
+      "e.g. forced-air gas for an attached double, radiant tube for a detached shop, heater won't light after the summer…",
+    sidebar: {
+      title: "Airdrie Garage Heaters",
+      subtitle:
+        "Forced-air gas, radiant tube, and electric heaters sized for Airdrie's exposure and deep-cold snaps.",
+      bullets: [
+        "Modine · Reznor · Re-Verber-Ray · Cadet",
+        "Gas line, venting, and controls in-house",
+        "Permits pulled and inspections booked",
+        "Same-day dispatch in cold snaps",
+      ],
+    },
+    stats: [
+      { number: "15+", label: "Years installing", icon: "verified" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "FREE", label: "Written estimates", icon: "request_quote" },
+      { number: "Licensed", label: "gas fitters", icon: "award" },
+    ],
+    callout:
+      "Garage heater dead in a cold snap? Call 587-834-3668 — same-day dispatch, common parts stocked on every truck.",
+    timeline: {
+      heading: "How an Airdrie garage heater install runs",
+      intro:
+        "Four steps from the first phone call to a heater that's commissioned, permitted, and warranty-valid.",
+      steps: [
+        {
+          icon: "location_on",
+          title: "In-home assessment",
+          body: "We measure the garage, check ceiling height and insulation, look at what the builder left you for gas and electrical, and find where a vent can legally terminate. Free, and it takes about half an hour.",
+        },
+        {
+          icon: "request_quote",
+          title: "Spec and written quote",
+          body: "You get a heater type, a BTU size, and a written price covering the unit, gas line, venting, electrical, permit, and inspection. If insulating the garage would let us fit a smaller heater, we say so — that conversation happens before you commit, not after.",
+        },
+        {
+          icon: "build",
+          title: "Install day",
+          body: "Gas line run and pressure-tested, heater hung, vent terminated to code with proper clearances, combustion air confirmed, thermostat wired and placed where it reads the room rather than the heater's own discharge.",
+        },
+        {
+          icon: "verified",
+          title: "Commission and inspect",
+          body: "Combustion analysis on the running unit, gas leak check on every joint, safety controls verified, and a walkthrough of the thermostat. We book the inspection and hand you the permit paperwork for your records.",
+        },
+      ],
+    },
+    richContent: {
+      sections: [
+        {
+          heading: "What we install and service on Airdrie garage heater calls",
+          intro:
+            "Three heater types cover almost every Airdrie garage, and the right one depends far more on how you use the space than on how big it is.",
+          items: [
+            {
+              heading: "Forced-air gas (Modine, Reznor) — the workhorse",
+              body: "Wall- or ceiling-hung units that heat air and blow it around the garage. Modine Hot Dawg and Reznor UDAP are the units we hang most often in Airdrie. Best for attached doubles and regular-use workshops where you want warm air quickly. Lowest install cost of the gas options, fastest warm-up, power-vented out the sidewall on most modern installs.",
+            },
+            {
+              heading: "Radiant tube (Re-Verber-Ray, SunStar) — shops and high ceilings",
+              body: "Overhead infrared tubes that heat surfaces directly instead of the air. You feel warm within minutes and stay warm even when the bay door goes up. Best for the high-ceiling shops on Airdrie's acreages, and for any garage used in bursts rather than continuously — there's no waiting for a 14-foot air column to come up to temperature first.",
+            },
+            {
+              heading: "Electric (Cadet, King, Marley) — small or no-gas garages",
+              body: "240V forced-air or radiant ceiling units. The right answer when running a new gas line to a detached garage would cost more than the heater itself, or when the garage sees occasional use. Simpler install with no gas and no venting, higher operating cost than gas, slower to warm up. Typically 4,000–7,500 watts for a single-car, 10,000–15,000 for a double.",
+            },
+            {
+              heading: "In-floor radiant (hydronic) — the new-build option",
+              body: "Tubing embedded in the slab, fed by a boiler that often also heats the house. Only practical when the slab is being poured, so it belongs in a new garage or a full rebuild. It is the warmest-feeling garage there is — the floor itself is the heat source, so the concrete stops being the thing that pulls warmth out of your feet. See [boilers in Airdrie](/boilers-airdrie/) for the system side.",
+            },
+            {
+              heading: "Garage heater repair, every brand",
+              body: "Pilot won't stay lit (thermocouple), electronic ignition won't fire (igniter or flame sensor), fan spins but no heat (gas valve, control board), short-cycling (limit switch or a blocked vent), blower seized (capacitor, then motor). Common parts for Modine, Reznor, Sterling, Cadet, and the electric units ride on the truck.",
+            },
+            {
+              heading: "Gas line, venting, and permits",
+              body: "A garage heater install usually means a gas line run from the house meter and sized to the BTU load, a sidewall power-vent or rooftop B-vent, combustion air brought in to satisfy code, an electrical circuit for the fan and controls, and a gas permit with an inspection at the end. We do the whole scope rather than leaving you to chase trades.",
+            },
+            {
+              heading: "Pre-season service",
+              body: "Best booked in early fall, before the first hard cold snap. Combustion analysis, flame sensor and igniter check, blower motor and capacitor test, vent inspection, thermostat calibration, gas pressure check at the unit. This is the single call that prevents the November no-heat call.",
+            },
+          ],
+        },
+        {
+          heading: "Sizing a garage heater for Airdrie",
+          intro:
+            "Online BTU calculators assume a mild climate and a sheltered building. Neither describes an Airdrie garage in January. These are the ranges we actually install, before we adjust for insulation and exposure.",
+          items: [
+            {
+              heading: "Single-car attached (~250–300 sq ft, 9 ft ceiling)",
+              body: "25,000–30,000 BTU forced-air gas, moving to 30,000–35,000 if the garage is uninsulated. An attached garage borrows some warmth through the shared wall with the house and comes up to temperature faster than anything detached.",
+            },
+            {
+              heading: "Double-car attached (~450–550 sq ft, 9 ft ceiling)",
+              body: "45,000–60,000 BTU. This is the standard Airdrie configuration across the newer subdivisions. A well-insulated double does fine on 45,000; an uninsulated or half-finished one wants 60,000.",
+            },
+            {
+              heading: "Detached double (~450–550 sq ft)",
+              body: "60,000–75,000 BTU. No shared wall, more exposed surface area, and on an open Airdrie lot the wind finds all of it. If the space is a workshop rather than parking, this is where radiant tube starts making a strong case.",
+            },
+            {
+              heading: "Shop or triple-car (12+ ft ceilings, 700+ sq ft)",
+              body: "75,000–125,000+ BTU, and radiant tube gets more attractive the taller the ceiling. Heating a 14-foot air column with forced air means paying to warm the air above your head before any of it reaches the bench. Radiant heats the bench.",
+            },
+            {
+              heading: "Insulation moves the number more than you'd think",
+              body: "An uninsulated detached double needs roughly half again the BTU of an insulated one to hold the same temperature on a cold day. It is frequently cheaper to insulate the walls and ceiling than to oversize the heater and then pay to run it every winter for twenty years. We'll walk you through both costs at the assessment.",
+            },
+            {
+              heading: "Exposure and door seals",
+              body: "Airdrie's wind matters here in a way it doesn't in a sheltered Calgary neighbourhood. A garage door with tired bottom and side seals on a west-facing wall will leak enough air to make a correctly-sized heater look undersized. Worn seals are cheap; a bigger heater is not. We check them before we quote.",
+            },
+          ],
+        },
+        {
+          heading: "Why garage heaters fail — and what actually extends their life",
+          intro:
+            "A garage heater lives harder than a house furnace. It sits idle for months, breathes dust, and then gets asked to work at −35°C on its first day back. Nearly every failure we see traces back to one of these.",
+          items: [
+            {
+              heading: "Sitting all summer is what kills the ignition system",
+              body: "The overwhelming majority of garage heater failures show up on the first cold snap of the season — a thermocouple that gave up in storage, an igniter cracked from thermal cycling, a flame sensor coated in oxidation. The fix is not running the heater more. It's a pre-season service call in September or October, before you need it.",
+            },
+            {
+              heading: "Dust destroys blower motors",
+              body: "Sawdust, road grit, drywall debris, brake dust. Garage air filters clog far faster than a house filter — often monthly during a heavy workshop season. A clogged filter restricts airflow, the blower works harder, the capacitor fails first and the motor follows. Changing the filter is the single highest-value thing you can do yourself.",
+            },
+            {
+              heading: "Snow and drift block vent terminations",
+              body: "Sidewall vents are positioned to code, but Airdrie drifts and chinook melt-freeze cycles don't read code. A blocked vent trips the high limit and locks the heater out. Worth a look after a big snowfall — and worth telling us if it happens twice, because the termination may need repositioning.",
+            },
+            {
+              heading: "An undersized gas line starves the burner",
+              body: "This is the classic cause of \"it fires but never keeps up.\" The line was sized for a smaller heater, or for no heater at all, and someone upgraded the unit without touching the pipe. Pressure sags at peak demand and the burner can't hold output. We test gas pressure at the unit during diagnosis, which is how we find it.",
+            },
+            {
+              heading: "Cracked heat exchangers on older units",
+              body: "After fifteen to twenty years of freeze-thaw cycling, a gas heater's heat exchanger can crack — and a cracked exchanger leaks combustion products, carbon monoxide among them, into the air being blown around the space where you work. It is not a repair. We inspect the exchanger on every service call to an older unit, because this is the failure that actually hurts someone.",
+            },
+            {
+              heading: "Carbon monoxide belongs on your radar",
+              body: "Any gas appliance in an enclosed space you occupy — especially a garage with the door shut and a vehicle running — warrants a working CO alarm, mounted per the manufacturer's instructions. Attached garages share air with the house more than most people realize. We check for CO during commissioning and every service call, but an alarm is what protects you the other 364 days.",
+            },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Garage Heaters Airdrie — Frequently Asked",
+        intro:
+          "Sizing, heater type, permits, and what to do when it won't start in November. Don't see your question? Call 587-834-3668 and we'll talk it through.",
+        items: [
+          {
+            q: "What size garage heater do I need in Airdrie?",
+            a: "Single-car attached runs 25,000–30,000 BTU, more if it's uninsulated. Double-car attached is 45,000–60,000. Detached double is 60,000–75,000, because it has no shared wall and Airdrie's wind gets at all four sides. A shop or triple-car with high ceilings starts at 75,000 and climbs. We size on your garage's actual construction and exposure rather than square footage alone.",
+          },
+          {
+            q: "Forced-air gas, radiant tube, or electric?",
+            a: "Forced-air gas for a typical attached double — fastest warm-up and lowest install cost. Radiant tube for high-ceiling shops and garages you use in bursts, because you feel warm immediately and it doesn't matter that the air near the ceiling is still cold. Electric for a small detached garage with no gas service, where running a new line would cost more than the heater. Gas costs meaningfully less to run than electric in Alberta; electric wins on install cost and simplicity.",
+          },
+          {
+            q: "How much does a garage heater cost to install in Airdrie?",
+            a: "It depends on the heater, the gas line run, and whether venting is straightforward — a unit hung on an exterior wall near the meter is a different job than one at the far end of a detached garage with no gas out there at all. We assess in person, for free, and give you a written quote covering the unit, gas, venting, electrical, permit, and inspection before any work starts.",
+          },
+          {
+            q: "Do I need a permit for a garage heater in Airdrie?",
+            a: "For a gas heater, yes. We pull the permit and book the inspection as part of the install. It matters more than people expect: an unpermitted gas install fails inspection if it's ever discovered, voids the manufacturer's warranty, and gives your insurer an opening to deny a claim if the garage is ever damaged by fire.",
+          },
+          {
+            q: "Can I install a garage heater myself?",
+            a: "Not a gas one. Gas appliances need an Alberta-licensed gas fitter, and the permit and inspection exist for good reason — venting, clearances, and combustion air are what stand between you and a carbon monoxide problem in a closed space. Small plug-in electric heaters are a different story; anything hardwired at 240V needs a qualified electrician.",
+          },
+          {
+            q: "Should I insulate the garage before installing a heater?",
+            a: "If it isn't insulated, yes, and often it's the better first dollar. An uninsulated detached double needs about half again the BTU to hold temperature on a cold day, which means a bigger heater and a bigger gas bill for as long as you own the place. Sometimes insulating means the heater you already have is suddenly adequate. We'll price both paths at the assessment and tell you which we'd do.",
+          },
+          {
+            q: "My heater runs constantly but never gets warm. What's wrong?",
+            a: "Usually one of five things: it's undersized for a garage that's leakier than whoever sized it assumed, the air filter is clogged, the gas line is too small for the unit's BTU rating and starves it at peak demand, a limit switch is misreading, or the vent is partially blocked. Worn garage door seals are a common contributor in Airdrie. Diagnosis takes well under an hour.",
+          },
+          {
+            q: "It won't start on the first cold day of the year. Why?",
+            a: "Almost always a summer-storage failure: a thermocouple that quit, an igniter cracked by thermal cycling, a flame sensor gone oxidized, a gas valve sticking after months of inactivity, or a dead blower capacitor. These are all parts that live on our trucks. A pre-season service call in the fall catches essentially all of them before you're standing in a cold garage in November.",
+          },
+          {
+            q: "Do you handle garage heaters outside Airdrie?",
+            a: "Yes — same crew and the same install standards across [Calgary](/garage-heaters-calgary/), Chestermere, Cochrane, and Okotoks, with no out-of-area surcharge for those communities.",
           },
         ],
       },

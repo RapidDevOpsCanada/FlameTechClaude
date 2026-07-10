@@ -76,6 +76,7 @@ const airdrieLinks = [
   { label: "Boiler Installation", href: "/boiler-installation-airdrie/" },
   { label: "Boiler Repair", href: "/boiler-repair-airdrie/" },
   { label: "Drain Cleaning", href: "/drain-cleaning-airdrie/" },
+  { label: "Garage Heaters", href: "/garage-heaters-airdrie/" },
   { label: "Heat Pumps Airdrie", href: "/heat-pumps-airdrie/" },
   { label: "Hot Water Tanks", href: "/hot-water-tanks-airdrie/" },
   { label: "Poly-B Replacement", href: "/polyb-plumbing-airdrie/" },
