@@ -156,7 +156,7 @@ export default function ContactPage() {
                       "Reply within one business day on form submissions",
                       "Free written estimate before any work starts",
                       "Honest repair-vs-replace recommendations",
-                      "Permits, gas + electrical handled by us",
+                      "Permits, gas fitting, and venting handled by us",
                       "Workmanship + manufacturer warranties on every install",
                     ].map((line) => (
                       <li key={line} className="flex items-start gap-3">

@@ -1800,7 +1800,7 @@ export const services: ServicePage[] = [
         "A boiler isn't a swap-and-go appliance — sized wrong or vented wrong it costs you for the next 20 years. Here's how we keep that from happening.",
       steps: [
         { icon: "request_quote", title: "On-site heat-loss assessment", body: "We measure square footage, insulation, windows, and ceiling heights — then run a Manual J calc against Calgary's −40°C design temp to size the boiler properly. No guessing from the old unit." },
-        { icon: "build", title: "Quote + permits in writing", body: "You get the model, AFUE rating, gas line + venting scope, and the all-in price before anything starts. Gas + electrical permits are pulled by us." },
+        { icon: "build", title: "Quote + permits in writing", body: "You get the model, AFUE rating, gas line + venting scope, and the all-in price before anything starts. Gas permits and inspections are handled by us." },
         { icon: "handyman", title: "Install + gas, vent, condensate", body: "Old unit drained and removed, new boiler hung, gas line and venting upgraded if needed, condensate routed to a neutralizer + drain. Typically a single day for a straight swap." },
         { icon: "verified", title: "Commission + walkthrough", body: "Combustion analysis, pressure test, thermostat pairing, and a walk-through of the controls. We register the warranty and book your first annual service." },
       ],
@@ -4140,7 +4140,7 @@ export const services: ServicePage[] = [
       "Calgary garages reach −40°C in January cold snaps — wind chill turns a workshop into a place where you can't grip a tool, a hobby garage into a place where epoxy won't cure, and even a simple \"get in the car without freezing\" garage into a chronic comfort problem. A properly-sized garage heater pays for itself in usable workshop hours, protected vehicles, and the simple fact that you'll actually go out there to do the project you've been putting off. FlameTech installs and services forced-air gas, radiant tube, and electric garage heaters across every Calgary garage configuration — single-car bungalow attached, detached double, high-ceiling shop, basement-suite-over-garage.",
     heroBody: [
       "Three install scenarios drive most calls: (1) homeowner upgrading a hobby/workshop garage that's never had heat, (2) replacing an aging garage heater that's lost capacity or efficiency, or (3) building out a new garage / addition and speccing the right heater from the start. We work in [Aspen Woods](/aspen-woods-plumbers-calgary/) garages with 20-foot ceilings and cramped 1960s [Altadore](/altadore-plumbers-calgary/) single-car attached garages — different garages need different heaters and we recommend honestly.",
-      "Same Alberta-licensed gas fitters + electricians that handle our [furnace](/furnaces/), [boiler](/boilers/), and broader heating work. Garage heaters share gas, venting, and electrical fundamentals with home heating systems — proper install is the difference between a unit that lasts 20 years and one that fails in 5. We pull permits, schedule inspections, and document the install so warranties stay valid.",
+      "Same Alberta-licensed gas fitters that handle our [furnace](/furnaces/), [boiler](/boilers/), and broader heating work. Garage heaters share gas, venting, and control fundamentals with home heating systems — proper install is the difference between a unit that lasts 20 years and one that fails in 5. We pull permits, schedule inspections, and document the install so warranties stay valid.",
       "Same-day dispatch for garage heater failures in winter cold snaps — workshops shut down when the heater quits in February. Coverage includes Calgary, [Airdrie](/garage-heaters-airdrie/), [Cochrane](/cochrane-plumbers/), and surrounding. Call 587-834-3668 for a free in-home assessment.",
     ],
     heroSubhead: "Forced-Air Gas, Radiant Tube + Electric Garage Heaters",
@@ -4166,8 +4166,8 @@ export const services: ServicePage[] = [
         d: "Different garage configurations call for different heater types. Forced-air gas (Modine, Reznor) heats the air — workhorse for typical attached doubles. Radiant tube (Re-Verber-Ray, SunStar) heats the surfaces — best for high-ceiling shops and intermittent-use garages where you want to feel warm fast. Electric (Cadet) for small garages without gas access or occasional-use scenarios. We recommend based on YOUR garage, not what's cheapest to install.",
       },
       {
-        t: "Gas + electrical certified, no subcontractors",
-        d: "Garage heater installs touch gas line + venting + electrical + sometimes a permit. Our crew holds Alberta gas-fitting tickets AND electrical certifications, so no subcontractor delays or coordination friction. Single quote, single install date, single point of accountability.",
+        t: "Alberta-licensed gas fitters, permits pulled",
+        d: "Garage heater installs touch gas line + venting + electrical + sometimes a permit. We handle the gas, venting, and permit scope directly, and where the heater needs a dedicated circuit we coordinate a licensed electrician — you still deal with one company. Single quote, single install date, single point of accountability.",
       },
       {
         t: "Same-day dispatch when garage heaters fail in winter",
@@ -4194,7 +4194,7 @@ export const services: ServicePage[] = [
         "Forced-air gas, radiant tube, and electric heaters sized properly for Alberta's -40°C winters.",
       bullets: [
         "Modine · Reznor · Sterling · Cadet",
-        "Gas line + venting + electrical all in-house",
+        "Gas line, venting, and controls in-house",
         "Priority emergency dispatch",
         "City permits and inspections handled",
       ],
@@ -4203,7 +4203,7 @@ export const services: ServicePage[] = [
       { number: "15+", label: "Years installing", icon: "verified" },
       { number: "5.0★", label: "Google rated", icon: "star" },
       { number: "FREE", label: "Written estimates", icon: "request_quote" },
-      { number: "Licensed", label: "gas + electrical", icon: "award" },
+      { number: "Licensed", label: "gas fitters", icon: "award" },
     ],
     callout:
       "Garage heater quit in a cold snap? Call 587-834-3668 — we dispatch same-day with common parts stocked on every truck.",
@@ -7804,7 +7804,7 @@ export const services: ServicePage[] = [
     stats: [
       { number: "−25°C", label: "CCHP design temp", icon: "ac_unit" },
       { number: "5.0★", label: "Google rated", icon: "star" },
-      { number: "Red Seal", label: "Gas fitters + electricians", icon: "verified" },
+      { number: "Red Seal", label: "Gas fitters", icon: "verified" },
       { number: "FREE", label: "In-home assessment", icon: "request_quote" },
     ],
     financing: {
