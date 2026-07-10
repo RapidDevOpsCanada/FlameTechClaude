@@ -15,9 +15,13 @@ export default function Nav() {
   const searchIndex = buildSearchIndex();
   // Pull the rating + count server-side so the nav utility bar shows
   // live values from content/reviews.yaml. Bumping total_reviews in
-  // YAML now updates the header automatically — no second edit.
-  const reviewsSummary = getReviewsSummary();
+  // YAML now updates the header automatically — no second edit. The bar
+  // renders the rounded `totalLabel` ("100+"), not the exact total.
+  const { totalLabel, average } = getReviewsSummary();
   return (
-    <NavClient searchIndex={searchIndex} reviewsSummary={reviewsSummary} />
+    <NavClient
+      searchIndex={searchIndex}
+      reviewsSummary={{ totalLabel, average }}
+    />
   );
 }

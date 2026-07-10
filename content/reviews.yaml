@@ -2,10 +2,16 @@
 # and the LocalBusiness JSON-LD review nodes. Order in this file does
 # not matter — sort_order controls render position.
 
-# Total Google review count — drives the homepage rating badge and
-# aggregateRating.reviewCount in LocalBusiness JSON-LD. Bump when
-# Google reports more reviews than are imported below.
-total_reviews: 94
+# Total Google review count — drives aggregateRating.reviewCount in the
+# LocalBusiness JSON-LD, which must be an exact integer that matches the
+# Google Business Profile. Bump when Google reports more reviews than are
+# imported below.
+#
+# The user-facing badges do NOT print this number directly: they render
+# reviewCountLabel(total) from src/lib/reviews.ts, which rounds down to
+# the nearest ten past 50 ("102" displays as "100+"). That way the visible
+# copy doesn't go stale between bumps while the schema stays exact.
+total_reviews: 102
 average_rating: 5
 
 reviews:

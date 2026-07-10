@@ -292,7 +292,7 @@ export default function NavClient({
   reviewsSummary,
 }: {
   searchIndex: SearchEntry[];
-  reviewsSummary: { total: number; average: number };
+  reviewsSummary: { totalLabel: string; average: number };
 }) {
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
@@ -345,7 +345,7 @@ export default function NavClient({
             </span>
             <span className="font-bold">{reviewsSummary.average.toFixed(1)}</span>
             <span className="text-cream-50/60">·</span>
-            <span>{reviewsSummary.total} Google reviews</span>
+            <span>{reviewsSummary.totalLabel} Google reviews</span>
           </span>
           <div className="hidden lg:flex items-center gap-3 text-cream-50/70">
             <span>Mon–Sat 8–6</span>

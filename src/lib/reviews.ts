@@ -53,27 +53,55 @@ function loadReviewsFile(): ReviewEntry[] {
   return validated.data.reviews;
 }
 
+/**
+ * Human-facing review count. Past 50 reviews the exact figure stops
+ * mattering to a reader and starts costing us a copy edit every time
+ * Google ticks up, so we round down to the nearest ten and mark it
+ * open-ended: 102 renders as "100+".
+ *
+ * Rounding down (never up) keeps the claim true — "100+" on 102 real
+ * reviews understates rather than overstates. When the total lands
+ * exactly on a multiple of ten we print it bare, because "100+" on
+ * exactly 100 reviews would claim one more than we have.
+ *
+ * Only for display. aggregateRating.reviewCount in the LocalBusiness
+ * JSON-LD must stay an exact integer — Google validates it against the
+ * Business Profile and rejects a non-numeric value.
+ */
+export function reviewCountLabel(total: number): string {
+  if (total < 50) return String(total);
+  const rounded = Math.floor(total / 10) * 10;
+  return rounded < total ? `${rounded}+` : String(total);
+}
+
 /** Headline numbers for the rating badge + LocalBusiness JSON-LD. */
 export type ReviewsSummary = {
+  /** Exact count. Use for schema, never for display copy. */
   total: number;
+  /** Rounded, open-ended count for display copy ("100+"). */
+  totalLabel: string;
   average: number;
 };
+
+function summarize(total: number, average: number): ReviewsSummary {
+  return { total, totalLabel: reviewCountLabel(total), average };
+}
 
 export function getReviewsSummary(): ReviewsSummary {
   let raw: string;
   try {
     raw = fs.readFileSync(REVIEWS_FILE, "utf8");
   } catch {
-    return { total: 0, average: 5 };
+    return summarize(0, 5);
   }
   const parsed = yaml.load(raw);
   const validated = reviewsFileSchema.safeParse(parsed);
-  if (!validated.success) return { total: 0, average: 5 };
+  if (!validated.success) return summarize(0, 5);
   const data = validated.data;
-  return {
-    total: data.total_reviews ?? data.reviews.length,
-    average: data.average_rating ?? 5,
-  };
+  return summarize(
+    data.total_reviews ?? data.reviews.length,
+    data.average_rating ?? 5,
+  );
 }
 
 export async function getReviews(): Promise<Review[]> {

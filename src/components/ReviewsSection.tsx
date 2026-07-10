@@ -24,7 +24,7 @@ export default async function ReviewsSection() {
               <span className="text-primary text-lg">★★★★★</span>
               <span className="font-bold">{summary.average.toFixed(1)}</span>
               <span className="text-sm text-ink-500">
-                · {summary.total} Google reviews
+                · {summary.totalLabel} Google reviews
               </span>
             </div>
             <a

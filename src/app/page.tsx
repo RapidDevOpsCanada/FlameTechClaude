@@ -182,7 +182,7 @@ export default async function Home() {
                   <span className="inline-flex items-center gap-1.5 rounded-full bg-ink-800 border border-line-dark px-3.5 py-1.5 text-xs text-cream-50/90 font-semibold">
                     <span className="text-emergency tracking-tight">★★★★★</span>
                     <span>
-                      {reviewsSummary.average.toFixed(1)} ({reviewsSummary.total} Google reviews)
+                      {reviewsSummary.average.toFixed(1)} ({reviewsSummary.totalLabel} Google reviews)
                     </span>
                   </span>
                   <span className="inline-flex items-center gap-1.5 rounded-full bg-ink-800 border border-line-dark px-3.5 py-1.5 text-xs text-cream-50/90 font-semibold">

@@ -277,7 +277,7 @@ export default async function ServicePage({
                     <span aria-hidden="true" className="text-amber-300 text-base leading-none">★★★★★</span>
                     <span className="tabular-nums">{reviewsSummary.average.toFixed(1)}</span>
                     <span className="text-cream-50/70 font-bold">
-                      · {reviewsSummary.total} Google reviews
+                      · {reviewsSummary.totalLabel} Google reviews
                     </span>
                   </span>
                   <span className="h-3 w-px bg-cream-50/20" />
