@@ -301,7 +301,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "Reno scope to emergency call",
-              body: "Same crew handles a 2am toilet overflow and a full master-bath reno. We coordinate with tile, drywall, and electrical so the plumbing rough-in lands on schedule.",
+              body: "Same crew handles a 2am toilet overflow and a full master-bath reno. We coordinate with the other trades on site so the plumbing rough-in lands on schedule.",
             },
             {
               heading: "Built for Alberta conditions",
@@ -1716,8 +1716,8 @@ export const services: ServicePage[] = [
             a: "The pump itself is below frost line in the pit — it won't freeze. The discharge line is the freeze risk. We slope discharge so water drains out after each cycle (nothing sitting in the pipe to freeze), use flex pipe at the exit point that can flex with frost movement, and avoid long horizontal exterior runs that pool water. If your existing discharge has frozen and back-loaded the pump, we re-route it during the install.",
           },
           {
-            q: "Do you handle the electrical for the sump install?",
-            a: "Primary and battery-backup pumps plug into a standard outlet — we don't need an electrician for that. If your sump pit doesn't have an outlet, or the outlet is shared with too much else and trips when the pump kicks on, we can install a dedicated GFCI circuit (sub-contracted to a licensed electrician — we coordinate, you only deal with one person). For most installs, electrical is not a separate cost.",
+            q: "What if my sump pit doesn't have an outlet?",
+            a: "Primary and battery-backup pumps plug into a standard outlet, and most pits already have one. If yours doesn't, or the circuit is shared with too much else and trips when the pump kicks on, we sort out a dedicated GFCI circuit as part of the install. You deal with one company and one quote either way.",
           },
         ],
       },
@@ -1819,7 +1819,7 @@ export const services: ServicePage[] = [
             "From emergency replacements to planned upgrades, our Calgary boiler specialists bring decades of hands-on experience with every major brand and model. We install [Viessmann](https://www.viessmann.ca/), [Navien](https://www.navieninc.com/), [Triangle Tube](https://triangletube.com/), IBC, Crown, and Weil-McLain — registered with manufacturer warranties on every job. Alberta-licensed gas fitters and Red Seal plumbers on every install.\n\nWe've installed systems in everything from 1920s [Mount Royal](/mount-royal-plumbers-calgary/) heritage homes to brand-new builds in [Cranston](/cranston-plumber-calgary/). Our truck inventory includes parts for the most common Calgary boiler models, which means we can often complete installations in a single visit instead of ordering parts and coming back next week.\n\nEvery installation includes proper sizing calculations based on your home's square footage, insulation levels, and Calgary's −40°C design temperature. Need annual upkeep on the new system? See our [boiler service](/boiler-service-calgary/) page.",
           items: [
             { heading: "Gas Boiler Installation", body: "We install high-efficiency gas-fired boilers from all major manufacturers, handling gas line connections, venting, and system commissioning to manufacturer specifications." },
-            { heading: "Electric Boiler Installation", body: "For homes without gas access or as backup heating systems, we install electric boilers with proper electrical connections and safety controls." },
+            { heading: "Electric Boiler Installation", body: "For homes without gas access or as backup heating systems, we install electric boilers with proper safety controls." },
             { heading: "Condensing Boiler Systems", body: "These high-efficiency units extract extra heat from exhaust gases, reducing your natural gas bills during Calgary's long heating season." },
             { heading: "Combi Boiler Installation", body: "Combination units that provide both space heating and domestic hot water in a single compact system, perfect for smaller Calgary homes and condos." },
             { heading: "Hydronic Radiant Systems", body: "We install in-floor radiant heating systems with new boilers, providing even heat distribution throughout your Calgary home." },
@@ -1900,7 +1900,7 @@ export const services: ServicePage[] = [
           { q: "Can I convert from a furnace to a boiler in Calgary?", a: "Yes, but it's a major project. Converting requires installing a full hydronic distribution system (pipes, radiators or in-floor tubing, pump, expansion tank) AND a new boiler. Typical conversion cost: $25,000-$60,000+ depending on home size and whether you're going with radiators (lower) or in-floor radiant (higher).\n\nMost conversions only pencil out during major renovations where floors are already opening up. If you're considering it, we'll do an honest assessment of whether the comfort/efficiency gain justifies the cost." },
           { q: "How long do new boilers last in Calgary?", a: "Modern condensing boilers installed and maintained properly last 18-22 years on average in Calgary. Cast iron non-condensing units can run 25-30 years.\n\nThe biggest factors in longevity: annual [boiler service](/boiler-service-calgary/) (combustion check, condensate trap clean, expansion tank verification), water quality (a [water softener](/water-softener/) upstream extends heat exchanger life), and not running at extreme low-load operation that causes excess condensation cycles." },
           { q: "Can you install a boiler in Calgary's winter weather?", a: "Yes, we install boilers year-round, including during Calgary's coldest months. Winter installations require extra care to prevent pipes from freezing during the changeover, but our technicians carry freeze-protection equipment and work quickly to minimise downtime. Emergency winter installations typically take longer due to weather precautions." },
-          { q: "Do I need permits for boiler installation in Calgary?", a: "Yes, boiler installations in Calgary require gas permits and often electrical permits if we're upgrading controls or adding new circuits. FlameTech handles all permit applications and city inspections as part of our installation service. We know Calgary's inspection requirements and schedule inspections to avoid delays in getting your system operational." },
+          { q: "Do I need permits for boiler installation in Calgary?", a: "Yes, boiler installations in Calgary require a gas permit and inspection. FlameTech handles all permit applications and city inspections as part of our installation service. We know Calgary's inspection requirements and schedule inspections to avoid delays in getting your system operational." },
         ],
       },
     },
@@ -2832,7 +2832,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "Do I need a permit for furnace installation in Calgary?",
-            a: "Yes. Calgary requires a residential gas permit and inspection for furnace installations, plus an electrical permit when ECM blowers need a dedicated circuit. FlameTech handles all permit applications, schedules inspections, and registers manufacturer warranties as part of the install — no homeowner paperwork chasing.",
+            a: "Yes. Calgary requires a residential gas permit and inspection for furnace installations. FlameTech handles all permit applications, schedules inspections, and registers manufacturer warranties as part of the install — no homeowner paperwork chasing.",
           },
           {
             q: "Are condensing high-efficiency furnaces worth it in Calgary?",
@@ -2913,7 +2913,7 @@ export const services: ServicePage[] = [
     features: [
       "92–95% AFUE condensing furnaces",
       "Ductwork design & modification",
-      "Gas line & electrical upgrades",
+      "Gas line & venting upgrades",
       "Smart thermostat integration",
       "Annual efficiency maintenance",
       "Install + service every major furnace brand",
@@ -2984,8 +2984,8 @@ export const services: ServicePage[] = [
               body: "Upgrading or redesigning ductwork to work with new high-efficiency furnaces, eliminating hot and cold spots throughout your Calgary home.",
             },
             {
-              heading: "Gas Line & Electrical Upgrades",
-              body: "Installing proper gas connections and electrical circuits for high-efficiency furnaces, meeting all Alberta safety codes.",
+              heading: "Gas Line & Venting Upgrades",
+              body: "Installing proper gas connections and venting for high-efficiency furnaces, meeting all Alberta safety codes.",
             },
             {
               heading: "Smart Thermostat Integration",
@@ -3090,7 +3090,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "How long does it take to install a high-efficiency furnace in a Calgary home?",
-            a: "Most installations take 6–8 hours for a straightforward replacement, but can extend to 2 days if we need to upgrade gas lines or modify ductwork. Older Calgary homes often need electrical upgrades for the new controls and proper venting installation. We always do a pre-installation assessment so you know exactly what's involved before we start work.",
+            a: "Most installations take 6–8 hours for a straightforward replacement, but can extend to 2 days if we need to upgrade gas lines or modify ductwork. Older Calgary homes often need new controls and proper venting installation. We always do a pre-installation assessment so you know exactly what's involved before we start work.",
           },
           {
             q: "Will a high-efficiency furnace work with my existing ductwork?",
@@ -3155,7 +3155,7 @@ export const services: ServicePage[] = [
     heroBody: [
       "Two big decisions before you sign anything: (1) furnace-only vs hybrid dual-fuel (heat pump + new furnace). For most Calgary homes adding cooling capability or with high heating bills, hybrid is now the math-positive call — same heat pump install footprint, plus a new furnace as deep-cold backup, plus federal Greener Homes rebates may apply. Lower total operating cost over the equipment's life. (2) Sizing: most Calgary furnaces are oversized by 20-50% — leftover from rule-of-thumb sizing decades ago. We run a Manual J heat-loss calc on every replacement quote, then size to actual load. Right-sized furnaces are quieter, cheaper to run, and last longer.",
       "We install and service every common Calgary brand. AirEase 12-year parts + labor warranty on qualifying models when registered + maintained (we're authorized AirEase Pro Team dealers). Trane XV / XR series, Carrier Infinity, Lennox EL / SL, Goodman, Heil, Bryant — we have honest conversations about which brand makes sense for your specific install + budget. See [high-efficiency furnaces Calgary](/high-efficiency-furnaces-calgary/) for the broader 96%+ AFUE install scope and [heat pumps Calgary](/heat-pumps-calgary/) for the hybrid dual-fuel comparison.",
-      "Free in-home assessment + written quote with the full math. Permits, venting, condensate drain, gas + electrical scope all clearly itemized. Typical install timeline 1-2 days. [Monthly financing](/financing/) via Financeit + Greener Homes Loan eligibility walkthrough. Call 587-834-3668.",
+      "Free in-home assessment + written quote with the full math. Permits, venting, condensate drain, and gas scope all clearly itemized. Typical install timeline 1-2 days. [Monthly financing](/financing/) via Financeit + Greener Homes Loan eligibility walkthrough. Call 587-834-3668.",
     ],
     heroSubhead: "Replacement Decision + Install + Honest Math",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
@@ -3341,7 +3341,7 @@ export const services: ServicePage[] = [
               body: "We measure your home (square footage, ceiling heights, insulation, windows, air leakage), pull a Manual J heat-loss calculation, and size the furnace (and heat pump if hybrid) to actual load. Wrong sizing is the #1 reason replacement furnaces disappoint.",
             },
             {
-              heading: "2. Ductwork + venting + gas line + electrical inspection",
+              heading: "2. Ductwork + venting + gas line inspection",
               body: "Check existing ductwork can handle the new equipment's CFM rating, gas line size, venting options (sidewall power-vent typical for 96%+ AFUE condensing), condensate drain routing, electrical panel capacity (especially for hybrid heat pump install). Any infrastructure modifications quoted upfront.",
             },
             {
@@ -4167,7 +4167,7 @@ export const services: ServicePage[] = [
       },
       {
         t: "Alberta-licensed gas fitters, permits pulled",
-        d: "Garage heater installs touch gas line + venting + electrical + sometimes a permit. We handle the gas, venting, and permit scope directly, and where the heater needs a dedicated circuit we coordinate a licensed electrician — you still deal with one company. Single quote, single install date, single point of accountability.",
+        d: "A garage heater install means a gas line, venting, controls, and a permit. We handle the whole scope and pull the permit — you get a single quote, a single install date, and a single point of accountability rather than chasing trades.",
       },
       {
         t: "Same-day dispatch when garage heaters fail in winter",
@@ -4232,7 +4232,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "Gas line + venting + permits",
-              body: "Most garage heater installs need: gas line run from the house meter (sized to the BTU load — typically 1/2\" or 3/4\" depending on length + load), sidewall power-vent (standard for modern installs) or rooftop B-vent, combustion air intake to meet code, electrical run for the fan + controls, gas permit + inspection. We handle the full scope.",
+              body: "Most garage heater installs need: gas line run from the house meter (sized to the BTU load — typically 1/2\" or 3/4\" depending on length + load), sidewall power-vent (standard for modern installs) or rooftop B-vent, combustion air intake to meet code, power to the fan + controls, gas permit + inspection. We handle the full scope.",
             },
             {
               heading: "Thermostat + controls",
@@ -4320,7 +4320,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "Can I install a garage heater myself?",
-            a: "Gas garage heaters require an Alberta-licensed gas fitter — DIY installs without a permit fail inspection, void manufacturer warranties, and create insurance coverage issues if there's later damage. Electric heaters under 1,500W can sometimes be DIY-installed; anything 240V or hardwired needs a qualified electrician. We pull permits and schedule inspections on every install so the work is documented + legal.",
+            a: "Gas garage heaters require an Alberta-licensed gas fitter — DIY installs without a permit fail inspection, void manufacturer warranties, and create insurance coverage issues if there's later damage. Small plug-in electric heaters are a different story; anything hardwired should be left to a qualified trade. We pull permits and schedule inspections on every install so the work is documented + legal.",
           },
           {
             q: "How long do garage heaters last in Calgary?",
@@ -4987,7 +4987,7 @@ export const services: ServicePage[] = [
       },
       {
         t: "Whole-system thinking + 5-year parts warranty",
-        d: "Humidifier installs touch your ductwork, furnace blower, electrical, and water supply — we integrate properly with each rather than bolting on the cheapest option. New installations come with a 5-year warranty on parts; replacement pads, cylinders, and solenoids ride on every truck for fast service when something fails mid-winter.",
+        d: "Humidifier installs touch your ductwork, furnace blower, and water supply — we integrate properly with each rather than bolting on the cheapest option. New installations come with a 5-year warranty on parts; replacement pads, cylinders, and solenoids ride on every truck for fast service when something fails mid-winter.",
       },
     ],
     seoTitle: "Humidifiers Calgary | Professional Installation & Repair",
@@ -5565,7 +5565,7 @@ export const services: ServicePage[] = [
           items: [
             { heading: "Emergency Tank Replacement", body: "Tank burst at 3 AM? We'll shut off your water, assess the damage, and have a new tank installed fast. Our emergency trucks carry 40 and 50-gallon tanks ready to go." },
             { heading: "Tank Removal & Disposal", body: "We handle the heavy lifting. Old tanks get drained, disconnected, and hauled out properly. No mess left behind for you to deal with." },
-            { heading: "Gas Line & Electrical Connections", body: "Both gas and electric tank installations. We're licensed for gas work and handle all the permit requirements Calgary requires for tank replacements." },
+            { heading: "Gas Line & Tank Connections", body: "Both gas and electric tank installations. We're licensed for gas work and handle all the permit requirements Calgary requires for tank replacements." },
             { heading: "Expansion Tank Installation", body: "Calgary homes need expansion tanks to handle pressure buildup. We install them with every replacement to protect your new tank and plumbing system." },
             { heading: "Drain Pan & Safety Upgrades", body: "New drain pans, temperature relief valves, and proper venting. We bring everything up to current Calgary building codes during replacement." },
             { heading: "Tankless Conversion Service", body: "Ready to switch from a tank to tankless? We handle gas line upgrades, venting changes, and electrical work needed for the conversion." },
@@ -5634,7 +5634,7 @@ export const services: ServicePage[] = [
           { q: "Should I replace with another tank or switch to tankless?", a: "Depends on your situation. If your existing tank just failed and you need hot water back tonight, a direct [tank replacement](/hot-water-tanks/) is faster, cheaper, and lower risk.\n\nIf you're renovating, your current tank is 10+ years old and you're planning long-term, or your household genuinely runs out of hot water, [tankless](/tankless-water-heaters/) deserves a serious look. Different scope and requires gas-line + venting work, but lasts longer and runs more efficiently if you maintain it." },
           { q: "What brand of tank do you recommend for Calgary?", a: "We default to [Bradford White](https://www.bradfordwhite.com/) — the brand we've seen hold up best to Calgary's 14-16 gpg hardness. Specifically the Defender Safety System line on gas, and ICON for premium installs.\n\nAO Smith and Rheem also perform well and we stock both. Avoid no-name builder-grade units from big-box retailers — the warranties are weaker and tanks tend to fail at 5-6 years instead of 8-12." },
           { q: "How long do hot water tanks actually last in Calgary?", a: "Typical lifespan in Calgary water: 8-12 years on standard residential tanks, sometimes stretching to 15 with annual flushing and timely anode rod replacement.\n\nThe single biggest factor is whether you have a [water softener](/water-softener/) upstream. Softened water roughly doubles tank life — homes with softeners regularly hit 15-18 years on the same tank, while unsoftened homes are commonly replacing at 6-8 years." },
-          { q: "Do I need permits for hot water tank replacement in Calgary?", a: "Yes. Calgary requires permits for gas hot water tank installations and electrical permits for electric tanks. We handle all permit applications and inspections as part of our service. The permits protect you by ensuring the work meets current safety codes and won't cause insurance issues later." },
+          { q: "Do I need permits for hot water tank replacement in Calgary?", a: "Yes. Calgary requires a permit for hot water tank installations. We handle all permit applications and inspections as part of our service. The permits protect you by ensuring the work meets current safety codes and won't cause insurance issues later." },
           { q: "Can you replace a tank in any Calgary home setup?", a: "We can install tanks in almost any situation — basement installations, main floor utility rooms, even outdoor installations with proper enclosures. Older Calgary homes sometimes need gas line upgrades or venting modifications, but our experienced technicians have handled every possible configuration. We'll assess your space and explain any modifications needed upfront." },
           { q: "Do you stock tanks on your trucks?", a: "Yes. Our service trucks carry 40 and 50-gallon Bradford White, AO Smith, and Rheem tanks ready for immediate install. For emergency calls, this means most replacements happen the same day you call — no waiting for parts orders." },
         ],
@@ -5844,7 +5844,7 @@ export const services: ServicePage[] = [
               body: "Walk through tank-vs-tankless trade-offs for your specific home and demand pattern. If a tank is the better call, we'll tell you and quote that path instead. If tankless is the right call, written quote covers unit cost, gas line modifications, venting, condensate drain, permits, and removal of old tank. Softener pairing quoted separately as a recommendation.",
             },
             {
-              heading: "3. Gas line + electrical + vent + condensate prep",
+              heading: "3. Gas line + vent + condensate prep",
               body: "Permit pull (plumbing + gas). Upsize gas line where required (most retrofits need this). Run new vent path through the wall to terminate at code-required clearances. Route condensate drain to a floor drain or condensate pump. Run 120V power to the unit location.",
             },
             {
@@ -8054,12 +8054,12 @@ export const services: ServicePage[] = [
         {
           icon: "location_on",
           title: "In-home assessment",
-          body: "We measure the garage, check ceiling height and insulation, look at what the builder left you for gas and electrical, and find where a vent can legally terminate. Free, and it takes about half an hour.",
+          body: "We measure the garage, check ceiling height and insulation, look at what the builder left you to work with, and find where a vent can legally terminate. Free, and it takes about half an hour.",
         },
         {
           icon: "request_quote",
           title: "Spec and written quote",
-          body: "You get a heater type, a BTU size, and a written price covering the unit, gas line, venting, electrical, permit, and inspection. If insulating the garage would let us fit a smaller heater, we say so — that conversation happens before you commit, not after.",
+          body: "You get a heater type, a BTU size, and a written price covering the unit, gas line, venting, controls, permit, and inspection. If insulating the garage would let us fit a smaller heater, we say so — that conversation happens before you commit, not after.",
         },
         {
           icon: "build",
@@ -8102,7 +8102,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "Gas line, venting, and permits",
-              body: "A garage heater install usually means a gas line run from the house meter and sized to the BTU load, a sidewall power-vent or rooftop B-vent, combustion air brought in to satisfy code, an electrical circuit for the fan and controls, and a gas permit with an inspection at the end. We do the whole scope rather than leaving you to chase trades.",
+              body: "A garage heater install usually means a gas line run from the house meter and sized to the BTU load, a sidewall power-vent or rooftop B-vent, combustion air brought in to satisfy code, power to the fan and controls, and a gas permit with an inspection at the end. We do the whole scope rather than leaving you to chase trades.",
             },
             {
               heading: "Pre-season service",
@@ -8188,7 +8188,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "How much does a garage heater cost to install in Airdrie?",
-            a: "It depends on the heater, the gas line run, and whether venting is straightforward — a unit hung on an exterior wall near the meter is a different job than one at the far end of a detached garage with no gas out there at all. We assess in person, for free, and give you a written quote covering the unit, gas, venting, electrical, permit, and inspection before any work starts.",
+            a: "It depends on the heater, the gas line run, and whether venting is straightforward — a unit hung on an exterior wall near the meter is a different job than one at the far end of a detached garage with no gas out there at all. We assess in person, for free, and give you a written quote covering the unit, gas, venting, controls, permit, and inspection before any work starts.",
           },
           {
             q: "Do I need a permit for a garage heater in Airdrie?",
@@ -8196,7 +8196,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "Can I install a garage heater myself?",
-            a: "Not a gas one. Gas appliances need an Alberta-licensed gas fitter, and the permit and inspection exist for good reason — venting, clearances, and combustion air are what stand between you and a carbon monoxide problem in a closed space. Small plug-in electric heaters are a different story; anything hardwired at 240V needs a qualified electrician.",
+            a: "Not a gas one. Gas appliances need an Alberta-licensed gas fitter, and the permit and inspection exist for good reason — venting, clearances, and combustion air are what stand between you and a carbon monoxide problem in a closed space. Small plug-in electric heaters are a different story; anything hardwired should be left to a qualified trade.",
           },
           {
             q: "Should I insulate the garage before installing a heater?",
@@ -16184,7 +16184,7 @@ export const services: ServicePage[] = [
             "As a locally owned and operated company, we specialize in water heater installation for homes and businesses across Calgary. Our technicians are fully licensed gas fitters and Red Seal plumbers who have completed thousands of installations across Calgary neighborhoods. Every installation includes proper venting, gas line connections, and an expansion tank to protect against hard water pressure spikes.",
           items: [
             { heading: "Traditional Tank Installation", body: "Complete setup of gas or electric hot water tanks from 30 to 80 gallons, including proper venting, gas connections, and code-compliant installation." },
-            { heading: "Tankless Water Heater Setup", body: "Professional installation of on-demand water heaters — including gas line upgrades, venting modifications, and electrical connections needed for high-output condensing units." },
+            { heading: "Tankless Water Heater Setup", body: "Professional installation of on-demand water heaters — including gas line upgrades and venting modifications needed for high-output condensing units." },
             { heading: "Hot Water Tank Replacement", body: "Full removal of old units and installation of new tanks, including disposal of the old equipment and a clean walk-out from your mechanical room." },
             { heading: "Expansion Tank Installation", body: "Mandatory in modern code — protects equipment from hard water pressure fluctuations. Installed on every replacement we do." },
             { heading: "Gas Line & Venting Work", body: "Professional gas line connections and proper venting installation meeting Alberta safety codes. Many older Calgary homes need gas line upgrades for modern high-efficiency tanks." },
