@@ -136,8 +136,9 @@ export default function QuoteForm({
           Request received.
         </h3>
         <p className="text-ink-500 mb-7 max-w-md mx-auto leading-relaxed">
-          A FlameTech dispatcher will call you back within 1 hour
-          (Mon–Sat 8–6). For after-hours emergencies, call directly.
+          A FlameTech dispatcher will call you back with pricing and
+          availability, usually within one business day (Mon–Sat). Need it
+          handled today? Call directly for priority dispatch.
         </p>
         <a
           href="tel:+15878343668"
@@ -228,12 +229,13 @@ export default function QuoteForm({
         </p>
       )}
 
-      {/* Trust microcopy — concrete response-time + anti-spam reassurance
-          immediately above the CTA where it matters for conversion. */}
+      {/* Trust microcopy — real-person callback + call-for-same-day nudge
+          and anti-spam reassurance, immediately above the CTA where it
+          matters for conversion. No unbacked callback-time promise. */}
       <div className="flex flex-wrap items-center gap-x-4 gap-y-1.5 text-[11px] font-bold uppercase tracking-[0.10em] text-ink-500/80 pt-1">
         <span className="inline-flex items-center gap-1.5">
           <Icon name="schedule" className="text-emergency text-sm" />
-          Real person calls back within 1 hour
+          A real person calls you back — call directly for same-day
         </span>
         <span className="hidden sm:inline-block h-3 w-px bg-ink-500/20" />
         <span className="inline-flex items-center gap-1.5">
