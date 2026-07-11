@@ -248,7 +248,7 @@ export const services: ServicePage[] = [
       { number: "Licensed", label: "journeyman", icon: "award" },
     ],
     callout:
-      "Overflowing toilet, burst supply line, or sewage backup? Call 587-834-3668 — we dispatch emergency crews across Calgary within the hour.",
+      "Overflowing toilet, burst supply line, or sewage backup? Call 587-834-3668 — we dispatch emergency crews across Calgary, same-day.",
     richContent: {
       sections: [
         {
@@ -1010,7 +1010,7 @@ export const services: ServicePage[] = [
         heading: "Frequently Asked Questions About Drain Cleaning in Calgary",
         items: [
           { q: "How much does professional drain cleaning cost in Calgary?", a: "Basic drain cleaning services typically range from $150–$300 for standard residential clogs, while complex main sewer line cleaning can cost $400–$800 depending on blockage severity and pipe length. Video inspection services add approximately $200–$350 but often save money by identifying exact problem locations without excavation. Our technicians provide upfront pricing before beginning work, ensuring no surprise charges." },
-          { q: "How long does drain cleaning take in Calgary homes?", a: "Most residential drain cleaning jobs complete within 1–2 hours, including setup and cleanup time. Complex blockages involving main sewer lines or multiple affected drains may require 3–4 hours for thorough cleaning. Emergency services prioritize rapid response, with technicians typically arriving within an hour in central Calgary areas. Preventative maintenance visits usually take 45–90 minutes depending on the number of drains serviced." },
+          { q: "How long does drain cleaning take in Calgary homes?", a: "Most residential drain cleaning jobs complete within 1–2 hours, including setup and cleanup time. Complex blockages involving main sewer lines or multiple affected drains may require 3–4 hours for thorough cleaning. Emergency calls are prioritized — a real person answers and we confirm an arrival window before the truck rolls. Preventative maintenance visits usually take 45–90 minutes depending on the number of drains serviced." },
           { q: "What's the difference between snaking and hydro-jetting for drain cleaning?", a: "Traditional drain snaking uses mechanical cables to break through clogs but may leave residual buildup on pipe walls, while hydro-jetting uses high-pressure water (up to 4000 PSI) to completely scour pipes clean. Hydro-jetting is more effective for grease buildup and root removal but requires professional equipment and expertise to avoid damaging older pipes. Our technicians assess pipe condition and blockage type to recommend the most appropriate method for lasting results." },
           { q: "Can Calgary's hard water affect drain cleaning effectiveness?", a: "Calgary's naturally hard water does create additional mineral buildup in drainage pipes, requiring specialized cleaning solutions and techniques for optimal results. Hard water mineral deposits can trap debris and reduce pipe diameter over time, making regular professional cleaning more important than in soft-water areas. We often recommend water softener systems to reduce future buildup and extend time between professional cleanings." },
           { q: "How often should Calgary homeowners have drains professionally cleaned?", a: "Most Calgary homes benefit from annual professional drain cleaning, though households with heavy usage or older plumbing may need service every 6–9 months. Homes with large trees nearby often require more frequent main sewer line cleaning due to root intrusion. Kitchen drains in busy households may need attention twice yearly due to grease accumulation, especially during winter months when oils solidify more readily in our cold climate." },
@@ -2366,7 +2366,7 @@ export const services: ServicePage[] = [
       },
       {
         t: "Same-day dispatch in cold snaps",
-        d: "Boiler-not-working calls during −20°C or colder weather get routed ahead of scheduled work. Real person on the phone — we confirm a window before the truck leaves the shop, not a four-hour mystery slot. Most days we're at the door within 2-3 hours of the call.",
+        d: "Boiler-not-working calls during −20°C or colder weather get routed ahead of scheduled work. Real person on the phone — we confirm a window before the truck leaves the shop, not a four-hour mystery slot.",
       },
       {
         t: "Common boiler parts on the truck",
@@ -2583,7 +2583,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "Are you available for emergency boiler repair in Calgary?",
-            a: "Yes — boiler failure in winter gets same-day dispatch and routes ahead of scheduled work during cold snaps. Real person on the phone, we confirm a window before the truck rolls. Most days we're at the door within 2-3 hours of the call. Same crew that handles our [no-heat](/no-heat-issues-calgary/), [boiler repair](/boiler-repair-calgary/), and [emergency plumbing](/emergency-plumber-calgary/) work.",
+            a: "Yes — boiler failure in winter gets same-day dispatch and routes ahead of scheduled work during cold snaps. Real person on the phone, we confirm a window before the truck rolls. Same crew that handles our [no-heat](/no-heat-issues-calgary/), [boiler repair](/boiler-repair-calgary/), and [emergency plumbing](/emergency-plumber-calgary/) work.",
           },
           {
             q: "Do you work on every brand of boiler?",
@@ -5555,7 +5555,7 @@ export const services: ServicePage[] = [
         "Spread the cost of your new hot water tank replacement into flexible monthly payments via our Financeit partner.",
     },
     callout:
-      "Tank leaking or water is cold? Call 587-834-3668 — most emergency replacements done within 4–6 hours of the call.",
+      "Tank leaking or water is cold? Call 587-834-3668 — same-day emergency replacement when a matching tank is on the truck.",
     richContent: {
       sections: [
         {
@@ -6175,7 +6175,7 @@ export const services: ServicePage[] = [
     bullets: [
       {
         t: "Same-day dispatch — real person on the phone",
-        d: "No-hot-water calls get same-day priority. You talk to a tech, not a call centre — we confirm a window before the truck rolls, not a four-hour mystery slot. Most days we're at the door within 2-3 hours of the call.",
+        d: "No-hot-water calls get same-day priority. You talk to a tech, not a call centre — we confirm a window before the truck rolls, not a four-hour mystery slot.",
       },
       {
         t: "Diagnose first, swap parts second",
@@ -6348,7 +6348,7 @@ export const services: ServicePage[] = [
         items: [
           {
             q: "I have no hot water — can you come today?",
-            a: "Yes — no-hot-water calls get same-day dispatch. Real person on the phone, we confirm a window before the truck rolls. Most days we're at the door within 2-3 hours of the call. Call 587-834-3668. Common parts ride on every truck so most repairs finish the first visit.",
+            a: "Yes — no-hot-water calls get same-day dispatch. Real person on the phone, we confirm a window before the truck rolls. Call 587-834-3668. Common parts ride on every truck so most repairs finish the first visit.",
           },
           {
             q: "My pilot light keeps going out — what's wrong?",
@@ -6418,7 +6418,7 @@ export const services: ServicePage[] = [
     bullets: [
       {
         t: "Same-day dispatch — real person on the phone",
-        d: "Leaking tanks get same-day priority. You talk to a tech, not a call centre — we'll triage on the phone (is it a top-fitting drip or bottom-of-tank failure?) and confirm a window before the truck rolls. Most days we're at the door within 2-3 hours. For active leaks we'll walk you through emergency shutoff on the call.",
+        d: "Leaking tanks get same-day priority. You talk to a tech, not a call centre — we'll triage on the phone (is it a top-fitting drip or bottom-of-tank failure?) and confirm a window before the truck rolls. For active leaks we'll walk you through emergency shutoff on the call.",
       },
       {
         t: "Honest source-of-leak diagnosis",
@@ -6670,7 +6670,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "Can you come today?",
-            a: "Yes — leaking water heater calls get same-day dispatch. Real person on the phone, we triage based on where the leak is coming from and confirm a window before the truck rolls. Most days we're at the door within 2-3 hours. For actively flooding tanks we'll walk you through emergency shutoff on the phone. Common-brand tanks ride on the truck for same-day replacement where size matches.",
+            a: "Yes — leaking water heater calls get same-day dispatch. Real person on the phone, we triage based on where the leak is coming from and confirm a window before the truck rolls. For actively flooding tanks we'll walk you through emergency shutoff on the phone. Common-brand tanks ride on the truck for same-day replacement where size matches.",
           },
           {
             q: "Should I just replace the tank if it's leaking?",
@@ -7211,7 +7211,7 @@ export const services: ServicePage[] = [
         "AirEase Pro Team certified installers",
         "All makes and models serviced",
         "Transparent pricing, free estimates",
-        "Airdrie response within the hour",
+        "Priority Airdrie emergency dispatch",
       ],
     },
     stats: [
@@ -7389,7 +7389,7 @@ export const services: ServicePage[] = [
     lead:
       "Airdrie's rapid growth means thousands of homes rely on boilers for radiant heat and domestic hot water. Our crew at FlameTech has serviced boilers across Airdrie neighborhoods since these communities started filling up in the 2000s. We know which builder-grade boilers are failing first and which systems will give you another decade of reliable service.",
     heroBody: [
-      "When your boiler dies on a −35°C morning, you need someone who answers the phone — not a voicemail. We're available with priority [emergency boiler repair in Airdrie](/boiler-repair-airdrie/) and can usually get to most Airdrie homes within the hour. Need a full system? See [boiler installation in Airdrie](/boiler-installation-airdrie/).",
+      "When your boiler dies on a −35°C morning, you need someone who answers the phone — not a voicemail. We're available with priority [emergency boiler repair in Airdrie](/boiler-repair-airdrie/) and we prioritize Airdrie no-heat calls when the temperature drops. Need a full system? See [boiler installation in Airdrie](/boiler-installation-airdrie/).",
       "Most heating contractors in Airdrie focus on forced air furnaces. Boilers are different animals — they need technicians who understand water pressure, circulation pumps, expansion tanks, and zone controls. Our trucks carry boiler-specific parts that most shops don't stock. Same crew handles [Calgary boilers](/boilers/), [boiler service](/boiler-service-calgary/), and [Airdrie plumbing](/airdrie-plumbers/) more broadly.",
     ],
     heroSubhead: "Trusted Airdrie Boilers Experts",
@@ -8776,7 +8776,7 @@ export const services: ServicePage[] = [
         items: [
           {
             q: "How fast can you respond to a sewer backup in Airdrie?",
-            a: "Same-day emergency dispatch. Real person on the phone, local Airdrie dispatch from Coopers Crossing means short response times — typically 1-2 hours from initial call for emergencies, faster within Coopers Crossing itself.",
+            a: "Same-day emergency dispatch. Real person on the phone, local Airdrie dispatch from Coopers Crossing means genuinely local service, not a drive in from Calgary.",
           },
           {
             q: "Should I snake the drain myself first?",
@@ -9177,7 +9177,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "How fast can you respond if my basement is actively flooding?",
-            a: "Same-day emergency dispatch. Real person on the phone, local Airdrie dispatch from Coopers Crossing — typically 1-2 hours from initial call for emergencies. We'll talk you through emergency containment over the phone while the truck rolls.",
+            a: "Same-day emergency dispatch. Real person on the phone, local Airdrie dispatch from Coopers Crossing, not a drive in from Calgary. We'll talk you through emergency containment over the phone while the truck rolls.",
           },
           {
             q: "How long does a sump pump last?",
@@ -9980,7 +9980,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "How quickly can you respond to emergencies in Altadore?",
-            a: "Same-day for emergencies — burst pipes, no hot water, sewer backup, no heat in cold snaps. Real person on the phone, we'll confirm a window before the truck rolls. 14 Street + Crowchild + 50 Ave SW make Altadore dispatch fast — typical window 2-3 hours from initial call.",
+            a: "Same-day for emergencies — burst pipes, no hot water, sewer backup, no heat in cold snaps. Real person on the phone, we'll confirm a window before the truck rolls. 14 Street + Crowchild + 50 Ave SW make Altadore dispatch fast.",
           },
           {
             q: "Do you work on every brand of plumbing + heating equipment?",
@@ -10403,7 +10403,7 @@ export const services: ServicePage[] = [
       },
       {
         t: "Real person on the phone — SE dispatch",
-        d: "No call centre. You talk to a tech, get a window before the truck rolls. Same-day dispatch for emergencies. 52nd Street SE makes Auburn Bay arrival fast — usually 2-3 hours from initial call on emergencies, faster on planned work.",
+        d: "No call centre. You talk to a tech, get a window before the truck rolls. Same-day dispatch for emergencies. 52nd Street SE makes Auburn Bay arrival fast.",
       },
     ],
     seoTitle: "Auburn Bay Plumber Calgary | Water Heater + Furnace EOL, SE Dispatch",
@@ -10516,7 +10516,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "SE dispatch via 52nd Street + Deerfoot",
-              body: "Same crew that handles our broader [SE Calgary plumbing](/calgary-plumbers-se/) work. 52nd Street SE makes the run fast even during rush hour — typical arrival window 2-3 hours on emergencies, often faster. No \"out of service area\" surcharge.",
+              body: "Same crew that handles our broader [SE Calgary plumbing](/calgary-plumbers-se/) work. 52nd Street SE makes the run fast even during rush hour. No \"out of service area\" surcharge.",
             },
           ],
         },
@@ -10546,7 +10546,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "How fast can you respond to emergency calls in Auburn Bay?",
-            a: "Same-day for emergencies — burst pipes, no hot water, sewer backup. Real person on the phone, we'll confirm a window before the truck rolls. 52nd Street SE access makes Auburn Bay dispatch fast — usually 2-3 hours from initial call.",
+            a: "Same-day for emergencies — burst pipes, no hot water, sewer backup. Real person on the phone, we'll confirm a window before the truck rolls. 52nd Street SE access makes Auburn Bay dispatch fast.",
           },
           {
             q: "Is my Auburn Bay furnace at end of life?",
@@ -10742,7 +10742,7 @@ export const services: ServicePage[] = [
       },
       {
         t: "Real person — NW dispatch via Crowchild + 14 Street",
-        d: "No call centre. You talk to a tech, get a window before the truck rolls. Same-day dispatch for emergencies. Crowchild + 14 Street + Brentwood LRT corridor make NW dispatch fast — typical Brentwood arrival 2-3 hours on emergencies. Same crew that handles [Varsity](/varsity-plumbers-calgary/) and broader NW.",
+        d: "No call centre. You talk to a tech, get a window before the truck rolls. Same-day dispatch for emergencies. Crowchild + 14 Street + Brentwood LRT corridor make NW dispatch fast. Same crew that handles [Varsity](/varsity-plumbers-calgary/) and broader NW.",
       },
     ],
     seoTitle: "Brentwood Plumbers Calgary | 1960s-80s NW, Equipment EOL",
@@ -10885,7 +10885,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "How fast can you respond to emergency calls in Brentwood?",
-            a: "Same-day for emergencies — burst pipes, no hot water, sewer backup, no heat in cold snaps. Real person on the phone, we'll confirm a window before the truck rolls. Crowchild + 14 Street make NW dispatch fast — typical Brentwood window 2-3 hours from initial call.",
+            a: "Same-day for emergencies — burst pipes, no hot water, sewer backup, no heat in cold snaps. Real person on the phone, we'll confirm a window before the truck rolls. Crowchild + 14 Street make NW dispatch fast.",
           },
           {
             q: "Do you work with rental property landlords in Brentwood?",
@@ -11173,7 +11173,7 @@ export const services: ServicePage[] = [
             { heading: "First-wave HE furnaces approaching crack risk", body: "1990s-2000s NE original furnaces are now 20-30 years old. Heat exchanger cracks become statistically significant past 18-20 years (safety issue with CO leakage risk). Borescope inspection on every service call to older units." },
             { heading: "Newer NE = tight envelopes need humidification", body: "Skyview Ranch, Saddle Ridge, Cityscape, Redstone, Cornerstone — post-2005 NE builds have tight envelopes. Indoor humidity drops below 20% RH in deep winter without humidification. Whole-home humidifier addresses dry-air damage to wood + furnishings." },
             { heading: "Historically under-served by trades providers", body: "Many NE Calgary homeowners report having to wait longer or pay more because providers concentrate in SW/NW. We make a point of routine NE dispatch with same standards as anywhere else in Calgary. No \"out of service area\" surcharge for NE Calgary." },
-            { heading: "Stoney Trail + McKnight + 36 Street NE = fast dispatch", body: "NE Calgary's location with Stoney Trail + McKnight Boulevard + 36 Street NE corridors means fast access from our shop. Typical NE emergency dispatch window 2-3 hours from initial call. Blue Line LRT corridor (Whitehorn, Rundle, Marlborough, Franklin, Saddletowne stations) maps closely to our routine service area." },
+            { heading: "Stoney Trail + McKnight + 36 Street NE = fast dispatch", body: "NE Calgary's location with Stoney Trail + McKnight Boulevard + 36 Street NE corridors means fast access from our shop. Blue Line LRT corridor (Whitehorn, Rundle, Marlborough, Franklin, Saddletowne stations) maps closely to our routine service area." },
           ],
         },
         {
@@ -11195,7 +11195,7 @@ export const services: ServicePage[] = [
         items: [
           { q: "Do you actually dispatch routinely to NE Calgary?", a: "Yes — routine NE dispatch with same standards as anywhere else in Calgary. Many NE homeowners report having to wait longer or pay more for trades service because providers concentrate in SW/NW. We make a point of routine NE service. No \"out of service area\" surcharge for NE Calgary. Stoney Trail + McKnight + 36 Street NE corridors make NE dispatch fast." },
           { q: "Does my NE Calgary home have Poly-B plumbing?", a: "Depends on build year. 1990-2000 NE builds sit in the Poly-B transition zone — earliest phases may have it installed, most have PEX. 2000+ NE builds almost certainly have PEX. Look for grey/blue plastic supply lines with crimp-ring fittings (silver bands). See [Poly-B Calgary](/polyb-plumbing-calgary/) for identification + replacement." },
-          { q: "How fast can you respond to emergency calls in NE Calgary?", a: "Same-day for emergencies — burst pipes, no hot water, sewer backup, no heat in cold snaps. Real person on the phone, we'll confirm a window before the truck rolls. Stoney Trail + McKnight access make NE dispatch fast — typical window 2-3 hours from initial call." },
+          { q: "How fast can you respond to emergency calls in NE Calgary?", a: "Same-day for emergencies — burst pipes, no hot water, sewer backup, no heat in cold snaps. Real person on the phone, we'll confirm a window before the truck rolls. Stoney Trail + McKnight access make NE dispatch fast." },
           { q: "Should I install a water softener in my NE Calgary home?", a: "Strongly recommended. Calgary's hard water (150-200 mg/L) shortens every water-using appliance's lifespan. A softener install pays back over a single tank replacement cycle (next tank lasts 14+ years instead of 8-10) and protects every other water-using fixture + appliance — dishwasher, washing machine, faucets, shower valves. See [water softener Calgary](/water-softener/)." },
           { q: "My multi-generational household runs out of hot water — what's the fix?", a: "Common NE issue — standard 50-gallon water heaters often fall short for 6-10 person households with multiple simultaneous hot-water draws. Options: larger tank (75+ gallon high recovery), twin tanks plumbed in series, or [tankless water heater](/tankless-water-heaters/) for truly endless capacity. We size to actual demand pattern." },
           { q: "Is my original NE Calgary furnace at end of life?", a: "Depends on age. 1990s-2005 originals are now 20-30 years old and well into heat-exchanger-crack risk territory (safety issue with CO leakage risk past 18-20 years). We borescope-inspect on every service call to older units and have honest replace-vs-repair conversations. Heat pump + hybrid dual-fuel becomes worth considering on replacement. See [furnace replacement](/furnace-replacement-calgary/)." },
@@ -11852,7 +11852,7 @@ export const services: ServicePage[] = [
       },
       {
         t: "Real person — SE dispatch via 52nd Street + Stoney Trail",
-        d: "No call centre. You talk to a tech, get a window before the truck rolls. Same-day dispatch for emergencies — typical Copperfield arrival 2-3 hours from initial call. 52nd Street SE + Stoney Trail access make the SE run fast.",
+        d: "No call centre. You talk to a tech, get a window before the truck rolls. Same-day dispatch for emergencies. 52nd Street SE + Stoney Trail access make the SE run fast.",
       },
     ],
     seoTitle: "Copperfield Plumbers Calgary | 1999-2013 Builds, Water Heater EOL",
@@ -11961,7 +11961,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "52nd Street + Stoney Trail = fast SE dispatch",
-              body: "Copperfield's SE location off 52nd Street + Stoney Trail means fast access from our shop. Typical emergency dispatch window 2-3 hours from initial call. No \"out of service area\" surcharge.",
+              body: "Copperfield's SE location off 52nd Street + Stoney Trail means fast access from our shop. No \"out of service area\" surcharge.",
             },
             {
               heading: "Builder-era similarity speeds diagnostics",
@@ -12003,7 +12003,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "How fast can you respond to emergency calls in Copperfield?",
-            a: "Same-day for emergencies — burst pipes, no hot water, sewer backup, no heat in cold snaps. Real person on the phone, we'll confirm a window before the truck rolls. 52nd Street SE + Stoney Trail make Copperfield dispatch fast — typical window 2-3 hours from initial call.",
+            a: "Same-day for emergencies — burst pipes, no hot water, sewer backup, no heat in cold snaps. Real person on the phone, we'll confirm a window before the truck rolls. 52nd Street SE + Stoney Trail make Copperfield dispatch fast.",
           },
           {
             q: "Do you work on every brand of plumbing + heating equipment?",
@@ -12067,7 +12067,7 @@ export const services: ServicePage[] = [
       },
       {
         t: "Real person — SE dispatch via Deerfoot + Stoney Trail",
-        d: "No call centre. You talk to a tech, get a window before the truck rolls. Same-day dispatch for emergencies. Stoney Trail makes Cranston arrival fast even during rush hour — typical window 2-3 hours from initial call on emergencies.",
+        d: "No call centre. You talk to a tech, get a window before the truck rolls. Same-day dispatch for emergencies. Stoney Trail makes Cranston arrival fast even during rush hour.",
       },
     ],
     seoTitle: "Cranston Plumber Calgary | 1999-2018 Builds, Riverstone, SE Dispatch",
@@ -12176,7 +12176,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "Stoney Trail + Deerfoot = fast SE dispatch",
-              body: "Cranston's location at the intersection of Stoney Trail and Deerfoot means fast access from our SE shop even during rush hour. Typical emergency dispatch window 2-3 hours from initial call. No \"out of service area\" surcharge.",
+              body: "Cranston's location at the intersection of Stoney Trail and Deerfoot means fast access from our SE shop even during rush hour. No \"out of service area\" surcharge.",
             },
           ],
         },
@@ -12206,7 +12206,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "How fast can you respond to emergency calls in Cranston?",
-            a: "Same-day for emergencies — burst pipes, no hot water, sewer backup, no heat in cold snaps. Real person on the phone, we'll confirm a window before the truck rolls. Stoney Trail makes Cranston dispatch fast — typical window 2-3 hours from initial call.",
+            a: "Same-day for emergencies — burst pipes, no hot water, sewer backup, no heat in cold snaps. Real person on the phone, we'll confirm a window before the truck rolls. Stoney Trail makes Cranston dispatch fast.",
           },
           {
             q: "Do you serve all of Cranston including Riverstone?",
@@ -12296,7 +12296,7 @@ export const services: ServicePage[] = [
       { number: "Licensed", label: "& insured", icon: "award" },
     ],
     callout:
-      "Basement flooding at 2 AM or main drain backed up in Edgemont? Call 587-834-3668 — a real person answers, takes your info, and dispatches a plumber within the hour.",
+      "Basement flooding at 2 AM or main drain backed up in Edgemont? Call 587-834-3668 — a real person answers, takes your info, and dispatches a plumber on priority.",
     richContent: {
       sections: [
         {
@@ -12483,7 +12483,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "How quickly can you respond to emergency calls in Evanston?",
-            a: "We typically arrive within s for emergency calls in Evanston, sometimes faster depending on traffic and our current location. We stock our trucks with the most common parts for Evanston homes, so many repairs can be completed on the first visit even during emergencies.",
+            a: "We prioritize emergency calls in Evanston — a real person answers and we confirm an arrival window before the truck rolls. We stock our trucks with the most common parts for Evanston homes, so many repairs can be completed on the first visit even during emergencies.",
           },
           {
             q: "Do you service the brand new homes being built in north Evanston?",
@@ -12673,7 +12673,7 @@ export const services: ServicePage[] = [
       },
       {
         t: "Real person — NW dispatch via Memorial + 10 Street + Kensington Rd",
-        d: "No call centre. You talk to a tech, get a window before the truck rolls. Same-day dispatch for emergencies. Memorial Drive + 10 Street + Kensington Road make Hillhurst arrival fast — typical window 2-3 hours from initial call.",
+        d: "No call centre. You talk to a tech, get a window before the truck rolls. Same-day dispatch for emergencies. Memorial Drive + 10 Street + Kensington Road make Hillhurst arrival fast.",
       },
     ],
     seoTitle: "Hillhurst Plumbers Calgary | Heritage + Infill, Kensington Adjacent",
@@ -12828,7 +12828,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "How quickly can you respond to emergencies in Hillhurst?",
-            a: "Same-day for emergencies — burst pipes, no hot water, sewer backup, no heat in cold snaps. Real person on the phone, we'll confirm a window before the truck rolls. Memorial Drive + 10 Street + Kensington Road make Hillhurst dispatch fast — typical window 2-3 hours from initial call.",
+            a: "Same-day for emergencies — burst pipes, no hot water, sewer backup, no heat in cold snaps. Real person on the phone, we'll confirm a window before the truck rolls. Memorial Drive + 10 Street + Kensington Road make Hillhurst dispatch fast.",
           },
           {
             q: "What other inner-NW Calgary neighbourhoods do you cover?",
@@ -13014,7 +13014,7 @@ export const services: ServicePage[] = [
       },
       {
         t: "Real person — inner-SE dispatch via Memorial Drive",
-        d: "No call centre. You talk to a tech, get a window before the truck rolls. Same-day dispatch for emergencies. Memorial Drive + 9 Avenue + Macleod Trail access make Inglewood arrival fast — typical window 2-3 hours from initial call.",
+        d: "No call centre. You talk to a tech, get a window before the truck rolls. Same-day dispatch for emergencies. Memorial Drive + 9 Avenue + Macleod Trail access make Inglewood arrival fast.",
       },
     ],
     seoTitle: "Inglewood Plumbers Calgary | Heritage Pre-1940 + Renovation",
@@ -13168,7 +13168,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "How quickly can you respond to emergencies in Inglewood?",
-            a: "Same-day for emergencies — burst pipes, no hot water, sewer backup, no heat in cold snaps. Real person on the phone, we'll confirm a window before the truck rolls. Memorial Drive + 9 Avenue access make Inglewood dispatch fast — typical window 2-3 hours from initial call.",
+            a: "Same-day for emergencies — burst pipes, no hot water, sewer backup, no heat in cold snaps. Real person on the phone, we'll confirm a window before the truck rolls. Memorial Drive + 9 Avenue access make Inglewood dispatch fast.",
           },
           {
             q: "What other inner-city Calgary neighbourhoods do you cover?",
@@ -13354,7 +13354,7 @@ export const services: ServicePage[] = [
       },
       {
         t: "Real person — SE dispatch via Macleod Trail + Anderson Road",
-        d: "No call centre. You talk to a tech, get a window before the truck rolls. Same-day dispatch for emergencies. Macleod Trail + Anderson Road + Bow Bottom Trail make Lake Bonavista arrival fast — typical window 2-3 hours from initial call. Same crew that handles [McKenzie Lake](/mckenzie-lake-plumbers-calgary/) and broader SE.",
+        d: "No call centre. You talk to a tech, get a window before the truck rolls. Same-day dispatch for emergencies. Macleod Trail + Anderson Road + Bow Bottom Trail make Lake Bonavista arrival fast. Same crew that handles [McKenzie Lake](/mckenzie-lake-plumbers-calgary/) and broader SE.",
       },
     ],
     seoTitle: "Lake Bonavista Plumbers Calgary | 1970s Original Lake Community",
@@ -13466,7 +13466,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "Macleod Trail + Anderson Road + Bow Bottom = fast SE dispatch",
-              body: "Lake Bonavista's location off Macleod Trail and Anderson Road means fast service from our shop. Same crew that handles broader [SE Calgary](/calgary-plumbers-se/) plumbing. Typical emergency dispatch window 2-3 hours from initial call.",
+              body: "Lake Bonavista's location off Macleod Trail and Anderson Road means fast service from our shop. Same crew that handles broader [SE Calgary](/calgary-plumbers-se/) plumbing.",
             },
           ],
         },
@@ -13508,7 +13508,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "How quickly can you respond to emergencies in Lake Bonavista?",
-            a: "Same-day for emergencies — burst pipes, no hot water, sewer backup, no heat in cold snaps. Real person on the phone, we'll confirm a window before the truck rolls. Macleod Trail + Anderson Road make Lake Bonavista dispatch fast — typical window 2-3 hours from initial call.",
+            a: "Same-day for emergencies — burst pipes, no hot water, sewer backup, no heat in cold snaps. Real person on the phone, we'll confirm a window before the truck rolls. Macleod Trail + Anderson Road make Lake Bonavista dispatch fast.",
           },
           {
             q: "What other SE Calgary neighbourhoods do you cover?",
@@ -13559,7 +13559,7 @@ export const services: ServicePage[] = [
       },
       {
         t: "Real person — fast SE dispatch via 52nd Street + Deerfoot",
-        d: "No call centre. You talk to a tech, get a window before the truck rolls. Same-day dispatch for emergencies — typical Mahogany arrival window 2-3 hours on emergencies. 52nd Street SE makes the run fast.",
+        d: "No call centre. You talk to a tech, get a window before the truck rolls. Same-day dispatch for emergencies. 52nd Street SE makes the run fast.",
       },
     ],
     seoTitle: "Mahogany Plumbers Calgary | Lake Community, 2008-2024 Builds",
@@ -13672,7 +13672,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "SE dispatch via 52nd Street + Deerfoot",
-              body: "Same crew that handles our broader [SE Calgary plumbing](/calgary-plumbers-se/) work. 52nd Street SE + Deerfoot make the dispatch fast even during rush hour — typical Mahogany arrival window 2-3 hours on emergencies, faster on planned work. No \"out of service area\" surcharge.",
+              body: "Same crew that handles our broader [SE Calgary plumbing](/calgary-plumbers-se/) work. 52nd Street SE + Deerfoot make the dispatch fast even during rush hour. No \"out of service area\" surcharge.",
             },
           ],
         },
@@ -13710,7 +13710,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "How fast can you respond to emergency calls in Mahogany?",
-            a: "Same-day for emergencies — burst pipes, no hot water, sewer backup, no heat in cold snaps. Real person on the phone, we'll confirm a window before the truck rolls. 52nd Street SE makes Mahogany dispatch fast — typical window 2-3 hours from initial call.",
+            a: "Same-day for emergencies — burst pipes, no hot water, sewer backup, no heat in cold snaps. Real person on the phone, we'll confirm a window before the truck rolls. 52nd Street SE makes Mahogany dispatch fast.",
           },
           {
             q: "Do you work on every brand of plumbing + heating equipment?",
@@ -13734,7 +13734,7 @@ export const services: ServicePage[] = [
     lead:
       "Last February's brutal -35°C stretch had us running flat out across Marda Loop — frozen pipes in 1960s bungalows and brand-new infills alike. FlameTech plumbers know this inner-city Calgary neighborhood inside and out, from the original galvanized water lines in wartime homes to the [hot water tank issues](/hot-water-tanks/) that come with mixing old plumbing and new construction.",
     heroBody: [
-      "When your pipes burst at 2 AM or your basement starts flooding, we're the crew Marda Loop homeowners call. Real plumbers answer our phones with priority dispatch, and we'll be at your door within the hour.",
+      "When your pipes burst at 2 AM or your basement starts flooding, we're the crew Marda Loop homeowners call. Real plumbers answer our phones with priority dispatch, and we'll confirm an arrival window before the truck rolls.",
       "FlameTech started right here in Calgary, and our [SW Calgary plumbers](/calgary-plumbers-sw/) have been fixing pipes in Marda Loop for many years, including adjacent [Altadore](/altadore-plumbers-calgary/) and [Killarney](/killarney-plumbers-calgary/).",
     ],
     heroSubhead: "Trusted Marda Loop Plumbing Experts",
@@ -13902,7 +13902,7 @@ export const services: ServicePage[] = [
       },
       {
         t: "Real person — NE dispatch via Stoney Trail + McKnight",
-        d: "No call centre. You talk to a tech, get a window before the truck rolls. Same-day dispatch for emergencies. Stoney Trail + McKnight + 36 Street NE make Martindale arrival fast — typical window 2-3 hours from initial call. NE Calgary on our routine dispatch radius.",
+        d: "No call centre. You talk to a tech, get a window before the truck rolls. Same-day dispatch for emergencies. Stoney Trail + McKnight + 36 Street NE make Martindale arrival fast. NE Calgary on our routine dispatch radius.",
       },
     ],
     seoTitle: "Martindale Plumbers Calgary | 1990s-2000s NE, Equipment EOL",
@@ -13967,7 +13967,7 @@ export const services: ServicePage[] = [
             { heading: "Mature trees on original phase = root intrusion era", body: "Original Martindale streets now have 25-30 year mature landscaping. Tree roots find sewer pipe joints over decades. Camera inspection every 5 years on older Martindale homes catches root intrusion early." },
             { heading: "Hard water hits everything downstream of the meter", body: "All of Martindale is on the same hard Calgary municipal supply (150-200 mg/L). Without a softener, every water-using appliance + fixture wears faster regardless of build year. Single softener install protects the whole house." },
             { heading: "NE Calgary has historically been under-served by trades", body: "Many NE Calgary homeowners report having to wait longer or pay more for trades service because providers concentrate in SW/NW. We make a point of routine NE dispatch — Martindale on our regular schedule, same dispatch standards as anywhere else in Calgary." },
-            { heading: "Stoney Trail + McKnight + 36 Street NE = fast NE dispatch", body: "Martindale's NE location with Stoney Trail access means fast service from our shop even during rush hour. Typical emergency dispatch window 2-3 hours from initial call. No \"out of service area\" surcharge for NE Calgary." },
+            { heading: "Stoney Trail + McKnight + 36 Street NE = fast NE dispatch", body: "Martindale's NE location with Stoney Trail access means fast service from our shop even during rush hour. No \"out of service area\" surcharge for NE Calgary." },
           ],
         },
       ],
@@ -13979,7 +13979,7 @@ export const services: ServicePage[] = [
           { q: "Should I install a water softener in my Martindale home?", a: "Strongly recommended. Calgary's hard water shortens every water-using appliance's lifespan. A softener pays back over a single tank replacement cycle and protects every fixture + appliance in the home. Often installed in the same visit as a tank replacement. See [water softener Calgary](/water-softener/)." },
           { q: "Is my original Martindale furnace at end of life?", a: "Depends on age. 1995-2005 originals are now 20-30 years old and well into heat-exchanger-crack risk territory (safety issue with CO leakage risk past 18-20 years). We borescope-inspect heat exchangers on every service call to older furnaces and have honest replace-vs-repair conversations. Heat pump + hybrid dual-fuel becomes worth considering on replacement." },
           { q: "Why is my sump pump running constantly during spring thaw?", a: "Possible causes: float switch stuck, groundwater infiltration from poor exterior drainage, sump pit too small for inflow, or a tired pump struggling at the end of its life. We diagnose during a service call — sometimes the fix is a new float switch, sometimes a new pump, sometimes exterior drainage work. Battery backup recommended for finished-basement homes." },
-          { q: "How fast can you respond to emergency calls in Martindale?", a: "Same-day for emergencies — burst pipes, no hot water, sewer backup, no heat in cold snaps. Real person on the phone, we'll confirm a window before the truck rolls. Stoney Trail + McKnight + 36 Street NE make Martindale dispatch fast — typical window 2-3 hours from initial call." },
+          { q: "How fast can you respond to emergency calls in Martindale?", a: "Same-day for emergencies — burst pipes, no hot water, sewer backup, no heat in cold snaps. Real person on the phone, we'll confirm a window before the truck rolls. Stoney Trail + McKnight + 36 Street NE make Martindale dispatch fast." },
           { q: "Why is my Martindale home losing water pressure?", a: "Most often: hard-water buildup at fixture aerators + showerheads (clean or replace the aerator — quick DIY). Less commonly: failing PRV at the main entry or municipal supply variation. If pressure is low at ALL fixtures simultaneously, that's a system issue we diagnose during a service call." },
           { q: "How often should I have my Martindale sewer line camera-inspected?", a: "Every 5 years on homes 20+ years old. Mature street trees + decades of joint micro-movement contribute to potential root intrusion. Camera inspection catches issues early when they're cheap to fix. Hydro-jet cleaning every 3-5 years prevents most main-line backups." },
           { q: "Do you work on every brand of plumbing + heating equipment?", a: "Yes — Bradford White, John Wood, AO Smith (tanks); Navien, Rinnai, IBC (tankless); Trane, Carrier, Lennox, Goodman, AirEase (furnaces); cold-climate heat pumps; ProFlo (sump pumps). Common parts ride on every truck for first-visit repair completion." },
@@ -14094,7 +14094,7 @@ export const services: ServicePage[] = [
             { heading: "Modern tight envelope means tight humidity", body: "Saddle Ridge's post-2005 builds have tight envelopes — good for energy efficiency, but indoor humidity in deep winter can drop below 20% RH without active humidification. Many homes would benefit from a whole-home humidifier installed on the furnace." },
             { heading: "Multicultural community + multi-generational households", body: "Saddle Ridge has significant multi-generational household density — sometimes 6-10 people in one home with high simultaneous hot-water demand. Standard 50-gallon water heater sizing often falls short. We size to actual demand pattern, sometimes recommending tankless or larger-capacity tanks for these households." },
             { heading: "NE Calgary historically under-served by trades", body: "Many NE Calgary homeowners report having to wait longer or pay more for trades service because providers concentrate in SW/NW. We make a point of routine NE dispatch — Saddle Ridge on our regular schedule, same dispatch standards as anywhere else in Calgary. No \"out of service area\" surcharge for NE Calgary." },
-            { heading: "Stoney Trail + 80 Avenue NE + Saddletowne LRT = fast NE dispatch", body: "Same crew that handles our broader NE Calgary work. Stoney Trail + 80 Avenue NE access make the run fast even during rush hour — typical Saddle Ridge arrival window 2-3 hours on emergencies, faster on planned work." },
+            { heading: "Stoney Trail + 80 Avenue NE + Saddletowne LRT = fast NE dispatch", body: "Same crew that handles our broader NE Calgary work. Stoney Trail + 80 Avenue NE access make the run fast even during rush hour." },
           ],
         },
       ],
@@ -14106,7 +14106,7 @@ export const services: ServicePage[] = [
           { q: "Should I install a water softener in my Saddle Ridge home?", a: "Strongly recommended. Calgary's hard water (150-200 mg/L) shortens every water-using appliance's lifespan. A softener install pays back over a single tank replacement cycle (next tank lasts 14+ years instead of 8-10) and protects every other water-using fixture + appliance in the home — dishwasher, washing machine, faucets, shower valves, fixture finishes. See [water softener Calgary](/water-softener/)." },
           { q: "My multi-generational household runs out of hot water — what's the fix?", a: "Common Saddle Ridge issue — standard 50-gallon water heaters often fall short for 6-10 person households with multiple simultaneous hot-water draws. Options: larger tank (75+ gallon high recovery), twin tanks plumbed in series, or [tankless water heater](/tankless-water-heaters/) for truly endless capacity. We size to actual demand pattern and quote in writing." },
           { q: "Do Saddle Ridge homes need backup sump pumps?", a: "Recommended for any finished-basement home. Spring melt + heavy rain events sometimes coincide with power outages from the same storms. Battery backup sump pumps run independent of grid power so basement stays dry even when the primary pump can't run." },
-          { q: "How fast can you respond to emergency calls in Saddle Ridge?", a: "Same-day for emergencies — burst pipes, no hot water, sewer backup, no heat in cold snaps. Real person on the phone, we'll confirm a window before the truck rolls. Stoney Trail + 80 Avenue NE access make Saddle Ridge dispatch fast — typical window 2-3 hours from initial call." },
+          { q: "How fast can you respond to emergency calls in Saddle Ridge?", a: "Same-day for emergencies — burst pipes, no hot water, sewer backup, no heat in cold snaps. Real person on the phone, we'll confirm a window before the truck rolls. Stoney Trail + 80 Avenue NE access make Saddle Ridge dispatch fast." },
           { q: "Is my Saddle Ridge furnace at end of life?", a: "Depends on build year. 2005-2010 originals are now 15-20 years old and approaching the heat-exchanger-crack risk zone (statistically significant past 18-20 years). 2010-2015 builds are mid-life. We borescope-inspect on every service call to older units and have honest replace-vs-repair conversations." },
           { q: "Should I add a humidifier to my Saddle Ridge furnace?", a: "Worth considering. Saddle Ridge's tight post-2005 envelopes mean indoor humidity in deep winter often drops below 20% RH without active humidification — dry to the point of bloody noses, cracked wood, and static shocks. A whole-home humidifier on the furnace brings RH to the 30-40% Health Canada recommends. See [humidifiers Calgary](/humidifiers-calgary/)." },
           { q: "Do you work on every brand of plumbing + heating equipment?", a: "Yes — Bradford White, John Wood, AO Smith (tanks); Navien, Rinnai, IBC (tankless); Trane, Carrier, Lennox, Goodman, AirEase (furnaces); cold-climate heat pumps; ProFlo (sump pumps). Common parts ride on every truck for first-visit repair completion." },
@@ -14156,7 +14156,7 @@ export const services: ServicePage[] = [
       },
       {
         t: "NE Calgary dispatch as a real priority",
-        d: "NE Calgary has historically been under-served by trades. We make a point of routine NE dispatch with same standards as anywhere else. Stoney Trail + Metis Trail + 144 Avenue NE corridors make Skyview Ranch arrival fast — typical window 2-3 hours on emergencies.",
+        d: "NE Calgary has historically been under-served by trades. We make a point of routine NE dispatch with same standards as anywhere else. Stoney Trail + Metis Trail + 144 Avenue NE corridors make Skyview Ranch arrival fast.",
       },
     ],
     seoTitle: "Skyview Ranch Plumbers Calgary | 2010s+ NE, Newest NE Suburb",
@@ -14220,7 +14220,7 @@ export const services: ServicePage[] = [
             { heading: "First wave (2010-2014) hitting first-replacement cycle", body: "The very earliest Skyview Ranch homes are now 11-15 years old. Original water heaters are likely on their second generation; original sump pumps are hitting first-replacement age. Original AC units (if installed) approaching 12-15 year typical lifespan." },
             { heading: "Newer phases (2018-2024) are still in first-service territory", body: "Newest homes are 0-7 years old. Original equipment well within warranty windows. Conversation is about annual service to extend life — furnace tune-up, water heater flush + anode rod check, AC pre-season service, sump pump test, hose bib + irrigation winterization." },
             { heading: "NE Calgary historically under-served by trades", body: "Many NE Calgary homeowners report having to wait longer or pay more for trades service. We make a point of routine NE dispatch — Skyview Ranch on our regular schedule, same dispatch standards as anywhere else in Calgary. No \"out of service area\" surcharge for NE Calgary." },
-            { heading: "Stoney Trail + Metis Trail + 144 Avenue NE = fast NE dispatch", body: "Same crew that handles our broader NE Calgary work. Stoney Trail + Metis Trail + 144 Avenue NE make the run fast even during rush hour — typical Skyview Ranch arrival window 2-3 hours on emergencies, faster on planned work." },
+            { heading: "Stoney Trail + Metis Trail + 144 Avenue NE = fast NE dispatch", body: "Same crew that handles our broader NE Calgary work. Stoney Trail + Metis Trail + 144 Avenue NE make the run fast even during rush hour." },
           ],
         },
       ],
@@ -14234,7 +14234,7 @@ export const services: ServicePage[] = [
           { q: "Do I need a humidifier in my Skyview Ranch home?", a: "Worth considering. Skyview Ranch's tight post-2010 envelopes mean indoor humidity in deep winter often drops below 20% RH — dry to the point of bloody noses, cracked wood, and static shocks. A whole-home humidifier on the furnace brings RH to the 30-40% range Health Canada recommends. See [humidifiers Calgary](/humidifiers-calgary/)." },
           { q: "When should I winterize my hose bibs + irrigation in Skyview Ranch?", a: "Before first hard freeze — usually mid-October to early November depending on the season. Shut off interior valves to outdoor hose bibs, disconnect hoses, drain the bibs. For irrigation systems: blow out with compressed air, isolate at the backflow preventer. Skip this and you'll find a burst line behind drywall when the system thaws in spring." },
           { q: "Does my Skyview Ranch home need a backup sump pump?", a: "Recommended for any finished-basement home. Spring melt + heavy rain events sometimes coincide with power outages from the same storms, and a primary pump can't run without grid power. Battery backup runs independent of the grid so basement stays dry." },
-          { q: "How fast can you respond to emergency calls in Skyview Ranch?", a: "Same-day for emergencies — burst pipes, no hot water, sewer backup, no heat in cold snaps. Real person on the phone, we'll confirm a window before the truck rolls. Stoney Trail + Metis Trail + 144 Avenue NE make Skyview Ranch dispatch fast — typical window 2-3 hours from initial call." },
+          { q: "How fast can you respond to emergency calls in Skyview Ranch?", a: "Same-day for emergencies — burst pipes, no hot water, sewer backup, no heat in cold snaps. Real person on the phone, we'll confirm a window before the truck rolls. Stoney Trail + Metis Trail + 144 Avenue NE make Skyview Ranch dispatch fast." },
           { q: "Do you work on every brand of plumbing + heating equipment?", a: "Yes — Bradford White, John Wood, AO Smith (tanks); Navien, Rinnai, IBC (tankless); Trane, Carrier, Lennox, Goodman, AirEase (furnaces); cold-climate heat pumps; ProFlo (sump pumps). Common parts ride on every truck for first-visit repair completion." },
           { q: "What other NE Calgary neighbourhoods do you cover?", a: "Same crew works [Saddle Ridge](/saddle-ridge-plumbers-calgary/), [Martindale](/martindale-plumbers-calgary/), [Taradale](/taradale-plumbers-calgary/), Cityscape, Redstone, Cornerstone, Castleridge, Falconridge, Whitehorn, Coral Springs, Monterey Park, Pineridge, Rundle, and the broader [NE Calgary](/calgary-plumbers-ne/). Same-day dispatch across NE." },
         ],
@@ -14282,7 +14282,7 @@ export const services: ServicePage[] = [
       },
       {
         t: "NE Calgary dispatch as a real priority",
-        d: "NE Calgary has historically been under-served by trades. We make a point of routine NE dispatch with same standards as anywhere else. Stoney Trail + 80 Avenue NE + Tara Boulevard NE make the run fast — typical Taradale arrival window 2-3 hours on emergencies.",
+        d: "NE Calgary has historically been under-served by trades. We make a point of routine NE dispatch with same standards as anywhere else. Stoney Trail + 80 Avenue NE + Tara Boulevard NE make the run fast.",
       },
     ],
     seoTitle: "Taradale Plumbers Calgary | 1995-2005 NE, Equipment EOL",
@@ -14347,7 +14347,7 @@ export const services: ServicePage[] = [
             { heading: "Hard water hits everything downstream of the meter", body: "All of Taradale is on the same hard Calgary municipal supply (150-200 mg/L). Without a softener, every water-using appliance + fixture wears faster regardless of build year. Single softener install protects the whole house." },
             { heading: "Multi-generational households common — sized hot-water demand", body: "Taradale has significant multi-generational household density — sometimes 6-10 people in one home with high simultaneous hot-water demand. Standard 50-gallon water heater sizing often falls short. We size to actual demand pattern." },
             { heading: "NE Calgary historically under-served by trades", body: "Many NE Calgary homeowners report having to wait longer or pay more for trades service. We make a point of routine NE dispatch — Taradale on our regular schedule, same dispatch standards as anywhere else." },
-            { heading: "Stoney Trail + 80 Avenue NE + Tara Boulevard = fast NE dispatch", body: "Same crew that handles our broader NE Calgary work. Stoney Trail + 80 Avenue NE make the run fast — typical Taradale arrival window 2-3 hours on emergencies. No \"out of service area\" surcharge for NE Calgary." },
+            { heading: "Stoney Trail + 80 Avenue NE + Tara Boulevard = fast NE dispatch", body: "Same crew that handles our broader NE Calgary work. Stoney Trail + 80 Avenue NE make the run fast. No \"out of service area\" surcharge for NE Calgary." },
           ],
         },
       ],
@@ -14360,7 +14360,7 @@ export const services: ServicePage[] = [
           { q: "My multi-generational household runs out of hot water — what's the fix?", a: "Common Taradale issue — standard 50-gallon water heaters often fall short for 6-10 person households with multiple simultaneous hot-water draws. Options: larger tank (75+ gallon high recovery), twin tanks plumbed in series, or [tankless water heater](/tankless-water-heaters/) for truly endless capacity. We size to actual demand pattern." },
           { q: "Is my original Taradale furnace at end of life?", a: "Depends on age. 1995-2005 originals are now 20-30 years old and well into heat-exchanger-crack risk territory (safety issue with CO leakage risk past 18-20 years). We borescope-inspect heat exchangers on every service call to older furnaces and have honest replace-vs-repair conversations." },
           { q: "Why is my sump pump running constantly during spring thaw?", a: "Possible causes: float switch stuck, groundwater infiltration from poor exterior drainage, sump pit too small for inflow, or a tired pump struggling at end of life. We diagnose during a service call — sometimes the fix is a new float switch, sometimes a new pump. Battery backup recommended for finished-basement homes." },
-          { q: "How fast can you respond to emergency calls in Taradale?", a: "Same-day for emergencies — burst pipes, no hot water, sewer backup, no heat in cold snaps. Real person on the phone, we'll confirm a window before the truck rolls. Stoney Trail + 80 Avenue NE access make Taradale dispatch fast — typical window 2-3 hours from initial call." },
+          { q: "How fast can you respond to emergency calls in Taradale?", a: "Same-day for emergencies — burst pipes, no hot water, sewer backup, no heat in cold snaps. Real person on the phone, we'll confirm a window before the truck rolls. Stoney Trail + 80 Avenue NE access make Taradale dispatch fast." },
           { q: "How often should I have my Taradale sewer line camera-inspected?", a: "Every 5 years on homes 20+ years old. Mature street trees + decades of joint micro-movement contribute to potential root intrusion. Camera inspection catches issues early when they're cheap to fix." },
           { q: "Do you work on every brand of plumbing + heating equipment?", a: "Yes — Bradford White, John Wood, AO Smith (tanks); Navien, Rinnai, IBC (tankless); Trane, Carrier, Lennox, Goodman, AirEase (furnaces); cold-climate heat pumps; ProFlo (sump pumps). Common parts ride on every truck for first-visit repair completion." },
           { q: "What other NE Calgary neighbourhoods do you cover?", a: "Same crew works [Martindale](/martindale-plumbers-calgary/), [Saddle Ridge](/saddle-ridge-plumbers-calgary/), [Skyview Ranch](/skyview-ranch-plumbers-calgary/), Castleridge, Falconridge, Whitehorn, Cityscape, Redstone, Cornerstone, Coral Springs, Monterey Park, Pineridge, Rundle, and the broader [NE Calgary](/calgary-plumbers-ne/). Same-day dispatch across NE." },
@@ -14479,7 +14479,7 @@ export const services: ServicePage[] = [
           { q: "How long do hot water tanks last in McKenzie Lake homes?", a: "Most original tanks installed in 2000-2005 are now 18-23 years old and well past their expected 8-12 year lifespan. Calgary's hard water accelerates sediment buildup, which reduces efficiency and shortens tank life. If your tank is over 15 years old, it's worth having us inspect it before it fails and floods your basement." },
           { q: "Why do I keep getting tree roots in my sewer line?", a: "Tree roots naturally grow toward water sources, and McKenzie Lake's mature landscaping creates ongoing challenges for sewer lines. We recommend camera inspections every 3-5 years to catch root intrusion early. Once roots break through, they grow quickly and can cause complete blockages within months." },
           { q: "Should I replace old plumbing when renovating my McKenzie Lake home?", a: "If you're opening walls for renovation, it's smart to inspect the plumbing behind them. Homes from this era often have supply lines that develop pinhole leaks after 20 years. Replacing questionable sections during renovation costs much less than emergency repairs after drywall is finished." },
-          { q: "How quickly can you respond to plumbing emergencies in McKenzie Lake?", a: "We typically arrive within 60 minutes for true emergencies like burst pipes or sewer backups. Being based in Calgary and familiar with McKenzie Lake's street layout helps us navigate quickly, even during rush hour or bad weather." },
+          { q: "How quickly can you respond to plumbing emergencies in McKenzie Lake?", a: "For true emergencies like burst pipes or sewer backups, a real person answers and we confirm an arrival window before the truck rolls. Being based in Calgary and familiar with McKenzie Lake's street layout helps us navigate quickly, even during rush hour or bad weather." },
           { q: "What's the best way to prevent frozen pipes in McKenzie Lake?", a: "Keep cabinet doors open under sinks during cold snaps to let warm air circulate around pipes. Pay special attention to exterior walls and unheated areas like garages. We also recommend having us check your home's insulation around plumbing during our annual maintenance visits." },
         ],
       },
@@ -14599,7 +14599,7 @@ export const services: ServicePage[] = [
       faq: {
         heading: "Frequently Asked Questions",
         items: [
-          { q: "How fast can you get a plumber to McKenzie Towne?", a: "Our dispatch team typically arrives at McKenzie Towne addresses within 45 minutes of an emergency call, with fully equipped trucks ready to tackle any crisis professionally and efficiently. A real person answers our priority line — never an automated system." },
+          { q: "How fast can you get a plumber to McKenzie Towne?", a: "Our dispatch team prioritizes McKenzie Towne emergency calls, with fully equipped trucks ready to tackle any crisis professionally and efficiently. A real person answers our priority line — never an automated system." },
           { q: "Do you handle trenchless sewer repair in McKenzie Towne?", a: "Yes. We use trenchless technology wherever possible to minimize disruption to your McKenzie Towne landscaping and driveway. We'll run a camera inspection first to confirm the best approach." },
           { q: "My basement sump pump failed during spring melt — can you help?", a: "Yes — Sump pump failures during spring melt are common in McKenzie Towne given the proximity to the Bow River. We stock replacement pumps on our trucks and can usually have you back up and running the same day." },
           { q: "Are you familiar with homes built during McKenzie Towne's development boom?", a: "Twenty-five years of service throughout McKenzie Towne means our technicians have worked on everything from the area's original estate homes to the latest energy-efficient builds. We know the specific pipe materials and fixtures used during each construction era." },
@@ -14826,7 +14826,7 @@ export const services: ServicePage[] = [
     lead:
       "FlameTech Plumbing has been the go-to plumber for New Brighton Calgary homeowners since this SE Calgary community started growing. Whether you're dealing with a burst pipe in your Brookfield home or need [hot water tank replacement](/hot-water-tanks/) in your two-story family house, our crew knows exactly what New Brighton properties need. We've fixed everything from frozen outdoor taps to full basement re-pipes.",
     heroBody: [
-      "Plumbing emergencies don't wait for business hours, and neither do we. Our priority line is answered by a real person, and we can have a fully-equipped truck to your New Brighton address within an hour of your call.",
+      "Plumbing emergencies don't wait for business hours, and neither do we. Our priority line is answered by a real person, and we roll a fully-equipped truck to your New Brighton address on priority dispatch.",
       "Our [SE Calgary plumbing team](/calgary-plumbers-se/) has been fixing pipes and installing water heaters in New Brighton since the first homes went up — we're neighbours with [McKenzie Towne](/mckenzie-towne-plumbers-calgary/) and [Copperfield](/copperfield-plumbers-calgary/). Call 587-834-3668.",
     ],
     heroSubhead: "Trusted New Brighton Plumbing Experts",
@@ -14928,7 +14928,7 @@ export const services: ServicePage[] = [
           { q: "How long do hot water tanks typically last in New Brighton homes?", a: "Most hot water tanks in New Brighton last 8-12 years, but Calgary's hard water can shorten that to 8-10 years if you don't have a [water softener](/water-softener/). The original tanks in early 2000s Brookfield homes are definitely due for replacement. We can assess your tank and give you an honest timeline before it fails." },
           { q: "Why do tree roots keep getting into my sewer line?", a: "Tree roots are attracted to the joints in older sewer lines, especially the clay pipes common in New Brighton's original infrastructure. We recommend camera inspections every 3-5 years if you have mature trees, and root cutting when roots start causing slow drains. Full line replacement is sometimes necessary when roots have completely invaded the pipe." },
           { q: "What should I do if my basement floods during spring thaw?", a: "Turn off your water main immediately, then call us for priority service. Spring flooding in New Brighton often overwhelms sump pumps or causes backup through floor drains when the city storm system can't handle rapid runoff. We'll pump out the water, identify the source, and get your basement dry again." },
-          { q: "How quickly can you get to New Brighton for an emergency call?", a: "Our dispatch typically gets a plumber to New Brighton within 45-90 minutes, depending on traffic and weather conditions. We keep trucks stationed across Calgary, and SE Calgary is one of our primary service areas. Priority calls jump the queue over scheduled maintenance work." },
+          { q: "How quickly can you get to New Brighton for an emergency call?", a: "Our dispatch prioritizes New Brighton emergency calls. We keep trucks working across Calgary, and SE Calgary is one of our primary service areas. Priority calls jump the queue over scheduled maintenance work." },
           { q: "Should I replace my plumbing fixtures before they break?", a: "If your fixtures are original to early 2000s construction, it's smart to start planning replacements. Toilet internals typically need replacement every 7-10 years, and faucet cartridges start failing around the same time. We can do a plumbing assessment and prioritize what needs attention first to avoid emergency calls later." },
         ],
       },
@@ -15048,7 +15048,7 @@ export const services: ServicePage[] = [
       faq: {
         heading: "Frequently Asked Questions",
         items: [
-          { q: "How quickly can you get to Panorama Hills for a plumbing emergency?", a: "Our plumbers are strategically located throughout NW Calgary. For Panorama Hills emergencies, we typically arrive within 60 minutes of your call. Our priority dispatch ensures someone is always available, even during holidays and severe weather events." },
+          { q: "How quickly can you get to Panorama Hills for a plumbing emergency?", a: "Our plumbers work throughout NW Calgary, so Panorama Hills emergencies get priority dispatch. Our priority dispatch ensures someone is always available, even during holidays and severe weather events." },
           { q: "What does a typical plumbing service call in Panorama Hills cost?", a: "We provide free estimates for all non-emergency work. Our pricing is transparent and upfront — you'll know the cost before we begin any repairs. We never charge hidden fees or surprise you with unexpected costs. Call us at 587-834-3668 for a detailed quote specific to your situation." },
           { q: "Do you service both detached homes and townhouses in Panorama Hills?", a: "Yes — We service every type of residential property in Panorama Hills, from single-family detached homes and duplexes to townhouses and condominiums. Each property type has unique plumbing considerations, and our team is experienced with all of them." },
           { q: "How can I prevent frozen pipes in my Panorama Hills home during winter?", a: "Keep cabinet doors under sinks open during extreme cold snaps to allow warm air to circulate around pipes. Ensure exterior hose bibs are shut off and drained before winter. Consider adding pipe insulation to any exposed pipes in your garage or unheated spaces. We also offer winterization services — call us before the first deep freeze for a full inspection." },
@@ -15374,7 +15374,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "How quickly can you respond to emergency calls in Tuscany?",
-            a: "Same-day for emergencies — burst pipes, sewer backup, no hot water, no heat in cold snaps. Real person on the phone, we'll confirm a window before the truck rolls. Crowchild Trail makes the NW dispatch fast. Most days we're at the door within 2-3 hours.",
+            a: "Same-day for emergencies — burst pipes, sewer backup, no hot water, no heat in cold snaps. Real person on the phone, we'll confirm a window before the truck rolls. Crowchild Trail makes the NW dispatch fast.",
           },
           {
             q: "Why is my Tuscany water pressure so high (or so low)?",
@@ -15445,7 +15445,7 @@ export const services: ServicePage[] = [
       },
       {
         t: "Real people on the phone",
-        d: "Calls get answered by real people who live in Calgary — not a call center. Dispatch from the NW means typical arrival within 30-45 minutes.",
+        d: "Calls get answered by real people who live in Calgary — not a call center. We dispatch from the NW, so Tuscany runs stay local.",
       },
     ],
     seoTitle: "Varsity Plumbers Calgary | Priority Emergency & Repair",
@@ -15540,7 +15540,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "How quickly can you respond to emergency calls in Varsity?",
-            a: "We typically arrive at Varsity homes within 30-45 minutes of your call, even during winter storms. Our emergency trucks are stocked with common parts for homes in your neighborhood, so we can often fix the problem on the first visit rather than making you wait for a return trip.",
+            a: "We prioritize Varsity emergency calls, even during winter storms. Our emergency trucks are stocked with common parts for homes in your neighborhood, so we can often fix the problem on the first visit rather than making you wait for a return trip.",
           },
           {
             q: "What's the best way to prevent frozen pipes during Calgary winters?",
@@ -16175,7 +16175,7 @@ export const services: ServicePage[] = [
         "Spread the cost of a new water heater install into flexible monthly payments via our Financeit partner.",
     },
     callout:
-      "Tank leaking or no hot water? Call 587-834-3668 — most emergency installs done within 4-6 hours of the call.",
+      "Tank leaking or no hot water? Call 587-834-3668 — same-day emergency install when a matching tank is on the truck.",
     richContent: {
       sections: [
         {

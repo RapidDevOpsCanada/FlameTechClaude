@@ -1,7 +1,7 @@
 export const homepageFaqs = [
   {
     q: "How fast can a technician be on-site?",
-    a: "For most Calgary and surrounding-area addresses, our typical response time is 60–90 minutes for priority and emergency calls during service hours. For non-urgent work, we'll book you in at the next available slot and confirm the window before we dispatch.",
+    a: "Priority and emergency calls get same-day dispatch during service hours — a real person answers, and we confirm an arrival window before the truck rolls rather than leaving you in a four-hour mystery slot. For non-urgent work, we'll book you in at the next available slot and confirm the window before we dispatch.",
   },
   {
     q: "Do you charge for estimates?",
