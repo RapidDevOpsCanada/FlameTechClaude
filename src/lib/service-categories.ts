@@ -41,6 +41,7 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
   "hot-water-tanks": "Water",
   "hot-water-tank-replacement-calgary": "Water",
   "tankless-water-heaters": "Water",
+  "water-heater-repair-calgary": "Water",
   "hot-water-issues-calgary": "Water",
   "no-hot-water-calgary": "Water",
   "leaking-water-heater-calgary": "Water",

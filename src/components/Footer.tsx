@@ -51,6 +51,7 @@ const airWaterLinks = [
   { label: "Air Conditioning", href: "/air-conditioning/" },
   { label: "Humidifiers", href: "/humidifiers-calgary/" },
   { label: "Hot Water Tanks", href: "/hot-water-tanks/" },
+  { label: "Water Heater Repair", href: "/water-heater-repair-calgary/" },
   { label: "Tankless Heaters", href: "/tankless-water-heaters/" },
   { label: "Hot Water Issues", href: "/hot-water-issues-calgary/" },
   { label: "No Hot Water", href: "/no-hot-water-calgary/" },

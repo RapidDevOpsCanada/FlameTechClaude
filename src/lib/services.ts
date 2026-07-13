@@ -1106,7 +1106,7 @@ export const services: ServicePage[] = [
           items: [
             { body: "Burst or frozen pipes during Calgary's harsh winters that can cause thousands in water damage within hours." },
             { body: "Severe drain and sewer backups that create health hazards and require immediate professional attention." },
-            { body: "Water heater failures that leave families without hot water when they need it most. See our [no hot water](/no-hot-water-calgary/) page for what we cover on those calls." },
+            { body: "Water heater failures that leave families without hot water when they need it most. See our [no hot water](/no-hot-water-calgary/) page for what we cover on those calls, or [water heater repair](/water-heater-repair-calgary/) for what we fix on gas, electric, and tankless units." },
             { body: "Gas line leaks that pose serious safety risks and demand instant response." },
             { body: "Major leaks and flooding from failed appliances or plumbing fixtures that can devastate your property." },
             { body: "Overflowing toilets that won't stop running and require urgent intervention." },
@@ -6111,6 +6111,199 @@ export const services: ServicePage[] = [
         { label: "No Hot Water", href: "/no-hot-water-calgary/", summary: "Tankless throwing error codes? Same-day dispatch with common parts on the truck.", icon: "shower", highlight: true, badge: "Same-day dispatch" },
         { label: "Leaking Water Heater", href: "/leaking-water-heater-calgary/", summary: "Tankless leak or condensate drain issue — emergency shutoff guidance on the call.", icon: "water_damage", highlight: true, badge: "Same-day dispatch" },
         { label: "Hot Water Issues", href: "/hot-water-issues-calgary/", summary: "Broader symptom triage across tank + tankless — lukewarm, popping, discoloured, smell.", icon: "water_damage" },
+        { label: "Water Heater Repair", href: "/water-heater-repair-calgary/", summary: "Gas, electric, and tankless repair — parts on the truck, and a straight answer on repair versus replace.", icon: "handyman" },
+      ],
+    },
+  },
+  {
+    slug: "water-heater-repair-calgary",
+    category: "Water",
+    icon: "handyman",
+    title: "Water Heater Repair in Calgary",
+    lead:
+      "Water heater repair across Calgary on gas, electric, and tankless units. Red Seal plumbers, common parts on the truck, and an honest answer on whether the unit is worth repairing at all — because on an older tank in Calgary's water, sometimes it isn't.",
+    heroBody: [
+      "Most water heater failures come down to a small number of parts: a thermocouple, a heating element, a thermostat, a gas valve, an anode rod that gave up years ago. Those are repairs, and most of them finish in a single visit. What isn't a repair is a tank that's rusted through and leaking from the body — no one can weld that back into service, and anyone who tells you otherwise is selling you a delay.",
+      "We diagnose first and tell you which of those two situations you're in. If it's a fixable part on a unit with life left, we fix it. If the tank is done, we'll say so and quote a [replacement](/hot-water-tank-replacement-calgary/) in writing rather than charging you for a repair that buys a few months.",
+      "Same-day dispatch across Calgary, Airdrie, Chestermere, Cochrane, and Okotoks. Real person answers the phone. Call 587-834-3668.",
+    ],
+    heroSubhead: "Gas, Electric & Tankless — Repaired by Red Seal Plumbers",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/FTVAN2.jpg", alt: "Shaun and Jason — FlameTech same-day water heater repair in Calgary", fit: "cover" },
+    intro:
+      "Water heater repair in Calgary on gas, electric, and tankless units. Red Seal plumbers, same-day dispatch, common parts on every truck. Free written quote if replacement is the smarter call.",
+    features: [
+      "Gas water heater repair",
+      "Electric element + thermostat repair",
+      "Tankless diagnosis and descale",
+      "Thermocouple + pilot assembly",
+      "Anode rod replacement",
+      "Honest repair-or-replace assessment",
+    ],
+    bullets: [
+      {
+        t: "Diagnose before we quote a part",
+        d: "We test the element resistance, the thermostat, the thermocouple millivolts, and the gas valve before recommending anything. The cheap fix is often the right fix, and you shouldn't pay for a part your heater didn't need.",
+      },
+      {
+        t: "We'll tell you when not to repair",
+        d: "A tank leaking from the body is finished — no repair puts that right. We won't take your money for one. If the unit is past saving we say so, and quote the replacement instead.",
+      },
+      {
+        t: "Common parts on every truck",
+        d: "Elements, thermostats, thermocouples, gas control valves, anode rods, and T&P relief valves ride with us. Most water heater repairs finish on the first visit rather than \"we'll order it and come back\".",
+      },
+      {
+        t: "Calgary water is the real culprit",
+        d: "Hard water is what kills most water heaters here. We'll show you the sediment we drain out of yours, and tell you honestly whether a flush schedule or a softener would have prevented the failure.",
+      },
+    ],
+    seoTitle: "Water Heater Repair Calgary | Same-Day Service | FlameTech",
+    seoDescription:
+      "Water heater repair in Calgary — gas, electric, and tankless. Red Seal plumbers, same-day dispatch, parts on the truck. No hot water? Call 587-834-3668.",
+    seoKeywords: [
+      "water heater repair Calgary",
+      "hot water tank repair Calgary",
+      "water heater not working Calgary",
+      "water heater service Calgary",
+      "gas water heater repair Calgary",
+      "electric water heater repair Calgary",
+      "tankless water heater repair Calgary",
+      "FlameTech Plumbing Heating",
+    ],
+    quoteFormLabel: "water heater repair",
+    quoteFormPlaceholder:
+      "e.g. no hot water, pilot won't stay lit, water lukewarm, tank rumbling, water around the base, tankless throwing an error code…",
+    sidebar: {
+      title: "Calgary Water Heater Repair",
+      subtitle:
+        "Gas, electric, and tankless. Red Seal plumbers, same-day dispatch, and a straight answer on repair versus replace.",
+      bullets: [
+        "Common parts on every truck",
+        "Most repairs finish first visit",
+        "Free written quote if replacement is smarter",
+        "Tank, tankless, gas + electric",
+      ],
+    },
+    stats: [
+      { number: "25+", label: "Years in Calgary", icon: "verified" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "Red Seal", label: "Journeyman plumbers", icon: "check_circle" },
+      { number: "Same-day", label: "Dispatch available", icon: "schedule" },
+    ],
+    callout:
+      "No hot water? Call 587-834-3668 for same-day water heater repair — parts on the truck, honest answer on repair versus replace.",
+    timeline: {
+      heading: "How a water heater repair call runs",
+      intro:
+        "The goal is to leave you with hot water on the first visit, and to be straight with you if the unit doesn't deserve the repair.",
+      steps: [
+        { icon: "request_quote", title: "Symptom and age", body: "What's happening, when it started, and how old the unit is. Age changes the whole conversation — a six-year-old tank with a dead element is worth fixing, and a fourteen-year-old one with the same fault often isn't." },
+        { icon: "build", title: "Diagnose, don't guess", body: "Element resistance, thermostat calibration, thermocouple millivolts, gas valve operation, sediment depth, anode rod condition. We measure the suspect part rather than swapping parts until something works." },
+        { icon: "handyman", title: "Repair on the spot where we can", body: "Elements, thermostats, thermocouples, gas valves, anode rods, and relief valves are on the truck. Most repairs finish in the same visit." },
+        { icon: "verified", title: "Or an honest replacement quote", body: "If the tank is leaking from the body, or the repair cost is approaching what a new unit costs on a heater already near end of life, we'll tell you plainly and put a [replacement](/hot-water-tank-replacement-calgary/) quote in writing. No pressure either way." },
+      ],
+    },
+    richContent: {
+      sections: [
+        {
+          heading: "Signs Your Water Heater Needs Repair",
+          intro:
+            "Some of these are urgent and some can wait until Tuesday. If you've got one specific symptom, the pages below go deeper on each — this page is for when you've decided you want it fixed.",
+          items: [
+            { heading: "No hot water at all", body: "On a gas unit, usually the pilot, thermocouple, or gas control valve. On electric, usually a failed element or a tripped high-limit reset. Both are common, and both are repairs. See our [no hot water in Calgary](/no-hot-water-calgary/) page for the diagnostic walkthrough." },
+            { heading: "Not enough hot water, or it runs out fast", body: "Often a failed lower element on an electric tank (you get some hot water, then it's gone), or enough sediment in the bottom of a gas tank that you've lost a chunk of your usable volume to sludge." },
+            { heading: "Water pooling around the base", body: "This is the one to take seriously. It might be a fitting, the drain valve, or the T&P relief valve — all repairable. Or it might be the tank body, which isn't. Our [leaking water heater](/leaking-water-heater-calgary/) page covers how to tell the difference and how to shut it down safely." },
+            { heading: "Rumbling, popping, or banging", body: "That's sediment. Water gets trapped under a layer of hardened scale on the tank bottom and flashes to steam. It's the sound of your heater working harder than it should, and in Calgary it's the most common noise complaint we get." },
+            { heading: "Rusty or discoloured hot water", body: "Usually a spent anode rod, which means the tank itself has started corroding. Caught early this is a cheap part and a big win. Caught late it means the tank is already going." },
+            { heading: "Pilot light won't stay lit", body: "Classic failed thermocouple. It lights, holds while you press the button, and dies the moment you let go. Universal part, on the truck, quick fix." },
+            { heading: "Everything else that's just… off", body: "Temperature swings, a smell in the hot water, water that's too hot. Our [hot water issues](/hot-water-issues-calgary/) page triages the full symptom list across both tank and tankless." },
+          ],
+        },
+        {
+          heading: "Repair or Replace? How We Help You Decide",
+          intro:
+            "This is the question people actually call us about, and it's the one where a contractor's incentives and yours can pull in opposite directions. Here's the honest framework we use.",
+          items: [
+            { heading: "Age is the biggest single factor", body: "A tank water heater in Calgary typically gives you 8-12 years — our hard water is rough on them. A tankless unit runs 15-20 with proper maintenance. Under about 8 years, a tank is usually worth repairing. Past 12, we start steering you toward replacement even when the specific fault is fixable, because the next failure is coming." },
+            { heading: "A leaking tank body is not repairable", body: "If the steel shell has corroded through, there's nothing to fix. Not a patch, not a weld, not a sealant. The only honest answer is a new unit — and the sooner the better, because a weeping tank becomes a flooded basement without much warning." },
+            { heading: "When the repair approaches the cost of a new unit", body: "If we're into a major component on a heater already near the end of its life, you're paying a large fraction of a new unit's price for a heater that still has all its other original parts. We'll lay both numbers out and let you choose, but we'll tell you which way we'd go." },
+            { heading: "How often it's failing", body: "One failure on a mid-life unit is bad luck. The third service call in two years is the unit telling you something. At that point the repairs stop being repairs and start being an instalment plan on a replacement." },
+            { heading: "What we won't do", body: "We won't sell you a replacement when a thermocouple would have done. We also won't quietly repair a tank we know is finished so you call us back in four months. Both are ways of taking your money, and neither is how we want to work." },
+          ],
+        },
+        {
+          heading: "Gas, Electric, and Tankless — What We Repair",
+          items: [
+            { heading: "Gas water heaters", body: "Thermocouples, pilot assemblies, gas control valves, burners, and venting faults. The most common gas failure we see in Calgary is a thermocouple, which is a cheap part and a fast fix. The one we hate finding is a flue or venting problem, because that's a combustion-safety issue and it gets dealt with immediately." },
+            { heading: "Electric water heaters", body: "Upper and lower heating elements, thermostats, and the high-limit reset. Electric faults are usually clean to diagnose: we test element resistance and thermostat calibration and we know within minutes which of the two failed. Common in Calgary condos and homes without gas service." },
+            { heading: "Tankless water heaters", body: "Error-code diagnosis, flow sensors, igniters, flame rods, and — more often than anything else here — a full descale. Calgary's hard water scales a tankless heat exchanger faster than most cities, and a scaled exchanger is the single most common reason a [tankless unit](/tankless-water-heaters/) underperforms or fails early." },
+            { heading: "Anode rods and relief valves", body: "The two parts nobody thinks about. The anode rod is a sacrificial metal rod that corrodes so your tank doesn't, and in Calgary's water it gets consumed fast. The T&P relief valve is the safety device that keeps a water heater from becoming a serious hazard. We check both on every call, whatever you called us out for." },
+          ],
+        },
+        {
+          heading: "Why Calgary Is Hard on Water Heaters",
+          intro:
+            "If your water heater has failed earlier than you expected, this is usually why. It isn't the brand, and it usually isn't bad luck.",
+          items: [
+            { body: "Calgary's water is hard. Dissolved minerals drop out of solution when the water is heated, and they settle in the bottom of your tank as sediment or bake onto the heat exchanger of a tankless unit." },
+            { body: "On a gas tank, that sediment layer sits between the burner and the water. The burner has to fire longer to push heat through it, which wastes gas and cooks the steel underneath — which is how tanks fail early." },
+            { body: "The rumbling and popping people describe is water trapped under that sediment layer flashing to steam. It's not cosmetic; it's the sound of the failure in progress." },
+            { body: "An annual flush is the single most effective thing you can do about it, and it's cheap compared to a new heater. If your tank has never been flushed and it's more than a few years old, that's worth knowing before you spend money on anything else." },
+            { body: "A [water softener](/water-softener/) upstream is the permanent version of the same fix. It's the difference between fighting the symptom every year and removing the cause — and it protects your [boiler](/boiler-installation-calgary/), your dishwasher, and your fixtures at the same time." },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Calgary Water Heater Repair FAQs",
+        items: [
+          {
+            q: "How much does water heater repair cost in Calgary?",
+            a: "It depends entirely on what failed. A thermocouple or an anode rod is among the cheapest work we do. A heating element or a thermostat is a step up. A gas control valve on a larger unit is a serious part and costs accordingly, and a tankless descale is its own job again.\n\nWe diagnose first and quote before we touch anything, so you decide with the real number in front of you rather than a guess over the phone.\n\nAnd if the repair doesn't make sense — if the tank is finished, or you'd be spending a large fraction of a new unit's price on an old one — we'll tell you that instead of quietly doing the work.",
+          },
+          {
+            q: "Can you repair my water heater the same day?",
+            a: "Usually, yes. We carry the common failure parts on every truck — elements, thermostats, thermocouples, gas control valves, anode rods, and relief valves — so most water heater repairs finish on the first visit.\n\nWhere we can't is when a unit needs a brand-specific part that has to be ordered, which happens more with tankless units and discontinued models. We'll tell you that on the call rather than after we've arrived.",
+          },
+          {
+            q: "Should I repair or replace my water heater?",
+            a: "Age is the biggest factor. Tank water heaters in Calgary typically last 8-12 years — our hard water is hard on them — and tankless units run 15-20 with proper maintenance.\n\nUnder about 8 years, a tank with a single failed part is usually worth repairing. Past 12, we'd generally steer you toward [replacement](/hot-water-tank-replacement-calgary/) even when the specific fault is fixable, because the next failure is already on its way.\n\nTwo hard rules regardless of age: a tank leaking from the body is not repairable by anyone, and a repair that costs a large fraction of a new unit on an old heater is money badly spent. We'll show you the math and let you choose.",
+          },
+          {
+            q: "Why is there no hot water even though the unit seems to be running?",
+            a: "On an electric heater, this is usually a failed heating element — often the lower one, which is why you sometimes get a little hot water before it runs cold. The thermostat can also fail, or the high-limit safety can trip and need a reset.\n\nOn a gas heater, the burner may not be lighting at all even though the pilot looks fine. That points at the thermocouple or the gas control valve.\n\nAll of it is diagnosable in one visit. Our [no hot water](/no-hot-water-calgary/) page walks through the symptoms in more detail if you want to narrow it down first.",
+          },
+          {
+            q: "Do you repair tankless water heaters?",
+            a: "Yes — gas and electric both. Tankless repair is more specialized than tank work: there are error codes to read, flow sensors and flame rods to test, and the units are less forgiving of a guess.\n\nThe most common tankless job we do in Calgary isn't really a repair at all — it's a descale. Our hard water scales the heat exchanger, and a scaled exchanger is why most underperforming tankless units underperform. If yours has never been descaled and it's a few years old, start there.",
+          },
+          {
+            q: "Why does my water heater keep failing in Calgary?",
+            a: "Almost always the water. Calgary's hard water leaves mineral sediment in the bottom of a tank and scale on a tankless heat exchanger, and both make the unit work harder and die younger than the manufacturer intended.\n\nTwo things fix it. An annual flush clears the sediment out before it can do damage, and it's cheap insurance. A [water softener](/water-softener/) upstream is the permanent solution — it treats the cause rather than the symptom, and it protects your fixtures, your dishwasher, and any [boiler](/boiler-installation-calgary/) on the same supply.\n\nIf your heater has failed early and it's never been flushed, that's your answer.",
+          },
+          {
+            q: "Is a leaking water heater an emergency?",
+            a: "It can be. Water pooling around the base might be something minor and repairable — a loose fitting, the drain valve, or the T&P relief valve doing its job.\n\nBut it might also be the tank body corroding through, and a tank that's weeping today can let go properly with very little warning. If you're seeing water and you can't tell where it's coming from, shut off the water supply to the heater and call us. Our [leaking water heater](/leaking-water-heater-calgary/) page has the shutoff steps.",
+          },
+          {
+            q: "How long should a water heater last in Calgary?",
+            a: "A tank unit: 8-12 years, and the low end of that is common here because of the water. Diligent annual flushing and replacing the anode rod when it's spent can push a tank to 15.\n\nA tankless unit: 15-20 years *with* annual descaling. Without it, a tankless heater in Calgary water can fail in well under a decade — most of the dead tankless units we replace died of neglected maintenance, not old age.",
+          },
+        ],
+      },
+    },
+    hubLinks: {
+      eyebrow: "Water heater help",
+      heading: "Know the symptom? Start there.",
+      intro:
+        "If you've got one specific problem, these pages go deeper than this one does. If you just want it fixed, call 587-834-3668.",
+      items: [
+        { label: "No Hot Water", href: "/no-hot-water-calgary/", summary: "Nothing hot at any tap — pilot, thermocouple, element, or gas valve. Same-day dispatch.", icon: "water_damage", highlight: true, badge: "Common issue" },
+        { label: "Leaking Water Heater", href: "/leaking-water-heater-calgary/", summary: "Water around the base — how to tell a repairable fitting from a finished tank, and how to shut it down safely.", icon: "water_damage", highlight: true, badge: "Same-day dispatch" },
+        { label: "Hot Water Issues", href: "/hot-water-issues-calgary/", summary: "Lukewarm, running out fast, popping, discoloured, odd smell — full symptom triage across tank and tankless.", icon: "water_damage" },
+        { label: "Hot Water Tank Replacement", href: "/hot-water-tank-replacement-calgary/", summary: "When the repair no longer makes sense — Bradford White, AO Smith, Rheem, permits handled.", icon: "sync" },
+        { label: "Tankless Water Heaters", href: "/tankless-water-heaters/", summary: "Descaling, error codes, and whether going tankless is right for your house in the first place.", icon: "whatshot" },
+        { label: "Water Softeners", href: "/water-softener/", summary: "The permanent fix for the hard water that's killing your heater in the first place.", icon: "science" },
       ],
     },
   },
@@ -6124,7 +6317,7 @@ export const services: ServicePage[] = [
     heroBody: [
       "Calgary's water is hard. Sediment builds in the bottom of every tank faster than in lower-mineral cities — and that's the root cause of most local failures. A tank that should last 12-15 years often gives up at 8-10 here. We see the same handful of issues across every neighbourhood: sediment-driven popping, failing thermostats and elements (electric tanks), pilot/burner issues (gas tanks), and slow leaks from corroded fittings or a tank that's reached end of life.",
       "We work on every common Calgary setup: gas tanks (Bradford White, John Wood, AO Smith), electric tanks, and tankless units (Navien, Rinnai, IBC). Same crew as our [hot water tank replacement](/hot-water-tank-replacement-calgary/), [tankless water heater](/tankless-water-heaters/), and [emergency plumbing](/emergency-plumber-calgary/) work.",
-      "Call 587-834-3668 for priority dispatch — most hot water diagnoses take 30 minutes; many repairs finish the same visit because we stock common thermostats, elements, anode rods, and TPR valves on the truck.",
+      "This page is for working out what's wrong. If you already know you want it fixed, our [Calgary water heater repair](/water-heater-repair-calgary/) page covers what we repair on gas, electric, and tankless units.\n\nCall 587-834-3668 for priority dispatch — most hot water diagnoses take 30 minutes; many repairs finish the same visit because we stock common thermostats, elements, anode rods, and TPR valves on the truck.",
     ],
     heroSubhead: "Diagnosis, Repair, and Honest Replace-or-Repair Calls",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
@@ -6339,7 +6532,7 @@ export const services: ServicePage[] = [
     heroBody: [
       "Before you call: there are two or three things worth checking first that occasionally solve a no-hot-water call in 2 minutes — pilot light, breaker, gas valve at the meter. The try-these-first checklist below walks through each in order. If none of them work, the issue is almost always a component failure (thermostat, element, gas valve, thermocouple, pilot ignition) or a tank past end of life — and that's the call we take care of for you.",
       "We work on every common Calgary setup: gas tanks (Bradford White, John Wood, AO Smith), electric tanks, and tankless units (Navien, Rinnai, IBC). Same crew as our broader [hot water issues](/hot-water-issues-calgary/), [hot water tank replacement](/hot-water-tank-replacement-calgary/), [tankless water heater](/tankless-water-heaters/), and [emergency plumbing](/emergency-plumber-calgary/) work. Real person on the phone — no call centre.",
-      "Call 587-834-3668 for same-day no-hot-water dispatch. Most diagnoses finish in 30 minutes; most repairs finish the same visit because the truck carries common thermostats, elements, anode rods, TPR valves, thermocouples, igniters, and gas control valves.",
+      "No hot water is the most common reason people book [Calgary water heater repair](/water-heater-repair-calgary/) — that page covers what we fix on gas, electric, and tankless units, and how we decide whether the heater is worth repairing at all.\n\nCall 587-834-3668 for same-day no-hot-water dispatch. Most diagnoses finish in 30 minutes; most repairs finish the same visit because the truck carries common thermostats, elements, anode rods, TPR valves, thermocouples, igniters, and gas control valves.",
     ],
     heroSubhead: "Same-Day Dispatch for No-Hot-Water Calls",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
@@ -6582,7 +6775,7 @@ export const services: ServicePage[] = [
     heroBody: [
       "Before we get there, two things matter: containing the leak (shut off the water and gas/electric — covered below) and not panicking about an explosion (tanks have safety valves; water-damage is the real risk, not a blast). If your leak is small and from a top fitting, you have hours to days. If water is pooling around the base, the tank itself is failing and the smart move is to shut off the supply and call. Either way, real person answers the phone — we'll triage on the call and confirm a window before the truck rolls.",
       "We work on every common Calgary setup: gas tanks (Bradford White, John Wood, AO Smith), electric tanks, power-vent and direct-vent tanks, and tankless units (Navien, Rinnai, IBC). Same crew handles our broader [hot water issues](/hot-water-issues-calgary/) and [no hot water](/no-hot-water-calgary/) diagnostic work, plus [hot water tank replacement](/hot-water-tank-replacement-calgary/) and [emergency plumbing](/emergency-plumber-calgary/) more broadly.",
-      "Call 587-834-3668 for same-day dispatch. Most leaking-tank diagnoses run 20-30 minutes. Top-fitting leaks (dielectric union, supply line, drain valve, TPR) often finish first visit. Bottom-of-tank leaks mean replacement — common-brand tanks ride on the truck for same-day swaps where stocked.",
+      "A leak at a fitting is a [Calgary water heater repair](/water-heater-repair-calgary/). A leak from the tank body is not repairable by anyone, and means replacement — this page explains how to tell which one you're looking at.\n\nCall 587-834-3668 for same-day dispatch. Most leaking-tank diagnoses run 20-30 minutes. Top-fitting leaks (dielectric union, supply line, drain valve, TPR) often finish first visit. Bottom-of-tank leaks mean replacement — common-brand tanks ride on the truck for same-day swaps where stocked.",
     ],
     heroSubhead: "Same-Day Dispatch for Leaking Tanks",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
