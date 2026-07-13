@@ -602,11 +602,11 @@ export const services: ServicePage[] = [
             },
             {
               heading: "Wax ring is single-use",
-              body: "Every wax ring is destroyed when you lift the toilet. Re-using one (some installers do, to save $5) means the new install starts with a compromised seal. We use a fresh wax ring on every install — or a waxless rubber gasket on heated floors where wax can soften and shift.",
+              body: "Every wax ring is destroyed when you lift the toilet. Re-using one (some installers do, to save a couple of dollars) means the new install starts with a compromised seal. We use a fresh wax ring on every install — or a waxless rubber gasket on heated floors where wax can soften and shift.",
             },
             {
               heading: "Original braided supply lines fail at 8-12 years",
-              body: "Standard chrome-braided supply lines have rubber inner cores that degrade. The classic failure mode: bursting at 2 AM, flooding a finished bathroom. We replace supply lines on every install regardless of how new the old one looks. A $15 part vs. a $5,000 ceiling repair downstairs.",
+              body: "Standard chrome-braided supply lines have rubber inner cores that degrade. The classic failure mode: bursting at 2 AM, flooding a finished bathroom. We replace supply lines on every install regardless of how new the old one looks. A cheap part now versus a ruined ceiling downstairs later.",
             },
             {
               heading: "Shutoff valves seize over time",
@@ -743,7 +743,7 @@ export const services: ServicePage[] = [
           items: [
             {
               heading: "Use a flange plunger, not a flat sink plunger",
-              body: "Flange plungers have a soft rubber sleeve that flips out from inside the bell — designed to seal against the toilet's curved drain opening. A flat plunger (the cheap one most people own) is for sinks and tubs and gives a weak seal on a toilet. If you don't have a flange plunger, it's worth the $10 stop at the hardware store before calling us.",
+              body: "Flange plungers have a soft rubber sleeve that flips out from inside the bell — designed to seal against the toilet's curved drain opening. A flat plunger (the cheap one most people own) is for sinks and tubs and gives a weak seal on a toilet. If you don't have a flange plunger, it's worth the quick stop at the hardware store before calling us.",
             },
             {
               heading: "Plunge with force AND pull",
@@ -1009,7 +1009,7 @@ export const services: ServicePage[] = [
       faq: {
         heading: "Frequently Asked Questions About Drain Cleaning in Calgary",
         items: [
-          { q: "How much does professional drain cleaning cost in Calgary?", a: "Basic drain cleaning services typically range from $150–$300 for standard residential clogs, while complex main sewer line cleaning can cost $400–$800 depending on blockage severity and pipe length. Video inspection services add approximately $200–$350 but often save money by identifying exact problem locations without excavation. Our technicians provide upfront pricing before beginning work, ensuring no surprise charges." },
+          { q: "How much does professional drain cleaning cost in Calgary?", a: "It depends on which drain, how far in the blockage sits, and what's causing it. A straightforward kitchen or bathroom clog is at the cheap end of anything we do. A main sewer line that has to be cabled or hydro-jetted from a cleanout is a bigger job, and a video inspection adds to the visit — though it often saves money overall by showing exactly where the problem is instead of guessing or digging.\n\nWe give you the price before we start the work, not after. No surprise charges at the end." },
           { q: "How long does drain cleaning take in Calgary homes?", a: "Most residential drain cleaning jobs complete within 1–2 hours, including setup and cleanup time. Complex blockages involving main sewer lines or multiple affected drains may require 3–4 hours for thorough cleaning. Emergency calls are prioritized — a real person answers and we confirm an arrival window before the truck rolls. Preventative maintenance visits usually take 45–90 minutes depending on the number of drains serviced." },
           { q: "What's the difference between snaking and hydro-jetting for drain cleaning?", a: "Traditional drain snaking uses mechanical cables to break through clogs but may leave residual buildup on pipe walls, while hydro-jetting uses high-pressure water (up to 4000 PSI) to completely scour pipes clean. Hydro-jetting is more effective for grease buildup and root removal but requires professional equipment and expertise to avoid damaging older pipes. Our technicians assess pipe condition and blockage type to recommend the most appropriate method for lasting results." },
           { q: "Can Calgary's hard water affect drain cleaning effectiveness?", a: "Calgary's naturally hard water does create additional mineral buildup in drainage pipes, requiring specialized cleaning solutions and techniques for optimal results. Hard water mineral deposits can trap debris and reduce pipe diameter over time, making regular professional cleaning more important than in soft-water areas. We often recommend water softener systems to reduce future buildup and extend time between professional cleanings." },
@@ -1693,7 +1693,7 @@ export const services: ServicePage[] = [
         items: [
           {
             q: "How much does sump pump installation cost in Calgary?",
-            a: "Our standard pricing: replacement pump in an existing pit (ProFlo 1/2 HP cast-iron) is around $504. New sump pit + pump from scratch (cut the slab, install basin, pump, discharge, and check valve) is around $2,000. Battery backup pump add-on to an existing primary is $900–$1,500 including battery. Backwater valve install is a separate quote — typically $2,500–$4,500 depending on accessibility. All quotes are in writing with line items — no surprise charges at the end.",
+            a: "It depends on the scope. Dropping a replacement pump into an existing pit is the simplest and cheapest version of the job. Cutting the slab to put in a new basin, pump, discharge line, and check valve from scratch is a much bigger one. A battery backup added to an existing primary sits in between, and a backwater valve is quoted separately depending on how accessible the line is.\n\nEvery quote is in writing with line items, so you can see exactly what you're paying for — no surprise charges at the end.",
           },
           {
             q: "How long does a sump pump last in Calgary?",
@@ -2227,7 +2227,7 @@ export const services: ServicePage[] = [
         items: [
           {
             q: "How much does boiler repair cost in Calgary?",
-            a: "Most Calgary boiler repairs land between $250 and $850, depending on the part and the system. A new circulator pump or igniter is at the lower end; control boards, gas valves, or heat exchanger work cost more. We diagnose first, then give you a written quote before any work begins — so the price doesn't move on you.",
+            a: "It depends on the part and the system. A circulator pump or an igniter is at the cheaper end. Control boards, gas valves, and anything involving the heat exchanger cost considerably more — and on an older boiler, heat exchanger work is often the point where replacement makes more sense than repair.\n\nWe diagnose first, then give you a written quote before any work begins, so the price doesn't move on you.",
           },
           {
             q: "Is my boiler worth repairing or should I replace it?",
@@ -2653,7 +2653,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "Kettling / banging from the boiler",
-              body: "Sound like a kettle boiling violently — caused by sediment or scale buildup on the heat exchanger that traps water and lets it flash to steam. Common Calgary cause: hard water + no annual flush + aging system. System flush + chemical descale usually quiets it. Persistent kettling over years can crack the heat exchanger — at which point the fix is replacement, not repair. Catching it early is the difference between a $300 service and a $7,000+ replacement.",
+              body: "Sound like a kettle boiling violently — caused by sediment or scale buildup on the heat exchanger that traps water and lets it flash to steam. Common Calgary cause: hard water + no annual flush + aging system. System flush + chemical descale usually quiets it. Persistent kettling over years can crack the heat exchanger — at which point the fix is replacement, not repair. Catching it early is the difference between a routine service call and a full boiler replacement.",
             },
             {
               heading: "Cracked heat exchanger (serious — replace, don't repair)",
@@ -2798,7 +2798,7 @@ export const services: ServicePage[] = [
       fit: "cover",
     },
     intro:
-      "Furnace installation, replacement, repair, and annual service across Calgary. AirEase Pro Team dealer, every major brand serviced. Typical install $5,500-$12,000.",
+      "Furnace installation, replacement, repair, and annual service across Calgary. AirEase Pro Team dealer, every major brand serviced. Free written on-site estimate.",
     features: [
       "Furnace replacement (full system swap)",
       "High-efficiency furnace installation",
@@ -2819,7 +2819,7 @@ export const services: ServicePage[] = [
     ],
     seoTitle: "Calgary Furnace Install, Replacement, Repair | FlameTech",
     seoDescription:
-      "Calgary furnace installation, replacement, emergency repair, and annual service. AirEase Pro Team dealer, 12-yr warranty option. Typical install $5,500-$12,000. Call 587-834-3668.",
+      "Calgary furnace installation, replacement, emergency repair, and annual service. AirEase Pro Team dealer, 12-yr warranty option. Free written on-site estimate. Call 587-834-3668.",
     seoKeywords: [
       "furnace Calgary",
       "furnace repair Calgary",
@@ -2831,7 +2831,6 @@ export const services: ServicePage[] = [
       "Calgary HVAC",
       "FlameTech Plumbing Heating",
     ],
-    priceRange: "$5,500-$12,000",
     quoteFormLabel: "furnace",
     quoteFormPlaceholder:
       "e.g. furnace not firing up, blowing cold air, short-cycling, or need a quote on a high-efficiency replacement…",
@@ -2913,29 +2912,29 @@ export const services: ServicePage[] = [
           ],
         },
         {
-          heading: "What a Furnace Replacement Costs in Calgary (2026)",
+          heading: "What Drives the Cost of a Furnace Replacement in Calgary",
           intro:
-            "Real numbers from quotes we wrote this month. Three tiers, honest variables.",
+            "We quote furnaces on-site, in writing, and free — a number given over the phone is a number that changes on install day. Here's what actually moves the price, so you can read any quote, ours or anyone else's, and know what you're comparing.",
           items: [
             {
-              heading: "Entry — single-stage 92% AFUE",
-              body: "**$5,500-$7,500** all-in. Meets Alberta code minimum, reliable single output level, AirEase A93 or Carrier Comfort tier. Right call for smaller homes, tight budgets, or short-term ownership (selling within 5 years).",
+              heading: "Efficiency tier and output",
+              body: "An entry single-stage 92% AFUE unit meets Alberta code and runs reliably at one output level — the right call for a smaller home or a short ownership window. A two-stage 95-96% unit ([AirEase A96](/air-ease-furnaces-calgary/), Carrier Performance, Lennox Elite) is the most common Calgary spec: quieter, more even, better gas efficiency across a long winter. A modulating 97-98% unit with a variable-speed ECM blower (AirEase A97, Carrier Infinity, Lennox SLP98V) is the top tier, and it earns its keep in larger homes, in houses with stubborn hot and cold spots, or when you're staying put. Each step up costs more.",
             },
             {
-              heading: "Mid — two-stage 95-96% AFUE",
-              body: "**$7,500-$9,500** all-in. Most common Calgary spec. [AirEase A96](/air-ease-furnaces-calgary/), Carrier Performance, or Lennox Elite. Two-stage modulation (low/high) means quieter operation, more even temperatures, and meaningfully better gas efficiency over a Calgary winter.",
+              heading: "Straight swap or reworked install",
+              body: "Dropping a new furnace into a compatible existing setup is the cheapest version of this job. Re-working plenums, adding returns, or fixing undersized ductwork that was never right in the first place is a different scope entirely — and we'd rather tell you that at the quote than halfway through.",
             },
             {
-              heading: "Premium — modulating 97-98% AFUE + variable-speed blower",
-              body: "**$9,000-$12,000+** all-in. AirEase A97, Carrier Infinity, Lennox SLP98V. Variable output (40-100% in fine increments) paired with ECM blower. Best efficiency, most even temperatures, quietest operation. Justified for larger homes, hot/cold spots, or long-term ownership.",
+              heading: "Venting and gas",
+              body: "Older Calgary homes often need a chimney liner or a new sidewall vent run before a condensing furnace can go in, and a gas line sized for an older unit may need upsizing. Both add real labour and material. We check them at quote time rather than discovering them mid-install.",
             },
             {
-              heading: "Common cost adds",
-              body: "Chimney liner $800-$1,500 · Ductwork modifications $500-$3,000 · Gas line upsize $300-$800 · Electrical panel work $400-$1,200. All flagged in writing before install. [Monthly financing](/financing/) available via Financeit.",
+              heading: "Electrical and controls",
+              body: "A variable-speed blower or a new smart thermostat sometimes needs panel or wiring work to support it. If yours does, it's on the estimate before you sign — not added afterward.",
             },
             {
-              heading: "Full deep-dive on pricing",
-              body: "Our furnace cost in Calgary 2026 guide walks through itemised line breakdowns, what to watch for in quotes, and the hidden-cost flags. Worth reading before getting any quote.",
+              heading: "Free written estimate, and financing",
+              body: "We come out, run the heat-loss calc, look at your ducts, venting, and gas line, and give you the model, the AFUE rating, the full scope, and the all-in price in writing at no charge. [Monthly financing](/financing/) is available via Financeit.",
             },
           ],
         },
@@ -2945,13 +2944,13 @@ export const services: ServicePage[] = [
             "Rebate programs shift annually. Here's the honest current state as of 2026.",
           items: [
             {
-              body: "The Canada Greener Homes Grant was retired in early 2024 — replaced by the [Canada Greener Homes Loan](https://natural-resources.canada.ca/energy-efficiency/homes/canada-greener-homes-initiative), an interest-free loan up to $40,000. Useful for spreading the cost of a high-efficiency install but doesn't reduce the net.",
+              body: "The Canada Greener Homes Grant was retired in early 2024 — replaced by the [Canada Greener Homes Loan](https://natural-resources.canada.ca/energy-efficiency/homes/canada-greener-homes-initiative), an interest-free loan for qualifying retrofits. Useful for spreading the cost of a high-efficiency install, but it doesn't reduce the net. Check the current terms directly, since program details change.",
             },
             {
               body: "Provincial rebates have been thin for residential furnaces since 2022. ENMAX, EPCOR, and Direct Energy occasionally run promotional rebates on high-efficiency installs — we check current programs at quote time. Our honest advice: assume zero rebate when comparing quotes, then treat anything you do qualify for as a bonus.",
             },
             {
-              body: "Where the real savings show up: a 96% AFUE replacement of a 25-year-old 70% AFUE unit cuts your heating gas bill roughly 20-25%. On a typical $1,400-$1,800 annual Calgary heating bill, that's $300-$450 saved every year. Payback on the install premium typically lands inside 5-8 years.",
+              body: "Where the real savings show up: replacing a 25-year-old 70% AFUE unit with a modern 96% one cuts the gas you burn to hold the same temperature by roughly a fifth to a quarter. Across Calgary's seven-month heating season that adds up every year, and the payback on the efficiency premium lands well inside the furnace's service life.",
             },
             {
               body: "Pair the new furnace with a properly-tuned thermostat schedule and a [water softener](/water-softener/) upstream of your [hot water tank](/hot-water-tanks/), and you'll see compounding savings across the whole heating + hot-water budget.",
@@ -2986,7 +2985,7 @@ export const services: ServicePage[] = [
         items: [
           {
             q: "How much does a furnace cost in Calgary?",
-            a: "Typical Calgary residential installs run **$5,500-$12,000 all-in**, depending on tier and scope.\n\nEntry single-stage 92% AFUE: $5,500-$7,500. Mid two-stage 95-96% AFUE (most common spec): $7,500-$9,500. Premium modulating 97-98% AFUE: $9,000-$12,000+.\n\nCost adds: chimney liner $800-$1,500, ductwork mods $500-$3,000, gas line upsize $300-$800. All flagged before install. Our furnace cost in Calgary 2026 guide has the full breakdown.",
+            a: "It depends on the efficiency tier, the output your home actually needs, and what's already in your mechanical room — and we won't quote it over the phone, because a number given sight-unseen is a number that changes on install day.\n\nThe main variables: the unit itself (entry single-stage 92% AFUE through premium modulating 97-98%), whether it's a straight swap or the ductwork needs rework, whether the venting or gas line has to change, and whether any electrical work is needed to support a variable-speed blower.\n\nWe come out, run the heat-loss calc, and give you the model, the AFUE rating, the full scope, and the all-in price in writing at no charge. [Monthly financing](/financing/) is available to spread the cost.",
           },
           {
             q: "Furnace or heat pump — which is right for my Calgary home?",
@@ -2994,7 +2993,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "When should I replace rather than repair my furnace?",
-            a: "Consider replacement when your furnace is over 15-20 years old (typical lifespan), repair costs exceed 40% of replacement, the unit fails repeatedly within 24 months, or your heat exchanger has cracked (safety issue — never repair).\n\nUnder 15 years old with a single failed component (igniter $250-$450, inducer motor $400-$700, control board $500-$900)? Usually worth the repair.\n\nWe give honest replace-or-repair assessments — if your 12-year-old furnace just needs an igniter, we'll do the repair and tell you so.",
+            a: "Consider replacement when your furnace is over 15-20 years old (typical lifespan), repair costs exceed 40% of replacement, the unit fails repeatedly within 24 months, or your heat exchanger has cracked (safety issue — never repair).\n\nUnder 15 years old with a single failed component — a bad igniter, inducer motor, or control board? Usually worth the repair.\n\nWe give honest replace-or-repair assessments — if your 12-year-old furnace just needs an igniter, we'll do the repair and tell you so.",
           },
           {
             q: "How often should I have my furnace serviced?",
@@ -3014,7 +3013,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "Are condensing high-efficiency furnaces worth it in Calgary?",
-            a: "In nearly every case. Condensing units (90%+ AFUE) extract extra heat from exhaust gases that older 70-80% AFUE units lose up the chimney.\n\nIn Calgary's seven-month heating season, the efficiency gain typically saves $300-$600 per year in gas. Payback on the install premium happens in 5-8 years and the furnace runs another 10-15 years after that.\n\nThe only cases where standard efficiency might make sense: temporary install (selling within 2-3 years) or a mechanical room where condensate drainage genuinely can't be routed.",
+            a: "In nearly every case. Condensing units (90%+ AFUE) extract extra heat from exhaust gases that older 70-80% AFUE units lose up the chimney.\n\nIn Calgary's seven-month heating season, that efficiency gap is working in your favour for most of the year. The gas savings pay back the install premium well inside the furnace's service life, and the unit keeps running long after it's paid for itself.\n\nThe only cases where standard efficiency might make sense: temporary install (selling within 2-3 years) or a mechanical room where condensate drainage genuinely can't be routed.",
           },
         ],
       },
@@ -3624,11 +3623,11 @@ export const services: ServicePage[] = [
     bullets: [
       {
         t: "Real diagnosis — not parts swapping",
-        d: "We check capacitor microfarads, motor amp draw, wheel balance, and limit switch operation before quoting a part. Box-store guesswork (\"probably the motor — that'll be $900\") gets a lot of homeowners overpaying for a $40 capacitor problem.",
+        d: "We check capacitor microfarads, motor amp draw, wheel balance, and limit switch operation before quoting a part. Box-store guesswork (\"probably the motor\") gets a lot of homeowners paying for a whole new motor when the actual fault is a failed capacitor — one of the cheapest parts in the furnace.",
       },
       {
         t: "Honest repair vs. replace call",
-        d: "If your furnace is 15+ years old and the ECM motor has burned out, replacement is often the right move — a new motor on a tired furnace is throwing $700 at a system that'll need replacement in 2 years anyway. We'll say so plainly.",
+        d: "If your furnace is 15+ years old and the ECM motor has burned out, replacement is often the right move — a new motor on a tired furnace is throwing good money at a system that'll need replacing in 2 years anyway. We'll say so plainly.",
       },
       {
         t: "Most repairs finish first visit",
@@ -3693,7 +3692,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "Blower won't start at all — humming or silence",
-              body: "Humming = motor's getting power but can't spin. Almost always a failed capacitor on PSC or X13 motors ($40-$80 part, 15-minute fix). Silence = no power to motor — could be control board, limit switch, or motor windings open. ECM motors have integrated controllers that fail differently — error codes help diagnose.",
+              body: "Humming = motor's getting power but can't spin. Almost always a failed capacitor on PSC or X13 motors — a cheap part and a 15-minute fix. Silence = no power to motor — could be control board, limit switch, or motor windings open. ECM motors have integrated controllers that fail differently — error codes help diagnose.",
             },
             {
               heading: "Burning smell from furnace",
@@ -3728,15 +3727,15 @@ export const services: ServicePage[] = [
             },
             {
               heading: "Older NW + SE neighbourhoods have more PSC failures",
-              body: "Pre-2000 builds (Brentwood, Thorncliffe, Inglewood, Ramsay, Bowness) often still have original PSC blower motors — 25+ years on the same motor. Capacitor failure is the #1 issue we see in these homes; the fix is cheap ($40-$80 part), but the underlying motor is often near end of life and the call repeats within 12-24 months.",
+              body: "Pre-2000 builds (Brentwood, Thorncliffe, Inglewood, Ramsay, Bowness) often still have original PSC blower motors — 25+ years on the same motor. Capacitor failure is the #1 issue we see in these homes; the fix is cheap, but the underlying motor is often near end of life and the call repeats within 12-24 months.",
             },
             {
               heading: "2010s mid-efficiency builds: X13 motor era",
               body: "Communities built 2005-2015 (Mahogany, Auburn Bay, Evanston, Cranston, Tuscany) typically have X13 multi-speed motors. These fail differently than PSC — programmed speed taps go bad one at a time (cooling speed fails but heating still works, etc.), so symptoms are subtler. Diagnosis usually requires checking which speed taps work, not just \"does it spin.\"",
             },
             {
-              heading: "Modern ECM motors: $500-$900 to replace",
-              body: "Newer builds (post-2015) have variable-speed ECM motors that run quietly, use less power, and last longer — but when they fail, the replacement motor is $500-$900 just for the part (the controller is integrated). On a 12+ year-old furnace, that often pushes the math toward full replacement instead. We do the honest calculation with you.",
+              heading: "Modern ECM motors: the expensive one to replace",
+              body: "Newer builds (post-2015) have variable-speed ECM motors that run quietly, use less power, and last longer — but when they fail, the motor is the priciest part in the furnace — the controller is built into it, so the whole assembly gets replaced. On a 12+ year-old furnace, that often pushes the math toward full replacement instead. We do the honest calculation with you.",
             },
           ],
         },
@@ -3777,7 +3776,7 @@ export const services: ServicePage[] = [
         items: [
           {
             q: "How much does it cost to fix a furnace blower in Calgary?",
-            a: "Depends on what failed. A capacitor replacement is the cheapest fix — usually the first thing we check, because a $40 part swap solves a lot of \"my furnace blower is broken\" calls. PSC and X13 motor replacements are mid-range. ECM variable-speed motor replacements are the most expensive because the motor itself is the priciest part. We diagnose first and quote in writing before committing to any repair, so you always know which bucket you're in.",
+            a: "Depends on what failed. A capacitor replacement is the cheapest fix — usually the first thing we check, because a cheap part swap solves a lot of \"my furnace blower is broken\" calls. PSC and X13 motor replacements are mid-range. ECM variable-speed motor replacements are the most expensive because the motor itself is the priciest part. We diagnose first and quote in writing before committing to any repair, so you always know which bucket you're in.",
           },
           {
             q: "Should I repair my blower or replace the whole furnace?",
@@ -3785,7 +3784,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "What's the difference between a PSC, X13, and ECM blower motor?",
-            a: "PSC (permanent-split capacitor) = older single-speed motors found in pre-2000 furnaces. Cheapest to replace ($350-$500), prone to capacitor failure but the capacitor itself is a $40-$80 fix. X13 = multi-speed motors common in mid-2000s to mid-2010s furnaces — runs different speeds for cooling, heating, and fan-only. ECM (electronically commutated motor) = variable-speed motors in modern high-efficiency furnaces. Quietest, most efficient, longest-lived — but most expensive to replace ($500-$900 for the motor alone) because the controller is integrated.",
+            a: "PSC (permanent-split capacitor) = older single-speed motors found in pre-2000 furnaces. Cheapest to replace, and prone to capacitor failure — but the capacitor itself is one of the cheapest parts in the furnace. X13 = multi-speed motors common in mid-2000s to mid-2010s furnaces — runs different speeds for cooling, heating, and fan-only. ECM (electronically commutated motor) = variable-speed motors in modern high-efficiency furnaces. Quietest, most efficient, longest-lived — but the most expensive to replace, because the controller is built into the motor and the whole assembly has to go.",
           },
           {
             q: "My blower runs constantly and won't shut off. What's wrong?",
@@ -4271,7 +4270,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "My furnace makes a loud bang when it ignites — is that dangerous?",
-            a: "Yes, that's delayed ignition and it's a safety issue. Gas builds up in the heat exchanger before lighting, then ignites all at once with a bang. Causes: dirty burners, failing igniter that takes too long to light, low gas pressure. Continuing to run it risks heat exchanger damage and CO release. Shut the furnace off and call us — most causes are quick fixes, but ignoring it can turn a $200 service into a $7,000 replacement.",
+            a: "Yes, that's delayed ignition and it's a safety issue. Gas builds up in the heat exchanger before lighting, then ignites all at once with a bang. Causes: dirty burners, failing igniter that takes too long to light, low gas pressure. Continuing to run it risks heat exchanger damage and CO release. Shut the furnace off and call us — most causes are quick fixes, but ignoring it can turn a routine service call into a full furnace replacement.",
           },
           {
             q: "How do I know if my furnace is the right size for my home?",
@@ -4955,7 +4954,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "Heating capability is the bonus",
-              body: "Above the economical balance point (typically −10°C to −15°C in Calgary depending on equipment + gas rates), a cold-climate heat pump delivers heat at significantly lower operating cost per BTU than a gas furnace. That's 80%+ of Alberta's heating season. Your gas furnace stays as backup for the coldest stretch. Annual operating savings typically range $200-$600 depending on usage + utility rates.",
+              body: "Above the economical balance point (typically −10°C to −15°C in Calgary depending on equipment + gas rates), a cold-climate heat pump delivers heat at significantly lower operating cost per BTU than a gas furnace. That's 80%+ of Alberta's heating season. Your gas furnace stays as backup for the coldest stretch. What you actually save each year depends on your usage and the gas and power rates you're on, but across a full heating season it's meaningful.",
             },
             {
               heading: "When traditional AC IS the right call",
@@ -5471,7 +5470,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "Annual flushing + 3-year anode rod service",
-              body: "Single best move for Calgary tank longevity. Annual flush removes sediment buildup before it damages the tank bottom. Anode rod inspection every 3 years — if it's down to the core wire, replace ($200-ish part vs $2,000+ tank). Calgary's hard water consumes anodes fast; routine replacement extends tank life by 3-5 years on average.",
+              body: "Single best move for Calgary tank longevity. Annual flush removes sediment buildup before it damages the tank bottom. Anode rod inspection every 3 years — if it's down to the core wire, replace it. The rod is a cheap part, and it's the only thing standing between Calgary's water and the tank itself. Calgary's hard water consumes anodes fast; routine replacement extends tank life by 3-5 years on average.",
             },
             {
               heading: "First-time installs for new builds + additions",
@@ -5664,7 +5663,7 @@ export const services: ServicePage[] = [
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
     heroImage: { src: "/images/2026/04/Power-Vent-hot-water-tank.webp", alt: "Bradford White power-vent hot water tank installed by FlameTech in a Calgary basement", fit: "cover" },
     intro:
-      "Calgary hot water tank replacement by Red Seal certified plumbers. Bradford White, AO Smith, and Rheem stocked. Same-day emergency dispatch, permits handled, warranty included. Typical install $2,200-$3,500.",
+      "Calgary hot water tank replacement by Red Seal certified plumbers. Bradford White, AO Smith, and Rheem stocked. Same-day emergency dispatch, permits handled, warranty included. Free written on-site estimate.",
     features: [
       "Emergency tank replacement",
       "Tank removal & disposal",
@@ -5685,7 +5684,7 @@ export const services: ServicePage[] = [
     ],
     seoTitle: "Calgary Hot Water Tank Replacement | Same-Day Service",
     seoDescription:
-      "Same-day Calgary hot water tank replacement. Bradford White, AO Smith, Rheem stocked. Red Seal plumbers, permits handled. Typical install $2,200-$3,500. Call 587-834-3668.",
+      "Same-day Calgary hot water tank replacement. Bradford White, AO Smith, Rheem stocked. Red Seal plumbers, permits handled. Free written on-site estimate. Call 587-834-3668.",
     seoKeywords: [
       "hot water tank replacement Calgary",
       "water heater replacement Calgary",
@@ -5696,7 +5695,6 @@ export const services: ServicePage[] = [
       "Rheem water heater Calgary",
       "FlameTech Plumbing Heating",
     ],
-    priceRange: "$2,200-$3,500",
     quoteFormLabel: "tank replacement",
     quoteFormPlaceholder:
       "e.g. 50-gallon gas tank leaking, need same-day replacement, considering tankless conversion…",
@@ -5750,29 +5748,29 @@ export const services: ServicePage[] = [
           ],
         },
         {
-          heading: "What Tank Replacement Costs in Calgary (2026)",
+          heading: "What Drives the Cost of a Tank Replacement in Calgary",
           intro:
-            "Real numbers from quotes we wrote this month. Three tiers, honest variables.",
+            "We quote tanks on-site and in writing, at no charge. Here's what actually moves the number, so you can read any quote — ours or anyone else's — and know what you're comparing.",
           items: [
             {
-              heading: "Standard — 40 to 50-gal gas (most installs)",
-              body: "**$2,200-$3,500** all-in. Replacement of an existing 40-50 gallon gas atmospheric or power-vent tank. Bradford White, AO Smith, or Rheem residential. Permit, removal, install, expansion tank, drain pan, and commissioning included.",
+              heading: "Tank size and spec",
+              body: "Swapping an existing 40-50 gallon gas tank for a like-for-like unit is the most common job we do, and the cheapest version of it. A 60-75 gallon tank for a larger household, or a premium series like the Bradford White Defender, costs more.",
             },
             {
-              heading: "Larger or higher-spec",
-              body: "**$3,500-$4,800** all-in. 60-75 gallon tanks for larger households, premium Bradford White Defender series, or installs needing new venting (atmospheric to power-vent conversion). Includes any code upgrades to the gas line or relief valve.",
+              heading: "Gas or electric",
+              body: "Electric tanks are simpler to install — no gas connection, no venting — so they're generally less than the gas equivalent. They still need element, thermostat, and breaker verification. Common in condos and in homes without gas service.",
             },
             {
-              heading: "Electric tank replacement",
-              body: "**$1,800-$3,000** all-in. Simpler installs since there's no gas or venting work, but element + thermostat + breaker verification still required. Common in condos and homes without gas service.",
+              heading: "Venting and code upgrades",
+              body: "Converting an atmospheric tank to power-vent means new venting, and that's real work. So is bringing a gas line or relief valve up to current code if the old install wasn't. We flag both at quote time.",
             },
             {
-              heading: "Tankless conversion (separate path)",
-              body: "**$5,500-$8,500** all-in. Different scope entirely — see our [tankless water heaters](/tankless-water-heaters/) page for the full breakdown. Includes gas-line upsize, venting changes, and condensate drain.",
+              heading: "Tankless is a different path",
+              body: "Going [tankless](/tankless-water-heaters/) is a bigger scope than a tank swap — gas-line upsize, venting changes, condensate drain — and it costs accordingly. See that page for whether it's the right call for your house.",
             },
             {
               heading: "Common cost adds",
-              body: "Expansion tank if you don't already have one $150-$250 · Drain pan + line to a floor drain $200-$400 · Gas shut-off upgrade $100-$200 · Old tank removal + disposal included on every quote. [Monthly financing](/financing/) available via Financeit.",
+              body: "An expansion tank if you don't already have one · a drain pan and line to a floor drain · a gas shut-off upgrade. Old tank removal and disposal is included on every quote. All of it is in writing before we start. [Monthly financing](/financing/) available via Financeit.",
             },
           ],
         },
@@ -5806,7 +5804,7 @@ export const services: ServicePage[] = [
       faq: {
         heading: "Calgary Hot Water Tank Replacement FAQs",
         items: [
-          { q: "How much does hot water tank replacement cost in Calgary?", a: "Typical Calgary residential replacement: $2,200-$3,500 all-in for a 40-50 gallon gas tank. Larger or higher-spec units run $3,500-$4,800. Electric tanks $1,800-$3,000.\n\nCost adds: expansion tank $150-$250, new drain pan $200-$400, gas shut-off upgrade $100-$200. Old tank removal and disposal included on every quote. We provide written prices before any work starts — [Financeit monthly payments](/financing/) available." },
+          { q: "How much does hot water tank replacement cost in Calgary?", a: "It depends on the tank and the install. A like-for-like swap of a 40-50 gallon gas tank is the most common job and the cheapest version of it. A larger or higher-spec tank costs more, an electric tank generally less, and converting an atmospheric tank to power-vent adds venting work.\n\nThe usual adds are an expansion tank if you don't have one, a drain pan and line to a floor drain, and a gas shut-off upgrade where code requires it. Removal and disposal of the old tank is included on every quote.\n\nWe give you written prices before any work starts — [Financeit monthly payments](/financing/) available." },
           { q: "How long does a hot water tank replacement take?", a: "Most standard tank replacements take 3-4 hours from start to finish. This includes removing the old tank, installing the new one, connecting gas or electrical, and testing everything.\n\nComplex installations in tight spaces or with gas line modifications can take 5-6 hours. We'll give you an accurate timeline once we see your setup." },
           { q: "What size hot water tank do I need for my Calgary home?", a: "A 40-gallon tank works for 1-2 people, 50-gallon for 3-4 people, and 60+ gallons for larger families. Calgary homes with multiple bathrooms, teenagers, or soaker tubs usually need the larger size. We factor in family size, number of bathrooms, and usage patterns when we quote." },
           { q: "Should I replace with another tank or switch to tankless?", a: "Depends on your situation. If your existing tank just failed and you need hot water back tonight, a direct [tank replacement](/hot-water-tanks/) is faster, cheaper, and lower risk.\n\nIf you're renovating, your current tank is 10+ years old and you're planning long-term, or your household genuinely runs out of hot water, [tankless](/tankless-water-heaters/) deserves a serious look. Different scope and requires gas-line + venting work, but lasts longer and runs more efficiently if you maintain it." },
@@ -6138,11 +6136,11 @@ export const services: ServicePage[] = [
     bullets: [
       {
         t: "Real diagnosis — not parts swapping",
-        d: "We check element resistance, thermostat calibration, anode rod condition, sediment depth, and gas/electrical supply before quoting a part. Box-store guesswork (\"probably the tank — that'll be $2,000\") gets a lot of homeowners replacing tanks with 4-5 years of useful life left.",
+        d: "We check element resistance, thermostat calibration, anode rod condition, sediment depth, and gas/electrical supply before quoting a part. Box-store guesswork (\"probably the tank\") gets a lot of homeowners replacing tanks with 4-5 years of useful life left.",
       },
       {
         t: "Honest repair vs. replace call",
-        d: "If your tank is 10+ years old in Calgary's hard water and the bottom is leaking, replacement is the right move — patching a corroded tank is throwing money at a system that'll fail again in months. If it's 6 years old with a dead element, the $250 fix is the right call. We'll say so plainly.",
+        d: "If your tank is 10+ years old in Calgary's hard water and the bottom is leaking, replacement is the right move — patching a corroded tank is throwing money at a system that'll fail again in months. If it's 6 years old with a dead element, the cheap fix is the right call. We'll say so plainly.",
       },
       {
         t: "Calgary hard-water aware",
@@ -6215,7 +6213,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "Discoloured / rusty hot water (cold runs clear)",
-              body: "Anode rod has been consumed (or never was — some tanks ship with one and don't get replaced). Without an anode, the tank itself corrodes. Catching this early — replace the anode for $200 — saves a $2,000+ tank replacement. We pull and inspect anode rods during annual service.",
+              body: "Anode rod has been consumed (or never was — some tanks ship with one and don't get replaced). Without an anode, the tank itself corrodes. Catching this early — replacing the anode, which is a cheap part — saves you the whole tank. We pull and inspect anode rods during annual service.",
             },
             {
               heading: "Hot water smells like rotten eggs / sulfur",
@@ -6315,7 +6313,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "Can I drain and flush the tank myself?",
-            a: "Technically yes — shut off power/gas to the tank, attach a garden hose to the drain valve, open the TPR valve briefly to break vacuum, and drain. The catch: many tanks have drain valves that haven't been opened in years and will fail to close properly when you try to shut them off — leaving you with a slow-leaking drain valve and a $200 service call to replace it. We recommend professional flushing if your tank is 5+ years old and has never been flushed; for newer tanks DIY is reasonable if you're comfortable with plumbing.",
+            a: "Technically yes — shut off power/gas to the tank, attach a garden hose to the drain valve, open the TPR valve briefly to break vacuum, and drain. The catch: many tanks have drain valves that haven't been opened in years and will fail to close properly when you try to shut them off — leaving you with a slow-leaking drain valve and a service call to replace it. We recommend professional flushing if your tank is 5+ years old and has never been flushed; for newer tanks DIY is reasonable if you're comfortable with plumbing.",
           },
           {
             q: "Does a water softener really help my hot water tank?",
@@ -6357,7 +6355,7 @@ export const services: ServicePage[] = [
       },
       {
         t: "Diagnose first, swap parts second",
-        d: "The cheap fix is usually the right fix when it's diagnosed properly. We test the thermostat, element resistance, thermocouple millivolts, or gas valve before quoting a replacement. The box-store \"probably the tank — that'll be $2,000\" approach gets a lot of Calgary homeowners replacing tanks with 4-5 years of useful life left.",
+        d: "The cheap fix is usually the right fix when it's diagnosed properly. We test the thermostat, element resistance, thermocouple millivolts, or gas valve before quoting a replacement. The box-store \"probably the tank\" approach gets a lot of Calgary homeowners replacing tanks with 4-5 years of useful life left.",
       },
       {
         t: "Most repairs finish first visit",
@@ -6759,7 +6757,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "Tank 10+ years old + any leak → strong replace lean",
-              body: "Even repairable leaks at this age are usually signs the whole tank is at end of life. Calgary tanks past 10 years are statistically on borrowed time. Repairing a $200 union on a $1,800 tank that'll fail anyway in 6-12 months rarely makes sense. We'll quote both options and walk through the math — most homeowners choose replacement at this age.",
+              body: "Even repairable leaks at this age are usually signs the whole tank is at end of life. Calgary tanks past 10 years are statistically on borrowed time. Paying to repair a fitting on a tank that'll fail anyway in 6-12 months rarely makes sense. We'll quote both options and walk through the math — most homeowners choose replacement at this age.",
             },
             {
               heading: "Tank 6-8 years + repairable leak → judgement call",
@@ -6985,7 +6983,7 @@ export const services: ServicePage[] = [
       faq: {
         heading: "Calgary Water Softener FAQs",
         items: [
-          { q: "How much does a water softener cost in Calgary?", a: "A professional-grade Fleck or Clack residential softener installed in a typical Calgary home runs **$1,800 - $3,200 all-in** (system + install + brine tank + bypass plumbing + permits). Twin-tank systems for larger households or 24/7 soft-water demand range $3,500 - $5,500.\n\nThe big-box-store DIY units at $500-900 will work for 4-6 years before failing in our water — by total-cost-of-ownership they're not actually cheaper. We provide written quotes after a free in-home consult." },
+          { q: "How much does a water softener cost in Calgary?", a: "It depends on the system and the plumbing around it. A professional-grade Fleck or Clack residential softener — system, install, brine tank, bypass plumbing, and permits — is the standard build for a typical Calgary home. A twin-tank system, for a larger household or round-the-clock soft-water demand, costs more.\n\nWhat we'd steer you away from is the big-box DIY unit. They tend to run for a few years and then fail in our water, so on total cost of ownership they aren't actually the cheaper option.\n\nWe give written quotes after a free in-home consult." },
           { q: "How does ion exchange actually work?", a: "Resin beads inside the softener carry sodium ions on their surface. As your hard water flows through, calcium and magnesium swap places with the sodium — the resin holds onto the hard minerals, and your water comes out softened.\n\nWhen the resin's sodium is used up, the unit \"regenerates\" — a brine solution (water + salt) flushes through, knocking the calcium and magnesium off the resin and recharging it with fresh sodium. The waste goes down a drain. That's the cycle in plain English." },
           { q: "Is softened water safe to drink?", a: "Yes. The sodium added by a softener is small — roughly 7-10 mg per glass of water at Calgary's hardness. For comparison, a single slice of white bread contains 150-200 mg of sodium.\n\nIndividuals on strict medically-prescribed low-sodium diets (under 1500 mg/day) should consult their doctor. Most installs include a non-softened tap at the kitchen sink anyway, for drinking and cooking, which sidesteps the question entirely." },
           { q: "How often does a softener need salt?", a: "Most Calgary households use 1-2 bags of solar salt per month. Larger households or heavy water use can hit 3-4. The brine tank holds enough for several months between refills — you don't have to think about it constantly." },
@@ -7044,7 +7042,7 @@ export const services: ServicePage[] = [
       },
       {
         t: "Softener-first ordering",
-        d: "Hard water shortens RO membrane life dramatically. We recommend installing a [water softener](/water-softener/) before the RO if you don't already have one — doubles or triples membrane life and avoids the \"why does my new RO need a $200 membrane every 18 months\" problem.",
+        d: "Hard water shortens RO membrane life dramatically. We recommend installing a [water softener](/water-softener/) before the RO if you don't already have one — doubles or triples membrane life and avoids the \"why does my new RO need a fresh membrane every 18 months\" problem.",
       },
       {
         t: "Air-gap faucet + drain saddle, done to code",
@@ -7549,10 +7547,10 @@ export const services: ServicePage[] = [
         items: [
           { q: "How do I determine the correct boiler size for my Airdrie property?", a: "Accurate sizing depends on total heated area, insulation, window quality, ceiling heights, and Airdrie's −32°C winter design temperature. Average 1,500–2,000 sq ft residences require approximately 75,000–100,000 BTU capacity, while larger 2,500–3,500 sq ft homes need 100,000–150,000 BTU systems. Our technicians perform comprehensive Manual J heat-loss calculations to specify optimal capacity." },
           { q: "What warning signs indicate my boiler needs professional attention?", a: "Watch for rumbling or kettling sounds caused by limescale, whistling from trapped air, or gurgling indicating circulation problems. Pressure repeatedly dropping below 12 PSI, visible water seepage, temperature inconsistencies between rooms, excessive cycling, or yellow burner flames all warrant professional diagnosis. Contact FlameTech at 587-834-3668 when you notice these symptoms." },
-          { q: "When should Airdrie homeowners replace rather than repair boilers?", a: "Replacement becomes economically sensible when equipment reaches 15–20+ years. Repair costs exceeding half the replacement value suggest investing in new equipment instead. Units with AFUE below 80% waste considerable energy compared to modern 95%+ systems, potentially saving $500–900 annually in Airdrie's climate. Visible rust, corrosion, or heat exchanger cracks require immediate replacement." },
+          { q: "When should Airdrie homeowners replace rather than repair boilers?", a: "Replacement becomes economically sensible when equipment reaches 15–20+ years. Repair costs exceeding half the replacement value suggest investing in new equipment instead. Units with AFUE below 80% waste considerable energy compared to modern 95%+ systems, so a replacement meaningfully cuts what you burn each winter in Airdrie's climate. Visible rust, corrosion, or heat exchanger cracks require immediate replacement." },
           { q: "What does annual boiler maintenance include?", a: "Our technicians thoroughly clean heat exchangers, verify all safety controls, test combustion efficiency, inspect venting systems, flush and chemically treat the system against Airdrie's hard water, confirm proper operating pressure and flow rates, lubricate pump bearings, and test zone valve operation. Regular maintenance extends equipment life 5–10 years and preserves efficiency." },
-          { q: "Are energy efficiency rebates available for Airdrie boiler installations?", a: "Federal and provincial programs periodically offer incentives for high-efficiency heating upgrades, including the Canada Greener Homes Grant providing up to $5,000 for qualifying improvements. Eligibility typically requires minimum 95% AFUE ratings and professional installation with complete documentation. Our team stays current on available incentive programs and assists Airdrie clients through application processes." },
-          { q: "Is converting from forced air to boiler heat feasible in Airdrie?", a: "Yes, but it's a substantial investment requiring installing the boiler, adding radiators or baseboard emitters, running distribution piping, and potentially removing existing ductwork. Total costs generally span $16,000–$32,000 depending on property size. Airdrie homeowners often pursue conversions during major renovations to gain zone control, eliminate allergen circulation, and enjoy quieter heat." },
+          { q: "Are energy efficiency rebates available for Airdrie boiler installations?", a: "The Canada Greener Homes Grant was retired in early 2024. What replaced it is the [Canada Greener Homes Loan](https://natural-resources.canada.ca/energy-efficiency/homes/canada-greener-homes-initiative) — an interest-free loan for qualifying retrofits, which helps you spread the cost but doesn't reduce it.\n\nProvincial and utility incentives come and go, and eligibility usually requires a high-efficiency unit and professional installation with full documentation. We check what's actually available at quote time. Our honest advice: assume no rebate when you're comparing quotes, and treat anything you do qualify for as a bonus." },
+          { q: "Is converting from forced air to boiler heat feasible in Airdrie?", a: "Yes, but it's a substantial investment — it means installing the boiler, adding radiators or baseboard emitters, running distribution piping, and potentially removing existing ductwork. It costs many times what a straight boiler replacement does, and it scales with the size of the property. Airdrie homeowners often pursue conversions during major renovations to gain zone control, eliminate allergen circulation, and enjoy quieter heat." },
         ],
       },
     },
@@ -8515,7 +8513,7 @@ export const services: ServicePage[] = [
         items: [
           {
             q: "How much does a hot water tank cost in Airdrie?",
-            a: "Standard 40–50 gallon gas tank installs typically run $1,400–$2,200 in Airdrie, including disposal of the old unit, code-compliant venting, and permits. Power-vent units, longer warranties, or a switch from electric to gas push the price higher. We give you the all-in number in writing before any work starts.",
+            a: "It depends on the tank and the install. A standard 40–50 gallon gas replacement is the common Airdrie job, and our quote includes disposal of the old unit, code-compliant venting, and permits. Power-vent units, longer warranties, or switching from electric to gas push the price up. We give you the all-in number in writing before any work starts.",
           },
           {
             q: "How long do hot water tanks last in Airdrie?",
@@ -8531,7 +8529,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "Tankless or tank — which is better for an Airdrie home?",
-            a: "Tankless wins on endless hot water, smaller footprint, and 20+ year lifespan, but install runs $4,000–$6,000 with venting and gas-line upgrades. Tanks are cheaper up-front and simpler to service. For most Airdrie families we recommend tankless if you're already opening up walls or planning a 15+ year stay; otherwise a quality tank is the value play.",
+            a: "Tankless wins on endless hot water, smaller footprint, and 20+ year lifespan, but the install costs considerably more once the venting and gas-line upgrades are in. Tanks are cheaper up-front and simpler to service. For most Airdrie families we recommend tankless if you're already opening up walls or planning a 15+ year stay; otherwise a quality tank is the value play.",
           },
           {
             q: "Do you handle emergency hot water tank failures in Airdrie?",
@@ -9232,7 +9230,7 @@ export const services: ServicePage[] = [
       },
       {
         t: "ProFlo + quality pumps — not big-box-store throwaways",
-        d: "Big-box-store $150 sump pumps fail in 3-5 years and have a higher failure rate during exactly the moment you need them most (peak storm + power surge). Quality pumps like ProFlo, Zoeller, Liberty cost more upfront but last 10-15 years and have better float switch reliability. Worth the difference for any finished-basement home.",
+        d: "Cheap big-box sump pumps fail in 3-5 years and have a higher failure rate during exactly the moment you need them most (peak storm + power surge). Quality pumps like ProFlo, Zoeller, Liberty cost more upfront but last 10-15 years and have better float switch reliability. Worth the difference for any finished-basement home.",
       },
       {
         t: "Battery backup strongly recommended on finished basements",
@@ -9310,7 +9308,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "Diagnostic before recommending",
-              body: "Sometimes flooding isn't a sump problem — it's a downspout-extension problem, lot-grading problem, or foundation-crack problem (see our [basement flooding diagnostic](/blog/basement-floods-every-time-it-rains-calgary/)). We diagnose source before recommending sump install. If a $200 downspout extension solves it, we'll tell you so.",
+              body: "Sometimes flooding isn't a sump problem — it's a downspout-extension problem, lot-grading problem, or foundation-crack problem (see our [basement flooding diagnostic](/blog/basement-floods-every-time-it-rains-calgary/)). We diagnose the source before recommending a sump install. If a downspout extension solves it, we'll tell you so — and that's a far cheaper afternoon than a new sump.",
             },
           ],
         },
@@ -12649,11 +12647,11 @@ export const services: ServicePage[] = [
         items: [
           {
             q: "How much does it cost to replace a hot water tank in Evanston?",
-            a: "A standard 40-gallon gas hot water tank replacement runs $1,800-2,400 installed, depending on venting requirements and access. Most Evanston homes have straightforward installations, but some newer builds need additional venting work. We provide upfront pricing before starting any work, and most installations are completed the same day.",
+            a: "It depends on the tank and the venting. Most Evanston homes are straightforward — the build era means access is usually good and the existing venting is compatible — but some newer builds need additional venting work, and that moves the number. We give you upfront pricing in writing before starting any work, and most installations are finished the same day.",
           },
           {
             q: "Should I replace the Poly-B piping in my 2003 Evanston home?",
-            a: "If your home still has the original Poly-B plumbing, it's worth getting it inspected even if you haven't had leaks yet. Most Poly-B systems start failing around the 20-year mark, and replacing it proactively costs less than dealing with water damage. [Poly-B replacement](/polyb-plumbing-calgary/) for a typical Evanston home runs $8,000-12,000 depending on accessibility.",
+            a: "If your home still has the original Poly-B plumbing, it's worth getting it inspected even if you haven't had leaks yet. Most Poly-B systems start failing around the 20-year mark, and replacing it proactively costs less than dealing with water damage. What a [Poly-B replacement](/polyb-plumbing-calgary/) costs in a typical Evanston home comes down mostly to accessibility — how much of the run we can reach without opening up finished walls and ceilings.",
           },
           {
             q: "Why does my basement floor drain smell like sewer gas?",
@@ -13787,7 +13785,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "Annual water heater service (flush + anode rod check)",
-              body: "Calgary's hard water builds sediment in the bottom of every tank — Mahogany no exception. Annual flush removes sediment before it damages the tank bottom. Every 3 years we pull and inspect the anode rod (sacrificial part designed to corrode INSTEAD of the tank itself). Anode at end of life means the tank is now corroding — replace it for ~$200 and you've extended tank life by years. Best money you'll spend on Mahogany plumbing.",
+              body: "Calgary's hard water builds sediment in the bottom of every tank — Mahogany no exception. Annual flush removes sediment before it damages the tank bottom. Every 3 years we pull and inspect the anode rod (sacrificial part designed to corrode INSTEAD of the tank itself). Anode at end of life means the tank is now corroding — replace the rod, which is a cheap part, and you've extended tank life by years. Best money you'll spend on Mahogany plumbing.",
             },
             {
               heading: "First-round water heater replacement (oldest 2008-2010 builds)",
@@ -16255,15 +16253,15 @@ export const services: ServicePage[] = [
       faq: {
         heading: "Frequently Asked Questions About Calgary Boilers",
         items: [
-          { q: "How much does a new boiler cost in Calgary?", a: "Installation typically ranges from $8,000 to $15,000 depending on unit size, efficiency rating, and any required gas line, venting, or condensate work. Combi boilers and hydronic conversions sit at the higher end. Financing is available through Financeit with flexible monthly payments — we provide a written quote with all-in pricing before any work starts." },
+          { q: "How much does a new boiler cost in Calgary?", a: "It depends on the unit size, the efficiency rating, and any gas line, venting, or condensate work your mechanical room needs. [Combi boilers](/combi-boiler-installation-calgary/) and hydronic conversions sit at the higher end.\n\nWe don't quote boilers over the phone, because a number given sight-unseen is a number that changes on install day. We come out, run the heat-loss calc, and give you a written quote with all-in pricing before any work starts. Financing is available through Financeit with flexible monthly payments." },
           { q: "What size boiler do I need for my Calgary home?", a: "Sizing depends on square footage, insulation quality, window quality, ceiling heights, and Calgary's −35°C design temperature. We perform a Manual J heat-loss calculation on every install instead of matching the old unit's BTU — old units were often oversized and cost you in efficiency for decades." },
           { q: "How do I know if my boiler needs repair?", a: "Watch for kettling, whistling, or gurgling noises (limescale + air), pressure dropping below 12 PSI, visible water seepage near components, inconsistent room-to-room heating, frequent cycling, climbing gas bills, or display error codes. Yellow burner flames instead of blue indicate dangerous combustion issues — shut the unit down and call us." },
           { q: "When is it time to replace rather than repair?", a: "Replacement makes sense once a boiler reaches 15-20+ years, when repair costs exceed half the replacement value, when AFUE is below 80% (modern units run 95%+), or when visible rust, corrosion, or heat exchanger cracks are present. We'll give you an honest comparison with the numbers — not a sales pitch." },
           { q: "How often should I schedule boiler maintenance?", a: "Once a year, in late summer or early fall before heating season. A real annual service includes heat exchanger inspection + flush, combustion analysis with a calibrated analyzer, safety control checks (pressure relief, low-water cutoff, flame sensor), and gas leak testing on connections." },
-          { q: "Are there rebates for high-efficiency boilers in Alberta?", a: "Federal and provincial programs periodically offer incentives — the Canada Greener Homes Grant has historically provided up to $5,000 for qualifying heating upgrades. Eligibility usually requires 95%+ AFUE and professional installation with documentation. Our team stays current on what's available and helps with applications." },
+          { q: "Are there rebates for high-efficiency boilers in Alberta?", a: "The Canada Greener Homes Grant was retired in early 2024, and what replaced it is the [Canada Greener Homes Loan](https://natural-resources.canada.ca/energy-efficiency/homes/canada-greener-homes-initiative) — interest-free, but a loan, so it spreads the cost rather than reducing it.\n\nProvincial and utility incentives come and go, and eligibility usually requires 95%+ AFUE and professional installation with documentation. We check what's live at quote time. Assume no rebate when comparing quotes, and treat anything you qualify for as a bonus." },
           { q: "What's the difference between a boiler and a water heater?", a: "Boilers heat water that circulates through radiators, baseboards, or in-floor tubing to warm your living spaces — a closed loop. Water heaters provide potable hot water for showers, dishes, and laundry. Combi boilers do both functions from one unit." },
           { q: "Why is my boiler losing pressure?", a: "Persistent pressure loss usually means small leaks at pipe joints, radiator valves, or connections that may not be visible. Other causes: defective pressure relief valves, failed expansion tanks, malfunctioning automatic fill valves, or excessive bleeding from radiators. Rapid pressure drops or pooling water needs immediate professional attention." },
-          { q: "Can I convert from forced air to a boiler system?", a: "Yes, but it's a substantial investment — typically $15,000-$30,000 depending on home size and chosen heat distribution (radiators, baseboards, or in-floor radiant). Most Calgary homeowners pursue conversions during major renovations to gain zone control, eliminate allergen circulation, and enjoy quieter, more luxurious heat." },
+          { q: "Can I convert from forced air to a boiler system?", a: "Yes, but it's a substantial investment — many times the cost of a straight boiler replacement, and it scales with home size and the heat distribution you choose (radiators, baseboards, or in-floor radiant). Most Calgary homeowners pursue conversions during a major renovation, when the floors are already open, to gain zone control, eliminate allergen circulation, and enjoy quieter, more even heat." },
         ],
       },
     },
@@ -16489,7 +16487,7 @@ export const services: ServicePage[] = [
             "As an authorized AirEase dealer, FlameTech brings expertise to every furnace installation, replacement, and service call throughout Calgary. We specialize in AirEase's complete residential furnace lineup, from high-efficiency modulating models achieving 98% AFUE to dependable single-stage units for budget-conscious homeowners. From initial consultation through warranty support, we provide comprehensive service that protects your investment and guarantees optimal performance year after year.",
           items: [
             { heading: "Certified Technicians", body: "Factory-trained on AirEase installation, controls, and warranty work — so install, troubleshooting, and warranty are all done to spec." },
-            { heading: "5-Star Rated", body: "Hundreds of Calgary homeowners rate our work 5 stars across Google reviews. Same standard on a $200 service call as a $15,000 install." },
+            { heading: "5-Star Rated", body: "Hundreds of Calgary homeowners rate our work 5 stars across Google reviews. Same standard on a small service call as on a full system install." },
             { heading: "Furnace Specialists", body: "Heating is a core specialty. We install and service every major brand in Calgary, with a particular depth on AirEase, Carrier, and Lennox high-efficiency lineups." },
             { heading: "Warranty Support", body: "AirEase Pro Team membership gives us direct access to factory warranty claims, parts, and technical support — meaning faster resolution if anything ever goes sideways." },
           ],
@@ -16770,7 +16768,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "Pressure-tank failure short-cycles the pump",
-              body: "The pressure tank is the buffer between the well pump and the fixtures. When the bladder fails, the pump turns on and off rapidly with every fixture draw — kills the pump in months, not years. Symptoms: noisy pump, fluctuating pressure, eventually no water. Replacing the pressure tank early saves a $2,000-$5,000 down-hole pump pull.",
+              body: "The pressure tank is the buffer between the well pump and the fixtures. When the bladder fails, the pump turns on and off rapidly with every fixture draw — kills the pump in months, not years. Symptoms: noisy pump, fluctuating pressure, eventually no water. Replacing the pressure tank early saves you a down-hole pump pull — a far bigger and more expensive job.",
             },
             {
               heading: "Iron + manganese fouling softener resin",
@@ -16808,7 +16806,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "My well pump keeps turning on and off — what's wrong?",
-            a: "Almost always a failed pressure tank. The pressure tank has a rubber bladder that holds compressed air; when it fails, the pump can't build a proper pressure cushion and short-cycles with every fixture draw. Cheap fix ($300-$600 range for the tank itself) compared to the $2,000-$5,000 cost of pulling a burnt-out down-hole pump. We diagnose and replace pressure tanks regularly across Bearspaw.",
+            a: "Almost always a failed pressure tank. The pressure tank has a rubber bladder that holds compressed air; when it fails, the pump can't build a proper pressure cushion and short-cycles with every fixture draw. The pressure tank itself is a cheap fix compared to the cost of pulling a burnt-out down-hole pump. We diagnose and replace pressure tanks regularly across Bearspaw.",
           },
           {
             q: "Do you do hydronic radiant heating systems?",
