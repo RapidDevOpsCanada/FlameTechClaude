@@ -3810,9 +3810,9 @@ export const services: ServicePage[] = [
     slug: "no-heat-issues-calgary",
     category: "Heating",
     icon: "local_fire_department",
-    title: "No Heat in Calgary — Furnace & Boiler Diagnosis + Repair",
+    title: "Heating System Not Working in Calgary — Furnace & Boiler Diagnosis + Repair",
     lead:
-      "No heat in a Calgary cold snap is the call we drop everything for. Most no-heat issues trace back to a small handful of causes — and the right fix depends on figuring out which one before swapping parts. FlameTech diagnoses on the first visit, fixes most failures on the first visit, and tells you straight whether your system needs a repair or a replacement.",
+      "A heating system not working in a Calgary cold snap is the call we drop everything for. Whether it's a furnace that won't fire or a boiler that's running but leaving the house cold, no-heat failures trace back to a small handful of causes — and the right fix depends on figuring out which one before swapping parts. FlameTech diagnoses on the first visit, fixes most failures on the first visit, and tells you straight whether your system needs a repair or a replacement.",
     heroBody: [
       "We work on every common Calgary heating setup: high-efficiency condensing furnaces (post-2000s builds), conventional gas furnaces (older homes), and hydronic boiler systems (in-floor radiant in luxury rebuilds like [Bel-Aire](/bel-aire-plumbers-calgary/), [Mount Royal](/mount-royal-plumbers-calgary/), and [Aspen Woods](/aspen-woods-plumbers-calgary/), plus baseboard hydronic in 60s-70s homes). If your system isn't completely off but something is clearly off (uneven heat, high bills, weird noises), see our broader [home heating issues](/home-heating-issues-calgary/) diagnostic page.",
       "Priority dispatch for no-heat calls anywhere in Calgary, Airdrie, Chestermere, Cochrane, Okotoks, and surrounding communities. Real person answers the phone — we'll confirm a window before the truck rolls. Trucks stocked with common parts: igniters, flame sensors, capacitors, thermocouples, gas valves, thermostats — so most no-heat calls finish in the first visit.",
@@ -3849,10 +3849,12 @@ export const services: ServicePage[] = [
         d: "If your furnace is 18+ years old and the heat exchanger is cracked, replacement is the right move. If it's 8 years old and the igniter failed, the small-parts fix is the right call. We'll do the math with you, written quote either way.",
       },
     ],
-    seoTitle: "No Heat Issues Calgary | Furnace + Boiler Diagnosis & Repair",
+    seoTitle: "Heating System Not Working Calgary | Furnace + Boiler Repair",
     seoDescription:
-      "No heat in Calgary? Priority cold-snap dispatch for furnace + boiler diagnosis and repair. Real person on the phone, common parts on the truck. Call 587-834-3668.",
+      "Heating system not working in Calgary? Priority cold-snap dispatch for furnace and boiler diagnosis and repair. Real person on the phone, common parts on the truck. Call 587-834-3668.",
     seoKeywords: [
+      "heating system not working Calgary",
+      "heating not working Calgary",
       "no heat Calgary",
       "furnace not heating Calgary",
       "boiler no heat Calgary",
@@ -3885,7 +3887,7 @@ export const services: ServicePage[] = [
     richContent: {
       sections: [
         {
-          heading: "Try these first (before calling)",
+          heading: "Heating system not working? Try these first",
           intro:
             "Sometimes \"no heat\" is something you can fix in two minutes. Worth checking these before you book a service call — if any of them solves it, you've saved a service-call fee.",
           items: [
@@ -3983,8 +3985,12 @@ export const services: ServicePage[] = [
         },
       ],
       faq: {
-        heading: "No Heat in Calgary — FAQs",
+        heading: "Heating System Not Working in Calgary — FAQs",
         items: [
+          {
+            q: "My heating system isn't working — where do I start?",
+            a: "Start by working out which kind of system you have, because the first checks are different.\n\n**Forced air (a furnace, blowing warm air through vents):** check the thermostat is set to HEAT and above room temperature, swap the thermostat batteries, flip the furnace breaker off and back on, and look at the filter. A badly clogged filter can trip the high-limit safety and stop the burner outright.\n\n**Hydronic (a boiler feeding radiators, baseboards, or in-floor loops):** check the pressure gauge on the boiler. Below roughly 8 PSI and most boilers won't fire as a safety. Boilers have no air filter, so skip that step — and see our [boiler not working](/boiler-not-working-calgary/) page for the full hydronic walkthrough.\n\nIf your system is running but the house still isn't getting warm — uneven rooms, climbing bills, odd noises — that's a different problem from no heat at all, and our [home heating issues](/home-heating-issues-calgary/) page covers it.\n\nIf none of that solves it, call 587-834-3668. No-heat calls in a cold snap get routed ahead of scheduled work.",
+          },
           {
             q: "My furnace stopped working in a cold snap — what's the fastest way to get heat back?",
             a: "Call us first — we route no-heat calls during cold snaps ahead of scheduled work, and real-person dispatch means you talk to a tech rather than a call centre. While you wait: confirm the thermostat is set to HEAT and above room temp, swap the thermostat batteries, flip the furnace breaker off-and-on, and check the furnace filter. If any of those solves it, you saved a service call. If not, we'll be there with common parts on the truck.",
