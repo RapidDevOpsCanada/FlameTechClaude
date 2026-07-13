@@ -50,30 +50,26 @@ const steps = [
   },
 ];
 
-const examples = [
+const paymentFactors = [
   {
-    label: "Boiler service + minor repair",
-    range: "$1,500 – $3,000",
-    monthly: "~$45 – $90 / mo",
-    term: "36-month example",
+    kicker: "The job",
+    label: "What the work actually costs",
+    body: "Everything starts from your written quote. We price the specific job on-site first — the financing conversation only happens after you know the real number, never before.",
   },
   {
-    label: "Furnace replacement",
-    range: "$5,000 – $8,000",
-    monthly: "~$95 – $155 / mo",
-    term: "60-month example",
+    kicker: "The term",
+    label: "How long you spread it over",
+    body: "Terms typically run from a few months out to several years. A longer term means a smaller monthly payment and more interest paid overall; a shorter one is the reverse. You pick the trade-off that fits your budget.",
   },
   {
-    label: "Boiler install + venting",
-    range: "$8,000 – $15,000",
-    monthly: "~$155 – $290 / mo",
-    term: "60-month example",
+    kicker: "The rate",
+    label: "Your rate, not our markup",
+    body: "Financeit sets the rate from the loan amount, the term, and your credit profile. We don't add anything on top — the rate they offer you is the rate you get, and you see it before you accept.",
   },
   {
-    label: "Whole-home repipe (PolyB)",
-    range: "$10,000 – $25,000",
-    monthly: "~$195 – $485 / mo",
-    term: "60-month example",
+    kicker: "No penalty",
+    label: "Pay it off whenever you want",
+    body: "Fixed monthly payments, no balloon at the end, and no prepayment penalty. If your situation changes and you want to clear the balance early, you can.",
   },
 ];
 
@@ -112,7 +108,7 @@ const faq = [
   },
   {
     q: "Can I finance a repair, not just an install?",
-    a: "Larger repairs (over about $1,500) generally qualify. Smaller service calls usually don't make sense to finance — we'll tell you straight if a job is too small to be worth the paperwork.",
+    a: "Larger repairs generally qualify. Smaller service calls usually don't make sense to finance — the interest and the paperwork aren't worth it on a job that size, and we'll tell you straight which side of that line yours falls on.",
   },
   {
     q: "What if I'm a Calgary renter or landlord?",
@@ -191,46 +187,43 @@ export default function FinancingPage() {
         </div>
       </section>
 
-      {/* Payment examples */}
+      {/* What decides your payment */}
       <section className="bg-cream-100 text-ink-900 py-20 border-t border-line-light light-surface">
         <div className="max-w-7xl mx-auto px-6 md:px-10">
           <div className="max-w-3xl mb-10">
             <span className="eyebrow-light mb-4">What it looks like</span>
             <h2 className="font-display text-3xl md:text-4xl font-extrabold tracking-[-0.015em] mt-4 leading-[1.1]">
-              Sample payment ranges.
+              What decides your monthly payment.
             </h2>
             <p className="text-[17px] text-ink-700 leading-relaxed mt-5 max-w-2xl">
-              These are illustrative ranges based on typical jobs and
-              Financeit&apos;s standard rates — your actual quote and rate
-              come from the application. No two installs are identical, so
-              we always price your specific job in writing first.
+              We don&apos;t publish sample payment tables, because no two
+              installs are identical and a number pulled off a web page is a
+              number that changes when we actually see your mechanical room.
+              Here&apos;s what your real payment is built from instead — and
+              you see all of it, in writing, before you commit to anything.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {examples.map((ex) => (
+            {paymentFactors.map((f) => (
               <div
-                key={ex.label}
+                key={f.label}
                 className="rounded-2xl bg-white border border-line-light p-7 md:p-8"
               >
                 <p className="text-[11px] font-bold uppercase tracking-[0.18em] text-primary mb-3">
-                  {ex.term}
+                  {f.kicker}
                 </p>
                 <p className="font-display font-extrabold text-xl md:text-2xl tracking-tight mb-4 leading-tight">
-                  {ex.label}
+                  {f.label}
                 </p>
-                <div className="flex items-baseline gap-3 flex-wrap">
-                  <span className="font-display text-2xl md:text-3xl font-extrabold text-emergency-deep tracking-tight">
-                    {ex.monthly}
-                  </span>
-                  <span className="text-[14px] text-ink-500">{ex.range} total</span>
-                </div>
+                <p className="text-[15px] text-ink-700 leading-relaxed">
+                  {f.body}
+                </p>
               </div>
             ))}
           </div>
           <p className="text-[13px] text-ink-500 mt-8 max-w-3xl leading-relaxed">
-            *Illustrative only. Actual rates and terms depend on the loan
-            amount, term length, and your credit profile. Financeit terms
-            and conditions apply.
+            *Actual rates and terms depend on the loan amount, term length,
+            and your credit profile. Financeit terms and conditions apply.
           </p>
         </div>
       </section>
@@ -244,11 +237,10 @@ export default function FinancingPage() {
               Best fit for bigger jobs.
             </h2>
             <p className="text-[17px] text-ink-700 leading-relaxed mt-5 max-w-2xl">
-              Financing makes sense once a job clears about $1,500 — the
-              services below are the ones we most often help finance. Smaller
-              service calls and minor repairs aren&apos;t worth the
-              paperwork; we&apos;ll tell you straight which side of the line
-              your job falls on.
+              Financing is worth it on bigger-ticket work — the services below
+              are the ones we most often help finance. Smaller service calls
+              and minor repairs aren&apos;t worth the paperwork; we&apos;ll
+              tell you straight which side of the line your job falls on.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
