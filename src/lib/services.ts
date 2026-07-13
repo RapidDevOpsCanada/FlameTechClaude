@@ -1740,7 +1740,7 @@ export const services: ServicePage[] = [
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
     heroImage: { src: "/images/2026/04/Boiler.webp", alt: "Copper hydronic manifold with zone pumps and expansion tank — boiler install by FlameTech in Calgary", fit: "cover" },
     intro:
-      "Professional boiler installation and replacement in Calgary by certified technicians. Free on-site heat-loss quote, gas & electric, all brands. Typical install $5,500-$12,000.",
+      "Professional boiler installation and replacement in Calgary by certified technicians. Free on-site heat-loss quote, gas & electric, all brands.",
     features: [
       "Boiler replacement (full system swap)",
       "Gas & electric boiler installation",
@@ -1761,7 +1761,7 @@ export const services: ServicePage[] = [
     ],
     seoTitle: "Calgary Boiler Installation & Replacement | FlameTech",
     seoDescription:
-      "Free on-site heat-loss quote, install on every major brand including Viessmann, Navien, and IBC. Calgary boiler installation and replacement done right. Typical install $5,500-$12,000. Call 587-834-3668.",
+      "Free on-site heat-loss quote, install on every major brand including Viessmann, Navien, and IBC. Calgary boiler installation and replacement done right. Call 587-834-3668.",
     seoKeywords: [
       "boiler installation Calgary",
       "boiler replacement Calgary",
@@ -1773,7 +1773,6 @@ export const services: ServicePage[] = [
       "hydronic radiant Calgary",
       "FlameTech Plumbing Heating",
     ],
-    priceRange: "$5,500-$12,000",
     quoteFormLabel: "boiler install",
     quoteFormPlaceholder:
       "e.g. old boiler needs replacing, looking at condensing upgrade, planning a hydronic radiant system…",
@@ -1821,35 +1820,39 @@ export const services: ServicePage[] = [
             { heading: "Gas Boiler Installation", body: "We install high-efficiency gas-fired boilers from all major manufacturers, handling gas line connections, venting, and system commissioning to manufacturer specifications." },
             { heading: "Electric Boiler Installation", body: "For homes without gas access or as backup heating systems, we install electric boilers with proper safety controls." },
             { heading: "Condensing Boiler Systems", body: "These high-efficiency units extract extra heat from exhaust gases, reducing your natural gas bills during Calgary's long heating season." },
-            { heading: "Combi Boiler Installation", body: "Combination units that provide both space heating and domestic hot water in a single compact system, perfect for smaller Calgary homes and condos." },
+            { heading: "Combi Boiler Installation", body: "Combination units that provide both space heating and domestic hot water in a single compact system — a strong fit for smaller Calgary homes and condos where the boiler and the hot water tank are both aging out. See our [combi boiler installation](/combi-boiler-installation-calgary/) page for how we size them against Calgary's cold winter mains." },
             { heading: "Hydronic Radiant Systems", body: "We install in-floor radiant heating systems with new boilers, providing even heat distribution throughout your Calgary home." },
             { heading: "Boiler Replacement & Upgrades", body: "Complete removal of old units and installation of new systems, including all necessary piping modifications and control upgrades." },
           ],
         },
         {
-          heading: "What Boiler Replacement Costs in Calgary (2026)",
+          heading: "What Drives the Cost of a Boiler Replacement in Calgary",
           intro:
-            "Real numbers from quotes we wrote this month. Every install is sized to your home, so the range is honest — the variables are scope, brand, and existing infrastructure.",
+            "We don't quote boilers over the phone, because the number would be wrong. Every install is sized to the home, and the price moves with scope, brand tier, and what's already in your mechanical room. Here's what we're actually looking at when we write the estimate — so you can read any quote, ours or someone else's, and know what you're comparing.",
           items: [
             {
-              heading: "Entry — gas, single-stage condensing (~90% AFUE)",
-              body: "**$5,500-$7,500** all-in. Replacement of an existing unit with a like-for-like condensing boiler, re-using compatible gas line and venting. Crown or Weil-McLain entry-tier. Permit, removal, install, commissioning included.",
+              heading: "Boiler tier and output",
+              body: "An entry-tier single-stage condensing unit and a premium modulating one are different appliances at different prices. Crown and Weil-McLain sit at the practical end; [Navien](https://www.navieninc.com/) and [IBC](https://ibcboiler.com/) in the middle; [Viessmann](https://www.viessmann.ca/) and Triangle Tube at the top. The output you need comes from the heat-loss calc, not from the badge on your old unit.",
             },
             {
-              heading: "Mid — gas, modulating condensing (~95% AFUE)",
-              body: "**$7,500-$10,000** all-in. Most common Calgary spec. [Navien](https://www.navieninc.com/) NHB, [IBC](https://ibcboiler.com/) SL/V series, or [Viessmann](https://www.viessmann.ca/) Vitodens 100. Often includes new PVC venting, condensate neutraliser, and upgraded expansion tank.",
+              heading: "Straight swap or full rebuild",
+              body: "Replacing a unit and re-using compatible gas line, venting, and near-boiler piping is the cheapest version of this job. Re-piping a mechanical room, adding zones, or integrating hydronic radiant is a different scope entirely.",
             },
             {
-              heading: "Premium — combi or high-output modulating",
-              body: "**$10,000-$14,000+** all-in. Combi units replacing boiler + [hot water tank](/hot-water-tanks/) in one. Larger homes, multi-zone setups, hydronic radiant integration. Viessmann Vitodens 200, IBC HC series, Triangle Tube Prestige Excellence.",
+              heading: "Gas line and venting",
+              body: "Many Calgary homes have gas lines sized for an older, lower-input boiler, and older homes often have a brick chimney that a condensing unit can't use. Upsizing the gas run or cutting a new sidewall vent adds real labour and material — we assess both at quote time rather than mid-install.",
             },
             {
-              heading: "Common cost adds (real-world)",
-              body: "Gas line upsize $300-$800 · Chimney liner or full re-venting $800-$1,500 · Outdoor reset control $400-$700 · New zone valves or circulators $200-$500 each · Indirect-fired DHW tank pairing $1,200-$2,200. We flag these in writing before the install — no surprises.",
+              heading: "Combi or indirect hot water",
+              body: "Consolidating your boiler and [hot water tank](/hot-water-tanks/) into a single [combi unit](/combi-boiler-installation-calgary/), or pairing the new boiler with an indirect-fired tank, changes both the appliance cost and the piping scope. Which one is right depends on your hot water demand — we'll walk you through it.",
             },
             {
-              heading: "Financing",
-              body: "[Financeit monthly payments](/financing/) available with soft credit check. Most installs qualify for 6-60 month terms — spreads a $9,000 install into roughly $190/month at 60 months without putting it on a credit card.",
+              heading: "The adds we flag in writing",
+              body: "Outdoor reset controls, new zone valves or circulators, an upgraded expansion tank, a condensate neutraliser, a [water softener](/water-softener/) upstream to protect the heat exchanger. None of these are surprises on the day — they're on the estimate before you sign it.",
+            },
+            {
+              heading: "Free written estimate, and financing",
+              body: "We come out, run the heat-loss calc, look at your gas line and venting, and give you the model, the AFUE rating, the full scope, and the all-in price in writing at no charge. [Financeit monthly payments](/financing/) are available with a soft credit check if you'd rather not pay it in one go.",
             },
           ],
         },
@@ -1892,12 +1895,12 @@ export const services: ServicePage[] = [
       faq: {
         heading: "Calgary Boiler Installation FAQs",
         items: [
-          { q: "How much does boiler installation cost in Calgary?", a: "Typical Calgary residential installs run **$5,500-$12,000 all-in**, depending on tier and scope.\n\nEntry-tier single-stage condensing replacements with compatible existing infrastructure land $5,500-$7,500. Mid-tier modulating condensing (the most common spec — Navien, IBC, or Viessmann) runs $7,500-$10,000. Premium combi or high-output systems run $10,000-$14,000+.\n\nCost adds: gas line upsize $300-$800, chimney liner $800-$1,500, indirect-fired DHW tank $1,200-$2,200. We flag all of these in writing before install. [Financeit monthly payments](/financing/) available to spread the cost." },
+          { q: "How much does boiler installation cost in Calgary?", a: "It depends on the boiler tier, the output your home actually needs, and what's already in your mechanical room — and we won't quote it over the phone, because a number given sight-unseen is a number that changes on install day.\n\nThe main variables: the unit itself (entry-tier single-stage condensing through premium modulating), whether it's a straight swap or a re-pipe, whether your gas line needs upsizing, whether the old chimney can be re-used or a new vent has to be cut, and whether you're pairing an indirect-fired tank or going [combi](/combi-boiler-installation-calgary/).\n\nWe come out, run the heat-loss calc, and give you the model, the AFUE rating, the full scope, and the all-in price in writing at no charge. [Financeit monthly payments](/financing/) are available to spread the cost." },
           { q: "How long does boiler installation take in Calgary homes?", a: "Most boiler installations take 6-10 hours for a straight replacement, or 1-2 days for complex installations with new piping or electrical work. Calgary's older homes often need additional work like upgrading gas lines or installing new venting systems. We'll give you an accurate timeline after assessing your specific installation requirements." },
           { q: "What size boiler do I need for my Calgary home?", a: "Boiler sizing depends on your home's square footage, insulation levels, ceiling heights, and Calgary's −40°C design temperature. Most Calgary homes need 20-30 BTU per square foot, but older homes with poor insulation may need more. We perform proper Manual J heat-loss calculations instead of just matching your old boiler's size, which may have been wrong to begin with." },
-          { q: "Are condensing boilers worth it for Calgary winters?", a: "Yes, in nearly every case. Condensing boilers extract extra heat from exhaust gases, achieving 90-95% efficiency compared to 80-85% for standard units.\n\nIn Calgary's long heating season (typically October to April), the extra efficiency saves $300-$600 per year in gas costs on a typical home. Payback on the install premium happens in 5-8 years and the boiler runs another 12+ years after that.\n\nThe only times non-condensing makes sense: a temporary install (selling the home soon), or a mechanical room where condensate drainage genuinely can't be routed." },
+          { q: "Are condensing boilers worth it for Calgary winters?", a: "Yes, in nearly every case. Condensing boilers extract extra heat from exhaust gases, achieving 90-95% efficiency compared to 80-85% for standard units.\n\nCalgary's heating season runs roughly October through April, so that efficiency gap is working in your favour for most of the year. On a typical home the gas savings pay back the install premium well inside the boiler's service life, and the unit keeps running long after it's paid for itself.\n\nThe only times non-condensing makes sense: a temporary install (selling the home soon), or a mechanical room where condensate drainage genuinely can't be routed." },
           { q: "What's the difference between a boiler and a furnace?", a: "A [furnace](/furnaces/) heats air and pushes it through ducts. A boiler heats water and pumps it through pipes to radiators, baseboards, or in-floor radiant loops.\n\nBoilers deliver more even heat (no temperature swings between cycles), are quieter, and pair naturally with hydronic radiant systems and indirect-fired domestic hot water. Furnaces are simpler, work with AC integration, and cost less upfront.\n\nMost Calgary homes built before the 1990s with radiators or baseboards already have boilers and benefit from staying on the same system rather than converting." },
-          { q: "Can I convert from a furnace to a boiler in Calgary?", a: "Yes, but it's a major project. Converting requires installing a full hydronic distribution system (pipes, radiators or in-floor tubing, pump, expansion tank) AND a new boiler. Typical conversion cost: $25,000-$60,000+ depending on home size and whether you're going with radiators (lower) or in-floor radiant (higher).\n\nMost conversions only pencil out during major renovations where floors are already opening up. If you're considering it, we'll do an honest assessment of whether the comfort/efficiency gain justifies the cost." },
+          { q: "Can I convert from a furnace to a boiler in Calgary?", a: "Yes, but it's a major project — and it costs many times what a straight boiler replacement does. Converting means installing a full hydronic distribution system (pipes, radiators or in-floor tubing, pump, expansion tank) on top of the new boiler itself. In-floor radiant runs considerably higher than radiators, because the floors have to come up.\n\nMost conversions only pencil out during a major renovation where the floors are already open. If you're considering it, we'll do an honest assessment of whether the comfort and efficiency gain justifies the cost, and we'll tell you if it doesn't." },
           { q: "How long do new boilers last in Calgary?", a: "Modern condensing boilers installed and maintained properly last 18-22 years on average in Calgary. Cast iron non-condensing units can run 25-30 years.\n\nThe biggest factors in longevity: annual [boiler service](/boiler-service-calgary/) (combustion check, condensate trap clean, expansion tank verification), water quality (a [water softener](/water-softener/) upstream extends heat exchanger life), and not running at extreme low-load operation that causes excess condensation cycles." },
           { q: "Can you install a boiler in Calgary's winter weather?", a: "Yes, we install boilers year-round, including during Calgary's coldest months. Winter installations require extra care to prevent pipes from freezing during the changeover, but our technicians carry freeze-protection equipment and work quickly to minimise downtime. Emergency winter installations typically take longer due to weather precautions." },
           { q: "Do I need permits for boiler installation in Calgary?", a: "Yes, boiler installations in Calgary require a gas permit and inspection. FlameTech handles all permit applications and city inspections as part of our installation service. We know Calgary's inspection requirements and schedule inspections to avoid delays in getting your system operational." },
@@ -1922,6 +1925,181 @@ export const services: ServicePage[] = [
         { src: "/images/2026/04/Boiler20.webp", alt: "Boiler and indirect tank combo for domestic hot water" },
         { src: "/images/2026/04/Combination-boiler.webp", alt: "Combi boiler providing space heating and domestic hot water" },
         { src: "/images/2026/04/Double-boiler.webp", alt: "Twin boiler configuration for a larger Calgary home" },
+      ],
+    },
+  },
+  {
+    slug: "combi-boiler-installation-calgary",
+    category: "Heating",
+    icon: "boiler_unit",
+    title: "Combi Boiler Installation Calgary",
+    lead:
+      "One wall-hung unit for both your heat and your hot water — no storage tank, no second appliance. FlameTech sizes, installs, and commissions combi boilers across Calgary, and we'll tell you straight if your home isn't a good fit for one.",
+    heroBody: [
+      "A combi boiler heats your home and makes domestic hot water on demand from the same appliance. For Calgary condos, townhomes, and homes where the boiler and the [hot water tank](/hot-water-tanks/) are both near end of life, replacing two appliances with one frees up the mechanical room and cuts a standing tank loss out of your gas bill.",
+      "The catch is flow rate. A combi makes hot water as you draw it, so it has a ceiling on how much it can deliver at once — and Calgary's winter mains water comes in cold, which means the unit has to work harder for the same shower. In a big house with three bathrooms running at once, a [boiler paired with an indirect tank](/boiler-installation-calgary/) is usually the better build. We size for the real draw, not the brochure number.",
+      "We install combi units from Navien, Viessmann, IBC, and Triangle Tube — gas line, venting, condensate, and commissioning included, with the manufacturer warranty registered on every job. [Monthly financing](/financing/) available via Financeit.",
+    ],
+    heroSubhead: "Heat and Hot Water From One Unit",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/2026/04/Combination-boiler.webp", alt: "Wall-hung combi boiler supplying space heating and domestic hot water in a Calgary home", fit: "cover" },
+    intro:
+      "Combi boiler installation in Calgary — space heating and domestic hot water from a single wall-hung unit. Honest sizing on flow rate, free written on-site estimate.",
+    features: [
+      "Combi boiler installation and replacement",
+      "Boiler + hot water tank consolidation",
+      "Flow-rate sizing for Calgary winter mains",
+      "Gas line upsize, venting, condensate",
+      "Condo and townhome mechanical rooms",
+      "Navien · Viessmann · IBC · Triangle Tube",
+    ],
+    bullets: [
+      {
+        t: "Sized on flow, not just BTU",
+        d: "A combi lives or dies on how much hot water it makes at once. We size it against your actual fixture count and Calgary's winter incoming water temperature.",
+      },
+      {
+        t: "We'll talk you out of it if it's wrong",
+        d: "Combis aren't right for every home. If your hot water demand is too high, we'll quote you a boiler and indirect tank instead and tell you why.",
+      },
+    ],
+    seoTitle: "Combi Boiler Installation Calgary | FlameTech Plumbing & Heating",
+    seoDescription:
+      "Combi boiler installation and replacement in Calgary. Heat plus domestic hot water from one wall-hung unit. Honest flow-rate sizing, free written on-site estimate. Call 587-834-3668.",
+    seoKeywords: [
+      "combi boiler installation Calgary",
+      "combi boiler Calgary",
+      "combination boiler Calgary",
+      "combi boiler replacement Calgary",
+      "Navien combi boiler Calgary",
+      "boiler and hot water tank replacement Calgary",
+      "wall hung combi boiler",
+      "FlameTech Plumbing Heating",
+    ],
+    quoteFormLabel: "combi boiler",
+    quoteFormPlaceholder:
+      "e.g. boiler and hot water tank both aging, want to free up mechanical room space, condo with a combi that's failing…",
+    sidebar: {
+      title: "Calgary Combi Boiler Installation",
+      subtitle:
+        "One unit for heat and hot water. Sized on real flow rate for Calgary's cold winter mains — not a brochure number.",
+      bullets: [
+        "Navien · Viessmann · IBC · Triangle Tube",
+        "Boiler + tank consolidated into one unit",
+        "Gas line, venting, and condensate handled",
+        "Free written on-site estimate",
+      ],
+    },
+    stats: [
+      { number: "15+", label: "Years installing", icon: "verified" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "6-10h", label: "Typical install", icon: "schedule" },
+      { number: "2-in-1", label: "Heat + hot water", icon: "award" },
+    ],
+    timeline: {
+      heading: "How a combi install runs",
+      intro:
+        "The install itself is a day's work. The part that decides whether you like the system for the next 20 years happens before we order the unit.",
+      steps: [
+        { icon: "request_quote", title: "Heat loss and hot water demand", body: "Two calculations, not one. We run a heat-loss calc against Calgary's −40°C design temperature for the heating side, then count your fixtures and simultaneous draws for the domestic hot water side. If the numbers say combi is the wrong tool, we say so." },
+        { icon: "build", title: "Quote, gas, and permits in writing", body: "Model, output, gas line and venting scope, and the all-in price before anything is ordered. Combis draw more gas than the boiler they replace, so we check gas line capacity at quote time rather than discovering it mid-install. Gas permit and inspection are ours to handle." },
+        { icon: "handyman", title: "Remove, hang, and pipe", body: "Old boiler drained and pulled, hot water tank removed if we're consolidating, new combi hung, gas line upsized where needed, venting run, condensate routed through a neutralizer to drain. Heating loop and domestic hot water are tied in and pressure-tested." },
+        { icon: "verified", title: "Commission and walk through", body: "Combustion analysis, hot water temperature and flow checked at the taps, thermostat paired, controls explained. We register the warranty and book the first annual service." },
+      ],
+    },
+    financing: {
+      detail:
+        "Spread the cost of your new combi boiler into flexible monthly payments via our Financeit partner.",
+    },
+    callout:
+      "Boiler and hot water tank both on their last legs? One combi can replace both — call for a free written estimate.",
+    richContent: {
+      sections: [
+        {
+          heading: "What a Combi Boiler Actually Does",
+          intro:
+            "A conventional setup has two appliances: a boiler that heats water for your radiators, baseboards, or in-floor loops, and a separate tank that stores domestic hot water for your taps and showers. A combi does both jobs in one wall-hung box, and it makes the hot water on demand instead of storing it.\n\nThat has real consequences — good and bad — and which side you land on depends on your house.",
+          items: [
+            { heading: "No storage tank", body: "Nothing sits in your basement keeping 190 litres hot around the clock. You stop paying to reheat water you aren't using, and you get the floor space back." },
+            { heading: "Hot water doesn't run out", body: "There's no tank to empty, so a long shower stays hot. What a combi can run out of is flow — it can't heat unlimited water per minute, only unlimited water over time." },
+            { heading: "One appliance to service", body: "One annual service call, one warranty, one set of parts instead of a boiler and a tank aging on separate clocks." },
+            { heading: "Wall-hung and compact", body: "Most residential combis are roughly the size of a kitchen cupboard and mount on the wall. In a Calgary condo or townhome mechanical room, that difference is the whole reason people call us." },
+          ],
+        },
+        {
+          heading: "Where Combis Work in Calgary — and Where They Don't",
+          intro:
+            "We install a lot of these, and we also talk a fair number of people out of them. Being honest about the fit up front is cheaper for you than discovering the limit in February.",
+          items: [
+            { heading: "Good fit: condos and townhomes", body: "Limited mechanical space, one or two bathrooms, and hot water demand that rarely overlaps. This is the combi's home turf." },
+            { heading: "Good fit: boiler and tank both aging out", body: "If your boiler is around the 18-22 year mark and the [hot water tank](/hot-water-tank-replacement-calgary/) isn't far behind, replacing both with one unit usually costs less than replacing them separately and gives you back a corner of the basement." },
+            { heading: "Poor fit: high simultaneous hot water demand", body: "Three bathrooms running at once, a soaker tub you actually fill, or a household where two showers and the dishwasher overlap every morning. A combi will keep up with any one of those and struggle with all three at once." },
+            { heading: "Poor fit: large homes with big heat loss", body: "A combi's heating output is sized for the same unit that's making your hot water. In a large or poorly-insulated home, a dedicated boiler with an indirect-fired tank gives you more headroom on both sides." },
+            { heading: "The honest alternative", body: "When a combi isn't right, the build we recommend is a modulating condensing [boiler paired with an indirect-fired tank](/boiler-installation-calgary/). Same flame heats both, but the tank buffers your hot water so simultaneous draws don't fight each other. It costs more and takes more space — and for the wrong house, it's still the right answer." },
+          ],
+        },
+        {
+          heading: "The Calgary-Specific Part: Cold Mains Water",
+          intro:
+            "This is the detail most combi quotes leave out, and it's the one that decides whether you're happy with the unit in January.\n\nA combi's hot water rating is a flow rate at a given temperature rise — how many litres per minute it can lift from incoming cold to shower-hot. In summer, Calgary's incoming water is relatively mild and the unit doesn't have to lift it far, so the flow rate looks great. In deep winter, the water coming into your house is close to freezing. Same unit, same gas input, far bigger temperature rise required — so the litres per minute it can actually deliver drops.",
+          items: [
+            { body: "A combi sized on its summer rating will feel undersized every winter, which is exactly when you care about a hot shower." },
+            { body: "We size against the winter temperature rise, not the best-case number on the spec sheet. That sometimes means recommending a larger unit than the brochure math suggests." },
+            { body: "It also means being blunt about the ceiling: if the winter flow rate won't cover two simultaneous showers, we tell you before you buy, not after." },
+            { body: "Some combi models include a small internal buffer or built-in recirculation that softens the delay on a hot water draw. Worth the upgrade in homes with a long run from the mechanical room to the ensuite." },
+          ],
+        },
+        {
+          heading: "What We Deal With During a Calgary Combi Install",
+          items: [
+            { heading: "Gas line capacity", body: "A combi has to make heat and hot water at the same time, so its gas input is typically higher than the boiler it's replacing. Plenty of Calgary homes have a gas line sized for an older, lower-input unit. We check line size and total household load at quote time and upsize the run when the numbers require it." },
+            { heading: "Venting", body: "Condensing combis vent through plastic sidewall pipe, not the old brick chimney. Older Calgary homes usually need a new vent run cut and sealed to code, with the intake and exhaust spaced to manufacturer spec so the unit isn't breathing its own exhaust in a cold snap." },
+            { heading: "Hard water and the hot water exchanger", body: "This is the big one. Calgary's hard water scales up any heat exchanger, and a combi's domestic hot water exchanger has small passages that scale faster than a boiler's. A [water softener](/water-softener/) upstream isn't a nice-to-have on a combi — it's the single thing most likely to determine whether the unit reaches its expected service life. We say the same thing on every combi quote we write." },
+            { heading: "Condensate in an unheated space", body: "Condensing units produce acidic condensate that has to run through a neutralizer to a drain. If that line runs through an unheated or poorly-insulated part of a Calgary basement or garage, it can freeze and lock the unit out on the coldest night of the year. We route and protect it properly at install." },
+            { heading: "Removing the old tank", body: "When we consolidate, the old [hot water tank](/hot-water-tanks/) gets drained, disconnected, and hauled away, and the orphaned water and vent connections get capped properly rather than left hanging in the wall." },
+          ],
+        },
+        {
+          heading: "Combi Brands We Install in Calgary",
+          intro:
+            "We install and register the manufacturer warranty on every unit we put in. The right brand depends on the flow rate you need and the space you have — not on which one we happen to have on the truck.",
+          items: [
+            { heading: "Navien", body: "The NCB combi line is the most common combi we install in Calgary. Stainless steel heat exchangers hold up well against our water, and the wall-hung footprint suits tight condo mechanical rooms. Strong on domestic hot water flow for the size." },
+            { heading: "Viessmann", body: "German-engineered, with modulating burners that throttle down cleanly on mild shoulder-season days instead of short-cycling. The unit we recommend when the budget allows and you plan to stay in the house." },
+            { heading: "IBC Technologies", body: "Canadian-engineered for prairie conditions and prairie water chemistry. A sensible pick when you want a combi built with Alberta's climate in the design brief rather than adapted to it." },
+            { heading: "Triangle Tube", body: "Strong on combi and tank-paired builds, with stainless construction and long warranty coverage. Their Prestige Excellence line blurs the line between a combi and a boiler-plus-indirect, which is useful in homes right on the edge of the flow-rate decision." },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Calgary Combi Boiler FAQs",
+        items: [
+          { q: "What does a combi boiler installation cost in Calgary?", a: "It depends on the unit, your gas line capacity, the venting run, and whether we're replacing just a boiler or consolidating a boiler and a [hot water tank](/hot-water-tanks/) into one appliance.\n\nWe don't quote combi installs over the phone, because the number would be wrong. We come out, run the heat-loss and hot water demand calculations, look at your gas line and mechanical room, and give you a free written estimate with the model, the output, and the full scope in it. [Financeit monthly payments](/financing/) are available if you'd rather not pay it in one go." },
+          { q: "Can a combi boiler really replace my boiler and my hot water tank?", a: "Yes — that's the whole point of one. The combi heats your home and makes your domestic hot water from the same appliance, so the storage tank comes out entirely.\n\nThe qualifier is hot water demand. A combi makes hot water on demand rather than storing it, so it has a ceiling on how much it can deliver at once. In a home with one or two bathrooms and demand that doesn't overlap much, that ceiling never gets hit. In a home where two showers and the dishwasher run at the same time, it will. We check that before recommending one." },
+          { q: "Will a combi boiler run out of hot water?", a: "Not in the way a tank does. A tank holds a fixed volume, and when you drain it you wait for it to reheat. A combi has no tank to empty, so a long shower stays hot indefinitely.\n\nWhat a combi can run out of is **flow** — litres per minute. If you open more taps than the unit can heat at once, the temperature at each one drops. That's a sizing question, and it's why we count fixtures instead of guessing." },
+          { q: "Do combi boilers work in Calgary's winter?", a: "They do, but the winter is exactly why sizing matters here.\n\nA combi's hot water rating assumes a certain temperature rise. Calgary's incoming mains water is near freezing in deep winter, so the unit has to lift it much further than it does in July — and the flow rate it can actually deliver drops accordingly. A combi sized on its summer number will feel weak every January.\n\nWe size against the winter temperature rise. Sometimes that means recommending a bigger unit than the spec sheet implies, and we'd rather have that conversation at the quote than after your first cold snap." },
+          { q: "Do I need a water softener with a combi boiler?", a: "We recommend it on every combi we install in Calgary, and we're more insistent about it here than on a standard boiler.\n\nThe reason is the domestic hot water heat exchanger. It has small passages, and it sees fresh, unsoftened city water every time you open a tap — unlike the heating loop, which circulates the same water over and over. Calgary's hard water scales those passages up, efficiency drops, and eventually the exchanger fails.\n\nA [water softener](/water-softener/) upstream is the cheapest thing you can do to protect the unit." },
+          { q: "What is the \"cold water sandwich\"?", a: "It's a real quirk of on-demand hot water. If you turn a tap off and back on quickly, the water sitting in the pipe is still hot, then a slug of cold arrives behind it while the combi fires back up, then the hot catches up. You get hot, cold, hot — the sandwich.\n\nModern combis have largely engineered it out with internal buffers and better burner response, and models with a small buffer tank or built-in recirculation essentially eliminate it. It's worth knowing about, and worth asking us which model you're getting." },
+          { q: "How long does a combi boiler installation take?", a: "A straight combi swap is usually a single day, roughly 6-10 hours. Consolidating a boiler and a hot water tank into one combi, or an install that needs a gas line upsize and a new vent run, more often runs into a second day.\n\nWe give you the timeline in writing with the quote, and we don't leave a Calgary home without heat overnight in winter." },
+          { q: "How long do combi boilers last in Calgary?", a: "Comparable to a good condensing boiler when they're looked after — but the maintenance matters more, because the domestic hot water exchanger is the wear point.\n\nThe two things that decide it: a [water softener](/water-softener/) upstream to keep scale out of the exchanger, and an annual [boiler service](/boiler-service-calgary/) that actually includes a descale of the hot water side rather than just a combustion check. Skip both in Calgary's water and you'll shorten the unit's life considerably." },
+          { q: "Do I need a permit to install a combi boiler in Calgary?", a: "Yes. Gas-fired appliance installations in Calgary require a gas permit and inspection. FlameTech pulls the permit and books the inspection as part of the job — it's not something you need to chase." },
+        ],
+      },
+    },
+    portfolio: {
+      eyebrow: "Calgary combi installs",
+      heading: "Combi boilers, Calgary mechanical rooms.",
+      intro:
+        "Wall-hung combi units we've installed around Calgary — heat and domestic hot water from one appliance, piped and vented to spec.",
+      items: [
+        { src: "/images/2026/04/Combination-boiler.webp", alt: "Wall-hung combi boiler providing space heating and domestic hot water" },
+        { src: "/images/2026/04/Boiler5.webp", alt: "Navien combi boiler installation in a Calgary home" },
+        { src: "/images/2026/04/Boiler7.webp", alt: "Tidy combi boiler piping with labelled isolation valves" },
+        { src: "/images/2026/04/Boiler6.webp", alt: "Condensing combi boiler with neutralizer and condensate drain" },
+        { src: "/images/2026/04/Boiler12.webp", alt: "Wall-mounted boiler with PEX hydronic distribution" },
+        { src: "/images/2026/04/Boiler3.webp", alt: "FlameTech combi boiler install with insulated copper primary loop" },
+        { src: "/images/2026/04/Boiler2.webp", alt: "Wall-hung gas boiler with zoned hydronic manifold" },
+        { src: "/images/2026/04/Boiler19.webp", alt: "High-efficiency boiler with expansion tank and air separator" },
       ],
     },
   },
@@ -16096,6 +16274,7 @@ export const services: ServicePage[] = [
         "Whether you're installing new, fixing a fault, or scheduling a tune-up, here's how the work breaks out.",
       items: [
         { label: "Boiler Installation Calgary", href: "/boiler-installation-calgary/", summary: "New high-efficiency boilers — heat-loss calc, gas + venting, full commissioning.", icon: "boiler_unit" },
+        { label: "Combi Boiler Installation Calgary", href: "/combi-boiler-installation-calgary/", summary: "Heat and domestic hot water from one wall-hung unit — sized on real winter flow rate, not the brochure number.", icon: "boiler_unit" },
         { label: "Boiler Repair Calgary", href: "/boiler-repair-calgary/", summary: "Diagnosis and same-day fixes for kettling, pressure loss, no-heat, and ignition faults.", icon: "gas_valve" },
         { label: "Boiler Service Calgary", href: "/boiler-service-calgary/", summary: "Annual tune-ups: combustion analysis, safety checks, descale, system flush.", icon: "hydronic_loop" },
         { label: "Boiler Not Working", href: "/boiler-not-working-calgary/", summary: "Pressure loss, lockouts, frozen condensate, pump or zone valve failures, combi DHW issues — same-day dispatch.", icon: "boiler_unit", highlight: true, badge: "Same-day dispatch" },
