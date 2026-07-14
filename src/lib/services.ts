@@ -1752,7 +1752,7 @@ export const services: ServicePage[] = [
     bullets: [
       {
         t: "Calgary-climate sizing",
-        d: "Every install sized for our −40°C design temperature, not just mild winter days.",
+        d: "Every install sized for our −35°C design temperature, not just mild winter days.",
       },
       {
         t: "Every major brand installed",
@@ -1779,7 +1779,7 @@ export const services: ServicePage[] = [
     sidebar: {
       title: "Calgary Boiler Installation",
       subtitle:
-        "High-efficiency gas, electric, condensing, and combi boilers — sized for Calgary's −40°C design temperature.",
+        "High-efficiency gas, electric, condensing, and combi boilers — sized for Calgary's −35°C design temperature.",
       bullets: [
         "Viessmann · Navien · Triangle Tube · Crown · Weil-McLain",
         "Proper heat-loss load calculations",
@@ -1798,7 +1798,7 @@ export const services: ServicePage[] = [
       intro:
         "A boiler isn't a swap-and-go appliance — sized wrong or vented wrong it costs you for the next 20 years. Here's how we keep that from happening.",
       steps: [
-        { icon: "request_quote", title: "On-site heat-loss assessment", body: "We measure square footage, insulation, windows, and ceiling heights — then run a Manual J calc against Calgary's −40°C design temp to size the boiler properly. No guessing from the old unit." },
+        { icon: "request_quote", title: "On-site heat-loss assessment", body: "We measure square footage, insulation, windows, and ceiling heights — then run a Manual J calc against Calgary's −35°C design temp to size the boiler properly. No guessing from the old unit." },
         { icon: "build", title: "Quote + permits in writing", body: "You get the model, AFUE rating, gas line + venting scope, and the all-in price before anything starts. Gas permits and inspections are handled by us." },
         { icon: "handyman", title: "Install + gas, vent, condensate", body: "Old unit drained and removed, new boiler hung, gas line and venting upgraded if needed, condensate routed to a neutralizer + drain. Typically a single day for a straight swap." },
         { icon: "verified", title: "Commission + walkthrough", body: "Combustion analysis, pressure test, thermostat pairing, and a walk-through of the controls. We register the warranty and book your first annual service." },
@@ -1815,7 +1815,7 @@ export const services: ServicePage[] = [
         {
           heading: "Why Calgary Homeowners Choose FlameTech for Boiler Installation",
           intro:
-            "From emergency replacements to planned upgrades, our Calgary boiler specialists bring decades of hands-on experience with every major brand and model. We install [Viessmann](https://www.viessmann.ca/), [Navien](https://www.navieninc.com/), [Triangle Tube](https://triangletube.com/), IBC, Crown, and Weil-McLain — registered with manufacturer warranties on every job. Alberta-licensed gas fitters and Red Seal plumbers on every install.\n\nWe've installed systems in everything from 1920s [Mount Royal](/mount-royal-plumbers-calgary/) heritage homes to brand-new builds in [Cranston](/cranston-plumber-calgary/). Our truck inventory includes parts for the most common Calgary boiler models, which means we can often complete installations in a single visit instead of ordering parts and coming back next week.\n\nEvery installation includes proper sizing calculations based on your home's square footage, insulation levels, and Calgary's −40°C design temperature. Need annual upkeep on the new system? See our [boiler service](/boiler-service-calgary/) page.",
+            "From emergency replacements to planned upgrades, our Calgary boiler specialists bring decades of hands-on experience with every major brand and model. We install [Viessmann](https://www.viessmann.ca/), [Navien](https://www.navieninc.com/), [Triangle Tube](https://triangletube.com/), IBC, Crown, and Weil-McLain — registered with manufacturer warranties on every job. Alberta-licensed gas fitters and Red Seal plumbers on every install.\n\nWe've installed systems in everything from 1920s [Mount Royal](/mount-royal-plumbers-calgary/) heritage homes to brand-new builds in [Cranston](/cranston-plumber-calgary/). Our truck inventory includes parts for the most common Calgary boiler models, which means we can often complete installations in a single visit instead of ordering parts and coming back next week.\n\nEvery installation includes proper sizing calculations based on your home's square footage, insulation levels, and Calgary's −35°C design temperature. Need annual upkeep on the new system? See our [boiler service](/boiler-service-calgary/) page.",
           items: [
             { heading: "Gas Boiler Installation", body: "We install high-efficiency gas-fired boilers from all major manufacturers, handling gas line connections, venting, and system commissioning to manufacturer specifications." },
             { heading: "Electric Boiler Installation", body: "For homes without gas access or as backup heating systems, we install electric boilers with proper safety controls." },
@@ -1874,7 +1874,7 @@ export const services: ServicePage[] = [
           intro:
             "Proper boiler installation is critical in Calgary's climate — a system that's not sized correctly or installed properly will cost you thousands in wasted energy and repairs over its lifespan.",
           items: [
-            { body: "Size the boiler correctly for Calgary's −40°C design temperature, not just mild winter days." },
+            { body: "Size the boiler correctly for Calgary's −35°C design temperature, not just mild winter days." },
             { body: "Install a [water softener](/water-softener/) upstream to handle Calgary's hard water and protect the heat exchanger." },
             { body: "Use high-quality expansion tanks sized for the system's water volume." },
             { body: "Install zone controls if you have multiple heating areas in your home." },
@@ -1897,7 +1897,7 @@ export const services: ServicePage[] = [
         items: [
           { q: "How much does boiler installation cost in Calgary?", a: "It depends on the boiler tier, the output your home actually needs, and what's already in your mechanical room — and we won't quote it over the phone, because a number given sight-unseen is a number that changes on install day.\n\nThe main variables: the unit itself (entry-tier single-stage condensing through premium modulating), whether it's a straight swap or a re-pipe, whether your gas line needs upsizing, whether the old chimney can be re-used or a new vent has to be cut, and whether you're pairing an indirect-fired tank or going [combi](/combi-boiler-installation-calgary/).\n\nWe come out, run the heat-loss calc, and give you the model, the AFUE rating, the full scope, and the all-in price in writing at no charge. [Financeit monthly payments](/financing/) are available to spread the cost." },
           { q: "How long does boiler installation take in Calgary homes?", a: "Most boiler installations take 6-10 hours for a straight replacement, or 1-2 days for complex installations with new piping or electrical work. Calgary's older homes often need additional work like upgrading gas lines or installing new venting systems. We'll give you an accurate timeline after assessing your specific installation requirements." },
-          { q: "What size boiler do I need for my Calgary home?", a: "Boiler sizing depends on your home's square footage, insulation levels, ceiling heights, and Calgary's −40°C design temperature. Most Calgary homes need 20-30 BTU per square foot, but older homes with poor insulation may need more. We perform proper Manual J heat-loss calculations instead of just matching your old boiler's size, which may have been wrong to begin with." },
+          { q: "What size boiler do I need for my Calgary home?", a: "Boiler sizing depends on your home's square footage, insulation levels, ceiling heights, and Calgary's −35°C design temperature. Most Calgary homes need 20-30 BTU per square foot, but older homes with poor insulation may need more. We perform proper Manual J heat-loss calculations instead of just matching your old boiler's size, which may have been wrong to begin with." },
           { q: "Are condensing boilers worth it for Calgary winters?", a: "Yes, in nearly every case. Condensing boilers extract extra heat from exhaust gases, achieving 90-95% efficiency compared to 80-85% for standard units.\n\nCalgary's heating season runs roughly October through April, so that efficiency gap is working in your favour for most of the year. On a typical home the gas savings pay back the install premium well inside the boiler's service life, and the unit keeps running long after it's paid for itself.\n\nThe only times non-condensing makes sense: a temporary install (selling the home soon), or a mechanical room where condensate drainage genuinely can't be routed." },
           { q: "What's the difference between a boiler and a furnace?", a: "A [furnace](/furnaces/) heats air and pushes it through ducts. A boiler heats water and pumps it through pipes to radiators, baseboards, or in-floor radiant loops.\n\nBoilers deliver more even heat (no temperature swings between cycles), are quieter, and pair naturally with hydronic radiant systems and indirect-fired domestic hot water. Furnaces are simpler, work with AC integration, and cost less upfront.\n\nMost Calgary homes built before the 1990s with radiators or baseboards already have boilers and benefit from staying on the same system rather than converting." },
           { q: "Can I convert from a furnace to a boiler in Calgary?", a: "Yes, but it's a major project — and it costs many times what a straight boiler replacement does. Converting means installing a full hydronic distribution system (pipes, radiators or in-floor tubing, pump, expansion tank) on top of the new boiler itself. In-floor radiant runs considerably higher than radiators, because the floors have to come up.\n\nMost conversions only pencil out during a major renovation where the floors are already open. If you're considering it, we'll do an honest assessment of whether the comfort and efficiency gain justifies the cost, and we'll tell you if it doesn't." },
@@ -2001,7 +2001,7 @@ export const services: ServicePage[] = [
       intro:
         "The install itself is a day's work. The part that decides whether you like the system for the next 20 years happens before we order the unit.",
       steps: [
-        { icon: "request_quote", title: "Heat loss and hot water demand", body: "Two calculations, not one. We run a heat-loss calc against Calgary's −40°C design temperature for the heating side, then count your fixtures and simultaneous draws for the domestic hot water side. If the numbers say combi is the wrong tool, we say so." },
+        { icon: "request_quote", title: "Heat loss and hot water demand", body: "Two calculations, not one. We run a heat-loss calc against Calgary's −35°C design temperature for the heating side, then count your fixtures and simultaneous draws for the domestic hot water side. If the numbers say combi is the wrong tool, we say so." },
         { icon: "build", title: "Quote, gas, and permits in writing", body: "Model, output, gas line and venting scope, and the all-in price before anything is ordered. Combis draw more gas than the boiler they replace, so we check gas line capacity at quote time rather than discovering it mid-install. Gas permit and inspection are ours to handle." },
         { icon: "handyman", title: "Remove, hang, and pipe", body: "Old boiler drained and pulled, hot water tank removed if we're consolidating, new combi hung, gas line upsized where needed, venting run, condensate routed through a neutralizer to drain. Heating loop and domestic hot water are tied in and pressure-tested." },
         { icon: "verified", title: "Commission and walk through", body: "Combustion analysis, hot water temperature and flow checked at the taps, thermostat paired, controls explained. We register the warranty and book the first annual service." },
@@ -3098,7 +3098,7 @@ export const services: ServicePage[] = [
     bullets: [
       {
         t: "Real Calgary furnace expertise",
-        d: "Red Seal gas fitting certifications and manufacturer training on Carrier, Lennox, Rheem, and other top brands.",
+        d: "Red Seal journeyman plumbers and Alberta-licensed gas fitters on every install. We work on Carrier, Lennox, Rheem, and every other major brand.",
       },
       {
         t: "Calgary-climate-aware installs",
@@ -3247,7 +3247,7 @@ export const services: ServicePage[] = [
           heading: "Calgary High-Efficiency Furnace Expertise You Can Trust",
           items: [
             {
-              body: "FlameTech's technicians hold Red Seal gas fitting certifications and manufacturer training on all major high-efficiency furnace brands. We've been installing these systems in Calgary since they became mainstream, giving us real-world experience with how different models perform through Alberta winters and what problems develop over time.",
+              body: "FlameTech's technicians are Red Seal certified and Alberta-licensed for gas fitting. We've been installing high-efficiency furnaces in Calgary since they became mainstream, which gives us real-world experience with how the different brands actually perform through an Alberta winter and what tends to go wrong on each of them over time.",
             },
             {
               body: "We work with Carrier Infinity series, Lennox SLP98V, Rheem Prestige, and other top-tier units, matching the right furnace to Calgary's housing types — from 1960s bungalows with original ductwork to new construction with modern HVAC design. We understand the building characteristics across Calgary's neighborhoods and size systems accordingly.",
@@ -3358,7 +3358,7 @@ export const services: ServicePage[] = [
       },
       {
         t: "AirEase 12-year parts + labor warranty (we're an authorized dealer)",
-        d: "AirEase covers qualifying high-efficiency furnaces with a 12-year parts + labor warranty when you (1) register online within 60 days of install, (2) install in an owner-occupied residence, and (3) maintain documented annual professional maintenance. We're authorized AirEase Pro Team dealers — full warranty support, manufacturer training, parts on the truck for AirEase service. Brand-agnostic on other lines (Trane, Carrier, Lennox, Goodman, Heil) — we recommend by install fit, not single dealer relationship.",
+        d: "AirEase covers qualifying high-efficiency furnaces with a 12-year parts + labor warranty when you (1) register online within 60 days of install, (2) install in an owner-occupied residence, and (3) maintain documented annual professional maintenance. We're authorized AirEase Pro Team dealers — full warranty support and parts on the truck for AirEase service. Brand-agnostic on other lines (Trane, Carrier, Lennox, Goodman, Heil) — we recommend by install fit, not single dealer relationship.",
       },
       {
         t: "Timing strategy — replace BEFORE peak winter",
@@ -3484,7 +3484,7 @@ export const services: ServicePage[] = [
           items: [
             {
               heading: "AirEase (we're authorized Pro Team dealers)",
-              body: "AirEase covers qualifying high-efficiency furnaces with a 12-year parts + labor warranty when registered within 60 days + maintained annually. Strong dealer support, parts on our trucks, manufacturer training. Best value play when the 12-year warranty matters to you and you'll commit to annual service. We're authorized dealers + handle warranty registration + service.",
+              body: "AirEase covers qualifying high-efficiency furnaces with a 12-year parts + labor warranty when registered within 60 days + maintained annually. Strong dealer support and parts on our trucks. Best value play when the 12-year warranty matters to you and you'll commit to annual service. We're authorized dealers + handle warranty registration + service.",
             },
             {
               heading: "Trane (XV / XR series)",
@@ -4168,7 +4168,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "−35°C design temperature stresses undersized systems",
-              body: "Calgary's heating design temperature is −30°C; Airdrie is colder at −35°C. Systems sized for older builds, renovated layouts, or addition expansions are often undersized for the deep-cold demand they actually see. Symptom: works fine November through February most days, but during deep cold snaps the house never reaches the setpoint. Sometimes the fix is a properly-sized replacement; sometimes it's duct rework + register rebalance to match capacity to demand.",
+              body: "Calgary's heating design temperature is −35°C. Systems sized for older builds, renovated layouts, or addition expansions are often undersized for the deep-cold demand they actually see. Symptom: works fine November through February most days, but during deep cold snaps the house never reaches the setpoint. Sometimes the fix is a properly-sized replacement; sometimes it's duct rework + register rebalance to match capacity to demand.",
             },
             {
               heading: "Hard water destroys hydronic system components",
@@ -4545,7 +4545,7 @@ export const services: ServicePage[] = [
     lead:
       "Heat pumps in Calgary are the single biggest efficiency play available to most homeowners — heating AND cooling from one system, operating costs significantly below gas-only through 80% of Alberta's heating season, and AC capability you didn't have. The catch: sized wrong or matched wrong, a heat pump costs more to run than the furnace it replaced. FlameTech sizes, installs, and commissions heat pumps that actually save money in Calgary's specific climate.",
     heroBody: [
-      "Calgary sits at a -30°C heating design temperature with shoulder seasons that swing 25°C in a week. That's the climate heat pumps need to be sized AGAINST — not against the milder Vancouver/Toronto specs the equipment is often engineered to. The right setup for Calgary is almost always one of two configurations: (1) a cold-climate heat pump (CCHP) rated to maintain capacity down to -25°C paired with your existing or new high-efficiency [gas furnace](/high-efficiency-furnaces-calgary/) as backup (hybrid dual-fuel — the default Alberta recommendation), or (2) a ductless mini-split for a single zone where AC + supplemental heat matters most (bonus rooms, basements, garage suites, hot upstairs bedrooms).",
+      "Calgary sits at a -35°C heating design temperature with shoulder seasons that swing 25°C in a week. That's the climate heat pumps need to be sized AGAINST — not against the milder Vancouver/Toronto specs the equipment is often engineered to. The right setup for Calgary is almost always one of two configurations: (1) a cold-climate heat pump (CCHP) rated to maintain capacity down to -25°C paired with your existing or new high-efficiency [gas furnace](/high-efficiency-furnaces-calgary/) as backup (hybrid dual-fuel — the default Alberta recommendation), or (2) a ductless mini-split for a single zone where AC + supplemental heat matters most (bonus rooms, basements, garage suites, hot upstairs bedrooms).",
       "We install cold-climate air-source heat pumps (ducted central + ductless mini-split), retrofit existing forced-air systems to dual-fuel, and commission everything with proper balance-point setup so the system actually operates at the cost advantage you bought it for. Same crew handles [heat pumps in Airdrie](/heat-pumps-airdrie/), [furnace install + repair](/furnaces/), [home heating issues](/home-heating-issues-calgary/), and broader [no heat dispatch](/no-heat-issues-calgary/).",
       "Free in-home assessment — we check your electrical panel capacity, existing ductwork, gas line size, outdoor unit placement options, and walk through the federal Greener Homes rebate landscape. Call 587-834-3668. [Monthly financing](/financing/) available for full systems.",
     ],
@@ -4564,8 +4564,8 @@ export const services: ServicePage[] = [
     ],
     bullets: [
       {
-        t: "Sized for Calgary's −30°C design temp",
-        d: "Heat pumps sized using mild-climate engineering data underperform here. We size cold-climate heat pumps for the −30°C heating design temperature, run a Manual J heat-loss calculation against your actual house, and pick equipment with maintained capacity at the temperatures you actually see — not the temperatures the equipment was originally engineered against.",
+        t: "Sized for Calgary's −35°C design temp",
+        d: "Heat pumps sized using mild-climate engineering data underperform here. We size cold-climate heat pumps for the −35°C heating design temperature, run a Manual J heat-loss calculation against your actual house, and pick equipment with maintained capacity at the temperatures you actually see — not the temperatures the equipment was originally engineered against.",
       },
       {
         t: "Hybrid dual-fuel is the default recommendation",
@@ -4600,7 +4600,7 @@ export const services: ServicePage[] = [
     sidebar: {
       title: "Calgary Heat Pumps",
       subtitle:
-        "Cold-climate heat pump install + hybrid dual-fuel retrofits. Sized for Calgary's −30°C design temp, electrical panel check included.",
+        "Cold-climate heat pump install + hybrid dual-fuel retrofits. Sized for Calgary's −35°C design temp, electrical panel check included.",
       bullets: [
         "Free in-home assessment + written quote",
         "Hybrid retrofit with existing furnace",
@@ -4667,8 +4667,8 @@ export const services: ServicePage[] = [
             "A heat pump install spec that works perfectly in Vancouver underperforms here. Knowing the local context shapes what the right install actually is.",
           items: [
             {
-              heading: "-30°C design temperature, not -10°C",
-              body: "Calgary's heating design temperature is −30°C. Equipment engineered around milder climates underperforms when actual deep cold hits. We size for the −30°C reality and pick cold-climate inverter-driven equipment with maintained capacity at low ambient — not nominal capacity at +8°C that drops 40-50% by the time the temperature actually matters.",
+              heading: "-35°C design temperature, not -10°C",
+              body: "Calgary's heating design temperature is −35°C. Equipment engineered around milder climates underperforms when actual deep cold hits. We size for the −35°C reality and pick cold-climate inverter-driven equipment with maintained capacity at low ambient — not nominal capacity at +8°C that drops 40-50% by the time the temperature actually matters.",
             },
             {
               heading: "Chinook freeze-thaw stresses refrigerant cycles",
@@ -7687,7 +7687,7 @@ export const services: ServicePage[] = [
     sidebar: {
       title: "Airdrie Boiler Installation",
       subtitle:
-        "High-efficiency Navien and IBC systems sized for Airdrie's −32°C design temperature, installed to Alberta code.",
+        "High-efficiency Navien and IBC systems sized for Airdrie's −35°C design temperature and prairie exposure, installed to Alberta code.",
       bullets: [
         "Navien · IBC Technologies certified",
         "AFUE ratings up to 98%",
@@ -7748,7 +7748,7 @@ export const services: ServicePage[] = [
       faq: {
         heading: "Airdrie Boiler Installation Questions Answered",
         items: [
-          { q: "How do I determine the correct boiler size for my Airdrie property?", a: "Accurate sizing depends on total heated area, insulation, window quality, ceiling heights, and Airdrie's −32°C winter design temperature. Average 1,500–2,000 sq ft residences require approximately 75,000–100,000 BTU capacity, while larger 2,500–3,500 sq ft homes need 100,000–150,000 BTU systems. Our technicians perform comprehensive Manual J heat-loss calculations to specify optimal capacity." },
+          { q: "How do I determine the correct boiler size for my Airdrie property?", a: "Accurate sizing depends on total heated area, insulation, window quality, ceiling heights, and Airdrie's −35°C winter design temperature. Average 1,500–2,000 sq ft residences require approximately 75,000–100,000 BTU capacity, while larger 2,500–3,500 sq ft homes need 100,000–150,000 BTU systems. Our technicians perform comprehensive Manual J heat-loss calculations to specify optimal capacity." },
           { q: "What warning signs indicate my boiler needs professional attention?", a: "Watch for rumbling or kettling sounds caused by limescale, whistling from trapped air, or gurgling indicating circulation problems. Pressure repeatedly dropping below 12 PSI, visible water seepage, temperature inconsistencies between rooms, excessive cycling, or yellow burner flames all warrant professional diagnosis. Contact FlameTech at 587-834-3668 when you notice these symptoms." },
           { q: "When should Airdrie homeowners replace rather than repair boilers?", a: "Replacement becomes economically sensible when equipment reaches 15–20+ years. Repair costs exceeding half the replacement value suggest investing in new equipment instead. Units with AFUE below 80% waste considerable energy compared to modern 95%+ systems, so a replacement meaningfully cuts what you burn each winter in Airdrie's climate. Visible rust, corrosion, or heat exchanger cracks require immediate replacement." },
           { q: "What does annual boiler maintenance include?", a: "Our technicians thoroughly clean heat exchangers, verify all safety controls, test combustion efficiency, inspect venting systems, flush and chemically treat the system against Airdrie's hard water, confirm proper operating pressure and flow rates, lubricate pump bearings, and test zone valve operation. Regular maintenance extends equipment life 5–10 years and preserves efficiency." },
@@ -8119,7 +8119,7 @@ export const services: ServicePage[] = [
     lead:
       "Heat pumps in Airdrie make real sense — newer housing stock with modern duct runs, larger lots that simplify outdoor unit placement, and a climate that's cold but workable with the right cold-climate heat pump (CCHP) paired with a gas furnace as backup. The wrong setup, sized wrong or matched wrong, costs more to run than the gas furnace it was supposed to improve. FlameTech sizes, installs, and commissions heat pumps that actually save money in Airdrie's specific climate.",
     heroBody: [
-      "Airdrie sits north of Calgary on open prairie — colder design temperature (−35°C), windier, and a few degrees harsher than Calgary in mid-winter. That changes the heat pump conversation: a standard air-source heat pump that works fine in Vancouver underperforms here below −10°C. The right setup for Airdrie is either (a) a cold-climate heat pump rated to maintain capacity to −25°C, or (b) a hybrid dual-fuel setup where the heat pump handles 80% of the heating season and a gas furnace takes over below the economical balance point.",
+      "Airdrie sits north of Calgary on open prairie — same −35°C design temperature, but windier, more exposed, and harsher in practice than Calgary in mid-winter. That changes the heat pump conversation: a standard air-source heat pump that works fine in Vancouver underperforms here below −10°C. The right setup for Airdrie is either (a) a cold-climate heat pump rated to maintain capacity to −25°C, or (b) a hybrid dual-fuel setup where the heat pump handles 80% of the heating season and a gas furnace takes over below the economical balance point.",
       "We install cold-climate air-source heat pumps (ducted central + ductless mini-split), and pair with existing or new gas furnaces for hybrid backup. Geothermal is technically an option for Airdrie's larger acreage lots on the east + south edge but rarely makes economic sense vs. CCHP today. Same crew that handles [heat pumps in Calgary](/heat-pumps-calgary/), [furnace repair in Airdrie](/airdrie-furnace-repairs/), [boilers in Airdrie](/boilers-airdrie/), and [plumbing in Airdrie](/airdrie-plumbers/).",
       "Free in-home assessment — we check your electrical panel capacity, existing ductwork, gas line size, outdoor unit placement options, and walk through the rebate landscape. Call 587-834-3668. [Monthly financing](/financing/) available for full systems.",
     ],
@@ -8138,8 +8138,8 @@ export const services: ServicePage[] = [
     ],
     bullets: [
       {
-        t: "Sized for Airdrie's −35°C design temp",
-        d: "Airdrie is colder than Calgary in mid-winter and windier year-round (open prairie north of the city). We size cold-climate heat pumps for the −35°C design temperature, not the warmer averages — undersized systems are the #1 reason a Calgary-spec heat pump struggles when it gets installed in Airdrie.",
+        t: "Sized for Airdrie's wind and exposure",
+        d: "Airdrie sits on open prairie north of the city — same −35°C design temperature as Calgary, but windier year-round and with far less shelter. Wind strips heat off a building faster than still air at the same temperature, so we size cold-climate heat pumps for that real-world exposure rather than the warmer averages — undersizing is the #1 reason a heat pump struggles once it gets installed in Airdrie.",
       },
       {
         t: "Hybrid dual-fuel is the default recommendation",
@@ -8156,7 +8156,7 @@ export const services: ServicePage[] = [
     ],
     seoTitle: "Heat Pumps Airdrie | Cold-Climate Install + Hybrid Dual-Fuel",
     seoDescription:
-      "Airdrie heat pump installation — cold-climate, hybrid dual-fuel (heat pump + gas furnace backup), ductless mini-split. Sized for −35°C. Greener Homes rebate help. Call 587-834-3668.",
+      "Airdrie heat pump installation — cold-climate, hybrid dual-fuel (heat pump + gas furnace backup), ductless mini-split. Sized for −35°C and prairie wind. Greener Homes rebate help. Call 587-834-3668.",
     seoKeywords: [
       "heat pumps Airdrie",
       "heat pump installation Airdrie",
@@ -8172,7 +8172,7 @@ export const services: ServicePage[] = [
     sidebar: {
       title: "Airdrie Heat Pumps",
       subtitle:
-        "Cold-climate heat pump install + hybrid dual-fuel setups. Sized for Airdrie's −35°C design temp, electrical panel check included.",
+        "Cold-climate heat pump install + hybrid dual-fuel setups. Sized for Airdrie's −35°C design temp and prairie exposure, electrical panel check included.",
       bullets: [
         "Free in-home assessment + written quote",
         "Cold-climate + hybrid + ductless options",
@@ -8231,8 +8231,8 @@ export const services: ServicePage[] = [
             "Airdrie isn't just \"Calgary further north.\" The climate is harsher, the housing stock is younger, and the rebate landscape applies differently. Knowing the local context changes what the right install actually is.",
           items: [
             {
-              heading: "Colder design temperature than Calgary",
-              body: "Airdrie sits on open prairie at higher elevation and gets meaningfully colder mid-winter — design temperature is around −35°C vs Calgary's −30°C. A heat pump rated for Calgary's design temp will be undersized in Airdrie. We size for Airdrie's real number, not the warmer Calgary spec the equipment was originally engineered against.",
+              heading: "Same design temp as Calgary — harsher conditions",
+              body: "Airdrie and Calgary share roughly the same −35°C design temperature, but the number alone undersells Airdrie. Sitting on open prairie at higher elevation, Airdrie is windier year-round with far less of the built-up shelter Calgary neighbourhoods enjoy — and constant wind strips heat off a building envelope faster than a still −35°C night ever will. That means real-world heat loss runs higher here than the design temp implies. We size for the exposure, not just the number the equipment was originally engineered against.",
             },
             {
               heading: "Wind exposure matters",
@@ -8896,7 +8896,7 @@ export const services: ServicePage[] = [
           items: [
             {
               heading: "Condensate routing for −35°C winters",
-              body: "Design temperature here is colder than Calgary's, so condensate lines need extra care. The small PVC drain on a condensing tankless freezes fast if any section routes through unheated space or exits outdoors without heat trace. We route through heated space and add heat trace where outdoor exit is required.",
+              body: "Airdrie shares Calgary's −35°C design temperature but sits more exposed on open prairie, so condensate lines need extra care. The small PVC drain on a condensing tankless freezes fast if any section routes through unheated space or exits outdoors without heat trace. We route through heated space and add heat trace where outdoor exit is required.",
             },
             {
               heading: "Power-vent sidewall is the standard",
@@ -16759,8 +16759,8 @@ export const services: ServicePage[] = [
         d: "Heat-loss calcs against −35°C design temp on every install — sized correctly the first time, not matched to the old unit.",
       },
       {
-        t: "Top-brand certified",
-        d: "Manufacturer training on Navien, IBC, Viessmann, Triangle Tube, Crown, and Weil-McLain — we install what we know.",
+        t: "We install what we know",
+        d: "Navien, IBC, Viessmann, Triangle Tube, Crown, and Weil-McLain. We stick to the brands we work on every week and register the manufacturer warranty on every job.",
       },
     ],
     seoTitle: "Calgary Boilers & Hot Water Heating Systems | FlameTech",

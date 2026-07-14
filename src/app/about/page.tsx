@@ -45,7 +45,7 @@ const values = [
   {
     icon: "handyman",
     title: "Solutions that last",
-    body: "We size systems for Calgary's −40 °C design temperature, factor in our hard water, and explain the trade-offs so you can make the call with full information.",
+    body: "We size systems for Calgary's −35 °C design temperature, factor in our hard water, and explain the trade-offs so you can make the call with full information.",
   },
 ];
 
