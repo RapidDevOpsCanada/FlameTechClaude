@@ -41,6 +41,7 @@ const heatingLinks = [
   { label: "High-Efficiency Furnaces", href: "/high-efficiency-furnaces-calgary/" },
   { label: "Furnace Replacement", href: "/furnace-replacement-calgary/" },
   { label: "Furnace Blower Issues", href: "/furnace-blower-issues-calgary/" },
+  { label: "Furnace Repair", href: "/furnace-repair-calgary/" },
   { label: "No Heat Issues", href: "/no-heat-issues-calgary/" },
   { label: "Home Heating Issues", href: "/home-heating-issues-calgary/" },
   { label: "Garage Heaters", href: "/garage-heaters-calgary/" },
@@ -49,6 +50,7 @@ const heatingLinks = [
 
 const airWaterLinks = [
   { label: "Air Conditioning", href: "/air-conditioning/" },
+  { label: "AC Repair", href: "/air-conditioning-repair-calgary/" },
   { label: "Humidifiers", href: "/humidifiers-calgary/" },
   { label: "Hot Water Tanks", href: "/hot-water-tanks/" },
   { label: "Water Heater Repair", href: "/water-heater-repair-calgary/" },

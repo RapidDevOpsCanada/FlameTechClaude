@@ -2779,7 +2779,7 @@ export const services: ServicePage[] = [
     slug: "furnaces",
     category: "Heating",
     icon: "local_fire_department",
-    title: "Calgary Furnace Installation, Replacement, Repair & Service",
+    title: "Calgary Furnaces — Installation, Replacement & Service",
     lead:
       "Calgary winters run nearly seven months. A failing furnace is a same-day problem — not a get-around-to-it problem. FlameTech installs, replaces, and services every major brand, with priority response when yours quits in the middle of a cold snap.",
     heroBody: [
@@ -2817,12 +2817,11 @@ export const services: ServicePage[] = [
         d: "Your peace of mind is our priority. All our technicians are fully licensed and insured, guaranteeing professional and safe service that adheres to the highest industry standards.",
       },
     ],
-    seoTitle: "Calgary Furnace Install, Replacement, Repair | FlameTech",
+    seoTitle: "Calgary Furnaces | Installation, Replacement & Service",
     seoDescription:
       "Calgary furnace installation, replacement, emergency repair, and annual service. AirEase Pro Team dealer, 12-yr warranty option. Free written on-site estimate. Call 587-834-3668.",
     seoKeywords: [
       "furnace Calgary",
-      "furnace repair Calgary",
       "furnace installation Calgary",
       "furnace replacement Calgary",
       "furnace cost Calgary",
@@ -3053,6 +3052,7 @@ export const services: ServicePage[] = [
       intro:
         "Install, retrofit, or upgrade — here's the path that matches your situation.",
       items: [
+        { label: "Furnace Repair", href: "/furnace-repair-calgary/", summary: "Igniters, flame sensors, capacitors, control boards — diagnosed properly, most fixed first visit.", icon: "handyman", highlight: true, badge: "Same-day dispatch" },
         { label: "Furnace Replacement", href: "/furnace-replacement-calgary/", summary: "End-of-life replacement decision — furnace-vs-hybrid math, brand selection, Manual J sizing, Greener Homes rebates.", icon: "sync" },
         { label: "High-Efficiency Furnaces", href: "/high-efficiency-furnaces-calgary/", summary: "95–98% AFUE condensing units sized for Calgary's −35°C design temp.", icon: "local_fire_department" },
         { label: "AirEase Furnaces", href: "/air-ease-furnaces-calgary/", summary: "Authorized AirEase Pro Team dealer — full residential lineup with manufacturer warranty.", icon: "local_fire_department" },
@@ -3596,6 +3596,330 @@ export const services: ServicePage[] = [
     },
   },
   {
+    slug: "furnace-repair-calgary",
+    category: "Heating",
+    icon: "handyman",
+    title: "Furnace Repair in Calgary",
+    lead:
+      "Furnace repair across Calgary on every major brand. We diagnose the actual failure before quoting a part — because \"probably the motor\" is how homeowners end up paying for a new blower when a cheap capacitor was the whole problem.",
+    heroBody: [
+      "Most furnace failures come down to a short list of parts: an igniter, a flame sensor, a capacitor, a limit switch, a pressure switch, a control board. Those are repairs, and the common ones ride on our trucks, so most calls finish on the first visit.",
+      "What isn't a repair is a cracked heat exchanger. That's a combustion-safety problem, it can put carbon monoxide into the air you breathe, and we will not patch one — we'll show you the crack on the camera and quote a [replacement](/furnace-replacement-calgary/) instead.",
+      "Priority dispatch on no-heat calls during cold snaps. Real person answers the phone. Call 587-834-3668. Also serving [furnace repair in Airdrie](/airdrie-furnace-repairs/).",
+    ],
+    heroSubhead: "Diagnosed Properly, Fixed First Visit",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/FTVAN2.jpg", alt: "Shaun and Jason — FlameTech furnace repair dispatch in Calgary", fit: "cover" },
+    intro:
+      "Furnace repair in Calgary on every major brand. Real diagnosis before we quote a part, common parts on every truck, priority dispatch in cold snaps. Call 587-834-3668.",
+    features: [
+      "Igniter + flame sensor replacement",
+      "Capacitor + blower motor repair",
+      "Control board + gas valve diagnosis",
+      "Limit + pressure switch faults",
+      "Frozen condensate line lockouts",
+      "Honest repair-or-replace assessment",
+    ],
+    bullets: [
+      {
+        t: "We measure before we replace",
+        d: "Igniter resistance, flame sensor microamps, capacitor microfarads, limit switch continuity. Real measurement, not parts-swapping until something works. It's the difference between a cheap fix and an expensive guess.",
+      },
+      {
+        t: "Common parts on every truck",
+        d: "Igniters, flame sensors, capacitors, thermocouples, pressure switches, gas valves, and control boards for the common brands. Most furnace repairs finish first visit instead of \"we'll order it and come back\".",
+      },
+      {
+        t: "A cracked heat exchanger is not repairable",
+        d: "It's a carbon monoxide risk, and no honest tech patches one. We scope it, show you, and quote a replacement. Any age, no exceptions — that one isn't a judgement call.",
+      },
+      {
+        t: "Priority dispatch in a cold snap",
+        d: "No-heat calls at −25°C and colder get routed ahead of scheduled work. A real person answers and confirms a window before the truck leaves, not a four-hour mystery slot.",
+      },
+    ],
+    seoTitle: "Furnace Repair Calgary | Same-Day Service | FlameTech",
+    seoDescription:
+      "Furnace repair in Calgary, every major brand. Real diagnosis before we quote a part, common parts on the truck, priority cold-snap dispatch. Call 587-834-3668.",
+    seoKeywords: [
+      "furnace repair Calgary",
+      "furnace repair near me Calgary",
+      "emergency furnace repair Calgary",
+      "furnace not working Calgary",
+      "furnace technician Calgary",
+      "gas furnace repair Calgary",
+      "FlameTech Plumbing Heating",
+    ],
+    quoteFormLabel: "furnace repair",
+    quoteFormPlaceholder:
+      "e.g. furnace won't fire, blowing cold air, short-cycling, blower won't shut off, banging on startup, locked out in the cold…",
+    sidebar: {
+      title: "Calgary Furnace Repair",
+      subtitle:
+        "Every major brand. Diagnosed properly, most repairs finished on the first visit, priority dispatch when it's cold.",
+      bullets: [
+        "Most diagnoses in 30-45 minutes",
+        "Common parts on every truck",
+        "Free written quote on replacement",
+        "Real person answers the phone",
+      ],
+    },
+    stats: [
+      { number: "25+", label: "Years in Calgary", icon: "verified" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "ANY", label: "Furnace brand", icon: "check_circle" },
+      { number: "Same-day", label: "Dispatch available", icon: "schedule" },
+    ],
+    callout:
+      "Furnace down in a Calgary cold snap? Call 587-834-3668 — priority dispatch, parts on the truck, real person on the phone.",
+    timeline: {
+      heading: "How a furnace repair call runs",
+      intro:
+        "The goal is to find the actual fault, fix it on the first visit, and be honest with you when the furnace isn't worth the repair.",
+      steps: [
+        { icon: "request_quote", title: "Symptom, age, and history", body: "What it's doing, when it started, and how old the unit is. Age reframes everything — an eight-year-old furnace with a dead igniter is an easy yes; the same fault on a twenty-year-old unit is a different conversation." },
+        { icon: "build", title: "Watch a startup cycle", body: "We drop the thermostat and watch what the furnace actually does. Most failures announce themselves in the sequence — no inducer, inducer but no ignition, ignition but no flame hold. Each one points somewhere different." },
+        { icon: "handyman", title: "Measure the suspect part", body: "Igniter resistance, flame sensor microamp draw, capacitor microfarads, limit and pressure switch continuity, control board signals. We test before we quote, so you don't pay for a part your furnace didn't need." },
+        { icon: "verified", title: "Fix it, or tell you not to", body: "Common parts are on the truck and most repairs finish the same day. If we find a cracked heat exchanger, or the repair cost stops making sense on a furnace near end of life, we say so and quote a [replacement](/furnace-replacement-calgary/) in writing." },
+      ],
+    },
+    richContent: {
+      sections: [
+        {
+          heading: "What Usually Fails on a Calgary Furnace",
+          intro:
+            "After enough winters you learn the short list. These are the faults we actually find, roughly in the order we find them.",
+          items: [
+            { heading: "Failed igniter", body: "The most common modern-furnace failure by a wide margin. A hot-surface igniter is a ceramic element that glows to light the gas, it lasts 5-10 years, and it dies without warning. The tell: you hear the inducer spin up, then nothing. Universal igniters are on the truck." },
+            { heading: "Dirty flame sensor", body: "A metal rod that confirms the burner actually lit. Carbon builds up on it, it stops seeing the flame, and the furnace shuts itself down within seconds of igniting as a safety. The tell: fires, runs a few seconds, quits, tries again. Cleaning fixes it — no part needed." },
+            { heading: "Failed capacitor", body: "A cheap cylindrical component that gives the blower motor the kick it needs to start. When it fails, the motor hums but won't spin. This is the one people most often overpay for — it gets misdiagnosed as a dead motor, and it's one of the cheapest parts in the whole furnace. See [furnace blower issues](/furnace-blower-issues-calgary/)." },
+            { heading: "Blower motor", body: "PSC, X13, or ECM depending on the vintage. ECM motors on modern high-efficiency units have the controller built in, which makes them the priciest part in the furnace — and on an older unit, that's often the failure that tips the math toward replacement." },
+            { heading: "Limit switch tripping on airflow", body: "A badly clogged filter restricts airflow so much that the heat exchanger overheats and the high-limit switch shuts the burner off to protect it. The tell: short bursts of heat, then nothing, then it tries again. Sometimes the filter is the whole fix. Sometimes the switch itself has given up after enough cycles." },
+            { heading: "Pressure switch and inducer faults", body: "The inducer pulls combustion gases out through the vent, and the pressure switch confirms it's actually doing so. A blocked vent, a cracked hose, or a failing inducer motor and the furnace won't fire at all — correctly, because that safety exists for a reason." },
+            { heading: "Control board", body: "The brain. When it goes, the symptoms are strange and inconsistent, which is exactly why it gets blamed for a lot of faults that aren't its doing. We test the board's signals rather than replacing it on a hunch — it's an expensive part to guess at." },
+          ],
+        },
+        {
+          heading: "The Calgary-Specific One: Frozen Condensate",
+          intro:
+            "This is the call that fills our phone lines every deep cold snap, and it catches people out because the furnace is fine — it's the drain that's failed.",
+          items: [
+            { body: "A high-efficiency condensing furnace produces acidic water as a by-product of pulling extra heat out of the exhaust. That water has to drain somewhere." },
+            { body: "In a lot of Calgary homes, that drain line runs through an unheated space — a crawl space, an attached garage, a cold corner of the basement — or exits outdoors. At −30°C it freezes solid." },
+            { body: "The furnace detects the blockage and locks itself out. You get no heat, often with an error code, on the single coldest night of the year — which is exactly when the line was always going to freeze." },
+            { body: "Thawing it gets your heat back that day. But it will happen again next January unless the cause is fixed, and we'd rather tell you that than come back annually." },
+            { body: "The permanent fix is rerouting the condensate line through heated space, with heat trace where an outdoor exit genuinely can't be avoided. It's a small job compared to having no heat in a cold snap." },
+          ],
+        },
+        {
+          heading: "The Repairs We Won't Do",
+          intro:
+            "Being straight about the limits is more useful than a list of everything we can fix. There are three situations where the honest answer is no.",
+          items: [
+            { heading: "A cracked heat exchanger", body: "The heat exchanger separates combustion gases from the air you breathe. When it cracks, carbon monoxide can enter your home's airstream. There is no patch, no weld, no sealant that makes that safe. The fix is a new furnace, at any age, and anyone offering to repair one is putting your family at risk to make a sale. We scope it and show you the crack before we say a word about replacement." },
+            { heading: "Ignoring delayed ignition", body: "If your furnace makes a loud bang on startup — not a soft whoof, a bang — gas is pooling in the heat exchanger before it lights. That pressure damages the exchanger over time and can crack it. We won't just swap the igniter and leave; we find why it's lighting late, because the bang is the warning." },
+            { heading: "Repairing a furnace we'd replace", body: "If the unit is past 18-20 years and the failure is a major one — ECM motor, control board on a discontinued model, exchanger — we'll quote the repair honestly and quote the replacement next to it. Sometimes the repair still makes sense. Often it's an instalment plan on a furnace you're replacing anyway. We'll tell you which one we think you're looking at." },
+          ],
+        },
+        {
+          heading: "Repair or Replace? The Honest Framework",
+          items: [
+            { heading: "Under 12 years, single failure", body: "Repair it. A furnace in that window with a dead igniter, a dirty flame sensor, or a failed capacitor has years of life left, and replacing it would be throwing away a working appliance." },
+            { heading: "Over 18 years, major failure", body: "Strongly consider [replacement](/furnace-replacement-calgary/). You're putting an expensive part into a furnace whose other original components are all the same age — and the next one will fail soon after." },
+            { heading: "12-18 years, major failure", body: "This is the genuine judgement call. We quote both and walk you through it: what the repair costs against what a new unit costs, what efficiency you'd gain, and how long you plan to stay in the house. Then you decide, not us." },
+            { heading: "Cracked heat exchanger, any age", body: "Replace. It isn't a cost question, it's a safety one, and it's the one item on this list where there's nothing to weigh." },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Calgary Furnace Repair FAQs",
+        items: [
+          { q: "How much does furnace repair cost in Calgary?", a: "It depends entirely on what failed. A flame sensor cleaning is among the cheapest work we do — often no part at all. An igniter or a capacitor is a modest part. A gas valve, an ECM blower motor, or a control board is a serious component and costs accordingly.\n\nWe diagnose first and quote before we touch anything, so you're deciding with a real number rather than a guess made over the phone.\n\nAnd if the repair doesn't make sense — a cracked heat exchanger, or major work on a furnace already near the end — we'll tell you that instead of quietly doing it." },
+          { q: "My furnace is blowing cold air. What's wrong?", a: "Usually it means the burner isn't lighting, or it lit and then shut down while the blower kept running.\n\nCommon causes: a failed igniter (you'd hear the inducer spin up, then nothing), a dirty flame sensor (fires, runs seconds, quits), or a furnace that's locked out on a safety.\n\nOne to rule out first for free: check that your thermostat fan is set to AUTO rather than ON. On ON, the blower runs continuously whether the furnace is heating or not — so it pushes room-temperature air through the vents between cycles, which feels exactly like cold air. It's a surprisingly common false alarm." },
+          { q: "Why does my furnace keep shutting off and restarting?", a: "That's short-cycling, and you shouldn't let it keep going.\n\nThe usual causes are a dirty flame sensor (it stops seeing the flame and shuts down as a safety), restricted airflow from a badly clogged filter (the heat exchanger overheats and the high-limit switch cuts the burner), or a failing limit switch.\n\nIt matters because running short-cycled damages things — the heat exchanger takes thermal stress it wasn't designed for, and the inducer motor burns out early. Change the filter, and if that doesn't fix it, turn the thermostat down and call us. Most short-cycle causes are quick, cheap fixes if you don't wait." },
+          { q: "My furnace bangs loudly when it starts. Is that dangerous?", a: "A soft whoof on ignition is normal. A loud bang is not, and it's worth taking seriously.\n\nIt means gas is building up in the heat exchanger before it ignites, then lighting all at once. That's delayed ignition, and the pressure spike it creates is exactly what cracks heat exchangers over time — and a cracked exchanger is a carbon monoxide risk.\n\nThe usual causes are dirty burners, low gas pressure, or an igniter that's taking too long to light. All of them are fixable. Shut the furnace off and call us — the bang is the warning, and it's cheaper to act on it than to ignore it." },
+          { q: "Why does my furnace stop working on the coldest night of the year?", a: "If it's a high-efficiency furnace, it's very often a frozen condensate line — and the timing isn't bad luck, it's the cause.\n\nCondensing furnaces produce acidic water that has to drain away. When that line runs through an unheated space or exits outdoors, deep cold freezes it solid, the furnace detects the blockage, and it locks itself out as a safety.\n\nWe'll thaw it and get your heat back the same day. But the permanent fix is rerouting the line through heated space, with heat trace where an outdoor exit can't be avoided — otherwise you'll be calling again next January." },
+          { q: "Can you repair a cracked heat exchanger?", a: "No — and neither can anyone else, whatever they tell you.\n\nThe heat exchanger is the barrier between combustion gases and the air circulating through your house. A crack in it can put carbon monoxide into the air your family breathes. There's no patch or weld that restores that barrier to a state anyone should trust.\n\nThe only correct answer is a new furnace, regardless of the unit's age. We scope the exchanger with a camera and show you the crack before we recommend anything — you shouldn't take that on faith, from us or from anyone." },
+          { q: "Do you repair all furnace brands?", a: "Yes. We work on every major brand sold in Calgary — AirEase, Carrier, Lennox, Trane, Goodman, Heil, Rheem, and the rest.\n\nOur trucks carry universal parts (igniters, flame sensors, capacitors, pressure switches) that cover most brands, plus control boards for the common ones. Where a brand-specific part has to be ordered, we tell you on the call rather than after we've arrived." },
+          { q: "How fast can you get here if my furnace dies in a cold snap?", a: "No-heat calls during deep cold get routed ahead of scheduled work — that's a standing policy, not a favour.\n\nA real person answers the phone and confirms a window before the truck leaves, so you're not sitting in a cold house waiting on a four-hour guess. Most repairs finish on the first visit because the common parts are already on board.\n\nCall 587-834-3668. If your furnace is completely dead right now, our [no heat](/no-heat-issues-calgary/) page has things worth checking while you wait." },
+        ],
+      },
+    },
+    hubLinks: {
+      eyebrow: "Furnace help",
+      heading: "Know the symptom? Start there.",
+      intro:
+        "If you've got one specific problem, these pages go deeper. If you just want it fixed, call 587-834-3668.",
+      items: [
+        { label: "No Heat Issues", href: "/no-heat-issues-calgary/", summary: "Furnace completely dead, won't fire, thermostat blank — priority dispatch in cold snaps.", icon: "local_fire_department", highlight: true, badge: "Cold snap priority" },
+        { label: "Furnace Blower Issues", href: "/furnace-blower-issues-calgary/", summary: "Weak airflow, loud rattling, blower that won't shut off — usually a capacitor, not the motor.", icon: "tune", highlight: true, badge: "Common issue" },
+        { label: "Home Heating Issues", href: "/home-heating-issues-calgary/", summary: "Running but not warming, cold rooms, climbing bills, odd noises — broader symptom triage.", icon: "tune" },
+        { label: "Furnace Replacement", href: "/furnace-replacement-calgary/", summary: "When the repair no longer makes sense — heat-loss calc, gas, venting, full commissioning.", icon: "sync" },
+        { label: "High-Efficiency Furnaces", href: "/high-efficiency-furnaces-calgary/", summary: "95-98% AFUE condensing units sized for Calgary's −35°C design temperature.", icon: "local_fire_department" },
+        { label: "Furnace Repair Airdrie", href: "/airdrie-furnace-repairs/", summary: "Same crew, same trucks — furnace repair north of the city.", icon: "handyman" },
+      ],
+    },
+  },
+
+  {
+    slug: "air-conditioning-repair-calgary",
+    category: "Air",
+    icon: "ac_unit",
+    title: "AC Repair in Calgary",
+    lead:
+      "Air conditioning repair across Calgary. Most AC failures here are a capacitor or a contactor — cheap parts that die because the unit sat idle for eight months and then got asked to work on the first hot day. We diagnose properly rather than reaching for the refrigerant hose.",
+    heroBody: [
+      "Calgary's cooling season is short, and that's exactly what breaks air conditioners here. Your AC sits untouched from September to June, and then a heat wave arrives and it's asked to run flat out. The parts that fail on that first hot day are almost always the cheap ones.",
+      "The exception we're blunt about: if your system is low on refrigerant, you have a leak. Air conditioning is a sealed system — it does not consume refrigerant the way a car burns fuel. Anyone who simply tops you up and drives away has sold you the same repair again next summer.",
+      "Same-day dispatch during heat waves. Call 587-834-3668. We also handle [AC installation](/air-conditioning/) and [heat pumps](/heat-pumps-calgary/).",
+    ],
+    heroSubhead: "Diagnosed Properly, Not Just Topped Up",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/FTVAN2.jpg", alt: "Shaun and Jason — FlameTech AC repair dispatch in Calgary", fit: "cover" },
+    intro:
+      "AC repair in Calgary on every major brand. Capacitors, contactors, refrigerant leak diagnosis, frozen coils, hail-damaged condensers. Same-day dispatch. Call 587-834-3668.",
+    features: [
+      "Capacitor + contactor replacement",
+      "Refrigerant leak diagnosis",
+      "Frozen evaporator coil",
+      "Hail-damaged condenser coils",
+      "Condensate drain + drip pan",
+      "Blower + airflow faults",
+    ],
+    bullets: [
+      {
+        t: "Low refrigerant means a leak — full stop",
+        d: "AC is a sealed system. It doesn't burn refrigerant off. If you're low, it went somewhere, and topping it up without finding the leak is selling you the identical job next June. We find it and fix it.",
+      },
+      {
+        t: "The first hot day is capacitor day",
+        d: "Calgary's short cooling season means your AC idles for eight months. Capacitors and contactors are what give up when it finally fires. They're among the cheapest parts in the system — and the ones most often misdiagnosed as a dead compressor.",
+      },
+      {
+        t: "Hail is a Calgary problem",
+        d: "We're in the hail capital of Canada, and a condenser sitting outside takes the hits. Flattened fins choke airflow across the coil and quietly gut your efficiency. It's fixable — the fins can be combed back — and it's worth checking after any real storm.",
+      },
+    ],
+    seoTitle: "AC Repair Calgary | Same-Day Air Conditioning Repair",
+    seoDescription:
+      "AC repair in Calgary — capacitors, contactors, refrigerant leaks, frozen coils, hail damage. Diagnosed properly, not just topped up. Call 587-834-3668.",
+    seoKeywords: [
+      "AC repair Calgary",
+      "air conditioning repair Calgary",
+      "AC not cooling Calgary",
+      "emergency AC repair Calgary",
+      "air conditioner repair near me Calgary",
+      "AC refrigerant leak Calgary",
+      "FlameTech Plumbing Heating",
+    ],
+    quoteFormLabel: "AC repair",
+    quoteFormPlaceholder:
+      "e.g. AC blowing warm air, outdoor unit won't start, ice on the lines, water around the furnace, loud humming…",
+    sidebar: {
+      title: "Calgary AC Repair",
+      subtitle:
+        "Every major brand. We diagnose the fault instead of topping up refrigerant and hoping — same-day dispatch in a heat wave.",
+      bullets: [
+        "Leak diagnosis, not just a top-up",
+        "Capacitors + contactors on the truck",
+        "Hail-damage coil assessment",
+        "Real person answers the phone",
+      ],
+    },
+    stats: [
+      { number: "25+", label: "Years in Calgary", icon: "verified" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "ANY", label: "AC brand", icon: "check_circle" },
+      { number: "Same-day", label: "Dispatch available", icon: "schedule" },
+    ],
+    callout:
+      "AC out in a Calgary heat wave? Call 587-834-3668 — same-day dispatch, common parts on the truck.",
+    timeline: {
+      heading: "How an AC repair call runs",
+      intro:
+        "The short version: we find out why, we tell you, and we don't reach for the refrigerant hose as a first move.",
+      steps: [
+        { icon: "request_quote", title: "Symptom and system age", body: "What it's doing, when it started, and how old the unit is. Age matters here more than most people expect — an older system may still be running R-22 refrigerant, which changes the repair-or-replace conversation completely." },
+        { icon: "build", title: "Electrical first, refrigerant last", body: "We test the capacitor and contactor before anything else, because that's where most Calgary AC failures actually live. Checking them takes minutes and it's the cheapest possible outcome for you." },
+        { icon: "handyman", title: "Airflow, coils, and drainage", body: "Filter, evaporator coil, condenser fins, and the condensate drain. A frozen coil or a warm house is very often an airflow problem, not a refrigerant problem — and treating it as refrigerant would be an expensive mistake." },
+        { icon: "verified", title: "If refrigerant is low, we find the leak", body: "We don't top up and leave. We locate the leak, show you where it is, and quote the repair — or tell you honestly when the leak is in a place (like the evaporator coil on an older system) where replacement is the better spend." },
+      ],
+    },
+    richContent: {
+      sections: [
+        {
+          heading: "Why Calgary Air Conditioners Fail",
+          intro:
+            "Our cooling season runs a few short months. That sounds like it should be easy on the equipment, and it's actually the reason so much of it breaks.",
+          items: [
+            { heading: "Eight months of sitting still", body: "Your AC is idle from roughly September to June. Capacitors degrade sitting there, contactors corrode and pit, and bearings stiffen. Then the first genuinely hot day arrives, the system is asked to run hard, and whatever was marginal gives up. That's why our phones ring on the first hot day of the year and not gradually across the summer." },
+            { heading: "Hail", body: "Calgary sits in the most hail-prone corridor in Canada, and your condenser is the one piece of your HVAC system parked outside taking the hits. Hail flattens the delicate aluminium fins on the coil, which chokes airflow across it and drops your efficiency without ever fully stopping the unit — so most people never connect the storm to the higher bill. The fins can be combed back out. It's worth an inspection after any serious storm." },
+            { heading: "Skipped maintenance", body: "Because the season is short, AC maintenance is the easiest thing in the house to forget. A condenser coil packed with cottonwood fluff, grass clippings, and dust can't dump heat, so the system runs longer and hotter to achieve less. A lot of \"my AC is weak\" calls are really \"my AC hasn't been cleaned in six years\"." },
+            { heading: "A furnace problem wearing an AC costume", body: "Your central AC uses the furnace's blower to move the cold air. If the blower motor or its capacitor is failing, you get weak airflow and a house that won't cool — and it looks exactly like an AC fault. We check both, because they're one system. See [furnace blower issues](/furnace-blower-issues-calgary/)." },
+          ],
+        },
+        {
+          heading: "The Refrigerant Conversation Nobody Has Honestly",
+          intro:
+            "This is where the industry loses people's trust, so we'd rather be blunt about it than have you find out later.",
+          items: [
+            { body: "Air conditioning is a **sealed system**. It does not use up refrigerant in normal operation the way an engine burns fuel. A system that was correctly charged on install should still be correctly charged a decade later." },
+            { body: "So if your system is low on refrigerant, the refrigerant went somewhere. There is a leak. That is the only explanation, and it's not a maintenance item." },
+            { body: "Topping it up will genuinely make the AC work again — for a while. Then it leaks back out, and next summer you make the same call and pay for the same visit. That's the business model we're describing, and we're describing it so you can recognise it." },
+            { body: "We find the leak. Sometimes it's an accessible fitting or a line-set joint, and that's a straightforward repair. Sometimes it's the evaporator coil itself, which on an older system is a big enough job that replacement is usually the better spend — and we'll say so plainly rather than sell you a repair we don't believe in." },
+            { body: "One more thing worth knowing: if your system is old enough to run R-22 refrigerant, that has been phased out. It's expensive and increasingly hard to source, which shifts the repair-or-replace maths hard toward replacement on any significant refrigerant fault." },
+          ],
+        },
+        {
+          heading: "Common AC Faults We Fix",
+          items: [
+            { heading: "Capacitor", body: "The single most common AC failure, and the cheapest. It's the jolt that starts the compressor and fan motors. When it fails, you'll often hear the outdoor unit humming without the fan turning. It gets misdiagnosed as a dead compressor more often than any other fault in the trade — which is an enormously expensive mistake to make." },
+            { heading: "Contactor", body: "The electrical switch that lets power through to the outdoor unit when the thermostat calls for cooling. Its contacts pit and corrode over years of sitting idle, and eventually it won't close. Cheap part, quick swap." },
+            { heading: "Frozen evaporator coil", body: "Ice on the copper lines or the indoor coil. Counter-intuitively, this is usually an *airflow* problem — a filthy filter or a failing blower means not enough warm air passes over the coil, so it drops below freezing and ices up. It can also mean low refrigerant. Turn the AC off, leave the fan running to thaw it, and call us. Running it while frozen can destroy the compressor." },
+            { heading: "Dirty condenser coil", body: "The outdoor unit sheds your home's heat through that coil. When it's packed with cottonwood, grass, and dust, or its fins are hail-flattened, it can't. The system runs and runs and never quite cools. Cleaning it is one of the highest-value things we do." },
+            { heading: "Condensate drain and drip pan", body: "Your AC pulls a surprising amount of water out of the air, and that water drains away. When the drain clogs, the pan overflows — usually onto the furnace sitting underneath it. If you've found water around your furnace in summer, this is almost certainly why." },
+            { heading: "Compressor", body: "The expensive one. A genuinely failed compressor on an older system usually means replacement rather than repair — the part and the labour together approach the cost of a new unit that would be far more efficient. We confirm it properly before ever saying that word, because plenty of \"dead compressors\" are actually dead capacitors." },
+          ],
+        },
+        {
+          heading: "Repair or Replace?",
+          items: [
+            { heading: "Under 10 years, common fault", body: "Repair, easily. A capacitor, contactor, or drain clog on a system that age is a straightforward fix and the unit has plenty of life left." },
+            { heading: "Over 12-15 years, major fault", body: "Worth a serious conversation. A failed compressor or a leaking evaporator coil on a system that age is a large spend on an appliance near the end — and modern equipment is meaningfully more efficient. See [air conditioning](/air-conditioning/) for what a new install involves." },
+            { heading: "Any age, running R-22", body: "The refrigerant has been phased out and is expensive and hard to get. Any significant refrigerant-side fault on an R-22 system tips the maths toward replacement, and it's worth knowing that before you spend." },
+            { heading: "The honest bit", body: "A capacitor is one of the cheapest parts in your house, and a compressor is one of the most expensive. Plenty of homeowners get quoted the second when they needed the first. Whatever we find, we'll show you what we measured and why." },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Calgary AC Repair FAQs",
+        items: [
+          { q: "How much does AC repair cost in Calgary?", a: "It depends what failed, and the range is genuinely wide. A capacitor or contactor is among the cheapest work we do. A refrigerant leak repair depends entirely on where the leak is. A compressor is a major component and costs like one.\n\nWe diagnose and quote before we touch anything, so you're deciding with a real number in front of you.\n\nAnd on an older system where the honest answer is replacement rather than repair, we'll say that instead of taking your money for a fix we don't believe in." },
+          { q: "My AC is blowing warm air. What's wrong?", a: "A few likely causes, in the order we'd check them.\n\nFirst, the free one: make sure the thermostat is set to COOL and the fan is on AUTO rather than ON. On ON, the blower runs constantly even when the AC isn't cooling, which pushes room-temperature air through your vents and feels exactly like a broken AC.\n\nThen: a failed capacitor or contactor (the outdoor unit hums but the fan doesn't turn), a filthy filter choking airflow, a frozen evaporator coil, a hail- or dirt-clogged condenser coil, or low refrigerant — which means a leak.\n\nWe check the cheap electrical faults first, because that's where most Calgary AC failures actually are." },
+          { q: "There's ice on my AC lines. What do I do?", a: "Turn the AC off at the thermostat, but leave the fan set to ON so warm air keeps moving across the coil and thaws it. Don't try to chip the ice off.\n\nThen call us. **Do not keep running it while it's frozen** — running a compressor against a frozen coil can send liquid refrigerant back to it and destroy it, which turns a cheap repair into a very expensive one.\n\nThe cause is usually restricted airflow (a badly clogged filter, or a failing blower), or low refrigerant from a leak. Both are things we can find. Change your filter while you wait — sometimes that genuinely is the whole story." },
+          { q: "My AC just needs a refrigerant top-up, right?", a: "Almost certainly not, and this is the most important thing on this page.\n\nAir conditioning is a **sealed system**. It does not consume refrigerant in normal use. If your system is low, the refrigerant leaked out — there is no other explanation.\n\nTopping it up will cool your house again for a while. Then it leaks back out, and next summer you're making this call again and paying again. If a contractor tops you up without looking for the leak, they've sold you a repeat visit.\n\nWe find the leak, show you where it is, and quote the actual repair. If the leak is somewhere that doesn't justify fixing on an older system — the evaporator coil, typically — we'll tell you that honestly rather than keep charging you to refill it." },
+          { q: "Can hail damage my air conditioner?", a: "Yes, and in Calgary it's common enough that we check for it routinely.\n\nWe're in the most hail-prone part of the country, and your condenser is the one piece of HVAC equipment sitting outdoors. Hail flattens the thin aluminium fins on the coil. That doesn't usually stop the unit — which is why people miss it — but it chokes airflow across the coil, so the system can't shed heat properly, runs longer, and costs more to achieve less cooling.\n\nThe fins can often be combed back out and the coil cleaned, which restores most of the lost performance. It's worth having someone look after any serious storm, and it may be worth a call to your insurer." },
+          { q: "Why does my AC always break on the first hot day?", a: "Because that's the day it's finally asked to work.\n\nCalgary's cooling season is short — your AC sits idle from roughly September to June. Capacitors degrade while sitting, contactor points corrode, bearings stiffen. None of it shows while the system is off. Then the first real heat wave arrives, everything is asked to run hard, and whatever was marginal fails.\n\nIt's the single most predictable pattern in Calgary cooling, and it's the argument for a spring service call: the point is to find the failing capacitor in May rather than meet it in July." },
+          { q: "Do you repair all AC brands?", a: "Yes — every major brand sold in Calgary. Capacitors and contactors are largely universal parts and ride on our trucks, so the most common failures get fixed on the first visit whatever badge is on your unit.\n\nWhere a brand-specific control board or a proprietary part has to be ordered, we'll tell you on the call rather than after we've arrived." },
+        ],
+      },
+    },
+    hubLinks: {
+      eyebrow: "Cooling help",
+      heading: "The rest of your cooling system.",
+      intro:
+        "AC repair is one part of it. These are the pages worth knowing about.",
+      items: [
+        { label: "Air Conditioning Install", href: "/air-conditioning/", summary: "New AC and replacement — sizing, line sets, and whether a heat pump is the smarter buy.", icon: "ac_unit" },
+        { label: "Heat Pumps", href: "/heat-pumps-calgary/", summary: "Cools in summer and heats most of the year — worth comparing before you replace an AC.", icon: "ac_unit" },
+        { label: "Furnace Blower Issues", href: "/furnace-blower-issues-calgary/", summary: "Your AC uses the furnace blower — weak airflow often isn't an AC fault at all.", icon: "tune", highlight: true, badge: "Common issue" },
+        { label: "AC Repair Airdrie", href: "/air-conditioning-airdrie/", summary: "Same crew, same trucks — cooling service north of the city.", icon: "ac_unit" },
+        { label: "Humidifiers", href: "/humidifiers-calgary/", summary: "The other half of indoor comfort — whole-home humidification for Calgary's dry air.", icon: "science" },
+      ],
+    },
+  },
+
+  {
     slug: "furnace-blower-issues-calgary",
     category: "Heating",
     icon: "tune",
@@ -3605,7 +3929,7 @@ export const services: ServicePage[] = [
     heroBody: [
       "The blower is the most-cycled component in any forced-air furnace — and Calgary's heating season puts more hours on it than almost anywhere else in Canada. Dusty chinook air clogs the wheel, freeze-thaw cycles stress the bearings, and the long shoulder seasons (running the fan-only mode) extend motor wear well past nominal life.",
       "We work on every common Calgary blower setup: older PSC motors in pre-2000 builds, X13 multi-speed motors in mid-2000s-2010s furnaces, and modern variable-speed ECM motors in newer high-efficiency units. Same crew as our [furnace repair](/furnace-repair-calgary/), [boiler service](/boiler-service-calgary/), and [furnace install](/furnaces/) work.",
-      "Call 587-834-3668 for priority dispatch — most blower diagnoses take 30 minutes; many repairs finish the same visit because we stock common capacitors and motor sizes on the truck.",
+      "A failing blower shows up as a heating problem in winter and a cooling problem in summer, because your AC uses the same blower. Broader diagnosis on our [furnace repair](/furnace-repair-calgary/) and [AC repair](/air-conditioning-repair-calgary/) pages.\n\nCall 587-834-3668 for priority dispatch — most blower diagnoses take 30 minutes; many repairs finish the same visit because we stock common capacitors and motor sizes on the truck.",
     ],
     heroSubhead: "Diagnosis, Repair, and Honest Replace-or-Repair Calls",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
@@ -3816,7 +4140,7 @@ export const services: ServicePage[] = [
     heroBody: [
       "We work on every common Calgary heating setup: high-efficiency condensing furnaces (post-2000s builds), conventional gas furnaces (older homes), and hydronic boiler systems (in-floor radiant in luxury rebuilds like [Bel-Aire](/bel-aire-plumbers-calgary/), [Mount Royal](/mount-royal-plumbers-calgary/), and [Aspen Woods](/aspen-woods-plumbers-calgary/), plus baseboard hydronic in 60s-70s homes). If your system isn't completely off but something is clearly off (uneven heat, high bills, weird noises), see our broader [home heating issues](/home-heating-issues-calgary/) diagnostic page.",
       "Priority dispatch for no-heat calls anywhere in Calgary, Airdrie, Chestermere, Cochrane, Okotoks, and surrounding communities. Real person answers the phone — we'll confirm a window before the truck rolls. Trucks stocked with common parts: igniters, flame sensors, capacitors, thermocouples, gas valves, thermostats — so most no-heat calls finish in the first visit.",
-      "Call 587-834-3668. Same crew handles our [furnace repair](/furnaces/), [boiler service](/boiler-service-calgary/), [boiler repair](/boiler-repair-calgary/), and [emergency plumbing](/emergency-plumber-calgary/).",
+      "Call 587-834-3668. Same crew handles our [furnace repair](/furnace-repair-calgary/), [boiler service](/boiler-service-calgary/), [boiler repair](/boiler-repair-calgary/), and [emergency plumbing](/emergency-plumber-calgary/).",
     ],
     heroSubhead: "Priority Dispatch for Cold-Snap No-Heat Calls",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
@@ -4818,7 +5142,7 @@ export const services: ServicePage[] = [
     slug: "air-conditioning",
     category: "Air",
     icon: "ac_unit",
-    title: "Air Conditioning Calgary — AC Install, Repair + Heat Pump Comparison",
+    title: "Air Conditioning Calgary — AC Installation + Heat Pump Comparison",
     lead:
       "Calgary summers used to be a couple of hot weeks per year. Not anymore — 30°C+ stretches are now routine through July and August. If you're adding AC for the first time, replacing a unit at end of life, or repairing a system that's not keeping up, FlameTech installs and services every common Calgary setup. And before you commit to like-for-like AC: ask us whether a heat pump makes more sense. For most Calgary homeowners adding cooling capability today, it does — same outdoor unit, AC plus efficient supplemental heating in one piece of equipment.",
     heroBody: [
@@ -4865,13 +5189,12 @@ export const services: ServicePage[] = [
       fit: "contain",
     },
     seoTitle:
-      "Air Conditioning Calgary | Install, Repair + Heat Pump Comparison",
+      "Air Conditioning Calgary | AC Installation + Heat Pump Compared",
     seoDescription:
       "Calgary AC install, repair, and maintenance. Central and ductless. Honest heat-pump-vs-AC comparison on every quote. AirEase 12-year warranty. Call 587-834-3668.",
     seoKeywords: [
       "air conditioning Calgary",
       "AC installation Calgary",
-      "AC repair Calgary",
       "central AC Calgary",
       "ductless mini split Calgary",
       "AC vs heat pump Calgary",
@@ -5121,6 +5444,7 @@ export const services: ServicePage[] = [
       intro:
         "AC, heat pump, furnace, humidifier — each one runs a different way. Here's how to compare.",
       items: [
+        { label: "AC Repair Calgary", href: "/air-conditioning-repair-calgary/", summary: "Not cooling, iced-up lines, humming outdoor unit — capacitors and contactors on the truck, leaks properly diagnosed.", icon: "handyman", highlight: true, badge: "Same-day dispatch" },
         { label: "Heat Pumps Calgary", href: "/heat-pumps-calgary/", summary: "Heating AND cooling in one outdoor unit — math-positive call for most homes adding cooling today.", icon: "ac_unit" },
         { label: "Humidifiers Calgary", href: "/humidifiers-calgary/", summary: "Whole-home humidifier install — fix the dry winter air that AC alone can't solve.", icon: "water_drop" },
         { label: "Furnace Replacement", href: "/furnace-replacement-calgary/", summary: "Replacing your furnace? Pair it with AC or hybrid heat pump for matched-system install.", icon: "sync" },

@@ -31,6 +31,8 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
   furnaces: "Heating",
   "high-efficiency-furnaces-calgary": "Heating",
   "furnace-replacement-calgary": "Heating",
+  "furnace-repair-calgary": "Heating",
+  "air-conditioning-repair-calgary": "Air",
   "furnace-blower-issues-calgary": "Heating",
   "no-heat-issues-calgary": "Heating",
   "home-heating-issues-calgary": "Heating",
