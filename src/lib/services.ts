@@ -11618,7 +11618,7 @@ export const services: ServicePage[] = [
       },
       {
         t: "Poly-B + galvanized depth",
-        d: "Two NW-specific problems: galvanized supply lines in 1960s-70s Brentwood/Montgomery builds, and Poly-B in 80s-90s Edgemont/Hamptons/Royal Oak. We diagnose and replace both.",
+        d: "Two NW-specific problems: galvanized supply lines in 1960s-70s Brentwood/Montgomery builds, and Poly-B in 80s-90s Edgemont/Hamptons/Hidden Valley. We diagnose and replace both. Royal Oak, built from 1997 on, largely missed the Poly-B era — we'll tell you if yours is clear.",
       },
       {
         t: "Mature-tree root expertise",
@@ -11643,6 +11643,8 @@ export const services: ServicePage[] = [
       neighbourhoods: [
         { name: "Bowness", slug: "bowness-plumbers-calgary", blurb: "River-adjacent, ground saturation, sump pump strain." },
         { name: "Edgemont", slug: "edgemont-plumbers-calgary", blurb: "Heavy 80s-90s Poly-B concentration." },
+        { name: "Hidden Valley", slug: "hidden-valley-plumbers-calgary", blurb: "1991-2000s builds, Poly-B country; Hanson Ranch hydronics." },
+        { name: "Royal Oak", slug: "royal-oak-plumbers-calgary", blurb: "1997-2010 builds, post-Poly-B; NW ridge pressure + PRVs." },
         { name: "Evanston", slug: "evanston-plumbers-calgary", blurb: "Modern builds, first-service replacement window." },
         { name: "Huntington Hills", slug: "huntington-hills-plumbers-calgary", blurb: "Established 70s-80s stock, mixed pipe materials." },
         { name: "Panorama Hills", slug: "panorama-hills-plumbers-calgary", blurb: "Hilltop pressure issues, mid-2000s builds." },
@@ -11692,8 +11694,8 @@ export const services: ServicePage[] = [
           items: [
             { body: "Arbour Lake, Beddington Heights, [Bowness](/bowness-plumbers-calgary/), Brentwood, Cambrian Heights, Citadel." },
             { body: "Country Hills, Dalhousie, [Edgemont](/edgemont-plumbers-calgary/), [Evanston](/evanston-plumbers-calgary/), Hamptons, Hawkwood." },
-            { body: "Hidden Valley, Kincora, MacEwan Glen, Montgomery, North Haven, [Panorama Hills](/panorama-hills-plumbers-calgary/)." },
-            { body: "Royal Oak, Ranchlands, Sandstone Valley, Scenic Acres, Silverspring, Thorncliffe." },
+            { body: "[Hidden Valley](/hidden-valley-plumbers-calgary/), Kincora, MacEwan Glen, Montgomery, North Haven, [Panorama Hills](/panorama-hills-plumbers-calgary/)." },
+            { body: "[Royal Oak](/royal-oak-plumbers-calgary/), Ranchlands, Sandstone Valley, Scenic Acres, Silverspring, Thorncliffe." },
             { body: "[Varsity](/varsity-plumbers-calgary/), [Tuscany](/tuscany-plumbers-calgary/), Sage Hill, and every other Northwest quadrant community." },
           ],
         },
@@ -11727,7 +11729,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "Higher-elevation pressure issues",
-              body: "Tuscany, Citadel, Royal Oak, Country Hills sit on Calgary's NW ridge — water has to be pumped uphill, and many homes show lower static pressure (40-50 psi instead of the 60-65 you'd see in central neighbourhoods). Booster pumps and pressure-regulating valves are common installs up here.",
+              body: "Tuscany, Citadel, [Royal Oak](/royal-oak-plumbers-calgary/), Country Hills sit on Calgary's NW ridge — water has to be pumped uphill, and many homes show lower static pressure (40-50 psi instead of the 60-65 you'd see in central neighbourhoods). Booster pumps and pressure-regulating valves are common installs up here.",
             },
             {
               heading: "Bow River proximity = ground saturation",
@@ -11813,6 +11815,7 @@ export const services: ServicePage[] = [
         { name: "Chaparral", slug: "chaparral-plumbers-calgary", blurb: "Mid-2000s builds, 15-20 year first-service window." },
         { name: "Copperfield", slug: "copperfield-plumbers-calgary", blurb: "2000s-boom subdivision, builder-grade equipment failing." },
         { name: "Cranston", slug: "cranston-plumber-calgary", blurb: "Riverside elevation, modern stock + Riverstone enclave." },
+        { name: "Douglasdale/Glen", slug: "douglasdale-plumbers-calgary", blurb: "1991-2000 builds, Poly-B era; Bow-side basements + sump pumps." },
         { name: "Mahogany", slug: "mahogany-plumbers-calgary", blurb: "Calgary's largest lake community, lakefront irrigation." },
         { name: "McKenzie Lake", slug: "mckenzie-lake-plumbers-calgary", blurb: "Established lake community, Poly-B in original builds." },
         { name: "McKenzie Towne", slug: "mckenzie-towne-plumbers-calgary", blurb: "Late-90s through 2010s mixed stock." },
@@ -11875,7 +11878,7 @@ export const services: ServicePage[] = [
             { body: "Master-planned lake communities like [Auburn Bay](/auburn-bay-plumber-calgary/), [Mahogany](/mahogany-plumbers-calgary/) and [McKenzie Lake](/mckenzie-lake-plumbers-calgary/)." },
             { body: "2000s-boom neighborhoods including [Copperfield](/copperfield-plumbers-calgary/), [Cranston](/cranston-plumber-calgary/), [New Brighton](/new-brighton-plumbers-calgary/), and [McKenzie Towne](/mckenzie-towne-plumbers-calgary/)." },
             { body: "Newer construction in Seton, Legacy, and Walden where settling-related issues occasionally appear." },
-            { body: "Established areas like [Chaparral](/chaparral-plumbers-calgary/), Douglas Glen, Douglasdale, Erin Woods, Forest Lawn, and Quarry Park." },
+            { body: "Established areas like [Chaparral](/chaparral-plumbers-calgary/), [Douglasdale and Douglas Glen](/douglasdale-plumbers-calgary/), Erin Woods, Forest Lawn, and Quarry Park." },
           ],
         },
       ],
@@ -12599,6 +12602,393 @@ export const services: ServicePage[] = [
             q: "What other SE Calgary neighbourhoods do you cover?",
             a: "Same crew works [Auburn Bay](/auburn-bay-plumber-calgary/), [Mahogany](/mahogany-plumbers-calgary/), [McKenzie Towne](/mckenzie-towne-plumbers-calgary/), [McKenzie Lake](/mckenzie-lake-plumbers-calgary/), [Chaparral](/chaparral-plumbers-calgary/), [New Brighton](/new-brighton-plumbers-calgary/), [Copperfield](/copperfield-plumbers-calgary/), and the broader [SE Calgary](/calgary-plumbers-se/). Same-day dispatch across the SE.",
           },
+        ],
+      },
+    },
+  },
+
+  {
+    slug: "douglasdale-plumbers-calgary",
+    category: "Plumbing",
+    location: "Calgary",
+    icon: "plumbing",
+    title: "Douglasdale & Douglas Glen Plumbers | SE Calgary",
+    lead:
+      "Douglasdale went up on farmland overlooking the Bow starting in the late 1980s, and Douglas Glen followed in the early 90s — which means most of the community was piped in exactly the window when Poly-B was the standard. Thirty-some years on, that matters. FlameTech knows what's behind the walls here.",
+    heroBody: [
+      "Two things define plumbing in Douglasdale and Douglas Glen: the build era and the river. Most homes here went up between 1991 and 2000, putting them squarely in the polybutylene window — and the community's edge sits on the Bow, which shapes everything about how basements behave in spring.",
+      "Our [SE Calgary plumbing team](/calgary-plumbers-se/) covers Douglasdale, Douglas Glen, and neighbouring Quarry Park, and we're regulars in nearby [Chaparral](/chaparral-plumbers-calgary/) and [McKenzie Lake](/mckenzie-lake-plumbers-calgary/). Call 587-834-3668 — a real person answers.",
+    ],
+    heroSubhead: "Poly-B, Sump Pumps, and the Bow River",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing service van in Douglasdale, SE Calgary", fit: "cover" },
+    intro:
+      "Plumbers serving Douglasdale and Douglas Glen, SE Calgary. Poly-B replacement, sump pumps and backwater valves for Bow-side basements, water heaters, and priority emergency dispatch. Call 587-834-3668.",
+    features: [
+      "Poly-B replacement (90s builds)",
+      "Sump pump install + battery backup",
+      "Backwater valve installation",
+      "Water heater replacement",
+      "Sewer camera inspection",
+      "Priority emergency dispatch",
+    ],
+    bullets: [
+      {
+        t: "We know what Poly-B looks like here",
+        d: "Most Douglasdale and Douglas Glen homes were piped in the 1991-2000 window, which is peak polybutylene. Grey plastic pipe, copper or brass crimp fittings. If that's what you've got, we'll tell you honestly how much life is left in it.",
+      },
+      {
+        t: "River-side basements need more than a pump",
+        d: "The Bow is right there. We look at the whole picture — sump, weeping tile, backwater valve, and where your downspouts actually discharge — instead of selling you a pump and calling it solved.",
+      },
+    ],
+    seoTitle: "Douglasdale Plumbers Calgary | Douglas Glen | FlameTech",
+    seoDescription:
+      "Plumbers serving Douglasdale and Douglas Glen SE Calgary. Poly-B replacement, sump pumps, backwater valves, water heaters. Priority dispatch. Call 587-834-3668.",
+    seoKeywords: [
+      "Douglasdale plumbers",
+      "plumber Douglasdale Calgary",
+      "Douglas Glen plumber",
+      "Douglasdale Poly-B replacement",
+      "SE Calgary plumber",
+      "Douglasdale emergency plumber",
+      "FlameTech Plumbing",
+    ],
+    quoteFormLabel: "Douglasdale plumbing",
+    quoteFormPlaceholder:
+      "e.g. Poly-B leak in a 90s Douglasdale home, sump pump failed, water heater at end of life, sewer backing up…",
+    sidebar: {
+      title: "Douglasdale Plumbers",
+      subtitle:
+        "Douglasdale, Douglas Glen, and Quarry Park — Poly-B specialists, and we know how Bow-side basements behave in spring.",
+      bullets: [
+        "Free Poly-B inspection",
+        "Sump pumps + battery backup",
+        "Backwater valve installs",
+        "Real dispatcher answers the phone",
+      ],
+    },
+    stats: [
+      { number: "25+", label: "Years in Calgary", icon: "verified" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "FREE", label: "Written estimates", icon: "request_quote" },
+      { number: "Licensed", label: "& insured", icon: "award" },
+    ],
+    callout:
+      "Poly-B leak or a wet basement in Douglasdale? Call 587-834-3668 — priority dispatch, and a real person answers the phone.",
+    richContent: {
+      sections: [
+        {
+          heading: "Why Douglasdale's Build Era Decides Your Plumbing",
+          intro:
+            "Douglasdale was established in 1986 and built out through the 1990s, with Douglas Glen filling in north of it in the early part of that decade. That timing is the single most useful thing to know about plumbing here — it tells us what's behind your walls before we've seen it.",
+          items: [
+            {
+              heading: "Poly-B is the headline",
+              body: "Polybutylene was the standard supply pipe in Canadian construction from the mid-1980s until the late 90s, which covers almost the entire Douglasdale and Douglas Glen build-out. It's grey plastic pipe with crimped fittings. It fails from the inside out, which is why homes go from fine to flooded with no warning. Our [Poly-B replacement](/polyb-plumbing-calgary/) page covers what a repipe involves — and we'll inspect yours for free rather than guess.",
+            },
+            {
+              heading: "Original equipment is long gone — it's the second round that's failing now",
+              body: "A furnace or hot water tank installed when these homes were built would have been replaced fifteen years ago. What we see in Douglasdale now is the *replacement* equipment reaching end of life — mid-2000s tanks and furnaces hitting 18-20 years. That's the current wave of calls.",
+            },
+            {
+              heading: "The trees have grown up",
+              body: "Streets planted when Douglasdale went in are now carrying thirty-year-old canopy, and those root systems have found the sewer laterals. Gurgling drains, a toilet that empties slowly, backups that clear and then come back — that's roots. We camera the line to confirm before anyone starts cutting.",
+            },
+            {
+              heading: "Quarry Park is a different animal",
+              body: "Quarry Park next door was a working Lafarge gravel pit until the early 2000s and was redeveloped from roughly 2006 — so it's modern PEX, modern equipment, and none of the Poly-B story. If you're in Quarry Park rather than Douglasdale proper, the plumbing conversation is completely different, and we'll tell you so.",
+            },
+          ],
+        },
+        {
+          heading: "The Bow River and Your Basement",
+          intro:
+            "Douglasdale was built on farmland overlooking the Bow, and the community's lower edge is close enough to the river that groundwater behaves differently here than it does further up the hill. This is the other half of plumbing in this neighbourhood.",
+          items: [
+            { body: "Spring melt plus a heavy rain is the combination that finds every weakness. Weeping tile that copes fine in August gets overwhelmed in a wet May." },
+            { body: "A [sump pump](/sump-pump-installation-calgary/) is the first line of defence, and a sump pump without a battery backup is a sump pump that fails exactly when a storm knocks the power out. That's not hypothetical — it's the pattern." },
+            { body: "A backwater valve is separate from rain flooding and worth understanding on its own: it stops the municipal sewer from pushing back into your basement when the city system surges." },
+            { body: "Before any of that, we look at the cheap stuff — where your downspouts actually discharge, and whether the grade around the foundation slopes away from the house or toward it. Fixing those has solved more Douglasdale basements than any pump we've ever installed." },
+            { body: "If your basement floods every time it rains, our [diagnostic guide](/blog/basement-floods-every-time-it-rains-calgary/) walks through the five distinct causes in cheapest-first order before you spend a dollar." },
+          ],
+        },
+        {
+          heading: "What We Get Called For in Douglasdale",
+          items: [
+            { heading: "Poly-B failures", body: "Sometimes a slow drip at a fitting, sometimes a pinhole in a wall you only find because the drywall stained. Either way it's a symptom, not a one-off. We'll show you what we found and be straight about whether you're looking at a repair or a [repipe](/polyb-plumbing-calgary/)." },
+            { heading: "Wet basements after a storm", body: "Sump failure, an overwhelmed weeping tile, a downspout dumping against the foundation, or a sewer surge. Four different causes, four different fixes, and guessing wrong is expensive. We diagnose the source first." },
+            { heading: "Water heaters at end of life", body: "Calgary's hard water is rough on tanks, and the ones going in Douglasdale now are mid-2000s replacements reaching the end of a normal life. See [water heater repair](/water-heater-repair-calgary/) for whether yours is worth fixing, or [replacement](/hot-water-tank-replacement-calgary/) when it isn't." },
+            { heading: "Root-blocked sewer lines", body: "Thirty-year-old street trees and aging laterals. We camera-inspect, clear what's there, and tell you honestly whether it's a recurring maintenance item or a line that needs relining." },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Douglasdale Plumbing FAQs",
+        items: [
+          { q: "Does my Douglasdale home have Poly-B?", a: "Very possibly. Most homes in Douglasdale and Douglas Glen were built between 1991 and 2000, and polybutylene was the standard supply pipe through most of that window.\n\nLook at the pipe coming out of your hot water tank or at the shut-off under a sink. Poly-B is grey plastic, roughly the diameter of a pencil to a finger, usually with copper or brass crimp rings at the fittings. If you're not sure, we'll come and look for free.\n\nOur [Poly-B replacement](/polyb-plumbing-calgary/) page explains what a repipe involves and how we decide whether you need one now or can plan for it." },
+          { q: "Do I need a sump pump in Douglasdale?", a: "It depends where in the community you are and how your lot drains. Douglasdale sits above the Bow, and the closer you are to the river edge, the more groundwater matters.\n\nThe honest first question isn't \"do I need a pump\" — it's \"where is the water coming from?\" We've fixed more Douglasdale basements with downspout extensions and a re-grade than with pumps. If a [sump pump](/sump-pump-installation-calgary/) is genuinely the right call, we'll say so, and we'll recommend a battery backup with it, because a storm that floods your basement is the same storm that knocks out your power." },
+          { q: "My drains gurgle and back up every few months. What is that?", a: "Almost always tree roots in the sewer lateral. Douglasdale's street trees are thirty-plus years old now, and their roots find the joints in aging sewer lines.\n\nThe pattern is distinctive: it clears when you snake it, everything's fine for a few months, and then it comes back. That's roots regrowing, not a one-time clog.\n\nWe camera the line to see exactly what's in there and where, clear it properly, and then tell you honestly whether this is a maintenance item you'll repeat every couple of years or whether the line needs relining. See [drain cleaning](/drain-cleaning-calgary/)." },
+          { q: "Is Quarry Park the same as Douglasdale for plumbing?", a: "No, and it's worth knowing the difference. Quarry Park was a working gravel pit until the early 2000s and was redeveloped from around 2006, so the homes are modern — PEX supply lines, modern venting, current-code equipment.\n\nNone of the Poly-B story applies there. If you're in Quarry Park, your plumbing is young enough that we're usually talking about maintenance and first-round equipment replacement rather than aging infrastructure." },
+          { q: "How fast can you get to Douglasdale?", a: "Douglasdale sits right off Deerfoot, which makes it one of the easier SE communities for us to reach. Emergency calls get routed ahead of scheduled work, and we'll confirm a window before the truck leaves rather than giving you a four-hour mystery slot. Call 587-834-3668." },
+        ],
+      },
+    },
+  },
+
+  {
+    slug: "royal-oak-plumbers-calgary",
+    category: "Plumbing",
+    location: "Calgary",
+    icon: "plumbing",
+    title: "Royal Oak Plumbers Calgary | NW Ridge Specialists",
+    lead:
+      "Royal Oak is one of the few established NW communities where we're usually not talking about Poly-B — it was built from 1997 onward, just after polybutylene was phased out. What we do talk about up here is water pressure, because Royal Oak sits near the top of Calgary's northwest ridge.",
+    heroBody: [
+      "Homes in Royal Oak went up mostly between 1997 and 2010, which puts them past the Poly-B era and into copper and PEX. That's genuinely good news, and it means the plumbing conversation here is a different one from [Edgemont](/edgemont-plumbers-calgary/) or [Varsity](/varsity-plumbers-calgary/) down the hill.",
+      "The two things that actually come up in Royal Oak: static water pressure, because water has to be pumped uphill to get here, and first-generation equipment — the furnaces and hot water tanks that came with these houses are now old enough to be failing.",
+      "Our [NW Calgary team](/calgary-plumbers-nw/) covers Royal Oak, Rocky Ridge, and neighbouring [Tuscany](/tuscany-plumbers-calgary/). Call 587-834-3668.",
+    ],
+    heroSubhead: "Pressure, PRVs, and First-Round Equipment",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing service van in Royal Oak, NW Calgary", fit: "cover" },
+    intro:
+      "Plumbers serving Royal Oak, NW Calgary. Water pressure and PRV work on the NW ridge, furnace and water heater replacement on 1997-2010 builds, priority emergency dispatch. Call 587-834-3668.",
+    features: [
+      "Water pressure diagnosis",
+      "Pressure-regulating valve service",
+      "Water heater replacement",
+      "Furnace + boiler replacement",
+      "Leak detection",
+      "Priority emergency dispatch",
+    ],
+    bullets: [
+      {
+        t: "Mostly no Poly-B up here — and we'll say so",
+        d: "Royal Oak was built from 1997 on, just after polybutylene was discontinued. Only the very earliest phases could have it. If someone's trying to sell you a Poly-B repipe in Royal Oak, get a second opinion. We'll look, and tell you what you actually have.",
+      },
+      {
+        t: "Ridge-top pressure is a real thing",
+        d: "Water gets pumped uphill to reach Royal Oak, and static pressure up here often runs lower than what central Calgary sees. If your shower goes weak when the dishwasher runs, that's the reason — and it's diagnosable and fixable.",
+      },
+    ],
+    seoTitle: "Royal Oak Plumbers Calgary | NW Calgary | FlameTech",
+    seoDescription:
+      "Plumbers serving Royal Oak NW Calgary. Water pressure and PRV work, water heater and furnace replacement on 1997-2010 builds. Priority dispatch. Call 587-834-3668.",
+    seoKeywords: [
+      "Royal Oak plumbers",
+      "plumber Royal Oak Calgary",
+      "NW Calgary plumber",
+      "Royal Oak water pressure",
+      "Royal Oak emergency plumber",
+      "Royal Oak water heater",
+      "FlameTech Plumbing",
+    ],
+    quoteFormLabel: "Royal Oak plumbing",
+    quoteFormPlaceholder:
+      "e.g. low water pressure upstairs, water heater at end of life, furnace needs replacing, hidden leak…",
+    sidebar: {
+      title: "Royal Oak Plumbers",
+      subtitle:
+        "NW ridge community, 1997-2010 builds. Pressure diagnosis, PRVs, and first-round equipment replacement.",
+      bullets: [
+        "Water pressure + PRV specialists",
+        "Post-Poly-B era builds",
+        "Furnace + water heater replacement",
+        "Real dispatcher answers the phone",
+      ],
+    },
+    stats: [
+      { number: "25+", label: "Years in Calgary", icon: "verified" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "FREE", label: "Written estimates", icon: "request_quote" },
+      { number: "Licensed", label: "& insured", icon: "award" },
+    ],
+    callout:
+      "Weak water pressure or a failing water heater in Royal Oak? Call 587-834-3668 — priority dispatch, real person on the phone.",
+    richContent: {
+      sections: [
+        {
+          heading: "Royal Oak Is a Post-Poly-B Community",
+          intro:
+            "This is the most useful thing we can tell you about Royal Oak plumbing, and it's the opposite of what we tell most established NW neighbourhoods.",
+          items: [
+            {
+              heading: "The timing worked in your favour",
+              body: "Royal Oak was annexed into Calgary in 1989, development started around 1995, and the community was formally established in 1998 — with most homes built between 1997 and 2010. Polybutylene had been phased out of Canadian construction by roughly then. So unlike [Edgemont](/edgemont-plumbers-calgary/), the Hamptons, or [Varsity](/varsity-plumbers-calgary/), the vast majority of Royal Oak homes were piped with copper or PEX from day one.",
+            },
+            {
+              heading: "The earliest phases are the exception",
+              body: "The first homes going up in the mid-90s sit right on the boundary of the Poly-B era, so we don't rule it out — we look. If you're in one of the original phases, it's worth having someone confirm what's actually behind your walls rather than assuming either way.",
+            },
+            {
+              heading: "Be sceptical of a Poly-B pitch in Royal Oak",
+              body: "If a contractor is quoting you a [Poly-B repipe](/polyb-plumbing-calgary/) in Royal Oak without having identified grey pipe in your house, something's off. We'll come and look, and if what you have is copper or PEX we'll tell you that and leave. It's a free inspection either way.",
+            },
+          ],
+        },
+        {
+          heading: "Water Pressure on the Northwest Ridge",
+          intro:
+            "Royal Oak, Tuscany, Citadel, and Country Hills all sit high on Calgary's northwest ridge. Water has to be pumped uphill to get here, and that has consequences you can feel in the shower.",
+          items: [
+            { body: "Static pressure up on the ridge commonly runs lower than the 60-65 psi you'd see in a central Calgary neighbourhood. That's the supply, not your house — and it's why a home that seems perfectly plumbed can still feel weak." },
+            { body: "The tell: pressure that's fine on its own but collapses the moment a second fixture opens. Someone starts the dishwasher and your shower turns into a trickle." },
+            { body: "The first step is measuring, not guessing. We put a gauge on it and find out what pressure you're actually getting, because \"low pressure\" and \"low flow\" are different problems with different fixes." },
+            { body: "Where the supply pressure genuinely is low, a booster pump is the fix. Where it's fine but erratic, a pressure-regulating valve is usually the answer. Where the pressure is fine and the flow isn't, we're looking at pipe sizing or a partially closed valve somewhere — which is a much cheaper conversation." },
+            { body: "Worth knowing: a pressure-regulating valve is a wear part. If yours is original to a 1997-2005 build, it's had a long life and it's a common cause of pressure that has slowly gotten strange." },
+          ],
+        },
+        {
+          heading: "First-Round Equipment Is Failing Now",
+          intro:
+            "This is the current wave of calls in Royal Oak. The homes are young enough that the plumbing is fine, and old enough that everything mechanical in them is at or past end of life.",
+          items: [
+            { heading: "Hot water tanks", body: "A tank installed with a 1997-2010 build is well past a normal Calgary lifespan — our hard water typically gives you 8-12 years. If yours is original, it's on borrowed time. See [water heater repair](/water-heater-repair-calgary/) for whether it's worth fixing, or [replacement](/hot-water-tank-replacement-calgary/) when it isn't." },
+            { heading: "Furnaces", body: "Same story. A furnace from the original build is 15-28 years old now, which is the window where the repair-or-replace math starts favouring replacement. Our [furnaces](/furnaces/) page covers what actually drives that decision." },
+            { heading: "Pressure-regulating valves and shut-offs", body: "The unglamorous parts nobody replaces until they fail. Original PRVs and main shut-off valves from this era are old enough that we recommend at least testing them — a main shut-off that won't close is a problem you discover at the worst possible moment." },
+            { heading: "The hard-water throughline", body: "Whatever's failing, Calgary's hard water is usually a contributing cause. A [water softener](/water-softener/) is the one upgrade that protects the tank, the furnace's humidifier, the dishwasher, and the fixtures all at once." },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Royal Oak Plumbing FAQs",
+        items: [
+          { q: "Does my Royal Oak home have Poly-B?", a: "Probably not — and that's genuinely good news.\n\nRoyal Oak's homes were built primarily between 1997 and 2010, and polybutylene had been phased out of Canadian construction by around then. Most Royal Oak homes were piped with copper or PEX from the start.\n\nThe caveat is the earliest phases. Development began around 1995, so homes from the first couple of years sit right on the boundary and we don't assume either way — we look.\n\nIf someone is quoting you a [Poly-B repipe](/polyb-plumbing-calgary/) in Royal Oak without having actually identified grey pipe in your house, get a second opinion. We'll inspect for free and tell you what you've really got." },
+          { q: "Why is my water pressure low in Royal Oak?", a: "Royal Oak sits high on Calgary's northwest ridge, and water has to be pumped uphill to reach it. Static pressure up here commonly runs lower than in central Calgary neighbourhoods — so the supply itself is part of the story, not just your house.\n\nBut \"low pressure\" and \"low flow\" are different problems. Weak pressure everywhere, all the time, points at supply. Pressure that's fine until a second tap opens points at flow, sizing, or a failing pressure-regulating valve.\n\nWe measure with a gauge rather than guessing, then tell you which one you have. The fixes are very different — and one of them is a lot cheaper than the other." },
+          { q: "What's a pressure-regulating valve and do I need one?", a: "A PRV sits on your main water line and keeps household pressure in a safe, steady range. Too much pressure damages fixtures and appliances; too little and nothing works properly.\n\nIt's also a wear part. If yours is original to a 1997-2005 Royal Oak build, it's had a long service life, and a tired PRV is a common cause of pressure that has slowly become strange — fine one day, weak the next.\n\nWe test the PRV as part of any pressure diagnosis rather than replacing it on spec." },
+          { q: "My water heater is original to the house. Should I replace it now?", a: "If your Royal Oak home is from the original build and the tank has never been changed, it's well past a normal Calgary lifespan — our hard water typically gives a tank 8-12 years.\n\nIt isn't an emergency until it is. But a tank that fails does it by leaking, usually into a finished basement, and usually without warning. Planning the [replacement](/hot-water-tank-replacement-calgary/) on your schedule costs the same as doing it in a panic and is a great deal less disruptive.\n\nWe'll look at it, tell you honestly how much life is left, and not push you if it has years to go." },
+          { q: "How fast can you get to Royal Oak?", a: "Royal Oak is right off Stoney Trail, which makes the NW ridge communities quick for us to reach. Emergency calls route ahead of scheduled work, and we confirm a window before the truck leaves. Call 587-834-3668 and a real person will pick up." },
+        ],
+      },
+    },
+  },
+
+  {
+    slug: "hidden-valley-plumbers-calgary",
+    category: "Plumbing",
+    location: "Calgary",
+    icon: "plumbing",
+    title: "Hidden Valley Plumbers Calgary | Hanson Ranch & Hidden Creek",
+    lead:
+      "The first house in Hidden Valley went up in 1991, and the community built out through the 90s and into the early 2000s. That's the polybutylene window — so in most of Hidden Valley, the question isn't whether you have Poly-B, it's how much life is left in it.",
+    heroBody: [
+      "Hidden Valley was established in 1990 on what had been north Calgary grazing land, and the build-out ran from 1991 into the early 2000s. That timing puts most of the community squarely in the Poly-B era, and thirty-odd years on, that grey pipe is well into the window where it starts to fail.",
+      "The Hanson Ranch and Hidden Creek enclaves are a different conversation — bigger homes, often with hydronic heating and multi-zone systems that need someone who actually works on boilers rather than someone who'd rather not.",
+      "Our [NW Calgary team](/calgary-plumbers-nw/) covers Hidden Valley, Hanson Ranch, Hidden Creek, and neighbouring [Panorama Hills](/panorama-hills-plumbers-calgary/) and [Evanston](/evanston-plumbers-calgary/). Call 587-834-3668.",
+    ],
+    heroSubhead: "Poly-B Country — and Boilers in the Ranch",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing service van in Hidden Valley, NW Calgary", fit: "cover" },
+    intro:
+      "Plumbers serving Hidden Valley, Hanson Ranch, and Hidden Creek in NW Calgary. Free Poly-B inspection, boiler and hydronic service, water heaters, priority emergency dispatch. Call 587-834-3668.",
+    features: [
+      "Poly-B replacement (90s builds)",
+      "Free Poly-B inspection",
+      "Boiler + hydronic service",
+      "Water heater replacement",
+      "Leak detection",
+      "Priority emergency dispatch",
+    ],
+    bullets: [
+      {
+        t: "Most of Hidden Valley is Poly-B",
+        d: "The community built out from 1991 into the early 2000s — the heart of the polybutylene era. We inspect for free and give you a straight answer on whether you're repiping now or planning for it.",
+      },
+      {
+        t: "Hanson Ranch and Hidden Creek need a boiler crew",
+        d: "The luxury enclaves on the old Bell L ranch land often run hydronic and in-floor radiant. Jason's side of the business is hydronics — multi-zone systems are what he does, not what he avoids.",
+      },
+    ],
+    seoTitle: "Hidden Valley Plumbers Calgary | Hanson Ranch | FlameTech",
+    seoDescription:
+      "Plumbers serving Hidden Valley NW Calgary, including Hanson Ranch and Hidden Creek. Free Poly-B inspection, boiler and hydronic service. Call 587-834-3668.",
+    seoKeywords: [
+      "Hidden Valley plumbers",
+      "plumber Hidden Valley Calgary",
+      "Hanson Ranch plumber",
+      "Hidden Creek plumber",
+      "Hidden Valley Poly-B",
+      "NW Calgary plumber",
+      "FlameTech Plumbing",
+    ],
+    quoteFormLabel: "Hidden Valley plumbing",
+    quoteFormPlaceholder:
+      "e.g. Poly-B leak, boiler not heating in Hanson Ranch, water heater failing, in-floor radiant zone cold…",
+    sidebar: {
+      title: "Hidden Valley Plumbers",
+      subtitle:
+        "Hidden Valley, Hanson Ranch, and Hidden Creek. Poly-B specialists, and a real hydronics crew for the ranch enclaves.",
+      bullets: [
+        "Free Poly-B inspection",
+        "Boiler + in-floor radiant",
+        "Water heater replacement",
+        "Real dispatcher answers the phone",
+      ],
+    },
+    stats: [
+      { number: "25+", label: "Years in Calgary", icon: "verified" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "FREE", label: "Written estimates", icon: "request_quote" },
+      { number: "Licensed", label: "& insured", icon: "award" },
+    ],
+    callout:
+      "Poly-B leak or a boiler down in Hidden Valley? Call 587-834-3668 — priority dispatch, real person on the phone.",
+    richContent: {
+      sections: [
+        {
+          heading: "Hidden Valley Is Poly-B Country",
+          intro:
+            "Hidden Valley was established in 1990, the first house went up in 1991, and the community built out through the decade and into the early 2000s. Polybutylene was the standard supply pipe for most of that window, which makes this the defining plumbing fact about the neighbourhood.",
+          items: [
+            {
+              heading: "What Poly-B actually is",
+              body: "Grey plastic supply pipe, usually with copper or brass crimp fittings, installed across Canada from the mid-80s until the late 90s. It degrades from the inside out, which is the problem — the pipe looks fine right up until it doesn't, and the first symptom is often water coming through a ceiling.",
+            },
+            {
+              heading: "Thirty years in, it's in the failure window",
+              body: "Poly-B installed when Hidden Valley was built is now past the age where failures start clustering. That doesn't mean yours fails tomorrow. It means the risk is no longer theoretical, and it's worth knowing what you have rather than finding out the hard way.",
+            },
+            {
+              heading: "We inspect for free and we don't oversell it",
+              body: "We'll come and look, identify what's actually in your walls, and tell you honestly whether you're looking at a [repipe](/polyb-plumbing-calgary/) now or whether you've got runway to plan for it. Not every Poly-B house needs to be repiped this year, and we're not going to pretend otherwise.",
+            },
+            {
+              heading: "How to check it yourself first",
+              body: "Look at the pipe coming out of your hot water tank, or the shut-off valve under a bathroom sink. Grey plastic pipe with a crimped metal ring at the fitting is Poly-B. Copper is copper. White or coloured flexible plastic is usually PEX, which is fine.",
+            },
+          ],
+        },
+        {
+          heading: "Hanson Ranch and Hidden Creek",
+          intro:
+            "The enclaves built on the old Bell L ranch land are a different kind of house, and they need a different kind of service call. Bigger homes, more complex mechanical rooms, and a real chance you're running hydronic heat rather than forced air.",
+          items: [
+            { body: "Hydronic and in-floor radiant systems are common in these homes. They're quieter and more comfortable than forced air, and they're also the kind of system a general plumber would rather not touch." },
+            { body: "Jason has spent twenty years on hydronics. Multi-zone systems, zone valves, circulator pumps, and in-floor loops are the work he actually specialises in. See our [boiler service](/boiler-service-calgary/) and [boiler repair](/boiler-repair-calgary/) pages." },
+            { body: "One cold zone while the rest of the house is fine is the classic call. It's usually a stuck zone valve or a failed circulator — diagnosable in one visit, and not a reason to panic about the boiler." },
+            { body: "Larger homes also mean larger hot-water demand. If you're running out of hot water in a big house, the fix might be a [properly sized tank](/hot-water-tanks/), an indirect tank tied into the boiler, or a [combi](/combi-boiler-installation-calgary/) — and which one depends on how much you draw at once." },
+            { body: "Calgary's hard water is hard on hydronic systems too. A [water softener](/water-softener/) upstream protects the boiler's heat exchanger the same way it protects a hot water tank." },
+          ],
+        },
+        {
+          heading: "What Else We See in Hidden Valley",
+          items: [
+            { heading: "Second-round equipment failing", body: "The furnaces and hot water tanks that came with these houses were replaced years ago. What's failing now is the *replacement* equipment reaching its own end of life. See [water heater repair](/water-heater-repair-calgary/) and [furnaces](/furnaces/)." },
+            { heading: "North Calgary cold-snap calls", body: "Hidden Valley is exposed north Calgary, and high-efficiency furnaces here lock out when condensate lines routed through unheated space freeze in deep cold. The permanent fix is rerouting through heated space with heat trace where an outdoor exit is unavoidable. See [no heat issues](/no-heat-issues-calgary/)." },
+            { heading: "Frozen pipes in exterior walls", body: "Thirty-year-old builds with supply lines run through north-facing exterior walls. The fix is thawing safely, replacing what burst, and insulating properly so it doesn't repeat every February." },
+            { heading: "Mature-tree sewer roots", body: "Trees planted when Hidden Valley went in are well established now, and their roots find sewer laterals. Gurgling drains and recurring backups are the tell. We camera the line before anyone starts cutting. See [drain cleaning](/drain-cleaning-calgary/)." },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Hidden Valley Plumbing FAQs",
+        items: [
+          { q: "Does my Hidden Valley home have Poly-B?", a: "There's a good chance it does. Hidden Valley was established in 1990, the first home went up in 1991, and the community built out through the 90s — which is the heart of the polybutylene era in Canadian construction.\n\nYou can check yourself in about a minute. Look at the pipe coming out of your hot water tank or the shut-off under a bathroom sink. Poly-B is grey plastic pipe, usually with a crimped copper or brass ring at the fitting. Copper is obviously copper. White or coloured flexible plastic is PEX, which is fine.\n\nIf you find grey pipe, book a free inspection. Our [Poly-B replacement](/polyb-plumbing-calgary/) page explains what a repipe actually involves." },
+          { q: "My Poly-B hasn't leaked. Do I have to repipe now?", a: "Not necessarily, and we won't tell you otherwise to sell a job.\n\nHere's the honest position. Poly-B fails from the inside out, so \"it hasn't leaked yet\" isn't the reassurance it sounds like — the deterioration is invisible. But plenty of Hidden Valley homes are still running on their original Poly-B without incident.\n\nWhat we'd say is this: at thirty-plus years, you're in the window where failures cluster, and a failure means water in your walls or ceiling rather than a polite drip. Knowing what you have lets you plan the repipe on your terms instead of on a Sunday night. We'll inspect, tell you what we see, and let you decide." },
+          { q: "Do you work on boilers and in-floor heating in Hanson Ranch?", a: "Yes — that's Jason's specialty rather than an afterthought. He's spent twenty years on hydronics.\n\nThe homes in Hanson Ranch and Hidden Creek often run hydronic or in-floor radiant heat, and those systems need someone who genuinely knows zone valves, circulator pumps, and multi-zone controls. A lot of general plumbers would rather not touch them.\n\nThe most common call is one cold zone while the rest of the house is fine — usually a stuck zone valve or a failed circulator pump, and usually fixable in a single visit. See [boiler repair](/boiler-repair-calgary/)." },
+          { q: "Why does my furnace lock out in a cold snap?", a: "If it's a high-efficiency furnace, it's very likely a frozen condensate line. Condensing furnaces produce acidic water as a by-product, and that water has to drain somewhere. When the line runs through an unheated part of the house — or exits outdoors — it can freeze solid in deep cold, the furnace detects the blockage, and it shuts itself down as a safety.\n\nIt's a common north Calgary call and Hidden Valley gets its share. Thawing it gets your heat back. The permanent fix is rerouting the line through heated space, with heat trace where an outdoor exit can't be avoided. See [no heat issues](/no-heat-issues-calgary/)." },
+          { q: "How fast can you get to Hidden Valley?", a: "Hidden Valley sits right by Beddington and Stoney Trail, so access is straightforward. Emergency calls get routed ahead of scheduled work, and we confirm a window before the truck rolls rather than handing you a four-hour window. Call 587-834-3668 — a real person answers." },
         ],
       },
     },
