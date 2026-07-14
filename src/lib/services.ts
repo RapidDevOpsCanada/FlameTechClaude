@@ -6258,6 +6258,10 @@ export const services: ServicePage[] = [
         heading: "Calgary Water Heater Repair FAQs",
         items: [
           {
+            q: "Did you mean your water heater, or your hot water heating system?",
+            a: "Worth checking, because the names are almost identical and the appliances are not.\n\nThis page is about your **water heater** — the tank (or tankless unit) that heats the water coming out of your taps and showers.\n\nA **hot water heating system** is something else: a boiler that heats your house by circulating hot water through radiators, baseboards, or in-floor loops. If your house has radiators or warm floors and the problem is that your home is cold rather than your shower, you want [boilers and hot water heating](/boilers/) instead.\n\nWe do both, so you've called the right people either way.",
+          },
+          {
             q: "How much does water heater repair cost in Calgary?",
             a: "It depends entirely on what failed. A thermocouple or an anode rod is among the cheapest work we do. A heating element or a thermostat is a step up. A gas control valve on a larger unit is a serious part and costs accordingly, and a tankless descale is its own job again.\n\nWe diagnose first and quote before we touch anything, so you decide with the real number in front of you rather than a guess over the phone.\n\nAnd if the repair doesn't make sense — if the tank is finished, or you'd be spending a large fraction of a new unit's price on an old one — we'll tell you that instead of quietly doing the work.",
           },
@@ -16729,9 +16733,9 @@ export const services: ServicePage[] = [
     slug: "boilers",
     category: "Heating",
     icon: "local_fire_department",
-    title: "Calgary Boilers — Expert Installation, Repair & Service",
+    title: "Calgary Boilers & Hot Water Heating Systems — Install, Repair & Service",
     lead:
-      "When the Calgary chill sets in, a reliable and efficient boiler is essential for keeping your home or business comfortable. FlameTech handles the full lifecycle: [boiler installation](/boiler-installation-calgary/), [boiler repair](/boiler-repair-calgary/), and [annual boiler service](/boiler-service-calgary/) — one team, one number, every part of the job.",
+      "A hot water heating system — a boiler pushing heated water through radiators, baseboards, or in-floor loops — is the quietest, most even heat you can put in a Calgary house. FlameTech handles the full lifecycle: [boiler installation](/boiler-installation-calgary/), [boiler repair](/boiler-repair-calgary/), and [annual boiler service](/boiler-service-calgary/) — one team, one number, every part of the job.",
     heroBody: [
       "Whether you're upgrading an aging cast iron boiler in a Mount Royal heritage home or specifying a new condensing system for a Cranston build, we handle every part of the job — heat-loss calc, gas + venting + condensate, install, commissioning, and warranty registration.",
       "Locally owned and operated. Alberta-licensed gas fitters and Red Seal plumbers on every job. We install [Navien](https://www.navieninc.com/), [IBC](https://ibcboiler.com/), [Viessmann](https://www.viessmann.ca/), and [Triangle Tube](https://triangletube.com/) — registered with manufacturer warranties. Also serving [boilers in Airdrie](/boilers-airdrie/) and [boiler installation Airdrie](/boiler-installation-airdrie/).",
@@ -16759,10 +16763,13 @@ export const services: ServicePage[] = [
         d: "Manufacturer training on Navien, IBC, Viessmann, Triangle Tube, Crown, and Weil-McLain — we install what we know.",
       },
     ],
-    seoTitle: "Calgary Boilers | Installation, Repair & Service | FlameTech",
+    seoTitle: "Calgary Boilers & Hot Water Heating Systems | FlameTech",
     seoDescription:
-      "Expert Calgary boiler installation, repair, and annual service. High-efficiency Navien, IBC, Viessmann, Triangle Tube. Priority emergency response. Free quotes.",
+      "Hot water heating systems in Calgary — boiler installation, repair, and annual service. Hydronic, in-floor radiant, condensing and combi. Call 587-834-3668.",
     seoKeywords: [
+      "hot water heating system Calgary",
+      "hot water heating Calgary",
+      "hydronic heating Calgary",
       "Calgary boilers",
       "boiler install Calgary",
       "boiler repair Calgary",
@@ -16798,6 +16805,29 @@ export const services: ServicePage[] = [
       "Boiler down in a cold snap, kettling, or losing pressure? Call 587-834-3668 — priority dispatch with parts on the truck.",
     richContent: {
       sections: [
+        {
+          heading: "What Is a Hot Water Heating System?",
+          intro:
+            "It's the trade name for hydronic heating: a boiler heats water, a pump pushes it through pipes to radiators, baseboards, or in-floor loops, and the water gives up its heat to the rooms before circulating back. It heats your house — as opposed to a furnace, which heats air and blows it through ducts.\n\nThe reason it's worth knowing the term is that a lot of people searching for it actually mean something else entirely. So before you read further, it's worth being sure which system you've got.",
+          items: [
+            {
+              heading: "You want this page if you heat your home with water",
+              body: "Radiators under the windows, baseboard heaters along the walls, or warm floors underfoot — and a boiler in the mechanical room rather than a furnace. That's a hot water heating system, and everything below applies to you.",
+            },
+            {
+              heading: "You want a different page if you mean your hot water heater",
+              body: "If what you actually care about is the hot water coming out of your taps and showers — the tank in the basement, or the unit that's stopped giving you hot water — that's a domestic water heater, not a heating system. Start at [hot water tanks](/hot-water-tanks/) or [water heater repair](/water-heater-repair-calgary/) instead. Same company, same phone number, completely different appliance.",
+            },
+            {
+              heading: "A combi does both, which is where the confusion comes from",
+              body: "A [combi boiler](/combi-boiler-installation-calgary/) heats your home *and* makes your domestic hot water from one unit — so in a house with a combi, the hot water heating system and the hot water heater genuinely are the same appliance. That's exactly why the terms get tangled.",
+            },
+            {
+              heading: "Why anyone chooses hot water heat",
+              body: "It's quiet — no blower kicking on and off. It's even, because a hot radiator or a warm floor keeps giving off heat instead of swinging between blasts of hot air. It doesn't blow dust around. And it pairs naturally with in-floor radiant, which is the most comfortable heat there is. The trade-off is that it can't share ductwork with air conditioning, because there's no ductwork.",
+            },
+          ],
+        },
         {
           heading: "Why Choose FlameTech for Calgary Boilers",
           intro:
@@ -16840,8 +16870,11 @@ export const services: ServicePage[] = [
         },
       ],
       faq: {
-        heading: "Frequently Asked Questions About Calgary Boilers",
+        heading: "Calgary Hot Water Heating & Boiler FAQs",
         items: [
+          { q: "What is a hot water heating system?", a: "It's hydronic heating — a boiler heats water, a circulator pump moves it through pipes to radiators, baseboards, or in-floor loops, and the water releases its heat into your rooms before returning to the boiler to be reheated.\n\nThe distinction that matters: a hot water heating system heats your **house**. A hot water **heater** heats the water for your taps and showers. Different appliances, different jobs — and the names are close enough that people mix them up constantly.\n\nIf you're here about the water from your taps rather than the temperature of your house, you want [hot water tanks](/hot-water-tanks/) or [water heater repair](/water-heater-repair-calgary/)." },
+          { q: "Is a hot water heating system the same as a hot water heater?", a: "No, and it's the single most common mix-up we field on the phone.\n\nA **hot water heating system** (a boiler) heats your home. A **hot water heater** (a tank, or a tankless unit) heats the water you shower in. A house can have one, the other, or both.\n\nThe exception that muddies it: a [combi boiler](/combi-boiler-installation-calgary/) does both jobs from a single appliance. If you have a combi, then yes — your heating system and your water heater are the same box on the wall.\n\nWe do all of it, so either way you're in the right place. It just changes which page is useful to you." },
+          { q: "Is hot water heat better than a furnace in Calgary?", a: "Better at some things, worse at others — and it's mostly not a choice, because it depends what your house is already plumbed for.\n\nHot water heat is quieter (no blower cycling), more even (a warm radiator or floor keeps radiating instead of blasting hot air and stopping), and it doesn't push dust around the house. In-floor radiant in particular is the most comfortable heat available.\n\nA [furnace](/furnaces/) is cheaper to install, and it shares ductwork with air conditioning — which a boiler can't, because there's no ductwork to share.\n\nMost Calgary homes built before the 1990s with radiators or baseboards already have hot water heat, and are generally better off staying on it than converting. Converting from forced air to hydronic is a major renovation-scale project, not an upgrade." },
           { q: "How much does a new boiler cost in Calgary?", a: "It depends on the unit size, the efficiency rating, and any gas line, venting, or condensate work your mechanical room needs. [Combi boilers](/combi-boiler-installation-calgary/) and hydronic conversions sit at the higher end.\n\nWe don't quote boilers over the phone, because a number given sight-unseen is a number that changes on install day. We come out, run the heat-loss calc, and give you a written quote with all-in pricing before any work starts. Financing is available through Financeit with flexible monthly payments." },
           { q: "What size boiler do I need for my Calgary home?", a: "Sizing depends on square footage, insulation quality, window quality, ceiling heights, and Calgary's −35°C design temperature. We perform a Manual J heat-loss calculation on every install instead of matching the old unit's BTU — old units were often oversized and cost you in efficiency for decades." },
           { q: "How do I know if my boiler needs repair?", a: "Watch for kettling, whistling, or gurgling noises (limescale + air), pressure dropping below 12 PSI, visible water seepage near components, inconsistent room-to-room heating, frequent cycling, climbing gas bills, or display error codes. Yellow burner flames instead of blue indicate dangerous combustion issues — shut the unit down and call us." },
