@@ -13941,7 +13941,7 @@ export const services: ServicePage[] = [
       "FlameTech has been the go-to plumbing team for Huntington Hills homeowners since this northwest Calgary community was established. Whether you're dealing with a burst pipe in one of the older bungalows or need [hot water tank replacement](/hot-water-tanks/) in a newer two-story, we know exactly what plumbing challenges this area throws at you.",
     heroBody: [
       "Plumbing emergencies don't wait for business hours, and neither do we. Our Calgary-based team offers priority dispatch to handle everything from flooded basements to frozen pipes across Huntington Hills.",
-      "From Huntington Green to Huntington Village, our [NW Calgary plumbers](/calgary-plumbers-nw/) have been fixing pipes in this community for over two decades.",
+      "From Huntington Green to Huntington Village, our [NW Calgary plumbers](/calgary-plumbers-nw/) have been fixing pipes in this community for over two decades. Huntington Hills straddles the NW/NE line, so we cover it off both our [NW](/calgary-plumbers-nw/) and [NE Calgary](/calgary-plumbers-ne/) routes.",
     ],
     heroSubhead: "Trusted Huntington Hills Plumbing Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
