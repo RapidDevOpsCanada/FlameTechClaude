@@ -4855,7 +4855,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "Do you install garage heaters outside Calgary?",
-            a: "Yes — we dispatch to [Airdrie](/garage-heaters-airdrie/), [Cochrane](/cochrane-plumbers/), [Chestermere](/chestermere-plumbers/), [Okotoks](/okotoks-plumbers/), and surrounding communities. Same crew, same install standards, same warranty support. No \"out of service area\" surcharge for these communities.",
+            a: "Yes — we dispatch to [Airdrie](/garage-heaters-airdrie/), [Cochrane](/cochrane-plumbers/), [Chestermere](/chestermere-plumbers/), [Okotoks](/okotoks-plumbers/), [Carstairs](/carstairs-plumbers/), [Bearspaw](/bearspaw-plumbers/), and surrounding communities. Same crew, same install standards, same warranty support. No \"out of service area\" surcharge for these communities.",
           },
         ],
       },
@@ -5267,7 +5267,7 @@ export const services: ServicePage[] = [
         {
           heading: "AC vs heat pump — the conversation worth having",
           intro:
-            "If you're installing AC for the first time OR replacing an aging unit, the heat-pump-instead alternative deserves a real comparison. Here's how the math actually works out for most Calgary homes.",
+            "If you're installing AC for the first time OR replacing an aging unit, the heat-pump-instead alternative deserves a real comparison. Here's how the math actually works out for most Calgary homes. North of the city? See [air conditioning in Airdrie](/air-conditioning-airdrie/).",
           items: [
             {
               heading: "Same outdoor unit, same install footprint",
@@ -7755,7 +7755,7 @@ export const services: ServicePage[] = [
       "When plumbing problems strike your Airdrie home or business, you need reliable professionals who respond quickly and get the job done right. FlameTech Plumbing delivers exceptional plumbing services throughout Airdrie and surrounding areas, combining technical expertise with honest, transparent service.",
     heroBody: [
       "As a locally-operated plumbing company serving Airdrie, we understand the unique challenges Alberta's climate and infrastructure present — frozen pipes during cold snaps, [hot water tank](/hot-water-tanks-airdrie/) failures, [emergency leaks](/emergency-plumber-calgary/), and aging [Poly-B piping](/polyb-plumbing-calgary/) on 80s-90s builds in Ravenswood, Reunion, and Coopers Crossing.",
-      "We also cover heating: [furnace repair](/airdrie-furnace-repairs/), [boiler installation](/boiler-installation-airdrie/), [boilers](/boilers-airdrie/), [heat pumps](/heat-pumps-airdrie/), and [water softeners](/water-softener-airdrie/) for hard-water homes. Call 587-834-3668 for fast, reliable plumbing or heating service in Airdrie.",
+      "We also cover heating and cooling: [furnace repair](/airdrie-furnace-repairs/), [boiler installation](/boiler-installation-airdrie/), [boilers](/boilers-airdrie/), [heat pumps](/heat-pumps-airdrie/), [air conditioning](/air-conditioning-airdrie/), and [water softeners](/water-softener-airdrie/) for hard-water homes. Call 587-834-3668 for fast, reliable plumbing or heating service in Airdrie.",
     ],
     heroSubhead: "Trusted Airdrie Plumbing Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
@@ -8445,7 +8445,7 @@ export const services: ServicePage[] = [
     heroBody: [
       "Airdrie sits north of Calgary on open prairie — same −35°C design temperature, but windier, more exposed, and harsher in practice than Calgary in mid-winter. That changes the heat pump conversation: a standard air-source heat pump that works fine in Vancouver underperforms here below −10°C. The right setup for Airdrie is either (a) a cold-climate heat pump rated to maintain capacity to −25°C, or (b) a hybrid dual-fuel setup where the heat pump handles 80% of the heating season and a gas furnace takes over below the economical balance point.",
       "We install cold-climate air-source heat pumps (ducted central + ductless mini-split), and pair with existing or new gas furnaces for hybrid backup. Geothermal is technically an option for Airdrie's larger acreage lots on the east + south edge but rarely makes economic sense vs. CCHP today. Same crew that handles [heat pumps in Calgary](/heat-pumps-calgary/), [furnace repair in Airdrie](/airdrie-furnace-repairs/), [boilers in Airdrie](/boilers-airdrie/), and [plumbing in Airdrie](/airdrie-plumbers/).",
-      "Free in-home assessment — we check your electrical panel capacity, existing ductwork, gas line size, outdoor unit placement options, and walk through the rebate landscape. Call 587-834-3668. [Monthly financing](/financing/) available for full systems.",
+      "Free in-home assessment — we check your electrical panel capacity, existing ductwork, gas line size, outdoor unit placement options, and walk through the rebate landscape. Weighing cooling options? See [air conditioning in Airdrie](/air-conditioning-airdrie/). Call 587-834-3668. [Monthly financing](/financing/) available for full systems.",
     ],
     heroSubhead: "Cold-Climate Heat Pump Specialists",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
@@ -17455,7 +17455,7 @@ export const services: ServicePage[] = [
             "Our mobile service fleet brings trained expertise directly to homes in all four Calgary quadrants plus Airdrie, Chestermere, Okotoks, and Cochrane. Whether you need emergency furnace repair during a January cold snap, scheduled maintenance before winter, or consultation on a replacement, FlameTech's AirEase specialists deliver prompt, professional service backed by manufacturer support.",
           items: [
             { body: "Calgary NE · NW · SE · SW — every quadrant covered with same-day priority dispatch." },
-            { body: "Airdrie, Chestermere, Cochrane, and Okotoks — service trucks dispatched daily." },
+            { body: "[Airdrie](/airdrie-plumbers/), [Chestermere](/chestermere-plumbers/), [Cochrane](/cochrane-plumbers/), [Okotoks](/okotoks-plumbers/), [Carstairs](/carstairs-plumbers/), and [Bearspaw](/bearspaw-plumbers/) — service trucks dispatched daily." },
             { body: "AirEase parts and warranty support direct from the manufacturer through our Pro Team membership." },
           ],
         },
@@ -17576,7 +17576,7 @@ export const services: ServicePage[] = [
           { q: "Is plumbing in Chestermere different from Calgary?", a: "Yes in ways that matter. The water table near the lake is higher (more sump-pump dependence), the lakefront properties have shoreline irrigation and dock plumbing that needs proper winterization, and the older lake-area builds from the 80s-90s often have Poly-B — same pattern as Mahogany or McKenzie Lake. Newer Kinniburgh and Rainbow Falls builds are modern PEX with no Poly-B issue." },
           { q: "Do you install sump pumps for lakefront homes?", a: "Yes — primary pumps, battery-backup secondary pumps, and high-water alarms. Lakefront and lake-view properties run their sumps significantly more than typical Calgary basements, so we recommend cast-iron-impeller pumps rated for higher cycle counts plus a battery backup that gets you through a power outage." },
           { q: "Can you winterize lakefront irrigation and dock plumbing?", a: "Yes. Lakefront homes typically have a separate shoreline shutoff and dedicated hose-bib runs we need to blow out before freeze-up. We know what to look for and where the valves live — standard Calgary winterization checklists miss these." },
-          { q: "Are FlameTech plumbers licensed for Chestermere?", a: "Yes. Our Alberta plumbing and gas-fitting licenses cover Chestermere, Cochrane, Okotoks, Carstairs, and the rest of Calgary's surrounding municipalities." },
+          { q: "Are FlameTech plumbers licensed for Chestermere?", a: "Yes. Our Alberta plumbing and gas-fitting licenses cover Chestermere, [Cochrane](/cochrane-plumbers/), [Okotoks](/okotoks-plumbers/), [Carstairs](/carstairs-plumbers/), and the rest of Calgary's surrounding municipalities." },
         ],
       },
     },
@@ -17775,7 +17775,7 @@ export const services: ServicePage[] = [
     icon: "plumbing",
     title: "Cochrane Plumbers | Plumbing & Heating Service",
     lead:
-      "Cochrane homes face Calgary's freeze-thaw cycles plus the added wear of well water in some acreage areas. FlameTech serves Cochrane with the same priority dispatch and Red Seal team we run in Calgary — proper sizing for the local conditions, no upselling.",
+      "Cochrane homes face Calgary's freeze-thaw cycles plus the added wear of well water in some acreage areas — the same acreage well-water work we do in neighbouring [Bearspaw](/bearspaw-plumbers/). FlameTech serves Cochrane with the same priority dispatch and Red Seal team we run in Calgary — proper sizing for the local conditions, no upselling.",
     heroBody: [
       "From Riverview and Sunset Ridge to GlenEagles and Heartland, we cover Cochrane for [emergency plumbing](/emergency-plumber-calgary/), [hot water tanks](/hot-water-tanks/), [boiler service](/boiler-service-calgary/), [furnace repair](/furnaces/), and [water softener install](/water-softener/) for well-fed properties.",
       "Trucks dispatched NW on Highway 1A — call 587-834-3668 for priority service.",
@@ -17876,7 +17876,7 @@ export const services: ServicePage[] = [
     icon: "plumbing",
     title: "Okotoks Plumbers | Plumbing & Heating Service",
     lead:
-      "Okotoks homes share Calgary's hard water and chinook stress — plus a substantial stock of 90s-era builds with Poly-B piping reaching end-of-life. FlameTech runs the same Red Seal team in Okotoks as in Calgary, with priority dispatch from the south.",
+      "Okotoks homes share Calgary's hard water and chinook stress — plus a substantial stock of 90s-era builds with Poly-B piping reaching end-of-life, the same profile we see up the QEII in [Carstairs](/carstairs-plumbers/). FlameTech runs the same Red Seal team in Okotoks as in Calgary, with priority dispatch from the south.",
     heroBody: [
       "From Drake Landing and Cimarron to Air Ranch and downtown Okotoks, we cover the full town for [emergency plumbing](/emergency-plumber-calgary/), [hot water tank](/hot-water-tanks/) work, [boiler service](/boiler-service-calgary/), [furnace repair](/furnaces/), and [Poly-B replacement](/polyb-plumbing-calgary/).",
       "Trucks dispatched south on Highway 2 — call 587-834-3668 for fast service.",
