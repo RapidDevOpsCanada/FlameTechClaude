@@ -190,7 +190,7 @@ export const services: ServicePage[] = [
     lead:
       "Calgary's hard water and extreme temperature swings wreak havoc on bathroom plumbing — we see it every day. FlameTech's bathroom plumbing specialists handle everything from emergency burst pipes in older [Mount Royal](/mount-royal-plumbers-calgary/) homes to complete bathroom renovations in new [Evergreen](/evergreen-plumbers-calgary/) developments.",
     heroBody: [
-      "When your toilet won't stop running at 3 AM or your shower suddenly turns ice cold, we answer the phone — not a voicemail system. Our Calgary crews are equipped to handle any bathroom plumbing emergency with priority dispatch, day or night.",
+      "When your toilet won't stop running or your shower suddenly turns ice cold, we answer the phone — not a voicemail system. Our Calgary crews are equipped to handle any bathroom plumbing emergency with priority same-day dispatch.",
       "From emergency calls in established neighbourhoods to full renovations in new builds, our Calgary plumbing specialists have seen every bathroom configuration this city has to offer. Specific bathroom calls we get a lot: [blocked toilet diagnosis + clearing](/blocked-toilet-calgary/), [toilet installation](/toilet-installation-calgary/), and [shower plumbing](/shower-plumbing-calgary/).",
     ],
     heroSubhead: "Trusted Calgary Bathroom Plumbing Experts",
@@ -521,7 +521,7 @@ export const services: ServicePage[] = [
         d: "Bought a toilet from Home Depot or Costco? We'll install it — labour-only quote available. Or we'll source it for you — we work with Toto, Kohler, American Standard, and have install experience with every common Big Box brand.",
       },
     ],
-    seoTitle: "Toilet Installation Calgary | Standard, Comfort-Height, Wall-Hung",
+    seoTitle: "Toilet Installation Calgary | Standard & Wall-Hung",
     seoDescription:
       "Calgary toilet installation. Standard, comfort-height, wall-hung Toto/Geberit. Flange + supply line + shutoff included. Owner-supplied OK. Call 587-834-3668.",
     seoKeywords: [
@@ -701,9 +701,9 @@ export const services: ServicePage[] = [
         d: "Most blocked toilets are genuinely one-time events — too much paper, an object dropped in, kids being kids. We tell you when it's that vs. when it's a symptom of something bigger. No upsell pressure.",
       },
     ],
-    seoTitle: "Blocked Toilet Calgary | Clearing, Camera Diagnosis, Root Cause",
+    seoTitle: "Blocked Toilet Calgary | Clearing & Camera Diagnosis",
     seoDescription:
-      "Calgary blocked toilet clearing + sewer camera. Same-day for active blockages, root-cause diagnosis on recurring issues, hydro-jet, root intrusion in clay laterals. Call 587-834-3668.",
+      "Calgary blocked toilet clearing + sewer camera. Same-day for active blockages, root-cause diagnosis on recurring issues, hydro-jet. Call 587-834-3668.",
     seoKeywords: [
       "blocked toilet Calgary",
       "clogged toilet Calgary",
@@ -1026,7 +1026,7 @@ export const services: ServicePage[] = [
     lead:
       "When disaster strikes, you need emergency plumbers in Calgary who respond immediately. At FlameTech, we provide rapid emergency plumbing services to protect your home from water damage and restore your comfort quickly.",
     heroBody: [
-      "Our emergency plumbers in Calgary are on call around the clock, ready to tackle urgent plumbing crises that can't wait until morning. From burst pipes during Calgary's harsh winters to [leaking water heaters](/leaking-water-heater-calgary/), [no-hot-water calls](/no-hot-water-calgary/), and [hot water tank](/hot-water-tanks/) failures, our certified technicians arrive equipped to handle any emergency.",
+      "Our emergency plumbers in Calgary offer priority same-day dispatch for urgent plumbing crises that can't wait. A real person answers the phone — no call centre, no automated menu. From burst pipes during Calgary's harsh winters to [leaking water heaters](/leaking-water-heater-calgary/), [no-hot-water calls](/no-hot-water-calgary/), and [hot water tank](/hot-water-tanks/) failures, our certified technicians arrive equipped to handle any emergency.",
       "Aging [Poly-B piping](/polyb-plumbing-calgary/) is a common culprit for sudden failures in 80s-90s Calgary builds — we carry replacement parts on every truck. Same for [drain backups](/drain-cleaning-calgary/) and frozen-pipe thaws.",
       "When you call us, you're getting immediate help from a real dispatcher — priority dispatch, fair pricing, and real people who answer the phone. We cover Calgary plus [Airdrie](/airdrie-plumbers/), [Chestermere](/chestermere-plumbers/), [Cochrane](/cochrane-plumbers/), and [Okotoks](/okotoks-plumbers/).",
     ],
@@ -1091,7 +1091,7 @@ export const services: ServicePage[] = [
         {
           heading: "Why Choose FlameTech for Emergency Plumbing in Calgary?",
           intro:
-            "Plumbing emergencies don't keep business hours, and neither do we. As Calgary's most reliable emergency plumbers, FlameTech is your lifeline when disaster strikes.\n\nWe understand that plumbing emergencies cause stress, property damage, and disruption to your daily life. That's why we guarantee rapid response times throughout Calgary and surrounding communities. Our certified emergency plumbers arrive fully equipped with professional tools and genuine parts to solve your crisis efficiently — day or night, weekends and holidays included.\n\nFlameTech specialises in emergency plumbing that protects Calgary homes from catastrophic water damage. Common urgent calls include burst pipes, severe leaks, sewer backups, and [hot water tank](/hot-water-tanks/) failures. If a [Poly-B fitting](/polyb-plumbing-calgary/) has let go, we handle that too — and document for your insurer.",
+            "When a plumbing emergency strikes, FlameTech responds fast — a real person answers the phone, and we route emergency calls ahead of scheduled work.\n\nPlumbing emergencies cause stress, property damage, and disruption to your day, so we move quickly, with priority same-day dispatch throughout Calgary and surrounding communities. Our certified emergency plumbers arrive fully equipped with professional tools and genuine parts to solve your crisis efficiently.\n\nFlameTech specialises in emergency plumbing that protects Calgary homes from catastrophic water damage. Common urgent calls include burst pipes, severe leaks, sewer backups, and [hot water tank](/hot-water-tanks/) failures. If a [Poly-B fitting](/polyb-plumbing-calgary/) has let go, we handle that too — and document for your insurer.",
           items: [
             { heading: "Rapid Response Times", body: "Strategically positioned service vehicles throughout the Calgary region mean our emergency plumbers arrive fast, minimizing water damage and limiting repair costs." },
             { heading: "Certified Technicians", body: "Every emergency plumber on our Calgary team is fully licensed, bonded, and insured — meeting all Alberta plumbing codes with the training to handle any crisis safely." },
@@ -1346,7 +1346,7 @@ export const services: ServicePage[] = [
     ],
     seoTitle: "Plumbing Repairs Calgary | Leaks, Pipes, Fixtures, Drains",
     seoDescription:
-      "Calgary plumbing repairs by Red Seal plumbers. Leaks, pipe replacement, shutoffs, drain backups, toilet + fixture work, heritage galvanized. Priority dispatch. Call 587-834-3668.",
+      "Calgary plumbing repairs by Red Seal plumbers. Leaks, pipe replacement, shutoffs, drain backups, fixture work. Priority dispatch. Call 587-834-3668.",
     seoKeywords: [
       "plumbing repairs Calgary",
       "Calgary plumber repair",
@@ -1563,7 +1563,7 @@ export const services: ServicePage[] = [
         d: "Sump pumps handle groundwater; backwater valves handle municipal sewer backup. Many SE Calgary properties (post-2013 retrofit zone) benefit from both — we install and inspect both during the same visit.",
       },
     ],
-    seoTitle: "Sump Pump Installation Calgary | Battery Backup + Backwater Valve",
+    seoTitle: "Sump Pump Installation Calgary | Battery Backup",
     seoDescription:
       "Calgary sump pump install + replacement. Cast-iron primaries, battery-backup secondaries, backwater valves. Free in-home assessment. Call 587-834-3668.",
     seoKeywords: [
@@ -1761,7 +1761,7 @@ export const services: ServicePage[] = [
     ],
     seoTitle: "Calgary Boiler Installation & Replacement | FlameTech",
     seoDescription:
-      "Free on-site heat-loss quote, install on every major brand including Viessmann, Navien, and IBC. Calgary boiler installation and replacement done right. Call 587-834-3668.",
+      "Calgary boiler installation and replacement, every major brand incl. Viessmann, Navien, IBC. Free on-site heat-loss quote. Call 587-834-3668.",
     seoKeywords: [
       "boiler installation Calgary",
       "boiler replacement Calgary",
@@ -1963,9 +1963,9 @@ export const services: ServicePage[] = [
         d: "Combis aren't right for every home. If your hot water demand is too high, we'll quote you a boiler and indirect tank instead and tell you why.",
       },
     ],
-    seoTitle: "Combi Boiler Installation Calgary | FlameTech Plumbing & Heating",
+    seoTitle: "Combi Boiler Installation Calgary | FlameTech",
     seoDescription:
-      "Combi boiler installation and replacement in Calgary. Heat plus domestic hot water from one wall-hung unit. Honest flow-rate sizing, free written on-site estimate. Call 587-834-3668.",
+      "Combi boiler installation in Calgary — heat plus hot water from one wall-hung unit. Honest flow-rate sizing, free on-site estimate. Call 587-834-3668.",
     seoKeywords: [
       "combi boiler installation Calgary",
       "combi boiler Calgary",
@@ -2317,7 +2317,7 @@ export const services: ServicePage[] = [
     callout:
       "Smell gas, lost heat, or hearing unusual noises? Call us right away for priority emergency boiler response.",
     seoTitle:
-      "Boiler Service Calgary | Professional Boiler Repair & Maintenance",
+      "Boiler Service Calgary | Tune-Ups & Maintenance",
     seoDescription:
       "Calgary boiler service. Annual maintenance, repairs, priority emergency response. Licensed technicians. Call 587-834-3668.",
     seoKeywords: [
@@ -2819,7 +2819,7 @@ export const services: ServicePage[] = [
     ],
     seoTitle: "Calgary Furnaces | Installation, Replacement & Service",
     seoDescription:
-      "Calgary furnace installation, replacement, emergency repair, and annual service. AirEase Pro Team dealer, 12-yr warranty option. Free written on-site estimate. Call 587-834-3668.",
+      "Calgary furnace installation, replacement, and annual service. AirEase Pro Team dealer, 12-yr warranty option. Free on-site estimate. Call 587-834-3668.",
     seoKeywords: [
       "furnace Calgary",
       "furnace installation Calgary",
@@ -3106,7 +3106,7 @@ export const services: ServicePage[] = [
       },
     ],
     seoTitle:
-      "High Efficiency Furnaces Calgary | Expert Installation & Service",
+      "High-Efficiency Furnaces Calgary | Install & Service",
     seoDescription:
       "High-efficiency furnaces installed by Calgary's trusted heating specialists. Priority service, expert installation, all major brands. Call 587-834-3668 today.",
     seoKeywords: [
@@ -3365,7 +3365,7 @@ export const services: ServicePage[] = [
         d: "Calgary's peak furnace-replacement demand runs January-March when failures cascade through cold snaps. Booking windows tighten, install costs sometimes climb, and you're without heat during the wait. If your furnace is 15+ years old or you're seeing performance issues, late summer / early fall replacement timing avoids all of that — book the install in August-October, drop into the new heating season on new equipment.",
       },
     ],
-    seoTitle: "Furnace Replacement Calgary | Brand + Sizing + Hybrid Heat Pump Math",
+    seoTitle: "Furnace Replacement Calgary | Sizing + Hybrid Heat Pump",
     seoDescription:
       "Calgary furnace replacement done right. Honest furnace-vs-hybrid heat pump comparison, Manual J sizing, AirEase 12yr warranty, Greener Homes rebates. Call 587-834-3668.",
     seoKeywords: [
@@ -3962,7 +3962,7 @@ export const services: ServicePage[] = [
         d: "We prioritize no-heat blower calls during cold snaps — same priority dispatch as [furnace repair](/furnace-repair-calgary/) and [boiler emergency](/boiler-repair-calgary/) work. No automated phone trees.",
       },
     ],
-    seoTitle: "Furnace Blower Issues Calgary | Diagnosis & Repair | FlameTech",
+    seoTitle: "Furnace Blower Issues Calgary | Diagnosis & Repair",
     seoDescription:
       "Calgary furnace blower motor diagnosis, capacitor replacement, wheel cleaning + balance, motor swap. Honest repair vs. replace calls. Call 587-834-3668.",
     seoKeywords: [
@@ -4175,7 +4175,7 @@ export const services: ServicePage[] = [
     ],
     seoTitle: "Heating System Not Working Calgary | Furnace + Boiler Repair",
     seoDescription:
-      "Heating system not working in Calgary? Priority cold-snap dispatch for furnace and boiler diagnosis and repair. Real person on the phone, common parts on the truck. Call 587-834-3668.",
+      "Heating system not working in Calgary? Priority cold-snap dispatch for furnace + boiler diagnosis and repair. Parts on the truck. Call 587-834-3668.",
     seoKeywords: [
       "heating system not working Calgary",
       "heating not working Calgary",
@@ -4396,7 +4396,7 @@ export const services: ServicePage[] = [
     ],
     seoTitle: "Home Heating Issues Calgary | Diagnosis + Repair | FlameTech",
     seoDescription:
-      "Calgary home heating diagnosis across furnace, boiler, heat pump — uneven heat, cold rooms, high bills, short-cycling, noises. Honest repair vs replace. Call 587-834-3668.",
+      "Calgary home heating diagnosis — furnace, boiler, heat pump. Uneven heat, cold rooms, high bills, short-cycling. Honest repair vs replace. Call 587-834-3668.",
     seoKeywords: [
       "home heating issues Calgary",
       "uneven heating Calgary",
@@ -4906,7 +4906,7 @@ export const services: ServicePage[] = [
     ],
     seoTitle: "Heat Pumps Calgary | Cold-Climate Install + Hybrid Dual-Fuel",
     seoDescription:
-      "Calgary heat pump installation — cold-climate, hybrid dual-fuel (heat pump + gas furnace backup), ductless mini-split. Sized for −30°C. Greener Homes rebate help. Call 587-834-3668.",
+      "Calgary heat pump installation — cold-climate, hybrid dual-fuel, ductless mini-split. Sized for −35°C. Greener Homes rebate help. Call 587-834-3668.",
     seoKeywords: [
       "heat pump Calgary",
       "heat pump installation Calgary",
@@ -5189,7 +5189,7 @@ export const services: ServicePage[] = [
       fit: "contain",
     },
     seoTitle:
-      "Air Conditioning Calgary | AC Installation + Heat Pump Compared",
+      "Air Conditioning Calgary | AC Install + Heat Pump",
     seoDescription:
       "Calgary AC install, repair, and maintenance. Central and ductless. Honest heat-pump-vs-AC comparison on every quote. AirEase 12-year warranty. Call 587-834-3668.",
     seoKeywords: [
@@ -6014,7 +6014,7 @@ export const services: ServicePage[] = [
     ],
     seoTitle: "Calgary Hot Water Tank Replacement | Same-Day Service",
     seoDescription:
-      "Same-day Calgary hot water tank replacement. Bradford White, AO Smith, Rheem stocked. Red Seal plumbers, permits handled. Free written on-site estimate. Call 587-834-3668.",
+      "Same-day Calgary hot water tank replacement. Bradford White, AO Smith, Rheem stocked. Red Seal plumbers, permits handled. Call 587-834-3668.",
     seoKeywords: [
       "hot water tank replacement Calgary",
       "water heater replacement Calgary",
@@ -6069,7 +6069,7 @@ export const services: ServicePage[] = [
           intro:
             "FlameTech's Calgary plumbing team has installed thousands of hot water tanks across every neighbourhood from [Mount Royal](/mount-royal-plumbers-calgary/) to [McKenzie Towne](/mckenzie-towne-plumbers-calgary/). We've personally replaced tanks in Calgary homes for over 15 years, and we can tell you which brands fail early and which ones actually last.\n\nWe stock [Bradford White](https://www.bradfordwhite.com/), AO Smith, and Rheem tanks in our service vehicles — all models that handle Calgary's hard water better than the cheap builder-grade units. Our technicians are Red Seal certified and insured, and we warranty both parts and labour.\n\nFrom heritage homes in Mount Royal with tricky basement access to new builds in [Cranston](/cranston-plumber-calgary/) with standard installations, we've done it all. Considering [tankless](/tankless-water-heaters/) instead? Read the tankless vs tank comparison first.",
           items: [
-            { heading: "Emergency Tank Replacement", body: "Tank burst at 3 AM? We'll shut off your water, assess the damage, and have a new tank installed fast. Our emergency trucks carry 40 and 50-gallon tanks ready to go." },
+            { heading: "Emergency Tank Replacement", body: "Tank burst and flooding the floor? We'll shut off your water, assess the damage, and have a new tank installed fast. Our emergency trucks carry 40 and 50-gallon tanks ready to go." },
             { heading: "Tank Removal & Disposal", body: "We handle the heavy lifting. Old tanks get drained, disconnected, and hauled out properly. No mess left behind for you to deal with." },
             { heading: "Gas Line & Tank Connections", body: "Both gas and electric tank installations. We're licensed for gas work and handle all the permit requirements Calgary requires for tank replacements." },
             { heading: "Expansion Tank Installation", body: "Calgary homes need expansion tanks to handle pressure buildup. We install them with every replacement to protect your new tank and plumbing system." },
@@ -6190,9 +6190,9 @@ export const services: ServicePage[] = [
         d: "Navien (NPE-A and NPE-S — most common Calgary brand), Rinnai (RU/RUR), IBC (SL series — also a combi boiler option), Bosch, Noritz. Brand selection depends on size, condensing vs non-condensing, combi capability, parts availability, and your install budget. We pick based on the specific install, not a single dealer relationship.",
       },
     ],
-    seoTitle: "Tankless Water Heaters Calgary | Navien + Rinnai + IBC Install",
+    seoTitle: "Tankless Water Heaters Calgary | Navien, Rinnai, IBC",
     seoDescription:
-      "Calgary tankless install + service. Navien, Rinnai, IBC. Gas line + venting + condensate handled. Annual descaling. Honest tank-vs-tankless conversation. Call 587-834-3668.",
+      "Calgary tankless install + service. Navien, Rinnai, IBC. Gas, venting, condensate handled. Honest tank-vs-tankless advice. Call 587-834-3668.",
     seoKeywords: [
       "tankless water heater Calgary",
       "tankless install Calgary",
@@ -6893,7 +6893,7 @@ export const services: ServicePage[] = [
         d: "If your tank is 10+ years old in Calgary's hard water and the bottom is leaking, replacement is the right move. If it's 6 years old with a dead thermostat, the small-parts fix is the right call. Free written quote either way — and we'll explain the math, not push the bigger ticket.",
       },
     ],
-    seoTitle: "No Hot Water Calgary | Same-Day Diagnosis + Repair | FlameTech",
+    seoTitle: "No Hot Water Calgary | Same-Day Diagnosis + Repair",
     seoDescription:
       "No hot water in Calgary? Same-day dispatch, real person on the phone, common parts on the truck. Gas, electric, and tankless. Call 587-834-3668.",
     seoKeywords: [
@@ -8480,7 +8480,7 @@ export const services: ServicePage[] = [
     ],
     seoTitle: "Heat Pumps Airdrie | Cold-Climate Install + Hybrid Dual-Fuel",
     seoDescription:
-      "Airdrie heat pump installation — cold-climate, hybrid dual-fuel (heat pump + gas furnace backup), ductless mini-split. Sized for −35°C and prairie wind. Greener Homes rebate help. Call 587-834-3668.",
+      "Airdrie heat pump installation — cold-climate, hybrid dual-fuel, ductless mini-split. Sized for −35°C prairie wind. Greener Homes help. Call 587-834-3668.",
     seoKeywords: [
       "heat pumps Airdrie",
       "heat pump installation Airdrie",
@@ -9111,7 +9111,7 @@ export const services: ServicePage[] = [
         d: "A typical Navien NPE-A 240 needs 200,000 BTU input — most existing 3/4\" home gas lines can support a tank but not a tankless. We size the line, vent per code, and route the acidic condensate drain through heated space so winter freeze-ups don't lock the unit out.",
       },
     ],
-    seoTitle: "Tankless Water Heaters Airdrie | Navien + Rinnai + IBC, Local Dispatch",
+    seoTitle: "Tankless Water Heaters Airdrie | Navien, Rinnai, IBC",
     seoDescription:
       "Airdrie tankless install and service. Navien, Rinnai, IBC. Gas line, venting, and condensate handled. Local dispatch from Coopers Crossing. Call 587-834-3668.",
     seoKeywords: [
@@ -9962,9 +9962,9 @@ export const services: ServicePage[] = [
         d: "Whole-home Poly-B replacement involves drywall removal, plumbing replacement, drywall + paint restoration, and insurance documentation. We coordinate the full project — local Airdrie dispatch from Coopers Crossing means responsive scheduling, no out-of-town overhead.",
       },
     ],
-    seoTitle: "Poly-B Replacement Airdrie | 1990s-Early 2000s Builds, Local Dispatch",
+    seoTitle: "Poly-B Replacement Airdrie | 1990s-2000s Builds",
     seoDescription:
-      "Airdrie Poly-B replacement on 1990s-early 2000s builds. Whole-home PEX-A replacement, drywall restoration, insurance documentation. Local Airdrie dispatch. Call 587-834-3668.",
+      "Airdrie Poly-B replacement on 1990s-2000s builds. Whole-home PEX-A, drywall restoration, insurance documentation. Call 587-834-3668.",
     seoKeywords: [
       "Poly-B replacement Airdrie",
       "Airdrie Poly-B plumbing",
@@ -10535,9 +10535,9 @@ export const services: ServicePage[] = [
         d: "No call centre. You talk to a tech, get a window before the truck rolls. Same-day dispatch for emergencies. 14 Street + Crowchild + 50 Ave SW make Altadore arrival fast. Same dispatch as our [Marda Loop](/marda-loop-plumbers-calgary/) and [Bel-Aire](/bel-aire-plumbers-calgary/) work.",
       },
     ],
-    seoTitle: "Altadore Plumbers Calgary | Heritage + Infill, Inner-SW Dispatch",
+    seoTitle: "Altadore Plumbers Calgary | Heritage + Infill",
     seoDescription:
-      "Altadore Calgary plumbing + heating. Heritage 1950s bungalow + 2000s infill mix. Galvanized line replacement, clay sewer lateral repair, equipment replacement. Call 587-834-3668.",
+      "Altadore Calgary plumbing + heating. 1950s bungalow + 2000s infill mix. Galvanized + clay sewer lateral repair, equipment replacement. Call 587-834-3668.",
     seoKeywords: [
       "Altadore plumbers Calgary",
       "Altadore Calgary plumber",
@@ -10742,7 +10742,7 @@ export const services: ServicePage[] = [
         d: "Bel-Aire sits right off 14 St SW and Glenmore Trail — direct routes from the inner SW. Same dispatch as [Altadore](/altadore-plumbers-calgary/), [Marda Loop](/marda-loop-plumbers-calgary/), [Mount Royal](/mount-royal-plumbers-calgary/), and the rest of central SW Calgary.",
       },
     ],
-    seoTitle: "Bel-Aire Plumbers Calgary | Heritage + Estate Home Specialists",
+    seoTitle: "Bel-Aire Plumbers Calgary | Heritage + Estate Homes",
     seoDescription:
       "Plumbers serving Bel-Aire, SW Calgary. Heritage 1960s-70s stock, luxury rebuilds, hydronic radiant, mature-tree root intrusion. Priority dispatch. Call 587-834-3668.",
     seoKeywords: [
@@ -10774,7 +10774,7 @@ export const services: ServicePage[] = [
       { number: "Red Seal", label: "Plumbers + gas fitters", icon: "award" },
     ],
     callout:
-      "Burst pipe, no heat, or sewer backup in Bel-Aire? Call 587-834-3668 — priority dispatch from licensed plumbers any hour.",
+      "Burst pipe, no heat, or sewer backup in Bel-Aire? Call 587-834-3668 — priority same-day dispatch from licensed plumbers.",
     richContent: {
       sections: [
         {
@@ -10902,9 +10902,9 @@ export const services: ServicePage[] = [
         d: "Hansgrohe, Brizo, Kohler, Grohe, Waterworks, Newport Brass — each has proprietary cartridge designs, thermostatic mixing valves, and pressure-balance components. Generic plumbing service knowledge isn't enough. We carry parts catalogues for the major premium brands and order direct from authorized distributors so the right part arrives the first time.",
       },
     ],
-    seoTitle: "Aspen Woods Plumbers Calgary | Hydronic Radiant + Premium Fixtures",
+    seoTitle: "Aspen Woods Plumbers Calgary | Hydronic Radiant Systems",
     seoDescription:
-      "Aspen Woods Calgary plumbing + heating. Luxury 2002-2015 builds, hydronic radiant + multi-zone boiler service, premium fixture install, first-round equipment replacement. Call 587-834-3668.",
+      "Aspen Woods Calgary plumbing + heating. Luxury 2002-2015 builds, hydronic radiant + multi-zone boiler service, premium fixtures. Call 587-834-3668.",
     seoKeywords: [
       "Aspen Woods plumbers Calgary",
       "Aspen Woods Calgary plumber",
@@ -11109,9 +11109,9 @@ export const services: ServicePage[] = [
         d: "No call centre. You talk to a tech, get a window before the truck rolls. Same-day dispatch for emergencies. 52nd Street SE makes Auburn Bay arrival fast.",
       },
     ],
-    seoTitle: "Auburn Bay Plumber Calgary | Water Heater + Furnace EOL, SE Dispatch",
+    seoTitle: "Auburn Bay Plumber Calgary | Water Heater + Furnace EOL",
     seoDescription:
-      "Auburn Bay Calgary plumbing + heating. Water heater + furnace + sump pump end-of-life replacement on 2007-2012 builds, water softener install, lake community service. Call 587-834-3668.",
+      "Auburn Bay Calgary plumbing + heating. Water heater, furnace + sump pump end-of-life on 2007-2012 builds, softener install. Call 587-834-3668.",
     seoKeywords: [
       "Auburn Bay plumber",
       "plumber Auburn Bay Calgary",
@@ -11450,7 +11450,7 @@ export const services: ServicePage[] = [
     ],
     seoTitle: "Brentwood Plumbers Calgary | 1960s-80s NW, Equipment EOL",
     seoDescription:
-      "Brentwood Calgary plumbing + heating. Heritage 1960s-80s NW community, Poly-B replacement, equipment replacement, drain + sewer work. Real person on the phone. Call 587-834-3668.",
+      "Brentwood Calgary plumbing + heating. Heritage 1960s-80s NW community, Poly-B + equipment replacement, drain + sewer work. Call 587-834-3668.",
     seoKeywords: [
       "Brentwood plumbers Calgary",
       "Brentwood Calgary plumber",
@@ -12075,7 +12075,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "Are you available for emergency calls in NW Calgary?",
-            a: "Absolutely — we run priority emergency service for all Northwest Calgary residents and businesses. Plumbing crises don't respect regular hours, so whether it's 3 AM on a Tuesday or Sunday afternoon during a holiday weekend, our emergency response team is ready to help. Dial 587-834-3668 any time for immediate assistance.",
+            a: "Absolutely — we run priority emergency service for all Northwest Calgary residents and businesses. Plumbing crises don't wait for a convenient time, so we route emergency calls ahead of scheduled work and get a truck to you as fast as we can. Dial 587-834-3668 and a real person will help.",
           },
           {
             q: "What unique plumbing challenges exist in NW Calgary?",
@@ -12189,7 +12189,7 @@ export const services: ServicePage[] = [
         {
           heading: "Emergency Plumber Calgary SE – Available Day And Night",
           intro:
-            "Plumbing problems rarely announce themselves in advance. When disaster hits your Southeast Calgary property at any hour, our emergency plumbing team responds swiftly to address frozen and burst pipes (especially crucial during Calgary's frigid winter months), water heater failures leaving your household without hot water, and gas line concerns requiring certified professional intervention.",
+            "Plumbing problems rarely announce themselves in advance. When disaster hits your Southeast Calgary property, our emergency plumbing team responds swiftly with priority same-day dispatch to address frozen and burst pipes (especially crucial during Calgary's frigid winter months), water heater failures leaving your household without hot water, and gas line concerns requiring certified professional intervention.",
           items: [
             { heading: "Drain & Sewer Services", body: "HD sewer camera inspections for accurate diagnosis, thorough [drain clearing](/drain-cleaning-calgary/) for kitchens, bathrooms and floor drains, no-dig trenchless sewer line repairs, weeping tile and foundation drainage solutions, and restaurant or commercial grease trap cleaning." },
             { heading: "Water Heater Services", body: "[Tankless water heater](/tankless-water-heaters/) setup and configuration, standard [tank water heater](/hot-water-tanks/) installation and repairs, routine maintenance and sediment flushing, energy-efficient upgrade consultations, and same-day water heater diagnostics." },
@@ -12219,7 +12219,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "Do you offer emergency plumbing in SE Calgary?",
-            a: "Yes — our [emergency plumbing service](/emergency-plumber-calgary/) runs with priority dispatch for all Southeast Calgary residents and businesses. Plumbing emergencies happen without warning, so whether it's the middle of the night or a holiday long weekend, our dispatch team is ready to send help. Contact us at 587-834-3668 anytime for urgent plumbing assistance.",
+            a: "Yes — our [emergency plumbing service](/emergency-plumber-calgary/) runs with priority dispatch for all Southeast Calgary residents and businesses. Plumbing emergencies happen without warning, so we route emergency calls ahead of scheduled work and get help moving fast. Contact us at 587-834-3668 for urgent plumbing assistance.",
           },
           {
             q: "What plumbing issues are common in SE Calgary homes?",
@@ -12561,7 +12561,7 @@ export const services: ServicePage[] = [
         d: "No call centre. You talk to a tech, get a window before the truck rolls. Same-day dispatch for emergencies. 52nd Street SE + Stoney Trail access make the SE run fast.",
       },
     ],
-    seoTitle: "Copperfield Plumbers Calgary | 1999-2013 Builds, Water Heater EOL",
+    seoTitle: "Copperfield Plumbers Calgary | 1999-2013 Builds",
     seoDescription:
       "Copperfield Calgary plumbing + heating. Water heater + furnace + sump pump replacement on 1999-2013 builds, water softener install, drain + sewer work. Call 587-834-3668.",
     seoKeywords: [
@@ -12776,7 +12776,7 @@ export const services: ServicePage[] = [
         d: "No call centre. You talk to a tech, get a window before the truck rolls. Same-day dispatch for emergencies. Stoney Trail makes Cranston arrival fast even during rush hour.",
       },
     ],
-    seoTitle: "Cranston Plumber Calgary | 1999-2018 Builds, Riverstone, SE Dispatch",
+    seoTitle: "Cranston Plumber Calgary | 1999-2018 Builds, Riverstone",
     seoDescription:
       "Cranston Calgary plumbing + heating. Original-phase equipment replacement, Riverstone walkout-basement sump work, water softener install, SE dispatch. Call 587-834-3668.",
     seoKeywords: [
@@ -13769,9 +13769,9 @@ export const services: ServicePage[] = [
         d: "No call centre. You talk to a tech, get a window before the truck rolls. Same-day dispatch for emergencies. Memorial Drive + 10 Street + Kensington Road make Hillhurst arrival fast.",
       },
     ],
-    seoTitle: "Hillhurst Plumbers Calgary | Heritage + Infill, Kensington Adjacent",
+    seoTitle: "Hillhurst Plumbers Calgary | Heritage + Infill",
     seoDescription:
-      "Hillhurst Calgary plumbing + heating. Heritage 1910-1940 home work + modern infill mix. Galvanized line replacement, clay sewer lateral repair, modern construction. Call 587-834-3668.",
+      "Hillhurst Calgary plumbing + heating. Heritage 1910-1940 homes + modern infill. Galvanized + clay sewer lateral repair. Call 587-834-3668.",
     seoKeywords: [
       "Hillhurst plumbers Calgary",
       "Hillhurst Calgary plumber",
@@ -14112,7 +14112,7 @@ export const services: ServicePage[] = [
     ],
     seoTitle: "Inglewood Plumbers Calgary | Heritage Pre-1940 + Renovation",
     seoDescription:
-      "Inglewood Calgary plumbing + heating. Heritage pre-1940 homes + renovation + infill mix. Cast iron stack work, galvanized line replacement, clay sewer lateral repair. Call 587-834-3668.",
+      "Inglewood Calgary plumbing + heating. Heritage pre-1940 homes + infill. Cast iron stack work, galvanized + clay sewer lateral repair. Call 587-834-3668.",
     seoKeywords: [
       "Inglewood plumbers Calgary",
       "Inglewood Calgary plumber",
@@ -14450,7 +14450,7 @@ export const services: ServicePage[] = [
         d: "No call centre. You talk to a tech, get a window before the truck rolls. Same-day dispatch for emergencies. Macleod Trail + Anderson Road + Bow Bottom Trail make Lake Bonavista arrival fast. Same crew that handles [McKenzie Lake](/mckenzie-lake-plumbers-calgary/) and broader SE.",
       },
     ],
-    seoTitle: "Lake Bonavista Plumbers Calgary | 1970s Original Lake Community",
+    seoTitle: "Lake Bonavista Plumbers Calgary | 1970s Lake Community",
     seoDescription:
       "Lake Bonavista Calgary plumbing + heating. 1970s-original prestige lake community. Equipment replacement, sewer work, premium fixture install. Call 587-834-3668.",
     seoKeywords: [
@@ -14657,7 +14657,7 @@ export const services: ServicePage[] = [
     ],
     seoTitle: "Mahogany Plumbers Calgary | Lake Community, 2008-2024 Builds",
     seoDescription:
-      "Mahogany Calgary plumbing + heating. First-round equipment service, water softener install, lake-community service, SE dispatch. Real person on the phone. Call 587-834-3668.",
+      "Mahogany Calgary plumbing + heating. First-round equipment service, water softener install, lake-community SE dispatch. Call 587-834-3668.",
     seoKeywords: [
       "Mahogany plumbers Calgary",
       "Mahogany Calgary plumber",
@@ -15000,7 +15000,7 @@ export const services: ServicePage[] = [
     ],
     seoTitle: "Martindale Plumbers Calgary | 1990s-2000s NE, Equipment EOL",
     seoDescription:
-      "Martindale Calgary plumbing + heating. Water heater + furnace + sump pump replacement on 1990s-2000s builds. Poly-B identification on earliest phases. NE dispatch. Call 587-834-3668.",
+      "Martindale Calgary plumbing + heating. Water heater, furnace + sump pump replacement on 1990s-2000s builds. NE dispatch. Call 587-834-3668.",
     seoKeywords: [
       "Martindale plumbers Calgary",
       "Martindale Calgary plumber",
@@ -15125,7 +15125,7 @@ export const services: ServicePage[] = [
         d: "NE Calgary has historically been under-served by trades — providers concentrate in SW/NW and Saddle Ridge homeowners often wait longer for service. We make a point of routine NE dispatch with same standards as anywhere else in Calgary. Stoney Trail + 80 Avenue NE + Saddletowne LRT corridor make the run fast.",
       },
     ],
-    seoTitle: "Saddle Ridge Plumbers Calgary | 2000s-2010s NE, Equipment EOL",
+    seoTitle: "Saddle Ridge Plumbers Calgary | 2000s-2010s NE Builds",
     seoDescription:
       "Saddle Ridge Calgary plumbing + heating. Water heater + furnace + sump pump replacement on 2005-2012 builds, water softener install, NE dispatch. Call 587-834-3668.",
     seoKeywords: [
@@ -15380,7 +15380,7 @@ export const services: ServicePage[] = [
     ],
     seoTitle: "Taradale Plumbers Calgary | 1995-2005 NE, Equipment EOL",
     seoDescription:
-      "Taradale Calgary plumbing + heating. Water heater + furnace + sump pump replacement on 1995-2005 builds. Poly-B identification on earliest phases. NE dispatch. Call 587-834-3668.",
+      "Taradale Calgary plumbing + heating. Water heater, furnace + sump pump replacement on 1995-2005 builds. NE dispatch. Call 587-834-3668.",
     seoKeywords: [
       "Taradale plumbers Calgary",
       "Taradale Calgary plumber",
@@ -15748,7 +15748,7 @@ export const services: ServicePage[] = [
     ],
     seoTitle: "Mount Royal Plumbers Calgary | Heritage + Hydronic + Rebuild",
     seoDescription:
-      "Mount Royal Calgary plumbing + heating. Heritage 1910-1940 home work, luxury rebuild hydronic radiant systems, premium fixture install, multi-zone boiler service. Call 587-834-3668.",
+      "Mount Royal Calgary plumbing + heating. Heritage 1910-1940 homes, luxury rebuild hydronic radiant, premium fixture install. Call 587-834-3668.",
     seoKeywords: [
       "Mount Royal plumbers Calgary",
       "Mount Royal heritage plumbing",
@@ -16321,7 +16321,7 @@ export const services: ServicePage[] = [
     ],
     seoTitle: "Tuscany Plumbers Calgary | Ridge Pressure & PRV Experts",
     seoDescription:
-      "Tuscany Calgary plumbing + heating. High-elevation water pressure and PRV work on ridge lots, water heater + furnace end-of-life replacement, Poly-B on early-phase homes. Call 587-834-3668.",
+      "Tuscany Calgary plumbing + heating. Ridge-lot water pressure + PRV work, water heater + furnace replacement, early-phase Poly-B. Call 587-834-3668.",
     seoKeywords: [
       "Tuscany plumbers Calgary",
       "Tuscany Calgary plumber",
@@ -16842,13 +16842,13 @@ export const services: ServicePage[] = [
       { number: "Licensed", label: "& insured", icon: "award" },
     ],
     callout:
-      "Burst pipe, severe leak, or backed-up sewer line in Woodbine? Call 587-834-3668 — our emergency plumbers are available around the clock to protect your home from water damage.",
+      "Burst pipe, severe leak, or backed-up sewer line in Woodbine? Call 587-834-3668 — priority same-day dispatch to protect your home from water damage.",
     richContent: {
       sections: [
         {
           heading: "Our Woodbine Plumbing Services",
           intro:
-            "Whether you're dealing with a burst pipe, severe leak, or backed-up sewer line, our emergency plumbers are available around the clock to protect your Woodbine home from water damage. From older homes with aging plumbing systems to newer builds requiring modern installations, our team has the expertise to handle it all.",
+            "Whether you're dealing with a burst pipe, severe leak, or backed-up sewer line, our emergency plumbers offer priority same-day dispatch to protect your Woodbine home from water damage. From older homes with aging plumbing systems to newer builds requiring modern installations, our team has the expertise to handle it all.",
           items: [
             { heading: "Emergency plumbing repairs", body: "Priority dispatch for burst pipes, severe leaks, or backed-up sewer lines — we'll protect your Woodbine home from water damage." },
             { heading: "Drain cleaning & unclogging", body: "[Professional drain cleaning](/drain-cleaning-calgary/) with advanced equipment clears stubborn blockages and restores proper flow." },
