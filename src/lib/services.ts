@@ -1274,7 +1274,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "Neighbourhoods built in the Poly-B peak window",
-              body: "[Mahogany](/mahogany-plumbers-calgary/), [Tuscany](/tuscany-plumbers-calgary/), [Evergreen](/evergreen-plumbers-calgary/), [Edgemont](/edgemont-plumbers-calgary/), [Huntington Hills](/huntington-hills-plumbers-calgary/), and [Varsity](/varsity-plumbers-calgary/) all saw heavy polybutylene installation. We know the builders' typical routing and which fittings tend to fail first.",
+              body: "[Mahogany](/mahogany-plumbers-calgary/), [Tuscany](/tuscany-plumbers-calgary/), [Evergreen](/evergreen-plumbers-calgary/), [Edgemont](/edgemont-plumbers-calgary/), [Hidden Valley](/hidden-valley-plumbers-calgary/), [Douglasdale/Glen](/douglasdale-plumbers-calgary/), [Huntington Hills](/huntington-hills-plumbers-calgary/), and [Varsity](/varsity-plumbers-calgary/) all saw heavy polybutylene installation. We know the builders' typical routing and which fittings tend to fail first.",
             },
             {
               heading: "Emergency leak or proactive replacement",
@@ -12928,7 +12928,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "What other SE Calgary neighbourhoods do you cover?",
-            a: "Same crew works [Auburn Bay](/auburn-bay-plumber-calgary/), [Mahogany](/mahogany-plumbers-calgary/), [McKenzie Towne](/mckenzie-towne-plumbers-calgary/), [McKenzie Lake](/mckenzie-lake-plumbers-calgary/), [Chaparral](/chaparral-plumbers-calgary/), [New Brighton](/new-brighton-plumbers-calgary/), [Copperfield](/copperfield-plumbers-calgary/), and the broader [SE Calgary](/calgary-plumbers-se/). Same-day dispatch across the SE.",
+            a: "Same crew works [Auburn Bay](/auburn-bay-plumber-calgary/), [Mahogany](/mahogany-plumbers-calgary/), [McKenzie Towne](/mckenzie-towne-plumbers-calgary/), [McKenzie Lake](/mckenzie-lake-plumbers-calgary/), [Chaparral](/chaparral-plumbers-calgary/), [New Brighton](/new-brighton-plumbers-calgary/), [Copperfield](/copperfield-plumbers-calgary/), [Douglasdale/Glen](/douglasdale-plumbers-calgary/), and the broader [SE Calgary](/calgary-plumbers-se/). Same-day dispatch across the SE.",
           },
         ],
       },
@@ -13551,7 +13551,7 @@ export const services: ServicePage[] = [
         {
           heading: "Local Evanston & NW Calgary Expertise",
           intro:
-            "Our Calgary plumbers work and live in the NW, so we understand Evanston's layout — from the established areas near Evanston Drive to the newer phases being built on the north side. Each section has its own plumbing personality. We also serve neighbouring communities like [Panorama Hills](/panorama-hills-plumbers-calgary/) and [Edgemont](/edgemont-plumbers-calgary/).",
+            "Our Calgary plumbers work and live in the NW, so we understand Evanston's layout — from the established areas near Evanston Drive to the newer phases being built on the north side. Each section has its own plumbing personality. We also serve neighbouring NW communities like [Panorama Hills](/panorama-hills-plumbers-calgary/), [Edgemont](/edgemont-plumbers-calgary/), [Hidden Valley](/hidden-valley-plumbers-calgary/), and [Royal Oak](/royal-oak-plumbers-calgary/).",
           items: [
             { heading: "Stocked Trucks, Fast Fixes", body: "Most Evanston homes were built with similar floor plans and plumbing configurations, so we know where to look for problems and what parts to bring." },
             { heading: "Built for Alberta Weather", body: "Calgary's extreme weather puts extra stress on plumbing systems. We design our repairs to handle everything from -40°C cold snaps to rapid chinook thaws, following Calgary building codes and using materials rated for our climate." },
@@ -15477,7 +15477,7 @@ export const services: ServicePage[] = [
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
     heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing service van in McKenzie Lake", fit: "cover" },
     intro:
-      "Expert plumbers serving McKenzie Lake, SE Calgary. Emergency repairs, drain cleaning, water heaters, and main line service with priority emergency response. Neighbours with [McKenzie Towne](/mckenzie-towne-plumbers-calgary/) and [New Brighton](/new-brighton-plumbers-calgary/).",
+      "Expert plumbers serving McKenzie Lake, SE Calgary. Emergency repairs, drain cleaning, water heaters, and main line service with priority emergency response. Neighbours with [McKenzie Towne](/mckenzie-towne-plumbers-calgary/), [New Brighton](/new-brighton-plumbers-calgary/), and [Douglasdale/Glen](/douglasdale-plumbers-calgary/).",
     features: [
       "Emergency plumbing repairs",
       "Drain cleaning & root removal",
@@ -15589,7 +15589,7 @@ export const services: ServicePage[] = [
       "McKenzie Towne homeowners have relied on FlameTech Plumbing's expertise for over 25 years to handle everything from routine maintenance to complex emergency repairs. This vibrant southeastern Calgary community, with its distinctive heritage architecture and family-focused atmosphere, deserves plumbing professionals who understand the unique challenges these homes present.",
     heroBody: [
       "Plumbing emergencies don't wait for convenient hours, which is why our certified plumbers remain available with priority dispatch. Whether it's a burst pipe during Calgary's notorious temperature swings or a backed-up drain on a busy weekend, FlameTech delivers prompt, professional service when you need it most.",
-      "Our crews work throughout [SE Calgary](/calgary-plumbers-se/) including neighbouring [McKenzie Lake](/mckenzie-lake-plumbers-calgary/) and [New Brighton](/new-brighton-plumbers-calgary/). Call 587-834-3668 for same-day service.",
+      "Our crews work throughout [SE Calgary](/calgary-plumbers-se/) including neighbouring [McKenzie Lake](/mckenzie-lake-plumbers-calgary/), [New Brighton](/new-brighton-plumbers-calgary/), and [Douglasdale/Glen](/douglasdale-plumbers-calgary/). Call 587-834-3668 for same-day service.",
     ],
     heroSubhead: "Trusted McKenzie Towne Plumbing Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
@@ -15920,7 +15920,7 @@ export const services: ServicePage[] = [
       "FlameTech Plumbing has been the go-to plumber for New Brighton Calgary homeowners since this SE Calgary community started growing. Whether you're dealing with a burst pipe in your Brookfield home or need [hot water tank replacement](/hot-water-tanks/) in your two-story family house, our crew knows exactly what New Brighton properties need. We've fixed everything from frozen outdoor taps to full basement re-pipes.",
     heroBody: [
       "Plumbing emergencies don't wait for business hours, and neither do we. Our priority line is answered by a real person, and we roll a fully-equipped truck to your New Brighton address on priority dispatch.",
-      "Our [SE Calgary plumbing team](/calgary-plumbers-se/) has been fixing pipes and installing water heaters in New Brighton since the first homes went up — we're neighbours with [McKenzie Towne](/mckenzie-towne-plumbers-calgary/) and [Copperfield](/copperfield-plumbers-calgary/). Call 587-834-3668.",
+      "Our [SE Calgary plumbing team](/calgary-plumbers-se/) has been fixing pipes and installing water heaters in New Brighton since the first homes went up — we're neighbours with [McKenzie Towne](/mckenzie-towne-plumbers-calgary/), [Copperfield](/copperfield-plumbers-calgary/), and [Douglasdale/Glen](/douglasdale-plumbers-calgary/). Call 587-834-3668.",
     ],
     heroSubhead: "Trusted New Brighton Plumbing Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
@@ -16044,7 +16044,7 @@ export const services: ServicePage[] = [
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
     heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing service van in Panorama Hills", fit: "cover" },
     intro:
-      "Expert plumbers serving Panorama Hills Calgary. 25+ years experience with local homes. Priority emergency repairs, [drain cleaning](/drain-cleaning-calgary/), water heaters. Neighbours with [Evanston](/evanston-plumbers-calgary/) and [Edgemont](/edgemont-plumbers-calgary/).",
+      "Expert plumbers serving Panorama Hills Calgary. 25+ years experience with local homes. Priority emergency repairs, [drain cleaning](/drain-cleaning-calgary/), water heaters. Neighbours with [Evanston](/evanston-plumbers-calgary/), [Edgemont](/edgemont-plumbers-calgary/), [Hidden Valley](/hidden-valley-plumbers-calgary/), and [Royal Oak](/royal-oak-plumbers-calgary/).",
     features: [
       "Emergency plumbing repairs",
       "Drain cleaning & main line service",
@@ -16280,11 +16280,11 @@ export const services: ServicePage[] = [
     category: "Plumbing",
     location: "Calgary",
     icon: "plumbing",
-    title: "Tuscany Plumbers Calgary — 1996-2012 Builds, Poly-B + Equipment EOL",
+    title: "Tuscany Plumbers Calgary — High-Elevation Pressure & Ageing Equipment",
     lead:
-      "Tuscany was built mostly between 1996 and 2012, with the earliest phases (Tuscany Hills, Tuscany Estates) now 25+ years old and the latest phases hitting the 15-year mark. That timing puts most original equipment at end-of-life right now: Poly-B plumbing in 1996-2002 builds is failing, original gas water heaters (10-12 year Calgary lifespan in this water) are second- or third-generation by now, original sump pumps on walkout-basement homes are tired, and the first wave of post-2000 high-efficiency furnaces are hitting 20+ years. FlameTech dispatches from NW Calgary and works in Tuscany routinely — we know the era, the streets, and the failure modes.",
+      "Tuscany sits high on Calgary's NW ridge, and that elevation is the thing that most defines plumbing here — ridge-top lots in Tuscany Hills and Tuscany Ridge see high municipal static pressure that shortens fixture life and warrants a PRV. On top of that, a community built mostly between 1996 and 2012 now has a wave of original equipment at end of life: water heaters, sump pumps, and post-2000 furnaces all hitting their Calgary lifespan, plus Poly-B on the earliest (1996-2002) phases. FlameTech dispatches from NW Calgary and works Tuscany routinely — we know the ridge, the streets, and the failure modes.",
     heroBody: [
-      "Three patterns dominate Tuscany calls: (1) Poly-B replacement on 1996-2002 builds (homes built before the industry transitioned to PEX-A and PEX-B), (2) original-equipment end-of-life replacement (water heaters, furnaces, sump pumps, water softeners all hitting their typical Calgary lifespan), and (3) elevation-related water pressure issues (Tuscany Hills + ridge lots see higher municipal static pressure that often warrants a [PRV](/plumbing-repairs-calgary/) for fixture longevity).",
+      "Three patterns dominate Tuscany calls: (1) elevation-related water pressure — Tuscany Hills and ridge lots see high municipal static pressure that often warrants a [PRV](/plumbing-repairs-calgary/) to protect fixtures and appliance hoses; (2) original-equipment end-of-life replacement, with water heaters, furnaces, and sump pumps all hitting their typical Calgary lifespan across the 1996-2012 build phases; and (3) Poly-B replacement on the earliest (1996-2002) homes, built before the neighbourhood transitioned to PEX.",
       "Same crew that handles our [Poly-B replacement](/polyb-plumbing-calgary/), [hot water tank replacement](/hot-water-tank-replacement-calgary/), [furnace work](/furnaces/), [sump pump install](/sump-pump-installation-calgary/), [drain cleaning](/drain-cleaning-calgary/), and broader [emergency plumbing](/emergency-plumber-calgary/). Same crew also works the neighbouring [Edgemont](/edgemont-plumbers-calgary/), [Varsity](/varsity-plumbers-calgary/), [Panorama Hills](/panorama-hills-plumbers-calgary/), and [Evanston](/evanston-plumbers-calgary/) — NW build eras overlap and the failure patterns rhyme.",
       "Real person on the phone, written quote before any work starts. Same-day dispatch for emergencies — Crowchild Trail makes the run from our shop fast. Call 587-834-3668.",
     ],
@@ -16292,7 +16292,7 @@ export const services: ServicePage[] = [
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
     heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing + heating service in Tuscany, NW Calgary", fit: "cover" },
     intro:
-      "Tuscany Calgary plumbing + heating — Poly-B replacement on 1996-2002 builds, water heater + furnace + sump pump end-of-life replacement, drain + sewer service, NW dispatch. Free written quote.",
+      "Tuscany Calgary plumbing + heating — high-elevation pressure and PRV work on ridge lots, water heater + furnace + sump pump end-of-life replacement, Poly-B on early-phase homes, drain + sewer service, NW dispatch. Free written quote.",
     features: [
       "Poly-B replacement (1996-2002 builds)",
       "Water heater + tankless install",
@@ -16303,12 +16303,12 @@ export const services: ServicePage[] = [
     ],
     bullets: [
       {
-        t: "Tuscany-era build specialists",
-        d: "Most of Tuscany was built between 1996 and 2012 in distinct phases — Tuscany Hills, Tuscany Estates, Tuscany Springs, Tuscany Heights, then Tuscany Ridge + later infill. We know which phases used Poly-B (early), which used PEX-A and PEX-B (mid-late), which builders dominated the original construction, and what equipment fails first in each era. Saves diagnosis time on the call.",
+        t: "High-elevation pressure + PRV specialists",
+        d: "Tuscany is one of the highest communities in NW Calgary. Ridge-top lots in Tuscany Hills and Tuscany Ridge can see municipal static pressure above 80 PSI — beyond the fixture-friendly 60-80 range. High pressure shortens fixture life, stresses appliance hoses, and accelerates leaks. A pressure-reducing valve at the main brings it into range; on the low valley lots the occasional call is the opposite, a booster for weak flow. We test at the hose bib before quoting either way.",
       },
       {
-        t: "Poly-B replacement is a Tuscany staple",
-        d: "Many 1996-2002 Tuscany homes still have original Poly-B supply lines. Calgary's hard water + chlorine + 25+ years means brittle fittings, brittle pipe, and increasingly frequent leaks — usually starting at fittings inside finished walls. We replace whole-home with PEX-A or copper depending on the install, restore drywall, and quote in writing. See [Poly-B replacement Calgary](/polyb-plumbing-calgary/) for full scope.",
+        t: "Tuscany-era build specialists",
+        d: "Most of Tuscany was built between 1996 and 2012 in distinct phases — Tuscany Hills, Tuscany Estates, Tuscany Springs, Tuscany Heights, then Tuscany Ridge + later infill. We know which early phases used Poly-B, which mid-to-late phases used PEX, and what equipment fails first in each era. On the 1996-2002 homes that still have original Poly-B, whole-home replacement with PEX-A or copper is a job we do often — see [Poly-B replacement Calgary](/polyb-plumbing-calgary/).",
       },
       {
         t: "Walkout basement + Bow River corridor sump pump work",
@@ -16319,16 +16319,17 @@ export const services: ServicePage[] = [
         d: "No call centre. You talk to a tech, get a window before the truck rolls, and we dispatch from NW Calgary via Crowchild Trail for fast Tuscany arrival. Same-day for emergencies (burst pipes, no hot water, sewer backup, no heat in a cold snap).",
       },
     ],
-    seoTitle: "Tuscany Plumbers Calgary | Poly-B, Equipment Replacement, NW Dispatch",
+    seoTitle: "Tuscany Plumbers Calgary | Ridge Pressure & PRV Experts",
     seoDescription:
-      "Tuscany Calgary plumbing + heating. Poly-B replacement on 1996-2002 builds, water heater + furnace + sump pump end-of-life, drain service. Real person on the phone. Call 587-834-3668.",
+      "Tuscany Calgary plumbing + heating. High-elevation water pressure and PRV work on ridge lots, water heater + furnace end-of-life replacement, Poly-B on early-phase homes. Call 587-834-3668.",
     seoKeywords: [
       "Tuscany plumbers Calgary",
       "Tuscany Calgary plumber",
-      "Poly-B Tuscany",
+      "Tuscany water pressure",
+      "Tuscany PRV pressure regulator",
       "emergency plumber Tuscany",
       "Tuscany water heater replacement",
-      "Tuscany sump pump",
+      "Poly-B Tuscany",
       "NW Calgary plumber",
       "FlameTech Plumbing",
     ],
@@ -16353,17 +16354,21 @@ export const services: ServicePage[] = [
       { number: "ANY", label: "Plumbing + heating brand", icon: "check_circle" },
     ],
     callout:
-      "Tuscany Poly-B leak, equipment at end of life, or emergency in a cold snap? Call 587-834-3668 — real person, NW dispatch via Crowchild.",
+      "High water pressure on a Tuscany ridge lot, equipment at end of life, or an emergency in a cold snap? Call 587-834-3668 — real person, NW dispatch via Crowchild.",
     richContent: {
       sections: [
         {
           heading: "What we do most often on Tuscany calls",
           intro:
-            "Most Tuscany service calls trace back to one of these — driven by the 1996-2012 build era, hard water, elevation, and equipment now hitting its Calgary end-of-life.",
+            "Most Tuscany service calls trace back to one of these — driven by the neighbourhood's high-ridge elevation, hard water, and a 1996-2012 build era whose original equipment is now hitting its Calgary end-of-life.",
           items: [
             {
-              heading: "Poly-B replacement (1996-2002 builds)",
-              body: "Most common Tuscany call category. Original Poly-B supply lines + acetal (plastic) fittings installed during the 1990s construction boom. Chlorine + hard water + 25+ years of thermal cycling has made fittings brittle and pipes prone to surprise leaks (often behind drywall on hot-water runs to upper floors). We replace whole-home with PEX-A or copper, manage the drywall + paint repair scope, and document for insurance. See [Poly-B Calgary](/polyb-plumbing-calgary/).",
+              heading: "PRV install / pressure regulator on high-elevation lots",
+              body: "Tuscany's signature issue. Ridge-top lots in Tuscany Hills and Tuscany Ridge can see municipal static water pressure above 80 PSI — beyond the 60-80 PSI fixture-friendly range. High static pressure shortens fixture life, accelerates any Poly-B failure, and stresses appliance hoses. A pressure-reducing valve at the main shutoff brings it into the right range — a quick install that extends the life of every downstream fixture. We test at the hose bib to confirm your actual pressure before quoting.",
+            },
+            {
+              heading: "Poly-B replacement (early 1996-2002 phases)",
+              body: "The earliest Tuscany phases (Tuscany Hills, earliest Estates) were built while Poly-B was still standard supply pipe. Original Poly-B + acetal fittings, 25+ years of Calgary hard water and thermal cycling, and the result is brittle fittings prone to surprise leaks — often behind drywall on hot-water runs to upper floors. We replace whole-home with PEX-A or copper, manage the drywall repair scope, and document for insurance. Later Tuscany phases (post-2002) are PEX and don't have this. See [Poly-B Calgary](/polyb-plumbing-calgary/).",
             },
             {
               heading: "Water heater replacement (originals at end of life)",
@@ -16376,10 +16381,6 @@ export const services: ServicePage[] = [
             {
               heading: "Sump pump install + replacement",
               body: "Walkout-basement homes in Tuscany Hills + Tuscany Ridge phases commonly have original sump pumps now 15-20 years old. Spring melt + heavy rain events stress these systems hard. We swap to ProFlo or similar quality pumps + verify discharge routing isn't dumping water back against the foundation. Battery-backup recommended on lower lots near the Bow River corridor where power outages + pump failures cascade into basement flooding.",
-            },
-            {
-              heading: "PRV install / pressure regulator on high-elevation lots",
-              body: "Tuscany Hills + ridge-top lots can see municipal static water pressure above 80 PSI — above the 60-80 PSI fixture-friendly range. High static pressure shortens fixture life, accelerates Poly-B failure where present, and stresses appliance hoses. A pressure-reducing valve at the main shutoff brings it into the right range. Quick install, dramatic life-extension on every downstream fixture.",
             },
             {
               heading: "Sewer line camera + root removal (mature trees now)",
@@ -16499,7 +16500,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "What other NW Calgary neighbourhoods do you cover?",
-            a: "Same crew works [Edgemont](/edgemont-plumbers-calgary/), [Varsity](/varsity-plumbers-calgary/), [Panorama Hills](/panorama-hills-plumbers-calgary/), [Evanston](/evanston-plumbers-calgary/), [Huntington Hills](/huntington-hills-plumbers-calgary/), and the broader [NW Calgary](/calgary-plumbers-nw/). Build eras overlap and failure patterns rhyme — we know what to expect before we walk in the door.",
+            a: "Same crew works [Edgemont](/edgemont-plumbers-calgary/), [Varsity](/varsity-plumbers-calgary/), [Panorama Hills](/panorama-hills-plumbers-calgary/), [Evanston](/evanston-plumbers-calgary/), [Royal Oak](/royal-oak-plumbers-calgary/), [Hidden Valley](/hidden-valley-plumbers-calgary/), [Huntington Hills](/huntington-hills-plumbers-calgary/), and the broader [NW Calgary](/calgary-plumbers-nw/). Build eras overlap and failure patterns rhyme — we know what to expect before we walk in the door.",
           },
         ],
       },
@@ -16579,7 +16580,7 @@ export const services: ServicePage[] = [
         {
           heading: "Our Varsity Plumbing Services",
           intro:
-            "Varsity's mature neighborhood means we deal with a lot of cast iron drain lines backing up, original copper supply lines showing their age, and builder-grade fixtures finally giving out after 30+ years. Our crew has also worked extensively in nearby communities like [Panorama Hills](/panorama-hills-plumbers-calgary/) and [Edgemont](/edgemont-plumbers-calgary/), so we understand the common issues that plague homes built during Calgary's growth boom.",
+            "Varsity's mature neighborhood means we deal with a lot of cast iron drain lines backing up, original copper supply lines showing their age, and builder-grade fixtures finally giving out after 30+ years. Our crew has also worked extensively in nearby NW communities like [Panorama Hills](/panorama-hills-plumbers-calgary/), [Edgemont](/edgemont-plumbers-calgary/), [Tuscany](/tuscany-plumbers-calgary/), and [Royal Oak](/royal-oak-plumbers-calgary/), so we understand the common issues that plague homes built during Calgary's growth boom.",
           items: [
             { heading: "Emergency plumbing repairs", body: "Burst pipes, sewer backups, no hot water — priority dispatch because disasters don't wait for business hours." },
             { heading: "Drain cleaning & unclogging", body: "Kitchen sinks, main lines, floor drains — [professional drain cleaning](/drain-cleaning-calgary/) to get water flowing again." },
