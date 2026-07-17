@@ -30,6 +30,7 @@ const plumbingLinks = [
   { label: "PolyB Replacement", href: "/polyb-plumbing-calgary/" },
   { label: "Plumbing Repairs", href: "/plumbing-repairs-calgary/" },
   { label: "Sump Pump Install", href: "/sump-pump-installation-calgary/" },
+  { label: "Backwater Valve", href: "/backwater-valve-installation-calgary/" },
 ];
 
 const heatingLinks = [

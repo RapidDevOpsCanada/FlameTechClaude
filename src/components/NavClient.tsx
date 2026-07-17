@@ -116,6 +116,12 @@ const menu: NavItem[] = [
               icon: "water_damage",
               desc: "Primary + backup, basement flood prevention.",
             },
+            {
+              label: "Backwater Valve Install",
+              href: "/backwater-valve-installation-calgary/",
+              icon: "water_damage",
+              desc: "Sewer-backup protection for your basement.",
+            },
           ],
         },
       ],

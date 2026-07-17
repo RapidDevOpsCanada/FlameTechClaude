@@ -1521,6 +1521,198 @@ export const services: ServicePage[] = [
     },
   },
   {
+    slug: "backwater-valve-installation-calgary",
+    category: "Plumbing",
+    location: "Calgary",
+    icon: "water_damage",
+    title: "Backwater Valve Installation in Calgary",
+    lead:
+      "A backwater valve is the one device that stops a city sewer backup from flooding your basement with sewage. When Calgary's sewers overload in a heavy storm or spring melt, the valve closes automatically and keeps what's in the main from coming back up your line. FlameTech installs and inspects them across Calgary — permit and inspection handled.",
+    heroBody: [
+      "This is not the same job as a [sump pump](/sump-pump-installation-calgary/). A sump pump handles groundwater seeping in through your foundation and weeping tile. A backwater valve handles the other flood risk entirely — municipal sewage pushed backward into your home when the city system can't keep up. Many Calgary homes, especially in the areas hit in June 2013, need both, and we assess and install both on the same visit.",
+      "The valve goes on your main sewer line, sits open so waste flows out normally, and snaps shut the instant sewer-side pressure tries to reverse. Installed right — accessible for the annual check, sealed to code, inspected by the City — it's the cheapest insurance there is against the single most destructive and disgusting way a basement floods.",
+      "Same-day assessments across Calgary and Airdrie. Real person answers the phone. Call 587-834-3668. [Monthly financing](/financing/) available on larger jobs.",
+    ],
+    heroSubhead: "Sewer-Backup Protection, Installed to Code",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech backwater valve installation in a Calgary basement", fit: "cover" },
+    intro:
+      "Backwater valve installation in Calgary — automatic sewer-backup protection for your basement. Permit and inspection handled, paired with sump systems where needed. Free assessment, written quote. Call 587-834-3668.",
+    features: [
+      "Backwater valve installation (main sewer line)",
+      "Sewer camera inspection before install",
+      "Retrofit into existing finished basements",
+      "Sump pump + backwater valve pairing",
+      "Permit + City inspection handled",
+      "Annual valve inspection + service",
+    ],
+    bullets: [
+      {
+        t: "Sewer backup, not groundwater",
+        d: "A backwater valve stops municipal sewage from reversing into your basement when the city main overloads. That's a different flood than groundwater — and it needs a different device. We'll tell you which risk (or both) your home actually faces before quoting anything.",
+      },
+      {
+        t: "Camera first, cut second",
+        d: "We scope the main sewer line before we install, so the valve goes in the right spot — accessible for its annual check, on sound pipe, at the correct fall. No guessing, no cutting the slab twice.",
+      },
+      {
+        t: "Permit + inspection handled",
+        d: "Backwater valve installs in Calgary require a plumbing permit and a City inspection. We pull the permit and book the inspection as part of the job — it's not something you chase.",
+      },
+      {
+        t: "We install it so it can be serviced",
+        d: "A backwater valve is only protection if it still closes when it matters. We install with an accessible cover so the flapper and seal can be checked yearly, and we do that inspection for you.",
+      },
+    ],
+    seoTitle: "Backwater Valve Installation Calgary | Sewer Backup Protection",
+    seoDescription:
+      "Backwater valve installation in Calgary — automatic sewer-backup protection for your basement. Permit and inspection handled, sump pairing available. Call 587-834-3668.",
+    seoKeywords: [
+      "backwater valve installation Calgary",
+      "backwater valve Calgary",
+      "sewer backup prevention Calgary",
+      "backflow valve Calgary basement",
+      "backwater valve cost Calgary",
+      "mainline backwater valve",
+      "FlameTech Plumbing Heating",
+    ],
+    quoteFormLabel: "backwater valve",
+    quoteFormPlaceholder:
+      "e.g. basement flooded with sewage in a storm, want sewer-backup protection, insurer asking about a backwater valve, pairing with a sump pump…",
+    sidebar: {
+      title: "Calgary Backwater Valve Install",
+      subtitle:
+        "Automatic sewer-backup protection for your basement — scoped, installed to code, and inspected. Paired with sump systems where both risks apply.",
+      bullets: [
+        "Sewer camera before install",
+        "Permit + City inspection handled",
+        "Sump pump pairing available",
+        "Annual inspection + service",
+      ],
+    },
+    stats: [
+      { number: "25+", label: "Years in Calgary", icon: "verified" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "Permit", label: "+ inspection handled", icon: "check_circle" },
+      { number: "Free", label: "On-site assessment", icon: "request_quote" },
+    ],
+    financing: {
+      detail:
+        "Spread the cost of a backwater valve retrofit into flexible monthly payments via our Financeit partner.",
+    },
+    callout:
+      "Basement flooded with sewage in a Calgary storm — or want to make sure it never does? Call 587-834-3668 for a backwater valve assessment.",
+    timeline: {
+      heading: "How a backwater valve install runs",
+      intro:
+        "The device is simple. Putting it in the right place, on sound pipe, so it works for twenty years and can still be inspected — that's the part worth doing properly.",
+      steps: [
+        { icon: "request_quote", title: "Assess the real risk", body: "We work out which flood you're actually exposed to. Sewer backup (city main reversing) needs a backwater valve; groundwater (foundation seepage) needs a [sump system](/sump-pump-installation-calgary/); plenty of Calgary homes have both risks. We won't sell you a valve for a problem you don't have." },
+        { icon: "drain_camera", title: "Camera the sewer line", body: "We scope the main line to find the right location for the valve — accessible for its annual check, on sound pipe, at the correct fall. This also catches any existing sewer-line problems before they're buried under a new valve." },
+        { icon: "build", title: "Install + permit + inspection", body: "We cut in the valve on the main sewer line, seal it to Alberta plumbing code, and set it with an accessible cover. The plumbing permit and the City inspection are ours to handle." },
+        { icon: "verified", title: "Show you how it works", body: "We walk you through the access cover, how the flapper seals, and what the annual check looks for — then book that first inspection so the valve is still protecting you years from now." },
+      ],
+    },
+    richContent: {
+      sections: [
+        {
+          heading: "What a Backwater Valve Actually Does",
+          intro:
+            "It's a one-way gate on your main sewer line. Understanding that one idea tells you everything about when you need one.",
+          items: [
+            { heading: "Normally open", body: "In everyday use the valve sits open and your household waste flows out to the city sewer exactly as it always has. You'd never know it's there." },
+            { heading: "Closes on reverse flow", body: "When the municipal sewer overloads — a heavy storm, rapid snowmelt, a main downstream that can't keep up — sewage tries to flow backward, toward your house. The valve's flapper snaps shut against that reverse flow and holds the line closed until the pressure drops." },
+            { heading: "What it protects against", body: "The worst basement flood there is: raw municipal sewage backing up through your floor drains, laundry standpipe, and lowest fixtures. It's destructive, it's a biohazard, and cleanup and replacement of finished space runs into serious money. The valve is the defence." },
+            { heading: "What it does not do", body: "It does nothing about groundwater seeping through your foundation walls or weeping tile — that's the sump pump's job. If your basement gets damp or floods without any sewage involved, you need a [sump system](/sump-pump-installation-calgary/), not (or as well as) a backwater valve." },
+          ],
+        },
+        {
+          heading: "Why Calgary Basements Need This",
+          intro:
+            "Sewer backup isn't a rare freak event here — Calgary's hydrology and infrastructure make it a live risk for a lot of homes.",
+          items: [
+            { body: "The June 2013 flood put sewer backup on every Calgary homeowner's radar. A great many homes in the affected SE and inner-city areas did backwater valve retrofits afterward, and it remains the City's front-line recommendation for basement flood protection." },
+            { body: "Calgary's clay soil drains slowly and chinooks can melt a snowpack in a day or two, so spring runoff and sudden storms dump water into the sewer system faster than it can move it. That's exactly the condition that pushes a main into reverse." },
+            { body: "Older inner-city neighbourhoods sit on aging sewer lines, some on combined storm-and-sanitary systems where a big rain overwhelms the whole line at once — the highest-risk setup for a backup." },
+            { body: "Insurers increasingly ask about backwater valves, and some tie sewer-backup coverage or premiums to having one. If your insurer has raised it, that's a strong signal your address carries the risk." },
+            { body: "The City of Calgary has run flood-protection incentive programs in the past that included backwater valve retrofits. Eligibility and amounts change, so check the current program on calgary.ca before you count on it — we'll point you to it, but we won't quote a rebate figure that might be out of date." },
+          ],
+        },
+        {
+          heading: "Backwater Valve or Sump Pump? (You Might Need Both)",
+          intro:
+            "This is the question we field most, and getting it right saves you from paying for the wrong protection. The two devices solve two completely different floods.",
+          items: [
+            { heading: "Backwater valve = sewer backup", body: "Protects against municipal sewage reversing into your home through the main sewer line when the city system overloads. The water comes up through floor drains and low fixtures. The fix is a one-way valve on the main line." },
+            { heading: "Sump pump = groundwater", body: "Protects against groundwater rising through your foundation and weeping tile — the water that collects in a sump pit and has to be pumped out and away from the house. See our [sump pump installation](/sump-pump-installation-calgary/) page for that side." },
+            { heading: "How to tell which you had", body: "If the water that flooded you was clean-ish and came up around the floor or foundation, that's groundwater — a sump problem. If it was foul, came up through a floor drain, and coincided with a big storm hitting the whole neighbourhood, that's a sewer backup — a backwater valve problem." },
+            { heading: "Many Calgary homes need both", body: "Groundwater and sewer backup are independent risks, and plenty of properties — particularly in the post-2013 retrofit areas — face both. We assess both on one visit, quote each separately, and install them together so you're not paying for two mobilizations." },
+          ],
+        },
+        {
+          heading: "Retrofitting Into a Finished Basement",
+          intro:
+            "Most Calgary backwater valve installs aren't new builds — they're retrofits into homes that have already flooded once, or homeowners getting ahead of it. That changes the job.",
+          items: [
+            { body: "The valve has to go on the main sewer line, which usually runs under the basement slab. A retrofit means cutting and lifting a section of concrete, installing the valve, backfilling, and patching the slab — more involved than a new build where the line is still exposed." },
+            { body: "Location matters more than in a new build. We use the camera to place the valve where it's genuinely accessible for its annual inspection, not just wherever the slab is easiest to open. A valve you can't service is a valve you can't trust." },
+            { body: "We contain the mess and the dust as much as a slab cut allows, and we leave you with a clean, code-compliant access cover — not a rough patch you have to live with." },
+            { body: "If the basement has already flooded, we scope the whole sewer line while we're in there. A backup sometimes exposes an underlying line problem (roots, a bad joint, a sag) that's worth knowing about before the new valve is buried over it." },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Calgary Backwater Valve FAQs",
+        items: [
+          {
+            q: "What does a backwater valve cost to install in Calgary?",
+            a: "It depends mostly on access. Installing into an exposed line during a renovation is the cheaper end; retrofitting into a finished basement — cutting the slab, installing, backfilling, patching, permit, and inspection — is a bigger job.\n\nWe don't quote it over the phone, because the number turns on what the camera finds and how your basement is built. We come out, scope the line, and give you a written quote with the full scope in it. [Financing](/financing/) is available if you'd rather spread a retrofit over monthly payments.",
+          },
+          {
+            q: "What's the difference between a backwater valve and a sump pump?",
+            a: "They protect against two different floods.\n\nA **backwater valve** stops municipal **sewage** from reversing into your basement through the main sewer line when the city system overloads in a storm or melt. The water comes up through floor drains and low fixtures, and it's foul.\n\nA **sump pump** handles **groundwater** — clean-ish water seeping through your foundation and weeping tile, which collects in a pit and gets pumped away. See our [sump pump installation](/sump-pump-installation-calgary/) page.\n\nThey're independent risks, and a lot of Calgary homes — especially in the post-2013 areas — need both. We assess and install both on one visit.",
+          },
+          {
+            q: "Do I actually need a backwater valve?",
+            a: "You're a strong candidate if any of these apply: your basement has ever backed up with sewage during a storm; you're in an inner-city or SE area hit in the 2013 flood; your home is on an older combined storm-and-sanitary sewer; or your insurer has asked whether you have one.\n\nThe honest test is what kind of water you're exposed to. If the risk is the city sewer reversing into your home, a backwater valve is the answer. If it's groundwater, that's a sump pump. We'll assess which — or both — before recommending anything, and we won't sell you a valve for a problem you don't have.",
+          },
+          {
+            q: "How does a backwater valve work?",
+            a: "It's a one-way gate on your main sewer line. In normal use it sits open and your waste flows out to the city sewer as usual.\n\nWhen the municipal sewer overloads and sewage tries to flow backward toward your house, the pressure pushes the valve's flapper closed. It seals the line against the reverse flow and holds until the sewer-side pressure drops, then reopens on its own. No power, no electronics — it's mechanical, which is exactly why it's reliable when the storm has also knocked out your power.",
+          },
+          {
+            q: "Do I need a permit for a backwater valve in Calgary?",
+            a: "Yes. Installing a backwater valve on your sewer line in Calgary requires a plumbing permit and a City inspection. FlameTech pulls the permit and books the inspection as part of the job — you don't need to deal with the City yourself.",
+          },
+          {
+            q: "Does a backwater valve need maintenance?",
+            a: "Yes, and it's the part most people forget. The flapper and seal need to be checked and cleared roughly once a year — debris or a worn seal can stop the valve closing fully, and a valve that doesn't close is no protection at all.\n\nThat's why we install with an accessible cover and do the annual inspection for you. A backwater valve you can't get to, or never check, is a false sense of security.",
+          },
+          {
+            q: "Is there a City of Calgary rebate for backwater valves?",
+            a: "The City has run flood-protection incentive programs in the past that included backwater valve retrofits, but eligibility and amounts change from year to year.\n\nRather than quote you a figure that might be out of date, we'll point you to the current program on calgary.ca so you can check what's actually available for your address today. Your home insurer is also worth asking — some offer premium considerations for having a valve installed.",
+          },
+          {
+            q: "Can you install a backwater valve if my basement is already finished?",
+            a: "Yes — most of our Calgary installs are exactly that. The valve goes on the main sewer line under the slab, so a finished-basement retrofit means cutting and lifting a section of concrete, installing the valve, backfilling, and patching, with a clean access cover left for the annual check.\n\nIt's more involved than a new build, but it's routine work for us. We scope the line first with a camera to place the valve where it can actually be serviced, and we contain the dust and mess as much as a slab cut allows.",
+          },
+        ],
+      },
+    },
+    hubLinks: {
+      eyebrow: "Basement flood protection",
+      heading: "Protect the whole basement.",
+      intro:
+        "Sewer backup is one of two flood risks. These pages cover the rest — and if you're not sure which you have, call 587-834-3668.",
+      items: [
+        { label: "Sump Pump Installation", href: "/sump-pump-installation-calgary/", summary: "The other half — groundwater protection: primary pumps, battery backup, discharge routing.", icon: "water_damage", highlight: true, badge: "Often paired" },
+        { label: "Emergency Plumbing", href: "/emergency-plumber-calgary/", summary: "Actively flooding right now? Priority same-day dispatch for backups and burst lines.", icon: "contact_emergency", highlight: true, badge: "Same-day dispatch" },
+        { label: "Drain Cleaning", href: "/drain-cleaning-calgary/", summary: "Recurring backups from roots or blockages — camera inspection and clearing before it floods.", icon: "drain_camera" },
+        { label: "Basement Floods Every Time It Rains", href: "/blog/basement-floods-every-time-it-rains-calgary/", summary: "The five Calgary causes of a wet basement, diagnosed cheapest-first before you spend a dollar.", icon: "water_damage" },
+      ],
+    },
+  },
+  {
     slug: "sump-pump-installation-calgary",
     category: "Plumbing",
     icon: "water_damage",
@@ -1560,7 +1752,7 @@ export const services: ServicePage[] = [
       },
       {
         t: "Backwater valve pairing where it matters",
-        d: "Sump pumps handle groundwater; backwater valves handle municipal sewer backup. Many SE Calgary properties (post-2013 retrofit zone) benefit from both — we install and inspect both during the same visit.",
+        d: "Sump pumps handle groundwater; [backwater valves](/backwater-valve-installation-calgary/) handle municipal sewer backup. Many SE Calgary properties (post-2013 retrofit zone) benefit from both — we install and inspect both during the same visit.",
       },
     ],
     seoTitle: "Sump Pump Installation Calgary | Battery Backup",
@@ -1705,7 +1897,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "What's the difference between a sump pump and a backwater valve?",
-            a: "Different problems. Sump pump handles GROUNDWATER coming through your foundation walls and weeping tile. Backwater valve handles MUNICIPAL SEWER BACKUP — when city sewers overload and try to push sewage back into your home through floor drains and basement fixtures. Calgary's 2013 flood drove home that you need both for properties at risk. We can install one or both depending on what your home actually needs.",
+            a: "Different problems. Sump pump handles GROUNDWATER coming through your foundation walls and weeping tile. A [backwater valve](/backwater-valve-installation-calgary/) handles MUNICIPAL SEWER BACKUP — when city sewers overload and try to push sewage back into your home through floor drains and basement fixtures. Calgary's 2013 flood drove home that you need both for properties at risk. We can install one or both depending on what your home actually needs.",
           },
           {
             q: "Should the discharge tie into the storm drain or just dump on the lawn?",

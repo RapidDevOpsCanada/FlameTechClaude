@@ -23,6 +23,7 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
   "polyb-plumbing-calgary": "Plumbing",
   "plumbing-repairs-calgary": "Plumbing",
   "sump-pump-installation-calgary": "Plumbing",
+  "backwater-valve-installation-calgary": "Plumbing",
   "boiler-installation-calgary": "Heating",
   "combi-boiler-installation-calgary": "Heating",
   "boiler-repair-calgary": "Heating",
