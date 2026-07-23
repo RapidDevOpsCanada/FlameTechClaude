@@ -7947,7 +7947,7 @@ export const services: ServicePage[] = [
       "When plumbing problems strike your Airdrie home or business, you need reliable professionals who respond quickly and get the job done right. FlameTech Plumbing delivers exceptional plumbing services throughout Airdrie and surrounding areas, combining technical expertise with honest, transparent service.",
     heroBody: [
       "As a locally-operated plumbing company serving Airdrie, we understand the unique challenges Alberta's climate and infrastructure present — frozen pipes during cold snaps, [hot water tank](/hot-water-tanks-airdrie/) failures, [emergency leaks](/emergency-plumber-calgary/), and aging [Poly-B piping](/polyb-plumbing-calgary/) on 80s-90s builds in Ravenswood, Reunion, and Coopers Crossing.",
-      "We also cover heating and cooling: [furnace repair](/airdrie-furnace-repairs/), [boiler installation](/boiler-installation-airdrie/), [boilers](/boilers-airdrie/), [heat pumps](/heat-pumps-airdrie/), [air conditioning](/air-conditioning-airdrie/), and [water softeners](/water-softener-airdrie/) for hard-water homes. Call 587-834-3668 for fast, reliable plumbing or heating service in Airdrie.",
+      "We also cover heating and cooling: [furnace installation](/furnace-installation-airdrie/), [furnace repair](/airdrie-furnace-repairs/), [boiler installation](/boiler-installation-airdrie/), [boilers](/boilers-airdrie/), [heat pumps](/heat-pumps-airdrie/), [air conditioning](/air-conditioning-airdrie/), and [water softeners](/water-softener-airdrie/) for hard-water homes. Call 587-834-3668 for fast, reliable plumbing or heating service in Airdrie.",
     ],
     heroSubhead: "Trusted Airdrie Plumbing Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
@@ -8050,6 +8050,193 @@ export const services: ServicePage[] = [
   },
 
   {
+    slug: "furnace-installation-airdrie",
+    category: "Heating",
+    location: "Airdrie",
+    icon: "local_fire_department",
+    title: "Furnace Installation in Airdrie",
+    lead:
+      "A furnace sized for Airdrie isn't a furnace sized for Calgary. We sit higher and more exposed on open prairie, and the constant wind pulls heat off a house faster than a still −35°C night ever will. FlameTech sizes and installs furnaces for that real-world exposure — not a generic square-footage rule of thumb — and handles the gas, venting, permit, and inspection start to finish.",
+    heroBody: [
+      "This is our furnace installation and replacement page for Airdrie. If your furnace is broken and you want it fixed rather than replaced, start at [Airdrie furnace repair](/airdrie-furnace-repairs/) — we'll always tell you honestly when a repair is the smarter spend.",
+      "A lot of Airdrie's housing stock went up in the last 20-25 years — Coopers Crossing, Ravenswood, Reunion, Kings Heights, Williamstown, Edwards Landing — which means a wave of original builder-grade furnaces is now reaching the end of its life. When yours is ready to be replaced, we run a proper heat-loss calculation against Airdrie's −35°C design temperature and prairie exposure, then install a high-efficiency unit built to handle it.",
+      "Free on-site assessment and written quote across Airdrie. Real person answers the phone. Call 587-834-3668. [Monthly financing](/financing/) available via Financeit.",
+    ],
+    heroSubhead: "Sized for Prairie Wind, Not a Generic Spec",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech furnace installation in an Airdrie home", fit: "cover" },
+    intro:
+      "Furnace installation and replacement in Airdrie — high-efficiency units sized for −35°C and prairie wind exposure. Gas, venting, permit, and inspection handled. Free written on-site estimate. Call 587-834-3668.",
+    features: [
+      "Furnace installation + full replacement",
+      "High-efficiency condensing units (95%+ AFUE)",
+      "Heat-loss sizing for Airdrie's wind exposure",
+      "Gas line + venting + condensate",
+      "Permit + inspection handled",
+      "Every major brand installed",
+    ],
+    bullets: [
+      {
+        t: "Sized for exposure, not just the number",
+        d: "Airdrie shares Calgary's −35°C design temperature, but sitting on open prairie means more wind and less shelter — and wind strips heat off a building faster than still air at the same temperature. We size for that real-world heat loss, because an undersized furnace runs flat out on the coldest, windiest nights and never quite catches up.",
+      },
+      {
+        t: "First-generation furnaces are aging out",
+        d: "Much of Airdrie was built in the 2000s and 2010s, so the original builder-grade furnaces are now hitting 15-25 years — the window where the repair-or-replace math starts favouring replacement. We give you an honest read on which side of that line yours is on.",
+      },
+      {
+        t: "The whole job, done properly",
+        d: "Heat-loss calc, the right-sized high-efficiency unit, gas line and venting, condensate routed to drain, plus the permit and City inspection. Commissioned and walked through before we leave.",
+      },
+      {
+        t: "Repair or replace, told straight",
+        d: "If your furnace has years left and just needs a part, we'll say so and point you to [furnace repair](/airdrie-furnace-repairs/). We don't sell a replacement when a repair is the right call.",
+      },
+    ],
+    seoTitle: "Furnace Installation Airdrie | High-Efficiency Replacement",
+    seoDescription:
+      "Furnace installation and replacement in Airdrie — high-efficiency units sized for −35°C and prairie wind. Gas, venting, permit handled. Free estimate. Call 587-834-3668.",
+    seoKeywords: [
+      "furnace installation Airdrie",
+      "furnace replacement Airdrie",
+      "new furnace Airdrie",
+      "high-efficiency furnace Airdrie",
+      "furnace installer Airdrie",
+      "Airdrie HVAC furnace",
+      "FlameTech Plumbing Heating",
+    ],
+    quoteFormLabel: "furnace install",
+    quoteFormPlaceholder:
+      "e.g. original builder furnace at 20 years, want a high-efficiency upgrade, furnace beyond repair, new build or addition…",
+    sidebar: {
+      title: "Airdrie Furnace Installation",
+      subtitle:
+        "High-efficiency furnace installs and replacements, sized for Airdrie's −35°C design temp and prairie wind exposure.",
+      bullets: [
+        "Heat-loss calc, not a rule of thumb",
+        "Gas + venting + permit handled",
+        "Every major brand installed",
+        "Free written on-site estimate",
+      ],
+    },
+    stats: [
+      { number: "25+", label: "Years in the trade", icon: "verified" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "95%+", label: "AFUE efficiency", icon: "award" },
+      { number: "Free", label: "On-site estimate", icon: "request_quote" },
+    ],
+    financing: {
+      detail:
+        "Spread the cost of your new Airdrie furnace into flexible monthly payments via our Financeit partner.",
+    },
+    callout:
+      "Furnace at end of life in Airdrie? Call 587-834-3668 for a free heat-loss assessment and written quote — sized for prairie wind, not a generic spec.",
+    timeline: {
+      heading: "How an Airdrie furnace install runs",
+      intro:
+        "A furnace sized or vented wrong costs you for the next 20 years. Here's how we keep that from happening.",
+      steps: [
+        { icon: "request_quote", title: "On-site heat-loss assessment", body: "We measure square footage, insulation, windows, ceiling heights, and how exposed your lot is — then run a Manual J calc against Airdrie's −35°C design temperature and prairie wind exposure. No guessing from the old unit's size, which may have been wrong to begin with." },
+        { icon: "build", title: "Quote + permit in writing", body: "You get the model, the AFUE rating, the gas and venting scope, and the all-in price before anything starts. The gas permit and City inspection are ours to handle." },
+        { icon: "handyman", title: "Install + gas, vent, condensate", body: "Old furnace removed, new high-efficiency unit set, gas line and venting run or upgraded as needed, condensate routed to a drain. A straight replacement is usually a single day." },
+        { icon: "verified", title: "Commission + walkthrough", body: "Combustion analysis, airflow and temperature-rise check, thermostat paired, and a walk-through of the controls. We register the warranty and leave you with a system sized for the worst Airdrie can throw at it." },
+      ],
+    },
+    richContent: {
+      sections: [
+        {
+          heading: "Why an Airdrie Furnace Needs Different Sizing",
+          intro:
+            "This is the part most quotes skip, and it's the one that decides whether your furnace keeps up on the worst night of the year.",
+          items: [
+            { body: "Airdrie and Calgary share roughly the same −35°C design temperature, but the number alone undersells Airdrie. Sitting north of the city on open prairie at higher elevation, Airdrie is windier year-round and has far less of the built-up shelter that Calgary neighbourhoods enjoy." },
+            { body: "Wind is the reason it matters. Moving air strips heat off a building envelope far faster than still air at the same temperature — the same reason a −35°C night with a stiff wind feels brutal compared to a calm one. Real-world heat loss in Airdrie runs higher than the design temperature by itself suggests." },
+            { body: "A furnace sized off a generic square-footage chart, or simply matched to whatever the builder installed, is often undersized for that exposure. It runs flat out on the coldest, windiest nights and still can't hold the setpoint — the classic \"my furnace runs constantly but the house is cold\" complaint." },
+            { body: "We size for the exposure, not just the number. Sometimes that means recommending a bit more output than a chart would, and we'd rather have that conversation at the quote than have you cold in January." },
+          ],
+        },
+        {
+          heading: "Is It Time to Replace, or Just Repair?",
+          intro:
+            "Not every furnace problem is a replacement. Here's the honest framework — and if the answer is repair, we'll point you to the right page.",
+          items: [
+            { heading: "Under about 12 years, single fault", body: "Usually repair. A furnace that age with a failed igniter, flame sensor, or capacitor has years of life left. That's a job for our [Airdrie furnace repair](/airdrie-furnace-repairs/) team, not a new install." },
+            { heading: "Over 18-20 years, major failure", body: "Strongly consider replacement. Putting an expensive part — an ECM blower motor, a control board — into a furnace whose other original components are all the same age is money poorly spent, because the next failure is already coming." },
+            { heading: "A cracked heat exchanger, any age", body: "Replace. A cracked exchanger can leak carbon monoxide into your home's air, there's no safe repair for it, and no honest technician patches one. We scope it and show you before we recommend anything." },
+            { heading: "Rising bills on an aging unit", body: "A tired furnace burns more gas to deliver the same heat. Replacing a 20-year-old unit at 70-80% efficiency with a modern 95%+ condensing furnace meaningfully cuts what you burn across Airdrie's long heating season." },
+          ],
+        },
+        {
+          heading: "What Drives the Cost of a Furnace Install in Airdrie",
+          intro:
+            "We quote furnaces on-site and in writing, at no charge — a number given over the phone is a number that changes on install day. Here's what actually moves the price, so you can read any quote and know what you're comparing.",
+          items: [
+            { heading: "Efficiency tier and output", body: "An entry single-stage unit and a premium modulating one with a variable-speed blower are different appliances at different prices. The output you need comes from the heat-loss calc and your lot's exposure, not from the badge on the old furnace." },
+            { heading: "Straight swap or reworked install", body: "Dropping a new furnace into a compatible existing setup is the cheapest version of the job. Re-working plenums, adding returns, or fixing undersized ductwork that was never right is a different scope." },
+            { heading: "Venting and gas", body: "Some homes need a chimney liner or a new sidewall vent run before a condensing furnace can go in, and a gas line sized for an older unit may need upsizing. We check both at quote time rather than discovering them mid-install." },
+            { heading: "Free written estimate, and financing", body: "We come out, run the heat-loss calc, look at your ducts, venting, and gas line, and give you the model, the AFUE rating, the full scope, and the all-in price in writing at no charge. [Monthly financing](/financing/) is available via Financeit." },
+          ],
+        },
+        {
+          heading: "Brands, Warranties, and Rebates",
+          items: [
+            { heading: "Every major brand installed", body: "We install AirEase, Carrier, Lennox, Trane, Goodman, and the other major brands sold in Alberta. We recommend by what fits your home and budget, not by a single-dealer relationship — and we register the manufacturer warranty on every install." },
+            { heading: "Warranty done right", body: "Manufacturer warranties depend on registration within the required window and documented annual maintenance. We handle the registration and set you up so the coverage actually holds if you ever need it." },
+            { heading: "Greener Homes financing", body: "The Canada Greener Homes Grant was retired in early 2024 and replaced by the [Canada Greener Homes Loan](https://natural-resources.canada.ca/energy-efficiency/homes/canada-greener-homes-initiative) — an interest-free loan for qualifying high-efficiency upgrades. It spreads the cost rather than reducing it. Check the current terms directly, since program details change." },
+            { heading: "Hard-water note", body: "Airdrie shares the region's hard water, which is rougher on water heaters than furnaces — but if you're already opening up the mechanical room for a furnace install, it's a sensible time to talk about a [water softener](/water-softener-airdrie/) to protect the rest of the system." },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Airdrie Furnace Installation FAQs",
+        items: [
+          {
+            q: "How much does a new furnace cost in Airdrie?",
+            a: "It depends on the efficiency tier, the output your home actually needs, and what's already in your mechanical room — and we won't quote it over the phone, because a number given sight-unseen changes on install day.\n\nThe main variables: the unit itself (entry single-stage through premium modulating), whether it's a straight swap or the ductwork needs rework, and whether the venting or gas line has to change.\n\nWe come out, run the heat-loss calc against Airdrie's −35°C design temperature and wind exposure, and give you the model, the AFUE rating, the full scope, and the all-in price in writing at no charge. [Financing](/financing/) is available to spread the cost.",
+          },
+          {
+            q: "Why does furnace sizing matter more in Airdrie than in Calgary?",
+            a: "Same design temperature, harsher real conditions. Airdrie sits north of Calgary on open prairie at higher elevation — windier year-round, with far less of the built-up shelter Calgary neighbourhoods have.\n\nWind strips heat off a building faster than still air at the same temperature, so real-world heat loss in Airdrie runs higher than the −35°C number alone suggests. A furnace sized off a generic chart is often undersized for that exposure and runs flat out on the coldest, windiest nights without holding the setpoint.\n\nWe size for the exposure, which sometimes means a bit more output than a chart would call for.",
+          },
+          {
+            q: "Should I repair my furnace or replace it?",
+            a: "Age and the nature of the fault decide it. Under about 12 years with a single failed part — igniter, flame sensor, capacitor — repair it; the furnace has years left, and that's a job for our [Airdrie furnace repair](/airdrie-furnace-repairs/) team.\n\nOver 18-20 years with a major failure like an ECM blower motor or control board, replacement is usually the smarter spend, because the rest of the unit is the same age. And a cracked heat exchanger means replacement at any age — it's a carbon monoxide safety issue, not a cost calculation.\n\nWe'll assess yours and tell you straight which side of the line it's on.",
+          },
+          {
+            q: "How long does a furnace installation take?",
+            a: "A straight replacement is usually a single day, roughly 6-10 hours. Installs that need a gas line upsize, a new vent run, or ductwork changes can run into a second day.\n\nWe give you the timeline in writing with the quote, and we don't leave an Airdrie home without heat overnight in winter.",
+          },
+          {
+            q: "Do I need a permit to install a furnace in Airdrie?",
+            a: "Yes. Furnace installations require a permit and an inspection. FlameTech pulls the permit and books the inspection as part of the job — it's not something you need to chase.",
+          },
+          {
+            q: "What efficiency furnace should I install in Airdrie?",
+            a: "For a long, cold, windy heating season, a high-efficiency condensing furnace (95%+ AFUE) almost always pencils out. It extracts extra heat from exhaust gases that an older 70-80% unit sends up the vent, and across Airdrie's seven-month heating season the gas savings add up.\n\nWithin the high-efficiency tier, single-stage, two-stage, and modulating units trade upfront cost for comfort and efficiency. We walk you through which fits your home and how long you plan to stay, then size it for your lot's exposure.",
+          },
+          {
+            q: "Do you install furnaces in new builds and additions in Airdrie?",
+            a: "Yes — new installs, full replacements, and additions. For a new build or addition the heat-loss calc is even more important, since there's no existing system to reference, and we size against Airdrie's design temperature and exposure from the plans and the finished envelope.",
+          },
+        ],
+      },
+    },
+    hubLinks: {
+      eyebrow: "Airdrie heating",
+      heading: "The rest of your Airdrie heating options.",
+      intro:
+        "Furnace is one path. If you just need a repair, or you're weighing other systems, start here.",
+      items: [
+        { label: "Airdrie Furnace Repair", href: "/airdrie-furnace-repairs/", summary: "Furnace broken, not beyond saving? Diagnosis and same-day repair before you replace.", icon: "handyman", highlight: true, badge: "Repair first" },
+        { label: "Heat Pumps Airdrie", href: "/heat-pumps-airdrie/", summary: "Cold-climate and hybrid dual-fuel — worth comparing against a furnace-only replacement.", icon: "ac_unit" },
+        { label: "Boiler Installation Airdrie", href: "/boiler-installation-airdrie/", summary: "Homes on hydronic heat — boiler install and replacement, sized for prairie exposure.", icon: "boiler_unit" },
+        { label: "Garage Heaters Airdrie", href: "/garage-heaters-airdrie/", summary: "Gas, radiant tube, and electric garage heating sized for Airdrie winters.", icon: "local_fire_department" },
+        { label: "Air Conditioning Airdrie", href: "/air-conditioning-airdrie/", summary: "Pairing AC with a new furnace? Matched-system install while the mechanical room is open.", icon: "ac_unit" },
+      ],
+    },
+  },
+
+  {
     slug: "airdrie-furnace-repairs",
     category: "Heating",
     location: "Airdrie",
@@ -8059,7 +8246,7 @@ export const services: ServicePage[] = [
       "When your furnace stops working in Airdrie, you need help fast. FlameTech Plumbing & Heating delivers priority furnace repair services throughout Airdrie and surrounding communities, ensuring your family stays warm when it matters most.",
     heroBody: [
       "Our certified heating technicians specialise in diagnosing and repairing all furnace makes and models found in Airdrie homes. From minor fixes to major component replacements, we bring the expertise and parts needed to restore your heat quickly and correctly. We cover [Airdrie plumbing](/airdrie-plumbers/), [boiler installation](/boiler-installation-airdrie/), and [boilers](/boilers-airdrie/) too — one team, one call.",
-      "Serving Airdrie's established neighborhoods and new developments alike, we're proud members of the [AirEase Pro Team](https://www.airease.com/). Need a full furnace replacement? Compare entry, mid, and premium tiers on our Calgary [furnaces](/furnaces/) and [high-efficiency furnaces](/high-efficiency-furnaces-calgary/) pages — same equipment, same pricing in Airdrie.",
+      "Serving Airdrie's established neighborhoods and new developments alike, we're proud members of the [AirEase Pro Team](https://www.airease.com/). Need a full furnace replacement? See our [Airdrie furnace installation](/furnace-installation-airdrie/) page — sized for prairie exposure — or compare tiers on our Calgary [furnaces](/furnaces/) and [high-efficiency furnaces](/high-efficiency-furnaces-calgary/) pages.",
     ],
     heroSubhead: "Emergency Service Available",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },

@@ -74,6 +74,7 @@ const companyLinks = [
 
 const airdrieLinks = [
   { label: "Airdrie Plumbers", href: "/airdrie-plumbers/" },
+  { label: "Furnace Installation", href: "/furnace-installation-airdrie/" },
   { label: "Airdrie Furnace Repair", href: "/airdrie-furnace-repairs/" },
   { label: "Air Conditioning", href: "/air-conditioning-airdrie/" },
   { label: "Boilers Airdrie", href: "/boilers-airdrie/" },
