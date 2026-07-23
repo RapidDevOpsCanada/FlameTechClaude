@@ -53,6 +53,8 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
   "airdrie-plumbers": "Plumbing",
   "furnace-installation-airdrie": "Heating",
   "airdrie-furnace-repairs": "Heating",
+  "water-heater-repair-airdrie": "Water",
+  "air-conditioning-repair-airdrie": "Air",
   "air-conditioning-airdrie": "Air",
   "drain-cleaning-airdrie": "Plumbing",
   "polyb-plumbing-airdrie": "Plumbing",

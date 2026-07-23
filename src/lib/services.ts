@@ -7947,7 +7947,7 @@ export const services: ServicePage[] = [
       "When plumbing problems strike your Airdrie home or business, you need reliable professionals who respond quickly and get the job done right. FlameTech Plumbing delivers exceptional plumbing services throughout Airdrie and surrounding areas, combining technical expertise with honest, transparent service.",
     heroBody: [
       "As a locally-operated plumbing company serving Airdrie, we understand the unique challenges Alberta's climate and infrastructure present — frozen pipes during cold snaps, [hot water tank](/hot-water-tanks-airdrie/) failures, [emergency leaks](/emergency-plumber-calgary/), and aging [Poly-B piping](/polyb-plumbing-calgary/) on 80s-90s builds in Ravenswood, Reunion, and Coopers Crossing.",
-      "We also cover heating and cooling: [furnace installation](/furnace-installation-airdrie/), [furnace repair](/airdrie-furnace-repairs/), [boiler installation](/boiler-installation-airdrie/), [boilers](/boilers-airdrie/), [heat pumps](/heat-pumps-airdrie/), [air conditioning](/air-conditioning-airdrie/), and [water softeners](/water-softener-airdrie/) for hard-water homes. Call 587-834-3668 for fast, reliable plumbing or heating service in Airdrie.",
+      "We also cover heating and cooling: [furnace installation](/furnace-installation-airdrie/), [furnace repair](/airdrie-furnace-repairs/), [boiler installation](/boiler-installation-airdrie/), [boilers](/boilers-airdrie/), [heat pumps](/heat-pumps-airdrie/), [air conditioning](/air-conditioning-airdrie/), [AC repair](/air-conditioning-repair-airdrie/), [water heater repair](/water-heater-repair-airdrie/), and [water softeners](/water-softener-airdrie/) for hard-water homes. Call 587-834-3668 for fast, reliable plumbing or heating service in Airdrie.",
     ],
     heroSubhead: "Trusted Airdrie Plumbing Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
@@ -9312,7 +9312,7 @@ export const services: ServicePage[] = [
     heroBody: [
       "We're based in Calgary but keep our service vehicles stocked and ready for fast dispatch to Airdrie. No waiting days for parts or scheduling weeks out — we answer the phone with priority dispatch and can usually get a new tank installed same day. See our broader [hot water tanks](/hot-water-tanks/) and [tank replacement](/hot-water-tank-replacement-calgary/) pages for full scope.",
       "Our certified hot water specialists have been handling tank installations and repairs across Airdrie's communities for over two decades. We stock the most common 40 and 50-gallon [Bradford White](https://www.bradfordwhite.com/) tanks on our trucks and know which models hold up best against Airdrie's mineral-heavy water.",
-      "Considering [tankless](/tankless-water-heaters/) or a [water softener](/water-softener-airdrie/) instead? Read the tankless vs tank comparison before deciding — Calgary and Airdrie share the same hard-water profile so the analysis applies directly.",
+      "Water heater acting up rather than needing replacement? See [Airdrie water heater repair](/water-heater-repair-airdrie/). Considering [tankless](/tankless-water-heaters/) or a [water softener](/water-softener-airdrie/) instead? Read the tankless vs tank comparison before deciding — Calgary and Airdrie share the same hard-water profile so the analysis applies directly.",
     ],
     heroSubhead: "Trusted Airdrie Hot Water Tank Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
@@ -9901,6 +9901,354 @@ export const services: ServicePage[] = [
     },
   },
   {
+    slug: "water-heater-repair-airdrie",
+    category: "Water",
+    location: "Airdrie",
+    icon: "handyman",
+    title: "Water Heater Repair in Airdrie",
+    lead:
+      "Water heater repair across Airdrie on gas, electric, and tankless units — with a genuinely local advantage. Most Airdrie water heater calls get dispatched in from Calgary, adding drive time and sometimes an out-of-town surcharge. Jason is based right here in Coopers Crossing, so when your hot water's out, you're not waiting on a truck crossing the city.",
+    heroBody: [
+      "Most water heater failures come down to a short list of parts: a thermocouple, a heating element, a thermostat, a gas valve, an anode rod that gave up years ago. Those are repairs, and the common ones ride on the truck, so most Airdrie calls finish on the first visit.",
+      "What isn't a repair is a tank that's rusted through and leaking from the body — no one can weld that back into service. We diagnose first and tell you which of those two situations you're in. If it's a fixable part on a unit with life left, we fix it. If the tank is done, we'll say so and quote a [replacement](/hot-water-tanks-airdrie/) instead of charging you for a repair that buys a few months.",
+      "Same-day dispatch across Airdrie, local from Coopers Crossing. Real person answers the phone. Call 587-834-3668.",
+    ],
+    heroSubhead: "Local From Coopers Crossing — Gas, Electric & Tankless",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech water heater repair in an Airdrie home", fit: "cover" },
+    intro:
+      "Water heater repair in Airdrie — gas, electric, and tankless. Local dispatch from Coopers Crossing, common parts on the truck, honest repair-or-replace assessment. Call 587-834-3668.",
+    features: [
+      "Gas water heater repair",
+      "Electric element + thermostat repair",
+      "Tankless diagnosis and descale",
+      "Thermocouple + pilot assembly",
+      "Anode rod replacement",
+      "Honest repair-or-replace assessment",
+    ],
+    bullets: [
+      {
+        t: "Genuinely local, not a Calgary drive-in",
+        d: "Most companies dispatch into Airdrie from Calgary, adding travel time and sometimes a surcharge. Jason lives and works in Coopers Crossing, so Airdrie water heater service is genuinely local — which matters when you've got no hot water and a houseful of people.",
+      },
+      {
+        t: "Diagnose before we quote a part",
+        d: "We test the element, thermostat, thermocouple, and gas valve before recommending anything. The cheap fix is often the right fix, and you shouldn't pay for a part your heater didn't need.",
+      },
+      {
+        t: "We'll tell you when not to repair",
+        d: "A tank leaking from the body is finished — no repair puts that right, and we won't take your money for one. If the unit's past saving we say so and quote the replacement instead.",
+      },
+      {
+        t: "Hard water is the real culprit",
+        d: "Airdrie shares the region's hard water, and it's what kills most water heaters here. We'll show you the sediment we drain out of yours and tell you honestly whether a flush schedule or a [softener](/water-softener-airdrie/) would have prevented the failure.",
+      },
+    ],
+    seoTitle: "Water Heater Repair Airdrie | Local Same-Day Service",
+    seoDescription:
+      "Water heater repair in Airdrie — gas, electric, and tankless. Local dispatch from Coopers Crossing, parts on the truck, honest repair-or-replace. Call 587-834-3668.",
+    seoKeywords: [
+      "water heater repair Airdrie",
+      "hot water tank repair Airdrie",
+      "water heater not working Airdrie",
+      "no hot water Airdrie",
+      "tankless repair Airdrie",
+      "Airdrie water heater service",
+      "FlameTech Plumbing Heating",
+    ],
+    quoteFormLabel: "water heater repair",
+    quoteFormPlaceholder:
+      "e.g. no hot water, pilot won't stay lit, water lukewarm, tank rumbling, water around the base, tankless throwing an error code…",
+    sidebar: {
+      title: "Airdrie Water Heater Repair",
+      subtitle:
+        "Gas, electric, and tankless — local dispatch from Coopers Crossing, and a straight answer on repair versus replace.",
+      bullets: [
+        "Local, not a Calgary drive-in",
+        "Common parts on the truck",
+        "Most repairs finish first visit",
+        "Free written quote if replacement is smarter",
+      ],
+    },
+    stats: [
+      { number: "25+", label: "Years in the trade", icon: "verified" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "Local", label: "From Coopers Crossing", icon: "call" },
+      { number: "Same-day", label: "Dispatch available", icon: "schedule" },
+    ],
+    callout:
+      "No hot water in Airdrie? Call 587-834-3668 — local dispatch from Coopers Crossing, parts on the truck, honest repair-or-replace.",
+    timeline: {
+      heading: "How an Airdrie water heater repair runs",
+      intro:
+        "The goal is to leave you with hot water on the first visit, and to be straight with you when the unit doesn't deserve the repair.",
+      steps: [
+        { icon: "request_quote", title: "Symptom and age", body: "What's happening, when it started, and how old the unit is. Age changes the whole conversation — a six-year-old tank with a dead element is worth fixing; a fourteen-year-old one with the same fault often isn't." },
+        { icon: "build", title: "Diagnose, don't guess", body: "Element resistance, thermostat calibration, thermocouple millivolts, gas valve operation, sediment depth, anode rod condition. We measure the suspect part rather than swapping parts until something works." },
+        { icon: "handyman", title: "Repair on the spot where we can", body: "Elements, thermostats, thermocouples, gas valves, anode rods, and relief valves are on the truck. Most repairs finish in the same visit." },
+        { icon: "verified", title: "Or an honest replacement quote", body: "If the tank's leaking from the body, or the repair cost approaches a new unit on a heater already near end of life, we'll tell you plainly and put a [replacement](/hot-water-tanks-airdrie/) quote in writing. No pressure either way." },
+      ],
+    },
+    richContent: {
+      sections: [
+        {
+          heading: "Signs Your Water Heater Needs Repair",
+          intro:
+            "Some of these are urgent, some can wait. If you've decided you want it fixed, this page is for you.",
+          items: [
+            { heading: "No hot water at all", body: "On a gas unit, usually the pilot, thermocouple, or gas control valve. On electric, usually a failed element or a tripped high-limit reset. Both are common, and both are repairs." },
+            { heading: "Not enough hot water, or it runs out fast", body: "Often a failed lower element on an electric tank, or enough sediment in the bottom of a gas tank that you've lost usable volume to sludge — a very Airdrie problem given the hard water." },
+            { heading: "Water pooling around the base", body: "The one to take seriously. It might be a fitting, the drain valve, or the T&P relief valve — all repairable. Or it might be the tank body, which isn't. We'll tell you which, and how to shut it down safely." },
+            { heading: "Rumbling, popping, or banging", body: "That's sediment. Water gets trapped under hardened scale on the tank bottom and flashes to steam. In our hard water it's the most common noise complaint we get." },
+            { heading: "Rusty or discoloured hot water", body: "Usually a spent anode rod, which means the tank itself has started corroding. Caught early it's a cheap part; caught late it means the tank is already going." },
+            { heading: "Pilot light won't stay lit", body: "Classic failed thermocouple — it lights, holds while you press the button, and dies the moment you let go. Universal part, on the truck, quick fix." },
+          ],
+        },
+        {
+          heading: "Repair or Replace? How We Help You Decide",
+          intro:
+            "This is the question people actually call about, and it's where a contractor's incentives and yours can pull in opposite directions. Here's the honest framework.",
+          items: [
+            { heading: "Age is the biggest factor", body: "A tank water heater in our hard water typically gives you 8-12 years. Under about 8 years, it's usually worth repairing. Past 12, we start steering you toward [replacement](/hot-water-tanks-airdrie/) even when the specific fault is fixable, because the next failure is coming." },
+            { heading: "A leaking tank body is not repairable", body: "If the steel shell has corroded through, there's nothing to fix — not a patch, not a weld, not a sealant. The only honest answer is a new unit, and the sooner the better, because a weeping tank becomes a flooded basement without much warning." },
+            { heading: "When the repair approaches the cost of a new unit", body: "Into a major component on a heater already near end of life, you're paying a large fraction of a new unit's price for a heater with all its other original parts. We lay both numbers out and tell you which way we'd go." },
+            { heading: "How often it's failing", body: "One failure on a mid-life unit is bad luck. The third service call in two years is the unit telling you something — at that point the repairs stop being repairs and start being an instalment plan on a replacement." },
+          ],
+        },
+        {
+          heading: "Gas, Electric, and Tankless — What We Repair",
+          items: [
+            { heading: "Gas water heaters", body: "Thermocouples, pilot assemblies, gas control valves, burners, and venting faults. The most common gas failure we see is a thermocouple — cheap part, fast fix." },
+            { heading: "Electric water heaters", body: "Upper and lower heating elements, thermostats, and the high-limit reset. Clean to diagnose: we test element resistance and thermostat calibration and know within minutes which failed. Common in Airdrie homes without gas service and in acreage properties." },
+            { heading: "Tankless water heaters", body: "Error-code diagnosis, flow sensors, igniters, flame rods, and — more often than anything else here — a full descale. Our hard water scales a [tankless](/tankless-water-heaters-airdrie/) heat exchanger fast, and a scaled exchanger is the single most common reason a tankless unit underperforms or fails early." },
+            { heading: "Anode rods and relief valves", body: "The two parts nobody thinks about. The anode rod is sacrificial metal that corrodes so your tank doesn't, and in our water it gets consumed fast. The T&P relief valve is the safety device that keeps a water heater from becoming a hazard. We check both on every call." },
+          ],
+        },
+        {
+          heading: "Why Airdrie Is Hard on Water Heaters",
+          intro:
+            "If your water heater failed earlier than expected, this is usually why — and it isn't the brand or bad luck.",
+          items: [
+            { body: "Airdrie shares the region's hard water. Dissolved minerals drop out of solution when water is heated and settle in the bottom of the tank as sediment or bake onto the heat exchanger of a tankless unit." },
+            { body: "On a gas tank, that sediment sits between the burner and the water. The burner fires longer to push heat through it, wasting gas and cooking the steel underneath — which is how tanks fail early." },
+            { body: "Acreage properties around Airdrie on well water can be even harder on a heater — higher mineral load, sometimes iron, which scales and stains faster than municipal supply." },
+            { body: "An annual flush is the single most effective thing you can do about it, and it's cheap compared to a new heater. A [water softener](/water-softener-airdrie/) upstream is the permanent version — it treats the cause rather than fighting the symptom every year." },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Airdrie Water Heater Repair FAQs",
+        items: [
+          {
+            q: "How much does water heater repair cost in Airdrie?",
+            a: "It depends on what failed. A thermocouple or an anode rod is among the cheapest work we do; a heating element or thermostat is a step up; a gas control valve or a tankless descale is its own job again.\n\nWe diagnose first and quote before touching anything, so you decide with the real number in front of you rather than a guess over the phone. And because we're local from Coopers Crossing, you're not paying for a Calgary-side drive or an out-of-town surcharge.\n\nIf the repair doesn't make sense — the tank's finished, or you'd spend a large fraction of a new unit's price on an old one — we'll tell you that instead of quietly doing the work.",
+          },
+          {
+            q: "Do you actually dispatch locally in Airdrie, or drive in from Calgary?",
+            a: "Genuinely local. Most water heater companies serving Airdrie dispatch in from Calgary, which adds drive time and sometimes an out-of-town surcharge. Jason lives and works in Coopers Crossing, so Airdrie service is local — faster arrival when you've got no hot water, and no cross-city travel built into the bill.",
+          },
+          {
+            q: "Why is there no hot water even though the unit seems to be running?",
+            a: "On an electric heater, usually a failed element — often the lower one, which is why you sometimes get a little hot water before it runs cold. The thermostat can also fail, or the high-limit safety can trip and need a reset.\n\nOn a gas heater, the burner may not be lighting even though the pilot looks fine — that points at the thermocouple or the gas control valve. All of it is diagnosable in one visit.",
+          },
+          {
+            q: "Do you repair tankless water heaters in Airdrie?",
+            a: "Yes — gas and electric both. Tankless repair is more specialized: there are error codes to read, flow sensors and flame rods to test, and the units are less forgiving of a guess.\n\nThe most common tankless job here isn't really a repair — it's a descale. Our hard water scales the heat exchanger, and a scaled exchanger is why most underperforming tankless units underperform. If yours has never been descaled and it's a few years old, start there.",
+          },
+          {
+            q: "Should I repair or replace my water heater?",
+            a: "Age is the biggest factor. Tanks in our hard water typically last 8-12 years. Under about 8 years, a tank with a single failed part is usually worth repairing. Past 12, we'd generally steer you toward [replacement](/hot-water-tanks-airdrie/) even when the fault is fixable, because the next failure is already on its way.\n\nTwo hard rules regardless of age: a tank leaking from the body is not repairable by anyone, and a repair that costs a large fraction of a new unit on an old heater is money badly spent.",
+          },
+          {
+            q: "Why does my water heater keep failing in Airdrie?",
+            a: "Almost always the water. The region's hard water leaves mineral sediment in the bottom of a tank and scale on a tankless heat exchanger, and both make the unit work harder and die younger than the manufacturer intended. Acreage well water can be harder still.\n\nTwo things fix it: an annual flush clears the sediment before it does damage, and a [water softener](/water-softener-airdrie/) upstream treats the cause rather than the symptom — and protects your fixtures and appliances at the same time.",
+          },
+        ],
+      },
+    },
+    hubLinks: {
+      eyebrow: "Airdrie water heater help",
+      heading: "The rest of your options.",
+      intro:
+        "If you've got one specific problem, or the repair no longer makes sense, start here. Otherwise call 587-834-3668.",
+      items: [
+        { label: "Hot Water Tanks Airdrie", href: "/hot-water-tanks-airdrie/", summary: "When the repair no longer makes sense — tank replacement, local Airdrie dispatch.", icon: "sync", highlight: true, badge: "Replacement" },
+        { label: "Tankless Water Heaters", href: "/tankless-water-heaters-airdrie/", summary: "Descaling, error codes, and whether going tankless is right for your Airdrie home.", icon: "whatshot" },
+        { label: "Water Softener Airdrie", href: "/water-softener-airdrie/", summary: "The permanent fix for the hard water that's killing your heater in the first place.", icon: "science" },
+        { label: "Airdrie Plumbers", href: "/airdrie-plumbers/", summary: "Every other plumbing service across Airdrie — local dispatch from Coopers Crossing.", icon: "plumbing" },
+      ],
+    },
+  },
+  {
+    slug: "air-conditioning-repair-airdrie",
+    category: "Air",
+    location: "Airdrie",
+    icon: "handyman",
+    title: "AC Repair in Airdrie",
+    lead:
+      "When your AC quits during a 30°C+ Airdrie heat wave, the last thing you want is a 45-minute wait for a truck to drive up from Calgary. Jason is based in Coopers Crossing, so Airdrie AC repair is genuinely local — and we diagnose the fault properly instead of reaching for the refrigerant hose.",
+    heroBody: [
+      "Airdrie summers aren't what they were — 30°C+ stretches are routine through July and August now, and the AC that used to run a few weeks a year is being asked to work. The parts that fail on the first hot day are almost always the cheap ones: a capacitor, a contactor, worn from sitting idle eight months and then running flat out.",
+      "The exception we're blunt about: if your system's low on refrigerant, you have a leak. Air conditioning is a sealed system — it does not consume refrigerant. Anyone who tops you up and drives away has sold you the same repair again next summer. We find the leak.",
+      "Same-day dispatch during heat waves, local from Coopers Crossing. Call 587-834-3668. We also handle [AC installation in Airdrie](/air-conditioning-airdrie/) and [heat pumps](/heat-pumps-airdrie/).",
+    ],
+    heroSubhead: "Local From Coopers Crossing — Diagnosed, Not Just Topped Up",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech AC repair in an Airdrie home", fit: "cover" },
+    intro:
+      "AC repair in Airdrie — capacitors, contactors, refrigerant leaks, frozen coils, hail damage. Local dispatch from Coopers Crossing, diagnosed properly, not just topped up. Call 587-834-3668.",
+    features: [
+      "Capacitor + contactor replacement",
+      "Refrigerant leak diagnosis",
+      "Frozen evaporator coil",
+      "Hail-damaged condenser coils",
+      "Condensate drain + drip pan",
+      "Blower + airflow faults",
+    ],
+    bullets: [
+      {
+        t: "Genuinely local for heat-wave calls",
+        d: "AC failure during a 30°C+ heat wave shouldn't mean a 45-minute drive from Calgary. Jason lives and works in Coopers Crossing, so Airdrie AC repair is genuinely local — faster arrival exactly when it matters, and no out-of-town surcharge on the bill.",
+      },
+      {
+        t: "Low refrigerant means a leak — full stop",
+        d: "AC is a sealed system. It doesn't burn refrigerant off. If you're low, it went somewhere, and topping it up without finding the leak is selling you the identical job next June. We find it and fix it.",
+      },
+      {
+        t: "The first hot day is capacitor day",
+        d: "Airdrie's short cooling season means your AC idles for eight months, then fires on the first hot day and whatever was marginal gives up. Capacitors and contactors are among the cheapest parts in the system — and the ones most often misdiagnosed as a dead compressor.",
+      },
+      {
+        t: "Hail is a prairie problem",
+        d: "The Airdrie–QEII corridor takes serious hail, and your condenser sits outside taking the hits. Flattened fins choke airflow across the coil and quietly gut efficiency without stopping the unit. The fins can be combed back — worth a look after any real storm.",
+      },
+    ],
+    seoTitle: "AC Repair Airdrie | Local Same-Day Air Conditioning Repair",
+    seoDescription:
+      "AC repair in Airdrie — capacitors, contactors, refrigerant leaks, frozen coils, hail damage. Local dispatch from Coopers Crossing, diagnosed properly. Call 587-834-3668.",
+    seoKeywords: [
+      "AC repair Airdrie",
+      "air conditioning repair Airdrie",
+      "AC not cooling Airdrie",
+      "emergency AC repair Airdrie",
+      "air conditioner repair Airdrie",
+      "AC refrigerant leak Airdrie",
+      "FlameTech Plumbing Heating",
+    ],
+    quoteFormLabel: "AC repair",
+    quoteFormPlaceholder:
+      "e.g. AC blowing warm air, outdoor unit won't start, ice on the lines, water around the furnace, loud humming, hail-damaged condenser…",
+    sidebar: {
+      title: "Airdrie AC Repair",
+      subtitle:
+        "Every major brand. We diagnose the fault instead of topping up refrigerant and hoping — local dispatch from Coopers Crossing.",
+      bullets: [
+        "Local, not a Calgary drive-in",
+        "Leak diagnosis, not just a top-up",
+        "Capacitors + contactors on the truck",
+        "Hail-damage coil assessment",
+      ],
+    },
+    stats: [
+      { number: "25+", label: "Years in the trade", icon: "verified" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "Local", label: "From Coopers Crossing", icon: "call" },
+      { number: "Same-day", label: "Dispatch available", icon: "schedule" },
+    ],
+    callout:
+      "AC out in an Airdrie heat wave? Call 587-834-3668 — local same-day dispatch from Coopers Crossing, common parts on the truck.",
+    timeline: {
+      heading: "How an Airdrie AC repair runs",
+      intro:
+        "The short version: we find out why, we tell you, and we don't reach for the refrigerant hose as a first move.",
+      steps: [
+        { icon: "request_quote", title: "Symptom and system age", body: "What it's doing, when it started, how old the unit is. Age matters more than people expect — an older system may still run R-22 refrigerant, which changes the repair-or-replace conversation entirely." },
+        { icon: "build", title: "Electrical first, refrigerant last", body: "We test the capacitor and contactor before anything else, because that's where most Airdrie AC failures actually live. Checking them takes minutes and it's the cheapest possible outcome for you." },
+        { icon: "handyman", title: "Airflow, coils, and drainage", body: "Filter, evaporator coil, condenser fins, and the condensate drain. A frozen coil or a warm house is very often an airflow problem, not a refrigerant problem — and treating it as refrigerant would be an expensive mistake." },
+        { icon: "verified", title: "If refrigerant is low, we find the leak", body: "We don't top up and leave. We locate the leak, show you where it is, and quote the repair — or tell you honestly when the leak is somewhere (an older evaporator coil, typically) where replacement is the better spend." },
+      ],
+    },
+    richContent: {
+      sections: [
+        {
+          heading: "Why Airdrie Air Conditioners Fail",
+          intro:
+            "The cooling season is short here, and that's actually the reason so much of the equipment breaks.",
+          items: [
+            { heading: "Eight months of sitting still", body: "Your AC is idle from roughly September to June. Capacitors degrade sitting there, contactors corrode and pit, bearings stiffen. Then the first genuinely hot day arrives, the system runs hard, and whatever was marginal gives up. That's why the phones ring on the first hot day, not gradually across the summer." },
+            { heading: "Hail", body: "The Airdrie–QEII corridor sits in serious hail country, and your condenser is the one piece of HVAC parked outside taking the hits. Hail flattens the delicate aluminium fins, choking airflow across the coil and dropping efficiency without fully stopping the unit — so most people never connect the storm to the higher bill. The fins can be combed back out; worth an inspection after any serious storm." },
+            { heading: "Ductwork designed for heat, not cool", body: "A lot of older Airdrie homes (Coopers Crossing core, Big Springs, Meadowbrook) have ductwork sized for warm-air heating, not cooling. When AC was added later, undersized returns can starve the system and ice the coil — which looks like an AC fault but is really an airflow one." },
+            { heading: "A furnace problem in disguise", body: "Central AC uses the furnace's blower to move the cold air. If the blower motor or its capacitor is failing, you get weak airflow and a house that won't cool — and it looks exactly like an AC fault. We check both, because they're one system." },
+          ],
+        },
+        {
+          heading: "The Refrigerant Conversation Nobody Has Honestly",
+          intro:
+            "This is where the industry loses people's trust, so we'd rather be blunt about it than have you find out later.",
+          items: [
+            { body: "Air conditioning is a **sealed system**. It does not use up refrigerant in normal operation the way an engine burns fuel. A system correctly charged on install should still be correctly charged a decade later." },
+            { body: "So if your system is low on refrigerant, the refrigerant went somewhere. There is a leak. That's the only explanation, and it's not a maintenance item." },
+            { body: "Topping it up will genuinely make the AC work again — for a while. Then it leaks back out, and next summer you make the same call and pay for the same visit. That's the business model we're describing, so you can recognise it." },
+            { body: "We find the leak. Sometimes it's an accessible fitting or a line-set joint — a straightforward repair. Sometimes it's the evaporator coil, which on an older system is a big enough job that replacement is usually the better spend, and we'll say so plainly." },
+            { body: "One more thing: if your system is old enough to run R-22 refrigerant, that's been phased out — expensive and hard to source, which shifts the repair-or-replace maths hard toward replacement on any significant refrigerant fault." },
+          ],
+        },
+        {
+          heading: "Common AC Faults We Fix",
+          items: [
+            { heading: "Capacitor", body: "The single most common AC failure, and the cheapest. It's the jolt that starts the compressor and fan motors. When it fails, you'll often hear the outdoor unit humming without the fan turning. It gets misdiagnosed as a dead compressor more than any other fault in the trade — an enormously expensive mistake." },
+            { heading: "Contactor", body: "The electrical switch that lets power through to the outdoor unit when the thermostat calls for cooling. Its contacts pit and corrode over years of sitting idle, and eventually it won't close. Cheap part, quick swap." },
+            { heading: "Frozen evaporator coil", body: "Ice on the copper lines or indoor coil. Counter-intuitively, usually an airflow problem — a filthy filter or failing blower means not enough warm air passes over the coil, so it drops below freezing. Turn the AC off, leave the fan running to thaw it, and call us. Running it frozen can destroy the compressor." },
+            { heading: "Dirty condenser coil", body: "The outdoor unit sheds your home's heat through that coil. Packed with cottonwood, grass, and dust, or hail-flattened, it can't — the system runs and runs and never quite cools. Cleaning it is one of the highest-value things we do." },
+            { heading: "Condensate drain and drip pan", body: "Your AC pulls a surprising amount of water out of the air, and it drains away. When the drain clogs, the pan overflows — usually onto the furnace underneath it. Water around your furnace in summer is almost certainly this." },
+            { heading: "Compressor", body: "The expensive one. A genuinely failed compressor on an older system usually means replacement — the part and labour together approach a new unit that would be far more efficient. We confirm it properly before ever saying that word, because plenty of \"dead compressors\" are actually dead capacitors." },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Airdrie AC Repair FAQs",
+        items: [
+          {
+            q: "How much does AC repair cost in Airdrie?",
+            a: "It depends what failed. A capacitor or contactor is among the cheapest work we do; a refrigerant leak repair depends on where the leak is; a compressor is a major component and costs like one.\n\nWe diagnose and quote before touching anything, and because we're local from Coopers Crossing you're not paying for a Calgary-side drive or an out-of-town surcharge. On an older system where the honest answer is replacement, we'll say that instead of taking your money for a fix we don't believe in.",
+          },
+          {
+            q: "Do you dispatch locally in Airdrie, or drive up from Calgary?",
+            a: "Genuinely local. Most AC companies serving Airdrie dispatch in from Calgary, adding drive time and sometimes a surcharge. Jason is based in Coopers Crossing, so Airdrie AC service is local — which matters most during a heat wave, when a 45-minute cross-city drive is the difference between a same-morning fix and sweating it out till tomorrow.",
+          },
+          {
+            q: "My AC just needs a refrigerant top-up, right?",
+            a: "Almost certainly not, and it's the most important thing on this page. Air conditioning is a **sealed system** — it doesn't consume refrigerant in normal use. If your system is low, the refrigerant leaked out; there's no other explanation.\n\nTopping it up will cool your house again for a while, then it leaks back out and next summer you're calling again and paying again. If a contractor tops you up without looking for the leak, they've sold you a repeat visit. We find the leak, show you where it is, and quote the actual repair.",
+          },
+          {
+            q: "My AC is blowing warm air. What's wrong?",
+            a: "A few likely causes, in the order we'd check them. First, the free one: make sure the thermostat is set to COOL and the fan to AUTO rather than ON — on ON, the blower runs constantly even when the AC isn't cooling, which feels exactly like a broken AC.\n\nThen: a failed capacitor or contactor (outdoor unit hums but the fan doesn't turn), a filthy filter choking airflow, a frozen coil, a hail- or dirt-clogged condenser, or low refrigerant — which means a leak. We check the cheap electrical faults first, because that's where most Airdrie AC failures are.",
+          },
+          {
+            q: "Can hail damage my air conditioner?",
+            a: "Yes, and in the Airdrie–QEII corridor it's common enough that we check for it routinely. Your condenser is the one piece of HVAC sitting outdoors, and hail flattens the thin aluminium fins on the coil. That doesn't usually stop the unit — which is why people miss it — but it chokes airflow, so the system can't shed heat, runs longer, and costs more to cool less.\n\nThe fins can often be combed back out and the coil cleaned, restoring most of the lost performance. Worth a look after any serious storm, and possibly a call to your insurer.",
+          },
+          {
+            q: "Why does my AC always break on the first hot day?",
+            a: "Because that's the day it's finally asked to work. Airdrie's cooling season is short — your AC sits idle from roughly September to June. Capacitors degrade while sitting, contactor points corrode, bearings stiffen, and none of it shows while the system is off. Then the first real heat wave arrives, everything runs hard, and whatever was marginal fails.\n\nIt's the most predictable pattern in prairie cooling, and it's the argument for a spring service call — the point is to find the failing capacitor in May rather than meet it in July.",
+          },
+        ],
+      },
+    },
+    hubLinks: {
+      eyebrow: "Airdrie cooling help",
+      heading: "The rest of your cooling options.",
+      intro:
+        "AC repair is one part of it. These are the pages worth knowing about — all local from Coopers Crossing.",
+      items: [
+        { label: "Air Conditioning Airdrie", href: "/air-conditioning-airdrie/", summary: "New AC and replacement — first-time installs on furnace-only homes, ductless, sizing.", icon: "ac_unit", highlight: true, badge: "Install" },
+        { label: "Heat Pumps Airdrie", href: "/heat-pumps-airdrie/", summary: "Cools in summer and heats most of the year — worth comparing before replacing an AC.", icon: "ac_unit" },
+        { label: "Furnace Installation Airdrie", href: "/furnace-installation-airdrie/", summary: "Pairing AC with a new furnace? Matched-system install while the mechanical room is open.", icon: "local_fire_department" },
+        { label: "Airdrie Plumbers", href: "/airdrie-plumbers/", summary: "Every other service across Airdrie — genuinely local dispatch, no out-of-town surcharge.", icon: "plumbing" },
+      ],
+    },
+  },
+  {
     slug: "air-conditioning-airdrie",
     category: "Air",
     location: "Airdrie",
@@ -9996,7 +10344,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "Central AC replacement (end-of-life)",
-              body: "Airdrie central AC units typically last 12-15 years. When the existing unit fails — refrigerant leaks, compressor failure, condenser fan motor, or just age — we replace with a same-or-better sized unit. THIS is the scenario where the heat-pump-instead conversation matters most: same install footprint, similar cost, and you gain efficient heating. We walk through the comparison upfront.",
+              body: "Airdrie central AC units typically last 12-15 years. Not sure if yours needs a repair or a replacement? See [Airdrie AC repair](/air-conditioning-repair-airdrie/). When the existing unit fails — refrigerant leaks, compressor failure, condenser fan motor, or just age — we replace with a same-or-better sized unit. THIS is the scenario where the heat-pump-instead conversation matters most: same install footprint, similar cost, and you gain efficient heating. We walk through the comparison upfront.",
             },
             {
               heading: "Ductless mini-split (no-duct or single-zone)",
