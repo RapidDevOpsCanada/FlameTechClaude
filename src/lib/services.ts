@@ -1926,7 +1926,7 @@ export const services: ServicePage[] = [
     heroBody: [
       "FlameTech's certified technicians have installed hundreds of boilers throughout Calgary, from compact units for downtown condos to high-capacity systems for sprawling homes in communities like [Aspen Woods](/aspen-woods-plumbers-calgary/) and [Cranston](/cranston-plumber-calgary/). We handle everything from gas-fired condensing boilers to electric units, matching the right system to your home's specific heating needs.",
       "Considering a [heat pump instead](/heat-pumps-calgary/)? Worth reading our heat pump vs furnace comparison first — the same trade-offs apply to a boiler-vs-heat-pump decision. Need annual upkeep on the new system? See our [boiler service](/boiler-service-calgary/) page.",
-      "When your old boiler finally gives up during a January cold snap, you need fast response from people who answer their phones. Our Calgary-based crew offers priority emergency [boiler replacement](/boiler-repair-calgary/) and installation — no automated messages, no waiting until Monday morning. [Monthly financing](/financing/) available via Financeit.",
+      "When your old boiler finally gives up during a January cold snap, you need fast response from people who answer their phones. Our Calgary-based crew offers priority emergency [boiler replacement](/boiler-replacement-calgary/) and installation — no automated messages, no waiting until Monday morning. [Monthly financing](/financing/) available via Financeit.",
     ],
     heroSubhead: "Trusted Calgary Boiler Installation Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
@@ -2051,7 +2051,7 @@ export const services: ServicePage[] = [
         {
           heading: "When It's Time to Replace, Not Repair",
           intro:
-            "Calgary homeowners call us for [boiler replacement](/boiler-repair-calgary/) when their old systems can't keep up with our brutal winters or when energy bills get too expensive to ignore. If your boiler is over 20 years old or your heating bills keep climbing, it's time for a replacement conversation.",
+            "Calgary homeowners call us for [boiler replacement](/boiler-replacement-calgary/) when their old systems can't keep up with our brutal winters or when energy bills get too expensive to ignore. If your boiler is over 20 years old or your heating bills keep climbing, it's time for a replacement conversation — our [repair-or-replace framework](/boiler-replacement-calgary/) walks through where the line actually falls.",
           items: [
             { body: "Old cast iron boilers that take forever to heat up and waste gas." },
             { body: "Undersized boilers that run constantly but never get the house warm enough." },
@@ -2292,6 +2292,237 @@ export const services: ServicePage[] = [
         { src: "/images/2026/04/Boiler3.webp", alt: "FlameTech combi boiler install with insulated copper primary loop" },
         { src: "/images/2026/04/Boiler2.webp", alt: "Wall-hung gas boiler with zoned hydronic manifold" },
         { src: "/images/2026/04/Boiler19.webp", alt: "High-efficiency boiler with expansion tank and air separator" },
+      ],
+    },
+  },
+  {
+    slug: "boiler-replacement-calgary",
+    category: "Heating",
+    icon: "swap_horiz",
+    title: "Boiler Replacement Calgary — Honest Repair-or-Replace Advice",
+    lead:
+      "Replacing a boiler isn't the same job as installing one. You're inheriting an existing system — old radiators, old pipework, decades of sludge — and getting that part right is what decides whether the new boiler lasts twenty years or five.",
+    heroBody: [
+      "Most Calgary homeowners land here mid-decision: the boiler is old, it's been repaired once or twice, and someone has said the word replacement. Before you spend anything, you should know whether you actually need to — and if you do, what a proper swap involves beyond hanging a new unit on the wall.",
+      "We'll come out, look at the whole system rather than just the appliance, and give you a straight answer. Sometimes that answer is that your boiler has years left and a [repair](/boiler-repair-calgary/) is the right call. When it genuinely is time, we handle the full replacement — removal, disposal, system flush, new unit, commissioning. [Monthly financing](/financing/) is available via Financeit.",
+      "Jason has spent twenty years on hydronics specifically, which matters more on a replacement than on a new build. Retrofitting a modern condensing boiler onto a 1970s radiator system has real pitfalls, and most of them are invisible until the second winter.",
+    ],
+    heroSubhead: "Calgary Boiler Replacement Specialists",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/2026/04/Boiler20.webp", alt: "Replacement boiler and indirect tank installed in a Calgary mechanical room", fit: "cover" },
+    intro:
+      "Calgary boiler replacement done properly — honest repair-or-replace assessment, full system flush, correct sizing off a heat-loss calc. Free written estimate.",
+    features: [
+      "Honest repair-or-replace assessment",
+      "Old unit removal & disposal",
+      "Power flush before the new boiler goes in",
+      "Heat-loss sizing, not badge-matching",
+      "Venting & gas line retrofit",
+      "Cast-iron to condensing conversions",
+    ],
+    bullets: [
+      {
+        t: "We'll tell you not to replace it",
+        d: "If your boiler has life left, we'll say so and quote the repair instead. We'd rather see you again in six years than sell you a system you didn't need.",
+      },
+      {
+        t: "The old system comes with it",
+        d: "A new boiler bolted onto an unflushed, sludged-up loop fails early. Flushing and filtration are part of our replacement scope, not an upsell.",
+      },
+    ],
+    seoTitle: "Boiler Replacement Calgary | Repair or Replace? | FlameTech",
+    seoDescription:
+      "Boiler replacement in Calgary — honest repair-or-replace advice, full system flush, correct sizing. Free written estimate. Call 587-834-3668.",
+    seoKeywords: [
+      "boiler replacement Calgary",
+      "replace boiler Calgary",
+      "boiler replacement cost Calgary",
+      "repair or replace boiler Calgary",
+      "cast iron boiler replacement Calgary",
+      "condensing boiler retrofit Calgary",
+      "FlameTech Plumbing Heating",
+    ],
+    quoteFormLabel: "boiler replacement",
+    quoteFormPlaceholder:
+      "e.g. 22-year-old boiler, third repair this year, wondering whether to replace it…",
+    sidebar: {
+      title: "Calgary Boiler Replacement",
+      subtitle:
+        "Straight repair-or-replace answers, then a full swap done properly — flush, sizing, venting, commissioning.",
+      bullets: [
+        "Free on-site assessment before you commit",
+        "Old boiler removed and disposed of",
+        "System power flush + magnetic filter",
+        "Financing available via Financeit",
+      ],
+    },
+    stats: [
+      { number: "18-22", label: "Typical boiler life", icon: "schedule" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "20+", label: "Years hydronics", icon: "verified" },
+      { number: "1 day", label: "Straight swap", icon: "event_available" },
+    ],
+    timeline: {
+      heading: "How a boiler replacement runs",
+      intro:
+        "The difference between a replacement and a new install is everything that was already in the house. Here's how we work through it.",
+      steps: [
+        { icon: "request_quote", title: "Assessment — including whether to replace at all", body: "We look at the boiler's age, what's failed, what it would cost to fix, and the condition of the wider system. If repair is the better call, that's what we'll tell you. No charge either way." },
+        { icon: "science", title: "Heat-loss calc, not badge-matching", body: "We size the new boiler off your home's actual heat loss. Old boilers were routinely oversized, so copying the number off the old badge just repeats someone else's mistake for another twenty years." },
+        { icon: "handyman", title: "Old unit out, system flushed", body: "We drain and remove the old boiler, take it away, then power flush the loop and fit a magnetic filter before the new unit goes anywhere near the system water." },
+        { icon: "verified", title: "New boiler in, commissioned, explained", body: "Hung, piped, vented, gas-tested, combustion-analysed. Then we set the outdoor reset curve, walk you through the controls, register the warranty, and book the first annual service." },
+      ],
+    },
+    financing: {
+      detail:
+        "Spread the cost of a boiler replacement into flexible monthly payments via our Financeit partner.",
+    },
+    callout:
+      "Not sure whether to repair or replace? Call 587-834-3668 — we'll assess it on site and give you a straight answer at no charge.",
+    richContent: {
+      sections: [
+        {
+          heading: "Should You Repair It or Replace It?",
+          intro:
+            "This is the whole question, and it deserves a real answer rather than a sales pitch. Here's the framework we use on site — the same one we'd apply to our own homes.",
+          items: [
+            {
+              heading: "Under about 12 years, single failed part — repair it",
+              body: "A boiler this age has plenty of service life left. Replacing a pump, a control board, or an ignition component is straightforward and the rest of the system is nowhere near its end. Throwing out a working boiler because one part failed is a waste of a good appliance. See [boiler repair](/boiler-repair-calgary/).",
+            },
+            {
+              heading: "12 to 18 years — it depends on what failed",
+              body: "The grey zone. A cheap part on an otherwise healthy boiler is worth fixing. A major component — heat exchanger especially — on a unit this age is where the arithmetic turns, because the rest of the parts are all the same age as the one that just died. We'll price both options and let you decide with real numbers in front of you.",
+            },
+            {
+              heading: "Over 18-20 years with a major failure — replace",
+              body: "At this point you'd be putting an expensive component into a system whose every other original part is on the same clock. The next failure is already on its way. Our guide on [how long boilers last in Calgary](/blog/how-long-do-boilers-last-calgary/) covers why our hard water and freeze-thaw cycles pull that number down.",
+            },
+            {
+              heading: "A cracked heat exchanger, at any age — replace",
+              body: "This one isn't a cost calculation. A cracked exchanger is a safety issue and there's nothing to weigh against it.",
+            },
+            {
+              heading: "Three repairs in two heating seasons — replace",
+              body: "One repair is bad luck. The third call in two winters is the system telling you something, and the money spent chasing faults is money that isn't going toward a boiler that just works.",
+            },
+            {
+              heading: "Parts no longer available — replace",
+              body: "Some older units are past the point where manufacturers still supply components. When we can't get the part, the decision has already been made for you — the only question left is whether it happens on your schedule or in a January cold snap.",
+            },
+          ],
+        },
+        {
+          heading: "What Makes a Replacement Different From a New Install",
+          intro:
+            "On a new build, the boiler and the distribution system are designed together. On a replacement you're marrying a modern appliance to whatever the last fifty years left behind — and that mismatch is where replacements go wrong. These are the four things we check before we quote.",
+          items: [
+            {
+              heading: "System sludge is the number one heat exchanger killer",
+              body: "Decades of steel radiators and iron pipework produce magnetite — a fine black iron oxide that settles through the loop. An old cast-iron boiler had wide waterways and tolerated it. A modern condensing boiler has narrow, precision heat exchanger passages that block, hot-spot, and fail. A power flush and a magnetic filter before commissioning is not optional on a retrofit, and any quote that doesn't mention it is a quote that's cheaper for a reason.",
+            },
+            {
+              heading: "Will the system actually condense?",
+              body: "A condensing boiler only reaches its advertised efficiency when return water comes back cool enough to condense the flue gases. Old radiator systems were designed to run hot — if the boiler never sees a low return temperature, you've bought a condensing unit and are running it as a conventional one. We check radiator sizing against your heat loss and set an outdoor reset curve so the system runs as cool as it can while still heating the house. Sometimes that means the honest recommendation is to upsize a couple of radiators.",
+            },
+            {
+              heading: "The old chimney usually can't be re-used",
+              body: "Many Calgary homes vented an atmospheric boiler into a masonry chimney. Condensing boilers produce acidic condensate and cool exhaust, and they need sealed plastic venting — typically a new sidewall penetration. That's real work, and worse, removing the boiler sometimes orphans a water heater that was sharing the same flue. We look at the whole venting picture before quoting, not on install day.",
+            },
+            {
+              heading: "Gas line capacity and near-boiler piping",
+              body: "Gas lines in older homes were sized for the appliance of the day and may not carry a higher-input unit. Near-boiler piping often needs rebuilding too — primary/secondary arrangements, a proper air separator, and an expansion tank sized for the system volume rather than whatever was there. We assess both at quote stage so they're priced, not discovered.",
+            },
+          ],
+        },
+        {
+          heading: "Replacing a Cast-Iron Boiler in an Older Calgary Home",
+          intro:
+            "Inner-city Calgary has a lot of these — heavy cast-iron units in [Mount Royal](/mount-royal-plumbers-calgary/), [Hillhurst](/hillhurst-plumbers-calgary/), [Inglewood](/inglewood-plumbers-calgary/), [Altadore](/altadore-plumbers-calgary/) and [Killarney](/killarney-plumbers-calgary/) basements, some of them running past fifty years. They're remarkable machines and they're also spectacularly inefficient.",
+          items: [
+            { body: "They often still work, which makes the decision harder. A running cast-iron boiler at 60% efficiency is burning far more gas than it needs to across Calgary's seven-month heating season." },
+            { body: "Parts availability is usually the forcing event rather than outright failure." },
+            { body: "Physical removal can be a genuine project — some units have to be broken down to get them out of the basement. We factor that into the quote rather than raising it on the day." },
+            { body: "The efficiency gain is the largest of any replacement scenario, because you're starting from the lowest baseline." },
+            { body: "These are the systems where the condensing-retrofit questions above matter most — high-temperature radiator design, masonry flue, oversized original sizing." },
+            { body: "Sometimes an orphaned [hot water tank](/hot-water-tanks/) is part of the picture, and pairing an indirect tank with the new boiler is the cleaner solution." },
+          ],
+        },
+        {
+          heading: "What Drives the Cost of a Boiler Replacement",
+          intro:
+            "We don't quote boilers over the phone, because a number given sight-unseen is a number that changes on install day. Here's what actually moves the price, so you can read any estimate — ours or a competitor's — and know what you're comparing.",
+          items: [
+            {
+              heading: "The unit itself",
+              body: "Entry-tier single-stage condensing through premium fully-modulating units is a wide range. Output comes from the heat-loss calculation, not from the badge on the old boiler.",
+            },
+            {
+              heading: "Straight swap or full rebuild",
+              body: "Re-using compatible gas line, venting and near-boiler piping is the cheapest version of this job. Re-piping a mechanical room, adding zones, or rebuilding the distribution is a different scope entirely.",
+            },
+            {
+              heading: "Venting and gas line retrofit",
+              body: "A new sidewall vent, or upsizing a gas run that was fine for the old appliance, adds real labour and material. On chimney-vented replacements this is frequently the biggest single variable.",
+            },
+            {
+              heading: "Flush, filtration, and system remediation",
+              body: "A power flush, a magnetic filter, and occasionally a chemical clean on a badly sludged system. This protects the warranty on the appliance you just bought.",
+            },
+            {
+              heading: "Removal and disposal of the old unit",
+              body: "Usually routine. On heavy cast-iron units in tight basements it isn't, and we'd rather price it honestly than discover it mid-job.",
+            },
+            {
+              heading: "Free written estimate, and financing",
+              body: "We come out, assess the system, and give you the model, the efficiency rating, the full scope and the all-in price in writing at no charge. [Financeit monthly payments](/financing/) are available with a soft credit check.",
+            },
+          ],
+        },
+        {
+          heading: "Plan It Before You Need It",
+          intro:
+            "The worst time to replace a boiler is the week it dies, and in Calgary that week is usually in January. A planned replacement is a better job at a better price.",
+          items: [
+            { body: "Shoulder season — spring through early fall — means no rush, no working around a freezing house, and a proper look at the whole system." },
+            { body: "You get time to compare quotes and choose the unit rather than taking whatever is in stock during a cold snap." },
+            { body: "Emergency replacements are a real service we provide, but they cost more and they limit your options. Doing it deliberately is always the cheaper path." },
+            { body: "If your boiler is past 18 and still running, that's the ideal moment to get an assessment — not to replace immediately, but to know what it will involve and budget for it." },
+            { body: "Once the new unit is in, annual [boiler service](/boiler-service-calgary/) is what gets it to the top of its lifespan range instead of the bottom." },
+            { body: "A [water softener](/water-softener/) upstream protects the new heat exchanger from Calgary's hard water — the single most effective thing you can do for its longevity." },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Calgary Boiler Replacement FAQs",
+        intro:
+          "The questions Calgary homeowners actually ask when they're weighing a boiler replacement. If yours isn't here, call 587-834-3668 and ask — a real person answers.",
+        items: [
+          { q: "How much does boiler replacement cost in Calgary?", a: "It depends on the unit tier, the output your home actually needs, and what's already in your mechanical room — and we won't quote it over the phone, because a sight-unseen number is one that changes on install day.\n\nThe variables that move it most: the boiler itself, whether the existing gas line and venting can be re-used or need replacing, how much near-boiler piping has to be rebuilt, whether the system needs a power flush, and how difficult the old unit is to physically remove.\n\nWe come out, assess the whole system, and give you the model, the efficiency rating, the full scope and the all-in price in writing at no charge. [Financeit monthly payments](/financing/) are available if you'd rather spread it out." },
+          { q: "Should I repair my boiler or replace it?", a: "The short framework we use on site:\n\nUnder about 12 years with one failed part — repair it. The boiler has years left.\n\nBetween 12 and 18 years — it depends what failed. A minor part is worth fixing; a heat exchanger usually isn't.\n\nOver 18-20 years with a major failure — replace. You'd be putting an expensive component into a system where every other original part is the same age.\n\nA cracked heat exchanger at any age — replace. That's a safety issue, not a cost calculation.\n\nWe'll assess it on site at no charge and tell you honestly which side of the line you're on. If a [repair](/boiler-repair-calgary/) is the right answer, that's what we'll quote." },
+          { q: "How long does a boiler replacement take?", a: "A straight swap — new unit onto compatible existing gas line, venting and piping — is typically a single day, and you'll have heat that evening.\n\nAdd a new sidewall vent, a gas line upgrade, or a near-boiler piping rebuild and it becomes one to two days. Replacing a heavy cast-iron unit that has to be broken down to get it out of the basement can add time on its own.\n\nWe give you a realistic timeline with the written estimate, and if the job needs to span two days we plan the heat-off window rather than leaving you guessing." },
+          { q: "Can I put a new condensing boiler on my old radiators?", a: "Usually yes, but it needs checking rather than assuming — this is the most commonly skipped step in a boiler replacement.\n\nA condensing boiler only hits its advertised efficiency when the water returning from your system is cool enough to condense the flue gases. Older radiator systems were designed to run hot. If your radiators are undersized for a lower operating temperature, the boiler simply never condenses, and you've paid for efficiency you'll never see.\n\nWe check radiator sizing against your home's heat loss, set the outdoor reset curve to run the system as cool as it can while still heating properly, and tell you if upsizing a radiator or two would materially change the result. Old iron systems also need a power flush and a magnetic filter first — sludge from decades of steel and iron will block a modern heat exchanger." },
+          { q: "Do I need a new flue or vent when I replace my boiler?", a: "Often, yes — and it's the variable that surprises people most.\n\nOlder Calgary boilers were commonly vented into a masonry chimney. Condensing boilers can't use one: their exhaust is cool and acidic, and it needs sealed plastic venting, usually through a new sidewall penetration.\n\nThere's a knock-on effect worth knowing about. If your boiler and your hot water tank shared that chimney, removing the boiler can leave the water heater orphaned on a flue that no longer drafts properly. We look at both appliances together at quote stage so the venting plan covers the whole mechanical room, not just the new boiler." },
+          { q: "Should I replace my boiler before it fails?", a: "If it's past 18 years, getting an assessment is worth doing even if you're not ready to replace.\n\nA planned replacement in spring or early fall is a better job than an emergency one in January — you compare quotes, choose the unit rather than taking what's in stock, and nobody is working around a freezing house. Emergency replacement is a service we provide, but it costs more and narrows your options.\n\nThat said, we won't tell you to replace a boiler that's running well just because of its birthday. Age alone isn't a reason. Age plus rising gas bills, plus repairs starting to cluster, is." },
+          { q: "What do you do with my old boiler?", a: "We drain it, disconnect it, remove it from the property and dispose of it. That's included in the replacement scope — you're not left with an old unit in the basement or a disposal bill afterwards.\n\nOn heavy cast-iron boilers in older Calgary homes, removal occasionally means breaking the unit down in place to get it up the stairs. We assess that at quote time so it's priced in rather than raised as a surprise on the day." },
+          { q: "Is it worth switching from a boiler to a furnace?", a: "Rarely, and we'd usually talk you out of it.\n\nIf your home already has radiators, baseboards or in-floor loops, that distribution system is an asset. Converting to forced air means installing ductwork throughout a finished house — a major renovation, far beyond the cost of a boiler replacement, and you'd be giving up the even, quiet heat that hydronic systems deliver.\n\nThe conversation is different if you're gutting the house anyway, or if you want central air and are weighing a [heat pump](/heat-pumps-calgary/) or [furnace](/furnaces/) as part of a larger project. Short of that, replacing the boiler and keeping the hydronics is almost always the better value." },
+        ],
+      },
+    },
+    beforeAfter: {
+      eyebrow: "Calgary replacements",
+      heading: "Old unit out, new system in.",
+      intro:
+        "A few Calgary mechanical rooms before and after a boiler replacement — including the piping and venting work that comes with a proper retrofit.",
+      pairs: [
+        {
+          before: { src: "/images/2026/04/Boiler14.webp", alt: "Older boiler installation before replacement in a Calgary home" },
+          after: { src: "/images/2026/04/Boiler2.webp", alt: "New wall-hung condensing boiler with rebuilt hydronic manifold" },
+        },
+        {
+          before: { src: "/images/2026/04/Boiler19.webp", alt: "Existing boiler with original expansion tank and air separator" },
+          after: { src: "/images/2026/04/Boiler12.webp", alt: "Replacement boiler with new PEX hydronic distribution" },
+        },
       ],
     },
   },
@@ -4758,7 +4989,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "Boiler 20+ years old with major component failure",
-              body: "Cast iron boilers from the 60s-70s can last 50+ years but at that age, ongoing parts availability and efficiency conversations make [boiler replacement](/boiler-installation-calgary/) economically realistic. Modern condensing boilers usually need replacement at 15-20 years if major components (heat exchanger, control board, pumps) all start failing in sequence.",
+              body: "Cast iron boilers from the 60s-70s can last 50+ years but at that age, ongoing parts availability and efficiency conversations make [boiler replacement](/boiler-replacement-calgary/) economically realistic. Modern condensing boilers usually need replacement at 15-20 years if major components (heat exchanger, control board, pumps) all start failing in sequence.",
             },
             {
               heading: "Multiple repairs in a single heating season",
@@ -17947,6 +18178,7 @@ export const services: ServicePage[] = [
       items: [
         { label: "Boiler Installation Calgary", href: "/boiler-installation-calgary/", summary: "New high-efficiency boilers — heat-loss calc, gas + venting, full commissioning.", icon: "boiler_unit" },
         { label: "Combi Boiler Installation Calgary", href: "/combi-boiler-installation-calgary/", summary: "Heat and domestic hot water from one wall-hung unit — sized on real winter flow rate, not the brochure number.", icon: "boiler_unit" },
+        { label: "Boiler Replacement Calgary", href: "/boiler-replacement-calgary/", summary: "Weighing repair against replacement — plus what a retrofit actually involves on an older system.", icon: "swap_horiz" },
         { label: "Boiler Repair Calgary", href: "/boiler-repair-calgary/", summary: "Diagnosis and same-day fixes for kettling, pressure loss, no-heat, and ignition faults.", icon: "gas_valve" },
         { label: "Boiler Service Calgary", href: "/boiler-service-calgary/", summary: "Annual tune-ups: combustion analysis, safety checks, descale, system flush.", icon: "hydronic_loop" },
         { label: "Boiler Not Working", href: "/boiler-not-working-calgary/", summary: "Pressure loss, lockouts, frozen condensate, pump or zone valve failures, combi DHW issues — same-day dispatch.", icon: "boiler_unit", highlight: true, badge: "Same-day dispatch" },

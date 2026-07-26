@@ -150,6 +150,12 @@ const menu: NavItem[] = [
               desc: "New high-efficiency boilers.",
             },
             {
+              label: "Boiler Replacement",
+              href: "/boiler-replacement-calgary/",
+              icon: "swap_horiz",
+              desc: "Repair or replace? Honest answers.",
+            },
+            {
               label: "Boiler Repair",
               href: "/boiler-repair-calgary/",
               icon: "gas_valve",
