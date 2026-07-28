@@ -681,7 +681,7 @@ export const services: ServicePage[] = [
       "Mainline auger for deeper blockages",
       "HD sewer camera inspection",
       "Hydro-jet for severe mineral / root buildup",
-      "Trenchless lining for chronic root intrusion",
+      "Root barriers for chronic intrusion",
     ],
     bullets: [
       {
@@ -694,7 +694,7 @@ export const services: ServicePage[] = [
       },
       {
         t: "Calgary heritage-home expertise",
-        d: "Pre-1980 homes (Mount Royal, Bel-Aire, Bowness, Inglewood, original Brentwood) often have clay sewer laterals with decades of root intrusion. We diagnose, hydro-jet, and recommend root barriers or trenchless lining depending on what we find.",
+        d: "Pre-1980 homes (Mount Royal, Bel-Aire, Bowness, Inglewood, original Brentwood) often have clay sewer laterals with decades of root intrusion. We camera-inspect, hydro-jet, and recommend root barriers where the pipe is sound. Where it is not, structural repair is excavation work we do not take on — we document what we found so you can hire the right specialist.",
       },
       {
         t: "Honest one-off vs. root-cause call",
@@ -790,7 +790,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "Tree root intrusion in clay sewer laterals",
-              body: "Heritage neighbourhoods (Mount Royal, Bel-Aire, Bowness, Inglewood, mature areas of Edgemont and Varsity) have decades-old clay sewer laterals running under the front yard. Mature street trees send roots into the pipe joints — toilet is usually the first fixture to back up because it's the largest single discharge. Camera-inspect to confirm, hydro-jet to clear, root barriers or trenchless lining for chronic offenders.",
+              body: "Heritage neighbourhoods (Mount Royal, Bel-Aire, Bowness, Inglewood, mature areas of Edgemont and Varsity) have decades-old clay sewer laterals running under the front yard. Mature street trees send roots into the pipe joints — toilet is usually the first fixture to back up because it's the largest single discharge. Camera-inspect to confirm, hydro-jet to clear, root barriers for chronic offenders. If the camera shows the pipe itself has failed rather than simply fouled, that's excavation or lining work — we don't do structural sewer repair, but you'll get the footage and a written scope so a specialist can quote it accurately.",
             },
             {
               heading: "Partial main-line blockage (toilet first symptom)",
@@ -832,8 +832,8 @@ export const services: ServicePage[] = [
               body: "Hydro-jetting uses high-pressure water through a rotating head to scour the inside of the pipe — clears mineral scale, breaks up root masses, removes grease buildup. Restores the line to near-original inside diameter. Quoted separately based on what the camera found.",
             },
             {
-              heading: "7. Trenchless lining for chronic root intrusion",
-              body: "For heritage homes where roots have invaded the clay lateral and keep coming back, trenchless pipe lining is the long-term fix. We slide a resin-impregnated liner into the existing pipe; it cures into a new pipe inside the old one, sealing all joints against root re-entry. Lasts 50+ years. Quoted after camera inspection.",
+              heading: "7. When the camera shows a failed pipe",
+              body: "Sometimes a camera inspection shows the lateral has structurally failed — joints separated, a section collapsed, or root damage beyond what clearing can address. At that point the fix is excavation or a cured-in-place liner, and that is specialist work we do not take on. What we do is give you an honest diagnosis: camera footage, the location and depth, and a written description of the damage, so the contractor who does that work can quote it properly instead of guessing.",
             },
           ],
         },
@@ -1322,7 +1322,7 @@ export const services: ServicePage[] = [
       "Leak detection + repair",
       "Pipe replacement (galvanized, cast-iron, Poly-B, PEX)",
       "Shutoff valve + supply line replacement",
-      "Drain + sewer line repairs",
+      "Drain + main line clearing",
       "Toilet + fixture repairs",
       "Water hammer + pressure issues",
     ],
@@ -1449,7 +1449,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "Clay sewer laterals + mature street trees",
-              body: "Heritage Calgary streets (Mount Royal, Bel-Aire, Bowness, Inglewood, Edgemont older sections, Varsity) have mature elms, poplars, and willows sending roots into clay sewer laterals at the joints. Symptoms: recurring toilet backups, slow drains, sewer-gas smell. Camera-inspect, hydro-jet, and recommend root barriers or trenchless lining for chronic offenders.",
+              body: "Heritage Calgary streets (Mount Royal, Bel-Aire, Bowness, Inglewood, Edgemont older sections, Varsity) have mature elms, poplars, and willows sending roots into clay sewer laterals at the joints. Symptoms: recurring toilet backups, slow drains, sewer-gas smell. Camera-inspect, hydro-jet, and recommend root barriers for chronic offenders. If the camera shows the pipe itself has failed rather than simply fouled, that's excavation or lining work — we don't do structural sewer repair, but you'll get the footage and a written scope so a specialist can quote it accurately.",
             },
             {
               heading: "Newer-build pinhole copper",
@@ -1506,7 +1506,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "How long does a typical plumbing repair call take?",
-            a: "Most one-off repairs: 1-2 hours including diagnosis. Faucet cartridge swap, toilet rebuild, shutoff valve replacement, single-pipe leak repair — all in that range. Bigger jobs (full toilet replacement, multi-fixture work, partial re-pipe, hot water tank swap) run a half to a full day. Major jobs (full re-pipe, sewer lateral replacement) take multiple days. We tell you upfront which bucket your job is in.",
+            a: "Most one-off repairs: 1-2 hours including diagnosis. Faucet cartridge swap, toilet rebuild, shutoff valve replacement, single-pipe leak repair — all in that range. Bigger jobs (full toilet replacement, multi-fixture work, partial re-pipe, hot water tank swap) run a half to a full day. Major jobs (full re-pipe) take multiple days. We tell you upfront which bucket your job is in.",
           },
           {
             q: "Are you licensed and insured?",
@@ -9954,12 +9954,12 @@ export const services: ServicePage[] = [
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
     heroImage: { src: "/images/2025/04/drain-cleaning-pipe.webp", alt: "Drain cleaning service by FlameTech in Airdrie", fit: "cover" },
     intro:
-      "Airdrie drain cleaning + sewer camera inspection + hydro-jet + trenchless spot repair. Local Airdrie dispatch from Coopers Crossing.",
+      "Airdrie drain cleaning + sewer camera inspection + hydro-jetting + root cutting. Local Airdrie dispatch from Coopers Crossing.",
     features: [
       "Sewer main camera inspection",
       "Hydro-jet cleaning (mature root + grease)",
       "Mechanical snake / auger (kitchen + bath)",
-      "Trenchless spot repair (no-dig where possible)",
+      "Root cutting + hydro-jetting on main lines",
       "Basement floor drain + storm drain service",
       "Same-day emergency dispatch",
     ],
@@ -9970,7 +9970,7 @@ export const services: ServicePage[] = [
       },
       {
         t: "Camera inspection first, clear second",
-        d: "We don't blindly snake and hope. Camera inspection identifies WHERE the blockage is + WHAT it is (roots vs grease vs collapsed section vs foreign object). The right clearing method depends on the cause — hydro-jet for roots and grease, mechanical for kitchen blockages, trenchless spot repair for damaged sections. No-dig where the situation allows.",
+        d: "We don't blindly snake and hope. Camera inspection identifies WHERE the blockage is + WHAT it is (roots vs grease vs collapsed section vs foreign object). The right clearing method depends on the cause — hydro-jet for roots and grease, mechanical for kitchen blockages. If the camera shows a damaged or collapsed section rather than a blockage, that is structural repair we do not do — we tell you plainly and hand over the footage.",
       },
       {
         t: "Airdrie build-era patterns we recognize",
@@ -9983,7 +9983,7 @@ export const services: ServicePage[] = [
     ],
     seoTitle: "Drain Cleaning Airdrie | Hydro-Jet + Camera, Local Dispatch",
     seoDescription:
-      "Airdrie drain cleaning + sewer camera + hydro-jet + trenchless repair. Local Airdrie dispatch from Coopers Crossing. Same-day emergency. Call 587-834-3668.",
+      "Airdrie drain cleaning + sewer camera + hydro-jetting + root cutting. Local Airdrie dispatch from Coopers Crossing. Same-day emergency. Call 587-834-3668.",
     seoKeywords: [
       "drain cleaning Airdrie",
       "Airdrie drain cleaning",
@@ -10024,7 +10024,7 @@ export const services: ServicePage[] = [
           items: [
             {
               heading: "Main sewer line root intrusion (1990s-early 2000s builds)",
-              body: "Older Coopers Crossing, Big Springs, Meadowbrook, and Edwards Landing phases now have 20-30 year mature landscaping with root systems finding joint cracks in original PVC + ABS sewer mains. Symptom: slow drain on multiple fixtures, gurgling at toilets when other drains run, recurring backups despite snaking. Camera inspection identifies exact location + severity. Hydro-jet clears short-term; trenchless spot repair or full lateral replacement for severe cases.",
+              body: "Older Coopers Crossing, Big Springs, Meadowbrook, and Edwards Landing phases now have 20-30 year mature landscaping with root systems finding joint cracks in original PVC + ABS sewer mains. Symptom: slow drain on multiple fixtures, gurgling at toilets when other drains run, recurring backups despite snaking. Camera inspection identifies exact location + severity. Hydro-jetting clears it. Where the camera shows the pipe itself has failed, that is excavation work we do not take on — we give you the footage and scope so a specialist can quote it.",
             },
             {
               heading: "Kitchen sink drain buildup (every era)",
@@ -10044,11 +10044,11 @@ export const services: ServicePage[] = [
             },
             {
               heading: "Camera inspection (5-year cadence on older homes)",
-              body: "On 1990s-early 2000s Airdrie homes, we recommend sewer line camera inspection every 5 years. Catches root intrusion early when spot repair is cheap; prevents the surprise backup that ruins a finished basement.",
+              body: "On 1990s-early 2000s Airdrie homes, we recommend sewer line camera inspection every 5 years. Catches root intrusion while clearing is still enough, and prevents the surprise backup that ruins a finished basement.",
             },
             {
-              heading: "Trenchless spot repair + full lateral lining",
-              body: "Where the sewer line has joint separation or root damage but the overall pipe is structurally sound, trenchless spot repair (point lining or cured-in-place patch) restores function without trenching up the front lawn. Severe damage warrants full lateral lining. We sub-out the trenchless component to specialist crews when scope warrants.",
+              heading: "When the line needs structural repair",
+              body: "Where the camera shows joint separation, a collapsed section, or root damage past what clearing can fix, the line needs structural repair — lining or excavation. That is not work we take on. We give you the camera footage, the location and depth, and a written description of the damage so a sewer specialist can quote it accurately rather than re-running the same diagnosis at your expense.",
             },
           ],
         },
@@ -10097,19 +10097,19 @@ export const services: ServicePage[] = [
           },
           {
             q: "Why does my main drain keep backing up after snaking?",
-            a: "Almost always root intrusion in the main sewer line. Snaking clears a path through the roots temporarily but they grow back within months. Camera inspection identifies severity; hydro-jet clears with much better duration than snaking; trenchless spot repair is the permanent fix where damage is localized.",
+            a: "Almost always root intrusion in the main sewer line. Snaking clears a path through the roots temporarily but they grow back within months. Camera inspection identifies severity and hydro-jetting clears it with much better duration than snaking. If the footage shows the pipe is damaged rather than just fouled, structural repair is specialist excavation work we do not do — we hand you the evidence so you can get it quoted.",
           },
           {
             q: "How often should I have my Airdrie sewer line camera-inspected?",
-            a: "Every 5 years on homes 20+ years old (older Coopers Crossing, Big Springs, Meadowbrook, Edwards Landing). Catches root intrusion early when spot repair is cheap; prevents the surprise backup that ruins a finished basement.",
+            a: "Every 5 years on homes 20+ years old (older Coopers Crossing, Big Springs, Meadowbrook, Edwards Landing). Catches root intrusion while clearing is still enough, and prevents the surprise backup that ruins a finished basement.",
           },
           {
             q: "What's the difference between snaking and hydro-jetting?",
             a: "Snaking (mechanical auger) pushes a rotating cable through the drain to break up + push through the blockage. Good for kitchen + bath drains. Hydro-jetting uses high-pressure water (3000+ PSI) to blast roots + grease off pipe walls — much more thorough on main sewer lines. We use the right tool for the job after camera inspection.",
           },
           {
-            q: "Can you do trenchless sewer repair in Airdrie?",
-            a: "Yes — for damaged sections where the overall pipe is structurally sound. Trenchless spot repair (point lining or cured-in-place patch) restores function without trenching up the front lawn. We sub-out the trenchless install to specialist crews; we handle the diagnosis, camera, scope, and coordination.",
+            q: "Can you repair a damaged sewer line in Airdrie?",
+            a: "No — structural sewer repair is not something we take on. Lining and excavation are specialist trades and we would rather tell you that than sub it out and mark it up.\n\nWhat we do is the part that comes first, and it is the part most homeowners get charged twice for: HD camera inspection, locating the damage and its depth, hydro-jetting and root cutting where the line is sound, and a written description of what we found.\n\nTake that to a sewer specialist and they can quote from real evidence instead of re-running the diagnosis. For clearing, root intrusion, and everything short of structural failure, we are the call.",
           },
           {
             q: "Does my Airdrie home have a basement floor drain that needs maintenance?",
@@ -10117,7 +10117,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "How much does drain cleaning cost in Airdrie?",
-            a: "Depends on what's needed. Simple kitchen / bath drain unclog is the cheap end; full hydro-jet of a main sewer line is mid-range; trenchless spot repair is higher. We diagnose first then quote in writing — you always know what you're paying for before any work starts.",
+            a: "Depends on what's needed. A simple kitchen or bath drain unclog is the cheap end; a full hydro-jet of a main sewer line is mid-range; camera inspection sits between them. We diagnose first then quote in writing — you always know what you're paying for before any work starts.",
           },
           {
             q: "Do you dispatch locally from Airdrie or come from Calgary?",
@@ -11466,10 +11466,10 @@ export const services: ServicePage[] = [
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
     heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing + heating service in Altadore, SW Calgary", fit: "cover" },
     intro:
-      "Altadore Calgary plumbing + heating. Heritage 1950s bungalows + 2000s infill mix. Galvanized supply line replacement, clay sewer lateral repair, equipment replacement, drain cleaning. Free written quote.",
+      "Altadore Calgary plumbing + heating. Heritage 1950s bungalows + 2000s infill mix. Galvanized supply line replacement, sewer camera inspection, equipment replacement, drain cleaning. Free written quote.",
     features: [
       "Heritage galvanized + cast iron replacement",
-      "Clay sewer lateral camera + trenchless repair",
+      "Clay sewer lateral camera inspection + clearing",
       "Water heater + furnace replacement",
       "Infill new-build plumbing + drainage",
       "Mixed-era partial-reno troubleshooting",
@@ -11495,7 +11495,7 @@ export const services: ServicePage[] = [
     ],
     seoTitle: "Altadore Plumbers Calgary | Heritage + Infill",
     seoDescription:
-      "Altadore Calgary plumbing + heating. 1950s bungalow + 2000s infill mix. Galvanized + clay sewer lateral repair, equipment replacement. Call 587-834-3668.",
+      "Altadore Calgary plumbing + heating. 1950s bungalow + 2000s infill mix. Galvanized replacement, sewer camera + drain clearing. Call 587-834-3668.",
     seoKeywords: [
       "Altadore plumbers Calgary",
       "Altadore Calgary plumber",
@@ -11543,8 +11543,8 @@ export const services: ServicePage[] = [
               body: "Heritage Altadore cast iron drain stacks fail at joints + at the bottom of horizontal runs (pinhole rust). Symptom: slow drains, sewer smells, occasional leaks behind plaster walls or in basement ceilings. We repair with hubless fittings + PVC tie-ins where viable, full replacement where the stack is gone. Camera inspection identifies extent before quoting.",
             },
             {
-              heading: "Clay sewer lateral camera + trenchless repair",
-              body: "Original 1950s clay sewer laterals develop joint separation + root intrusion from Altadore's mature elms, maples, and poplars. Symptom: slow main drain, gurgling, recurring backups. Camera inspection identifies location + severity; trenchless lining or spot repair preserves landscaping — we don't tear up the front lawn unless there's no alternative.",
+              heading: "Clay sewer lateral camera inspection + clearing",
+              body: "Original 1950s clay sewer laterals develop joint separation + root intrusion from Altadore's mature elms, maples, and poplars. Symptom: slow main drain, gurgling, recurring backups. Camera inspection identifies location + severity, and hydro-jetting or root cutting clears it where the pipe is sound. If the camera shows the pipe itself has failed rather than simply fouled, that's excavation or lining work — we don't do structural sewer repair, but you'll get the footage and a written scope so a specialist can quote it accurately.",
             },
             {
               heading: "Original equipment replacement (water heater + furnace EOL)",
@@ -11579,7 +11579,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "Mature street trees + 60+ year clay laterals = root intrusion",
-              body: "Altadore's elms + maples + poplars are 60+ years old in many cases. Established root systems find clay sewer joint cracks over decades. Symptom: slow main drain, recurring backups despite snaking. Camera inspection + trenchless lining or spot repair beats tearing up boulevard landscaping.",
+              body: "Altadore's elms + maples + poplars are 60+ years old in many cases. Established root systems find clay sewer joint cracks over decades. Symptom: slow main drain, recurring backups despite snaking. Camera inspection tells you exactly what you are dealing with before anyone talks about digging. If the camera shows the pipe itself has failed rather than simply fouled, that's excavation or lining work — we don't do structural sewer repair, but you'll get the footage and a written scope so a specialist can quote it accurately.",
             },
             {
               heading: "1950s wartime bungalow construction has narrow access",
@@ -11629,7 +11629,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "Why are my drains slow in my heritage Altadore home?",
-            a: "Most common cause: root intrusion in the clay sewer lateral. Altadore's mature street trees have established root systems that find joint cracks in 60+ year clay laterals. Camera inspection identifies the exact location + severity. Hydro-jet or mechanical cutting clears short-term; trenchless lining or spot repair for permanent fix.",
+            a: "Most common cause: root intrusion in the clay sewer lateral. Altadore's mature street trees have established root systems that find joint cracks in 60+ year clay laterals. Camera inspection identifies the exact location + severity. Hydro-jetting or mechanical cutting clears it where the pipe is sound. If the camera shows the pipe itself has failed rather than simply fouled, that's excavation or lining work — we don't do structural sewer repair, but you'll get the footage and a written scope so a specialist can quote it accurately.",
           },
           {
             q: "My basement started flooding after the next-door infill was built — what's happening?",
@@ -11693,7 +11693,7 @@ export const services: ServicePage[] = [
       },
       {
         t: "Mature-tree root inspection",
-        d: "Decades-old elms and poplars across Bel-Aire send roots into clay sewer laterals. Camera-inspect first, hydro-jet second, root barriers or trenchless lining for chronic offenders. Catching it before backup beats reacting to it after.",
+        d: "Decades-old elms and poplars across Bel-Aire send roots into clay sewer laterals. Camera-inspect first, hydro-jet second, root barriers for chronic offenders. Catching it before a backup beats reacting to one after. If the camera shows the pipe itself has failed rather than simply fouled, that's excavation or lining work — we don't do structural sewer repair, but you'll get the footage and a written scope so a specialist can quote it accurately.",
       },
       {
         t: "Quick dispatch from Calgary",
@@ -11740,7 +11740,7 @@ export const services: ServicePage[] = [
           intro:
             "Same scope as our inner-SW Calgary service, dispatched from Calgary direct via 14 St SW or Glenmore Trail.",
           items: [
-            { heading: "Heritage plumbing repair + replacement", body: "Galvanized supply line replacement (the #1 issue on the original 60s-70s stock), cast-iron stack repair, original clay sewer lateral camera inspection + hydro-jet clearing or trenchless lining." },
+            { heading: "Heritage plumbing repair + replacement", body: "Galvanized supply line replacement (the #1 issue on the original 60s-70s stock), cast-iron stack repair, original clay sewer lateral camera inspection + hydro-jet clearing." },
             { heading: "Hydronic + high-end fixture work", body: "Modern rebuilds in Bel-Aire often have hydronic radiant heating + high-end fixtures (Brizo, Hansgrohe, Kohler). We design, install, and service [hydronic systems](/boiler-installation-calgary/) and work on the premium fixture brands you'll find in these homes." },
             { heading: "Hot water tanks + tankless", body: "Larger Bel-Aire homes outgrow standard 40-gallon tanks. We size [hot water tank replacements](/hot-water-tank-replacement-calgary/) or [tankless](/tankless-water-heaters/) for actual household demand — multi-bathroom, multi-zone use." },
             { heading: "Emergency plumbing", body: "Burst pipes, major leaks, sewer backups. Heritage homes are especially vulnerable to frozen-pipe failures because the original walls have minimal insulation in supply-line runs. See our [emergency plumber](/emergency-plumber-calgary/) page." },
@@ -11763,7 +11763,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "Mature-tree root intrusion in clay sewer mains",
-              body: "Bel-Aire's mature elms, poplars, and willows have decades of root growth into the original clay sewer laterals. Symptoms: gurgling drains, slow toilets, intermittent backups. Camera inspection confirms, hydro-jet clears, root barriers or trenchless lining stop the cycle.",
+              body: "Bel-Aire's mature elms, poplars, and willows have decades of root growth into the original clay sewer laterals. Symptoms: gurgling drains, slow toilets, intermittent backups. Camera inspection confirms, hydro-jet clears, root barriers slow the cycle. If the camera shows the pipe itself has failed rather than simply fouled, that's excavation or lining work — we don't do structural sewer repair, but you'll get the footage and a written scope so a specialist can quote it accurately.",
             },
             {
               heading: "Hydronic radiant in luxury rebuilds",
@@ -11805,7 +11805,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "How do you handle clay sewer lateral root intrusion?",
-            a: "Three-step approach. (1) HD camera inspection to confirm the location and severity of root intrusion. (2) Hydro-jet clearing to remove the root mass and any accumulated debris. (3) Decision on long-term fix: chemical root barriers (cheap, requires repeat applications), trenchless pipe lining (more expensive but the lateral effectively becomes new), or full lateral replacement (highest cost, longest disruption — only when the existing pipe is structurally failed). For Bel-Aire's mature-tree streets, we usually recommend the trenchless lining after the second backup — solves it for 50+ years.",
+            a: "Three-step approach. (1) HD camera inspection to confirm the location and severity of root intrusion. (2) Hydro-jet clearing to remove the root mass and any accumulated debris. (3) An honest read on what happens next. Root barriers and a regular jetting interval keep a sound pipe working. If the camera shows the lateral has structurally failed, the fix is lining or excavation — specialist work we do not take on. We will say so plainly and give you the footage and scope so a sewer contractor can quote it properly.",
           },
           {
             q: "Are you licensed and insured for Bel-Aire work?",
@@ -12691,7 +12691,7 @@ export const services: ServicePage[] = [
             { heading: "Drain Cleaning & Unclogging", body: "Kitchen sinks, bathroom drains, main line blockages — we clear them all with professional equipment. See our [drain cleaning Calgary](/drain-cleaning-calgary/) service." },
             { heading: "Water Heater Services", body: "Installation, repair, and replacement of [tank](/hot-water-tanks/) and [tankless water heaters](/tankless-water-heaters/). Calgary's hard water is brutal on older tanks, especially in original Bowness homes." },
             { heading: "Leak Detection & Repair", body: "Hidden leaks behind walls, under slabs, in crawl spaces — we find them and fix them without unnecessary demolition." },
-            { heading: "Sewer Line Services", body: "Main line repairs, replacements, and connections for both original homes and new construction. Many Bowness blocks still have original clay city mains from the 1950s." },
+            { heading: "Sewer Camera + Drain Clearing", body: "Main line repairs, replacements, and connections for both original homes and new construction. Many Bowness blocks still have original clay city mains from the 1950s." },
           ],
         },
         {
@@ -12764,7 +12764,7 @@ export const services: ServicePage[] = [
       "Brentwood Calgary plumbing + heating. 1960s-80s heritage homes, Poly-B-era renovations, modern infill rebuilds. Equipment replacement, drain + sewer work, NW dispatch. Free written quote.",
     features: [
       "Heritage galvanized + cast iron replacement",
-      "Clay sewer lateral camera + trenchless repair",
+      "Clay sewer lateral camera inspection + clearing",
       "Poly-B identification + replacement",
       "Water heater + furnace replacement",
       "Modern infill new-build + renovation",
@@ -12842,8 +12842,8 @@ export const services: ServicePage[] = [
               body: "Heritage Brentwood cast iron drain stacks fail at joints + at the bottom of horizontal runs (pinhole rust). Symptom: slow drains, sewer smells, occasional leaks behind plaster walls or in basement ceilings. We repair with hubless fittings + PVC tie-ins where viable, full replacement where the stack is gone. Camera inspection identifies extent.",
             },
             {
-              heading: "Clay sewer lateral camera + trenchless repair",
-              body: "Original 1960s clay sewer laterals develop joint separation + root intrusion from Brentwood's mature elms, maples, and poplars (60+ year established root systems). Symptom: slow main drain, gurgling, recurring backups. Camera inspection identifies location + severity; trenchless lining or spot repair preserves landscaping.",
+              heading: "Clay sewer lateral camera inspection + clearing",
+              body: "Original 1960s clay sewer laterals develop joint separation + root intrusion from Brentwood's mature elms, maples, and poplars (60+ year established root systems). Symptom: slow main drain, gurgling, recurring backups. Camera inspection identifies location + severity, and hydro-jetting clears it where the pipe is sound. If the camera shows the pipe itself has failed rather than simply fouled, that's excavation or lining work — we don't do structural sewer repair, but you'll get the footage and a written scope so a specialist can quote it accurately.",
             },
             {
               heading: "3rd-4th generation water heater replacement",
@@ -12874,7 +12874,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "Mature 60-year street trees + clay laterals = active root intrusion",
-              body: "Brentwood's elms, maples, and poplars are 60+ years old with established root systems that find clay sewer joint cracks. Symptom: slow main drain, recurring backups despite snaking. Camera inspection + trenchless lining or spot repair beats tearing up boulevard landscaping.",
+              body: "Brentwood's elms, maples, and poplars are 60+ years old with established root systems that find clay sewer joint cracks. Symptom: slow main drain, recurring backups despite snaking. Camera inspection tells you exactly what you are dealing with before anyone talks about digging. If the camera shows the pipe itself has failed rather than simply fouled, that's excavation or lining work — we don't do structural sewer repair, but you'll get the footage and a written scope so a specialist can quote it accurately.",
             },
             {
               heading: "Multiple renovation cycles = mixed-era complications",
@@ -12920,7 +12920,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "How often should I have my Brentwood sewer line camera-inspected?",
-            a: "Every 3-5 years on heritage Brentwood homes. The combination of 60-year clay laterals + 60-year mature trees + decades of joint micro-movement makes root intrusion an active problem. Camera inspection catches issues early when spot repair beats full lateral replacement. See [drain cleaning](/drain-cleaning-calgary/).",
+            a: "Every 3-5 years on heritage Brentwood homes. The combination of 60-year clay laterals + 60-year mature trees + decades of joint micro-movement makes root intrusion an active problem. Camera inspection catches root intrusion early, while jetting and root cutting are still enough to deal with it. See [drain cleaning](/drain-cleaning-calgary/).",
           },
           {
             q: "Should I replace my Brentwood furnace with a heat pump?",
@@ -13030,7 +13030,7 @@ export const services: ServicePage[] = [
             { heading: "Water Heater Services", body: "Installation, repair, and replacement of [tank](/hot-water-tanks/) and [tankless water heaters](/tankless-water-heaters/) from all major brands." },
             { heading: "Fixture Installation & Repair", body: "Toilets, sinks, faucets, [showers](/shower-plumbing-calgary/), and other [bathroom](/bathroom-plumbing-calgary/) fixtures installed properly the first time." },
             { heading: "Leak Detection & Repair", body: "Finding hidden leaks behind walls, under slabs, and in crawl spaces before they cause major damage." },
-            { heading: "Sewer Line Services", body: "Camera inspections, cleaning, and repair of main sewer lines and weeping tile systems." },
+            { heading: "Sewer Camera + Drain Clearing", body: "Camera inspections, cleaning, and repair of main sewer lines and weeping tile systems." },
           ],
         },
         {
@@ -13106,7 +13106,7 @@ export const services: ServicePage[] = [
       "Poly-B identification (1990-2000 transition era)",
       "Water softener install (whole-house protection)",
       "Tankless water heater retrofit + service",
-      "Sewer camera + trenchless lateral repair",
+      "Sewer camera inspection + root clearing",
       "Same-day emergency dispatch",
     ],
     bullets: [
@@ -13186,7 +13186,7 @@ export const services: ServicePage[] = [
             { heading: "Poly-B identification + replacement", body: "1990-2000 NE builds sit in the Poly-B transition zone. Earliest phases may have it, most have PEX. Look for grey/blue plastic supply lines with crimp-ring fittings (silver bands). See [Poly-B Calgary](/polyb-plumbing-calgary/) for identification + replacement scope." },
             { heading: "Water softener install — biggest longevity upgrade", body: "Calgary's hard water (150-200 mg/L) shortens every water-using appliance's lifespan. Single softener at the main entry: tanks last 14+ years instead of 8-10, every fixture downstream lasts longer. Pay-back over single tank cycle. See [water softener Calgary](/water-softener/)." },
             { heading: "Sump pump install + battery backup", body: "Original 1990s-2000s NE sump pumps are well past typical 10-15 year replacement age. Battery backup recommended for finished-basement homes — power-outage + pump-failure cascades happen during spring melt." },
-            { heading: "Sewer line camera + trenchless repair", body: "Established NE neighbourhoods now have 30-50 year mature landscaping. Tree roots find sewer joint cracks. Camera inspection + hydro-jet or trenchless lining preserves landscape." },
+            { heading: "Sewer line camera inspection + root clearing", body: "Established NE neighbourhoods now have 30-50 year mature landscaping. Tree roots find sewer joint cracks. Camera inspection plus hydro-jetting where the pipe is sound. Structural repair is specialist excavation work we do not take on." },
             { heading: "Drain cleaning + emergency service", body: "Same-day dispatch for sewer backups, kitchen sink clogs, basement floor drain backups. Universal hydro-jet + camera equipment on every truck. See [drain cleaning Calgary](/drain-cleaning-calgary/)." },
             { heading: "Whole-home humidifier install (tight modern envelopes)", body: "Skyview Ranch, Saddle Ridge, Cityscape, Redstone, Cornerstone — newer NE builds have tight envelopes that drop indoor humidity below 20% RH in deep winter without active humidification. Whole-home humidifier brings RH to 30-40% Health Canada recommends. See [humidifiers Calgary](/humidifiers-calgary/)." },
           ],
@@ -13273,7 +13273,7 @@ export const services: ServicePage[] = [
       "Tankless & tank water heaters",
       "Poly-B retrofitting",
       "Full home re-piping",
-      "Trenchless sewer rehabilitation",
+      "HD sewer camera diagnosis",
     ],
     bullets: [
       {
@@ -13349,7 +13349,7 @@ export const services: ServicePage[] = [
           intro:
             "From post-war bungalows to modern estates, our NW Calgary plumbers handle every kind of plumbing system.",
           items: [
-            { heading: "Drain & Sewer Solutions", body: "Professional sewer camera inspections, expert [drain cleaning](/drain-cleaning-calgary/) for all fixtures, modern trenchless sewer rehabilitation, foundation drain servicing, and commercial grease interceptor maintenance." },
+            { heading: "Drain & Sewer Solutions", body: "Professional sewer camera inspections, expert [drain cleaning](/drain-cleaning-calgary/) for all fixtures, HD camera diagnosis, foundation drain servicing, and commercial grease interceptor maintenance." },
             { heading: "Water Heater Expertise", body: "On-demand [tankless system installations](/tankless-water-heaters/), [conventional hot water tank services](/hot-water-tanks/), annual maintenance and tank flushing, and emergency water heater troubleshooting." },
             { heading: "Plumbing Fixtures", body: "Toilet installation and servicing, kitchen and [bathroom faucet upgrades](/bathroom-plumbing-calgary/), [shower and tub system repairs](/shower-plumbing-calgary/), garbage disposal services, and utility room plumbing connections." },
             { heading: "Pipe & Line Services", body: "Complete home re-piping, winter pipe insulation and freeze protection, advanced leak detection technology, main water line replacements, and legacy [Poly-B pipe retrofitting](/polyb-plumbing-calgary/) prevalent in 1980s-90s NW Calgary construction." },
@@ -13393,7 +13393,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "Mature-tree root intrusion in clay sewer mains",
-              body: "Inner NW has decades-old elms, poplars, and willows sending roots into aging clay sewer laterals. Symptoms: gurgling drains, intermittent backups, slow toilets. We camera-inspect to confirm, hydro-jet to clear, and recommend root-barrier or trenchless lining for chronic offenders.",
+              body: "Inner NW has decades-old elms, poplars, and willows sending roots into aging clay sewer laterals. Symptoms: gurgling drains, intermittent backups, slow toilets. We camera-inspect to confirm, hydro-jet to clear, and recommend root barriers for chronic offenders. If the camera shows the pipe itself has failed rather than simply fouled, that's excavation or lining work — we don't do structural sewer repair, but you'll get the footage and a written scope so a specialist can quote it accurately.",
             },
             {
               heading: "Higher-elevation pressure issues",
@@ -13459,7 +13459,7 @@ export const services: ServicePage[] = [
     features: [
       "Priority emergency plumbing repairs",
       "HD sewer camera inspections",
-      "Trenchless sewer line repairs",
+      "HD sewer camera diagnosis",
       "Tankless & tank water heater service",
       "Electronic leak detection",
       "Poly-B pipe replacement",
@@ -13531,7 +13531,7 @@ export const services: ServicePage[] = [
           intro:
             "Plumbing problems rarely announce themselves in advance. When disaster hits your Southeast Calgary property, our emergency plumbing team responds swiftly with priority same-day dispatch to address frozen and burst pipes (especially crucial during Calgary's frigid winter months), water heater failures leaving your household without hot water, and gas line concerns requiring certified professional intervention.",
           items: [
-            { heading: "Drain & Sewer Services", body: "HD sewer camera inspections for accurate diagnosis, thorough [drain clearing](/drain-cleaning-calgary/) for kitchens, bathrooms and floor drains, no-dig trenchless sewer line repairs, weeping tile and foundation drainage solutions, and restaurant or commercial grease trap cleaning." },
+            { heading: "Drain & Sewer Services", body: "HD sewer camera inspections for accurate diagnosis, thorough [drain clearing](/drain-cleaning-calgary/) for kitchens, bathrooms and floor drains, HD camera diagnosis, weeping tile and foundation drainage solutions, and restaurant or commercial grease trap cleaning." },
             { heading: "Water Heater Services", body: "[Tankless water heater](/tankless-water-heaters/) setup and configuration, standard [tank water heater](/hot-water-tanks/) installation and repairs, routine maintenance and sediment flushing, energy-efficient upgrade consultations, and same-day water heater diagnostics." },
             { heading: "Fixture Installation & Repair", body: "Toilet replacement and troubleshooting, sink and faucet installations, [bathtub and shower valve repairs](/shower-plumbing-calgary/), garburator installation, and laundry room hookups and connections." },
             { heading: "Pipe & Water Line Services", body: "Whole-home repiping projects, pipe winterization and freeze prevention, electronic leak detection, water main repair and replacement, and [Poly-B pipe replacement](/polyb-plumbing-calgary/) common in 1980s-90s SE Calgary homes." },
@@ -13678,7 +13678,7 @@ export const services: ServicePage[] = [
           intro:
             "Plumbing emergencies don't wait for business hours. Whether it's 2 AM on a Sunday or during a holiday, our emergency plumbers in Calgary SW respond quickly to burst pipes and frozen pipe emergencies (especially common in SW Calgary winters), water heater failures leaving you without hot water, and gas line leaks requiring immediate attention.",
           items: [
-            { heading: "Drain & Sewer Services", body: "Main sewer line camera inspections and repairs, kitchen and bathroom [drain cleaning](/drain-cleaning-calgary/), trenchless sewer line replacement, floor drain maintenance, and grease trap cleaning for SW Calgary properties." },
+            { heading: "Drain & Sewer Services", body: "Main sewer line camera inspections, kitchen and bathroom [drain cleaning](/drain-cleaning-calgary/), root cutting and hydro-jetting, floor drain maintenance, and grease trap cleaning for SW Calgary properties." },
             { heading: "Water Heater Services", body: "[Tankless water heater](/tankless-water-heaters/) installation and repair, traditional [tank water heater](/hot-water-tanks/) replacement, maintenance and flushing, energy-efficient upgrade consultations, and same-day water heater repairs." },
             { heading: "Fixture Installation & Repair", body: "Toilet repairs and replacements, faucet and sink installations, [bathtub and shower repairs](/shower-plumbing-calgary/), garburator installation, and laundry room plumbing." },
             { heading: "Piping Services", body: "Re-piping for older SW Calgary homes, pipe insulation for Calgary winters, leak detection and repair, water line replacements, and [polybutylene pipe replacement](/polyb-plumbing-calgary/) common in 1980s-90s SW Calgary homes." },
@@ -13809,7 +13809,7 @@ export const services: ServicePage[] = [
             { heading: "Water Heater Services", body: "Tank and [tankless installation](/tankless-water-heaters/), repairs, and maintenance for all major brands." },
             { heading: "Fixture Installation & Repair", body: "Toilets, faucets, sinks, tubs, [showers](/shower-plumbing-calgary/) — professional installation and repair work." },
             { heading: "Leak Detection & Repair", body: "Hidden leaks behind walls, under slabs, or in crawl spaces — we find and fix them." },
-            { heading: "Sewer Line Services", body: "Camera inspection, cleaning, repair, and full sewer line replacement when needed." },
+            { heading: "Sewer Camera + Drain Clearing", body: "Camera inspection, root cutting, and hydro-jetting. Structural repair is specialist excavation work we do not take on." },
           ],
         },
         {
@@ -13966,7 +13966,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "Sewer line + drain service (mature phase root intrusion)",
-              body: "Original Copperfield phases now have 20-25 year mature landscaping. Tree roots find sewer pipe joints over time. Symptoms: slow drains, gurgling, recurring backups. Camera inspection identifies location + severity; hydro-jet or mechanical cutting clears short-term; spot repair or trenchless lining for severe damage. See [drain cleaning Calgary](/drain-cleaning-calgary/).",
+              body: "Original Copperfield phases now have 20-25 year mature landscaping. Tree roots find sewer pipe joints over time. Symptoms: slow drains, gurgling, recurring backups. Camera inspection identifies location + severity; hydro-jetting or mechanical cutting clears a sound pipe. Where the camera shows the pipe itself has failed, that is specialist excavation work we do not take on. See [drain cleaning Calgary](/drain-cleaning-calgary/).",
             },
             {
               heading: "Tankless water heater retrofit",
@@ -14001,7 +14001,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "Mature trees on original phase = root intrusion era",
-              body: "Original Copperfield streets now have 20-25 year mature landscaping. Tree roots find sewer pipe joints over decades. Symptoms: slow main drain, gurgling, recurring backups despite snaking. Camera inspection every 5 years on older Copperfield homes catches root intrusion early. Spot repair beats full main-line replacement cost when caught early.",
+              body: "Original Copperfield streets now have 20-25 year mature landscaping. Tree roots find sewer pipe joints over decades. Symptoms: slow main drain, gurgling, recurring backups despite snaking. Camera inspection every 5 years on older Copperfield homes catches root intrusion early. Catching it while clearing is still enough is far cheaper than dealing with a failed line later.",
             },
             {
               heading: "Hard water hits everything downstream of the meter",
@@ -14185,7 +14185,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "Sewer line + drain service (mature phase root intrusion)",
-              body: "Original Cranston phases now have 25-year mature landscaping. Tree roots seek out sewer line joints. Symptoms: slow drains, gurgling, recurring backups. Camera inspection identifies location + severity; hydro-jet or mechanical cutting clears short-term; spot repair or trenchless lining for severe damage. See [drain cleaning Calgary](/drain-cleaning-calgary/).",
+              body: "Original Cranston phases now have 25-year mature landscaping. Tree roots seek out sewer line joints. Symptoms: slow drains, gurgling, recurring backups. Camera inspection identifies location + severity; hydro-jetting or mechanical cutting clears a sound pipe. Where the camera shows the pipe itself has failed, that is specialist excavation work we do not take on. See [drain cleaning Calgary](/drain-cleaning-calgary/).",
             },
             {
               heading: "Frozen condensate + cold-snap dispatch",
@@ -14216,7 +14216,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "Mature trees on original phase = root intrusion era",
-              body: "Cranston Boulevard and original-phase streets have 25-year mature landscaping. Tree roots find sewer pipe joints over decades — once roots are in, recurring backups follow. Camera inspection every 5 years on older Cranston homes catches root intrusion early. Spot repair beats full main-line replacement cost when caught early.",
+              body: "Cranston Boulevard and original-phase streets have 25-year mature landscaping. Tree roots find sewer pipe joints over decades — once roots are in, recurring backups follow. Camera inspection every 5 years on older Cranston homes catches root intrusion early. Catching it while clearing is still enough is far cheaper than dealing with a failed line later.",
             },
             {
               heading: "Hard water hits everything downstream of the meter",
@@ -14262,7 +14262,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "Is my drain backing up because of tree roots?",
-            a: "Possible on original-phase Cranston homes. The earliest phases now have 25-year mature trees with established root systems that find sewer pipe joints over time. Symptoms: slow drains, recurring backups despite snaking. Camera inspection identifies the exact location + severity. Hydro-jet or mechanical cutting clears short-term; spot repair or trenchless lining for permanent fix.",
+            a: "Possible on original-phase Cranston homes. The earliest phases now have 25-year mature trees with established root systems that find sewer pipe joints over time. Symptoms: slow drains, recurring backups despite snaking. Camera inspection identifies the exact location + severity. Hydro-jetting or mechanical cutting clears it where the pipe is sound. If the camera shows the pipe itself has failed rather than simply fouled, that's excavation or lining work — we don't do structural sewer repair, but you'll get the footage and a written scope so a specialist can quote it accurately.",
           },
           {
             q: "Do you work on every brand of plumbing + heating equipment?",
@@ -14744,7 +14744,7 @@ export const services: ServicePage[] = [
             { heading: "Water Heater Services", body: "Tank and [tankless water heater](/tankless-water-heaters/) installation, repair, and replacement." },
             { heading: "Fixture Installation & Repair", body: "Toilets, faucets, sinks, [showers](/shower-plumbing-calgary/) — professional installation and repairs that last." },
             { heading: "Leak Detection & Repair", body: "Finding hidden leaks before they cause major damage to your Edgemont home." },
-            { heading: "Sewer Line Services", body: "Camera inspections, root removal, and sewer line repairs to keep your system flowing." },
+            { heading: "Sewer Camera + Drain Clearing", body: "Camera inspections, root removal, and hydro-jetting to keep your system flowing." },
           ],
         },
         {
@@ -14874,7 +14874,7 @@ export const services: ServicePage[] = [
             { heading: "Drain Cleaning & Unclogging", body: "Kitchen sinks, bathroom drains, main lines — we clear the blockages and get your water flowing again. For persistent backups we bring hydro-jetting and camera gear. See our [drain cleaning services](/drain-cleaning-calgary/) for more." },
             { heading: "Water Heater Services", body: "Repair, replacement, and maintenance for both tank and tankless systems, including warranty work on newer units. We've replaced dozens of [tankless water heaters](/tankless-water-heaters/) in the newer builds." },
             { heading: "Fixture Installation & Repair", body: "Toilets, faucets, sinks, and showers — from quick repairs to complete bathroom updates." },
-            { heading: "Sewer Line Services", body: "Camera inspections, drain cleaning, and sewer line repairs including tree root removal." },
+            { heading: "Sewer Camera + Drain Clearing", body: "Camera inspections, drain cleaning, and tree root removal." },
           ],
         },
         {
@@ -15087,7 +15087,7 @@ export const services: ServicePage[] = [
       "Hillhurst Calgary plumbing + heating. Heritage 1910-1940 homes + modern infill mix. Galvanized + cast iron + clay lateral work, modern infill construction, drain + sewer service. Free written quote.",
     features: [
       "Heritage galvanized + cast iron replacement",
-      "Clay sewer lateral camera + trenchless repair",
+      "Clay sewer lateral camera inspection + clearing",
       "Modern infill new-build + connection work",
       "Mid-renovation partial-reno troubleshooting",
       "Premium fixture install (Hansgrohe, Brizo, Kohler)",
@@ -15113,7 +15113,7 @@ export const services: ServicePage[] = [
     ],
     seoTitle: "Hillhurst Plumbers Calgary | Heritage + Infill",
     seoDescription:
-      "Hillhurst Calgary plumbing + heating. Heritage 1910-1940 homes + modern infill. Galvanized + clay sewer lateral repair. Call 587-834-3668.",
+      "Hillhurst Calgary plumbing + heating. Heritage 1910-1940 homes + modern infill. Galvanized replacement, sewer camera + drain clearing. Call 587-834-3668.",
     seoKeywords: [
       "Hillhurst plumbers Calgary",
       "Hillhurst Calgary plumber",
@@ -15161,8 +15161,8 @@ export const services: ServicePage[] = [
               body: "Heritage Hillhurst cast iron drain stacks fail at joints + bottom of horizontal runs (pinhole rust). Symptom: slow drains, sewer smells, occasional leaks behind plaster walls or basement ceilings. We repair with hubless fittings + PVC tie-ins where viable, full replacement where the stack is gone.",
             },
             {
-              heading: "Clay sewer lateral camera + trenchless repair",
-              body: "Original 1920s clay sewer laterals develop joint separation + root intrusion from Hillhurst's mature elms, maples, and poplars (80+ year established root systems). Symptom: slow main drain, gurgling, recurring backups. Camera inspection + trenchless lining or spot repair preserves landscaping.",
+              heading: "Clay sewer lateral camera inspection + clearing",
+              body: "Original 1920s clay sewer laterals develop joint separation + root intrusion from Hillhurst's mature elms, maples, and poplars (80+ year established root systems). Symptom: slow main drain, gurgling, recurring backups. Camera inspection plus hydro-jetting where the pipe is sound. If the camera shows the pipe itself has failed rather than simply fouled, that's excavation or lining work — we don't do structural sewer repair, but you'll get the footage and a written scope so a specialist can quote it accurately.",
             },
             {
               heading: "Modern infill new-build + drainage work",
@@ -15197,7 +15197,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "Mature 80+ year street trees + clay laterals = active root intrusion",
-              body: "Hillhurst's elms + maples + poplars are 80-100+ years old in some cases with deeply established root systems that find clay sewer joint cracks. Symptom: slow main drain, recurring backups despite snaking. Camera inspection + trenchless lining or spot repair beats tearing up boulevard landscaping.",
+              body: "Hillhurst's elms + maples + poplars are 80-100+ years old in some cases with deeply established root systems that find clay sewer joint cracks. Symptom: slow main drain, recurring backups despite snaking. Camera inspection tells you exactly what you are dealing with before anyone talks about digging. If the camera shows the pipe itself has failed rather than simply fouled, that's excavation or lining work — we don't do structural sewer repair, but you'll get the footage and a written scope so a specialist can quote it accurately.",
             },
             {
               heading: "1910-1940 wartime construction has narrow access",
@@ -15247,7 +15247,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "Why are my drains slow in my heritage Hillhurst home?",
-            a: "Most common cause: root intrusion in the clay sewer lateral. Hillhurst's mature street trees have established root systems that find joint cracks in 80+ year clay laterals. Camera inspection identifies location + severity. Hydro-jet or mechanical cutting clears short-term; trenchless lining or spot repair for permanent fix.",
+            a: "Most common cause: root intrusion in the clay sewer lateral. Hillhurst's mature street trees have established root systems that find joint cracks in 80+ year clay laterals. Camera inspection identifies location + severity. Hydro-jetting or mechanical cutting clears it where the pipe is sound. If the camera shows the pipe itself has failed rather than simply fouled, that's excavation or lining work — we don't do structural sewer repair, but you'll get the footage and a written scope so a specialist can quote it accurately.",
           },
           {
             q: "My basement started flooding after the next-door infill was built — what's happening?",
@@ -15353,7 +15353,7 @@ export const services: ServicePage[] = [
             { heading: "Water Heater Services", body: "Installation, repair, and replacement of traditional tanks and [tankless units](/tankless-water-heaters/). We stock the brands that perform best in Calgary's hard water." },
             { heading: "Fixture Installation & Repair", body: "Leaky faucets, running toilets, and shower valve replacements. Quality fixtures installed right the first time." },
             { heading: "Leak Detection & Repair", body: "Hidden leaks behind walls or under slabs can cause serious damage. We find them fast and fix them permanently." },
-            { heading: "Sewer Line Services", body: "Camera inspections, drain cleaning, and sewer line repairs. Root intrusion is common in Huntington Hills' mature trees." },
+            { heading: "Sewer Camera + Drain Clearing", body: "Camera inspections, drain cleaning, and root cutting. Root intrusion is common in Huntington Hills' mature trees." },
           ],
         },
         {
@@ -15428,7 +15428,7 @@ export const services: ServicePage[] = [
       "Inglewood Calgary plumbing + heating. Heritage pre-1940 homes + renovation + modern infill mix. Cast iron + galvanized + clay lateral work, premium fixture install, drain + sewer service.",
     features: [
       "Heritage galvanized + cast iron replacement",
-      "Clay sewer lateral camera + trenchless repair",
+      "Clay sewer lateral camera inspection + clearing",
       "Pre-1940 heritage home restoration plumbing",
       "Modern infill new-build + drainage work",
       "Premium fixture install (Hansgrohe, Brizo, Kohler)",
@@ -15441,7 +15441,7 @@ export const services: ServicePage[] = [
       },
       {
         t: "Mature 100-year landscape = active root intrusion era",
-        d: "Inglewood's 100+ year mature street trees have deeply established root systems that find clay sewer joint cracks. Camera inspection identifies severity; trenchless lining or spot repair preserves landscape investment. Catching it early beats reacting to sewer backup.",
+        d: "Inglewood's 100+ year mature street trees have deeply established root systems that find clay sewer joint cracks. Camera inspection identifies severity, and catching it early beats reacting to a backup. If the camera shows the pipe itself has failed rather than simply fouled, that's excavation or lining work — we don't do structural sewer repair, but you'll get the footage and a written scope so a specialist can quote it accurately.",
       },
       {
         t: "Mid-renovation partial-modernization is the dominant call type",
@@ -15454,7 +15454,7 @@ export const services: ServicePage[] = [
     ],
     seoTitle: "Inglewood Plumbers Calgary | Heritage Pre-1940 + Renovation",
     seoDescription:
-      "Inglewood Calgary plumbing + heating. Heritage pre-1940 homes + infill. Cast iron stack work, galvanized + clay sewer lateral repair. Call 587-834-3668.",
+      "Inglewood Calgary plumbing + heating. Heritage pre-1940 homes + infill. Cast iron stack work, galvanized replacement, sewer camera. Call 587-834-3668.",
     seoKeywords: [
       "Inglewood plumbers Calgary",
       "Inglewood Calgary plumber",
@@ -15501,8 +15501,8 @@ export const services: ServicePage[] = [
               body: "Original 1890s-1940s galvanized supply lines close off with mineral scale over a century — water pressure drops dramatically, hot-side flow drops worse than cold (heat accelerates scaling). Replacement with copper or PEX-A through accessible runs; sometimes phased over major renovation cycles. See [plumbing repairs](/plumbing-repairs-calgary/).",
             },
             {
-              heading: "Clay sewer lateral camera + trenchless repair",
-              body: "Original early-1900s clay sewer laterals develop joint separation + root intrusion from Inglewood's 100+ year mature trees. Symptom: slow main drain, gurgling, recurring backups. Camera inspection identifies location + severity; trenchless lining or spot repair preserves century-old landscape investment.",
+              heading: "Clay sewer lateral camera inspection + clearing",
+              body: "Original early-1900s clay sewer laterals develop joint separation + root intrusion from Inglewood's 100+ year mature trees. Symptom: slow main drain, gurgling, recurring backups. Camera inspection identifies location + severity, and hydro-jetting clears a sound pipe. If the camera shows the pipe itself has failed rather than simply fouled, that's excavation or lining work — we don't do structural sewer repair, but you'll get the footage and a written scope so a specialist can quote it accurately.",
             },
             {
               heading: "Equipment replacement on 3rd-5th generation",
@@ -15537,7 +15537,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "100+ year mature trees + 100-year clay laterals = chronic root intrusion",
-              body: "Inglewood's street trees have established root systems older than most Calgary neighbourhoods. Clay sewer lateral joints have had a century to develop micro-cracks that roots exploit. Symptom: slow main drain, recurring backups despite snaking. Camera inspection + spot repair or trenchless lining is routine work here.",
+              body: "Inglewood's street trees have established root systems older than most Calgary neighbourhoods. Clay sewer lateral joints have had a century to develop micro-cracks that roots exploit. Symptom: slow main drain, recurring backups despite snaking. Camera inspection and root clearing are routine work here. If the camera shows the pipe itself has failed rather than simply fouled, that's excavation or lining work — we don't do structural sewer repair, but you'll get the footage and a written scope so a specialist can quote it accurately.",
             },
             {
               heading: "Significant heritage preservation + designation",
@@ -15579,7 +15579,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "How old are the sewer lines in Inglewood?",
-            a: "Many original Inglewood clay sewer laterals are 90-110+ years old. Some city mains are similar vintage. Joint separation + root intrusion is essentially universal at this age unless previously replaced. Camera inspection every 3-5 years catches issues early. Trenchless lining or spot repair beats trenching up boulevard landscaping.",
+            a: "Many original Inglewood clay sewer laterals are 90-110+ years old. Some city mains are similar vintage. Joint separation + root intrusion is essentially universal at this age unless previously replaced. Camera inspection every 3-5 years catches issues early, while clearing is still enough. If the camera shows the pipe itself has failed rather than simply fouled, that's excavation or lining work — we don't do structural sewer repair, but you'll get the footage and a written scope so a specialist can quote it accurately.",
           },
           {
             q: "I'm renovating my heritage Inglewood home — do I need a heritage planning consultation?",
@@ -15629,7 +15629,7 @@ export const services: ServicePage[] = [
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
     heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing service van in Killarney", fit: "cover" },
     intro:
-      "Expert plumbers serving Killarney, Calgary. Specializing in galvanized pipe replacement, [sewer line repairs](/drain-cleaning-calgary/), [Poly-B replacement](/polyb-plumbing-calgary/), and infill plumbing. Priority emergency service.",
+      "Expert plumbers serving Killarney, Calgary. Specializing in galvanized pipe replacement, [drain and main line clearing](/drain-cleaning-calgary/), [Poly-B replacement](/polyb-plumbing-calgary/), and infill plumbing. Priority emergency service.",
     features: [
       "Priority emergency plumbing repairs",
       "Galvanized & lead line replacement",
@@ -15650,7 +15650,7 @@ export const services: ServicePage[] = [
     ],
     seoTitle: "Killarney Plumbers Calgary | Priority Emergency Service",
     seoDescription:
-      "Killarney plumbers in Calgary. Galvanized pipe replacement, sewer line repairs, infill plumbing. Priority service. Call 587-834-3668.",
+      "Killarney plumbers in Calgary. Galvanized pipe replacement, drain + main line clearing, infill plumbing. Priority service. Call 587-834-3668.",
     seoKeywords: [
       "Killarney plumbers",
       "plumber Killarney Calgary",
@@ -15693,7 +15693,7 @@ export const services: ServicePage[] = [
             { heading: "Water Heater Services", body: "Tank and [tankless](/tankless-water-heaters/) installation, repairs, and upgrades for any home age — from 1950s bungalows to modern infills." },
             { heading: "Fixture Installation & Repair", body: "Toilets, faucets, showers, and [bathroom/kitchen upgrades](/bathroom-plumbing-calgary/)." },
             { heading: "Leak Detection & Repair", body: "Hidden leaks, slab leaks, and water damage prevention — critical in homes with original galvanized supply lines." },
-            { heading: "Sewer Line Services", body: "Camera inspections, cleaning, repairs, and full replacements for aging clay and cast iron mains." },
+            { heading: "Sewer Camera + Drain Clearing", body: "Camera inspections, cleaning, repairs, and full replacements for aging clay and cast iron mains." },
           ],
         },
         {
@@ -15741,7 +15741,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "Why does my sewer back up every spring in my original Killarney home?",
-            a: "Spring thaw combined with aging clay sewer lines and root intrusion creates perfect conditions for backups in this area. Many original Killarney homes have mature trees whose roots have infiltrated deteriorating clay pipes over decades. [Emergency cleaning](/drain-cleaning-calgary/) solves the immediate problem, but camera inspection usually reveals the need for partial or complete sewer line replacement.",
+            a: "Spring thaw combined with aging clay sewer lines and root intrusion creates perfect conditions for backups in this area. Many original Killarney homes have mature trees whose roots have infiltrated deteriorating clay pipes over decades. [Emergency cleaning](/drain-cleaning-calgary/) solves the immediate problem, and a camera inspection tells you whether the pipe underneath is sound or genuinely failed. If it is failed, that is excavation work we do not take on — but you will get the footage and a written scope so a sewer specialist can quote it.",
           },
         ],
       },
@@ -15781,7 +15781,7 @@ export const services: ServicePage[] = [
       },
       {
         t: "50-year mature trees = active sewer root intrusion",
-        d: "Lake Bonavista's mature elms, poplars, and spruce trees are 45-55 years old with deeply established root systems. 1970s-era PVC + ABS sewer joints now develop micro-cracks that roots exploit. Symptom: slow main drain, recurring backups. Camera inspection + spot repair or trenchless lining preserves mature landscaping investment.",
+        d: "Lake Bonavista's mature elms, poplars, and spruce trees are 45-55 years old with deeply established root systems. 1970s-era PVC + ABS sewer joints now develop micro-cracks that roots exploit. Symptom: slow main drain, recurring backups. Camera inspection tells you what you are actually dealing with. If the camera shows the pipe itself has failed rather than simply fouled, that's excavation or lining work — we don't do structural sewer repair, but you'll get the footage and a written scope so a specialist can quote it accurately.",
       },
       {
         t: "Equipment on 3rd-4th generation, EOL conversations ongoing",
@@ -15842,7 +15842,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "Sewer line camera + mature-tree root removal",
-              body: "1970s PVC + ABS sewer joints + 50-year mature trees = active root intrusion era. Symptom: slow main drain, gurgling, recurring backups despite snaking. Camera inspection identifies location + severity; hydro-jet or mechanical cutting clears short-term; spot repair or trenchless lining for permanent fix preserving mature landscaping.",
+              body: "1970s PVC + ABS sewer joints + 50-year mature trees = active root intrusion era. Symptom: slow main drain, gurgling, recurring backups despite snaking. Camera inspection identifies location + severity; hydro-jetting or mechanical cutting clears a sound pipe. If the camera shows the pipe itself has failed rather than simply fouled, that's excavation or lining work — we don't do structural sewer repair, but you'll get the footage and a written scope so a specialist can quote it accurately.",
             },
             {
               heading: "Sump pump install + battery backup",
@@ -15881,7 +15881,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "50-year mature street trees + 50-year sewer joints = root intrusion era",
-              body: "Lake Bonavista's mature trees have established root systems that find 1970s PVC + ABS sewer joint cracks. Annual camera inspection on older homes catches root intrusion early — spot repair beats full lateral replacement when caught in time.",
+              body: "Lake Bonavista's mature trees have established root systems that find 1970s PVC + ABS sewer joint cracks. Annual camera inspection on older homes catches root intrusion early, while jetting and root cutting are still enough.",
             },
             {
               heading: "Larger lots + walkout-basement designs near the lake",
@@ -15919,7 +15919,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "Why does my main drain back up after years of working fine?",
-            a: "Almost certainly root intrusion. Lake Bonavista's 50-year mature trees have deeply established root systems that find 1970s sewer joint cracks. Once roots are in, recurring backups follow. Camera inspection identifies location + severity. Hydro-jet or mechanical cutting clears short-term; trenchless lining or spot repair for permanent fix.",
+            a: "Almost certainly root intrusion. Lake Bonavista's 50-year mature trees have deeply established root systems that find 1970s sewer joint cracks. Once roots are in, recurring backups follow. Camera inspection identifies location + severity. Hydro-jetting or mechanical cutting clears it where the pipe is sound. If the camera shows the pipe itself has failed rather than simply fouled, that's excavation or lining work — we don't do structural sewer repair, but you'll get the footage and a written scope so a specialist can quote it accurately.",
           },
           {
             q: "Does my Lake Bonavista home have Poly-B plumbing?",
@@ -16240,7 +16240,7 @@ export const services: ServicePage[] = [
             { heading: "Water Heater Services", body: "Installation, repair, and replacement of conventional and [tankless units](/tankless-water-heaters/)." },
             { heading: "Fixture Installation & Repair", body: "Toilets, faucets, sinks, and bathroom fixtures installed right the first time. See [bathroom plumbing](/bathroom-plumbing-calgary/)." },
             { heading: "Leak Detection & Repair", body: "Finding hidden leaks in walls, under slabs, and in supply lines before they cause major damage." },
-            { heading: "Sewer Line Services", body: "Camera inspections, cleaning, and replacement of damaged sewer mains and laterals." },
+            { heading: "Sewer Camera + Drain Clearing", body: "Camera inspections, cleaning, and replacement of damaged sewer mains and laterals." },
           ],
         },
         {
@@ -16385,7 +16385,7 @@ export const services: ServicePage[] = [
             { heading: "Furnace replacement (first-wave HE units approaching EOL)", body: "1995-2005 Martindale originals had first-generation high-efficiency furnaces now 20-30 years old. Heat exchanger cracks become statistically significant past 18-20 years (safety issue with CO leakage risk). Honest replace-vs-repair conversations; heat pump + hybrid dual-fuel is now math-positive alternative. See [furnace replacement](/furnace-replacement-calgary/) and [heat pumps Calgary](/heat-pumps-calgary/)." },
             { heading: "Sump pump replacement (originals tired)", body: "Sump pumps typically last 10-15 years. Martindale originals from 1990s-2000s builds are well past that. Spring melt + heavy rain events stress these systems. We replace with ProFlo or similar + verify discharge routing + recommend battery backup for finished-basement homes." },
             { heading: "Poly-B identification + replacement (1990-1995 builds)", body: "Earliest Martindale phases may have Poly-B installed. Look for grey/blue plastic supply lines with crimp-ring fittings (silver bands). If your home was built before about 1995 and you haven't had supply lines inspected, worth a free check. See [Poly-B Calgary](/polyb-plumbing-calgary/)." },
-            { heading: "Sewer line + drain service (mature trees now)", body: "Original Martindale phases now have 25-30 year mature landscaping. Tree roots find sewer pipe joints over decades. Camera inspection + hydro-jet or trenchless lining for permanent fix. See [drain cleaning Calgary](/drain-cleaning-calgary/)." },
+            { heading: "Sewer line + drain service (mature trees now)", body: "Original Martindale phases now have 25-30 year mature landscaping. Tree roots find sewer pipe joints over decades. Camera inspection plus hydro-jetting where the pipe is sound. Structural repair is specialist work we do not take on. See [drain cleaning Calgary](/drain-cleaning-calgary/)." },
             { heading: "Tankless water heater retrofit", body: "Some Martindale homeowners go tankless on replacement — endless hot water, 20+ year lifespan. Brutal on hard water though; annual descaling mandatory + softener pairing recommended. See [tankless water heaters](/tankless-water-heaters/)." },
             { heading: "Frozen condensate + cold-snap dispatch", body: "High-efficiency furnaces in Martindale routinely lock out during deep cold snaps when condensate lines routed through unheated space freeze. Common cold-snap call. Permanent fix: reroute through heated space + heat trace where outdoor exit is required." },
           ],
@@ -16766,7 +16766,7 @@ export const services: ServicePage[] = [
             { heading: "Sump pump replacement (originals tired)", body: "Sump pumps typically last 10-15 years. Taradale originals from 1995-2005 builds are well past that range. Spring melt + heavy rain events stress these systems. We replace with ProFlo or similar + recommend battery backup for finished-basement homes." },
             { heading: "Poly-B identification + replacement (1995-2000 builds)", body: "Earliest Taradale phases may have Poly-B installed. Look for grey/blue plastic supply lines with crimp-ring fittings (silver bands). If your home was built before about 2000 and you haven't had supply lines inspected, worth a free check. See [Poly-B Calgary](/polyb-plumbing-calgary/)." },
             { heading: "Tankless water heater retrofit", body: "Some Taradale homeowners go tankless on tank replacement — endless hot water, 20+ year lifespan. Brutal on hard water though; annual descaling mandatory + softener pairing recommended. See [tankless water heaters](/tankless-water-heaters/)." },
-            { heading: "Sewer line + drain service (mature trees now)", body: "Original Taradale phases now have 25-30 year mature landscaping. Tree roots find sewer pipe joints over decades. Camera inspection + hydro-jet or trenchless lining for permanent fix." },
+            { heading: "Sewer line + drain service (mature trees now)", body: "Original Taradale phases now have 25-30 year mature landscaping. Tree roots find sewer pipe joints over decades. Camera inspection plus hydro-jetting where the pipe is sound. Structural repair is specialist work we don't take on." },
             { heading: "Frozen condensate + cold-snap dispatch", body: "High-efficiency furnaces in Taradale routinely lock out during deep cold snaps when condensate lines routed through unheated space freeze. Common cold-snap call. Permanent fix: reroute through heated space + heat trace where outdoor exit is required." },
           ],
         },
@@ -16881,7 +16881,7 @@ export const services: ServicePage[] = [
             { heading: "Emergency Plumbing Repairs", body: "Burst pipes, sewer backups, major leaks, and flooding situations handled with priority response. Visit our [emergency plumber](/emergency-plumber-calgary/) page for details." },
             { heading: "Drain Cleaning & Unclogging", body: "Main line blockages, root removal, kitchen and bathroom drain clearing using hydro-jetting and professional cutting equipment. See our [drain cleaning](/drain-cleaning-calgary/) services." },
             { heading: "Water Heater Services", body: "Tank replacements, [tankless installations](/tankless-water-heaters/), repairs, and maintenance. We've replaced dozens of heaters in this neighborhood." },
-            { heading: "Sewer Line Services", body: "Camera inspections, line replacement, root cutting, and main line repairs — essential given McKenzie Lake's mature landscaping." },
+            { heading: "Sewer Camera + Drain Clearing", body: "Camera inspections, line replacement, root cutting, and main line repairs — essential given McKenzie Lake's mature landscaping." },
             { heading: "Leak Detection & Repair", body: "Hidden leaks, slab leaks, pipe repairs, and water damage prevention using electronic leak detection to pinpoint problems without unnecessary wall removal." },
             { heading: "Fixture Installation & Repair", body: "Toilets, faucets, sinks, showers, and full bathroom renovations. See [bathroom plumbing](/bathroom-plumbing-calgary/) for more." },
           ],
@@ -16944,7 +16944,7 @@ export const services: ServicePage[] = [
       "Tank & tankless water heater service",
       "Fixture installation & repair",
       "Leak detection & repair",
-      "Trenchless sewer line services",
+      "Sewer camera inspection + root clearing",
     ],
     bullets: [
       {
@@ -16978,7 +16978,7 @@ export const services: ServicePage[] = [
         "Stocked Calgary trucks",
         "Licensed, bonded & insured",
         "Hydro-jetting & camera inspection on truck",
-        "Trenchless sewer repair capable",
+        "HD camera diagnosis on every main-line call",
       ],
     },
     stats: [
@@ -17001,7 +17001,7 @@ export const services: ServicePage[] = [
             { heading: "Water Heater Services", body: "Complete installation, repair, and maintenance of [tank](/hot-water-tanks/) and [tankless water heaters](/tankless-water-heaters/), with energy-efficient options perfect for family homes." },
             { heading: "Fixture Installation & Repair", body: "Professional installation and repair of faucets, toilets, sinks, and shower systems — see our [shower plumbing](/shower-plumbing-calgary/) page for bathroom upgrades." },
             { heading: "Leak Detection & Repair", body: "State-of-the-art leak detection equipment pinpoints hidden water damage before it becomes costly, protecting your McKenzie Towne investment with precision repairs." },
-            { heading: "Sewer Line Services", body: "Comprehensive sewer line inspection, cleaning, and repair using trenchless technology when possible, minimizing disruption to your landscaping and driveway." },
+            { heading: "Sewer Camera + Drain Clearing", body: "HD camera inspection, root cutting, and hydro-jetting on main lines. If the footage shows structural damage, we say so and hand over the evidence — lining and excavation are specialist work we do not take on." },
           ],
         },
         {
@@ -17035,7 +17035,7 @@ export const services: ServicePage[] = [
         heading: "Frequently Asked Questions",
         items: [
           { q: "How fast can you get a plumber to McKenzie Towne?", a: "Our dispatch team prioritizes McKenzie Towne emergency calls, with fully equipped trucks ready to tackle any crisis professionally and efficiently. A real person answers our priority line — never an automated system." },
-          { q: "Do you handle trenchless sewer repair in McKenzie Towne?", a: "Yes. We use trenchless technology wherever possible to minimize disruption to your McKenzie Towne landscaping and driveway. We'll run a camera inspection first to confirm the best approach." },
+          { q: "Do you handle sewer line repair in McKenzie Towne?", a: "No — lining and excavation are specialist trades and we do not take that work on.\n\nWhat we do is everything up to it: HD camera inspection to find the damage and its depth, root cutting and hydro-jetting where the line is structurally sound, and a written scope of what we found.\n\nThat means a sewer specialist can quote from real evidence rather than charging you to repeat the diagnosis." },
           { q: "My basement sump pump failed during spring melt — can you help?", a: "Yes — Sump pump failures during spring melt are common in McKenzie Towne given the proximity to the Bow River. We stock replacement pumps on our trucks and can usually have you back up and running the same day." },
           { q: "Are you familiar with homes built during McKenzie Towne's development boom?", a: "Twenty-five years of service throughout McKenzie Towne means our technicians have worked on everything from the area's original estate homes to the latest energy-efficient builds. We know the specific pipe materials and fixtures used during each construction era." },
           { q: "Do you service both tank and tankless water heaters?", a: "Yes — we install, repair, and maintain both conventional tank water heaters and [tankless systems](/tankless-water-heaters/). We'll help you choose the right option for your family's hot water demand." },
@@ -17067,7 +17067,7 @@ export const services: ServicePage[] = [
       "Hydronic boiler + in-floor radiant",
       "Multi-zone manifold + snowmelt design",
       "Premium fixture install + repair",
-      "Sewer camera + trenchless lateral repair",
+      "Sewer camera inspection + root clearing",
       "Discreet, scheduled service windows",
     ],
     bullets: [
@@ -17139,8 +17139,8 @@ export const services: ServicePage[] = [
               body: "Cast iron drain stacks from the heritage era reach end of life through joint separation + pinhole rust at the bottom of horizontal runs. Symptom: slow drains + occasional leaks behind plaster walls or in basement ceilings. We repair with hubless fittings + cast-iron-compatible PVC where viable, full replacement where the stack is gone. Camera inspection identifies extent before quoting.",
             },
             {
-              heading: "Clay sewer lateral camera + trenchless repair",
-              body: "Original 1920s clay sewer laterals develop joint separation + root intrusion from Mount Royal's mature street trees (elms, maples, poplars). Symptom: slow main drain, gurgling, recurring backups. Camera inspection identifies location + severity; trenchless lining or spot repair preserves landscaping — we don't tear up the front lawn unless there's no other option.",
+              heading: "Clay sewer lateral camera inspection + clearing",
+              body: "Original 1920s clay sewer laterals develop joint separation + root intrusion from Mount Royal's mature street trees (elms, maples, poplars). Symptom: slow main drain, gurgling, recurring backups. Camera inspection identifies location + severity, and hydro-jetting or root cutting clears it where the pipe is sound. If the camera shows the pipe itself has failed rather than simply fouled, that's excavation or lining work — we don't do structural sewer repair, but you'll get the footage and a written scope so a specialist can quote it accurately.",
             },
             {
               heading: "Hydronic boiler install + service (rebuilds)",
@@ -17175,7 +17175,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "Mature street trees + 90-year clay laterals = root intrusion",
-              body: "Mount Royal's mature elms + maples + poplars have established root systems that find clay sewer joint cracks. Symptom: slow main drain, gurgling, recurring backups despite snaking. Camera inspection + spot repair or trenchless lining beats tearing up boulevard landscaping. We don't trench unless there's no alternative.",
+              body: "Mount Royal's mature elms + maples + poplars have established root systems that find clay sewer joint cracks. Symptom: slow main drain, gurgling, recurring backups despite snaking. Camera inspection tells you exactly what you're dealing with before anyone talks about digging. If the camera shows the pipe itself has failed rather than simply fouled, that's excavation or lining work — we don't do structural sewer repair, but you'll get the footage and a written scope so a specialist can quote it accurately.",
             },
             {
               heading: "Hydronic + in-floor radiant is the dominant heating mode in rebuilds",
@@ -17225,7 +17225,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "Why are my drains slow in my heritage Mount Royal home?",
-            a: "Most common cause: root intrusion in the clay sewer lateral. Mount Royal's mature street trees have established root systems that find joint cracks in 90-year-old clay laterals. Camera inspection identifies the location + severity. Hydro-jet or mechanical cutting clears short-term; trenchless lining or spot repair for permanent fix. We don't trench up the front lawn unless there's no alternative.",
+            a: "Most common cause: root intrusion in the clay sewer lateral. Mount Royal's mature street trees have established root systems that find joint cracks in 90-year-old clay laterals. Camera inspection identifies the location + severity. Hydro-jetting or mechanical cutting clears it where the pipe is sound. If the camera shows the pipe itself has failed rather than simply fouled, that's excavation or lining work — we don't do structural sewer repair, but you'll get the footage and a written scope so a specialist can quote it accurately. We don't trench up the front lawn unless there's no alternative.",
           },
           {
             q: "Do you install premium fixture brands like Hansgrohe, Brizo, Kohler?",
@@ -17332,7 +17332,7 @@ export const services: ServicePage[] = [
             { heading: "Water Heater Services", body: "[Tank](/hot-water-tanks/) and [tankless water heater](/tankless-water-heaters/) installation, repair, and replacement with same-day service available." },
             { heading: "Fixture Installation & Repair", body: "Toilets, sinks, faucets, showers, and bathtubs installed or repaired to manufacturer specifications." },
             { heading: "Leak Detection & Repair", body: "Hidden leaks behind walls, under slabs, and in crawl spaces found and fixed before they cause major damage." },
-            { heading: "Sewer Line Services", body: "Main line cleaning, camera inspections, and full sewer line replacement when tree roots or pipe collapse cause backups." },
+            { heading: "Sewer Camera + Drain Clearing", body: "Main line cleaning, camera inspections, and root cutting. Where roots or a collapse have damaged the pipe itself, we document it for a sewer specialist rather than taking the repair on." },
           ],
         },
         {
@@ -17450,7 +17450,7 @@ export const services: ServicePage[] = [
             { heading: "Water Heater Services", body: "Installation, repair, and maintenance of conventional [tank](/hot-water-tanks/) and [tankless water heaters](/tankless-water-heaters/), ensuring reliable hot water through Calgary's harsh winters." },
             { heading: "Fixture Installation & Repair", body: "Professional installation and repair of toilets, faucets, sinks, and shower systems — see [shower plumbing](/shower-plumbing-calgary/)." },
             { heading: "Leak Detection & Repair", body: "Advanced leak detection technology helps us locate hidden leaks behind walls and under slabs before they cause extensive damage." },
-            { heading: "Sewer Line Services", body: "Complete sewer line inspection, cleaning, and repair services to keep your home's waste system flowing properly." },
+            { heading: "Sewer Camera + Drain Clearing", body: "Complete sewer line inspection, cleaning, and repair services to keep your home's waste system flowing properly." },
           ],
         },
         {
@@ -17573,7 +17573,7 @@ export const services: ServicePage[] = [
             { heading: "Water Heater Services", body: "From [tankless installations](/tankless-water-heaters/) to traditional [tank repairs](/hot-water-tanks/) and replacements, we keep your hot water flowing through Calgary's cold winters." },
             { heading: "Luxury Fixture Installation & Repair", body: "Our plumbers expertly install and repair high-end faucets, toilets, sinks, and other fixtures to maintain your Signal Hill home's premium quality. See [bathroom plumbing](/bathroom-plumbing-calgary/)." },
             { heading: "Leak Detection & Repair", body: "We use modern leak detection technology to quickly locate and repair leaks before they become costly — particularly important in hillside properties where water damage can affect structural stability." },
-            { heading: "Sewer Line Services", body: "Comprehensive sewer line inspections, cleaning, repairs, and replacements. Signal Hill's hillside topography requires specialized expertise for proper maintenance and repair." },
+            { heading: "Sewer Camera + Drain Clearing", body: "Comprehensive sewer line inspections, cleaning, repairs, and replacements. Signal Hill's hillside topography requires specialized expertise for proper maintenance and repair." },
           ],
         },
         {
@@ -17726,7 +17726,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "Sewer line camera + root removal (mature trees now)",
-              body: "Tuscany's first phases are 25+ years old with mature landscaping. Tree roots seek out the moisture and nutrients in sewer lines through joint cracks. Symptoms: slow drains, gurgling, recurring backups. Camera inspection identifies the location + severity; hydro-jet or mechanical cutting clears; long-term fix is spot repair or trenchless lining where damage is severe.",
+              body: "Tuscany's first phases are 25+ years old with mature landscaping. Tree roots seek out the moisture and nutrients in sewer lines through joint cracks. Symptoms: slow drains, gurgling, recurring backups. Camera inspection identifies the location + severity; hydro-jetting or mechanical cutting clears a sound pipe. Where the damage is structural, that is specialist excavation work we do not take on.",
             },
             {
               heading: "Water softener + tankless install (hard-water protection)",
@@ -17834,7 +17834,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "My drain keeps backing up — could it be tree roots?",
-            a: "Possibly. Tuscany's first phases are now 25+ years old with mature landscaping. Tree roots seek moisture and nutrients in sewer lines through joint cracks — once they're in, recurring backups follow. Camera inspection identifies location + severity. Hydro-jet or mechanical cutting clears; long-term fix is spot repair or trenchless lining if damage is significant.",
+            a: "Possibly. Tuscany's first phases are now 25+ years old with mature landscaping. Tree roots seek moisture and nutrients in sewer lines through joint cracks — once they're in, recurring backups follow. Camera inspection identifies location + severity. Hydro-jetting or mechanical cutting clears a sound pipe. Where the damage is structural, that is specialist excavation work we do not take on.",
           },
           {
             q: "Do you work on every brand of plumbing + heating equipment?",
@@ -18133,7 +18133,7 @@ export const services: ServicePage[] = [
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
     heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing service van in Woodbine", fit: "cover" },
     intro:
-      "Expert plumbers serving Woodbine and [SW Calgary](/calgary-plumbers-sw/). Priority emergency service, [drain cleaning](/drain-cleaning-calgary/), water heaters, fixture installs, sewer line repair.",
+      "Expert plumbers serving Woodbine and [SW Calgary](/calgary-plumbers-sw/). Priority emergency service, [drain cleaning](/drain-cleaning-calgary/), water heaters, fixture installs, sewer camera inspection.",
     features: [
       "Priority emergency repairs",
       "Drain cleaning & unclogging",
@@ -18235,7 +18235,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "Can tree roots really damage my sewer line?",
-            a: "Yes — mature trees common in Woodbine send roots toward underground sewer lines seeking moisture, and they eventually break through joints causing backups. Camera inspection shows us exactly where the damage is, and we offer root removal and trenchless repair options.",
+            a: "Yes — mature trees common in Woodbine send roots toward underground sewer lines seeking moisture, and they eventually break through joints causing backups. Camera inspection shows us exactly where the damage is. We handle root removal and hydro-jetting; if the pipe itself has failed, structural repair is specialist excavation work we do not take on, and we will tell you so straight.",
           },
           {
             q: "Is my hard water damaging my appliances?",
