@@ -12016,7 +12016,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "What other SW Calgary luxury neighbourhoods do you cover?",
-            a: "Same crew works [Mount Royal](/mount-royal-plumbers-calgary/), [Bel-Aire](/bel-aire-plumbers-calgary/), [West Springs](/west-springs-plumbers-calgary/), [Altadore](/altadore-plumbers-calgary/), [Marda Loop](/marda-loop-plumbers-calgary/), [Signal Hill](/signal-hill-plumbers-calgary/), Springbank Hill, Cougar Ridge, Strathcona Park, and the broader [SW Calgary](/calgary-plumbers-sw/). Hydronic + premium-fixture expertise translates across all of them.",
+            a: "Same crew works [Mount Royal](/mount-royal-plumbers-calgary/), [Elbow Park](/elbow-park-plumbers-calgary/), [Britannia](/britannia-plumbers-calgary/), [Bel-Aire](/bel-aire-plumbers-calgary/), [West Springs](/west-springs-plumbers-calgary/), [Altadore](/altadore-plumbers-calgary/), [Marda Loop](/marda-loop-plumbers-calgary/), [Signal Hill](/signal-hill-plumbers-calgary/), Springbank Hill, Cougar Ridge, Strathcona Park, and the broader [SW Calgary](/calgary-plumbers-sw/). Hydronic + premium-fixture expertise translates across all of them.",
           },
         ],
       },
@@ -12224,6 +12224,388 @@ export const services: ServicePage[] = [
           {
             q: "What other SE Calgary neighbourhoods do you cover?",
             a: "Same crew works [Mahogany](/mahogany-plumbers-calgary/), [Cranston](/cranston-plumber-calgary/), [McKenzie Towne](/mckenzie-towne-plumbers-calgary/), [McKenzie Lake](/mckenzie-lake-plumbers-calgary/), [New Brighton](/new-brighton-plumbers-calgary/), [Copperfield](/copperfield-plumbers-calgary/), [Chaparral](/chaparral-plumbers-calgary/), and the broader [SE Calgary](/calgary-plumbers-se/). Same-day dispatch across the SE.",
+          },
+        ],
+      },
+    },
+  },
+
+  {
+    slug: "elbow-park-plumbers-calgary",
+    category: "Plumbing",
+    location: "Calgary",
+    icon: "plumbing",
+    title: "Elbow Park Plumbers Calgary — Heritage Homes + Post-Flood Mechanical",
+    lead:
+      "Elbow Park has two plumbing stories running at once: original 1910-1940 heritage systems reaching the end of their service life, and the mechanical rooms rebuilt after the 2013 flood that are now themselves aging out. We work both — heritage supply and drain replacement, original boiler assessment, and the sump pumps and backwater valves installed during the rebuild years.",
+    heroBody: [
+      "The 2013 Elbow River flood reshaped mechanical rooms across this community. A large number of Elbow Park basements were rebuilt between 2013 and 2016, with equipment relocated or raised, sump pits added, and backwater valves fitted. That equipment is now ten to thirteen years old — which is squarely the age where a sump pump gives out and where a backwater valve needs to actually be inspected rather than assumed to be working.",
+      "The other half of the work is heritage. Original Elbow Park homes carry galvanized supply lines that close off with scale, cast-iron drain stacks that separate at the joints, and in many cases the original cast-iron boiler and radiator system. Those boilers are remarkable, still running, and enormously inefficient — see [boiler replacement](/boiler-replacement-calgary/) for how we assess whether one has life left.",
+      "Elbow Park is a short run for our SW dispatch via Elbow Drive or 14th Street. Confirmed windows, careful protection of finished interiors, and a real person on the phone. Call 587-834-3668.",
+    ],
+    heroSubhead: "Heritage + Flood-Rebuild Specialists",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing and heating service in Elbow Park, SW Calgary", fit: "cover" },
+    intro:
+      "Elbow Park Calgary plumbing and heating. Heritage 1910-1940 systems, original boiler replacement, post-flood sump pumps and backwater valves. Free written quote.",
+    features: [
+      "Heritage galvanized + cast-iron replacement",
+      "Original boiler assessment + replacement",
+      "Sump pump replacement (flood-era units)",
+      "Backwater valve inspection + service",
+      "Hydronic radiant on rebuilt homes",
+      "Discreet, scheduled service windows",
+    ],
+    bullets: [
+      {
+        t: "The 2013 rebuild equipment is aging out now",
+        d: "Sump pumps fitted during the 2013-2016 rebuild wave are at ten-plus years, which is the end of a typical service life. The failure mode that matters is the one nobody sees coming: the pump sits idle for months, then is asked to run continuously during the first heavy storm and doesn't. We test rather than assume, and we'll tell you if yours is fine.",
+      },
+      {
+        t: "Backwater valves need inspecting, not trusting",
+        d: "A backwater valve fitted a decade ago is a mechanical device with a flapper that can foul with debris or seize. It is also the thing standing between a sewer surcharge and your finished basement. Inspection is quick and it is the cheapest insurance in the house. See [backwater valve installation](/backwater-valve-installation-calgary/).",
+      },
+      {
+        t: "Original boilers are worth an honest assessment",
+        d: "Plenty of Elbow Park homes still run their original cast-iron boiler, and some of them will keep running for years. Others are burning far more gas than they need to across a seven-month heating season, or are past the point where parts are still made. We assess and tell you which one you have — we won't push a replacement on a boiler that's fine.",
+      },
+      {
+        t: "Heritage diagnostics before demolition",
+        d: "Original plaster and lath walls are part of what makes these homes worth what they are. Infrared imaging and acoustic detection locate a leak behind plaster without opening the wall to find it. We work out what's back there before recommending any tear-out.",
+      },
+    ],
+    seoTitle: "Elbow Park Plumbers Calgary | Heritage + Flood Rebuild | FlameTech",
+    seoDescription:
+      "Elbow Park Calgary plumbing and heating — heritage systems, original boiler replacement, flood-era sump pumps and backwater valves. Call 587-834-3668.",
+    seoKeywords: [
+      "Elbow Park plumbers Calgary",
+      "Elbow Park plumber",
+      "Elbow Park boiler replacement",
+      "Elbow Park sump pump",
+      "Elbow Park backwater valve",
+      "SW Calgary heritage plumber",
+      "FlameTech Plumbing",
+    ],
+    quoteFormLabel: "Elbow Park plumbing",
+    quoteFormPlaceholder:
+      "e.g. sump pump installed after the flood and never tested, original boiler in a 1928 home, low hot water pressure on galvanized lines…",
+    sidebar: {
+      title: "Elbow Park Plumbing + Heating",
+      subtitle:
+        "Heritage systems and flood-rebuild mechanical, handled by one crew. Free assessment and written quote.",
+      bullets: [
+        "Sump pump + backwater valve testing",
+        "Honest repair-or-replace boiler advice",
+        "Non-destructive leak location",
+        "Real person on the phone",
+      ],
+    },
+    stats: [
+      { number: "2013", label: "Flood rebuild era", icon: "water_damage" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "20+", label: "Years hydronics", icon: "verified" },
+      { number: "Real", label: "Person on the phone", icon: "call" },
+    ],
+    callout:
+      "Not sure whether your sump pump or backwater valve still works? Call 587-834-3668 — we'll test both and tell you straight.",
+    richContent: {
+      sections: [
+        {
+          heading: "What we get called for most in Elbow Park",
+          intro:
+            "The community's two housing stories — original heritage homes and post-2013 rebuilds — generate two distinct sets of calls. Often in the same house.",
+          items: [
+            {
+              heading: "Sump pump replacement on flood-era installs",
+              body: "A sump pump fitted during the 2013-2016 rebuild is now at or past a typical service life. These units spend most of the year idle and are then asked to run hard during the first big summer storm, which is exactly when a worn pump fails. We test the float, the check valve, and the discharge run, and replace where it's warranted. See [sump pump installation](/sump-pump-installation-calgary/).",
+            },
+            {
+              heading: "Backwater valve inspection and service",
+              body: "Many Elbow Park homes had a backwater valve fitted as part of the rebuild. It's a mechanical flapper in a pit, and debris, grease, or corrosion can stop it seating properly. Inspection means opening the access cap, clearing the chamber, and confirming the flapper moves freely. Quick job, and it's the difference between a protected basement and an unprotected one.",
+            },
+            {
+              heading: "Original boiler assessment and replacement",
+              body: "Cast-iron boilers in original Elbow Park homes are frequently still working, which makes the decision harder rather than easier. The honest questions are efficiency, parts availability, and whether the heat exchanger is sound. We assess all three at no charge — and if the answer is that it has years left, that's what we'll tell you.",
+            },
+            {
+              heading: "Galvanized supply line replacement",
+              body: "Original galvanized supply lines close off internally with mineral scale over ninety-plus years. The tell is that hot-side pressure drops noticeably worse than cold, because heat accelerates the scaling. Replacement with copper or PEX-A through accessible runs, often phased to line up with a renovation rather than done all at once.",
+            },
+            {
+              heading: "Cast-iron drain stack repair",
+              body: "Heritage cast-iron stacks fail at the joints and through pinhole rust along horizontal runs. The symptom is usually slow drainage plus a damp patch on a basement ceiling. Camera inspection establishes how far the deterioration runs before we quote, so you're not paying to replace sound pipe.",
+            },
+            {
+              heading: "Root intrusion in the drain line",
+              body: "Elbow Park's mature elms and poplars have root systems that find joints in older drain lines. The symptom is a main drain that slows, gurgles, and backs up despite repeated snaking. Camera inspection identifies where and how bad; mechanical cutting and jetting clear it. See [drain cleaning](/drain-cleaning-calgary/).",
+            },
+            {
+              heading: "Hydronic radiant on rebuilt homes",
+              body: "Homes rebuilt after the flood, and the newer infills, commonly run in-floor radiant on a multi-zone manifold. Jason has twenty years on hydronics — zone valve service, manifold balancing, and diagnosing the single cold zone that's almost always a stuck valve or trapped air.",
+            },
+            {
+              heading: "Water heaters in raised mechanical rooms",
+              body: "Rebuilt basements often relocated the water heater, sometimes to a tighter or higher space than the original. That changes venting and drain-pan requirements, and it changes what will physically fit when the tank needs replacing. We check clearances before quoting so replacement day holds no surprises. See [hot water tanks](/hot-water-tanks/).",
+            },
+          ],
+        },
+        {
+          heading: "Why Elbow Park needs a different conversation",
+          intro:
+            "River proximity and the 2013 rebuild give this community a service profile that doesn't match a standard Calgary neighbourhood.",
+          items: [
+            {
+              heading: "Flood-mitigation equipment has a service life",
+              body: "The sump pumps, backwater valves, and drainage improvements installed after 2013 were the right work. But they're mechanical, and they were largely fitted within a three-year window, which means a lot of Elbow Park equipment is reaching end of life at roughly the same time. Testing before storm season beats discovering it during one.",
+            },
+            {
+              heading: "Two eras of plumbing in one house",
+              body: "It's common here to find a rebuilt basement with entirely modern mechanical sitting under original heritage plumbing on the upper floors. Same house, two toolkits. Diagnosing correctly means knowing which era you're looking at before you start.",
+            },
+            {
+              heading: "River-adjacent ground stays wetter",
+              body: "Proximity to the Elbow means higher groundwater in parts of the community, which is why sump systems here work harder than in most of Calgary. A pump that would coast in a dry suburb cycles regularly here, and that shortens its life.",
+            },
+            {
+              heading: "Original boilers, not furnaces",
+              body: "Unlike most of Calgary, a meaningful share of Elbow Park's original homes heat with boilers and radiators rather than forced air. That's a specialist conversation about heat exchangers, near-boiler piping, and whether an old high-temperature radiator system will let a modern condensing unit actually condense.",
+            },
+            {
+              heading: "Heritage finishes limit destructive diagnostics",
+              body: "Plaster and lath, original millwork, and period tile are part of the value of these homes. We locate leaks with infrared and acoustic equipment first, and open a wall only when we've established there's no other way.",
+            },
+            {
+              heading: "Hard water is the same here as everywhere",
+              body: "Calgary's hard water doesn't soften for expensive postcodes. It scales heat exchangers, shortens water heater life, and wears premium fixture cartridges. A [water softener](/water-softener/) at the main entry is the single most effective protection for everything downstream of it.",
+            },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Elbow Park Plumbers — FAQs",
+        items: [
+          {
+            q: "My sump pump was installed after the 2013 flood. Does it need replacing?",
+            a: "It needs testing, and quite possibly replacing. A pump fitted during the 2013-2016 rebuild wave is now at ten-plus years, which is the top end of a typical service life.\n\nThe risk with these is specific: the pump sits idle for most of the year, then gets asked to run continuously during the first heavy storm. That's when worn units fail, and it's the worst possible moment.\n\nWe test the pump under load, check the float switch, the check valve, and the discharge line, and give you a straight answer. If it's got life left, we'll say so. See [sump pump installation](/sump-pump-installation-calgary/)."
+          },
+          {
+            q: "How do I know if my backwater valve still works?",
+            a: "You don't, unless someone has looked at it — and that's the problem with them.\n\nA backwater valve is a mechanical flapper sitting in a pit in your floor. Debris, grease, and corrosion can all stop it seating properly, and there's no warning light. It just quietly stops protecting the basement.\n\nInspection is straightforward: open the access cap, clear the chamber, confirm the flapper swings freely and seats cleanly. It takes minutes and it's the cheapest insurance in the house. More detail on [backwater valve installation](/backwater-valve-installation-calgary/)."
+          },
+          {
+            q: "Should I replace the original boiler in my Elbow Park home?",
+            a: "Not necessarily, and we won't tell you to just because it's old.\n\nAn original cast-iron boiler that's still running well can keep going. The questions worth asking are what it's costing you in gas across a seven-month heating season, whether parts are still available for it, and whether the heat exchanger is sound — that last one being a safety matter rather than an economic one.\n\nWe assess all three at no charge. If it's time, our [boiler replacement](/boiler-replacement-calgary/) page covers what a retrofit onto an old radiator system actually involves, because that's where these jobs go wrong."
+          },
+          {
+            q: "Why is my hot water pressure so much worse than my cold?",
+            a: "That pattern almost always means original galvanized supply lines.\n\nGalvanized pipe closes off internally with mineral scale over decades, and heat accelerates the process — so the hot side scales faster and the pressure drop shows up there first. Replacing a fixture or the tap won't change it, because the restriction is in the pipe.\n\nThe fix is replacing the affected runs with copper or PEX-A. In a heritage home that's often phased over a couple of renovation cycles rather than done in one go, and we'll lay out the options in writing."
+          },
+          {
+            q: "My drains are slow even after snaking. What's going on?",
+            a: "Repeat slow drainage after a clearing usually points at root intrusion rather than a blockage.\n\nElbow Park's mature elms and poplars have well-established root systems, and they find joints in older drain lines. Snaking punches a hole through the root mass, flow returns for a while, and then it closes back up.\n\nA camera inspection tells you where the intrusion is and how severe it is, so you're deciding with information rather than repeating the same clearing every spring. See [drain cleaning](/drain-cleaning-calgary/)."
+          },
+          {
+            q: "Can you find a leak without opening my plaster walls?",
+            a: "In most cases, yes — and in a heritage home that matters, because original plaster and lath isn't something you put back the way it was.\n\nWe use infrared imaging to find the temperature signature of moisture behind a surface, and acoustic detection to trace pressurised leaks. Between them we can usually localise a leak closely enough to open a small, specific area rather than exploratory demolition.\n\nWe'll always tell you what we've established and how confident we are before anything gets cut."
+          },
+          {
+            q: "How fast can you get to Elbow Park?",
+            a: "Same day for emergencies — burst pipe, no heat, no hot water, water coming up in the basement.\n\nElbow Park is a short run for our SW dispatch, with Elbow Drive and 14th Street both giving quick access. We confirm a window before the truck rolls rather than handing you a four-hour block, and a real person answers at 587-834-3668."
+          },
+          {
+            q: "What other inner-SW neighbourhoods do you work in?",
+            a: "The same crew covers [Britannia](/britannia-plumbers-calgary/), [Mount Royal](/mount-royal-plumbers-calgary/), [Bel-Aire](/bel-aire-plumbers-calgary/), [Altadore](/altadore-plumbers-calgary/), [Marda Loop](/marda-loop-plumbers-calgary/), [Killarney](/killarney-plumbers-calgary/), and the broader [SW Calgary](/calgary-plumbers-sw/) area. The heritage and hydronic experience carries across all of them, and over to character neighbourhoods like [Hillhurst](/hillhurst-plumbers-calgary/) and [Inglewood](/inglewood-plumbers-calgary/)."
+          },
+        ],
+      },
+    },
+  },
+
+  {
+    slug: "britannia-plumbers-calgary",
+    category: "Plumbing",
+    location: "Calgary",
+    icon: "plumbing",
+    title: "Britannia Plumbers Calgary — 1950s Bungalows + Infill Rebuilds",
+    lead:
+      "Britannia's original 1950s bungalows are now seventy years old, which puts their mechanical systems well past the point where age alone is the deciding factor. Alongside them sits one of Calgary's most active teardown-and-rebuild markets, with fully modern hydronic systems going into brand-new homes on the same streets. We work both ends of that.",
+    heroBody: [
+      "The post-war Britannia bungalow has a specific pipe-era signature, and it isn't the one people expect. Too late for the galvanized-everything of the 1910s, far too early for Poly-B — these homes typically have early copper supply, cast-iron drain stacks, and original heating plant that has now been running for six or seven decades. Cast-iron boilers from this era are the clearest [boiler replacement](/boiler-replacement-calgary/) case we see anywhere in the city.",
+      "The other half of Britannia is new. Infill rebuilds here commonly specify in-floor radiant on multi-zone manifolds, combi or system boilers, and sometimes snowmelt loops on driveways. Jason has spent twenty years on hydronics specifically, which is the part of a rebuild most general plumbers would rather not take on.",
+      "One street can hold an original 1955 bungalow and a 2023 rebuild, and they need entirely different conversations. Confirmed windows, coordination with renovation GCs where relevant, real person on the phone. Call 587-834-3668.",
+    ],
+    heroSubhead: "Post-War Bungalows + Modern Rebuilds",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing and heating service in Britannia, SW Calgary", fit: "cover" },
+    intro:
+      "Britannia Calgary plumbing and heating. 1950s bungalow systems, original cast-iron boiler replacement, and hydronic radiant on infill rebuilds.",
+    features: [
+      "Original cast-iron boiler replacement",
+      "1950s cast-iron drain stack repair",
+      "Early copper supply assessment",
+      "Hydronic radiant + multi-zone manifolds",
+      "Combi and system boiler service",
+      "Renovation + GC coordination",
+    ],
+    bullets: [
+      {
+        t: "Seventy-year-old heating plant is a real decision",
+        d: "An original Britannia boiler may well still be running, and that's what makes it hard. The questions are gas consumption across a seven-month heating season, whether parts still exist, and whether the heat exchanger is sound. We assess all three and give you a straight answer rather than a sales pitch.",
+      },
+      {
+        t: "The 1950s pipe era is its own problem set",
+        d: "Not galvanized-dominant like pre-war homes, not Poly-B like the 80s. Britannia originals typically run early copper supply and cast-iron drains. Copper of that vintage can be sound or can be thinning at the joints, and it's worth knowing which before a renovation opens the walls.",
+      },
+      {
+        t: "Rebuild hydronics is specialist work",
+        d: "In-floor radiant, multi-zone manifolds, snowmelt loops, integrated domestic hot water. Jason handles design, commissioning, and ongoing service, brand-agnostic across Viessmann, Triangle Tube, IBC, Navien, and Lochinvar. Most of the failures we're called to on newer systems trace back to commissioning, not the appliance.",
+      },
+      {
+        t: "Two housing stocks, one crew",
+        d: "We don't hand you off between a heritage team and a new-build team. The same people who assess a 1955 mechanical room commission the radiant manifold in the rebuild next door, which matters when your project is a renovation that touches both.",
+      },
+    ],
+    seoTitle: "Britannia Plumbers Calgary | Bungalows + Rebuilds | FlameTech",
+    seoDescription:
+      "Britannia Calgary plumbing and heating — 1950s bungalow systems, cast-iron boiler replacement, hydronic radiant on infills. Call 587-834-3668.",
+    seoKeywords: [
+      "Britannia plumbers Calgary",
+      "Britannia plumber",
+      "Britannia boiler replacement",
+      "Britannia hydronic radiant",
+      "SW Calgary infill plumbing",
+      "Calgary bungalow plumbing",
+      "FlameTech Plumbing",
+    ],
+    quoteFormLabel: "Britannia plumbing",
+    quoteFormPlaceholder:
+      "e.g. original cast-iron boiler in a 1956 bungalow, radiant zone not heating in a rebuild, cast-iron stack leak, planning a full renovation…",
+    sidebar: {
+      title: "Britannia Plumbing + Heating",
+      subtitle:
+        "Original bungalow systems and modern rebuild hydronics, handled by the same crew.",
+      bullets: [
+        "Honest repair-or-replace boiler advice",
+        "Hydronic radiant design + commissioning",
+        "Free in-home assessment + written quote",
+        "GC coordination on renovations",
+      ],
+    },
+    stats: [
+      { number: "1950s", label: "Original build era", icon: "schedule" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "20+", label: "Years hydronics", icon: "verified" },
+      { number: "Real", label: "Person on the phone", icon: "call" },
+    ],
+    callout:
+      "Original boiler in a Britannia bungalow, or commissioning a radiant system in a rebuild? Call 587-834-3668 for a free assessment.",
+    richContent: {
+      sections: [
+        {
+          heading: "What we get called for most in Britannia",
+          intro:
+            "Two housing stocks, sometimes on the same block. The original bungalows and the rebuilds generate very different work.",
+          items: [
+            {
+              heading: "Original cast-iron boiler replacement",
+              body: "This is the most common heating call in Britannia's original homes. A boiler of this vintage is typically running at a fraction of modern efficiency, and parts availability is usually the forcing event rather than outright failure. The retrofit questions matter more than the appliance choice — whether the existing radiators will let a condensing unit condense, and whether the old chimney can still be used.",
+            },
+            {
+              heading: "Cast-iron drain stack repair and replacement",
+              body: "Cast-iron stacks from the 1950s fail at joints and through pinhole rust along horizontal runs. The symptom is slow drainage plus a damp patch appearing on a basement ceiling. We camera the stack to establish how far the deterioration actually runs, so replacement is scoped to what's failed rather than the whole system by default.",
+            },
+            {
+              heading: "Early copper supply assessment",
+              body: "Copper from this era is often perfectly sound and occasionally thinning, particularly at soldered joints and where it's been in contact with dissimilar metals. If you're planning a renovation, knowing which you have before the walls open changes the scope and the budget. We assess and report honestly — plenty of Britannia copper has decades left.",
+            },
+            {
+              heading: "Hydronic radiant install and commissioning",
+              body: "Infill rebuilds here commonly specify in-floor radiant across six to twelve zones, sometimes with a snowmelt loop. Jason handles system design, manifold layout, and commissioning — setting flow balance and the outdoor reset curve so the system actually performs the way the design intended.",
+            },
+            {
+              heading: "Zone valve and manifold service",
+              body: "The most common complaint on an established radiant system is one cold zone while the rest of the house is fine. It's almost always a stuck zone valve actuator or air trapped in the loop, and it's usually fixable in a single visit. Manifold sets need periodic balancing and actuator service regardless.",
+            },
+            {
+              heading: "Combi boiler descaling",
+              body: "Combi units are common in Britannia rebuilds, and their domestic hot water heat exchanger takes the full force of Calgary's hard water. The tell is heat working fine while hot taps go lukewarm. Descaling restores output in most cases. Annual service plus a softener upstream prevents the repeat — see [boiler service](/boiler-service-calgary/).",
+            },
+            {
+              heading: "Water heater replacement in tight bungalow mechanical rooms",
+              body: "Original bungalow mechanical spaces were sized for the equipment of the day, and a modern tank or a tankless unit has different clearance, venting, and drainage requirements. We measure and check venting before quoting so nothing is discovered on install day. See [hot water tanks](/hot-water-tanks/).",
+            },
+            {
+              heading: "Full renovation plumbing scope",
+              body: "Britannia sees a lot of major renovations short of a full teardown. We work to a GC's schedule, provide written scope suitable for review, handle inspection coordination, and sequence around framing, electrical, and drywall rather than turning up when it suits us. See [bathroom plumbing](/bathroom-plumbing-calgary/).",
+            },
+          ],
+        },
+        {
+          heading: "Why Britannia needs a different conversation",
+          intro:
+            "A community where a seventy-year-old bungalow and a two-year-old rebuild share a street doesn't fit a standard neighbourhood service profile.",
+          items: [
+            {
+              heading: "The 1950s pipe era gets misdiagnosed",
+              body: "People assume an older Calgary home means galvanized, or that anything with plastic pipe means Poly-B. Britannia originals are usually neither — early copper and cast iron is the typical signature. Getting the era right changes what you look for and what you recommend.",
+            },
+            {
+              heading: "Boilers here are old enough that the decision is genuinely open",
+              body: "A boiler at seventy years is past every rule of thumb, yet many are still heating the house. That's a real judgement call about efficiency, parts, and heat exchanger condition rather than an automatic replacement. We'd rather assess it properly than default either way.",
+            },
+            {
+              heading: "Retrofitting condensing boilers onto old radiators",
+              body: "Britannia's original radiator systems were designed to run hot. Drop a condensing boiler in without checking radiator sizing and return water temperatures and it never condenses, which means paying for efficiency you'll never see. This is the single most commonly skipped step in a replacement.",
+            },
+            {
+              heading: "Old iron systems are full of sludge",
+              body: "Decades of steel and cast iron produce magnetite that settles through the loop. An old boiler's wide waterways tolerated it; a modern heat exchanger's narrow passages don't. A power flush and a magnetic filter before commissioning isn't an upsell on these systems, it's what protects the appliance you just bought.",
+            },
+            {
+              heading: "Large mature lots mean established root systems",
+              body: "Britannia's big lots and mature trees put substantial root systems near older drain lines. Recurring slow drainage that returns a few months after each clearing is the signature. Camera inspection establishes where and how bad before you decide anything. See [drain cleaning](/drain-cleaning-calgary/).",
+            },
+            {
+              heading: "Hard water hits the rebuilds hardest",
+              body: "A new radiant system, a combi boiler, and premium fixtures are exactly the equipment Calgary's hard water is most expensive to. A [water softener](/water-softener/) at the main entry protects all of it, and it's far cheaper fitted during the build than retrofitted afterwards.",
+            },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Britannia Plumbers — FAQs",
+        items: [
+          {
+            q: "My Britannia bungalow still has its original boiler. Do I have to replace it?",
+            a: "Not automatically, and we won't tell you otherwise to sell a job.\n\nAt this age the honest questions are three. What is it costing you in gas across a seven-month heating season compared to a modern unit? Are parts still available if something fails? And is the heat exchanger sound — which is a safety question rather than an economic one, and the only one of the three with nothing to weigh.\n\nWe assess all three at no charge and tell you which side of the line you're on. If it's time, our [boiler replacement](/boiler-replacement-calgary/) page covers what a retrofit onto an old radiator system actually involves."
+          },
+          {
+            q: "Does my 1950s home have Poly-B?",
+            a: "Almost certainly not. Poly-B went into Canadian homes roughly between 1978 and 1995, which is decades after Britannia's original build.\n\nWhat you're more likely to find is early copper supply and cast-iron drain stacks. Copper of that vintage is often sound, though it can thin at soldered joints.\n\nThe exception worth checking: if the house was re-plumbed during a 1980s or early-90s renovation, Poly-B could have been introduced then. Grey plastic pipe stamped PB2110 is the giveaway. Our guide on [whether you need to replace Poly-B](/blog/do-i-need-to-replace-poly-b/) covers what to do if you find it."
+          },
+          {
+            q: "Can I put a modern condensing boiler on my original radiators?",
+            a: "Usually yes, but it has to be checked rather than assumed, and this is where most Britannia replacements go wrong.\n\nA condensing boiler only reaches its rated efficiency when water returning from the system is cool enough to condense the flue gases. Radiator systems from the 1950s were designed to run hot. If the radiators are undersized for a lower operating temperature, the boiler simply never condenses.\n\nWe check radiator sizing against your home's heat loss, set the outdoor reset curve to run as cool as the house allows, and tell you honestly if upsizing a radiator or two would change the outcome. These systems also need a power flush and a magnetic filter first — decades of iron sludge will block a modern heat exchanger."
+          },
+          {
+            q: "Do you handle in-floor radiant in the new builds?",
+            a: "Yes, and it's the part of a rebuild we'd point to first. Jason has twenty years specifically on hydronics.\n\nThat covers system design and manifold layout, commissioning and flow balancing, zone control setup, snowmelt loops, and integrating domestic hot water. Brand-agnostic across Viessmann, Triangle Tube, IBC, Navien, Lochinvar, and NTI.\n\nWorth saying: most of the radiant faults we're called out to on newer systems trace back to commissioning rather than the appliance. A system that was never properly balanced will underperform for its entire life, and it's much cheaper to get right at the start."
+          },
+          {
+            q: "One radiant zone is cold and the rest of the house is fine. What is it?",
+            a: "Nearly always one of two things: a stuck zone valve actuator, or air trapped in that loop.\n\nBoth are usually diagnosed and fixed in a single visit. We isolate by zone at the manifold, confirm whether the valve is actually opening, and purge the loop if it's air.\n\nIf it turns out to be neither, the next candidates are a failed circulator or a balancing valve that's drifted out of adjustment — still same-visit work in most cases."
+          },
+          {
+            q: "My heat works but the hot taps are lukewarm.",
+            a: "If you have a combi boiler, that pattern points squarely at a scaled domestic hot water heat exchanger.\n\nA combi has two heat exchangers, one for space heating and one for hot water. The hot water side has narrow internal passages, and Calgary's hard water scales them aggressively. Space heating keeps working normally while hot water output falls off.\n\nDescaling restores it in most cases. Severely scaled exchangers occasionally need replacing. Annual [boiler service](/boiler-service-calgary/) plus a [water softener](/water-softener/) upstream is what stops it recurring."
+          },
+          {
+            q: "Can you work with my renovation contractor?",
+            a: "Yes — a lot of our Britannia work comes through GCs on major renovations and rebuilds.\n\nThat means written scope formatted for review, confirmed schedule windows, inspection coordination, and sequencing around framing, electrical, and drywall. One point of contact rather than a rotating crew.\n\nIf you're at the planning stage, getting us in early is worth it. Mechanical decisions made before framing are far cheaper than the same decisions made after."
+          },
+          {
+            q: "What other inner-SW neighbourhoods do you cover?",
+            a: "The same crew works [Elbow Park](/elbow-park-plumbers-calgary/), [Mount Royal](/mount-royal-plumbers-calgary/), [Bel-Aire](/bel-aire-plumbers-calgary/), [Altadore](/altadore-plumbers-calgary/), [Marda Loop](/marda-loop-plumbers-calgary/), [Killarney](/killarney-plumbers-calgary/), and the wider [SW Calgary](/calgary-plumbers-sw/) area. Same hydronic and heritage experience across all of them."
           },
         ],
       },
@@ -13243,6 +13625,8 @@ export const services: ServicePage[] = [
         { name: "Altadore", slug: "altadore-plumbers-calgary", blurb: "Heritage inner-SW, river-adjacent, mixed pipe eras." },
         { name: "Aspen Woods", slug: "aspen-woods-plumbers-calgary", blurb: "2002-2015 builds, sized hot-water + multi-zone systems." },
         { name: "Bel-Aire", slug: "bel-aire-plumbers-calgary", blurb: "60s-70s estate stock + luxury rebuilds, mature-tree clay sewer issues." },
+        { name: "Britannia", slug: "britannia-plumbers-calgary", blurb: "1950s bungalows with original boilers, plus active infill rebuilds." },
+        { name: "Elbow Park", slug: "elbow-park-plumbers-calgary", blurb: "1910-1940 heritage systems and aging post-2013 flood mechanical." },
         { name: "Bridlewood", slug: "bridlewood-plumbers-calgary", blurb: "Mid-90s through 2000s, north-slope freeze risk." },
         { name: "Evergreen", slug: "evergreen-plumbers-calgary", blurb: "2000s subdivision off Stoney + 14 St SW." },
         { name: "Killarney", slug: "killarney-plumbers-calgary", blurb: "Mid-century stock + new infill, mixed plumbing." },
@@ -16861,7 +17245,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "What other SW Calgary inner-city neighbourhoods do you cover?",
-            a: "Same crew works [Altadore](/altadore-plumbers-calgary/), [Marda Loop](/marda-loop-plumbers-calgary/), [Killarney](/killarney-plumbers-calgary/), [Bel-Aire](/bel-aire-plumbers-calgary/), [Signal Hill](/signal-hill-plumbers-calgary/), [Aspen Woods](/aspen-woods-plumbers-calgary/), [West Springs](/west-springs-plumbers-calgary/), and the broader [SW Calgary](/calgary-plumbers-sw/). The same heritage + rebuild + hydronic expertise carries over to the city's other character neighbourhoods like [Hillhurst](/hillhurst-plumbers-calgary/) and [Inglewood](/inglewood-plumbers-calgary/).",
+            a: "Same crew works [Elbow Park](/elbow-park-plumbers-calgary/), [Britannia](/britannia-plumbers-calgary/), [Altadore](/altadore-plumbers-calgary/), [Marda Loop](/marda-loop-plumbers-calgary/), [Killarney](/killarney-plumbers-calgary/), [Bel-Aire](/bel-aire-plumbers-calgary/), [Signal Hill](/signal-hill-plumbers-calgary/), [Aspen Woods](/aspen-woods-plumbers-calgary/), [West Springs](/west-springs-plumbers-calgary/), and the broader [SW Calgary](/calgary-plumbers-sw/). The same heritage + rebuild + hydronic expertise carries over to the city's other character neighbourhoods like [Hillhurst](/hillhurst-plumbers-calgary/) and [Inglewood](/inglewood-plumbers-calgary/).",
           },
         ],
       },
