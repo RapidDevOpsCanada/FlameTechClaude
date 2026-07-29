@@ -126,11 +126,11 @@ export default async function Home() {
           <div className="max-w-7xl mx-auto px-6 md:px-10 pt-10 md:pt-14 pb-14 md:pb-16 relative">
             <div className="grid grid-cols-12 gap-6 md:gap-10 items-center">
               <div className="col-span-12 lg:col-span-6 reveal">
-                <span className="eyebrow mb-5">Plumbing · Heating · Gas Fitting</span>
+                <span className="eyebrow mb-5">Plumbing · Heating · Boilers</span>
                 <h1 className="font-display text-[38px] md:text-[52px] xl:text-[62px] font-extrabold leading-[1.0] tracking-[-0.025em] mt-4 mb-6">
-                  Calgary plumbing & heating,{" "}
+                  Calgary plumbing & heating —{" "}
                   <span className="text-emergency">
-                    run by the guys on the trucks
+                    boilers, furnaces, water heaters, drains
                   </span>
                   .
                 </h1>
@@ -164,10 +164,10 @@ export default async function Home() {
                   id="hero-lead"
                   className="text-lg text-cream-50/80 max-w-xl mb-6 leading-relaxed"
                 >
-                  Residential plumbing and heating in Calgary, run by two Red
-                  Seal journeymen with 45+ years of combined experience.
-                  Honest estimates, code-compliant installs, and the same
-                  person on the phone as the one doing the work.
+                  Residential plumbing and heating across Calgary and Airdrie
+                  — from a leaking tap to a full boiler replacement. Red Seal
+                  journeymen, honest estimates, code-compliant installs, and
+                  the same person on the phone as the one doing the work.
                 </p>
 
                 {/* Proof bar — consolidated trust signals: rating, credentials,
