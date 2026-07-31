@@ -224,6 +224,26 @@ const menu: NavItem[] = [
               desc: "Central AC installs & service.",
             },
             {
+              label: "AC Repair",
+              href: "/air-conditioning-repair-calgary/",
+              icon: "handyman",
+              desc: "Not cooling, short-cycling, no airflow.",
+            },
+            {
+              // Also listed under Heating — a cold-climate heat pump
+              // heats and cools from one system, so it belongs in both
+              // menus. Copy differs per menu: cooling framing here,
+              // dual-fuel heating framing under Heating. The active
+              // mega-menu state resolves via SERVICE_CATEGORIES, which
+              // maps this slug to "Heating" — so browsing to the page
+              // highlights Heating, not Air. That's intentional; a slug
+              // can only own one active category.
+              label: "Heat Pumps",
+              href: "/heat-pumps-calgary/",
+              icon: "ac_unit",
+              desc: "Heating and cooling from one system.",
+            },
+            {
               label: "Humidifiers",
               href: "/humidifiers-calgary/",
               icon: "water_drop",
