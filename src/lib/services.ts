@@ -694,7 +694,7 @@ export const services: ServicePage[] = [
       },
       {
         t: "Calgary heritage-home expertise",
-        d: "Pre-1980 homes (Mount Royal, Bel-Aire, Bowness, Inglewood, original Brentwood) often have clay sewer laterals with decades of root intrusion. We camera-inspect, hydro-jet, and recommend root barriers where the pipe is sound. Where it is not, structural repair is excavation work we do not take on — we document what we found so you can hire the right specialist.",
+        d: "Pre-1980 homes ([Mount Royal](/mount-royal-plumbers-calgary/), [Bridgeland](/bridgeland-plumbers-calgary/), [Montgomery](/montgomery-plumbers-calgary/), Bel-Aire, Bowness, Inglewood, original Brentwood) often have clay sewer laterals with decades of root intrusion. We camera-inspect, hydro-jet, and recommend root barriers where the pipe is sound. Where it is not, structural repair is excavation work we do not take on — we document what we found so you can hire the right specialist.",
       },
       {
         t: "Honest one-off vs. root-cause call",
@@ -790,7 +790,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "Tree root intrusion in clay sewer laterals",
-              body: "Heritage neighbourhoods (Mount Royal, Bel-Aire, Bowness, Inglewood, mature areas of Edgemont and Varsity) have decades-old clay sewer laterals running under the front yard. Mature street trees send roots into the pipe joints — toilet is usually the first fixture to back up because it's the largest single discharge. Camera-inspect to confirm, hydro-jet to clear, root barriers for chronic offenders. If the camera shows the pipe itself has failed rather than simply fouled, that's excavation or lining work — we don't do structural sewer repair, but you'll get the footage and a written scope so a specialist can quote it accurately.",
+              body: "Heritage neighbourhoods ([Mount Royal](/mount-royal-plumbers-calgary/), [Britannia](/britannia-plumbers-calgary/), [Montgomery](/montgomery-plumbers-calgary/), Bel-Aire, Bowness, Inglewood, mature areas of Edgemont and Varsity) have decades-old clay sewer laterals running under the front yard. Mature street trees send roots into the pipe joints — toilet is usually the first fixture to back up because it's the largest single discharge. Camera-inspect to confirm, hydro-jet to clear, root barriers for chronic offenders. If the camera shows the pipe itself has failed rather than simply fouled, that's excavation or lining work — we don't do structural sewer repair, but you'll get the footage and a written scope so a specialist can quote it accurately.",
             },
             {
               heading: "Partial main-line blockage (toilet first symptom)",
@@ -1449,7 +1449,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "Clay sewer laterals + mature street trees",
-              body: "Heritage Calgary streets (Mount Royal, Bel-Aire, Bowness, Inglewood, Edgemont older sections, Varsity) have mature elms, poplars, and willows sending roots into clay sewer laterals at the joints. Symptoms: recurring toilet backups, slow drains, sewer-gas smell. Camera-inspect, hydro-jet, and recommend root barriers for chronic offenders. If the camera shows the pipe itself has failed rather than simply fouled, that's excavation or lining work — we don't do structural sewer repair, but you'll get the footage and a written scope so a specialist can quote it accurately.",
+              body: "Heritage Calgary streets ([Mount Royal](/mount-royal-plumbers-calgary/), [Bridgeland](/bridgeland-plumbers-calgary/), [Elbow Park](/elbow-park-plumbers-calgary/), Bel-Aire, Bowness, Inglewood, Edgemont older sections, Varsity) have mature elms, poplars, and willows sending roots into clay sewer laterals at the joints. Symptoms: recurring toilet backups, slow drains, sewer-gas smell. Camera-inspect, hydro-jet, and recommend root barriers for chronic offenders. If the camera shows the pipe itself has failed rather than simply fouled, that's excavation or lining work — we don't do structural sewer repair, but you'll get the footage and a written scope so a specialist can quote it accurately.",
             },
             {
               heading: "Newer-build pinhole copper",
@@ -2438,7 +2438,7 @@ export const services: ServicePage[] = [
         {
           heading: "Replacing a Cast-Iron Boiler in an Older Calgary Home",
           intro:
-            "Inner-city Calgary has a lot of these — heavy cast-iron units in [Mount Royal](/mount-royal-plumbers-calgary/), [Hillhurst](/hillhurst-plumbers-calgary/), [Inglewood](/inglewood-plumbers-calgary/), [Altadore](/altadore-plumbers-calgary/) and [Killarney](/killarney-plumbers-calgary/) basements, some of them running past fifty years. They're remarkable machines and they're also spectacularly inefficient.",
+            "Inner-city Calgary has a lot of these — heavy cast-iron units in [Mount Royal](/mount-royal-plumbers-calgary/), [Bridgeland](/bridgeland-plumbers-calgary/), [Elbow Park](/elbow-park-plumbers-calgary/), [Britannia](/britannia-plumbers-calgary/), [Hillhurst](/hillhurst-plumbers-calgary/), [Inglewood](/inglewood-plumbers-calgary/), [Altadore](/altadore-plumbers-calgary/) and [Killarney](/killarney-plumbers-calgary/) basements, some of them running past fifty years. They're remarkable machines and they're also spectacularly inefficient.",
           items: [
             { body: "They often still work, which makes the decision harder. A running cast-iron boiler at 60% efficiency is burning far more gas than it needs to across Calgary's seven-month heating season." },
             { body: "Parts availability is usually the forcing event rather than outright failure." },
@@ -12613,6 +12613,388 @@ export const services: ServicePage[] = [
   },
 
   {
+    slug: "montgomery-plumbers-calgary",
+    category: "Plumbing",
+    location: "Calgary",
+    icon: "plumbing",
+    title: "Montgomery Plumbers Calgary — Post-War Stock, Infill + Rentals",
+    lead:
+      "Montgomery was its own town until 1963, and the housing still shows it: modest 1940s and 1950s bungalows on generous lots, now sitting between a steady stream of infill rebuilds and one of the densest rental markets in northwest Calgary. Three very different kinds of plumbing call, on the same streets.",
+    heroBody: [
+      "The original stock here is post-war and small, which means early copper supply mixed with galvanized runs, cast-iron drain stacks, and heating plant that has often been replaced once and is now due again. None of it is exotic — it's just old, and it needs someone who knows what era they're looking at before they start cutting.",
+      "The second Montgomery is the rebuild. Proximity to Foothills Medical Centre, the Alberta Children's Hospital and the University has made this one of the most actively redeveloped parts of the northwest, and the infills going up run modern PEX, high-efficiency heating, and sometimes hydronic radiant. Same crew handles both.",
+      "The third is rental. A large share of Montgomery is tenanted, and landlords need something different from homeowners — fast turnarounds between tenants, a straight answer on repair versus replace, and work that will not generate a callback at 11pm. Call 587-834-3668 and a real person answers.",
+    ],
+    heroSubhead: "Post-War Stock, Infill + Rental Property",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing and heating service in Montgomery, NW Calgary", fit: "cover" },
+    intro:
+      "Montgomery Calgary plumbing and heating. Post-war bungalow systems, infill rebuild work, and responsive service for rental property owners and managers.",
+    features: [
+      "Post-war galvanized + copper assessment",
+      "Cast-iron drain stack repair",
+      "Furnace and water heater replacement",
+      "Rental turnover plumbing",
+      "Infill rebuild rough-in + fixtures",
+      "Sump pump service near the river",
+    ],
+    bullets: [
+      {
+        t: "Rental turnarounds without the drama",
+        d: "Between tenants you need it done, done properly, and done on a date you can plan around. We give landlords and property managers a confirmed window, a written scope, and an honest read on whether a repair will hold or whether the fixture is finished. No callbacks two weeks after the new tenant moves in.",
+      },
+      {
+        t: "Post-war pipe eras get misread",
+        d: "1940s and 50s Montgomery homes usually run a mix — some galvanized supply still in place, some early copper, cast iron on the drains. Too late for all-galvanized, decades too early for Poly-B. Knowing which you have changes the scope of any renovation, and we assess before we quote.",
+      },
+      {
+        t: "Original heating plant is often on its second life",
+        d: "Many of these homes had their furnace or boiler replaced once already, in the 80s or 90s, which puts that equipment at or past the end of its own service life now. We'll tell you honestly whether you're looking at a repair, or whether it's time to plan a replacement rather than be caught out in January.",
+      },
+      {
+        t: "River proximity shows up in the basements",
+        d: "Montgomery sits along the Bow, and the ground here holds more water than it does further up the hill. Sump systems work harder as a result, and a pump that would idle in a dry suburb cycles regularly here — which shortens its life and makes testing before storm season worth doing.",
+      },
+    ],
+    seoTitle: "Montgomery Plumbers Calgary | Post-War + Infill | FlameTech",
+    seoDescription:
+      "Montgomery Calgary plumbing and heating — post-war bungalow systems, infill rebuilds, rental turnarounds, sump service. Call 587-834-3668.",
+    seoKeywords: [
+      "Montgomery plumbers Calgary",
+      "Montgomery plumber",
+      "Montgomery NW Calgary plumbing",
+      "Montgomery rental property plumber",
+      "Montgomery furnace replacement",
+      "NW Calgary infill plumbing",
+      "FlameTech Plumbing",
+    ],
+    quoteFormLabel: "Montgomery plumbing",
+    quoteFormPlaceholder:
+      "e.g. rental turnover before a new tenant, 1949 bungalow with low water pressure, furnace replaced in the 90s and struggling now…",
+    sidebar: {
+      title: "Montgomery Plumbing + Heating",
+      subtitle:
+        "Post-war originals, infill rebuilds, and rental property work — one crew across all three.",
+      bullets: [
+        "Confirmed windows for tenant access",
+        "Free assessment + written quote",
+        "Honest repair-or-replace advice",
+        "Real person on the phone",
+      ],
+    },
+    stats: [
+      { number: "1963", label: "Annexed by Calgary", icon: "schedule" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "45+", label: "Years combined", icon: "verified" },
+      { number: "Real", label: "Person on the phone", icon: "call" },
+    ],
+    callout:
+      "Rental turnover, an aging furnace, or a bungalow that needs a proper look? Call 587-834-3668 for a free assessment.",
+    richContent: {
+      sections: [
+        {
+          heading: "What we get called for most in Montgomery",
+          intro:
+            "Three housing stories on the same streets — the post-war originals, the infills replacing them, and the rentals in between.",
+          items: [
+            {
+              heading: "Rental turnover plumbing",
+              body: "Between tenants is when the deferred stuff surfaces: a toilet that has been running for months, a tap nobody mentioned, a water heater on borrowed time. We work to a date, give you a written scope, and flag what will fail next so you can decide whether to do it now while the unit is empty or budget for it later.",
+            },
+            {
+              heading: "Mixed galvanized and copper supply",
+              body: "Post-war homes here often have galvanized runs left in place alongside later copper. Galvanized closes off internally with mineral scale, and the tell is hot-side pressure dropping noticeably worse than cold. Replacement through accessible runs is straightforward; we map what's actually there before quoting rather than assuming.",
+            },
+            {
+              heading: "Cast-iron drain stack repair",
+              body: "Cast iron from this era fails at the joints and through pinhole rust along horizontal runs. The symptom is usually slow drainage with a damp patch appearing on a basement ceiling. Camera inspection establishes how far the deterioration runs so replacement is scoped to what's failed.",
+            },
+            {
+              heading: "Furnace and water heater replacement",
+              body: "A lot of Montgomery equipment was replaced once in the 80s or 90s and is now aging out a second time. We give you a straight repair-or-replace read. See [furnace replacement](/furnace-replacement-calgary/) and [hot water tanks](/hot-water-tanks/).",
+            },
+            {
+              heading: "Boiler work on the homes that still have one",
+              body: "Some original Montgomery houses still heat with a boiler and radiators. Those units are well past every rule of thumb now, though plenty are still running. Our [boiler replacement](/boiler-replacement-calgary/) page covers the retrofit questions that matter — whether an old high-temperature radiator system will let a modern condensing unit actually condense.",
+            },
+            {
+              heading: "Sump pump service near the river",
+              body: "Ground closer to the Bow holds more water, so sump systems in this part of Montgomery cycle more than they would elsewhere. More cycles means a shorter service life. Testing under load before storm season beats finding out during one. See [sump pump installation](/sump-pump-installation-calgary/).",
+            },
+            {
+              heading: "Infill rough-in and fixture work",
+              body: "New builds replacing the original bungalows run modern PEX supply, high-efficiency heating, and increasingly hydronic radiant on the higher-spec projects. We work to a GC's schedule with written scope and inspection coordination.",
+            },
+            {
+              heading: "Drain clearing on mature lots",
+              body: "Montgomery's older streets have established trees with root systems that find joints in aging drain lines. The signature is drainage that slows again a few months after each clearing. Camera inspection tells you what you're dealing with. See [drain cleaning](/drain-cleaning-calgary/).",
+            },
+          ],
+        },
+        {
+          heading: "Why Montgomery needs a different conversation",
+          intro:
+            "A former town annexed in 1963, sitting between a river, three major institutions, and an active rebuild market. That combination doesn't fit a standard suburban service profile.",
+          items: [
+            {
+              heading: "It was built as its own town, not a Calgary suburb",
+              body: "Montgomery developed independently before annexation, which is why the lot sizes, street pattern and original housing don't match the planned communities that went up around the same time. The plumbing reflects the era and the modest budgets it was built to.",
+            },
+            {
+              heading: "A high share of tenanted property",
+              body: "Foothills, the Alberta Children's Hospital and the University all sit within a short distance, and the rental share here is well above the city norm. Landlords and property managers need scheduling, written scope, and durability over the cheapest possible patch — a genuinely different service relationship from an owner-occupier.",
+            },
+            {
+              heading: "Second-generation equipment, not original",
+              body: "Unlike a heritage neighbourhood where you're looking at the original system, most Montgomery mechanical has already been replaced once. That means the age question isn't the house's age — it's when the last replacement happened, and that takes asking rather than assuming.",
+            },
+            {
+              heading: "Redevelopment pressure means mixed-era streets",
+              body: "A 1948 bungalow can sit between two 2024 infills. Same block, three completely different sets of systems and three different conversations. We don't hand you between crews depending on which one you own.",
+            },
+            {
+              heading: "The Bow raises the water table",
+              body: "Closer to the river, basements stay damper and sump systems do more work. It's the same pattern we see in neighbouring [Bowness](/bowness-plumbers-calgary/), and it's why we test sump equipment rather than assuming it's fine because it's quiet.",
+            },
+            {
+              heading: "Hard water is the same here as everywhere",
+              body: "Calgary's hard water scales heat exchangers and shortens water heater life regardless of postcode. On a rental in particular, a [water softener](/water-softener/) at the main entry reduces the callout frequency on everything downstream of it.",
+            },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Montgomery Plumbers — FAQs",
+        items: [
+          {
+            q: "Do you work with landlords and property managers?",
+            a: "Yes, and a good share of our Montgomery work is exactly that.\n\nWhat that means in practice: a confirmed appointment window you can pass to a tenant, written scope you can put against a property file, and an honest read on whether a repair will hold or whether the fixture is finished.\n\nWe'll also flag what's likely to fail next. On an empty unit it's usually cheaper to deal with it while nobody's living there than to schedule around a tenant six months later."
+          },
+          {
+            q: "What kind of pipe is in a typical Montgomery house?",
+            a: "Usually a mix, which is what catches people out.\n\nThe original post-war plumbing was often galvanized supply with cast-iron drains. A lot of homes then had partial copper replacement somewhere along the way, so you get both in the same house — and occasionally PEX from a more recent renovation.\n\nWhat you almost certainly don't have is Poly-B, which went into Canadian homes roughly 1978 to 1995 — decades after Montgomery's original build. The exception is a house re-plumbed during that window. Grey plastic pipe stamped PB2110 is the giveaway, and our guide on [whether you need to replace Poly-B](/blog/do-i-need-to-replace-poly-b/) covers what to do if you find it."
+          },
+          {
+            q: "Why does my hot water pressure drop but the cold is fine?",
+            a: "That pattern points at galvanized supply lines still in the system.\n\nGalvanized pipe closes off internally with mineral scale over decades, and heat accelerates it — so the hot side scales faster and loses pressure first. Changing the tap won't help, because the restriction is upstream in the pipe.\n\nThe fix is replacing the affected runs with copper or PEX. In a house that's already been partly re-plumbed, that's often a smaller job than people expect, because some of the work is already done. We'll trace what's there and quote the remainder in writing."
+          },
+          {
+            q: "My furnace was replaced in the 90s. Is it due again?",
+            a: "Quite possibly. A furnace installed in the 1990s is now at or past a typical service life, and that's the more useful number than the age of the house.\n\nThe things worth weighing are what it's costing to run, whether parts are still available, and whether repairs have started clustering. One failure on an otherwise healthy unit is ordinary; the third call in two winters is the system telling you something.\n\nWe'll assess it at no charge and give you a straight answer. If it has years left, that's what we'll say. See [furnace replacement](/furnace-replacement-calgary/)."
+          },
+          {
+            q: "Does living near the river affect my basement?",
+            a: "It affects how hard your sump system works, yes.\n\nGround closer to the Bow holds more water, so a sump pump in the lower part of Montgomery cycles considerably more than one in a drier part of the city. More cycles means a shorter service life, and pumps tend to fail the first time they're asked to run continuously during a heavy storm.\n\nWe test under load rather than just confirming it switches on. If yours is past about ten years, it's worth checking before storm season rather than during one."
+          },
+          {
+            q: "Can you work around a tenant's schedule?",
+            a: "Yes. We confirm a window before the truck rolls rather than handing over a four-hour block, which is what makes tenant access workable.\n\nIf you'd rather coordinate directly with the tenant we'll do that, or we'll deal only with you and let you arrange access — whichever you prefer. Just tell us which when you book."
+          },
+          {
+            q: "How fast can you get to Montgomery?",
+            a: "Same day for emergencies — burst pipe, no heat, no hot water, water in the basement.\n\nMontgomery sits right on 16th Avenue with Shaganappi and Crowchild close by, so access from our NW dispatch is quick. A real person answers at 587-834-3668."
+          },
+          {
+            q: "What other northwest neighbourhoods do you cover?",
+            a: "The same crew works [Bowness](/bowness-plumbers-calgary/), [Varsity](/varsity-plumbers-calgary/), [Brentwood](/brentwood-plumbers-calgary/), [Edgemont](/edgemont-plumbers-calgary/), [Hillhurst](/hillhurst-plumbers-calgary/), [Tuscany](/tuscany-plumbers-calgary/), [Royal Oak](/royal-oak-plumbers-calgary/), and the wider [NW Calgary](/calgary-plumbers-nw/) area."
+          },
+        ],
+      },
+    },
+  },
+
+  {
+    slug: "bridgeland-plumbers-calgary",
+    category: "Plumbing",
+    location: "Calgary",
+    icon: "plumbing",
+    title: "Bridgeland Plumbers Calgary — Century Homes + The Bridges",
+    lead:
+      "Bridgeland holds some of the oldest housing stock in Calgary and some of the newest, often within a block of each other. Century character homes on narrow lots with original galvanized supply and cast-iron stacks, and the modern townhomes and infills built out on the old General Hospital lands. The work could not be more different.",
+    heroBody: [
+      "On the heritage side, this is genuinely old plumbing. Homes here date to the early 1900s, and what's behind the walls reflects it — galvanized supply lines closed off with a century of mineral scale, cast-iron drain stacks separating at the joints, plaster and lath that you do not want to open speculatively, and in a number of houses the original boiler and radiator system still doing its job.",
+      "On the redevelopment side, The Bridges and the infills around it brought modern PEX, high-efficiency heating, and in the higher-spec builds hydronic radiant. Jason has twenty years specifically on hydronics, which is the part of a modern build most general plumbers would rather leave alone.",
+      "Bridgeland's hillside setting adds its own quirks — drainage, grade, and how water finds its way toward the bottom of a slope. Confirmed windows, careful protection of finished interiors, real person on the phone. Call 587-834-3668.",
+    ],
+    heroSubhead: "Century Homes + Modern Redevelopment",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech plumbing and heating service in Bridgeland, inner-city Calgary", fit: "cover" },
+    intro:
+      "Bridgeland Calgary plumbing and heating. Century-home galvanized and cast-iron work, original boiler assessment, and modern infill hydronics.",
+    features: [
+      "Century-home galvanized replacement",
+      "Cast-iron drain stack repair",
+      "Original boiler assessment + replacement",
+      "Non-destructive leak location",
+      "Hydronic radiant on infills",
+      "Hillside drainage + sump service",
+    ],
+    bullets: [
+      {
+        t: "Some of the oldest plumbing in the city",
+        d: "Bridgeland predates most Calgary neighbourhoods, and century-old galvanized supply behaves differently from anything built later. It closes off from the inside, so pressure fades gradually enough that people stop noticing until a renovation forces the issue.",
+      },
+      {
+        t: "Diagnostics before demolition",
+        d: "Original plaster and lath is part of what makes these houses worth what they are, and it doesn't go back the way it came out. Infrared imaging and acoustic detection locate a leak behind plaster without exploratory tear-out. We establish what's back there before anything gets cut.",
+      },
+      {
+        t: "Original boilers deserve an honest assessment",
+        d: "A number of Bridgeland houses still run their original boiler and radiators. Some have years left. Others are burning far more gas than they need to, or have reached the point where parts are no longer made. We assess and tell you which one you have.",
+      },
+      {
+        t: "Narrow lots make access the real constraint",
+        d: "Tight setbacks and shared lanes mean equipment access matters as much as the work itself. We look at how a water heater or boiler actually gets into and out of the house before quoting, rather than discovering it on the day.",
+      },
+    ],
+    seoTitle: "Bridgeland Plumbers Calgary | Century Homes + Infill | FlameTech",
+    seoDescription:
+      "Bridgeland Calgary plumbing and heating — century-home galvanized and cast iron, original boiler replacement, modern infill hydronics. Call 587-834-3668.",
+    seoKeywords: [
+      "Bridgeland plumbers Calgary",
+      "Bridgeland plumber",
+      "Bridgeland boiler replacement",
+      "Bridgeland heritage plumbing",
+      "The Bridges Calgary plumber",
+      "inner city Calgary plumber",
+      "FlameTech Plumbing",
+    ],
+    quoteFormLabel: "Bridgeland plumbing",
+    quoteFormPlaceholder:
+      "e.g. 1912 character home with failing water pressure, original boiler and radiators, leak behind plaster, townhome radiant zone not heating…",
+    sidebar: {
+      title: "Bridgeland Plumbing + Heating",
+      subtitle:
+        "Century-home systems and modern redevelopment, handled by one crew.",
+      bullets: [
+        "Non-destructive leak location",
+        "Honest repair-or-replace boiler advice",
+        "Free assessment + written quote",
+        "Real person on the phone",
+      ],
+    },
+    stats: [
+      { number: "1900s", label: "Original build era", icon: "schedule" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "20+", label: "Years hydronics", icon: "verified" },
+      { number: "Real", label: "Person on the phone", icon: "call" },
+    ],
+    callout:
+      "Century home losing water pressure, or an original boiler you're unsure about? Call 587-834-3668 for a free assessment.",
+    richContent: {
+      sections: [
+        {
+          heading: "What we get called for most in Bridgeland",
+          intro:
+            "Century houses and modern redevelopment generate almost entirely separate sets of work. We handle both.",
+          items: [
+            {
+              heading: "Galvanized supply replacement",
+              body: "A century of mineral scale closes galvanized pipe from the inside out. Hot-side pressure fades worse than cold, because heat accelerates the scaling. Replacement with copper or PEX-A through accessible runs, often phased alongside a renovation rather than done in one hit.",
+            },
+            {
+              heading: "Cast-iron drain stack repair and replacement",
+              body: "Stacks of this age fail at joints and through pinhole rust along horizontal runs. Slow drainage plus a damp patch on a basement ceiling is the usual presentation. Camera inspection establishes the extent so we're replacing what's failed rather than the whole system by default.",
+            },
+            {
+              heading: "Original boiler assessment and replacement",
+              body: "Original boilers here are old enough that the decision is genuinely open. What matters is gas consumption across a seven-month heating season, parts availability, and whether the heat exchanger is sound. See [boiler replacement](/boiler-replacement-calgary/) for what a retrofit onto a century-old radiator system involves.",
+            },
+            {
+              heading: "Leak location behind plaster",
+              body: "Infrared imaging and acoustic detection narrow a leak to a specific area so we open a small, deliberate section rather than hunting through original plaster and lath. On a heritage interior that difference is the whole job.",
+            },
+            {
+              heading: "Water heater replacement in tight mechanical spaces",
+              body: "Century-home basements were never designed around modern equipment clearances, venting, or drain pans. We measure and check the route in and out before quoting so install day holds no surprises. See [hot water tanks](/hot-water-tanks/).",
+            },
+            {
+              heading: "Hydronic radiant on infills and townhomes",
+              body: "The Bridges and the surrounding infill builds brought multi-zone radiant into the neighbourhood. Zone valve service, manifold balancing, and the single cold zone that is almost always a stuck actuator or trapped air.",
+            },
+            {
+              heading: "Drain clearing on century-old lines",
+              body: "Mature trees and hundred-year-old drain lines make root intrusion routine here. The signature is drainage that slows again a few months after each clearing. Camera inspection tells you what you're dealing with before anyone talks about digging. See [drain cleaning](/drain-cleaning-calgary/).",
+            },
+            {
+              heading: "Hillside drainage and sump service",
+              body: "Bridgeland sits on a slope, and water moves downhill toward the flatter ground near the river. Properties at the bottom of that grade see more groundwater than those partway up, which means sump systems that work harder and wear faster.",
+            },
+          ],
+        },
+        {
+          heading: "Why Bridgeland needs a different conversation",
+          intro:
+            "One of Calgary's oldest neighbourhoods, substantially redeveloped in the last twenty years, on a slope. Very little about it is standard.",
+          items: [
+            {
+              heading: "The housing stock spans a century",
+              body: "A 1910 character home and a 2015 townhome can share a lane. That's two entirely different toolkits, two different diagnostic approaches, and two different conversations about what's worth doing. Getting the era right before quoting is most of the job.",
+            },
+            {
+              heading: "Century-old galvanized fails invisibly",
+              body: "Because scale builds gradually, people adapt to falling pressure without registering it. It often only surfaces during a renovation, or when a second bathroom makes the shortfall obvious. Knowing what you have before you plan the work changes the budget.",
+            },
+            {
+              heading: "Boilers, not furnaces, in much of the original stock",
+              body: "Unlike most of Calgary, a meaningful share of Bridgeland's older homes heat with a boiler and radiators. That's a specialist conversation about heat exchangers, near-boiler piping, sludge in old iron systems, and whether a modern condensing unit will ever see return temperatures low enough to condense.",
+            },
+            {
+              heading: "Heritage interiors limit destructive diagnostics",
+              body: "Plaster and lath, original trim, and period detailing are part of the value. We locate first and open second, and we tell you how confident we are before anything gets cut.",
+            },
+            {
+              heading: "Narrow lots and lane access shape the job",
+              body: "Getting a boiler or a tank in and out of a tight inner-city property is a real part of the scope. We assess access at quote stage — it's a poor surprise to discover on install day.",
+            },
+            {
+              heading: "Hard water is the same here as everywhere",
+              body: "It scales heat exchangers, shortens water heater life, and wears fixture cartridges regardless of how old or new the house is. A [water softener](/water-softener/) at the main entry protects everything downstream, and on a new radiant system it's far cheaper fitted during the build.",
+            },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Bridgeland Plumbers — FAQs",
+        items: [
+          {
+            q: "What's behind the walls in a Bridgeland character home?",
+            a: "Most commonly galvanized supply lines, cast-iron drain stacks, and plaster and lath walls — with whatever partial updates previous owners made layered on top.\n\nGalvanized closes off internally with mineral scale over a century, which is why pressure fades so gradually that people stop noticing. Cast iron fails at joints and through pinhole rust along horizontal runs.\n\nWe can establish most of this without opening anything, using infrared imaging and acoustic detection. We'll tell you what we've found and how confident we are before recommending any tear-out."
+          },
+          {
+            q: "Should I replace the original boiler in my Bridgeland house?",
+            a: "Not automatically. Plenty of these are still heating the house perfectly well, and we won't tell you otherwise to sell a job.\n\nThe three questions worth asking are what it's costing in gas across a seven-month heating season, whether parts are still available, and whether the heat exchanger is sound — that last one being a safety matter with nothing to weigh against it.\n\nWe assess all three at no charge. If it's time, our [boiler replacement](/boiler-replacement-calgary/) page covers the retrofit issues that matter on a century-old radiator system, particularly sludge and whether the system will let a condensing boiler condense."
+          },
+          {
+            q: "Can you find a leak without tearing out my plaster?",
+            a: "In most cases yes, and in a house like this it matters — original plaster and lath doesn't go back the way it came out.\n\nInfrared imaging picks up the temperature signature of moisture behind a surface, and acoustic detection traces pressurised leaks. Between them we can usually narrow a leak closely enough to open a small, deliberate section rather than hunting.\n\nWe'll always tell you what we've established and how confident we are before anything gets cut."
+          },
+          {
+            q: "My water pressure has always been poor. Is that just how old houses are?",
+            a: "No — it's almost always the galvanized supply, and it's fixable.\n\nA century of internal scale narrows the pipe until flow drops noticeably, and the hot side goes first because heat accelerates the process. Because it happens over decades, people assume it's normal for the house.\n\nReplacing the affected runs with copper or PEX-A restores it. In an inner-city home that's often phased around renovation work rather than done all at once, and we'll set out the options in writing."
+          },
+          {
+            q: "Do you work on the newer townhomes around The Bridges?",
+            a: "Yes. Those builds brought modern PEX supply, high-efficiency heating, and in the higher-spec units multi-zone hydronic radiant.\n\nJason has twenty years specifically on hydronics — manifold balancing, zone valve service, commissioning, and diagnosing the single cold zone that's usually a stuck actuator or air in the loop.\n\nWorth knowing: most radiant faults we see on newer systems trace back to commissioning rather than the equipment. A system never properly balanced underperforms for its whole life."
+          },
+          {
+            q: "Does being on the hill affect drainage?",
+            a: "It affects where the water ends up. Bridgeland sits on a slope, and groundwater moves downhill toward the flatter ground nearer the river.\n\nProperties at the bottom of that grade see more of it than those partway up, which means sump systems doing more work and wearing faster. If you're on the lower streets and your pump is past about ten years, testing it under load before storm season is worth the visit.\n\nGrading and downspout extension matter more here than on flat ground too — getting roof water far enough from the foundation is cheap and it's often the first thing we'd suggest."
+          },
+          {
+            q: "How fast can you get to Bridgeland?",
+            a: "Same day for emergencies — burst pipe, no heat, no hot water, water in the basement.\n\nBridgeland is just across the river from downtown with Memorial Drive and Edmonton Trail either side, so access is quick from most directions. A real person answers at 587-834-3668."
+          },
+          {
+            q: "What other inner-city neighbourhoods do you cover?",
+            a: "The same crew works [Inglewood](/inglewood-plumbers-calgary/), [Hillhurst](/hillhurst-plumbers-calgary/), [Mount Royal](/mount-royal-plumbers-calgary/), [Elbow Park](/elbow-park-plumbers-calgary/), [Britannia](/britannia-plumbers-calgary/), [Killarney](/killarney-plumbers-calgary/), and [Altadore](/altadore-plumbers-calgary/). The same heritage and hydronic experience carries across all of them."
+          },
+        ],
+      },
+    },
+  },
+
+  {
     slug: "bowness-plumbers-calgary",
     category: "Plumbing",
     location: "Calgary",
@@ -12622,7 +13004,7 @@ export const services: ServicePage[] = [
       "The biggest mistake we see in Bowness? Homeowners trying to connect new plumbing to their 1960s galvanized lines without calling a plumber first. FlameTech has been handling these tricky plumbing jobs across Calgary's inner-city neighborhoods for over two decades, and our [emergency plumbing team](/emergency-plumber-calgary/) knows exactly how to work with both original homes and modern infills.",
     heroBody: [
       "FlameTech started right here in Calgary, and our [NW Calgary plumbers](/calgary-plumbers-nw/) have been fixing pipes in Bowness since day one. Bowness is one of Calgary's most interesting neighborhoods for plumbers — you've got original wartime bungalows sitting next to brand-new $800K infills, which means we're dealing with everything from lead supply lines to modern PEX on the same block.",
-      "Same crew works neighbouring [Hillhurst](/hillhurst-plumbers-calgary/) and [Brentwood](/brentwood-plumbers-calgary/) along the Bow. Our crew has seen it all in this area, from [Poly-B replacement jobs](/polyb-plumbing-calgary/) in 1980s renovated bungalows to fixing drainage problems caused by that new infill next door that sits three feet higher than your foundation. Pipes don't care if it's 2 AM on Christmas morning — that's why we run priority dispatch. Call 587-834-3668.",
+      "Same crew works neighbouring [Montgomery](/montgomery-plumbers-calgary/), [Hillhurst](/hillhurst-plumbers-calgary/) and [Brentwood](/brentwood-plumbers-calgary/) along the Bow. Our crew has seen it all in this area, from [Poly-B replacement jobs](/polyb-plumbing-calgary/) in 1980s renovated bungalows to fixing drainage problems caused by that new infill next door that sits three feet higher than your foundation. Pipes don't care if it's 2 AM on Christmas morning — that's why we run priority dispatch. Call 587-834-3668.",
     ],
     heroSubhead: "Trusted Bowness Plumbing Experts",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
@@ -13145,6 +13527,7 @@ export const services: ServicePage[] = [
       intro:
         "Pages below cover the specific plumbing patterns, build eras, and common issues we see in each NE community. Click through for neighbourhood-specific detail.",
       neighbourhoods: [
+        { name: "Bridgeland", slug: "bridgeland-plumbers-calgary", blurb: "Century homes + The Bridges redevelopment, original boilers." },
         { name: "Martindale", slug: "martindale-plumbers-calgary", blurb: "1990-2005 builds, Poly-B in earliest phases, equipment 2nd-3rd gen." },
         { name: "Saddle Ridge", slug: "saddle-ridge-plumbers-calgary", blurb: "2005-2015 builds, no Poly-B, first-round equipment EOL era." },
         { name: "Skyview Ranch", slug: "skyview-ranch-plumbers-calgary", blurb: "2010+ newest NE suburb, modern PEX + preventive maintenance era." },
@@ -13310,6 +13693,7 @@ export const services: ServicePage[] = [
         "Pages below cover the specific plumbing patterns, build eras, and common issues we see in each NW community. Click through for neighbourhood-specific detail.",
       neighbourhoods: [
         { name: "Bowness", slug: "bowness-plumbers-calgary", blurb: "River-adjacent, ground saturation, sump pump strain." },
+        { name: "Montgomery", slug: "montgomery-plumbers-calgary", blurb: "Post-war stock, heavy infill, high rental share." },
         { name: "Edgemont", slug: "edgemont-plumbers-calgary", blurb: "Heavy 80s-90s Poly-B concentration." },
         { name: "Hidden Valley", slug: "hidden-valley-plumbers-calgary", blurb: "1991-2000s builds, Poly-B country; Hanson Ranch hydronics." },
         { name: "Royal Oak", slug: "royal-oak-plumbers-calgary", blurb: "1997-2010 builds, post-Poly-B; NW ridge pressure + PRVs." },
@@ -15267,7 +15651,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "What other inner-NW Calgary neighbourhoods do you cover?",
-            a: "Same crew works the inner-NW including West Hillhurst, [Bowness](/bowness-plumbers-calgary/), Sunnyside, Briar Hill, [Edgemont](/edgemont-plumbers-calgary/), [Varsity](/varsity-plumbers-calgary/), and the broader [NW Calgary](/calgary-plumbers-nw/). Heritage + rebuild + mixed-era experience translates across all of them.",
+            a: "Same crew works the inner-NW including West Hillhurst, [Montgomery](/montgomery-plumbers-calgary/), [Bowness](/bowness-plumbers-calgary/), [Bridgeland](/bridgeland-plumbers-calgary/), Sunnyside, Briar Hill, [Edgemont](/edgemont-plumbers-calgary/), [Varsity](/varsity-plumbers-calgary/), and the broader [NW Calgary](/calgary-plumbers-nw/). Heritage + rebuild + mixed-era experience translates across all of them.",
           },
         ],
       },
@@ -15607,7 +15991,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "What other inner-city Calgary neighbourhoods do you cover?",
-            a: "Same crew works inner-city Calgary including Bridgeland, Mission, Ramsay, [Bowness](/bowness-plumbers-calgary/), [Hillhurst](/hillhurst-plumbers-calgary/), [Altadore](/altadore-plumbers-calgary/), [Marda Loop](/marda-loop-plumbers-calgary/), [Bel-Aire](/bel-aire-plumbers-calgary/), and [Mount Royal](/mount-royal-plumbers-calgary/). Heritage + renovation + infill expertise translates across all of them.",
+            a: "Same crew works inner-city Calgary including [Bridgeland](/bridgeland-plumbers-calgary/), Mission, Ramsay, [Bowness](/bowness-plumbers-calgary/), [Hillhurst](/hillhurst-plumbers-calgary/), [Altadore](/altadore-plumbers-calgary/), [Marda Loop](/marda-loop-plumbers-calgary/), [Bel-Aire](/bel-aire-plumbers-calgary/), and [Mount Royal](/mount-royal-plumbers-calgary/). Heritage + renovation + infill expertise translates across all of them.",
           },
         ],
       },
