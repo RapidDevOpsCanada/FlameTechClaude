@@ -22,6 +22,8 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
   "emergency-plumber-calgary": "Plumbing",
   "polyb-plumbing-calgary": "Plumbing",
   "plumbing-repairs-calgary": "Plumbing",
+  "frozen-pipe-repair-calgary": "Plumbing",
+  "frozen-pipe-repair-airdrie": "Plumbing",
   "sump-pump-installation-calgary": "Plumbing",
   "backwater-valve-installation-calgary": "Plumbing",
   "boiler-installation-calgary": "Heating",

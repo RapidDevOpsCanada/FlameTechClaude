@@ -105,6 +105,12 @@ const menu: NavItem[] = [
               desc: "Full replacement for 80s/90s homes.",
             },
             {
+              label: "Frozen Pipe Repair",
+              href: "/frozen-pipe-repair-calgary/",
+              icon: "ac_unit",
+              desc: "Safe thawing, burst repair, prevention.",
+            },
+            {
               label: "Plumbing Repairs",
               href: "/plumbing-repairs-calgary/",
               icon: "build",

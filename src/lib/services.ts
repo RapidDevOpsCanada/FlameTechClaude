@@ -1026,7 +1026,7 @@ export const services: ServicePage[] = [
     lead:
       "When disaster strikes, you need emergency plumbers in Calgary who respond immediately. At FlameTech, we provide rapid emergency plumbing services to protect your home from water damage and restore your comfort quickly.",
     heroBody: [
-      "Our emergency plumbers in Calgary offer priority same-day dispatch for urgent plumbing crises that can't wait. A real person answers the phone — no call centre, no automated menu. From burst pipes during Calgary's harsh winters to [leaking water heaters](/leaking-water-heater-calgary/), [no-hot-water calls](/no-hot-water-calgary/), and [hot water tank](/hot-water-tanks/) failures, our certified technicians arrive equipped to handle any emergency.",
+      "Our emergency plumbers in Calgary offer priority same-day dispatch for urgent plumbing crises that can't wait. A real person answers the phone — no call centre, no automated menu. From [burst and frozen pipes](/frozen-pipe-repair-calgary/) during Calgary's harsh winters to [leaking water heaters](/leaking-water-heater-calgary/), [no-hot-water calls](/no-hot-water-calgary/), and [hot water tank](/hot-water-tanks/) failures, our certified technicians arrive equipped to handle any emergency.",
       "Aging [Poly-B piping](/polyb-plumbing-calgary/) is a common culprit for sudden failures in 80s-90s Calgary builds — we carry replacement parts on every truck. Same for [drain backups](/drain-cleaning-calgary/) and frozen-pipe thaws.",
       "When you call us, you're getting immediate help from a real dispatcher — priority dispatch, fair pricing, and real people who answer the phone. We cover Calgary plus [Airdrie](/airdrie-plumbers/), [Chestermere](/chestermere-plumbers/), [Cochrane](/cochrane-plumbers/), and [Okotoks](/okotoks-plumbers/).",
     ],
@@ -1036,7 +1036,7 @@ export const services: ServicePage[] = [
     intro:
       "Emergency plumbing in Calgary — burst pipes, active leaks, sewer backups, water heater failures. Priority dispatch, honest quotes, certified technicians.",
     features: [
-      "Burst and frozen pipe repairs",
+      "Burst and [frozen pipe repairs](/frozen-pipe-repair-calgary/)",
       "Active leak containment",
       "Sewer and drain backups",
       "Water heater failures",
@@ -1301,6 +1301,363 @@ export const services: ServicePage[] = [
       },
     },
   },
+  {
+    slug: "frozen-pipe-repair-calgary",
+    category: "Plumbing",
+    icon: "ac_unit",
+    title: "Frozen Pipe Repair Calgary — Thawing, Burst Repair & Prevention",
+    lead:
+      "A frozen pipe is a problem you still have time to solve. A burst one is a problem measured in litres per minute. FlameTech thaws frozen lines safely, repairs the ones that have already split, and fixes the reason it happened so you're not doing this again next January.",
+    heroBody: [
+      "The thing most Calgary homeowners don't know: a pipe usually doesn't burst where the ice is. It bursts between the ice plug and a closed tap downstream, where water has nowhere to go as pressure builds. That's why opening the tap is the first thing we tell people to do on the phone — it gives that pressure an escape route while you wait for us.",
+      "The other thing worth knowing is that the damage often shows up on the thaw, not the freeze. A line can split at −30°C and stay sealed by its own ice until a chinook rolls through, at which point it starts running inside a wall. If your pipes froze and then everything seemed fine, that's not necessarily the end of it.",
+      "We handle the urgent side — locating the freeze, thawing it safely, and repairing splits — and the part that actually matters afterwards: why that pipe froze and what stops it recurring. See also [emergency plumbing](/emergency-plumber-calgary/) if water is already moving. Call 587-834-3668 and a real person answers.",
+    ],
+    heroSubhead: "Thawing, Burst Repair + Permanent Fixes",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech service van on a frozen pipe call in Calgary", fit: "cover" },
+    intro:
+      "Frozen pipe repair in Calgary — safe thawing, burst pipe repair, and the permanent fixes that stop it happening again. Same-day emergency response.",
+    features: [
+      "Safe thawing without open flame",
+      "Burst pipe location + repair",
+      "Frozen hose bib + sillcock repair",
+      "Cantilever and rim joist air sealing",
+      "Heat trace + pipe insulation",
+      "Vacant home winterization",
+    ],
+    bullets: [
+      {
+        t: "Open the tap before we get there",
+        d: "If a line is frozen but hasn't split yet, opening the fixture it feeds relieves the pressure that actually causes the burst. It also tells you the moment flow returns. It costs nothing and it's the single most useful thing you can do while you wait.",
+      },
+      {
+        t: "Never a torch",
+        d: "Open flame on a frozen pipe is how houses catch fire, and on plastic it destroys the pipe outright. We thaw with controlled heat applied from the fixture end back toward the blockage, so meltwater has somewhere to escape instead of being trapped between two plugs of ice.",
+      },
+      {
+        t: "We fix the cause, not just the freeze",
+        d: "A pipe that froze once will freeze again in the same cold snap unless something changes. Usually the fix is air sealing where cold is getting in, rerouting a run out of an exterior wall, adding insulation on the correct side of the pipe, or heat trace where there's no other option.",
+      },
+      {
+        t: "Know where your main shutoff is",
+        d: "If a pipe bursts, the minutes between the split and the water stopping decide how expensive the day becomes. We'll show you your shutoff and confirm it actually turns while we're there — a surprising number seize from never being used.",
+      },
+    ],
+    seoTitle: "Frozen Pipe Repair Calgary | Thawing & Burst Pipes | FlameTech",
+    seoDescription:
+      "Frozen pipe repair in Calgary — safe thawing, burst pipe repair, and permanent prevention. Same-day response. Call 587-834-3668.",
+    seoKeywords: [
+      "frozen pipe repair Calgary",
+      "burst pipe repair Calgary",
+      "frozen pipes Calgary",
+      "thaw frozen pipes Calgary",
+      "frozen hose bib Calgary",
+      "burst pipe plumber Calgary",
+      "FlameTech Plumbing",
+    ],
+    quoteFormLabel: "frozen pipe",
+    quoteFormPlaceholder:
+      "e.g. no water to the kitchen sink on an exterior wall, pipe split in the crawlspace, outdoor tap burst after a freeze…",
+    sidebar: {
+      title: "Calgary Frozen Pipe Repair",
+      subtitle:
+        "Safe thawing, burst repair, and the permanent fix so it doesn't repeat next winter.",
+      bullets: [
+        "Same-day emergency response",
+        "No open flame, ever",
+        "Cause diagnosed, not just the symptom",
+        "Real person on the phone",
+      ],
+    },
+    stats: [
+      { number: "−35°C", label: "Design temperature", icon: "ac_unit" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "Same-day", label: "Emergency response", icon: "schedule" },
+      { number: "Real", label: "Person on the phone", icon: "call" },
+    ],
+    callout:
+      "Pipe frozen, or already split? Open the tap, find your main shutoff, and call 587-834-3668.",
+    richContent: {
+      sections: [
+        {
+          heading: "What to do right now",
+          intro:
+            "Two different situations, two different responses. Work out which one you have first.",
+          items: [
+            {
+              heading: "No water, but nothing is leaking — it's frozen",
+              body: "Open the tap that pipe feeds and leave it open. That relieves the pressure between the ice and the fixture, which is where a burst actually happens, and it tells you the second flow comes back. Turn the heat up in that part of the house, open any cabinet doors under sinks on exterior walls, and call us. Gentle heat from a hair dryer or a space heater aimed at the suspect area is fine. A torch is not.",
+            },
+            {
+              heading: "Water is running where it shouldn't — it's burst",
+              body: "Shut the water off at the main immediately, then open a low tap to drain the system and stop the pressure. If water is anywhere near electrical outlets or a panel, don't go into it — leave it and tell us when you call. Then call 587-834-3668. Everything after that is faster if the water has already stopped.",
+            },
+            {
+              heading: "Pipes froze earlier and now seem fine",
+              body: "Worth checking rather than assuming. A split can stay sealed by its own ice and only start running when it thaws — sometimes days later during a chinook. Look at the ceiling below, the rim joist, and anywhere the run passes through an unheated space. If you find damp drywall or a stain, that's the split.",
+            },
+          ],
+        },
+        {
+          heading: "Where Calgary pipes actually freeze",
+          intro:
+            "It's rarely random. Nearly every frozen pipe we're called to is in one of these places, and each has a different permanent fix.",
+          items: [
+            {
+              heading: "Cantilevered bump-outs",
+              body: "The single most common one we see. A kitchen sink or a bathroom on a floor section that overhangs the foundation or projects over a garage has cold air underneath it on three sides. Builders insulate these to code and cold still finds its way in. The fix is air sealing the cavity properly, not just adding more insulation.",
+            },
+            {
+              heading: "Outdoor faucets and hose bibs",
+              body: "Frost-free sillcocks are designed to drain back so the shut-off sits inside the heated envelope — but they can't drain if a hose is still attached. A hose left on over freeze-up is the most preventable frozen-pipe call there is, and it usually splits the sillcock body inside the wall where you won't see it until spring.",
+            },
+            {
+              heading: "Rim joist and exterior wall runs",
+              body: "Supply lines routed through an exterior wall cavity or along a rim joist sit on the cold side of the insulation. Where a run can be moved to the warm side, that's the permanent answer. Where it can't, insulation has to go between the pipe and the cold, not wrapped around it and left facing the room.",
+            },
+            {
+              heading: "Crawlspaces, garages and unheated utility spaces",
+              body: "Vented crawlspaces and lines run through an attached garage lose heat fast in a deep cold snap. Closing crawlspace vents for winter, sealing where cold air enters, and in some cases heat trace on the vulnerable section is what keeps them running.",
+            },
+            {
+              heading: "Vacant homes and homes with the heat turned down",
+              body: "Every winter we get calls to properties where the furnace failed or the heat was set too low while the owners were away. If a house will be empty in winter, the heat stays on at a sensible minimum, and someone checks it. A furnace that quits on day two of a two-week trip is a very expensive way to save on gas.",
+            },
+            {
+              heading: "Behind the wall, with no obvious clue",
+              body: "Sometimes the run isn't accessible and there's no visible sign. We use the same non-destructive approach we use for hidden leaks — reading the layout, thermal imaging, and working from what does and doesn't have flow — so we open the smallest section we can rather than searching by demolition.",
+            },
+          ],
+        },
+        {
+          heading: "How we thaw and repair",
+          intro:
+            "The thawing part is straightforward when it's done properly. Done badly it starts fires or turns a frozen pipe into a burst one.",
+          items: [
+            { body: "Locate the freeze first — thawing the wrong section wastes time and doesn't restore flow." },
+            { body: "Open the downstream fixture so meltwater and pressure have an escape route throughout." },
+            { body: "Apply controlled heat from the fixture end back toward the blockage, so we're never trapping melt between two ice plugs." },
+            { body: "No open flame. Not on copper, and certainly not on PEX or near framing and insulation." },
+            { body: "Watch for the split as it thaws — if the pipe has already failed, it will show the moment flow returns, and the water needs to be off before that happens." },
+            { body: "Repair by replacing the failed section in copper or PEX-A, pressure-tested before anything gets closed up." },
+            { body: "Then the part that matters: air sealing, rerouting, insulation on the correct side, or heat trace so the same run doesn't do it again." },
+          ],
+        },
+        {
+          heading: "Does PEX freeze?",
+          intro:
+            "A question we get constantly, and the honest answer is more nuanced than either sales pitch you'll hear.",
+          items: [
+            { body: "PEX is more forgiving than copper. It can expand somewhat as water freezes inside it, so it survives some freezes that would split a copper line." },
+            { body: "It is not freeze-proof. Enough ice, enough pressure, or repeated freeze-thaw cycles will still fail it — and Calgary's chinooks deliver exactly that cycling." },
+            { body: "The fittings are often the weak point rather than the tubing, particularly where a run is rigidly clamped and has nowhere to expand." },
+            { body: "What actually prevents freezing is the same regardless of material: keep the pipe on the warm side of the insulation and stop cold air reaching it." },
+            { body: "So a PEX repipe is not a reason to skip the air sealing. It buys you tolerance, not immunity." },
+          ],
+        },
+        {
+          heading: "Preventing it before next winter",
+          intro:
+            "Almost every frozen pipe we attend was preventable, and most of the prevention is cheap. Worth doing in the fall rather than the middle of a cold snap.",
+          items: [
+            { body: "Disconnect garden hoses before freeze-up. This one item prevents more burst sillcocks than everything else combined." },
+            { body: "Shut off and drain the line to outdoor faucets where there's an interior isolation valve." },
+            { body: "Air seal the rim joist and any cantilevered floor cavity — cold air getting in is the actual cause, insulation alone only slows it." },
+            { body: "Insulate exposed pipe in crawlspaces, garages and unheated utility rooms, placing it between the pipe and the cold." },
+            { body: "Close crawlspace vents for the winter." },
+            { body: "During a deep cold snap, let a tap on an exterior wall run a slow trickle and open the cabinet doors beneath it." },
+            { body: "If the house will be empty, keep the heat on at a sensible minimum and have someone check it. Consider a [water softener](/water-softener/) and general system check while the house is accessible." },
+            { body: "Find your main shutoff now and confirm it turns. Do it on a calm afternoon, not while water is coming through a ceiling." },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Calgary Frozen Pipe FAQs",
+        items: [
+          { q: "My pipe is frozen but hasn't burst. What should I do first?", a: "Open the tap that pipe feeds, and leave it open.\n\nThat matters more than it sounds. A pipe usually doesn't split at the ice — it splits between the ice and a closed fixture downstream, where pressure has nowhere to go. Opening the tap removes that pressure, and it tells you the moment flow returns.\n\nThen raise the heat in that area, open cabinet doors under any sink on an exterior wall, and apply gentle heat if you can reach the suspect section — a hair dryer or a space heater is fine. Never an open flame.\n\nCall 587-834-3668 and we'll come and thaw it properly, then work out why it froze." },
+          { q: "Why do frozen pipes burst?", a: "Not for the reason most people assume.\n\nWater does expand as it freezes, but the split usually isn't at the ice plug. As ice forms, it seals the pipe, and water trapped between that plug and a closed tap downstream has nowhere to go. Pressure climbs in that section until the weakest point fails — often well away from the actual freeze.\n\nThat's the whole reason we tell people to open the tap. It gives the trapped water an escape route and turns a likely burst into an inconvenience." },
+          { q: "Can I thaw a pipe myself?", a: "Sometimes, if you can reach it and you're careful.\n\nSafe: a hair dryer, a heat gun on a low setting, a space heater aimed at the area, or warm towels. Always work from the tap end back toward the blockage so meltwater can escape rather than getting trapped between two plugs of ice. Keep the tap open the whole time.\n\nNot safe, ever: a blowtorch or any open flame. It's a genuine fire risk in a wall cavity full of insulation and framing, and on plastic pipe it destroys the pipe outright.\n\nIf you can't reach the pipe, or the frozen section is inside a wall, that's the point to call rather than start opening drywall." },
+          { q: "My pipes froze but nothing leaked. Am I in the clear?", a: "Probably, but it's worth a look rather than an assumption.\n\nA pipe can split while frozen and stay sealed by its own ice. The leak then starts when it thaws — sometimes hours later, sometimes days later when a chinook comes through.\n\nCheck the ceiling below the run, the rim joist, and anywhere the line passes through an unheated space. Damp drywall, a stain, or a musty smell is the sign. If you find one, shut the water off at the main and call." },
+          { q: "Which pipes freeze most often in Calgary homes?", a: "In order of how often we attend them: outdoor faucets where a hose was left connected, kitchen and bathroom lines in cantilevered bump-outs, supply runs inside exterior walls or along the rim joist, and lines through crawlspaces or attached garages.\n\nThe bump-out is the one that surprises people. A floor section overhanging the foundation, or projecting over a garage, has cold on three sides — and builders insulate them to code and they still freeze, because the real problem is air movement rather than insulation depth.\n\nVacant homes are their own category. A furnace that fails while you're away turns the whole house into the vulnerable section." },
+          { q: "Does PEX freeze like copper does?", a: "PEX is more forgiving than copper, but it isn't freeze-proof, and it's oversold as such.\n\nPEX can expand somewhat as water freezes inside it, so it survives freezes that would split copper. What it doesn't survive is enough ice, enough pressure, or repeated freeze-thaw cycling — which is exactly what Calgary chinooks produce. The fittings are often the weak point rather than the tubing.\n\nWhat actually prevents a freeze is identical for both materials: keep the pipe on the warm side of the insulation and stop cold air reaching it. A PEX repipe buys tolerance, not immunity, and it isn't a reason to skip the air sealing." },
+          { q: "How do I stop it happening again?", a: "By fixing the cause rather than the pipe, which is the part that gets skipped.\n\nA pipe that froze once will freeze again in the same conditions unless something changes. Depending on what we find, that's air sealing where cold air is getting into the cavity, rerouting the run to the warm side of the insulation, insulating properly — between the pipe and the cold rather than wrapped and facing the room — or heat trace where there's genuinely no other route.\n\nAnd before next winter: disconnect the hoses. That single habit prevents more burst outdoor faucets than everything else put together." },
+          { q: "How fast can you get here if a pipe has burst?", a: "Same day, and burst-pipe calls get routed ahead of scheduled work.\n\nBefore we arrive, shut the water off at the main and open a low tap to drain the pressure out of the system. If water is near electrical outlets or the panel, stay out of it and tell us when you call.\n\nA real person answers at 587-834-3668, and we confirm a window before the truck rolls." },
+        ],
+      },
+    },
+  },
+
+  {
+    slug: "frozen-pipe-repair-airdrie",
+    category: "Plumbing",
+    location: "Airdrie",
+    icon: "ac_unit",
+    title: "Frozen Pipe Repair Airdrie — Thawing, Burst Repair & Prevention",
+    lead:
+      "Airdrie sits higher and more exposed than Calgary, and the wind is the difference. A pipe that would hold in a sheltered inner-city street can freeze in an Airdrie bump-out on the same night. FlameTech thaws frozen lines safely, repairs splits, and fixes the reason it happened — dispatched locally from Coopers Crossing.",
+    heroBody: [
+      "The detail worth knowing before we arrive: a pipe usually doesn't burst at the ice. It bursts between the ice plug and a closed tap downstream, where pressure has nowhere to escape. Opening that tap is the most useful thing you can do while you wait, and it costs nothing.",
+      "The second is that the damage often appears on the thaw rather than the freeze. A line can split at −30°C and stay plugged by its own ice until a chinook comes through, then start running inside a wall. If your pipes froze and then seemed fine, it's worth a look.",
+      "Newer Airdrie homes are largely PEX, which is more forgiving than copper — but not freeze-proof, and the wind exposure here undoes a lot of that advantage. See also [Airdrie plumbers](/airdrie-plumbers/) for the broader scope. Call 587-834-3668.",
+    ],
+    heroSubhead: "Thawing, Burst Repair + Permanent Fixes",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/FTVAN2.jpg", alt: "FlameTech service van on a frozen pipe call in Airdrie", fit: "cover" },
+    intro:
+      "Frozen pipe repair in Airdrie — safe thawing, burst pipe repair, and permanent prevention for wind-exposed homes and acreage properties. Local dispatch.",
+    features: [
+      "Safe thawing without open flame",
+      "Burst pipe location + repair",
+      "Frozen hose bib + sillcock repair",
+      "Cantilever + rim joist air sealing",
+      "Heat trace on exposed runs",
+      "Acreage + outbuilding lines",
+    ],
+    bullets: [
+      {
+        t: "Wind exposure is the Airdrie difference",
+        d: "Open prairie on the edges of town means wind driving cold into any gap in the building envelope. Air movement pulls heat out of a wall cavity far faster than still cold does, which is why exposed-edge homes here freeze on nights that sheltered ones ride out.",
+      },
+      {
+        t: "Open the tap before we get there",
+        d: "If the line is frozen but hasn't split, opening the fixture it feeds relieves the pressure that actually causes bursts, and tells you the moment flow returns. It's the single most useful thing you can do while waiting.",
+      },
+      {
+        t: "Never a torch",
+        d: "Open flame in a wall cavity full of insulation and framing is a genuine fire risk, and on PEX it destroys the pipe outright. We thaw with controlled heat applied from the fixture end back toward the blockage.",
+      },
+      {
+        t: "Acreage properties have more to freeze",
+        d: "Lines to shops, barns and detached garages, and runs through unheated outbuildings, are exposed in ways a town lot isn't. If a building is only heated when you're using it, its plumbing needs either draining down or heat trace — not optimism.",
+      },
+    ],
+    seoTitle: "Frozen Pipe Repair Airdrie | Thawing & Burst Pipes | FlameTech",
+    seoDescription:
+      "Frozen pipe repair in Airdrie — safe thawing, burst pipe repair, and prevention for wind-exposed and acreage properties. Call 587-834-3668.",
+    seoKeywords: [
+      "frozen pipe repair Airdrie",
+      "burst pipe repair Airdrie",
+      "frozen pipes Airdrie",
+      "thaw frozen pipes Airdrie",
+      "frozen hose bib Airdrie",
+      "Airdrie emergency plumber",
+      "FlameTech Plumbing",
+    ],
+    quoteFormLabel: "frozen pipe",
+    quoteFormPlaceholder:
+      "e.g. no water to the kitchen on an exterior wall, split pipe in the crawlspace, frozen line to the shop…",
+    sidebar: {
+      title: "Airdrie Frozen Pipe Repair",
+      subtitle:
+        "Safe thawing, burst repair, and the permanent fix. Local Airdrie dispatch from Coopers Crossing.",
+      bullets: [
+        "Same-day emergency response",
+        "No open flame, ever",
+        "Cause diagnosed, not just the symptom",
+        "Acreage + outbuilding experience",
+      ],
+    },
+    stats: [
+      { number: "−35°C", label: "Design temperature", icon: "ac_unit" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "Local", label: "Airdrie dispatch", icon: "location_on" },
+      { number: "Real", label: "Person on the phone", icon: "call" },
+    ],
+    callout:
+      "Pipe frozen in Airdrie, or already split? Open the tap, shut off the main, and call 587-834-3668.",
+    richContent: {
+      sections: [
+        {
+          heading: "What to do right now",
+          intro:
+            "Frozen and burst are two different problems. Work out which one you have before doing anything else.",
+          items: [
+            {
+              heading: "No water, nothing leaking — it's frozen",
+              body: "Open the tap that pipe feeds and leave it open. That relieves the pressure between the ice and the fixture, which is where the split actually happens, and it tells you the second flow returns. Turn up the heat in that part of the house, open cabinet doors under sinks on exterior walls, and apply gentle heat if you can reach the area. A hair dryer is fine. A torch is not.",
+            },
+            {
+              heading: "Water is running — it's burst",
+              body: "Shut off at the main immediately, then open a low tap to drain the pressure out of the system. If water is near electrical outlets or the panel, stay out of it and tell us when you call. Then call 587-834-3668. Everything is faster and cheaper if the water has already stopped.",
+            },
+            {
+              heading: "It froze earlier and now seems fine",
+              body: "Check rather than assume. A split can stay sealed by its own ice and only start leaking on the thaw, sometimes days later. Look at the ceiling below the run, the rim joist, and anywhere the line crosses an unheated space.",
+            },
+          ],
+        },
+        {
+          heading: "Where Airdrie pipes freeze",
+          intro:
+            "Newer housing stock changes the pattern compared with inner-city Calgary. These are what we attend here.",
+          items: [
+            {
+              heading: "Cantilevered bump-outs on wind-exposed elevations",
+              body: "The most common call. A kitchen sink or bathroom on a floor section overhanging the foundation has cold on three sides, and on an exposed lot the wind drives that cold straight into any gap. Homes on the outer edges of [Coopers Crossing](/coopers-crossing-plumbers/), [Ravenswood](/ravenswood-plumbers-airdrie/), [Reunion](/reunion-plumbers-airdrie/), Bayside and Kings Heights back onto open ground and see it most. The fix is air sealing the cavity, not adding insulation on top of a draft.",
+            },
+            {
+              heading: "Outdoor faucets with a hose still attached",
+              body: "A frost-free sillcock drains back so the shutoff sits inside the heated envelope — but it cannot drain with a hose connected. It's the most preventable frozen pipe there is, and it typically splits the body inside the wall where nothing shows until spring.",
+            },
+            {
+              heading: "Garage and rim joist runs",
+              body: "Lines routed through an attached garage or along a rim joist sit on the cold side of the insulation. Where the run can be moved to the warm side, that's the permanent answer. Where it can't, insulation has to go between the pipe and the cold.",
+            },
+            {
+              heading: "Acreage shops, barns and detached garages",
+              body: "Buildings heated only when in use, and the buried or exposed lines feeding them, are the acreage version of this problem. Either the line gets drained down for the season or it gets heat trace and insulation — leaving it to chance is how a shop floods while nobody is out there.",
+            },
+            {
+              heading: "Vacant and tenanted properties",
+              body: "A furnace that fails in an empty house turns the entire building into the vulnerable section. If a property will be unoccupied through winter, the heat stays on at a sensible minimum and someone physically checks it.",
+            },
+          ],
+        },
+        {
+          heading: "How we thaw and repair",
+          intro:
+            "Straightforward when done properly, and genuinely dangerous when it isn't.",
+          items: [
+            { body: "Locate the frozen section first — heating the wrong length of pipe achieves nothing." },
+            { body: "Keep the downstream fixture open so meltwater and pressure have an escape route." },
+            { body: "Apply controlled heat from the tap end back toward the blockage, never trapping melt between two ice plugs." },
+            { body: "No open flame — a real fire risk in a wall cavity, and fatal to PEX." },
+            { body: "Expect the split to reveal itself as flow returns, which is why the water is off before that point if there's any doubt." },
+            { body: "Replace the failed section in PEX-A or copper, pressure-tested before anything is closed up." },
+            { body: "Then fix the cause: air sealing, rerouting, correct insulation placement, or heat trace." },
+          ],
+        },
+        {
+          heading: "Preventing it before next winter",
+          intro:
+            "Nearly every call we attend was avoidable, and the prevention is cheap. Do it in the fall.",
+          items: [
+            { body: "Disconnect garden hoses before freeze-up — this prevents more burst sillcocks than everything else combined." },
+            { body: "Shut off and drain outdoor faucet lines where there's an interior isolation valve." },
+            { body: "Air seal the rim joist and any cantilevered floor cavity. On an exposed lot this matters more than insulation depth." },
+            { body: "Insulate exposed pipe in garages, crawlspaces and unheated utility rooms — between the pipe and the cold, not wrapped and facing the room." },
+            { body: "Drain down or heat trace any line serving a building you don't heat continuously." },
+            { body: "In a deep cold snap, let a tap on an exposed exterior wall trickle and open the cabinet doors beneath it." },
+            { body: "Find your main shutoff and confirm it turns, on a calm afternoon rather than during an emergency." },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Airdrie Frozen Pipe FAQs",
+        items: [
+          { q: "My pipe is frozen. What do I do first?", a: "Open the tap that pipe feeds and leave it open.\n\nA pipe usually doesn't split at the ice itself — it splits between the ice and a closed fixture downstream, where trapped water has nowhere to go as pressure builds. Opening the tap removes that pressure and tells you the moment flow comes back.\n\nThen raise the heat in that area, open cabinet doors under sinks on exterior walls, and apply gentle heat if you can safely reach the section. Call 587-834-3668 and we'll thaw it properly and work out why it froze." },
+          { q: "Why does Airdrie seem worse for frozen pipes than Calgary?", a: "Wind, mostly.\n\nAirdrie sits higher and more exposed, and a lot of the newer areas back onto open ground with nothing to break the wind. Moving air pulls heat out of a wall cavity far faster than still cold does, so a bump-out on an exposed elevation can freeze on a night that a sheltered inner-city street rides out at the same temperature.\n\nIt's also why air sealing matters more here than insulation depth. Insulation slows heat loss; sealing stops the cold air getting into the cavity in the first place." },
+          { q: "My house is newer with PEX. Doesn't that mean it won't freeze?", a: "PEX is more forgiving than copper, but it is not freeze-proof and it's frequently oversold as such.\n\nIt can expand somewhat as water freezes inside it, so it survives some freezes that would split copper. What it doesn't survive is enough ice, enough pressure, or repeated freeze-thaw cycling — and chinooks deliver exactly that cycling. The fittings are often the weak point rather than the tubing itself.\n\nSo PEX buys you tolerance, not immunity, and it isn't a reason to skip sealing the cantilever." },
+          { q: "Can I thaw it myself?", a: "If you can reach it, often yes.\n\nSafe: a hair dryer, a heat gun on low, a space heater aimed at the area, warm towels. Work from the tap end back toward the blockage so meltwater can escape, and keep the tap open throughout.\n\nNever safe: a blowtorch or any open flame. It's a serious fire risk inside a wall, and it will destroy PEX on contact.\n\nIf the frozen section is inside a wall or you can't locate it, that's the point to call rather than start cutting drywall." },
+          { q: "What about the water line to my shop?", a: "Lines serving buildings you only heat when you're using them are the acreage version of this problem, and they need a decision rather than hope.\n\nEither the line gets drained down for the season, or it gets insulated and heat traced so it stays above freezing regardless of whether the building is warm. Which one makes sense depends on how often you use the space through winter.\n\nWe'll look at the run, tell you which approach fits, and quote it in writing." },
+          { q: "My pipes froze but nothing leaked. Is that the end of it?", a: "Usually, but check rather than assume.\n\nA pipe can split while frozen and stay sealed by its own ice, only starting to leak when it thaws — which in Airdrie often means when a chinook arrives days later.\n\nLook at the ceiling below the run, the rim joist, and anywhere the pipe crosses an unheated space. Damp drywall, a stain, or a musty smell is the sign. If you find one, shut the water off at the main and call." },
+          { q: "How fast can you get to Airdrie?", a: "Same day for burst pipes, and we dispatch Airdrie locally out of Coopers Crossing rather than routing a truck up from Calgary.\n\nThat matters most in a cold snap, when everyone needs someone at once and the drive time is the difference between an hour and half a day.\n\nBefore we arrive: shut off the main, open a low tap to drain the pressure, and stay out of any water near electrical. A real person answers at 587-834-3668." },
+        ],
+      },
+    },
+  },
+
   {
     slug: "plumbing-repairs-calgary",
     category: "Plumbing",
@@ -8510,7 +8867,7 @@ export const services: ServicePage[] = [
     lead:
       "When plumbing problems strike your Airdrie home or business, you need reliable professionals who respond quickly and get the job done right. FlameTech Plumbing delivers exceptional plumbing services throughout Airdrie and surrounding areas, combining technical expertise with honest, transparent service.",
     heroBody: [
-      "As a locally-operated plumbing company serving Airdrie, we understand the unique challenges Alberta's climate and infrastructure present — frozen pipes during cold snaps, [hot water tank](/hot-water-tanks-airdrie/) failures, [emergency leaks](/emergency-plumber-calgary/), and aging [Poly-B piping](/polyb-plumbing-calgary/) on 80s-90s builds in Ravenswood, Reunion, and Coopers Crossing.",
+      "As a locally-operated plumbing company serving Airdrie, we understand the unique challenges Alberta's climate and infrastructure present — [frozen pipes](/frozen-pipe-repair-airdrie/) during cold snaps, [hot water tank](/hot-water-tanks-airdrie/) failures, [emergency leaks](/emergency-plumber-calgary/), and aging [Poly-B piping](/polyb-plumbing-calgary/) on 80s-90s builds in Ravenswood, Reunion, and Coopers Crossing.",
       "We also cover heating and cooling: [furnace installation](/furnace-installation-airdrie/), [furnace repair](/airdrie-furnace-repairs/), [boiler installation](/boiler-installation-airdrie/), [boilers](/boilers-airdrie/), [heat pumps](/heat-pumps-airdrie/), [air conditioning](/air-conditioning-airdrie/), [AC repair](/air-conditioning-repair-airdrie/), [water heater repair](/water-heater-repair-airdrie/), and [water softeners](/water-softener-airdrie/) for hard-water homes. Call 587-834-3668 for fast, reliable plumbing or heating service in Airdrie.",
     ],
     heroSubhead: "Trusted Airdrie Plumbing Experts",
@@ -8574,7 +8931,7 @@ export const services: ServicePage[] = [
         {
           heading: "Plumbing Services in Airdrie",
           intro:
-            "Plumbing emergencies don't wait for convenient times. Whether it's a burst pipe flooding your basement at midnight or a backed-up sewer line on a holiday weekend, our emergency plumbers are ready to respond with priority service that minimizes damage and restores your plumbing system quickly.",
+            "Plumbing emergencies don't wait for convenient times. Whether it's a [burst or frozen pipe](/frozen-pipe-repair-airdrie/) flooding your basement at midnight or a backed-up sewer line on a holiday weekend, our emergency plumbers are ready to respond with priority service that minimizes damage and restores your plumbing system quickly.",
           items: [
             { heading: "Drain Cleaning & Repair", body: "Slow drains and clogs are warning signs of potential problems. Our Airdrie plumbers use advanced equipment including hydro-jetting and video camera inspections to thoroughly clean your drains and identify underlying issues before they become major repairs." },
             { heading: "Water Heater Services", body: "From tankless water heater installations to traditional tank repairs and replacements, we handle all your hot water needs. We work with all major brands and help you choose the most energy-efficient solution for your Airdrie home." },
@@ -8601,7 +8958,7 @@ export const services: ServicePage[] = [
           intro:
             "Living in Airdrie means dealing with specific plumbing challenges. Our plumbers are experts at handling all of the below.",
           items: [
-            { body: "Frozen pipes during Alberta's cold winters." },
+            { body: "[Frozen pipes](/frozen-pipe-repair-airdrie/) during Alberta's cold winters." },
             { body: "Hard water problems that damage fixtures and appliances." },
             { body: "Aging plumbing systems in older Airdrie neighborhoods." },
             { body: "Low water pressure issues." },
