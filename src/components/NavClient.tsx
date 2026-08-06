@@ -186,6 +186,12 @@ const menu: NavItem[] = [
               desc: "95–98% AFUE installs.",
             },
             {
+              label: "In-Floor Heating",
+              href: "/in-floor-heating-calgary/",
+              icon: "hydronic_loop",
+              desc: "Hydronic radiant design & service.",
+            },
+            {
               label: "Garage Heaters",
               href: "/garage-heaters-calgary/",
               icon: "garage",

@@ -2013,7 +2013,7 @@ export const services: ServicePage[] = [
             { heading: "Electric Boiler Installation", body: "For homes without gas access or as backup heating systems, we install electric boilers with proper safety controls." },
             { heading: "Condensing Boiler Systems", body: "These high-efficiency units extract extra heat from exhaust gases, reducing your natural gas bills during Calgary's long heating season." },
             { heading: "Combi Boiler Installation", body: "Combination units that provide both space heating and domestic hot water in a single compact system — a strong fit for smaller Calgary homes and condos where the boiler and the hot water tank are both aging out. See our [combi boiler installation](/combi-boiler-installation-calgary/) page for how we size them against Calgary's cold winter mains." },
-            { heading: "Hydronic Radiant Systems", body: "We install in-floor radiant heating systems with new boilers, providing even heat distribution throughout your Calgary home." },
+            { heading: "Hydronic Radiant Systems", body: "We install [in-floor radiant heating systems](/in-floor-heating-calgary/) with new boilers, providing even heat distribution throughout your Calgary home." },
             { heading: "Boiler Replacement & Upgrades", body: "Complete removal of old units and installation of new systems, including all necessary piping modifications and control upgrades." },
           ],
         },
@@ -2028,7 +2028,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "Straight swap or full rebuild",
-              body: "Replacing a unit and re-using compatible gas line, venting, and near-boiler piping is the cheapest version of this job. Re-piping a mechanical room, adding zones, or integrating hydronic radiant is a different scope entirely.",
+              body: "Replacing a unit and re-using compatible gas line, venting, and near-boiler piping is the cheapest version of this job. Re-piping a mechanical room, adding zones, or integrating [hydronic radiant](/in-floor-heating-calgary/) is a different scope entirely.",
             },
             {
               heading: "Gas line and venting",
@@ -5560,6 +5560,339 @@ export const services: ServicePage[] = [
       ],
     },
   },
+  {
+    slug: "in-floor-heating-calgary",
+    category: "Heating",
+    icon: "hydronic_loop",
+    title: "In-Floor Heating Calgary — Hydronic Radiant Design, Install & Service",
+    lead:
+      "In-floor radiant is the most comfortable heat you can put in a Calgary home, and the least forgiving to get wrong. It lives under the floor, so a design mistake isn't something you fix later — it's something you live with. Jason has spent twenty years on hydronics specifically: heat-loss design per zone, manifold layout, commissioning, and the service work afterwards.",
+    heroBody: [
+      "Most of what we're called to fix on existing radiant systems isn't a broken part. It's a system that was never commissioned properly — loops never balanced, no outdoor reset curve set, or a slab sized against a guess instead of a heat-loss calculation. It heats, more or less, and it underperforms quietly for twenty years.",
+      "We design and install new systems — whole-home, basement, garage and shop slabs, and snowmelt — and we service the ones already in the ground. The most common call by far is one cold zone while the rest of the house is fine, which is usually a stuck zone valve actuator or air trapped in a loop, and usually fixable in a single visit.",
+      "Radiant runs off a boiler, so the two are one system. See [boiler installation](/boiler-installation-calgary/) for the heat source side, or [boiler replacement](/boiler-replacement-calgary/) if you're putting a new boiler onto existing floor loops. [Monthly financing](/financing/) is available via Financeit.",
+    ],
+    heroSubhead: "Calgary Hydronic Radiant Specialists",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/2026/04/Boiler14.webp", alt: "Hydronic manifold serving in-floor radiant heating loops in a Calgary home", fit: "cover" },
+    intro:
+      "In-floor radiant heating in Calgary — hydronic design, install, commissioning and service. Whole-home, basement, garage slabs and snowmelt. Free written quote.",
+    features: [
+      "Heat-loss design per zone",
+      "Whole-home + basement in-floor",
+      "Garage and shop slab heating",
+      "Driveway + walkway snowmelt",
+      "Manifold balancing + commissioning",
+      "Zone valve, actuator + circulator service",
+    ],
+    bullets: [
+      {
+        t: "Design decides how it performs, not the tubing",
+        d: "Tube spacing, loop length, supply water temperature and the R-value of whatever floor covering goes on top all interact. Get them right and the system runs cool, cheap and even. Get them wrong and you're either cold in the far corner or running the boiler far hotter than it should ever need to.",
+      },
+      {
+        t: "Oxygen-barrier PEX, always",
+        d: "Standard PEX lets oxygen diffuse through the tubing wall. In a sealed heating loop that oxygen corrodes cast-iron circulators and steel components from the inside, and it can take a few years to show. Barrier PEX costs marginally more and is the only thing we'll put in a closed hydronic system.",
+      },
+      {
+        t: "Most faults are commissioning, not components",
+        d: "A system that was never balanced, or that has no outdoor reset curve, underperforms for its whole life without ever quite failing. When we're called to a radiant system that's disappointing rather than broken, this is usually why — and it's usually correctable.",
+      },
+      {
+        t: "Slabs are slow, and chinooks are fast",
+        d: "A heated slab has enormous thermal mass, so it can't react to a fifteen-degree temperature swing in an afternoon. Without outdoor reset properly set up, a Calgary chinook leaves you opening windows on a warm day because the floor is still delivering heat you asked for yesterday.",
+      },
+    ],
+    seoTitle: "In-Floor Heating Calgary | Hydronic Radiant Install & Service",
+    seoDescription:
+      "In-floor radiant heating in Calgary — hydronic design, install, and service. Whole-home, basement, garage slabs, snowmelt. Call 587-834-3668.",
+    seoKeywords: [
+      "in-floor heating Calgary",
+      "radiant floor heating Calgary",
+      "hydronic heating Calgary",
+      "in floor heat Calgary",
+      "heated garage floor Calgary",
+      "snowmelt driveway Calgary",
+      "radiant heating repair Calgary",
+      "FlameTech Plumbing Heating",
+    ],
+    quoteFormLabel: "in-floor heating",
+    quoteFormPlaceholder:
+      "e.g. in-floor heat for a basement development, one radiant zone always cold, heated garage slab for a new shop, snowmelt on the driveway…",
+    sidebar: {
+      title: "Calgary In-Floor Heating",
+      subtitle:
+        "Hydronic radiant designed to a heat-loss calc, commissioned properly, and serviced by the people who installed it.",
+      bullets: [
+        "Heat-loss design, not guesswork",
+        "Oxygen-barrier PEX only",
+        "Manifold balancing + outdoor reset setup",
+        "Zone valve + circulator service",
+      ],
+    },
+    stats: [
+      { number: "20+", label: "Years on hydronics", icon: "verified" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "−35°C", label: "Design temperature", icon: "ac_unit" },
+      { number: "Real", label: "Person on the phone", icon: "call" },
+    ],
+    timeline: {
+      heading: "How a radiant install runs",
+      intro:
+        "The tubing is the cheap part and the easy part. Everything that decides whether the system is any good happens before and after it goes down.",
+      steps: [
+        { icon: "science", title: "Heat loss, room by room", body: "We calculate heat loss for each space against Calgary's −35°C design temperature, then set tube spacing and supply water temperature from that. Floor covering matters here — tile is ideal, thick carpet or engineered hardwood adds resistance and needs the design adjusted rather than ignored." },
+        { icon: "request_quote", title: "Layout, zoning and written quote", body: "Loop lengths kept within sensible head-loss limits, zones grouped by how the rooms are actually used, manifold located where it can be serviced. You get the layout, the components and the all-in price in writing before anything starts." },
+        { icon: "handyman", title: "Tubing, manifold and heat source", body: "Barrier PEX tied down and pressure-tested before the pour or the panel goes over it, and left under pressure through the pour so any damage shows immediately. Manifold, circulators, mixing and the boiler tie-in follow." },
+        { icon: "verified", title: "Commission — the step that gets skipped", body: "Purge every loop of air, balance flow across the manifold, set the mixing and the outdoor reset curve, and verify each zone actually calls and responds. Then we walk you through the controls so you know what you're adjusting." },
+      ],
+    },
+    financing: {
+      detail:
+        "Spread the cost of an in-floor heating install into flexible monthly payments via our Financeit partner.",
+    },
+    callout:
+      "Planning in-floor heat, or living with a zone that's never been right? Call 587-834-3668 for a free assessment.",
+    richContent: {
+      sections: [
+        {
+          heading: "Where in-floor heating makes sense in Calgary",
+          intro:
+            "It isn't the right answer everywhere. These are the applications where it genuinely earns its cost, and the one where it usually doesn't.",
+          items: [
+            {
+              heading: "Basement developments",
+              body: "The most common retrofit we do. Basement slabs are cold, and radiant fixes that at the source rather than blowing warm air at it. If the basement is being developed anyway, the incremental cost of putting heat in the floor is at its lowest — this is the moment to decide, not afterwards.",
+            },
+            {
+              heading: "Garage and shop slabs",
+              body: "Very popular here, and for good reason: a heated slab dries a vehicle rather than just warming the air around it, and it holds temperature through a door opening in a way forced air can't. Any garage loop needs glycol, because the space will drop below freezing if the heat ever fails. If you want a warm garage without pouring a new slab, an overhead [radiant tube or gas garage heater](/garage-heaters-calgary/) is the cheaper route and we'll say so.",
+            },
+            {
+              heading: "Whole-home radiant in new builds and major renovations",
+              body: "Even heat, no ducts, no drafts, no blown dust, and silence. It pairs naturally with tile and stone, and it lets you be comfortable at a lower air temperature than forced air needs. Best specified at design stage when the floor build-up can accommodate it.",
+            },
+            {
+              heading: "Bathroom floor warming",
+              body: "Worth separating from the rest. For a single bathroom, an electric mat under the tile is usually the sensible choice — simpler, cheaper, and it doesn't need to be tied into a boiler. Hydronic makes sense when the bathroom is part of a larger radiant zone, not on its own.",
+            },
+            {
+              heading: "Driveway and walkway snowmelt",
+              body: "A luxury item and an honest one: it works, it's expensive to install and to run, and it needs glycol plus its own controls. Where it genuinely pays off is a steep driveway or a north-facing walk that ices up repeatedly through freeze-thaw. We'll tell you if the layout doesn't warrant it.",
+            },
+            {
+              heading: "Where we'd talk you out of it",
+              body: "Retrofitting a whole existing house with finished floors throughout. Tearing up flooring to get tubing underneath rarely justifies itself against a well-installed forced-air or boiler-and-radiator system. Staple-up between joists is possible from below, but it needs higher water temperatures and it doesn't perform like a slab.",
+            },
+          ],
+        },
+        {
+          heading: "What actually decides whether a radiant system performs",
+          intro:
+            "Radiant systems rarely fail outright. They disappoint, quietly, for years — and it almost always traces back to one of these.",
+          items: [
+            {
+              heading: "Heat-loss design, room by room",
+              body: "Tube spacing is set by how much heat a room needs, and rooms differ. A wall of north-facing glass needs tighter spacing than an interior hallway. Uniform spacing throughout a house is a shortcut, and it shows up as one room that never quite gets there while another overheats.",
+            },
+            {
+              heading: "Floor covering is part of the design",
+              body: "Everything between the tubing and your feet is thermal resistance. Tile and stone are ideal. Engineered hardwood is workable within limits. Thick carpet with a heavy underlay can require supply temperatures high enough to undermine the whole point of the system. Decide the flooring before the design, not after.",
+            },
+            {
+              heading: "Supply water temperature and the boiler",
+              body: "Radiant runs at far lower water temperatures than radiators, which is exactly why it pairs so well with a condensing boiler — low return temperatures are what let a condensing unit actually condense. A mixing valve or an injection loop protects the floor when the same boiler also serves higher-temperature loads.",
+            },
+            {
+              heading: "Loop length and balancing",
+              body: "Too long a loop and the far end runs cold because the water has given up its heat before it gets there. Loops of roughly similar length balance far more easily. Where they can't be, the manifold balancing valves have to be set deliberately rather than left wherever they arrived from the factory.",
+            },
+            {
+              heading: "Oxygen-barrier PEX",
+              body: "Non-barrier PEX in a sealed loop lets oxygen diffuse through the tubing wall, and that oxygen corrodes cast-iron circulator bodies and steel components from the inside out. It takes a few years to show and it's not repairable once it has. Barrier tubing is the only thing that belongs in a closed hydronic system.",
+            },
+            {
+              heading: "Outdoor reset, and Calgary's chinooks",
+              body: "A slab holds a great deal of heat and responds slowly. Outdoor reset lowers the water temperature as it warms outside, so the system anticipates instead of chasing. Without it, a chinook that lifts the temperature twenty degrees in an afternoon leaves a slab still delivering yesterday's heat, and you end up opening windows.",
+            },
+          ],
+        },
+        {
+          heading: "Service and repair on existing systems",
+          intro:
+            "We service radiant systems regardless of who installed them. These are the calls we get most.",
+          items: [
+            { body: "One cold zone while the rest of the house is fine — nearly always a stuck zone valve actuator or air trapped in that loop. Usually a single-visit fix." },
+            { body: "Air in the system generally: gurgling, uneven heat, a circulator that sounds wrong. Purging plus a proper air separator resolves it." },
+            { body: "A failed circulator pump — the loop is dead quiet and the zone never warms." },
+            { body: "Balancing that has drifted, or was never set, leaving some zones starved while others run hot." },
+            { body: "Sludge and magnetite in older systems that included steel components, particularly where non-barrier tubing was used. A power flush and a magnetic filter protect what's downstream." },
+            { body: "Glycol that has never been tested. Inhibitors deplete over time and old glycol turns acidic, which attacks the system it was put there to protect. Garage and snowmelt loops need it checked, not assumed." },
+            { body: "Boiler-side faults presenting as a radiant problem — pressure loss, lockouts, or no heat at all. See [boiler repair](/boiler-repair-calgary/) and [boiler not working](/boiler-not-working-calgary/)." },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Calgary In-Floor Heating FAQs",
+        items: [
+          { q: "How much does in-floor heating cost in Calgary?", a: "It depends on the area, the application, and whether there's already a boiler to run it — and we won't quote it over the phone, because a number given sight-unseen is a number that changes.\n\nThe things that move it most: total floor area and zone count, whether it's going into a new pour or over an existing slab, whether you need a new heat source or can tie into an existing boiler, whether the loops need glycol, and the controls.\n\nA basement in-floor loop tied into an existing boiler is a very different job from a whole-home system with a new boiler and eight zones. We assess, design, and give you the full scope and the all-in price in writing at no charge. [Financeit monthly payments](/financing/) are available." },
+          { q: "Can I put in-floor heating into an existing house?", a: "In a basement or garage, usually yes and it's often straightforward — particularly if the slab is being poured or the space is being developed anyway.\n\nOver an existing slab you're looking at a low-profile panel system or an over-pour, both of which raise the finished floor height. That has knock-on effects for door clearances and stair risers, so it needs checking early.\n\nBetween floor joists from below — staple-up with heat transfer plates — is possible on upper floors, but it needs higher water temperatures and doesn't deliver the even, steady performance a slab does. We'd rather set that expectation upfront than have you disappointed by it." },
+          { q: "Electric or hydronic in-floor heat?", a: "Depends entirely on scale.\n\nFor one bathroom floor, electric is usually the sensible answer. A mat under the tile, its own thermostat, no boiler involvement, and a much simpler install.\n\nFor anything larger — a basement, a garage, a whole floor, a whole house — hydronic wins on running cost. You're heating with gas rather than electricity, and in Calgary across a seven-month heating season that difference is substantial.\n\nThe crossover point is roughly where the electricity bill starts to matter. We'll tell you honestly which side of it you're on rather than selling you the bigger system by default." },
+          { q: "One of my radiant zones is always cold. What's wrong?", a: "Almost always one of two things: a stuck zone valve actuator, or air trapped in that loop.\n\nBoth are typically diagnosed and fixed in one visit. We isolate at the manifold, confirm whether the valve is actually opening when the thermostat calls, and purge the loop if it's air.\n\nIf it's neither, the next candidates are a failed circulator or a balancing valve that has drifted out of adjustment — still usually same-visit work. It's the most common radiant call we get and it's rarely anything serious." },
+          { q: "What floor coverings work over in-floor heat?", a: "Tile and stone are ideal — they conduct well and they tolerate the temperature cycling without complaint.\n\nEngineered hardwood works within the manufacturer's temperature limits, which need respecting rather than hoping about. Solid hardwood is riskier because it moves more with moisture and temperature.\n\nCarpet is the one to watch. A thick carpet with a heavy underlay is effectively insulation between the heat and the room, and it can push required supply temperatures high enough to undermine the efficiency you installed the system for. If carpet is going down, tell us at design stage and we'll allow for it." },
+          { q: "Does in-floor heating work with a heat pump?", a: "It can, and radiant is actually one of the better matches for one, because it runs at low water temperatures and heat pumps lose efficiency as they push water hotter.\n\nThe practical constraint in Calgary is our design temperature. An air-source unit needs a backup heat source for the coldest stretches, so in most cases you're looking at a hybrid arrangement rather than a heat pump alone.\n\nIt has to be designed as one system from the start — sizing, buffer, and controls all interact. See [heat pumps](/heat-pumps-calgary/), and we'll give you an honest read on whether it pencils out for your house." },
+          { q: "Do I need glycol in my system?", a: "In any loop that could drop below freezing, yes. That means garage slabs, shop floors, and snowmelt without exception.\n\nInside a heated house, plain water is normally fine and is actually the better heat transfer fluid — glycol carries slightly less heat and is harder on pumps.\n\nWhat matters is that glycol isn't fit-and-forget. The corrosion inhibitors in it deplete, and depleted glycol turns acidic and attacks the metal in the system it was installed to protect. It needs testing periodically and replacing when it's spent. If nobody has tested yours since it went in, that's worth doing." },
+          { q: "Is in-floor heating expensive to run?", a: "Run properly, it's efficient — often more so than forced air, because you can be comfortable at a lower air temperature when the floor itself is warm, and because low return water temperatures let a condensing boiler operate where it's most efficient.\n\nRun badly, it's expensive. A system with no outdoor reset, unbalanced loops, or supply temperatures set high to compensate for a design that didn't account for the flooring will cost more than it should for its entire life.\n\nThat's the whole argument for commissioning it properly. The difference between the two isn't the equipment — it's whether anyone set it up correctly." },
+        ],
+      },
+    },
+  },
+
+  {
+    slug: "in-floor-heating-airdrie",
+    category: "Heating",
+    location: "Airdrie",
+    icon: "hydronic_loop",
+    title: "In-Floor Heating Airdrie — Hydronic Radiant for Basements, Garages & Shops",
+    lead:
+      "Airdrie's housing stock is newer than Calgary's, which changes what in-floor heating work looks like here. Far less heritage retrofit, far more basement developments, heated garage slabs, and acreage shops. FlameTech designs, installs, commissions and services hydronic radiant across Airdrie, dispatched locally from Coopers Crossing.",
+    heroBody: [
+      "The two calls we get most in Airdrie are a basement being developed where the owner wants warm floors rather than a cold slab, and a garage or shop where the goal is a surface that dries a vehicle instead of just heating the air around it. Both are good applications, and both are cheapest to do while the concrete is still a decision rather than a finished floor.",
+      "The third is service on systems already in the ground — a zone that's never been right, air in a loop, a circulator that's given up, or glycol that has never been tested since the day it went in. We service radiant regardless of who installed it.",
+      "Radiant runs off a boiler, so the two are one system. See [boiler installation Airdrie](/boiler-installation-airdrie/) for the heat source, or [boiler repair Airdrie](/boiler-repair-airdrie/) when the fault is on that side. Call 587-834-3668 and a real person answers.",
+    ],
+    heroSubhead: "Airdrie Hydronic Radiant Specialists",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/2026/04/Boiler12.webp", alt: "Hydronic radiant manifold and PEX distribution in an Airdrie home", fit: "cover" },
+    intro:
+      "In-floor radiant heating in Airdrie — hydronic design, install and service for basements, garage slabs, acreage shops and snowmelt. Local Airdrie dispatch.",
+    features: [
+      "Basement development in-floor",
+      "Garage + acreage shop slabs",
+      "Heat-loss design per zone",
+      "Manifold balancing + commissioning",
+      "Glycol testing + replacement",
+      "Zone valve, actuator + circulator service",
+    ],
+    bullets: [
+      {
+        t: "Decide before the pour, not after",
+        d: "Tubing tied into a slab before it's poured is by a wide margin the cheapest version of this job. Over an existing slab you're into low-profile panels or an over-pour, which raise the floor height and complicate doors and stairs. If concrete is going down this year, this is the conversation to have now.",
+      },
+      {
+        t: "Acreage shops need glycol and honest sizing",
+        d: "A shop slab west or north of Airdrie will drop below freezing if the heat ever fails, so the loop needs glycol without exception. It also needs sizing against the building's real heat loss — a poorly insulated shop with a big overhead door is a very different load from an attached garage.",
+      },
+      {
+        t: "Most faults are commissioning, not components",
+        d: "Loops never balanced, no outdoor reset curve set, supply temperature turned up to compensate for something else. Systems set up this way don't fail — they just quietly underperform and overspend for years. It's usually correctable long after the fact.",
+      },
+      {
+        t: "Local Airdrie dispatch",
+        d: "We run Airdrie out of Coopers Crossing rather than treating it as a long drive from Calgary. Confirmed windows, and a real person on the phone with context on your system.",
+      },
+    ],
+    seoTitle: "In-Floor Heating Airdrie | Hydronic Radiant Install & Service",
+    seoDescription:
+      "In-floor radiant heating in Airdrie — basements, garage slabs, acreage shops and snowmelt. Design, install and service. Call 587-834-3668.",
+    seoKeywords: [
+      "in-floor heating Airdrie",
+      "radiant floor heating Airdrie",
+      "hydronic heating Airdrie",
+      "heated garage floor Airdrie",
+      "shop floor heating Airdrie",
+      "radiant heating repair Airdrie",
+      "FlameTech Plumbing Heating",
+    ],
+    quoteFormLabel: "in-floor heating",
+    quoteFormPlaceholder:
+      "e.g. basement development with in-floor heat, heated slab for a new acreage shop, one radiant zone never warms up…",
+    sidebar: {
+      title: "Airdrie In-Floor Heating",
+      subtitle:
+        "Hydronic radiant designed to a heat-loss calc and commissioned properly. Local Airdrie dispatch from Coopers Crossing.",
+      bullets: [
+        "Basement, garage + shop slabs",
+        "Oxygen-barrier PEX only",
+        "Glycol testing on freeze-exposed loops",
+        "Free assessment + written quote",
+      ],
+    },
+    stats: [
+      { number: "20+", label: "Years on hydronics", icon: "verified" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "Local", label: "Airdrie dispatch", icon: "location_on" },
+      { number: "Real", label: "Person on the phone", icon: "call" },
+    ],
+    financing: {
+      detail:
+        "Spread the cost of an in-floor heating install into flexible monthly payments via our Financeit partner.",
+    },
+    callout:
+      "Pouring a slab in Airdrie, or living with a radiant zone that's never been right? Call 587-834-3668 for a free assessment.",
+    richContent: {
+      sections: [
+        {
+          heading: "Where in-floor heating fits in Airdrie",
+          intro:
+            "Newer housing stock and larger lots change the mix. These are the applications we're called for here.",
+          items: [
+            {
+              heading: "Basement developments",
+              body: "Our most common Airdrie radiant job. Homes across [Coopers Crossing](/coopers-crossing-plumbers/), [Ravenswood](/ravenswood-plumbers-airdrie/), [Reunion](/reunion-plumbers-airdrie/), Bayside, Windsong and Kings Heights are hitting the age where basements get developed, and a cold slab is the single most common complaint about a finished basement. Radiant solves it at the source.",
+            },
+            {
+              heading: "Attached garage slabs",
+              body: "A heated slab dries a vehicle rather than warming the air around it, and it recovers quickly after the door has been open. Any garage loop needs glycol. If you want a warm garage without pouring a new slab, an overhead [gas or radiant tube heater](/garage-heaters-airdrie/) is the cheaper route and we'll tell you so.",
+            },
+            {
+              heading: "Acreage shops west and north of town",
+              body: "Big detached shops on acreage are where in-floor really earns its keep — even heat across a large open space with no fan noise and nothing blowing dust around a workshop. Sizing has to be done against the building's actual insulation and door area, not a rule of thumb.",
+            },
+            {
+              heading: "New builds and custom homes",
+              body: "Whole-home radiant is best specified at design stage, when the floor build-up, the boiler and the controls can be planned as one system rather than retrofitted around each other.",
+            },
+            {
+              heading: "Driveway and walkway snowmelt",
+              body: "Worth it on a steep driveway or a north-facing walk that ices repeatedly through freeze-thaw. Expensive to install and to run, needs glycol and its own controls, and we'll say plainly if the layout doesn't justify it.",
+            },
+            {
+              heading: "Bathroom floor warming",
+              body: "For a single bathroom, an electric mat under the tile is usually the better answer — simpler and cheaper, with no boiler involvement. Hydronic makes sense when the bathroom is part of a larger radiant area.",
+            },
+          ],
+        },
+        {
+          heading: "What we check on an existing Airdrie system",
+          intro:
+            "We service radiant regardless of who installed it. These are the faults we find most.",
+          items: [
+            { body: "One cold zone while everything else is fine — usually a stuck zone valve actuator or air trapped in that loop, and usually a single-visit fix." },
+            { body: "Air through the system generally: gurgling, uneven heat, a circulator that doesn't sound right. Purging plus a proper air separator sorts it." },
+            { body: "Glycol that has never been tested. Inhibitors deplete, and spent glycol turns acidic and attacks the system. On garage and shop loops this is the check most often skipped." },
+            { body: "Balancing that was never set at commissioning, leaving some loops starved and others running hot." },
+            { body: "No outdoor reset curve configured, so the system runs at a fixed high temperature regardless of the weather — comfortable enough, and needlessly expensive." },
+            { body: "Non-barrier PEX in a closed loop, which lets oxygen through the tubing wall and corrodes cast-iron circulators and steel components from the inside." },
+            { body: "Faults that are actually on the boiler side — pressure loss, lockouts, no heat. See [boiler repair Airdrie](/boiler-repair-airdrie/)." },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Airdrie In-Floor Heating FAQs",
+        items: [
+          { q: "How much does in-floor heating cost in Airdrie?", a: "It depends on area, zone count, and whether there's already a boiler to run it — and we don't quote it over the phone, because a sight-unseen number is one that changes.\n\nWhat moves it most: total floor area, whether the tubing goes into a fresh pour or over an existing slab, whether you need a new heat source or can tie into an existing boiler, whether the loops need glycol, and the controls.\n\nWe assess, design, and give you the full scope and the all-in price in writing at no charge. [Financeit monthly payments](/financing/) are available." },
+          { q: "Can I add in-floor heat to my basement if the slab is already poured?", a: "Yes, but it's a different job from tubing a fresh pour.\n\nOver an existing slab you're looking at a low-profile panel system or a thin over-pour. Both work well. Both raise the finished floor height, which affects door clearances and the bottom stair riser, so it needs checking before you commit rather than discovering during the build.\n\nIf the basement is being developed anyway, this is the cheapest moment it will ever be — everything is open and the flooring hasn't gone down yet." },
+          { q: "Is a heated slab worth it in a garage or shop?", a: "For a working shop, in our view yes. Even heat across a large floor with no fan noise and nothing blowing sawdust around, and a slab that dries a vehicle rather than just warming the air near it.\n\nFor a garage you park in and little else, an overhead [gas heater](/garage-heaters-airdrie/) does the job for considerably less and we'll tell you that rather than sell you the bigger system.\n\nEither way, a slab loop in an unheated-if-it-fails space needs glycol. That isn't optional." },
+          { q: "One radiant zone never gets warm. What is it?", a: "Nearly always a stuck zone valve actuator or air trapped in that loop.\n\nWe isolate at the manifold, confirm whether the valve actually opens when the thermostat calls, and purge if it's air. Both are usually resolved in one visit.\n\nIf it's neither, a failed circulator or a drifted balancing valve are next, and both are still typically same-visit work." },
+          { q: "Does the glycol in my shop loop need replacing?", a: "If nobody has tested it since installation, it's worth checking.\n\nGlycol contains corrosion inhibitors that deplete over time. Once they're spent, the glycol turns acidic and starts attacking the metal in the system it was installed to protect — pumps, fittings, and the boiler heat exchanger.\n\nTesting is quick. Replacing spent glycol is far cheaper than replacing what it damages." },
+          { q: "Do you actually cover Airdrie, or is it a Calgary crew driving up?", a: "We dispatch Airdrie locally out of Coopers Crossing.\n\nThat matters for scheduling more than anything else — you get a confirmed window rather than being fitted around a Calgary route, and emergency calls aren't waiting on traffic through Deerfoot.\n\nWe cover the full range in Airdrie, not just radiant: [boilers](/boilers-airdrie/), [furnaces](/furnace-installation-airdrie/), [hot water tanks](/hot-water-tanks-airdrie/), and [general plumbing](/airdrie-plumbers/)." },
+          { q: "What floor coverings work over radiant?", a: "Tile and stone are ideal — they conduct well and handle the cycling without complaint.\n\nEngineered hardwood works within the manufacturer's temperature limits. Solid hardwood is riskier because it moves more with temperature and moisture.\n\nCarpet is the one to plan for. Thick carpet over a heavy underlay is effectively insulation sitting between the heat and the room. It can be accommodated, but only if we know at design stage — retrofitting the design after the carpet is chosen doesn't work." },
+        ],
+      },
+    },
+  },
+
   // AIR
   {
     slug: "air-conditioning",
@@ -8617,7 +8950,7 @@ export const services: ServicePage[] = [
     ],
     quoteFormLabel: "Airdrie boiler install",
     quoteFormPlaceholder:
-      "e.g. upgrading to a Navien condensing boiler, planning a hydronic radiant system, replacing a 20-year-old boiler…",
+      "e.g. upgrading to a Navien condensing boiler, planning an in-floor radiant system, replacing a 20-year-old boiler…",
     sidebar: {
       title: "Airdrie Boiler Installation",
       subtitle:
@@ -8807,7 +9140,7 @@ export const services: ServicePage[] = [
         heading: "Frequently Asked Questions About Boilers in Airdrie",
         items: [
           { q: "How long do boilers last in Alberta's climate?", a: "Properly maintained boilers typically last 15–20 years in Alberta, though cast iron boilers can run 25+ years with good care. The constant freeze-thaw cycles and hard water accelerate wear on circulation pumps and expansion tanks. Annual maintenance and water softening significantly extend boiler life." },
-          { q: "Can I switch from a furnace to a boiler in my Airdrie home?", a: "Yes, but it requires installing a complete hydronic distribution system — baseboard heaters, radiators, or in-floor tubing. Most Airdrie homes were built with forced air, so boiler conversion is a major renovation. We typically see this when homeowners are doing full basement finishing and want the comfort of radiant heat." },
+          { q: "Can I switch from a furnace to a boiler in my Airdrie home?", a: "Yes, but it requires installing a complete hydronic distribution system — baseboard heaters, radiators, or [in-floor tubing](/in-floor-heating-airdrie/). Most Airdrie homes were built with forced air, so boiler conversion is a major renovation. We typically see this when homeowners are doing full basement finishing and want the comfort of radiant heat." },
           { q: "Why is my boiler making banging noises?", a: "Banging or kettling sounds usually indicate sediment buildup in the heat exchanger or air trapped in the system. Alberta's hard water creates mineral deposits that cause hot spots and steam bubbles. Professional cleaning and proper system bleeding typically solve the problem." },
           { q: "Do I need annual boiler maintenance?", a: "Yes — annual maintenance prevents 90% of mid-winter breakdowns and maintains efficiency. We clean the heat exchanger, test safety controls, check combustion, and inspect all system components. Boiler repairs caught early cost hundreds instead of thousands." },
         ],
@@ -9407,7 +9740,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "In-floor radiant (hydronic) — the new-build option",
-              body: "Tubing embedded in the slab, fed by a boiler that often also heats the house. Only practical when the slab is being poured, so it belongs in a new garage or a full rebuild. It is the warmest-feeling garage there is — the floor itself is the heat source, so the concrete stops being the thing that pulls warmth out of your feet. See [boilers in Airdrie](/boilers-airdrie/) for the system side.",
+              body: "Tubing embedded in the slab, fed by a boiler that often also heats the house — see [in-floor heating in Airdrie](/in-floor-heating-airdrie/). Only practical when the slab is being poured, so it belongs in a new garage or a full rebuild. It is the warmest-feeling garage there is — the floor itself is the heat source, so the concrete stops being the thing that pulls warmth out of your feet. See [boilers in Airdrie](/boilers-airdrie/) for the system side.",
             },
             {
               heading: "Garage heater repair, every brand",
@@ -17532,7 +17865,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "Multi-zone in-floor radiant + manifold service",
-              body: "Luxury rebuilds frequently have 6-12 zones of in-floor radiant — kitchen, bathrooms, living areas, basement, sometimes garage and exterior snowmelt loops. Manifold sets (Caleffi, Uponor, Viega) need annual flush, zone-valve actuator service, balancing-valve adjustment. Cold zones usually trace to stuck zone valves or air in the loop. We diagnose by zone + repair without disturbing finished floors.",
+              body: "Luxury rebuilds frequently have 6-12 zones of [in-floor radiant](/in-floor-heating-calgary/) — kitchen, bathrooms, living areas, basement, sometimes garage and exterior snowmelt loops. Manifold sets (Caleffi, Uponor, Viega) need annual flush, zone-valve actuator service, balancing-valve adjustment. Cold zones usually trace to stuck zone valves or air in the loop. We diagnose by zone + repair without disturbing finished floors.",
             },
             {
               heading: "Combi boiler DHW service",
@@ -18875,7 +19208,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "Why anyone chooses hot water heat",
-              body: "It's quiet — no blower kicking on and off. It's even, because a hot radiator or a warm floor keeps giving off heat instead of swinging between blasts of hot air. It doesn't blow dust around. And it pairs naturally with in-floor radiant, which is the most comfortable heat there is. The trade-off is that it can't share ductwork with air conditioning, because there's no ductwork.",
+              body: "It's quiet — no blower kicking on and off. It's even, because a hot radiator or a warm floor keeps giving off heat instead of swinging between blasts of hot air. It doesn't blow dust around. And it pairs naturally with [in-floor radiant](/in-floor-heating-calgary/), which is the most comfortable heat there is. The trade-off is that it can't share ductwork with air conditioning, because there's no ductwork.",
             },
           ],
         },
