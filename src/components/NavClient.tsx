@@ -506,7 +506,7 @@ export default function NavClient({
           {menu.map((item) => {
             const isActive = item.label === activeCategory;
             return (
-              <li key={item.label} className="relative group flex items-stretch">
+              <li key={item.label} className="group flex items-stretch">
                 <Link
                   href={item.href}
                   aria-current={isActive ? "page" : undefined}
@@ -661,25 +661,39 @@ function MegaPanel({
 }) {
   const hasPromo = !!mega.promo;
   const tone = toneFromCategory(category);
+  // Column allocation across a 3-track grid. The panel now spans the full
+  // site content width, so the aim is to spend that width horizontally
+  // rather than stacking one tall column per group. The largest group
+  // takes two tracks and lays its items out two-up, which roughly halves
+  // the row count on the 6-item Plumbing and Heating menus.
+  const widest = Math.max(...mega.groups.map((g) => g.items.length));
+  const spanFor = (g: MegaGroup) =>
+    mega.groups.length === 1 ? 3 : g.items.length === widest ? 2 : 1;
   return (
-    <div className="absolute left-0 top-full pt-3 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
-      <div
-        className={`rounded-2xl bg-ink-800 border border-line-dark soft-shadow overflow-hidden ${
-          hasPromo ? "w-[820px]" : "w-[520px]"
-        }`}
-      >
+    <div className="absolute left-0 right-0 top-full pt-3 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+      <div className="max-w-7xl mx-auto px-4 md:px-10">
+      <div className="w-full rounded-2xl bg-ink-800 border border-line-dark soft-shadow overflow-hidden">
         <div
           className={`grid ${
-            hasPromo ? "grid-cols-[1fr_300px]" : "grid-cols-1"
+            hasPromo ? "grid-cols-[1fr_280px]" : "grid-cols-1"
           }`}
         >
-          <div className="p-7 grid grid-cols-2 gap-x-6 gap-y-7">
+          <div className="p-6 grid grid-cols-3 gap-x-6 gap-y-6">
             {mega.groups.map((group) => (
-              <div key={group.heading} className="col-span-2 md:col-span-1">
+              <div
+                key={group.heading}
+                className={
+                  spanFor(group) === 3
+                    ? "col-span-3"
+                    : spanFor(group) === 2
+                    ? "col-span-2"
+                    : "col-span-1"
+                }
+              >
                 {group.headingHref ? (
                   <Link
                     href={group.headingHref}
-                    className="inline-flex items-center gap-1.5 text-[12px] font-extrabold uppercase tracking-[0.18em] text-primary hover:text-emergency mb-4 transition-colors group/heading"
+                    className="inline-flex items-center gap-1.5 text-[12px] font-extrabold uppercase tracking-[0.18em] text-primary hover:text-emergency mb-3 transition-colors group/heading"
                   >
                     {group.heading}
                     <Icon
@@ -688,11 +702,17 @@ function MegaPanel({
                     />
                   </Link>
                 ) : (
-                  <h4 className="text-[12px] font-extrabold uppercase tracking-[0.18em] text-primary mb-4">
+                  <h4 className="text-[12px] font-extrabold uppercase tracking-[0.18em] text-primary mb-3">
                     {group.heading}
                   </h4>
                 )}
-                <ul className="space-y-1">
+                <ul
+                  className={
+                    spanFor(group) >= 2
+                      ? "grid grid-cols-2 gap-x-4 gap-y-0.5"
+                      : "space-y-0.5"
+                  }
+                >
                   {group.items.map((item) => {
                     const isActive = pathname === item.href;
                     return (
@@ -700,7 +720,7 @@ function MegaPanel({
                         <Link
                           href={item.href}
                           aria-current={isActive ? "page" : undefined}
-                          className={`flex items-start gap-3 p-3 rounded-xl transition-colors group/item ${
+                          className={`flex items-start gap-3 p-2.5 rounded-xl transition-colors group/item ${
                             isActive ? "bg-ink-700" : "hover:bg-ink-700"
                           }`}
                         >
@@ -764,6 +784,7 @@ function MegaPanel({
             </div>
           )}
         </div>
+      </div>
       </div>
     </div>
   );
