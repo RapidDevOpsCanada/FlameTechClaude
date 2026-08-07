@@ -40,10 +40,17 @@ const config: Config = {
         full: "9999px",
       },
       fontFamily: {
-        display: ["var(--font-manrope)", "Manrope", "Inter", "sans-serif"],
-        headline: ["var(--font-manrope)", "Manrope", "Inter", "sans-serif"],
-        body: ["var(--font-manrope)", "Manrope", "Inter", "sans-serif"],
-        technical: ["var(--font-manrope)", "Manrope", "Inter", "sans-serif"],
+        display: ["var(--font-outfit)", "Outfit", "system-ui", "sans-serif"],
+        headline: ["var(--font-outfit)", "Outfit", "system-ui", "sans-serif"],
+        body: ["var(--font-outfit)", "Outfit", "system-ui", "sans-serif"],
+        // Small uppercase technical labels only — see the header phone
+        // kicker. Deliberately not used for body copy.
+        technical: [
+          "var(--font-jetbrains-mono)",
+          "JetBrains Mono",
+          "ui-monospace",
+          "monospace",
+        ],
       },
     },
   },

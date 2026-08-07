@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Manrope } from "next/font/google";
+import { Outfit, JetBrains_Mono } from "next/font/google";
 import { GoogleAnalytics, GoogleTagManager } from "@next/third-parties/google";
 import Script from "next/script";
 import "./globals.css";
@@ -15,10 +15,27 @@ export const viewport: Viewport = {
   themeColor: "#17C3B0",
 };
 
-const manrope = Manrope({
+/**
+ * Outfit carries the whole site — headings and body. JetBrains Mono is
+ * used only for small uppercase technical labels (the header phone
+ * kicker), via the `font-technical` Tailwind family.
+ *
+ * Both are loaded through next/font, which self-hosts the files and
+ * inlines the @font-face rules. That avoids the render-blocking
+ * round-trip to fonts.googleapis.com that a <link> would add, and means
+ * no external request on any page.
+ */
+const outfit = Outfit({
   subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
-  variable: "--font-manrope",
+  weight: ["400", "500", "600", "700", "800"],
+  variable: "--font-outfit",
+  display: "swap",
+});
+
+const jetbrainsMono = JetBrains_Mono({
+  subsets: ["latin"],
+  weight: ["400", "500"],
+  variable: "--font-jetbrains-mono",
   display: "swap",
 });
 
@@ -288,7 +305,7 @@ export default function RootLayout({
   };
 
   return (
-    <html lang="en-CA" className={manrope.variable}>
+    <html lang="en-CA" className={`${outfit.variable} ${jetbrainsMono.variable}`}>
       <body
         className="font-body text-cream-50 bg-ink-900 antialiased"
         style={{ width: "100%", position: "relative" }}

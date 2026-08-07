@@ -566,7 +566,7 @@ export default function NavClient({
           >
             <Icon name="call" className="text-xl text-emergency shrink-0" />
             <span className="flex flex-col gap-px">
-              <span className="hidden xl:block text-[10.5px] uppercase tracking-[0.12em] text-muted leading-none">
+              <span className="hidden xl:block font-technical text-[10.5px] uppercase tracking-[0.12em] text-muted leading-none">
                 Talk to our team
               </span>
               <span className="text-[20px] xl:text-[21px] font-bold text-cream-50 tracking-[0.02em] leading-[1.15]">
