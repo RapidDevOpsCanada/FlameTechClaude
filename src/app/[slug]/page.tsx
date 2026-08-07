@@ -179,6 +179,13 @@ export default async function ServicePage({
   // Body-layout trial. See ServicePage.layout in src/lib/services.ts —
   // set per-page for now; flip this to a default if it rolls out.
   const isV2 = service.layout === "v2";
+  const sectionCount = service.richContent?.sections?.length ?? 0;
+  // Service-specific CTA line, derived from data every page already has
+  // (quoteFormLabel is a short noun: "hot water tank", "boiler", "drain")
+  // so this needs no per-page copywriting to roll out.
+  const inlineCtaHeading = service.quoteFormLabel
+    ? `Talk to us about your ${service.quoteFormLabel}`
+    : "Talk to us about your project";
   const stats = service.stats ?? DEFAULT_STATS;
   const allReviews = await getReviews().catch(() => [] as Review[]);
   const reviewsSummary = getReviewsSummary();
@@ -531,20 +538,27 @@ export default async function ServicePage({
                 // a lead and grid the rest two-up.
                 const v2Grid =
                   isV2 && mode === "cards" && !hasImages && items.length >= 3;
+                // Rotate the treatment so consecutive sections don't look
+                // identical. grid -> rows -> tint -> grid ...
+                const v2Treatment = (["grid", "rows", "tint"] as const)[
+                  sectionIndex % 3
+                ];
+                // Sporadic in-content CTA: after every second section, but
+                // never after the last one — the quote form already closes
+                // the page and two CTAs in a row reads as nagging.
+                const showInlineCta =
+                  isV2 &&
+                  sectionIndex % 2 === 1 &&
+                  sectionIndex !== sectionCount - 1;
 
                 return (
                   <div key={section.heading}>
                     {showInlineReview && (
                       <InlineReviewBlock review={inlineReview} />
                     )}
-                    <div className={isV2 ? "mb-16 scroll-mt-28" : "mb-14"}>
+                    <div className={isV2 ? "mb-16" : "mb-14"}>
                       {isV2 && (
-                        <div className="flex items-center gap-3 mb-3">
-                          <span className="font-display font-extrabold text-sm text-primary tabular-nums">
-                            {String(sectionIndex + 1).padStart(2, "0")}
-                          </span>
-                          <span className="h-px flex-1 bg-line-light" />
-                        </div>
+                        <span className="block w-10 h-1 rounded-full bg-primary mb-5" />
                       )}
                       <h2 className="font-display text-3xl md:text-4xl font-extrabold tracking-[-0.015em] mb-4 leading-[1.08]">
                         {section.heading}
@@ -595,9 +609,9 @@ export default async function ServicePage({
                         </div>
                       )}
 
-                      {hasItems && v2Grid && (
+                      {/* v2 treatment A — lead card, then a two-up grid */}
+                      {hasItems && v2Grid && v2Treatment === "grid" && (
                         <>
-                          {/* Lead item — carries the section, full width */}
                           <div className="rounded-2xl bg-white border-l-4 border-l-primary border-y border-r border-line-light p-7 md:p-8 mb-4">
                             {items[0].heading && (
                               <h3 className="font-display font-extrabold text-xl md:text-2xl tracking-tight mb-2.5 leading-tight">
@@ -608,17 +622,12 @@ export default async function ServicePage({
                               <RichText>{items[0].body}</RichText>
                             </p>
                           </div>
-
-                          {/* Remainder — two-up, index-chipped, scannable */}
                           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                             {items.slice(1).map((item, i) => (
                               <div
-                                key={`${section.heading}-v2-${i}`}
+                                key={`${section.heading}-a-${i}`}
                                 className="rounded-xl bg-white border border-line-light p-6 hover:border-primary hover:shadow-[0_1px_16px_rgba(0,0,0,0.06)] transition-all"
                               >
-                                <span className="inline-block font-display font-extrabold text-[11px] tracking-[0.14em] text-primary mb-2 tabular-nums">
-                                  {String(i + 2).padStart(2, "0")}
-                                </span>
                                 {item.heading && (
                                   <h3 className="font-display font-bold text-[17px] md:text-lg tracking-tight mb-2 leading-snug">
                                     {item.heading}
@@ -631,6 +640,57 @@ export default async function ServicePage({
                             ))}
                           </div>
                         </>
+                      )}
+
+                      {/* v2 treatment B — one panel, hairline-divided rows,
+                          heading and body side by side. Much lighter than a
+                          stack of cards and reads like a reference table. */}
+                      {hasItems && v2Grid && v2Treatment === "rows" && (
+                        <div className="rounded-2xl bg-white border border-line-light overflow-hidden">
+                          {items.map((item, i) => (
+                            <div
+                              key={`${section.heading}-b-${i}`}
+                              className={`grid grid-cols-1 md:grid-cols-12 gap-2 md:gap-6 p-6 md:p-7 ${
+                                i > 0 ? "border-t border-line-light" : ""
+                              }`}
+                            >
+                              {item.heading && (
+                                <h3 className="md:col-span-4 font-display font-bold text-[17px] tracking-tight leading-snug text-ink-900">
+                                  {item.heading}
+                                </h3>
+                              )}
+                              <p
+                                className={`text-[15px] text-ink-600 leading-relaxed ${
+                                  item.heading ? "md:col-span-8" : "md:col-span-12"
+                                }`}
+                              >
+                                <RichText>{item.body}</RichText>
+                              </p>
+                            </div>
+                          ))}
+                        </div>
+                      )}
+
+                      {/* v2 treatment C — borderless two-up on a warm tint,
+                          separated by space rather than boxes. */}
+                      {hasItems && v2Grid && v2Treatment === "tint" && (
+                        <div className="rounded-2xl bg-cream-100 border border-line-light p-6 md:p-8">
+                          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-7">
+                            {items.map((item, i) => (
+                              <div key={`${section.heading}-c-${i}`}>
+                                {item.heading && (
+                                  <h3 className="font-display font-bold text-[17px] tracking-tight mb-2 leading-snug flex items-start gap-2">
+                                    <span className="mt-2 w-1.5 h-1.5 rounded-full bg-primary shrink-0" />
+                                    {item.heading}
+                                  </h3>
+                                )}
+                                <p className="text-[15px] text-ink-600 leading-relaxed md:pl-3.5">
+                                  <RichText>{item.body}</RichText>
+                                </p>
+                              </div>
+                            ))}
+                          </div>
+                        </div>
                       )}
 
                       {hasItems && mode === "cards" && !v2Grid && (
@@ -729,6 +789,43 @@ export default async function ServicePage({
                         </figure>
                       )}
                     </div>
+
+                    {/* Sporadic in-content CTA. Deliberately not the red
+                        gradient used by service.callout above — a second
+                        identical block mid-page reads as a repeat. */}
+                    {showInlineCta && (
+                      <div className="mb-16 rounded-2xl bg-ink-900 text-cream-50 border border-line-dark overflow-hidden">
+                        <div className="p-7 md:p-8 flex flex-col md:flex-row md:items-center gap-6">
+                          <span className="shrink-0 w-12 h-12 rounded-full bg-primary/20 text-primary flex items-center justify-center">
+                            <Icon name="call" className="text-2xl" />
+                          </span>
+                          <div className="flex-1">
+                            <p className="font-display font-extrabold text-xl md:text-2xl leading-snug mb-1.5">
+                              {inlineCtaHeading}
+                            </p>
+                            <p className="text-cream-50/70 text-[15px] leading-relaxed">
+                              Free in-home assessment, honest recommendation,
+                              and the price in writing before any work starts.
+                            </p>
+                          </div>
+                          <div className="flex flex-wrap gap-2.5 shrink-0">
+                            <a
+                              href="tel:+15878343668"
+                              className="inline-flex items-center gap-2 rounded-full bg-emergency text-cream-50 font-extrabold px-5 py-3 text-sm hover:bg-emergency-deep transition-colors"
+                            >
+                              <Icon name="call" className="text-base" />
+                              587-834-3668
+                            </a>
+                            <a
+                              href="#quote"
+                              className="inline-flex items-center gap-2 rounded-full border border-cream-50/25 text-cream-50 font-bold px-5 py-3 text-sm hover:border-cream-50/60 transition-colors"
+                            >
+                              Request a quote
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    )}
                   </div>
                 );
               })}
