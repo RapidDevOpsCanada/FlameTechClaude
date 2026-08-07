@@ -1,0 +1,213 @@
+flametechplumbing.ca
+│
+├── CORE PAGES
+│   ├── /              Home
+│   ├── /about/        About
+│   ├── /contact/      Contact
+│   ├── /financing/    Financing
+│   ├── /privacy/      Privacy
+│   ├── /site-map/     Site map  (not in sitemap.xml)
+│   └── /thank-you/    Thank you  (not in sitemap.xml)
+│
+├── SERVICE PAGES
+│   ├── PLUMBING   11 Calgary · 4 Airdrie
+│   │   ├── /bathroom-plumbing-calgary/
+│   │   ├── /shower-plumbing-calgary/
+│   │   ├── /toilet-installation-calgary/
+│   │   ├── /blocked-toilet-calgary/
+│   │   ├── /drain-cleaning-calgary/
+│   │   ├── /emergency-plumber-calgary/
+│   │   ├── /polyb-plumbing-calgary/
+│   │   ├── /frozen-pipe-repair-calgary/
+│   │   ├── /plumbing-repairs-calgary/
+│   │   ├── /backwater-valve-installation-calgary/
+│   │   ├── /sump-pump-installation-calgary/
+│   │   └── AIRDRIE
+│   │       ├── /frozen-pipe-repair-airdrie/
+│   │       ├── /drain-cleaning-airdrie/
+│   │       ├── /sump-pump-installation-airdrie/
+│   │       └── /polyb-plumbing-airdrie/
+│   │
+│   ├── HEATING   18 Calgary · 8 Airdrie
+│   │   ├── /boiler-installation-calgary/
+│   │   ├── /combi-boiler-installation-calgary/
+│   │   ├── /boiler-replacement-calgary/
+│   │   ├── /boiler-repair-calgary/
+│   │   ├── /boiler-service-calgary/
+│   │   ├── /boiler-not-working-calgary/
+│   │   ├── /furnaces/
+│   │   ├── /high-efficiency-furnaces-calgary/
+│   │   ├── /furnace-replacement-calgary/
+│   │   ├── /furnace-repair-calgary/
+│   │   ├── /furnace-blower-issues-calgary/
+│   │   ├── /no-heat-issues-calgary/
+│   │   ├── /home-heating-issues-calgary/
+│   │   ├── /garage-heaters-calgary/
+│   │   ├── /heat-pumps-calgary/
+│   │   ├── /in-floor-heating-calgary/
+│   │   ├── /boilers/
+│   │   ├── /air-ease-furnaces-calgary/
+│   │   └── AIRDRIE
+│   │       ├── /in-floor-heating-airdrie/
+│   │       ├── /furnace-installation-airdrie/
+│   │       ├── /airdrie-furnace-repairs/
+│   │       ├── /boiler-installation-airdrie/
+│   │       ├── /boilers-airdrie/
+│   │       ├── /boiler-repair-airdrie/
+│   │       ├── /heat-pumps-airdrie/
+│   │       └── /garage-heaters-airdrie/
+│   │
+│   ├── AIR   3 Calgary · 2 Airdrie
+│   │   ├── /air-conditioning-repair-calgary/
+│   │   ├── /air-conditioning/
+│   │   ├── /humidifiers-calgary/
+│   │   └── AIRDRIE
+│   │       ├── /air-conditioning-repair-airdrie/
+│   │       └── /air-conditioning-airdrie/
+│   │
+│   └── WATER   11 Calgary · 4 Airdrie
+│       ├── /hot-water-tanks/
+│       ├── /hot-water-tank-replacement-calgary/
+│       ├── /tankless-water-heaters/
+│       ├── /water-heater-repair-calgary/
+│       ├── /hot-water-issues-calgary/
+│       ├── /no-hot-water-calgary/
+│       ├── /leaking-water-heater-calgary/
+│       ├── /water-softener/
+│       ├── /water-softener-repair-calgary/
+│       ├── /reverse-osmosis-calgary/
+│       ├── /water-heater-installation-calgary/
+│       └── AIRDRIE
+│           ├── /hot-water-tanks-airdrie/
+│           ├── /tankless-water-heaters-airdrie/
+│           ├── /water-heater-repair-airdrie/
+│           └── /water-softener-airdrie/
+│
+├── LOCATION PAGES
+│   ├── /calgary-plumbers-nw/   NW quadrant hub — 10 linked
+│   │   ├── /bowness-plumbers-calgary/
+│   │   ├── /montgomery-plumbers-calgary/
+│   │   ├── /edgemont-plumbers-calgary/
+│   │   ├── /hidden-valley-plumbers-calgary/
+│   │   ├── /royal-oak-plumbers-calgary/
+│   │   ├── /evanston-plumbers-calgary/
+│   │   ├── /huntington-hills-plumbers-calgary/
+│   │   ├── /panorama-hills-plumbers-calgary/
+│   │   ├── /tuscany-plumbers-calgary/
+│   │   └── /varsity-plumbers-calgary/
+│   │
+│   ├── /calgary-plumbers-ne/   NE quadrant hub — 6 linked
+│   │   ├── /bridgeland-plumbers-calgary/
+│   │   ├── /martindale-plumbers-calgary/
+│   │   ├── /saddle-ridge-plumbers-calgary/
+│   │   ├── /skyview-ranch-plumbers-calgary/
+│   │   ├── /taradale-plumbers-calgary/
+│   │   └── /huntington-hills-plumbers-calgary/
+│   │
+│   ├── /calgary-plumbers-se/   SE quadrant hub — 9 linked
+│   │   ├── /auburn-bay-plumber-calgary/
+│   │   ├── /chaparral-plumbers-calgary/
+│   │   ├── /copperfield-plumbers-calgary/
+│   │   ├── /cranston-plumber-calgary/
+│   │   ├── /douglasdale-plumbers-calgary/
+│   │   ├── /mahogany-plumbers-calgary/
+│   │   ├── /mckenzie-lake-plumbers-calgary/
+│   │   ├── /mckenzie-towne-plumbers-calgary/
+│   │   └── /new-brighton-plumbers-calgary/
+│   │
+│   ├── /calgary-plumbers-sw/   SW quadrant hub — 13 linked
+│   │   ├── /altadore-plumbers-calgary/
+│   │   ├── /aspen-woods-plumbers-calgary/
+│   │   ├── /bel-aire-plumbers-calgary/
+│   │   ├── /britannia-plumbers-calgary/
+│   │   ├── /elbow-park-plumbers-calgary/
+│   │   ├── /bridlewood-plumbers-calgary/
+│   │   ├── /evergreen-plumbers-calgary/
+│   │   ├── /killarney-plumbers-calgary/
+│   │   ├── /marda-loop-plumbers-calgary/
+│   │   ├── /mount-royal-plumbers-calgary/
+│   │   ├── /signal-hill-plumbers-calgary/
+│   │   ├── /west-springs-plumbers-calgary/
+│   │   └── /woodbine-plumber/
+│   │
+│   ├── AIRDRIE   4
+│   │   ├── /airdrie-plumbers/
+│   │   ├── /ravenswood-plumbers-airdrie/
+│   │   ├── /reunion-plumbers-airdrie/
+│   │   └── /coopers-crossing-plumbers/
+│   │
+│   ├── SURROUNDING TOWNS   5
+│   │   ├── /chestermere-plumbers/
+│   │   ├── /bearspaw-plumbers/
+│   │   ├── /cochrane-plumbers/
+│   │   ├── /okotoks-plumbers/
+│   │   └── /carstairs-plumbers/
+│   │
+│   └── NOT LINKED FROM ANY QUADRANT HUB   4
+│       ├── /brentwood-plumbers-calgary/
+│       ├── /hillhurst-plumbers-calgary/
+│       ├── /inglewood-plumbers-calgary/
+│       └── /lake-bonavista-plumbers-calgary/
+│
+└── BLOG
+    ├── /blog/   index — 20 posts, newest first
+    │   ├── 2026-08-06  /blog/heat-pump-not-warming-house/
+    │   ├── 2026-08-03  /blog/furnace-blowing-cold-air/
+    │   ├── 2026-07-25  /blog/do-i-need-to-replace-poly-b/
+    │   ├── 2026-07-20  /blog/how-long-do-boilers-last-calgary/
+    │   ├── 2026-06-21  /blog/basement-floods-every-time-it-rains-calgary/
+    │   ├── 2026-06-15  /blog/do-water-softener-shower-heads-work/
+    │   ├── 2026-05-15  /blog/heat-pump-vs-furnace-calgary/
+    │   ├── 2026-05-15  /blog/tankless-vs-tank-water-heaters-calgary/
+    │   ├── 2026-04-08  /blog/boiler-losing-pressure-causes/
+    │   ├── 2026-04-08  /blog/furnace-fuse-keeps-blowing/
+    │   ├── 2026-04-03  /blog/why-does-my-boiler-keep-turning-off/
+    │   ├── 2026-03-13  /blog/what-do-water-softeners-remove/
+    │   ├── 2026-02-05  /blog/how-to-clean-heat-pump-coils/
+    │   ├── 2026-01-29  /blog/why-does-my-water-softener-have-water-in-it/
+    │   ├── 2025-12-23  /blog/boiler-popping-noises/
+    │   ├── 2025-12-20  /blog/furnace-smell-like-burning-plastic/
+    │   ├── 2025-12-19  /blog/furnace-smell-like-gas/
+    │   ├── 2025-10-11  /blog/why-does-my-ac-feel-humid-understanding-your-air-conditioning-system/
+    │   ├── 2025-10-09  /blog/why-does-my-ac-compressor-shut-off-after-30-minutes/
+    │   └── 2025-10-08  /blog/ac-drip-pan-filling-up/
+    │
+    ├── /blog/categories/   4
+    │   ├── /blog/categories/air-conditioning/
+    │   ├── /blog/categories/heating/
+    │   ├── /blog/categories/plumbing/
+    │   └── /blog/categories/water/
+    │
+    └── /blog/tags/   23
+        ├── /blog/tags/ac/
+        ├── /blog/tags/basement-flooding/
+        ├── /blog/tags/boilers/
+        ├── /blog/tags/compressor/
+        ├── /blog/tags/condensate/
+        ├── /blog/tags/diy/
+        ├── /blog/tags/drainage/
+        ├── /blog/tags/emergency/
+        ├── /blog/tags/furnaces/
+        ├── /blog/tags/hard-water/
+        ├── /blog/tags/heat-pumps/
+        ├── /blog/tags/humidity/
+        ├── /blog/tags/install/
+        ├── /blog/tags/kettling/
+        ├── /blog/tags/maintenance/
+        ├── /blog/tags/poly-b/
+        ├── /blog/tags/pressure/
+        ├── /blog/tags/safety/
+        ├── /blog/tags/sump-pumps/
+        ├── /blog/tags/tankless/
+        ├── /blog/tags/troubleshooting/
+        ├── /blog/tags/water-heaters/
+        └── /blog/tags/water-softeners/
+
+────────────────────────────────────────────────────────────────
+  Service + location pages   115
+  Blog posts                  20
+  Blog tag archives           23
+  Core pages                   7
+  Blog category archives       4
+  TOTAL                      169   (167 in sitemap.xml)
+────────────────────────────────────────────────────────────────
