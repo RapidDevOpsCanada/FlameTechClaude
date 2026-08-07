@@ -3574,7 +3574,7 @@ export const services: ServicePage[] = [
     slug: "furnaces",
     category: "Heating",
     icon: "local_fire_department",
-    title: "Calgary Furnaces — Installation, Replacement & Service",
+    title: "Calgary Furnaces — Install, Replace, Repair & Service",
     lead:
       "Calgary winters run nearly seven months. A failing furnace is a same-day problem — not a get-around-to-it problem. FlameTech installs, replaces, and services every major brand, with priority response when yours quits in the middle of a cold snap.",
     heroBody: [
@@ -3617,7 +3617,7 @@ export const services: ServicePage[] = [
       "Calgary furnace installation, replacement, and annual service. AirEase Pro Team dealer, 12-yr warranty option. Free on-site estimate. Call 587-834-3668.",
     seoKeywords: [
       "furnace Calgary",
-      "furnace installation Calgary",
+      "furnaces Calgary",
       "furnace replacement Calgary",
       "furnace cost Calgary",
       "AirEase Calgary",
@@ -3681,7 +3681,7 @@ export const services: ServicePage[] = [
           items: [
             {
               heading: "Furnace Installation & Replacement",
-              body: "New high-efficiency installs and full-system [replacements](/high-efficiency-furnaces-calgary/) when your old unit is past saving. Includes proper sizing (Manual J heat-loss calc), gas line and venting upgrades when needed, chimney lining for code compliance, electrical work, permit, and inspection. Typical install completes in one day for a straight swap.",
+              body: "New high-efficiency [installs](/furnace-installation-calgary/) and full-system [replacements](/furnace-replacement-calgary/) when your old unit is past saving. Includes proper sizing (Manual J heat-loss calc), gas line and venting upgrades when needed, chimney lining for code compliance, electrical work, permit, and inspection. Typical install completes in one day for a straight swap.",
               image: {
                 src: "/images/2026/04/Furnace1.webp",
                 alt: "Daikin high-efficiency furnace install by FlameTech with ductwork, humidifier, and UV air treatment in a Calgary basement",
@@ -3847,6 +3847,7 @@ export const services: ServicePage[] = [
       intro:
         "Install, retrofit, or upgrade — here's the path that matches your situation.",
       items: [
+        { label: "Furnace Installation", href: "/furnace-installation-calgary/", summary: "Heat-loss sizing, venting and gas assessment, and full commissioning.", icon: "local_fire_department" },
         { label: "Furnace Repair", href: "/furnace-repair-calgary/", summary: "Igniters, flame sensors, capacitors, control boards — diagnosed properly, most fixed first visit.", icon: "handyman", highlight: true, badge: "Same-day dispatch" },
         { label: "Furnace Replacement", href: "/furnace-replacement-calgary/", summary: "End-of-life replacement decision — furnace-vs-hybrid math, brand selection, Manual J sizing, Greener Homes rebates.", icon: "sync" },
         { label: "High-Efficiency Furnaces", href: "/high-efficiency-furnaces-calgary/", summary: "95–98% AFUE condensing units sized for Calgary's −35°C design temp.", icon: "local_fire_department" },
@@ -4118,6 +4119,197 @@ export const services: ServicePage[] = [
     },
   },
   {
+    slug: "furnace-installation-calgary",
+    category: "Heating",
+    icon: "local_fire_department",
+    title: "Furnace Installation Calgary — Sizing, Venting & Commissioning",
+    lead:
+      "Two furnaces of the same model, installed in the same house, can perform completely differently. The equipment is rarely the variable — sizing, venting, ductwork and commissioning are. This page is about the install itself: what a good one involves, and where the ones that disappoint go wrong.",
+    heroBody: [
+      "The most common fault we find on Calgary furnaces isn't a failed part. It's a unit that was oversized because someone matched the badge on the old furnace instead of calculating what the house actually needs. An oversized furnace short-cycles, swings the temperature, wears its own components out faster, and costs more to run for its entire life.",
+      "We size every install off a heat-loss calculation against Calgary's −35°C design temperature, check that the gas line and venting can actually carry it, look at whether the ductwork can move the air, and commission the unit properly at the end. That last step is the one most often skipped and the one that decides how the furnace behaves.",
+      "If you're still deciding whether to replace at all, or weighing furnace-only against a hybrid heat pump, start with [furnace replacement](/furnace-replacement-calgary/) — that page covers the decision. This one covers the work. [Monthly financing](/financing/) is available via Financeit.",
+    ],
+    heroSubhead: "Sized, Vented and Commissioned Properly",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/2025/04/furnace-install.jpg", alt: "High-efficiency furnace installed by FlameTech in a Calgary mechanical room", fit: "cover" },
+    intro:
+      "Furnace installation in Calgary — heat-loss sizing, venting and gas line assessment, ductwork checks, and full commissioning. Free written quote.",
+    features: [
+      "Heat-loss sizing, not badge matching",
+      "Sidewall venting + chimney assessment",
+      "Gas line capacity check",
+      "Condensate drain + neutraliser",
+      "Ductwork and static pressure review",
+      "Full commissioning + walkthrough",
+    ],
+    bullets: [
+      {
+        t: "Oversizing is the default mistake",
+        d: "Most furnaces we replace in Calgary were sized by matching the previous unit, which was itself sized by rule of thumb decades ago. The result is a furnace that heats the house in short bursts, swings the temperature, and cycles its ignition and blower far more often than it should.",
+      },
+      {
+        t: "The old chimney usually can't be reused",
+        d: "A high-efficiency furnace produces cool, acidic exhaust that needs sealed plastic venting, normally through a new sidewall penetration. Worth knowing before quote day, because it's real labour and it sometimes has a knock-on effect on your water heater.",
+      },
+      {
+        t: "A furnace is only as good as the duct it's attached to",
+        d: "Undersized return air is the most common restriction in Calgary homes, and it shows up as noise, uneven rooms and a furnace running hotter than it should. We measure static pressure rather than assume the existing ductwork is fine.",
+      },
+      {
+        t: "Commissioning is the step that gets skipped",
+        d: "Temperature rise measured against the nameplate range, gas pressure verified, static pressure checked, combustion analysed. A furnace that was hung and switched on without this will run for twenty years slightly wrong, and nobody will ever know why it isn't quite right.",
+      },
+    ],
+    seoTitle: "Furnace Installation Calgary | Sizing & Commissioning | FlameTech",
+    seoDescription:
+      "Furnace installation in Calgary — heat-loss sizing, venting, gas line and ductwork assessment, full commissioning. Free quote. Call 587-834-3668.",
+    seoKeywords: [
+      "furnace installation Calgary",
+      "install furnace Calgary",
+      "new furnace installation Calgary",
+      "furnace installer Calgary",
+      "furnace sizing Calgary",
+      "furnace venting Calgary",
+      "FlameTech Plumbing Heating",
+    ],
+    quoteFormLabel: "furnace install",
+    quoteFormPlaceholder:
+      "e.g. replacing a 20-year-old furnace, new build, old unit vented into the chimney, rooms that never heat evenly…",
+    sidebar: {
+      title: "Calgary Furnace Installation",
+      subtitle:
+        "Sized to a heat-loss calc, vented to code, and commissioned properly before we leave.",
+      bullets: [
+        "Heat-loss calculation on every quote",
+        "Gas permit + inspection handled",
+        "Typical single-day changeover",
+        "Free written estimate",
+      ],
+    },
+    stats: [
+      { number: "−35°C", label: "Design temperature", icon: "ac_unit" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "1 day", label: "Typical changeover", icon: "schedule" },
+      { number: "Real", label: "Person on the phone", icon: "call" },
+    ],
+    timeline: {
+      heading: "How a furnace install runs",
+      intro:
+        "The unit goes in fairly quickly. Everything that decides how well it works happens either side of that.",
+      steps: [
+        { icon: "science", title: "Heat-loss calculation", body: "We measure the house — square footage, insulation, windows, ceiling heights, air sealing — and calculate the actual load against Calgary's −35°C design temperature. We do not size from the old furnace's badge, because that number is usually wrong and copying it repeats someone else's mistake for another twenty years." },
+        { icon: "request_quote", title: "Venting, gas and duct assessment", body: "Can the existing gas line carry the input? Can the chimney be reused, or does a sidewall vent need cutting? Is the return air adequate for the airflow? All three get checked before we quote so they're priced rather than discovered on the day." },
+        { icon: "handyman", title: "Changeover", body: "Old unit disconnected and removed, new furnace set and connected, venting run, condensate routed to a neutraliser and drain, gas connected and leak-tested, thermostat wired. A straight changeover is typically a single day and you'll have heat that evening." },
+        { icon: "verified", title: "Commission and walkthrough", body: "Temperature rise measured against the nameplate range, gas manifold pressure verified, static pressure checked, combustion analysed, and the staging and thermostat set up. Then we register the warranty, book the first service, and show you where the filter goes." },
+      ],
+    },
+    financing: {
+      detail:
+        "Spread the cost of a new furnace into flexible monthly payments via our Financeit partner.",
+    },
+    callout:
+      "Planning a furnace install, or want a second opinion on a quote you've been given? Call 587-834-3668 for a free assessment.",
+    richContent: {
+      sections: [
+        {
+          heading: "Sizing — where most installs go wrong",
+          intro:
+            "If you take one thing from this page, take this. Sizing is decided before anyone picks a brand, and it affects comfort and running cost for the entire life of the furnace.",
+          items: [
+            {
+              heading: "Why bigger isn't better",
+              body: "An oversized furnace satisfies the thermostat quickly, shuts off, and repeats. Those short cycles mean the temperature swings noticeably between them, the rooms furthest from the furnace never quite catch up, and the ignition, blower and heat exchanger all see far more starts than they were designed for. It also runs at its least efficient during startup, which is most of what an oversized unit does.",
+            },
+            {
+              heading: "Matching the old furnace repeats the old error",
+              body: "The unit coming out was very often sized by rule of thumb decades ago, and Calgary homes have been getting better sealed and better insulated ever since. Sizing the new one to match means inheriting a mistake and adding twenty years to it.",
+            },
+            {
+              heading: "What a heat-loss calculation actually looks at",
+              body: "Floor area, ceiling heights, window area and glazing type, insulation levels, orientation, and how tight the house is — measured against Calgary's −35°C design temperature rather than an average winter day. The output is a BTU figure the house genuinely needs.",
+            },
+            {
+              heading: "Two-stage and modulating units",
+              body: "A furnace that can run at partial capacity handles the mismatch between a design-day load and a typical day far better than a single-stage unit that only knows full blast. It runs longer and gentler, which is both more comfortable and easier on the equipment. Worth the conversation on any install.",
+            },
+            {
+              heading: "If the house has cold rooms now",
+              body: "Say so before we quote. A room that never heats properly is usually a duct or balancing problem, and a bigger furnace will not fix it — it will just short-cycle harder while that room stays cold. Better to identify it at quote stage than to spend money on capacity that isn't the answer.",
+            },
+          ],
+        },
+        {
+          heading: "Venting, gas and the orphaned water heater",
+          intro:
+            "The parts of a furnace install that most often surprise people, and the reason two quotes for the same furnace can differ substantially.",
+          items: [
+            {
+              heading: "High-efficiency furnaces need their own venting",
+              body: "A condensing furnace extracts so much heat from the exhaust that what leaves the unit is cool and acidic. That can't go up a masonry chimney — it needs sealed plastic venting, usually through a new sidewall penetration, with intake and exhaust terminations placed to code and clear of snow line.",
+            },
+            {
+              heading: "The orphaned water heater",
+              body: "This is the one that catches people. If your old mid-efficiency furnace shared a chimney with an atmospheric water heater, the furnace was providing most of the heat that made that flue draft. Take the furnace off it and the water heater can be left on a chimney that's now oversized and too cool to draft properly. We look at both appliances together at quote stage, because the answer sometimes involves relining, or moving the water heater to a power-vented or [tankless](/tankless-water-heaters/) unit.",
+            },
+            {
+              heading: "Gas line capacity",
+              body: "Gas piping in older Calgary homes was sized for the appliances of the day. A higher-input furnace, or a furnace plus a newer water heater on the same run, can exceed what the existing line will carry. We check it at quote stage rather than mid-install.",
+            },
+            {
+              heading: "Condensate, and why it freezes here",
+              body: "Condensing furnaces produce acidic water that needs neutralising and draining. Where the drain runs through an unheated garage, crawlspace or along an exterior wall, it can freeze solid in a deep cold snap — the furnace detects the blockage and locks out, always on the coldest night. Routing it through heated space at install time avoids a call every winter. See [frozen pipe repair](/frozen-pipe-repair-calgary/) for the wider version of that problem.",
+            },
+            {
+              heading: "Permits and inspection",
+              body: "Furnace installations in Calgary require a gas permit and an inspection. We handle the application and schedule the inspection as part of the job.",
+            },
+          ],
+        },
+        {
+          heading: "The ductwork nobody quotes on",
+          intro:
+            "A furnace can only deliver what the duct system lets it move. This is the most under-examined part of a Calgary install and the most common cause of a new furnace that still doesn't feel right.",
+          items: [
+            { body: "Return air is usually the bottleneck. Many Calgary homes have generous supply runs and undersized returns, which starves the blower and raises static pressure across the whole system." },
+            { body: "High static pressure shows up as noise at the registers, a furnace running hotter than its designed temperature rise, and a blower drawing more power than it should." },
+            { body: "We measure static pressure rather than assume the existing ductwork is adequate — it takes minutes and it changes what we recommend." },
+            { body: "A high-efficiency furnace with an ECM blower moves more air at a lower temperature rise than the unit it replaces, so ducting that was borderline before can become the limiting factor after." },
+            { body: "Where the duct genuinely can't support the airflow, we'll say so and price the modification rather than install into a system that will underperform." },
+            { body: "Filter cabinet sizing matters too — a restrictive filter in an undersized cabinet undoes airflow gains you just paid for." },
+          ],
+        },
+        {
+          heading: "Commissioning — what should happen before we leave",
+          intro:
+            "This is the difference between a furnace that was installed and a furnace that was installed properly. None of it takes long and all of it is measurable.",
+          items: [
+            { body: "Temperature rise measured across the heat exchanger and compared against the range printed on the nameplate. Outside that range, something is wrong with airflow or gas input." },
+            { body: "Gas manifold pressure checked and adjusted to the manufacturer's specification for the altitude." },
+            { body: "Static pressure measured on both supply and return." },
+            { body: "Combustion analysed to confirm the burner is running clean." },
+            { body: "Venting inspected end to end, terminations confirmed clear, condensate drain flow verified." },
+            { body: "Thermostat paired, staging configured, and the changeover set up correctly if the system is dual-fuel with a [heat pump](/heat-pumps-calgary/)." },
+            { body: "Then a walkthrough — where the filter is, what size, how often, and what the furnace should sound like when it's behaving." },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Calgary Furnace Installation FAQs",
+        items: [
+          { q: "How much does furnace installation cost in Calgary?", a: "It depends on the unit, what your home actually needs, and what's already in the mechanical room — and we won't quote it over the phone, because a sight-unseen number is one that changes on install day.\n\nThe variables that move it most: the furnace itself and whether it's single-stage, two-stage or modulating; whether the existing venting can be reused or a new sidewall vent has to be cut; whether the gas line needs upsizing; whether any ductwork modification is needed; and whether removing the furnace leaves a water heater orphaned on the chimney.\n\nWe come out, run the heat-loss calculation, check all of the above, and give you the model, the efficiency rating, the full scope and the all-in price in writing at no charge. [Financeit monthly payments](/financing/) are available." },
+          { q: "What size furnace do I need?", a: "Whatever the heat-loss calculation says — which is very often smaller than the furnace coming out.\n\nMost furnaces we replace in Calgary were sized by matching the previous unit, which was itself sized by rule of thumb decades ago. Meanwhile the house has probably had windows, insulation or air sealing improved since. The result is a lot of oversized furnaces.\n\nOversizing isn't harmless. The unit heats in short bursts, the temperature swings between cycles, rooms furthest from the furnace lag, and the ignition and blower see far more starts than they were built for. Right-sizing is quieter, steadier and cheaper to run." },
+          { q: "How long does a furnace installation take?", a: "A straight changeover — new furnace onto compatible existing venting, gas and ductwork — is typically a single day, and you'll have heat that evening.\n\nAdd a new sidewall vent, a gas line upgrade, or ductwork modification and it becomes one to two days.\n\nWe give you a realistic timeline with the written quote, and if the work has to span two days we plan the heat-off window rather than leaving you to find out." },
+          { q: "Can my new furnace use the existing chimney?", a: "If it's a high-efficiency condensing furnace, almost certainly not.\n\nCondensing furnaces produce cool, acidic exhaust that masonry chimneys aren't designed to handle. They need sealed plastic venting, normally through a new sidewall penetration.\n\nThere's a knock-on effect worth knowing about. If your old furnace shared that chimney with an atmospheric water heater, the furnace was doing most of the work making the flue draft. Remove it and the water heater can be left on a flue that's too cool and too large to draft properly. We assess both appliances together at quote stage, because that's a safety matter rather than a preference." },
+          { q: "Do I need to upgrade my ductwork?", a: "Sometimes, and it's worth knowing before rather than after.\n\nThe usual issue in Calgary homes is undersized return air. It starves the blower, raises static pressure, and shows up as register noise, uneven rooms, and a furnace running outside its designed temperature rise.\n\nIt matters more with a modern furnace than it did with the old one, because an ECM blower moves more air at a lower temperature rise — so ducting that was marginal before can become the limiting factor after.\n\nWe measure static pressure as part of the assessment. If the duct is fine, we'll tell you that and leave it alone." },
+          { q: "What's the difference between installation and replacement?", a: "Mostly the question you're asking.\n\n[Furnace replacement](/furnace-replacement-calgary/) is about the decision — whether it's time, furnace-only or hybrid with a heat pump, which brand, and how to time it. That's where to start if you haven't committed yet.\n\nThis page is about the work itself: sizing, venting, gas, ductwork and commissioning. In practice most Calgary installs are replacements, so the two go together — but the questions are different and it's worth reading whichever one you're actually asking." },
+          { q: "Do you handle the gas permit?", a: "Yes. Furnace installations in Calgary require a gas permit and an inspection, and we handle the application and schedule the inspection as part of the job.\n\nIt's worth checking that any quote you're comparing includes it. A permit-free install is a problem when you sell the house, and it can be a problem with your insurer before then." },
+          { q: "Do you install furnaces in Airdrie too?", a: "Yes — see [furnace installation in Airdrie](/furnace-installation-airdrie/), which we dispatch locally rather than routing a truck up from Calgary.\n\nThe work is the same; the scheduling is better. Same heat-loss sizing, same venting and gas assessment, same commissioning." },
+        ],
+      },
+    },
+  },
+  {
     slug: "furnace-replacement-calgary",
     category: "Heating",
     icon: "sync",
@@ -4125,9 +4317,9 @@ export const services: ServicePage[] = [
     lead:
       "Your furnace is at end of life — now what? The replacement decision has more moving pieces than most homeowners realize: furnace-only vs hybrid heat pump dual-fuel (the math-positive call for most Calgary homes now), brand selection (AirEase 12-year warranty vs Trane vs Carrier vs Lennox vs Goodman), proper Manual J sizing (most Calgary furnaces are oversized 20-50%), federal Greener Homes rebates, timing strategy (replace BEFORE peak winter season), and financing options. FlameTech walks Calgary homeowners through the replacement decision honestly — no upsell, no pressure, written quote with the full math.",
     heroBody: [
-      "Two big decisions before you sign anything: (1) furnace-only vs hybrid dual-fuel (heat pump + new furnace). For most Calgary homes adding cooling capability or with high heating bills, hybrid is now the math-positive call — same heat pump install footprint, plus a new furnace as deep-cold backup, plus federal Greener Homes rebates may apply. Lower total operating cost over the equipment's life. (2) Sizing: most Calgary furnaces are oversized by 20-50% — leftover from rule-of-thumb sizing decades ago. We run a Manual J heat-loss calc on every replacement quote, then size to actual load. Right-sized furnaces are quieter, cheaper to run, and last longer.",
+      "Two big decisions before you sign anything: (1) furnace-only vs hybrid dual-fuel (heat pump + new furnace). For most Calgary homes adding cooling capability or with high heating bills, hybrid is now the math-positive call — same heat pump install footprint, plus a new furnace as deep-cold backup, plus federal Greener Homes rebates may apply. Lower total operating cost over the equipment's life. (2) Sizing: most Calgary furnaces are oversized by 20-50% — leftover from rule-of-thumb sizing decades ago. We run a Manual J heat-loss calc on every replacement quote, then size to actual load — see [furnace installation](/furnace-installation-calgary/) for how the sizing, venting and commissioning side of the job actually runs. Right-sized furnaces are quieter, cheaper to run, and last longer.",
       "We install and service every common Calgary brand. AirEase 12-year parts + labor warranty on qualifying models when registered + maintained (we're authorized AirEase Pro Team dealers). Trane XV / XR series, Carrier Infinity, Lennox EL / SL, Goodman, Heil, Bryant — we have honest conversations about which brand makes sense for your specific install + budget. See [high-efficiency furnaces Calgary](/high-efficiency-furnaces-calgary/) for the broader 96%+ AFUE install scope and [heat pumps Calgary](/heat-pumps-calgary/) for the hybrid dual-fuel comparison.",
-      "Free in-home assessment + written quote with the full math. Permits, venting, condensate drain, and gas scope all clearly itemized. Typical install timeline 1-2 days. [Monthly financing](/financing/) via Financeit + Greener Homes Loan eligibility walkthrough. Call 587-834-3668.",
+      "Free in-home assessment + written quote with the full math. Permits, venting, condensate drain, and gas scope all clearly itemized — the [install process](/furnace-installation-calgary/) page sets out what each of those involves. Typical install timeline 1-2 days. [Monthly financing](/financing/) via Financeit + Greener Homes Loan eligibility walkthrough. Call 587-834-3668.",
     ],
     heroSubhead: "Replacement Decision + Install + Honest Math",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
@@ -5098,7 +5290,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "6. Honest replace-vs-repair quote on bigger failures",
-              body: "If your system is 18+ years old with a major failure (heat exchanger crack, blown ECM motor on a tired furnace, failing boiler section), we'll quote both the repair AND a full replacement so you can do the math. Free written quote on the replacement option. Both [furnace install](/furnaces/) and [boiler install](/boiler-installation-calgary/) covered in-house.",
+              body: "If your system is 18+ years old with a major failure (heat exchanger crack, blown ECM motor on a tired furnace, failing boiler section), we'll quote both the repair AND a full replacement so you can do the math. Free written quote on the replacement option. Both [furnace install](/furnace-installation-calgary/) and [boiler install](/boiler-installation-calgary/) covered in-house.",
             },
           ],
         },

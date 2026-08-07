@@ -186,6 +186,12 @@ const menu: NavItem[] = [
               desc: "Install, repair, and maintenance for every major brand.",
             },
             {
+              label: "Furnace Installation",
+              href: "/furnace-installation-calgary/",
+              icon: "local_fire_department",
+              desc: "Sized, vented and commissioned properly.",
+            },
+            {
               label: "High-Efficiency Furnaces",
               href: "/high-efficiency-furnaces-calgary/",
               icon: "local_fire_department",
