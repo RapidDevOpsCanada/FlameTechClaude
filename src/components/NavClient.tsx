@@ -45,9 +45,22 @@ type Promo = {
   href: string;
 };
 
+/** Hairline divider between items in the teal trust rail. */
+function RailSep() {
+  return (
+    <span
+      aria-hidden="true"
+      className="inline-block w-px h-4 bg-[#06231d]/25 align-middle"
+    />
+  );
+}
+
 type NavItem = {
   label: string;
   href: string;
+  /** Small descriptor under the label on desktop. Hidden below 1180px
+   *  and when the header condenses on scroll. */
+  sub?: string;
   mega?: {
     groups: MegaGroup[];
     promo?: Promo;
@@ -58,6 +71,7 @@ const menu: NavItem[] = [
   {
     label: "Plumbing",
     href: "/#services",
+    sub: "Leaks, drains, fixtures",
     mega: {
       groups: [
         {
@@ -143,6 +157,7 @@ const menu: NavItem[] = [
   {
     label: "Heating",
     href: "/#services",
+    sub: "Furnaces & boilers",
     mega: {
       groups: [
         {
@@ -230,6 +245,7 @@ const menu: NavItem[] = [
   {
     label: "Air",
     href: "/#services",
+    sub: "AC & heat pumps",
     mega: {
       groups: [
         {
@@ -282,6 +298,7 @@ const menu: NavItem[] = [
   {
     label: "Water",
     href: "/#services",
+    sub: "Heaters & softeners",
     mega: {
       groups: [
         {
@@ -365,8 +382,16 @@ export default function NavClient({
   // reads as "above content" instead of floating ambiguously over it.
   // Threshold is 8px so it triggers on the first scroll wheel tick.
   const [scrolled, setScrolled] = useState(false);
+  // Separate, later threshold for the size change. `scrolled` (8px) adds
+  // the shadow on the first wheel tick; `condensed` (80px) shrinks the
+  // bar and drops the nav sub-labels, so the header doesn't visibly
+  // resize on a tiny scroll nudge.
+  const [condensed, setCondensed] = useState(false);
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 8);
+    const onScroll = () => {
+      setScrolled(window.scrollY > 8);
+      setCondensed(window.scrollY > 80);
+    };
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
@@ -396,28 +421,38 @@ export default function NavClient({
           No phone here — already in the main nav row below, would be
           redundant. Slightly darker bg than the main nav so the layered
           structure reads. */}
-      <div className="hidden sm:block bg-ink-800 border-b border-line-dark/60">
-        <div className="max-w-7xl mx-auto px-4 md:px-10 h-8 flex items-center justify-between text-[12px] text-cream-50/85">
-          <span className="inline-flex items-center gap-2 font-semibold">
-            <span
-              aria-hidden="true"
-              className="text-emergency tracking-tight text-[13px]"
-            >
+      <div className="hidden sm:block bg-emergency text-[#06231d]">
+        <div className="max-w-7xl mx-auto px-4 md:px-10 min-h-[38px] py-1.5 flex items-center flex-wrap gap-x-4 gap-y-1 text-[13px] font-semibold">
+          <span className="inline-flex items-center gap-2">
+            <span aria-hidden="true" className="tracking-[1px]">
               ★★★★★
             </span>
-            <span className="font-bold">{reviewsSummary.average.toFixed(1)}</span>
-            <span className="text-cream-50/60">·</span>
-            <span>{reviewsSummary.totalLabel} Google reviews</span>
+            <span className="font-extrabold">
+              {reviewsSummary.average.toFixed(1)}
+            </span>
+            <span>from {reviewsSummary.totalLabel} Calgary neighbours</span>
           </span>
-          <div className="hidden lg:flex items-center gap-3 text-cream-50/70">
+          <RailSep />
+          <span>Red Seal journeymen</span>
+          <RailSep />
+          <span className="hidden md:inline">Licensed · Insured · Bonded</span>
+          <span className="hidden md:inline">
+            <RailSep />
+          </span>
+          <span className="hidden md:inline">BBB Accredited</span>
+          <span className="ml-auto hidden lg:flex items-center gap-4">
             <span>Mon–Sat 8–6</span>
-            <span className="text-cream-50/30">·</span>
-            <span>Calgary &amp; surrounding</span>
-          </div>
+            <RailSep />
+            <span>Calgary, Airdrie &amp; surrounding</span>
+          </span>
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 md:px-10 flex items-center justify-between gap-3 md:gap-6 h-[72px] md:h-[88px]">
+      <div
+        className={`max-w-7xl mx-auto px-4 md:px-10 flex items-center justify-between gap-3 lg:gap-8 transition-[height] duration-200 h-[72px] md:h-[88px] ${
+          condensed ? "lg:h-[88px]" : "lg:h-[112px]"
+        }`}
+      >
         {/* Logo — prominent but slightly tighter than before so nav items
             get more breathing room (was h-48/64/72; now 44/56/60). */}
         <Link
@@ -431,7 +466,9 @@ export default function NavClient({
             width={300}
             height={183}
             priority
-            className="h-[44px] md:h-[56px] lg:h-[60px] w-auto object-contain"
+            className={`w-auto object-contain transition-[height] duration-200 h-[44px] md:h-[56px] ${
+              condensed ? "lg:h-[58px]" : "lg:h-[76px]"
+            }`}
           />
         </Link>
 
@@ -460,28 +497,45 @@ export default function NavClient({
             to a pill background (bg-ink-800 + border) for more presence.
             The active item now reads as visibly elevated from its
             neighbours, not just colored. */}
-        <ul className="hidden lg:flex items-center gap-0.5 h-full py-3">
+        {/* Nav pill group — the items sit inside one rounded, faintly
+            lit container rather than floating on the bar. Each carries a
+            sub-label that hides below 1180px and when the header
+            condenses, which is what keeps the row from overflowing on
+            laptop widths. */}
+        <ul className="hidden lg:flex items-stretch gap-[3px] p-1.5 rounded-[22px] bg-cream-50/[0.04] border border-cream-50/[0.09] h-full my-auto max-h-[68px]">
           {menu.map((item) => {
             const isActive = item.label === activeCategory;
             return (
-              <li
-                key={item.label}
-                className="relative group h-full flex items-stretch"
-              >
+              <li key={item.label} className="relative group flex items-stretch">
                 <Link
                   href={item.href}
                   aria-current={isActive ? "page" : undefined}
-                  className={`flex items-center gap-1.5 px-4 rounded-full text-[17px] font-extrabold tracking-tight uppercase transition-colors relative ${
+                  className={`flex items-center gap-2.5 px-4 xl:px-[18px] rounded-[15px] transition-colors ${
                     isActive
-                      ? "text-emergency bg-ink-800 border border-line-dark"
-                      : "text-cream-50 group-hover:text-emergency group-hover:bg-ink-800/60"
+                      ? "bg-cream-50/[0.09]"
+                      : "hover:bg-cream-50/[0.13] focus-visible:bg-cream-50/[0.13]"
                   }`}
                 >
-                  {item.label}
+                  <span className="flex flex-col items-start gap-px">
+                    <span
+                      className={`text-[16.5px] font-semibold leading-[1.2] tracking-tight transition-colors ${
+                        isActive
+                          ? "text-emergency"
+                          : "text-cream-50 group-hover:text-emergency"
+                      }`}
+                    >
+                      {item.label}
+                    </span>
+                    {item.sub && !condensed && (
+                      <span className="hidden xl:block text-[12px] leading-[1.2] text-muted">
+                        {item.sub}
+                      </span>
+                    )}
+                  </span>
                   {item.mega && (
                     <Icon
                       name="expand_more"
-                      className="text-lg transition-transform group-hover:rotate-180"
+                      className="text-base text-muted transition-transform group-hover:rotate-180"
                     />
                   )}
                 </Link>
@@ -500,20 +554,33 @@ export default function NavClient({
         {/* Right side — phone visibility bumped from xl-only to lg+
             (was hiding from most laptop viewports). Phone is conversion
             #1 for plumbers; should always be visible on desktop. */}
-        <div className="hidden md:flex items-center gap-4 shrink-0">
+        <div className="hidden md:flex items-center gap-3 lg:gap-4 shrink-0">
           <SiteSearch searchIndex={searchIndex} variant="compact" />
+
+          {/* Phone — a bordered block with a label above the number
+              rather than a bare link. Phone is conversion #1, so it gets
+              the visual weight of a control, not a text link. */}
           <a
             href="tel:+15878343668"
-            className="hidden lg:flex items-center gap-2 text-[17px] font-extrabold text-cream-50 hover:text-emergency transition-colors"
+            className="hidden lg:flex items-center gap-3 h-[56px] px-5 xl:px-6 rounded-full border border-cream-50/[0.16] hover:border-emergency/65 hover:bg-emergency/[0.06] transition-colors"
           >
-            <Icon name="call" className="text-xl text-emergency" />
-            587-834-3668
+            <Icon name="call" className="text-xl text-emergency shrink-0" />
+            <span className="flex flex-col gap-px">
+              <span className="hidden xl:block text-[10.5px] uppercase tracking-[0.12em] text-muted leading-none">
+                Talk to our team
+              </span>
+              <span className="text-[20px] xl:text-[21px] font-bold text-cream-50 tracking-[0.02em] leading-[1.15]">
+                587 834 3668
+              </span>
+            </span>
           </a>
+
           <Link
             href="/contact/"
-            className="cta-animated-border inline-flex items-center rounded-full bg-emergency text-cream-50 font-extrabold uppercase tracking-tight px-6 py-3 text-[15px] hover:bg-emergency-deep transition-colors shadow-md shadow-emergency/20"
+            className="cta-animated-border inline-flex items-center gap-2 h-[52px] lg:h-[56px] rounded-full bg-primary text-[#1b0d02] font-bold tracking-tight px-6 lg:px-7 text-[16px] lg:text-[17px] hover:bg-primary-soft transition-colors shadow-[0_10px_28px_rgba(251,146,60,0.2)]"
           >
             Free Quote
+            <span aria-hidden="true">→</span>
           </Link>
         </div>
 
