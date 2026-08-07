@@ -53,6 +53,7 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
   "no-hot-water-calgary": "Water",
   "leaking-water-heater-calgary": "Water",
   "water-softener": "Water",
+  "water-softener-repair-calgary": "Water",
   "reverse-osmosis-calgary": "Water",
   "airdrie-plumbers": "Plumbing",
   "furnace-installation-airdrie": "Heating",

@@ -8615,7 +8615,7 @@ export const services: ServicePage[] = [
           items: [
             { heading: "Salt refills (homeowner)", body: "Add salt when the brine tank drops below 1/4 full. Most Calgary households use 1-2 bags per month. Use solar salt or pellets — avoid rock salt (more impurities) unless specifically recommended for your unit." },
             { heading: "Annual visual check (homeowner)", body: "Once a year, look for salt bridging (a crust that holds salt above the water in the brine tank) and break it up with a broom handle. Look for resin beads in your softened water — they shouldn't appear; if they do, the distribution basket has failed." },
-            { heading: "Professional service (every 2-3 years)", body: "We sanitise the resin bed, check the brine valve and float, inspect the bypass, replace any worn O-rings, and run a full regen test. Catches small problems before they become resin-replacement-sized problems." },
+            { heading: "Professional service (every 2-3 years)", body: "Covered in full on our [water softener repair](/water-softener-repair-calgary/) page. We sanitise the resin bed, check the brine valve and float, inspect the bypass, replace any worn O-rings, and run a full regen test. Catches small problems before they become resin-replacement-sized problems." },
             { heading: "Resin replacement (10-15 years)", body: "Resin lasts 10-15 years in Calgary water. When you start noticing hardness creep — spots returning on glasses, soap performance dropping — the resin is at end of life. Resin swap is straightforward and far cheaper than full system replacement." },
           ],
         },
@@ -8648,6 +8648,195 @@ export const services: ServicePage[] = [
         { label: "No Hot Water", href: "/no-hot-water-calgary/", summary: "Hard-water scaling is a hidden cause of poor tank + tankless performance.", icon: "shower", highlight: true, badge: "Same-day dispatch" },
         { label: "Leaking Water Heater", href: "/leaking-water-heater-calgary/", summary: "Hard water accelerates corrosion — softener extends future tank life.", icon: "water_damage", highlight: true, badge: "Same-day dispatch" },
       ],
+    },
+  },
+  {
+    slug: "water-softener-repair-calgary",
+    category: "Water",
+    icon: "softener_tank",
+    title: "Water Softener Repair Calgary — Diagnosis, Service & Honest Advice",
+    lead:
+      "A fair share of the water softener calls we take turn out to be an empty salt tank or a salt bridge — a five-minute fix we'll show you how to handle yourself. The rest are genuine faults, and almost all of them are repairable. FlameTech diagnoses what's actually wrong before anyone starts talking about a new unit.",
+    heroBody: [
+      "Softeners fail in a small number of predictable ways: the control valve stops initiating a regeneration, the injector that draws brine clogs, the resin bed wears out or gets fouled, or seals in the valve give up and it runs continuously. Each has a distinct symptom, and each has a different answer.",
+      "What matters in Calgary is that a softener here works harder than in most of the country, and how much harder depends on where you live. City data puts hardness in the north around 126–198 mg/L and in the south and southeast around 181–262 mg/L. A softener in [SE Calgary](/calgary-plumbers-se/) regenerates more often than the identical unit in the [northwest](/calgary-plumbers-nw/) — more cycles, more wear on the moving parts, and a resin bed that ages faster.",
+      "We service Fleck, Autotrol, Clack and the other common valve platforms regardless of who installed the unit. If a repair is the right answer, that's what we'll quote. If it isn't, we'll say so plainly — see [water softener installation](/water-softener/). Call 587-834-3668.",
+    ],
+    heroSubhead: "Calgary Water Softener Service + Repair",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/2026/03/water-softener-installation.webp", alt: "Water softener and brine tank serviced by FlameTech in a Calgary home", fit: "cover" },
+    intro:
+      "Water softener repair in Calgary — control valve faults, injector clogs, salt bridges, resin replacement and honest repair-or-replace advice. Any brand.",
+    features: [
+      "Hard water returning — full diagnosis",
+      "Control valve + injector service",
+      "Salt bridge and mushing clearance",
+      "Brine tank clean + sanitise",
+      "Resin bed replacement",
+      "Settings checked against real hardness",
+    ],
+    bullets: [
+      {
+        t: "We'll tell you if it's just salt",
+        d: "An empty tank, a salt bridge crusted across the brine tank, or a bypass valve left open after other work accounts for a good share of no-soft-water calls. If that's what we find, we'll clear it, show you how to spot it next time, and not pretend it was something bigger.",
+      },
+      {
+        t: "Most softeners are worth repairing",
+        d: "Control valve pistons and seals, injectors, brine valves, floats and timers are all serviceable parts. On a unit under about eight years old, a repair is almost always the sensible call rather than replacing a tank and resin bed that have years left.",
+      },
+      {
+        t: "Calgary water wears them faster",
+        d: "Hardness runs roughly 126–198 mg/L in the north and 181–262 mg/L in the south, so units here regenerate more often than the manual assumes — and every cycle is movement in the control valve. Chlorine in the municipal supply also degrades resin over time, which is why beds here rarely reach the top of their theoretical lifespan.",
+      },
+      {
+        t: "We check the settings, not just the hardware",
+        d: "A surprising number of softeners were never programmed to the actual hardness or household size — they were left on a factory default. That wastes salt, wastes water, and leaves you with hard water at the end of a cycle. Testing and reprogramming often fixes what looked like a fault.",
+      },
+    ],
+    seoTitle: "Water Softener Repair Calgary | Any Brand | FlameTech",
+    seoDescription:
+      "Water softener repair and service in Calgary — control valve faults, injector clogs, salt bridges, resin replacement. Any brand. Call 587-834-3668.",
+    seoKeywords: [
+      "water softener repair Calgary",
+      "water softener service Calgary",
+      "water softener maintenance Calgary",
+      "water softener not working Calgary",
+      "water softener technician Calgary",
+      "Fleck valve repair Calgary",
+      "FlameTech Plumbing",
+    ],
+    quoteFormLabel: "water softener repair",
+    quoteFormPlaceholder:
+      "e.g. water has gone hard again, brine tank is full of water, softener runs constantly, salty taste at the taps…",
+    sidebar: {
+      title: "Calgary Softener Repair",
+      subtitle:
+        "Diagnosis first, on any brand. Repair when it makes sense, replacement only when it genuinely does.",
+      bullets: [
+        "Fleck · Autotrol · Clack and others",
+        "Free hardness test with any service call",
+        "Honest repair-or-replace advice",
+        "Real person on the phone",
+      ],
+    },
+    stats: [
+      { number: "126-262", label: "mg/L Calgary hardness", icon: "science" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "Any", label: "Brand serviced", icon: "check_circle" },
+      { number: "Real", label: "Person on the phone", icon: "call" },
+    ],
+    financing: {
+      detail:
+        "Spread the cost of a replacement softener into flexible monthly payments via our Financeit partner.",
+    },
+    callout:
+      "Water gone hard again, or the brine tank full of water? Call 587-834-3668 — we'll diagnose it properly before quoting anything.",
+    richContent: {
+      sections: [
+        {
+          heading: "Work out the symptom first",
+          intro:
+            "Softeners fail in a handful of predictable ways, and the symptom narrows it quickly. Here's what each one usually means.",
+          items: [
+            {
+              heading: "The water has gone hard again",
+              body: "Start with the simple things, because they're the most common. Is there salt in the tank? Is there a salt bridge — a hard crust spanning the tank so salt looks full but isn't reaching the water beneath it? Is the bypass valve open after some other plumbing work? Beyond that, it's a control valve that isn't initiating regeneration, an injector too clogged to draw brine, or a resin bed at the end of its life.",
+            },
+            {
+              heading: "The brine tank is full of water",
+              body: "Usually a clogged injector or venturi — the part that draws brine out of the tank during regeneration. It can also be a restricted drain line, a stuck safety float, or a failed brine valve. It's one of the most common calls we get, and it's almost always repairable. We've written it up in detail: [why your water softener has water in it](/blog/why-does-my-water-softener-have-water-in-it/).",
+            },
+            {
+              heading: "It regenerates constantly, or won't stop running",
+              body: "Water running to drain continuously points at the control valve — worn piston seals or spacers letting water bypass internally, or a timer or board stuck mid-cycle. Left alone this runs your water bill up quietly, so it's worth dealing with rather than living with.",
+            },
+            {
+              heading: "The water tastes salty",
+              body: "Too much brine is reaching the house, which typically means a restricted drain line preventing a proper rinse, a brine valve not sealing, or settings drawing far more brine than the unit needs. Not dangerous, but it means the system isn't rinsing properly and salt is going somewhere it shouldn't.",
+            },
+            {
+              heading: "Water pressure has dropped through the house",
+              body: "A fouled resin bed restricts flow. So does a bed that has started to break down. Check the aerators on your taps — if you find tiny amber or brown beads, resin is escaping into your plumbing, which means a cracked distributor tube or a failed screen inside the tank.",
+            },
+            {
+              heading: "It's leaking",
+              body: "Usually bypass valve o-rings or control valve seals, both routine parts. A leak from the tank body itself is a different conversation, because a cracked tank isn't repairable and that's one of the few cases where replacement is the only answer.",
+            },
+          ],
+        },
+        {
+          heading: "What we do on a service call",
+          intro:
+            "Diagnosis before parts. We'd rather spend twenty minutes establishing what's actually wrong than replace something that wasn't the problem.",
+          items: [
+            { body: "Test the water at the tap — hard or soft — to confirm whether the unit is actually failing or something else is going on." },
+            { body: "Check the salt level, break up any bridge, and look for mushing at the bottom of the brine tank." },
+            { body: "Confirm the bypass valve is in service position and not left open from previous work." },
+            { body: "Run a manual regeneration and watch each stage, which is the fastest way to find where the cycle is failing." },
+            { body: "Clean or replace the injector and venturi screen — the most common single repair on any softener." },
+            { body: "Inspect control valve seals, spacers and the piston for wear, and check the drain line for restriction." },
+            { body: "Verify the programming against your actual water hardness and household size, rather than whatever default it shipped with." },
+            { body: "Clean and sanitise the brine tank where it needs it, and check the safety float operates freely." },
+          ],
+        },
+        {
+          heading: "Repair or replace — how we decide",
+          intro:
+            "Most softeners are worth fixing. A few genuinely aren't, and we'll tell you which one you have rather than defaulting to the bigger sale.",
+          items: [
+            {
+              heading: "Under about 8 years — repair it",
+              body: "Control valve internals, injectors, brine valves, floats and timers are all serviceable. The tank and resin have plenty of life left, and replacing the whole system to fix a worn seal is throwing away a working unit.",
+            },
+            {
+              heading: "8 to 12 years — it depends what failed",
+              body: "A cheap part on an otherwise healthy softener is worth doing. A failed control valve on a unit this age is where the arithmetic shifts, because the resin bed is heading toward the end of its life at the same time. We'll price both and let you decide with real numbers.",
+            },
+            {
+              heading: "Resin bed exhausted or fouled",
+              body: "Resin can be replaced on its own, and on a newer unit with a sound valve that's often the right call. On an older softener, the cost of new resin plus the labour to swap it starts to look like a meaningful fraction of a new system with a warranty.",
+            },
+            {
+              heading: "A cracked tank",
+              body: "Not repairable. This is the one case where replacement isn't a judgement call.",
+            },
+            {
+              heading: "Chlorine damage is the Calgary factor",
+              body: "Chlorine in the municipal supply gradually breaks down softener resin, which is why beds here often don't reach the fifteen years the spec sheet implies. If yours has aged out early, a carbon pre-filter on the new bed protects it and is worth discussing at the same time.",
+            },
+            {
+              heading: "Undersized from the start",
+              body: "Occasionally the unit isn't faulty at all — it was sized for a smaller household or softer water than it actually has, so it runs out before the next regeneration. No repair fixes that. See [water softener installation](/water-softener/) for how we size them.",
+            },
+          ],
+        },
+        {
+          heading: "Why a working softener matters here",
+          intro:
+            "It isn't just about scale on the taps. In Calgary the softener is protecting several expensive things downstream of it.",
+          items: [
+            { body: "Water heaters scale on the tank bottom and at the element, which costs efficiency and shortens life. See [hot water tanks](/hot-water-tanks/)." },
+            { body: "Tankless units are especially sensitive — narrow heat exchanger passages scale quickly and need descaling far more often on hard water. See [tankless water heaters](/tankless-water-heaters/)." },
+            { body: "Boiler heat exchangers scale the same way, which is the single biggest reason boilers here fail earlier than the manufacturer's figure suggests. See [boiler replacement](/boiler-replacement-calgary/)." },
+            { body: "Combi boilers take it worst, because the domestic hot water exchanger has the narrowest passages of anything in the house." },
+            { body: "Fixture cartridges, dishwasher and washing machine valves all wear faster in hard water." },
+            { body: "So a softener that has quietly stopped working isn't a cosmetic problem — everything downstream starts accumulating scale from the day it failed, usually without anyone noticing for months." },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Calgary Water Softener Repair FAQs",
+        items: [
+          { q: "My water has gone hard again. Is the softener broken?", a: "Often not, and it's worth checking the simple things before booking anything.\n\nIs there actually salt in the brine tank? Is there a salt bridge — a hard crust spanning the tank so the salt looks full but isn't dissolving into the water underneath? Push a broom handle down through it and see whether it gives way. And has anyone done plumbing work recently that might have left the bypass valve open?\n\nIf all three check out, then you're looking at a real fault: a control valve not initiating regeneration, a clogged injector, or a resin bed at the end of its life. We'll test the water, run a manual regeneration, and find out which." },
+          { q: "Why is my brine tank full of water?", a: "Most commonly a clogged injector — the venturi that draws brine out of the tank during regeneration. If it can't pull, the water that went in doesn't come back out.\n\nOther causes: a restricted or kinked drain line, a safety float stuck in the up position, or a brine valve that has failed to seal.\n\nAll of those are repairable, and none of them mean you need a new softener. It's one of the most frequent calls we take. There's more detail in our guide on [why your water softener has water in it](/blog/why-does-my-water-softener-have-water-in-it/)." },
+          { q: "Is it worth repairing a water softener or should I replace it?", a: "Under about eight years, repair it. Control valve internals, injectors, brine valves and timers are all serviceable parts, and the tank and resin have years left.\n\nBetween eight and twelve, it depends what failed. A minor part is worth fixing. A failed control valve on a unit that age is where it gets closer, because the resin is heading toward the end of its life anyway.\n\nA cracked tank is the one clear replace — that isn't repairable at any age.\n\nWe'll price both options where there's a genuine choice and let you decide. We're not going to push a new system to avoid a repair." },
+          { q: "How long does softener resin last in Calgary?", a: "Less than the spec sheet suggests, and chlorine is why.\n\nResin is often quoted at ten to fifteen years. Chlorine in the municipal supply gradually breaks the beads down, so in practice Calgary beds frequently age out toward the lower end of that range or below it.\n\nThe symptoms are gradual rather than sudden — softness fades, regenerations stop keeping up, and you may see tiny amber beads in your tap aerators as the bed breaks apart. If you're replacing resin, a carbon pre-filter ahead of it protects the new bed and is worth doing at the same time." },
+          { q: "There are little brown beads in my tap aerators. What are they?", a: "That's resin escaping from the softener into your plumbing, and it means something inside the tank has failed — usually a cracked distributor tube or a broken screen at its base.\n\nIt needs dealing with rather than ignoring. Loose resin travels through the house and clogs aerators, fills fixture cartridges, and can find its way into appliance valves.\n\nThe repair is opening the tank, replacing the failed component, and flushing the beads out of the affected fixtures. On an older unit we'd weigh that against replacement and give you both numbers." },
+          { q: "Do you service softeners you didn't install?", a: "Yes, and most of the ones we service we didn't install.\n\nWe work on Fleck, Autotrol, Clack and the other common control valve platforms. Those valves are used across a wide range of brands, so the badge on the front matters much less than what's inside it.\n\nIf we can't get parts for something unusual, we'll tell you that upfront rather than after the visit." },
+          { q: "How often should a water softener be serviced?", a: "For most Calgary households, a professional service every two to three years is sensible, with a few things you can do yourself in between.\n\nYours: check the salt monthly and break up any bridge, keep an eye out for mushy sludge at the bottom of the brine tank, and note if softness starts fading.\n\nOurs: injector and screen cleaning, control valve inspection, brine tank clean and sanitise, drain line check, and confirming the programming still matches your hardness and household. Our water is hard enough that units here run more cycles than the manual assumes, so intervals should be shorter here than the generic advice suggests." },
+          { q: "My softener uses a lot of salt. Is something wrong?", a: "Possibly, and it's worth looking at rather than just buying more salt.\n\nThe usual causes are settings that were never matched to your actual hardness and household size, a unit regenerating far more often than it needs to, or a control valve fault causing extra or incomplete cycles. A leaking brine valve will also quietly consume salt.\n\nWe test your water, check what the unit is programmed for, and reset it to reality. Reprogramming alone often cuts salt and water use noticeably, and it's the cheapest thing we do." },
+        ],
+      },
     },
   },
   {

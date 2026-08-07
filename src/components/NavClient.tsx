@@ -306,6 +306,12 @@ const menu: NavItem[] = [
           heading: "Water Treatment",
           items: [
             {
+              label: "Softener Repair",
+              href: "/water-softener-repair-calgary/",
+              icon: "softener_tank",
+              desc: "Hard water back? Any brand serviced.",
+            },
+            {
               label: "Water Softeners",
               href: "/water-softener/",
               icon: "softener_tank",
