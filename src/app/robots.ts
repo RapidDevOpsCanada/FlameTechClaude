@@ -4,7 +4,7 @@ const SITE_URL = "https://flametechplumbing.ca";
 
 export default function robots(): MetadataRoute.Robots {
   return {
-    rules: { userAgent: "*", allow: "/" },
+    rules: { userAgent: "*", allow: "/", disallow: ["/grizzly", "/grizzly/"] },
     // The legacy /sitemap_index.xml URL is preserved by a rewrite in
     // next.config.mjs (serves the same XML), which is what handles GSC
     // continuity from the WP/Yoast install. The robots.txt Sitemap

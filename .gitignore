@@ -24,3 +24,4 @@ Flame Tech Reviews*.docx
 # extracted into content/reviews.yaml; the docx itself shouldn't ship.
 *.docx
 ~$*.docx
+src/lib/generated/

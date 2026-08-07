@@ -13,6 +13,12 @@ export function proxy(req: NextRequest) {
   if (host.endsWith(".vercel.app")) {
     res.headers.set("X-Robots-Tag", "noindex, nofollow");
   }
+  // The /grizzly admin panel must never be indexed on any host, including
+  // production. Belt and braces alongside the robots.txt disallow and the
+  // route-level metadata.
+  if (req.nextUrl.pathname.startsWith("/grizzly")) {
+    res.headers.set("X-Robots-Tag", "noindex, nofollow, noarchive");
+  }
   return res;
 }
 
