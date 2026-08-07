@@ -72,6 +72,21 @@ export type ServicePage = {
   callout?: string;
   heroImage?: RichImage;
   richContent?: RichContent;
+  /**
+   * Body-layout variant for everything under the hero.
+   *
+   * Default (undefined) = the original layout: every rich-content item
+   * with a heading renders as a full-width white card, stacked. On a
+   * page like /hot-water-tanks/ that is 27 identical boxes in a row —
+   * no hierarchy, nothing to scan, and a very long page.
+   *
+   * "v2" = numbered section eyebrows, a lead card that carries the
+   * section, and the remaining items in a two-column grid with index
+   * chips. Roughly halves page length and gives the eye somewhere to
+   * land. Set per-page while we trial it; if it wins, flip the default
+   * in page.tsx rather than tagging 116 pages.
+   */
+  layout?: "v2";
   /** SEO */
   seoTitle?: string;
   seoDescription?: string;
@@ -6805,6 +6820,8 @@ export const services: ServicePage[] = [
   // WATER
   {
     slug: "hot-water-tanks",
+    // Trialling the v2 body layout here before deciding on a sitewide roll-out.
+    layout: "v2",
     category: "Water",
     icon: "propane_tank",
     title: "Hot Water Tanks Calgary — Bradford White + John Wood Install, Sized Right",

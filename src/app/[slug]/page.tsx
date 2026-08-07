@@ -176,6 +176,9 @@ export default async function ServicePage({
 
   const related = getRelatedServices(slug);
   const hasRich = !!service.richContent;
+  // Body-layout trial. See ServicePage.layout in src/lib/services.ts —
+  // set per-page for now; flip this to a default if it rolls out.
+  const isV2 = service.layout === "v2";
   const stats = service.stats ?? DEFAULT_STATS;
   const allReviews = await getReviews().catch(() => [] as Review[]);
   const reviewsSummary = getReviewsSummary();
@@ -504,7 +507,7 @@ export default async function ServicePage({
               )}
 
               {/* RICH CONTENT — sections */}
-              {service.richContent?.sections?.map((section) => {
+              {service.richContent?.sections?.map((section, sectionIndex) => {
                 const sectionImage = service.sectionImages?.[section.heading];
                 const showInlineReview =
                   inlineReview && section.heading === firstSectionHeading;
@@ -523,12 +526,26 @@ export default async function ServicePage({
                     ? "checklist"
                     : "prose";
 
+                // v2: headed items with no imagery are the monotonous case —
+                // a stack of identical full-width cards. Promote the first to
+                // a lead and grid the rest two-up.
+                const v2Grid =
+                  isV2 && mode === "cards" && !hasImages && items.length >= 3;
+
                 return (
                   <div key={section.heading}>
                     {showInlineReview && (
                       <InlineReviewBlock review={inlineReview} />
                     )}
-                    <div className="mb-14">
+                    <div className={isV2 ? "mb-16 scroll-mt-28" : "mb-14"}>
+                      {isV2 && (
+                        <div className="flex items-center gap-3 mb-3">
+                          <span className="font-display font-extrabold text-sm text-primary tabular-nums">
+                            {String(sectionIndex + 1).padStart(2, "0")}
+                          </span>
+                          <span className="h-px flex-1 bg-line-light" />
+                        </div>
+                      )}
                       <h2 className="font-display text-3xl md:text-4xl font-extrabold tracking-[-0.015em] mb-4 leading-[1.08]">
                         {section.heading}
                       </h2>
@@ -578,7 +595,45 @@ export default async function ServicePage({
                         </div>
                       )}
 
-                      {hasItems && mode === "cards" && (
+                      {hasItems && v2Grid && (
+                        <>
+                          {/* Lead item — carries the section, full width */}
+                          <div className="rounded-2xl bg-white border-l-4 border-l-primary border-y border-r border-line-light p-7 md:p-8 mb-4">
+                            {items[0].heading && (
+                              <h3 className="font-display font-extrabold text-xl md:text-2xl tracking-tight mb-2.5 leading-tight">
+                                {items[0].heading}
+                              </h3>
+                            )}
+                            <p className="text-base md:text-[17px] text-ink-700 leading-relaxed max-w-3xl">
+                              <RichText>{items[0].body}</RichText>
+                            </p>
+                          </div>
+
+                          {/* Remainder — two-up, index-chipped, scannable */}
+                          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            {items.slice(1).map((item, i) => (
+                              <div
+                                key={`${section.heading}-v2-${i}`}
+                                className="rounded-xl bg-white border border-line-light p-6 hover:border-primary hover:shadow-[0_1px_16px_rgba(0,0,0,0.06)] transition-all"
+                              >
+                                <span className="inline-block font-display font-extrabold text-[11px] tracking-[0.14em] text-primary mb-2 tabular-nums">
+                                  {String(i + 2).padStart(2, "0")}
+                                </span>
+                                {item.heading && (
+                                  <h3 className="font-display font-bold text-[17px] md:text-lg tracking-tight mb-2 leading-snug">
+                                    {item.heading}
+                                  </h3>
+                                )}
+                                <p className="text-[15px] text-ink-600 leading-relaxed">
+                                  <RichText>{item.body}</RichText>
+                                </p>
+                              </div>
+                            ))}
+                          </div>
+                        </>
+                      )}
+
+                      {hasItems && mode === "cards" && !v2Grid && (
                         <div className="space-y-5">
                           {items.map((item, i) => {
                             const featured = i === 0 && !!item.image;
