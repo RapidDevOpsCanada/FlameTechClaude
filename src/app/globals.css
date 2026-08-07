@@ -212,43 +212,51 @@ body {
     .cta-animated-border::before { animation: none; }
   }
 
-  /* Infinite marquee on desktop, snap-scroll carousel on mobile.
-     Touch users can't hover to pause and struggle to tap a moving target,
-     so below md we drop the animation and let the section scroll
-     natively with snap points. */
-  .marquee {
-    display: flex;
-    gap: 1.25rem;
-    overflow-x: auto;
-    overscroll-behavior-x: contain;
-    scroll-snap-type: x mandatory;
-    scroll-padding-inline: 1.5rem;
-    padding-inline: 1.5rem;
-    padding-block: 0.25rem;
-    scrollbar-width: none;
+  /* Seamless looped carousel.
+     The track holds the tile set twice. To make set 2 land exactly where
+     set 1 started, the translate must be one set width PLUS one gap —
+     which is NOT -50%, because the track's total width includes 2N-1
+     gaps, not 2N. -50% lands half a gap short and the loop visibly jumps
+     every cycle. The correct distance is calc(-50% - var(--gap) / 2). */
+  .marquee-viewport {
+    overflow: hidden;
   }
-  .marquee::-webkit-scrollbar { display: none; }
-  .marquee > * { scroll-snap-align: start; }
+  .marquee {
+    --gap: 1.25rem;
+    display: flex;
+    gap: var(--gap);
+    width: max-content;
+    padding-block: 0.25rem;
+    animation: marquee-scroll 38s linear infinite;
+  }
+  .marquee:hover,
+  .marquee:focus-within {
+    animation-play-state: paused;
+  }
 
   @media (min-width: 768px) {
     .marquee {
-      gap: 3rem;
-      overflow: hidden;
-      padding-inline: 0;
-      padding-block: 0;
-      scroll-snap-type: none;
-      animation: marquee-scroll 30s linear infinite;
+      --gap: 3rem;
+      animation-duration: 46s;
     }
-    .marquee:hover { animation-play-state: paused; }
   }
 
   @media (prefers-reduced-motion: reduce) {
-    .marquee { animation: none; }
+    .marquee {
+      animation: none;
+      width: auto;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      padding-inline: 1.5rem;
+      scrollbar-width: none;
+    }
+    .marquee::-webkit-scrollbar { display: none; }
+    .marquee > * { scroll-snap-align: start; }
   }
 
   @keyframes marquee-scroll {
     from { transform: translateX(0); }
-    to { transform: translateX(-50%); }
+    to { transform: translateX(calc(-50% - var(--gap) / 2)); }
   }
 
 }

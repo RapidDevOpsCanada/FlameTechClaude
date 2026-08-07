@@ -449,28 +449,44 @@ export default async function Home() {
           <div className="relative">
             <div className="pointer-events-none absolute inset-y-0 left-0 w-24 bg-gradient-to-r from-cream-50 to-transparent z-10" />
             <div className="pointer-events-none absolute inset-y-0 right-0 w-24 bg-gradient-to-l from-cream-50 to-transparent z-10" />
-            <div className="marquee">
-              {[...brandTiles, ...brandTiles].map((item, i) => (
-                <Link
-                  href={item.href}
-                  key={`${item.label}-${i}`}
-                  className={`${i >= brandTiles.length ? "hidden md:flex" : "flex"} shrink-0 w-40 md:w-56 rounded-2xl bg-white border border-line-light p-4 md:p-6 flex-col items-center justify-between h-36 md:h-44 hover:border-emergency hover:-translate-y-1 transition-all group`}
-                >
-                  <div className="flex-1 w-full flex items-center justify-center">
-                    <Image
-                      src={item.src}
-                      alt={item.label}
-                      width={item.w}
-                      height={item.h}
-                      sizes="(min-width: 768px) 80px, 56px"
-                      className="max-h-14 md:max-h-20 max-w-full object-contain"
-                    />
-                  </div>
-                  <span className="text-[10px] md:text-xs font-bold uppercase tracking-[0.14em] text-ink-500 group-hover:text-emergency-deep mt-2 md:mt-3 text-center transition-colors">
-                    {item.label}
-                  </span>
-                </Link>
-              ))}
+            <div className="marquee-viewport">
+              <div className="marquee">
+                {[...brandTiles, ...brandTiles].map((item, i) => {
+                  // The second pass is the seamless-loop duplicate. It is
+                  // hidden from assistive tech and removed from the tab
+                  // order so the six links aren't announced twice.
+                  const isClone = i >= brandTiles.length;
+                  return (
+                    <Link
+                      href={item.href}
+                      key={`${item.label}-${i}`}
+                      aria-hidden={isClone || undefined}
+                      tabIndex={isClone ? -1 : undefined}
+                      className="flex shrink-0 w-40 md:w-56 rounded-2xl bg-white border border-line-light p-4 md:p-6 flex-col items-center justify-between h-36 md:h-44 hover:border-emergency hover:-translate-y-1 transition-all group"
+                    >
+                      <div className="flex-1 w-full flex items-center justify-center">
+                        <Image
+                          src={item.src}
+                          alt={isClone ? "" : item.label}
+                          width={item.w}
+                          height={item.h}
+                          sizes="(min-width: 768px) 80px, 56px"
+                          // Eager, not lazy. These sit outside the initial
+                          // viewport inside an animated, overflow-hidden
+                          // track, where the lazy-load intersection check
+                          // is unreliable — tiles were scrolling into view
+                          // still blank. Six small logos; the cost is nil.
+                          loading="eager"
+                          className="max-h-14 md:max-h-20 max-w-full object-contain"
+                        />
+                      </div>
+                      <span className="text-[10px] md:text-xs font-bold uppercase tracking-[0.14em] text-ink-500 group-hover:text-emergency-deep mt-2 md:mt-3 text-center transition-colors">
+                        {item.label}
+                      </span>
+                    </Link>
+                  );
+                })}
+              </div>
             </div>
           </div>
 
