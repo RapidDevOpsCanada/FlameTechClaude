@@ -312,6 +312,12 @@ const menu: NavItem[] = [
               desc: "Hard water back? Any brand serviced.",
             },
             {
+              label: "Well Water Treatment",
+              href: "/well-water-treatment-calgary/",
+              icon: "science",
+              desc: "Acreage iron, manganese + filtration.",
+            },
+            {
               label: "Water Softeners",
               href: "/water-softener/",
               icon: "softener_tank",

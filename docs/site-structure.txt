@@ -65,7 +65,7 @@ flametechplumbing.ca
 │   │       ├── /air-conditioning-repair-airdrie/
 │   │       └── /air-conditioning-airdrie/
 │   │
-│   └── WATER   11 Calgary · 4 Airdrie
+│   └── WATER   12 Calgary · 4 Airdrie
 │       ├── /hot-water-tanks/
 │       ├── /hot-water-tank-replacement-calgary/
 │       ├── /tankless-water-heaters/
@@ -75,6 +75,7 @@ flametechplumbing.ca
 │       ├── /leaking-water-heater-calgary/
 │       ├── /water-softener/
 │       ├── /water-softener-repair-calgary/
+│       ├── /well-water-treatment-calgary/
 │       ├── /reverse-osmosis-calgary/
 │       ├── /water-heater-installation-calgary/
 │       └── AIRDRIE
@@ -84,7 +85,7 @@ flametechplumbing.ca
 │           └── /water-softener-airdrie/
 │
 ├── LOCATION PAGES
-│   ├── /calgary-plumbers-nw/   NW quadrant hub — 10 linked
+│   ├── /calgary-plumbers-nw/   NW quadrant hub — 12 linked
 │   │   ├── /bowness-plumbers-calgary/
 │   │   ├── /montgomery-plumbers-calgary/
 │   │   ├── /edgemont-plumbers-calgary/
@@ -94,7 +95,9 @@ flametechplumbing.ca
 │   │   ├── /huntington-hills-plumbers-calgary/
 │   │   ├── /panorama-hills-plumbers-calgary/
 │   │   ├── /tuscany-plumbers-calgary/
-│   │   └── /varsity-plumbers-calgary/
+│   │   ├── /varsity-plumbers-calgary/
+│   │   ├── /brentwood-plumbers-calgary/
+│   │   └── /hillhurst-plumbers-calgary/
 │   │
 │   ├── /calgary-plumbers-ne/   NE quadrant hub — 6 linked
 │   │   ├── /bridgeland-plumbers-calgary/
@@ -104,7 +107,7 @@ flametechplumbing.ca
 │   │   ├── /taradale-plumbers-calgary/
 │   │   └── /huntington-hills-plumbers-calgary/
 │   │
-│   ├── /calgary-plumbers-se/   SE quadrant hub — 9 linked
+│   ├── /calgary-plumbers-se/   SE quadrant hub — 11 linked
 │   │   ├── /auburn-bay-plumber-calgary/
 │   │   ├── /chaparral-plumbers-calgary/
 │   │   ├── /copperfield-plumbers-calgary/
@@ -113,7 +116,9 @@ flametechplumbing.ca
 │   │   ├── /mahogany-plumbers-calgary/
 │   │   ├── /mckenzie-lake-plumbers-calgary/
 │   │   ├── /mckenzie-towne-plumbers-calgary/
-│   │   └── /new-brighton-plumbers-calgary/
+│   │   ├── /new-brighton-plumbers-calgary/
+│   │   ├── /inglewood-plumbers-calgary/
+│   │   └── /lake-bonavista-plumbers-calgary/
 │   │
 │   ├── /calgary-plumbers-sw/   SW quadrant hub — 13 linked
 │   │   ├── /altadore-plumbers-calgary/
@@ -143,11 +148,7 @@ flametechplumbing.ca
 │   │   ├── /okotoks-plumbers/
 │   │   └── /carstairs-plumbers/
 │   │
-│   └── NOT LINKED FROM ANY QUADRANT HUB   4
-│       ├── /brentwood-plumbers-calgary/
-│       ├── /hillhurst-plumbers-calgary/
-│       ├── /inglewood-plumbers-calgary/
-│       └── /lake-bonavista-plumbers-calgary/
+│   └── NOT LINKED FROM ANY QUADRANT HUB   0
 │
 └── BLOG
     ├── /blog/   index — 20 posts, newest first
@@ -204,10 +205,10 @@ flametechplumbing.ca
         └── /blog/tags/water-softeners/
 
 ────────────────────────────────────────────────────────────────
-  Service + location pages   115
+  Service + location pages   116
   Blog posts                  20
   Blog tag archives           23
   Core pages                   7
   Blog category archives       4
-  TOTAL                      169   (167 in sitemap.xml)
+  TOTAL                      170   (168 in sitemap.xml)
 ────────────────────────────────────────────────────────────────

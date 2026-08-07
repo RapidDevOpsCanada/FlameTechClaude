@@ -8840,6 +8840,215 @@ export const services: ServicePage[] = [
     },
   },
   {
+    slug: "well-water-treatment-calgary",
+    category: "Water",
+    icon: "science",
+    title: "Well Water Treatment Calgary — Iron, Manganese, Hardness & Filtration",
+    lead:
+      "Municipal water is a known quantity. Well water isn't — it's specific to your property, it changes with the seasons, and no two acreages west of Calgary have the same problem. Which is why we won't specify treatment without a real water test, and why anyone quoting you a system over the phone is guessing.",
+    heroBody: [
+      "The acreage belt around Calgary — Bearspaw, Springbank, the Cochrane and Bragg Creek areas, Rocky View and Foothills County — is well-and-septic country. Wells here commonly run hard, and iron and manganese loads can be significant. Those three are the usual suspects, and each needs different equipment.",
+      "The single most expensive mistake we see on acreage properties is a softener installed ahead of iron removal. Iron fouls softener resin, and once it has, the softener stops softening and no amount of salt fixes it. Treatment order matters more than brand, and it's the thing most often got wrong.",
+      "Our scope is everything from the wellhead inward — filtration, softening, pressure tanks, pressure switches, check valves and pump-side plumbing. We don't drill wells or pull down-hole submersible pumps; that's specialist work and we'll tell you who to call. Call 587-834-3668.",
+    ],
+    heroSubhead: "Acreage Water Treatment, Tested First",
+    heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
+    heroImage: { src: "/images/2026/03/water-softener-installation.webp", alt: "Water treatment equipment installed on an acreage property near Calgary", fit: "cover" },
+    intro:
+      "Well water treatment for acreages around Calgary — iron and manganese removal, softening, sediment and UV. Water tested first, system sized to the result.",
+    features: [
+      "Water testing before any recommendation",
+      "Iron + manganese removal",
+      "Hardness and softener sizing",
+      "Sediment pre-filtration",
+      "UV disinfection systems",
+      "Pressure tanks + pump-side plumbing",
+    ],
+    bullets: [
+      {
+        t: "Test first, always",
+        d: "We cannot size iron removal, a softener, or anything else without knowing what's actually in your water. A test costs very little against the price of installing the wrong equipment, and we'd rather delay a quote by a week than guess at it.",
+      },
+      {
+        t: "Order matters more than brand",
+        d: "Sediment, then iron and manganese, then softening, then carbon, then UV last of all. Get that sequence wrong — particularly a softener ahead of iron removal — and you'll foul the resin and shorten the life of equipment you just paid for.",
+      },
+      {
+        t: "Everything from the wellhead inward",
+        d: "Filtration, softening, pressure tanks, pressure switches, check valves, pump short-cycling diagnosis, and the plumbing through the house. We don't drill wells or pull down-hole pumps, and we'll say so rather than take on work that belongs to a well contractor.",
+      },
+      {
+        t: "Well water isn't static",
+        d: "What's in your water shifts with the season, with spring runoff, with the water table, and over the working life of the well. A system specified fifteen years ago may no longer match what's coming out of the ground now.",
+      },
+    ],
+    seoTitle: "Well Water Treatment Calgary | Iron, Manganese & Filtration",
+    seoDescription:
+      "Well water treatment for acreages around Calgary — iron and manganese removal, softening, sediment, UV. Tested first, sized properly. Call 587-834-3668.",
+    seoKeywords: [
+      "well water treatment Calgary",
+      "iron filter Calgary acreage",
+      "well water filtration Calgary",
+      "manganese removal well water",
+      "acreage water treatment Alberta",
+      "UV water disinfection Calgary",
+      "FlameTech Plumbing",
+    ],
+    quoteFormLabel: "well water treatment",
+    quoteFormPlaceholder:
+      "e.g. orange staining in the toilets, rotten egg smell, softener stopped working on well water, new acreage and no idea what's in the water…",
+    sidebar: {
+      title: "Acreage Well Water Treatment",
+      subtitle:
+        "Tested before it's specified. Iron, manganese, hardness, sediment and UV — sequenced correctly.",
+      bullets: [
+        "Water test with every quote",
+        "Iron + manganese before softening",
+        "Pressure tanks + pump-side plumbing",
+        "No drilling, no down-hole pump work",
+      ],
+    },
+    stats: [
+      { number: "Test", label: "Before we quote", icon: "science" },
+      { number: "5.0★", label: "Google rated", icon: "star" },
+      { number: "Acreage", label: "Rocky View + Foothills", icon: "location_on" },
+      { number: "Real", label: "Person on the phone", icon: "call" },
+    ],
+    financing: {
+      detail:
+        "Spread the cost of a full treatment train into flexible monthly payments via our Financeit partner.",
+    },
+    callout:
+      "Orange staining, a rotten-egg smell, or a softener that stopped working? Call 587-834-3668 — we'll test before we quote anything.",
+    richContent: {
+      sections: [
+        {
+          heading: "What the symptoms usually mean",
+          intro:
+            "Well water problems announce themselves fairly clearly once you know what you're looking at. This is where we start before the test comes back.",
+          items: [
+            {
+              heading: "Orange or red staining on fixtures and laundry",
+              body: "Iron, in one of two forms. If the water is clear from the tap and turns orange after standing, that's dissolved ferrous iron — it oxidises on contact with air. If it comes out already rusty, it's ferric iron that has oxidised in the ground or the well. The distinction matters, because they need different filtration.",
+            },
+            {
+              heading: "Black or dark brown staining, black specks",
+              body: "Manganese, usually alongside iron. It stains at far lower concentrations than iron does, and it's the reason a system sized only for iron sometimes leaves you still staining fixtures.",
+            },
+            {
+              heading: "Rotten egg smell",
+              body: "Hydrogen sulphide, either as a dissolved gas or produced by sulphur bacteria in the well or the water heater. Worth noting where you smell it — if it's only on the hot side, the anode rod in your water heater is often the source rather than the well itself.",
+            },
+            {
+              heading: "Reddish slime in toilet tanks",
+              body: "Iron bacteria. Not the same problem as dissolved iron and it doesn't respond to a plain iron filter — it needs the well and the system shocked, and then treatment to stop it re-establishing.",
+            },
+            {
+              heading: "Yellow or tea-coloured water",
+              body: "Tannins from organic matter in the ground water. Common on properties near sloughs or heavily treed land, and they need their own treatment stage rather than being caught by an iron filter.",
+            },
+            {
+              heading: "Sand or grit at the taps",
+              body: "Sediment, often from a shallower well, a failing well screen, or disturbance after recent pump work. Sediment filtration is the first stage of any treatment train, because grit destroys everything downstream of it.",
+            },
+            {
+              heading: "Blue-green staining on fixtures",
+              body: "Acidic water attacking copper pipework. It's a pH problem rather than a mineral one, and left alone it eventually means pinhole leaks in the plumbing rather than just stained sinks.",
+            },
+            {
+              heading: "Scale on kettles, fixtures and inside the water heater",
+              body: "Hardness. Acreage wells around Calgary frequently run harder than city water, which is already hard. See [water softener installation](/water-softener/) and, if yours has stopped keeping up, [water softener repair](/water-softener-repair-calgary/).",
+            },
+          ],
+        },
+        {
+          heading: "The treatment train, in order",
+          intro:
+            "Well water treatment is a sequence, not a product. Each stage protects the one after it, and putting them in the wrong order is how expensive equipment fails early.",
+          items: [
+            {
+              heading: "1. Sediment pre-filtration",
+              body: "Always first. Sand, silt and grit wreck valves, foul media and score seals in everything downstream. On a well with any sediment load this stage pays for itself in equipment it protects.",
+            },
+            {
+              heading: "2. Iron and manganese removal",
+              body: "Before the softener, not after. Oxidising filter media — the air-injection and catalytic types — converts dissolved iron and manganese into particles the filter can trap. Which media suits depends on your concentrations, your pH, and whether you also have hydrogen sulphide, which is exactly what the water test tells us.",
+            },
+            {
+              heading: "3. Softening",
+              body: "Once iron is out, the softener handles calcium and magnesium without being poisoned by iron fouling. Sized against the actual hardness and household demand rather than a default. This is also the stage that protects your [water heater](/hot-water-tanks/) and any [boiler](/boiler-replacement-calgary/) or [in-floor heating](/in-floor-heating-calgary/) downstream.",
+            },
+            {
+              heading: "4. Carbon filtration",
+              body: "For taste, odour and organics. Placed after the mineral stages so it isn't being asked to do work that belongs to a filter designed for it.",
+            },
+            {
+              heading: "5. UV disinfection, last",
+              body: "UV kills bacteria, but only in water clear enough for the light to penetrate. Iron, sediment or tannins shadow organisms and let them through, which is why UV belongs at the end of the train and is close to useless at the start of it.",
+            },
+            {
+              heading: "Point-of-use reverse osmosis",
+              body: "Separate from the whole-home train. An [RO system](/reverse-osmosis-calgary/) at the kitchen tap handles dissolved solids and contaminants that whole-home treatment isn't designed for, and it's the sensible answer for drinking and cooking water specifically.",
+            },
+          ],
+        },
+        {
+          heading: "Testing — why we insist on it",
+          intro:
+            "Every acreage well is its own water supply. Two properties on the same road can need completely different equipment, so a recommendation without a test is a guess dressed up as advice.",
+          items: [
+            { body: "A useful test covers hardness, iron, manganese, pH, total dissolved solids, and bacteria — at minimum." },
+            { body: "Bacterial and potability testing goes to an accredited lab. Alberta Health Services publishes current guidance on how and where to submit samples, and that's the route to take for anything health-related." },
+            { body: "Retest for bacteria at least annually, and any time the well is opened, the pump is pulled, or the property floods." },
+            { body: "Retest after spring runoff if your water noticeably changes with the season — a lot of acreage water does." },
+            { body: "If you've just bought an acreage, test before you commit to any equipment. Inheriting someone else's treatment train is not the same as inheriting one that suits your water." },
+            { body: "Nitrates matter in agricultural areas and don't announce themselves — no taste, no smell, no staining. They only show up in a lab result." },
+            { body: "Bring us a recent test if you have one, or we'll arrange sampling as part of the quote." },
+          ],
+        },
+        {
+          heading: "Where our scope starts and stops",
+          intro:
+            "Worth being explicit, because acreage plumbing crosses trades and it saves everyone time to know who does what.",
+          items: [
+            { body: "In scope: sediment, iron and manganese filtration, softening, carbon, UV, and reverse osmosis." },
+            { body: "In scope: pressure tanks, pressure switches, check valves, pump short-cycling diagnosis, and the plumbing from the wellhead through the house." },
+            { body: "In scope: water heaters, boilers, [in-floor heating](/in-floor-heating-calgary/) and everything else on the treated side of the system." },
+            { body: "Not our work: drilling new wells, deepening existing ones, or pulling and replacing down-hole submersible pumps. That's a licensed well contractor and we'll point you to one rather than take it on." },
+            { body: "Not our work: septic field design and installation. We handle plumbing to the tank, not the field beyond it." },
+            { body: "Freeze protection is worth raising while we're there — wellhead lines and pressure tanks in unheated spaces are a common winter failure. See [frozen pipe repair](/frozen-pipe-repair-calgary/)." },
+          ],
+        },
+        {
+          heading: "Acreage areas we work",
+          intro:
+            "Well-and-septic country ringing the city, where municipal water stops and treatment starts mattering.",
+          items: [
+            { body: "[Bearspaw](/bearspaw-plumbers/) — almost entirely well-and-septic west of the city limits, and the area where we see the heaviest iron and hardness loads." },
+            { body: "Springbank and the acreages west of Calgary, along with Cochrane Lake and the land around [Cochrane](/cochrane-plumbers/)." },
+            { body: "Foothills County south and east of [Okotoks](/okotoks-plumbers/), outside the town's municipal supply." },
+            { body: "MD of Mountain View around [Carstairs](/carstairs-plumbers/), where wells commonly run hard with significant iron and manganese." },
+            { body: "Acreage east of the city toward [Chestermere](/chestermere-plumbers/) and into Rocky View County." },
+            { body: "If you're on a well anywhere in the ring around Calgary and you're not sure what you've got, that's the call to make." },
+          ],
+        },
+      ],
+      faq: {
+        heading: "Calgary Well Water Treatment FAQs",
+        items: [
+          { q: "Why won't you quote a system over the phone?", a: "Because the number would be meaningless, and the equipment might be wrong.\n\nEvery well is its own water supply. Two acreages on the same road can have completely different iron concentrations, different hardness, different pH, and one might have bacteria while the other doesn't. There is no typical acreage water in this region.\n\nA water test costs very little compared with installing a treatment train that doesn't suit what's actually coming out of the ground. Bring us a recent test if you have one, or we'll arrange sampling as part of the quote — either way, the recommendation comes after the result, not before." },
+          { q: "My water softener stopped working on well water. Why?", a: "The most likely answer is iron fouling, and it's the most common well water mistake we're called to.\n\nSoftener resin is designed to exchange calcium and magnesium. Iron binds to it and doesn't release properly during regeneration, so the resin gradually loses capacity. Add more salt and nothing improves, because salt isn't the problem.\n\nThe fix is two-part: deal with the iron ahead of the softener with proper filtration, and then either clean or replace the fouled resin depending on how far gone it is. Installing a softener without iron removal on a well with any meaningful iron load is a system with a countdown on it." },
+          { q: "What's the orange staining in my sinks and toilets?", a: "Iron, and which type matters for the fix.\n\nIf water is clear at the tap and turns orange in a glass or in the toilet bowl after standing, that's dissolved ferrous iron oxidising on contact with air. If it comes out of the tap already rusty-looking, it's ferric iron that oxidised before it reached you.\n\nIf you're finding reddish slime in the toilet tank rather than staining, that's iron bacteria — a different problem again, which needs the well shocked rather than just filtered.\n\nThe test tells us which, and the treatment differs for each." },
+          { q: "Do I need UV disinfection?", a: "It depends entirely on your bacteriological test results, which is why testing comes first.\n\nIf coliform bacteria are present, UV is the usual answer for ongoing protection. What matters is placement: UV only works in water clear enough for the light to reach the organisms. Iron, sediment or tannins shadow bacteria and let them straight through, so UV goes at the end of the treatment train, never at the start.\n\nFor anything relating to whether your water is safe to drink, Alberta Health Services publishes current guidance on testing and interpreting results, and that's the right source rather than us." },
+          { q: "Do you drill wells or replace well pumps?", a: "No, and we'd rather be clear about that upfront.\n\nDrilling new wells, deepening existing ones, and pulling or replacing down-hole submersible pumps is licensed well contractor work. We'll point you toward someone who does it.\n\nWhat we do is everything from the wellhead inward: pressure tanks, pressure switches, check valves, diagnosing a pump that's short-cycling, all the treatment equipment, and the plumbing through the house. In practice that covers most of what goes wrong on an acreage water system." },
+          { q: "How often should I test my well water?", a: "Bacteria at least annually, and more often if anything changes.\n\nAlways retest after the well has been opened, after the pump has been pulled, after flooding on the property, and if the taste, smell or appearance of the water shifts.\n\nIf your water changes noticeably with the seasons — and plenty of acreage water does, particularly through spring runoff — it's worth testing at the point in the year when it's at its worst rather than its best, so the treatment is sized for the harder case.\n\nAnd test before buying an acreage. Existing equipment on the property tells you what the last owner thought the problem was, not necessarily what it is." },
+          { q: "Why does my hot water smell like rotten eggs but the cold doesn't?", a: "That points at the water heater rather than the well.\n\nThe sacrificial anode rod inside a tank can react with sulphates in the water and produce hydrogen sulphide, which is the rotten egg smell. Because it happens inside the tank, the cold side is unaffected.\n\nSwapping to a different anode material usually resolves it. If both hot and cold smell, then it's coming from the well or the ground water, and that's a treatment question instead. Either way it's worth diagnosing rather than living with — see [hot water tanks](/hot-water-tanks/)." },
+          { q: "Will treatment fix hard water on an acreage too?", a: "Yes, and hardness is usually part of the picture out here — acreage wells around Calgary frequently run harder than city water, which is already hard.\n\nThe softener goes into the train after iron and manganese removal, sized to your measured hardness and the household's demand rather than a default setting.\n\nThat matters for more than the taps. Everything downstream benefits: the [water heater](/hot-water-tanks/), a [boiler](/boiler-replacement-calgary/), [in-floor heating](/in-floor-heating-calgary/) loops, and fixture cartridges all last longer on softened water." },
+        ],
+      },
+    },
+  },
+  {
     slug: "reverse-osmosis-calgary",
     category: "Water",
     icon: "water_drop",
@@ -14581,6 +14790,8 @@ export const services: ServicePage[] = [
         { name: "Panorama Hills", slug: "panorama-hills-plumbers-calgary", blurb: "Hilltop pressure issues, mid-2000s builds." },
         { name: "Tuscany", slug: "tuscany-plumbers-calgary", blurb: "High-elevation static pressure, PRV territory." },
         { name: "Varsity", slug: "varsity-plumbers-calgary", blurb: "80s-era Poly-B + mature tree-root sewer issues." },
+        { name: "Brentwood", slug: "brentwood-plumbers-calgary", blurb: "1960s stock, galvanized supply, mature-tree root intrusion." },
+        { name: "Hillhurst", slug: "hillhurst-plumbers-calgary", blurb: "1910-1940 heritage + modern infill, original boilers." },
       ],
     },
     quoteFormLabel: "NW Calgary plumbing",
@@ -14751,6 +14962,8 @@ export const services: ServicePage[] = [
         { name: "McKenzie Lake", slug: "mckenzie-lake-plumbers-calgary", blurb: "Established lake community, Poly-B in original builds." },
         { name: "McKenzie Towne", slug: "mckenzie-towne-plumbers-calgary", blurb: "Late-90s through 2010s mixed stock." },
         { name: "New Brighton", slug: "new-brighton-plumbers-calgary", blurb: "2000s-era PEX builds, settling-related drainage." },
+        { name: "Inglewood", slug: "inglewood-plumbers-calgary", blurb: "Calgary's oldest stock, century clay laterals, cast-iron stacks." },
+        { name: "Lake Bonavista", slug: "lake-bonavista-plumbers-calgary", blurb: "1970s PVC/ABS joints, 50-year trees, active root intrusion." },
       ],
     },
     seoTitle: "Calgary Plumbers SE | Priority Emergency Plumbing Service",
@@ -20347,7 +20560,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "Do you handle well water systems?",
-            a: "Yes. Softeners, iron + manganese filtration, pressure tanks, pressure switches, check valves, pump-side plumbing — everything from the wellhead inward. We don't drill new wells or pull down-hole submersible pumps (that's specialty well-driller work), but anything above ground or at the entry point is in scope.",
+            a: "Yes. Softeners, iron + manganese filtration, pressure tanks, pressure switches, check valves, pump-side plumbing — everything from the wellhead inward. Our [well water treatment](/well-water-treatment-calgary/) page sets out the full treatment train and why the order of the stages matters. We don't drill new wells or pull down-hole submersible pumps (that's specialty well-driller work), but anything above ground or at the entry point is in scope.",
           },
           {
             q: "Can you work on septic systems?",
@@ -20455,7 +20668,7 @@ export const services: ServicePage[] = [
             { heading: "Bow River source + Town of Cochrane treatment", body: "Town water draws from the Bow upstream of Calgary's intake — slightly softer at certain times of year but still hard enough that softeners pay back. Treatment varies seasonally with river conditions; we've seen unusual taste/odour calls that turned out to be source-water shifts, not in-home issues." },
             { heading: "Real elevation changes within town", body: "Sunset Ridge, Heritage Hills, and GlenEagles sit hundreds of feet above downtown Riverview and the Bow valley floor. That means pressure varies notably across town — high-elevation homes often need pressure-reducing valves on incoming supply, while valley properties sometimes need booster pumps. We size expansion tanks for the actual static pressure, not a textbook number." },
             { heading: "West-facing chinook wind exposure", body: "The west edge of town catches chinook winds with no break. Exposed garage piping, outdoor hose bibs, and meter rooms freeze faster than in sheltered Calgary neighbourhoods. Frost-free sillcocks and insulated meter rooms are worth the upgrade — we've seen the difference in mid-winter call volume." },
-            { heading: "Significant acreage component on wells", body: "Bearspaw, Cochrane Lake, and Springbank-adjacent acreage west and south of town are well-and-septic. Iron, manganese, and hardness can each be severe — we pull a real water test before quoting filtration or softener sizing. Pump-side plumbing on private wells is in scope; we don't drill wells but everything from the wellhead inward is fair game." },
+            { heading: "Significant acreage component on wells", body: "Bearspaw, Cochrane Lake, and Springbank-adjacent acreage west and south of town are well-and-septic. Iron, manganese, and hardness can each be severe — we pull a real [water test](/well-water-treatment-calgary/) before quoting filtration or softener sizing. Pump-side plumbing on private wells is in scope; we don't drill wells but everything from the wellhead inward is fair game." },
             { heading: "Heritage downtown around the original townsite", body: "Pre-1980 homes around 4th Avenue and the railway have galvanized supply lines, cast-iron stacks, and original clay sewer laterals — same heritage profile as Calgary's Mount Royal at a smaller scale. Service work focuses on preserving finished interiors." },
             { heading: "New Riversong + Fireside builds entirely modern", body: "Cochrane's recent growth (Riversong, Fireside, Heartland) is post-2010 PEX plumbing and high-efficiency systems. No Poly-B, but the original water heaters, boilers, and tankless units are now hitting first-service age and we see those replacement-window calls regularly." },
           ],
@@ -20543,7 +20756,7 @@ export const services: ServicePage[] = [
           items: [
             { heading: "Emergency plumbing", body: "Burst pipes, no-water calls, sewer backups. See [emergency plumber Calgary](/emergency-plumber-calgary/) for the full scope." },
             { heading: "Poly-B replacement", body: "Drake Landing, Cimarron, and other 90s-era Okotoks builds are right in the Poly-B failure window. Free inspection, written quote. See [Poly-B replacement Calgary](/polyb-plumbing-calgary/) for the full process." },
-            { heading: "Well-water systems", body: "Acreage properties south and east of Okotoks run on private wells. We size [softeners](/water-softener/), install filtration and iron-removal stages, and service pressure tanks + pump-side plumbing." },
+            { heading: "Well-water systems", body: "Acreage properties south and east of Okotoks run on private wells. We size [softeners](/water-softener/), install [filtration and iron-removal stages](/well-water-treatment-calgary/), and service pressure tanks + pump-side plumbing." },
             { heading: "Hot water tanks", body: "Same-day [tank replacement](/hot-water-tank-replacement-calgary/) on Bradford White and John Wood, plus [tankless](/tankless-water-heaters/) installs." },
             { heading: "Boiler & furnace service", body: "Annual [boiler service](/boiler-service-calgary/), [boiler repair](/boiler-repair-calgary/), [furnace](/furnaces/) install, [high-efficiency furnaces](/high-efficiency-furnaces-calgary/) for cold-snap performance." },
             { heading: "Drain cleaning", body: "Hydro-jetting and camera inspection. See [drain cleaning Calgary](/drain-cleaning-calgary/)." },
@@ -20557,7 +20770,7 @@ export const services: ServicePage[] = [
             { heading: "Sheep River water + groundwater blend", body: "Okotoks Town water comes from the Sheep River and a deep aquifer — slightly different mineral profile than Calgary's Bow/Elbow supply. Hardness is still high enough that softeners pay back quickly on fixture and water-heater life." },
             { heading: "Drake Landing's solar district heating", body: "Drake Landing Solar Community uses seasonal borehole thermal storage to heat homes via hydronic loops. The in-home distribution is conventional, but the supply connections and heat-exchanger interface need somebody who knows what they're looking at before swapping a circulator or rebalancing a manifold." },
             { heading: "Poly-B concentration in 90s builds", body: "Cimarron, Drake Landing, Crystal Shores, Sheep River Ridge — the 1990s and early 2000s expansion happened right in the polybutylene window. A high portion of resale homes here still have it, and 25-30 years in it starts splitting at the brass crimp fittings." },
-            { heading: "Well water on acreage south + east", body: "Foothills County land outside town limits is well-and-septic, not municipal. Iron, manganese, and hardness can each be severe. We pull a real water test before quoting a softener or RO system — sizing from the side of the box wastes money on most Okotoks wells." },
+            { heading: "Well water on acreage south + east", body: "Foothills County land outside town limits is well-and-septic, not municipal. Iron, manganese, and hardness can each be severe. We pull a real [water test](/well-water-treatment-calgary/) before quoting a softener or RO system — sizing from the side of the box wastes money on most Okotoks wells." },
             { heading: "Olde Towne heritage stock", body: "Homes north of Elma Street and around the original railway grid date back to the 1900s-1940s. Galvanized supply, cast-iron drains, original clay sewer laterals. Repairs there are about preserving the finished interior — different mindset than ripping out drywall in a 2010 build." },
             { heading: "Septic on the rural fringe", body: "Many acreage properties run on septic fields rather than municipal sewer. We don't pump tanks — but we do diagnose backups, replace failed pumps, and rebuild the in-home side (drain stacks, vent integrity, ejector pumps for below-grade fixtures)." },
           ],
@@ -20656,7 +20869,7 @@ export const services: ServicePage[] = [
           intro:
             "Carstairs is a true rural town — small downtown core, big acreage footprint around it. The service mix here looks different from a Calgary suburb because most homes are on wells and septic, not municipal services.",
           items: [
-            { heading: "Most rural properties on private wells", body: "MD of Mountain View land surrounding Carstairs is well water — and the wells out here can run hard, with significant iron and manganese loads. A water test before quoting is non-negotiable; sizing softener and filtration from the box wastes thousands on a system that won't keep up." },
+            { heading: "Most rural properties on private wells", body: "MD of Mountain View land surrounding Carstairs is [well water](/well-water-treatment-calgary/) — and the wells out here can run hard, with significant iron and manganese loads. A water test before quoting is non-negotiable; sizing softener and filtration from the box wastes thousands on a system that won't keep up." },
             { heading: "Septic, not sewer, for most acreage", body: "Septic systems mean a different in-home plumbing setup: ejector pumps for below-grade fixtures, gravity-fed stack runs to the field, vent integrity that matters more than it does in city homes. Failures show up as backups, gurgling drains, or basement-fixture flooding — we know the signs and what to test first." },
             { heading: "Heritage CP-rail-era downtown", body: "Homes built around the original CP rail line and the older grid (pre-1970) have galvanized supply lines and cast-iron stacks. Repairs there are about preserving the finished interior — same heritage approach we use in Calgary's Mount Royal and Cochrane's downtown." },
             { heading: "Pressure tanks and well-pump cycling", body: "Well-water properties depend on a pressure tank to smooth out pump cycling. When a tank bladder fails, the pump short-cycles and burns out in months — not years. We replace pressure tanks, diagnose pump cycling issues, and spec correctly for actual household demand." },
@@ -20669,7 +20882,7 @@ export const services: ServicePage[] = [
         heading: "Carstairs Plumbing FAQs",
         items: [
           { q: "How does dispatch to Carstairs work?", a: "We dispatch from Calgary north on Highway 2, routed through Airdrie. Emergency calls receive priority routing over scheduled work. Call 587-834-3668 and we'll confirm a window before the truck rolls." },
-          { q: "Do you handle well-water plumbing in Carstairs?", a: "Yes — softeners, filtration (iron and manganese stages), pressure tanks, and pump-side plumbing on acreage properties. Bring a recent water test (or we can take one) and we'll spec accordingly. We don't drill wells, but everything from the wellhead inward is in scope." },
+          { q: "Do you handle well-water plumbing in Carstairs?", a: "Yes — [softeners, filtration (iron and manganese stages)](/well-water-treatment-calgary/), pressure tanks, and pump-side plumbing on acreage properties. Bring a recent water test (or we can take one) and we'll spec accordingly. We don't drill wells, but everything from the wellhead inward is in scope." },
           { q: "Can you work on septic systems?", a: "We don't pump tanks (that's a separate specialty truck), but everything in-home that connects to the septic field is in scope: drain stack repair and replacement, vent integrity, lift and ejector pumps for below-grade fixtures, diagnosing backups. If your septic is full or the field has failed, you need a septic specialist for the outside; we handle the inside." },
           { q: "Do you service the heritage downtown homes?", a: "Yes — galvanized supply lines, cast-iron stacks, original clay sewer laterals on the pre-1970 stock around the original CP rail grid. Same approach we use in Calgary's Mount Royal: preserve the finished interior, target the actual failure, document for future work." },
           { q: "Can you replace a failed well pressure tank?", a: "Yes. Pressure tank failure is the most common cause of a well pump short-cycling and burning out prematurely. We replace the tank, check the pressure switch, verify cut-in/cut-out settings, and ensure the system is sized for actual household demand. If the pump itself has failed we coordinate with a well-driller for the down-hole work." },
