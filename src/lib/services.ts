@@ -3738,7 +3738,7 @@ export const services: ServicePage[] = [
             "Rebate programs shift annually. Here's the honest current state as of 2026.",
           items: [
             {
-              body: "The Canada Greener Homes Grant was retired in early 2024 — replaced by the [Canada Greener Homes Loan](https://natural-resources.canada.ca/energy-efficiency/homes/canada-greener-homes-initiative), an interest-free loan for qualifying retrofits. Useful for spreading the cost of a high-efficiency install, but it doesn't reduce the net. Check the current terms directly, since program details change.",
+              body: "Both federal Canada Greener Homes programs have now closed to new applicants — the [interest-free Loan](https://natural-resources.canada.ca/energy-efficiency/homes/canada-greener-homes-initiative) stopped taking applications on 1 October 2025 and the Grant closed on 20 January 2026. Useful for spreading the cost of a high-efficiency install, but it doesn't reduce the net. Check the current terms directly, since program details change.",
             },
             {
               body: "Provincial rebates have been thin for residential furnaces since 2022. ENMAX, EPCOR, and Direct Energy occasionally run promotional rebates on high-efficiency installs — we check current programs at quote time. Our honest advice: assume zero rebate when comparing quotes, then treat anything you do qualify for as a bonus.",
@@ -3849,7 +3849,7 @@ export const services: ServicePage[] = [
       items: [
         { label: "Furnace Installation", href: "/furnace-installation-calgary/", summary: "Heat-loss sizing, venting and gas assessment, and full commissioning.", icon: "local_fire_department" },
         { label: "Furnace Repair", href: "/furnace-repair-calgary/", summary: "Igniters, flame sensors, capacitors, control boards — diagnosed properly, most fixed first visit.", icon: "handyman", highlight: true, badge: "Same-day dispatch" },
-        { label: "Furnace Replacement", href: "/furnace-replacement-calgary/", summary: "End-of-life replacement decision — furnace-vs-hybrid math, brand selection, Manual J sizing, Greener Homes rebates.", icon: "sync" },
+        { label: "Furnace Replacement", href: "/furnace-replacement-calgary/", summary: "End-of-life replacement decision — furnace-vs-hybrid math, brand selection, Manual J sizing, current rebate check.", icon: "sync" },
         { label: "High-Efficiency Furnaces", href: "/high-efficiency-furnaces-calgary/", summary: "95–98% AFUE condensing units sized for Calgary's −35°C design temp.", icon: "local_fire_department" },
         { label: "AirEase Furnaces", href: "/air-ease-furnaces-calgary/", summary: "Authorized AirEase Pro Team dealer — full residential lineup with manufacturer warranty.", icon: "local_fire_department" },
         { label: "Garage Heaters", href: "/garage-heaters-calgary/", summary: "Forced-air gas, radiant tube, and electric heaters for Calgary garages and shops.", icon: "garage" },
@@ -3868,7 +3868,7 @@ export const services: ServicePage[] = [
     lead:
       "Calgary's unpredictable winters — from −35°C cold snaps to sudden chinook thaws — demand furnaces that can handle anything.",
     heroBody: [
-      "FlameTech's heating specialists have been installing and servicing high-efficiency furnaces across Calgary for over a decade, helping homeowners cut their gas bills while staying warm through Alberta's toughest winters. Whether you're upgrading an old builder-grade unit in [Evergreen](/evergreen-plumbers-calgary/) or installing a new system in a custom home, we know which units perform best in Calgary's climate. See [furnace replacement Calgary](/furnace-replacement-calgary/) for the broader replacement-decision conversation including hybrid heat pump comparison + brand selection + Greener Homes rebates.",
+      "FlameTech's heating specialists have been installing and servicing high-efficiency furnaces across Calgary for over a decade, helping homeowners cut their gas bills while staying warm through Alberta's toughest winters. Whether you're upgrading an old builder-grade unit in [Evergreen](/evergreen-plumbers-calgary/) or installing a new system in a custom home, we know which units perform best in Calgary's climate. See [furnace replacement Calgary](/furnace-replacement-calgary/) for the broader replacement-decision conversation including hybrid heat pump comparison, brand selection, and a check on which rebates are still open.",
       "When your furnace fails at 2 AM in January, you need someone who answers the phone — not a voicemail. Our technicians offer priority response and carry the parts needed to get Calgary homes heated fast.",
     ],
     heroSubhead: "Trusted Calgary High-Efficiency Furnace Experts",
@@ -4317,27 +4317,27 @@ export const services: ServicePage[] = [
     lead:
       "Your furnace is at end of life — now what? The replacement decision has more moving pieces than most homeowners realize: furnace-only vs hybrid heat pump dual-fuel (the math-positive call for most Calgary homes now), brand selection (AirEase 12-year warranty vs Trane vs Carrier vs Lennox vs Goodman), proper Manual J sizing (most Calgary furnaces are oversized 20-50%), federal Greener Homes rebates, timing strategy (replace BEFORE peak winter season), and financing options. FlameTech walks Calgary homeowners through the replacement decision honestly — no upsell, no pressure, written quote with the full math.",
     heroBody: [
-      "Two big decisions before you sign anything: (1) furnace-only vs hybrid dual-fuel (heat pump + new furnace). For most Calgary homes adding cooling capability or with high heating bills, hybrid is now the math-positive call — same heat pump install footprint, plus a new furnace as deep-cold backup, plus federal Greener Homes rebates may apply. Lower total operating cost over the equipment's life. (2) Sizing: most Calgary furnaces are oversized by 20-50% — leftover from rule-of-thumb sizing decades ago. We run a Manual J heat-loss calc on every replacement quote, then size to actual load — see [furnace installation](/furnace-installation-calgary/) for how the sizing, venting and commissioning side of the job actually runs. Right-sized furnaces are quieter, cheaper to run, and last longer.",
+      "Two big decisions before you sign anything: (1) furnace-only vs hybrid dual-fuel (heat pump + new furnace). For most Calgary homes adding cooling capability or with high heating bills, hybrid is now the math-positive call — same heat pump install footprint, plus a new furnace as deep-cold backup, plus any current utility or provincial rebates. Lower total operating cost over the equipment's life. (2) Sizing: most Calgary furnaces are oversized by 20-50% — leftover from rule-of-thumb sizing decades ago. We run a Manual J heat-loss calc on every replacement quote, then size to actual load — see [furnace installation](/furnace-installation-calgary/) for how the sizing, venting and commissioning side of the job actually runs. Right-sized furnaces are quieter, cheaper to run, and last longer.",
       "We install and service every common Calgary brand. AirEase 12-year parts + labor warranty on qualifying models when registered + maintained (we're authorized AirEase Pro Team dealers). Trane XV / XR series, Carrier Infinity, Lennox EL / SL, Goodman, Heil, Bryant — we have honest conversations about which brand makes sense for your specific install + budget. See [high-efficiency furnaces Calgary](/high-efficiency-furnaces-calgary/) for the broader 96%+ AFUE install scope and [heat pumps Calgary](/heat-pumps-calgary/) for the hybrid dual-fuel comparison.",
-      "Free in-home assessment + written quote with the full math. Permits, venting, condensate drain, and gas scope all clearly itemized — the [install process](/furnace-installation-calgary/) page sets out what each of those involves. Typical install timeline 1-2 days. [Monthly financing](/financing/) via Financeit + Greener Homes Loan eligibility walkthrough. Call 587-834-3668.",
+      "Free in-home assessment + written quote with the full math. Permits, venting, condensate drain, and gas scope all clearly itemized — the [install process](/furnace-installation-calgary/) page sets out what each of those involves. Typical install timeline 1-2 days. [Monthly financing](/financing/) via Financeit, plus an honest read on which rebates are still open. Call 587-834-3668.",
     ],
     heroSubhead: "Replacement Decision + Install + Honest Math",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
     heroImage: { src: "/images/2026/04/Furnace-after-len.webp", alt: "New high-efficiency furnace installed by FlameTech in Calgary", fit: "cover" },
     intro:
-      "Calgary furnace replacement. Honest furnace-vs-hybrid heat pump comparison, Manual J sizing, brand-by-brand quote (AirEase 12yr warranty, Trane, Carrier, Lennox), Greener Homes rebate walkthrough. Free in-home assessment.",
+      "Calgary furnace replacement. Honest furnace-vs-hybrid heat pump comparison, Manual J sizing, brand-by-brand quote (AirEase 12yr warranty, Trane, Carrier, Lennox), current rebate check. Free in-home assessment.",
     features: [
       "Furnace-vs-hybrid honest comparison",
       "Manual J heat-loss sizing on every quote",
       "AirEase 12-yr warranty (qualifying models)",
       "Trane, Carrier, Lennox, Goodman, Heil install",
-      "Greener Homes rebate walkthrough",
+      "Current rebate + financing check",
       "Permits + venting + condensate handled",
     ],
     bullets: [
       {
         t: "Hybrid heat pump comparison on every quote",
-        d: "Furnace-only is still the right call for some Calgary homes — tight budget, no AC need, simple swap. But for most homes ADDING cooling capability or with high heating bills, hybrid dual-fuel (heat pump + new furnace) is the math-positive call: same install timeline, lower operating cost through 80%+ of the heating season, includes AC, and federal Greener Homes rebates may apply. We walk through both options honestly.",
+        d: "Furnace-only is still the right call for some Calgary homes — tight budget, no AC need, simple swap. But for most homes ADDING cooling capability or with high heating bills, hybrid dual-fuel (heat pump + new furnace) is the math-positive call: same install timeline, lower operating cost through 80%+ of the heating season, includes AC, and utility or provincial rebates may apply. We walk through both options honestly.",
       },
       {
         t: "Manual J sizing, not rule-of-thumb",
@@ -4354,7 +4354,7 @@ export const services: ServicePage[] = [
     ],
     seoTitle: "Furnace Replacement Calgary | Sizing + Hybrid Heat Pump",
     seoDescription:
-      "Calgary furnace replacement done right. Honest furnace-vs-hybrid heat pump comparison, Manual J sizing, AirEase 12yr warranty, Greener Homes rebates. Call 587-834-3668.",
+      "Calgary furnace replacement done right. Honest furnace-vs-hybrid heat pump comparison, Manual J sizing, AirEase 12yr warranty, current rebate check. Call 587-834-3668.",
     seoKeywords: [
       "furnace replacement Calgary",
       "Calgary furnace replacement cost",
@@ -4363,12 +4363,12 @@ export const services: ServicePage[] = [
       "Trane furnace Calgary",
       "Lennox furnace Calgary",
       "furnace vs heat pump Calgary",
-      "Greener Homes furnace Calgary",
+      "furnace rebates Calgary",
       "FlameTech Plumbing Heating",
     ],
     quoteFormLabel: "furnace replacement",
     quoteFormPlaceholder:
-      "e.g. 18-year-old furnace at end of life, looking at hybrid heat pump comparison, AirEase 12-yr warranty interest, fall install before winter, Greener Homes rebate eligibility…",
+      "e.g. 18-year-old furnace at end of life, looking at hybrid heat pump comparison, AirEase 12-yr warranty interest, fall install before winter, rebate eligibility…",
     sidebar: {
       title: "Calgary Furnace Replacement",
       subtitle:
@@ -4377,7 +4377,7 @@ export const services: ServicePage[] = [
         "Free in-home assessment + Manual J calc",
         "Hybrid heat pump math on every quote",
         "AirEase 12-yr warranty (qualifying models)",
-        "Permits + Greener Homes rebate walkthrough",
+        "Permits + current rebate check",
       ],
     },
     stats: [
@@ -4388,7 +4388,7 @@ export const services: ServicePage[] = [
     ],
     financing: {
       detail:
-        "Spread the cost of a furnace replacement into monthly payments via our Financeit partner. Pair with the federal Greener Homes Loan (interest-free) where you qualify for heat-pump or qualifying high-efficiency replacements.",
+        "Spread the cost of a furnace replacement into monthly payments via our Financeit partner. Both federal Greener Homes programs closed to new applicants in 2025-26, so we'll check what utility or provincial rebates are actually live when we quote.",
     },
     callout:
       "Calgary furnace at end of life and time to plan replacement? Call 587-834-3668 for a free in-home assessment — honest hybrid comparison, Manual J sizing, written quote.",
@@ -4425,7 +4425,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "You're ALREADY planning AC install or replacement",
-              body: "If you're going to install or replace AC anyway, that's the right time to consider hybrid heat pump (heat pump REPLACES AC + adds efficient heating). Slightly higher install cost than AC-only, much lower heating cost going forward, may qualify for federal Greener Homes rebates. We walk through the math on every furnace replacement quote.",
+              body: "If you're going to install or replace AC anyway, that's the right time to consider hybrid heat pump (heat pump REPLACES AC + adds efficient heating). Slightly higher install cost than AC-only, much lower heating cost going forward, may qualify for current utility or provincial rebates. We walk through the math on every furnace replacement quote.",
             },
             {
               heading: "Furnace works but you want efficiency upgrade + comfort",
@@ -4444,7 +4444,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "Hybrid (heat pump + new furnace): mid install cost, includes cooling, lowest operating cost",
-              body: "Install a cold-climate heat pump (CCHP) AND a new furnace as a matched system. Heat pump handles heating above the balance point (typically −10°C to −15°C), furnace takes over below. Cooling capability included. Significantly lower operating cost through 80%+ of Alberta's heating season. Federal Greener Homes rebates may apply. Higher install cost but typically pays back through operating savings over the system's life.",
+              body: "Install a cold-climate heat pump (CCHP) AND a new furnace as a matched system. Heat pump handles heating above the balance point (typically −10°C to −15°C), furnace takes over below. Cooling capability included. Significantly lower operating cost through 80%+ of Alberta's heating season. Utility or provincial rebates may apply — the federal Greener Homes programs are closed to new applicants. Higher install cost but typically pays back through operating savings over the system's life.",
             },
             {
               heading: "When furnace-only is genuinely the right call",
@@ -4452,7 +4452,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "When hybrid is the math-positive call",
-              body: "You're adding AC anyway. You're seeing high heating bills and want efficiency improvement. You're planning to stay in the house 7+ years. Your existing AC is also at end of life (replace the heat pump in place of AC). Greener Homes rebates apply to your install (may close the upfront cost gap entirely). For most Calgary homeowners at replacement time today, hybrid is the answer.",
+              body: "You're adding AC anyway. You're seeing high heating bills and want efficiency improvement. You're planning to stay in the house 7+ years. Your existing AC is also at end of life (replace the heat pump in place of AC). Current utility or provincial rebates apply to your install (these can narrow the upfront cost gaply). For most Calgary homeowners at replacement time today, hybrid is the answer.",
             },
             {
               heading: "Pure heat pump (with electric backup) — rarely the right Calgary answer",
@@ -4460,7 +4460,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "How we present the math on every replacement quote",
-              body: "Free in-home assessment, Manual J heat-loss calculation, side-by-side written quote showing furnace-only cost AND hybrid cost AND Greener Homes rebate-adjusted cost AND projected operating cost differential. You see the numbers — no pressure, no upsell. If furnace-only is the right call for your situation we'll tell you. See [heat pumps Calgary](/heat-pumps-calgary/) for the broader hybrid framing.",
+              body: "Free in-home assessment, Manual J heat-loss calculation, side-by-side written quote showing furnace-only cost AND hybrid cost AND rebate-adjusted cost AND projected operating cost differential. You see the numbers — no pressure, no upsell. If furnace-only is the right call for your situation we'll tell you. See [heat pumps Calgary](/heat-pumps-calgary/) for the broader hybrid framing.",
             },
           ],
         },
@@ -4510,7 +4510,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "3. Brand selection + furnace-vs-hybrid comparison + written quote",
-              body: "Walk through brand options for your install + budget. Walk through the furnace-only vs hybrid math, including Greener Homes rebate eligibility. Written quote covers equipment, install scope, permits, code-required additions (condensate neutralizer, expansion of gas line if needed), and any ductwork modifications.",
+              body: "Walk through brand options for your install + budget. Walk through the furnace-only vs hybrid math, including current rebate eligibility. Written quote covers equipment, install scope, permits, code-required additions (condensate neutralizer, expansion of gas line if needed), and any ductwork modifications.",
             },
             {
               heading: "4. Remove old furnace, install new",
@@ -4521,8 +4521,8 @@ export const services: ServicePage[] = [
               body: "For hybrid installs: mount outdoor heat pump unit, run refrigerant lineset, integrate with new furnace's indoor coil, wire smart thermostat for automatic balance-point switchover. See [heat pumps Calgary](/heat-pumps-calgary/) for full hybrid scope.",
             },
             {
-              heading: "6. Commissioning + permits + Greener Homes paperwork",
-              body: "Combustion analysis to verify proper operation (CO levels, draft, efficiency at nameplate spec). Calibrate thermostat. Register manufacturer warranty (AirEase 12-year requires online registration within 60 days). Submit any Greener Homes Loan + Grant paperwork. Schedule code inspection if required. Walk you through the new system + maintenance schedule.",
+              heading: "6. Commissioning, permits + registration",
+              body: "Combustion analysis to verify proper operation (CO levels, draft, efficiency at nameplate spec). Calibrate thermostat. Register manufacturer warranty (AirEase 12-year requires online registration within 60 days). Submit any current rebate paperwork. Schedule code inspection if required. Walk you through the new system + maintenance schedule.",
             },
           ],
         },
@@ -4536,7 +4536,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "Should I replace with a furnace or go to hybrid heat pump?",
-            a: "For most Calgary homes adding cooling capability OR wanting lower heating bills, hybrid (heat pump + new furnace) is now the math-positive call. Same install timeline, lower operating cost through 80%+ of the heating season, includes AC, and federal Greener Homes rebates may apply. Furnace-only is still right when budget is tight, you don't want AC, or you're staying in the house only 2-3 more years. We walk through both options honestly on every quote.",
+            a: "For most Calgary homes adding cooling capability OR wanting lower heating bills, hybrid (heat pump + new furnace) is now the math-positive call. Same install timeline, lower operating cost through 80%+ of the heating season, includes AC, and utility or provincial rebates may apply. Furnace-only is still right when budget is tight, you don't want AC, or you're staying in the house only 2-3 more years. We walk through both options honestly on every quote.",
           },
           {
             q: "What size furnace do I need for my Calgary home?",
@@ -4548,11 +4548,11 @@ export const services: ServicePage[] = [
           },
           {
             q: "How much does furnace replacement cost in Calgary?",
-            a: "Depends on brand tier, single-stage vs two-stage vs modulating burner, single-speed vs ECM variable-speed blower, install complexity (ductwork modifications, venting changes, gas line work), and whether it's furnace-only or hybrid heat pump install. We quote in writing after the in-home assessment so you see the full cost upfront — including the hybrid comparison and Greener Homes rebate-adjusted numbers. [Monthly financing](/financing/) available via Financeit.",
+            a: "Depends on brand tier, single-stage vs two-stage vs modulating burner, single-speed vs ECM variable-speed blower, install complexity (ductwork modifications, venting changes, gas line work), and whether it's furnace-only or hybrid heat pump install. We quote in writing after the in-home assessment so you see the full cost upfront — including the hybrid comparison and rebate-adjusted numbers using whatever programs are actually open. [Monthly financing](/financing/) available via Financeit.",
           },
           {
             q: "Are there rebates available for furnace replacement in Calgary?",
-            a: "Federal Canada Greener Homes program supports heat pump installations meeting specific efficiency thresholds — interest-free Loan + Grant cash-back. Eligibility, equipment qualifications, and application windows have changed over time. We walk through current rules during the assessment so you know what's actually available for your specific install before committing. Don't make pricing decisions based on a rebate that may not apply.",
+            a: "Both federal Canada Greener Homes programs are now closed to new applicants — the interest-free Loan stopped taking applications on 1 October 2025, and the Grant closed on 20 January 2026. Anyone already approved keeps their funding. The one federal program still paying out is Oil to Heat Pump Affordability, and it only applies to homes moving off oil heat — rare in gas-heated Calgary. What's left in practice is provincial and utility programs, and those change. We'll tell you what's actually live when we quote, and we won't price a job around a rebate that no longer exists. We walk through it during the assessment so you know what's actually available for your specific install before committing. Don't make pricing decisions based on a rebate that may not apply.",
           },
           {
             q: "How long does furnace replacement take?",
@@ -4572,7 +4572,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "Can you help me decide between furnace-only and hybrid?",
-            a: "Yes — that's a significant part of every replacement quote. Free in-home assessment, Manual J heat-loss calculation, side-by-side written quote showing furnace-only cost AND hybrid cost AND Greener Homes rebate-adjusted cost AND projected operating cost differential over 10-15 years. You see the numbers — no pressure, no upsell. If furnace-only is the right call for your situation we'll tell you.",
+            a: "Yes — that's a significant part of every replacement quote. Free in-home assessment, Manual J heat-loss calculation, side-by-side written quote showing furnace-only cost AND hybrid cost AND rebate-adjusted cost AND projected operating cost differential over 10-15 years. You see the numbers — no pressure, no upsell. If furnace-only is the right call for your situation we'll tell you.",
           },
           {
             q: "What other heating services do you offer?",
@@ -5565,7 +5565,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "Consider heat pump or hybrid on replacement",
-              body: "When you're replacing the furnace anyway, the [heat pump install](/heat-pumps-calgary/) and hybrid dual-fuel conversations are worth having. Heat pumps cost more up front but operate cheaper through 80%+ of Alberta's heating season. Hybrid (heat pump + new high-efficiency furnace) gives best total cost of ownership. Greener Homes rebates may apply. We walk through the math.",
+              body: "When you're replacing the furnace anyway, the [heat pump install](/heat-pumps-calgary/) and hybrid dual-fuel conversations are worth having. Heat pumps cost more up front but operate cheaper through 80%+ of Alberta's heating season. Hybrid (heat pump + new high-efficiency furnace) gives best total cost of ownership. Utility or provincial rebates may apply; the federal Greener Homes programs are closed to new applicants. We walk through the math.",
             },
           ],
         },
@@ -5595,7 +5595,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "Should I replace my furnace with a heat pump?",
-            a: "Worth considering on replacement. Modern cold-climate heat pumps work efficiently in Calgary down to about −25°C, then drop in efficiency below that. Best Alberta setup is usually hybrid dual-fuel: heat pump as primary, new high-efficiency gas furnace as backup for deep cold. Total operating cost is lower than gas-only through 80%+ of the heating season; gas backup handles the rest. Greener Homes rebates may apply. We walk through the math at install quote time — see [heat pumps Calgary](/heat-pumps-calgary/).",
+            a: "Worth considering on replacement. Modern cold-climate heat pumps work efficiently in Calgary down to about −25°C, then drop in efficiency below that. Best Alberta setup is usually hybrid dual-fuel: heat pump as primary, new high-efficiency gas furnace as backup for deep cold. Total operating cost is lower than gas-only through 80%+ of the heating season; gas backup handles the rest. Utility or provincial rebates may apply; the federal Greener Homes programs are closed to new applicants. We walk through the math at install quote time — see [heat pumps Calgary](/heat-pumps-calgary/).",
           },
           {
             q: "What temperature should I keep my thermostat at in Calgary winter?",
@@ -5858,7 +5858,7 @@ export const services: ServicePage[] = [
     heroBody: [
       "Calgary sits at a -35°C heating design temperature with shoulder seasons that swing 25°C in a week. That's the climate heat pumps need to be sized AGAINST — not against the milder Vancouver/Toronto specs the equipment is often engineered to. The right setup for Calgary is almost always one of two configurations: (1) a cold-climate heat pump (CCHP) rated to maintain capacity down to -25°C paired with your existing or new high-efficiency [gas furnace](/high-efficiency-furnaces-calgary/) as backup (hybrid dual-fuel — the default Alberta recommendation), or (2) a ductless mini-split for a single zone where AC + supplemental heat matters most (bonus rooms, basements, garage suites, hot upstairs bedrooms).",
       "We install cold-climate air-source heat pumps (ducted central + ductless mini-split), retrofit existing forced-air systems to dual-fuel, and commission everything with proper balance-point setup so the system actually operates at the cost advantage you bought it for. Same crew handles [heat pumps in Airdrie](/heat-pumps-airdrie/), [furnace install + repair](/furnaces/), [home heating issues](/home-heating-issues-calgary/), and broader [no heat dispatch](/no-heat-issues-calgary/).",
-      "Free in-home assessment — we check your electrical panel capacity, existing ductwork, gas line size, outdoor unit placement options, and walk through the federal Greener Homes rebate landscape. Call 587-834-3668. [Monthly financing](/financing/) available for full systems.",
+      "Free in-home assessment — we check your electrical panel capacity, existing ductwork, gas line size, outdoor unit placement options, and walk through what rebates are genuinely still available in 2026. Call 587-834-3668. [Monthly financing](/financing/) available for full systems.",
     ],
     heroSubhead: "Cold-Climate Heat Pump Specialists",
     heroBadgeImage: { src: "/images/REVIEWS1.png", alt: "5-star Google rated" },
@@ -5871,7 +5871,7 @@ export const services: ServicePage[] = [
       "Ductless mini-split for additions / single zones",
       "Heat pump repair (every brand)",
       "Bi-annual maintenance + tune-ups",
-      "Greener Homes rebate consultation",
+      "Current rebate + financing check",
     ],
     bullets: [
       {
@@ -5893,7 +5893,7 @@ export const services: ServicePage[] = [
     ],
     seoTitle: "Heat Pumps Calgary | Cold-Climate Install + Hybrid Dual-Fuel",
     seoDescription:
-      "Calgary heat pump installation — cold-climate, hybrid dual-fuel, ductless mini-split. Sized for −35°C. Greener Homes rebate help. Call 587-834-3668.",
+      "Calgary heat pump installation — cold-climate, hybrid dual-fuel, ductless mini-split. Sized for −35°C. Current rebate check. Call 587-834-3668.",
     seoKeywords: [
       "heat pump Calgary",
       "heat pump installation Calgary",
@@ -5901,13 +5901,13 @@ export const services: ServicePage[] = [
       "hybrid heat pump furnace Calgary",
       "ductless mini split Calgary",
       "heat pump vs furnace Calgary",
-      "Greener Homes Calgary",
+      "heat pump rebates Calgary",
       "AirEase heat pump Calgary",
       "FlameTech Plumbing Heating",
     ],
     quoteFormLabel: "Calgary heat pump",
     quoteFormPlaceholder:
-      "e.g. hybrid setup with my existing furnace, full heat pump + furnace replacement, ductless for a bonus room, Greener Homes rebate question, ditch the dying AC and go heat-pump…",
+      "e.g. hybrid setup with my existing furnace, full heat pump + furnace replacement, ductless for a bonus room, rebate question, ditch the dying AC and go heat-pump…",
     sidebar: {
       title: "Calgary Heat Pumps",
       subtitle:
@@ -5916,7 +5916,7 @@ export const services: ServicePage[] = [
         "Free in-home assessment + written quote",
         "Hybrid retrofit with existing furnace",
         "Cold-climate + ductless + ground-source",
-        "Greener Homes rebate consultation",
+        "Current rebate + financing check",
       ],
     },
     stats: [
@@ -5927,7 +5927,7 @@ export const services: ServicePage[] = [
     ],
     financing: {
       detail:
-        "Spread the cost of a heat pump install into monthly payments via our Financeit partner. Pair with the federal Greener Homes Loan (interest-free) where you qualify.",
+        "Spread the cost of a heat pump install into monthly payments via our Financeit partner. Both federal Greener Homes programs closed to new applicants in 2025-26 — we'll check what utility or provincial rebates are actually live when we quote.",
     },
     callout:
       "Planning a heat pump install or replacing a tired AC in Calgary? Call 587-834-3668 for a free in-home assessment — we check electrical, ducts, gas line, and walk through rebates.",
@@ -5956,7 +5956,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "Full furnace + AC swap to hybrid (end-of-life systems)",
-              body: "Common Calgary upgrade path: existing 15-20 year old furnace + 10-15 year old AC both at or near end of life. Install a new high-efficiency furnace AND a cold-climate heat pump as a matched dual-fuel system. Slightly higher upfront cost than furnace + AC replacement, much lower operating cost going forward, plus federal Greener Homes rebates often apply.",
+              body: "Common Calgary upgrade path: existing 15-20 year old furnace + 10-15 year old AC both at or near end of life. Install a new high-efficiency furnace AND a cold-climate heat pump as a matched dual-fuel system. Slightly higher upfront cost than furnace + AC replacement, much lower operating cost going forward. Federal Greener Homes has closed to new applicants, so we check utility and provincial programs instead.",
             },
             {
               heading: "Ground-source (geothermal) — niche but real",
@@ -6002,8 +6002,8 @@ export const services: ServicePage[] = [
               body: "Most ducted central heat pumps need a 30-50 amp dedicated breaker. Pre-2005 Calgary homes commonly have 100A panels that work fine for furnace + AC but can't support a ducted heat pump without a panel upgrade. Post-2010 builds typically have 200A service that handles it cleanly. We check during the in-home assessment and quote any panel upgrade separately so you see the full cost upfront before deciding.",
             },
             {
-              heading: "Federal Greener Homes program",
-              body: "Federal Canada Greener Homes Loan offers interest-free financing for heat pump installations meeting specific efficiency thresholds (typically Energy Star Most Efficient or CCHP rated). Grant program rules have shifted over time — we walk through the current rules during the assessment so you know what's actually available before signing anything. Don't take pricing decisions based on rebates that may not apply to your specific install or address.",
+              heading: "Federal and utility rebates in 2026",
+              body: "Both federal Canada Greener Homes programs are now closed to new applicants — the interest-free Loan stopped taking applications on 1 October 2025, and the Grant closed on 20 January 2026. Anyone already approved keeps their funding. The one federal program still paying out is Oil to Heat Pump Affordability, and it only applies to homes moving off oil heat — rare in gas-heated Calgary. What's left in practice is provincial and utility programs, and those change. We'll tell you what's actually live when we quote, and we won't price a job around a rebate that no longer exists. We walk through it during the assessment so you know what's actually available before signing anything. Don't take pricing decisions based on rebates that may not apply to your specific install or address.",
             },
             {
               heading: "Variable-speed inverter compressors are the right spec for Calgary",
@@ -6026,7 +6026,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "3. Equipment selection + rebate walkthrough",
-              body: "Match the heat pump model to your home's load, budget, and rebate eligibility. Walk through Canada Greener Homes Loan + grant rules + any active Alberta-specific programs. You see the math on both pure-cost and rebate-adjusted cost before signing.",
+              body: "Match the heat pump model to your home's load, budget, and rebate eligibility. Walk through what is genuinely still available — the federal Greener Homes Loan and Grant both closed to new applicants in 2025-26 — plus any active Alberta and utility programs. You see the math on both pure-cost and rebate-adjusted cost before signing.",
             },
             {
               heading: "4. Outdoor unit install",
@@ -6085,7 +6085,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "Are there rebates for installing a heat pump in Calgary?",
-            a: "The federal Canada Greener Homes program has supported heat pump installs across Canada — interest-free Loan + Grant cash-back components. Eligibility, equipment qualifications, and application windows have changed over time. We walk through current rules during the assessment so you know what's actually available for your specific install and address before committing. Don't make pricing decisions based on a rebate that may not apply.",
+            a: "Both federal Canada Greener Homes programs are now closed to new applicants — the interest-free Loan stopped taking applications on 1 October 2025, and the Grant closed on 20 January 2026. Anyone already approved keeps their funding. The one federal program still paying out is Oil to Heat Pump Affordability, and it only applies to homes moving off oil heat — rare in gas-heated Calgary. What's left in practice is provincial and utility programs, and those change. We'll tell you what's actually live when we quote, and we won't price a job around a rebate that no longer exists. We walk through it during the assessment so you know what's actually available for your specific install and address before committing. Don't make pricing decisions based on a rebate that may not apply.",
           },
           {
             q: "What's the difference between ducted central and ductless mini-split?",
@@ -6541,7 +6541,7 @@ export const services: ServicePage[] = [
     quoteFormLabel: "AC",
     financing: {
       detail:
-        "Spread the cost of an AC install into monthly payments via our Financeit partner. Federal Greener Homes program may apply to qualifying heat-pump alternatives.",
+        "Spread the cost of an AC install into monthly payments via our Financeit partner. The federal Greener Homes programs have closed to new applicants; we'll check current utility and provincial rebates on heat-pump alternatives.",
     },
     quoteFormPlaceholder:
       "e.g. first-time AC for our furnace-only home, AC blowing warm air, outside unit making noise, considering heat pump instead of AC replacement, want a quote for a new central install…",
@@ -6595,7 +6595,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "Similar install cost",
-              body: "Cold-climate heat pumps cost more than basic single-stage AC, but compare like-for-like (variable-speed AC to variable-speed cold-climate heat pump) and the upfront delta is often small — a few hundred to a couple thousand dollars depending on the specific equipment. Federal Greener Homes Loan + Grant programs may apply to qualifying heat-pump installs, often closing the gap entirely.",
+              body: "Cold-climate heat pumps cost more than basic single-stage AC, but compare like-for-like (variable-speed AC to variable-speed cold-climate heat pump) and the upfront delta is often small — a few hundred to a couple thousand dollars depending on the specific equipment. The federal Greener Homes programs have closed to new applicants, so utility and provincial rebates are what remain — those can still narrow the gap on a qualifying heat-pump install, and we'll check what's live when we quote.",
             },
             {
               heading: "Cooling performance is identical",
@@ -9710,7 +9710,7 @@ export const services: ServicePage[] = [
           items: [
             { heading: "Every major brand installed", body: "We install AirEase, Carrier, Lennox, Trane, Goodman, and the other major brands sold in Alberta. We recommend by what fits your home and budget, not by a single-dealer relationship — and we register the manufacturer warranty on every install." },
             { heading: "Warranty done right", body: "Manufacturer warranties depend on registration within the required window and documented annual maintenance. We handle the registration and set you up so the coverage actually holds if you ever need it." },
-            { heading: "Greener Homes financing", body: "The Canada Greener Homes Grant was retired in early 2024 and replaced by the [Canada Greener Homes Loan](https://natural-resources.canada.ca/energy-efficiency/homes/canada-greener-homes-initiative) — an interest-free loan for qualifying high-efficiency upgrades. It spreads the cost rather than reducing it. Check the current terms directly, since program details change." },
+            { heading: "Rebates and financing in 2026", body: "Both federal Canada Greener Homes programs have now closed to new applicants — the [interest-free Loan](https://natural-resources.canada.ca/energy-efficiency/homes/canada-greener-homes-initiative) stopped taking applications on 1 October 2025 and the Grant closed on 20 January 2026. Anyone already approved keeps their funding, but neither is open to new applications, and we won't quote as though they reducing it. Check the current terms directly, since program details change." },
             { heading: "Hard-water note", body: "Airdrie shares the region's hard water, which is rougher on water heaters than furnaces — but if you're already opening up the mechanical room for a furnace install, it's a sensible time to talk about a [water softener](/water-softener-airdrie/) to protect the rest of the system." },
           ],
         },
@@ -9983,7 +9983,7 @@ export const services: ServicePage[] = [
           { q: "What warning signs indicate my boiler needs professional attention?", a: "Watch for rumbling or kettling sounds caused by limescale, whistling from trapped air, or gurgling indicating circulation problems. Pressure repeatedly dropping below 12 PSI, visible water seepage, temperature inconsistencies between rooms, excessive cycling, or yellow burner flames all warrant professional diagnosis. Contact FlameTech at 587-834-3668 when you notice these symptoms." },
           { q: "When should Airdrie homeowners replace rather than repair boilers?", a: "Replacement becomes economically sensible when equipment reaches 15–20+ years. Repair costs exceeding half the replacement value suggest investing in new equipment instead. Units with AFUE below 80% waste considerable energy compared to modern 95%+ systems, so a replacement meaningfully cuts what you burn each winter in Airdrie's climate. Visible rust, corrosion, or heat exchanger cracks require immediate replacement." },
           { q: "What does annual boiler maintenance include?", a: "Our technicians thoroughly clean heat exchangers, verify all safety controls, test combustion efficiency, inspect venting systems, flush and chemically treat the system against Airdrie's hard water, confirm proper operating pressure and flow rates, lubricate pump bearings, and test zone valve operation. Regular maintenance extends equipment life 5–10 years and preserves efficiency." },
-          { q: "Are energy efficiency rebates available for Airdrie boiler installations?", a: "The Canada Greener Homes Grant was retired in early 2024. What replaced it is the [Canada Greener Homes Loan](https://natural-resources.canada.ca/energy-efficiency/homes/canada-greener-homes-initiative) — an interest-free loan for qualifying retrofits, which helps you spread the cost but doesn't reduce it.\n\nProvincial and utility incentives come and go, and eligibility usually requires a high-efficiency unit and professional installation with full documentation. We check what's actually available at quote time. Our honest advice: assume no rebate when you're comparing quotes, and treat anything you do qualify for as a bonus." },
+          { q: "Are energy efficiency rebates available for Airdrie boiler installations?", a: "Both federal Canada Greener Homes programs have now closed to new applicants — the [interest-free Loan](https://natural-resources.canada.ca/energy-efficiency/homes/canada-greener-homes-initiative) stopped taking new applications on 1 October 2025 and the Grant closed on 20 January 2026. Anyone already approved keeps their funding, but neither is open now, so we don't quote as though they reduce it.\n\nProvincial and utility incentives come and go, and eligibility usually requires a high-efficiency unit and professional installation with full documentation. We check what's actually available at quote time. Our honest advice: assume no rebate when you're comparing quotes, and treat anything you do qualify for as a bonus." },
           { q: "Is converting from forced air to boiler heat feasible in Airdrie?", a: "Yes, but it's a substantial investment — it means installing the boiler, adding radiators or baseboard emitters, running distribution piping, and potentially removing existing ductwork. It costs many times what a straight boiler replacement does, and it scales with the size of the property. Airdrie homeowners often pursue conversions during major renovations to gain zone control, eliminate allergen circulation, and enjoy quieter heat." },
         ],
       },
@@ -10365,7 +10365,7 @@ export const services: ServicePage[] = [
       "Ductless mini-split for additions / suites",
       "Heat pump repair (every brand)",
       "Bi-annual maintenance + tune-ups",
-      "Greener Homes rebate consultation",
+      "Current rebate + financing check",
     ],
     bullets: [
       {
@@ -10381,25 +10381,25 @@ export const services: ServicePage[] = [
         d: "Many pre-2010 Airdrie homes have 100A electrical panels — ducted heat pumps often need 200A capacity to install cleanly. We check before quoting; if a panel upgrade is needed, you'll know upfront. Some installs proceed with the existing panel + load management; others genuinely need the upgrade.",
       },
       {
-        t: "Greener Homes + Alberta rebate landscape",
-        d: "Federal Greener Homes Loan + grant program covers heat pumps for qualifying homeowners. Eligibility, paperwork, and approved-equipment lists change — we walk through the current landscape so you know what's actually available before signing anything. Don't take pricing decisions based on rebates that may not apply to your specific install.",
+        t: "Alberta rebate landscape in 2026",
+        d: "Both federal Canada Greener Homes programs are now closed to new applicants — the interest-free Loan stopped taking applications on 1 October 2025, and the Grant closed on 20 January 2026. Anyone already approved keeps their funding. The one federal program still paying out is Oil to Heat Pump Affordability, and it only applies to homes moving off oil heat — rare in gas-heated Alberta. What's left in practice is provincial and utility programs, and those change. We'll tell you what's actually live when we quote, and we won't price a job around a rebate that no longer exists. We walk through the current landscape so you know what's actually available before signing anything. Don't take pricing decisions based on rebates that may not apply to your specific install.",
       },
     ],
     seoTitle: "Heat Pumps Airdrie | Cold-Climate Install + Hybrid Dual-Fuel",
     seoDescription:
-      "Airdrie heat pump installation — cold-climate, hybrid dual-fuel, ductless mini-split. Sized for −35°C prairie wind. Greener Homes help. Call 587-834-3668.",
+      "Airdrie heat pump installation — cold-climate, hybrid dual-fuel, ductless mini-split. Sized for −35°C prairie wind. Current rebate check. Call 587-834-3668.",
     seoKeywords: [
       "heat pumps Airdrie",
       "heat pump installation Airdrie",
       "cold climate heat pump Airdrie",
       "hybrid heat pump furnace Airdrie",
       "ductless mini split Airdrie",
-      "Greener Homes Airdrie",
+      "heat pump rebates Airdrie",
       "FlameTech Plumbing Heating",
     ],
     quoteFormLabel: "Airdrie heat pump",
     quoteFormPlaceholder:
-      "e.g. adding a heat pump to an existing furnace (hybrid), full heat pump + furnace replacement, ductless mini-split for a bonus room, Greener Homes rebate question…",
+      "e.g. adding a heat pump to an existing furnace (hybrid), full heat pump + furnace replacement, ductless mini-split for a bonus room, rebate question…",
     sidebar: {
       title: "Airdrie Heat Pumps",
       subtitle:
@@ -10408,7 +10408,7 @@ export const services: ServicePage[] = [
         "Free in-home assessment + written quote",
         "Cold-climate + hybrid + ductless options",
         "Electrical panel + ductwork check upfront",
-        "Greener Homes rebate consultation",
+        "Current rebate + financing check",
       ],
     },
     stats: [
@@ -10419,7 +10419,7 @@ export const services: ServicePage[] = [
     ],
     financing: {
       detail:
-        "Spread the cost of a heat pump install into monthly payments via our Financeit partner. Pair with the federal Greener Homes Loan (interest-free) where you qualify.",
+        "Spread the cost of a heat pump install into monthly payments via our Financeit partner. Both federal Greener Homes programs closed to new applicants in 2025-26 — we'll check what utility or provincial rebates are actually live when we quote.",
     },
     callout:
       "Planning a heat pump install in Airdrie? Call 587-834-3668 for a free in-home assessment — we check electrical, ducts, gas line, and walk through rebates.",
@@ -10486,8 +10486,8 @@ export const services: ServicePage[] = [
               body: "Alberta natural gas is cheap. Heat pump electricity is cheap above −10°C. Below that, the heat pump's efficiency drops to where gas becomes the cheaper fuel per BTU. A hybrid system that switches automatically at the economical balance point gives you the best of both fuels through Airdrie's full heating season. Pure-electric heat pump (with electric backup) is technically possible but rarely the lowest-total-cost option here.",
             },
             {
-              heading: "Federal Greener Homes program",
-              body: "Federal Canada Greener Homes Loan offers interest-free financing for heat pump installations meeting specific efficiency thresholds (typically Energy Star Most Efficient or CCHP rated). Grant program rules have shifted over time — we walk through the current rules before you commit. Don't make pricing decisions based on rebates that may not apply to your specific install or address.",
+              heading: "Federal and utility rebates in 2026",
+              body: "Both federal Canada Greener Homes programs are now closed to new applicants — the interest-free Loan stopped taking applications on 1 October 2025, and the Grant closed on 20 January 2026. Anyone already approved keeps their funding. The one federal program still paying out is Oil to Heat Pump Affordability, and it only applies to homes moving off oil heat — rare in gas-heated Alberta. What's left in practice is provincial and utility programs, and those change. We'll tell you what's actually live when we quote, and we won't price a job around a rebate that no longer exists. We walk through it before you commit. Don't make pricing decisions based on rebates that may not apply to your specific install or address.",
             },
             {
               heading: "Same dispatch as Calgary",
@@ -10510,7 +10510,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "3. Equipment selection + rebate walkthrough",
-              body: "Match the heat pump model to your home's load, budget, and rebate eligibility. Walk through Canada Greener Homes Loan + grant rules + any active Alberta-specific programs. You see the math on both pure-cost and rebate-adjusted cost before signing.",
+              body: "Match the heat pump model to your home's load, budget, and rebate eligibility. Walk through what is genuinely still available — the federal Greener Homes Loan and Grant both closed to new applicants in 2025-26 — plus any active Alberta and utility programs. You see the math on both pure-cost and rebate-adjusted cost before signing.",
             },
             {
               heading: "4. Outdoor unit install",
@@ -10552,7 +10552,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "Can I get a rebate for installing a heat pump in Airdrie?",
-            a: "The federal Canada Greener Homes program has supported heat pump installs across Canada — Loan (interest-free financing) and Grant (cash back) components. Eligibility, equipment qualifications, and application windows have changed over time. We walk through current rules during the assessment so you know what's actually available for your specific install and address before committing. Don't take pricing decisions based on a rebate that may not apply.",
+            a: "Both federal Canada Greener Homes programs are now closed to new applicants — the interest-free Loan stopped taking applications on 1 October 2025, and the Grant closed on 20 January 2026. Anyone already approved keeps their funding. The one federal program still paying out is Oil to Heat Pump Affordability, and it only applies to homes moving off oil heat — rare in gas-heated Alberta. What's left in practice is provincial and utility programs, and those change. We'll tell you what's actually live when we quote, and we won't price a job around a rebate that no longer exists. We walk through it during the assessment so you know what's actually available for your specific install and address before committing. Don't take pricing decisions based on a rebate that may not apply.",
           },
           {
             q: "What's the difference between ducted and ductless heat pumps?",
@@ -11809,7 +11809,7 @@ export const services: ServicePage[] = [
       },
       {
         t: "Heat pump comparison on every quote",
-        d: "Furnace-only is still the right call for some Airdrie homes — tight budget, no AC need, simple swap. But for most homes ADDING cooling capability or with high heating bills, hybrid dual-fuel (heat pump + furnace) is the math-positive call: same install timeline, lower operating cost through 80%+ of Alberta's heating season, includes AC, and federal Greener Homes rebates may apply. See [heat pumps Airdrie](/heat-pumps-airdrie/) for the full hybrid breakdown.",
+        d: "Furnace-only is still the right call for some Airdrie homes — tight budget, no AC need, simple swap. But for most homes ADDING cooling capability or with high heating bills, hybrid dual-fuel (heat pump + furnace) is the math-positive call: same install timeline, lower operating cost through 80%+ of Alberta's heating season, includes AC, and utility or provincial rebates may apply. See [heat pumps Airdrie](/heat-pumps-airdrie/) for the full hybrid breakdown.",
       },
       {
         t: "Sized for Airdrie's actual cooling load",
@@ -11855,7 +11855,7 @@ export const services: ServicePage[] = [
     ],
     financing: {
       detail:
-        "Spread the cost of an AC install into monthly payments via our Financeit partner. Federal Greener Homes program may apply to qualifying heat-pump alternatives.",
+        "Spread the cost of an AC install into monthly payments via our Financeit partner. The federal Greener Homes programs have closed to new applicants; we'll check current utility and provincial rebates on heat-pump alternatives.",
     },
     callout:
       "Planning an Airdrie AC install, replacement, or repair? Call 587-834-3668 — local dispatch, free in-home assessment with honest heat-pump comparison.",
@@ -11888,7 +11888,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "Heat pump alternative (almost always worth comparing)",
-              body: "Modern cold-climate heat pumps cool exactly as well as a traditional AC (same cooling-cycle hardware) but add efficient supplemental heating for 80%+ of Alberta's heating season. Same outdoor unit footprint, similar install cost, often qualifies for federal Greener Homes rebates that close the upfront cost gap. See [heat pumps Airdrie](/heat-pumps-airdrie/) for the full breakdown.",
+              body: "Modern cold-climate heat pumps cool exactly as well as a traditional AC (same cooling-cycle hardware) but add efficient supplemental heating for 80%+ of Alberta's heating season. Same outdoor unit footprint, similar install cost, may qualify for utility or provincial rebates that narrow the upfront cost gap. See [heat pumps Airdrie](/heat-pumps-airdrie/) for the full breakdown.",
             },
             {
               heading: "Whole-house duct + airflow check on install quotes",
@@ -14603,7 +14603,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "Should I replace my Brentwood furnace with a heat pump?",
-            a: "Worth considering on replacement. Modern cold-climate heat pumps maintain rated capacity to -25°C; best Alberta setup is hybrid dual-fuel (heat pump + new furnace as backup). For most Brentwood homes adding cooling capability or with high heating bills, hybrid is the math-positive call. Federal Greener Homes rebates may apply. See [furnace replacement](/furnace-replacement-calgary/) and [heat pumps Calgary](/heat-pumps-calgary/).",
+            a: "Worth considering on replacement. Modern cold-climate heat pumps maintain rated capacity to -25°C; best Alberta setup is hybrid dual-fuel (heat pump + new furnace as backup). For most Brentwood homes adding cooling capability or with high heating bills, hybrid is the math-positive call. Utility or provincial rebates may apply — federal Greener Homes is closed to new applicants. See [furnace replacement](/furnace-replacement-calgary/) and [heat pumps Calgary](/heat-pumps-calgary/).",
           },
           {
             q: "How fast can you respond to emergency calls in Brentwood?",
@@ -17616,7 +17616,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "Should I replace my Lake Bonavista furnace with a heat pump?",
-            a: "Worth considering on replacement. Modern cold-climate heat pumps maintain rated capacity to -25°C; best Alberta setup is hybrid dual-fuel (heat pump + new furnace). For most Lake Bonavista homes adding cooling capability or with high heating bills, hybrid is the math-positive call. Federal Greener Homes rebates may apply. See [furnace replacement](/furnace-replacement-calgary/) and [heat pumps Calgary](/heat-pumps-calgary/).",
+            a: "Worth considering on replacement. Modern cold-climate heat pumps maintain rated capacity to -25°C; best Alberta setup is hybrid dual-fuel (heat pump + new furnace). For most Lake Bonavista homes adding cooling capability or with high heating bills, hybrid is the math-positive call. Utility or provincial rebates may apply — federal Greener Homes is closed to new applicants. See [furnace replacement](/furnace-replacement-calgary/) and [heat pumps Calgary](/heat-pumps-calgary/).",
           },
           {
             q: "Should I install a water softener in my Lake Bonavista home?",
@@ -19403,7 +19403,7 @@ export const services: ServicePage[] = [
             },
             {
               heading: "Furnace + heat pump replacement",
-              body: "Early-phase Tuscany high-efficiency furnaces from the late 90s and early 2000s are now 20+ years old. Heat exchanger cracks become a serious risk past 18-20 years. We replace with high-efficiency 96%+ AFUE units, often pair with a cold-climate [heat pump](/heat-pumps-calgary/) for the hybrid dual-fuel setup that's now the lowest-operating-cost option for Calgary homes. Greener Homes rebates may apply.",
+              body: "Early-phase Tuscany high-efficiency furnaces from the late 90s and early 2000s are now 20+ years old. Heat exchanger cracks become a serious risk past 18-20 years. We replace with high-efficiency 96%+ AFUE units, often pair with a cold-climate [heat pump](/heat-pumps-calgary/) for the hybrid dual-fuel setup that's now the lowest-operating-cost option for Calgary homes. Utility or provincial rebates may apply; federal Greener Homes is closed to new applicants.",
             },
             {
               heading: "Sump pump install + replacement",
@@ -20232,7 +20232,7 @@ export const services: ServicePage[] = [
           { q: "How do I know if my boiler needs repair?", a: "Watch for kettling, whistling, or gurgling noises (limescale + air), pressure dropping below 12 PSI, visible water seepage near components, inconsistent room-to-room heating, frequent cycling, climbing gas bills, or display error codes. Yellow burner flames instead of blue indicate dangerous combustion issues — shut the unit down and call us." },
           { q: "When is it time to replace rather than repair?", a: "Replacement makes sense once a boiler reaches 15-20+ years, when repair costs exceed half the replacement value, when AFUE is below 80% (modern units run 95%+), or when visible rust, corrosion, or heat exchanger cracks are present. We'll give you an honest comparison with the numbers — not a sales pitch." },
           { q: "How often should I schedule boiler maintenance?", a: "Once a year, in late summer or early fall before heating season. A real annual service includes heat exchanger inspection + flush, combustion analysis with a calibrated analyzer, safety control checks (pressure relief, low-water cutoff, flame sensor), and gas leak testing on connections." },
-          { q: "Are there rebates for high-efficiency boilers in Alberta?", a: "The Canada Greener Homes Grant was retired in early 2024, and what replaced it is the [Canada Greener Homes Loan](https://natural-resources.canada.ca/energy-efficiency/homes/canada-greener-homes-initiative) — interest-free, but a loan, so it spreads the cost rather than reducing it.\n\nProvincial and utility incentives come and go, and eligibility usually requires 95%+ AFUE and professional installation with documentation. We check what's live at quote time. Assume no rebate when comparing quotes, and treat anything you qualify for as a bonus." },
+          { q: "Are there rebates for high-efficiency boilers in Alberta?", a: "Both federal Canada Greener Homes programs have now closed to new applicants — the [interest-free Loan](https://natural-resources.canada.ca/energy-efficiency/homes/canada-greener-homes-initiative) stopped taking applications on 1 October 2025 and the Grant closed on 20 January 2026. Anyone already approved keeps their funding; neither is open to new applications.\n\nProvincial and utility incentives come and go, and eligibility usually requires 95%+ AFUE and professional installation with documentation. We check what's live at quote time. Assume no rebate when comparing quotes, and treat anything you qualify for as a bonus." },
           { q: "What's the difference between a boiler and a water heater?", a: "Boilers heat water that circulates through radiators, baseboards, or in-floor tubing to warm your living spaces — a closed loop. Water heaters provide potable hot water for showers, dishes, and laundry. Combi boilers do both functions from one unit." },
           { q: "Why is my boiler losing pressure?", a: "Persistent pressure loss usually means small leaks at pipe joints, radiator valves, or connections that may not be visible. Other causes: defective pressure relief valves, failed expansion tanks, malfunctioning automatic fill valves, or excessive bleeding from radiators. Rapid pressure drops or pooling water needs immediate professional attention." },
           { q: "Can I convert from forced air to a boiler system?", a: "Yes, but it's a substantial investment — many times the cost of a straight boiler replacement, and it scales with home size and the heat distribution you choose (radiators, baseboards, or in-floor radiant). Most Calgary homeowners pursue conversions during a major renovation, when the floors are already open, to gain zone control, eliminate allergen circulation, and enjoy quieter, more even heat." },
