@@ -5898,7 +5898,7 @@ export const services: ServicePage[] = [
           },
           {
             q: "Are you available for emergency heat pump repair in Calgary?",
-            a: "Yes — no heat in winter or no cooling during a heat wave gets priority dispatch. Real person answers the phone, we'll confirm a window before the truck rolls. Same crew that handles our [no heat](/no-heat-issues-calgary/), [furnace repair](/furnaces/), and broader [home heating issues](/home-heating-issues-calgary/) work. Most no-heat calls finish first visit; brand-specific control boards sometimes need overnight parts.",
+            a: "Yes — no heat in winter or no cooling during a heat wave gets priority dispatch. Real person answers the phone, we'll confirm a window before the truck rolls.\n\nBefore you call, it's worth reading [what is and isn't normal when a heat pump seems not to be warming the house](/blog/heat-pump-not-warming-house/) — a good share of these calls turn out to be normal operation, or a backup changeover that was never set up properly. Same crew that handles our [no heat](/no-heat-issues-calgary/), [furnace repair](/furnaces/), and broader [home heating issues](/home-heating-issues-calgary/) work. Most no-heat calls finish first visit; brand-specific control boards sometimes need overnight parts.",
           },
         ],
       },
